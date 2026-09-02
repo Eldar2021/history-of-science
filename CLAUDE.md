@@ -7,7 +7,7 @@ Kullanıcıyla Türkçe konuş. Kod, commit mesajları ve kod yorumları İngili
 ## Yapı
 
 - `doc/`: tek gerçek kaynak. 00 rehber, 01 vizyon, 02 spec, 03 içerik, 04 mimari, 05 timeline UX, 06 i18n, 07 tasarım promptu, 08 yol haritası, 09 ADR, 10 riskler, 11 Claude ile çalışma, STATUS güncel durum.
-- `web/`: Next.js 15 App Router, TypeScript, Tailwind v4, next-intl. Site (`/[locale]/...`) + admin (`/admin`).
+- `web/`: Next.js 16 App Router, TypeScript, Tailwind v4, next-intl. Site (`/[locale]/...`) + admin (`/admin`).
 - `backend/supabase/`: SQL migration'lar, seed, `backend/scripts/` (içerik hattı, çeviri, kontroller). Supabase (Postgres, Auth, Storage).
 - `mobile/`: Flutter, 5. ay+. Şimdilik boş.
 - `resource/`: tasarım, fontlar, görsel kaynak listesi.

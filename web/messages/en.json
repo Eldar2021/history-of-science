@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "Uchkun",
+    "tagline": "How did we get here? The story of science, one step at a time."
+  },
+  "locales": { "en": "English", "ru": "Русский", "ky": "Кыргызча", "tr": "Türkçe" },
+  "nav": { "timeline": "Timeline", "about": "About", "language": "Language" },
+  "home": {
+    "question": "How did we get here?",
+    "lead": "From Thales to CRISPR: every discovery stood on an earlier one. Fall into time and watch how slowly it started, and how fast it got.",
+    "cta": "Fall into time"
+  },
+  "timeline": {
+    "title": "Timeline",
+    "eventsCount": "{count, plural, one {# event} other {# events}}",
+    "yearsPassed": "~{years} years passed",
+    "notTranslated": "Not yet in {locale}",
+    "machineTranslated": "Auto-translated",
+    "importance": "Importance {level}"
+  },
+  "honesty": {
+    "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
+    "report": "Report an error"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "Uchkun",
+    "tagline": "Buraya nasıl geldik? Bilimin hikâyesi, adım adım."
+  },
+  "locales": { "en": "English", "ru": "Русский", "ky": "Кыргызча", "tr": "Türkçe" },
+  "nav": { "timeline": "Zaman çizgisi", "about": "Hakkında", "language": "Dil" },
+  "home": {
+    "question": "Buraya nasıl geldik?",
+    "lead": "Thales'ten CRISPR'a: her keşif bir öncekinin omzunda yükseldi. Zamana düş; ne kadar yavaş başladığını, ne kadar hızlandığını gör.",
+    "cta": "Zamana düş"
+  },
+  "timeline": {
+    "title": "Zaman çizgisi",
+    "eventsCount": "{count} olay",
+    "yearsPassed": "~{years} yıl geçti",
+    "notTranslated": "Henüz {locale} değil",
+    "machineTranslated": "Otomatik çeviri",
+    "importance": "Önem {level}"
+  },
+  "honesty": {
+    "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
+    "report": "Hata bildir"
+  }
+}

@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "tsc --noEmit && eslint . && vitest run",
+    "gen:types": "cd ../backend && supabase gen types typescript --local > ../web/lib/supabase/types.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",
