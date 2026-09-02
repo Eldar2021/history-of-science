@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta name="design_doc_mode" content="canvas">
+<link rel="stylesheet" href="_ds/organic-21e31cf6-80bb-45a8-a71a-edf64986b98b/styles.css">
+<script src="_ds/organic-21e31cf6-80bb-45a8-a71a-edf64986b98b/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&family=Golos+Text:wght@400;500;600&display=swap">
+<style>body{margin:0;background:#e9e1d3;font-family:'Golos Text',system-ui,sans-serif;color:#201e1d}a{color:#8c491a}a:hover{color:#643312}.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}.dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#1a1a1a}.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.08);color:#1a1a1a;border-radius:5px;text-decoration:none}.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 system-ui,sans-serif;color:rgba(0,0,0,.55)}.dv-card{max-width:100%;border-radius:8px;overflow:hidden}.dv-opt:target .dv-oid{background:#2a78d6;color:#fff}.dv-next{margin:22px 0 0;font:12px/1.5 system-ui,sans-serif;color:rgba(0,0,0,.5)}</style>
+</helmet>
+
+<section class="dv-turn" id="t1" style="--font-heading:'Literata',Georgia,serif;--font-body:'Golos Text',system-ui,sans-serif">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">Uchkun · Foundation — mood board, tokens, timeline (mobile + desktop, both themes)</span></div>
+
+<div style="max-width:760px;margin:0 0 28px;font:13px/1.55 system-ui,sans-serif;color:rgba(0,0,0,.7)">
+<p style="margin:0 0 8px"><strong>Assumptions.</strong> Organic leads: cream ground, warm ink, terracotta + sage, over-rounded pills and 28px+ card corners. The dark theme is Organic's own neutral-900 ink (warm, not blue-black) with the accent lifted to the 400 step for AAA. Caprasimo and Figtree carry no Cyrillic and no Ң Ө Ү, so the type roles are filled by <strong>Literata</strong> (display: years, eras, titles — and all buttons, as Organic puts its heading face on buttons) and <strong>Golos Text</strong> (body, tabular figures). Terracotta is the timeline line and primary action; sage is the second voice (era headers, "Builds on"). The eight discipline colors are muted to sit at the same OKLCH weight as the Organic ramps.</p>
+<p style="margin:0">Event images are empty slots — drop your own. Explore-canvas variations come in the next round.</p>
+</div>
+
+<div class="dv-opts">
+
+<!-- 1a Mood board -->
+<div class="dv-opt" id="1a"><div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>Mood / direction board</div>
+<div class="dv-card" style="width:1200px;background:#2e2b25;color:#f9f4ed;padding:56px 64px;border-radius:32px;display:grid;grid-template-columns:1.1fr .9fr;gap:48px 56px">
+  <div style="grid-column:1/-1;display:flex;align-items:flex-end;justify-content:space-between;gap:32px">
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <div style="font-family:'Literata',serif;font-size:96px;line-height:1;letter-spacing:-.02em;display:flex;align-items:baseline;gap:6px">Uchkun<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#f6a06b;box-shadow:0 0 18px #f6a06b;transform:translateY(-4px)"></span></div>
+      <div style="font-family:'Literata',serif;font-size:96px;line-height:1;letter-spacing:-.02em;color:#c0b6a5;display:flex;align-items:baseline;gap:6px">Учкун<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#f6a06b;box-shadow:0 0 18px #f6a06b;transform:translateY(-4px)"></span></div>
+    </div>
+    <p style="max-width:420px;margin:0;font-size:15px;line-height:1.6;color:#dcd3c4">A river of light, not a chart. Ancient centuries are quiet and sparse; the present is dense and bright. The wordmark ends in a single point of light — the spark — and nothing else glows. Restraint is the brand: one accent, one rule of light, warm paper or warm night.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:20px">
+    <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#c0b6a5">Display · Literata</div>
+    <div style="display:flex;flex-wrap:wrap;gap:12px 40px;align-items:baseline;font-family:'Literata',serif;font-variant-numeric:tabular-nums;line-height:1">
+      <span style="font-size:112px;letter-spacing:-.02em">1687</span>
+      <span style="font-size:56px">MÖ 585</span>
+      <span style="font-size:56px">б.з.ч. 585</span>
+      <span style="font-size:56px;color:#f6a06b">Ңөү</span>
+    </div>
+    <div style="font-family:'Literata',serif;font-size:30px;line-height:1.2;color:#dcd3c4">Scientific Revolution · Илимий революция · Bilimsel Devrim</div>
+    <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#c0b6a5;margin-top:8px">Body · Golos Text</div>
+    <p style="margin:0;font-size:16px;line-height:1.6;max-width:560px;color:#f9f4ed">Алманын кулашы жана Айдын айлануусу бир эле мыйзамга баш ийет. Асман менен жер бир физика болду. Ар бир ачылыш мурунку ачылыштын далысына таянып турат — Ңөү тамгалары да ушул шрифтте бар.</p>
+    <p style="margin:0;font-size:14px;line-height:1.6;max-width:560px;color:#c0b6a5;font-variant-numeric:tabular-nums">Tabular figures: 1687 · 1543 · 2026 · −585. The year counter never jitters.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:20px">
+    <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#c0b6a5">Palette · Organic ramps</div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px">
+      <div style="height:64px;border-radius:20px;background:#2e2b25;border:1px solid rgba(249,244,237,.16)"></div>
+      <div style="height:64px;border-radius:20px;background:#3b372f"></div>
+      <div style="height:64px;border-radius:20px;background:#f5ead8"></div>
+      <div style="height:64px;border-radius:20px;background:#c67139"></div>
+      <div style="height:64px;border-radius:20px;background:#7a8a5e"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;font-size:11px;color:#c0b6a5"><span>Night ink</span><span>Night surface</span><span>Paper</span><span>Terracotta</span><span>Sage</span></div>
+    <div style="display:grid;grid-template-columns:repeat(8,1fr);gap:8px;margin-top:6px">
+      <div style="height:28px;border-radius:999px;background:#b3a3c9"></div><div style="height:28px;border-radius:999px;background:#8fb0cc"></div><div style="height:28px;border-radius:999px;background:#9aa2cf"></div><div style="height:28px;border-radius:999px;background:#f6a06b"></div><div style="height:28px;border-radius:999px;background:#aebf92"></div><div style="height:28px;border-radius:999px;background:#e89a8a"></div><div style="height:28px;border-radius:999px;background:#d9b46a"></div><div style="height:28px;border-radius:999px;background:#a7aeb3"></div>
+    </div>
+    <div style="font-size:11px;color:#c0b6a5">Eight disciplines, muted to one perceptual weight</div>
+    <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#c0b6a5;margin-top:8px">References</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+      <image-slot id="ref-1" shape="rounded" radius="20" placeholder="Observatory dome at night" style="width:100%;height:150px"></image-slot>
+      <image-slot id="ref-2" shape="rounded" radius="20" placeholder="Field notebook, ink on paper" style="width:100%;height:150px"></image-slot>
+      <image-slot id="ref-3" shape="rounded" radius="20" placeholder="Brass instrument, candlelight" style="width:100%;height:150px"></image-slot>
+    </div>
+  </div>
+</div></div>
+
+<!-- 1b Tokens -->
+<div class="dv-opt" id="1b"><div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>Design tokens</div>
+<div class="dv-card" style="width:1200px;background:#f5ead8;color:#201e1d;padding:48px 64px;border-radius:32px;display:grid;grid-template-columns:1fr 1fr;gap:36px 56px;font-size:13px">
+  <div style="grid-column:1/-1;font-family:'Literata',serif;font-size:36px;line-height:1.1">Tokens</div>
+  <div>
+    <h6 style="font-family:'Golos Text',sans-serif;color:#645c50;margin:0 0 10px">Color · light "notebook"</h6>
+    <table class="table" style="font-variant-numeric:tabular-nums">
+      <tbody>
+      <tr><td style="width:120px">bg</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#f5ead8;border:1px solid rgba(0,0,0,.15);vertical-align:-2px;margin-right:8px"></span>#f5ead8</td><td style="color:#645c50">page</td></tr>
+      <tr><td>surface</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#ebddc5;vertical-align:-2px;margin-right:8px"></span>#ebddc5</td><td style="color:#645c50">cards, chips</td></tr>
+      <tr><td>surface-2</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#f9f4ed;vertical-align:-2px;margin-right:8px"></span>#f9f4ed</td><td style="color:#645c50">raised, sheets</td></tr>
+      <tr><td>text-1</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#201e1d;vertical-align:-2px;margin-right:8px"></span>#201e1d</td><td style="color:#645c50">15.4:1</td></tr>
+      <tr><td>text-2</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#645c50;vertical-align:-2px;margin-right:8px"></span>#645c50</td><td style="color:#645c50">5.6:1</td></tr>
+      <tr><td>text-3</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#82796a;vertical-align:-2px;margin-right:8px"></span>#82796a</td><td style="color:#645c50">3.7:1 · labels only</td></tr>
+      <tr><td>accent</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#c67139;vertical-align:-2px;margin-right:8px"></span>#c67139</td><td style="color:#645c50">line, buttons, focus</td></tr>
+      <tr><td>accent-text</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#8c491a;vertical-align:-2px;margin-right:8px"></span>#8c491a</td><td style="color:#645c50">links, 6.1:1</td></tr>
+      <tr><td>sage</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#56633f;vertical-align:-2px;margin-right:8px"></span>#56633f</td><td style="color:#645c50">era labels</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h6 style="font-family:'Golos Text',sans-serif;color:#645c50;margin:0 0 10px">Color · dark "observatory"</h6>
+    <table class="table" style="font-variant-numeric:tabular-nums">
+      <tbody>
+      <tr><td style="width:120px">bg</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#2e2b25;vertical-align:-2px;margin-right:8px"></span>#2e2b25</td><td style="color:#645c50">neutral-900</td></tr>
+      <tr><td>surface</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#3b372f;vertical-align:-2px;margin-right:8px"></span>#3b372f</td><td style="color:#645c50">900↔800 mix</td></tr>
+      <tr><td>surface-2</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#474238;vertical-align:-2px;margin-right:8px"></span>#474238</td><td style="color:#645c50">neutral-800</td></tr>
+      <tr><td>text-1</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#f9f4ed;vertical-align:-2px;margin-right:8px"></span>#f9f4ed</td><td style="color:#645c50">13.6:1 AAA</td></tr>
+      <tr><td>text-2</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#dcd3c4;vertical-align:-2px;margin-right:8px"></span>#dcd3c4</td><td style="color:#645c50">10.2:1 AAA</td></tr>
+      <tr><td>text-3</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#c0b6a5;vertical-align:-2px;margin-right:8px"></span>#c0b6a5</td><td style="color:#645c50">7.4:1 AAA</td></tr>
+      <tr><td>accent</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#f6a06b;vertical-align:-2px;margin-right:8px"></span>#f6a06b</td><td style="color:#645c50">accent-400 · 7.1:1</td></tr>
+      <tr><td>accent-ink</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#2e2b25;vertical-align:-2px;margin-right:8px"></span>#2e2b25</td><td style="color:#645c50">text on accent</td></tr>
+      <tr><td>sage</td><td><span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#aebf92;vertical-align:-2px;margin-right:8px"></span>#aebf92</td><td style="color:#645c50">accent-2-400</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h6 style="font-family:'Golos Text',sans-serif;color:#645c50;margin:0 0 10px">Disciplines · light / dark</h6>
+    <table class="table" style="font-variant-numeric:tabular-nums">
+      <tbody>
+      <tr><td style="width:120px">mathematics</td><td>violet</td><td>#8b7aa3</td><td>#b3a3c9</td></tr>
+      <tr><td>physics</td><td>blue</td><td>#5f7f9a</td><td>#8fb0cc</td></tr>
+      <tr><td>astronomy</td><td>indigo</td><td>#5c6494</td><td>#9aa2cf</td></tr>
+      <tr><td>chemistry</td><td>orange</td><td>#c67139</td><td>#f6a06b</td></tr>
+      <tr><td>biology</td><td>green</td><td>#7a8a5e</td><td>#aebf92</td></tr>
+      <tr><td>medicine</td><td>coral</td><td>#c4705f</td><td>#e89a8a</td></tr>
+      <tr><td>earth &amp; climate</td><td>ochre</td><td>#b08a3e</td><td>#d9b46a</td></tr>
+      <tr><td>technology</td><td>steel</td><td>#7d8489</td><td>#a7aeb3</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h6 style="font-family:'Golos Text',sans-serif;color:#645c50;margin:0 0 10px">Type scale · Literata display / Golos body</h6>
+    <table class="table" style="font-variant-numeric:tabular-nums">
+      <tbody>
+      <tr><td style="width:120px">year-hero</td><td>112 / 7rem</td><td>lh 1.0 · ls −.02em</td></tr>
+      <tr><td>year-bar</td><td>40 / 2.5rem</td><td>lh 1.0 · tabular</td></tr>
+      <tr><td>year-card</td><td>44 · 28 · 18</td><td>landmark · standard · minor</td></tr>
+      <tr><td>era</td><td>28 / 1.75rem</td><td>lh 1.15</td></tr>
+      <tr><td>title</td><td>20 · 17</td><td>lh 1.25</td></tr>
+      <tr><td>body</td><td>15 / .9375rem</td><td>lh 1.55</td></tr>
+      <tr><td>small</td><td>13 / .8125rem</td><td>lh 1.5</td></tr>
+      <tr><td>label</td><td>11 / .6875rem</td><td>ls .1em · caps</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h6 style="font-family:'Golos Text',sans-serif;color:#645c50;margin:0 0 10px">Space · radius · shadow</h6>
+    <table class="table" style="font-variant-numeric:tabular-nums">
+      <tbody>
+      <tr><td style="width:120px">space</td><td>4.4 · 8.8 · 13.2 · 17.6 · 26.4 · 35.2 px</td></tr>
+      <tr><td>radius-sm</td><td>8 px · chips inner, image corners in cards 20 px</td></tr>
+      <tr><td>radius-md</td><td>16 px · minimap thumb, sheets top</td></tr>
+      <tr><td>radius-lg</td><td>28 px · cards use 32 px (lg × 1.15)</td></tr>
+      <tr><td>pill</td><td>999 px · buttons, chips, inputs, era header</td></tr>
+      <tr><td>shadow-sm</td><td>0 1px 2px ink 14%</td></tr>
+      <tr><td>shadow-md</td><td>0 3px 10px ink 16%</td></tr>
+      <tr><td>shadow-lg</td><td>0 12px 32px ink 22% (dark: black 45%)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h6 style="font-family:'Golos Text',sans-serif;color:#645c50;margin:0 0 10px">Motion</h6>
+    <table class="table" style="font-variant-numeric:tabular-nums">
+      <tbody>
+      <tr><td style="width:120px">fall-into-time</td><td>1500 ms · cubic-bezier(.2,.7,.1,1) · counter 2026 → −585, decelerating</td></tr>
+      <tr><td>event-fade</td><td>400 ms · ease-out · after counter settles</td></tr>
+      <tr><td>odometer-tick</td><td>120 ms · linear · per digit</td></tr>
+      <tr><td>era-toast</td><td>in 200 · hold 1800 · out 300 ms</td></tr>
+      <tr><td>hover / press</td><td>120 ms · ease</td></tr>
+      <tr><td>reduced-motion</td><td>all → 250 ms opacity fade; counter jumps</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div></div>
+
+<!-- 1c chips + 4 languages -->
+<div class="dv-opt" id="1c"><div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>Discipline chips in both themes · one card in four languages</div>
+<div class="dv-card" style="width:1200px;display:flex;flex-direction:column;border-radius:32px">
+  <div style="background:#2e2b25;padding:28px 40px;display:flex;flex-wrap:wrap;gap:8px;--color-text:#f9f4ed;--color-neutral-100:#3b372f;--color-neutral-800:#f9f4ed">
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#b3a3c9"></span>Mathematics</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#8fb0cc"></span>Physics</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#9aa2cf"></span>Astronomy</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#f6a06b"></span>Chemistry</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#aebf92"></span>Biology</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#e89a8a"></span>Medicine</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#d9b46a"></span>Earth &amp; climate</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#a7aeb3"></span>Technology</span>
+  </div>
+  <div style="background:#f5ead8;padding:28px 40px;display:flex;flex-wrap:wrap;gap:8px;--color-neutral-100:#ebddc5;--color-neutral-800:#201e1d">
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#8b7aa3"></span>Mathematics</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#5f7f9a"></span>Physics</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#5c6494"></span>Astronomy</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#c67139"></span>Chemistry</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#7a8a5e"></span>Biology</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#c4705f"></span>Medicine</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#b08a3e"></span>Earth &amp; climate</span>
+    <span class="tag tag-neutral" style="gap:8px;padding:6px 14px 6px 10px;font-size:12px"><span style="width:9px;height:9px;border-radius:50%;background:#7d8489"></span>Technology</span>
+  </div>
+  <div style="background:#2e2b25;padding:32px 40px 40px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;--color-surface:#3b372f;--color-text:#f9f4ed;--color-accent:#f6a06b">
+    <div class="card" style="padding:20px;gap:8px;color:#f9f4ed"><div class="card-kicker" style="font-family:'Golos Text',sans-serif;display:flex;align-items:center;gap:6px;color:#c0b6a5"><span style="width:7px;height:7px;border-radius:50%;background:#8fb0cc"></span>Physics · EN</div><div style="font-family:'Literata',serif;font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1687</div><div class="card-title" style="font-size:17px">Newton publishes the Principia</div><p class="card-body" style="color:#dcd3c4;opacity:1">The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics.</p></div>
+    <div class="card" style="padding:20px;gap:8px;color:#f9f4ed"><div class="card-kicker" style="font-family:'Golos Text',sans-serif;display:flex;align-items:center;gap:6px;color:#c0b6a5"><span style="width:7px;height:7px;border-radius:50%;background:#8fb0cc"></span>Физика · RU</div><div style="font-family:'Literata',serif;font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1687</div><div class="card-title" style="font-size:17px">Ньютон публикует «Начала»</div><p class="card-body" style="color:#dcd3c4;opacity:1">Падение яблока и движение Луны подчиняются одному закону. Небо и земля стали одной физикой.</p></div>
+    <div class="card" style="padding:20px;gap:8px;color:#f9f4ed"><div class="card-kicker" style="font-family:'Golos Text',sans-serif;display:flex;align-items:center;gap:6px;color:#c0b6a5"><span style="width:7px;height:7px;border-radius:50%;background:#8fb0cc"></span>Физика · KY</div><div style="font-family:'Literata',serif;font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1687</div><div class="card-title" style="font-size:17px">Ньютон «Башталыштарды» жарыялады</div><p class="card-body" style="color:#dcd3c4;opacity:1">Алманын кулашы жана Айдын айлануусу бир эле мыйзамга баш ийет. Асман менен жер бир физика болду.</p></div>
+    <div class="card" style="padding:20px;gap:8px;color:#f9f4ed"><div class="card-kicker" style="font-family:'Golos Text',sans-serif;display:flex;align-items:center;gap:6px;color:#c0b6a5"><span style="width:7px;height:7px;border-radius:50%;background:#8fb0cc"></span>Fizik · TR</div><div style="font-family:'Literata',serif;font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1687</div><div class="card-title" style="font-size:17px">Newton "Principia"yı yayımladı</div><p class="card-body" style="color:#dcd3c4;opacity:1">Elmanın düşmesi ile Ay'ın dönmesi aynı yasaya uyar. Gök ve yer tek fizik oldu.</p></div>
+  </div>
+</div></div>
+
+<!-- 1d mobile dark -->
+<div class="dv-opt" id="1d"><div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a>Timeline · mobile 390 · dark</div>
+<div class="dv-card" style="width:390px;height:844px;border-radius:44px;position:relative;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);box-shadow:0 12px 32px rgba(0,0,0,.35);--color-bg:#2e2b25;--color-surface:#3b372f;--color-text:#f9f4ed;--color-accent:#f6a06b;--color-accent-600:#ffc6a5;--color-divider:rgba(249,244,237,.16);--color-neutral-100:#3b372f;--color-neutral-800:#f9f4ed;--t2:#dcd3c4;--t3:#c0b6a5;--sage:#aebf92;--d-phy:#8fb0cc;--d-ast:#9aa2cf;--d-mat:#b3a3c9;--d-bio:#aebf92;--d-med:#e89a8a;--d-che:#f6a06b;--d-ear:#d9b46a;--d-tec:#a7aeb3">
+  <div style="position:absolute;top:0;left:0;right:0;z-index:3;background:linear-gradient(var(--color-bg) 82%,transparent);padding:14px 16px 24px;display:flex;flex-direction:column;gap:10px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <span class="btn btn-icon btn-secondary" style="width:40px;height:40px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+      <div style="font-family:var(--font-heading);font-size:36px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em">1687</div>
+      <div class="seg" style="font-size:11px;font-variant-numeric:tabular-nums"><span class="seg-opt" style="padding:6px 8px;background:var(--color-accent);color:var(--color-bg)">EN</span><span class="seg-opt" style="padding:6px 8px">RU</span><span class="seg-opt" style="padding:6px 8px">KY</span><span class="seg-opt" style="padding:6px 8px">TR</span></div>
+    </div>
+    <div style="display:flex;gap:6px;overflow:hidden;mask-image:linear-gradient(90deg,#000 85%,transparent)">
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-phy)"></span>Physics</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-mat)"></span>Mathematics</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-bio)"></span>Biology</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-med)"></span>Medicine</span>
+    </div>
+    <div style="display:flex;align-items:baseline;gap:8px;padding:7px 14px;background:var(--color-surface);border-radius:999px;align-self:flex-start"><span style="font-family:var(--font-heading);font-size:14px;color:var(--sage)">Scientific Revolution</span><span style="font-size:12px;color:var(--t3);font-variant-numeric:tabular-nums">1400–1700</span></div>
+  </div>
+
+  <div style="position:absolute;top:150px;bottom:64px;left:29px;width:2px;background:linear-gradient(transparent,var(--color-accent) 40px,var(--color-accent) calc(100% - 40px),transparent)"></div>
+
+  <div style="position:absolute;top:172px;left:52px;right:16px;display:flex;flex-direction:column;gap:18px">
+    <div style="position:relative;display:flex;gap:10px;align-items:baseline;padding-left:8px">
+      <span style="position:absolute;left:-26px;top:7px;width:6px;height:6px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 3px var(--color-bg)"></span>
+      <span style="font-family:var(--font-heading);font-size:18px;font-variant-numeric:tabular-nums;color:var(--t2)">1266</span><span style="font-size:13px;color:var(--t2)">Roger Bacon describes lenses and the rainbow</span>
+    </div>
+    <div style="position:relative;padding:6px 0 6px 8px;display:flex;flex-direction:column;gap:2px">
+      <span style="position:absolute;left:-24px;top:-6px;bottom:-6px;width:2px;background:var(--color-bg)"></span>
+      <span style="position:absolute;left:-24px;top:-6px;bottom:-6px;border-left:2px dotted var(--t3)"></span>
+      <span style="font-size:13px;color:var(--t2);font-variant-numeric:tabular-nums">~340 years passed</span>
+      <span style="font-size:12px;color:var(--t3)">Optics waited for good glass and the printed book.</span>
+    </div>
+    <div class="card" style="padding:16px 18px;gap:6px;border-radius:24px;position:relative;margin-left:8px">
+      <span style="position:absolute;left:-34px;top:22px;width:10px;height:10px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 3px var(--color-bg)"></span>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</div>
+      <div style="font-family:var(--font-heading);font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1609</div>
+      <div class="card-title" style="font-size:17px">Galileo turns a telescope to the sky</div>
+      <p class="card-body" style="color:var(--t2);opacity:1">Mountains on the Moon, moons around Jupiter. The heavens are made of ordinary matter.</p>
+    </div>
+    <div class="card elev-md" style="padding:18px 18px 20px;gap:8px;border-radius:28px;position:relative;margin-left:8px;box-shadow:0 12px 32px rgba(0,0,0,.4)">
+      <span style="position:absolute;left:-36px;top:26px;width:14px;height:14px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 3px var(--color-bg),0 0 14px var(--color-accent)"></span>
+      <div style="display:flex;align-items:center;justify-content:space-between;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="display:flex;align-items:center;gap:6px"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-phy)"></span>Physics</span><span style="color:var(--color-accent)">Landmark</span></div>
+      <div style="font-family:var(--font-heading);font-size:44px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em">1687</div>
+      <div class="card-title" style="font-size:20px">Newton publishes the Principia</div>
+      <div class="washed" style="width:100%;height:160px;border-radius:20px;overflow:hidden"><image-slot id="tl-m-dark-newton" shape="rounded" radius="20" placeholder="Principia title page" style="width:100%;height:160px"></image-slot></div>
+      <p class="card-body" style="color:var(--t2);opacity:1;font-size:14px">The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics.</p>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tag tag-neutral" style="font-size:11px">Isaac Newton</span><span class="tag tag-neutral" style="font-size:11px;color:var(--sage)">Builds on 3</span></div>
+    </div>
+  </div>
+
+  <div style="position:absolute;left:0;right:0;bottom:0;height:64px;padding:18px 24px 0;background:linear-gradient(transparent,var(--color-bg) 40%)">
+    <div style="position:relative;height:14px">
+      <div style="position:absolute;left:0;right:0;top:6px;height:2px;background:var(--color-divider);border-radius:1px"></div>
+      <sc-for list="{{ miniDots }}" as="d" hint-placeholder-count="0"><span style="position:absolute;top:5px;left:{{ d.x }}%;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--t3);opacity:.7"></span></sc-for>
+      <div style="position:absolute;left:87%;top:0;width:4px;height:14px;margin-left:-2px;border-radius:2px;background:var(--color-accent);box-shadow:0 0 8px var(--color-accent)"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--t3);margin-top:6px;font-variant-numeric:tabular-nums"><span>585 BCE</span><span>2026</span></div>
+  </div>
+</div></div>
+
+<!-- 1e mobile light -->
+<div class="dv-opt" id="1e"><div class="dv-olabel"><a class="dv-oid" href="#1e">1e</a>Timeline · mobile 390 · light</div>
+<div class="dv-card" style="width:390px;height:844px;border-radius:44px;position:relative;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);box-shadow:var(--shadow-lg);--color-bg:#f5ead8;--color-surface:#ebddc5;--color-text:#201e1d;--color-accent:#c67139;--color-divider:rgba(32,30,29,.16);--color-neutral-100:#ebddc5;--color-neutral-800:#201e1d;--t2:#645c50;--t3:#82796a;--sage:#56633f;--d-phy:#5f7f9a;--d-ast:#5c6494;--d-mat:#8b7aa3;--d-bio:#7a8a5e;--d-med:#c4705f;--d-che:#c67139;--d-ear:#b08a3e;--d-tec:#7d8489">
+  <div style="position:absolute;top:0;left:0;right:0;z-index:3;background:linear-gradient(var(--color-bg) 82%,transparent);padding:14px 16px 24px;display:flex;flex-direction:column;gap:10px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <span class="btn btn-icon btn-secondary" style="width:40px;height:40px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+      <div style="font-family:var(--font-heading);font-size:36px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em">1687</div>
+      <div class="seg" style="font-size:11px;font-variant-numeric:tabular-nums"><span class="seg-opt" style="padding:6px 8px;background:var(--color-accent);color:var(--color-bg)">EN</span><span class="seg-opt" style="padding:6px 8px">RU</span><span class="seg-opt" style="padding:6px 8px">KY</span><span class="seg-opt" style="padding:6px 8px">TR</span></div>
+    </div>
+    <div style="display:flex;gap:6px;overflow:hidden;mask-image:linear-gradient(90deg,#000 85%,transparent)">
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-phy)"></span>Physics</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-mat)"></span>Mathematics</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-bio)"></span>Biology</span>
+      <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;flex:none;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-med)"></span>Medicine</span>
+    </div>
+    <div style="display:flex;align-items:baseline;gap:8px;padding:7px 14px;background:var(--color-surface);border-radius:999px;align-self:flex-start"><span style="font-family:var(--font-heading);font-size:14px;color:var(--sage)">Scientific Revolution</span><span style="font-size:12px;color:var(--t3);font-variant-numeric:tabular-nums">1400–1700</span></div>
+  </div>
+
+  <div style="position:absolute;top:150px;bottom:64px;left:29px;width:2px;background:linear-gradient(transparent,var(--color-accent) 40px,var(--color-accent) calc(100% - 40px),transparent)"></div>
+
+  <div style="position:absolute;top:172px;left:52px;right:16px;display:flex;flex-direction:column;gap:18px">
+    <div style="position:relative;display:flex;gap:10px;align-items:baseline;padding-left:8px">
+      <span style="position:absolute;left:-26px;top:7px;width:6px;height:6px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 3px var(--color-bg)"></span>
+      <span style="font-family:var(--font-heading);font-size:18px;font-variant-numeric:tabular-nums;color:var(--t2)">1266</span><span style="font-size:13px;color:var(--t2)">Roger Bacon describes lenses and the rainbow</span>
+    </div>
+    <div style="position:relative;padding:6px 0 6px 8px;display:flex;flex-direction:column;gap:2px">
+      <span style="position:absolute;left:-24px;top:-6px;bottom:-6px;width:2px;background:var(--color-bg)"></span>
+      <span style="position:absolute;left:-24px;top:-6px;bottom:-6px;border-left:2px dotted var(--t3)"></span>
+      <span style="font-size:13px;color:var(--t2);font-variant-numeric:tabular-nums">~340 years passed</span>
+      <span style="font-size:12px;color:var(--t3)">Optics waited for good glass and the printed book.</span>
+    </div>
+    <div class="card" style="padding:16px 18px;gap:6px;border-radius:24px;position:relative;margin-left:8px">
+      <span style="position:absolute;left:-34px;top:22px;width:10px;height:10px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 3px var(--color-bg)"></span>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</div>
+      <div style="font-family:var(--font-heading);font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1609</div>
+      <div class="card-title" style="font-size:17px">Galileo turns a telescope to the sky</div>
+      <p class="card-body" style="color:var(--t2);opacity:1">Mountains on the Moon, moons around Jupiter. The heavens are made of ordinary matter.</p>
+    </div>
+    <div class="card elev-md" style="padding:18px 18px 20px;gap:8px;border-radius:28px;position:relative;margin-left:8px;background:#f9f4ed">
+      <span style="position:absolute;left:-36px;top:26px;width:14px;height:14px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 3px var(--color-bg),0 0 14px rgba(198,113,57,.6)"></span>
+      <div style="display:flex;align-items:center;justify-content:space-between;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="display:flex;align-items:center;gap:6px"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-phy)"></span>Physics</span><span style="color:#8c491a">Landmark</span></div>
+      <div style="font-family:var(--font-heading);font-size:44px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em">1687</div>
+      <div class="card-title" style="font-size:20px">Newton publishes the Principia</div>
+      <div class="washed" style="width:100%;height:160px;border-radius:20px;overflow:hidden"><image-slot id="tl-m-light-newton" shape="rounded" radius="20" placeholder="Principia title page" style="width:100%;height:160px"></image-slot></div>
+      <p class="card-body" style="color:var(--t2);opacity:1;font-size:14px">The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics.</p>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tag tag-neutral" style="font-size:11px">Isaac Newton</span><span class="tag tag-neutral" style="font-size:11px;color:var(--sage)">Builds on 3</span></div>
+    </div>
+  </div>
+
+  <div style="position:absolute;left:0;right:0;bottom:0;height:64px;padding:18px 24px 0;background:linear-gradient(transparent,var(--color-bg) 40%)">
+    <div style="position:relative;height:14px">
+      <div style="position:absolute;left:0;right:0;top:6px;height:2px;background:var(--color-divider);border-radius:1px"></div>
+      <sc-for list="{{ miniDots }}" as="d" hint-placeholder-count="0"><span style="position:absolute;top:5px;left:{{ d.x }}%;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--t3);opacity:.7"></span></sc-for>
+      <div style="position:absolute;left:87%;top:0;width:4px;height:14px;margin-left:-2px;border-radius:2px;background:var(--color-accent);box-shadow:0 0 8px rgba(198,113,57,.5)"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--t3);margin-top:6px;font-variant-numeric:tabular-nums"><span>585 BCE</span><span>2026</span></div>
+  </div>
+</div></div>
+
+</div>
+
+<div class="dv-opts" style="margin-top:28px">
+
+<!-- 1f desktop dark -->
+<div class="dv-opt" id="1f"><div class="dv-olabel"><a class="dv-oid" href="#1f">1f</a>Timeline · desktop 1440 · dark</div>
+<div class="dv-card" style="width:1440px;height:900px;border-radius:24px;position:relative;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);--color-bg:#2e2b25;--color-surface:#3b372f;--color-text:#f9f4ed;--color-accent:#f6a06b;--color-accent-600:#ffc6a5;--color-divider:rgba(249,244,237,.16);--color-neutral-100:#3b372f;--color-neutral-800:#f9f4ed;--t2:#dcd3c4;--t3:#c0b6a5;--sage:#aebf92;--d-phy:#8fb0cc;--d-ast:#9aa2cf;--d-mat:#b3a3c9;--d-bio:#aebf92;--d-med:#e89a8a;--d-che:#f6a06b;--d-ear:#d9b46a;--d-tec:#a7aeb3">
+  <div style="position:absolute;top:0;left:0;right:0;height:80px;z-index:3;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 40px;background:linear-gradient(var(--color-bg) 70%,transparent)">
+    <div style="font-family:var(--font-heading);font-size:22px;display:flex;align-items:baseline;gap:4px">Uchkun<span style="width:6px;height:6px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 8px var(--color-accent);transform:translateY(-2px)"></span></div>
+    <div style="display:flex;align-items:baseline;gap:14px"><span style="font-family:var(--font-heading);font-size:40px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em">1687</span><span style="font-family:var(--font-heading);font-size:15px;color:var(--sage)">Scientific Revolution</span></div>
+    <div style="display:flex;justify-content:flex-end;align-items:center;gap:10px">
+      <div class="seg" style="font-size:12px"><span class="seg-opt" style="padding:7px 12px;background:var(--color-accent);color:var(--color-bg)">EN</span><span class="seg-opt" style="padding:7px 12px">RU</span><span class="seg-opt" style="padding:7px 12px">KY</span><span class="seg-opt" style="padding:7px 12px">TR</span></div>
+      <span class="btn btn-secondary" style="font-size:14px;padding:8px 18px">Explore</span>
+      <span class="btn btn-icon btn-secondary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+    </div>
+  </div>
+
+  <div style="position:absolute;top:120px;left:40px;width:280px;display:flex;flex-direction:column;gap:28px">
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--t3)">Era</div>
+      <div style="font-family:var(--font-heading);font-size:28px;line-height:1.15;color:var(--sage)">Scientific Revolution</div>
+      <div style="font-size:14px;color:var(--t2);font-variant-numeric:tabular-nums">1400–1700 · 3 of 8 eras</div>
+      <p style="margin:6px 0 0;font-size:13px;line-height:1.55;color:var(--t2)">Measurement replaces authority. Instruments — lens, clock, press — let one person check another's claim.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--t3)">Disciplines</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px">
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-mat)"></span>Mathematics</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-phy)"></span>Physics</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-che)"></span>Chemistry</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-bio)"></span>Biology</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-med)"></span>Medicine</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-ear)"></span>Earth &amp; climate</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-tec)"></span>Technology</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:absolute;top:80px;bottom:0;left:420px;width:2px;background:linear-gradient(transparent,var(--color-accent) 60px,var(--color-accent) calc(100% - 60px),transparent)"></div>
+
+  <div style="position:absolute;top:104px;left:460px;width:640px;display:flex;flex-direction:column;gap:22px">
+    <div style="position:relative;display:flex;gap:14px;align-items:baseline">
+      <span style="position:absolute;left:-43px;top:9px;width:8px;height:8px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 4px var(--color-bg)"></span>
+      <span style="font-family:var(--font-heading);font-size:20px;font-variant-numeric:tabular-nums;color:var(--t2)">1266</span><span style="font-size:14px;color:var(--t2)">Roger Bacon describes lenses and the rainbow</span>
+    </div>
+    <div style="position:relative;padding:4px 0;display:flex;gap:14px;align-items:baseline">
+      <span style="position:absolute;left:-41px;top:-8px;bottom:-8px;width:2px;background:var(--color-bg)"></span>
+      <span style="position:absolute;left:-41px;top:-8px;bottom:-8px;border-left:2px dotted var(--t3)"></span>
+      <span style="font-size:14px;color:var(--t2);font-variant-numeric:tabular-nums">~340 years passed</span><span style="font-size:13px;color:var(--t3)">Optics waited for good glass and the printed book.</span>
+    </div>
+    <div class="card" style="padding:20px 24px;gap:6px;position:relative;width:520px">
+      <span style="position:absolute;left:-45px;top:28px;width:12px;height:12px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 4px var(--color-bg)"></span>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</div>
+      <div style="font-family:var(--font-heading);font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1609</div>
+      <div class="card-title" style="font-size:18px">Galileo turns a telescope to the sky</div>
+      <p class="card-body" style="color:var(--t2);opacity:1;font-size:14px">Mountains on the Moon, moons around Jupiter. The heavens are made of ordinary matter.</p>
+    </div>
+    <div class="card" style="padding:24px;gap:10px;position:relative;box-shadow:0 12px 32px rgba(0,0,0,.4);display:grid;grid-template-columns:1fr 240px;grid-template-rows:auto auto auto 1fr;column-gap:24px">
+      <span style="position:absolute;left:-47px;top:32px;width:16px;height:16px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 4px var(--color-bg),0 0 16px var(--color-accent)"></span>
+      <div style="display:flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="display:flex;align-items:center;gap:6px"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-phy)"></span>Physics</span><span style="color:var(--color-accent)">Landmark</span></div>
+      <div class="washed" style="grid-column:2;grid-row:1/5;border-radius:20px;overflow:hidden;height:100%;min-height:200px"><image-slot id="tl-d-dark-newton" shape="rounded" radius="20" placeholder="Principia title page" style="width:100%;height:100%"></image-slot></div>
+      <div style="font-family:var(--font-heading);font-size:56px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.015em">1687</div>
+      <div class="card-title" style="font-size:22px">Newton publishes the Principia</div>
+      <div style="display:flex;flex-direction:column;gap:12px;justify-content:space-between">
+        <p class="card-body" style="color:var(--t2);opacity:1;font-size:14px">The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="tag tag-neutral" style="font-size:11px">Isaac Newton</span><span class="tag tag-neutral" style="font-size:11px;color:var(--sage)">Builds on 3</span><span class="btn btn-ghost" style="font-size:13px;margin-left:auto">How did we get here? →</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:absolute;top:100px;bottom:40px;right:36px;width:24px">
+    <div style="position:absolute;top:0;bottom:0;left:11px;width:2px;background:var(--color-divider)"></div>
+    <sc-for list="{{ miniDots }}" as="d" hint-placeholder-count="0"><span style="position:absolute;left:10px;top:{{ d.x }}%;width:4px;height:4px;margin-top:-2px;border-radius:50%;background:var(--t3);opacity:.7"></span></sc-for>
+    <div style="position:absolute;top:87%;left:5px;width:14px;height:4px;margin-top:-2px;border-radius:2px;background:var(--color-accent);box-shadow:0 0 8px var(--color-accent)"></div>
+    <span style="position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--t3);white-space:nowrap;font-variant-numeric:tabular-nums">585 BCE</span>
+    <span style="position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--t3);font-variant-numeric:tabular-nums">2026</span>
+  </div>
+</div></div>
+
+<!-- 1g desktop light -->
+<div class="dv-opt" id="1g"><div class="dv-olabel"><a class="dv-oid" href="#1g">1g</a>Timeline · desktop 1440 · light</div>
+<div class="dv-card" style="width:1440px;height:900px;border-radius:24px;position:relative;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);--color-bg:#f5ead8;--color-surface:#ebddc5;--color-text:#201e1d;--color-accent:#c67139;--color-divider:rgba(32,30,29,.16);--color-neutral-100:#ebddc5;--color-neutral-800:#201e1d;--t2:#645c50;--t3:#82796a;--sage:#56633f;--d-phy:#5f7f9a;--d-ast:#5c6494;--d-mat:#8b7aa3;--d-bio:#7a8a5e;--d-med:#c4705f;--d-che:#c67139;--d-ear:#b08a3e;--d-tec:#7d8489">
+  <div style="position:absolute;top:0;left:0;right:0;height:80px;z-index:3;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 40px;background:linear-gradient(var(--color-bg) 70%,transparent)">
+    <div style="font-family:var(--font-heading);font-size:22px;display:flex;align-items:baseline;gap:4px">Uchkun<span style="width:6px;height:6px;border-radius:50%;background:var(--color-accent);transform:translateY(-2px)"></span></div>
+    <div style="display:flex;align-items:baseline;gap:14px"><span style="font-family:var(--font-heading);font-size:40px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em">1687</span><span style="font-family:var(--font-heading);font-size:15px;color:var(--sage)">Scientific Revolution</span></div>
+    <div style="display:flex;justify-content:flex-end;align-items:center;gap:10px">
+      <div class="seg" style="font-size:12px"><span class="seg-opt" style="padding:7px 12px;background:var(--color-accent);color:var(--color-bg)">EN</span><span class="seg-opt" style="padding:7px 12px">RU</span><span class="seg-opt" style="padding:7px 12px">KY</span><span class="seg-opt" style="padding:7px 12px">TR</span></div>
+      <span class="btn btn-secondary" style="font-size:14px;padding:8px 18px">Explore</span>
+      <span class="btn btn-icon btn-secondary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+    </div>
+  </div>
+
+  <div style="position:absolute;top:120px;left:40px;width:280px;display:flex;flex-direction:column;gap:28px">
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--t3)">Era</div>
+      <div style="font-family:var(--font-heading);font-size:28px;line-height:1.15;color:var(--sage)">Scientific Revolution</div>
+      <div style="font-size:14px;color:var(--t2);font-variant-numeric:tabular-nums">1400–1700 · 3 of 8 eras</div>
+      <p style="margin:6px 0 0;font-size:13px;line-height:1.55;color:var(--t2)">Measurement replaces authority. Instruments — lens, clock, press — let one person check another's claim.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--t3)">Disciplines</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px">
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-mat)"></span>Mathematics</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-phy)"></span>Physics</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-che)"></span>Chemistry</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-bio)"></span>Biology</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-med)"></span>Medicine</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-ear)"></span>Earth &amp; climate</span>
+        <span class="tag tag-neutral" style="gap:6px;padding:5px 12px 5px 9px;font-size:12px;opacity:.45"><span style="width:8px;height:8px;border-radius:50%;background:var(--d-tec)"></span>Technology</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:absolute;top:80px;bottom:0;left:420px;width:2px;background:linear-gradient(transparent,var(--color-accent) 60px,var(--color-accent) calc(100% - 60px),transparent)"></div>
+
+  <div style="position:absolute;top:104px;left:460px;width:640px;display:flex;flex-direction:column;gap:22px">
+    <div style="position:relative;display:flex;gap:14px;align-items:baseline">
+      <span style="position:absolute;left:-43px;top:9px;width:8px;height:8px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 4px var(--color-bg)"></span>
+      <span style="font-family:var(--font-heading);font-size:20px;font-variant-numeric:tabular-nums;color:var(--t2)">1266</span><span style="font-size:14px;color:var(--t2)">Roger Bacon describes lenses and the rainbow</span>
+    </div>
+    <div style="position:relative;padding:4px 0;display:flex;gap:14px;align-items:baseline">
+      <span style="position:absolute;left:-41px;top:-8px;bottom:-8px;width:2px;background:var(--color-bg)"></span>
+      <span style="position:absolute;left:-41px;top:-8px;bottom:-8px;border-left:2px dotted var(--t3)"></span>
+      <span style="font-size:14px;color:var(--t2);font-variant-numeric:tabular-nums">~340 years passed</span><span style="font-size:13px;color:var(--t3)">Optics waited for good glass and the printed book.</span>
+    </div>
+    <div class="card" style="padding:20px 24px;gap:6px;position:relative;width:520px">
+      <span style="position:absolute;left:-45px;top:28px;width:12px;height:12px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 4px var(--color-bg)"></span>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-ast)"></span>Astronomy</div>
+      <div style="font-family:var(--font-heading);font-size:28px;line-height:1;font-variant-numeric:tabular-nums">1609</div>
+      <div class="card-title" style="font-size:18px">Galileo turns a telescope to the sky</div>
+      <p class="card-body" style="color:var(--t2);opacity:1;font-size:14px">Mountains on the Moon, moons around Jupiter. The heavens are made of ordinary matter.</p>
+    </div>
+    <div class="card elev-lg" style="padding:24px;gap:10px;position:relative;background:#f9f4ed;display:grid;grid-template-columns:1fr 240px;grid-template-rows:auto auto auto 1fr;column-gap:24px">
+      <span style="position:absolute;left:-47px;top:32px;width:16px;height:16px;border-radius:50%;background:var(--color-accent);box-shadow:0 0 0 4px var(--color-bg),0 0 16px rgba(198,113,57,.6)"></span>
+      <div style="display:flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)"><span style="display:flex;align-items:center;gap:6px"><span style="width:7px;height:7px;border-radius:50%;background:var(--d-phy)"></span>Physics</span><span style="color:#8c491a">Landmark</span></div>
+      <div class="washed" style="grid-column:2;grid-row:1/5;border-radius:20px;overflow:hidden;height:100%;min-height:200px"><image-slot id="tl-d-light-newton" shape="rounded" radius="20" placeholder="Principia title page" style="width:100%;height:100%"></image-slot></div>
+      <div style="font-family:var(--font-heading);font-size:56px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.015em">1687</div>
+      <div class="card-title" style="font-size:22px">Newton publishes the Principia</div>
+      <div style="display:flex;flex-direction:column;gap:12px;justify-content:space-between">
+        <p class="card-body" style="color:var(--t2);opacity:1;font-size:14px">The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="tag tag-neutral" style="font-size:11px">Isaac Newton</span><span class="tag tag-neutral" style="font-size:11px;color:var(--sage)">Builds on 3</span><span class="btn btn-ghost" style="font-size:13px;margin-left:auto;color:#8c491a">How did we get here? →</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:absolute;top:100px;bottom:40px;right:36px;width:24px">
+    <div style="position:absolute;top:0;bottom:0;left:11px;width:2px;background:var(--color-divider)"></div>
+    <sc-for list="{{ miniDots }}" as="d" hint-placeholder-count="0"><span style="position:absolute;left:10px;top:{{ d.x }}%;width:4px;height:4px;margin-top:-2px;border-radius:50%;background:var(--t3);opacity:.7"></span></sc-for>
+    <div style="position:absolute;top:87%;left:5px;width:14px;height:4px;margin-top:-2px;border-radius:2px;background:var(--color-accent);box-shadow:0 0 8px rgba(198,113,57,.5)"></div>
+    <span style="position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--t3);white-space:nowrap;font-variant-numeric:tabular-nums">585 BCE</span>
+    <span style="position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-size:10px;color:var(--t3);font-variant-numeric:tabular-nums">2026</span>
+  </div>
+</div></div>
+
+</div>
+<p class="dv-next">Try next: "pick dark as primary and build landing + event detail" · "three Explore-canvas variations" · "make the landmark card in <a class="dv-oid" href="#1f">1f</a> full-bleed"</p>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const dots = []; const N = 130;
+    for (let i = 0; i < N; i++) {
+      const u = i / (N - 1);
+      const jitter = ((i * 7919) % 17) / 17 * 1.6 - 0.8;
+      const x = Math.min(99.2, Math.max(0.5, 98 * Math.pow(u, 0.3) + jitter));
+      dots.push({ x: x.toFixed(2) });
+    }
+    return { miniDots: dots };
+  }
+}
+</script>
+</body>
+</html>
