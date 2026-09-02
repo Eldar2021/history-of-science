@@ -5,20 +5,16 @@
 
 ## Şu an
 
-- **Faz**: Ay 1 / Hafta 1 (başladı 2026-09-02). Oturum 2026-09-03'te kullanıcının token limiti nedeniyle yarıda kesildi.
-- **Sonraki adım (kod)**: `web/` içinde henüz YOK olan dosyaları yaz, sonra `npm run check` ve `npm run dev` ile `/en/timeline` doğrula:
-  1. `lib/supabase/server.ts` + `client.ts` (`@supabase/ssr`, Next 16'da `cookies()` async)
-  2. `lib/queries/timeline.ts`: env yoksa `lib/fixtures/timeline.ts` (seed'deki 10 olay, İngilizce) döner; varsa `supabase.rpc('get_timeline', {p_locale})`
-  3. `app/[locale]/page.tsx` (hero: `home.question`, `home.lead`, `home.cta` → `/timeline`) ve `app/[locale]/timeline/page.tsx` (düz liste: yıl `formatYear`, başlık, özet, disiplin çipleri, fallback rozeti)
-  4. `components/LocaleSwitcher.tsx` (client; `usePathname`/`useRouter` from `@/i18n/navigation`) ve `components/HonestyBand.tsx`
-  5. `npm run check` (tsc + eslint + vitest); eslint vitest.config/proxy için ayar gerekebilir
-- **Sonraki adım (tasarım)**: Kullanıcı Claude Design konseptini `resource/Design system conflict scope/` altına koydu (`Uchkun - Foundation.dc.html` + `_ds/.../styles.css`, `_ds_manifest.json`). Bir sonraki oturumda: `styles.css` ve manifest'i oku, token'ları `web/app/globals.css` içindeki placeholder `:root` değişkenlerine aktar, `resource/design/tokens.json` olarak da kaydet. Klasörü `resource/design/` olarak yeniden adlandırmayı öner.
-- **Kullanıcıdan bekleyen**: Supabase bulut projesi (backend/README.md adımları), Vercel bağlantısı, Docker + `brew install supabase/tap/supabase` (yerel DB için).
-- **Bloklayan**: yok. DB olmadan da fixture ile site çalışacak şekilde tasarlandı.
+- **Faz**: Ay 1 / Hafta 1 (başladı 2026-09-02). Hafta 1 kod tarafı büyük ölçüde tamam (2026-09-03).
+- **Doğrulandı**: `npm run check` (tsc + eslint + 38 test) yeşil; `next build` başarılı; `next start` ile `/` → `/ky` yönlendirmesi (Accept-Language), `/ky/timeline` ve `/tr/timeline` doğru yıl formatları ve çağ adlarıyla render ediyor. DB olmadan fixture ile çalışıyor.
+- **Sonraki adım (kod, Hafta 2'ye geçiş)**: Tasarım konseptini entegre et: `resource/Design system conflict scope/_ds/*/styles.css` + `_ds_manifest.json` oku → `web/app/globals.css` placeholder token'larını değiştir, `resource/design/tokens.json` yaz, fontları konsepte göre güncelle (`app/[locale]/layout.tsx`), `Ңөү` kontrolü. Sonra Hafta 2 kutucukları: 3 boyutta kart, sticky çağ başlığı, canlı yıl göstergesi (IntersectionObserver), `?year=` derin bağlantı, `lib/timeline/xScale.ts`.
+- **Küçük iş**: Timeline'da "zaman boşluğu" satırının render edilip edilmediğini tarayıcıda doğrula (curl testinde yakalanamadı; mantık `app/[locale]/timeline/page.tsx` içinde `showGap`).
+- **Kullanıcıdan bekleyen**: Docker + `brew install supabase/tap/supabase`, Supabase bulut projesi (backend/README.md), Vercel bağlantısı, `.env.local` (`.env.example`'dan). Klasörü `resource/design/` olarak yeniden adlandırma önerisi.
+- **Bloklayan**: yok.
 
 ## Hafta 1 kutucukları
 
-- [~] `web/`: Next.js **16.3** (15 değil) + TS + Tailwind v4 + next-intl 4.14 kuruldu; `i18n/routing.ts`, `i18n/request.ts`, `i18n/navigation.ts`, `proxy.ts` (Next 16'da middleware yerine), `app/[locale]/layout.tsx` (Inter + Playfair Display, cyrillic-ext), `messages/{en,ru,ky,tr}.json`, `app/globals.css` placeholder token'lar. **Sayfalar henüz yok** (yukarıdaki 3. madde). Eski `app/layout.tsx` ve `app/page.tsx` silindi.
+- [x] `web/`: Next.js **16.3** (15 değil) + TS + Tailwind v4 + next-intl 4.14 kuruldu; `i18n/routing.ts`, `i18n/request.ts`, `i18n/navigation.ts`, `proxy.ts` (Next 16'da middleware yerine), `app/[locale]/layout.tsx` (Inter + Playfair Display, cyrillic-ext), `messages/{en,ru,ky,tr}.json`, `app/globals.css` placeholder token'lar. Sayfalar tamam: `app/[locale]/page.tsx` (hero), `app/[locale]/timeline/page.tsx` (düz liste, çağ başlıkları, zaman boşluğu, rozetler), `components/{SiteHeader,LocaleSwitcher,HonestyBand}.tsx`, `lib/supabase/{server,client}.ts`, `lib/queries/{timeline,types}.ts`, `lib/fixtures/timeline.ts` (env yoksa 10 olay).
 - [x] `backend/supabase/migrations/0001_init.sql`: tam şema, RLS, `get_timeline(locale)`, `get_chain(slug, locale, depth)`, arama trigger'ı, era auto-assign. **Henüz bir DB'de çalıştırılmadı** (CLI yok); ilk `supabase db reset`'te SQL hatası çıkabilir, düzelt.
 - [x] `backend/supabase/seed.sql`: 8 çağ + 8 disiplin 4 dilde, 10 İngilizce örnek olay (özet + neden önemli + orada olsaydın; gövdeler boş), 6 bağlantı. `backend/README.md` kurulum adımları.
 - [x] `lib/i18n/formatYear.ts` + 32+ birim testi (Hafta 2 maddesi, erken yapıldı). `vitest.config.ts`, `.env.example`, `package.json` scriptleri (`check`, `test`, `typecheck`, `gen:types`).
@@ -33,12 +29,13 @@
 
 ## Oturum günlüğü
 
-### 2026-09-03 — Hafta 1 kod (yarım)
+### 2026-09-03 — Hafta 1 kod (tamamlandı, iki oturumda)
 - Next.js 16 iskeleti + next-intl 4 dil altyapısı + mesaj dosyaları + placeholder CSS token'ları.
 - `0001_init.sql`, `seed.sql`, `backend/README.md`.
-- `formatYear` + testler; vitest, scripts, `.env.example`.
-- Yarım kalan: Supabase client, timeline sorgusu + fixture, `[locale]/page.tsx`, `[locale]/timeline/page.tsx`, LocaleSwitcher, HonestyBand, `npm run check` hiç çalıştırılmadı (sadece vitest).
-- Kullanıcı Claude Design konseptini `resource/` altına getirdi; incelenmedi.
+- `formatYear` + 38 test; vitest (`vitest.config.mts`), scripts, `.env.example`.
+- Supabase server/client, `getTimeline`/`getEras` (env yoksa fixture), ana sayfa, timeline düz liste, SiteHeader, LocaleSwitcher, HonestyBand.
+- `npm run check` ve `next build` yeşil; `next start` smoke testi: yönlendirme ve ky/tr render doğru.
+- Kullanıcı Claude Design konseptini `resource/Design system conflict scope/` altına getirdi; henüz incelenmedi (Hafta 2 ilk iş).
 
 ### 2026-09-02 — Planlama + kurulum
 
