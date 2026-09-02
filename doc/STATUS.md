@@ -6,9 +6,8 @@
 ## Şu an
 
 - **Faz**: Ay 1 / Hafta 1 (başladı 2026-09-02). Hafta 1 kod tarafı büyük ölçüde tamam (2026-09-03).
-- **Doğrulandı**: `npm run check` (tsc + eslint + 38 test) yeşil; `next build` başarılı; `next start` ile `/` → `/ky` yönlendirmesi (Accept-Language), `/ky/timeline` ve `/tr/timeline` doğru yıl formatları ve çağ adlarıyla render ediyor. DB olmadan fixture ile çalışıyor.
+- **Doğrulandı**: `npm run check` (tsc + eslint + 38 test) yeşil; `next build` başarılı; `next start` ile `/` → `/ky` yönlendirmesi (Accept-Language), `/ky/timeline` ve `/tr/timeline` doğru yıl formatları, çağ adları ve zaman boşluğu satırlarıyla ("~285 yıl geçti") render ediyor. DB olmadan fixture ile çalışıyor.
 - **Sonraki adım (kod, Hafta 2'ye geçiş)**: Tasarım konseptini entegre et: `resource/Design system conflict scope/_ds/*/styles.css` + `_ds_manifest.json` oku → `web/app/globals.css` placeholder token'larını değiştir, `resource/design/tokens.json` yaz, fontları konsepte göre güncelle (`app/[locale]/layout.tsx`), `Ңөү` kontrolü. Sonra Hafta 2 kutucukları: 3 boyutta kart, sticky çağ başlığı, canlı yıl göstergesi (IntersectionObserver), `?year=` derin bağlantı, `lib/timeline/xScale.ts`.
-- **Küçük iş**: Timeline'da "zaman boşluğu" satırının render edilip edilmediğini tarayıcıda doğrula (curl testinde yakalanamadı; mantık `app/[locale]/timeline/page.tsx` içinde `showGap`).
 - **Kullanıcıdan bekleyen**: Docker + `brew install supabase/tap/supabase`, Supabase bulut projesi (backend/README.md), Vercel bağlantısı, `.env.local` (`.env.example`'dan). Klasörü `resource/design/` olarak yeniden adlandırma önerisi.
 - **Bloklayan**: yok.
 
