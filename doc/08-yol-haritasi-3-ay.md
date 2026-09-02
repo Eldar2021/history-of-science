@@ -1,218 +1,217 @@
 # 08 — 3 Aylık Yol Haritası (12 hafta)
 
+Güncellendi 2026-09-02, kararlarınla: İngilizce önce, otomatik içerik hattı, Keşfet kanvası 3. ayda, admin 4 dilde,
+dürüstlük bandı, iki tema. Arama v1.0'dan çıktı.
+
 ## Tempo varsayımı
 
-Haftada **10-15 saat** senin zamanın (akşamlar + hafta sonu bir gün). Claude Code ile kod yazma hızı yüksek;
-darboğaz kod değil, **karar vermek ve içerik yazmak**. Plan buna göre: her hafta bir kod hedefi + bir içerik hedefi.
-
-Haftada 25+ saat ayırabiliyorsan bu plan 8 haftaya sığar; 5 saat ayırabiliyorsan 5 aya yayılır. Sıra değişmez.
+Haftada **10-15 saat** (cevabın). Claude Code ile kod hızlı; darboğaz karar vermek ve içerik onaylamak.
+Otomatik içerik hattı sayesinde içerik yükün olay başına ~10 dakikaya iner. Her hafta bir kod hedefi + bir içerik hedefi.
 
 ## Üç ayın büyük resmi
 
 | Ay | Tema | Sonunda elimizde ne var |
 |----|------|-------------------------|
-| **1** | Temel | Çalışan timeline, admin ekliyor sitede görünüyor, 50 olay, tek dil. Sadece sen görüyorsun. |
-| **2** | Dil ve içerik | Dört dil, çeviri hattı, 110 olay, çağ/disiplin sayfaları, gerçek alan adında **kapalı beta** (10 kişi). |
-| **3** | Derinlik ve lansman | Kişiler, bağlantılar, "Buraya nasıl geldik?" zinciri, arama, 200 olay, **v1.0 açık lansman**. |
+| **1** | Temel | Çalışan Akış timeline'ı, admin ekliyor sitede görünüyor, 50 İngilizce olay. Sadece sen görüyorsun. |
+| **2** | Otomasyon ve dil | Claude her gece taslak hazırlıyor, sen onaylıyorsun; 4 dil altyapısı; 120 olay; **İngilizce kapalı beta** (10 kişi). |
+| **3** | Derinlik ve lansman | Kişiler, bağlantılar, "Buraya nasıl geldik?" zinciri, **Keşfet kanvası**, 200 olay, **v1.0 İngilizce lansman**; ky/tr/ru gözden geçirme sürüyor. |
 
 ---
 
 ## AY 1 — Temel
 
-### Hafta 1: Kararlar, iskelet, tasarım başlangıcı
+### Hafta 1: İskelet, şema, tasarım başlangıcı
 
 **Kod**
-- [ ] `web/`: Next.js 15 + TypeScript + Tailwind v4 + next-intl kurulumu; 4 dil rotası çalışıyor, "Merhaba" 4 dilde.
-- [ ] `backend/supabase/`: proje oluştur (bulut) + yerel `supabase start`; `0001_init.sql` migration (04-mimari'deki şema).
-- [ ] Seed: 8 çağ, 8 disiplin, 4 dilde adları; 10 örnek olay.
-- [ ] Vercel'e bağla; `main` push = deploy. Preview URL çalışıyor.
-- [ ] `CLAUDE.md` yaz (11-claude-ile-calisma'daki şablon).
+- [ ] `web/`: Next.js 15 + TypeScript + Tailwind v4 + next-intl; 4 dil rotası çalışıyor; admin de aynı i18n altyapısında.
+- [ ] `backend/supabase/`: bulut projesi + yerel `supabase start`; `0001_init.sql` (04-mimari şeması, `status` üç değerli, `drafted_by`, `source_locale`).
+- [ ] Seed: 8 çağ, 8 disiplin, 4 dilde adları; 10 örnek olay (İngilizce).
+- [ ] Vercel bağlı; `main` push = deploy.
+- [ ] `CLAUDE.md` (11'deki şablon).
 
 **Tasarım**
-- [ ] 07'deki promptu Claude Design'a ver. İlk konsepti al, 2-3 varyasyon iste. Henüz onaylama; hafta 2'de kodla karşılaştır.
+- [ ] 07'deki promptu Claude Design'a ver. İki tema, dokuz ekran. Henüz seçme.
 
 **İçerik**
-- [ ] 10-riskler'deki açık soruları cevapla (isim, kaynak dil, admin dili).
-- [ ] İlk 5 olayı 03'teki şablonla yaz (Thales, Öklid, Arşimet, Eratosthenes, El-Harezmi). Şablonu test etmek için.
+- [ ] İlk 5 olayı 03'teki şablonla İngilizce yaz (Claude taslak, sen doğrula): Thales, Öklid, Arşimet, Eratosthenes, El-Harezmi. Şablonu test etmek için.
 
-**Hafta sonu kontrolü**: `/tr/timeline` boş bir sayfada 10 olayı düz liste olarak gösteriyor. Çirkin ama çalışıyor.
+**Hafta sonu kontrolü**: `/en/timeline` 10 olayı düz liste olarak gösteriyor.
 
-### Hafta 2: Timeline MVP
+### Hafta 2: Akış timeline'ı MVP
 
 **Kod**
-- [ ] Timeline sayfası: dikey akış, olay kartları (3 boyut), çağ başlıkları (sticky), zaman boşluğu işareti.
-- [ ] Sabit üst çubuk + canlı yıl göstergesi (`IntersectionObserver`).
-- [ ] `formatYear` fonksiyonu 4 dil, birim testli.
-- [ ] Tasarım token'ları (`tokens.json` → `globals.css`); karanlık tema.
-- [ ] `?year=` derin bağlantı: sayfa o yıla kaydırılmış açılır.
+- [ ] Dikey akış, 3 boyutta olay kartı, sticky çağ başlığı, zaman boşluğu işareti.
+- [ ] Sabit üst çubuk + canlı yıl göstergesi.
+- [ ] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest.
+- [ ] Tasarım token'ları (`tokens.json` → `globals.css`), **her iki tema**; sistem tercihi + anahtar.
+- [ ] `?year=` derin bağlantı.
+- [ ] `xScale(year, zoom, pan)` ölçek fonksiyonu (minimap ve ileride kanvas ortak kullanır).
 
 **Tasarım**
-- [ ] Konsepti onayla, token'ları çıkar, `resource/design/`e kaydet.
+- [ ] İki temayı gerçek kodda gör, **birincil temayı seç** (S15). Token'ları `resource/design/`e kaydet.
 
 **İçerik**
-- [ ] +10 olay (antik dünya tamamlanır).
+- [ ] +10 olay İngilizce (antik dünya).
 
-**Hafta sonu kontrolü**: Telefonda timeline'ı kaydırınca yıl değişiyor, çağlar değişiyor, hoş görünüyor.
-
-### Hafta 3: Olay detayı ve giriş deneyimi
+### Hafta 3: Olay detayı, giriş, minimap
 
 **Kod**
-- [ ] Olay detay: masaüstünde yan panel, mobilde sheet; `/event/{slug}` doğrudan açılınca tam sayfa.
-- [ ] Geri tuşu davranışı: panel kapanır, kaydırma konumu korunur (paralel rotalar / intercepting routes).
-- [ ] Ana sayfa + "Zamana düş" geçişi (sayaç animasyonu) + reduced-motion varyantı.
-- [ ] Minimap (gerçek ölçekli SVG şerit) + tıklayınca atlama.
-- [ ] Disiplin filtre çipleri; URL ile senkron.
+- [ ] Olay detay: masaüstü yan panel, mobil sheet, doğrudan URL tam sayfa; geri tuşu konumu korur.
+- [ ] Ana sayfa + "Zamana düş" sayaç geçişi + reduced-motion.
+- [ ] Minimap (gerçek ölçek, `xScale` ile) + tıklayınca atlama.
+- [ ] Disiplin filtre çipleri, URL senkron.
+- [ ] **Dürüstlük bandı** alt bilgide, 4 dilde, "Hata bildir" mailto (olay bilgisi otomatik).
 
 **İçerik**
 - [ ] +10 olay (İslam Altın Çağı, Orta Asya vurgusu).
 
-**Hafta sonu kontrolü**: Bir arkadaşına telefonunu ver, hiçbir şey söyleme, 2 dakika izle. Nerede takıldı, not al.
+**Hafta sonu kontrolü**: Bir arkadaşa telefonu ver, 2 dakika sessiz izle, not al.
 
 ### Hafta 4: Admin ve otomatik yayın
 
 **Kod**
-- [ ] Supabase Auth: e-posta/şifre, `profiles.role`, RLS politikaları (taslak sızmıyor; testle kanıtla).
-- [ ] `middleware.ts`: `/admin` koruması.
-- [ ] `/admin/events`: liste (yıl, başlık, durum, dil durumu sütunları).
-- [ ] `/admin/events/new` ve `/{id}`: form (P0 alanlar), markdown önizleme, disiplin çoklu seçim, taslak/yayınla.
-- [ ] Server action → kaydet → `revalidateTag` → sitede anında görünür. Bunu videoya çek; motivasyon için.
-- [ ] Yumuşak silme ve geri alma.
-- [ ] Playwright: "admin ekler, sitede görünür" testi.
+- [ ] Supabase Auth, `profiles.role` (admin/editor), RLS (taslak ve review sızmıyor; anonim istekle kanıtla).
+- [ ] `middleware.ts` admin koruması.
+- [ ] `/admin/events` liste (yıl, başlık, durum, hazırlayan, dil durumu); `/admin/events/new` ve `/{id}` form (P0 alanlar + kaynak dil + önem).
+- [ ] Server action → kaydet → `revalidateTag` → sitede anında. Videoya çek.
+- [ ] Yumuşak silme. Admin UI 4 dilde (`messages/admin.*.json`).
+- [ ] Playwright: "admin ekler, sitede görünür".
 
 **İçerik**
-- [ ] +15 olay → toplam 50 (Bilimsel Devrim'e kadar).
+- [ ] +15 olay → 50 (Bilimsel Devrim'e kadar).
 
-**Kilometre taşı M1**: 02'deki MVP kabul kriterlerinin tamamı yeşil. Sadece senin bildiğin bir Vercel URL'sinde.
+**Kilometre taşı M1**: 02'deki MVP kabul kriterleri yeşil. Sadece senin bildiğin URL'de.
 
 ---
 
-## AY 2 — Dil ve içerik
+## AY 2 — Otomasyon ve dil
 
-### Hafta 5: Çeviri hattı
+### Hafta 5: Otomatik içerik hattı
 
 **Kod**
-- [ ] `web/lib/translate.ts`: Claude API ile alan alan çeviri, JSON şema doğrulama.
-- [ ] `/admin/translate/{id}`: 4 dil yan yana, "Çevir" butonu, `machine/reviewed` durumu, kaydet.
-- [ ] Sitede: fallback (kaynak dil) + "bu dilde henüz yok" rozeti; `machine` rozeti.
-- [ ] UI metinleri 4 dilde tamamlandı (`messages/*.json`), `check-i18n.ts` script'i.
-- [ ] Kırgızca terim sözlüğü ilk 30 terim.
+- [ ] `backend/scripts/draft-next.ts`: çekirdek listeden sıradaki olayı seç → Claude API (web search) → 3+ kaynak → şablona göre İngilizce JSON taslak → `status='review'`, `drafted_by='ai'`, `research_note`, `sources`.
+- [ ] GitHub Actions cron (her gece 03:00), `CONTENT_PIPELINE_ENABLED`, "kuyrukta 10+ varsa üretme".
+- [ ] Telegram bot bildirimi (S11).
+- [ ] `/admin/review` onay kuyruğu: taslak + kaynaklar + araştırma notu; Yayınla / Düzenle / Reddet.
+- [ ] İlk 10 taslağı elle tetikle, kaliteyi ölç, prompt'u ayarla. Reddetme oranı %30 üstündeyse kaynak eşiğini yükselt.
 
 **İçerik**
-- [ ] 50 olayın tamamı 4 dile makine çevirisi. Türkçe ve İngilizce'yi sen gözden geçir (ru/ky `machine` kalabilir).
+- [ ] Hat çalışmaya başlar: günde 2 taslak. Sen sabah 20 dakika onay.
+- [ ] Hafta sonunda ~60 olay.
 
-### Hafta 6: İçerik sprinti
+### Hafta 6: Çeviri hattı ve görseller
 
-**Kod** (hafif hafta, içerik ağırlıklı)
-- [ ] Görsel yükleme: Supabase Storage, atıf/lisans zorunlu alanlar, `next/image`.
-- [ ] Görselsiz olay için üretilmiş kart.
-- [ ] Bug listesi temizliği.
+**Kod**
+- [ ] `web/lib/translate.ts` (Claude API, JSON şema doğrulama, kaynak dili olaydan okur, Kırgızca için tr+ru referanslı).
+- [ ] `/admin/translate/{id}`: 4 dil yan yana, "Çevir", `machine/reviewed`, `editor` rolü sadece burada düzenler.
+- [ ] Sitede fallback + "bu dilde henüz yok" + "otomatik çeviri" rozetleri.
+- [ ] "Yayınla + çevir" tek tık.
+- [ ] Görsel yükleme: Storage, zorunlu atıf/lisans/kaynak; görselsiz kart.
+- [ ] Kırgızca terim sözlüğü ilk 30 terim; `check-i18n.ts`.
 
 **İçerik**
-- [ ] +30 olay (Aydınlanma + 19. yüzyıl) → 80. Hepsi çevrilmiş.
-- [ ] 8 çağın kapak metinleri 4 dilde.
-- [ ] 20 olaya görsel (Wikimedia Commons, kamu malı).
+- [ ] Hat sürüyor → ~75 olay. Tüm yayınlanmışlara makine çevirisi.
+- [ ] 20 olaya görsel (Commons).
 
 ### Hafta 7: Çağ ve disiplin sayfaları, SEO
 
 **Kod**
-- [ ] `/era/{slug}`, `/discipline/{slug}` sayfaları.
-- [ ] `hreflang`, `<html lang>`, meta başlık/açıklama 4 dilde, `sitemap.xml`, `robots.txt`.
-- [ ] `/og/{slug}` dinamik OG görselleri (yıl büyük, başlık, disiplin rengi).
-- [ ] Plausible/Umami analitik.
-- [ ] Erişilebilirlik geçişi: klavye, odak, `aria-live`, kontrast ölçümü.
+- [ ] `/era/{slug}`, `/discipline/{slug}`.
+- [ ] `hreflang`, `<html lang>`, meta 4 dilde, `sitemap.xml`, `robots.txt`, dinamik OG görselleri.
+- [ ] Analitik (Plausible/Umami), Sentry.
+- [ ] Erişilebilirlik geçişi (klavye, odak, `aria-live`, kontrast).
 
 **İçerik**
-- [ ] +30 olay (Modern Fizik Çağı) → 110.
+- [ ] Hat sürüyor → ~90 olay. 8 çağın kapak metinleri (İngilizce + çeviri).
 
-### Hafta 8: Kapalı beta
+### Hafta 8: İngilizce kapalı beta
 
 **Kod**
-- [ ] Alan adı bağla, HTTPS, üretim Supabase projesi (yerelden ayrı), yedekleme açık.
-- [ ] Performans turu: Lighthouse mobil 90+; JS bütçesi; font alt kümeleri.
-- [ ] Sentry.
-- [ ] Geri bildirim bağlantısı (`about` sayfası + her olayda "hata bildir" mailto).
+- [ ] Alan adı seç ve bağla (S14), üretim Supabase projesi, yedekleme.
+- [ ] Performans turu: Lighthouse mobil 90+; font alt kümeleri; JS bütçesi.
+- [ ] `about` sayfası (neden, kaynak politikası, düzeltmeler listesi, iletişim) 4 dilde.
 
 **İçerik**
-- [ ] `about` sayfası 4 dilde: neden, kaynak politikası, iletişim.
+- [ ] Hat sürüyor → ~120 olay.
 
-**Kilometre taşı M2**: 10 kişilik kapalı beta (en az 2'si Kırgızca, 2'si Rusça okuyan). Bir hafta kullanım, geri bildirim formu.
-Beta'dan 3 en büyük sorunu seç; Hafta 9'a taşı.
+**Kilometre taşı M2**: 10 kişilik İngilizce kapalı beta, 1 hafta, geri bildirim formu. 3 büyük sorun → Hafta 9.
 
 ---
 
 ## AY 3 — Derinlik ve lansman
 
-### Hafta 9: Beta düzeltmeleri, kişiler, bağlantılar
+### Hafta 9: Beta düzeltmeleri, kişiler, bağlantılar, gözden geçiriciler başlar
 
 **Kod**
 - [ ] Beta'nın 3 büyük sorunu.
-- [ ] `people`: admin CRUD, `/person/{slug}` sayfası, olay-kişi ilişkisi.
-- [ ] `event_links`: admin'de olay arayıp bağlama; detayda "Dayanır / Mümkün kıldı" listeleri.
+- [ ] `people` CRUD, `/person/{slug}`, olay-kişi ilişkisi (hat kişi önerilerini de üretir).
+- [ ] `event_links`: admin'de arayıp bağlama; detayda "Dayanır / Mümkün kıldı".
+- [ ] Kırgızca öğretmen ve Rusça gözden geçirici için `editor` hesapları; kısa kullanım rehberi (S13).
 
 **İçerik**
-- [ ] 40 kişi kaydı (4 dilde ad, kısa bio).
-- [ ] İlk 110 olay için bağlantılar (ortalama 3/olay → ~300).
+- [ ] Hat sürüyor → ~140 olay. 40 kişi. İlk 120 olay için bağlantılar (~3/olay; hat öneriyor, sen onaylıyorsun).
+- [ ] Gözden geçiriciler başlar: önem 5 olaylardan itibaren.
 
 ### Hafta 10: "Buraya nasıl geldik?" zinciri
 
 **Kod**
 - [ ] `v_chain` recursive sorgu (derinlik 6, döngü koruması).
-- [ ] `/chain/{slug}` görünümü: geriye akan nehir; mobilde akordeon.
-- [ ] İleri yön ("neyi mümkün kıldı").
-- [ ] Detay sayfasında büyük buton (bağlantı yoksa gizli).
+- [ ] `/chain/{slug}`: geriye akan nehir; mobil akordeon; ileri yön.
+- [ ] Detayda büyük buton.
 
 **İçerik**
-- [ ] +40 olay (Bilgi Çağı) → 150. Çevir.
-- [ ] 5 "vitrin zinciri" elle kontrol: akıllı telefon, mRNA aşısı, GPS, penisilin, JWST. Her biri 5+ seviye derinlikte anlamlı olsun.
+- [ ] Hat sürüyor → ~160 olay. 5 vitrin zinciri elle kontrol: akıllı telefon, mRNA aşısı, GPS, penisilin, JWST.
 
-### Hafta 11: Arama, cila, mobil QA
+### Hafta 11: Keşfet kanvası v1
 
 **Kod**
-- [ ] Postgres `tsvector` arama, dil başına; `/search` sayfası; üst çubukta arama.
-- [ ] Aydınlık tema + sistem tercihi + anahtar.
-- [ ] Klavye kısayolları.
-- [ ] Gerçek cihaz testi: eski Android (Chrome), iPhone Safari, masaüstü Firefox. Yavaş 3G simülasyonu.
-- [ ] Playwright üç akış yeşil; CI'da (GitHub Actions) her PR'da koşuyor.
+- [ ] `/explore`: SVG + d3-zoom, `xScale` ortak, Z0-Z2, 8 disiplin şeridi, önem tabanlı görünürlük, kümeleme ("+4"), görünür pencere dışını render etme.
+- [ ] Tıklayınca aynı panel; URL `?year&zoom&d`; Akış ↔ Keşfet geçişi konumu korur.
+- [ ] Masaüstü öncelikli; mobilde Z0 + sıkıştırma ile temel.
 
 **İçerik**
-- [ ] +50 olay (Bugün + eksik çağlar) → 200. Çevir. Bağla.
-- [ ] Tüm `machine` Türkçe/İngilizce çevirileri `reviewed` yap. Rusça için bir okuyucu bul; Kırgızca için 10-riskler'e bak.
+- [ ] Hat sürüyor → ~180 olay.
 
-### Hafta 12: Lansman
+### Hafta 12: Kanvas v1.1, cila, lansman
 
 **Kod**
-- [ ] Son Lighthouse turu (perf 90+, a11y 95+, SEO 95+).
-- [ ] Yedek/geri alma provası: veritabanını yedekten geri yükle, çalıştığını gör.
-- [ ] Sürüm etiketi `v1.0.0`; `CHANGELOG.md`.
+- [ ] Kanvas: Z3 + kişi yaşam çubukları, bağlantı çizgileri, mobil sıkıştırma cilası.
+- [ ] Klavye kısayolları, gerçek cihaz testi (modern iPhone/Android, masaüstü Firefox/Safari).
+- [ ] Playwright 3 akış + CI (GitHub Actions) her PR'da.
+- [ ] Son Lighthouse turu (perf 90+, a11y 95+, SEO 95+). Yedekten geri yükleme provası. `v1.0.0` etiketi, `CHANGELOG.md`.
 
-**Lansman**
-- [ ] Bir lansman metni 4 dilde (senin hikâyenle: "o yüzyıla gitsem hiçbir şey yapamazdım").
-- [ ] Paylaşım: kişisel çevre, Kırgız/Türk teknoloji toplulukları, Telegram kanalları, LinkedIn, Reddit (r/HistoryOfScience, r/Kyrgyzstan), Hacker News "Show HN".
-- [ ] Bir öğretmene doğrudan yaz: "sınıfta dener misin?"
-- [ ] Geri bildirim toplama (form + analitik), bir hafta sonra 3 büyük sorun listesi.
+**İçerik**
+- [ ] → 200 olay. Bağlantılar 300+. Türkçe ve İngilizce `reviewed` (sen). ky/ru gözden geçirme sürüyor, `machine` rozetli olanlar kalabilir.
 
-**Kilometre taşı M3 = v1.0**: 02'deki v1.0 kabul kriterleri yeşil. 200 olay, 4 dil, zincir görünümü, yayında.
+**Lansman (İngilizce)**
+- [ ] Lansman metni: senin hikâyen ("o yüzyıla gitsem hiçbir şey yapamazdım") + "yakında: 4 dil tam onaylı".
+- [ ] Hacker News "Show HN", Reddit (r/HistoryOfScience, r/InternetIsBeautiful), LinkedIn, Twitter/X, Telegram kanalları (Kırgız/Türk teknoloji toplulukları; ky/tr içerik rozetli de olsa var).
+- [ ] Bir öğretmene doğrudan yaz.
+- [ ] Bir hafta sonra: geri bildirim + analitik → 3 büyük sorun listesi.
+
+**Kilometre taşı M3 = v1.0**: 02'deki v1.0 kabul kriterleri yeşil. 200 olay, Akış + Keşfet, zincir, 4 dil altyapısı, İngilizce tam.
 
 ---
 
-## Her hafta tekrarlanan ritüel (30 dk)
+## Her hafta tekrarlanan ritüel
 
-1. Pazartesi: bu haftanın kutucuklarını aç; Claude Code'a 11-claude'daki haftanın başlangıç isteğini ver.
-2. Cuma: bitmeyenleri sonraki haftaya taşı, **neden** bitmediğini bir cümleyle 10-riskler'e ya da 09-kararlar'a yaz.
-3. Her hafta en az 1 olay yayınla; sıfır olan hafta "proje öldü" sinyalidir. Küçük de olsa ilerle.
+1. Her sabah 20 dk: Telegram bildirimi → `/admin/review` → onayla/düzelt/reddet.
+2. Pazartesi 10 dk: bu haftanın kutucuklarını aç; 11'deki haftanın isteğini Claude Code'a ver.
+3. Cuma 10 dk: bitmeyenleri taşı, nedenini 10-riskler'e ya da 09-kararlar'a bir cümleyle yaz.
+4. Sıfır onaylı hafta "hat bozuk ya da ben yokum" sinyalidir.
 
 ## Kapsam kesme kuralı (zaman daralınca)
 
 Sırayla kes, sırayla geri ekle:
-1. Aydınlık tema (karanlık yeter).
-2. Arama (200 olayda çağ + filtre yeter).
-3. Kişi sayfaları (kişi adları kartta metin olarak kalır).
-4. OG görselleri (statik tek görsel).
-5. **Asla kesme**: admin otomatik yayın, 4 dil, zincir görünümü, içerik doğruluğu.
+1. Kanvas Z3 + kişi çubukları (v1.1'e kalır).
+2. Kişi sayfaları (adlar kartta metin kalır).
+3. OG görselleri (statik tek görsel).
+4. Kanvasın tamamı (lansman Akış ile; kanvas 2 hafta sonra v1.1, R10).
+5. **Asla kesme**: admin otomatik yayın, otomatik içerik hattı, 4 dil altyapısı, zincir görünümü, dürüstlük bandı, içerik doğruluğu.
 
 ## 3 aydan sonrası (4-6. ay, taslak)
 
-- **4. ay**: Flutter mobil uygulama (Supabase Flutter SDK, çevrimdışı okuma, "bugün bilim tarihinde" bildirimi). `mobile/` klasörü.
-- **5. ay**: "Orada olsaydın" etkileşimli senaryolar (3 tane). Yakınlaştırılabilir kanvas modu (masaüstü).
-- **6. ay**: Kullanıcı katkısı (kaynaklı öneri formu, editör onayı). Öğretmen modu (sunum). 500 olay hedefi.
-- **Sürekli**: haftada 5-10 olay, Kırgızca ana dil gözden geçiricisi, sesli anlatım denemesi.
+- **4. ay**: ky/tr/ru gözden geçirme tamamlanır → dört dilli lansman (Kırgız ve Türk basını/toplulukları). Arama. Kanvas v2 (akıllı etiket yerleşimi, zinciri vurgula).
+- **5. ay**: Flutter mobil uygulama (Supabase Flutter SDK, çevrimdışı, "bugün bilim tarihinde" bildirimi). Harita görünümü.
+- **6. ay**: "Orada olsaydın" senaryoları. Kullanıcı olay önerisi. 500 olay hedefi (hat günde 2 → ayda 60 sürdürür).
+- **İhtiyaç doğunca**: Go backend'e geçiş (ADR-002 yolu).

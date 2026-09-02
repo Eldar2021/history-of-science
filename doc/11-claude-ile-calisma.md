@@ -14,7 +14,7 @@ Bu projeyi birlikte yürütüyoruz. Bu doküman, her oturumun verimli geçmesi i
 ## CLAUDE.md şablonu (repo köküne, Hafta 1)
 
 ```markdown
-# Bilim Tarihi Timeline (çalışma adı: Uchkun)
+# Uchkun (Учкун) — Bilim Tarihi Timeline
 
 Dört dilli (en, ru, ky, tr) bilim tarihi timeline sitesi. Dokümanlar `doc/` altında; önce `doc/00-README.md`.
 
@@ -28,7 +28,9 @@ Dört dilli (en, ru, ky, tr) bilim tarihi timeline sitesi. Dokümanlar `doc/` al
 - Şema değişikliği = yeni migration dosyası (`backend/supabase/migrations/NNNN_*.sql`) + `supabase gen types`.
 - Yıl formatlama sadece `web/lib/i18n/formatYear.ts` üzerinden. Negatif yıl = MÖ.
 - UI metni `web/messages/*.json`; içerik veritabanında. Kodda sabit metin yok.
-- Taslak içerik RLS ile gizli; frontend'de `status` filtresi ek güvenlik, birincil değil.
+- Taslak ve review içerik RLS ile gizli; frontend'de `status` filtresi ek güvenlik, birincil değil.
+- Otomatik içerik hattı (`backend/scripts/draft-next.ts`) yalnızca `status='review'` yazar; `published` yazan kod insan eylemi olmalı.
+- Zaman ölçeği tek fonksiyon: `web/lib/timeline/xScale.ts`; minimap ve Keşfet kanvası bunu paylaşır.
 - Türkçe büyük harf: `toUpperCase()` yasak; `toLocaleUpperCase('tr')` ya da hiç.
 - Her yeni font `Ңөү` ile test edilir.
 - Commit: İngilizce, `type(scope): özet`. Örn. `feat(timeline): sticky year indicator`.
@@ -40,6 +42,7 @@ Dört dilli (en, ru, ky, tr) bilim tarihi timeline sitesi. Dokümanlar `doc/` al
 - `cd backend && supabase db reset` — migration + seed baştan
 - `cd web && npm run gen:types` — Supabase tiplerini üret
 - `cd backend && npm run translate:missing` — eksik çevirileri üret
+- `cd backend && npm run draft:next` — içerik hattını elle bir kez çalıştır
 
 ## Kararlar
 Mimari kararlar `doc/09-kararlar-ADR.md`. Değiştirmeden önce oku.
@@ -60,10 +63,19 @@ Mimari kararlar `doc/09-kararlar-ADR.md`. Değiştirmeden önce oku.
 > Supabase Auth ile admin girişi, profiles.role, 04-mimari'deki RLS politikaları. /admin/events liste ve form (02'deki P0 alanlar). Server action kaydedince revalidateTag ile sitede anında görünsün. Playwright ile "admin ekler, sitede görünür" testini yaz. RLS'nin taslağı sızdırmadığını anonim istekle test et.
 
 ### Hafta 5
-> 06-i18n'deki çeviri hattını yap: web/lib/translate.ts Claude API ile, JSON şema doğrulamalı; /admin/translate/[id] dört dil yan yana; machine/reviewed rozetleri sitede. UI metinlerini 4 dile tamamla, check-i18n script'ini yaz.
+> 04-mimari'deki "Otomatik içerik hattı"nı yap: backend/scripts/draft-next.ts, Claude API web search ile 3+ kaynak, 03'teki şablona göre İngilizce JSON taslak, status='review' ve drafted_by='ai' ile Supabase'e yaz, Telegram'a bildir. GitHub Actions cron ekle. /admin/review kuyruğunu yap: Yayınla / Düzenle / Reddet. Önce elle 3 taslak üret, bana göster, prompt'u birlikte ayarlayalım.
 
-### İçerik oturumu (her hafta)
-> 03-icerik'teki şablon ve ses tonuyla şu olayları Türkçe yaz: [liste]. Her biri için en az 2 kaynak URL'si öner, yıl belirsizse söyle. Efsane olan kısımları "efsane" diye işaretle. Çıktıyı admin formuna yapıştırılacak biçimde ver.
+### Hafta 6
+> 06-i18n'deki çeviri hattını yap: web/lib/translate.ts Claude API ile, JSON şema doğrulamalı, kaynak dili olaydan okur, Kırgızca için tr+ru referanslı; /admin/translate/[id] dört dil yan yana; editor rolü; machine/reviewed rozetleri sitede. Görsel yükleme ve zorunlu lisans alanları. UI metinlerini 4 dile tamamla, check-i18n script'ini yaz.
+
+### Hafta 11
+> 05-timeline-ux'teki "Keşfet modu"nu yap: /explore, SVG + d3-zoom, xScale ortak fonksiyon, Z0-Z2 anlamsal zoom, 8 disiplin şeridi, importance'a göre görünürlük, kümeleme, görünür pencere dışını render etme, URL senkron, Akış ile geçişte konum korunur. Önce masaüstü. Başlamadan önce bileşen ve durum planını özetle.
+
+### İçerik oturumu (hat dışında elle yazmak istersen)
+> 03-icerik'teki şablon ve ses tonuyla şu olayları İngilizce (ya da Kırgızca/Türkçe) yaz: [liste]. Her biri için en az 2 kaynak URL'si öner, yıl belirsizse söyle. Efsane olan kısımları "efsane" diye işaretle. Çıktıyı admin formuna yapıştırılacak biçimde ver.
+
+### Hat kalitesi oturumu (Hafta 5'ten sonra ayda bir)
+> Son 30 gündeki review kuyruğunda reddedilen ve çok düzenlenen taslaklara bak (research_note ve fark). Ortak sorunları çıkar, draft-next.ts prompt'unu buna göre iyileştir, 3 yeni taslakla test et.
 
 ### Tasarım oturumu
 > 07'deki promptu kullanarak design becerisiyle timeline ekranının mobil karanlık tema konseptini üret. Kırgızca örnek metni kullan, Ңөү harflerini göster.

@@ -29,7 +29,7 @@
 
 ### Değerlendirilip elenenler
 
-- **Ayrı Node/Go backend**: 3 ay solo için fazla. Supabase RLS + Next.js server actions aynı işi görür. İhtiyaç doğarsa `backend/` klasöründe Supabase Edge Functions veya ayrı API eklenir; Postgres şeması zaten ortak.
+- **Ayrı Node/Go backend**: 3 ay solo için fazla. Supabase RLS + Next.js server actions aynı işi görür. Kararın: ileride Go ile kendi backend'imize geçebiliriz. Bunu kolaylaştırmak için: iş mantığı Postgres view/fonksiyonlarında ve `backend/scripts` içinde tutulur (Supabase'e değil Postgres'e bağlı); Supabase'e özgü tek şey Auth ve Storage. Geçişte Go API aynı Postgres'e bağlanır, Next.js sorguları Supabase client yerine Go API'ye yönlenir.
 - **Git tabanlı içerik (MDX)**: Admin paneli şartı var; markdown dosyası düzenlemek admin değil. Ayrıca 4 dil × 200 olay = 800 dosya.
 - **Headless CMS (Sanity, Payload, Strapi)**: Güçlü ama i18n ve olay-bağlantısı gibi özel modeli eğip bükmek gerekir; Supabase ile şemayı tam kontrol ederiz. Payload'ı ikinci aday olarak not ediyorum: admin UI'ı yazmak çok zaman alırsa 09-kararlar'da yeniden değerlendir.
 - **WordPress**: Hayır. Timeline UX'i için savaşmak gerekir.
@@ -89,7 +89,8 @@ MÖ 1 = -1, MÖ 585 = -585. Sıfır yılı yok, uygulama katmanı bunu bilir).
 ```sql
 create type locale_code as enum ('en', 'ru', 'ky', 'tr');
 create type year_precision as enum ('exact', 'circa', 'decade', 'century');
-create type content_status as enum ('draft', 'published');
+create type content_status as enum ('draft', 'review', 'published');
+create type author_kind as enum ('human', 'ai');
 create type translation_status as enum ('machine', 'human', 'reviewed');
 create type link_type as enum ('builds_on', 'enables', 'contradicts', 'parallel');
 
@@ -132,7 +133,9 @@ create table events (
   era_id        smallint references eras(id),
   importance    smallint not null default 3 check (importance between 1 and 5),
   status        content_status not null default 'draft',
-  source_locale locale_code not null default 'tr',   -- hangi dilde yazıldı
+  drafted_by    author_kind not null default 'human',
+  research_note text,                                  -- ai taslaklarda: hangi kaynaklar, hangi çelişkiler
+  source_locale locale_code not null default 'en',   -- hangi dilde yazıldı: ai → en, sen → ky/tr
   image_path    text,
   image_credit  text,
   image_license text,
@@ -242,9 +245,39 @@ Admin formu kaydet (server action)
 Yedek: sayfalar `revalidate = 300` (5 dk) ile de kendini yeniler; revalidate çağrısı unutulsa bile içerik 5 dk içinde görünür.
 Supabase Studio'dan elle düzenleme yapılırsa Database Webhook → `/api/revalidate` (gizli anahtarla) aynı işi görür.
 
+## Otomatik içerik hattı ("İçerik Fabrikası")
+
+Kararın: "Claude belirli saatte veri toplasın, bize uygun hazırlasın, bana bildirsin; ben onaylarsam yayına." Tasarım:
+
+```
+Her gece 03:00 (GitHub Actions cron)
+  → backend/scripts/draft-next.ts çalışır
+  → 03-icerik'teki çekirdek listeden henüz yazılmamış sıradaki 1-2 olayı seçer
+     (öncelik: önem 5 → 4 → 3; çağ dengesi gözetilir)
+  → Claude API (web search aracı açık) ile:
+       1. En az 3 kaynak bul (Britannica, SEP, Wikipedia, üniversite sayfaları)
+       2. Yıl/kesinlik çelişkilerini not et
+       3. 03'teki şablona göre İngilizce taslak yaz (JSON şema: title, summary, body, why_it_matters, if_you_were_there)
+       4. Disiplin, önem, olası kişi ve bağlantı önerileri
+  → Supabase'e status='review', drafted_by='ai', research_note dolu, sources tablosu dolu olarak yazar
+  → Telegram bot mesajı: "Yeni taslak: 1687 Newton Principia. Onay kuyruğu: /admin/review"
+Sabah sen:
+  → /admin/review: taslağı oku, düzelt (ya da ky/tr'de yeniden yaz), "Yayınla" → published
+  → "Yayınla + çevir": aynı anda ky/tr/ru makine çevirisi başlar
+  → "Reddet": status='draft' kalır, nedenini not alırsın; script bir sonrakine geçer
+```
+
+- Güvenlik: script sadece `review` yazar, asla `published`. Yayın kararı hep insan.
+- Kalite: Claude'a "emin değilsen `circa` işaretle ve research_note'a yaz" talimatı. Kaynak URL'leri kaydedilir; senin doğrulaman 10 dakikaya iner.
+- Ölçek: günde 2 taslak → ayda 60. 3 ayda 200 hedefi bu hatla rahat tutar (R1 riski çözülür).
+- Maliyet: taslak başına ~30-50 bin token (arama dahil) → ayda 60 taslak ≈ 5-10 $.
+- Alternatif zamanlayıcı: Claude Code'un bulut rutinleri (`/schedule`) aynı işi yapabilir; ama GitHub Actions + kendi script'imiz tamamen bizim kontrolümüzde ve ücretsiz. Önce bu.
+- Bildirim: Telegram bot (ücretsiz, 20 satır kod). E-posta (Resend) yedek.
+- Kapatma anahtarı: `CONTENT_PIPELINE_ENABLED=false` → script hiçbir şey yapmaz. Kuyrukta 10'dan fazla onay bekleyen varsa yeni taslak üretmez (birikmesin).
+
 ## Çeviri hattı
 
-1. Admin bir olayı `source_locale` dilinde yazar, kaydeder.
+1. Olay `source_locale` dilinde var (Claude taslağı: en; senin yazdığın: ky ya da tr). Kaynak dil olay başına seçilir; form bunu sorar.
 2. "Diğer dillere çevir" → server action → Claude API'ye şu bağlamla gider: alanlar, ses tonu kuralları (03-icerik), terim sözlüğü (06-i18n), hedef dil.
 3. Dönen 3 çeviri `status = 'machine'` ile kaydedilir.
 4. Admin çeviri ekranında yan yana görür, düzeltir → `status = 'reviewed'`.
@@ -266,7 +299,10 @@ Maliyet: 600 kelimelik olay × 3 dil ≈ 5-8 bin token ≈ birkaç cent. 200 ola
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=        # sadece sunucu, sadece revalidate/seed scriptleri
-ANTHROPIC_API_KEY=                # sadece sunucu
+ANTHROPIC_API_KEY=                # sadece sunucu ve GitHub Actions
+TELEGRAM_BOT_TOKEN=               # içerik hattı bildirimi
+TELEGRAM_CHAT_ID=
+CONTENT_PIPELINE_ENABLED=true
 REVALIDATE_SECRET=                # webhook için
 NEXT_PUBLIC_SITE_URL=
 ```
@@ -289,4 +325,4 @@ NEXT_PUBLIC_SITE_URL=
 | Alan adı      | ~1 $               | ~1 $                                                                                 |
 | Plausible     | 0 $ (deneme) / 9 $ | 9 $                                                                                  |
 
-İlk yıl toplam: 100 $'ın altında.
+İlk yıl toplam: 200 $'ın altında; büyük kısmı Claude API.

@@ -1,4 +1,4 @@
-# Bilim Tarihi Timeline Projesi — Dokümantasyon Rehberi
+# Uchkun (Учкун) — Bilim Tarihi Timeline — Dokümantasyon Rehberi
 
 Bu klasör projenin "beyni"dir. Kod yazmadan önce burada düşündük, karar verdik ve yol haritasını çizdik.
 Her dosya tek bir konuya odaklanır. Sırayla okumak en iyisidir, ama her biri tek başına da anlaşılır.
@@ -24,7 +24,8 @@ Her dosya tek bir konuya odaklanır. Sırayla okumak en iyisidir, ama her biri t
 Bilim insanı olmayan ama bilime hayranlıkla bakan insanlar için, insanlığın Thales'ten yapay zekâya nasıl geldiğini
 **adım adım, zincir halinde** gösteren, dört dilli (en, ru, ky, tr), modern bir timeline sitesi.
 Bir admin paneli üzerinden yıl + başlık + açıklama girilen her olay otomatik olarak sitede görünür.
-Üç ayda: yayında, dört dilde, 200+ olayla, "Buraya nasıl geldik?" zincir görünümüyle v1.0.
+Üç ayda: İngilizce yayında, dört dilde içerik, 200+ olay, "Buraya nasıl geldik?" zinciri ve yakınlaştırılabilir Keşfet kanvasıyla v1.0.
+İçeriğin büyük kısmını Claude her gece otomatik hazırlar, sen sabah onaylarsın.
 
 ## Nasıl kullanılır
 

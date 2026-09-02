@@ -14,7 +14,7 @@ Karıştırma: UI metni veritabanına, içerik JSON'a gitmez.
 - Her sayfa dil ön ekli: `/tr/timeline`, `/ky/event/newton-principia`.
 - Ön eksiz `/` → tarayıcı dili (`Accept-Language`) ile eşleşen dile 302; eşleşme yoksa `en`.
   Sıra: `ky`, `tr`, `ru`, `en` (tr-TR, ru-RU, ky-KG, en-*). Kullanıcı elle dil seçince çerezde kalır.
-- Admin dil ön eksiz: `/admin`. Admin arayüzü tek dil (Türkçe veya İngilizce, sen seç), çünkü tek kullanıcı.
+- Admin dil ön eksiz: `/admin`. Admin arayüzü de 4 dilde (kararın); dil tercihi profilde saklanır, aynı `messages/*.json` mekanizması. Ek maliyet: ~80 anahtar daha.
 - `hreflang` etiketleri her sayfada 4 dil + `x-default`. SEO için şart.
 - Slug dilden bağımsız, İngilizce: `/ky/event/newton-principia`. Dil başına slug 4 kat karmaşıklık, sıfır kazanç.
 
@@ -44,29 +44,36 @@ Kurallar:
 - **Sayılar**: 1.000 (tr) vs 1,000 (en) vs 1 000 (ru). Sitede büyük sayı az; olduğunda `Intl.NumberFormat`.
 - **Metin uzunluğu**: Rusça ve Kırgızca İngilizce'den ~%30 uzun. Buton ve çip tasarımı en uzun dille test edilir. "Zamana düş" → "Убакытка секир" gibi.
 
+## Yayın sırası ve kaynak dil (kararların)
+
+- **İngilizce önce.** Kaynaklar İngilizce, Claude'un otomatik içerik hattı İngilizce taslak üretir, hızlı yayına çıkarız. Kapalı beta (8. hafta) İngilizce.
+- **Sonra ky, tr, ru.** Makine çevirisi rozetle hemen; insan onayı sırayla: ky (sen + Kırgızca öğretmen tanıdığın), tr (sen), ru (tanıdığın gözden geçirici).
+- **Kaynak dil olay başına.** Claude taslakları `en`; senin kendi yazdıkların `ky` ya da `tr`. İçinde çevrilmemiş İngilizce terim olabilir; sorun değil, çeviri hattı ve sözlük bunu çözer. Formda "kaynak dil" alanı.
+- Sen ky/tr yazınca → en/ru makine çevirisi; en'i sen kontrol edersin.
+
 ## Kırgızca özel notlar
 
 Kırgızca bu projede en değerli ve en zor dil. İkisi de aynı sebepten: kaynak az.
 
 - **Alfabe**: Kiril + `Ң ң`, `Ө ө`, `Ү ү`. Seçilen her font bu üç harfi **gerçekten** içermeli. Kontrol: font örnek metni `Ңөү` içersin. Inter, Manrope, Golos Text, Noto Sans, PT Sans içerir. Bazı süslü display fontlar içermez → başlık fontu için Playfair Display (içerir) ya da Cormorant (içerir) test edilir.
 - **Terminoloji**: Bilim terimleri Kırgızcada çoğu zaman Rusçadan ödünç. "Kuantum" → "квант", "hücre" → "клетка" mı "жасуу" mu? Bir **terim sözlüğü** (`backend/scripts/glossary.ky.json`) tutulur; Claude'a çeviri isteğinde bu sözlük verilir. Sözlük ilk 50 olayla birlikte büyür.
-- **Makine çevirisi kalitesi**: Claude Kırgızcada Türkçe ve Rusçadan zayıf. Süreç: Claude Kırgızca taslağı **Türkçe ve Rusça çevirileri de görerek** üretir (üç kaynak, tutarlılık artar). `machine` rozeti ile yayınlanır; ana dili Kırgızca bir gözden geçirici bulunana kadar bu böyle kalır. 10-riskler'de açık soru.
+- **Makine çevirisi kalitesi**: Claude Kırgızcada Türkçe ve Rusçadan zayıf. Süreç: Claude Kırgızca taslağı **Türkçe ve Rusça çevirileri de görerek** üretir (üç kaynak, tutarlılık artar). `machine` rozeti ile yayınlanır. Sonra sen okursun, bilim terimleri için Kırgızca öğretmen tanıdığın kontrol eder → `reviewed`. Öğretmen için `/admin/translate` ekranına `editor` rolü (sadece çeviri düzenler, yayınlayamaz).
 - **Ses tonu**: Kırgızca metinde resmi "сиз" değil, samimi ama saygılı anlatıcı sesi. Sözlükte örnek cümleler.
 
 ## Rusça notlar
 
-- Rusça okuyucu Orta Asya'nın en geniş kitlesi. Rusça çeviri kalitesi yüksek olmalı; Claude iyi.
+- Rusça okuyucu Orta Asya'nın en geniş kitlesi. Rusça çeviri kalitesi yüksek olmalı; Claude iyi. Rusça gözden geçiricin var; ona da `editor` rolü.
 - Bilim insanı adları: Rusça yazımı yerleşik olanları kullan (Ньютон, Эйнштейн, Аль-Хорезми). Tutarlılık için `people` tablosunda her dilde ad.
 - "Вы" değil anlatıcı "мы" ve "ты" arasında: okuyucuya doğrudan sesleniş yerine nötr anlatım tercih.
 
 ## Türkçe notlar
 
-- Ses: senin sesin. En doğal dil bu; kaynak dil olarak Türkçe önerilir (`source_locale = 'tr'`), ya da sen İngilizce daha rahat yazıyorsan en.
+- Ses: senin sesin. Kendi yazdığın olaylarda kaynak dillerden biri (`source_locale = 'tr'`).
 - Bilim insanı adları: yerleşik Türkçe yazım (Kopernik, Öklid, Batlamyus, İbn-i Heysem, Uluğ Bey).
 
 ## İngilizce notlar
 
-- Uluslararası vitrin, SEO'nun büyük kısmı, `x-default`.
+- Uluslararası vitrin, SEO'nun büyük kısmı, `x-default`. **İlk yayın dili.** Otomatik içerik hattının kaynak dili.
 - Amerikan yazım (color, center). BCE/CE kullan, BC/AD değil.
 
 ## Çeviri hattı detayı

@@ -17,7 +17,7 @@
 
 **Değil**: Neon "uzay oyunu", parlak gradient'ler, dev illüstrasyonlar, bilim ikonları (atom, DNA, roket klişeleri), bulanık cam efektleri.
 
-**Ana renk düzeni**: Karanlık tema birincil (gece gözlemevi). Aydınlık tema: "sabah, gözlem defteri": kırık beyaz kâğıt, koyu mürekkep.
+**Renk düzeni**: İki tema eşit ağırlıkta üretilir (kararın: ikisini de görüp seçeceksin). Karanlık: "gece gözlemevi". Aydınlık: "sabah, gözlem defteri": kırık beyaz kâğıt, koyu mürekkep. Konsept sonrası biri birincil seçilir, diğeri anahtarla kalır.
 
 **Tipografi**: Yıllar ve çağ adları için karakterli bir serif (Cyrillic + `Ңөү` destekli). Metin için temiz bir sans.
 Rakamlar tabular. Yıl sayısı sayfanın en büyük tipografik ögesi.
@@ -27,8 +27,9 @@ Rakamlar tabular. Yıl sayısı sayfanın en büyük tipografik ögesi.
 ## PROMPT
 
 ```
-You are designing the visual concept for a science-history timeline website. Working name: "Uchkun" (Kyrgyz for "spark";
-treat the name as a placeholder, do not build a logo around its literal meaning).
+You are designing the visual concept for a science-history timeline website named "Uchkun" (Учкун, Kyrgyz for "spark").
+The name is final. A wordmark is welcome; a subtle nod to a spark or a single point of light is fine, but no cartoon
+spark icon, no flame emoji energy. The wordmark must work in Latin ("Uchkun") and Cyrillic ("Учкун").
 
 ## What the product is
 A modern, story-driven timeline of how humanity got from Thales (585 BCE) to CRISPR and AI (today). It is for curious
@@ -48,9 +49,9 @@ the 20th century feels dense and bright. Feeling: awe, calm, trust. Documentary,
 Avoid: neon "space game" aesthetics, loud gradients, glassmorphism blur, stock science icons (atoms, DNA helices, rockets,
 lightbulbs), illustrated mascots, decorative particles that move constantly. Restraint is the brand.
 
-Primary theme is dark ("night at the observatory"). Provide a light theme too ("morning, the observer's notebook"):
-off-white paper, near-black ink, the same accent system. Both themes must pass WCAG AA (4.5:1) for body text; aim AAA
-(7:1) on the dark theme.
+Design two themes with equal care; the client will choose the primary one after seeing both. Dark: "night at the
+observatory". Light: "morning, the observer's notebook": off-white paper, near-black ink, the same accent system.
+Both themes must pass WCAG AA (4.5:1) for body text; aim AAA (7:1) on the dark theme.
 
 ## Typography
 - Display serif for years, era names, event titles: characterful, slightly editorial, with Cyrillic support and the Kyrgyz
@@ -85,15 +86,27 @@ off-white paper, near-black ink, the same accent system. Both themes must pass W
    Sections: year + precision label ("c. 300 BCE"), title, summary, one image with credit line, body text, a highlighted
    box "Why it matters", a second small box "If you were there…", discipline chips, people, "Builds on" and "Made possible"
    link lists, sources, and a prominent button "How did we get here?".
-4. "How did we get here?" chain view: the selected event at top, then its prerequisites flowing backwards level by level
+4. "Explore" mode: a real-scale, zoomable canvas of all 2,600 years. Horizontal axis is time at true scale; eight
+   horizontal discipline lanes in their colors. Show three zoom levels side by side: (a) zoomed all the way out, where
+   the eight eras appear as blocks and only landmark events are dots with tiny labels, and the left two-thirds of the
+   canvas is nearly empty while the right edge is dense; (b) zoomed to one century (1600–1700) with small cards
+   appearing in lanes; (c) zoomed to a decade (1665–1675) with full cards, people shown as lifespan bars, and thin
+   curved "builds on" connectors between events. A fixed year ruler on top; a "Back to flow" button; zoom controls.
+   Mobile: the zoomed-out state with a hint "pinch to zoom".
+5. "How did we get here?" chain view: the selected event at top, then its prerequisites flowing backwards level by level
    like a river delta in reverse, years on the left, small cards, curved connectors. Up to six levels. Mobile: accordion.
-5. Era chapter page: full-bleed quiet header with the era name, date range, a two-sentence thesis, then the events of the era.
-6. Admin event editor (utility, not brand): a clean form with year, precision, importance, title, summary, body (markdown),
+6. Era chapter page: full-bleed quiet header with the era name, date range, a two-sentence thesis, then the events of the era.
+7. Admin event editor (utility, not brand): a clean form with year, precision, importance, title, summary, body (markdown),
    why it matters, if you were there, disciplines, people, links, sources, image with mandatory credit, status
    draft/published; plus a side-by-side four-language translation view with a "Translate with AI" button and
-   "machine / reviewed" status badges. Keep it plain, fast, keyboard-friendly.
-7. States: loading skeleton for the timeline, "not yet translated into Kyrgyz" badge on a card, "auto-translated" badge,
+   "machine / reviewed" status badges. Also a "Review queue" screen: a list of AI-drafted events awaiting approval, each
+   with a research note and source links, and three actions: Publish, Edit, Reject. The admin UI itself is localized
+   into the same four languages. Keep it plain, fast, keyboard-friendly.
+8. States: loading skeleton for the timeline, "not yet translated into Kyrgyz" badge on a card, "auto-translated" badge,
    empty filter result, image-less event card (discipline color with the year set large as the visual).
+9. The "honesty band": a small, warm, persistent note in the footer of every page (and once on the landing page):
+   "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be
+   glad to fix it." with a "Report an error" link. Design it as a signature, not a disclaimer: humble, human, readable.
 
 ## Motion (describe, do not overdo)
 - Entry: pressing "Fall into time" dims the screen, the year counter spins backwards from 2026 to 585 BCE in ~1.5s,
@@ -103,7 +116,7 @@ off-white paper, near-black ink, the same accent system. Both themes must pass W
 
 ## Deliverables
 - Mood/direction board (1 board): typography, palette, three reference images or sketches, one paragraph of rationale.
-- The seven screens above, mobile and desktop, dark theme; the timeline and event detail additionally in light theme.
+- The nine screens above, mobile and desktop. Timeline, event detail, explore mode and landing in BOTH themes; the rest in dark.
 - A component sheet: buttons (primary, secondary, ghost), chips, badges, cards (3 importance sizes), the time-gap marker,
   the minimap, the year display, the language switcher, form fields.
 - Design tokens as a list: color names + hex for both themes, type scale (px/rem + line heights), spacing scale, radius,
@@ -129,6 +142,8 @@ off-white paper, near-black ink, the same accent system. Both themes must pass W
 - "Propose two alternative display serifs and set the Kyrgyz sample in each."
 - "Design the time-gap marker three ways: dotted line, compressed ruler ticks, and a small text-only note."
 - "Give me a light-theme version of the chain view."
+- "In explore mode the lanes feel like a spreadsheet; soften the lane boundaries and try lanes as faint bands of color."
+- "Show the wordmark 'Uchkun / Учкун' in three treatments: pure type, type with a single point of light, type with a thin horizontal line."
 
 ## Token çıkarma promptu
 

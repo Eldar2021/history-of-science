@@ -19,6 +19,7 @@ Format: Bağlam → Karar → Gerekçe → Sonuçlar → Alternatifler.
 - **Gerekçe**: İki servis, ikisi de yönetilen. Ayrı API sunucusu bakım yükü ve deploy karmaşıklığı getirir, 3 ayda değer katmaz.
 - **Sonuçlar**: `backend/` klasörü SQL migration + script'lerden ibaret. Flutter Supabase SDK ile aynı veriye bağlanır.
 - **Alternatifler**: Payload CMS (admin UI hazır gelir; timeline'a özel modeli eğmek gerekir). Hafta 4 sonunda admin UI beklenenden 2 kat uzun sürdüyse yeniden değerlendir.
+- **Gelecek yolu (kararın)**: Ücretsiz katman yetmezse veya kontrol istenirse Go ile kendi backend. Hazırlık: iş mantığı Postgres'te ve script'lerde, Supabase'e özgü yalnızca Auth/Storage. Geçiş: Go API aynı Postgres'e bağlanır.
 
 ## ADR-003: Çeviriler veritabanında, dil başına satır
 **Tarih**: 2026-09-02 · **Durum**: Kabul
@@ -37,11 +38,11 @@ Format: Bağlam → Karar → Gerekçe → Sonuçlar → Alternatifler.
 - **Karar**: `/ky/event/newton-principia`. Dil başına slug yok.
 - **Gerekçe**: Dil değiştirince aynı sayfada kalmak, `hreflang` eşleştirme, paylaşım linklerinin sadeliği. Dil başına slug'ın SEO faydası bu ölçekte önemsiz.
 
-## ADR-006: Timeline ölçeği olay sıralı + gerçek ölçekli minimap
-**Tarih**: 2026-09-02 · **Durum**: Kabul
-- **Karar**: Ana akış olayları eşit aralıkla dizer, büyük boşluklarda "zaman boşluğu" işareti; minimap gerçek ölçek.
-- **Gerekçe**: 05-timeline-ux'teki değerlendirme. Doğrusal ölçek kullanılamaz, logaritmik anlaşılmaz, kanvas riskli.
-- **Sonuçlar**: Yakınlaştırılabilir kanvas 6. ay+ için not.
+## ADR-006: İki görünüm: olay sıralı Akış + gerçek ölçekli yakınlaştırılabilir Keşfet kanvası
+**Tarih**: 2026-09-02 (güncellendi aynı gün) · **Durum**: Kabul
+- **Karar**: Varsayılan görünüm Akış: olaylar eşit aralıklı, büyük boşluklarda "zaman boşluğu" işareti, altta gerçek ölçekli minimap. İkinci görünüm Keşfet: gerçek ölçekli, anlamsal yakınlaştırmalı kanvas, disiplin şeritli. 3. ayda (Hafta 11-12) gelir.
+- **Gerekçe**: Senin kararın: kanvas "olmalı, çok kullanışlı ve etkileyici". Katılıyorum; riski sıralamayla yönetiyoruz: Akış önce (kanvas gecikirse site çalışır), kanvas sonra. Minimap ve kanvas aynı ölçek fonksiyonunu paylaşır; kod tekrarı yok.
+- **Sonuçlar**: `importance` alanı zorunlu ve anlamlı olmalı (zoom seviyesinde görünürlüğü belirler). Arama v1.0'dan çıkarıldı (kanvasa yer açmak için).
 
 ## ADR-007: Bağlantılar tek yönlü saklanır (`builds_on`)
 **Tarih**: 2026-09-02 · **Durum**: Kabul
@@ -55,10 +56,11 @@ Format: Bağlam → Karar → Gerekçe → Sonuçlar → Alternatifler.
 - **Gerekçe**: Dürüstlük ilkesi. Kırgızca ve Rusça okuyucuya "hiç yok"tansa "var ama otomatik" daha faydalı. Rozet geri bildirim daveti.
 - **Sonuçlar**: Rozet tasarımı gerekir. Gözden geçirilince kaybolur.
 
-## ADR-009: Kaynak dil Türkçe (geçici)
-**Tarih**: 2026-09-02 · **Durum**: Öneri, senin onayını bekliyor
-- **Karar**: `source_locale` varsayılanı `tr`. Sen Türkçe yazarsın, hat diğer üçüne çevirir.
-- **Gerekçe**: Ses tonu en doğal ana dilinde çıkar. İngilizce ile daha rahatsan `en` yap; kod değişmez.
+## ADR-009: Kaynak dil olay başına; Claude taslakları `en`, senin yazdıkların `ky`/`tr`
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: `events.source_locale` olay başına. Otomatik içerik hattı İngilizce üretir. Sen Kırgızca ve Türkçe yazarsın; içinde çevrilmemiş İngilizce terim olabilir.
+- **Gerekçe**: Kaynaklar İngilizce; hızlı yayın için İngilizce önce. Senin sesin ky/tr'de en doğal.
+- **Sonuçlar**: Çeviri hattı kaynak dili olaydan okur. Sözlük İngilizce terimleri de kapsar.
 
 ## ADR-010: Taslaklar veritabanı seviyesinde gizli (RLS)
 **Tarih**: 2026-09-02 · **Durum**: Kabul
@@ -72,6 +74,40 @@ Format: Bağlam → Karar → Gerekçe → Sonuçlar → Alternatifler.
 - **Gerekçe**: Telif sorunu siteyi kapatabilir. Sonradan toplamak imkânsız.
 
 ---
+
+## ADR-012: İsim Uchkun / Учкун
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: Site adı Uchkun (Kırgızca "kıvılcım"). Latin ve Kiril yazımı birlikte kullanılır.
+- **Sonuçlar**: Alan adı sonra (uchkun.science / .kg / .org). Tasarım promptu wordmark ister.
+
+## ADR-013: İngilizce önce yayın, sonra ky, tr, ru
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: Kapalı beta ve lansman İngilizce içerikle. Diğer üç dil makine çevirisiyle rozetli, insan onayı sırayla.
+- **Gerekçe**: Kaynaklar İngilizce, otomatik hat İngilizce üretir, hızlı yayın. Kırgızca öğretmen ve Rusça gözden geçirici hazır; onlar İngilizce yayından sonra devreye girer.
+- **Sonuçlar**: Tasarım ve veri modeli baştan dört dilli; sadece içerik sırası değişir.
+
+## ADR-014: Otomatik içerik hattı (Claude her gece taslak, insan onayı şart)
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: GitHub Actions cron + `backend/scripts/draft-next.ts` + Claude API (web search). Sonuç `status='review'`, `drafted_by='ai'`, kaynaklar ve araştırma notuyla. Telegram bildirimi. Yayın kararı yalnızca insan.
+- **Gerekçe**: R1 (içerik darboğazı) için senin önerin. Doğrulama süresi olay başına 45 dk'dan 10 dk'ya iner.
+- **Sonuçlar**: `events.status` üç değer: draft/review/published. `/admin/review` kuyruğu. Kapatma anahtarı ve "kuyrukta 10+ varsa üretme" kuralı.
+
+## ADR-015: İki tema eşit üretilir, birincil sonra seçilir
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: Claude Design karanlık ve aydınlık temayı eşit ağırlıkta üretir; sen görüp birincili seçersin. Diğeri anahtarla kalır.
+
+## ADR-016: Hedef cihaz modern telefonlar; eski Android hedeflenmez
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: Son 4-5 yılın cihazları hedef. Eski Android için özel optimizasyon yok. Lighthouse 90 hedefi kalır (modern cihazda akıcılık göstergesi).
+
+## ADR-017: Dürüstlük bandı her sayfada
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: Alt bilgide 4 dilde: "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız." + "Hata bildir" bağlantısı (olay sayfasında olay bilgisini otomatik ekler).
+- **Gerekçe**: R2 için senin önerin. Zayıflık değil güven kaynağı; hata bildirimi ücretsiz editör kazandırır.
+
+## ADR-018: Admin arayüzü 4 dilde
+**Tarih**: 2026-09-02 · **Durum**: Kabul
+- **Karar**: Admin de `messages/*.json` ile en/ky/tr/ru. Kırgızca öğretmen ve Rusça gözden geçirici `editor` rolüyle kendi dillerinde çalışır.
 
 ## Şablon (yeni karar için)
 

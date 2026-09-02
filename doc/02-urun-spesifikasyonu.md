@@ -41,7 +41,9 @@ Bu doküman "ne yapılacak"ı netleştirir. "Nasıl" için 04-mimari ve 05-timel
 - **P1** Bir çağa (örn. "Bilimsel Devrim") doğrudan atlarım.
 - **P1** Sadece bir disiplini (örn. astronomi) görürüm; diğerleri soluklaşır ya da kaybolur.
 - **P1** Bir olayın "neye dayandığı" ve "neyi mümkün kıldığı"nı görür, zincir boyunca yürürüm.
-- **P1** Bir olayı ararım.
+- **P1** Keşfet modunda iki parmakla / tekerlekle yakınlaşıp uzaklaşır, 2600 yılın gerçek ölçeğini hissederim.
+- **P0** Her sayfada "yapan kişi bilim insanı değil, hata gördüysen bildir" notunu görür, tek tıkla bildirim gönderirim.
+- **P2** Bir olayı ararım.
 - **P1** Bir olayın linkini paylaşınca güzel bir önizleme kartı çıkar (OG image).
 - **P2** "Geriye sar" modunda bugünden başlayıp geçmişe doğru giderim.
 - **P2** Karanlık/aydınlık temayı seçerim (sistem tercihini otomatik alır).
@@ -55,7 +57,9 @@ Bu doküman "ne yapılacak"ı netleştirir. "Nasıl" için 04-mimari ve 05-timel
 - **P0** MÖ yıl girebilirim (negatif sayı ya da "MÖ" onay kutusu). "Yaklaşık" işaretleyebilirim.
 - **P0** Olaya bir veya birden fazla disiplin atarım.
 - **P0** Olayı silebilirim (yumuşak silme: geri alınabilir).
-- **P1** Bir dilde yazar, "çevir" derim; diğer 3 dile taslak çeviri gelir; düzenler, onaylarım.
+- **P1** Bir dilde (ky, tr ya da en) yazar, "çevir" derim; diğer 3 dile taslak çeviri gelir; düzenler, onaylarım.
+- **P1** Her sabah onay kuyruğunda Claude'un hazırladığı 1-2 yeni olay taslağını (kaynaklarıyla) bulurum; okur, düzeltir, yayınlarım. Bildirim Telegram/e-posta ile gelir.
+- **P1** Admin arayüzünü kendi dilimde (ky/tr/en/ru) kullanırım.
 - **P1** Bir olayı başka olaylara "dayanır / mümkün kıldı" ile bağlarım (arama ile seçerek).
 - **P1** Olaya kişi(ler) eklerim.
 - **P1** Görsel yüklerim; lisans/atıf alanını doldurmadan kaydedemem.
@@ -99,10 +103,12 @@ Bu doküman "ne yapılacak"ı netleştirir. "Nasıl" için 04-mimari ve 05-timel
 
 ## Kabul kriterleri (v1.0, 12. hafta sonu)
 
-- [ ] 200+ yayınlanmış olay, 150+'si dört dilde.
+- [ ] 200+ yayınlanmış olay İngilizce; 150+'si dört dilde (ky/tr sen + Kırgızca öğretmen, ru gözden geçirici; kalanlar `machine` rozetli).
 - [ ] Çağ, disiplin, kişi sayfaları çalışıyor.
 - [ ] "Buraya nasıl geldik?" zincir görünümü en az 20 olay için anlamlı zincir üretiyor.
-- [ ] Arama çalışıyor (dile duyarlı).
+- [ ] Keşfet (kanvas) modu masaüstünde Z0-Z2, mobilde sıkıştırma ile çalışıyor; akış moduyla URL uyumlu.
+- [ ] Onay kuyruğu çalışıyor; en az 50 olay bu hattan geçmiş.
+- [ ] Dürüstlük bandı ve hata bildirimi 4 dilde her sayfada.
 - [ ] OG görselleri otomatik üretiliyor; Twitter/WhatsApp/Telegram'da önizleme düzgün.
 - [ ] Çeviri ekranı çalışıyor; makine çevirisi rozeti sitede görünüyor.
 - [ ] Lighthouse: performans 90+, erişilebilirlik 95+, SEO 95+.
@@ -114,5 +120,6 @@ Bu doküman "ne yapılacak"ı netleştirir. "Nasıl" için 04-mimari ve 05-timel
 - Kullanıcı hesabı, yorum, beğeni, favori (P2+, belki hiç).
 - Çoklu admin / rol yönetimi (tek admin yeter; ikinci editör gelirse `editor` rolü eklenir).
 - WYSIWYG editör (markdown + önizleme yeter).
+- Arama (v1.0'da yok; çağ + disiplin filtresi + kanvas yeterli; 4. ay).
 - Gerçek zamanlı işbirliği.
 - Mobil uygulama (4. ay+).

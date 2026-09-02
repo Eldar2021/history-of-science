@@ -1,80 +1,95 @@
 # 10 — Riskler ve Açık Sorular
 
-## Senin cevaplaman gereken sorular (Hafta 1)
+## Cevaplanan sorular (2026-09-02)
 
-Her biri tek satır cevap ister. Cevapları bu dosyaya yaz; ben okuyup ilgili ADR'yi güncelleyeyim.
+| #   | Soru                      | Cevabın                                                              | Nereye işlendi                                          |
+| --- | ------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------- |
+| S1  | Sitenin adı?              | **Uchkun / Учкун**                                                   | ADR-012, 01, 07, README                                 |
+| S2  | Kaynak dil?               | Kırgızca ve Türkçe yazarım; arada İngilizce terim kalabilir          | ADR-009, 04 (`source_locale` olay başına), 06           |
+| S3  | Admin dili?               | en, ky, tr, ru; dördü de                                             | ADR-018, 02, 06                                         |
+| S4  | Alan adı?                 | Henüz yok, sonra                                                     | 8. haftada seçilir; adaylar uchkun.science / .kg / .org |
+| S5  | Haftada kaç saat?         | 10-15                                                                | 08 plan buna göre; değişmedi                            |
+| S6  | Kırgızca gözden geçirici? | Çoğunlukla ben; bilim terimleri için Kırgızca öğretmen tanıdığım var | 06, ADR-018 (`editor` rolü)                             |
+| S7  | Rusça gözden geçirici?    | Var                                                                  | 06                                                      |
+| S8  | Tasarım aracı?            | Claude Design                                                        | 07                                                      |
+| S9  | İlk lansman kitlesi?      | İngilizce önce (veri hazır, hızlı yayın), sonra ky, tr, ru           | ADR-013, 08 yeniden düzenlendi                          |
+| S10 | Karanlık tema ana mı?     | İkisini de görüp seçeceğim                                           | ADR-015, 07 iki tema eşit                               |
 
-| # | Soru | Seçenekler | Öneri | Cevabın |
-|---|------|-----------|-------|---------|
-| S1 | Sitenin adı? | Uchkun / Kıvılcım / Eureka / Lumen / başka | Uchkun | |
-| S2 | Kaynak dil (sen hangi dilde yazacaksın)? | tr / en | tr | |
-| S3 | Admin arayüzü dili? | tr / en | tr | |
-| S4 | Alan adı var mı, hangisi? | .kg / .com / .org / .science | isim seçince bakarız | |
-| S5 | Haftada kaç saat ayırabilirsin? | 5 / 10-15 / 25+ | plan 10-15'e göre | |
-| S6 | Kırgızca ana dil gözden geçirici tanıyor musun? | evet/hayır/bulurum | 2. ay sonuna kadar bul | |
-| S7 | Rusça gözden geçirici? | evet/hayır | 3. ay | |
-| S8 | Tasarım aracı? | Claude Design / Figma Make / Figma elle | Claude Design ile başla | |
-| S9 | Hedef lansman kitlesi ilk kim? | Kırgızistan / Türkiye / global | Kırgızistan + Türkiye (ana dil avantajı) | |
-| S10 | Karanlık tema ana tema, tamam mı? | evet/hayır | evet | |
+## Kalan açık sorular
 
-## Riskler
+| #   | Soru                                                                 | Ne zaman | Not                                            |
+| --- | -------------------------------------------------------------------- | -------- | ---------------------------------------------- |
+| S11 | Bildirim kanalı: Telegram bot mu, e-posta mı?                        | Hafta 5  | Öneri Telegram (ücretsiz, anlık)               |
+| S12 | Hata bildirimi nereye düşsün: e-posta mı, admin'de "bildirimler" mi? | Hafta 7  | Öneri: ikisi; e-posta yedek                    |
+| S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman başlasın?        | Hafta 9  | İngilizce beta bitince; onlara `editor` hesabı |
+| S14 | Alan adı hangisi?                                                    | Hafta 8  | Müsaitlik kontrolü                             |
+| S15 | Birincil tema?                                                       | Hafta 2  | Konsepti görünce                               |
 
-Olasılık × etki sırasıyla. Her riskin bir erken uyarı sinyali ve bir planı var.
+## Riskler (cevaplarınla güncellendi)
 
-### R1 — İçerik üretimi kodun gerisinde kalır (Yüksek olasılık, yüksek etki)
-- **Neden**: Kod Claude ile hızlı; her olayı doğrulamak, dört dile bakmak insan zamanı ister. 200 olay × 30 dk = 100 saat.
-- **Sinyal**: Hafta 4'te 50 olay yoksa.
-- **Plan**: Hedefi 200'den 120'ye indir, ama zincirlerin anlamlı olduğu 5 vitrin yolunu koru. Olay başına gövdeyi 300 kelimeye kıs. Claude'un ilk taslağını doğrudan kullan, sadece kaynak ve yılı doğrula.
+### R1 — İçerik üretimi kodun gerisinde kalır
 
-### R2 — Tarihsel hata yayınlanır (Orta olasılık, yüksek etki)
-- **Neden**: Ne sen ne ben tarihçiyiz. Popüler efsaneler (Newton'un elması, Galileo'nun Pisa kulesi) kaynaklarda bile dolaşır.
-- **Sinyal**: Kaynak alanı boş yayın; "ilk kez", "tek başına" gibi mutlak ifadeler.
-- **Plan**: İki kaynak kuralı; "efsane" olanı efsane diye yaz; `about`'ta hata bildirim yolu; düzeltmeleri şeffaf logla. Hata utanç değil, sitenin dürüstlük vaadinin parçası.
+- **Senin çözümün, artık plan**: Otomatik içerik hattı (ADR-014). Claude her gece 1-2 olay için kaynak toplar, şablona göre İngilizce taslak yazar, onay kuyruğuna koyar, Telegram'dan haber verir. Sen sabah okur, düzeltir, yayınlarsın. Olay başına senin zamanın 10 dk.
+- **Kalan risk**: Taslak kalitesi düşük çıkarsa onay yerine yeniden yazmak gerekir. Sinyal: reddetme oranı %30 üstü. Plan: prompt ve şablonu ilk 10 taslaktan sonra ayarla; kaynak eşiğini 3'ten 4'e çıkar.
 
-### R3 — Kırgızca çeviri kalitesi düşük kalır (Yüksek olasılık, orta etki)
-- **Neden**: Düşük kaynaklı dil; LLM çıktısı Rusça kalıplarla bozuk olabilir.
-- **Sinyal**: Kırgızca okuyan beta kullanıcısı "Rusçadan çevrilmiş gibi" derse.
-- **Plan**: Rozetle yayınla (ADR-008), sözlük büyüt, tr+ru referanslı çeviri, ana dil gözden geçirici (S6). Bulunamazsa: Kırgızca sadece özet + başlık insan onaylı, gövde makine.
+### R2 — Tarihsel hata yayınlanır
 
-### R4 — Timeline performansı mobilde çöker (Orta, orta)
-- **Neden**: Kaydırma dinleyicileri, animasyonlar, 200 kart, görseller.
-- **Sinyal**: Lighthouse mobil 80 altı; eski Android'de takılma.
-- **Plan**: Sanallaştırma (sadece görünen kartları render), animasyonları kıs, görselleri küçült. 05'teki bütçeler.
+- **Senin çözümün, artık plan**: Dürüstlük bandı her sayfada (ADR-017): "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız." + "Hata bildir" bağlantısı.
+- **Ek**: İki kaynak kuralı ve otomatik hattın araştırma notu (çelişkileri listeler) kalır. Düzeltmeler `about` sayfasında "düzeltmeler" listesinde şeffaf.
 
-### R5 — Kapsam şişer (Yüksek, orta)
-- **Neden**: Bu proje bir hayal; her hafta yeni bir fikir gelir ("bir de quiz olsa", "bir de harita").
-- **Sinyal**: 08'deki haftalık kutucuklar dışında iş yapılıyorsa.
-- **Plan**: Yeni fikir → bu dosyanın altındaki "Park" listesine. Ayda bir bakılır. 3 aya kadar hiçbiri alınmaz.
+### R3 — Kırgızca çeviri kalitesi
 
-### R6 — Motivasyon düşer (Orta, yüksek)
-- **Neden**: Solo proje, 12 hafta uzun, 6. haftada "kimse görmüyor" hissi.
-- **Sinyal**: Bir hafta sıfır commit ve sıfır olay.
-- **Plan**: Hafta 4'te admin→site videosu; Hafta 8'de 10 kişilik beta (dış göz); her hafta 1 olay kuralı. Sitenin "neden"ini (bu dosyanın en altı) tekrar oku.
+- **Senin çözümün, artık plan**: Claude çevirir → sen okursun → Kırgızca öğretmen tanıdığın terimleri kontrol eder → `reviewed`. Öğretmene `editor` rolü, admin arayüzü Kırgızca.
+- **Kalan**: Öğretmenin zamanı. Haftada 5-10 olay ile başla; birikirse `machine` rozetli kalır, sorun değil.
 
-### R7 — Ücretsiz katman sınırları (Düşük, düşük)
-- **Neden**: Supabase free projesi 1 hafta hareketsiz kalınca duraklatılır; Vercel Hobby ticari kullanım yasak.
-- **Plan**: Haftalık bir cron (`translate-missing`) projeyi canlı tutar. Reklam/gelir yok, Hobby uygun. Büyürse 25+20 $/ay.
+### R4 — Mobil performans
 
-### R8 — Görsel telif (Düşük, yüksek)
-- **Plan**: ADR-011 zorunlu alanlar; sadece Commons kamu malı / CC. Şüphede görselsiz kart.
+- **Kararın**: Eski Android'leri hedeflemiyoruz (ADR-016). Modern telefonlar için Lighthouse 90 hedefi kalır. Keşfet kanvası mobilde sıkıştırmayla çalışır; yavaşlarsa kartlar yerine noktalar.
 
-### R9 — Claude API maliyeti/bağımlılığı (Düşük, düşük)
-- **Plan**: Aylık 10 $ altı. Çeviri hattı model adını tek yerden okur; model değişimi bir satır.
+### R5 — Kapsam şişer
+
+- **Kararın**: "Bu noktaya geldiysek başarmışızdır." Katılıyorum. Kural yine kalsın: yeni fikir → aşağıdaki Park listesine, ayda bir bakılır. Kanvas zaten alındı; başka büyük özellik 3 ayda yok.
+
+### R6 — Motivasyon
+
+- Bu sende. Planın yardımı: Hafta 4 videosu, Hafta 8 beta, her sabah Telegram'dan gelen yeni taslak (küçük ama sürekli ilerleme hissi), haftada bir olay kuralı.
+
+### R7 — Ücretsiz katman sınırları
+
+- **Kararın**: Şimdilik Supabase, ileride Go backend. ADR-002'ye geçiş yolu eklendi: iş mantığı Postgres ve script'lerde kalır ki Go'ya geçiş sadece API katmanını değiştirsin.
+
+### R8 — Görsel telif (sade açıklama)
+
+İnternetteki her fotoğrafın bir sahibi vardır. Bir haber sitesinden ya da kitaptan alınmış bir Einstein fotoğrafını izinsiz koyarsan, sahibi siteyi kapattırabilir ya da tazminat isteyebilir. Güvenli olanlar:
+
+- **Kamu malı**: yazarı 70+ yıl önce ölmüş eserler; eski portreler, kitap kapakları, çizimler. Serbest.
+- **CC lisanslı**: sahibi "adımı yazın, kullanın" demiş. Serbest, atıf şart.
+- **NASA / ESA** görselleri: çoğunlukla serbest, kontrol edilir.
+- Wikimedia Commons bunların hepsini lisansıyla listeler; oradan alırız.
+  Plan (ADR-011): admin formunda görsel eklerken kaynak + lisans + kimin alanları zorunlu. Şüphede görselsiz kart (disiplin renginde, yıl büyük). Böylece hiç risk yok.
+
+### R9 — Claude API maliyeti/bağımlılığı
+
+- Otomatik hatla aylık 10-15 $. Model adı tek yerden okunur. Kapatma anahtarı var.
+
+### R10 — Keşfet kanvası zamanında bitmez (yeni)
+
+- **Neden**: Kanvas 3 aya alındı; 11-12. haftalar dolu.
+- **Sinyal**: Hafta 11 sonunda Z0-Z2 masaüstünde çalışmıyorsa.
+- **Plan**: Lansmanı kanvassız yap (Akış modu tamdır), kanvası v1.1 olarak 2 hafta sonra çıkar. Lansman metninde "yakında: Keşfet" de; merak yaratır.
 
 ## Park (3 aydan sonra bakılacak fikirler)
 
-Buraya her yeni fikri ekle; kodlama. Tarihle.
-
 - 2026-09-02: "Orada olsaydın" etkileşimli senaryolar.
-- 2026-09-02: Yakınlaştırılabilir kanvas modu.
 - 2026-09-02: "Geriye sar" modu (bugünden geçmişe).
-- 2026-09-02: Paralel disiplin şeritleri ("1905'te biyoloji ne yapıyordu?").
 - 2026-09-02: Flutter uygulaması, çevrimdışı okuma, günlük bildirim.
 - 2026-09-02: Sesli anlatım (her olay 2 dk).
 - 2026-09-02: Öğretmen sunum modu.
 - 2026-09-02: Kullanıcı olay önerisi + editör onayı.
 - 2026-09-02: Harita görünümü (keşifler nerede oldu; Orta Asya'nın görünürlüğü için güçlü).
 - 2026-09-02: Quiz / "bu çağda hangisi yoktu?" oyunu.
+- 2026-09-02: Arama (v1.0'dan çıkarıldı, 4. ay).
+- 2026-09-02: Go backend'e geçiş (ihtiyaç doğunca).
 
 ## Neden (motivasyon düşünce oku)
 

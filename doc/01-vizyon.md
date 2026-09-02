@@ -42,6 +42,7 @@ Her karar bu altı ilkeyle sınanır. Çelişirse ilke kazanır.
 3. **"Orada olsaydın" hissi.** Her olayda, o günün insanının neyi bilmediğini hatırlatan küçük bir kutu. Hayreti canlı tutar.
 4. **Dürüst tarih.** Tarihler yaklaşıktır, öncelik tartışmalıdır, "kim buldu" çoğu zaman "kimler buldu"dur. Belirsizliği saklamayız.
 5. **Dört dil eşit vatandaştır.** Kırgızca ikinci sınıf olmayacak. Bir olay dört dilde yoksa, "eksik" olarak görünür, gizlenmez.
+   Yayın sırası pratik nedenle İngilizce önce (kaynaklar İngilizce, hızlı yayın), ardından ky, tr, ru; ama tasarım ve veri modeli baştan dört dilli.
 6. **Hafif ve hızlı.** Zayıf telefonda, yavaş internette bile akar. Süs animasyonu içerikten önce gelmez.
 
 ## Neyi YAPMIYORUZ (en az yaptıklarımız kadar önemli)
@@ -61,6 +62,12 @@ Akıllı telefon → mikroişlemci (1971) → entegre devre (1958) → transist�
 → elektron (1897) → Maxwell denklemleri (1865) → Faraday indüksiyon (1831) → Volta pili (1800) → ...
 
 Bu görünüm senin "o yüzyıla gitsem hiçbir şey yapamazdım" içgörünü **görselleştirir**. MVP'de veri modelinde yeri ayrılır, 3. ayda ekran olarak gelir.
+
+İkinci fark: **Keşfet modu**, gerçek ölçekli yakınlaştırılabilir kanvas. Uzaktan 2600 yılın tamamı, yaklaştıkça olaylar belirir.
+Antik çağın ne kadar uzun, 20. yüzyılın ne kadar sıkışık olduğu gözle görülür (05-timeline-ux).
+
+Üçüncü fark: **dürüstlük bandı**. Sitenin her sayfasında küçük bir not: "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil.
+Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız." Zayıflık değil, güven kaynağı.
 
 ## Başarı nasıl ölçülür
 
@@ -87,8 +94,8 @@ Bu görünüm senin "o yüzyıla gitsem hiçbir şey yapamazdım" içgörünü *
 | **Lumen**          | latin    | Işık                         | Kısa, nötr, biraz soğuk                                                       |
 | **Nokta / Точка**  | tr/ru    | Başlangıç noktası            | Timeline'daki her olay bir nokta                                              |
 
-Öneri: **Uchkun**. Projeye Orta Asya kimliği verir, dört dilde de telaffuz edilir, "kıvılcım" bilimin doğuşuna çok yakışır.
-Dokümanlarda bundan sonra "site" diyeceğim; ismi seçince bul-değiştir yaparız.
+**Karar (2026-09-02): Uchkun / Учкун.** Projeye Orta Asya kimliği verir, dört dilde de telaffuz edilir, "kıvılcım" bilimin doğuşuna çok yakışır.
+Alan adı sonra seçilecek (uchkun.science, uchkun.kg, uchkun.org adayları; müsaitlik kontrol edilecek).
 
 ## Uzun vadeli hayal (3 aydan sonrası, 10-riskler'de detay)
 

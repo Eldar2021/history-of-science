@@ -22,11 +22,13 @@ Doğrusal ölçekte (1 yıl = 1 piksel) antik dünya 2000 piksel boş, 20. yüzy
 |----------|------|------|-------|
 | Doğrusal ölçek | Dürüst | Kullanılamaz | Hayır |
 | Logaritmik ölçek | Hepsi sığar | Kimse anlamaz; "1900 ile 2000 neden 1400-1900'dan geniş?" | Hayır |
-| Yakınlaştırılabilir kanvas (ChronoZoom tarzı) | Etkileyici | Karmaşık, mobilde zor, 3 ayda riskli | 6. ay+ için not |
+| **Yakınlaştırılabilir kanvas (ChronoZoom tarzı)** | Etkileyici, gerçek ölçeği hissettirir, keşif hissi | Karmaşık, mobilde dikkat ister | **Evet, 3. ayda "Keşfet" modu olarak** (bkz. aşağıda) |
 | **Olay sıralı akış + zaman boşluğu işaretleri** | Anlatıya uygun, mobilde doğal, basit | Gerçek ölçeği hissettirmez | **Evet (ana görünüm)** |
 | **Gerçek ölçekli minimap** | Sıkışmayı hissettirir | Tek başına yetmez | **Evet (yardımcı)** |
 
-### Seçilen çözüm: iki katman
+### Seçilen çözüm: iki katman + kanvas modu
+
+Site iki görünüm sunar. **Akış** (varsayılan, özellikle mobil): aşağıdaki iki katman. **Keşfet** (kanvas): gerçek ölçekli, yakınlaştırılabilir harita. İkisi aynı veriyi, aynı URL parametrelerini (`year`, `d`, `min`) kullanır; kullanıcı bir tıkla geçer, konumu kaybetmez.
 
 **Ana akış (dikey)**: Olaylar kronolojik sırada, eşit aralıklı kartlar. Zaman **olay sayısıyla** akar, yılla değil.
 İki olay arasında büyük yıl farkı varsa araya bir **zaman boşluğu işareti** girer:
@@ -143,6 +145,7 @@ Filtreler URL'de yaşar: `/tr/timeline?d=physics,astronomy&min=4&year=1687`. Pay
 - İlk boyama: 30 kart HTML'de. Devamı kaydırdıkça 30'ar.
 - Görseller `loading="lazy"`, ilk 3 kart hariç.
 - Minimap tek `<svg>`; 200 nokta için sorun yok, 2000 için `<canvas>`.
+- Hedef cihaz: son 4-5 yılın telefonları (kararın: eski Android'leri hedeflemiyoruz). Yine de Lighthouse mobil 90 hedefi kalır; o skor modern cihazlarda da akıcılığın göstergesi.
 - Kaydırma dinleyicileri `passive`, `requestAnimationFrame` ile birleştirilir.
 
 ## "Buraya nasıl geldik?" zincir görünümü (P1, 10. hafta)
@@ -157,8 +160,55 @@ Olay detayında bir buton: **"Buraya nasıl geldik?"**. Açılan görünüm:
 
 Veri yoksa buton görünmez; zinciri 1 seviyeden kısa olay için gösterme.
 
+## Keşfet modu: yakınlaştırılabilir kanvas (P1, 11-12. hafta)
+
+Kararın: bu olmalı. Haklısın; gerçek ölçek üzerinde yakınlaşıp uzaklaşmak, "antik çağ ne kadar uzun sürdü, 20. yüzyıl ne kadar sıkışık" hissini hiçbir şey kadar vermez. Riskini yönetmek için akış modu önce yapılır (kanvas gecikirse site yine çalışır), kanvas 3. ayda gelir.
+
+### Temel fikir: anlamsal yakınlaştırma (semantic zoom)
+
+Harita uygulamasındaki gibi: uzaktan sadece ülkeler, yaklaşınca şehirler, daha yaklaşınca sokaklar.
+
+| Zoom seviyesi | Ekranda görünen aralık | Ne görünür |
+|---------------|------------------------|------------|
+| Z0 Evren | 2600 yılın tamamı | 8 çağ blok olarak, önem 5 olaylar nokta + kısa etiket, minimap gibi yoğunluk şeridi |
+| Z1 Çağ | ~300-600 yıl | Önem 4-5 kartlar (küçük), disiplin şeritleri renkli |
+| Z2 Yüzyıl | ~100 yıl | Önem 3-5 kartlar, başlıklar okunur |
+| Z3 On yıl | ~10-30 yıl | Tüm olaylar, özetler görünür, kişiler yaşam çubukları olarak |
+
+Önem alanı (`importance`) burada hayati: hangi olayın hangi zoom'da belireceğini belirler. Bu yüzden admin formunda zorunlu.
+
+### Düzen
+
+- Yatay eksen zaman, gerçek ölçek. Dikey eksen disiplinler: 8 yatay şerit (lane), her biri kendi renginde. Bir olay birden fazla disiplindeyse birincil şeritte durur, diğerlerine ince çizgiyle bağlanır.
+- Üstte sabit yıl cetveli; zoom'a göre yüzyıl / on yıl / yıl işaretleri.
+- Bağlantılar (`builds_on`) yakınlaşınca ince kavisli çizgiler olarak belirir; bir olaya tıklayınca onun zinciri vurgulanır, gerisi solar. Bu, "Buraya nasıl geldik?" görünümünün kanvas hali.
+- Kişiler Z3'te yaşam süresi çubuğu olarak (Newton 1643-1727) kendi şeridinin altında.
+
+### Etkileşim
+
+- Masaüstü: tekerlek = yakınlaş (imleç noktasına doğru), sürükle = kaydır, çift tık = bir seviye yakınlaş, `+`/`-` tuşları.
+- Mobil: iki parmak sıkıştır, tek parmak sürükle. Alt köşede "Akışa dön" butonu. Küçük ekranda Z0 ve Z1 sadece nokta gösterir, kartlar Z2'den itibaren.
+- Olaya tıkla: aynı yan panel / sheet (akış modundakiyle aynı bileşen).
+- Çağ bloğuna tıkla: o çağa yumuşak zoom.
+- URL: `/tr/explore?year=1687&zoom=2&d=physics`. Paylaşılabilir.
+- Animasyon: zoom geçişleri 300 ms, olaylar seviye değiştirirken fade; `prefers-reduced-motion` ile anında.
+
+### Teknik yol
+
+- Render: tek `<svg>` içinde `d3-zoom` (yalnızca zoom/pan hesabı için, 10 KB) + React ile çizim. 200-500 olay için SVG yeterli; 2000+ olayda `<canvas>`a geçilir, API aynı kalır.
+- Görünür pencere dışındaki olaylar render edilmez (virtualization); zoom değişince görünür küme yeniden hesaplanır (`year` sıralı dizi üstünde ikili arama).
+- Etiket çakışması: aynı şeritte yakın olaylar zoom seviyesine göre ya kümelenir ("+4") ya da dikey ofsetle yayılır. v1'de kümeleme, v2'de akıllı yerleşim.
+- Ölçek fonksiyonu tek: `xScale(year, zoom, pan)`; minimap da aynı fonksiyonu kullanır. Böylece minimap, kanvasın "her zaman Z0'da duran" hali olur; kod tekrarı yok.
+- Erişilebilirlik: kanvas görsel bir katmandır; aynı içerik akış modunda `<ol>` olarak zaten var. Kanvas sayfası ekran okuyucuya "akış moduna geç" bağlantısı sunar.
+
+### Aşamalar
+
+- **v1 (Hafta 11)**: masaüstü, Z0-Z2, disiplin şeritleri, önem tabanlı görünürlük, tıklayınca panel, URL senkron.
+- **v1.1 (Hafta 12)**: mobil sıkıştırma, Z3 + kişiler, bağlantı çizgileri, kümeleme.
+- **v2 (4. ay+)**: akıllı etiket yerleşimi, canvas render, "zinciri vurgula" modu, mini tur ("bu dört noktayı gez").
+
 ## Sonraki adımlar (3 ay sonrası)
 
-- Yakınlaştırılabilir kanvas modu (masaüstü): önem seviyesi zoom'a bağlı görünür/kaybolur.
 - "Geriye sar" modu: bugünden başla, geriye kaydır, her olayda "bu olmasaydı..." notu.
-- Paralel şeritler: 4 disiplini yan yana koyup aynı yılları hizalayan görünüm ("1905'te biyoloji ne yapıyordu?").
+- Paralel şeritler artık kanvasın parçası; ayrı görünüm gerekmez.
+- Harita görünümü: keşifler nerede oldu (Orta Asya'nın görünürlüğü için güçlü).

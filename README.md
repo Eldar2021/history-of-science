@@ -1,4 +1,4 @@
-# Bilim Tarihi Timeline (çalışma adı: Uchkun)
+# Uchkun (Учкун) — Bilim Tarihi Timeline
 
 İnsanlığın bilimle Thales'ten yapay zekâya nasıl geldiğini, bilim insanı olmayan meraklı insanlara,
 **bir zaman çizgisine düşmüş gibi** adım adım ve dört dilde (en, ru, ky, tr) anlatan site.
