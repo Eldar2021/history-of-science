@@ -8,7 +8,7 @@ import { FALL_FLAG, FALL_FROM, easeOut, parseDuration } from "@/lib/timeline/fal
 type Props = { locale: Locale; firstYear: number };
 
 /**
- * The entry (doc/05 Problem 2): after the home CTA, the screen dims and the year counts back from
+ * The entry: after the home CTA, the screen dims and the year counts back from
  * FALL_FROM to the first event (or to ?year=), slowing as it lands, then the timeline appears.
  * Runs only when the CTA set the session flag, so a shared timeline link opens plainly.
  * Reduced motion: no counting, just a short fade. Pure DOM work: the overlay is static markup.

@@ -3,16 +3,91 @@
 İnsanlığın bilimle Thales'ten yapay zekâya nasıl geldiğini, bilim insanı olmayan meraklı insanlara,
 **bir zaman çizgisine düşmüş gibi** adım adım ve dört dilde (en, ru, ky, tr) anlatan site.
 
-Plan ve tasarım dokümanları: [doc/00-README.md](doc/00-README.md)
+Yayında: https://history-of-science.vercel.app · Güncel durum: [doc/STATUS.md](doc/STATUS.md)
 
-| Klasör      | İçerik                                                                                                      |
-| ----------- | ----------------------------------------------------------------------------------------------------------- |
-| `doc/`      | Vizyon, spesifikasyon, içerik stratejisi, mimari, UX, i18n, tasarım promptu, 3 aylık yol haritası, kararlar |
-| `web/`      | Next.js sitesi + admin (Hafta 1'de başlar)                                                                  |
-| `backend/`  | Supabase migration'ları, seed, script'ler                                                                   |
-| `mobile/`   | Flutter uygulaması (4. ay+)                                                                                 |
-| `resource/` | Tasarım dosyaları, fontlar, görsel kaynakları                                                               |
+## Neden
 
-etra-link
+> "Şu anki bilgimle o yüzyıllara gitseydim hiçbir şey yapamazdım. Ne elektriği ne ilacı ne bir makineyi
+> bulabilirdim. Her şeyi bilmiş gibi kullanıyoruz ama aslında hiçbir şeyi bilmiyoruz."
+
+Bu cümle projenin ruhu. Site bir ansiklopedi değil, bir hayret yolculuğu. Amaç bilgi yığmak değil,
+"bu nasıl oldu da böyle oldu?" sorusunu her adımda hissettirmek.
+
+Mevcut kaynaklar iki uçta: Wikipedia doğru ama kuru ve bağlantısız; popüler kitaplar sürükleyici ama
+taranamaz, dört dilde yok, Kırgızca hiç yok. Aradaki boşluk: zamanda gezinilebilir, zincirleme anlatan,
+hafif, çok dilli bir kaynak.
+
+## Kim için
+
+Birincil kitle **meraklı yetişkin**: 25-45 yaş, bilim insanı değil, teknolojiyi kullanıyor ama "nasıl"ını
+bilmiyor. Akşam telefonundan 20 dakika kaydırır, bir olaya dalar, zinciri takip eder. Onun için
+tasarlarsak lise öğrencisi de öğretmen de faydalanır; tersi doğru değil.
+
+İkincil: lise öğrencisi (Bişkek/İstanbul/Almatı), fen ve tarih öğretmeni, ve Kırgızca/Rusça okuyucu —
+El-Harezmi'yi, El-Biruni'yi, Uluğ Bey'i kendi dilinde okuyan Orta Asyalı.
+
+## Ürün ilkeleri
+
+Her karar bu altı ilkeyle sınanır. Çelişirse ilke kazanır.
+
+1. **Önce hikâye, sonra ansiklopedi.** "Ne oldu"dan çok "neden önemliydi" ve "önceki neye dayandı".
+2. **Hiçbir keşif tek başına değildir.** Olaylar arası bağlantı birinci sınıf veridir, süs değil.
+3. **"Orada olsaydın" hissi.** Her olayda o günün insanının neyi bilmediğini hatırlatan küçük bir kutu.
+4. **Dürüst tarih.** Tarihler yaklaşıktır, öncelik tartışmalıdır, "kim buldu" çoğu zaman "kimler buldu"dur.
+   Belirsizliği saklamayız. Sitenin her sayfasında dürüstlük bandı var: "Bu siteyi yapan kişi tarihçi ya da
+   bilim insanı değil. Bir hata gördüyseniz lütfen bildirin." Zayıflık değil, güven kaynağı.
+5. **Dört dil eşit vatandaştır.** Kırgızca ikinci sınıf olmayacak. Bir olay dört dilde yoksa "eksik"
+   görünür, gizlenmez. Yayın sırası pratik nedenle İngilizce önce.
+6. **Hafif ve hızlı.** Zayıf telefonda, yavaş internette bile akar. Süs animasyonu içerikten önce gelmez.
+
+## Neyi yapmıyoruz
+
+Wikipedia klonu değil (olay başına 300-600 kelime yeter). Ders kitabı değil (formül, ispat, sınav yok).
+Sosyal ağ değil (yorum, hesap, forum yok). "Her şey" değil — 3 ayda 200 olay, seçici olmak özelliktir.
+
+## Fark yaratan üç şey
+
+- **"Buraya nasıl geldik?" zinciri**: bir olaydan geriye doğru bağımlılık zinciri. Akıllı telefon →
+  mikroişlemci → entegre devre → transistör → kuantum mekaniği → elektron → Maxwell → Faraday → Volta.
+  Yukarıdaki içgörüyü görselleştiren ekran budur. (Hafta 10)
+- **Keşfet modu**: gerçek ölçekli, yakınlaştırılabilir kanvas. Antik çağın ne kadar uzun, 20. yüzyılın ne
+  kadar sıkışık olduğu gözle görülür. (Hafta 11-12)
+- **Dürüstlük bandı**: yukarıdaki 4. ilke, her sayfada. (Yayında)
+
+## Başarı ölçütü (3. ay sonu)
+
+200+ yayınlanmış olay, 150+'si dört dilde, 300+ bağlantı, Lighthouse mobil 90+, 100 gerçek kullanıcı
+(20'si geri bildirim vermiş), ortalama oturum 5 dakika üstü.
+
+1 yıl sonunda: bir öğretmen sınıfta kullanmış olsun. Bir öğrenci "bu siteden dolayı fizik bölümünü seçtim"
+desin. Bu ölçülmez ama hedef bu.
+
+## İsim
+
+**Uchkun / Учкун** — Kırgızca "kıvılcım". Latin ve Kiril yazımı birlikte kullanılır. Alan adı henüz yok
+(uchkun.science / .kg / .org adayları, Hafta 8).
+
+## Klasörler
+
+| Klasör      | İçerik                                                          |
+| ----------- | --------------------------------------------------------------- |
+| `doc/`      | İçerik stratejisi, mimari, i18n, yol haritası, kararlar, STATUS |
+| `web/`      | Next.js 16 sitesi + `/admin` paneli                             |
+| `backend/`  | Supabase migration'ları, seed, içerik script'leri               |
+| `mobile/`   | Flutter uygulaması (5. ay+, şimdilik boş)                       |
+| `resource/` | Tasarım token'ları, fontlar, görsel kaynakları                  |
+
+## Çalıştırma
+
+```
+colima start                      # Docker
+cd backend && supabase start      # yerel Postgres + Auth
+cd web && npm run dev             # site + admin
+```
+
+`cd web && npm run check` typecheck + lint + unit test. `npm run e2e` Playwright.
+Ayrıntı: [doc/04-mimari.md](doc/04-mimari.md).
+
+## etra-link
 
 https://eyes.nasa.gov/apps/solar-system/#/earth

@@ -1,6 +1,6 @@
 ---
 name: timeline-ux-reviewer
-description: Reviews Uchkun frontend changes against the product and UX docs (doc/02, doc/05, doc/06) and accessibility/performance budgets. Use when the user asks to "review the timeline", "UX review", "check this page against the docs", or before a milestone (M1/M2/M3). Read-only; reports findings ranked by severity.
+description: Reviews Uchkun frontend changes against the product docs (README, doc/06, doc/08) and accessibility/performance budgets. Use when the user asks to "review the timeline", "UX review", "check this page against the docs", or before a milestone (M1/M2/M3). Read-only; reports findings ranked by severity.
 tools: Read, Glob, Grep, Bash
 ---
 
@@ -8,8 +8,8 @@ You are the **timeline UX reviewer** for Uchkun. You compare what was built with
 
 ## Mandatory reading
 
-1. `doc/02-urun-spesifikasyonu.md` (routes, user stories, acceptance criteria for the current milestone).
-2. `doc/05-timeline-ux.md` (flow layout, year indicator, time-gap markers, minimap, event panel behavior, filters, states, accessibility, performance budgets, explore-mode spec).
+1. `doc/08-yol-haritasi.md` (the acceptance criteria for the current milestone) and `README.md` (product principles).
+2. `doc/09-kararlar-ADR.md` (ADR-006 flow vs Explore canvas, ADR-016 device target, ADR-020/022 theme, ADR-023 year notation). The flow layout, year indicator, time-gap marker, minimap, panel behaviour and filters are specified by the code itself in `web/components/timeline/` and `web/lib/timeline/`; read those before judging a deviation.
 3. `doc/06-i18n-stratejisi.md` (year formatting table, Kyrgyz letters, Turkish casing, string length).
 4. `CLAUDE.md` rules.
 

@@ -20,7 +20,7 @@ const BINS = { horizontal: 72, vertical: 56 } as const;
 const pct = (u: number) => `${Math.min(100, Math.max(0, u * 100))}%`;
 
 /**
- * The real-scale minimap (doc/05): density of events along the axis from xScale, era ticks, the band of
+ * The real-scale minimap: density of events along the axis from xScale, era ticks, the band of
  * years on screen and a cursor at the live year. Clicking (or dragging) jumps to the nearest event.
  * One instance per orientation: a bottom strip on phones, a right-hand column on desktop.
  */
@@ -69,7 +69,7 @@ export function Minimap({ years, slugs, eras, locale, orientation, className = "
     scrollToIndex(closestIndex(years, xScaleInvert(Math.min(1, Math.max(0, frac)))));
   }
 
-  /** Keyboard: arrows step to the previous/next event, Home/End to the ends (doc/05: everything works by keyboard). */
+  /** Keyboard: arrows step to the previous/next event, Home/End to the ends. Everything works by keyboard. */
   function onKey(e: React.KeyboardEvent<SVGSVGElement>) {
     const at = closestIndex(years, cursor);
     const step: Record<string, number | undefined> = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };

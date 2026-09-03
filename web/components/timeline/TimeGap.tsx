@@ -1,4 +1,4 @@
-/** A dotted stretch of the line between two events far apart in time (05-timeline-ux: >50 years, before 1800). */
+/** A dotted stretch of the line between two events far apart in time: over 50 years, before 1800. */
 export function TimeGap({ label }: { label: string }) {
   return (
     <div className="relative py-2">

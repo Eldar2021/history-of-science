@@ -5,7 +5,7 @@ import { formatYear, type Locale } from "@/lib/i18n/formatYear";
 type Props = { locale: Locale; initialYear: number; initialEra?: string };
 
 /**
- * Live year in the top bar (05-timeline-ux). Watches every [data-year] card and shows the one crossing
+ * Live year in the top bar. Watches every [data-year] card and shows the one crossing
  * the middle band of the viewport. The visible number ticks immediately; screen readers hear the year
  * only once scrolling settles (aria-live with a debounce).
  */

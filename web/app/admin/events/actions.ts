@@ -73,7 +73,7 @@ export async function saveEvent(prev: SaveState, formData: FormData): Promise<Sa
   redirect(`/admin/events/${id}?saved=1&locale=${parsed.edit_locale}`);
 }
 
-/** Soft delete (doc/02: reversible). The row stays; RLS hides it from visitors through deleted_at. */
+/** Soft delete, always reversible. The row stays; RLS hides it from visitors through deleted_at. */
 export async function deleteEvent(formData: FormData) {
   await requireStaff();
   const id = String(formData.get("id") ?? "");

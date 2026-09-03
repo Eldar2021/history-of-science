@@ -17,7 +17,8 @@ import { FallOverlay } from "@/components/timeline/FallOverlay";
 
 export const revalidate = 300;
 
-/** 05-timeline-ux: a gap marker appears for silences longer than 50 years, never after 1800. */
+/** A gap marker appears for silences longer than 50 years, and never after 1800:
+ *  by then events are dense enough that a gap says nothing. */
 const GAP_THRESHOLD = 50;
 const GAP_CUTOFF_YEAR = 1800;
 
@@ -78,7 +79,11 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
             labels={{ legend: t("filterLegend"), onlyThese: t("onlyThese"), clear: t("clearFilter"), empty: t("filterEmpty") }}
           />
         </Suspense>
-        <p className="mb-2 text-small text-muted">{t("eventsCount", { count: events.length })}</p>
+        <p className="mb-2 flex flex-wrap gap-x-2 text-small text-muted">
+          <span>{t("eventsCount", { count: events.length })}</span>
+          {/* The era abbreviation is short so the year stays large; it is spelled out once here. */}
+          {events.some((e) => e.year < 1000) && <span>{t("eraNotation")}</span>}
+        </p>
         {groups.map((group, gi) => {
           const headingId = `era-${group.era?.slug ?? gi}`;
           return (
@@ -101,7 +106,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
           );
         })}
       </main>
-      {/* Minimap (doc/05): a strip above the bottom edge on phones, a column on the right on desktop. */}
+      {/* Minimap: a strip above the bottom edge on phones, a column on the right on desktop. */}
       <Minimap {...minimap} orientation="horizontal" className="fixed inset-x-0 bottom-0 z-[6] h-10 border-t border-line bg-base/90 px-3 pb-2 pt-1 backdrop-blur lg:hidden" />
       <Minimap {...minimap} orientation="vertical" className="fixed bottom-6 right-4 top-[4.5rem] z-[6] hidden w-10 lg:block" />
       {/* Extra bottom padding on phones: the minimap strip sits over the last lines otherwise. */}

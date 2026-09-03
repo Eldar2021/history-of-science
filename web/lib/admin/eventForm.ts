@@ -6,7 +6,7 @@ export const STATUSES = ["draft", "review", "published"] as const;
 export type Precision = (typeof PRECISIONS)[number];
 export type ContentStatus = (typeof STATUSES)[number];
 
-/** Everything the P0 editor form carries (doc/02 "Olay editörü formu"). One translation at a time. */
+/** Everything the event editor form carries. One translation at a time. */
 export type EventFormValues = {
   id: string | null;
   slug: string;

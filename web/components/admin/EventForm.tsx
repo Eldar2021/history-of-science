@@ -13,7 +13,7 @@ type Props = { initial: EventFormValues; disciplines: Discipline[]; uiLocale: Lo
 const input = "w-full rounded-md border border-line bg-elevated px-3 py-2 text-primary outline-none focus-visible:ring-2 focus-visible:ring-accent";
 const label = "block text-sm text-secondary";
 
-/** P0 editor (doc/02). Uncontrolled fields; the form remounts on every server answer (key=version) to keep typed values. */
+/** The event editor. Uncontrolled fields; the form remounts on every server answer (key=version) to keep typed values. */
 export function EventForm({ initial, disciplines, uiLocale }: Props) {
   const t = useTranslations("admin.events");
   const tLocales = useTranslations("locales");

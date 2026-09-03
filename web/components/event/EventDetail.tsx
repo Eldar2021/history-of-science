@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/lib/i18n/formatYear";
-import { formatYear, formatYearRange } from "@/lib/i18n/formatYear";
+import { formatYear, formatYearRangeParts } from "@/lib/i18n/formatYear";
 import { parseBlocks, parseInline } from "@/lib/content/markdown";
 import type { EventDetail as Detail, LinkedEvent } from "@/lib/queries/types";
 
@@ -43,7 +43,7 @@ function LinkedList({ items, locale }: { items: LinkedEvent[]; locale: Locale })
   );
 }
 
-/** The event detail (doc/05 "Olay kartı" > tıklama): same component on the full page and inside the panel. */
+/** The event detail: the same component on the full page and inside the panel. */
 export async function EventDetail({ event, locale, headingLevel = "h1", headingId }: Props) {
   const [t, tTimeline, tLocales] = await Promise.all([
     getTranslations("event"), getTranslations("timeline"), getTranslations("locales"),
@@ -51,14 +51,17 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
   const Heading = headingLevel;
   // Section headings sit one level under the title (heading order matters for screen readers and Lighthouse).
   const Sub = headingLevel === "h1" ? "h2" : "h3";
-  const year = formatYearRange(event.year, event.year_end, event.precision, locale);
+  const year = formatYearRangeParts(event.year, event.year_end, event.precision, locale);
   const blocks = event.body ? parseBlocks(event.body) : [];
 
   return (
     <article className="text-primary">
       <header>
         {event.era && <p className="font-display text-small text-sage">{event.era.name}</p>}
-        <time className="mt-1 block font-display text-year-landmark tabular">{year}</time>
+        <time title={year.eraNote ?? undefined} className="mt-1 block font-display text-year-landmark tabular">
+          {year.qualifier && <span className="block font-sans text-small font-normal text-muted">{year.qualifier}</span>}
+          {year.value}
+        </time>
         <Heading id={headingId} className="mt-3 font-display text-2xl leading-tight">{event.title}</Heading>
         <p className="mt-3 text-lg leading-snug text-secondary">{event.summary}</p>
         <div className="mt-4 flex flex-wrap items-center gap-1.5">

@@ -5,7 +5,7 @@ import { useRouter } from "@/i18n/navigation";
 type Props = { children: React.ReactNode; closeLabel: string; labelledBy: string };
 
 /**
- * The event detail over the timeline (doc/05): a full-screen sheet on phones, a right-hand panel on
+ * The event detail over the timeline: a full-screen sheet on phones, a right-hand panel on
  * desktop. The timeline stays mounted underneath (intercepting route), so closing restores the exact
  * scroll position. Back button, Esc, the backdrop and the close button all close it.
  */

@@ -1,4 +1,4 @@
-/** "Fall into time" (doc/05 Problem 2): the counter runs from now back to the first event. */
+/** "Fall into time": the counter runs from now back to the first event. */
 export const FALL_FLAG = "uchkun-fall";
 export const FALL_FROM = 2026;
 

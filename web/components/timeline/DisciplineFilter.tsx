@@ -28,7 +28,7 @@ export function DisciplineFilterSkeleton({ disciplines, label }: { disciplines: 
 }
 
 /**
- * Discipline chips (doc/05 Navigasyon): tap a chip and everything else fades to 0.3 but stays; the
+ * Discipline chips: tap a chip and everything else fades to 0.3 but stays; the
  * "only these" chip hides the rest. State lives in the URL (`d`, `only`) so a shared link opens the
  * same view; `?year=` is preserved. The list is server-rendered, so the filter marks cards through
  * data attributes rather than re-rendering them.
@@ -44,7 +44,7 @@ export function DisciplineFilter({ disciplines, eventDisciplines, labels }: { di
     const q = new URLSearchParams(params.toString());
     if (next.size) q.set("d", Array.from(next).join(",")); else q.delete("d");
     if (nextOnly && next.size) q.set("only", "1"); else q.delete("only");
-    // Keep the comma readable (doc/05 shows ?d=physics,astronomy); URLSearchParams would encode it.
+    // Keep the comma readable in ?d=physics,astronomy; URLSearchParams would encode it.
     const qs = q.toString().replace(/%2C/g, ",");
     // Native replaceState: Next syncs useSearchParams to it, and the (dynamic) page is not re-fetched.
     window.history.replaceState(null, "", `${location.pathname}${qs ? `?${qs}` : ""}`);

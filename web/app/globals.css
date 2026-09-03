@@ -4,9 +4,11 @@
   Uchkun design tokens. Source of truth: resource/design/tokens.json
   (Claude Design "Foundation" concept, 2026-09-03, on the Organic base ramps).
 
-  Light ("the observer's notebook") is the primary theme and the CSS default
-  (S15, ADR-020). Dark ("night at the observatory") applies via the system
-  preference or data-theme="dark" on <html>.
+  Light ("the observer's notebook") is the primary theme and the only default
+  (ADR-020). Dark ("night at the observatory") applies only when the reader
+  presses the theme switch, which writes data-theme="dark" on <html> and
+  remembers it (ADR-022). The OS preference is deliberately not consulted:
+  it made the site open dark and flip theme on its own between reloads.
 */
 
 :root {
@@ -46,36 +48,6 @@
   --duration-tick: 120ms;
   --duration-press: 120ms;
   --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg-base: #2e2b25;
-    --bg-elevated: #3b372f;
-    --bg-raised: #474238;
-    --text-primary: #f9f4ed;
-    --text-secondary: #dcd3c4;
-    --text-muted: #c0b6a5;
-    --accent: #f6a06b;
-    --accent-hover: #ffc6a5;
-    --accent-text: #f6a06b;
-    --accent-ink: #2e2b25;
-    --sage: #aebf92;
-    --line: rgba(249, 244, 237, 0.16);
-    --glow: 0 0 14px #f6a06b;
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.35);
-    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
-    --discipline-mathematics: #b3a3c9;
-    --discipline-physics: #8fb0cc;
-    --discipline-astronomy: #9aa2cf;
-    --discipline-chemistry: #f6a06b;
-    --discipline-biology: #aebf92;
-    --discipline-medicine: #e89a8a;
-    --discipline-earth: #d9b46a;
-    --discipline-technology: #a7aeb3;
-  }
 }
 
 :root[data-theme="dark"] {
@@ -222,7 +194,7 @@
 /* Every content photograph goes through this so it sits back into the page. */
 .washed { filter: saturate(0.6) contrast(0.85) brightness(1.1) opacity(0.94); }
 
-/* Event detail over the timeline (doc/05): sheet rises on phones, panel slides in from the right on desktop.
+/* Event detail over the timeline: sheet rises on phones, panel slides in from the right on desktop.
    Durations come from the motion tokens, so reduced-motion shortens them with everything else. */
 @keyframes sheet-in { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes panel-in { from { transform: translateX(32px); opacity: 0; } to { transform: none; opacity: 1; } }

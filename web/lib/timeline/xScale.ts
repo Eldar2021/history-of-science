@@ -1,5 +1,5 @@
 /**
- * The one time scale (04-mimari, 05-timeline-ux): the minimap and the Explore canvas both map years
+ * The one time scale (doc/09 ADR-006): the minimap and the Explore canvas both map years
  * through here, so "real scale" means the same thing everywhere.
  *
  * Years are integers with no year 0 (ADR-004): -1 is followed by 1. For a continuous axis we shift
@@ -64,7 +64,7 @@ export function visibleYears(zoom: number): number {
   return SPAN / zoom;
 }
 
-/** Semantic zoom levels from 05-timeline-ux: Z0 universe, Z1 era, Z2 century, Z3 decade. */
+/** Semantic zoom levels: Z0 universe, Z1 era, Z2 century, Z3 decade. */
 export type ZoomLevel = 0 | 1 | 2 | 3;
 
 export function zoomLevel(zoom: number): ZoomLevel {
