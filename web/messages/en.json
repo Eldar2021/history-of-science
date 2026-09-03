@@ -61,5 +61,30 @@
     "title": "Not found",
     "text": "This page does not exist, or the event is not published yet.",
     "back": "Back to the timeline"
+  },
+  "admin": {
+    "title": "Admin",
+    "login": {
+      "title": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "errors": {
+        "invalid": "Wrong email or password.",
+        "forbidden": "This account has no admin or editor role.",
+        "noEnv": "Supabase is not configured for this environment."
+      }
+    },
+    "signedInAs": "Signed in as {email} ({role})",
+    "signOut": "Sign out",
+    "nav": {
+      "dashboard": "Overview",
+      "events": "Events",
+      "site": "Open site"
+    },
+    "roles": {
+      "admin": "admin",
+      "editor": "editor"
+    }
   }
 }

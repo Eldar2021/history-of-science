@@ -61,5 +61,30 @@
     "title": "Bulunamadı",
     "text": "Bu sayfa yok ya da olay henüz yayınlanmadı.",
     "back": "Zaman çizgisine dön"
+  },
+  "admin": {
+    "title": "Yönetim",
+    "login": {
+      "title": "Giriş yap",
+      "email": "E-posta",
+      "password": "Şifre",
+      "submit": "Giriş yap",
+      "errors": {
+        "invalid": "E-posta ya da şifre yanlış.",
+        "forbidden": "Bu hesabın yönetici ya da editör rolü yok.",
+        "noEnv": "Bu ortamda Supabase yapılandırılmamış."
+      }
+    },
+    "signedInAs": "{email} olarak giriş yapıldı ({role})",
+    "signOut": "Çıkış yap",
+    "nav": {
+      "dashboard": "Genel bakış",
+      "events": "Olaylar",
+      "site": "Siteyi aç"
+    },
+    "roles": {
+      "admin": "yönetici",
+      "editor": "editör"
+    }
   }
 }

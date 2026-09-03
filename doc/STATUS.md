@@ -5,19 +5,37 @@
 
 ## Şu an
 
-- **Faz**: Ay 1 / Hafta 3 (başladı 2026-09-03, dal `el/week-3-event-detail`). Hedef: olay detayı, giriş geçişi, minimap, filtreler; M1'e giden yol (Hafta 4 sonu).
-- **Hafta 2 kalan**: içerik kutucuğu (10 antik taslak) kullanıcı doğrulaması bekliyor; kod ve tasarım kapandı, PR #3 `main`'e birleşti.
-- **Doğrulandı (2026-09-03, 7. oturum)**: Hafta 3'ün 5 kod kutucuğu bitti, her biri headless Chrome ile test edildi, `npm run check` 69 test yeşil. Dal `el/week-3-event-detail`, PR açık. Kalan: içerik (+10 İslam Altın Çağı) ve hafta sonu kontrolü.
-- **Bulut (2026-09-03)**: Supabase projesi **uchkun** `hsllmvouqayaccubodcl` (Frankfurt, ücretsiz) CLI ile açıldı; eski ref `jnclaqxvfitggyprasxw` = kullanıcının başka projesi **uro-go** (duraklatılmış, dokunulmadı). Migration 0001+0002 `db push` ile, seed `db query --file` ile uygulandı (8 çağ, 8 disiplin, 10 yayınlı olay, 6 bağlantı); anon RPC doğrulandı. Vercel prod/preview: `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_ANON_KEY`. DB şifresi kullanıcıya bir kez gösterildi (1Password). Üretim `vercel redeploy` ile yeniden dağıtıldı: https://history-of-science.vercel.app bulut DB'yi okuyor (doğrulandı).
-- **Sonraki adım**: (1) Taslak doğrulaması → yerel/bulut DB'ye `draft` → Hafta 4 admin panelinden yayın. (2) `/com_event` ile İslam Altın Çağı 10 olayı (03 listesi: Brahmagupta, El-Harezmi gövdesi, El-Farabi, İbn-i Heysem, İbn Sina, El-Biruni, Ömer Hayyam, Fibonacci, Roger Bacon, Uluğ Bey). (3) Hafta 4: admin + auth + RLS kanıtı → M1.
-- **Kullanıcıdan bekleyen**: (0) PR #5 (`el/week-3-content`) merge. (1) Üç yayınlı seed olayına taslak gövdelerini uygulama kararı (yayınlı metni değiştirir, insan eylemi). (2) Uluğ Bey yılı: seed `1420 exact` vs taslak `circa`+`1437`. (3) 18 taslağı yayına alma: Hafta 4 admin paneli ya da elle `update events set status='published'`. (3) Hafta sonu kontrolü: bir arkadaşa telefonu ver, 2 dakika izle. (4) İsteğe bağlı: `resource/Design system conflict scope/` klasörünü yeniden adlandır.
-- **Bloklayan**: yok. Bulut: `supabase link` bağlı (`backend/supabase/.temp`), `supabase db push` yeni migration'ları uygular. Yerel geliştirme: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
+- **Faz**: Ay 1 / Hafta 4 (başladı 2026-09-03, dal `el/week-4-admin`). Hedef: admin + auth + RLS kanıtı + Playwright → **M1** (02'deki MVP kabul kriterleri).
+- **Hafta 3 kapanış**: 5 kod kutucuğu bitti, PR #5 (`el/week-3-content`) `main`'e birleşti. 18 taslak (antik 10 + altın çağ 8) yerel ve bulut DB'de `draft`; RLS gizliyor. Kalan: hafta sonu kontrolü (kullanıcı).
+- **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl` (Frankfurt), migration 0001+0002 uygulanmış; Vercel prod https://history-of-science.vercel.app bulut DB'yi okuyor. Yerel: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
+- **Sonraki adım**: Hafta 4 kod kutucukları sırayla (aşağıda). Admin formu gelince: 18 taslağı yayına al, üç seed olayının (El-Harezmi, İbn-i Heysem, Uluğ Bey) gövdesini taslaktan uygula.
+- **Kullanıcıdan bekleyen**: (1) Bulut admin hesabı: Supabase panelinde Authentication → Add user (e-posta + şifre), sonra rolü `admin` yapılır. (2) Uluğ Bey yılı: seed `1420 exact` vs taslak `circa`+`1437`. (3) Hafta 3 hafta sonu kontrolü: arkadaşa telefonu ver, 2 dk izle. (4) "Kaydet → sitede anında" videosu (kod bitince). (5) +15 Bilimsel Devrim taslağının doğrulanması.
+- **Bloklayan**: yok.
+
+## Hafta 4 kutucukları
+
+**Kod**
+
+- [x] Supabase Auth + `profiles.role` + RLS kanıtı: `/admin/login` (e-posta + şifre, server action `signIn`/`signOut`, `lib/auth.ts` `getStaff`/`requireStaff` ikinci kilit), admin kök layout `app/admin/layout.tsx` (dil ön eksiz; UI dili `profiles.ui_locale` → `NEXT_LOCALE` çerezi → en, `i18n/request.ts`), `components/admin/AdminShell.tsx`, `lib/fonts.ts` iki kök layout'un ortak fontu, `messages/*.json` `admin` ad alanı 4 dilde. Yerel admin: `backend/scripts/create-admin.mjs <email> <şifre>` (service key ile Auth admin API + rol; `admin@uchkun.local` oluşturuldu). Kanıt `backend/scripts/rls-proof.sh` (anon key ile REST/RPC: yayınsız satır 0, silinmiş 0, çeviri/kaynak sızmıyor, `profiles` gizli, anon insert 401, taslak slug `get_event_detail` null; bir olay geçici `draft` yapılınca `get_timeline` 28→27). Not: yerel DB'de 28 olayın tamamı `published` (kullanıcı yerelde yayınlamış); bulutta 18 hâlâ `draft`. (2026-09-03)
+- [x] `proxy.ts` admin koruması: `/admin*` her istekte Supabase oturumu yeniler (`lib/supabase/session.ts` `refreshSession`, `getUser()` + `profiles.role`); anonim → **302** `/admin/login?next=…`, rolsüz hesap → `?error=forbidden`, env yoksa `?error=noEnv`; girişli staff `/admin/login`'e gelirse panele. Site rotaları next-intl'de kaldı. Headless Chrome: anonim yönlendirme, yanlış şifre hatası, giriş, `next` korunumu, çıkış doğrulandı. (2026-09-03)
+- [ ] `/admin/events` liste (yıl, başlık, durum, hazırlayan, dil durumu); `/admin/events/new` ve `/{id}` form (P0 alanlar + kaynak dil + önem).
+- [ ] Server action → kaydet → `revalidateTag` → sitede anında. Videoya çek.
+- [ ] Yumuşak silme. Admin UI 4 dilde (`messages/admin.*.json`).
+- [ ] Playwright: "admin ekler, sitede görünür".
+
+**İçerik**
+
+- [ ] +15 olay → 50 (Bilimsel Devrim'e kadar).
+
+**Kilometre taşı M1**
+
+- [ ] 02'deki MVP kabul kriterleri yeşil. Sadece kullanıcının bildiği URL'de.
 
 ## Hafta 3 kutucukları
 
 **Kod**
 
-- [x] Olay detay: masaüstü yan panel, mobil sheet, doğrudan URL tam sayfa; geri tuşu konumu korur. Migration `0002_event_detail.sql` (`get_event_detail(slug, locale)` tek JSON + `event_title` yardımcısı, anon'da taslak null), `lib/queries/event.ts`, `components/event/{EventDetail,DetailPanel}.tsx`, `app/[locale]/event/[slug]`, `app/[locale]/timeline/@panel/(..)event/[slug]` intercepting rota, `lib/content/markdown.ts` (### başlık + paragraf + *em*/**strong**, 5 test), kartlar tıklanabilir, `not-found.tsx`. Headless Chrome: panel/sheet açılır, Esc ve geri tuşu kapatır, kaydırma konumu birebir korunur, taslak 404. (2026-09-03)
+- [x] Olay detay: masaüstü yan panel, mobil sheet, doğrudan URL tam sayfa; geri tuşu konumu korur. Migration `0002_event_detail.sql` (`get_event_detail(slug, locale)` tek JSON + `event_title` yardımcısı, anon'da taslak null), `lib/queries/event.ts`, `components/event/{EventDetail,DetailPanel}.tsx`, `app/[locale]/event/[slug]`, `app/[locale]/timeline/@panel/(..)event/[slug]` intercepting rota, `lib/content/markdown.ts` (### başlık + paragraf + _em_/**strong**, 5 test), kartlar tıklanabilir, `not-found.tsx`. Headless Chrome: panel/sheet açılır, Esc ve geri tuşu kapatır, kaydırma konumu birebir korunur, taslak 404. (2026-09-03)
 - [x] Ana sayfa + "Zamana düş" sayaç geçişi + reduced-motion: `components/FallLink.tsx` (CTA, sessionStorage bayrağı) + `components/timeline/FallOverlay.tsx` (tam ekran örtü, 2026 → ilk olay ya da `?year=`, `--duration-fall` 1.5 s ease-out, `formatYear` ile MÖ/MS; reduced-motion'da sayaç yok, 250 ms fade). `lib/timeline/fall.ts` (`easeOut`, `parseDuration`; 4 test). Paylaşılan timeline linki düz açılır, bayrak yalnızca CTA'dan gelir. Bulunan hata: minifier `1500ms`→`1.5s` yazıyor, `parseFloat` 1.5 ms okuyordu. (2026-09-03)
 - [x] Minimap (gerçek ölçek, `xScale` ile) + tıklayınca atlama: `components/timeline/Minimap.tsx` tek SVG, `lib/timeline/minimap.ts` (yoğunluk kutuları karekök ölçekli, en yakın olay; 6 test). Mobilde alt şerit, masaüstünde sağ sütun; çağ çizgileri, ekrandaki yıl bandı, canlı imleç (passive scroll + rAF); tıklama/sürükleme en yakın olaya kaydırır, reduced-motion'da anında. `aria-label` yılı söyler. Headless Chrome iki boyutta doğrulandı. Sol çağ sütunu (masaüstü 3 sütun) yapılmadı; sticky çağ pill'i şimdilik yeterli. (2026-09-03)
 - [x] Disiplin filtre çipleri, URL senkron: `components/timeline/DisciplineFilter.tsx` + `lib/timeline/filter.ts` (5 test). `?d=physics,astronomy` seçilmeyenleri 0.3 soluklaştırır; "Sadece bunlar" çipi `&only=1` ile gizler, boş kalan çağ bölümleri de gizlenir; "Temizle"; boş sonuç mesajı; `?year=` korunur; yenilemede URL'den geri yüklenir. Sapma: 05'teki "ikinci tık = sadece bunlar" yerine ayrı çip (ikinci tıkın seçimi kaldırmasıyla çakışıyordu). (2026-09-03)
@@ -76,6 +94,7 @@
 ## Oturum günlüğü
 
 ### 2026-09-03 — 7. oturum: Hafta 3 kod kutucukları (tamamlandı)
+
 - Migration `0002_event_detail.sql`: `get_event_detail(slug, locale)` tek JSON, `event_title` yardımcısı; anon rolüyle taslak null doğrulandı; `gen:types`.
 - Olay detayı: `/[locale]/event/[slug]` tam sayfa + `timeline/@panel/(..)event/[slug]` intercepting rota (masaüstü yan panel, mobil sheet). `router.replace` ile kapatmak slot'u açık bırakıyor (Next yumuşak geçişte slot durumunu korur, `default.tsx` yalnızca sert yüklemede); panel yalnızca yumuşak geçişle açılabildiği için `router.back()` her zaman doğru.
 - Dürüstlük bandı mailto: olay başlığı + yıl + URL, `NEXT_PUBLIC_REPORT_EMAIL` (Vercel prod/preview/dev + `.env.local`), `NEXT_PUBLIC_SITE_URL` Vercel prod.
