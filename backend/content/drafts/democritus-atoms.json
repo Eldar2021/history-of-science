@@ -1,0 +1,83 @@
+{
+  "slug": "democritus-atoms",
+  "year": -420,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "title": "Democritus and Leucippus: everything is made of atoms and empty space",
+  "summary": "In Abdera, two thinkers propose that the world is nothing but tiny, uncuttable particles moving in the void. Nobody could see one for more than two thousand years.",
+  "body": "### The scene\n\nAbdera, a Greek trading city on the coast of Thrace, in the last decades of the fifth century BCE. Athens and Sparta are at war. Philosophers have been arguing for a century about what the world is made of. Thales said water; Empedocles said four elements; Parmenides, in southern Italy, said something more disturbing: nothing can truly change, because something cannot come from nothing. If he was right, the birth, growth and decay you see every day are an illusion.\n\n### What happened\n\nTwo thinkers from Abdera, Leucippus and his student Democritus, offered a way out. Suppose the world is made of tiny particles that cannot be cut, atomos in Greek, moving in empty space. The atoms themselves never change, which satisfied Parmenides. But they can collide, hook together and come apart, and that rearranging is all that change ever was. Sweetness, colour, heat: these exist, in Democritus's words, \"by convention\"; in reality there are only atoms and the void.\n\nLeucippus seems to have had the idea first; Democritus built it into a system, reportedly across some eighty books on physics, ethics, mathematics and music. Not one survives. We know the theory mostly from Aristotle, who rejected it but admired its reasoning, and from Epicurus and the Roman poet Lucretius, who adopted it centuries later.\n\nImagine a box of building bricks. A limited set of shapes, snapped together in different orders, makes a house, a horse, a ship. Take them apart and the bricks are unchanged, ready to become something else. The analogy breaks at the builder: in Democritus's world no hand does the arranging, atoms simply move and collide forever, with no purpose behind the result. That absence of purpose is exactly what Aristotle found unacceptable.\n\n### Why it was hard\n\nThe theory was pure reasoning. No instrument of the ancient world could see anything remotely as small as an atom, and none would for over two millennia. Democritus even admitted that his argument undercut the senses that seemed to support it; in one surviving fragment the senses answer the mind: \"wretched mind, you take your evidence from us and then throw us down.\" A world of purposeless atoms also offended the deepest instinct of Greek philosophy, which wanted to know what things were for. Plato's dialogues never name Democritus; Aristotle made atomism the chief rival of his own purpose-driven physics, and Aristotle won the next two thousand years.\n\nGreek atomism was not alone. In India the Vaisheshika school, traditionally founded by Kanada, developed an atomic theory in which atoms differ in kind, not only in shape and size. Its date is uncertain, anywhere from the sixth to the second century BCE, and there is no good evidence that either tradition borrowed from the other.\n\n### What it opened\n\nEpicurus made atoms the basis of an ethics of calm; Lucretius turned them into a Latin poem, On the Nature of Things, whose rediscovery in 1417 put atoms back into European heads. When John Dalton proposed a chemical atomic theory in 1803 he was knowingly reviving a Greek word, and in 1905 Einstein showed that the jittering of pollen grains in water is the visible trace of invisible atoms. Modern atoms are not uncuttable and not purposeless bricks, but the bet that the visible world rests on invisible, countable parts has paid off beyond anything Democritus could have imagined.",
+  "why_it_matters": "It is the first fully worked-out claim that the visible world is built from invisible parts obeying their own rules, with no purpose behind them. Chemistry and physics eventually rebuilt themselves on that claim, though the modern atom is a very different object.",
+  "if_you_were_there": "Nobody had any way to look inside matter; a stone was simply stone all the way down. Most educated Greeks thought Democritus was wrong, and for two thousand years the record agreed with them.",
+  "disciplines": [
+    "physics",
+    "chemistry"
+  ],
+  "people": [
+    {
+      "name": "Democritus",
+      "role": "systematised atomism in Abdera"
+    },
+    {
+      "name": "Leucippus",
+      "role": "teacher of Democritus; credited by Aristotle with originating atomism"
+    },
+    {
+      "name": "Kanada",
+      "role": "founder of the Indian Vaisheshika atomic school, date uncertain"
+    },
+    {
+      "name": "Epicurus",
+      "role": "adapted atomism a century later"
+    },
+    {
+      "name": "Lucretius",
+      "role": "Roman poet who transmitted atomism to Europe"
+    }
+  ],
+  "builds_on": [
+    "thales-natural-explanations",
+    "empedocles-four-elements?"
+  ],
+  "enables": [
+    "aristotle-lyceum",
+    "dalton-atomic-theory?",
+    "einstein-miracle-year?"
+  ],
+  "sources": [
+    {
+      "title": "Democritus — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/democritus/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ancient Atomism — Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/atomism-ancient/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Democritus — Britannica",
+      "url": "https://www.britannica.com/biography/Democritus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Democritus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Democritus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Kanada (philosopher) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kanada_(philosopher)",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Lucretius, On the Nature of Things (De rerum natura), trans. W. H. D. Rouse, Loeb Classical Library",
+      "url": "https://www.loebclassics.com/view/LCL181/1924/volume.xml",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "MÖ 420 tek bir olaya değil, Demokritos'un (yaklaşık MÖ 460-370) olgun dönemine karşılık gelen temsili bir yıl; kaynaklar Leukippos için sadece '5. yüzyıl' diyor. 'Zavallı akıl' fragmanı Galen aracılığıyla aktarılıyor, çevirisini bir kaynakla daha karşılaştır. Kanada'nın tarihi MÖ 6.-2. yüzyıl arasında belirsiz; Lucretius'un 1417'de yeniden bulunması (Poggio Bracciolini) burada ikinci kaynakla doğrulanmadı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

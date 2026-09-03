@@ -40,15 +40,15 @@ Otomatik içerik hattı sayesinde içerik yükün olay başına ~10 dakikaya ine
 ### Hafta 2: Akış timeline'ı MVP
 
 **Kod**
-- [ ] Dikey akış, 3 boyutta olay kartı, sticky çağ başlığı, zaman boşluğu işareti.
-- [ ] Sabit üst çubuk + canlı yıl göstergesi.
-- [ ] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest.
-- [ ] Tasarım token'ları (`tokens.json` → `globals.css`), **her iki tema**; sistem tercihi + anahtar.
-- [ ] `?year=` derin bağlantı.
-- [ ] `xScale(year, zoom, pan)` ölçek fonksiyonu (minimap ve ileride kanvas ortak kullanır).
+- [x] Dikey akış, 3 boyutta olay kartı, sticky çağ başlığı, zaman boşluğu işareti.
+- [x] Sabit üst çubuk + canlı yıl göstergesi.
+- [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest.
+- [x] Tasarım token'ları (`tokens.json` → `globals.css`), **her iki tema**; sistem tercihi + anahtar.
+- [x] `?year=` derin bağlantı.
+- [x] `xScale(year, zoom, pan)` ölçek fonksiyonu (minimap ve ileride kanvas ortak kullanır).
 
 **Tasarım**
-- [ ] İki temayı gerçek kodda gör, **birincil temayı seç** (S15). Token'ları `resource/design/`e kaydet.
+- [x] İki temayı gerçek kodda gör, **birincil temayı seç** (S15). Token'ları `resource/design/`e kaydet.
 
 **İçerik**
 - [ ] +10 olay İngilizce (antik dünya).

@@ -1,0 +1,98 @@
+{
+  "slug": "ptolemy-almagest",
+  "year": 150,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Ptolemy's Almagest: the Earth-centred sky that worked for 1,400 years",
+  "summary": "In Alexandria, Ptolemy folds eight centuries of observations into one geometric model of the sky. The Earth sits still at the center, and the predictions hold up for 1,400 years.",
+  "body": "### The scene\n\nAlexandria, around the year 150. Egypt is a Roman province, but the city still runs on Greek geometry and on records copied from Babylonian clay. Anyone who watches the night sky sees the puzzle: the stars wheel overhead in a steady rhythm, but five \"wanderers\", the planets, speed up, slow down, and every so often loop backwards for weeks. Babylonian scribes had logged eclipses for centuries. Three hundred years earlier Hipparchus had catalogued the stars and modelled the Sun and Moon, but, as Ptolemy himself admits, never finished a theory of the planets. And Aristotle's physics insisted the heavens move only in perfect circles around a motionless Earth.\n\n### What happened\n\nClaudius Ptolemy, a Greek-speaking scholar in Alexandria, made his own observations between 127 and 141, then wrote the *Mathematike Syntaxis*, the \"Mathematical Treatise\", in thirteen books: a table for calculating with angles, the Sun, the Moon, eclipses, a catalogue of 1,022 stars resting largely on Hipparchus, and models for the five planets. Each planet rides on a small circle whose center rides on a larger circle around the Earth; the Earth sits slightly off center, and from a third point, the equant, the motion looks uniform. Think of a clockwork of nested gears: add enough small wheels and the hands can trace almost any path, even a backward loop. The analogy breaks in one place: clock gears physically push each other, while Ptolemy's circles are geometry for calculation, and in this book he is careful not to claim they are the sky's actual machinery. It worked. With the book and some patience you could say where Mars would be next spring, or when the Moon would darken, well enough for calendars, navigation and astrology for over a thousand years.\n\n### Why it was hard\n\nThere were no telescopes and no clocks; angles were read off bronze rings to a fraction of a degree on a good night. What made the book possible was time: it uses eclipse records reaching back more than eight centuries, Hipparchus' methods, and the circle-on-circle geometry of Apollonius. The equant was the price of accuracy: it broke Aristotle's rule of uniform motion, and that compromise nagged at astronomers for a millennium. One honest note: in the 1970s the physicist R. R. Newton accused Ptolemy of faking observations to fit his theory. Most historians think the truth is messier: he selected, rounded and sometimes adjusted, but the catalogue rests on real sightings.\n\n### What it opened\n\nThe Almagest was so complete that the older books it summarized stopped being copied; Hipparchus survives mostly through its pages. In ninth-century Baghdad, under the caliph al-Ma'mun, it was translated into Arabic more than once (al-Hajjaj around 827, then Ishaq ibn Hunayn, revised by Thabit ibn Qurra), and the Arabic title *al-majisti*, \"the greatest\", is the name we still use. Islamic astronomers kept the framework and pushed on it: Ibn al-Haytham's *Doubts Concerning Ptolemy* (c. 1025-1028) called the equant physically impossible; al-Tusi at Maragha (1259) and Ibn al-Shatir in Damascus (1300s) built models without it; Ulugh Beg in Samarkand re-measured the stars. Gerard of Cremona's Latin translation from the Arabic (1175) carried it into Europe's universities. When Copernicus moved the Sun to the center in 1543 he kept most of Ptolemy's machinery; part of his motive was disgust at the equant. Kepler replaced the circles with ellipses in 1609. The Earth at the center was the part that died. The demand that a theory of the sky produce numbers you can check against the sky is the part that lived.",
+  "why_it_matters": "It set the standard that a theory of the heavens must predict positions, not just tell a story. For 1,400 years it was the textbook, and the tradition that eventually overturned it, from Baghdad to Samarkand to Copernicus, learned its tools from this book.",
+  "if_you_were_there": "Nobody knew the planets were worlds or how far away anything was; the wanderers were points of light named after gods, and the only question was where they would be next month.",
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Claudius Ptolemy",
+      "role": "author of the Almagest; observed in Alexandria 127-141"
+    },
+    {
+      "name": "Hipparchus",
+      "role": "predecessor; star catalogue and Sun-Moon models the Almagest rests on"
+    },
+    {
+      "name": "Apollonius of Perga",
+      "role": "predecessor; geometry of epicycles and eccentric circles"
+    },
+    {
+      "name": "Al-Hajjaj ibn Yusuf ibn Matar",
+      "role": "early Arabic translator, Baghdad c. 827"
+    },
+    {
+      "name": "Thabit ibn Qurra",
+      "role": "revised the Arabic translation of Ishaq ibn Hunayn"
+    },
+    {
+      "name": "Ibn al-Haytham",
+      "role": "critic; Doubts Concerning Ptolemy, c. 1025-1028"
+    },
+    {
+      "name": "Gerard of Cremona",
+      "role": "Latin translator from the Arabic, Toledo 1175"
+    }
+  ],
+  "builds_on": [
+    "hipparchus-star-catalogue",
+    "euclid-elements",
+    "aristotle-lyceum"
+  ],
+  "enables": [
+    "hypatia-alexandria",
+    "ibn-al-haytham-optics",
+    "ulugh-beg-observatory",
+    "copernicus-heliocentrism",
+    "kepler-planetary-laws?"
+  ],
+  "sources": [
+    {
+      "title": "Almagest | Definition, Ptolemy, & Facts (Britannica)",
+      "url": "https://www.britannica.com/topic/Almagest",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ptolemaic system (Britannica)",
+      "url": "https://www.britannica.com/science/Ptolemaic-system",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Almagest (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Almagest",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ptolemy (Dictionary of Scientific Biography via Encyclopedia.com)",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/astronomy-biographies/ptolemy",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Astronomy in the medieval Islamic world (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Astronomy_in_the_medieval_Islamic_world",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Richard Fitzpatrick, Ptolemy's Almagest: Fact and Fiction (University of Texas at Austin)",
+      "url": "https://farside.ph.utexas.edu/talks/AlmagestNotes.pdf",
+      "kind": "article"
+    },
+    {
+      "title": "G. J. Toomer (trans.), Ptolemy's Almagest, Princeton University Press, 1998",
+      "url": "https://press.princeton.edu/books/paperback/9780691002606/ptolemys-almagest",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Yıl 150 'circa': Britannica 'yaklaşık 150' diyor, Wikipedia Canopus yazıtını 147/148'e koyup kitabı ondan sonraya tarihliyor, gözlemler 127-141; kesin yıl yok. Britannica sayfaları çekilemedi (403), bu iki kaynak yalnızca arama özetinden doğrulandı; ayrıca Arapça çeviri tarihleri (el-Haccac ~827) ve Ibn al-Shatir bilgisi tek kaynağa (Wikipedia) dayanıyor. R. R. Newton'un sahtecilik iddiası tartışmalıdır; metindeki 'seçti, yuvarladı, bazen ayarladı' dengesini bir tarihçi kaynağıyla karşılaştır.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

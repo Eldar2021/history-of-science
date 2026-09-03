@@ -1,0 +1,78 @@
+{
+  "slug": "hypatia-alexandria",
+  "year": 400,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 3,
+  "title": "Hypatia teaches mathematics and astronomy in Alexandria",
+  "summary": "Around 400, the most respected teacher in Alexandria is a woman. Hypatia explains Diophantus, Apollonius and Ptolemy to students from across the Mediterranean and helps them build their instruments.",
+  "body": "### The scene\n\nAlexandria around the year 400 is a city arguing with itself. Founded seven centuries earlier as a Greek capital in Egypt, it has been Roman for four hundred years and is now, quickly, becoming Christian. The famous Library is already gone; nobody can say exactly when it faded away. The Museum, the research institute once attached to it, survives mostly as a memory. Hypatia's father, Theon, is the last member of it whose name we know. He spends his life copying, correcting and explaining the classics: Euclid's Elements, Ptolemy's Almagest. It is rescue work, not discovery.\n\n### What happened\n\nHypatia learned mathematics from Theon and then went past him. By about 400 she is the best-known teacher in the city, lecturing on geometry, astronomy and the philosophy of Plato to students who came from around the eastern Mediterranean, pagans and Christians alike. Sources say she wrote commentaries on three hard books: the Arithmetica of Diophantus (problems about whole numbers), the Conics of Apollonius (the curves you get by slicing a cone) and Ptolemy's astronomy. A heading in her father's commentary on the Almagest reads, roughly, \"Book III, revised by my daughter Hypatia, the philosopher\". Almost nothing else survives under her name.\n\nWhat we do have are letters from a student, Synesius of Cyrene, who later became a bishop. In one he recalls her teaching him to build a silver plane astrolabe, a flat model of the sky used to tell time and find stars. In another he describes, in great detail, a \"hydroscope\", a weighted tube for measuring how dense a liquid is, and asks her to have one made. She did not invent either device; the astrolabe was centuries old. But the letters show a working scientist whose students trusted her hands as much as her arguments.\n\nThink of her as a restorer of old paintings: cleaning, repairing and re-explaining masterpieces so that the next generation can see them clearly. The analogy breaks because a restorer is not supposed to add anything, while a commentator chooses which problems to explain and how, and that choice shapes what later readers can think.\n\n### Why it was hard\n\nHypatia's problem was not a scientific one; it was the city. In 412 Cyril became bishop and clashed with Orestes, the Roman governor, over who really ran Alexandria. Orestes was Hypatia's friend and, people said, took her advice. In March 415, during Lent, a crowd led by a church reader named Peter pulled her from her carriage, dragged her into a building and killed her with roof tiles or shards of pottery. Ancient writers, Christian ones included, were horrified. Whether the killers were the bishop's guards or ordinary townsmen is still argued.\n\n### What it opened\n\nHer death opened nothing; it closed things, and later ages filled the silence with their own stories. Enlightenment writers such as Toland, Voltaire and Gibbon made her a martyr of reason against the Church. The 2009 film Agora has her discovering elliptical orbits, which no source supports, and ties her death to the burning of the Library, which had disappeared long before she was born. Some of the Arabic manuscripts of Diophantus found in 1968 may preserve material from her commentary, carried to Baghdad in the centuries after her, where the generation of al-Khwarizmi read it. The documented Hypatia is smaller than the legend and more interesting: a woman who ran the best school in the Mediterranean, in a city that was losing the habit of learning.",
+  "why_it_matters": "Hypatia is the earliest woman scientist whose life and work we can describe from records rather than legend. Her story also marks the end of Alexandria as the world's center of mathematics, and shows that preserving and explaining knowledge is scientific work, not a footnote to it.",
+  "if_you_were_there": "Most people in Alexandria could not read, and almost no one thought a woman should lecture in public; yet the governor of Egypt and future bishops sat in her classes.",
+  "disciplines": [
+    "mathematics",
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Hypatia of Alexandria",
+      "role": "mathematician, astronomer and philosopher; head of the Neoplatonist school in Alexandria"
+    },
+    {
+      "name": "Theon of Alexandria",
+      "role": "her father and teacher; editor of Euclid and commentator on Ptolemy"
+    },
+    {
+      "name": "Synesius of Cyrene",
+      "role": "her student, later bishop; his letters are the main surviving record of her scientific work"
+    },
+    {
+      "name": "Orestes",
+      "role": "Roman prefect of Egypt and her ally in the conflict with Cyril"
+    },
+    {
+      "name": "Cyril of Alexandria",
+      "role": "bishop whose feud with Orestes forms the political background of her murder"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "ptolemy-almagest",
+    "plato-academy",
+    "hipparchus-star-catalogue"
+  ],
+  "enables": [
+    "al-khwarizmi-algebra"
+  ],
+  "sources": [
+    {
+      "title": "Hypatia | Death, Facts, & Biography",
+      "url": "https://www.britannica.com/biography/Hypatia",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Hypatia - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hypatia",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Hypatia (370 - 415) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia/",
+      "kind": "article"
+    },
+    {
+      "title": "Maria Dzielska, Hypatia of Alexandria (Harvard University Press, 1995)",
+      "url": "https://www.hup.harvard.edu/books/9780674437760",
+      "kind": "book"
+    },
+    {
+      "title": "Hypatia, Ancient Alexandria's Great Female Scholar - Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/hypatia-ancient-alexandrias-great-female-scholar-10942888/",
+      "kind": "article"
+    }
+  ],
+  "verify_note_tr": "Yıl 400 kesin bir olay değil, öğretmenliğinin zirvesi için seçilmiş yaklaşık tarih (MacTutor: 'yaklaşık 400'de okulun başına geçti'); doğum yılı kaynaklarda 350-370 arasında değişiyor (Britannica ~355, MacTutor ~370). Diophantus'un 1968'de bulunan Arapça kitaplarının Hypatia'nın yorumundan geldiği iddiası bilimsel bir tahmindir, kesin değil; gövdede 'olabilir' diye yazıldı, kontrol et. Katillerin kimliği (parabalani mi, sıradan halk mı) ve cinayetin nedeni (siyasi mi, bilim düşmanlığı mı) tartışmalı; metin siyasi çerçeveyi (Dzielska, Wikipedia) izliyor, MacTutor ise 'bilimden korktular' diyor.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

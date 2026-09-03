@@ -1,4 +1,4 @@
-import type { Era, TimelineEvent } from "@/lib/queries/types";
+import type { Discipline, Era, TimelineEvent } from "@/lib/queries/types";
 import type { Locale } from "@/lib/i18n/formatYear";
 
 /** Used when Supabase env is missing, so the site runs before the database exists. Mirrors seed.sql. */
@@ -50,4 +50,16 @@ export function fixtureEras(locale: Locale): Era[] {
   return ERA_SLUGS.map((slug, i) => ({
     id: i + 1, slug, start_year: ERA_BOUNDS[i][0], end_year: ERA_BOUNDS[i][1], name: ERA_NAMES[locale][i], tagline: null,
   }));
+}
+
+const DISCIPLINE_SLUGS = ["mathematics", "physics", "astronomy", "chemistry", "biology", "medicine", "earth", "technology"];
+const DISCIPLINE_NAMES: Record<Locale, string[]> = {
+  en: ["Mathematics", "Physics", "Astronomy & Space", "Chemistry", "Biology", "Medicine", "Earth & Climate", "Technology & Engineering"],
+  tr: ["Matematik", "Fizik", "Astronomi ve Uzay", "Kimya", "Biyoloji", "Tıp", "Yer Bilimleri ve İklim", "Teknoloji ve Mühendislik"],
+  ru: ["Математика", "Физика", "Астрономия и космос", "Химия", "Биология", "Медицина", "Науки о Земле и климат", "Технологии и инженерия"],
+  ky: ["Математика", "Физика", "Астрономия жана космос", "Химия", "Биология", "Медицина", "Жер илимдери жана климат", "Технология жана инженерия"],
+};
+
+export function fixtureDisciplines(locale: Locale): Discipline[] {
+  return DISCIPLINE_SLUGS.map((slug, i) => ({ id: i + 1, slug, name: DISCIPLINE_NAMES[locale][i] }));
 }

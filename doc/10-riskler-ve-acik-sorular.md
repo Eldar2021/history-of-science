@@ -14,6 +14,7 @@
 | S8  | Tasarım aracı?            | Claude Design                                                        | 07                                                      |
 | S9  | İlk lansman kitlesi?      | İngilizce önce (veri hazır, hızlı yayın), sonra ky, tr, ru           | ADR-013, 08 yeniden düzenlendi                          |
 | S10 | Karanlık tema ana mı?     | İkisini de görüp seçeceğim                                           | ADR-015, 07 iki tema eşit                               |
+| S15 | Birincil tema?            | **Açık tema** (2026-09-03)                                           | ADR-020, globals.css varsayılanı                        |
 
 ## Kalan açık sorular
 
@@ -23,7 +24,6 @@
 | S12 | Hata bildirimi nereye düşsün: e-posta mı, admin'de "bildirimler" mi? | Hafta 7  | Öneri: ikisi; e-posta yedek                    |
 | S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman başlasın?        | Hafta 9  | İngilizce beta bitince; onlara `editor` hesabı |
 | S14 | Alan adı hangisi?                                                    | Hafta 8  | Müsaitlik kontrolü                             |
-| S15 | Birincil tema?                                                       | Hafta 2  | Konsepti görünce                               |
 
 ## Riskler (cevaplarınla güncellendi)
 
@@ -79,6 +79,10 @@
 - **Plan**: Lansmanı kanvassız yap (Akış modu tamdır), kanvası v1.1 olarak 2 hafta sonra çıkar. Lansman metninde "yakında: Keşfet" de; merak yaratır.
 
 ## Park (3 aydan sonra bakılacak fikirler)
+
+- 2026-09-03: İçerik hattı (Hafta 5) için not: Britannica otomatik çekimi engelliyor (403). Hat, kaynak eşiğini SEP / Wikipedia / MacTutor / üniversite sayfalarıyla tutmalı; Britannica yalnızca insan kontrolü için link olarak kalsın.
+
+- 2026-09-03: Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"). Şema alanı yok; `eras` ya da ayrı `gaps` tablosu + çeviri gerekir. Hafta 3-4'te değerlendir.
 
 - 2026-09-02: "Orada olsaydın" etkileşimli senaryolar.
 - 2026-09-02: "Geriye sar" modu (bugünden geçmişe).

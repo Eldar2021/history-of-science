@@ -5,11 +5,30 @@
 
 ## Şu an
 
-- **Faz**: Ay 1 / Hafta 1 tamamlandı (2026-09-03, üç oturum). Hafta 2 başlıyor: Akış timeline'ı MVP.
-- **Doğrulandı (2026-09-03, 3. oturum)**: Tasarım token'ları koda aktarıldı (`resource/design/tokens.json` → `web/app/globals.css`, iki tema; fontlar Golos Text + Literata, `Ңөү` build edilen woff2'lerde doğrulandı). Yerel Supabase (Colima üstünde Docker) ayakta: `0001_init.sql` + `seed.sql` uygulanıyor; 8 çağ, 8 disiplin, 10 yayınlanmış olay, `get_timeline`/`get_chain` çalışıyor; RLS anonim istekte taslağı gizliyor (test edildi). `web/.env.local` yerel anahtarlarla yazıldı (gitignore'da). `npm run gen:types` → `lib/supabase/types.ts`, client'lar `Database` ile tipli. `npm run check` + `next build` yeşil; `next start` ile `/en/timeline` ve `/ky/timeline` DB'den render ediyor.
-- **Sonraki adım (Hafta 2 kutucukları, sırayla)**: 3 boyutta olay kartı (landmark/standart/küçük not, konsept 1d-1g) → sticky çağ başlığı (pill) → sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer) → `?year=` derin bağlantı → `lib/timeline/xScale.ts` → tema anahtarı (`data-theme`) ve S15 birincil tema kararı → +10 antik olay.
-- **Kullanıcıdan bekleyen**: (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı. (3) S15 birincil tema (karanlık şu an CSS varsayılanı; konsept panosu da karanlığı öneriyor). (4) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
+- **Faz**: Ay 1 / Hafta 2 (başladı 2026-09-03, dal `el/week-2-timeline-mvp`). Hedef: Akış timeline'ı MVP; M1'e giden yol.
+- **Doğrulandı (2026-09-03, 5. oturum)**: Hafta 2 kod kutucuklarının tamamı bitti ve headless Chrome ile test edildi: 3 boyutta kart, sticky çağ pill'i, zaman boşluğu, canlı yıl göstergesi (kaydırma örnekleri MÖ 585 → 1947), `?year=1687` Newton'a, `?year=-240` "MÖ 240"a düşüyor, tema anahtarı localStorage ile kalıcı, konsol hatası yok. `npm run check` 51 test yeşil. Ekran görüntüleri iki temada alındı.
+- **Sonraki adım**: (1) Kullanıcı 10 taslağı doğrular (`backend/content/drafts/`, her dosyada `verify_note_tr`); onaylananlar yerel DB'ye `draft` olarak yüklenir (kullanıcı kararı bekleniyor). (2) Hafta 3'e geçiş: olay detay paneli/sheet, ana sayfa "Zamana düş" sayacı, minimap (`xScale` hazır), disiplin filtre çipleri, dürüstlük bandı mailto'ya olay bilgisi. (3) İsteğe bağlı: `timeline-ux-reviewer` ajanıyla Hafta 2 çıktısını 05'e karşı gözden geçir.
+- **Kullanıcıdan bekleyen**: (0) 10 antik olay taslağını doğrula; siteden okumak için yerelde `published`'a çevirme kararı (gövde metni Hafta 3 detay sayfasıyla görünür olacak). (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı; `el/week-2-timeline-mvp` dalını `main`'e PR ile almak. (3) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
 - **Bloklayan**: yok. Yerel geliştirme için: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
+
+## Hafta 2 kutucukları
+
+**Kod**
+- [x] Dikey akış, 3 boyutta olay kartı (landmark / standart / küçük not), sticky çağ başlığı, zaman boşluğu işareti (konsept 1d-1g). `components/timeline/{EventCard,EraHeader,TimeGap}.tsx`, `getDisciplines(locale)` ile çevrili çipler. (2026-09-03)
+- [x] Sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer, `aria-live`). `components/timeline/YearIndicator.tsx`; headless Chrome ile kaydırma testi geçti. (2026-09-03)
+- [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest (Hafta 1'de yapıldı, 38 test).
+- [x] Tasarım token'ları (`tokens.json` → `globals.css`), her iki tema; sistem tercihi + anahtar (`components/ThemeToggle.tsx`, `lib/theme.ts` flaş önleyici script, localStorage). (2026-09-03)
+- [x] `?year=` derin bağlantı (`components/timeline/DeepLink.tsx`, en yakın olaya atlar; sayfa statik kalır). (2026-09-03)
+- [x] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, 13 test: sıfır yılı yok, tersi, zoom/pan, Z0-Z3, imleç etrafında zoom). (2026-09-03)
+
+**Tasarım**
+- [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`; anahtar başlıkta, iki tema ekran görüntüsüyle doğrulandı.
+
+**İçerik**
+- [~] +10 olay İngilizce (antik dünya): 10 taslak `backend/content/drafts/*.json` (Pisagor, Demokritos, Hipokrat, Platon, Aristoteles, Hipparkos, Batlamyus, Galen, Hypatia, Aryabhata), her biri 5-7 kaynak ve Türkçe doğrulama notuyla. Yerel DB'ye `draft` olarak yüklendi (`backend/scripts/drafts-to-sql.mjs`, 37 bağlantı dahil); RLS gizliyor. **Kullanıcı doğrulaması ve yerel yayın kararı bekliyor.** (2026-09-03)
+
+**Hafta sonu kontrolü**
+- [x] `/en/timeline` konsepteki gibi akıyor; yıl göstergesi kaydırdıkça güncelleniyor; `?year=1687` Newton kartına düşüyor (headless Chrome, 2026-09-03).
 
 ## Hafta 1 kutucukları
 
@@ -30,6 +49,26 @@
 - `04-mimari` ve `CLAUDE.md` artık Next 16 / `proxy.ts` diyor.
 
 ## Oturum günlüğü
+
+### 2026-09-03 — 6. oturum: içerik taslakları (Hafta 2 içerik kutucuğu)
+- `/com_event` ile antik listeden 10 olay, 4 paralel `content-writer` ajanıyla: Pisagor, Demokritos, Hipokrat, Platon, Aristoteles, Hipparkos, Batlamyus, Galen, Hypatia, Aryabhata → `backend/content/drafts/*.json` (+ `backend/content/README.md`). Her taslak 5-7 kaynak, `verify_note_tr`, `status: draft`; DB'ye yazılmadı.
+- Doğrulama betiği (scratchpad, `check-drafts.py`): alanlar, uzunluklar, disiplin/bağlantı slug'ları, kaynak sayısı. Hafta 5'te `backend/scripts/` içine TS olarak taşınabilir.
+- Sorunlar: Britannica doğrudan çekilemiyor (403), ajanlar arama özetlerine dayandı → kullanıcı elle açmalı. 12 ileri bağlantı `?` ile işaretli (hedef olaylar yazılmamış). Empedokles ve Zhang Heng bu turda yazılmadı.
+- Yarım kalan: taslakların insan doğrulaması ve DB yüklemesi (kullanıcı kararı).
+
+
+### 2026-09-03 — 5. oturum: Hafta 2 kod kutucukları (tamamlandı)
+- Kartlar 3 boyutta, sticky çağ pill'i, zaman boşluğu, çevrili disiplin çipleri (`getDisciplines`); canlı yıl göstergesi; `?year=` derin bağlantı; `lib/timeline/xScale.ts` + 13 test; tema anahtarı (`lib/theme.ts` + `components/ThemeToggle.tsx`). 6 commit.
+- Doğrulama: headless Chrome (puppeteer-core, scratchpad'de; projeye bağımlılık eklenmedi). Playwright Hafta 4'te gelecek.
+- Bulunan sorunlar: React Compiler lint kuralları (render'da değişken atama, effect'te setState) iki yerde tasarımı değiştirdi: gap'ler önceden hesaplanıyor, tema `useSyncExternalStore` ile. `"use client"` modülünden sabit export server'a taşınamıyor → `lib/theme.ts`.
+- Yarım kalan: yok. İçerik kutucuğu (+10 antik olay) bekliyor; masaüstü 3 sütunlu düzen (sol çağ listesi, sağ minimap) Hafta 3'te minimapla birlikte.
+
+
+### 2026-09-03 — 4. oturum (kısa): Hafta 2 açılışı
+- `el/week-2-timeline-mvp` dalı `el/try-planning` üzerinden açıldı. Kod yazılmadı.
+- Hafta 2 kutucukları STATUS'a kopyalandı; plan sunuldu: (1) 3 boyutta kart + sticky çağ pill + zaman boşluğu, `getDisciplines(locale)` ile çevrili çip adları; (2) üst çubuk + canlı yıl (IntersectionObserver, odometer, aria-live); (3) `?year=`; (4) `xScale.ts` + test; (5) tema anahtarı (`data-theme` + localStorage + inline script). Varsayımlar: zaman boşluğu bu hafta yalnızca "~N yıl geçti"; liste sunucuda render, yalnızca yıl göstergesi/tema client.
+- Kullanıcı onayı gelmedi; sonraki oturum bu planla başlar.
+
 
 ### 2026-09-03 — 3. oturum: tasarım token'ları + yerel Supabase
 - Konsept dosyaları okundu; `tokens.json` çıkarıldı, `globals.css` iki temayla yeniden yazıldı, fontlar Golos Text + Literata (`cyrillic-ext`, `Ңөү` fontTools ile woff2'de doğrulandı). ADR-019.

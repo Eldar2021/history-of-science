@@ -1,0 +1,85 @@
+{
+  "slug": "plato-academy",
+  "year": -387,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "title": "Plato founds the Academy: mathematics as the door to philosophy",
+  "summary": "In a grove outside Athens, Plato gathers mathematicians and philosophers into a lasting community. Geometry becomes the training ground for thinking about everything else.",
+  "body": "### The scene\n\nAthens around 387 BCE is a city still bruised. It lost a long war with Sparta two decades earlier, and in 399 it executed Socrates, the teacher Plato loved. Plato, now about forty, has been travelling: to southern Italy and Sicily, where he met Archytas of Tarentum, a Pythagorean who was both a working mathematician and a working politician. Back home, Plato begins meeting friends in a public grove and gymnasium just outside the city walls, a park named after a local hero, Academus.\n\n### What happened\n\nThat park gave the school its name and, eventually, ours: academy. There was no building with a sign on it and probably no single founding day. Ancient and modern writers place the start somewhere between 387 and 383 BCE, and some argue it grew slowly out of conversations that had begun years earlier. What we can say is that by the mid-380s the Academy was a recognisable community, and that mathematics was at its heart. In the *Republic*, Plato lays out a training programme for future thinkers: arithmetic, plane geometry, solid geometry, astronomy and the mathematics of music, each for years, before philosophy proper. Nearly every serious Greek mathematician of the generation passed through. Theaetetus worked on lengths that cannot be written as fractions and on the five regular solids. Eudoxus of Cnidus built the first geometric model of the planets and a theory of proportion that Euclid would later copy almost whole. Philip of Opus edited Plato's last work. Later sources also name two women, Axiothea of Phlius and Lasthenia of Mantinea, among the students. Aristotle arrived in 367 and stayed twenty years.\n\nThink of mathematics here as the clean room before a laboratory: you pass through it to shake off the dust of everyday opinion, learning what a proof feels like before you argue about justice or the soul. The analogy breaks in one place. A clean room is only a corridor, but for Plato the perfect circles and numbers were not a corridor to reality; they were closer to reality than anything you could touch.\n\n### Why it was hard\n\nThe famous sign over the door, \"Let no one ignorant of geometry enter,\" is a legend; it first appears in a commentary written about seven centuries later. The real difficulty was quieter. Greek mathematics before this was a scatter of results held by Pythagorean circles and individual thinkers, with no shared home. Plato was not a great mathematician himself. What he did was give the mathematicians a place, an audience and a reason: he argued that their proofs were the model of what knowing anything should look like. It took a city with leisure and money, a founder with aristocratic connections, and a founder willing to be criticised under his own roof, as Aristotle criticised him for two decades.\n\n### What it opened\n\nThe Academy outlived Plato by centuries under Speusippus, Xenocrates and their successors, until Sulla's army wrecked the grove in 86 BCE; a later Platonist school in Athens lasted until the emperor Justinian closed it in 529 CE. Eudoxus' theory of proportion and Theaetetus' solids went straight into Euclid's *Elements*. Aristotle's Lyceum was founded by a graduate in reaction against it. And the idea that a school could be a permanent community devoted to inquiry, rather than to one teacher's sayings, is, roughly, the idea of a university.",
+  "why_it_matters": "It made mathematics the model of what real knowledge looks like and gave mathematicians a home and an audience. The Academy is the ancestor of every research community that outlives its founder.",
+  "if_you_were_there": "Nobody thought of a school as a permanent place with a library and successors; you learned by attaching yourself to a teacher, and when he died the circle usually dissolved.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Plato",
+      "role": "founder of the Academy"
+    },
+    {
+      "name": "Eudoxus of Cnidus",
+      "role": "mathematician and astronomer at the Academy; theory of proportion"
+    },
+    {
+      "name": "Theaetetus of Athens",
+      "role": "mathematician; irrational lengths and the regular solids"
+    },
+    {
+      "name": "Archytas of Tarentum",
+      "role": "Pythagorean mathematician and friend of Plato"
+    },
+    {
+      "name": "Speusippus",
+      "role": "Plato's nephew and first successor as head"
+    },
+    {
+      "name": "Aristotle",
+      "role": "student for twenty years, later founder of the Lyceum"
+    },
+    {
+      "name": "Axiothea of Phlius",
+      "role": "woman student named in later sources"
+    }
+  ],
+  "builds_on": [
+    "pythagoras-school",
+    "thales-natural-explanations"
+  ],
+  "enables": [
+    "aristotle-lyceum",
+    "euclid-elements",
+    "hypatia-alexandria"
+  ],
+  "sources": [
+    {
+      "title": "Platonic Academy (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Platonic_Academy",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Plato: The Academy (Internet Encyclopedia of Philosophy)",
+      "url": "https://iep.utm.edu/plato-academy/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Academy, ancient academy, Athens, Greece (Britannica)",
+      "url": "https://www.britannica.com/topic/Academy-ancient-academy-Athens-Greece",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "David Fideler, A Short History of Plato's Academy",
+      "url": "https://platosacademy.org/a-short-history-of-platos-academy/",
+      "kind": "article"
+    },
+    {
+      "title": "John Dillon, The Heirs of Plato: A Study of the Old Academy (347-274 BC), Oxford University Press, 2003",
+      "url": "https://global.oup.com/academic/product/the-heirs-of-plato-9780198237662",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Kuruluş yılı belirsiz: Wikipedia ve IEP 387-383 arası ya da kademeli bir başlangıç diyor; -387 en yaygın atıf ama 'circa' zorunlu. 'Geometri bilmeyen girmesin' yazıtı yaklaşık 700 yıl sonraki Elias yorumundan gelen efsane, gövdede öyle yazıldı. Axiothea ve Lasthenia adları yalnızca geç kaynaklara (Diogenes Laertius) dayanır; Dillon kitabı ve Britannica sayfası doğrudan okunamadı (Britannica erişimi engelledi, arama özetinden alındı).",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}
