@@ -5,11 +5,29 @@
 
 ## Şu an
 
-- **Faz**: Ay 1 / Hafta 1 tamamlandı (2026-09-03, üç oturum). Hafta 2 başlıyor: Akış timeline'ı MVP.
+- **Faz**: Ay 1 / Hafta 2 (başladı 2026-09-03, dal `el/week-2-timeline-mvp`). Hedef: Akış timeline'ı MVP; M1'e giden yol.
 - **Doğrulandı (2026-09-03, 3. oturum)**: Tasarım token'ları koda aktarıldı (`resource/design/tokens.json` → `web/app/globals.css`, iki tema; fontlar Golos Text + Literata, `Ңөү` build edilen woff2'lerde doğrulandı). Yerel Supabase (Colima üstünde Docker) ayakta: `0001_init.sql` + `seed.sql` uygulanıyor; 8 çağ, 8 disiplin, 10 yayınlanmış olay, `get_timeline`/`get_chain` çalışıyor; RLS anonim istekte taslağı gizliyor (test edildi). `web/.env.local` yerel anahtarlarla yazıldı (gitignore'da). `npm run gen:types` → `lib/supabase/types.ts`, client'lar `Database` ile tipli. `npm run check` + `next build` yeşil; `next start` ile `/en/timeline` ve `/ky/timeline` DB'den render ediyor.
-- **Sonraki adım (Hafta 2 kutucukları, sırayla)**: 3 boyutta olay kartı (landmark/standart/küçük not, konsept 1d-1g) → sticky çağ başlığı (pill) → sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer) → `?year=` derin bağlantı → `lib/timeline/xScale.ts` → tema anahtarı (`data-theme`) ve S15 birincil tema kararı → +10 antik olay.
+- **Sonraki adım**: Hafta 2 planı sunuldu, kullanıcı onayı bekleniyor ("devam" deyince 1. kutucuktan başla). Sıra: 3 boyutta olay kartı (landmark/standart/küçük not, konsept 1d-1g) → sticky çağ başlığı (pill) → sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer) → `?year=` derin bağlantı → `lib/timeline/xScale.ts` → tema anahtarı (`data-theme`) ve S15 birincil tema kararı → +10 antik olay.
 - **Kullanıcıdan bekleyen**: (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı. (3) S15 birincil tema (karanlık şu an CSS varsayılanı; konsept panosu da karanlığı öneriyor). (4) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
 - **Bloklayan**: yok. Yerel geliştirme için: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
+
+## Hafta 2 kutucukları
+
+**Kod**
+- [ ] Dikey akış, 3 boyutta olay kartı (landmark / standart / küçük not), sticky çağ başlığı, zaman boşluğu işareti (konsept 1d-1g).
+- [ ] Sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer, `aria-live`).
+- [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest (Hafta 1'de yapıldı, 38 test).
+- [~] Tasarım token'ları (`tokens.json` → `globals.css`), her iki tema; sistem tercihi ✓ (Hafta 1 sonu) + **anahtar** (bekliyor).
+- [ ] `?year=` derin bağlantı.
+- [ ] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, birim testli).
+
+**Tasarım**
+- [ ] İki temayı gerçek kodda gör, **birincil temayı seç** (S15) — kullanıcı. Token'lar `resource/design/tokens.json`'da ✓.
+
+**İçerik**
+- [ ] +10 olay İngilizce (antik dünya) — `/com_event` ile taslak, kullanıcı doğrular.
+
+**Hafta sonu kontrolü**: `/en/timeline` konsepteki gibi akıyor; yıl göstergesi kaydırdıkça güncelleniyor; `?year=1687` doğru yere düşüyor.
 
 ## Hafta 1 kutucukları
 
@@ -30,6 +48,12 @@
 - `04-mimari` ve `CLAUDE.md` artık Next 16 / `proxy.ts` diyor.
 
 ## Oturum günlüğü
+
+### 2026-09-03 — 4. oturum (kısa): Hafta 2 açılışı
+- `el/week-2-timeline-mvp` dalı `el/try-planning` üzerinden açıldı. Kod yazılmadı.
+- Hafta 2 kutucukları STATUS'a kopyalandı; plan sunuldu: (1) 3 boyutta kart + sticky çağ pill + zaman boşluğu, `getDisciplines(locale)` ile çevrili çip adları; (2) üst çubuk + canlı yıl (IntersectionObserver, odometer, aria-live); (3) `?year=`; (4) `xScale.ts` + test; (5) tema anahtarı (`data-theme` + localStorage + inline script). Varsayımlar: zaman boşluğu bu hafta yalnızca "~N yıl geçti"; liste sunucuda render, yalnızca yıl göstergesi/tema client.
+- Kullanıcı onayı gelmedi; sonraki oturum bu planla başlar.
+
 
 ### 2026-09-03 — 3. oturum: tasarım token'ları + yerel Supabase
 - Konsept dosyaları okundu; `tokens.json` çıkarıldı, `globals.css` iki temayla yeniden yazıldı, fontlar Golos Text + Literata (`cyrillic-ext`, `Ңөү` fontTools ile woff2'de doğrulandı). ADR-019.
