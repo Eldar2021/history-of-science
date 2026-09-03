@@ -1,0 +1,98 @@
+{
+  "slug": "descartes-geometry",
+  "year": 1637,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "era": "revolution",
+  "title": "Descartes's La Géométrie: curves become equations, equations become curves",
+  "summary": "In 1637, tucked behind a philosophy essay, a short French text shows how to turn a curve into an equation and back. Algebra and geometry, apart for two thousand years, become one subject.",
+  "body": "### The scene\n\nIn June 1637 an anonymous book appears from Jan Maire's press in Leiden: the Discourse on the Method, a short essay on how to think, followed by three long samples of the method at work, on optics, on weather, and on geometry. The author is René Descartes, a Frenchman living in the Dutch Republic since 1628, who had shelved his book on the universe after Galileo's condemnation in 1633. For two thousand years geometry and calculation had lived apart. Euclid and Apollonius reasoned about lines, circles and cones with pictures and proofs; al-Khwarizmi in Baghdad wrote algebra in sentences; Omar Khayyam around 1070 solved cubic equations by making two curves cross, yet could read the answer only as a length, never write the curve itself as an equation. In the 1590s François Viète began using letters for both known and unknown quantities. And in 1631 the Leiden professor Jacob Golius sent Descartes an ancient challenge from Pappus: given several lines, find every point whose distances to them obey a fixed rule. The Greeks had managed four lines; Descartes said he solved the general case in five or six weeks.\n\n### What happened\n\nLa Géométrie opens by saying that any problem in geometry can be reduced to finding the lengths of a few lines. Three moves make that possible. First, Descartes picks a unit length, so that the product of two lengths can be another length rather than a rectangle; that lets him add a square to a line, which Greek geometry forbade. Second, he writes unknowns as x, y and z, knowns as a, b and c, and powers as small raised numbers, the notation used in classrooms today. Third, he describes a curve by an equation linking two lengths: how far a point lies along a base line and how far off it. That is the seed of the coordinates that carry his name, though the book never draws two perpendicular axes and negative positions are absent. The later books sort curves by the degree of their equations and work out how to handle roots.\n\nIt is a dictionary between two languages: a geometric problem is translated into algebra, solved there, and translated back. The analogy fails where it matters most: a dictionary adds no new sentences to a language, but this translation did, because questions no Greek could ask, such as what a fifth-degree curve looks like, suddenly had meaning.\n\nDescartes was not alone. In Toulouse, Pierre de Fermat had circulated in 1636 a manuscript, Introduction to Plane and Solid Loci, with almost the same idea, starting from an equation and asking what curve it draws; it was printed only in 1679, after his death. The two worked independently, and historians find the priority question unrewarding.\n\n### Why it was hard\n\nThe obstacle was a habit of mind: for Greek geometers a length times a length was an area, and adding an area to a length was nonsense. Descartes's unit segment dissolved that rule. He also wrote deliberately tersely, saying he had left things out so that others could enjoy discovering them. It took Frans van Schooten's Latin editions of 1649 and 1659, thick with commentary by Florimond de Beaune, Johannes Hudde and others, to make the method usable. Behind it stood Viète's symbols, the Italian algebraists' solutions of cubics, Apollonius's Conics, and the letters of Marin Mersenne carrying results between Paris, Leiden and Toulouse.\n\n### What it opened\n\nNewton learned his mathematics from van Schooten's edition; he and Leibniz built the calculus on curves that were now equations, and the Principia of 1687 stands on that ground. Every graph, every map grid, every pixel located by two numbers on a screen descends from a Leiden appendix that its author half hid. Even Descartes's own limits, his refusal to admit spirals and other \"mechanical\" curves, were soon overrun by the tools he had made.",
+  "why_it_matters": "By turning curves into equations and equations into curves, Descartes and Fermat gave mathematics a common language for shape and number. Calculus, physics and every graph you have ever read depend on it.",
+  "if_you_were_there": "Nobody had ever drawn a graph; a curve was a picture and an equation was a sentence, and the claim that one could be the other would have sounded like saying a song is a recipe.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "René Descartes",
+      "role": "French philosopher and mathematician; author of La Géométrie, appendix to the Discourse on the Method (1637)"
+    },
+    {
+      "name": "Pierre de Fermat",
+      "role": "Toulouse lawyer and mathematician; independently set out analytic geometry in a 1636 manuscript"
+    },
+    {
+      "name": "François Viète",
+      "role": "introduced letters for known and unknown quantities in the 1590s"
+    },
+    {
+      "name": "Jacob Golius",
+      "role": "Leiden professor who posed the Pappus problem to Descartes in 1631"
+    },
+    {
+      "name": "Frans van Schooten",
+      "role": "Leiden mathematician whose Latin editions (1649, 1659-61) made the book usable"
+    },
+    {
+      "name": "Marin Mersenne",
+      "role": "Paris friar whose correspondence linked Descartes, Fermat and the rest of Europe"
+    },
+    {
+      "name": "Omar Khayyam",
+      "role": "ancestor: solved cubics by intersecting curves around 1070"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "al-khwarizmi-algebra",
+    "omar-khayyam-cubics",
+    "apollonius-conics?",
+    "viete-symbolic-algebra?"
+  ],
+  "enables": [
+    "newton-principia",
+    "newton-leibniz-calculus?"
+  ],
+  "sources": [
+    {
+      "title": "La Géométrie - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Descartes' Mathematics - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/descartes-mathematics/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Descartes' La Géométrie - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Descartes_La_Geometrie/",
+      "kind": "article"
+    },
+    {
+      "title": "La Géométrie | work by Descartes | Britannica",
+      "url": "https://www.britannica.com/topic/La-Geometrie",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Pierre de Fermat - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pierre_de_Fermat",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Pierre de Fermat | Encyclopedia.com (Dictionary of Scientific Biography)",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/mathematics-biographies/pierre-de-fermat",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "René Descartes, The Geometry of René Descartes, trans. David Eugene Smith and Marcia L. Latham (Dover, 1954)",
+      "url": "https://archive.org/details/geometryofrenede00rene",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi; arama özeti kullanıldı. 'Beş altı hafta' ifadesi Descartes'ın 1632 mektubundan (SEP); Golius'un 1631'de Pappus problemini gönderdiği SEP'e dayanıyor. Fermat'nın Isagoge'sinin 1636'da elden dolaşıp 1679'da basıldığı Wikipedia/Encyclopedia.com'dan. Kitabın 'dik eksen çizmediği ve negatif koordinat kullanmadığı' Wikipedia'dan; van Schooten'in 1649 ve 1659-61 Latince baskıları ve de Beaune/Hudde yorumları doğrulanmalı. Discourse'un 8 Haziran 1637'de isimsiz basıldığı yaygın kabul.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

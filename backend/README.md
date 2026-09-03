@@ -20,7 +20,7 @@ Proje: `hsllmvouqayaccubodcl` (Supabase, oluşturuldu). Tek seferlik kurulum:
 1. `supabase login` (tarayıcı açılır; bir kez).
 2. `backend/scripts/cloud-setup.sh` → link, `db push`, isteğe bağlı seed (`db reset --linked`), Vercel'e `NEXT_PUBLIC_SUPABASE_URL` ve `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 3. `main`'e push ya da `npx vercel redeploy` → site bulut veritabanını okur.
-4. Admin hesabı: `SUPABASE_URL=https://<ref>.supabase.co SUPABASE_SERVICE_ROLE_KEY=<service key> node backend/scripts/create-admin.mjs <e-posta> '<şifre>'` (kullanıcıyı oluşturur/şifreyi yeniler ve rolü `admin` yapar). Ya da panelde Authentication → Users → Add user, sonra SQL: `update profiles set role='admin' where id='<uuid>';`
+4. Admin hesabı / şifre: `backend/scripts/cloud-admin-password.sh <e-posta>` (anahtarı CLI'dan alır, şifreyi gizli sorar; kullanıcı yoksa oluşturur, varsa şifresini yeniler, rolü `admin` yapar; `editor` için ikinci argüman). E-posta ile şifre sıfırlama bağlantısı şimdilik çalışmaz: bulut Site URL yerel adres ve sitede sıfırlama sayfası yok (Hafta 5).
 5. RLS kanıtı buluta karşı: `SUPABASE_URL=… SUPABASE_ANON_KEY=… backend/scripts/rls-proof.sh` (hepsi `ok` olmalı).
 
 Sonraki şema değişiklikleri: yeni migration + `supabase db push`.
@@ -32,7 +32,9 @@ node backend/scripts/drafts-to-sql.mjs backend/content/drafts | docker exec -i s
 ```
 
 Yalnızca `status='draft'` yazar; yeniden çalıştırmak güvenlidir (slug üstünden günceller; yayınlanmış olayın hiçbir satırına, çeviri/disiplin/kaynak/bağlantı dahil, dokunmaz). Buluta: `node backend/scripts/drafts-to-sql.mjs backend/content/drafts > /tmp/drafts.sql && cd backend && supabase db query --linked --file /tmp/drafts.sql`. Denetim: `node backend/scripts/check-drafts.mjs`.
-Yayınlama insan eylemidir: `update events set status='published' where slug='...'` (yerelde) ya da admin paneli (Hafta 4).
+Yayınlama insan eylemidir: admin paneli `/admin/events` (ya da yerelde `update events set status='published' where slug='...'`).
+
+Yayınlı ama gövdesi boş olaylar (seed satırları): `node backend/scripts/fill-stubs-sql.mjs backend/content/drafts [slug ...] | psql ...` yalnızca `body` boşken başlık/özet/gövde/neden/orada-olsaydın yazar, kaynak yoksa ekler, bağlantıları `on conflict do nothing` ile ekler; durum/yıl/önem değişmez, ikinci çalıştırma no-op. Buluta: `> /tmp/fill.sql && cd backend && supabase db query --linked --file /tmp/fill.sql`.
 
 ## Klasörler
 

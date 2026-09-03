@@ -1,0 +1,99 @@
+{
+  "slug": "napier-logarithms",
+  "year": 1614,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "era": "revolution",
+  "title": "Napier publishes logarithms: multiplication becomes addition",
+  "summary": "In Edinburgh in 1614 a Scottish laird publishes tables that turn multiplying and dividing huge numbers into adding and subtracting. Astronomers and navigators get years of their lives back.",
+  "body": "### The scene\n\nAround 1600 the people who most needed to calculate were astronomers and navigators, and the arithmetic was drowning them. Tycho Brahe's observations, Kepler's orbit of Mars, a ship's position from the height of a star: all of it meant multiplying and dividing seven-digit numbers by hand, over and over, with one slip spoiling the whole. Tycho's team used a trick called prosthaphaeresis that turned some multiplications into additions with trigonometric tables, and in 1544 Michael Stifel had noticed that if you write the powers of two in a row, multiplying two of them is the same as adding their positions. John Napier, laird of Merchiston near Edinburgh, born in 1550, was no professional mathematician. He ran estates, wrote a fierce Protestant commentary on the Book of Revelation that he considered his real life's work, and for about twenty years worked on numbers in private.\n\n### What happened\n\nIn 1614 he published a small Latin book in Edinburgh, Mirifici Logarithmorum Canonis Descriptio, \"Description of the Wonderful Canon of Logarithms\": fifty-seven pages of explanation and ninety of tables. The preface says why: nothing \"doth more molest and hinder calculators, than the multiplications, divisions, square and cubical extractions of great numbers.\" His picture was two points moving along two lines, one at a steady pace, the other slowing in proportion to the distance still ahead; where the first point stood was the logarithm of where the second stood. In practice, every number in the table had a companion; to multiply two numbers you looked up their companions, added them, and looked up the result. He coined the word from Greek, roughly \"ratio-number.\" Henry Briggs, professor at Gresham College in London, read it and wrote that Napier \"hath set my head and hands a work.\" He rode to Edinburgh in the summer of 1615 (a later, unverifiable tale has them staring at each other in silence for a quarter of an hour), and they agreed on a cleaner version in which the logarithm of 1 is 0 and of 10 is 1. Napier, ill, left the recomputing to Briggs, who published a thousand of the new logarithms in 1617 and thirty thousand, to fourteen places, in 1624.\n\nLogarithms work like a currency exchange: you change your hard numbers into an easier currency, do your shopping there with addition, and change the answer back. Where the analogy breaks: exchanges charge a fee and rates drift, while a correct table costs nothing and never moves.\n\n### Why it was hard\n\nThe idea is one thing; the tables are another. Napier computed millions of digits by hand over two decades, and Briggs did it again. And Napier was not alone. In Prague the Swiss clockmaker Jost Bürgi, Kepler's colleague, had built a similar table around 1600 to 1610 but printed it only in 1620; Kepler grumbled that Bürgi \"deserted his child at birth.\" Napier's priority is priority of publication. His own account of how the tables were built, the Constructio, appeared in 1619, two years after his death, seen through the press by his son Robert with additions by Briggs.\n\n### What it opened\n\nKepler seized on logarithms at once, published his own tables in 1624 and built the Rudolphine Tables of 1627 on them. Edmund Gunter put a logarithmic scale on a ruler around 1620, and William Oughtred slid two such scales past each other: the slide rule, which engineers carried until the 1970s. Laplace later said logarithms, \"by shortening the labours, doubled the life of the astronomer.\" The idea lasted three and a half centuries as a working tool, until the pocket calculator, and the function it defined became part of the language of mathematics itself.",
+  "why_it_matters": "Logarithms cut the labour of calculation by an order of magnitude at the exact moment astronomy and navigation needed it, and they stayed the working tool of science and engineering for 350 years. The idea also introduced a new kind of function that later became central to mathematics.",
+  "if_you_were_there": "Nobody had a way to multiply large numbers except grinding through them digit by digit, and a single astronomer might spend months on arithmetic that a table could finish in an afternoon.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "John Napier",
+      "role": "laird of Merchiston, Edinburgh; author of the 1614 Descriptio and the posthumous 1619 Constructio"
+    },
+    {
+      "name": "Henry Briggs",
+      "role": "Gresham College professor who visited Napier in 1615 and 1616 and computed the base-ten tables (1617, 1624)"
+    },
+    {
+      "name": "Jost Bürgi",
+      "role": "Swiss clockmaker in Prague who built a similar table independently around 1600 to 1610, printed 1620"
+    },
+    {
+      "name": "Robert Napier",
+      "role": "Napier's son, who published the Constructio in 1619"
+    },
+    {
+      "name": "Edward Wright",
+      "role": "navigator who translated the Descriptio into English (1616)"
+    },
+    {
+      "name": "Johannes Kepler",
+      "role": "early adopter; published his own logarithm tables in 1624 and used them for the Rudolphine Tables"
+    }
+  ],
+  "builds_on": [
+    "al-khwarizmi-algebra",
+    "fibonacci-liber-abaci",
+    "aryabhata",
+    "stifel-arithmetica-integra?"
+  ],
+  "enables": [
+    "rudolphine-tables?",
+    "oughtred-slide-rule?",
+    "newton-principia"
+  ],
+  "sources": [
+    {
+      "title": "John Napier - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Napier/",
+      "kind": "article"
+    },
+    {
+      "title": "Mirifici Logarithmorum Canonis Descriptio - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mirifici_Logarithmorum_Canonis_Descriptio",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "History of logarithms - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_logarithms",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Jost Bürgi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jost_B%C3%BCrgi",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "John Napier | Biography, Invention, Logarithms, Bones, & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/John-Napier",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Henry Briggs | English Mathematician & Logarithm Pioneer | Britannica",
+      "url": "https://www.britannica.com/biography/Henry-Briggs",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Rudolphine Tables - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rudolphine_Tables",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Julian Havil, John Napier: Life, Logarithms, and Legacy (Princeton University Press, 2014)",
+      "url": "https://press.princeton.edu/books/hardcover/9780691155708/john-napier",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "MAA Convergence sayfası 521 verdi; MacTutor, Wikipedia ve Britannica özetleri kullanıldı. Doğrulanacaklar: Kepler'in kendi logaritma tablosu 1624 (Chilias logarithmorum); Gunter cetveli c.1620 ve Oughtred sürgülü hesap cetveli tarihi (Wikipedia 1630/1632, birçok kaynak c.1622, bu yüzden metinde yıl verilmedi); Bürgi'nin tabloyu 1600-1610 arasında yaptığı; Briggs'in 1617'de 1000, 1624'te 30.000 logaritma yayımladığı. 'Çeyrek saat sessizlik' anekdotu William Lilly'den, doğrulanamaz olarak işaretlendi.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

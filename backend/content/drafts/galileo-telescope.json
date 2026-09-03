@@ -1,0 +1,94 @@
+{
+  "slug": "galileo-telescope",
+  "year": 1609,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "era": "revolution",
+  "title": "Galileo turns the telescope to the sky: mountains on the Moon, moons of Jupiter",
+  "summary": "In late 1609 Galileo points a spyglass he has improved at the Moon and sees mountains; in January 1610 he finds four moons circling Jupiter. The Starry Messenger tells Europe in March.",
+  "body": "### The scene\n\nIn October 1608 a spectacle maker in the Dutch town of Middelburg, Hans Lippershey, asks the States General for a patent on a tube with two lenses that makes far things look near. Jacob Metius and Zacharias Janssen claim the same idea; the patent is refused because the device is too easy to copy, and by April 1609 three-power spyglasses are on sale in Paris. The lenses rest on a long story: Ibn al-Haytham's optics, medieval spectacle makers, Venetian glass. In England, Thomas Harriot, a mathematician kept by the Earl of Northumberland, turns a six-power tube on the Moon on 26 July 1609 (5 August in the newer calendar) and draws what he sees, the first such drawing known. He never publishes; his patron is under suspicion after the Gunpowder Plot. In Padua, Galileo Galilei, a 45-year-old professor of mathematics, hears of the Dutch tube that summer.\n\n### What happened\n\nGalileo did not invent the telescope, but he made it far better, grinding his own lenses to reach eight, then twenty, then about thirty times magnification. On 25 August 1609 he showed an eight-power instrument to the Venetian senate from the top of St Mark's bell tower, and the senate doubled his salary. Then, in the autumn, he did the thing that matters: he pointed it up. From 30 November 1609 he drew the Moon night after night. The line between light and dark was ragged, with bright points catching the sun inside the shadow, as mountaintops do at dawn. The Moon was not the polished sphere of Aristotle's heaven; it was a place. On 7 January 1610 he noticed three small stars in a line beside Jupiter, and over the following nights watched them travel with the planet and around it; a fourth appeared. Here were bodies circling something other than the Earth. The Milky Way, too, dissolved into countless stars. Sidereus Nuncius, the Starry Messenger, came out in Venice on 13 March 1610, dedicated to Cosimo II de' Medici, the moons named the Medicean Stars; within the year Galileo had a post at the Florentine court.\n\nA telescope is like a good pair of ears in a noisy room: it creates no new sounds, it lets you hear what was always there. Where the analogy breaks: nobody doubts their ears, but in 1610 some scholars refused to believe that glass could show truths the eye could not.\n\n### Why it was hard\n\nThe instrument was crude: a field of view a quarter of the Moon wide, colour fringes, a wobbling hand. Turning smudges into mountains needed Galileo's training in drawing and perspective and his feel for how shadows fall. Believing them needed a mind already Copernican. Publishing them fast, in plain Latin with pictures, needed the printing press and a patron. Kepler, in Prague, backed the book in a public letter within weeks, then saw the moons himself that autumn; such independent checking was itself new.\n\n### What it opened\n\nBy December 1610 Galileo had watched Venus go through phases like the Moon's, which Ptolemy's arrangement cannot produce. The sky became a place of things, not a shell of lights, and looking became the way to settle arguments about it; Rømer would time Jupiter's moons in 1676 to find the speed of light. The tale that the young Galileo dropped weights from the Leaning Tower of Pisa rests only on a biography by his pupil Viviani written decades later, and most historians call it a legend. This entry is dated 1609, the year of the first observations, though the book appeared in 1610.",
+  "why_it_matters": "For the first time an instrument showed things in the sky no eye had seen, and they contradicted the textbook heavens: a rough Moon, moons around another planet. It made observation, not authority, the judge of what the universe is like.",
+  "if_you_were_there": "People thought the Moon was a smooth, perfect sphere and that everything in the sky circled the Earth; nobody knew there were worlds beyond the seven wandering lights, or that a piece of glass could reveal them.",
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Galileo Galilei",
+      "role": "professor of mathematics at Padua who improved the telescope, observed the Moon and Jupiter, and wrote Sidereus Nuncius"
+    },
+    {
+      "name": "Hans Lippershey",
+      "role": "Middelburg spectacle maker who applied for a telescope patent in October 1608"
+    },
+    {
+      "name": "Thomas Harriot",
+      "role": "English mathematician who drew the Moon through a telescope in July/August 1609 but did not publish"
+    },
+    {
+      "name": "Jacob Metius and Zacharias Janssen",
+      "role": "Dutch rivals who also claimed the invention of the spyglass in 1608"
+    },
+    {
+      "name": "Cosimo II de' Medici",
+      "role": "Grand Duke of Tuscany, dedicatee of Sidereus Nuncius and Galileo's new patron"
+    },
+    {
+      "name": "Johannes Kepler",
+      "role": "publicly endorsed the discoveries in 1610 and later confirmed Jupiter's moons himself"
+    }
+  ],
+  "builds_on": [
+    "ibn-al-haytham-optics",
+    "copernicus-heliocentrism",
+    "gutenberg-press",
+    "ptolemy-almagest"
+  ],
+  "enables": [
+    "romer-speed-of-light",
+    "newton-principia",
+    "hooke-micrographia"
+  ],
+  "sources": [
+    {
+      "title": "Sidereus Nuncius - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "The Telescope - The Galileo Project, Rice University",
+      "url": "https://galileo.library.rice.edu/sci/instruments/telescope.html",
+      "kind": "article"
+    },
+    {
+      "title": "Thomas Harriot - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Harriot",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Galileo and the Telescope - Library of Congress",
+      "url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/galileo-and-the-telescope",
+      "kind": "article"
+    },
+    {
+      "title": "Galileo demonstrates his first telescope - Physics Today",
+      "url": "https://physicstoday.aip.org/news/galileo-demonstrates-his-first-telescope",
+      "kind": "article"
+    },
+    {
+      "title": "Galileo's Leaning Tower of Pisa experiment - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Galileo Galilei, Sidereus Nuncius, or The Sidereal Messenger, trans. Albert Van Helden (University of Chicago Press, 1989)",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo22228783.html",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Kronoloji Rice Galileo Project ve Wikipedia'dan; LOC sayfası 403 verdi, arama özeti kullanıldı. Doğrulanacaklar: 25 Ağustos 1609 senato gösterisi ve maaşın ikiye katlanması; Harriot'un 26 Temmuz/5 Ağustos 1609 tarihi; Kepler'in uyduları Eylül 1610'da kendisinin gördüğü; Venüs evrelerinin Aralık 1610 tarihi; 'yaklaşık otuz kat' büyütme. Pisa kulesi efsane olarak etiketlendi. Yıl 1609 çekirdek listeye göre (ilk gözlemler), kitap 1610; gövdede gerekçe var.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

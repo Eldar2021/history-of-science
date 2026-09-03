@@ -1,0 +1,85 @@
+{
+  "slug": "hooke-micrographia",
+  "year": 1665,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "era": "revolution",
+  "title": "Hooke's \"Micrographia\": a flea the size of a page and the word \"cell\"",
+  "summary": "The Royal Society's first big book, drawn and written by Robert Hooke, shows Londoners a flea, a fly's eye and a sliver of cork made of tiny boxes he names cells. Pepys reads it past midnight.",
+  "body": "### The scene\n\nLondon, January 1665. The plague will arrive in the spring, but for now the city is reading. The Royal Society is four years old and needs to show the public what its new way of knowing can do. In 1661 Christopher Wren had shown King Charles II magnified drawings of a flea and a louse, and the king asked for more; Wren was busy, so the task passed to Robert Hooke, twenty-nine, a curate's son from the Isle of Wight who had built Robert Boyle's air pump and since 1662 had been the Society's Curator of Experiments, expected to produce something new at every weekly meeting. Microscopes had existed for forty years, but nobody had published a large illustrated survey of what they showed. Hooke used a compound microscope by the London maker Christopher Cock, lit by an oil lamp shone through a globe of water, and drew what he saw himself. The Society's council licensed the book on 23 November 1664; it went on sale on 18 January 1665.\n\n### What happened\n\n*Micrographia* holds sixty observations. It begins with man-made things, the point of a needle, the edge of a razor, a printed full stop, all ragged under the lens, then moves to nature: seeds, blue mould, a fly's eye, a louse gripping a hair, and a flea spread across a fold-out plate half a metre wide, armoured and bristling. In Observation XVIII Hooke slices a thin sliver of cork and sees it made of \"a great many little Boxes\". They reminded him of the small rooms monks live in, so he called them cells, and he reckoned there were more than a thousand million of them in a cubic inch. He did not know that these boxes were the empty walls of dead plant cells, or that every living thing is built of such units; that idea waited 170 years for Schleiden and Schwann. The book is also a grab-bag of Hooke's other thoughts: that light might be a vibration, that the colours in thin films come from it, that fossils are the remains of once-living creatures, some of kinds \"of which we can find none at present\". Samuel Pepys bought a copy, sat up until two in the morning with it, and called it \"the most ingenious book that ever I read in my life\".\n\nIt was the first travel guide to a country next door that nobody had visited, and the engravings were its postcards. Postcards, though, show one view; Hooke's drawings were composites, assembled from many viewings under different lights, part record and part interpretation.\n\n### Why it was hard\n\nCompound microscopes of the 1660s were dim and blurred, with coloured fringes around every edge. Lighting a tiny opaque object was harder than magnifying it, which is why Hooke's lamp and water globe mattered. Then there was the drawing: Hooke had trained briefly with the painter Peter Lely, and his hand was as important as his lens. In the preface he asks for \"a sincere Hand, and a faithful Eye, to examine, and to record, the things themselves as they appear\". The book also needed the Society: its licence, its printers, and the king's curiosity.\n\n### What it opened\n\n*Micrographia* made microscopy a public craze and gave the Royal Society its first best-seller. In Delft a cloth merchant named Antoni van Leeuwenhoek, who could not read English, seems to have seen the pictures, and within a decade he was finding living creatures in water with lenses far stronger than Hooke's. Marcello Malpighi, Nehemiah Grew and Jan Swammerdam followed with plants and insects. The word cell outlived the book by centuries; Hooke's guess about fossils grew into geology. And Hooke himself went on to a law of springs, the rebuilding of London after the fire, and a question to Newton about gravity.",
+  "why_it_matters": "Micrographia was the first book to show the public what a microscope reveals, and it gave biology one of its most important words. It also proved that careful drawing could be a form of evidence, not decoration.",
+  "if_you_were_there": "Nobody suspected that living things were built of small units, or that water and air were full of creatures; a flea was a nuisance, not a marvel of armour and joints.",
+  "disciplines": [
+    "biology"
+  ],
+  "people": [
+    {
+      "name": "Robert Hooke",
+      "role": "Curator of Experiments of the Royal Society; observed, drew and wrote Micrographia; coined 'cell'"
+    },
+    {
+      "name": "Christopher Wren",
+      "role": "made the earlier microscope drawings for Charles II that led to the commission"
+    },
+    {
+      "name": "Robert Boyle",
+      "role": "Hooke's former employer; the air-pump work trained Hooke as an experimenter"
+    },
+    {
+      "name": "William Brouncker",
+      "role": "President of the Royal Society who signed the licence to print in November 1664"
+    },
+    {
+      "name": "Samuel Pepys",
+      "role": "diarist whose praise of the book records its public reception"
+    }
+  ],
+  "builds_on": [
+    "royal-society",
+    "boyle-law",
+    "galileo-telescope",
+    "ibn-al-haytham-optics"
+  ],
+  "enables": [
+    "leeuwenhoek-microbes",
+    "schleiden-schwann-cell-theory?",
+    "lyell-principles-geology?"
+  ],
+  "sources": [
+    {
+      "title": "Micrographia - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Micrographia",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Fleas, mould and plant cells: under a 17th-century microscope - British Library",
+      "url": "https://www.bl.uk/stories/blogs/posts/fleas-mould-and-plant-cells-under-a-17th-century-microscope",
+      "kind": "article"
+    },
+    {
+      "title": "Robert Hooke - UCMP, University of California Museum of Paleontology",
+      "url": "https://ucmp.berkeley.edu/history/hooke.html",
+      "kind": "article"
+    },
+    {
+      "title": "Restoration reading | Royal Society",
+      "url": "https://royalsociety.org/blog/2013/04/restoration-reading/",
+      "kind": "article"
+    },
+    {
+      "title": "Robert Hooke and his Micrographia - Cambridge University Library Special Collections",
+      "url": "https://specialcollections-blog.lib.cam.ac.uk/?p=9478",
+      "kind": "article"
+    },
+    {
+      "title": "Lisa Jardine, The Curious Life of Robert Hooke: The Man Who Measured London (HarperCollins, 2003)",
+      "url": "https://books.google.com/books?id=YtC7AAAAIAAJ",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Yayın tarihi: lisans 23 Kasım 1664 (Brouncker), satışa çıkış 18 Ocak 1665 (Cambridge kütüphanesi blogu / Wikipedia); Pepys'in 21 Ocak 1665 günlüğü bunu destekliyor. 'Bir kübik inçte bir milyardan fazla hücre' sayısı Micrographia metninden (1.259.712.000) alındı, kontrol edin. Leeuwenhoek'un kitabı görmüş olabileceği (1668 İngiltere ziyareti) tarihçilerin tahmini, kesin değil. Hooke'un Peter Lely'de kısa süre çıraklığı Wikipedia biyografisinden.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

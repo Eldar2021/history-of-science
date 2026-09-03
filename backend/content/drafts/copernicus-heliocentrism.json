@@ -1,0 +1,86 @@
+{
+  "slug": "copernicus-heliocentrism",
+  "year": 1543,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "title": "Copernicus puts the Sun at the center",
+  "summary": "Printed in Nuremberg in 1543 as its author lay dying, On the Revolutions argues that the Earth spins and circles the Sun. The idea was ancient; the full working mathematics was new.",
+  "body": "### The scene\n\nFrombork, a small cathedral town on the Baltic coast of Poland, 1543. Nicolaus Copernicus is seventy: a church canon, a trained doctor and lawyer, who has done astronomy in his spare hours for forty years. Educated Europe agrees: the Earth sits still at the center and everything else wheels around it, as Ptolemy set out in the Almagest fourteen centuries earlier. It works, but by patchwork: circles riding on circles, and a trick called the equant that lets a planet speed up and slow down as seen from an off-center point. To Copernicus, raised on the idea that heavenly motion must be uniform and circular, the equant was cheating.\n\n### What happened\n\nAround 1510 he had passed a short handwritten sketch, the Commentariolus, to a few friends. Put the Sun near the center, let the Earth turn once a day and travel around the Sun once a year, and the strange backward loops the planets trace in the sky become an illusion of viewpoint. It is like overtaking a slower car: for a moment the other car seems to slide backwards, though it never stops moving forward. Where the analogy breaks: the car has a road under it, and Copernicus could not say what carries the Earth.\n\nHe spent thirty years turning the sketch into a full system with tables, and was reluctant to print it. In 1539 a young Lutheran mathematician from Wittenberg, Georg Joachim Rheticus, arrived, read the manuscript, published a summary in 1540 and talked the old man into it. On the Revolutions of the Heavenly Spheres came off Johannes Petreius's press in Nuremberg in 1543, dedicated to Pope Paul III. The story that a copy reached Copernicus on his deathbed comes from his friend Tiedemann Giese: perhaps true, but a friend's story, not a record.\n\nWhen Rheticus left for Leipzig, proofreading passed to a preacher, Andreas Osiander, who slipped in an unsigned note telling readers the book was only a calculating device with no claim to be true. Readers assumed Copernicus had written it. Rheticus crossed it out in red in his copies; Kepler exposed the real author in 1609.\n\n### Why it was hard\n\nThe book stands on centuries of other people's work. Copernicus cites al-Battani of Raqqa more than twenty times and uses models from al-Zarqali of Toledo and Thabit ibn Qurra. Two of his key geometric devices are identical to ones invented at the Maragha observatory in Persia by Nasir al-Din al-Tusi and refined by Ibn al-Shatir of Damascus; how they reached him is unknown. Ulugh Beg's Samarkand tables of 1437 were the finest of the age, but they did not reach Latin Europe until the 1600s, so Copernicus almost certainly never saw them. Aristarchus of Samos had proposed a moving Earth eighteen centuries earlier.\n\nThe real obstacle was physics. If the Earth moves, why do we not feel it? Why do the stars not shift as the Earth swings around the Sun? Copernicus could only say the stars must be enormously far away. And his system was neither simpler nor more accurate than Ptolemy's; he still needed small circles on circles.\n\n### What it opened\n\nAbout four hundred copies were printed and did not sell out. Most astronomers took the mathematics and left the moving Earth. Then Kepler replaced the circles with ellipses in 1609, Galileo turned a telescope on Venus the same year, and the Church put the book on the Index in 1616, where it stayed until 1758. The question Copernicus could not answer waited for Galileo's inertia and Newton's gravity.",
+  "why_it_matters": "It began the long demotion of humanity from the center of the universe and forced physics to explain a moving Earth. Nearly every major step of the next 150 years, from Kepler and Galileo to Newton, is an answer to a question this book raised.",
+  "if_you_were_there": "Nobody could feel the Earth move, no instrument could detect it, and the best tables in the world worked fine with the Earth standing still; a moving Earth looked like a mathematician's game, not a fact.",
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Nicolaus Copernicus",
+      "role": "canon of Frombork cathedral; author of On the Revolutions of the Heavenly Spheres"
+    },
+    {
+      "name": "Georg Joachim Rheticus",
+      "role": "Wittenberg mathematician who persuaded Copernicus to publish, wrote the Narratio prima (1540) and arranged the Nuremberg printing"
+    },
+    {
+      "name": "Andreas Osiander",
+      "role": "Nuremberg preacher who oversaw the final printing and inserted the unsigned 'hypothesis only' note"
+    },
+    {
+      "name": "Nasir al-Din al-Tusi and Ibn al-Shatir",
+      "role": "Maragha-school astronomers whose geometric devices reappear in Copernicus's models by an unknown route"
+    },
+    {
+      "name": "Tiedemann Giese",
+      "role": "bishop and friend; source of the deathbed-copy story; protested Osiander's note"
+    }
+  ],
+  "builds_on": [
+    "ptolemy-almagest",
+    "hipparchus-star-catalogue",
+    "ulugh-beg-observatory",
+    "gutenberg-press",
+    "aryabhata"
+  ],
+  "enables": [
+    "tycho-supernova",
+    "kepler-elliptical-orbits",
+    "galileo-telescope",
+    "newton-principia"
+  ],
+  "sources": [
+    {
+      "title": "Nicolaus Copernicus - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/copernicus/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "De revolutionibus orbium coelestium - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Nicolaus Copernicus - Publication of De revolutionibus | Britannica",
+      "url": "https://www.britannica.com/biography/Nicolaus-Copernicus/Publication-of-De-revolutionibus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Starry Messenger: Copernicus's Book - Department of History and Philosophy of Science, University of Cambridge",
+      "url": "https://www.sites.hps.cam.ac.uk/starry/coperbooks.html",
+      "kind": "article"
+    },
+    {
+      "title": "Ulugh Beg and his Contributions to Late-Islamic Astronomy - Star Catalogue (R. H. van Gent, Utrecht University)",
+      "url": "https://webspace.science.uu.nl/~gent0113/ulughbeg/ulughbeg_star_catalogue.htm",
+      "kind": "article"
+    },
+    {
+      "title": "Owen Gingerich, The Book Nobody Read: Chasing the Revolutions of Nicolaus Copernicus (Walker, 2004)",
+      "url": "https://books.google.com/books/about/The_Book_Nobody_Read.html?id=1qHGqWHoQlYC",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica sayfası fetch'te açılmadı, arama özeti kullanıldı. Baskı adedi Wikipedia'da 400, bazı kaynaklarda 400-500; 'tükenmedi' Gingerich'e dayanır. Tusi çifti / İbn eş-Şatir benzerliği Stanford'da var ama aktarım yolu bilinmiyor; 'Uluğ Bey tablolarını görmedi' çıkarımı Hyde 1665 tarihine dayanıyor, doğrudan bir kaynak bunu söylemiyor. Ölüm döşeği hikâyesi Giese'nin mektubundan; efsane olarak işaretlendi.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "bacon-novum-organum",
+  "year": 1620,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "era": "revolution",
+  "title": "Francis Bacon's Novum Organum: a manifesto for the experimental method",
+  "summary": "In 1620 England's Lord Chancellor publishes a 'new instrument' for the mind: stop reasoning from ancient books, collect facts, test them, and let many hands build knowledge over generations.",
+  "body": "### The scene\n\nEngland, 1620. Francis Bacon is Lord Chancellor, the highest legal officer of King James I, fifty-nine years old, and has been planning since his twenties a \"Great Instauration,\" a rebuilding of human knowledge from the ground up. The universities still teach Aristotle's Organon, the toolkit of logic in which you start from general truths and deduce downward. Outside the universities things are happening that the toolkit did not produce: Gilbert's magnet experiments (1600), Galileo's telescope (1609), Kepler's ellipses (1609), and a flood of new plants, animals and peoples from the voyages. Bacon knew Gilbert's book and Galileo's. He also knew the older argument for experiment: Roger Bacon, no relation, had made it in the 1260s, and Ibn al-Haytham had practised it in Cairo around 1020.\n\n### What happened\n\nNovum Organum, \"the new instrument,\" appeared in Latin in 1620. Its title page shows a ship sailing out past the Pillars of Hercules, the old edge of the known world, under a line from the Book of Daniel: \"Many shall pass through, and knowledge shall be increased.\" The book is two sets of short numbered aphorisms. The first tears down. It names four \"idols,\" habits that stop us seeing straight: idols of the tribe, built into every human mind, like our love of neat patterns such as perfect circles; idols of the cave, one person's quirks of upbringing; idols of the marketplace, muddles made by words; idols of the theatre, whole philosophies swallowed on authority. The second builds up. Instead of leaping from a few observations to a grand theory, the inquirer collects instances in tables: where a quality is present, where it is absent though expected, where it varies in degree. Then eliminate. Bacon's worked example is heat, and by discarding everything that could not be its cause he concludes that heat is a kind of motion of small parts, a guess that was roughly right. He separates \"experiments of light,\" done to understand, from \"experiments of fruit,\" done to use, and wants both. And he insists this is work for many people over many years, not for a genius alone.\n\nThe method is like a detective who refuses to name a suspect until every alibi has been checked, instead of guessing from the first clue. Where the analogy breaks: a detective's case closes; Bacon's inquiry never quite does, since a better table of instances can reopen it.\n\n### Why it was hard\n\nBacon made no discoveries himself and did not try to. He was also wrong about several happening around him: he dismissed Copernicus, and in aphorism 54 he scolds Gilbert for building \"an entire system\" out of the magnet, an odd reproach from the man preaching experiment. Working scientists never quite filled in his tables; hypotheses, which he distrusted, proved indispensable. In 1621 Parliament impeached him for taking bribes and ended his public life. He died in 1626; the tale that he caught his death stuffing a chicken with snow to test refrigeration comes from John Aubrey decades later and is a story, not a record.\n\n### What it opened\n\nWhat survived was the manifesto: knowledge should be built from observation and experiment, it should be useful (\"knowledge itself is power,\" from a piece of 1597), and it needs institutions. In New Atlantis, published after his death, he imagined \"Salomon's House,\" a research college of the future. When the Royal Society was founded in London in 1660, its members named Bacon as their inspiration, and its motto, \"take nobody's word for it,\" breathes his spirit. The experimental method had many parents; Bacon wrote its constitution.",
+  "why_it_matters": "Novum Organum gave the new science a public argument for why experiment beats authority, a catalogue of the ways minds fool themselves, and a vision of research as an organised, collective, useful enterprise. The Royal Society and much of modern science's self-image descend from it.",
+  "if_you_were_there": "The word 'scientist' did not exist, learning meant mastering ancient authors, and the idea that knowledge could grow steadily by many hands, rather than be recovered from the past, was itself new.",
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "name": "Francis Bacon",
+      "role": "Lord Chancellor of England and philosopher; author of Novum Organum (1620) and the Instauratio Magna"
+    },
+    {
+      "name": "Aristotle",
+      "role": "author of the Organon, the logic Bacon set out to replace"
+    },
+    {
+      "name": "William Gilbert",
+      "role": "experimenter on magnetism whom Bacon both drew on and criticised in aphorism 54"
+    },
+    {
+      "name": "Roger Bacon",
+      "role": "thirteenth-century friar who had argued for experiment over authority"
+    },
+    {
+      "name": "Ibn al-Haytham",
+      "role": "eleventh-century optician whose experimental practice anticipated the method"
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum",
+    "ibn-al-haytham-optics",
+    "roger-bacon-experiment",
+    "gilbert-de-magnete",
+    "galileo-telescope"
+  ],
+  "enables": [
+    "royal-society",
+    "boyle-law",
+    "hooke-micrographia"
+  ],
+  "sources": [
+    {
+      "title": "Francis Bacon - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/francis-bacon/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Novum Organum - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Novum_Organum",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Francis Bacon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francis_Bacon",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Novum Organum | work by Bacon | Britannica",
+      "url": "https://www.britannica.com/topic/Novum-Organum",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Novum Organum, Book I (Spedding translation) - Wikisource",
+      "url": "https://en.wikisource.org/wiki/Novum_Organum/Book_I_(Spedding)",
+      "kind": "other"
+    },
+    {
+      "title": "Francis Bacon, The New Organon, ed. Lisa Jardine and Michael Silverthorne (Cambridge University Press, 2000)",
+      "url": "https://www.cambridge.org/us/universitypress/subjects/philosophy/philosophy-texts/francis-bacon-new-organon",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Doğrulanacaklar: 'knowledge itself is power' ifadesinin Meditationes Sacrae (1597) kaynağı; Bacon'ın ısıyı 'küçük parçaların hareketi' diye tanımladığı (Kitap II); Bacon'ın Kopernik'i reddettiği; New Atlantis'in 1627'de ölümünden sonra basıldığı. Tavuk-kar hikâyesi Aubrey anekdotu olarak etiketlendi. Disiplin çekirdek listeye göre physics; olay aslında yöntem/felsefe, çeviride 'fizik' etiketi tuhaf durabilir, kontrol et.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

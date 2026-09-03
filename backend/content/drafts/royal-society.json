@@ -1,0 +1,116 @@
+{
+  "slug": "royal-society",
+  "year": 1660,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "era": "revolution",
+  "title": "The Royal Society is founded: science gets a club, a charter and a journal",
+  "summary": "On 28 November 1660 twelve men leave a lecture in London and agree to meet weekly for experiments. Within five years they have a royal charter, a motto and the first science-only journal.",
+  "body": "### The scene\n\nLondon, autumn 1660. Charles II has been back on the throne since May, after a civil war and a republic. Since 1645 a handful of men had been meeting to discuss what they called the new philosophy: the programme Francis Bacon set out in 1620, that knowledge should be built from experiments, collected and compared by many hands. John Wallis, John Wilkins and Jonathan Goddard met in London; from 1648 a club grew round Wilkins at Wadham College, Oxford, drawing in Robert Boyle, Christopher Wren and Boyle's assistant Robert Hooke. Boyle's letters of 1646 mention an \"invisible college\"; historians doubt he meant this group, so treat the phrase as a founding legend, not a record. They were not the first. In Florence, Prince Leopoldo de' Medici had gathered Galileo's pupils Vincenzo Viviani and Giovanni Borelli into the Accademia del Cimento in 1657, motto \"trying and trying again\"; it did fine experiments, published one book in 1667, and faded when the prince became a cardinal.\n\n### What happened\n\nOn 28 November 1660 Wren, professor of astronomy at Gresham College, gave his weekly lecture. Afterwards twelve men stayed behind: Boyle, Wren, Wilkins, Sir Robert Moray, Lord Brouncker, William Petty, Goddard, Paul Neile, Abraham Hill, William Ball, Lawrence Rooke and Alexander Bruce. They agreed to found a \"College for the promoting of Physico-Mathematical Experimental Learning\", meeting weekly, a shilling a head for experiments. Moray, a Scot close to the king, carried the news to Whitehall. A royal charter followed in 1662 and a second in 1663 with the name still used, the Royal Society of London for Improving Natural Knowledge, and a motto from Horace: Nullius in verba, take nobody's word for it. Hooke was hired as curator of experiments, expected to show several each meeting. Henry Oldenburg, from Bremen, with a vast correspondence, became secretary; on 6 March 1665 he printed the first Philosophical Transactions, his own private venture built from the letters he received. Paris's Journal des sçavans had appeared two months earlier but reviewed everything; Oldenburg's was the first journal devoted only to science, and it has never stopped.\n\nThe Society was a shared laboratory notebook that all of Europe could read: dated, witnessed, public. The analogy breaks because a notebook belongs to one person and records everything, while a journal selects, edits and stamps a date that decides who was first; that is how the Society came to referee Newton's quarrel with Leibniz.\n\n### Why it was hard\n\nThe king gave a charter but no money. In Paris, when Jean-Baptiste Colbert opened the Académie des sciences in December 1666, members drew salaries, Christiaan Huygens was lured from Holland with a pension, and an observatory was begun for them in 1667. The London fellows paid their own way, often failed to, and in the 1670s the Society nearly collapsed. A deeper problem was trust: Boyle's air-pump experiments proved something only if credible witnesses saw them, so the Society leaned on gentlemen's word even as its motto refused anyone's word. And the doors were narrow. Margaret Cavendish, Duchess of Newcastle and a natural philosopher herself, was allowed one visit in 1667; no woman was elected a Fellow until Kathleen Lonsdale and Marjory Stephenson in 1945.\n\n### What it opened\n\nA way of doing science that outlived any individual: publish, date, let others check. Hooke's Micrographia came out under the Society's licence in 1665. Antonie van Leeuwenhoek, a Delft draper with no Latin, sent his letters to Oldenburg from 1673, and when he reported tiny animals in a drop of water in 1676 the Society had Hooke check. Newton's Principia carried the Society's imprimatur in 1687, though Edmond Halley paid, because the Society was broke. Academies multiplied, Berlin in 1700, St Petersburg in 1724, and the journal Oldenburg invented is still the way science talks to itself.",
+  "why_it_matters": "The Royal Society made science a continuing public institution rather than a string of solitary geniuses: meet, experiment in front of witnesses, publish with a date, let anyone check. The journal and the academy it modelled are still how science is organised.",
+  "if_you_were_there": "There were no scientific journals, no referees and no scientists as a profession; a discovery travelled by private letter, and whether to believe it depended on who your friends were.",
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "name": "Christopher Wren",
+      "role": "Gresham professor of astronomy whose lecture on 28 November 1660 preceded the founding meeting"
+    },
+    {
+      "name": "Robert Boyle",
+      "role": "founding member; his air-pump experiments set the model of witnessed experiment"
+    },
+    {
+      "name": "John Wilkins",
+      "role": "convener of the London and Oxford groups; first secretary under the charter"
+    },
+    {
+      "name": "Sir Robert Moray",
+      "role": "Scottish royalist who secured the king's support and the charters"
+    },
+    {
+      "name": "William Brouncker",
+      "role": "first president under the 1662 charter"
+    },
+    {
+      "name": "Henry Oldenburg",
+      "role": "secretary from Bremen; founded and edited Philosophical Transactions (1665)"
+    },
+    {
+      "name": "Robert Hooke",
+      "role": "curator of experiments from 1662; author of Micrographia"
+    },
+    {
+      "name": "Leopoldo de' Medici",
+      "role": "patron of Florence's Accademia del Cimento (1657-1667), the earlier parallel"
+    },
+    {
+      "name": "Jean-Baptiste Colbert",
+      "role": "founded the salaried Académie des sciences in Paris (1666), the later parallel"
+    },
+    {
+      "name": "Margaret Cavendish",
+      "role": "natural philosopher; the only woman to visit a meeting for centuries (1667)"
+    }
+  ],
+  "builds_on": [
+    "bacon-novum-organum",
+    "gutenberg-press",
+    "galileo-telescope",
+    "accademia-del-cimento?"
+  ],
+  "enables": [
+    "hooke-micrographia",
+    "leeuwenhoek-microbes",
+    "newton-principia",
+    "academie-des-sciences?"
+  ],
+  "sources": [
+    {
+      "title": "History of the Royal Society | Royal Society",
+      "url": "https://royalsociety.org/about-us/who-we-are/history/",
+      "kind": "other"
+    },
+    {
+      "title": "Gresham College and the formation of the Royal Society - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gresham_College_and_the_formation_of_the_Royal_Society",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Royal Society | British Science, History & Impact | Britannica",
+      "url": "https://www.britannica.com/topic/Royal-Society",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "History of Philosophical Transactions | Royal Society",
+      "url": "https://royalsociety.org/journals/publishing-activities/publishing350/history-philosophical-transactions/",
+      "kind": "other"
+    },
+    {
+      "title": "Accademia del Cimento - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Accademia_del_Cimento",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Paris Academy of Sciences - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Societies/Paris/",
+      "kind": "article"
+    },
+    {
+      "title": "A History of Scientific Journals: brief history of Phil Trans - University of St Andrews",
+      "url": "https://arts.st-andrews.ac.uk/philosophicaltransactions/brief-history-of-phil-trans/",
+      "kind": "article"
+    },
+    {
+      "title": "Steven Shapin and Simon Schaffer, Leviathan and the Air-Pump (Princeton University Press, 1985)",
+      "url": "https://press.princeton.edu/books/paperback/9780691178165/leviathan-and-the-air-pump",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi; arama özeti kullanıldı. On iki kurucunun listesi ve Moray'ın rolü Wikipedia'dan; 'haftada bir şilin' aidat Sprat/Birch'e dayanan yaygın bilgi, kontrol edin. Boyle'un 'görünmez kolej' ifadesinin bu gruba ait olmadığı görüşü Wikipedia'dan; efsane olarak etiketlendi. Cavendish'in 1667 ziyareti ve 1945 ilk kadın üyeler (Lonsdale, Stephenson) Royal Society sayfasında; Leeuwenhoek'in 1673 ilk mektubu ve 1676 'hayvancıklar' raporu ile Hooke'un doğrulaması ayrıca doğrulanmalı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

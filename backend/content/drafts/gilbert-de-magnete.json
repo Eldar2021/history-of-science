@@ -1,0 +1,85 @@
+{
+  "slug": "gilbert-de-magnete",
+  "year": 1600,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "era": "revolution",
+  "title": "Gilbert's De Magnete: the Earth itself is a giant magnet",
+  "summary": "In 1600 a London physician publishes twenty years of experiments with lodestone spheres and argues that compasses point north because the whole Earth is a magnet, not because of a star.",
+  "body": "### The scene\n\nLondon, 1600. Elizabeth I is old, plague comes and goes, and English ships sail farther than English maps can follow. Every ship steers by a compass, and nobody can say why the needle points north. The learned answer, from Aristotle's heirs in the universities, was that it is drawn to the Pole Star or to a mountain of lodestone near the top of the world. Sailors knew things the professors did not. Robert Norman, a London instrument maker, had shown in 1581 that a balanced needle does not stay level but tips its nose down toward the Earth. Far earlier, in 1269, Peter Peregrinus had described the two poles of a magnet and a pivoting compass, and Chinese scholars had recorded the south-pointing needle centuries before him. William Gilbert, a physician from Colchester and president of the Royal College of Physicians, had been gathering these scraps and running his own experiments since the 1580s.\n\n### What happened\n\nIn 1600 he published De Magnete, six books in Latin whose title states the thesis: On the Magnet, Magnetic Bodies, and That Great Magnet the Earth. Gilbert had lodestone turned on a lathe into spheres he called terrellae, \"little earths,\" and moved small needles over their surfaces. The needles behaved exactly as ships' compasses do across the globe: they pointed to the sphere's poles and dipped more steeply the nearer they came to one. Norman's puzzling tilt was not a defect; it was latitude, written in the needle. So the compass is not pulled by a star or a distant mountain, Gilbert argued: the Earth itself is a magnet, and the needle simply lines up with it. He also separated two things long muddled together. Amber rubbed with cloth attracts chaff, but that is not magnetism; he coined the word \"electricus\" for it and built a pivoting pointer, the versorium, to detect it. And he tested folklore and threw it out: garlic, whatever the books said, does not weaken a magnet.\n\nA terrella is a scale model, like a desk globe you tilt to see why summer and winter happen. Where the analogy breaks: a globe only pictures the Earth, while the terrella really was a magnet, so it showed not a picture but the same physics at a smaller size.\n\n### Why it was hard\n\nThe difficulty was less in the hands than in the habits. Natural philosophy was done by reading and reconciling authorities; Gilbert's preface answers that \"stronger reasons are obtained from sure experiments and demonstrated arguments than from probable conjectures and the opinions of philosophical speculators.\" He is said to have spent a fortune on lodestones and instruments. He also needed the sailors' world: the navigator Edward Wright wrote a preface, and compass reports from voyages gave him data no library held. He overreached too, guessing that magnetism makes the Earth turn daily on its axis, a Copernican idea he defended openly, and that continents bend the compass in fixed, permanent ways. Neither survived.\n\n### What it opened\n\nKepler read De Magnete and, in Astronomia Nova (1609), imagined the Sun moving the planets by something like Gilbert's magnetic force, the first attempt at a physics of the sky. Galileo praised him in the Dialogue of 1632. Francis Bacon, oddly, scolded him for building \"an entire system\" from one favourite subject, while preaching the experimentalism Gilbert had practised. Gilbert died in 1603, possibly of plague. Electricity and magnetism would not be joined until Ørsted and Faraday two centuries later, but the word and the method begin here.",
+  "why_it_matters": "De Magnete is the first major book of the Scientific Revolution built on experiments the reader can repeat, and it gave the Earth a physical property, magnetism, that could be modelled on a desk. It also began the science of electricity by naming it and separating it from magnetism.",
+  "if_you_were_there": "Nobody knew why a compass worked; the best guess was a star or a mountain of iron at the top of the world, and the idea that the ground beneath your feet was itself a magnet had never been tested.",
+  "disciplines": [
+    "physics",
+    "earth"
+  ],
+  "people": [
+    {
+      "name": "William Gilbert",
+      "role": "Colchester-born physician, president of the Royal College of Physicians, author of De Magnete (1600)"
+    },
+    {
+      "name": "Robert Norman",
+      "role": "London instrument maker who showed in 1581 that a compass needle dips toward the Earth"
+    },
+    {
+      "name": "Peter Peregrinus",
+      "role": "thirteenth-century author of the 1269 letter on the magnet describing poles and a pivoting compass"
+    },
+    {
+      "name": "Edward Wright",
+      "role": "navigator and mathematician who wrote the preface to De Magnete and linked it to seafaring"
+    },
+    {
+      "name": "Johannes Kepler",
+      "role": "read De Magnete and borrowed magnetism as a possible cause of planetary motion"
+    }
+  ],
+  "builds_on": [
+    "roger-bacon-experiment",
+    "copernicus-heliocentrism",
+    "petrus-peregrinus-magnet?"
+  ],
+  "enables": [
+    "kepler-elliptical-orbits",
+    "bacon-novum-organum",
+    "orsted-electromagnetism?"
+  ],
+  "sources": [
+    {
+      "title": "De Magnete - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/De_Magnete",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Gilbert (physicist) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Gilbert_(physicist)",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Gilbert | Biography & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/William-Gilbert",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Gilbert: forgotten genius - Physics World",
+      "url": "https://physicsworld.com/a/william-gilbert-forgotten-genius/",
+      "kind": "article"
+    },
+    {
+      "title": "Petrus Peregrinus de Maricourt - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petrus_Peregrinus_de_Maricourt",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Stephen Pumfrey, Latitude and the Magnetic Earth (Icon Books, 2002)",
+      "url": "https://books.google.com/books/about/Latitude_the_Magnetic_Earth.html?id=ylAeAQAAIAAJ",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi, arama özeti kullanıldı. Doğrulanacaklar: Galileo'nun 1632 Dialogo'sunda Gilbert'i övdüğü; sarımsak deneyinin De Magnete'de geçtiği; Çin'de güney gösteren iğnenin Gilbert'ten yüzyıllar önce kaydedildiği (Shen Kuo, 11. yy); Norman'ın 1581 tarihi. Önsöz alıntısı Mottelay çevirisinden, Physics World yalnızca ilk yarısını veriyor. 'Servet harcadı' (5000 sterlin) sonradan aktarılan bir iddia, sayı metne alınmadı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "euclid-elements",
+  "year": -300,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Euclid assembles the Elements, the textbook that lasted two thousand years",
+  "summary": "In Alexandria around 300 BC, Euclid gathers two centuries of Greek geometry into thirteen books that start from a few plain assumptions and prove the rest. It stayed a schoolbook for 2,000 years.",
+  "body": "### The scene\n\nAlexandria is barely thirty years old. Alexander's general Ptolemy, now king of Egypt, is paying scholars to come to a new Museum and Library. Greek geometry by then had two centuries of results and no single shape. The Pythagoreans had studied numbers and right triangles. Hippocrates of Chios had written an earlier Elements, now lost, and may have started the habit of labelling diagrams with letters. Eudoxus of Cnidus had found how to compare lengths that no whole-number ratio can express. Theaetetus had sorted out those awkward lengths and the five regular solids. Plato's Academy had made proof the mark of real knowledge. What nobody had done was put it all in one order, where each step rests only on steps already taken.\n\n### What happened\n\nAround 300 BC someone called Euclid did. We know almost nothing about him. Proclus, writing seven centuries later, says he taught under Ptolemy I, was younger than Plato's pupils and older than Archimedes, and told the king there is \"no royal road to geometry\". The anecdote cannot be checked; some historians even wonder whether \"Euclid\" was a team writing under one name. The book itself is solid enough: thirteen books, twenty-three definitions in the first, five postulates, five common notions, 465 propositions. Books one to six cover flat shapes; seven to nine whole numbers, including the proof that primes never run out; ten the irrational lengths; eleven to thirteen solids, ending with the five regular ones. Proclus says Euclid collected many of Eudoxus's theorems, perfected many of Theaetetus's, and gave irrefutable proofs of things his predecessors had proved only loosely. It is an anthology with a spine.\n\nIt is like a building in which every floor is held up by the floor beneath, and the whole thing stands on five stones you can walk around and inspect. The analogy breaks at one stone: the fifth postulate, about parallel lines, is longer and stranger than the others, Euclid himself put off using it as long as he could, and for two thousand years mathematicians tried to prove it from the rest and failed.\n\n### Why it was hard\n\nThe hard part was not proving theorems but choosing what to assume, and assuming as little as possible: \"things equal to the same thing are equal to each other\"; \"a straight line can be drawn from any point to any point\". That needed Eudoxus's theory of ratios, Plato's demand for proof, Aristotle's account of what a demonstration is, and a king willing to feed geometers. The text we read has also had a long journey. Theon of Alexandria, father of Hypatia, re-edited it in the fourth century; it reached Baghdad in Arabic around 800; Adelard of Bath turned the Arabic into Latin around 1120; Erhard Ratdolt printed it in Venice in 1482. The oldest complete Greek manuscript was copied in 888.\n\n### What it opened\n\nArchimedes and Apollonius built on it directly. Ibn al-Haytham and Omar Khayyam wrestled with the parallel postulate. Newton wrote the Principia in Euclid's form of definitions, axioms and numbered propositions. Descartes joined its geometry to algebra. In the 1820s and 1830s Lobachevsky and Bolyai dropped the fifth postulate and found a geometry that still worked; a century later it described Einstein's curved space-time. More than a thousand editions have been printed, and it is often said that only the Bible has been read more.",
+  "why_it_matters": "The Elements showed that a whole field of knowledge could be built from a few stated assumptions by proof alone, and it taught that method to every educated person for two millennia. When later mathematicians questioned one of those assumptions, they found geometries that describe the real universe.",
+  "if_you_were_there": "Nobody had seen knowledge arranged so that you could point to exactly what was being assumed; most people learned geometry as rules of thumb for fields and buildings.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Euclid",
+      "role": "mathematician active in Alexandria c. 300 BC; compiler and author of the Elements; almost nothing else known"
+    },
+    {
+      "name": "Eudoxus of Cnidus",
+      "role": "fourth-century BC mathematician whose theory of ratios fills Book V"
+    },
+    {
+      "name": "Theaetetus",
+      "role": "Athenian mathematician whose work on irrational lengths and regular solids fills Books X and XIII"
+    },
+    {
+      "name": "Hippocrates of Chios",
+      "role": "author of an earlier, lost Elements a century before Euclid"
+    },
+    {
+      "name": "Ptolemy I Soter",
+      "role": "ruler of Egypt who founded the Museum and Library where Euclid taught"
+    },
+    {
+      "name": "Theon of Alexandria",
+      "role": "fourth-century AD editor whose version of the text was the basis of most later copies"
+    }
+  ],
+  "builds_on": [
+    "pythagoras-school",
+    "plato-academy",
+    "aristotle-lyceum"
+  ],
+  "enables": [
+    "archimedes-buoyancy-levers",
+    "hypatia-alexandria",
+    "ibn-al-haytham-optics",
+    "omar-khayyam-cubics",
+    "descartes-geometry",
+    "newton-principia",
+    "non-euclidean-geometry?"
+  ],
+  "sources": [
+    {
+      "title": "Elements | Euclid, Axioms, & Facts | Britannica",
+      "url": "https://www.britannica.com/topic/Elements-by-Euclid",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Euclid | Biography, Contributions, Geometry, & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/Euclid-Greek-mathematician",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Euclid of Alexandria - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "kind": "article"
+    },
+    {
+      "title": "Euclid's Elements - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Euclid%27s_Elements",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "The thirteen books of Euclid's Elements - Clay Mathematics Institute",
+      "url": "https://www.claymath.org/library/historical/euclid/",
+      "kind": "article"
+    },
+    {
+      "title": "Thomas L. Heath, A History of Greek Mathematics, vol. 1: From Thales to Euclid (Oxford: Clarendon Press, 1921)",
+      "url": "https://archive.org/details/cu31924008704219",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi, arama özetleri kullanıldı. Sayılar (13 kitap, 23 tanım Kitap I'de, 5 postulat, 5 ortak kavram, 465 önerme) Wikipedia'dan; Proclus alıntısı yakın parafraz. En eski tam Yunanca elyazması 888 (Bodleian D'Orville 301) kontrol edilmeli. Adelard'ın Latince çevirisi c. 1120, Ratdolt baskısı 1482 Venedik. 'Euclid bir ekip olabilir' hipotezi MacTutor'da üç hipotezden biri; azınlık görüşü.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

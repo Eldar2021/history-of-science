@@ -1,0 +1,98 @@
+{
+  "slug": "archimedes-buoyancy-levers",
+  "year": -250,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Archimedes: why things float, how levers work and how big pi is",
+  "summary": "In Syracuse around 250 BC, Archimedes proves why things float, why a small weight can balance a big one, and traps pi between two fractions. The bath and the burning mirrors are later legends.",
+  "body": "### The scene\n\nSyracuse, on Sicily, is a Greek city ruled by King Hiero II and squeezed between Rome and Carthage. Archimedes is born there around 287 BC. He probably studies in Alexandria with Euclid's successors, and for the rest of his life he mails his results there: to the astronomer Conon of Samos, then to Conon's student Dositheus, and to the librarian Eratosthenes. He has Euclid's Elements to build on and Eudoxus's trick for handling curved shapes: trap them between straight-sided ones and squeeze.\n\n### What happened\n\nThree results, out of many. Levers first. Everyone who used a balance knew that a small weight far from the pivot can hold up a large one close to it; in On the Equilibrium of Planes Archimedes proves it from a few assumptions, the way Euclid proved geometry. Pappus later quotes his boast: give me a place to stand and I will move the earth. Then floating. In On Floating Bodies he shows that anything in a fluid is pushed upward by a force equal to the weight of the fluid it shoves aside, which is why a ship floats once it has displaced its own weight of water; he also works out which floating shapes right themselves. Then pi. In Measurement of a Circle he draws a 96-sided polygon just inside a circle and another just outside, and shows that the distance around a circle is a little more than 3.140 and a little less than 3.143 times the distance across.\n\nIt is like measuring a round lake by pacing a fence just inside the shore and another just outside; the true shoreline lies between them. The analogy breaks because a lake can simply be measured; the point of Archimedes's fences was that they could be made finer without end, with proof that the gap shrinks.\n\nNow the legends. The bath story, in which Archimedes, asked to test whether Hiero's crown is pure gold, sees his bathwater rise and runs naked through the streets shouting \"I have found it\", comes from Vitruvius, a Roman writing two centuries later. It is in none of Archimedes's own works, and Galileo in 1586 already suspected the real method was a balance dipped in water. The burning mirrors that set Roman ships alight are first mentioned by Galen, some 350 years after the siege; Polybius, Livy and Plutarch, who describe the cranes, catapults and ship-grabbing claw of the siege of 214 to 212 BC, say nothing about mirrors.\n\n### Why it was hard\n\nProof was the hard part. Curves involve endless subdivision, and Greek mathematics did not allow the infinite as a finished thing; Eudoxus's method let Archimedes approach a curve without ever claiming to reach it. In The Method, a letter to Eratosthenes, he admitted that he found many results first by imagining shapes hung on a balance and only then proved them properly. That letter was lost until 1906, when Johan Ludvig Heiberg read it beneath the prayers of a reused parchment book. None of his works can be dated, so 250 BC is a mid-career marker, not a date.\n\n### What it opened\n\nHe died in 212 BC when the Romans took the city, killed by a soldier while, Plutarch says, he was bent over a diagram. Thabit ibn Qurra put him into Arabic; al-Biruni used his displacement principle to measure the density of gems and metals; Omar Khayyam's cubic equations began with one of his sphere problems; Kepler, Newton and Leibniz turned the squeeze between polygons into calculus. And every ship afloat still obeys his theorem.",
+  "why_it_matters": "Archimedes brought Euclid's standard of proof to the physical world, showing that floating and balancing obey rules you can demonstrate, not just observe. His way of trapping a curved quantity between straight-sided ones is the ancestor of calculus.",
+  "if_you_were_there": "Nobody knew why iron sinks and wood floats, or what pi was beyond 'about three', and no one had ever proved a statement about a machine.",
+  "disciplines": [
+    "physics",
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Archimedes of Syracuse",
+      "role": "mathematician and engineer, c. 287-212 BC; author of On Floating Bodies, On the Equilibrium of Planes, Measurement of a Circle and The Method"
+    },
+    {
+      "name": "Hiero II",
+      "role": "king of Syracuse and Archimedes's patron"
+    },
+    {
+      "name": "Conon of Samos",
+      "role": "Alexandrian astronomer, Archimedes's friend and first correspondent"
+    },
+    {
+      "name": "Dositheus of Pelusium",
+      "role": "Conon's student, to whom most of the surviving treatises are addressed"
+    },
+    {
+      "name": "Eratosthenes of Cyrene",
+      "role": "librarian of Alexandria, recipient of The Method"
+    },
+    {
+      "name": "Eudoxus of Cnidus",
+      "role": "earlier mathematician whose method of exhaustion Archimedes used and extended"
+    },
+    {
+      "name": "Johan Ludvig Heiberg",
+      "role": "Danish philologist who identified the Archimedes Palimpsest in 1906"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "plato-academy"
+  ],
+  "enables": [
+    "al-biruni-earth-radius",
+    "omar-khayyam-cubics",
+    "torricelli-barometer",
+    "newton-principia",
+    "calculus-newton-leibniz?"
+  ],
+  "sources": [
+    {
+      "title": "Archimedes | Facts & Biography | Britannica",
+      "url": "https://www.britannica.com/biography/Archimedes",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Archimedes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Archimedes of Syracuse - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+      "kind": "article"
+    },
+    {
+      "title": "Fact or Fiction?: Archimedes Coined the Term \"Eureka!\" in the Bath - Scientific American",
+      "url": "https://www.scientificamerican.com/article/fact-or-fiction-archimede/",
+      "kind": "article"
+    },
+    {
+      "title": "Archimedes Palimpsest - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archimedes_Palimpsest",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Reviel Netz and William Noel, The Archimedes Codex (Weidenfeld & Nicolson, 2007)",
+      "url": "https://archive.org/details/archimedescodexr0000netz_u7y5",
+      "kind": "book"
+    },
+    {
+      "title": "Thomas L. Heath, A History of Greek Mathematics, vol. 2: From Aristarchus to Diophantus (Oxford: Clarendon Press, 1921)",
+      "url": "https://archive.org/details/historyofgreekma029268mbp",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi, arama özeti kullanıldı. Pi sınırları 3 10/71 ile 3 1/7 (yaklaşık 3.1408-3.1429); metinde 3.140 / 3.143 diye yuvarlandı. Küvet hikâyesi Vitruvius (MÖ 1. yy), aynalar ilk kez Galen'de; Polybius/Livy/Plutarch'ın aynadan söz etmediği Scientific American ve Wikipedia'ya dayanıyor. Galileo'nun 1586 'La Bilancetta' yorumu Wikipedia'dan. El-Biruni'nin mücevher yoğunluğu ölçümü genel bilgi, kaynak listesinde ayrı sayfa yok; kontrol edilmeli.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "boyle-law",
+  "year": 1662,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "era": "revolution",
+  "title": "Boyle's law: squeeze air and it pushes back by the numbers",
+  "summary": "In a 1662 appendix written to answer a critic, Boyle and Hooke print a table: halve the space air fills and it pushes back twice as hard. Something invisible has been made to obey a number.",
+  "body": "### The scene\n\nOxford, 1659. Sixteen years earlier Torricelli had trapped a column of mercury in a glass tube and shown that the weight of the atmosphere holds it up; Pascal's brother-in-law had carried such a tube up a mountain and watched the column drop. Robert Boyle, the wealthy fourteenth child of the Earl of Cork, wants a pump that can empty a vessel of air. The instrument-maker Ralph Greatorex fails to build it; Boyle's young assistant Robert Hooke succeeds. Through 1659 the two of them pump air out of glass globes and watch: candles go out, a ringing bell falls silent, birds and mice struggle. Boyle publishes it all in 1660 as *New Experiments Physico-Mechanical, Touching the Spring of the Air*. His word is \"spring\": air behaves like a fleece of wool or a heap of tiny coiled springs, pushing back when squeezed.\n\n### What happened\n\nA Jesuit teacher, Franciscus Linus, objected. Air could not be that strong, he said; an invisible thread, a *funiculus*, must be pulling the mercury up. So in 1662 Boyle issued a second edition with an appendix, *A Defence of the Doctrine Touching the Spring and Weight of the Air*, and it is in this appendix, not in the famous 1660 book, that the law first appears. Boyle and Hooke took a glass tube bent like the letter J, sealed at the short end and open at the tall one, and poured mercury into the open end. The air trapped in the short arm shrank. They wrote down a table: double the weight pressing on the air and it squeezes into half the space; treble it, a third. Boyle called the pattern \"Mr. Towneley's hypothesis\". Richard Towneley and the physician Henry Power had done related experiments in Lancashire in 1660 and 1661 and sent word; Boyle named Towneley and overlooked Power, whose own book came out in 1663 and was forgotten. By several accounts it was Hooke who worked out the numbers while Boyle cared more about what they meant. In France, Edme Mariotte published the same relation in 1676, adding the condition Boyle left unspoken, that the temperature must not change; the French still call it Mariotte's law.\n\nThink of a bicycle pump with your thumb over the nozzle: push the handle halfway down and the air pushes back twice as hard. The analogy breaks if you push fast, because squeezing warms the air and it pushes back harder still, which is exactly the condition Mariotte had to add.\n\n### Why it was hard\n\nAristotle had taught that nature abhors a vacuum, so an empty vessel was a scandal before it was a tool. The experiment needed Torricelli's mercury column, a pump that held (Hooke's craft), skilled glassblowers, and a new kind of patience: measuring the same thing twenty-five times and writing every number down. Hardest of all was accepting a rule without a reason. Boyle refused to say why air had spring, and nobody explained it until Daniel Bernoulli in 1738 and the kinetic theory of the 1800s.\n\n### What it opened\n\nThis was the first numerical law of a gas, and a template: a table of measurements, honestly labelled a hypothesis, standing on its own without a theory underneath. It fitted the young Royal Society's motto, *Nullius in verba*, take nobody's word for it. Later hands added heat to the picture, from Amontons to Charles and Gay-Lussac; steam engines and diving bells rest on it. The pump mattered as much as the law: it made the vacuum an ordinary place to do science.",
+  "why_it_matters": "Boyle's law was the first time a gas, something you cannot see or hold, was shown to follow a simple numerical rule. It set a pattern the Royal Society would live by: measure, tabulate, publish, and leave the explanation for later.",
+  "if_you_were_there": "Most educated people still held with Aristotle that a true vacuum was impossible, and nobody knew whether air was one substance or many, let alone that it was made of moving particles.",
+  "disciplines": [
+    "chemistry",
+    "physics"
+  ],
+  "people": [
+    {
+      "name": "Robert Boyle",
+      "role": "natural philosopher who published the 1660 air-pump experiments and the 1662 appendix containing the law"
+    },
+    {
+      "name": "Robert Hooke",
+      "role": "Boyle's assistant; built the air pump and by several accounts did the J-tube measurements"
+    },
+    {
+      "name": "Richard Towneley",
+      "role": "Lancashire gentleman whose experiments with Henry Power led Boyle to call the relation 'Mr. Towneley's hypothesis'"
+    },
+    {
+      "name": "Henry Power",
+      "role": "physician who tested the pressure-volume relation with Towneley in 1660-61 and published it in 1663, overshadowed by Boyle"
+    },
+    {
+      "name": "Franciscus Linus",
+      "role": "Jesuit critic whose 'funiculus' objection prompted the 1662 Defence"
+    },
+    {
+      "name": "Edme Mariotte",
+      "role": "French physicist who published the same law in 1676 with the constant-temperature condition"
+    }
+  ],
+  "builds_on": [
+    "torricelli-barometer",
+    "royal-society",
+    "democritus-atoms",
+    "bacon-novum-organum"
+  ],
+  "enables": [
+    "hooke-micrographia",
+    "dalton-atomic-theory?",
+    "carnot-thermodynamics?"
+  ],
+  "sources": [
+    {
+      "title": "Boyle's law | Definition, Equation, & Facts | Britannica",
+      "url": "https://www.britannica.com/science/Boyles-law",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Boyle's law - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boyle's_law",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Henry Power - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_Power",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Full Boyle | Science History Institute",
+      "url": "https://www.sciencehistory.org/stories/magazine/full-boyle/",
+      "kind": "article"
+    },
+    {
+      "title": "John B. West, The original presentation of Boyle's law, Journal of Applied Physiology 87 (1999)",
+      "url": "https://journals.physiology.org/doi/full/10.1152/jappl.1999.87.4.1543",
+      "kind": "article"
+    },
+    {
+      "title": "Robert Boyle | Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/robert-boyle/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Steven Shapin and Simon Schaffer, Leviathan and the Air-Pump (Princeton University Press, 1985)",
+      "url": "https://press.princeton.edu/books/paperback/9780691178165/leviathan-and-the-air-pump",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica ve J. Appl. Physiol. sayfaları fetch'te 403 verdi; arama özetleri kullanıldı. Yasanın 1660 kitabında değil 1662 ikinci baskının ekinde (Linus'a 'Defence') yer aldığı Wikipedia + Science History Institute ile uyumlu. Mariotte yılı kaynaklarda 1676 (Britannica) ile 1679 (Wikipedia) arasında değişiyor; gövdede 1676 yazıldı. Power/Towneley deneylerinin 1660-61 tarihi ve 'Hooke sayıları hesapladı' iddiası ikincil kaynaklara (carnotcycle, Wikipedia) dayanıyor, kontrol edilmeli.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "vesalius-fabrica",
+  "year": 1543,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "title": "Vesalius opens the human body and draws what he sees",
+  "summary": "In 1543 a 28-year-old professor at Padua prints seven books and 250 woodcuts of the human body, dissected by his own hands. Where Galen's apes misled medicine for 1,400 years, he corrects the book.",
+  "body": "### The scene\n\nPadua, late 1530s. An anatomy lesson at Europe's best medical school goes like this: the professor sits in a high chair reading aloud from Galen, the Greek doctor who wrote in Rome around the year 160. Below him a barber-surgeon cuts the corpse and an assistant points with a stick. Galen had been a brilliant dissector, but Rome forbade cutting humans, so he had worked on apes, pigs and dogs and reasoned across. For fourteen centuries doctors read his descriptions as if they were of people.\n\nAndreas Vesalius, born in Brussels in 1514 to a family of physicians, studied in Louvain and Paris under Galenists such as Jacques Dubois, called Sylvius, and grew impatient with the chair and the stick. In 1537, at twenty-three, he became professor of surgery at Padua and did something unusual: he climbed down and cut for himself. By 1539 a local judge, Marcantonio Contarini, was sending him the bodies of executed criminals. He was not the first to cut: Mondino de' Liuzzi had written a dissection manual in Bologna in 1316, and Leonardo da Vinci had drawn the body superbly in notebooks nobody published. Vesalius was the first to put dissection, art and print together on this scale.\n\n### What happened\n\nDe humani corporis fabrica, On the Fabric of the Human Body, came off the press of Johannes Oporinus in Basel in June 1543. Seven books: bones, muscles, vessels, nerves, abdomen, heart and lungs, brain. More than 250 woodcuts. The drawings were made in Venice by artists from Titian's workshop, perhaps including Jan Stephan van Calcar; the exact hands are still argued over. The blocks were cut in Venice and hauled over the Alps to the best printer Vesalius could find. He dedicated the book to Emperor Charles V and issued a cheaper summary, the Epitome, for students.\n\nInside, Galen is corrected again and again. The human jaw is one bone, not two. The breastbone has three parts, not seven. The liver does not have five lobes. The net of arteries Galen placed at the base of the brain, the rete mirabile, is not there in humans. Later writers say he fixed some three hundred errors; the number is a tradition, not a count. He kept some of Galen's ideas too, such as pores in the wall of the heart.\n\nIt is like correcting a city map by walking the streets instead of copying an older map. Where the analogy breaks: Galen's map was accurate, but of a different city. He had drawn an ape, and Vesalius kept his method, dissect and look, while changing the animal.\n\n### Why it was hard\n\nBodies were scarce, decayed fast without refrigeration, and were hedged by law and custom. Galen's authority was so great that Vesalius's old teacher Sylvius published an attack in 1551 arguing that if bodies differed from Galen, the bodies must have degenerated since Galen's day. After 1543 Vesalius left teaching to become physician to Charles V; he revised the book in 1555 and died in 1564.\n\n### What it opened\n\nAnatomy became a see-for-yourself science with a shared visual language: the Fabrica's woodcuts were copied for two centuries. At Padua the chair passed to Realdo Colombo, who traced blood through the lungs, and then to Fabricius, who described the valves in veins to a young English student named William Harvey. Harvey's 1628 proof that blood circulates grows directly from this bench. In the same year Copernicus moved the Earth; Vesalius moved the body. Both said: look, and check the old books against the world.",
+  "why_it_matters": "It replaced fourteen centuries of anatomy learned from animals and authority with anatomy learned from human bodies and drawn for anyone to check. Modern medicine's habit of trusting the specimen over the textbook begins here.",
+  "if_you_were_there": "Most doctors had never touched a corpse, and if the body on the table disagreed with Galen, the standard explanation was that the body was wrong.",
+  "disciplines": [
+    "medicine"
+  ],
+  "people": [
+    {
+      "name": "Andreas Vesalius",
+      "role": "professor of surgery and anatomy at Padua; author of the Fabrica"
+    },
+    {
+      "name": "Jan Stephan van Calcar and Titian's workshop",
+      "role": "Venetian artists credited with the Fabrica's woodcut designs; attribution uncertain"
+    },
+    {
+      "name": "Johannes Oporinus",
+      "role": "Basel printer of the 1543 and 1555 editions"
+    },
+    {
+      "name": "Marcantonio Contarini",
+      "role": "Paduan judge who supplied bodies of executed criminals for dissection"
+    },
+    {
+      "name": "Jacques Dubois (Sylvius)",
+      "role": "Vesalius's Paris teacher and fiercest Galenist critic"
+    },
+    {
+      "name": "Galen",
+      "role": "second-century physician whose animal-based anatomy the Fabrica corrects"
+    }
+  ],
+  "builds_on": [
+    "galen-anatomy",
+    "hippocrates-natural-disease",
+    "ibn-sina-canon",
+    "gutenberg-press",
+    "aristotle-lyceum"
+  ],
+  "enables": [
+    "harvey-blood-circulation",
+    "hooke-micrographia",
+    "leeuwenhoek-microbes"
+  ],
+  "sources": [
+    {
+      "title": "De humani corporis fabrica libri septem | work by Vesalius | Britannica",
+      "url": "https://www.britannica.com/topic/De-humani-corporis-fabrica-libri-septem",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "De Humani Corporis Fabrica Libri Septem - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/De_Humani_Corporis_Fabrica_Libri_Septem",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Historical Anatomies on the Web: Vesalius - U.S. National Library of Medicine",
+      "url": "https://www.nlm.nih.gov/exhibition/historicalanatomies/vesalius_bio.html",
+      "kind": "other"
+    },
+    {
+      "title": "Illustrating De Fabrica - Circulating Now, NLM Historical Collections",
+      "url": "https://circulatingnow.nlm.nih.gov/2014/07/08/illustrating-de-fabrica/",
+      "kind": "article"
+    },
+    {
+      "title": "Vesalius at 500: De Humani Corporis Fabrica - University of Missouri Special Collections",
+      "url": "https://library.missouri.edu/specialcollections/exhibits/show/vesalius500/fabrica",
+      "kind": "other"
+    },
+    {
+      "title": "C. D. O'Malley, Andreas Vesalius of Brussels, 1514-1564 (University of California Press, 1964)",
+      "url": "https://books.google.com/books/about/Andreas_Vesalius_of_Brussels_1514_1564.html?id=UdGaAAAAIAAJ",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te açılmadı, arama özeti kullanıldı. '300 hata' sayısı Wikipedia/popüler kaynaklarda tekrar edilir, kesin sayım değil; metinde gelenek olarak işaretlendi. Çizerler (Calcar / Titian atölyesi / Campagnola) tartışmalı. Contarini bilgisi Encyclopedia.com/O'Malley'e dayanır. Colombo-Fabricius-Harvey zinciri doğru; Harvey'nin Padua yılları (1600-02) gövdede geçmiyor.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

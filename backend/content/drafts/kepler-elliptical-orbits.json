@@ -1,0 +1,89 @@
+{
+  "slug": "kepler-elliptical-orbits",
+  "year": 1609,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "era": "revolution",
+  "title": "Kepler's Astronomia Nova: the planets move in ellipses, not circles",
+  "summary": "After years with Tycho Brahe's Mars data in Prague, Kepler drops two thousand years of circles: Mars runs an ellipse around the Sun and moves faster when closer to it.",
+  "body": "### The scene\n\nPrague, 1600. Emperor Rudolf II collects clocks, alchemists and astronomers, and the greatest astronomer is Tycho Brahe, a Danish nobleman who spent twenty years on his island observatory measuring the sky with room-sized naked-eye instruments and a team of assistants, his sister Sophie among them. His positions are good to a few minutes of arc, several times better than anything before. Johannes Kepler, a poor Lutheran schoolteacher from Graz, a convinced Copernican who believes the planets are spaced by geometry and music, comes to work for him that year. Tycho hands him Mars, the planet whose path had defeated everyone, including Tycho's assistant Longomontanus. Tycho dies in 1601; Kepler inherits his post as Imperial Mathematician and, after a long quarrel with the heirs, his data.\n\n### What happened\n\nKepler called it his war with Mars. It lasted about five years and left nearly a thousand pages of calculation. Every model since Ptolemy, Copernicus's included, built orbits from circles. Kepler built the best circle model anyone ever had, then checked it against further observations and found errors of eight minutes of arc, about a quarter of the full Moon's width. Older astronomers would have shrugged; Kepler trusted Tycho's instruments more than his own theory. \"These eight minutes alone,\" he wrote, \"will lead us to the reform of the whole of astronomy.\" He found first that a line from the Sun to Mars sweeps out equal areas in equal times, so the planet moves faster when nearer the Sun; then, after trying an egg-shaped oval, that the path is an ellipse with the Sun at one focus. Realising that an equation he had already written described exactly this, he called himself \"a foolish bird.\" Astronomia Nova, finished by 1607 and printed in 1609, keeps every wrong turn in, so the reader walks the road with him.\n\nAn ellipse is a circle that has been gently sat on, one axis a little shorter than the other. Where the analogy breaks: a squashed circle still has its centre in the middle, but what matters in Kepler's orbit is that the Sun sits off-centre, at a focus, and nothing at all sits in the middle.\n\n### Why it was hard\n\nCircles were not a mistake; they were a belief about perfection, held from Plato to Copernicus. Letting go needed data good enough to convict them, which only Tycho's team had produced, and a temperament willing to prefer the data. Kepler also wanted a cause, not just a description. Reading Gilbert's De Magnete (1600), he pictured a turning Sun pushing the planets with something like magnetism. The mechanism was wrong, but the question was new; he subtitled the book \"celestial physics.\" Meanwhile Tycho's heirs, guarding their inheritance, held up the printing for years.\n\n### What it opened\n\nKepler then showed the other planets obey the same two rules. In 1619, in Harmonices Mundi, he added a third: the farther a planet is from the Sun, the longer its year, in a fixed proportion. That pattern was the key Newton turned in 1687 when he showed that a single pull from the Sun produces exactly these orbits. Kepler's Rudolphine Tables of 1627, built on the ellipses and on Napier's new logarithms, predicted planetary positions far better than any before. He did much of this while defending his mother against a charge of witchcraft. The sky had stopped being made of perfect circles and become something you could calculate.",
+  "why_it_matters": "Kepler's first two laws replaced perfect circles with a shape and a rule that actually matched the sky, and his search for a cause turned astronomy from describing motions into explaining them. Newton's gravitation is, in large part, an explanation of Kepler.",
+  "if_you_were_there": "Everyone, Copernicus and Galileo included, still assumed the heavens moved in circles because circles were perfect; nobody knew what kept a planet on its path, or whether the question even made sense.",
+  "disciplines": [
+    "astronomy",
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Johannes Kepler",
+      "role": "Imperial Mathematician in Prague; author of Astronomia Nova (1609) and Harmonices Mundi (1619)"
+    },
+    {
+      "name": "Tycho Brahe",
+      "role": "Danish astronomer whose two decades of precise naked-eye observations Kepler analysed"
+    },
+    {
+      "name": "Sophie Brahe",
+      "role": "Tycho's sister, who assisted with observations at Uraniborg"
+    },
+    {
+      "name": "Christen Longomontanus",
+      "role": "Tycho's assistant who worked on the Mars problem before Kepler took it over"
+    },
+    {
+      "name": "Franz Tengnagel",
+      "role": "Tycho's son-in-law and heir, who controlled the observations and delayed publication"
+    },
+    {
+      "name": "Rudolf II",
+      "role": "Holy Roman Emperor and patron of Tycho and Kepler in Prague"
+    }
+  ],
+  "builds_on": [
+    "copernicus-heliocentrism",
+    "tycho-supernova",
+    "gilbert-de-magnete",
+    "ptolemy-almagest"
+  ],
+  "enables": [
+    "newton-principia",
+    "rudolphine-tables?"
+  ],
+  "sources": [
+    {
+      "title": "Astronomia nova - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astronomia_nova",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Johannes Kepler - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "kind": "article"
+    },
+    {
+      "title": "Johannes Kepler - Scientist of the Day, Linda Hall Library",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/johannes-kepler-4/",
+      "kind": "article"
+    },
+    {
+      "title": "Harmonies of the World | work by Kepler | Britannica",
+      "url": "https://www.britannica.com/topic/Harmonies-of-the-World",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Whose Revolution? Copernicus, Brahe & Kepler - Library of Congress",
+      "url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/whose-revolution-copernicus-brahe-and-kepler",
+      "kind": "article"
+    },
+    {
+      "title": "James R. Voelkel, The Composition of Kepler's Astronomia nova (Princeton University Press, 2001)",
+      "url": "https://press.princeton.edu/books/hardcover/9780691007380/the-composition-of-keplers-astronomia-nova",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Doğrulanacaklar: Longomontanus'un Mars'ı Kepler'den önce çalıştığı ve Sophie Brahe'nin Uraniborg'da yardımcı olduğu (genel bilgi, bu oturumda kaynaktan teyit edilmedi); 'sekiz dakika' ve 'aptal kuş' alıntılarının çevirisi; Tengnagel'in yayını geciktirmesi. Üçüncü yasa: keşif Mayıs 1618, yayın 1619 Harmonices Mundi (MacTutor). Rudolphine Tabloları için 'çok daha iyi' dendi, '30 kat' iddiası metne alınmadı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

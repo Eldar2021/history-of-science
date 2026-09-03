@@ -1,0 +1,94 @@
+{
+  "slug": "eratosthenes-earth-circumference",
+  "year": -240,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Eratosthenes measures the Earth with a shadow and a well",
+  "summary": "In Alexandria around 240 BC, the librarian Eratosthenes compares a noon shadow with a shadowless well far to the south and works out the size of the whole planet. He was roughly right.",
+  "body": "### The scene\n\nAlexandria, around 240 BC. The Library is a generation old, and its head is Eratosthenes, born about 276 BC in Cyrene on the Libyan coast, schooled in Athens, and called to Egypt by Ptolemy III. Colleagues nicknamed him Beta, second-best at everything. Educated Greeks already believed the Earth was a ball. A century earlier Aristotle had listed the reasons: the round shadow on the eclipsed Moon, the stars that change as you travel south. He even quoted a size, 400,000 stadia, without saying where it came from. The sphere was accepted; its size was hearsay.\n\n### What happened\n\nOur only detailed account is a simplified one by Cleomedes, written centuries later. At Syene, today's Aswan, the midsummer noon Sun stood straight overhead: a pole cast no shadow and sunlight reached the bottom of a well. On the same day in Alexandria, almost due north, a pointer set in a bowl-shaped sundial cast a shadow whose angle was one-fiftieth of a full circle, a little over seven degrees. If the Sun's rays arrive parallel, that difference can only come from the curve of the ground between the cities, so Alexandria to Syene must be one-fiftieth of the way around the world. That road was reckoned at 5,000 stadia, perhaps from royal surveyors, perhaps from Nile travel records. Fifty times 5,000 is 250,000 stadia. Strabo later gives 252,000, probably rounded to divide neatly by 360.\n\nIt is like judging the size of a giant ball you are standing on by noticing how far two nearby flagpoles lean away from each other. The analogy breaks because Eratosthenes saw no lean, only shadows, and had to trust that the Sun was far enough away for its light to arrive parallel, which nobody could then verify.\n\nHow good was it? That depends on the stadion; scholars still argue whether his was about 157 or 185 metres, which puts the answer between roughly 39,000 and 46,000 kilometres against a true 40,000. His inputs were imperfect: Syene is not exactly under the midsummer Sun, it lies about three degrees east of Alexandria, and 5,000 is a round number. The errors partly cancelled. The luck was in the numbers; the reasoning did not need it.\n\n### Why it was hard\n\nWhat it needed was a stack of things that happened to be in one building. Euclid's Elements, a generation earlier, on what a line crossing two parallels does to the angles. Aristotle's spherical Earth. A state with surveyed roads and written distances. A Library where astronomical reports and land surveys sat on the same shelves, and a librarian curious enough to put them together. He also had peers: Archimedes addressed The Method to him. No ancient source dates the measurement; 240 BC is the usual placement, early in his time at the Library, hence circa.\n\n### What it opened\n\nHe then wrote a Geography that drew the known world on a grid of north-south and east-west lines, on a globe of known size. Hipparchus criticised and refined it. Posidonius later produced a smaller figure, Ptolemy adopted it, and seventeen centuries on Columbus used that smaller Earth to argue that Asia was a short sail west. Al-Ma'mun's astronomers re-measured a degree in Iraq in the 820s; al-Biruni, around 1020, measured the Earth's radius from a mountain in what is now Pakistan; French surveyors in the 1600s settled the matter. Every map coordinate since is a descendant of that grid.",
+  "why_it_matters": "For the first time a human being measured something planetary with a method anyone could repeat and check. It made the Earth an object of known size, which is the starting point for every map, every voyage, and every later measurement of the sky.",
+  "if_you_were_there": "Most people had never seen a map of more than their own region, and no one anywhere had a number for the size of the world that they could explain.",
+  "disciplines": [
+    "astronomy",
+    "earth"
+  ],
+  "people": [
+    {
+      "name": "Eratosthenes of Cyrene",
+      "role": "scholar and head of the Library of Alexandria, c. 276-194 BC; measured the Earth, wrote the Geography, named the prime-number sieve"
+    },
+    {
+      "name": "Ptolemy III Euergetes",
+      "role": "king of Egypt who brought Eratosthenes to Alexandria and put him in charge of the Library"
+    },
+    {
+      "name": "Aristotle",
+      "role": "gave the standard arguments for a spherical Earth a century earlier"
+    },
+    {
+      "name": "Cleomedes",
+      "role": "later Greek astronomer whose textbook preserves the only detailed account of the method"
+    },
+    {
+      "name": "Archimedes of Syracuse",
+      "role": "correspondent who addressed The Method to Eratosthenes"
+    },
+    {
+      "name": "Strabo",
+      "role": "geographer who reports the 252,000-stadia figure"
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum",
+    "euclid-elements",
+    "aristarchus-sun-distance?"
+  ],
+  "enables": [
+    "hipparchus-star-catalogue",
+    "ptolemy-almagest",
+    "al-biruni-earth-radius",
+    "al-mamun-degree-measurement?"
+  ],
+  "sources": [
+    {
+      "title": "Eratosthenes | Biography, Discoveries, Sieve, & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/Eratosthenes",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Eratosthenes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eratosthenes",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Eratosthenes of Cyrene - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/",
+      "kind": "article"
+    },
+    {
+      "title": "Earth's circumference - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earth's_circumference",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Newlyn Walkup, Eratosthenes and the Mystery of the Stades (HOM SIGMAA, Adelphi University)",
+      "url": "https://home.adelphi.edu/~bradley/HOMSIGMAA/Walkup.pdf",
+      "kind": "article"
+    },
+    {
+      "title": "Eratosthenes Measures Earth - APS News, June 2006",
+      "url": "https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth",
+      "kind": "article"
+    },
+    {
+      "title": "Nicholas Nicastro, Circumference: Eratosthenes and the Ancient Quest to Measure the Globe (St. Martin's Press, 2008)",
+      "url": "https://archive.org/details/isbn_9780312372477",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi, arama özeti kullanıldı. Ölçümün yılı hiçbir antik kaynakta yok; -240 gelenek, kütüphane başkanlığının başlangıcı Wikipedia'da c. 236, MacTutor'da c. 240 (Kallimakhos'un ölümü). Stadion uzunluğu (157-185 m) ve buna bağlı 39.000-46.000 km aralığı Wikipedia ve Walkup'tan; bazı popüler kaynaklar '%1-2 hata' der, bu abartılı olabilir. Syene'nin 3 derece doğuda ve dönencenin biraz kuzeyinde olduğu Wikipedia'dan. 'Kraliyet ölçücüleri' (bematist) iddiası belirsiz, metinde 'belki' diye verildi.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

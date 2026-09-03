@@ -1,0 +1,88 @@
+{
+  "slug": "tycho-supernova",
+  "year": 1572,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "title": "Tycho Brahe's new star of 1572: the heavens can change",
+  "summary": "In November 1572 a star brighter than Venus appears in Cassiopeia. Tycho Brahe measures it night after night and shows it lies beyond the Moon, where Aristotle said nothing could ever change.",
+  "body": "### The scene\n\nEvening, 11 November 1572, Herrevad Abbey in Scania, then part of Denmark. Tycho Brahe, a 25-year-old nobleman, walks out of his uncle Steen Bille's laboratory and looks up. In the W of Cassiopeia there is a star that was not there before, and it outshines everything but the Moon. He calls over servants and peasants; they see it too. Educated Europe has a rule from Aristotle: above the Moon the heavens are perfect and eternal, so anything new must be a vapour burning in the upper air, closer than the Moon.\n\n### What happened\n\nTycho was not the first to see it. Wolfgang Schuler in Wittenberg had noted it on 6 November. Jerónimo Muñoz in Valencia, questioned by King Philip II, was sure it had not been there on 2 November. Thomas Digges in England and others across Europe recorded it; court astronomers in Ming China and Joseon Korea logged a guest star. What Tycho had that most others lacked was a large, well-made sextant and the patience to use it. Night after night he measured the star's distance from the nine brightest stars of Cassiopeia. If it were nearer than the Moon, its position against those stars should shift slightly as the sky turned through the night. It did not shift at all, within the limits of his instrument. It was farther than the Moon, out among the fixed stars. He watched it fade from white to yellow to reddish over the winter; by March 1574 it was gone.\n\nThis is the trick called parallax: hold a finger in front of your face and close one eye, then the other, and the finger jumps against the wall while the wall stays put. The nearer the object, the bigger the jump. Where the analogy breaks: Tycho could not move his eye across the Earth; he used the Earth's turning over one night as his two eyes, and the jump he sought was so small that everything rested on how finely his sextant could measure.\n\nIn 1573 he published a short book, De nova stella, which gave the event its modern name.\n\n### Why it was hard\n\nTurning a sighting into a proof needed an instrument accurate to a few minutes of arc, a method other people could check, and the nerve to say that Aristotle, and every university textbook, was wrong about the sky. Tycho had all three, and still nobody knew what the thing was; he suggested it had condensed out of the substance of the heavens. We now know it was a white dwarf star blowing itself apart, a Type Ia supernova, roughly 9,000 light-years away; its light left before the first cities were built.\n\n### What it opened\n\nThe book made Tycho famous. King Frederick II gave him the island of Hven to build Uraniborg, from 1576 the finest observatory in Europe. The great comet of 1577, measured the same way, also lay beyond the Moon and passed straight through where the crystal spheres were supposed to be. Over twenty years Tycho and his assistants recorded planetary positions to about two minutes of arc, the best ever made without a telescope; the previous high mark had been Ulugh Beg's Samarkand catalogue. In the last year of his life Tycho hired a young mathematician, Johannes Kepler, who used that data to replace circles with ellipses.",
+  "why_it_matters": "It was the first measured evidence that the heavens change, and it cracked the Aristotelian wall between a perfect sky and a messy Earth. It also made Tycho's career, and Tycho's data made Kepler's laws.",
+  "if_you_were_there": "Nobody had a word for what they were looking at; the choices were omen, comet or burning vapour, and the idea that a star could be born or die was not on the list.",
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Tycho Brahe",
+      "role": "Danish nobleman and astronomer; measured the star's parallax and published De nova stella (1573)"
+    },
+    {
+      "name": "Wolfgang Schuler",
+      "role": "Wittenberg astronomer who recorded the star on 6 November 1572"
+    },
+    {
+      "name": "Jerónimo Muñoz",
+      "role": "Valencia mathematician who reported on the star for Philip II"
+    },
+    {
+      "name": "Thomas Digges",
+      "role": "English astronomer who mapped the star's position"
+    },
+    {
+      "name": "Steen Bille",
+      "role": "uncle who hosted Tycho's laboratory at Herrevad Abbey"
+    },
+    {
+      "name": "Frederick II of Denmark",
+      "role": "king who funded Uraniborg after the book made Tycho famous"
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum",
+    "ptolemy-almagest",
+    "hipparchus-star-catalogue",
+    "ulugh-beg-observatory",
+    "copernicus-heliocentrism"
+  ],
+  "enables": [
+    "kepler-elliptical-orbits",
+    "galileo-telescope"
+  ],
+  "sources": [
+    {
+      "title": "SN 1572 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SN_1572",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "The Galileo Project | Science | Tycho Brahe (Rice University)",
+      "url": "https://galileo.library.rice.edu/sci/brahe.html",
+      "kind": "article"
+    },
+    {
+      "title": "Tycho Brahe (1546 - 1601) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahe/",
+      "kind": "article"
+    },
+    {
+      "title": "November 11, 1572: Tycho Brahe Spots a Supernova - APS News",
+      "url": "https://www.aps.org/apsnews/2019/11/tycho-brahe-spots-supernova",
+      "kind": "article"
+    },
+    {
+      "title": "Supernova 1572 and other newly observed stars in the literature of the time (arXiv 1712.04532)",
+      "url": "https://arxiv.org/pdf/1712.04532",
+      "kind": "article"
+    },
+    {
+      "title": "Victor E. Thoren, The Lord of Uraniborg: A Biography of Tycho Brahe (Cambridge University Press, 1990)",
+      "url": "https://www.cambridge.org/core/books/lord-of-uraniborg/",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Çin ve Kore kayıtları Wikipedia'da geçer ama bu oturumda ayrıca doğrulanmadı; kontrol edin. Uzaklık tahminleri 8.000-10.000 ışık yılı arasında değişiyor ('yaklaşık 9.000' yazıldı). 'Nova' kelimesinin bu kitaptan geldiği yaygın kabul, kesin köken tartışmalı. Schuler'in 6 Kasım tarihi arXiv makalesi ve Wikipedia'ya dayanır.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

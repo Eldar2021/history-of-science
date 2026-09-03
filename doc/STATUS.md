@@ -6,11 +6,13 @@
 ## Şu an
 
 - **Faz**: Ay 1 / Hafta 4 (başladı 2026-09-03, dal `el/week-4-admin`). Hedef: admin + auth + RLS kanıtı + Playwright → **M1** (02'deki MVP kabul kriterleri).
-- **Hafta 4 kod: 6/6 bitti (2026-09-03, 8. oturum)**, 6 commit, `npm run check` 80 test + `npm run e2e` 4 test yeşil. Dal henüz push edilmedi, PR açılmadı. Kalan: içerik (+15 → 50) ve M1 kontrol listesi.
-- **M1 durumu (02 kabul kriterleri)**: ✓ yıl göstergesi, ✓ detay + geri tuşu, ✓ `/admin` anonim 302, ✓ kaydet → anında, ✓ taslak RLS ile gizli (`rls-proof.sh`), ✓ 4 dil rotası + "bu dilde yok" rozeti. ✗ **50 yayınlı olay** (bulutta 10 yayın + 18 taslak; yerelde 28 yayın): 18 taslağı admin'den yayınla + 15 yeni olay. ✗ **Lighthouse mobil 85+**: son ölçüm 84 (Hafta 3, fontlar); timeline artık SSG olduğu için yeniden ölçülmeli.
+- **Hafta 4 kod: 6/6 bitti**, PR #6 `main`'e merge edildi, admin canlıda. Devam dalı `el/week-4-fix` (perf düzeltmeleri + taslaklar, push edildi, PR yok). Yerel `main` origin'den 2 commit ileride (aynı commit'ler dalda; PR merge edilince eşitlenir). Kalan: +7 olay → 50, hafta sonu kontrolü, video.
+- **M1 durumu (02 kabul kriterleri)**: ✓ yıl göstergesi, ✓ detay + geri tuşu, ✓ `/admin` anonim 302, ✓ kaydet → anında, ✓ taslak RLS ile gizli (`rls-proof.sh`), ✓ 4 dil rotası + "bu dilde yok" rozeti. ✗ **50 yayınlı olay**: 43 yayında; +7 Aydınlanma olayı (Linnaeus, Franklin, oksijen, Herschel, Lavoisier, Jenner, Volta) gerekir. ✓ **Lighthouse mobil 85+**: canlı timeline 93 (2026-09-03); olay sayfası canlıda 80'di (dinamik render) → `generateStaticParams` ile 112 sayfa prerender, yerel üretimde timeline 100 / olay 100, CLS 0.139 → 0.021 (filtre çipi iskeleti). Merge sonrası canlıda yeniden ölç.
 - **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl`, migration 0001+0002 (Hafta 4 migration istemedi). Vercel prod https://history-of-science.vercel.app; PR merge edilince admin canlıya çıkar, ek ortam değişkeni gerekmez (service key yalnızca betiklerde). Yerel: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`; yerel admin `admin@uchkun.local` / `uchkun-local-admin` (create-admin.mjs ile yeniden üretilebilir).
-- **Sonraki adım**: (1) PR aç/merge → Vercel. (2) Bulut admin hesabı (aşağıda) → `/admin/events`'te 18 taslağı gözden geçirip yayınla; El-Harezmi, İbn-i Heysem, Uluğ Bey gövdelerini `backend/content/drafts/*.json`'dan forma yapıştır. (3) `/com_event` ile +15 Bilimsel Devrim olayı (03 listesi). (4) Lighthouse mobil yeniden ölç. (5) Hafta 5: içerik hattı.
-- **Kullanıcıdan bekleyen**: (1) **Bulut admin hesabı**: `SUPABASE_URL=https://hsllmvouqayaccubodcl.supabase.co SUPABASE_SERVICE_ROLE_KEY=<panel: Settings → API → service_role> node backend/scripts/create-admin.mjs <e-posta> '<şifre>'` ya da panelde Add user + `update profiles set role='admin'`. (2) "Kaydet → sitede anında" videosu: prod'da `/admin/events/new` → yayınla → `/en/timeline` yenile. (3) Uluğ Bey yılı: seed `1420 exact` vs taslak `circa`+`1437` (artık admin formundan düzeltilebilir). (4) Hafta 3 hafta sonu kontrolü (arkadaşa telefon). (5) +15 taslağın doğrulanması (yazılınca).
+- **Sonraki adım**: (1) PR aç/merge → Vercel. (2) Merge sonrası https://history-of-science.vercel.app/admin/login ile gir → `/admin/events`'te 18 taslağı gözden geçirip yayınla; El-Harezmi, İbn-i Heysem, Uluğ Bey gövdelerini `backend/content/drafts/*.json`'dan forma yapıştır. (3) `/com_event` ile +15 Bilimsel Devrim olayı (03 listesi). (4) Lighthouse mobil yeniden ölç. (5) Hafta 5: içerik hattı.
+- **Bulut admin hesabı var**: `eldiiaralmazbekov@gmail.com`, `profiles.role='admin'` (2026-09-03, `supabase db query --linked` ile doğrulandı). Şifre: `backend/scripts/cloud-admin-password.sh eldiiaralmazbekov@gmail.com` (anahtarı CLI'dan alır, şifreyi gizli sorar). E-posta sıfırlama bağlantısı localhost'a gidiyor → Hafta 5: bulut Auth Site URL + redirect listesi Vercel adresi, `/admin/reset-password` sayfası.
+- **Kullanıcıdan bekleyen**: (1) PR merge. (2) "Kaydet → sitede anında" videosu: prod'da `/admin/events/new` → yayınla → `/en/timeline` yenile. (3) Uluğ Bey yılı: seed `1420 exact` vs taslak `circa`+`1437` (artık admin formundan düzeltilebilir). (4) Hafta 3 hafta sonu kontrolü (arkadaşa telefon). (5) +15 taslağın doğrulanması (yazılınca).
+- **Kullanıcı geri bildirimi (2026-09-03)**: site çalışıyor ama "çok ham"; ana sayfa ilgi çekici değil. Kullanıcının ana sayfa için bir fikri var, kendi içinde değerlendiriyor; sorulmadan ana sayfayı yeniden tasarlama. Hafta sonu kontrolü ve beta testleri ("monkey test") daha sonra birlikte yapılacak; video zorunlu değil.
 - **Bloklayan**: yok.
 
 ## Hafta 4 kutucukları
@@ -26,7 +28,7 @@
 
 **İçerik**
 
-- [ ] +15 olay → 50 (Bilimsel Devrim'e kadar).
+- [~] +15 olay → 50: 15 Bilimsel Devrim taslağı (Vesalius, Tycho, Gilbert, Kepler, Galileo, Napier, F. Bacon, Harvey, Descartes, Torricelli, Royal Society, Boyle, Hooke, Leeuwenhoek, Rømer) 5 paralel `content-writer` ajanıyla; iki ajan oturum limitine takıldı ama dosyalar tamdı, mekanik hatalar (kaynak türü, 2 özet) elle düzeltildi. `check-drafts.mjs`: 43 taslak 0 hata, gövdeler 560-650 kelime. Ayrıca yayınlı 7 seed olayının (Thales, Öklid, Arşimet, Eratosthenes, Kopernik, Newton, transistör) boş gövdesi `fill-stubs-sql.mjs` ile taslaktan dolduruldu (6-7 kaynak, bağlantılar). Yerel ve **bulut**: 28 yayın + 15 `draft`, 150 bağlantı. Kullanıcı kararıyla 15'i de yayınlandı (2026-09-03, 2'si admin'den, 13'ü SQL): bulut ve yerel **43 yayın, 0 taslak**, anon `get_timeline` 43, canlı tr/ky/ru 43 (en ISR 5 dk içinde). `verify_note_tr` notları `events.research_note`'ta. 50 için 7 olay daha gerekir (Aydınlanma'dan: Linnaeus, Franklin, oksijen, Herschel, Lavoisier, Jenner, Volta). (2026-09-03)
 
 **Kilometre taşı M1**
 
@@ -93,6 +95,12 @@
 - `04-mimari` ve `CLAUDE.md` artık Next 16 / `proxy.ts` diyor.
 
 ## Oturum günlüğü
+
+### 2026-09-03 — 9. oturum: içerik turu + Lighthouse + bulut girişi
+- Bulut admin hesabı zaten vardı (kullanıcının Gmail'i); e-posta sıfırlama bağlantısı localhost'a gidiyordu (bulut Auth Site URL yerel, sıfırlama sayfası yok → Hafta 5). `backend/scripts/cloud-admin-password.sh` ile şifre CLI anahtarıyla belirlendi, giriş başarılı. PR #6 kullanıcı tarafından merge edildi; admin canlıda.
+- `/com_event`: 5 paralel `content-writer` ajanı, 22 olay (7 seed gövdesi + 15 Bilimsel Devrim). İki ajan oturum limitine takıldı ama dosyaları yazmıştı; mekanik hatalar elle düzeltildi (kaynak türü `museum/primary` → `other/paper`, iki özet kısaltıldı). `fill-stubs-sql.mjs` yazıldı (iki hata bulundu ve düzeltildi: kaynaklardan yalnız ilki giriyordu, research_note gövdeden sonra yazılıyordu). Yerel + bulut: kullanıcı kararıyla hepsi yayında, **43 olay**, 150 bağlantı; anon RLS kanıtı bulutta geçti.
+- Lighthouse mobil canlı: timeline 93 (M1 yeşil), olay sayfası 80 → `generateStaticParams` ile 112 sayfa prerender, filtre çipi iskeleti ile CLS 0.139 → 0.021; yerel üretimde 100/100. `el/week-4-fix` dalında, merge bekliyor.
+- Yarım kalan: +7 Aydınlanma olayı (50 için), M1 kutucuğu, hafta sonu kontrolü/beta testi (birlikte), ana sayfa fikri (kullanıcıdan gelecek).
 
 ### 2026-09-03 — 8. oturum: Hafta 4 kod kutucukları (tamamlandı)
 

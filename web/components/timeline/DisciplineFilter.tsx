@@ -6,6 +6,27 @@ import { matchesFilter as matches, parseSelected } from "@/lib/timeline/filter";
 type Chip = { slug: string; name: string };
 type Labels = { legend: string; onlyThese: string; clear: string; empty: string };
 
+const ROW = "mb-4 flex flex-wrap items-center gap-1.5";
+const CHIP = "inline-flex items-center gap-1.5 rounded-pill px-2.5 py-1 text-label uppercase tracking-wider";
+const DOT = "h-[7px] w-[7px] rounded-full";
+
+/**
+ * Same row, no interaction: the Suspense fallback of DisciplineFilter. Rendered into the static HTML
+ * so the list does not jump down when the client chips arrive (Lighthouse CLS on the timeline).
+ */
+export function DisciplineFilterSkeleton({ disciplines, label }: { disciplines: Chip[]; label: string }) {
+  return (
+    <div role="group" aria-label={label} aria-busy className={ROW}>
+      {disciplines.map((d) => (
+        <span key={d.slug} className={`${CHIP} bg-elevated text-secondary`}>
+          <span aria-hidden className={DOT} style={{ background: `var(--discipline-${d.slug})` }} />
+          {d.name}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 /**
  * Discipline chips (doc/05 Navigasyon): tap a chip and everything else fades to 0.3 but stays; the
  * "only these" chip hides the rest. State lives in the URL (`d`, `only`) so a shared link opens the
@@ -50,7 +71,7 @@ export function DisciplineFilter({ disciplines, eventDisciplines, labels }: { di
 
   const active = selected.size > 0;
   return (
-    <div role="group" aria-label={labels.legend} className="mb-4 flex flex-wrap items-center gap-1.5">
+    <div role="group" aria-label={labels.legend} className={ROW}>
       {disciplines.map((d) => {
         const on = selected.has(d.slug);
         return (
@@ -59,11 +80,11 @@ export function DisciplineFilter({ disciplines, eventDisciplines, labels }: { di
             type="button"
             aria-pressed={on}
             onClick={() => toggle(d.slug)}
-            className={`inline-flex items-center gap-1.5 rounded-pill px-2.5 py-1 text-label uppercase tracking-wider transition-[opacity,box-shadow] duration-(--duration-press) ${
+            className={`${CHIP} transition-[opacity,box-shadow] duration-(--duration-press) ${
               on ? "bg-elevated text-primary shadow-[inset_0_0_0_1px_var(--accent)]" : "bg-elevated text-secondary hover:text-primary"
             } ${active && !on ? "opacity-60" : ""}`}
           >
-            <span aria-hidden className="h-[7px] w-[7px] rounded-full" style={{ background: `var(--discipline-${d.slug})` }} />
+            <span aria-hidden className={DOT} style={{ background: `var(--discipline-${d.slug})` }} />
             {d.name}
           </button>
         );
