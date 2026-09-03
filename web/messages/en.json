@@ -26,7 +26,8 @@
     "next": "Next event",
     "progress": "{index} of {total}",
     "openEvent": "Read the story: {title}",
-    "recenter": "Back to the place"
+    "recenter": "Back to the place",
+    "earthCredit": "Earth: NASA Blue Marble"
   },
   "timeline": {
     "title": "Timeline",

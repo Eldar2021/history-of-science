@@ -26,7 +26,8 @@
     "next": "Кийинки окуя",
     "progress": "{index} / {total}",
     "openEvent": "Окуяны оку: {title}",
-    "recenter": "Жерге кайтуу"
+    "recenter": "Жерге кайтуу",
+    "earthCredit": "Жер сүрөтү: NASA Blue Marble"
   },
   "timeline": {
     "title": "Убакыт сызыгы",

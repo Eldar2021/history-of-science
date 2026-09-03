@@ -112,12 +112,10 @@ Canvas 2D, **çalışma zamanında bağımlılık yok**. Ortografik izdüşüm, 
 çemberi `web/lib/globe/projection.ts` içinde birkaç düzine satır trigonometri; `formatYear`/`formatPlace`
 gibi saf ve test edilebilir.
 
-Kara, `web/lib/globe/land.ts`'deki **1°'lik bit maskesinden** çiziliyor (10,5 KB base64). Maskeyi
-`web/scripts/gen-land-mask.mjs` üretir: `d3-geo`, `topojson-client`, `world-atlas` yalnızca bu script
-için **devDependency**'dir, tarayıcı paketine girmez. Her hücre beş noktadan örneklenir ("herhangi biri
-karaysa kara"), yoksa kıyı şehirleri denize düşüyor ve İtalya'nın çizmesi kayboluyordu. Noktalar enlem
-halkalarına dizilir, sayıları `cos(enlem)` ile azalır; Fibonacci sarmalı kutupta gözle görülür spiral
-deseni bırakıyordu.
+Kara bir **fotoğraftan** geliyor: NASA Blue Marble, `web/public/globe/earth-2048.jpg` (2048×1024,
+238 KB, telifsiz — ADR-026). `sphere.ts` diskin her pikseli için izdüşümü tersine çevirip dokudan
+okuyor ve tek ışıkla gölgeliyor; saf fonksiyon olduğu için eşleme test edilebiliyor. Dönerken %55
+çözünürlükte çizilip büyütülüyor (her pikselde bir arcsin + bir arctan var), durunca tam çözünürlük.
 
 Küre kendi koyu bandında yaşar: `.globe-stage` sınıfı, tema ne olursa olsun karanlık paleti ödünç alır
 (`globals.css`, ADR-024). Animasyon karesi yalnızca kamera hareket ederken döner.

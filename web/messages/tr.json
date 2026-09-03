@@ -26,7 +26,8 @@
     "next": "Sonraki olay",
     "progress": "{index} / {total}",
     "openEvent": "Hikâyeyi oku: {title}",
-    "recenter": "Yere geri dön"
+    "recenter": "Yere geri dön",
+    "earthCredit": "Dünya görüntüsü: NASA Blue Marble"
   },
   "timeline": {
     "title": "Zaman çizgisi",

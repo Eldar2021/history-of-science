@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { landDots } from "@/lib/globe/dots";
 import { layoutFor } from "@/lib/globe/layout";
+import { renderSphere, type Texture } from "@/lib/globe/sphere";
 import { circlePath, EARTH_RADIUS_KM, easeInOutCubic, interpolateCentre, project, type Centre } from "@/lib/globe/projection";
 import { PLACE_RADIUS_KM } from "@/lib/i18n/formatPlace";
 import type { GlobePlace } from "@/lib/globe/events";
@@ -21,29 +21,28 @@ type Props = {
   className?: string;
 };
 
-/** Degrees between land dots. Smaller is denser; 1.3 gives roughly eight thousand. */
-const DOT_SPACING_DEG = 1.3;
+/**
+ * NASA's Blue Marble: land surface, shallow water and shaded topography, 2048 x 1024, 238 KB.
+ * Source: https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg
+ * NASA Earth science imagery is not copyrighted and carries no usage restriction; NASA asks only
+ * to be credited, which the page does under the globe. See doc/09 ADR-026.
+ */
+const EARTH_TEXTURE = "/globe/earth-2048.jpg";
+/**
+ * Fraction of full resolution to draw at while the globe is turning. Every pixel of the disc costs
+ * an arcsine and an arctangent, so a moving globe is drawn smaller and scaled up; it settles at
+ * full resolution on the last frame, which is the one anybody looks at.
+ */
+const MOVING_QUALITY = 0.55;
 /** No uncertainty circle is ever drawn smaller than this; below it the reader cannot see there is one. */
 const MIN_UNCERTAINTY_PX = 22;
 /** How far the active place may drift from the centre before the card stops claiming to point at it. */
 const OFF_CENTRE_PX = 40;
-/**
- * Depth bands, front to back. A dot facing us is full size and bright; one near the limb is
- * smaller, dimmer and drawn in the far colour. Ordered from nearest, matched first.
- */
-const DEPTH_BANDS = [
-  { minDepth: 0.72, scale: 1, alpha: 1 },
-  { minDepth: 0.42, scale: 0.85, alpha: 0.85 },
-  { minDepth: 0.18, scale: 0.7, alpha: 0.6 },
-  { minDepth: 0, scale: 0.55, alpha: 0.4 },
-];
 const TURN_MS = 1100;
 
 type Palette = {
   sphere: string;
   sphereEdge: string;
-  dot: string;
-  dotFar: string;
   halo: string;
   accent: string;
   muted: string;
@@ -56,8 +55,6 @@ function readPalette(el: HTMLElement, disciplines: string[]): Palette {
   return {
     sphere: v("--globe-sphere", "#2e2b25"),
     sphereEdge: v("--globe-sphere-edge", "#3b372f"),
-    dot: v("--globe-dot", "#6f6857"),
-    dotFar: v("--globe-dot-far", "#5d5849"),
     halo: v("--globe-halo", "rgba(156, 146, 124, 0.16)"),
     accent: v("--accent", "#f6a06b"),
     muted: v("--text-muted", "#c0b6a5"),
@@ -98,8 +95,10 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
   const offCentreRef = useRef(false);
   /** Wakes the render loop. It stops itself when the globe settles, so a hand-turn must restart it. */
   const requestDrawRef = useRef<() => void>(() => {});
-  /** Built on the first paint in the browser, never during server rendering. */
-  const dotsRef = useRef<Float32Array | null>(null);
+  /** The photograph, as raw pixels. Null until it has loaded; the globe draws plain until then. */
+  const textureRef = useRef<Texture | null>(null);
+  /** Reused between frames: allocating a megabyte of pixels sixty times a second is not free. */
+  const sphereRef = useRef<{ canvas: HTMLCanvasElement; image: ImageData; size: number } | null>(null);
   const hitsRef = useRef<Array<{ index: number; x: number; y: number }>>([]);
 
   useEffect(() => {
@@ -111,6 +110,28 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
     });
     observer.observe(el);
     return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    const img = new Image();
+    img.decoding = "async";
+    img.onload = () => {
+      if (cancelled) return;
+      const store = document.createElement("canvas");
+      store.width = img.naturalWidth;
+      store.height = img.naturalHeight;
+      const sctx = store.getContext("2d");
+      if (!sctx) return;
+      sctx.drawImage(img, 0, 0);
+      const pixels = sctx.getImageData(0, 0, store.width, store.height);
+      textureRef.current = { data: pixels.data, width: store.width, height: store.height };
+      requestDrawRef.current();
+    };
+    // No onerror handling on purpose: the plain lit ball is already the answer, and the pins,
+    // the card and every button keep working without the photograph.
+    img.src = EARTH_TEXTURE;
+    return () => { cancelled = true; };
   }, []);
 
   // A new active event starts a turn. Readers who asked for less motion get the new view at once.
@@ -135,9 +156,7 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
     if (!canvas || !ctx || size.width === 0) return;
 
     if (!paletteRef.current) paletteRef.current = readPalette(canvas, places.map((p) => p.discipline));
-    if (!dotsRef.current) dotsRef.current = landDots(DOT_SPACING_DEG);
     const palette = paletteRef.current;
-    const dots = dotsRef.current;
 
     const cam = camera.current;
     const elapsed = performance.now() - cam.startedAt;
@@ -154,44 +173,46 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, width, height);
 
-    // A thin halo just outside the limb: without it the sphere's edge disappears into the page.
+    // A soft glow just outside the limb, fading to nothing: it separates the globe from the page
+    // without drawing a ring around the photograph.
+    const glow = ctx.createRadialGradient(cx, cy, radius * 0.97, cx, cy, radius * 1.11);
+    glow.addColorStop(0, palette.halo);
+    glow.addColorStop(1, "transparent");
     ctx.beginPath();
-    ctx.arc(cx, cy, radius * 1.035, 0, Math.PI * 2);
-    ctx.strokeStyle = palette.halo;
-    ctx.lineWidth = radius * 0.07;
-    ctx.stroke();
-
-    // The sphere: a little brighter where it faces us, so it reads as a ball and not a circle.
-    const sphere = ctx.createRadialGradient(cx - radius * 0.3, cy - radius * 0.3, radius * 0.1, cx, cy, radius);
-    sphere.addColorStop(0, palette.sphereEdge);
-    sphere.addColorStop(1, palette.sphere);
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
-    ctx.fillStyle = sphere;
+    ctx.arc(cx, cy, radius * 1.11, 0, Math.PI * 2);
+    ctx.fillStyle = glow;
     ctx.fill();
 
-    // Land. Dots are sorted into depth bands and each band is drawn once: nearer bands are
-    // bigger and brighter, so the field foreshortens toward the limb the way a sphere does.
-    // One fill per band instead of one per dot keeps this cheap.
-    const dotRadius = Math.max(0.75, radius / 205);
-    const bands = DEPTH_BANDS.map(() => new Path2D());
-    for (let i = 0; i < dots.length; i += 2) {
-      const p = project(dots[i], dots[i + 1], centre, radius, cx, cy);
-      if (!p.visible) continue;
-      let band = DEPTH_BANDS.length - 1;
-      for (let b = 0; b < DEPTH_BANDS.length; b++) {
-        if (p.depth >= DEPTH_BANDS[b].minDepth) { band = b; break; }
+    const texture = textureRef.current;
+    if (texture) {
+      // Drawn smaller while it turns and scaled up, full size once it settles.
+      const moving = t < 1 || dragRef.current !== null;
+      const n = Math.max(16, Math.round(radius * 2 * (moving ? MOVING_QUALITY : 1)));
+      let sphere = sphereRef.current;
+      if (!sphere || sphere.size !== n) {
+        const canvas2 = document.createElement("canvas");
+        canvas2.width = n;
+        canvas2.height = n;
+        const sctx = canvas2.getContext("2d");
+        if (!sctx) return;
+        sphere = { canvas: canvas2, image: sctx.createImageData(n, n), size: n };
+        sphereRef.current = sphere;
       }
-      const r = dotRadius * DEPTH_BANDS[band].scale;
-      bands[band].moveTo(p.x + r, p.y);
-      bands[band].arc(p.x, p.y, r, 0, Math.PI * 2);
+      renderSphere(sphere.image.data, n, texture, centre);
+      sphere.canvas.getContext("2d")?.putImageData(sphere.image, 0, 0);
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = "high";
+      ctx.drawImage(sphere.canvas, cx - radius, cy - radius, radius * 2, radius * 2);
+    } else {
+      // Until the photograph arrives: a lit ball, so the page never shows an empty hole.
+      const plain = ctx.createRadialGradient(cx - radius * 0.3, cy - radius * 0.3, radius * 0.1, cx, cy, radius);
+      plain.addColorStop(0, palette.sphereEdge);
+      plain.addColorStop(1, palette.sphere);
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+      ctx.fillStyle = plain;
+      ctx.fill();
     }
-    for (let b = bands.length - 1; b >= 0; b--) {
-      ctx.globalAlpha = DEPTH_BANDS[b].alpha;
-      ctx.fillStyle = b === 0 ? palette.dot : palette.dotFar;
-      ctx.fill(bands[b]);
-    }
-    ctx.globalAlpha = 1;
 
     // Pins, and the dashed ring that admits we only know the area (ADR-025).
     const hits: Array<{ index: number; x: number; y: number }> = [];

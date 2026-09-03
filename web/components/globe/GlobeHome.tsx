@@ -158,6 +158,18 @@ export function GlobeHome({ events, locale }: Props) {
         </div>
         {/* Its own line, so an era name of any length leaves the buttons where they were. */}
         {current.era && <p className="text-xs text-muted">{current.era}</p>}
+        {/* Credit for the photograph, in the stack rather than in a corner: on a phone a corner
+            put it straight through the era name. The project rule is attribution, licence and
+            source URL for every image; the licence and exact source sit next to EARTH_TEXTURE in
+            Globe.tsx, and this is the part the reader sees. */}
+        <a
+          href="https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg"
+          target="_blank"
+          rel="noreferrer"
+          className="text-xs text-muted/70 underline decoration-transparent transition hover:decoration-current hover:text-muted"
+        >
+          {t("earthCredit")}
+        </a>
       </div>
 
       {offCentre && (

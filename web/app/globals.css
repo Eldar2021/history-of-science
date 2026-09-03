@@ -86,9 +86,7 @@
   --globe-space: #1b1917;
   --globe-sphere: #2a2721;       /* the limb, turning away from us */
   --globe-sphere-edge: #423d33;  /* the lit shoulder */
-  --globe-dot: #9c927c;
-  --globe-dot-far: #5d5849;
-  --globe-halo: rgba(156, 146, 124, 0.16);
+  --globe-halo: rgba(174, 191, 146, 0.10);
   --globe-trail: rgba(246, 160, 107, 0.35);
 }
 

@@ -216,6 +216,35 @@ geçilirse yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
 ---
 
+## ADR-026: Küre bir fotoğraf; nokta haritası kaldırıldı
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: İlk küre karayı 1°'lik bir maskeden üretilen noktalarla çiziyordu. Kullanıcı canlıda
+  denedi ve iki şey söyledi: küre 2D duruyor, kıtalarda hatalar var. İkisi de doğruydu — maske
+  kıyıları yarım derece şişiriyor, ince yarımadaları yutuyordu; dönmeyen ve elle çevrilemeyen bir
+  nokta bulutu da göz için düz bir daire. Kullanıcı NASA'nın `solarsystem.nasa.gov/gltf_embed/2393`
+  küresini önerdi.
+- **Karar**: Küre artık NASA Blue Marble fotoğrafını giyiyor (`land_shallow_topo_2048.jpg`,
+  2048×1024, **238 KB**, `web/public/globe/`). Çizim yine kendi Canvas 2D'imiz: `sphere.ts` diskin
+  her pikseli için ortografik izdüşümü tersine çevirip eşlek dikdörtgen dokudan okuyor ve tek bir
+  ışıkla gölgeliyor. Nokta üreteci, kara maskesi ve üç build-time bağımlılığı (`d3-geo`,
+  `topojson-client`, `world-atlas`) silindi.
+- **Gerekçe**: NASA'nın **modeli** 12,9 MB — bizim tüm küremiz 11 KB'dı; mobil performans bütçesini
+  (M2: Lighthouse 90+) tek başına bitirirdi. Embed'i iframe ile gömmek teknik olarak mümkün ama
+  işe yaramaz: o çerçeveyi Semerkant'a çeviremeyiz ve üstüne kendi pinlerimizi koyamayız, yani
+  özelliğin kendisi kaybolur. NASA'nın **görüntüsü** ise telifsiz (CC0 muadili) ve boyutunu biz
+  seçiyoruz. Böylece coğrafya foto gerçekliğinde doğru, "maske hatası" diye bir kategori kalmıyor,
+  ışık ve terminatör küreyi top gibi gösteriyor — üstelik pinler, belirsizlik çemberleri, kart ve
+  elle çevirme olduğu gibi kalıyor, üç.js gibi bir katman gerekmiyor.
+- **Sonuçlar**: Her pikselde bir arcsin ve bir arctan var; küre dönerken **%55 çözünürlükte** çizilip
+  büyütülüyor, durunca son kare tam çözünürlükte. Fotoğraf yüklenene kadar sade ışıklı bir top
+  çiziliyor, yüklenemezse de öyle kalıyor — pinler ve düğmeler her hâlükârda çalışıyor. Atıf
+  kürenin altında görünür (kaynak URL'ye bağlı), lisans ve tam kaynak `Globe.tsx`'te
+  `EARTH_TEXTURE`'ın yanında.
+
+---
+
 ## Şablon
 
 ```

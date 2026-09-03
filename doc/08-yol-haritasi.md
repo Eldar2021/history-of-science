@@ -49,8 +49,8 @@ Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlay�
       yeri (0004), `get_timeline`/`get_event_detail` yer alanlarını döndürür.
 - [x] `formatPlace.ts`: yer metninin tek kaynağı; belirsizlik ayrı not satırı (ADR-025).
 - [x] `/admin` olay formunda yer alanları; "tek bir yer yok" seçilince koordinat alanları kapanır.
-- [x] Küre bileşeni: enlem halkalarına dizilmiş nokta bulutu, `lat/lng`'ye yumuşak kamera geçişi,
-      olayın yeri hep merkezde. Canvas 2D, **çalışma zamanında sıfır bağımlılık**.
+- [x] Küre bileşeni: NASA Blue Marble dokusu giydirilmiş küre (ADR-026), `lat/lng`'ye yumuşak kamera
+      geçişi, olayın yeri hep merkezde. Canvas 2D, **çalışma zamanında sıfır bağımlılık**.
 - [x] Pinler: disiplin rengi; `region`/`continent` için kesikli belirsizlik çemberi (en az 22 piksel,
       yoksa görünmüyor); `unknown` küreye hiç girmiyor.
 - [x] Kart + merkeze bakan kuyruk; karta tıklama mevcut yandan sheet'i açar (`@panel` kesişen rota).

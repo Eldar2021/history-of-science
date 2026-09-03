@@ -26,7 +26,8 @@
     "next": "Следующее событие",
     "progress": "{index} из {total}",
     "openEvent": "Читать историю: {title}",
-    "recenter": "Вернуться к месту"
+    "recenter": "Вернуться к месту",
+    "earthCredit": "Изображение Земли: NASA Blue Marble"
   },
   "timeline": {
     "title": "Хронология",
