@@ -1,6 +1,8 @@
 "use server";
 
+import { updateTag } from "next/cache";
 import { redirect } from "next/navigation";
+import { TIMELINE_TAG, eventTag } from "@/lib/cache-tags";
 import { requireStaff } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { readEventForm, validateEventForm, type EventFormErrors, type EventFormValues } from "@/lib/admin/eventForm";
@@ -33,7 +35,10 @@ export async function saveEvent(prev: SaveState, formData: FormData): Promise<Sa
   };
 
   let id = parsed.id;
+  let previousSlug: string | null = null;
   if (id) {
+    const { data: before } = await supabase.from("events").select("slug").eq("id", id).maybeSingle();
+    previousSlug = before?.slug ?? null;
     const { error } = await supabase.from("events").update(eventFields).eq("id", id);
     if (error) return error.code === UNIQUE_VIOLATION ? { values, errors: { slug: "slugTaken" }, version: prev.version + 1 } : fail("saveFailed");
   } else {
@@ -59,6 +64,11 @@ export async function saveEvent(prev: SaveState, formData: FormData): Promise<Sa
     .from("event_disciplines")
     .insert((disciplineRows ?? []).map((d, i) => ({ event_id: id, discipline_id: d.id, is_primary: i === 0 })));
   if (insError) return fail("saveFailed");
+
+  // doc/04: save → tags expire → the next visitor gets the fresh page. updateTag expires immediately.
+  updateTag(TIMELINE_TAG);
+  updateTag(eventTag(parsed.slug));
+  if (previousSlug && previousSlug !== parsed.slug) updateTag(eventTag(previousSlug));
 
   redirect(`/admin/events/${id}?saved=1&locale=${parsed.edit_locale}`);
 }
