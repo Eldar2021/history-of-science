@@ -21,3 +21,5 @@ export type TimelineEvent = {
 };
 
 export type Era = { id: number; slug: string; start_year: number; end_year: number | null; name: string; tagline: string | null };
+
+export type Discipline = { id: number; slug: string; name: string };
