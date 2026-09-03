@@ -71,12 +71,16 @@ export function formatPlace(
 
 /**
  * How wide the uncertainty is drawn on the globe, in kilometres of radius.
- * exact and city get a pin instead, so they have no circle.
+ * exact and city get a pin instead, so they have no circle; unknown is not on the globe at all.
+ *
+ * These are honest orders of magnitude, not measurements: nobody knows which hill in the Punjab
+ * al-Biruni climbed, and "within about five hundred kilometres" is the true claim. The globe
+ * enforces a minimum size in pixels on top of this, so a circle is never too small to notice.
  */
 export const PLACE_RADIUS_KM: Record<PlacePrecision, number | null> = {
   exact: null,
   city: null,
-  region: 300,
-  continent: 1800,
+  region: 500,
+  continent: 2500,
   unknown: null,
 };

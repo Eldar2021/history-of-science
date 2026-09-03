@@ -20,7 +20,12 @@
   "home": {
     "question": "Buraya nasıl geldik?",
     "lead": "Thales'ten CRISPR'a: her keşif bir öncekinin omzunda yükseldi. Zamana düş; ne kadar yavaş başladığını, ne kadar hızlandığını gör.",
-    "cta": "Zamana düş"
+    "cta": "Zamana düş",
+    "exploreAll": "Tüm zaman çizelgesini keşfet",
+    "previous": "Önceki olay",
+    "next": "Sonraki olay",
+    "progress": "{index} / {total}",
+    "openEvent": "Hikâyeyi oku: {title}"
   },
   "timeline": {
     "title": "Zaman çizgisi",

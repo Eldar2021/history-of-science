@@ -20,7 +20,12 @@
   "home": {
     "question": "How did we get here?",
     "lead": "From Thales to CRISPR: every discovery stood on an earlier one. Fall into time and watch how slowly it started, and how fast it got.",
-    "cta": "Fall into time"
+    "cta": "Fall into time",
+    "exploreAll": "Explore the whole timeline",
+    "previous": "Previous event",
+    "next": "Next event",
+    "progress": "{index} of {total}",
+    "openEvent": "Read the story: {title}"
   },
   "timeline": {
     "title": "Timeline",

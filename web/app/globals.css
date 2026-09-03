@@ -50,7 +50,12 @@
   --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
 }
 
-:root[data-theme="dark"] {
+/*
+  The globe stage is deliberately dark in both themes: a lit sphere needs a night sky behind it
+  (ADR-024). It borrows the dark palette rather than copying it, so the two never drift apart.
+*/
+:root[data-theme="dark"],
+.globe-stage {
   color-scheme: dark;
   --bg-base: #2e2b25;
   --bg-elevated: #3b372f;
@@ -76,6 +81,15 @@
   --discipline-medicine: #e89a8a;
   --discipline-earth: #d9b46a;
   --discipline-technology: #a7aeb3;
+
+  /* The globe itself. Only meaningful inside .globe-stage. */
+  --globe-space: #1b1917;
+  --globe-sphere: #2a2721;       /* the limb, turning away from us */
+  --globe-sphere-edge: #423d33;  /* the lit shoulder */
+  --globe-dot: #9c927c;
+  --globe-dot-far: #5d5849;
+  --globe-halo: rgba(156, 146, 124, 0.16);
+  --globe-trail: rgba(246, 160, 107, 0.35);
 }
 
 @media (prefers-reduced-motion: reduce) {

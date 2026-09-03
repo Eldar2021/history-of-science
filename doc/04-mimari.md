@@ -106,6 +106,22 @@ yazılır; yeni fonksiyonlarda da aynısı gerekir.
 - **Bilinen açık**: `profiles` yazma politikası yalnızca admin, yani `editor` rolü kendi `ui_locale`'ini
   değiştiremez. Hafta 9'da editör hesaplarıyla birlikte self-update policy migration'ı gerekir.
 
+## Ana sayfa küresi
+
+Canvas 2D, **çalışma zamanında bağımlılık yok**. Ortografik izdüşüm, büyük daire yayı ve belirsizlik
+çemberi `web/lib/globe/projection.ts` içinde birkaç düzine satır trigonometri; `formatYear`/`formatPlace`
+gibi saf ve test edilebilir.
+
+Kara, `web/lib/globe/land.ts`'deki **1°'lik bit maskesinden** çiziliyor (10,5 KB base64). Maskeyi
+`web/scripts/gen-land-mask.mjs` üretir: `d3-geo`, `topojson-client`, `world-atlas` yalnızca bu script
+için **devDependency**'dir, tarayıcı paketine girmez. Her hücre beş noktadan örneklenir ("herhangi biri
+karaysa kara"), yoksa kıyı şehirleri denize düşüyor ve İtalya'nın çizmesi kayboluyordu. Noktalar enlem
+halkalarına dizilir, sayıları `cos(enlem)` ile azalır; Fibonacci sarmalı kutupta gözle görülür spiral
+deseni bırakıyordu.
+
+Küre kendi koyu bandında yaşar: `.globe-stage` sınıfı, tema ne olursa olsun karanlık paleti ödünç alır
+(`globals.css`, ADR-024). Animasyon karesi yalnızca kamera hareket ederken döner.
+
 ## Admin → site anında yayın (ADR-021)
 
 ```

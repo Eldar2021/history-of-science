@@ -49,15 +49,20 @@ Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlay�
       yeri (0004), `get_timeline`/`get_event_detail` yer alanlarını döndürür.
 - [x] `formatPlace.ts`: yer metninin tek kaynağı; belirsizlik ayrı not satırı (ADR-025).
 - [x] `/admin` olay formunda yer alanları; "tek bir yer yok" seçilince koordinat alanları kapanır.
-- [ ] Küre bileşeni: stilize (dokusuz) küre, `lat/lng`'ye yumuşak kamera geçişi, olayın yeri hep merkezde.
-- [ ] Pinler: disiplin rengi; `region`/`continent` için kesikli belirsizlik çemberi; `unknown` için pin yok.
-- [ ] Kart + merkeze bakan kuyruk; karta tıklama mevcut yandan sheet'i açar.
-- [ ] İleri/geri (klavye okları, mobilde kaydırma) 43+ olayın tamamını gezer; yıl + `n/toplam` + çağ.
-- [ ] Derin bağlantı `?event=slug`, tarayıcı geri tuşu.
+- [x] Küre bileşeni: enlem halkalarına dizilmiş nokta bulutu, `lat/lng`'ye yumuşak kamera geçişi,
+      olayın yeri hep merkezde. Canvas 2D, **çalışma zamanında sıfır bağımlılık**.
+- [x] Pinler: disiplin rengi; `region`/`continent` için kesikli belirsizlik çemberi (en az 22 piksel,
+      yoksa görünmüyor); `unknown` küreye hiç girmiyor.
+- [x] Kart + merkeze bakan kuyruk; karta tıklama mevcut yandan sheet'i açar (`@panel` kesişen rota).
+- [x] İleri/geri, klavye okları, mobilde kaydırma; yıl + `n/toplam` + çağ adı.
+- [x] Derin bağlantı `?event=slug`; tur `replaceState` kullanır, geri tuşu ana sayfadan çıkar,
+      olay açmak gerçek bir geçmiş kaydı bırakır.
+- [x] Mobil: küre küçük ve üstte, kart ortada (kullanıcı kararı).
+- [x] Yedekler: ilk olay sunucudan gerçek HTML (sayfa hâlâ statik), `prefers-reduced-motion` açıksa
+      kamera anında gider. WebGL yedeği **gerekmedi**: Canvas 2D her yerde çalışıyor, kaybedilecek
+      bağlam ve yüklenecek kütüphane yok — statik küre görseli fikri bu yüzden düştü.
 - [ ] Gidilen yolun küre üzerinde soluk yaylar olarak birikmesi; varsayılanı kapalı "Turu oynat".
-- [ ] Mobil: küre küçük ve üstte, kart ortada (kullanıcı kararı).
-- [ ] Yedekler: ilk olay sunucudan gerçek HTML, LCP statik küre görseli, WebGL yok /
-      `prefers-reduced-motion` → sabit görsel + çalışan düğmeler.
+      (`greatCirclePath` yazıldı ve test edildi, çizim kaldı.)
 - [ ] Canlıda Lighthouse mobil ölçümü (küre bütçeyi bozmamalı).
 
 ## Hafta 6: Çeviri hattı ve görseller
