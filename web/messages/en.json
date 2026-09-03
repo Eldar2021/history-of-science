@@ -85,6 +85,103 @@
     "roles": {
       "admin": "admin",
       "editor": "editor"
+    },
+    "events": {
+      "title": "Events",
+      "new": "New event",
+      "filter": "Filter by status",
+      "filters": {
+        "all": "All"
+      },
+      "count": "{count, plural, one {# event} other {# events}}",
+      "empty": "Nothing here yet.",
+      "saved": "Saved. The site shows the change on the next visit.",
+      "viewOnSite": "View on site",
+      "columns": {
+        "year": "Year",
+        "title": "Title",
+        "status": "Status",
+        "author": "By",
+        "languages": "Languages",
+        "updated": "Updated"
+      },
+      "status": {
+        "draft": "Draft",
+        "review": "In review",
+        "published": "Published",
+        "deleted": "Deleted"
+      },
+      "author": {
+        "human": "human",
+        "ai": "Claude"
+      },
+      "translation": {
+        "human": "written",
+        "machine": "auto-translated",
+        "reviewed": "reviewed",
+        "missing": "missing"
+      },
+      "precision": {
+        "exact": "Exact",
+        "circa": "Circa",
+        "decade": "Decade",
+        "century": "Century"
+      },
+      "importanceLevels": {
+        "1": "footnote, only when zoomed in",
+        "2": "minor",
+        "3": "standard",
+        "4": "major",
+        "5": "landmark, always visible"
+      },
+      "form": {
+        "when": "When",
+        "year": "Year",
+        "yearHint": "Integer. Negative = BCE (e.g. -585). There is no year 0.",
+        "yearEnd": "End year",
+        "yearEndHint": "Only for processes (1925–1927).",
+        "precision": "Precision",
+        "importance": "Importance",
+        "text": "Text",
+        "title": "Title",
+        "summary": "Summary",
+        "summaryHint": "One or two sentences; shown on the timeline card.",
+        "body": "Body",
+        "bodyHint": "Markdown: ### headings, paragraphs, *em*, **strong**. 300–600 words.",
+        "whyItMatters": "Why it matters",
+        "whyItMattersHint": "2–3 sentences, highlighted box on the detail page.",
+        "ifYouWereThere": "If you were there",
+        "ifYouWereThereHint": "1–2 sentences: what people did not know that day.",
+        "tooLong": "Over {max} characters.",
+        "disciplines": "Disciplines",
+        "disciplinesHint": "At least one. The first checked one is primary.",
+        "publishing": "Publishing",
+        "sourceLocale": "Source language",
+        "slug": "Slug",
+        "slugHint": "Left empty: derived from the title.",
+        "status": "Status",
+        "statusHint": "Only published events appear on the site.",
+        "editLocale": "Editing language",
+        "save": "Save",
+        "saving": "Saving…"
+      },
+      "errors": {
+        "yearRequired": "Enter a whole number.",
+        "yearZero": "There is no year 0: use -1 for 1 BCE.",
+        "yearEndInvalid": "Enter a whole number or leave empty.",
+        "yearEndBefore": "End year is before the start year.",
+        "importanceRange": "Importance is 1 to 5.",
+        "titleRequired": "Title is required.",
+        "summaryRequired": "Summary is required.",
+        "disciplineRequired": "Pick at least one discipline.",
+        "slugInvalid": "Slug may contain only a–z, 0–9 and hyphens.",
+        "slugTaken": "Another event already uses this slug.",
+        "saveFailed": "Could not save. Try again; if it repeats, check the server log."
+      }
+    },
+    "notFound": {
+      "title": "Not found",
+      "back": "Back to events"
     }
   }
 }

@@ -85,6 +85,103 @@
     "roles": {
       "admin": "yönetici",
       "editor": "editör"
+    },
+    "events": {
+      "title": "Olaylar",
+      "new": "Yeni olay",
+      "filter": "Duruma göre süz",
+      "filters": {
+        "all": "Tümü"
+      },
+      "count": "{count} olay",
+      "empty": "Burada henüz bir şey yok.",
+      "saved": "Kaydedildi. Site sonraki ziyarette değişikliği gösterir.",
+      "viewOnSite": "Sitede gör",
+      "columns": {
+        "year": "Yıl",
+        "title": "Başlık",
+        "status": "Durum",
+        "author": "Hazırlayan",
+        "languages": "Diller",
+        "updated": "Güncelleme"
+      },
+      "status": {
+        "draft": "Taslak",
+        "review": "İncelemede",
+        "published": "Yayında",
+        "deleted": "Silindi"
+      },
+      "author": {
+        "human": "insan",
+        "ai": "Claude"
+      },
+      "translation": {
+        "human": "yazıldı",
+        "machine": "otomatik çeviri",
+        "reviewed": "gözden geçirildi",
+        "missing": "yok"
+      },
+      "precision": {
+        "exact": "Kesin",
+        "circa": "Yaklaşık",
+        "decade": "On yıl",
+        "century": "Yüzyıl"
+      },
+      "importanceLevels": {
+        "1": "dipnot, sadece yakınlaşınca",
+        "2": "küçük",
+        "3": "standart",
+        "4": "büyük",
+        "5": "dönüm noktası, her zaman görünür"
+      },
+      "form": {
+        "when": "Ne zaman",
+        "year": "Yıl",
+        "yearHint": "Tam sayı. Eksi = MÖ (örn. -585). Sıfır yılı yok.",
+        "yearEnd": "Bitiş yılı",
+        "yearEndHint": "Sadece süreçler için (1925–1927).",
+        "precision": "Kesinlik",
+        "importance": "Önem",
+        "text": "Metin",
+        "title": "Başlık",
+        "summary": "Özet",
+        "summaryHint": "Bir iki cümle; zaman çizgisi kartında görünür.",
+        "body": "Gövde",
+        "bodyHint": "Markdown: ### başlık, paragraf, *vurgu*, **kalın**. 300–600 kelime.",
+        "whyItMatters": "Neden önemli",
+        "whyItMattersHint": "2–3 cümle, detay sayfasında vurgulu kutu.",
+        "ifYouWereThere": "Orada olsaydın",
+        "ifYouWereThereHint": "1–2 cümle: o gün insanlar neyi bilmiyordu.",
+        "tooLong": "{max} karakterin üstünde.",
+        "disciplines": "Disiplinler",
+        "disciplinesHint": "En az bir tane. İlk işaretlenen birincil.",
+        "publishing": "Yayın",
+        "sourceLocale": "Kaynak dil",
+        "slug": "Slug",
+        "slugHint": "Boş bırakılırsa başlıktan üretilir.",
+        "status": "Durum",
+        "statusHint": "Sitede sadece yayındaki olaylar görünür.",
+        "editLocale": "Düzenlenen dil",
+        "save": "Kaydet",
+        "saving": "Kaydediliyor…"
+      },
+      "errors": {
+        "yearRequired": "Tam sayı gir.",
+        "yearZero": "Sıfır yılı yok: MÖ 1 için -1 yaz.",
+        "yearEndInvalid": "Tam sayı gir ya da boş bırak.",
+        "yearEndBefore": "Bitiş yılı başlangıçtan önce.",
+        "importanceRange": "Önem 1 ile 5 arasında.",
+        "titleRequired": "Başlık zorunlu.",
+        "summaryRequired": "Özet zorunlu.",
+        "disciplineRequired": "En az bir disiplin seç.",
+        "slugInvalid": "Slug yalnızca a–z, 0–9 ve tire içerebilir.",
+        "slugTaken": "Bu slug'ı başka bir olay kullanıyor.",
+        "saveFailed": "Kaydedilemedi. Yeniden dene; tekrarlarsa sunucu günlüğüne bak."
+      }
+    },
+    "notFound": {
+      "title": "Bulunamadı",
+      "back": "Olaylara dön"
     }
   }
 }
