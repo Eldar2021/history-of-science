@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Placeholder tokens until resource/design/tokens.json arrives (week 2). Dark first; light overrides. */
+:root {
+  --bg-base: #0b0f1a;
+  --bg-elevated: #131a2a;
+  --text-primary: #e8e6df;
+  --text-secondary: #a9ab9f;
+  --text-muted: #6f7368;
+  --accent: #d4a853;
+  --line: #2a3347;
+  --era-ancient: #b08968; --era-golden: #c9a227; --era-revolution: #7f9cf5; --era-enlightenment: #9ad0c2;
+  --era-industrial: #e07a5f; --era-modern: #81b3ff; --era-information: #5fd3c9; --era-today: #f4f1de;
+  --discipline-mathematics: #a78bfa; --discipline-physics: #60a5fa; --discipline-astronomy: #818cf8;
+  --discipline-chemistry: #fb923c; --discipline-biology: #4ade80; --discipline-medicine: #f87171;
+  --discipline-earth: #d6a35c; --discipline-technology: #9ca3af;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-base: #f7f4ec;
+    --bg-elevated: #ffffff;
+    --text-primary: #1a1c22;
+    --text-secondary: #4b4f58;
+    --text-muted: #8a8e97;
+    --accent: #9a6b1f;
+    --line: #d9d3c4;
+  }
+}
+
+@theme inline {
+  --color-base: var(--bg-base);
+  --color-elevated: var(--bg-elevated);
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-line: var(--line);
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), Georgia, serif;
+}
+
+.tabular { font-variant-numeric: tabular-nums; }
