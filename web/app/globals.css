@@ -90,6 +90,20 @@
   --globe-trail: rgba(246, 160, 107, 0.35);
 }
 
+/*
+  The home globe (ADR-027). Almost black, so the photograph of the Earth is the only bright thing
+  on the page, and panels are translucent over it rather than opaque boxes beside it.
+*/
+.globe-stage {
+  --bg-base: #05070b;
+  --bg-elevated: rgba(30, 33, 41, 0.78);
+  --bg-raised: rgba(42, 46, 56, 0.82);
+  --line: rgba(249, 244, 237, 0.16);
+  --globe-space: #05070b;
+  --globe-star: rgba(255, 253, 245, 0.85);
+  --globe-halo: rgba(150, 180, 220, 0.10);
+}
+
 @media (prefers-reduced-motion: reduce) {
   :root {
     --duration-fall: 250ms;

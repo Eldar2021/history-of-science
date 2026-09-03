@@ -24,20 +24,19 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   const events = toGlobeEvents(timeline, eraNames);
 
+  // The globe is the whole page: it brings its own header and its own honesty line (ADR-027).
+  if (events.length > 0) return <GlobeHome events={events} locale={locale} />;
+
   return (
     <>
       <SiteHeader />
-      {events.length > 0 ? (
-        <GlobeHome events={events} locale={locale} />
-      ) : (
-        <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 px-6 py-24 text-center">
-          <h1 className="font-display text-4xl leading-tight text-primary sm:text-6xl">{t("question")}</h1>
-          <p className="max-w-xl text-lg text-secondary">{t("lead")}</p>
-          <FallLink className="rounded-full bg-accent px-8 py-3 text-base font-medium text-accent-ink transition hover:bg-accent-hover">
-            {t("cta")}
-          </FallLink>
-        </main>
-      )}
+      <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 px-6 py-24 text-center">
+        <h1 className="font-display text-4xl leading-tight text-primary sm:text-6xl">{t("question")}</h1>
+        <p className="max-w-xl text-lg text-secondary">{t("lead")}</p>
+        <FallLink className="rounded-full bg-accent px-8 py-3 text-base font-medium text-accent-ink transition hover:bg-accent-hover">
+          {t("cta")}
+        </FallLink>
+      </main>
       <HonestyBand />
     </>
   );

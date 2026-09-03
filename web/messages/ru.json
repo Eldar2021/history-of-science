@@ -27,7 +27,7 @@
     "progress": "{index} из {total}",
     "openEvent": "Читать историю: {title}",
     "recenter": "Вернуться к месту",
-    "earthCredit": "Изображение Земли: NASA Blue Marble"
+    "earthCredit": "NASA Blue Marble"
   },
   "timeline": {
     "title": "Хронология",
@@ -48,6 +48,7 @@
   },
   "honesty": {
     "text": "Автор этого сайта не историк и не учёный. Если вы заметили ошибку, пожалуйста, сообщите нам; мы с радостью её исправим.",
+    "short": "Этот сайт написал не историк.",
     "report": "Сообщить об ошибке",
     "subject": "Uchkun: сообщение об ошибке",
     "subjectEvent": "Uchkun: ошибка в «{title}» ({year})",

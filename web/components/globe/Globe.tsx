@@ -34,6 +34,41 @@ const EARTH_TEXTURE = "/globe/earth-2048.jpg";
  * full resolution on the last frame, which is the one anybody looks at.
  */
 const MOVING_QUALITY = 0.55;
+/** Stars per million pixels of stage. Enough to read as a sky, few enough to stay quiet. */
+const STAR_DENSITY = 190;
+
+/**
+ * A fixed field of stars for a given stage size. Deterministic, so it does not shimmer between
+ * frames, and drawn once into an offscreen canvas that is then just blitted.
+ */
+function paintStars(width: number, height: number, colour: string): HTMLCanvasElement {
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.max(1, Math.round(width));
+  canvas.height = Math.max(1, Math.round(height));
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return canvas;
+  // A small deterministic generator: the same stage always gets the same sky.
+  let seed = 0x9e3779b9;
+  const random = () => {
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const count = Math.round((width * height * STAR_DENSITY) / 1_000_000);
+  ctx.fillStyle = colour;
+  for (let i = 0; i < count; i++) {
+    const x = random() * width;
+    const y = random() * height;
+    const r = 0.35 + random() * 0.85;
+    ctx.globalAlpha = 0.25 + random() * 0.65;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  return canvas;
+}
 /** No uncertainty circle is ever drawn smaller than this; below it the reader cannot see there is one. */
 const MIN_UNCERTAINTY_PX = 22;
 /** How far the active place may drift from the centre before the card stops claiming to point at it. */
@@ -44,6 +79,7 @@ type Palette = {
   sphere: string;
   sphereEdge: string;
   halo: string;
+  star: string;
   accent: string;
   muted: string;
   disciplines: Map<string, string>;
@@ -55,7 +91,8 @@ function readPalette(el: HTMLElement, disciplines: string[]): Palette {
   return {
     sphere: v("--globe-sphere", "#2e2b25"),
     sphereEdge: v("--globe-sphere-edge", "#3b372f"),
-    halo: v("--globe-halo", "rgba(156, 146, 124, 0.16)"),
+    halo: v("--globe-halo", "rgba(150, 180, 220, 0.10)"),
+    star: v("--globe-star", "rgba(255, 253, 245, 0.85)"),
     accent: v("--accent", "#f6a06b"),
     muted: v("--text-muted", "#c0b6a5"),
     disciplines: new Map(disciplines.map((d) => [d, v(`--discipline-${d}`, "#a7aeb3")])),
@@ -99,6 +136,7 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
   const textureRef = useRef<Texture | null>(null);
   /** Reused between frames: allocating a megabyte of pixels sixty times a second is not free. */
   const sphereRef = useRef<{ canvas: HTMLCanvasElement; image: ImageData; size: number } | null>(null);
+  const starsRef = useRef<{ canvas: HTMLCanvasElement; width: number; height: number } | null>(null);
   const hitsRef = useRef<Array<{ index: number; x: number; y: number }>>([]);
 
   useEffect(() => {
@@ -172,6 +210,14 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
 
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, width, height);
+
+    // The sky. Repainted only when the stage changes size.
+    let stars = starsRef.current;
+    if (!stars || stars.width !== width || stars.height !== height) {
+      stars = { canvas: paintStars(width, height, palette.star), width, height };
+      starsRef.current = stars;
+    }
+    ctx.drawImage(stars.canvas, 0, 0, width, height);
 
     // A soft glow just outside the limb, fading to nothing: it separates the globe from the page
     // without drawing a ring around the photograph.

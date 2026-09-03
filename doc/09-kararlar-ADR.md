@@ -245,6 +245,31 @@ geçilirse yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
 ---
 
+## ADR-027: Ana sayfa tam ekran bir gökyüzü; site kabuğu kürenin üstünde yüzer
+
+**2026-09-04 · Kabul** · ADR-024'ün "küre kendi koyu bandında, sayfanın kalanı aydınlık" maddesini
+geçersiz kılar; o kararın geri kalanı (küre = timeline'a kapı, yerin hep merkezde olması, kuyruklu
+kart, ileri/geri) aynen geçerli.
+
+- **Bağlam**: Küre NASA fotoğrafını giydikten sonra sayfanın kalanı ona yakışmıyordu: açık zeminli
+  opak bir başlık çubuğu, altta bir kutu içinde uzun dürüstlük paragrafı, ve ekranın ancak bir
+  kısmını kaplayan bir küre. Kullanıcı referans olarak `eyes.nasa.gov/apps/solar-system` verdi:
+  saydam kabuk, siyah zemin, beyaz metin, tam ekran.
+- **Karar**: Ana sayfa `100dvh`, neredeyse siyah (`#05070b`) bir gökyüzü; üzerinde sabit bir yıldız
+  alanı var. Site başlığı kendi zemini ve çizgisi olmadan kürenin üstünde yüzüyor (`SiteHeader over`).
+  Kart opak kutu değil, `backdrop-blur`'lu yarı saydam bir panel. **Dürüstlük bandı ana sayfada tek
+  satıra iniyor** ("Bu siteyi bir tarihçi yazmadı." + hata bildirme bağlantısı); diğer tüm sayfalarda
+  paragraf hâliyle duruyor. NASA atfı onun yanında.
+- **Gerekçe**: Sayfadaki tek parlak şey Dünya olmalı; onunla yarışan her kutu küreyi bir bileşen gibi
+  gösteriyordu. Dürüstlük ilkesinden **vazgeçilmedi**, yalnızca boyu değişti: itiraf da, hata bildirme
+  bağlantısı da ekranda duruyor (README'deki ürün ilkesi korunuyor). Sitenin kalanı açık tema olarak
+  kalıyor — ADR-020 ve ADR-022 değişmedi; koyu olan sayfa değil, uzay.
+- **Sonuçlar**: Ana sayfa artık kaydırılmıyor, tek ekran. Olay sheet'i sitenin açık temasıyla kürenin
+  üstünde açılıyor (kasıtlı kontrast). Tema düğmesi ana sayfada gözle görülür bir şey değiştirmiyor,
+  çünkü gökyüzü temaya bağlı değil; sitenin geri kalanında çalışmaya devam ediyor.
+
+---
+
 ## Şablon
 
 ```

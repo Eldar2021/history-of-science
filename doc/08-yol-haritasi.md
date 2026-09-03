@@ -67,6 +67,8 @@ Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlay�
       bağlam ve yüklenecek kütüphane yok — statik küre görseli fikri bu yüzden düştü.
 - [ ] Gidilen yolun küre üzerinde soluk yaylar olarak birikmesi; varsayılanı kapalı "Turu oynat".
       (`greatCirclePath` yazıldı ve test edildi, çizim kaldı.)
+- [x] Tasarım: tam ekran gökyüzü, yıldız alanı, saydam başlık, yarı saydam kart, tek satırlık
+      dürüstlük bandı (ADR-027).
 - [ ] Canlıda Lighthouse mobil ölçümü (küre bütçeyi bozmamalı).
 
 ## Hafta 6: Çeviri hattı ve görseller

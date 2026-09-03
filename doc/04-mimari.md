@@ -117,8 +117,9 @@ Kara bir **fotoğraftan** geliyor: NASA Blue Marble, `web/public/globe/earth-204
 okuyor ve tek ışıkla gölgeliyor; saf fonksiyon olduğu için eşleme test edilebiliyor. Dönerken %55
 çözünürlükte çizilip büyütülüyor (her pikselde bir arcsin + bir arctan var), durunca tam çözünürlük.
 
-Küre kendi koyu bandında yaşar: `.globe-stage` sınıfı, tema ne olursa olsun karanlık paleti ödünç alır
-(`globals.css`, ADR-024). Animasyon karesi yalnızca kamera hareket ederken döner.
+Ana sayfa tam ekran bir gökyüzü (ADR-027): `.globe-stage` sınıfı, tema ne olursa olsun karanlık
+paleti ödünç alır ve zemini neredeyse siyaha çeker; site başlığı bu sahnenin içinde, kendi zemini
+olmadan yüzer. Animasyon karesi yalnızca kamera hareket ederken ya da küre elle çevrilirken döner.
 
 ## Admin → site anında yayın (ADR-021)
 

@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { HonestyBand } from "@/components/HonestyBand";
+import { SiteHeader } from "@/components/SiteHeader";
 import { formatYearParts, type Locale } from "@/lib/i18n/formatYear";
 import { formatPlaceParts } from "@/lib/i18n/formatPlace";
 import type { GlobeEvent } from "@/lib/globe/events";
@@ -81,7 +83,7 @@ export function GlobeHome({ events, locale }: Props) {
   const place = formatPlaceParts(current.placeName, current.placePrecision, locale);
 
   return (
-    <main className="globe-stage relative flex-1 overflow-hidden bg-[var(--globe-space)]">
+    <main className="globe-stage relative h-[100dvh] w-full overflow-hidden bg-[var(--globe-space)]">
       <Globe
         places={events}
         activeIndex={index}
@@ -90,15 +92,18 @@ export function GlobeHome({ events, locale }: Props) {
         onOffCentreChange={setOffCentre}
       />
 
-      {/* One bar, so the two cannot overlap on a narrow screen. The heading stays in the
-          document for readers and search engines even where there is no room to show it. */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start gap-4 p-6">
-        <h1 className="sr-only max-w-[14rem] font-display text-lg leading-snug text-secondary sm:not-sr-only">
+      {/* The site's own bar, with no background of its own, floating on the sky (ADR-027). */}
+      <SiteHeader over />
+
+      {/* Below the bar, so the two never collide. The heading stays in the document for readers
+          and search engines even on a phone, where there is no room to show it. */}
+      <div className="pointer-events-none absolute inset-x-0 top-[4.25rem] z-10 flex items-start gap-4 px-6">
+        <h1 className="sr-only max-w-[15rem] font-display text-lg leading-snug text-secondary sm:not-sr-only">
           {t("question")}
         </h1>
         <Link
           href="/timeline"
-          className="pointer-events-auto ml-auto rounded-full border border-line px-4 py-2 text-sm text-secondary transition hover:border-accent hover:text-primary"
+          className="pointer-events-auto ml-auto rounded-full border border-line bg-elevated px-4 py-2 text-sm text-secondary backdrop-blur transition hover:border-accent hover:text-primary"
         >
           {t("exploreAll")}
         </Link>
@@ -107,15 +112,15 @@ export function GlobeHome({ events, locale }: Props) {
       <Link
         href={`/event/${current.slug}`}
         aria-label={t("openEvent", { title: current.title })}
-        className="absolute bottom-28 left-1/2 z-10 block w-[min(92vw,26rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated p-6 shadow-lg transition hover:border-accent sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2"
+        className="absolute bottom-40 left-1/2 z-10 block w-[min(92vw,26rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated p-6 shadow-lg backdrop-blur-md transition hover:border-accent sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2"
       >
         {/* The tail points at the pin, which sits in the centre of the sphere: below the card on
             a phone, to its left on a wider screen (lib/globe/layout.ts). Once the reader turns
             the globe by hand the pin is elsewhere, so the tail goes rather than lie. */}
         {!offCentre && (
           <>
-            <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated sm:hidden" />
-            <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated sm:block" />
+            <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated backdrop-blur-md sm:hidden" />
+            <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated backdrop-blur-md sm:block" />
           </>
         )}
 
@@ -162,14 +167,19 @@ export function GlobeHome({ events, locale }: Props) {
             put it straight through the era name. The project rule is attribution, licence and
             source URL for every image; the licence and exact source sit next to EARTH_TEXTURE in
             Globe.tsx, and this is the part the reader sees. */}
-        <a
-          href="https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg"
-          target="_blank"
-          rel="noreferrer"
-          className="text-xs text-muted/70 underline decoration-transparent transition hover:decoration-current hover:text-muted"
-        >
-          {t("earthCredit")}
-        </a>
+        {/* The honesty band is a paragraph across the foot of every other page; here it would cut
+            the sky in half, so it keeps its admission and its report link and loses its box. */}
+        <div className="flex flex-col items-center gap-1 px-6 text-center sm:flex-row sm:gap-3">
+          <HonestyBand compact path="" className="text-muted/80" />
+          <a
+            href="https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xs text-muted/60 underline decoration-transparent transition hover:text-muted hover:decoration-current"
+          >
+            {t("earthCredit")}
+          </a>
+        </div>
       </div>
 
       {offCentre && (

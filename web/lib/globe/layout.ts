@@ -16,7 +16,7 @@ export type GlobeLayout = {
 };
 
 export const DESKTOP_LAYOUT: GlobeLayout = { focusX: 0.5, focusY: 0.5, radiusScale: 0.42 };
-export const MOBILE_LAYOUT: GlobeLayout = { focusX: 0.5, focusY: 0.33, radiusScale: 0.40 };
+export const MOBILE_LAYOUT: GlobeLayout = { focusX: 0.5, focusY: 0.3, radiusScale: 0.46 };
 
 export const layoutFor = (width: number): GlobeLayout =>
   width < MOBILE_MAX_WIDTH ? MOBILE_LAYOUT : DESKTOP_LAYOUT;
