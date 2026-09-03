@@ -4,7 +4,7 @@
 # Steps: link the CLI to the project, apply migrations + seed, put the public URL and anon key on Vercel.
 # Safe to re-run: link and env writes are idempotent; the db reset is only offered when you confirm.
 set -euo pipefail
-PROJECT_REF="${SUPABASE_PROJECT_REF:-jnclaqxvfitggyprasxw}"
+PROJECT_REF="${SUPABASE_PROJECT_REF:-hsllmvouqayaccubodcl}"
 cd "$(dirname "$0")/../"
 
 echo "→ Linking to project $PROJECT_REF"

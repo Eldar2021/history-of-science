@@ -15,7 +15,7 @@ supabase db reset                       # migration + seed
 
 ## Bulut projesi
 
-Proje: `jnclaqxvfitggyprasxw` (Supabase, oluşturuldu). Tek seferlik kurulum:
+Proje: `hsllmvouqayaccubodcl` (Supabase, oluşturuldu). Tek seferlik kurulum:
 
 1. `supabase login` (tarayıcı açılır; bir kez).
 2. `backend/scripts/cloud-setup.sh` → link, `db push`, isteğe bağlı seed (`db reset --linked`), Vercel'e `NEXT_PUBLIC_SUPABASE_URL` ve `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
