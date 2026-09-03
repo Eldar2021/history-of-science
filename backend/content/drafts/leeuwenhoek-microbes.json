@@ -1,0 +1,90 @@
+{
+  "slug": "leeuwenhoek-microbes",
+  "year": 1676,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "era": "revolution",
+  "title": "Leeuwenhoek finds living creatures in a drop of water",
+  "summary": "A Delft cloth merchant with homemade lenses writes to London that a drop of pepper-water holds a million tiny animals. The Royal Society doubts him, demands witnesses, then sees them too.",
+  "body": "### The scene\n\nDelft, in the Dutch Republic, the 1670s. Antoni van Leeuwenhoek, born in 1632, keeps a draper's shop, a trade where magnifying glasses are used to count threads in cloth. He has no university and writes only Dutch. Somewhere in the late 1660s he begins grinding lenses of his own, and they are unlike anyone else's: a single bead of glass smaller than a pea, set in a small brass plate, with the specimen on a pin in front of it, held up to the eye against the light. Hooke's compound microscopes in London magnified thirty to fifty times; Leeuwenhoek's beads reached about 270. Historians think he had seen Hooke's *Micrographia*, perhaps on a visit to England in 1668; the pictures needed no translation. In 1673 the Delft physician Regnier de Graaf wrote to Henry Oldenburg, secretary of the Royal Society, that this merchant's microscopes \"far surpass those which we have hitherto seen\".\n\n### What happened\n\nIn September 1674 he looked at water from the Berkelse Mere, a lake near Delft that turns cloudy green in summer. Among green spiral threads he saw \"little animalcules\", little animals, moving on their own. Then in 1676, trying to find out what makes pepper hot, he steeped peppercorns in water and left the flask for three weeks. On 24 April 1676 he looked, and found creatures smaller than any he had seen, swarming, some barely visible at all; he reckoned more than a million in a single drop. He wrote it all up in a letter dated 9 October 1676. Oldenburg translated extracts and printed them in the *Philosophical Transactions* in 1677 under the title \"Concerning little animals\". A tradesman with no Latin was telling the Fellows that a drop held more animals than a country, and they did not believe him. Oldenburg asked for his method; Robert Hooke and Nehemiah Grew tried to repeat the observation and failed. So Leeuwenhoek gathered eight respectable men of Delft, a notary, two Lutheran ministers and a barrister among them, had them look and sign, and sent their testimonies on 5 October 1677. Hooke steeped pepper, wheat, barley and oats, took out microscopes \"which had lain a long while neglected\", and in November 1677 showed the little animals to the assembled Society; the president and every member present were satisfied. Leeuwenhoek was elected a Fellow in 1680. In 1683 he sent drawings of even smaller things scraped from his own teeth: the first bacteria anyone had seen.\n\nEvery glass of water, it turned out, was a crowded city you had been drinking through your whole life. The analogy breaks because a city's people know they live together; these creatures know nothing, and most of them are harmless neighbours, not invaders.\n\n### Why it was hard\n\nThe lens was the whole secret, and he never taught anyone how he made it. He built perhaps five hundred microscopes; about ten survive. Scans of surviving lenses in 2021 showed that some were glass threads melted into beads, a trick Hooke had described and dismissed as too fiddly. Beyond the glass it took eyes trained by years of thread-counting, endless patience, a translator in London, and the seventeenth-century habit of sworn testimony, which let a shopkeeper's word stand in a society of gentlemen.\n\n### What it opened\n\nProtozoa, bacteria, red blood cells, sperm cells, the capillaries Harvey had only inferred: in more than 190 letters until his death in 1723, Leeuwenhoek opened a floor of the world nobody knew existed. What he did not open was the link between these creatures and disease; that waited nearly two centuries for Pasteur and Koch. And for 150 years, until achromatic lenses, nobody could see as well as he had.",
+  "why_it_matters": "Leeuwenhoek showed that life extends far below the limit of the eye, and that most of it had been invisible to every naturalist before him. Microbiology, germ theory and cell biology all descend from his pepper-water.",
+  "if_you_were_there": "Nobody imagined that water, soil or your own mouth were full of living things; the idea that a creature could be too small to see had no place in anyone's picture of nature.",
+  "disciplines": [
+    "biology"
+  ],
+  "people": [
+    {
+      "name": "Antoni van Leeuwenhoek",
+      "role": "Delft draper and self-taught lens-maker who observed and described the animalcules"
+    },
+    {
+      "name": "Henry Oldenburg",
+      "role": "secretary of the Royal Society who translated and published the 1676 letter"
+    },
+    {
+      "name": "Robert Hooke",
+      "role": "author of Micrographia; replicated the pepper-water observations before the Society in 1677"
+    },
+    {
+      "name": "Regnier de Graaf",
+      "role": "Delft physician who introduced Leeuwenhoek to the Royal Society in 1673"
+    },
+    {
+      "name": "Nehemiah Grew",
+      "role": "Royal Society botanist who first attempted, and failed, to repeat the observations"
+    }
+  ],
+  "builds_on": [
+    "hooke-micrographia",
+    "royal-society",
+    "harvey-blood-circulation",
+    "ibn-al-haytham-optics"
+  ],
+  "enables": [
+    "pasteur-germ-theory?",
+    "koch-tuberculosis?",
+    "schleiden-schwann-cell-theory?"
+  ],
+  "sources": [
+    {
+      "title": "Antonie van Leeuwenhoek | Biography, Discoveries, & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/Antonie-van-Leeuwenhoek",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Antonie van Leeuwenhoek - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Nick Lane, The unseen world: reflections on Leeuwenhoek (1677) 'Concerning little animals', Philosophical Transactions B 370 (2015)",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0344",
+      "kind": "article"
+    },
+    {
+      "title": "1677: To confirm his observations | Lens on Leeuwenhoek",
+      "url": "https://lensonleeuwenhoek.net/content/1677-confirm-his-observations",
+      "kind": "article"
+    },
+    {
+      "title": "Robert Hooke wrote Letter L-068 to Leeuwenhoek about how he verified the little animals in a pepper infusion | Lens on Leeuwenhoek",
+      "url": "http://lensonleeuwenhoek.net/content/hooke-wrote-letter-68-how-he-verified-l-observations-little-animals-in-pepper",
+      "kind": "article"
+    },
+    {
+      "title": "Leeuwenhoek, Observations concerning little animals, Philosophical Transactions 12 (1677)",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1677.0003",
+      "kind": "primary"
+    },
+    {
+      "title": "Clifford Dobell, Antony van Leeuwenhoek and his 'Little Animals' (1932; Dover reprint 1960)",
+      "url": "https://archive.org/details/antonyvanleeuwen00dobe",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Hooke'un gösterisi Wikipedia'da 1677, Lens on Leeuwenhoek'ta '15 Kasım 1678 O.S.' olarak geçiyor; Hooke'un mektubu Şubat 1677/78 tarihli olduğundan Kasım 1677 doğru görünüyor ama kontrol edin. 24 Nisan 1676 tarihi ve 'bir damlada bir milyondan fazla' tahmini Dobell/Phil Trans B'den. 1668 İngiltere ziyareti ve Micrographia'yı görmüş olması tahmin, kesin değil. Britannica ve Phil Trans B sayfaları fetch'te 403 verdi; arama özetleri kullanıldı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

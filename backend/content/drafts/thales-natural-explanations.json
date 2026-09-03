@@ -1,0 +1,89 @@
+{
+  "slug": "thales-natural-explanations",
+  "year": -585,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Thales looks for natural causes instead of gods",
+  "summary": "In Miletus around 585 BC, Thales explains earthquakes by water and waves rather than the mood of a god. His famous eclipse prediction is probably legend; the habit of asking why is not.",
+  "body": "### The scene\n\nMiletus around 600 BC is a port on the coast of Ionia, in what is now western Turkey. Ships come from Egypt and Phoenicia; roads lead inland toward Lydia and Babylon. A child growing up there hears more than one account of the world: Greek poets say Poseidon shakes the ground, Babylonian scribes have kept eclipse lists for centuries, Egyptian surveyors lay out fields with knotted ropes. Thales, born around 624 BC and later counted among the Seven Sages, is a Milesian who seems to have travelled, traded and listened.\n\n### What happened\n\nNot one line he wrote survives; he may never have written anything. What we have is what Aristotle, two centuries later, reports Thales \"is said to have held\": that water is the source of all things, that the earth floats on water like a log, and that earthquakes happen when that water rocks the earth as waves rock a boat. The answer is wrong. The question is new. For the first time in the Greek record, someone explains a terrifying event by pointing at something you can watch in a harbour instead of at a god's temper. Nature, on this view, runs itself.\n\nIt is like the first person in a house who, hearing a bang at night, goes looking for a loose shutter instead of blaming a ghost. The analogy breaks here: you can find the shutter and check, while Thales had no way to test his water, and his own students rejected it within a generation.\n\nLater writers also credit him with bringing geometry from Egypt, measuring a pyramid by its shadow and judging the distance of ships from shore; historians accept the practical tricks more readily than the proofs.\n\nThen the eclipse. Herodotus, writing about 150 years afterward, says that during a battle between the Lydians and the Medes day turned to night, and that Thales had foretold the year. Astronomers match the story to 28 May 585 BC. But most historians of science, including Otto Neugebauer and D. R. Dicks, treat the prediction as legend: solar eclipses seen from one place do not follow a simple cycle, and neither the Babylonians nor Thales's own successors could predict them. Perhaps he had heard of Babylonian lunar cycles and made a lucky guess; perhaps the story grew after the eclipse. We keep the year because it is the one date the sources give us, not because we trust the prediction.\n\n### Why it was hard\n\nThere were no instruments, no tradition of written argument, and no word for \"nature\" in our sense. What the step needed was a wealthy trading city where foreign knowledge arrived with the cargo, Babylonian records, Egyptian surveying, and enough leisure to wonder. It also needed people to argue back. Anaximander replaced water with a \"boundless\" stuff; Anaximenes proposed air that thins into fire and thickens into water and stone. That they disagreed is the point: an explanation had become something you could contradict.\n\n### What it opened\n\nPythagoras looked for the world's order in numbers, Democritus in atoms, and the doctors around Hippocrates wrote that the \"sacred disease\" is no more sacred than any other. Aristotle called Thales the first of those who study nature. Everything later on this timeline descends from the habit that began on that harbour: when something happens, ask what in the world made it happen.",
+  "why_it_matters": "Thales is the earliest person we can name who tried to explain the world by the world itself. His specific answers died quickly; the demand for that kind of answer never did, and it is the thread running through every later event on this timeline.",
+  "if_you_were_there": "Nobody knew what the Sun was, why the ground shook or how far away the stars were, and the ordinary answer to all three was the name of a god.",
+  "disciplines": [
+    "physics",
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Thales of Miletus",
+      "role": "Ionian thinker, c. 624-546 BC; credited with the first natural explanations of earthquakes and the cosmos; no writings survive"
+    },
+    {
+      "name": "Anaximander",
+      "role": "Milesian successor who replaced water with the 'boundless' as the source of things"
+    },
+    {
+      "name": "Anaximenes",
+      "role": "Milesian successor who proposed air thinning and thickening into everything else"
+    },
+    {
+      "name": "Herodotus",
+      "role": "historian, fifth century BC; the source of the eclipse-prediction story"
+    },
+    {
+      "name": "Aristotle",
+      "role": "main ancient source for Thales's views, writing two centuries later"
+    }
+  ],
+  "builds_on": [
+    "babylonian-eclipse-records?",
+    "egyptian-surveying-geometry?"
+  ],
+  "enables": [
+    "pythagoras-school",
+    "democritus-atoms",
+    "hippocrates-natural-disease",
+    "aristotle-lyceum"
+  ],
+  "sources": [
+    {
+      "title": "Thales of Miletus | Biography & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/Thales-of-Miletus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Presocratic Philosophy - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/presocratics/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Thales of Miletus - Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/thales/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Thales of Miletus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thales_of_Miletus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Eclipse of Thales - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eclipse_of_Thales",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Thales of Miletus - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Thales/",
+      "kind": "article"
+    },
+    {
+      "title": "G. S. Kirk, J. E. Raven and M. Schofield, The Presocratic Philosophers, 2nd ed. (Cambridge University Press, 1983)",
+      "url": "https://www.cambridge.org/9780521274555",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi, arama özeti kullanıldı. Tutulma tahmininin efsane olduğu görüşü Neugebauer ve Dicks'e dayanıyor (Wikipedia, IEP); bazı popüler kaynaklar hâlâ 'tahmin etti' der. Doğum yılı c. 624 (Britannica 624-620, Wikipedia 626/623). Piramit ölçümü ve gemi mesafesi Proclus/Diogenes Laertius'tan gelen geç aktarımlar; 'sacred disease' alıntısı Hipokrat külliyatından, Hipokrat'ın kendi yazdığı kesin değil.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

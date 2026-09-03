@@ -1,0 +1,102 @@
+{
+  "slug": "harvey-blood-circulation",
+  "year": 1628,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "era": "revolution",
+  "title": "William Harvey shows that blood circulates and the heart is a pump",
+  "summary": "In 1628 a London physician publishes a 72-page book arguing that the same blood goes round and round, driven by the heart. Galen's 1,400-year-old picture of the body begins to fall.",
+  "body": "### The scene\n\nIn 1628 a Latin book of seventy-two pages comes off William Fitzer's press in Frankfurt. Its author, William Harvey, is physician to King Charles I and has lectured on anatomy at London's College of Physicians since 1616. The body he was taught came from Galen, fourteen centuries earlier: the liver brews blood from food, the blood seeps outward through the veins and is used up as nourishment, and a little passes through invisible pores in the heart's central wall to meet air from the lungs. Vesalius in 1543 could not find the pores. In Cairo around 1242 Ibn al-Nafis, commenting on Ibn Sina's Canon, had written that blood must cross from the right side of the heart to the left through the lungs, since the wall is solid; his text lay forgotten until 1924. Michael Servetus put the same lung passage inside a theology book in 1553 and was burned in Geneva that year with most of the copies. Realdo Colombo in Padua printed it in 1559, and Andrea Cesalpino used the word \"circulation\" in the 1570s. Harvey's own teacher at Padua, Hieronymus Fabricius, described the little valves inside the veins in 1603, but thought they merely slowed the blood.\n\n### What happened\n\nHarvey spent over a decade cutting open living animals: dogs and pigs, but also snakes, fish and frogs, whose slow cold hearts let him watch what a human heart does too fast to see. The heart, he saw, is a muscle that squeezes; the pulse at the wrist is the artery filling with each squeeze. Then he did something rare in medicine: arithmetic. If each beat pushes out even a small amount, an ounce or two, then in half an hour the heart moves more blood than the whole body holds, far more than any liver could make from food. The blood cannot be used up; it must come back. He tied a bandage round a man's arm: tight, and the hand went pale; loosened a little, and the veins below swelled into knots at the valves, and no pushing could drive blood down toward the fingers. Fabricius's valves were one-way doors, all facing the heart. Blood moves, Harvey wrote, \"as it were, in a circle\": out by the arteries, back by the veins, through the lungs, and round again.\n\nGalen's blood was a river that flowed out and was drunk up. Harvey's is the water in a building's heating pipes, driven round a closed loop by a pump. The analogy breaks quickly: heating water carries the same heat forever, while blood trades its cargo at every stop, and Harvey had no idea what that cargo was or why the loop existed.\n\n### Why it was hard\n\nHe could not see where arteries turned into veins and had to assume \"pores of the flesh\". Marcello Malpighi saw the capillaries in a frog's lung through a microscope in 1661, four years after Harvey died. The new picture also unsettled everyday medicine: bloodletting made sense in Galen's body and little in Harvey's. Harvey wrote that he dreaded making mankind his enemy, so strong is custom, and John Aubrey reports that his practice \"fell mightily\" after the book. Jean Riolan of Paris attacked in the 1640s and Harvey answered him in 1649; Descartes accepted the circulation in 1637 but insisted the heart worked by heat, not by squeezing.\n\n### What it opened\n\nPhysiology became a matter of how much and how fast. Richard Lower's blood transfusions at the Royal Society in the 1660s, Stephen Hales's first measurement of blood pressure in 1733, and the question of what the blood fetches from the lungs, not answered until oxygen in the 1770s, all begin here. Bloodletting, unhelpfully, continued for two more centuries.",
+  "why_it_matters": "Harvey replaced a 1,400-year-old picture of the body with one built from dissection, experiment and arithmetic, and showed that a living body could be studied the way Galileo studied falling stones. Every later question about breathing, nutrition and the heart starts from his loop.",
+  "if_you_were_there": "Every physician you could visit believed the liver made fresh blood each day and that bleeding a patient drained off the excess; nobody had seen a capillary, and why we breathe was a mystery.",
+  "disciplines": [
+    "medicine"
+  ],
+  "people": [
+    {
+      "name": "William Harvey",
+      "role": "London physician and royal doctor; author of De Motu Cordis (1628)"
+    },
+    {
+      "name": "Hieronymus Fabricius",
+      "role": "Harvey's anatomy teacher at Padua; described the valves in the veins (1603)"
+    },
+    {
+      "name": "Ibn al-Nafis",
+      "role": "thirteenth-century Damascus-born physician in Cairo who described the passage of blood through the lungs"
+    },
+    {
+      "name": "Michael Servetus",
+      "role": "Spanish physician and theologian who described the pulmonary passage in 1553"
+    },
+    {
+      "name": "Realdo Colombo",
+      "role": "Padua anatomist who published the pulmonary passage in 1559"
+    },
+    {
+      "name": "Andrea Cesalpino",
+      "role": "Italian physician who used the word circulation in the 1570s"
+    },
+    {
+      "name": "Jean Riolan the younger",
+      "role": "Paris anatomist and Harvey's chief critic; Harvey replied to him in 1649"
+    },
+    {
+      "name": "Marcello Malpighi",
+      "role": "saw the capillaries Harvey had assumed, in a frog's lung, 1661"
+    }
+  ],
+  "builds_on": [
+    "galen-anatomy",
+    "ibn-sina-canon",
+    "vesalius-fabrica",
+    "aristotle-lyceum"
+  ],
+  "enables": [
+    "malpighi-capillaries?",
+    "hales-blood-pressure?",
+    "priestley-scheele-oxygen?"
+  ],
+  "sources": [
+    {
+      "title": "Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Exercitatio_Anatomica_de_Motu_Cordis_et_Sanguinis_in_Animalibus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Harvey - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Harvey",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Harvey - Key discoveries and influences | Britannica",
+      "url": "https://www.britannica.com/biography/William-Harvey/Key-discoveries-and-influences",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Harvey and the Circulation of the Blood | History Today",
+      "url": "https://www.historytoday.com/archive/william-harvey-and-circulation-blood",
+      "kind": "article"
+    },
+    {
+      "title": "Ibn an-Nafis and Pulmonary Circulation | Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/ibn-nafis-and-pulmonary-circulation",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "William Harvey and the Discovery of the Circulation of the Blood | Circulation Research (AHA Journals)",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.119.314977",
+      "kind": "article"
+    },
+    {
+      "title": "William Harvey, The Anatomical Exercises: De Motu Cordis and De Circulatione Sanguinis, ed. Geoffrey Keynes (Dover, 1995)",
+      "url": "https://books.google.com/books/about/The_Anatomical_Exercises.html?id=EqVGDwAAQBAJ",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica ve History Today fetch'te 403 verdi; arama özetleri kullanıldı. Kalp atışı başına 'bir iki ons' Harvey'nin verdiği aralığın kabaca özeti; Wikipedia 4,7 ml (yaklaşık 1/6 ons) de veriyor, kontrol edin. İbn Nefis'in 1242 Kahire tarihi ve 1924'te yeniden keşfi Encyclopedia.com/Wikipedia'dan; Malpighi kılcal damar yılı Wikipedia'da 1660, çoğu kaynakta 1661 (De pulmonibus). 'İnsanlığı düşman etmekten korktuğu' cümlesi kitabın 8. bölümünden serbest aktarım, birebir alıntı değil.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

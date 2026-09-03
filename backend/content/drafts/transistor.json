@@ -1,0 +1,99 @@
+{
+  "slug": "transistor",
+  "year": 1947,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "title": "The transistor is invented",
+  "summary": "In December 1947 at Bell Labs, Bardeen and Brattain make a sliver of germanium amplify a signal; Shockley's sturdier design follows. Every computer, phone and satellite descends from it.",
+  "body": "### The scene\n\nMurray Hill, New Jersey, 1945. The war is over and the American telephone network is straining. Every long-distance call passes through amplifiers built from vacuum tubes: glass bulbs that glow, run hot, burn out and eat power. Mervin Kelly, research director at Bell Telephone Laboratories, wants a switch with no glass and no heat. He sets up a group under the physicist William Shockley to study semiconductors, crystals like germanium and silicon that sometimes conduct and sometimes do not. Wartime radar work had taught engineers to purify these crystals, and in 1940 Russell Ohl at Bell had stumbled on a silicon junction that turned light into current. The theory, quantum mechanics, was twenty years old. The device did not exist.\n\n### What happened\n\nShockley's first idea, in 1945, was to squeeze the current in a thin slab with an electric field from outside. It should have worked. It did not. John Bardeen, a quiet theorist who shared an office with the experimenter Walter Brattain, worked out why in 1947: electrons trapped on the crystal's surface were shielding the inside from the field. For a month in late 1947 the two tested that idea with every trick they had. On 16 December they pressed two gold contacts, so close together that Brattain had slit a strip of gold foil with a razor over a plastic wedge, against a slab of germanium. A small signal on one contact changed a larger current at the other: it amplified, up to a hundred times. On 23 December they showed it to management; Shockley called it a magnificent Christmas present. A colleague, John Pierce, named it: transistor. The public announcement on 30 June 1948 made little news.\n\nA transistor is like a valve on a garden hose: a small twist of the wrist controls a big flow. Where the analogy breaks: a valve only chokes the flow, while a transistor steers charges inside a crystal, and what steers them is quantum behaviour at a surface, which is why Bardeen's theory mattered more than the gold foil.\n\n### Why it was hard\n\nIt needed pure crystals, a theory of surfaces, and a lab willing to pay physicists for years without a product. It also needed a team, and the team came apart. Shockley, the group's leader, had not been in the room. Stung, he shut himself in a hotel over New Year and by January 1948 had designed a different device: three layers of semiconductor in a sandwich, the junction transistor. It was sturdier and easier to make, and it is the ancestor of nearly every transistor since. But the patent for the December device names only Bardeen and Brattain; the lawyers left Shockley off, partly because a similar field idea had been patented by Julius Lilienfeld in the 1920s and never built. Bardeen, who found Shockley impossible to work under, left for the University of Illinois in 1951. In 1956 the three shared the Nobel Prize. The working junction transistor itself was grown in 1950 and 1951 by Gordon Teal and Morgan Sparks, whose names rarely appear.\n\n### What it opened\n\nThe first product was a hearing aid in 1952; the first transistor radio, the Regency TR-1, followed in 1954. In 1958 Jack Kilby and Robert Noyce put several transistors on one chip, and in 1971 Intel put a whole processor on one. Shockley left Bell in 1956 to start a company in California; the engineers who quit him founded Fairchild, and out of Fairchild came Silicon Valley. A modern phone holds billions of transistors, every one descended from a razor-cut strip of gold foil.",
+  "why_it_matters": "It turned quantum mechanics into a manufacturable switch. Everything digital, from the computer to the satellite to the phone in your pocket, is billions of copies of this one device made small.",
+  "if_you_were_there": "Electronics meant hot glass tubes, a computer filled a room, and the phrase 'solid-state' meant nothing; the newspaper reports of June 1948 were buried on inside pages.",
+  "disciplines": [
+    "physics",
+    "technology"
+  ],
+  "people": [
+    {
+      "name": "John Bardeen",
+      "role": "theorist whose surface-state idea unlocked the device; co-inventor of the point-contact transistor"
+    },
+    {
+      "name": "Walter Brattain",
+      "role": "experimenter who built and tested the point-contact transistor"
+    },
+    {
+      "name": "William Shockley",
+      "role": "group leader; designed the junction transistor in January 1948"
+    },
+    {
+      "name": "Mervin Kelly",
+      "role": "Bell Labs research director who set up the solid-state group in 1945"
+    },
+    {
+      "name": "Russell Ohl",
+      "role": "found the silicon p-n junction at Bell Labs in 1940"
+    },
+    {
+      "name": "Gordon Teal and Morgan Sparks",
+      "role": "grew the first working junction transistors in 1950-51"
+    },
+    {
+      "name": "John Pierce",
+      "role": "coined the name 'transistor'"
+    }
+  ],
+  "builds_on": [
+    "quantum-mechanics?",
+    "electron-discovery?",
+    "faraday-induction?",
+    "volta-battery?"
+  ],
+  "enables": [
+    "integrated-circuit?",
+    "microprocessor?",
+    "arpanet?",
+    "smartphone?"
+  ],
+  "sources": [
+    {
+      "title": "1947: Invention of the Point-Contact Transistor - The Silicon Engine, Computer History Museum",
+      "url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+      "kind": "museum"
+    },
+    {
+      "title": "Point-contact transistor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Point-contact_transistor",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1956 - NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "kind": "article"
+    },
+    {
+      "title": "Bell Demonstrates Transistor - Engineering and Technology History Wiki (IEEE)",
+      "url": "https://ethw.org/Bell_Demonstrates_Transistor",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "How the First Transistor Worked - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/transistor-history",
+      "kind": "article"
+    },
+    {
+      "title": "1952: Transistorized Consumer Products Appear - Computer History Museum",
+      "url": "https://www.computerhistory.org/siliconengine/transistorized-consumer-products-appear/",
+      "kind": "museum"
+    },
+    {
+      "title": "Michael Riordan and Lillian Hoddeson, Crystal Fire: The Birth of the Information Age (W. W. Norton, 1997)",
+      "url": "https://wwnorton.com/books/9780393318517",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Shockley'nin otelde Yılbaşı'nda tasarladığı (Ocak 1948) ve patentten çıkarılmasında Lilienfeld'in rolü Crystal Fire / PBS anlatımına dayanır; kontrol edin. Teal ve Sparks'ın ilk eklem transistörü 1950-51 (kaynaklar değişiyor). 'Telefonda milyarlarca transistör' yaklaşıklık; isterseniz silin. year_end null bırakıldı: eklem transistörü (1948-51) ayrı bir olay olarak açılabilir.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

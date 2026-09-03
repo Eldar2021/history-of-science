@@ -1,0 +1,107 @@
+{
+  "slug": "torricelli-barometer",
+  "year": 1643,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "era": "revolution",
+  "title": "Torricelli's mercury tube: air has weight and empty space is possible",
+  "summary": "In Florence a glass tube of mercury, upended into a dish, stops at about 76 centimetres and leaves a gap at the top. The gap is a vacuum, and what holds the mercury up is the weight of the air.",
+  "body": "### The scene\n\nFlorence, 1643. Galileo has been dead a year; his last assistant, Evangelista Torricelli, has inherited his post as mathematician to the Grand Duke. Galileo left an unfinished puzzle in his last book, the Two New Sciences of 1638. The fountain-makers of Florence had told him that a suction pump could not lift water more than about eighteen braccia, roughly ten metres, however hard it pulled. Aristotle's answer was that nature abhors a vacuum, so water climbs to prevent empty space from appearing; but then why give up at ten metres? Galileo guessed the water column broke under its own weight, like a rope too long for its strength. In Rome around 1641 Gasparo Berti and his friends fixed an eleven-metre water pipe to a palazzo wall, filled and sealed it; the water sank and left a space at the top, and the argument over whether that space was truly empty went nowhere.\n\n### What happened\n\nTorricelli turned the question round. If the water is not pulled from above but pushed from below, by the weight of the air pressing on the surface of the reservoir, then a liquid fourteen times heavier than water should rise fourteen times less. Mercury was that liquid: instead of an eleven-metre pipe on a wall, a glass tube about a metre long on a table. He filled it, stopped the end with a finger, upended it into a bowl of mercury and let go; his friend Vincenzo Viviani probably did the pouring. The mercury fell, then stopped about seventy-six centimetres above the bowl, leaving an apparently empty space in the sealed top. Two tubes with differently shaped tops stopped at the same height, so the size of the gap made no difference: it was not the vacuum pulling but the air pushing. On 11 June 1644 Torricelli wrote to Michelangelo Ricci in Rome: \"We live submerged at the bottom of an ocean of the element air, which by unquestioned experiments is known to have weight.\" He expected the column to vary with the weather.\n\nThink of a diver on the seabed feeling the weight of the water above: we live at the bottom of an ocean of air, and the mercury column is a scale weighing it. The analogy breaks because water hardly compresses, so its weight grows evenly with depth, while air is squeezable; most of it is crammed into the lowest few kilometres, and this ocean has no surface.\n\n### Why it was hard\n\nEmpty space was not just a physics question: Aristotle had ruled it impossible, Descartes denied it, and theologians had views. Torricelli, working in Galileo's Florence a decade after Galileo's trial, wrote his letter, let Ricci and Marin Mersenne in Paris spread the news, and then said no more; he never published the experiment and died in 1647. That silence is why sources disagree on the date: most, including the Science Museum in London, say 1643; Britannica says about 1644; the June 1644 letter is the only firm document. The experiment needed Galileo's habit of measuring, Berti's failed pipe, glassblowers who could seal a metre of tube, and the nerve to treat a gap as a fact.\n\n### What it opened\n\nBlaise Pascal repeated the experiment in Rouen, then proposed the decisive test. On 19 September 1648 his brother-in-law Florin Périer carried a tube up the Puy de Dôme, some nine hundred metres above Clermont, leaving a second tube in a convent below as a control; at the top the mercury stood about eight centimetres lower. Less air above, less push. Otto von Guericke's air pump followed in the 1650s, then Robert Boyle and Robert Hooke's pump in 1659 and Boyle's law of 1662; Boyle coined the word barometer in 1665. Barometers went to sea and into hallways to forecast weather, and the push of the air against a vacuum would drive the first steam engines in 1712.",
+  "why_it_matters": "The mercury column was the first instrument to measure something invisible, the weight of the atmosphere, and the first lasting vacuum anyone had made. It turned a philosophical impossibility into a laboratory tool and set off Pascal, Guericke and Boyle.",
+  "if_you_were_there": "Nobody had ever seen a lasting empty space and the learned agreed it could not exist; air was not a thing with weight but simply the absence of things.",
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "name": "Evangelista Torricelli",
+      "role": "Galileo's last assistant and successor as grand-ducal mathematician; designed the mercury experiment"
+    },
+    {
+      "name": "Vincenzo Viviani",
+      "role": "Galileo's pupil who probably performed the experiment with Torricelli"
+    },
+    {
+      "name": "Galileo Galilei",
+      "role": "posed the ten-metre pump puzzle in Two New Sciences (1638)"
+    },
+    {
+      "name": "Gasparo Berti",
+      "role": "built the eleven-metre water-column experiment in Rome around 1641"
+    },
+    {
+      "name": "Michelangelo Ricci",
+      "role": "Rome correspondent who received the 11 June 1644 letter"
+    },
+    {
+      "name": "Marin Mersenne",
+      "role": "spread news of the experiment to France"
+    },
+    {
+      "name": "Blaise Pascal",
+      "role": "repeated the experiment and designed the mountain test of 1648"
+    },
+    {
+      "name": "Florin Périer",
+      "role": "Pascal's brother-in-law who carried the tube up the Puy de Dôme on 19 September 1648"
+    }
+  ],
+  "builds_on": [
+    "archimedes-buoyancy-levers",
+    "aristotle-lyceum",
+    "galileo-telescope",
+    "galileo-two-new-sciences?"
+  ],
+  "enables": [
+    "boyle-law",
+    "guericke-air-pump?",
+    "newcomen-steam-engine?"
+  ],
+  "sources": [
+    {
+      "title": "Torricelli's experiment - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Torricelli%27s_experiment",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Evangelista Torricelli - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evangelista_Torricelli",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Evangelista Torricelli | Inventions & Accomplishments | Britannica",
+      "url": "https://www.britannica.com/biography/Evangelista-Torricelli",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Torricellian experiment - Museo Galileo, Florence (In depth)",
+      "url": "https://catalogue.museogalileo.it/indepth/TorricellianExperiment.html",
+      "kind": "other"
+    },
+    {
+      "title": "Replica of Torricelli's first barometer, 1643 - Science Museum Group Collection",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co54518/replica-of-torricellis-first-barometer-1643",
+      "kind": "other"
+    },
+    {
+      "title": "Florin Périer - Scientist of the Day, Linda Hall Library",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/florin-perier/",
+      "kind": "article"
+    },
+    {
+      "title": "Torricelli and the Ocean of Air: The First Measurement of Barometric Pressure - Physiology (American Physiological Society)",
+      "url": "https://journals.physiology.org/doi/full/10.1152/physiol.00053.2012",
+      "kind": "paper"
+    },
+    {
+      "title": "W. E. Knowles Middleton, The History of the Barometer (Johns Hopkins University Press, 1964)",
+      "url": "https://books.google.com/books/about/The_History_of_the_Barometer.html?id=lkQlAQAAIAAJ",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Yıl konusunda kaynaklar bölünüyor: Wikipedia ve Science Museum 1643, Britannica 'yaklaşık 1644', Museo Galileo yalnızca 11 Haziran 1644 mektubunu veriyor. Çekirdek listeye uyarak exact/1643 yazıldı ama 'circa' daha dürüst olabilir; siz karar verin. Cıva yüksekliği Wikipedia'da 76 cm, Museo Galileo'da 1¼ braccia (~70 cm). Berti deneyinin tarihi 1640-1643 arası belirsiz, 'yaklaşık 1641' yazıldı. Boyle'un 'barometer' kelimesini 1665'te türettiği ve Périer'nin ~8 cm (3 pouce) düşüş gözlemi doğrulanmalı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

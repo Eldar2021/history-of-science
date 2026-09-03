@@ -1,0 +1,99 @@
+{
+  "slug": "newton-principia",
+  "year": 1687,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "title": "Newton publishes the Principia",
+  "summary": "A falling stone and the orbiting Moon obey one rule. Built on Kepler's data, Hooke's question and Halley's money, the Principia makes sky and earth a single physics.",
+  "body": "### The scene\n\nLondon, January 1684. Three members of the Royal Society, Christopher Wren, Robert Hooke and the young astronomer Edmond Halley, are arguing in a coffeehouse. Everyone accepts Kepler's seventy-five-year-old finding that planets travel in ellipses. Suppose the Sun pulls on a planet with a force that weakens with the square of the distance: does that pull produce Kepler's ellipse? Hooke claims he can prove it but shows nothing; Wren offers a prize; nobody claims it. In August Halley rides to Cambridge and puts the question to a reclusive professor of mathematics, Isaac Newton. Newton answers at once: an ellipse. He has calculated it already; in November he sends Halley a nine-page proof. Then he keeps writing for eighteen months.\n\n### What happened\n\nMathematical Principles of Natural Philosophy appeared on 5 July 1687. It opens with three laws of motion: a body keeps moving unless something pushes it; a push changes motion in proportion to its strength; every push has an equal push back. Then: every piece of matter attracts every other, with a pull that weakens with the square of the distance. From this one rule Newton derives Kepler's laws, explains the tides by the pull of the Moon and Sun, shows that comets obey the same rule as planets, and predicts that the spinning Earth bulges at the equator.\n\nThe heart of it is the Moon test. Throw a stone sideways and it lands some way off. Throw it hard enough and the ground curves away beneath it as fast as it falls: it keeps falling and never lands. That, Newton showed, is the Moon: a stone thrown so fast that it misses the Earth forever. Where the analogy breaks: nobody threw the Moon, and Newton refused to say why the pull exists at all; in the 1713 edition he wrote that he framed no hypotheses about its cause.\n\n### Why it was hard\n\nNone of the pieces were Newton's alone. Kepler's laws came from Tycho Brahe's twenty years of naked-eye measurements. Galileo had shown that motion continues on its own and that falling bodies follow a simple rule. Descartes had stated inertia cleanly; Christiaan Huygens had worked out the force that holds a body in a circle. In 1679 Hooke wrote to Newton proposing the right picture: an orbit is straight-line motion bent by a pull toward the center, a pull that weakens with the square of the distance. Hooke had the guess but not the mathematics. When the book came out he accused Newton of theft, and Newton struck Hooke's name from the manuscript. Halley did more than ask: the Royal Society had spent its book budget on a lavish History of Fishes, so he paid for the printing himself and was repaid in unsold copies of the fish book.\n\nThe famous apple is a legend in the precise sense: Newton told it himself in 1726, sixty years after the event, to friends including William Stukeley and John Conduitt. It may hold a grain of truth; no apple hits anyone's head in any version he told. The calculus he had invented in the 1660s he mostly hid: the Principia is written in the geometric language of Euclid, one reason few people could read it.\n\n### What it opened\n\nFollowers of Descartes objected to a pull acting across empty space with nothing to carry it; the argument ran for decades. Halley used the book to predict that the comet of 1682 would return in 1758; it did, sixteen years after his death. Émilie du Châtelet's French translation with her own commentary, finished in 1749 and printed in 1759, carried the physics across Europe. In 1846 Neptune was found on paper, from the wobble it caused in Uranus, before anyone saw it. Every rocket trajectory since has been computed with the laws in this book.",
+  "why_it_matters": "For two and a half centuries all of physics was built on this book, and it made the universe look like a machine whose rules could be written down and tested. It answered the question Copernicus had left open: the Earth moves, and here is the physics that lets it.",
+  "if_you_were_there": "Nobody knew why planets stayed in their orbits; the leading idea was that they were carried in whirlpools of invisible fluid, and the sky and the ground were still assumed to follow different rules.",
+  "disciplines": [
+    "physics",
+    "astronomy",
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Isaac Newton",
+      "role": "Lucasian professor at Cambridge; author of the Principia"
+    },
+    {
+      "name": "Edmond Halley",
+      "role": "astronomer who asked the question in 1684, edited the book and paid for its printing"
+    },
+    {
+      "name": "Robert Hooke",
+      "role": "Royal Society curator whose 1679 letters framed orbital motion as inertia plus a central pull; later accused Newton of plagiarism"
+    },
+    {
+      "name": "Johannes Kepler",
+      "role": "supplied the three planetary laws (1609, 1619) that the Principia derives from gravity"
+    },
+    {
+      "name": "Christopher Wren",
+      "role": "offered the coffeehouse prize that set off the 1684 question"
+    },
+    {
+      "name": "Émilie du Châtelet",
+      "role": "translated the Principia into French with commentary (completed 1749, published 1759)"
+    }
+  ],
+  "builds_on": [
+    "kepler-elliptical-orbits",
+    "galileo-telescope",
+    "descartes-geometry",
+    "copernicus-heliocentrism",
+    "euclid-elements",
+    "archimedes-buoyancy-levers",
+    "royal-society"
+  ],
+  "enables": [
+    "halley-comet-return?",
+    "neptune-discovery?",
+    "cavendish-experiment?",
+    "general-relativity?"
+  ],
+  "sources": [
+    {
+      "title": "Philosophiae Naturalis Principia Mathematica - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Isaac Newton (1643 - 1727) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+      "kind": "article"
+    },
+    {
+      "title": "Hooke-Newton inverse square law controversy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hooke%E2%80%93Newton_inverse_square_law_controversy",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Celebrating 330 years of Isaac Newton's Principia - University of St Andrews Collections",
+      "url": "https://university-collections.wp.st-andrews.ac.uk/2017/07/05/celebrating-330-years-of-isaac-newtons-principia/",
+      "kind": "article"
+    },
+    {
+      "title": "Isaac and the apple: the story and the myth - The Renaissance Mathematicus (Thony Christie)",
+      "url": "https://thonyc.wordpress.com/2016/05/12/isaac-and-the-apple-the-story-and-the-myth/",
+      "kind": "article"
+    },
+    {
+      "title": "Émilie du Châtelet - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/emilie-du-chatelet/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Richard S. Westfall, Never at Rest: A Biography of Isaac Newton (Cambridge University Press, 1980)",
+      "url": "https://www.cambridge.org/core/books/never-at-rest/",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Kahvehane sohbeti (Ocak 1684) ve Wren'in ödülü Halley'nin sonraki anlatımına dayanır. Yayın tarihi 5 Temmuz 1687 Wikipedia/St Andrews; MacTutor sadece 1687 der. 'Hypotheses non fingo' 1713 ikinci baskıda. Elma hikâyesi Stukeley (1752'de yazıldı, 1726 sohbeti) ve Conduitt'e dayanır; efsane olarak etiketlendi. Du Châtelet çevirisi 1756 kısmi / 1759 tam baskı; kaynaklar değişiyor.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

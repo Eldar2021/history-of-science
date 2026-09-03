@@ -1,0 +1,90 @@
+{
+  "slug": "romer-speed-of-light",
+  "year": 1676,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "era": "revolution",
+  "title": "Rømer shows that light takes time to travel",
+  "summary": "At the Paris Observatory, Jupiter's moon Io keeps vanishing late when Earth is far away. Ole Rømer argues the delay is light on the road, and predicts a ten-minute lateness that comes true.",
+  "body": "### The scene\n\nThe Paris Observatory, 1676, nine years old, run by the Italian astronomer Giovanni Domenico Cassini for the young Académie des sciences. Its business is maps: to fix a place's longitude you compare the time of one sky event seen from two places, and Galileo had suggested in 1610 that Jupiter's moons could be that event. The innermost, Io, circles Jupiter every 42 and a half hours and vanishes into the planet's shadow each time round; Cassini's tables of 1668 predicted those eclipses. Meanwhile an older question hung unanswered: does light take time to travel? Aristotle and Descartes said no; Ibn al-Haytham, Roger Bacon and Galileo suspected yes. Galileo had even tried a test, described in 1638: two men on hills with shuttered lanterns, each uncovering his the moment he saw the other's. Under a mile apart he detected no delay. Into this comes Ole Rømer, born in Aarhus, Denmark, in 1644. In 1671 the French astronomer Jean Picard came to fix the position of Tycho Brahe's old observatory, Uraniborg; Rømer assisted him, and Picard brought him to Paris in 1672.\n\n### What happened\n\nRømer and Cassini timed Io's eclipses for years. They came early in the months when Earth was swinging toward Jupiter and late when it was moving away, by up to several minutes, and no fault in Io's orbit explained the pattern. On 22 August 1676 Cassini announced to the Academy that the tables would carry a new correction. Then Rømer did the thing that convinces: in September he predicted that the eclipse of 9 November would come about ten minutes later than the old tables said. It did. On 21 November he presented his argument, and on 7 December the *Journal des sçavans* printed an anonymous summary. His figure: light needs about 22 minutes to cross the width of Earth's orbit. Today we know it is closer to 17. Christiaan Huygens, then in Paris, combined Rømer's delay with Cassini's estimate of the Sun's distance and in his *Treatise on Light* of 1690 gave the first number: a little over 200,000 kilometres a second in today's units, roughly three quarters of the true value.\n\nThink of a distant bell tower that strikes on the hour: the clock is exact, but the sound reaches you later the further you walk away. Io was the bell. The analogy breaks on scale: sound lags noticeably over a few hundred metres, while light needed a stage as wide as Earth's orbit and years of timing before the lag showed.\n\n### Why it was hard\n\nThe measurement needed things no one had before 1660: Huygens's pendulum clock, telescopes good enough to catch a moon blinking out, an observatory paid to watch Jupiter for years, and Kepler's orbits to know how far Earth had moved. Then it needed persuasion, and there it half failed. Cassini, Rømer's superior, and Picard argued that the delay belonged to Io, not to light; Rømer never published a full account, and left for Copenhagen in 1681. The case was settled only in 1729, when James Bradley found starlight tilting with Earth's motion.\n\n### What it opened\n\nLight became a thing that travels, and can be timed. Huygens built his wave theory on it; Newton used the figure in the *Principia*. To look far is to look into the past: the Sun you see is eight minutes old. Fizeau and Foucault measured light on the ground around 1850, Maxwell found the same speed hiding in electricity and magnetism in 1865, and Einstein in 1905 made it the one fixed thing in the universe.",
+  "why_it_matters": "Rømer turned a philosophical question, whether light is instantaneous, into a measurement, and did it with a prediction that came true. Every later idea about light, from Huygens's waves to Einstein's relativity, starts from the fact that it has a speed.",
+  "if_you_were_there": "Almost everyone, following Descartes, assumed that light filled space instantly, so the idea that the Jupiter you saw was the Jupiter of half an hour ago sounded absurd.",
+  "disciplines": [
+    "physics",
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Ole Rømer",
+      "role": "Danish astronomer at the Paris Observatory who argued that Io's eclipse delays were light-travel time"
+    },
+    {
+      "name": "Giovanni Domenico Cassini",
+      "role": "director of the Paris Observatory whose Io tables made the delay visible; announced it, then opposed the explanation"
+    },
+    {
+      "name": "Jean Picard",
+      "role": "French astronomer who brought Rømer from Denmark to Paris in 1672"
+    },
+    {
+      "name": "Christiaan Huygens",
+      "role": "defended Rømer and in 1690 turned the delay into the first numerical speed of light"
+    },
+    {
+      "name": "Galileo Galilei",
+      "role": "discovered Jupiter's moons and attempted a lantern test of light's speed"
+    },
+    {
+      "name": "James Bradley",
+      "role": "confirmed the finite speed of light in 1729 through stellar aberration"
+    }
+  ],
+  "builds_on": [
+    "galileo-telescope",
+    "kepler-elliptical-orbits",
+    "copernicus-heliocentrism",
+    "ibn-al-haytham-optics"
+  ],
+  "enables": [
+    "newton-principia",
+    "maxwell-electromagnetic-light?",
+    "einstein-special-relativity?"
+  ],
+  "sources": [
+    {
+      "title": "Rømer's determination of the speed of light - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ole Roemer | Biography & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/Ole-Romer",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "340 years ago, Rømer showed that light has a finite speed - Observatoire de Paris - PSL",
+      "url": "https://observatoiredeparis.psl.eu/340-years-ago-romer-showed.html",
+      "kind": "article"
+    },
+    {
+      "title": "Ole Rømer and the Speed of Light - Optics & Photonics News",
+      "url": "https://www.optica-opn.org/home/articles/volume_20/issue_7/features/ole_r%C3%B8mer_and_the_speed_of_light/",
+      "kind": "article"
+    },
+    {
+      "title": "The Speed of Light - Michael Fowler, University of Virginia (Galileo's lantern test)",
+      "url": "http://galileoandeinstein.physics.virginia.edu/lectures/spedlite.html",
+      "kind": "article"
+    },
+    {
+      "title": "Treatise on Light (Huygens, 1690) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treatise_on_Light",
+      "kind": "encyclopedia"
+    }
+  ],
+  "verify_note_tr": "Britannica fetch'te 403 verdi, MacTutor Rømer sayfası 404; arama özetleri kullanıldı. Tarihler (22 Ağustos Cassini duyurusu, Eylül tahmini, 9 Kasım tutulması, 21 Kasım sunum, 7 Aralık Journal des sçavans) Wikipedia + OPN ile uyumlu. Huygens'in hızı kaynaklara göre 212.000-230.000 km/s arasında; gövdede 'biraz üstünde 200.000' dendi. Picard'ın Rømer'e karşı çıktığı ayrıntısı yalnızca Wikipedia'dan, kontrol edin.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}
