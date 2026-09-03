@@ -95,6 +95,7 @@
 ## Oturum günlüğü
 
 ### 2026-09-03 — 8. oturum: Hafta 4 kod kutucukları (tamamlandı)
+
 - Auth: `/admin/login` + server action'lar, admin kök layout (dil ön eksiz, dili `profiles.ui_locale`'den), `proxy.ts` her `/admin` isteğinde oturum yeniler ve 302 ile korur; `lib/auth.ts` ikinci kilit. `backend/scripts/create-admin.mjs` (service key ile Auth admin API) ve `rls-proof.sh` (anon key ile sızma testi; bir olay geçici draft yapılınca timeline 28→27, detay null).
 - Admin: liste + süzgeç, P0 formu (`useActionState`, `key=version` ile değerler korunur), dil sekmeleri, slug transliterasyonu, yumuşak silme/geri alma, admin dil seçici. 98 admin anahtarı 4 dilde (ayrı dosya yerine `admin` ad alanı).
 - Önbellek (**ADR-021**): ziyaretçi okumaları çerezsiz anon client + `unstable_cache` etiketleri; `updateTag` ile kaydet → anında. Timeline sayfaları yeniden SSG. `cacheComponents` Hafta 8'e.
