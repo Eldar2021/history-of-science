@@ -16,6 +16,8 @@ type Labels = { landmark: string; notTranslated: string; machineTranslated: stri
 type Props = {
   event: TimelineEvent;
   locale: Locale;
+  /** Localized era name; surfaces in the top bar next to the live year. */
+  eraName?: string;
   /** discipline slug -> localized name */
   disciplineNames: Map<string, string>;
   labels: Labels;
@@ -55,7 +57,8 @@ function Badges({ event, locale, labels, disciplineNames, withChips }: Props & {
 }
 
 export function EventCard(props: Props) {
-  const { event, locale, disciplineNames, labels } = props;
+  const { event, locale, disciplineNames, labels, eraName } = props;
+  const data = { "data-year": event.year, "data-era": eraName };
   const size = cardSize(event.importance);
   const year = formatYearRange(event.year, event.year_end, event.precision, locale);
   const primary = event.disciplines[0];
@@ -63,7 +66,7 @@ export function EventCard(props: Props) {
 
   if (size === "minor") {
     return (
-      <article id={`event-${event.slug}`} className="relative flex flex-wrap items-baseline gap-x-2.5 gap-y-1 py-1">
+      <article id={`event-${event.slug}`} {...data} className="relative flex flex-wrap items-baseline gap-x-2.5 gap-y-1 py-1">
         {dot}
         <time className="font-display text-year-minor tabular text-secondary">{year}</time>
         <h3 className="text-small text-secondary">{event.title}</h3>
@@ -74,7 +77,7 @@ export function EventCard(props: Props) {
 
   if (size === "standard") {
     return (
-      <article id={`event-${event.slug}`} className="relative rounded-[24px] bg-elevated px-4 py-4">
+      <article id={`event-${event.slug}`} {...data} className="relative rounded-[24px] bg-elevated px-4 py-4">
         {dot}
         {primary && (
           <p className="flex items-center gap-1.5 text-label uppercase tracking-wider text-muted">
@@ -91,7 +94,7 @@ export function EventCard(props: Props) {
   }
 
   return (
-    <article id={`event-${event.slug}`} className="relative rounded-card bg-raised px-5 py-5 shadow-lg">
+    <article id={`event-${event.slug}`} {...data} className="relative rounded-card bg-raised px-5 py-5 shadow-lg">
       {dot}
       <p className="flex items-center justify-between gap-3 text-label uppercase tracking-wider text-muted">
         {primary ? (

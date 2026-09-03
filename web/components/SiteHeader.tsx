@@ -7,9 +7,9 @@ export function SiteHeader({ center }: { center?: React.ReactNode }) {
   return (
     <header className="sticky top-0 z-10 flex h-[3.5rem] items-center justify-between gap-4 border-b border-line bg-base/90 px-4 backdrop-blur">
       <Link href="/" className="font-display text-lg text-primary">{t("site.name")}</Link>
-      <div className="font-display text-2xl tabular text-accent">{center}</div>
+      <div className="min-w-0 whitespace-nowrap font-display text-2xl tabular text-primary">{center}</div>
       <nav className="flex items-center gap-4 text-sm">
-        <Link href="/timeline" className="text-secondary hover:text-primary">{t("nav.timeline")}</Link>
+        <Link href="/timeline" className="hidden text-secondary hover:text-primary sm:inline">{t("nav.timeline")}</Link>
         <LocaleSwitcher />
       </nav>
     </header>

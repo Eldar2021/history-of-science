@@ -8,6 +8,7 @@ import { HonestyBand } from "@/components/HonestyBand";
 import { EventCard } from "@/components/timeline/EventCard";
 import { EraHeader } from "@/components/timeline/EraHeader";
 import { TimeGap } from "@/components/timeline/TimeGap";
+import { YearIndicator } from "@/components/timeline/YearIndicator";
 
 export const revalidate = 300;
 
@@ -50,7 +51,9 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <SiteHeader center={t("title")} />
+      <SiteHeader
+        center={events[0] && <YearIndicator locale={locale} initialYear={events[0].year} initialEra={groups[0]?.era?.name} />}
+      />
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-4">
         <p className="mb-2 text-small text-muted">{t("eventsCount", { count: events.length })}</p>
         {groups.map((group, gi) => {
@@ -67,7 +70,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
                 {group.items.map(({ event, gapBefore }) => (
                   <li key={event.id}>
                     {gapBefore !== null && <TimeGap label={t("yearsPassed", { years: gapBefore })} />}
-                    <EventCard event={event} locale={locale} disciplineNames={disciplineNames} labels={labels} />
+                    <EventCard event={event} locale={locale} eraName={group.era?.name} disciplineNames={disciplineNames} labels={labels} />
                   </li>
                 ))}
               </ol>

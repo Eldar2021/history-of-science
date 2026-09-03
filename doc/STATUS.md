@@ -15,7 +15,7 @@
 
 **Kod**
 - [x] Dikey akış, 3 boyutta olay kartı (landmark / standart / küçük not), sticky çağ başlığı, zaman boşluğu işareti (konsept 1d-1g). `components/timeline/{EventCard,EraHeader,TimeGap}.tsx`, `getDisciplines(locale)` ile çevrili çipler. (2026-09-03)
-- [ ] Sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer, `aria-live`).
+- [x] Sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer, `aria-live`). `components/timeline/YearIndicator.tsx`; headless Chrome ile kaydırma testi geçti. (2026-09-03)
 - [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest (Hafta 1'de yapıldı, 38 test).
 - [~] Tasarım token'ları (`tokens.json` → `globals.css`), her iki tema; sistem tercihi ✓ (Hafta 1 sonu) + **anahtar** (bekliyor).
 - [ ] `?year=` derin bağlantı.
