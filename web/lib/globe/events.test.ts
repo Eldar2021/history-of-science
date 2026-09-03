@@ -13,11 +13,11 @@ const event = (over: Partial<TimelineEvent> = {}): TimelineEvent => ({
 });
 
 describe("toGlobeEvents", () => {
-  it("keeps a placed event and takes its colour from the first discipline", () => {
+  it("keeps a placed event with everything the globe needs to draw it", () => {
     const [e] = toGlobeEvents([event()], ERAS);
     expect(e).toMatchObject({
       slug: "thales", lat: 37.5306, lng: 27.2778, placePrecision: "city",
-      placeName: "Miletus", discipline: "physics", era: "The Ancient World",
+      placeName: "Miletus", era: "The Ancient World",
     });
   });
 
@@ -43,13 +43,12 @@ describe("toGlobeEvents", () => {
     expect(toGlobeEvents([odd as unknown as TimelineEvent], ERAS)).toEqual([]);
   });
 
-  it("keeps timeline order and survives events with no discipline or era", () => {
+  it("keeps timeline order and survives an event whose era is unknown", () => {
     const events = toGlobeEvents(
-      [event({ slug: "a" }), event({ slug: "b", disciplines: [], era_id: 99 })],
+      [event({ slug: "a" }), event({ slug: "b", era_id: 99 })],
       ERAS,
     );
     expect(events.map((e) => e.slug)).toEqual(["a", "b"]);
-    expect(events[1].discipline).toBe("technology");
     expect(events[1].era).toBeNull();
   });
 });

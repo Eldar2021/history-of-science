@@ -112,8 +112,12 @@ Canvas 2D, **çalışma zamanında bağımlılık yok**. Ortografik izdüşüm, 
 çemberi `web/lib/globe/projection.ts` içinde birkaç düzine satır trigonometri; `formatYear`/`formatPlace`
 gibi saf ve test edilebilir.
 
-Kara bir **fotoğraftan** geliyor: NASA Blue Marble, `web/public/globe/earth-2048.jpg` (2048×1024,
-238 KB, telifsiz — ADR-026). `sphere.ts` diskin her pikseli için izdüşümü tersine çevirip dokudan
+Kara bir **fotoğraftan** geliyor: NASA Blue Marble, telifsiz (ADR-026). İki boy var, ikisi de aynı
+8192'lik asıldan türetildi — yükseltme yalnızca netleştirir, görüntüyü değiştirmez:
+`earth-2048.jpg` (238 KB) ilk boyamada gelir; `earth-4096.jpg` (905 KB) yalnızca ekran gerçekten
+farkı gösterecekse ve cihaz kaldırabiliyorsa (küre çapı 1024 aygıt pikselinden büyük, `saveData`
+kapalı, `deviceMemory ≥ 4`) arkadan yüklenip devralır. Küre durunca doku çift doğrusal (bilinear)
+örneklenir, dönerken en yakın komşu. `sphere.ts` diskin her pikseli için izdüşümü tersine çevirip dokudan
 okuyor ve tek ışıkla gölgeliyor; saf fonksiyon olduğu için eşleme test edilebiliyor. Dönerken %55
 çözünürlükte çizilip büyütülüyor (her pikselde bir arcsin + bir arctan var), durunca tam çözünürlük.
 

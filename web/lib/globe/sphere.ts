@@ -37,7 +37,17 @@ const AMBIENT = 0.34;
  * Draw the sphere into `out`, a square RGBA buffer of `size` x `size` pixels. The globe fills it
  * edge to edge; pixels outside the disc are left fully transparent.
  */
-export function renderSphere(out: Uint8ClampedArray, size: number, tex: Texture, centre: Centre): void {
+export function renderSphere(
+  out: Uint8ClampedArray,
+  size: number,
+  tex: Texture,
+  centre: Centre,
+  /**
+   * Blend the four surrounding texture pixels instead of taking the nearest one. Four times the
+   * reads, so it is used on a globe that has come to rest, not on one that is still turning.
+   */
+  smooth = false,
+): void {
   const radius = size / 2;
   const phi0 = centre.lat * RAD;
   const lambda0 = centre.lng * RAD;
@@ -65,15 +75,32 @@ export function renderSphere(out: Uint8ClampedArray, size: number, tex: Texture,
       let v = (90 - lat / RAD) / 180 * tex.height;
       u = u < 0 ? 0 : u >= tex.width ? tex.width - 1 : u;
       v = v < 0 ? 0 : v >= tex.height ? tex.height - 1 : v;
-      const t = ((v | 0) * tex.width + (u | 0)) * 4;
-
       // One light, so the globe has a lit side and a terminator.
       const lambert = x * LIGHT.x + y * LIGHT.y + cosC * LIGHT.z;
       const shade = AMBIENT + (1 - AMBIENT) * (lambert > 0 ? lambert : 0);
 
-      out[i] = tex.data[t] * shade;
-      out[i + 1] = tex.data[t + 1] * shade;
-      out[i + 2] = tex.data[t + 2] * shade;
+      if (smooth) {
+        const x0 = u | 0;
+        const y0 = v | 0;
+        const x1 = x0 + 1 >= tex.width ? 0 : x0 + 1; // wrap: the map has no left or right edge
+        const y1 = y0 + 1 >= tex.height ? y0 : y0 + 1;
+        const fx = u - x0;
+        const fy = v - y0;
+        const a = (y0 * tex.width + x0) * 4;
+        const b = (y0 * tex.width + x1) * 4;
+        const c2 = (y1 * tex.width + x0) * 4;
+        const d = (y1 * tex.width + x1) * 4;
+        for (let ch = 0; ch < 3; ch++) {
+          const top = tex.data[a + ch] + (tex.data[b + ch] - tex.data[a + ch]) * fx;
+          const bottom = tex.data[c2 + ch] + (tex.data[d + ch] - tex.data[c2 + ch]) * fx;
+          out[i + ch] = (top + (bottom - top) * fy) * shade;
+        }
+      } else {
+        const t = ((v | 0) * tex.width + (u | 0)) * 4;
+        out[i] = tex.data[t] * shade;
+        out[i + 1] = tex.data[t + 1] * shade;
+        out[i + 2] = tex.data[t + 2] * shade;
+      }
       // Fade the last pixel of the limb, or the globe gets a hard jagged edge.
       const rho = Math.sqrt(rho2);
       out[i + 3] = rho > 1 - edge ? ((1 - rho) / edge) * 255 : 255;

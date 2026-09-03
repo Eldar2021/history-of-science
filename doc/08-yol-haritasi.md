@@ -51,8 +51,8 @@ Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlay�
 - [x] `/admin` olay formunda yer alanları; "tek bir yer yok" seçilince koordinat alanları kapanır.
 - [x] Küre bileşeni: NASA Blue Marble dokusu giydirilmiş küre (ADR-026), `lat/lng`'ye yumuşak kamera
       geçişi, olayın yeri hep merkezde. Canvas 2D, **çalışma zamanında sıfır bağımlılık**.
-- [x] Pinler: disiplin rengi; `region`/`continent` için kesikli belirsizlik çemberi (en az 22 piksel,
-      yoksa görünmüyor); `unknown` küreye hiç girmiyor.
+- [x] Pinler kızıl ve koyu konturlu (ADR-028); `region`/`continent` için kesikli belirsizlik çemberi
+      (en az 22 piksel, yoksa görünmüyor); `unknown` küreye hiç girmiyor.
 - [x] Kart + merkeze bakan kuyruk; karta tıklama mevcut yandan sheet'i açar (`@panel` kesişen rota).
 - [x] İleri/geri, klavye okları; yıl + `n/toplam` + çağ adı. Sayaç sabit genişlikte ve çağ adı ayrı
       satırda: metin değişince düğmeler yerinden oynamıyor.

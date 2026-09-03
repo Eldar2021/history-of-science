@@ -17,8 +17,6 @@ export type GlobePlace = {
   lng: number;
   lat: number;
   placePrecision: PlacePrecision;
-  /** Discipline slug; picks the pin colour from the design tokens. */
-  discipline: string;
 };
 
 export type GlobeEvent = GlobePlace & {
@@ -49,7 +47,6 @@ export function toGlobeEvents(timeline: TimelineEvent[], eraNames: Map<number, s
       lng: e.lng,
       lat: e.lat,
       placePrecision: e.place_precision,
-      discipline: e.disciplines[0] ?? "technology",
       year: e.year,
       precision: e.precision,
       title: e.title,

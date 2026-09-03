@@ -29,13 +29,53 @@ type Props = {
  */
 const EARTH_TEXTURE = "/globe/earth-2048.jpg";
 /**
+ * The same photograph at 4096 x 2048 (905 KB), derived from NASA's 8192 master so the upgrade only
+ * sharpens and never changes what the Earth looks like. Fetched after the small one is already on
+ * screen, and only where it will actually be seen: a 2048-wide map supplies about a thousand pixels
+ * across the hemisphere we can see, so anything wider than that is being stretched. Held as raw
+ * pixels it costs about 33 MB of memory, which is why small and frugal devices keep the small one.
+ */
+const EARTH_TEXTURE_HIGH = "/globe/earth-4096.jpg";
+const HEMISPHERE_PIXELS_2048 = 1024;
+/**
  * Fraction of full resolution to draw at while the globe is turning. Every pixel of the disc costs
  * an arcsine and an arctangent, so a moving globe is drawn smaller and scaled up; it settles at
  * full resolution on the last frame, which is the one anybody looks at.
  */
 const MOVING_QUALITY = 0.55;
+/** Whether this screen would actually show the difference, on a device that can afford it. */
+function wantsSharperEarth(width: number, height: number, dpr: number): boolean {
+  if (width === 0) return false;
+  const nav = navigator as Navigator & { deviceMemory?: number; connection?: { saveData?: boolean } };
+  if (nav.connection?.saveData) return false;
+  if ((nav.deviceMemory ?? 8) < 4) return false;
+  const layout = layoutFor(width);
+  const diameter = 2 * Math.min(width, height) * layout.radiusScale * dpr;
+  return diameter > HEMISPHERE_PIXELS_2048;
+}
+
 /** Stars per million pixels of stage. Enough to read as a sky, few enough to stay quiet. */
 const STAR_DENSITY = 190;
+
+/** Decode an image and keep its raw pixels; null if it never arrives. */
+function loadTexture(src: string): Promise<Texture | null> {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.decoding = "async";
+    img.onload = () => {
+      const store = document.createElement("canvas");
+      store.width = img.naturalWidth;
+      store.height = img.naturalHeight;
+      const ctx = store.getContext("2d");
+      if (!ctx) return resolve(null);
+      ctx.drawImage(img, 0, 0);
+      const pixels = ctx.getImageData(0, 0, store.width, store.height);
+      resolve({ data: pixels.data, width: store.width, height: store.height });
+    };
+    img.onerror = () => resolve(null);
+    img.src = src;
+  });
+}
 
 /**
  * A fixed field of stars for a given stage size. Deterministic, so it does not shimmer between
@@ -82,10 +122,12 @@ type Palette = {
   star: string;
   accent: string;
   muted: string;
-  disciplines: Map<string, string>;
+  marker: string;
+  markerQuiet: string;
+  markerOutline: string;
 };
 
-function readPalette(el: HTMLElement, disciplines: string[]): Palette {
+function readPalette(el: HTMLElement): Palette {
   const s = getComputedStyle(el);
   const v = (name: string, fallback: string) => s.getPropertyValue(name).trim() || fallback;
   return {
@@ -95,7 +137,9 @@ function readPalette(el: HTMLElement, disciplines: string[]): Palette {
     star: v("--globe-star", "rgba(255, 253, 245, 0.85)"),
     accent: v("--accent", "#f6a06b"),
     muted: v("--text-muted", "#c0b6a5"),
-    disciplines: new Map(disciplines.map((d) => [d, v(`--discipline-${d}`, "#a7aeb3")])),
+    marker: v("--globe-marker", "#ff4436"),
+    markerQuiet: v("--globe-marker-quiet", "#d8483f"),
+    markerOutline: v("--globe-marker-outline", "rgba(0, 0, 0, 0.6)"),
   };
 }
 
@@ -137,6 +181,8 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
   /** Reused between frames: allocating a megabyte of pixels sixty times a second is not free. */
   const sphereRef = useRef<{ canvas: HTMLCanvasElement; image: ImageData; size: number } | null>(null);
   const starsRef = useRef<{ canvas: HTMLCanvasElement; width: number; height: number } | null>(null);
+  /** The sharper photograph is asked for at most once. */
+  const upgradedRef = useRef(false);
   const hitsRef = useRef<Array<{ index: number; x: number; y: number }>>([]);
 
   useEffect(() => {
@@ -152,25 +198,30 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
 
   useEffect(() => {
     let cancelled = false;
-    const img = new Image();
-    img.decoding = "async";
-    img.onload = () => {
-      if (cancelled) return;
-      const store = document.createElement("canvas");
-      store.width = img.naturalWidth;
-      store.height = img.naturalHeight;
-      const sctx = store.getContext("2d");
-      if (!sctx) return;
-      sctx.drawImage(img, 0, 0);
-      const pixels = sctx.getImageData(0, 0, store.width, store.height);
-      textureRef.current = { data: pixels.data, width: store.width, height: store.height };
+    // A failure needs no handling: the plain lit ball is already the answer, and the pins, the
+    // card and every button keep working without the photograph.
+    loadTexture(EARTH_TEXTURE).then((texture) => {
+      if (cancelled || !texture) return;
+      textureRef.current = texture;
       requestDrawRef.current();
-    };
-    // No onerror handling on purpose: the plain lit ball is already the answer, and the pins,
-    // the card and every button keep working without the photograph.
-    img.src = EARTH_TEXTURE;
+    });
     return () => { cancelled = true; };
   }, []);
+
+  // The sharper photograph, once the small one is already on screen and the screen warrants it.
+  useEffect(() => {
+    if (upgradedRef.current || !wantsSharperEarth(size.width, size.height, size.dpr)) return;
+    upgradedRef.current = true;
+    let cancelled = false;
+    loadTexture(EARTH_TEXTURE_HIGH).then((texture) => {
+      if (cancelled || !texture) return;
+      textureRef.current = texture;
+      // A new map means the cached sphere is stale.
+      sphereRef.current = null;
+      requestDrawRef.current();
+    });
+    return () => { cancelled = true; };
+  }, [size]);
 
   // A new active event starts a turn. Readers who asked for less motion get the new view at once.
   useEffect(() => {
@@ -193,7 +244,7 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
     const ctx = canvas?.getContext("2d");
     if (!canvas || !ctx || size.width === 0) return;
 
-    if (!paletteRef.current) paletteRef.current = readPalette(canvas, places.map((p) => p.discipline));
+    if (!paletteRef.current) paletteRef.current = readPalette(canvas);
     const palette = paletteRef.current;
 
     const cam = camera.current;
@@ -244,7 +295,7 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
         sphere = { canvas: canvas2, image: sctx.createImageData(n, n), size: n };
         sphereRef.current = sphere;
       }
-      renderSphere(sphere.image.data, n, texture, centre);
+      renderSphere(sphere.image.data, n, texture, centre, !moving);
       sphere.canvas.getContext("2d")?.putImageData(sphere.image, 0, 0);
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = "high";
@@ -270,40 +321,64 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
         return;
       }
       const isActive = index === activeIndex;
-      const colour = palette.disciplines.get(place.discipline) ?? palette.muted;
+      const colour = isActive ? palette.marker : palette.markerQuiet;
       const uncertainty = PLACE_RADIUS_KM[place.placePrecision];
 
       if (uncertainty !== null) {
-        ctx.beginPath();
         // Real kilometres, unless that would come out too small to see at this size.
         const drawKm = Math.max(uncertainty, (MIN_UNCERTAINTY_PX / radius) * EARTH_RADIUS_KM);
         const ring = circlePath(place.lng, place.lat, drawKm);
-        let started = false;
-        for (const [lng, lat] of ring) {
-          const rp = project(lng, lat, centre, radius, cx, cy);
-          if (!rp.visible) { started = false; continue; }
-          if (started) ctx.lineTo(rp.x, rp.y); else { ctx.moveTo(rp.x, rp.y); started = true; }
-        }
+        const trace = () => {
+          let started = false;
+          ctx.beginPath();
+          for (const [lng, lat] of ring) {
+            const rp = project(lng, lat, centre, radius, cx, cy);
+            if (!rp.visible) { started = false; continue; }
+            if (started) ctx.lineTo(rp.x, rp.y); else { ctx.moveTo(rp.x, rp.y); started = true; }
+          }
+        };
         ctx.setLineDash([4, 4]);
+        // A dark line under the dashes, so they survive a pale desert as well as a dark ocean.
+        trace();
+        ctx.strokeStyle = palette.markerOutline;
+        ctx.globalAlpha = isActive ? 0.6 : 0.25;
+        ctx.lineWidth = 2.5;
+        ctx.stroke();
+        trace();
         ctx.strokeStyle = colour;
-        ctx.globalAlpha = isActive ? 0.7 : 0.25;
+        ctx.globalAlpha = isActive ? 0.9 : 0.35;
         ctx.lineWidth = 1;
         ctx.stroke();
         ctx.setLineDash([]);
       }
 
-      ctx.globalAlpha = isActive ? 1 : 0.35 + 0.4 * Math.max(0, p.depth);
+      const r = isActive ? 5 : index === hovered ? 4 : 2.8;
+      ctx.globalAlpha = isActive ? 1 : 0.45 + 0.35 * Math.max(0, p.depth);
+      // Outline first, fill second: this is what makes a pin findable on any terrain.
       ctx.beginPath();
-      ctx.arc(p.x, p.y, isActive ? 5 : index === hovered ? 4 : 2.5, 0, Math.PI * 2);
-      ctx.fillStyle = isActive ? palette.accent : colour;
+      ctx.arc(p.x, p.y, r + 1.3, 0, Math.PI * 2);
+      ctx.fillStyle = palette.markerOutline;
       ctx.fill();
-      if (isActive && uncertainty === null) {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = colour;
+      ctx.fill();
+
+      if (isActive) {
+        // A soft halo and, where no uncertainty ring already says so, a thin circle around it.
+        ctx.globalAlpha = 0.18;
         ctx.beginPath();
-        ctx.arc(p.x, p.y, 11, 0, Math.PI * 2);
-        ctx.strokeStyle = palette.accent;
-        ctx.lineWidth = 1.5;
-        ctx.globalAlpha = 0.55;
-        ctx.stroke();
+        ctx.arc(p.x, p.y, r * 3.2, 0, Math.PI * 2);
+        ctx.fillStyle = palette.marker;
+        ctx.fill();
+        if (uncertainty === null) {
+          ctx.globalAlpha = 0.7;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, 11, 0, Math.PI * 2);
+          ctx.strokeStyle = palette.marker;
+          ctx.lineWidth = 1.5;
+          ctx.stroke();
+        }
       }
       ctx.globalAlpha = 1;
       hits.push({ index, x: p.x, y: p.y });

@@ -95,13 +95,21 @@
   on the page, and panels are translucent over it rather than opaque boxes beside it.
 */
 .globe-stage {
-  --bg-base: #05070b;
-  --bg-elevated: rgba(30, 33, 41, 0.78);
-  --bg-raised: rgba(42, 46, 56, 0.82);
+  --bg-base: #010206;
+  --bg-elevated: rgba(24, 27, 34, 0.80);
+  --bg-raised: rgba(38, 42, 51, 0.84);
   --line: rgba(249, 244, 237, 0.16);
-  --globe-space: #05070b;
+  --globe-space: #010206;
   --globe-star: rgba(255, 253, 245, 0.85);
   --globe-halo: rgba(150, 180, 220, 0.10);
+  /*
+    Markers are crimson, not the site accent. The accent is a warm orange and the Earth is full of
+    warm orange: the Sahara, Arabia, the Australian interior. A pin has to be found on any terrain,
+    so it is the one hue the photograph does not contain, and every pin also gets a dark outline.
+  */
+  --globe-marker: #ff4436;
+  --globe-marker-quiet: #d8483f;
+  --globe-marker-outline: rgba(0, 0, 0, 0.6);
 }
 
 @media (prefers-reduced-motion: reduce) {

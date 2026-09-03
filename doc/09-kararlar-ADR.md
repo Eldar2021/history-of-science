@@ -270,6 +270,28 @@ kart, ileri/geri) aynen geçerli.
 
 ---
 
+## ADR-028: İşaretler kızıl, koyu konturlu
+
+**2026-09-04 · Kabul** · ADR-025'in "renk kırmızı değildir" maddesini geçersiz kılar; o kararın geri
+kalanı (yer kesinliği enumu, çıplak ad, kesikli çember, en az 22 piksel) aynen geçerli.
+
+- **Bağlam**: Pinler disiplin rengindeydi ve aktif olan sitenin turuncu vurgu rengiydi. Dünya
+  fotoğrafı gelince ikisi de kayboldu: Sahra, Arabistan ve Avustralya iç bölgeleri zaten sıcak
+  sarı-turuncu. Kullanıcı işaretleri bulamadığını söyledi ve kızıl önerdi.
+- **Karar**: Bütün işaretler kızıl (`--globe-marker`), aktif olan daha parlak ve haleli, diğerleri
+  daha sönük. Her pinin altına **koyu bir kontur** çiziliyor; belirsizlik çemberinin kesikleri de
+  önce koyu, sonra kızıl çiziliyor. Disiplin rengi kürede kullanılmıyor.
+- **Gerekçe**: Kızıl, fotoğrafta bulunmayan tek renk; okyanusta, çölde, ormanda ve buzda aynı
+  şekilde görünüyor. Kontur ise zemin ne olursa olsun kontrastı garantiliyor — asıl işi yapan o.
+  Disiplin rengi 2,8 pikselde zaten okunmuyordu: sekiz tonu ayırt edebilen kimse yok, yani bilgi
+  taşıdığını sanmak kendimizi kandırmaktı.
+- **Sonuçlar**: ADR-025'teki "kırmızı hata demektir" gerekçesi artık geçerli değil, çünkü kızıl
+  bu kürede **hata değil "yer"** demek: her pin kızıl. Belirsizliği taşıyan şey renk değil,
+  **kesikli çizgi** — `exact` ve `city` düz bir nokta, `region` ve `continent` kesikli bir çember.
+  Ayrım hâlâ görünür ve hâlâ dürüst.
+
+---
+
 ## Şablon
 
 ```
