@@ -12,6 +12,7 @@ import { TimeGap } from "@/components/timeline/TimeGap";
 import { YearIndicator } from "@/components/timeline/YearIndicator";
 import { DeepLink } from "@/components/timeline/DeepLink";
 import { DisciplineFilter } from "@/components/timeline/DisciplineFilter";
+import { Minimap } from "@/components/timeline/Minimap";
 
 export const revalidate = 300;
 
@@ -51,6 +52,13 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
     machineTranslated: t("machineTranslated"),
   };
   const groups = groupByEra(events, eras);
+  const minimap = {
+    years: events.map((e) => e.year),
+    slugs: events.map((e) => e.slug),
+    eras: eras.map((e) => ({ slug: e.slug, start_year: e.start_year })),
+    locale,
+    label: t("overview"),
+  };
 
   return (
     <>
@@ -60,7 +68,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
       <Suspense fallback={null}>
         <DeepLink />
       </Suspense>
-      <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-4">
+      <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-24 pt-4 md:pb-16">
         <Suspense fallback={null}>
           <DisciplineFilter
             disciplines={disciplines.map((d) => ({ slug: d.slug, name: d.name }))}
@@ -91,6 +99,9 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
           );
         })}
       </main>
+      {/* Minimap (doc/05): a strip above the bottom edge on phones, a column on the right on desktop. */}
+      <Minimap {...minimap} orientation="horizontal" className="fixed inset-x-0 bottom-0 z-[6] h-10 border-t border-line bg-base/90 px-3 pb-2 pt-1 backdrop-blur md:hidden" />
+      <Minimap {...minimap} orientation="vertical" className="fixed bottom-6 right-4 top-[4.5rem] z-[6] hidden w-10 md:block" />
       <HonestyBand path="/timeline" />
     </>
   );

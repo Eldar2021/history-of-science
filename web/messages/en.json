@@ -35,7 +35,8 @@
     "filterLegend": "Filter by discipline",
     "onlyThese": "Only these",
     "clearFilter": "Clear",
-    "filterEmpty": "No event in these disciplines yet. Maybe that is the interesting part."
+    "filterEmpty": "No event in these disciplines yet. Maybe that is the interesting part.",
+    "overview": "Timeline overview"
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
