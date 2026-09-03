@@ -10,9 +10,9 @@ export function EraHeader({ era, locale, todayLabel, headingId }: { era: Era; lo
     : formatYearRange(era.start_year, era.end_year, "exact", locale);
   return (
     <div className="sticky top-[3.5rem] z-[5] -mx-4 bg-gradient-to-b from-base from-70% to-transparent px-4 pb-4 pt-2">
-      <h2 id={headingId} className="inline-flex items-baseline gap-2 rounded-pill bg-elevated px-4 py-2 shadow-sm">
+      <h2 id={headingId} className="inline-flex max-w-full flex-wrap items-baseline gap-x-2 gap-y-0.5 rounded-pill bg-elevated px-4 py-2 shadow-sm">
         <span className="font-display text-small text-sage">{era.name}</span>
-        <span className="text-label tabular text-muted">{range}</span>
+        <span className="whitespace-nowrap text-label tabular text-muted">{range}</span>
       </h2>
     </div>
   );
