@@ -20,8 +20,17 @@ supabase db reset                       # migration + seed
 3. Studio → SQL editor → `seed.sql` içeriğini bir kez çalıştır.
 4. Authentication → Users → kendi e-postanla kullanıcı oluştur; sonra SQL: `update profiles set role='admin' where id='<uuid>';`
 
+## Taslakları yerel DB'ye yükleme
+
+```bash
+node backend/scripts/drafts-to-sql.mjs backend/content/drafts | docker exec -i supabase_db_uchkun psql -U postgres -d postgres -v ON_ERROR_STOP=1
+```
+
+Yalnızca `status='draft'` yazar; yeniden çalıştırmak güvenlidir (slug üstünden günceller, yayınlanmış olaya dokunmaz).
+Yayınlama insan eylemidir: `update events set status='published' where slug='...'` (yerelde) ya da admin paneli (Hafta 4).
+
 ## Klasörler
 
 - `supabase/migrations/NNNN_*.sql` — şema, sıralı. Değişiklik = yeni dosya (`/com_migration`).
 - `supabase/seed.sql` — çağlar, disiplinler (4 dil), örnek olaylar.
-- `scripts/` — içerik hattı (`draft-next.ts`), çeviri (`translate-missing.ts`), kontroller (`check-i18n.ts`). Hafta 5-6.
+- `scripts/` — `drafts-to-sql.mjs` (taslak JSON → SQL, bağımlılıksız). Hafta 5-6: içerik hattı (`draft-next.ts`), çeviri (`translate-missing.ts`), kontroller (`check-i18n.ts`).
