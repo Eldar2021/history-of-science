@@ -271,7 +271,7 @@ create policy person_tr_write on person_translations for all using (is_staff()) 
 -- Timeline rows for one locale; falls back to the event's source locale when the translation is missing.
 create or replace function public.get_timeline(p_locale locale_code)
 returns table (
-  id uuid, slug text, year integer, year_end integer, precision year_precision,
+  id uuid, slug text, year integer, year_end integer, "precision" year_precision,
   era_id smallint, importance smallint, image_path text,
   title text, summary text, translation_status translation_status,
   locale_used locale_code, is_fallback boolean, disciplines text[]
