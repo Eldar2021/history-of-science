@@ -10,8 +10,6 @@ import { Globe } from "./Globe";
 
 type Props = { events: GlobeEvent[]; locale: Locale };
 
-const SWIPE_MIN_PX = 48;
-
 /**
  * The home page: a globe that turns to wherever the current event happened, and two buttons that
  * walk the whole timeline in order.
@@ -24,9 +22,12 @@ const SWIPE_MIN_PX = 48;
 export function GlobeHome({ events, locale }: Props) {
   const t = useTranslations("home");
   const [index, setIndex] = useState(0);
+  /** True once the reader has turned the globe away from the active place by hand. */
+  const [offCentre, setOffCentre] = useState(false);
+  /** Bumped to ask the globe to turn back, when the active event has not itself changed. */
+  const [recenterKey, setRecenterKey] = useState(0);
   /** The URL only starts carrying ?event= once the reader has actually moved. */
   const moved = useRef(false);
-  const touchStartX = useRef<number | null>(null);
 
   const go = useCallback((delta: number) => {
     setIndex((current) => {
@@ -80,18 +81,14 @@ export function GlobeHome({ events, locale }: Props) {
   const place = formatPlaceParts(current.placeName, current.placePrecision, locale);
 
   return (
-    <main
-      className="globe-stage relative flex-1 overflow-hidden bg-[var(--globe-space)]"
-      onTouchStart={(e) => { touchStartX.current = e.touches[0]?.clientX ?? null; }}
-      onTouchEnd={(e) => {
-        const from = touchStartX.current;
-        const to = e.changedTouches[0]?.clientX;
-        touchStartX.current = null;
-        if (from === null || to === undefined) return;
-        if (Math.abs(to - from) >= SWIPE_MIN_PX) go(to < from ? 1 : -1);
-      }}
-    >
-      <Globe places={events} activeIndex={index} onSelect={jumpTo} />
+    <main className="globe-stage relative flex-1 overflow-hidden bg-[var(--globe-space)]">
+      <Globe
+        places={events}
+        activeIndex={index}
+        recenterKey={recenterKey}
+        onSelect={jumpTo}
+        onOffCentreChange={setOffCentre}
+      />
 
       {/* One bar, so the two cannot overlap on a narrow screen. The heading stays in the
           document for readers and search engines even where there is no room to show it. */}
@@ -112,10 +109,15 @@ export function GlobeHome({ events, locale }: Props) {
         aria-label={t("openEvent", { title: current.title })}
         className="absolute bottom-28 left-1/2 z-10 block w-[min(92vw,26rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated p-6 shadow-lg transition hover:border-accent sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2"
       >
-        {/* The tail points at the pin, which is always in the centre of the sphere: below the
-            card on a phone, to its left on a wider screen (lib/globe/layout.ts). */}
-        <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated sm:hidden" />
-        <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated sm:block" />
+        {/* The tail points at the pin, which sits in the centre of the sphere: below the card on
+            a phone, to its left on a wider screen (lib/globe/layout.ts). Once the reader turns
+            the globe by hand the pin is elsewhere, so the tail goes rather than lie. */}
+        {!offCentre && (
+          <>
+            <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated sm:hidden" />
+            <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated sm:block" />
+          </>
+        )}
 
         {year.qualifier && <p className="text-xs text-muted">{year.qualifier}</p>}
         <p className="font-display text-3xl tabular text-primary" title={year.eraNote ?? undefined}>{year.value}</p>
@@ -129,30 +131,44 @@ export function GlobeHome({ events, locale }: Props) {
         )}
       </Link>
 
-      <div className="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 items-center gap-4">
-        <button
-          type="button"
-          onClick={() => go(-1)}
-          disabled={index === 0}
-          aria-label={t("previous")}
-          className="rounded-full border border-line px-4 py-2 text-secondary transition hover:border-accent hover:text-primary disabled:opacity-35 disabled:hover:border-line"
-        >
-          &larr;
-        </button>
-        <p aria-live="polite" className="min-w-40 text-center text-sm text-muted">
-          <span className="tabular">{t("progress", { index: index + 1, total: events.length })}</span>
-          {current.era && <span className="hidden sm:inline"> · {current.era}</span>}
-        </p>
-        <button
-          type="button"
-          onClick={() => go(1)}
-          disabled={index === events.length - 1}
-          aria-label={t("next")}
-          className="rounded-full border border-line px-4 py-2 text-secondary transition hover:border-accent hover:text-primary disabled:opacity-35 disabled:hover:border-line"
-        >
-          &rarr;
-        </button>
+      <div className="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-2">
+        <div className="flex items-center gap-4">
+          <button
+            type="button"
+            onClick={() => go(-1)}
+            disabled={index === 0}
+            aria-label={t("previous")}
+            className="rounded-full border border-line px-4 py-2 text-secondary transition hover:border-accent hover:text-primary disabled:opacity-35 disabled:hover:border-line"
+          >
+            &larr;
+          </button>
+          {/* Fixed width: the counter changes on every step and the buttons must not move with it. */}
+          <p aria-live="polite" className="w-24 text-center text-sm tabular text-muted">
+            {t("progress", { index: index + 1, total: events.length })}
+          </p>
+          <button
+            type="button"
+            onClick={() => go(1)}
+            disabled={index === events.length - 1}
+            aria-label={t("next")}
+            className="rounded-full border border-line px-4 py-2 text-secondary transition hover:border-accent hover:text-primary disabled:opacity-35 disabled:hover:border-line"
+          >
+            &rarr;
+          </button>
+        </div>
+        {/* Its own line, so an era name of any length leaves the buttons where they were. */}
+        {current.era && <p className="text-xs text-muted">{current.era}</p>}
       </div>
+
+      {offCentre && (
+        <button
+          type="button"
+          onClick={() => setRecenterKey((n) => n + 1)}
+          className="absolute bottom-6 right-6 z-10 rounded-full border border-accent/60 px-4 py-2 text-sm text-secondary transition hover:text-primary"
+        >
+          {t("recenter")}
+        </button>
+      )}
     </main>
   );
 }

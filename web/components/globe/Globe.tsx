@@ -12,6 +12,10 @@ type Props = {
   /** Index into `places` that must sit in the centre of the disc. */
   activeIndex: number;
   onSelect?: (index: number) => void;
+  /** Change this to ask the globe to turn back to the active place after a hand-turn. */
+  recenterKey?: number;
+  /** Called when the reader drags the active place away from the centre, and when it comes back. */
+  onOffCentreChange?: (offCentre: boolean) => void;
   /** Label for assistive technology; the canvas itself carries no information. */
   ariaLabel?: string;
   className?: string;
@@ -21,6 +25,18 @@ type Props = {
 const DOT_SPACING_DEG = 1.3;
 /** No uncertainty circle is ever drawn smaller than this; below it the reader cannot see there is one. */
 const MIN_UNCERTAINTY_PX = 22;
+/** How far the active place may drift from the centre before the card stops claiming to point at it. */
+const OFF_CENTRE_PX = 40;
+/**
+ * Depth bands, front to back. A dot facing us is full size and bright; one near the limb is
+ * smaller, dimmer and drawn in the far colour. Ordered from nearest, matched first.
+ */
+const DEPTH_BANDS = [
+  { minDepth: 0.72, scale: 1, alpha: 1 },
+  { minDepth: 0.42, scale: 0.85, alpha: 0.85 },
+  { minDepth: 0.18, scale: 0.7, alpha: 0.6 },
+  { minDepth: 0, scale: 0.55, alpha: 0.4 },
+];
 const TURN_MS = 1100;
 
 type Palette = {
@@ -59,10 +75,11 @@ function readPalette(el: HTMLElement, disciplines: string[]): Palette {
  * The canvas is aria-hidden: everything it shows is also in the DOM around it (the card, the
  * place name, the buttons). A reader who cannot see it loses nothing.
  */
-export function Globe({ places, activeIndex, onSelect, ariaLabel, className }: Props) {
+export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCentreChange, ariaLabel, className }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [size, setSize] = useState({ width: 0, height: 0, dpr: 1 });
   const [hovered, setHovered] = useState<number | null>(null);
+  const [dragging, setDragging] = useState(false);
 
   const active = places[activeIndex];
   const target: Centre = useMemo(
@@ -76,6 +93,11 @@ export function Globe({ places, activeIndex, onSelect, ariaLabel, className }: P
     from: target, to: target, startedAt: 0, duration: 0, current: target,
   });
   const paletteRef = useRef<Palette | null>(null);
+  /** Set while a finger or the mouse is turning the globe by hand. */
+  const dragRef = useRef<{ pointerId: number; x: number; y: number; moved: number } | null>(null);
+  const offCentreRef = useRef(false);
+  /** Wakes the render loop. It stops itself when the globe settles, so a hand-turn must restart it. */
+  const requestDrawRef = useRef<() => void>(() => {});
   /** Built on the first paint in the browser, never during server rendering. */
   const dotsRef = useRef<Float32Array | null>(null);
   const hitsRef = useRef<Array<{ index: number; x: number; y: number }>>([]);
@@ -99,12 +121,15 @@ export function Globe({ places, activeIndex, onSelect, ariaLabel, className }: P
     cam.to = target;
     cam.startedAt = performance.now();
     cam.duration = reduced ? 0 : TURN_MS;
-  }, [target]);
+    // The loop stops itself once the globe settles, so every new aim has to wake it.
+    requestDrawRef.current();
+  }, [target, recenterKey]);
 
   useEffect(() => {
     let frame: number | null = null;
 
     const draw = () => {
+    frame = null;
     const canvas = canvasRef.current;
     const ctx = canvas?.getContext("2d");
     if (!canvas || !ctx || size.width === 0) return;
@@ -145,27 +170,38 @@ export function Globe({ places, activeIndex, onSelect, ariaLabel, className }: P
     ctx.fillStyle = sphere;
     ctx.fill();
 
-    // Land, in two passes so dots fade toward the rim without a fill per dot.
-    const dotRadius = Math.max(0.75, radius / 210);
-    const near = new Path2D();
-    const far = new Path2D();
+    // Land. Dots are sorted into depth bands and each band is drawn once: nearer bands are
+    // bigger and brighter, so the field foreshortens toward the limb the way a sphere does.
+    // One fill per band instead of one per dot keeps this cheap.
+    const dotRadius = Math.max(0.75, radius / 205);
+    const bands = DEPTH_BANDS.map(() => new Path2D());
     for (let i = 0; i < dots.length; i += 2) {
       const p = project(dots[i], dots[i + 1], centre, radius, cx, cy);
       if (!p.visible) continue;
-      const path = p.depth > 0.45 ? near : far;
-      path.moveTo(p.x + dotRadius, p.y);
-      path.arc(p.x, p.y, dotRadius, 0, Math.PI * 2);
+      let band = DEPTH_BANDS.length - 1;
+      for (let b = 0; b < DEPTH_BANDS.length; b++) {
+        if (p.depth >= DEPTH_BANDS[b].minDepth) { band = b; break; }
+      }
+      const r = dotRadius * DEPTH_BANDS[band].scale;
+      bands[band].moveTo(p.x + r, p.y);
+      bands[band].arc(p.x, p.y, r, 0, Math.PI * 2);
     }
-    ctx.fillStyle = palette.dotFar;
-    ctx.fill(far);
-    ctx.fillStyle = palette.dot;
-    ctx.fill(near);
+    for (let b = bands.length - 1; b >= 0; b--) {
+      ctx.globalAlpha = DEPTH_BANDS[b].alpha;
+      ctx.fillStyle = b === 0 ? palette.dot : palette.dotFar;
+      ctx.fill(bands[b]);
+    }
+    ctx.globalAlpha = 1;
 
     // Pins, and the dashed ring that admits we only know the area (ADR-025).
     const hits: Array<{ index: number; x: number; y: number }> = [];
+    let activePlaceHidden = false;
     places.forEach((place, index) => {
       const p = project(place.lng, place.lat, centre, radius, cx, cy);
-      if (!p.visible) return;
+      if (!p.visible) {
+        if (index === activeIndex) activePlaceHidden = true;
+        return;
+      }
       const isActive = index === activeIndex;
       const colour = palette.disciplines.get(place.discipline) ?? palette.muted;
       const uncertainty = PLACE_RADIUS_KM[place.placePrecision];
@@ -204,18 +240,89 @@ export function Globe({ places, activeIndex, onSelect, ariaLabel, className }: P
       }
       ctx.globalAlpha = 1;
       hits.push({ index, x: p.x, y: p.y });
+      if (isActive) {
+        // The card's tail points at the middle of the disc. Once the reader has turned the globe
+        // away from the active place, that is no longer where the pin is, and the card must stop
+        // claiming otherwise.
+        const off = Math.hypot(p.x - cx, p.y - cy) > OFF_CENTRE_PX;
+        if (off !== offCentreRef.current) {
+          offCentreRef.current = off;
+          onOffCentreChange?.(off);
+        }
+      }
     });
     hitsRef.current = hits;
+    // The active place can also be on the far side, which counts as off centre.
+    if (activePlaceHidden && !offCentreRef.current) {
+      offCentreRef.current = true;
+      onOffCentreChange?.(true);
+    }
 
-    // Frames only run while the camera is moving; a settled globe costs nothing.
-    if (t < 1) frame = requestAnimationFrame(draw);
+    // Frames run while the camera is moving or while a hand is on the globe; a settled,
+    // untouched globe costs nothing.
+    if (t < 1 || dragRef.current) frame = requestAnimationFrame(draw);
     };
 
-    frame = requestAnimationFrame(draw);
+    const request = () => {
+      if (frame === null) frame = requestAnimationFrame(draw);
+    };
+    requestDrawRef.current = request;
+    request();
     return () => {
       if (frame !== null) cancelAnimationFrame(frame);
+      requestDrawRef.current = () => {};
     };
-  }, [activeIndex, hovered, places, size]);
+  }, [activeIndex, hovered, onOffCentreChange, places, size]);
+
+  /** Degrees of rotation per pixel dragged, so the point under the finger roughly keeps up. */
+  const dragScale = (radiusPx: number) => 180 / Math.PI / Math.max(1, radiusPx);
+
+  const startDrag = (event: React.PointerEvent<HTMLCanvasElement>) => {
+    event.currentTarget.setPointerCapture(event.pointerId);
+    dragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY, moved: 0 };
+    // Whatever turn was in flight stops here; the globe is the reader's now.
+    const cam = camera.current;
+    cam.from = cam.current;
+    cam.to = cam.current;
+    cam.duration = 0;
+    setDragging(true);
+    requestDrawRef.current();
+  };
+
+  const moveDrag = (event: React.PointerEvent<HTMLCanvasElement>) => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const dx = event.clientX - drag.x;
+    const dy = event.clientY - drag.y;
+    drag.x = event.clientX;
+    drag.y = event.clientY;
+    drag.moved += Math.hypot(dx, dy);
+
+    const layout = layoutFor(size.width);
+    const scale = dragScale(Math.min(size.width, size.height) * layout.radiusScale);
+    const cam = camera.current;
+    const next = {
+      lng: ((cam.current.lng - dx * scale + 540) % 360) - 180,
+      // Stop just short of the poles: at 90 degrees the globe has no "up" left to turn towards.
+      lat: Math.max(-89, Math.min(89, cam.current.lat + dy * scale)),
+    };
+    cam.current = next;
+    cam.from = next;
+    cam.to = next;
+    requestDrawRef.current();
+  };
+
+  const endDrag = (event: React.PointerEvent<HTMLCanvasElement>) => {
+    const drag = dragRef.current;
+    dragRef.current = null;
+    setDragging(false);
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    // A press that barely moved is a click on a pin, not a turn of the globe.
+    if (drag.moved < 5) {
+      const index = nearestPin(event);
+      if (index !== null && onSelect) onSelect(index);
+    }
+  };
 
   const nearestPin = (event: React.PointerEvent<HTMLCanvasElement>) => {
     const rect = event.currentTarget.getBoundingClientRect();
@@ -237,17 +344,19 @@ export function Globe({ places, activeIndex, onSelect, ariaLabel, className }: P
       data-label={ariaLabel}
       width={Math.round(size.width * size.dpr)}
       height={Math.round(size.height * size.dpr)}
-      onPointerMove={(e) => setHovered(nearestPin(e))}
-      onPointerLeave={() => setHovered(null)}
-      onClick={(e) => {
-        const index = nearestPin(e as unknown as React.PointerEvent<HTMLCanvasElement>);
-        if (index !== null && onSelect) onSelect(index);
+      onPointerDown={startDrag}
+      onPointerMove={(e) => {
+        if (dragRef.current) moveDrag(e);
+        else setHovered(nearestPin(e));
       }}
+      onPointerUp={endDrag}
+      onPointerCancel={endDrag}
+      onPointerLeave={() => setHovered(null)}
       // Absolute with an explicit size, both of which are needed. In normal flow the stage is a
       // flex item, so a percentage height on a child collapses to zero; and a canvas is a replaced
       // element, so inset-0 alone would leave it at its intrinsic size (the width/height
       // attributes, which start at zero) instead of stretching. Absolute also puts it under the card.
-      className={`absolute inset-0 h-full w-full ${hovered !== null ? "cursor-pointer" : ""} ${className ?? ""}`}
+      className={`absolute inset-0 h-full w-full touch-none ${dragging ? "cursor-grabbing" : hovered !== null ? "cursor-pointer" : "cursor-grab"} ${className ?? ""}`}
     />
   );
 }

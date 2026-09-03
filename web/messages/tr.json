@@ -25,7 +25,8 @@
     "previous": "Önceki olay",
     "next": "Sonraki olay",
     "progress": "{index} / {total}",
-    "openEvent": "Hikâyeyi oku: {title}"
+    "openEvent": "Hikâyeyi oku: {title}",
+    "recenter": "Yere geri dön"
   },
   "timeline": {
     "title": "Zaman çizgisi",

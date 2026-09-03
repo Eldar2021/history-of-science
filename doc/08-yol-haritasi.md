@@ -54,7 +54,11 @@ Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlay�
 - [x] Pinler: disiplin rengi; `region`/`continent` için kesikli belirsizlik çemberi (en az 22 piksel,
       yoksa görünmüyor); `unknown` küreye hiç girmiyor.
 - [x] Kart + merkeze bakan kuyruk; karta tıklama mevcut yandan sheet'i açar (`@panel` kesişen rota).
-- [x] İleri/geri, klavye okları, mobilde kaydırma; yıl + `n/toplam` + çağ adı.
+- [x] İleri/geri, klavye okları; yıl + `n/toplam` + çağ adı. Sayaç sabit genişlikte ve çağ adı ayrı
+      satırda: metin değişince düğmeler yerinden oynamıyor.
+- [x] Küreyi elle çevirme (fare ve dokunma). Yatay kaydırmayı bu aldığı için "kaydırınca sonraki olay"
+      kalktı. Elle çevrilince kartın kuyruğu gizleniyor (artık pini göstermiyor) ve "Yere geri dön"
+      düğmesi çıkıyor.
 - [x] Derin bağlantı `?event=slug`; tur `replaceState` kullanır, geri tuşu ana sayfadan çıkar,
       olay açmak gerçek bir geçmiş kaydı bırakır.
 - [x] Mobil: küre küçük ve üstte, kart ortada (kullanıcı kararı).

@@ -25,7 +25,8 @@
     "previous": "Мурунку окуя",
     "next": "Кийинки окуя",
     "progress": "{index} / {total}",
-    "openEvent": "Окуяны оку: {title}"
+    "openEvent": "Окуяны оку: {title}",
+    "recenter": "Жерге кайтуу"
   },
   "timeline": {
     "title": "Убакыт сызыгы",

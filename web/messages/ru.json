@@ -25,7 +25,8 @@
     "previous": "Предыдущее событие",
     "next": "Следующее событие",
     "progress": "{index} из {total}",
-    "openEvent": "Читать историю: {title}"
+    "openEvent": "Читать историю: {title}",
+    "recenter": "Вернуться к месту"
   },
   "timeline": {
     "title": "Хронология",

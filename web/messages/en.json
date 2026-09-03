@@ -25,7 +25,8 @@
     "previous": "Previous event",
     "next": "Next event",
     "progress": "{index} of {total}",
-    "openEvent": "Read the story: {title}"
+    "openEvent": "Read the story: {title}",
+    "recenter": "Back to the place"
   },
   "timeline": {
     "title": "Timeline",
