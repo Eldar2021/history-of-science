@@ -1,0 +1,78 @@
+{
+  "slug": "roger-bacon-experiment",
+  "year": 1267,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "title": "Roger Bacon's Opus Majus: experience over authority, in a letter to the Pope",
+  "summary": "An English Franciscan sends Pope Clement IV a plan to reform learning. Its core claim: nothing is fully known until experience confirms it, and the study of light shows how.",
+  "body": "### The scene\n\nIn the 1260s the universities of Paris and Oxford are arguing about Aristotle. His books on nature, newly translated into Latin along with the commentaries of Ibn Sina and Ibn Rushd, are the most exciting thing in Europe, and also suspect: some masters quote him as if he could not be wrong, others want him banned. Roger Bacon, an Englishman who had lectured on Aristotle in Paris and then joined the Franciscan order, thinks both camps miss the point. He has read Ibn al-Haytham's Book of Optics in its Latin version and absorbed the light-centred physics of Robert Grosseteste, the Oxford master and bishop who died in 1253. But his order forbids friars to publish without permission, and Bacon has no money.\n\nThen a door opens. Cardinal Guy de Foulques, whom Bacon had approached a few years earlier, becomes Pope Clement IV. On 22 June 1266 the pope writes asking Bacon to send his ideas on the reform of learning, and to do so secretly.\n\n### What happened\n\nIn roughly a year Bacon writes the Opus Majus, the Greater Work, and in 1267 to 1268 sends it to the papal court at Viterbo, with two shorter companion works, a treatise on how light spreads, and a lens. The Opus Majus has seven parts: the causes of error, the unity of wisdom, languages, mathematics, optics, experimental science, and moral philosophy. Part five, the Perspectiva, is a full geometry of sight, reflection and refraction built on Ibn al-Haytham. Part six is the one people remember. Argument, Bacon writes, can settle a question in the mind, but it does not remove doubt unless the truth is also found by way of experience. His test case is the rainbow: he measured the greatest height of the bow with an astrolabe, about 42 degrees, and found the same colours in spray, dew and crystals. He also attacks the drift of the Julian calendar and describes the ingredients of gunpowder, the earliest such description in Europe.\n\nBacon's rule is like a court that refuses to convict on a witness's reputation: even Aristotle's testimony has to be cross-examined by experience. Where the comparison fails: a modern experiment is built to isolate one cause and measure it, whereas Bacon's \"experience\" also covered ordinary observation and even inner spiritual illumination, and he rarely designed a controlled test himself.\n\n### Why it was hard\n\nNone of the ideas were his alone. Ibn al-Haytham had done real experiments with light two and a half centuries earlier; Grosseteste had already written that mathematics and optics were keys to nature; al-Kindi's theory of radiating influence underlies Bacon's physics. What Bacon added was insistence and synthesis, delivered in a combative tone that made enemies. Clement IV died in November 1268, and there is no record that he ever replied. Bacon may have been confined by his order around 1278 for his interest in astrology and alchemy; the evidence is thin. After his death came a different problem: praise. Renaissance writers made him a magician with a talking brass head, and nineteenth-century historians beginning with William Whewell recast him as a modern experimental scientist five centuries early, the \"first scientist\" of popular books. Scholars such as David Lindberg and Jeremiah Hackett have put him back where he lived: a brilliant, quarrelsome schoolman of the thirteenth century.\n\n### What it opened\n\nHis Perspectiva helped make optics a university subject, and it was in that tradition that Kepler, in 1604, finally explained how the eye forms an image. The calendar he condemned was corrected in 1582. When Francis Bacon, no relation, published his manifesto for experiment in 1620, the Franciscan was among the few medieval thinkers he praised.",
+  "why_it_matters": "The Opus Majus carried Ibn al-Haytham's experimental optics into the Latin universities and argued, in a document addressed to the head of the Church, that experience outranks any written authority. It is not the birth of the scientific method, but it is one of the clearest medieval statements that nature has to be checked, not just read about.",
+  "if_you_were_there": "Almost everyone learned about nature from books, and the question was which book to trust; the idea that a friar with an astrolabe and a bowl of water could correct Aristotle sounded close to arrogance.",
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "name": "Roger Bacon",
+      "role": "Franciscan friar and author of the Opus Majus"
+    },
+    {
+      "name": "Pope Clement IV (Guy de Foulques)",
+      "role": "patron who requested the work in 1266 and died before answering it"
+    },
+    {
+      "name": "Robert Grosseteste",
+      "role": "Oxford master and bishop whose physics of light and interest in optics Bacon built on"
+    },
+    {
+      "name": "Ibn al-Haytham (Alhacen)",
+      "role": "eleventh-century author of the Book of Optics, Bacon's main source on vision and experiment"
+    },
+    {
+      "name": "al-Kindi",
+      "role": "ninth-century Baghdad philosopher whose theory of radiating influence shaped Bacon's physics"
+    }
+  ],
+  "builds_on": [
+    "ibn-al-haytham-optics",
+    "aristotle-lyceum",
+    "ptolemy-almagest"
+  ],
+  "enables": [
+    "francis-bacon-novum-organum?",
+    "kepler-ellipses?",
+    "galileo-telescope?"
+  ],
+  "sources": [
+    {
+      "title": "Roger Bacon - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/roger-bacon/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Roger Bacon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roger_Bacon",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Bacon, Roger - Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/roger-bacon/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "David C. Lindberg, Roger Bacon and the Origins of Perspectiva in the Middle Ages (Clarendon Press, 1996)",
+      "url": "https://global.oup.com/academic/product/roger-bacon-and-the-origins-of-perspectiva-in-the-middle-ages-9780198239925",
+      "kind": "book"
+    },
+    {
+      "title": "The Philosophy and Science of Roger Bacon: Studies in Honour of Jeremiah Hackett (Routledge, 2021)",
+      "url": "https://www.routledge.com/The-Philosophy-and-Science-of-Roger-Bacon-Studies-in-Honour-of-Jeremiah-Hackett/Polloni-Kedar/p/book/9780367755843",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Gökkuşağı için 42 derece ölçümü Lindberg/Crombie'de geçen yaygın iddia, SEP özetinde doğrudan yok; doğrula. 'Deneyim yoluyla bulunmadıkça şüphe kalkmaz' cümlesi Opus Majus VI. bölümün serbest özeti, birebir alıntı değil. 1278 hapis hikâyesi SEP'e göre belgesiz; Francis Bacon'ın Roger'ı övdüğü ve barut tarifinin 'ilk Avrupa tanımı' olduğu bilgisi Wikipedia'ya dayanıyor, ikinci kaynakla kontrol et.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

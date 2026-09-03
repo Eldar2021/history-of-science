@@ -30,7 +30,7 @@ Sonraki şema değişiklikleri: yeni migration + `supabase db push`.
 node backend/scripts/drafts-to-sql.mjs backend/content/drafts | docker exec -i supabase_db_uchkun psql -U postgres -d postgres -v ON_ERROR_STOP=1
 ```
 
-Yalnızca `status='draft'` yazar; yeniden çalıştırmak güvenlidir (slug üstünden günceller, yayınlanmış olaya dokunmaz).
+Yalnızca `status='draft'` yazar; yeniden çalıştırmak güvenlidir (slug üstünden günceller; yayınlanmış olayın hiçbir satırına, çeviri/disiplin/kaynak/bağlantı dahil, dokunmaz). Buluta: `node backend/scripts/drafts-to-sql.mjs backend/content/drafts > /tmp/drafts.sql && cd backend && supabase db query --linked --file /tmp/drafts.sql`. Denetim: `node backend/scripts/check-drafts.mjs`.
 Yayınlama insan eylemidir: `update events set status='published' where slug='...'` (yerelde) ya da admin paneli (Hafta 4).
 
 ## Klasörler

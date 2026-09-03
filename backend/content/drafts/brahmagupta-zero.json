@@ -1,0 +1,77 @@
+{
+  "slug": "brahmagupta-zero",
+  "year": 628,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "title": "Brahmagupta: zero becomes a number, and debts become numbers too",
+  "summary": "In 628 an astronomer in western India writes rules for adding, subtracting and multiplying with zero and with negative 'debts'. Nothing becomes something you can calculate with.",
+  "body": "### The scene\n\nIn 628 the town of Bhillamala, today Bhinmal in Rajasthan, is the capital of a Gurjara kingdom in western India ruled by a king named Vyaghramukha. Astronomers there do what astronomers across Asia do: fix the calendar, predict eclipses, track the planets. They have a tool the Greeks never had, a way of writing numbers in which the position of a digit tells you whether it means seven, seventy or seven hundred. That system needs a mark for an empty position. A dot doing that job appears in the Bakhshali manuscript, a birch-bark text whose age is disputed (radiocarbon tests in 2017 put parts of it as early as the third century; some scholars doubt the dating), and the Babylonians and the Maya had placeholder marks of their own. But a placeholder is not a number. Nobody had written down what happens when you add, subtract or multiply with nothing. A thirty-year-old astronomer named Brahmagupta does.\n\n### What happened\n\nHis book is the Brahmasphutasiddhanta, \"the correctly established doctrine of Brahma\": twenty-four chapters, about a thousand verses, no symbols anywhere, since it was meant to be recited. Most of it is astronomy, and much of that is an argument with Aryabhata, whose spinning Earth Brahmagupta flatly rejects. Two chapters are mathematics, and in one of them he sets out the arithmetic of three kinds of quantity: fortunes, debts and zero. Zero is what you get when you subtract a number from itself. Add zero to anything, or take it away, and the thing is unchanged; multiply anything by zero and you get zero. A debt taken from zero becomes a fortune; a fortune taken from zero becomes a debt. Two debts multiplied make a fortune; a fortune times a debt makes a debt. These are the rules for signed numbers every school still teaches, written in the language of a merchant's ledger.\n\nThink of a bank account. A fortune is money in, a debt is money owed, and zero is not a blank line but a balance you can act on. The analogy breaks at division: a ledger never asks you to divide by an empty balance, and neither should arithmetic. Brahmagupta tried anyway. He said zero divided by zero is zero, which is wrong, and he left other numbers divided by zero without an answer.\n\n### Why it was hard\n\nGreek mathematics, which Indian astronomers knew through translated planetary models, defined number as a collection of units. On that view one is barely a number, zero is not a number at all, and a negative answer is absurd; Diophantus in Alexandria had said as much. What Brahmagupta needed was not a flash of insight but a set of habits. Place-value notation had made empty positions ordinary. Astronomical tables had made subtracting more than you had ordinary. Commerce had given Sanskrit words for owing and owning. And Aryabhata's textbook, a century earlier, had shown how a compact rulebook could hold all this. Brahmagupta gathered the habits into rules and gave the empty mark a name that could sit inside a sum. The same book that legitimized zero also contains his mistaken division: a new number is dangerous until you learn its limits.\n\n### What it opened\n\nAround 770 an Indian scholar arrived in Baghdad carrying this work, and the caliph al-Mansur had it translated into Arabic as the Sindhind. Al-Khwarizmi, writing there fifty years later, learned Indian reckoning from that tradition; the Arabic word for the empty mark, sifr, passed through Italian into \"zero\" and \"cipher\". Fibonacci carried the digits into European commerce in 1202. Negative numbers took longer: European mathematicians were still calling them false numbers in the 1600s. Today a zero that obeys these rules is the ground floor of every computer's arithmetic.",
+  "why_it_matters": "Before this book zero was a gap in a row of digits; after it, zero and negative numbers were things you could reason with, and every later algebra rests on that. The rules traveled to Baghdad within 150 years and from there, through al-Khwarizmi and Fibonacci, to the whole world.",
+  "if_you_were_there": "Almost everyone who calculated for a living agreed that you cannot have less than nothing, and that 'nothing' is the absence of a number rather than a number; a sum that came out negative was simply a mistake.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Brahmagupta",
+      "role": "author of the Brahmasphutasiddhanta; astronomer at Bhillamala, later associated with Ujjain"
+    },
+    {
+      "name": "Aryabhata",
+      "role": "author of the Aryabhatiya (499), the framework Brahmagupta built on and argued with"
+    },
+    {
+      "name": "Bhaskara I",
+      "role": "contemporary commentator on Aryabhata who used the same place-value system"
+    },
+    {
+      "name": "Muhammad al-Fazari",
+      "role": "Baghdad astronomer credited with the Arabic translation (Sindhind) around 770"
+    }
+  ],
+  "builds_on": [
+    "aryabhata",
+    "euclid-elements"
+  ],
+  "enables": [
+    "al-khwarizmi-algebra",
+    "fibonacci-liber-abaci"
+  ],
+  "sources": [
+    {
+      "title": "Brahmagupta | Indian Astronomer, Ancient India | Britannica",
+      "url": "https://www.britannica.com/biography/Brahmagupta",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Brahmagupta - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Brahmasphutasiddhanta - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Brahmagupta (598 - 670) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+      "kind": "article"
+    },
+    {
+      "title": "Kim Plofker, Mathematics in India (Princeton University Press, 2009)",
+      "url": "https://press.princeton.edu/books/hardcover/9780691120676/mathematics-in-india",
+      "kind": "book"
+    },
+    {
+      "title": "Carbon dating finds Bakhshali manuscript contains oldest recorded origins of the symbol 'zero' - University of Oxford, Gardens, Libraries & Museums",
+      "url": "https://www.glam.ox.ac.uk/article/carbon-dating-finds-bakhshali-manuscript-contains-oldest-recorded-origins-symbol-zero",
+      "kind": "article"
+    }
+  ],
+  "verify_note_tr": "Britannica sayfası fetch'te 403 verdi; arama özetinden kullanıldı. Ölüm yılı kaynaklarda 665/668/670 arasında değişiyor (metinde verilmedi); bölüm sayısı Wikipedia'da 24, MacTutor'da 25. Bhillamala'nın hanedanı Britannica'da Gurjara-Pratihara, Wikipedia'da Chavda/Vyaghramukha; metinde 'Gurjara krallığı' dendi, kontrol et. Bakhshali karbon tarihlemesine (2017) Plofker ve arkadaşlarının itirazı var; 'tartışmalı' ifadesi bu yüzden. 770 civarı Bağdat çevirisi ve el-Fazari adı Wikipedia'ya dayanıyor.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

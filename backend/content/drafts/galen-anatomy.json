@@ -56,7 +56,7 @@
     "plato-academy"
   ],
   "enables": [
-    "ibn-sina-canon?",
+    "ibn-sina-canon",
     "vesalius-fabrica?",
     "harvey-circulation?"
   ],

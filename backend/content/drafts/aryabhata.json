@@ -33,7 +33,7 @@
     "archimedes-buoyancy-levers"
   ],
   "enables": [
-    "brahmagupta-zero?",
+    "brahmagupta-zero",
     "al-khwarizmi-algebra",
     "copernicus-heliocentrism"
   ],

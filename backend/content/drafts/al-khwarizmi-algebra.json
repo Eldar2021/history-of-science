@@ -1,0 +1,80 @@
+{
+  "slug": "al-khwarizmi-algebra",
+  "year": 820,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Al-Khwarizmi founds algebra in Baghdad",
+  "summary": "In Baghdad, a scholar from Khwarazm writes a book on \"restoring and balancing\" equations. Its title gives us the word algebra; his name gives us algorithm.",
+  "body": "### The scene\n\nBaghdad around 820 is barely sixty years old and already one of the largest cities in the world. The caliph al-Ma'mun pays for Greek, Persian and Indian books to be collected and translated, and scholars follow the money: the three Banu Musa brothers, the philosopher al-Kindi, and a man whose name says where his family came from. Muhammad ibn Musa al-Khwarizmi means \"Muhammad, son of Musa, the one from Khwarazm,\" the oasis country south of the Aral Sea, on today's border between Uzbekistan and Turkmenistan. One early historian, al-Tabari, may instead place his family at Qutrubbull near Baghdad, and the historian David King takes that reading seriously; most sources keep Khwarazm. Tradition also puts him in the \"House of Wisdom.\" Be careful with that phrase: historians such as Dimitri Gutas argue it was the caliph's library and archive, not a university, and that the grand academy was painted in by nineteenth-century writers. Whatever the building was, the books were there, and so was he.\n\n### What happened\n\nSometime in al-Ma'mun's reign, 813 to 833, al-Khwarizmi dedicated to him a short book: The Compendious Book on Calculation by Restoring and Balancing, in Arabic Kitab al-jabr wa-l-muqabala. It contains no symbols at all. The unknown is called \"the thing,\" its square \"the wealth,\" and every problem is written out in sentences. He sorts all problems involving an unknown and its square into six types, because he does not use negative numbers, gives a step-by-step recipe for each, and proves the recipe with a drawing in the style of Euclid. Two moves do the work. Al-jabr, \"restoring,\" takes a subtracted quantity and moves it to the other side so that nothing is missing. Al-muqabala, \"balancing,\" cancels equal amounts that appear on both sides. The second half applies this to inheritances, trade and land measurement, the problems his readers actually had.\n\nAl-jabr also meant setting a broken bone; in medieval Spain an algebrista was a bone-setter. That is the analogy: restoring an equation is putting something back to whole. Where it breaks: a bone is set once, while an equation is restored and balanced again and again until the unknown stands alone.\n\nAround 825 he wrote a second book, on reckoning with the nine Indian digits and zero. The Arabic is lost; it survives in Latin as Algoritmi de numero Indorum, and \"Algoritmi,\" the Latin form of his name, became our word \"algorithm.\" He also compiled astronomical tables built on Brahmagupta's work from India.\n\n### Why it was hard\n\nSolving particular problems was ancient. Babylonian clay tablets did it as recipes 2,500 years earlier; Diophantus in Alexandria used abbreviations for number puzzles; Brahmagupta in 628 gave rules for zero and negatives. What was new was making the equation itself the object of study: a complete list of cases, a general method for each, and a proof. Historians still argue about how original this was. Roshdi Rashed calls the conception new; G. J. Toomer called al-Khwarizmi's own mathematics \"at best mediocre\" while admitting his influence was enormous. It needed a city where Greek geometry and Indian arithmetic sat on the same shelf, a patron, and an inheritance law whose fractional shares demanded exact answers.\n\n### What it opened\n\nIn Arabic: Abu Kamil, al-Karaji, and Omar Khayyam's cubic equations around 1070. In Latin: Robert of Chester translated the Algebra in 1145, Gerard of Cremona soon after, and Fibonacci's Liber Abaci of 1202 carried the digits and the methods to Italian merchants. The book was a European textbook into the 1500s, and Descartes' symbols of 1637 are its moves written in shorthand. Every program running today is an \"algorithm\": a man from Khwarazm, hidden in a word.",
+  "why_it_matters": "Algebra turned specific arithmetic tricks into general methods with proofs, and every equation you have ever solved descends from this book. His arithmetic text carried Indian digits and zero to Europe, and his name became the word for any step-by-step procedure, including the ones computers run.",
+  "if_you_were_there": "Calculations were done in words and on counting boards, and each kind of problem had its own recipe; the idea that all such problems could be sorted into a few types and solved by the same two moves did not exist.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Muhammad ibn Musa al-Khwarizmi",
+      "role": "author of the Algebra and the book on Indian reckoning; astronomer in Baghdad under al-Ma'mun"
+    },
+    {
+      "name": "al-Ma'mun",
+      "role": "Abbasid caliph (813-833) who sponsored translation and to whom the Algebra was dedicated"
+    },
+    {
+      "name": "Brahmagupta",
+      "role": "seventh-century Indian astronomer whose work fed al-Khwarizmi's tables and arithmetic"
+    },
+    {
+      "name": "Robert of Chester",
+      "role": "translated the Algebra into Latin in 1145, giving Europe the word algebra"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "brahmagupta-zero",
+    "aryabhata"
+  ],
+  "enables": [
+    "omar-khayyam-cubics",
+    "fibonacci-liber-abaci",
+    "descartes-geometry?",
+    "turing-computability?"
+  ],
+  "sources": [
+    {
+      "title": "Al-Khwarizmi | Biography & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/al-Khwarizmi",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Al-Khwarizmi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Al-Khwarizmi (c. 790 - c. 850) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+      "kind": "article"
+    },
+    {
+      "title": "House of Wisdom - Wikipedia (historiographical debate, Gutas)",
+      "url": "https://en.wikipedia.org/wiki/House_of_Wisdom",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Roshdi Rashed (ed.), Al-Khwarizmi: The Beginnings of Algebra (Saqi Books, 2009)",
+      "url": "https://saqibooks.com/books/saqi/al-khw%C4%81rizm%C4%AB/",
+      "kind": "book"
+    },
+    {
+      "title": "Algebra - Islamic contributions | Britannica",
+      "url": "https://www.britannica.com/science/algebra/Islamic-contributions",
+      "kind": "encyclopedia"
+    }
+  ],
+  "verify_note_tr": "Doğum yeri tartışmalı: Harezm (İbn Nedim, çoğunluk) mi, Bağdat yakını Kutrubbul (Taberi'nin bir okuması, David King) mü; metin ikisini de veriyor. Cebir kitabının tarihi kaynaklarda 820 (Wikipedia) / 825 (Britannica) / 813-833 (Memun dönemi) arasında; 820 circa seçildi, doğum yılı da 780 (Britannica) ile 790 (MacTutor) arasında. Britannica sayfası 403 verdi, arama özetlerinden alındı. Toomer'ın 'at best mediocre' sözü MacTutor'dan; 'algebrista = kırıkçı' bilgisi ve Cebir'in 'Avrupa'da 16. yüzyıla dek ders kitabı' iddiası Wikipedia'ya dayanıyor, ikinci kaynakla doğrula.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}
