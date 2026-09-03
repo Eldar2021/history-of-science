@@ -2,7 +2,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FallLink } from "@/components/FallLink";
 import { SiteHeader } from "@/components/SiteHeader";
 import { HonestyBand } from "@/components/HonestyBand";
-import { GlobeHome, type GlobeEvent } from "@/components/globe/GlobeHome";
+import { GlobeHome } from "@/components/globe/GlobeHome";
+import { toGlobeEvents } from "@/lib/globe/events";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { getEras, getTimeline } from "@/lib/queries/timeline";
 
@@ -21,21 +22,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const [t, timeline, eras] = await Promise.all([getTranslations("home"), getTimeline(locale), getEras(locale)]);
   const eraNames = new Map(eras.map((e) => [e.id, e.name]));
 
-  const events: GlobeEvent[] = timeline
-    .filter((e) => e.lat !== null && e.lng !== null && e.place_precision !== "unknown")
-    .map((e) => ({
-      slug: e.slug,
-      lng: e.lng as number,
-      lat: e.lat as number,
-      placePrecision: e.place_precision,
-      discipline: e.disciplines[0] ?? "technology",
-      year: e.year,
-      precision: e.precision,
-      title: e.title,
-      summary: e.summary,
-      placeName: e.place_name,
-      era: eraNames.get(e.era_id) ?? null,
-    }));
+  const events = toGlobeEvents(timeline, eraNames);
 
   return (
     <>

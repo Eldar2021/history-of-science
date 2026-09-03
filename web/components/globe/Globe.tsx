@@ -4,17 +4,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { landDots } from "@/lib/globe/dots";
 import { layoutFor } from "@/lib/globe/layout";
 import { circlePath, EARTH_RADIUS_KM, easeInOutCubic, interpolateCentre, project, type Centre } from "@/lib/globe/projection";
-import { PLACE_RADIUS_KM, type PlacePrecision } from "@/lib/i18n/formatPlace";
-
-/** One pin on the globe. Events with no single place never reach here (ADR-025). */
-export type GlobePlace = {
-  slug: string;
-  lng: number;
-  lat: number;
-  placePrecision: PlacePrecision;
-  /** Discipline slug; picks the pin colour from the design tokens. */
-  discipline: string;
-};
+import { PLACE_RADIUS_KM } from "@/lib/i18n/formatPlace";
+import type { GlobePlace } from "@/lib/globe/events";
 
 type Props = {
   places: GlobePlace[];

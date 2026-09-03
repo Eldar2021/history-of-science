@@ -3,20 +3,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { formatYearParts, type Locale, type YearPrecision } from "@/lib/i18n/formatYear";
+import { formatYearParts, type Locale } from "@/lib/i18n/formatYear";
 import { formatPlaceParts } from "@/lib/i18n/formatPlace";
-import { Globe, type GlobePlace } from "./Globe";
-
-export type GlobeEvent = GlobePlace & {
-  year: number;
-  precision: YearPrecision;
-  title: string;
-  summary: string;
-  /** Bare place name; the caveat comes from placePrecision (ADR-025). */
-  placeName: string | null;
-  /** Era name in the reader's language, so the counter says where in history we are. */
-  era: string | null;
-};
+import type { GlobeEvent } from "@/lib/globe/events";
+import { Globe } from "./Globe";
 
 type Props = { events: GlobeEvent[]; locale: Locale };
 
