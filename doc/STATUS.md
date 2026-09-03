@@ -5,28 +5,37 @@
 
 ## Şu an
 
-- **Faz**: Ay 1 / Hafta 1 (başladı 2026-09-02). Hafta 1 kod tarafı büyük ölçüde tamam (2026-09-03).
-- **Doğrulandı**: `npm run check` (tsc + eslint + 38 test) yeşil; `next build` başarılı; `next start` ile `/` → `/ky` yönlendirmesi (Accept-Language), `/ky/timeline` ve `/tr/timeline` doğru yıl formatları, çağ adları ve zaman boşluğu satırlarıyla ("~285 yıl geçti") render ediyor. DB olmadan fixture ile çalışıyor.
-- **Sonraki adım (kod, Hafta 2'ye geçiş)**: Tasarım konseptini entegre et: `resource/Design system conflict scope/_ds/*/styles.css` + `_ds_manifest.json` oku → `web/app/globals.css` placeholder token'larını değiştir, `resource/design/tokens.json` yaz, fontları konsepte göre güncelle (`app/[locale]/layout.tsx`), `Ңөү` kontrolü. Sonra Hafta 2 kutucukları: 3 boyutta kart, sticky çağ başlığı, canlı yıl göstergesi (IntersectionObserver), `?year=` derin bağlantı, `lib/timeline/xScale.ts`.
-- **Kullanıcıdan bekleyen**: Docker + `brew install supabase/tap/supabase`, Supabase bulut projesi (backend/README.md), Vercel bağlantısı, `.env.local` (`.env.example`'dan). Klasörü `resource/design/` olarak yeniden adlandırma önerisi.
-- **Bloklayan**: yok.
+- **Faz**: Ay 1 / Hafta 1 tamamlandı (2026-09-03, üç oturum). Hafta 2 başlıyor: Akış timeline'ı MVP.
+- **Doğrulandı (2026-09-03, 3. oturum)**: Tasarım token'ları koda aktarıldı (`resource/design/tokens.json` → `web/app/globals.css`, iki tema; fontlar Golos Text + Literata, `Ңөү` build edilen woff2'lerde doğrulandı). Yerel Supabase (Colima üstünde Docker) ayakta: `0001_init.sql` + `seed.sql` uygulanıyor; 8 çağ, 8 disiplin, 10 yayınlanmış olay, `get_timeline`/`get_chain` çalışıyor; RLS anonim istekte taslağı gizliyor (test edildi). `web/.env.local` yerel anahtarlarla yazıldı (gitignore'da). `npm run gen:types` → `lib/supabase/types.ts`, client'lar `Database` ile tipli. `npm run check` + `next build` yeşil; `next start` ile `/en/timeline` ve `/ky/timeline` DB'den render ediyor.
+- **Sonraki adım (Hafta 2 kutucukları, sırayla)**: 3 boyutta olay kartı (landmark/standart/küçük not, konsept 1d-1g) → sticky çağ başlığı (pill) → sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer) → `?year=` derin bağlantı → `lib/timeline/xScale.ts` → tema anahtarı (`data-theme`) ve S15 birincil tema kararı → +10 antik olay.
+- **Kullanıcıdan bekleyen**: (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı. (3) S15 birincil tema (karanlık şu an CSS varsayılanı; konsept panosu da karanlığı öneriyor). (4) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
+- **Bloklayan**: yok. Yerel geliştirme için: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
 
 ## Hafta 1 kutucukları
 
-- [x] `web/`: Next.js **16.3** (15 değil) + TS + Tailwind v4 + next-intl 4.14 kuruldu; `i18n/routing.ts`, `i18n/request.ts`, `i18n/navigation.ts`, `proxy.ts` (Next 16'da middleware yerine), `app/[locale]/layout.tsx` (Inter + Playfair Display, cyrillic-ext), `messages/{en,ru,ky,tr}.json`, `app/globals.css` placeholder token'lar. Sayfalar tamam: `app/[locale]/page.tsx` (hero), `app/[locale]/timeline/page.tsx` (düz liste, çağ başlıkları, zaman boşluğu, rozetler), `components/{SiteHeader,LocaleSwitcher,HonestyBand}.tsx`, `lib/supabase/{server,client}.ts`, `lib/queries/{timeline,types}.ts`, `lib/fixtures/timeline.ts` (env yoksa 10 olay).
-- [x] `backend/supabase/migrations/0001_init.sql`: tam şema, RLS, `get_timeline(locale)`, `get_chain(slug, locale, depth)`, arama trigger'ı, era auto-assign. **Henüz bir DB'de çalıştırılmadı** (CLI yok); ilk `supabase db reset`'te SQL hatası çıkabilir, düzelt.
-- [x] `backend/supabase/seed.sql`: 8 çağ + 8 disiplin 4 dilde, 10 İngilizce örnek olay (özet + neden önemli + orada olsaydın; gövdeler boş), 6 bağlantı. `backend/README.md` kurulum adımları.
-- [x] `lib/i18n/formatYear.ts` + 32+ birim testi (Hafta 2 maddesi, erken yapıldı). `vitest.config.ts`, `.env.example`, `package.json` scriptleri (`check`, `test`, `typecheck`, `gen:types`).
+- [x] `web/`: Next.js **16.3** (15 değil) + TS + Tailwind v4 + next-intl 4.14 kuruldu; `i18n/routing.ts`, `i18n/request.ts`, `i18n/navigation.ts`, `proxy.ts` (Next 16'da middleware yerine), `app/[locale]/layout.tsx`, `messages/{en,ru,ky,tr}.json`. Sayfalar: `app/[locale]/page.tsx` (hero), `app/[locale]/timeline/page.tsx` (düz liste, çağ başlıkları, zaman boşluğu, rozetler), `components/{SiteHeader,LocaleSwitcher,HonestyBand}.tsx`, `lib/supabase/{server,client,types}.ts`, `lib/queries/{timeline,types}.ts`, `lib/fixtures/timeline.ts` (env yoksa 10 olay).
+- [x] `backend/supabase/`: `config.toml` (`supabase init`), `migrations/0001_init.sql` (tam şema, RLS, `get_timeline`, `get_chain`, arama trigger'ı, era auto-assign) **yerelde çalıştırıldı ve doğrulandı**. Bulut projesi henüz bağlanmadı (MCP/OAuth kullanıcıya bağlı).
+- [x] `backend/supabase/seed.sql`: 8 çağ + 8 disiplin 4 dilde, 10 İngilizce örnek olay, 6 bağlantı. Yerelde uygulandı.
+- [x] `lib/i18n/formatYear.ts` + 38 birim testi (Hafta 2 maddesi, erken yapıldı).
 - [ ] Vercel bağlı, `main` push = deploy (kullanıcı)
-- [x] `CLAUDE.md`, `doc/STATUS.md`, `.claude/commands` (8 komut), `.claude/agents` (content-writer, fact-checker, timeline-ux-reviewer), `.claude/settings.local.json`
-- [x] Tasarım: Claude Design konsepti geldi → `resource/Design system conflict scope/` (henüz incelenmedi, token'lar aktarılmadı)
+- [x] `CLAUDE.md`, `doc/STATUS.md`, `.claude/commands` (8 komut), `.claude/agents` (3 ajan), `.claude/settings.local.json`, `.mcp.json` (Supabase)
+- [x] Tasarım: Claude Design konsepti incelendi, token'lar aktarıldı (ADR-019). Konsept: `resource/Design system conflict scope/Uchkun - Foundation.dc.html`; taban sistem `_ds/organic-*/` (yalnızca referans).
 - [ ] İçerik: ilk 5 olay şablonla yazıldı ve doğrulandı (seed'de 10 olayın özetleri var; gövdeler `/com_event` ile yazılacak)
 
-## Notlar / kararlar (ADR'ye taşınacak)
-- Next.js 16 kuruldu; dokümanlar "15" diyor, davranış aynı (App Router). `middleware.ts` yerine `proxy.ts`. Bir sonraki oturumda 04/CLAUDE.md'de "15" → "16" güncelle (ADR gerekmez).
-- Geist fontu Kiril desteklemediği için Inter + Playfair Display'e geçildi; tasarım konsepti başka font seçtiyse ona uyulur.
+## Notlar / kararlar
+- Yerel Docker **Colima** ile (`colima start`); Docker Desktop yok. Supabase CLI 2.116 Homebrew'dan kuruldu.
+- Postgres'te `precision` anahtar kelime: `returns table` içinde `"precision"` diye tırnaklı. Yeni fonksiyonlarda da aynısı gerekir.
+- Çağların kendi rengi yok (konsept); `era-*` token'ları adaçayına işaret ediyor. Explore kanvası turunda çağ paleti istenecek.
+- Tailwind'de `text-base` yazı boyutu utility'sidir, renk değil; renk için `text-accent-ink` gibi token adları kullan.
+- `04-mimari` ve `CLAUDE.md` artık Next 16 / `proxy.ts` diyor.
 
 ## Oturum günlüğü
+
+### 2026-09-03 — 3. oturum: tasarım token'ları + yerel Supabase
+- Konsept dosyaları okundu; `tokens.json` çıkarıldı, `globals.css` iki temayla yeniden yazıldı, fontlar Golos Text + Literata (`cyrillic-ext`, `Ңөү` fontTools ile woff2'de doğrulandı). ADR-019.
+- Ana sayfa CTA renk hatası düzeltildi (`text-base` → `text-accent-ink`).
+- Supabase CLI kuruldu, Colima başlatıldı, `supabase init` + `supabase start`; `0001_init.sql`'de `"precision"` düzeltmesi; seed uygulandı; RLS anonim testi geçti; `gen:types`; `.env.local`.
+- Site DB'ye karşı `next start` ile doğrulandı. `.mcp.json` eklendi; MCP bu oturumda bağlı değildi.
 
 ### 2026-09-03 — Hafta 1 kod (tamamlandı, iki oturumda)
 - Next.js 16 iskeleti + next-intl 4 dil altyapısı + mesaj dosyaları + placeholder CSS token'ları.
