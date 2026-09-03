@@ -72,3 +72,28 @@ export async function saveEvent(prev: SaveState, formData: FormData): Promise<Sa
 
   redirect(`/admin/events/${id}?saved=1&locale=${parsed.edit_locale}`);
 }
+
+/** Soft delete (doc/02: reversible). The row stays; RLS hides it from visitors through deleted_at. */
+export async function deleteEvent(formData: FormData) {
+  await requireStaff();
+  const id = String(formData.get("id") ?? "");
+  if (!id) redirect("/admin/events");
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("events").update({ deleted_at: new Date().toISOString() }).eq("id", id).select("slug").maybeSingle();
+  if (error) redirect(`/admin/events/${id}?error=saveFailed`);
+  updateTag(TIMELINE_TAG);
+  if (data) updateTag(eventTag(data.slug));
+  redirect("/admin/events?deleted=1");
+}
+
+export async function restoreEvent(formData: FormData) {
+  await requireStaff();
+  const id = String(formData.get("id") ?? "");
+  if (!id) redirect("/admin/events");
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("events").update({ deleted_at: null }).eq("id", id).select("slug").maybeSingle();
+  if (error) redirect(`/admin/events/${id}?error=saveFailed`);
+  updateTag(TIMELINE_TAG);
+  if (data) updateTag(eventTag(data.slug));
+  redirect(`/admin/events/${id}?restored=1`);
+}

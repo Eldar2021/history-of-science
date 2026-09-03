@@ -177,11 +177,19 @@
         "slugInvalid": "Slug may contain only a–z, 0–9 and hyphens.",
         "slugTaken": "Another event already uses this slug.",
         "saveFailed": "Could not save. Try again; if it repeats, check the server log."
-      }
+      },
+      "delete": "Delete this event",
+      "deleteConfirm": "Delete “{title}”? It leaves the site at once; you can restore it from the Deleted list.",
+      "deleteHint": "Soft delete: the event is hidden from the site and can be restored.",
+      "deletedFlash": "Event deleted. It is in the Deleted list.",
+      "deletedOn": "Deleted on {date}. Hidden from the site.",
+      "restore": "Restore",
+      "restored": "Restored. It is back on the site if it was published."
     },
     "notFound": {
       "title": "Not found",
       "back": "Back to events"
-    }
+    },
+    "uiLocale": "Admin language"
   }
 }

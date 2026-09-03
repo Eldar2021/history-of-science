@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { UiLocaleSelect } from "./UiLocaleSelect";
 import type { Staff } from "@/lib/auth";
 import { signOut } from "@/app/admin/login/actions";
 
@@ -22,6 +23,7 @@ export async function AdminShell({ staff, title, actions, children }: Props) {
           <form action={signOut}>
             <button type="submit" className="text-secondary hover:text-primary">{t("signOut")}</button>
           </form>
+          <UiLocaleSelect />
           <ThemeToggle />
         </div>
       </header>

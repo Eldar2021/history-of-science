@@ -9,11 +9,11 @@ import { StatusBadge } from "@/components/admin/StatusBadge";
 
 const FILTERS: ListFilter[] = ["all", "draft", "review", "published", "deleted"];
 
-type Props = { searchParams: Promise<{ status?: string }> };
+type Props = { searchParams: Promise<{ status?: string; deleted?: string }> };
 
 export default async function AdminEventsPage({ searchParams }: Props) {
   const staff = await requireStaff();
-  const { status } = await searchParams;
+  const { status, deleted } = await searchParams;
   const filter = (FILTERS.find((f) => f === status) ?? "all") as ListFilter;
   const [t, events] = await Promise.all([getTranslations("admin"), listAdminEvents(filter, staff.uiLocale)]);
   const dateFmt = new Intl.DateTimeFormat(staff.uiLocale, { dateStyle: "medium" });
@@ -28,6 +28,9 @@ export default async function AdminEventsPage({ searchParams }: Props) {
         </Link>
       }
     >
+      {deleted && (
+        <p role="status" className="mb-4 rounded-md border border-sage/60 bg-sage/15 px-3 py-2 text-sm text-primary">{t("events.deletedFlash")}</p>
+      )}
       <nav aria-label={t("events.filter")} className="mb-4 flex flex-wrap gap-2 text-sm">
         {FILTERS.map((f) => (
           <Link

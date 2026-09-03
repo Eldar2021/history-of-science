@@ -177,11 +177,19 @@
         "slugInvalid": "Slug yalnızca a–z, 0–9 ve tire içerebilir.",
         "slugTaken": "Bu slug'ı başka bir olay kullanıyor.",
         "saveFailed": "Kaydedilemedi. Yeniden dene; tekrarlarsa sunucu günlüğüne bak."
-      }
+      },
+      "delete": "Bu olayı sil",
+      "deleteConfirm": "“{title}” silinsin mi? Siteden hemen kalkar; Silindi listesinden geri alabilirsin.",
+      "deleteHint": "Yumuşak silme: olay siteden gizlenir, geri alınabilir.",
+      "deletedFlash": "Olay silindi. Silindi listesinde.",
+      "deletedOn": "{date} tarihinde silindi. Sitede görünmüyor.",
+      "restore": "Geri al",
+      "restored": "Geri alındı. Yayındaysa sitede yeniden görünür."
     },
     "notFound": {
       "title": "Bulunamadı",
       "back": "Olaylara dön"
-    }
+    },
+    "uiLocale": "Yönetim dili"
   }
 }
