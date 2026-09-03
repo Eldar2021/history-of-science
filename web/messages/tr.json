@@ -31,7 +31,11 @@
     "importance": "Önem {level}",
     "landmark": "Dönüm noktası",
     "today": "bugün",
-    "era": "Çağ"
+    "era": "Çağ",
+    "filterLegend": "Disipline göre süz",
+    "onlyThese": "Sadece bunlar",
+    "clearFilter": "Temizle",
+    "filterEmpty": "Bu disiplinlerde henüz olay yok. Belki de asıl ilginç olan bu."
   },
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",

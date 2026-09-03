@@ -11,6 +11,7 @@ import { EraHeader } from "@/components/timeline/EraHeader";
 import { TimeGap } from "@/components/timeline/TimeGap";
 import { YearIndicator } from "@/components/timeline/YearIndicator";
 import { DeepLink } from "@/components/timeline/DeepLink";
+import { DisciplineFilter } from "@/components/timeline/DisciplineFilter";
 
 export const revalidate = 300;
 
@@ -60,11 +61,18 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
         <DeepLink />
       </Suspense>
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-4">
+        <Suspense fallback={null}>
+          <DisciplineFilter
+            disciplines={disciplines.map((d) => ({ slug: d.slug, name: d.name }))}
+            eventDisciplines={events.map((e) => e.disciplines)}
+            labels={{ legend: t("filterLegend"), onlyThese: t("onlyThese"), clear: t("clearFilter"), empty: t("filterEmpty") }}
+          />
+        </Suspense>
         <p className="mb-2 text-small text-muted">{t("eventsCount", { count: events.length })}</p>
         {groups.map((group, gi) => {
           const headingId = `era-${group.era?.slug ?? gi}`;
           return (
-            <section key={headingId} aria-labelledby={group.era ? headingId : undefined}>
+            <section key={headingId} data-era={group.era?.slug ?? gi} aria-labelledby={group.era ? headingId : undefined}>
               {group.era && <EraHeader era={group.era} locale={locale} todayLabel={t("today")} headingId={headingId} />}
               <ol className="relative ml-3 space-y-5 pl-8">
                 <span
@@ -73,7 +81,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
                   style={{ background: "linear-gradient(transparent, var(--accent) 24px, var(--accent) calc(100% - 24px), transparent)" }}
                 />
                 {group.items.map(({ event, gapBefore }) => (
-                  <li key={event.id}>
+                  <li key={event.id} data-disciplines={event.disciplines.join(" ")} className="transition-opacity duration-(--duration-event-fade) data-[dim=dim]:opacity-30 data-[dim=hide]:hidden">
                     {gapBefore !== null && <TimeGap label={t("yearsPassed", { years: gapBefore })} />}
                     <EventCard event={event} locale={locale} eraName={group.era?.name} disciplineNames={disciplineNames} labels={labels} />
                   </li>
