@@ -3,7 +3,8 @@ import { useActionState, useState } from "react";
 import { useTranslations } from "next-intl";
 import { locales, type Locale } from "@/i18n/routing";
 import { formatYear } from "@/lib/i18n/formatYear";
-import { PRECISIONS, STATUSES, SUMMARY_SOFT_MAX, TITLE_SOFT_MAX, type EventFormValues } from "@/lib/admin/eventForm";
+import { formatPlaceParts, type PlacePrecision } from "@/lib/i18n/formatPlace";
+import { PLACE_PRECISIONS, PRECISIONS, STATUSES, SUMMARY_SOFT_MAX, TITLE_SOFT_MAX, type EventFormValues } from "@/lib/admin/eventForm";
 import { slugify } from "@/lib/admin/slug";
 import { saveEvent, type SaveState } from "@/app/admin/events/actions";
 import type { Discipline } from "@/lib/queries/types";
@@ -47,6 +48,8 @@ export function EventForm({ initial, disciplines, uiLocale }: Props) {
           {err("importance")}
         </div>
       </fieldset>
+
+      <PlaceFieldset initial={v} uiLocale={uiLocale} errors={{ place_name: err("place_name"), lat: err("lat"), lng: err("lng") }} />
 
       <fieldset className="space-y-4">
         <legend className="mb-2 font-display text-lg text-primary">
@@ -97,6 +100,65 @@ export function EventForm({ initial, disciplines, uiLocale }: Props) {
         </button>
       </div>
     </form>
+  );
+}
+
+/**
+ * Where it happened. "No single place" hides the coordinate fields entirely, which is the same
+ * rule the database enforces with place_needs_coords: a place with coordinates, or no place at
+ * all (ADR-025). The hint previews the caveat the site will print under the name.
+ */
+function PlaceFieldset({ initial, uiLocale, errors }: {
+  initial: EventFormValues;
+  uiLocale: Locale;
+  errors: { place_name: React.ReactNode; lat: React.ReactNode; lng: React.ReactNode };
+}) {
+  const t = useTranslations("admin.events");
+  const [precision, setPrecision] = useState<PlacePrecision>(initial.place_precision);
+  const [name, setName] = useState(initial.place_name);
+  const preview = formatPlaceParts(name, precision, uiLocale);
+
+  return (
+    <fieldset className="grid gap-4 sm:grid-cols-2">
+      <legend className="mb-2 font-display text-lg text-primary">{t("form.where")}</legend>
+      <div>
+        <label htmlFor="place_precision" className={label}>{t("form.placePrecision")}</label>
+        <select
+          id="place_precision"
+          name="place_precision"
+          defaultValue={initial.place_precision}
+          aria-describedby="place_precision-hint"
+          onChange={(e) => setPrecision(e.target.value as PlacePrecision)}
+          className={`${input} mt-1`}
+        >
+          {PLACE_PRECISIONS.map((p) => <option key={p} value={p}>{t(`placePrecision.${p}`)}</option>)}
+        </select>
+        <p id="place_precision-hint" className="mt-1 text-xs text-muted">{t("form.placePrecisionHint")}</p>
+      </div>
+      {precision !== "unknown" && (
+        <>
+          <div>
+            <label htmlFor="place_name" className={label}>{t("form.placeName")}</label>
+            <input id="place_name" name="place_name" type="text" defaultValue={initial.place_name} aria-describedby="place_name-hint" onChange={(e) => setName(e.target.value)} className={`${input} mt-1`} />
+            <p id="place_name-hint" className="mt-1 text-xs text-muted">
+              {preview.value && preview.note ? <><strong className="text-secondary">{preview.value}</strong> — {preview.note}</> : t("form.placeNameHint")}
+            </p>
+            {errors.place_name}
+          </div>
+          <div>
+            <label htmlFor="lat" className={label}>{t("form.lat")}</label>
+            <input id="lat" name="lat" type="number" step="any" min={-90} max={90} defaultValue={initial.lat} className={`${input} mt-1 tabular`} />
+            {errors.lat}
+          </div>
+          <div>
+            <label htmlFor="lng" className={label}>{t("form.lng")}</label>
+            <input id="lng" name="lng" type="number" step="any" min={-180} max={180} defaultValue={initial.lng} aria-describedby="lng-hint" className={`${input} mt-1 tabular`} />
+            <p id="lng-hint" className="mt-1 text-xs text-muted">{t("form.coordsHint")}</p>
+            {errors.lng}
+          </div>
+        </>
+      )}
+    </fieldset>
   );
 }
 

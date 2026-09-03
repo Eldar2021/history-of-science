@@ -41,6 +41,25 @@ Kalan tek madde içerik. Bitince M1 yeşil.
       eşiğini yükselt.
 - [ ] İçerik: hat günde 2 taslak; hafta sonunda ~60 olay.
 
+## Ana sayfa: küre (ADR-024, ADR-025)
+
+Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlayıcı: her adım bir öncekine dayanır.
+
+- [x] Şema: `lat`, `lng`, `place_precision`, `place_name` + `place_needs_coords` (0003), ilk 43 olayın
+      yeri (0004), `get_timeline`/`get_event_detail` yer alanlarını döndürür.
+- [x] `formatPlace.ts`: yer metninin tek kaynağı; belirsizlik ayrı not satırı (ADR-025).
+- [x] `/admin` olay formunda yer alanları; "tek bir yer yok" seçilince koordinat alanları kapanır.
+- [ ] Küre bileşeni: stilize (dokusuz) küre, `lat/lng`'ye yumuşak kamera geçişi, olayın yeri hep merkezde.
+- [ ] Pinler: disiplin rengi; `region`/`continent` için kesikli belirsizlik çemberi; `unknown` için pin yok.
+- [ ] Kart + merkeze bakan kuyruk; karta tıklama mevcut yandan sheet'i açar.
+- [ ] İleri/geri (klavye okları, mobilde kaydırma) 43+ olayın tamamını gezer; yıl + `n/toplam` + çağ.
+- [ ] Derin bağlantı `?event=slug`, tarayıcı geri tuşu.
+- [ ] Gidilen yolun küre üzerinde soluk yaylar olarak birikmesi; varsayılanı kapalı "Turu oynat".
+- [ ] Mobil: küre küçük ve üstte, kart ortada (kullanıcı kararı).
+- [ ] Yedekler: ilk olay sunucudan gerçek HTML, LCP statik küre görseli, WebGL yok /
+      `prefers-reduced-motion` → sabit görsel + çalışan düğmeler.
+- [ ] Canlıda Lighthouse mobil ölçümü (küre bütçeyi bozmamalı).
+
 ## Hafta 6: Çeviri hattı ve görseller
 
 - [ ] `web/lib/translate.ts` (Claude API, JSON şema doğrulama, kaynak dili olaydan okur, Kırgızca için
@@ -61,7 +80,6 @@ Kalan tek madde içerik. Bitince M1 yeşil.
 
 ## Hafta 8: İngilizce kapalı beta
 
-- [ ] **Ana sayfa yeniden tasarımı** (kullanıcının fikri bekleniyor; şu anki ana sayfa çok ham).
 - [ ] Alan adı seç ve bağla (S14), yedekleme.
 - [ ] Performans turu: Lighthouse mobil 90+; `cacheComponents` + `"use cache"` geçişini değerlendir (ADR-021).
 - [ ] `about` sayfası (neden, kaynak politikası, düzeltmeler listesi, iletişim) 4 dilde.

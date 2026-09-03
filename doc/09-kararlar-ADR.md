@@ -163,6 +163,59 @@ geçilirse yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
 ---
 
+## ADR-024: Ana sayfa tam ekran bir küre; timeline'a kapı
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Ana sayfa "herhangi bir site" gibi duruyordu (S16'dan beri kullanıcının açık şikâyeti).
+  Site tek soruya cevap veriyordu: **ne zaman**. Bilim tarihinin en çarpıcı hikâyelerinden biri ise
+  coğrafi: bilgi merkezinin İskenderiye → Bağdat → Semerkant → Mainz → Londra diye göç etmesi. Hiçbir
+  zaman çizelgesi bunu gösteremez.
+- **Karar**: Ana sayfa (`/[locale]`) tam ekran, stilize (dokusuz, noktalı) bir küre olur. Olayın yeri
+  **her zaman ekranın merkezinde** durur; kart merkeze bakan kuyruklu bir balon olarak açılır; karta
+  tıklamak mevcut yandan sheet'i açar. İleri/geri düğmeleri (+ klavye okları, mobilde kaydırma) 43+
+  olayın tamamını kronolojik olarak dolaşır ve gidilen yol küre üzerinde soluk yaylar olarak birikir.
+  Açılışta **giriş animasyonu yok**: küre ilk olayın yerine dönmüş hâlde gelir. Sinematik gezinti
+  isteyen için varsayılanı kapalı bir "Turu oynat" düğmesi olur. Tek çıkış kapısı: "Tüm zaman
+  çizelgesini keşfet" → `/[locale]/timeline`.
+- **Gerekçe**: Kullanıcının ilk fikri 2026'dan MÖ 585'e geri sayan bir açılış animasyonu içeriyordu;
+  tartışmada bundan vazgeçildi çünkü zorunlu bekleme ekranı en çok terk ettiren şeydir ve 2600 yılı
+  lineer saymak 40 saniye sürüyordu. Stilize küre gerçekçi doku yerine seçildi: WebGL paketi ve 1-2 MB
+  Dünya dokusu mobil performans bütçesini zorluyordu, ayrıca noktalı küre sitenin sade estetiğine ve
+  açık temaya (ADR-020, ADR-022) daha iyi oturuyor — küre kendi koyu "uzay" bandında yaşar, sayfanın
+  kalanı aydınlık kalır.
+- **Sonuçlar**: Küre yalnızca ilerlemeli bir katman: ilk boyamada ilk olayın metni sunucudan gerçek
+  HTML olarak gelir (SEO + JS'siz durum), LCP statik bir küre görselidir, WebGL yoksa veya
+  `prefers-reduced-motion` açıksa sabit görsel + kart gösterilir ve düğmeler yine çalışır. Her olay
+  derin bağlantılıdır (`?event=slug`), tarayıcı geri tuşu çalışır. Yer verisi ADR-025'te.
+  `08`'deki "Hafta 8 ana sayfa yeniden tasarımı" maddesi bu karara dönüştü.
+
+---
+
+## ADR-025: Yer belirsizliği yıl belirsizliğinin desenini izler
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Küre bir noktaya kamera götürmek zorunda, ama bazı olayların yeri gerçekten bilinmiyor:
+  al-Biruni'nin Dünya'nın yarıçapını ölçtüğü tepe Pencap'ta bir yerdedir, hangisi olduğu belirsiz.
+  Bunu gizlemek sitenin dürüstlük ilkesine aykırı olurdu.
+- **Karar**: Yıl için `year_precision` ne yapıyorsa yer için `place_precision` aynısını yapar:
+  `exact` (tespit edilmiş yapı/alan) · `city` · `region` · `continent` · `unknown`. Belirsizlik
+  **veride** durur, sözcük **UI'dan** gelir: `place_name` çıplak addır ("Semerkant"), "civarı" /
+  "around" / "bir yerde" ekleri `messages/*.json`'dan eklenir. Kürede `exact`/`city` net bir pin,
+  `region`/`continent` yarıçapı kesinliğe göre büyüyen kesikli bir çember, `unknown` pin yok +
+  küre geri çekilmiş olur. Renk **kırmızı değildir**: kırmızı "hata" demektir, bu ise bilgi eksikliği.
+  Kısıt: `unknown` ise koordinat olamaz, değilse zorunludur (`place_needs_coords`).
+- **Gerekçe**: ADR-023 ile birebir aynı mantık — okuyucunun çözmesi gereken kısaltma ya da uydurulmuş
+  kesinlik yok. Enum'u veride tutmak, ileride "MÖ 9000 civarı tarım" gibi olayları kıta düzeyinde
+  gösterebilmemizi sağlar; koordinatı uydurmak zorunda kalmayız.
+- **Sonuçlar**: Migration 0003 şemayı, 0004 ilk 43 olayın backfill'ini taşır; bundan sonra yer
+  `/admin` formundan girilir. `continent` ve `unknown` henüz hiçbir olayda kullanılmıyor ama küre
+  ikisini de çizmek zorundadır — tarih öncesi olaylar geldiğinde gerekecek. Yer metnini biçimleyen
+  tek yer `formatPlace.ts` olur (`formatYear.ts` ile aynı kural).
+
+---
+
 ## Şablon
 
 ```

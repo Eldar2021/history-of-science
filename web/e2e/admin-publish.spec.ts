@@ -37,6 +37,10 @@ test("admin adds a published event and it appears on the site at once", async ({
   await page.goto("/admin/events/new");
   await page.getByLabel("Year", { exact: true }).fill("1543");
   await page.getByLabel("Precision").selectOption("exact");
+  await page.getByLabel("How well the place is known").selectOption("city");
+  await page.getByLabel("Place name").fill("Frombork");
+  await page.getByLabel("Latitude").fill("54.3586");
+  await page.getByLabel("Longitude").fill("19.6807");
   await page.getByLabel("Title").fill(title);
   await page.getByLabel("Summary").fill("Written by the Playwright test; deleted afterwards.");
   await page.getByLabel("Slug").fill(slug);
@@ -45,6 +49,11 @@ test("admin adds a published event and it appears on the site at once", async ({
   await page.getByRole("button", { name: "Save" }).click();
   await expect(page.getByRole("status")).toHaveText(/saved/i);
   await expect(page).toHaveURL(/\/admin\/events\/[0-9a-f-]+\?saved=1/);
+
+  // The place survived the round trip through place_needs_coords and back into the form.
+  await expect(page.getByLabel("Place name")).toHaveValue("Frombork");
+  await expect(page.getByLabel("Latitude")).toHaveValue("54.3586");
+  await expect(page.getByLabel("Longitude")).toHaveValue("19.6807");
 
   // The public site, as a visitor (no cookies): a fresh context.
   const visitor = await page.context().browser()!.newContext();

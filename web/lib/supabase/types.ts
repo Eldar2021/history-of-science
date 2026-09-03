@@ -248,6 +248,7 @@ export type Database = {
           event_id: string
           if_you_were_there: string | null
           locale: Database["public"]["Enums"]["locale_code"]
+          place_name: string | null
           search: unknown
           status: Database["public"]["Enums"]["translation_status"]
           summary: string
@@ -260,6 +261,7 @@ export type Database = {
           event_id: string
           if_you_were_there?: string | null
           locale: Database["public"]["Enums"]["locale_code"]
+          place_name?: string | null
           search?: unknown
           status?: Database["public"]["Enums"]["translation_status"]
           summary: string
@@ -272,6 +274,7 @@ export type Database = {
           event_id?: string
           if_you_were_there?: string | null
           locale?: Database["public"]["Enums"]["locale_code"]
+          place_name?: string | null
           search?: unknown
           status?: Database["public"]["Enums"]["translation_status"]
           summary?: string
@@ -302,6 +305,9 @@ export type Database = {
           image_path: string | null
           image_source_url: string | null
           importance: number
+          lat: number | null
+          lng: number | null
+          place_precision: Database["public"]["Enums"]["place_precision"]
           precision: Database["public"]["Enums"]["year_precision"]
           research_note: string | null
           slug: string
@@ -323,6 +329,9 @@ export type Database = {
           image_path?: string | null
           image_source_url?: string | null
           importance?: number
+          lat?: number | null
+          lng?: number | null
+          place_precision?: Database["public"]["Enums"]["place_precision"]
           precision?: Database["public"]["Enums"]["year_precision"]
           research_note?: string | null
           slug: string
@@ -344,6 +353,9 @@ export type Database = {
           image_path?: string | null
           image_source_url?: string | null
           importance?: number
+          lat?: number | null
+          lng?: number | null
+          place_precision?: Database["public"]["Enums"]["place_precision"]
           precision?: Database["public"]["Enums"]["year_precision"]
           research_note?: string | null
           slug?: string
@@ -529,7 +541,11 @@ export type Database = {
           image_path: string
           importance: number
           is_fallback: boolean
+          lat: number
+          lng: number
           locale_used: Database["public"]["Enums"]["locale_code"]
+          place_name: string
+          place_precision: Database["public"]["Enums"]["place_precision"]
           precision: Database["public"]["Enums"]["year_precision"]
           slug: string
           summary: string
@@ -541,6 +557,7 @@ export type Database = {
       }
       is_admin: { Args: never; Returns: boolean }
       is_staff: { Args: never; Returns: boolean }
+      seed_event_places: { Args: never; Returns: undefined }
       unaccent: { Args: { "": string }; Returns: string }
     }
     Enums: {
@@ -548,6 +565,7 @@ export type Database = {
       content_status: "draft" | "review" | "published"
       link_type: "builds_on" | "contradicts" | "parallel"
       locale_code: "en" | "ru" | "ky" | "tr"
+      place_precision: "exact" | "city" | "region" | "continent" | "unknown"
       translation_status: "machine" | "human" | "reviewed"
       year_precision: "exact" | "circa" | "decade" | "century"
     }
@@ -684,6 +702,7 @@ export const Constants = {
       content_status: ["draft", "review", "published"],
       link_type: ["builds_on", "contradicts", "parallel"],
       locale_code: ["en", "ru", "ky", "tr"],
+      place_precision: ["exact", "city", "region", "continent", "unknown"],
       translation_status: ["machine", "human", "reviewed"],
       year_precision: ["exact", "circa", "decade", "century"],
     },

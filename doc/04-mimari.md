@@ -53,24 +53,30 @@ backend/
 Gerçek kaynak `backend/supabase/migrations/`. Desen: her varlığın dilden bağımsız bir tablosu ve bir
 `*_translations` tablosu var (ADR-003). `locale_code` enum: `en | ru | ky | tr`.
 
-| Tablo                                           | Taşıdığı                                                                                                                                                            |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `eras`                                          | 8 çağ: slug, start_year, end_year, sort_order, color (token adı)                                                                                                    |
-| `era_translations`                              | name, tagline, description                                                                                                                                          |
-| `disciplines`                                   | 8 disiplin: slug, color, icon                                                                                                                                       |
-| `discipline_translations`                       | name                                                                                                                                                                |
-| `events`                                        | slug, year, year_end, `"precision"`, era_id, importance 1-5, status, drafted_by, research_note, source_locale, görsel + lisans alanları, created/updated/deleted_at |
-| `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, status, search (tsvector)                                                                       |
-| `event_disciplines`                             | olay ↔ disiplin                                                                                                                                                     |
-| `people`, `person_translations`, `event_people` | Hafta 9                                                                                                                                                             |
-| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır (ADR-007)                                                                                                    |
-| `sources`                                       | event_id, title, url, kind                                                                                                                                          |
-| `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                                                       |
+| Tablo                                           | Taşıdığı                                                                                                                                                                                           |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `eras`                                          | 8 çağ: slug, start_year, end_year, sort_order, color (token adı)                                                                                                                                   |
+| `era_translations`                              | name, tagline, description                                                                                                                                                                         |
+| `disciplines`                                   | 8 disiplin: slug, color, icon                                                                                                                                                                      |
+| `discipline_translations`                       | name                                                                                                                                                                                               |
+| `events`                                        | slug, year, year_end, `"precision"`, era_id, importance 1-5, status, drafted_by, research_note, source_locale, görsel + lisans alanları, `lat`/`lng`/`place_precision`, created/updated/deleted_at |
+| `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, `place_name`, status, search (tsvector)                                                                                        |
+| `event_disciplines`                             | olay ↔ disiplin                                                                                                                                                                                    |
+| `people`, `person_translations`, `event_people` | Hafta 9                                                                                                                                                                                            |
+| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır (ADR-007)                                                                                                                                   |
+| `sources`                                       | event_id, title, url, kind                                                                                                                                                                         |
+| `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                                                                                      |
 
-Enum'lar: `year_precision` (exact/circa/decade/century), `content_status` (draft/review/published),
+Enum'lar: `year_precision` (exact/circa/decade/century), `place_precision`
+(exact/city/region/continent/unknown), `content_status` (draft/review/published),
 `author_kind` (human/ai), `translation_status` (machine/human/reviewed), `link_type`.
 
 **Yıl tamsayıdır, negatif = MÖ, sıfır yılı yoktur** (ADR-004). Formatlama yalnızca `formatYear.ts`'de.
+
+**Yer, yılın aynı desenini izler** (ADR-025): belirsizlik veride enum olarak durur
+(`place_precision`), sözcük UI'dan gelir. `place_name` **çıplak addır** ("Semerkant"); "civarı",
+"around", "bir yerde" gibi ekler `messages/*.json`'dan eklenir, veritabanına yazılmaz. `unknown`
+ise koordinat olamaz, diğer durumlarda zorunludur (`place_needs_coords`).
 
 **Tuzak**: Postgres'te `precision` anahtar kelime. `returns table` içinde `"precision"` diye tırnaklı
 yazılır; yeni fonksiyonlarda da aynısı gerekir.
@@ -78,7 +84,8 @@ yazılır; yeni fonksiyonlarda da aynısı gerekir.
 ### Okuma fonksiyonları
 
 - `get_timeline(locale)`: yayınlanmış olaylar + istenen dilde çeviri; yoksa `source_locale` çevirisi ve
-  `is_fallback = true`.
+  `is_fallback = true`. Yer alanları (`lat`, `lng`, `place_precision`, `place_name`) da burada gelir;
+  küre ana sayfası tek çağrıyla beslenir. `place_name` çeviride yoksa `source_locale`'e düşer.
 - `get_event_detail(slug, locale)`: olay + çeviri + disiplinler + kişiler + bağlantılar (iki yönlü) +
   kaynaklar, tek JSON. Anon rolde taslak `null` döner.
 - `get_chain(slug, locale, depth)`: `builds_on` zinciri, derinlik 6, döngü koruması (Hafta 10'da kullanılacak).

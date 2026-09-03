@@ -128,6 +128,13 @@
         "decade": "On yıl",
         "century": "Yüzyıl"
       },
+      "placePrecision": {
+        "exact": "Kesin nokta",
+        "city": "Şehir",
+        "region": "Bölge",
+        "continent": "Geniş bölge",
+        "unknown": "Tek bir yer yok"
+      },
       "importanceLevels": {
         "1": "dipnot, sadece yakınlaşınca",
         "2": "küçük",
@@ -143,6 +150,14 @@
         "yearEndHint": "Sadece süreçler için (1925–1927).",
         "precision": "Kesinlik",
         "importance": "Önem",
+        "where": "Nerede",
+        "placePrecision": "Yer ne kadar biliniyor",
+        "placePrecisionHint": "Yer uydurma; bilinmiyorsa \"tek bir yer yok\" seç.",
+        "placeName": "Yer adı",
+        "placeNameHint": "Çıplak ad, \"civarı\" ekleme: Semerkant, Orta Asya.",
+        "lat": "Enlem",
+        "lng": "Boylam",
+        "coordsHint": "Ondalık derece. Kuzey ve doğu artı.",
         "text": "Metin",
         "title": "Başlık",
         "summary": "Özet",
@@ -172,6 +187,9 @@
         "yearEndInvalid": "Tam sayı gir ya da boş bırak.",
         "yearEndBefore": "Bitiş yılı başlangıçtan önce.",
         "importanceRange": "Önem 1 ile 5 arasında.",
+        "placeNameRequired": "Yere bir ad ver ya da \"tek bir yer yok\" seç.",
+        "latInvalid": "Enlem -90 ile 90 arasında.",
+        "lngInvalid": "Boylam -180 ile 180 arasında.",
         "titleRequired": "Başlık zorunlu.",
         "summaryRequired": "Özet zorunlu.",
         "disciplineRequired": "En az bir disiplin seç.",
