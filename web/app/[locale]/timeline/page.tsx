@@ -13,6 +13,7 @@ import { YearIndicator } from "@/components/timeline/YearIndicator";
 import { DeepLink } from "@/components/timeline/DeepLink";
 import { DisciplineFilter } from "@/components/timeline/DisciplineFilter";
 import { Minimap } from "@/components/timeline/Minimap";
+import { FallOverlay } from "@/components/timeline/FallOverlay";
 
 export const revalidate = 300;
 
@@ -67,6 +68,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
       />
       <Suspense fallback={null}>
         <DeepLink />
+        {events[0] && <FallOverlay locale={locale} firstYear={events[0].year} />}
       </Suspense>
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-24 pt-4 md:pb-16">
         <Suspense fallback={null}>

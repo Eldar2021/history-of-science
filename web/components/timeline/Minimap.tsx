@@ -77,7 +77,7 @@ export function Minimap({ years, slugs, eras, locale, orientation, className = "
         aria-label={desc}
         onPointerDown={jump}
         onPointerMove={(e) => { if (e.buttons === 1) jump(e); }}
-        className="h-full w-full cursor-pointer touch-none select-none"
+        className="h-full w-full cursor-pointer touch-none select-none overflow-visible"
       >
         {/* on-screen band */}
         {vertical
