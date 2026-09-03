@@ -9,28 +9,93 @@
   "body": "### The scene\n\nRome in the 160s, at the height of the empire under Marcus Aurelius. Medicine is a noisy marketplace of rival schools competing for rich patients. The Hippocratic writings, five centuries old, say disease has natural causes, but what goes on inside a body is guesswork, because almost nobody has looked. Only once, in Alexandria around 300 BCE, had Herophilus and Erasistratus systematically opened human corpses; since then law and custom forbade it. Galen, born in 129 in Pergamon, had studied philosophy and medicine, travelled to Smyrna, Corinth and Alexandria, and in 157 taken the post of surgeon to Pergamon's gladiators. He later called their wounds windows into the body.\n\n### What happened\n\nGalen arrived in Rome in 162 and made his name with public anatomy. He dissected pigs, goats and Barbary macaques, sometimes alive. In one famous demonstration he tied or cut the nerves that run to the voice box of a squealing pig, and the squealing stopped: a nerve from the brain, not the heart or the throat, controls the voice. He tied off an artery in a living animal, opened it, and found it full of blood, refuting the old Alexandrian claim that arteries carry only air. He cut the spinal cord at different levels and mapped which limbs went limp, evidence that the brain, not the heart, commands the body. He left Rome in 166, was recalled by the emperor in 169, and while Marcus Aurelius was away at war (169-176) wrote many of his major books, including *On Anatomical Procedures* and *On the Usefulness of the Parts*.\n\n### Why it was hard\n\nThe problem was the bodies. Because he could not open a human, Galen read the human body off an ape's, and that is like learning a city from the map of the neighbouring town: most streets match, a few do not, and you cannot tell which without visiting. The analogy breaks because a mapmaker knows the map is of another town; for thirteen centuries readers forgot that Galen's human was partly a macaque. So the human liver got five lobes, a net of vessels found in sheep and oxen was placed under the human brain, and the heart got invisible pores in the wall between its halves, because blood had to get across somehow. In his physiology the liver turned food into blood, which flowed outward and was used up like fuel; blood did not circulate. Over all this sat the four humours inherited from Hippocrates, a framework that could explain any illness and therefore could not be tested. None of this was foolish. Without a microscope or any way to measure blood, invisible pores were as reasonable as anything else on offer. What was missing was not brains but bodies and numbers.\n\n### What it opened\n\nGalen's books outlived the empire. In Baghdad, Hunayn ibn Ishaq and his team translated 129 of them into Syriac and Arabic (c. 830-870). Al-Razi wrote *Doubts about Galen*; Ibn Sina's *Canon* (1025) folded Galen into the textbook that trained doctors from Bukhara to Paris; in the 1200s Ibn al-Nafis of Damascus rejected the pores and described blood passing through the lungs. Europe received Galen through Arabic and later Greek, and taught him in every medical school. Then his own method was turned on his text: Vesalius dissected humans in 1543 and drew the differences, and Harvey in 1628 measured what the heart pumps and showed that blood circulates. Bloodletting for \"excess humour\" lasted into the 1800s. What survived was Galen's rule: cut, look, test, then argue.",
   "why_it_matters": "Galen made anatomy the foundation of medicine and demanded that claims be shown on the body, not just argued. His errors lasted so long because nobody repeated his method on humans for over a thousand years; when Vesalius and Harvey finally did, his own tools undid his conclusions.",
   "if_you_were_there": "Nobody knew that blood circulates or that the heart is a pump; most doctors had never seen a human organ, and the standard treatment for a fever was to drain some blood.",
-  "disciplines": ["medicine"],
-  "people": [
-    { "name": "Galen of Pergamon", "role": "physician, anatomist and author; Rome from 162" },
-    { "name": "Hippocrates", "role": "predecessor; natural causes of disease and the four humours" },
-    { "name": "Herophilus", "role": "Alexandrian anatomist who dissected humans, c. 300 BCE" },
-    { "name": "Erasistratus", "role": "Alexandrian physiologist whose claim that arteries carry air Galen refuted" },
-    { "name": "Marcus Aurelius", "role": "emperor and patron; Galen served his household from 169" },
-    { "name": "Hunayn ibn Ishaq", "role": "translated 129 Galenic works into Syriac and Arabic, Baghdad c. 830-870" },
-    { "name": "Ibn al-Nafis", "role": "13th-century critic who rejected the septum pores and described pulmonary transit" },
-    { "name": "Andreas Vesalius", "role": "corrected Galen's anatomy by human dissection, 1543" },
-    { "name": "William Harvey", "role": "showed blood circulates, replacing Galen's physiology, 1628" }
+  "disciplines": [
+    "medicine"
   ],
-  "builds_on": ["hippocrates-natural-disease", "aristotle-lyceum", "plato-academy"],
-  "enables": ["ibn-sina-canon?", "vesalius-fabrica?", "harvey-circulation?"],
+  "people": [
+    {
+      "name": "Galen of Pergamon",
+      "role": "physician, anatomist and author; Rome from 162"
+    },
+    {
+      "name": "Hippocrates",
+      "role": "predecessor; natural causes of disease and the four humours"
+    },
+    {
+      "name": "Herophilus",
+      "role": "Alexandrian anatomist who dissected humans, c. 300 BCE"
+    },
+    {
+      "name": "Erasistratus",
+      "role": "Alexandrian physiologist whose claim that arteries carry air Galen refuted"
+    },
+    {
+      "name": "Marcus Aurelius",
+      "role": "emperor and patron; Galen served his household from 169"
+    },
+    {
+      "name": "Hunayn ibn Ishaq",
+      "role": "translated 129 Galenic works into Syriac and Arabic, Baghdad c. 830-870"
+    },
+    {
+      "name": "Ibn al-Nafis",
+      "role": "13th-century critic who rejected the septum pores and described pulmonary transit"
+    },
+    {
+      "name": "Andreas Vesalius",
+      "role": "corrected Galen's anatomy by human dissection, 1543"
+    },
+    {
+      "name": "William Harvey",
+      "role": "showed blood circulates, replacing Galen's physiology, 1628"
+    }
+  ],
+  "builds_on": [
+    "hippocrates-natural-disease",
+    "aristotle-lyceum",
+    "plato-academy"
+  ],
+  "enables": [
+    "ibn-sina-canon?",
+    "vesalius-fabrica?",
+    "harvey-circulation?"
+  ],
   "sources": [
-    { "title": "Galen | Biography, Achievements, & Facts (Britannica)", "url": "https://www.britannica.com/biography/Galen", "kind": "encyclopedia" },
-    { "title": "Galen (Stanford Encyclopedia of Philosophy)", "url": "https://plato.stanford.edu/entries/galen/", "kind": "encyclopedia" },
-    { "title": "Galen (English Wikipedia)", "url": "https://en.wikipedia.org/wiki/Galen", "kind": "encyclopedia" },
-    { "title": "Galen (Internet Encyclopedia of Philosophy)", "url": "https://iep.utm.edu/galen/", "kind": "encyclopedia" },
-    { "title": "Herophilos (English Wikipedia)", "url": "https://en.wikipedia.org/wiki/Herophilos", "kind": "encyclopedia" },
-    { "title": "Galen, macaques, and the growth of the discipline of human anatomy (Hektoen International)", "url": "https://hekint.org/2018/10/29/galen-macaques-and-the-growth-of-the-discipline-of-human-anatomy/", "kind": "article" },
-    { "title": "Vivian Nutton, Ancient Medicine, 2nd ed., Routledge, 2013", "url": "https://www.routledge.com/Ancient-Medicine/Nutton/p/book/9780415520959", "kind": "book" }
+    {
+      "title": "Galen | Biography, Achievements, & Facts (Britannica)",
+      "url": "https://www.britannica.com/biography/Galen",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Galen (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/galen/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Galen (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Galen",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Galen (Internet Encyclopedia of Philosophy)",
+      "url": "https://iep.utm.edu/galen/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Herophilos (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Herophilos",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Galen, macaques, and the growth of the discipline of human anatomy (Hektoen International)",
+      "url": "https://hekint.org/2018/10/29/galen-macaques-and-the-growth-of-the-discipline-of-human-anatomy/",
+      "kind": "article"
+    },
+    {
+      "title": "Vivian Nutton, Ancient Medicine, 2nd ed., Routledge, 2013",
+      "url": "https://www.routledge.com/Ancient-Medicine/Nutton/p/book/9780415520959",
+      "kind": "book"
+    }
   ],
   "verify_note_tr": "Yıl 160 'circa' bir çapa seçimidir: gladyatör cerrahlığı 157, Roma'ya varış 162, ayrılış 166, geri çağrılma 169, ana anatomi eserleri 169-176 (SEP, Wikipedia, IEP). İstersen year_end=200 ile aralık göster; ölüm yılı da tartışmalı (c. 200 Suda, c. 216 Arap kaynakları, Nutton 216'yı tercih ediyor). Britannica sayfası çekilemedi (403), Hektoen makalesi ve domuz/atardamar gösterileri arama özetlerinden alındı; Hunayn'ın 129 eser çevirdiği ve Ibn al-Nafis'in 1200'lerdeki akciğer geçişi iddiası tek kaynaklı, ikinci kaynakla doğrula.",
   "drafted_by": "ai",

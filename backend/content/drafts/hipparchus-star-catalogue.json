@@ -9,23 +9,74 @@
   "body": "### The scene\n\nAround 150 BCE the Greek world is being absorbed by Rome, and the island of Rhodes is a wealthy trading crossroads with a clear sky. A man born in Nicaea, in what is now northwest Turkey, spends his working life there watching the heavens. His dated observations run from about 147 to 127 BCE, so the year on this card is a rough midpoint, not a single event. Almost nothing he wrote survives; we know him mostly through Ptolemy, who three centuries later called him his most important predecessor.\n\n### What happened\n\nThree things, at least. First, Hipparchus measured the positions of hundreds of stars, roughly 850 by one ancient count, and sorted them by brightness into six classes. Each star was given coordinates, the way a town is placed on a map, and that brightness scale is still, in modified form, the one astronomers use. Second, comparing his positions with those recorded in Alexandria about 150 years earlier by Timocharis and Aristyllus, and with Babylonian records reaching back centuries, he found that the whole sky had shifted slightly relative to the points where the Sun crosses the celestial equator. He put the drift at not less than one degree per century. This is precession: the Earth's axis wobbles slowly, like a spinning top, and traces a full circle in about 26,000 years. Third, to turn angles in the sky into lengths and back, he built a table of chords, the first trigonometric table we know of, and used it with eclipse timings to work out that the Moon lies roughly sixty Earth-radii away, close to the true figure.\n\nIt is like laying two photographs of the same street, taken a century apart, on top of each other to see what has moved. The analogy breaks at the crucial point: in a photograph the things that shift are the ones that changed, but the stars had not moved at all; it was the camera, the Earth itself, that had turned.\n\n### Why it was hard\n\nA degree per century is invisible in a lifetime. To see it you need someone else's careful numbers from long before you were born, and you need to trust them. Hipparchus had them because Babylonian astronomers had recorded eclipses and lunar positions for centuries, and because Greek observers a few generations earlier had begun writing down star positions. As far as we can tell, he was the first Greek to take Babylonian arithmetic methods and observations seriously and fuse them with Greek geometry. He also needed instruments, probably a sighting tube called a dioptra, and a model of the Sun's and Moon's motion built from circles to compare against. The story told by Pliny that a new star appeared in 134 BCE and prompted the catalogue cannot be checked and may be Pliny's embellishment; a 2022 claim that fragments of the catalogue survive in a reused medieval manuscript is still being debated.\n\n### What it opened\n\nPtolemy's *Almagest* is built on Hipparchus' star positions, his solar theory and his chord table; without him there would be no *Almagest* as we know it. Indian astronomers, Aryabhata among them, turned chords into the sine tables from which our trigonometry descends. Ulugh Beg in Samarkand and Tycho Brahe in Denmark were still redoing his catalogue with better instruments. And precession sat in the astronomical tables as an awkward, unexplained fact for eighteen centuries, until Newton showed it was the Sun and Moon tugging on the Earth's equatorial bulge.",
   "why_it_matters": "It showed that patient records from different cultures and centuries could reveal a motion no single life could see. Ptolemy's astronomy, and through it fifteen centuries of star charts and calendars, rests on his numbers.",
   "if_you_were_there": "Everyone assumed the fixed stars were fixed for good; the idea that the pole star of your grandparents' time was slowly drifting away from the pole would have sounded like a fable.",
-  "disciplines": ["astronomy", "mathematics"],
-  "people": [
-    { "name": "Hipparchus of Nicaea", "role": "astronomer on Rhodes; star catalogue, precession, chord table" },
-    { "name": "Timocharis of Alexandria", "role": "earlier observer whose star positions made the comparison possible" },
-    { "name": "Aristyllus", "role": "earlier Alexandrian observer of star positions" },
-    { "name": "Babylonian (Chaldean) astronomers", "role": "keepers of centuries of eclipse and lunar records that Hipparchus used" },
-    { "name": "Eudoxus and Aratus", "role": "authors of the star descriptions Hipparchus corrected in his one surviving work" },
-    { "name": "Claudius Ptolemy", "role": "preserved and built on Hipparchus' work three centuries later" }
+  "disciplines": [
+    "astronomy",
+    "mathematics"
   ],
-  "builds_on": ["euclid-elements", "eratosthenes-earth-circumference", "pythagoras-school"],
-  "enables": ["ptolemy-almagest", "aryabhata", "ulugh-beg-observatory", "copernicus-heliocentrism", "newton-principia"],
+  "people": [
+    {
+      "name": "Hipparchus of Nicaea",
+      "role": "astronomer on Rhodes; star catalogue, precession, chord table"
+    },
+    {
+      "name": "Timocharis of Alexandria",
+      "role": "earlier observer whose star positions made the comparison possible"
+    },
+    {
+      "name": "Aristyllus",
+      "role": "earlier Alexandrian observer of star positions"
+    },
+    {
+      "name": "Babylonian (Chaldean) astronomers",
+      "role": "keepers of centuries of eclipse and lunar records that Hipparchus used"
+    },
+    {
+      "name": "Eudoxus and Aratus",
+      "role": "authors of the star descriptions Hipparchus corrected in his one surviving work"
+    },
+    {
+      "name": "Claudius Ptolemy",
+      "role": "preserved and built on Hipparchus' work three centuries later"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "eratosthenes-earth-circumference",
+    "pythagoras-school"
+  ],
+  "enables": [
+    "ptolemy-almagest",
+    "aryabhata",
+    "ulugh-beg-observatory",
+    "copernicus-heliocentrism",
+    "newton-principia"
+  ],
   "sources": [
-    { "title": "Hipparchus (English Wikipedia)", "url": "https://en.wikipedia.org/wiki/Hipparchus", "kind": "encyclopedia" },
-    { "title": "Hipparchus, Greek astronomer (Britannica)", "url": "https://www.britannica.com/biography/Hipparchus-Greek-astronomer", "kind": "encyclopedia" },
-    { "title": "Precession of the equinoxes (Britannica)", "url": "https://www.britannica.com/science/precession-of-the-equinoxes", "kind": "encyclopedia" },
-    { "title": "Hipparchus Biography, Starry Messenger (Cambridge University, Dept. of History and Philosophy of Science)", "url": "https://www.sites.hps.cam.ac.uk/starry/hipparchus.html", "kind": "article" },
-    { "title": "G. J. Toomer, The Chord Table of Hipparchus and the Early History of Greek Trigonometry, Centaurus 18 (1974)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0498.1974.tb00205.x", "kind": "paper" }
+    {
+      "title": "Hipparchus (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hipparchus",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Hipparchus, Greek astronomer (Britannica)",
+      "url": "https://www.britannica.com/biography/Hipparchus-Greek-astronomer",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Precession of the equinoxes (Britannica)",
+      "url": "https://www.britannica.com/science/precession-of-the-equinoxes",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Hipparchus Biography, Starry Messenger (Cambridge University, Dept. of History and Philosophy of Science)",
+      "url": "https://www.sites.hps.cam.ac.uk/starry/hipparchus.html",
+      "kind": "article"
+    },
+    {
+      "title": "G. J. Toomer, The Chord Table of Hipparchus and the Early History of Greek Trigonometry, Centaurus 18 (1974)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0498.1974.tb00205.x",
+      "kind": "paper"
+    }
   ],
   "verify_note_tr": "Hipparkos'un doğum/ölüm yılları (~190-120) kesin değil; gözlemleri 147-127 arası, katalog ~129, presesyon ~127. -150 çekirdek listeye uyuyor ama 'circa' şart. Yıldız sayısı 850 (Plinius) ile Batlamyus'un 1025'i arasında değişir; Ay uzaklığı 'yaklaşık 60 Dünya yarıçapı' ve Aryabhata'ya giden sinüs tablosu bağlantısı ikinci kaynakla doğrulanmalı. Britannica sayfaları doğrudan okunamadı, arama özetlerine dayanıyor; Toomer makalesinin DOI'sini kontrol et.",
   "drafted_by": "ai",

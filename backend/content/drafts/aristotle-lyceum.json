@@ -9,23 +9,74 @@
   "body": "### The scene\n\nIn 335 BCE Athens has just been forced to accept Macedonian rule, and a fifty-year-old northerner returns to the city where he had spent twenty years as Plato's student. Aristotle is not an Athenian citizen, so he cannot own land. He begins teaching instead in a public gymnasium and grove dedicated to Apollo Lyceus, walking its covered path with his students; that habit is why they were later called Peripatetics, \"the walkers.\" With him is Theophrastus, a younger man from the island of Lesbos whom he had met a decade earlier.\n\n### What happened\n\nThe decade before is the key. After Plato died in 347, Aristotle left Athens for Assos and then Lesbos, where he and Theophrastus spent about two years around a shallow lagoon at Pyrrha, looking at what lived in it. He cut open fish, sea urchins and cuttlefish, followed chick embryos day by day, and questioned fishermen, sponge divers and beekeepers about what they saw. Back in Athens, the Lyceum turned this into a programme. Its members built a library, gathered descriptions of 158 city constitutions, and produced the biological works that make up about a quarter of what survives of Aristotle: the *History of Animals*, the *Parts of Animals*, the *Generation of Animals*. Around 500 kinds of animal are described. Some observations were not confirmed until modern times: that one kind of dogfish nourishes its young through something like a placenta, that an octopus changes colour when disturbed, that a four-day chick embryo already has a beating heart. Alongside this, Aristotle wrote the first systematic logic, the rules for what follows from what.\n\nImagine a census taker going door to door through the living world, writing down for each kind of creature what parts it has and how it eats, breeds and moves. The analogy breaks because a census only records. Aristotle also asked, of every part, what it was for, and that question about purpose is what made the work biology rather than a list.\n\n### Why it was hard\n\nNo one had done this before, so there was no vocabulary, no method and no reason to think animals deserved it. Aristotle answered the last point directly: even in the humblest creatures, he wrote, there is something wonderful. The work needed money and time, a community rather than one man, and informants whose knowledge was never written down. It also produced errors that lasted just as long as the successes. He thought the heart was the seat of thought and the brain a cooling organ, that women have fewer teeth than men, and that some animals arise spontaneously from mud. His physics was wrong in ways that held for nearly two thousand years: heavier things fall faster, every element has a natural place, a vacuum is impossible, and the Earth sits still at the centre of nested spheres. Philoponus, Buridan, Galileo and Newton had to dismantle that picture piece by piece.\n\n### What it opened\n\nTheophrastus led the school for thirty-six years and founded botany. Galen's medicine, the scholars of Baghdad, Ibn Sina and the medieval universities all argued with Aristotle rather than around him. Linnaeus borrowed his habit of sorting by shared features; Darwin, reading him late in life, called his own heroes Linnaeus and Cuvier \"mere schoolboys to old Aristotle.\" Systematic observation, dissection and comparison have been the working method of biology ever since.",
   "why_it_matters": "It set the working habits of biology: look closely, dissect, compare, sort, and ask what each part is for. Its authority was so complete that its mistakes in physics also stood for nearly two millennia, which is a lesson about authority as much as about Aristotle.",
   "if_you_were_there": "No one had a word for biology; animals were food, omens or fables, and the idea that a sea urchin deserved careful description would have seemed strange to almost everyone.",
-  "disciplines": ["biology", "physics"],
-  "people": [
-    { "name": "Aristotle", "role": "founder of the Lyceum; biology, logic, physics" },
-    { "name": "Theophrastus", "role": "co-founder and successor; founder of botany" },
-    { "name": "Plato", "role": "teacher for twenty years at the Academy" },
-    { "name": "Eudemus of Rhodes", "role": "Lyceum member; first historian of mathematics" },
-    { "name": "Strato of Lampsacus", "role": "later head of the Lyceum; experimental physics" },
-    { "name": "Fishermen, sponge divers and beekeepers of Lesbos", "role": "unnamed informants whose knowledge fed the History of Animals" }
+  "disciplines": [
+    "biology",
+    "physics"
   ],
-  "builds_on": ["plato-academy", "hippocrates-natural-disease", "democritus-atoms"],
-  "enables": ["galen-anatomy", "ptolemy-almagest", "copernicus-heliocentrism", "linnaeus-classification?", "darwin-origin-of-species?"],
+  "people": [
+    {
+      "name": "Aristotle",
+      "role": "founder of the Lyceum; biology, logic, physics"
+    },
+    {
+      "name": "Theophrastus",
+      "role": "co-founder and successor; founder of botany"
+    },
+    {
+      "name": "Plato",
+      "role": "teacher for twenty years at the Academy"
+    },
+    {
+      "name": "Eudemus of Rhodes",
+      "role": "Lyceum member; first historian of mathematics"
+    },
+    {
+      "name": "Strato of Lampsacus",
+      "role": "later head of the Lyceum; experimental physics"
+    },
+    {
+      "name": "Fishermen, sponge divers and beekeepers of Lesbos",
+      "role": "unnamed informants whose knowledge fed the History of Animals"
+    }
+  ],
+  "builds_on": [
+    "plato-academy",
+    "hippocrates-natural-disease",
+    "democritus-atoms"
+  ],
+  "enables": [
+    "galen-anatomy",
+    "ptolemy-almagest",
+    "copernicus-heliocentrism",
+    "linnaeus-classification?",
+    "darwin-origin-of-species?"
+  ],
   "sources": [
-    { "title": "Aristotle's Biology (Stanford Encyclopedia of Philosophy)", "url": "https://plato.stanford.edu/entries/aristotle-biology/", "kind": "encyclopedia" },
-    { "title": "Lyceum (classical) (English Wikipedia)", "url": "https://en.wikipedia.org/wiki/Lyceum_(classical)", "kind": "encyclopedia" },
-    { "title": "Aristotle's biology (English Wikipedia)", "url": "https://en.wikipedia.org/wiki/Aristotle%27s_biology", "kind": "encyclopedia" },
-    { "title": "Aristotelian physics (English Wikipedia)", "url": "https://en.wikipedia.org/wiki/Aristotelian_physics", "kind": "encyclopedia" },
-    { "title": "Armand Marie Leroi, The Lagoon: How Aristotle Invented Science, Viking, 2014", "url": "https://en.wikipedia.org/wiki/The_Lagoon:_How_Aristotle_Invented_Science", "kind": "book" }
+    {
+      "title": "Aristotle's Biology (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/aristotle-biology/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Lyceum (classical) (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lyceum_(classical)",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Aristotle's biology (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aristotle%27s_biology",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Aristotelian physics (English Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aristotelian_physics",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Armand Marie Leroi, The Lagoon: How Aristotle Invented Science, Viking, 2014",
+      "url": "https://en.wikipedia.org/wiki/The_Lagoon:_How_Aristotle_Invented_Science",
+      "kind": "book"
+    }
   ],
   "verify_note_tr": "Lyceum'un başlangıcı kaynaklarda 335 ya da 334 olarak geçiyor, 'circa' bırakıldı. Lesbos'taki 'iki yıl' ve Pyrrha lagünü vurgusu büyük ölçüde Leroi'nin kitabına dayanır; SEP yalnızca Lesbos'ta önemli gözlemler yapıldığını söylüyor. Darwin'in 'mere schoolboys to old Aristotle' sözü 1882'de William Ogle'a mektuptan; Britannica'nın Aristoteles sayfası doğrudan okunamadı, ikinci kaynak olarak kontrol et.",
   "drafted_by": "ai",

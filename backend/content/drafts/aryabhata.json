@@ -9,20 +9,60 @@
   "body": "### The scene\n\nIn 499 the Gupta empire is at its height, and its capital Pataliputra, today's Patna on the Ganges, is one of the great centers of learning in Asia. Astronomy there is a working craft: the calendar, the dates of festivals, the timing of eclipses all depend on it. Over the previous centuries Indian astronomers had absorbed Greek planetary models, arriving through trade and translation, and combined them with their own long tradition of number and geometry. A young scholar named Aryabhata sits down to compress all of this into verse.\n\n### What happened\n\nThe Aryabhatiya is a textbook meant to be memorized. It has 118 verses in four parts: a compact code for writing numbers and a table of values; mathematics; the reckoning of time and planetary motion; and the sphere, including eclipses. Aryabhata dates it himself: he writes that he was 23 when 3,600 years of the current age had passed, which lands on 499. That is why the year is exact when almost nothing else about his life is.\n\nThree things stand out. First, pi. One verse says: add four to a hundred, multiply by eight, add sixty-two thousand, and you have approximately the circumference of a circle whose diameter is twenty thousand. That is 3.1416, and the word \"approximately\" is his own. Second, a table of \"half-chords\" for twenty-four angles, the earliest known sine table; the Sanskrit word jya passed through Arabic into Latin and became our word \"sine\". Third, the Earth turns. Just as a person in a moving boat sees the shore slide backward, he writes, so people on the ground see the fixed stars drift west. He also explains eclipses as shadows, the Moon entering the Earth's shadow and the Moon covering the Sun, and says the Moon and planets shine by reflected sunlight.\n\nHis boat is the right analogy, and it is his own. Where it breaks: on a boat you feel the wind and the rocking, while on Earth we feel nothing at all, and that missing feeling was the strongest argument against him for a thousand years.\n\n### Why it was hard\n\nA rotating Earth contradicted the entire learned world, from Ptolemy in Alexandria to Aryabhata's own successors. Brahmagupta, a century later, borrowed heavily from the Aryabhatiya and still rejected the rotation outright; some later commentators even rewrote the verse to make the sky turn again. Was Aryabhata a heliocentrist? A few historians (van der Waerden, Thurston) have argued that his planetary calculations hide a Sun-centered scheme; most, including Kim Plofker, say no: his Earth spins in place at the center of the universe. The work needed three things that came together in Gupta India: Greek geometric models of the planets, an Indian number system that already worked by place value (Aryabhata uses no symbol for zero, but his code for numbers assumes the idea), and an audience of calculators who wanted tables, not proofs.\n\n### What it opened\n\nIndian astronomy wrote in his shadow for a thousand years: Bhaskara I's commentary, Brahmagupta's great treatise, the Kerala school much later. Around 820 the Aryabhatiya was translated into Arabic in Baghdad, and Indian tables and the sine fed into the work of al-Khwarizmi and, through Latin translations, into medieval Europe. Copernicus in 1543 had never heard of Aryabhata, but the objection he had to answer, why we do not feel the Earth move, was the one Brahmagupta had raised. In 1975 India named its first satellite Aryabhata.",
   "why_it_matters": "The Aryabhatiya is the oldest surviving Indian text of mathematical astronomy and the root of a tradition that ran unbroken for a millennium. Its sine table and its numerals traveled to Baghdad and then Europe, and its rotating Earth shows that the idea was thinkable long before Copernicus.",
   "if_you_were_there": "Everyone knew the stars wheeled across the sky each night; the idea that the ground under your feet was doing the turning sounded like a joke, since nobody could feel it.",
-  "disciplines": ["mathematics", "astronomy"],
-  "people": [
-    { "name": "Aryabhata", "role": "author of the Aryabhatiya; astronomer and mathematician at Kusumapura (Pataliputra)" },
-    { "name": "Bhaskara I", "role": "seventh-century commentator whose work preserved and explained the Aryabhatiya" },
-    { "name": "Brahmagupta", "role": "seventh-century astronomer who built on Aryabhata yet rejected the Earth's rotation" }
+  "disciplines": [
+    "mathematics",
+    "astronomy"
   ],
-  "builds_on": ["ptolemy-almagest", "hipparchus-star-catalogue", "archimedes-buoyancy-levers"],
-  "enables": ["brahmagupta-zero?", "al-khwarizmi-algebra", "copernicus-heliocentrism"],
+  "people": [
+    {
+      "name": "Aryabhata",
+      "role": "author of the Aryabhatiya; astronomer and mathematician at Kusumapura (Pataliputra)"
+    },
+    {
+      "name": "Bhaskara I",
+      "role": "seventh-century commentator whose work preserved and explained the Aryabhatiya"
+    },
+    {
+      "name": "Brahmagupta",
+      "role": "seventh-century astronomer who built on Aryabhata yet rejected the Earth's rotation"
+    }
+  ],
+  "builds_on": [
+    "ptolemy-almagest",
+    "hipparchus-star-catalogue",
+    "archimedes-buoyancy-levers"
+  ],
+  "enables": [
+    "brahmagupta-zero?",
+    "al-khwarizmi-algebra",
+    "copernicus-heliocentrism"
+  ],
   "sources": [
-    { "title": "Aryabhata | Achievements, Mathematics, Works, Biography, & Facts", "url": "https://www.britannica.com/biography/Aryabhata-I", "kind": "encyclopedia" },
-    { "title": "Aryabhata - Wikipedia", "url": "https://en.wikipedia.org/wiki/Aryabhata", "kind": "encyclopedia" },
-    { "title": "Aryabhata (476 - 550) - MacTutor History of Mathematics, University of St Andrews", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/", "kind": "article" },
-    { "title": "Kim Plofker, Mathematics in India (Princeton University Press, 2009)", "url": "https://press.princeton.edu/books/hardcover/9780691120676/mathematics-in-india", "kind": "book" },
-    { "title": "Aryabhata's sine table - Wikipedia", "url": "https://en.wikipedia.org/wiki/%C4%80ryabha%E1%B9%ADa's_sine_table", "kind": "encyclopedia" }
+    {
+      "title": "Aryabhata | Achievements, Mathematics, Works, Biography, & Facts",
+      "url": "https://www.britannica.com/biography/Aryabhata-I",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Aryabhata - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aryabhata",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Aryabhata (476 - 550) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "kind": "article"
+    },
+    {
+      "title": "Kim Plofker, Mathematics in India (Princeton University Press, 2009)",
+      "url": "https://press.princeton.edu/books/hardcover/9780691120676/mathematics-in-india",
+      "kind": "book"
+    },
+    {
+      "title": "Aryabhata's sine table - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C4%80ryabha%E1%B9%ADa's_sine_table",
+      "kind": "encyclopedia"
+    }
   ],
   "verify_note_tr": "Doğum yeri tartışmalı: kendisi Kusumapura (Patna) der, Bhaskara I onu Aşmaka bölgesine bağlar, bazıları Kerala'yı önerir; metin Pataliputra'yı 'çalıştığı yer' olarak veriyor, doğum yeri olarak değil. Güneş merkezli olduğu iddiası azınlık görüşü (van der Waerden, Thurston); çoğunluk (Plofker) reddediyor, metin bunu böyle yazdı. 'Sonraki yorumcular ayeti yeniden yazdı' cümlesi ve 820 civarı Bağdat çevirisi (Zij al-Arjabhar) Wikipedia'ya dayanıyor, ikinci kaynakla doğrula; 1975 uydu adı doğru.",
   "drafted_by": "ai",
