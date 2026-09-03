@@ -109,6 +109,14 @@ Format: Bağlam → Karar → Gerekçe → Sonuçlar → Alternatifler.
 **Tarih**: 2026-09-02 · **Durum**: Kabul
 - **Karar**: Admin de `messages/*.json` ile en/ky/tr/ru. Kırgızca öğretmen ve Rusça gözden geçirici `editor` rolüyle kendi dillerinde çalışır.
 
+## ADR-019: Tasarım sistemi: Organic tabanı + Uchkun Foundation; Literata + Golos Text; karanlık tema CSS varsayılanı
+**Tarih**: 2026-09-03 · **Durum**: Kabul
+- **Bağlam**: Claude Design konsepti `resource/Design system conflict scope/` altına geldi. İki parça var: `_ds/organic-*/` genel "Organic" taban sistemi (krem zemin, terracotta + adaçayı vurgu, OKLCH tonal rampalar, 1.10× yoğunluk, 16px köşe) ve onun üstüne kurulan `Uchkun - Foundation.dc.html` (gözlemevi/gece teması, Literata + Golos Text, 8 disiplin rengi iki temada, tip ölçeği, hareket süreleri). Organic'in kendi fontları (Caprasimo, Figtree) Kiril taşımaz; Foundation bunları geçersiz kılar.
+- **Karar**: Token kaynağı Foundation'ın 1b panosudur; `resource/design/tokens.json` olarak çıkarıldı ve `web/app/globals.css`'e elle aktarıldı. Fontlar Inter + Playfair Display yerine **Golos Text (gövde) + Literata (yıl, çağ, başlık)**, ikisi de `cyrillic-ext` alt kümesiyle (Ң Ө Ү). Boşluk ölçeği Tailwind'de tek düğme: `--spacing: 0.275rem` (4.4px). Karanlık tema CSS varsayılanı; aydınlık tema sistem tercihi (`prefers-color-scheme`) ve `data-theme` niteliğiyle gelir. Birincil tema seçimi (S15) hâlâ açık; seçilince yalnızca varsayılan blok değişir. Çağlar için ayrı renk yok; çağ etiketleri adaçayı (`--sage`), `era-*` token'ları şimdilik ona işaret eder.
+- **Gerekçe**: Konsept 07'deki yönü (gözlemevi, tek vurgu, tabular rakam, en büyük tipografik öge yıl) karşılıyor ve WCAG değerlerini veriyor (karanlıkta AAA). Organic'in geometrisini (yuvarlak köşeler, pill) korumak konseptle tutarlı. `Ңөү` kontrolü iki fontta da alt küme tanımıyla sağlandı.
+- **Sonuçlar**: `resource/design/tokens.json` ile `globals.css` birlikte güncellenir. Font değişince `Ңөү` görsel testi tekrar yapılır. Explore kanvası için çağ renk paleti ayrı bir tasarım turunda istenir. Organic'in `styles.css`'i doğrudan kullanılmaz; yalnızca referans.
+- **Alternatifler**: Organic'i olduğu gibi kullanmak (Kiril yok, elendi); Inter + Playfair'de kalmak (konseptten sapar, elendi).
+
 ## Şablon (yeni karar için)
 
 ```

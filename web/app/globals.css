@@ -1,43 +1,219 @@
 @import "tailwindcss";
 
-/* Placeholder tokens until resource/design/tokens.json arrives (week 2). Dark first; light overrides. */
+/*
+  Uchkun design tokens. Source of truth: resource/design/tokens.json
+  (Claude Design "Foundation" concept, 2026-09-03, on the Organic base ramps).
+
+  Dark ("night at the observatory") is the CSS default; light ("the observer's
+  notebook") applies via the system preference or data-theme="light" on <html>.
+  The primary theme is still undecided (S15): once chosen, only this default flips.
+*/
+
 :root {
-  --bg-base: #0b0f1a;
-  --bg-elevated: #131a2a;
-  --text-primary: #e8e6df;
-  --text-secondary: #a9ab9f;
-  --text-muted: #6f7368;
-  --accent: #d4a853;
-  --line: #2a3347;
-  --era-ancient: #b08968; --era-golden: #c9a227; --era-revolution: #7f9cf5; --era-enlightenment: #9ad0c2;
-  --era-industrial: #e07a5f; --era-modern: #81b3ff; --era-information: #5fd3c9; --era-today: #f4f1de;
-  --discipline-mathematics: #a78bfa; --discipline-physics: #60a5fa; --discipline-astronomy: #818cf8;
-  --discipline-chemistry: #fb923c; --discipline-biology: #4ade80; --discipline-medicine: #f87171;
-  --discipline-earth: #d6a35c; --discipline-technology: #9ca3af;
+  color-scheme: dark;
+
+  --bg-base: #2e2b25;
+  --bg-elevated: #3b372f;
+  --bg-raised: #474238;
+  --text-primary: #f9f4ed;
+  --text-secondary: #dcd3c4;
+  --text-muted: #c0b6a5;
+  --accent: #f6a06b;
+  --accent-hover: #ffc6a5;
+  --accent-text: #f6a06b;
+  --accent-ink: #2e2b25;
+  --sage: #aebf92;
+  --line: rgba(249, 244, 237, 0.16);
+  --glow: 0 0 14px #f6a06b;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
+
+  --discipline-mathematics: #b3a3c9;
+  --discipline-physics: #8fb0cc;
+  --discipline-astronomy: #9aa2cf;
+  --discipline-chemistry: #f6a06b;
+  --discipline-biology: #aebf92;
+  --discipline-medicine: #e89a8a;
+  --discipline-earth: #d9b46a;
+  --discipline-technology: #a7aeb3;
+
+  /* Eras have no hue of their own in the concept; labels are sage. eras.color in the DB names these tokens. */
+  --era-ancient: var(--sage); --era-golden: var(--sage); --era-revolution: var(--sage); --era-enlightenment: var(--sage);
+  --era-industrial: var(--sage); --era-modern: var(--sage); --era-information: var(--sage); --era-today: var(--sage);
+
+  /* Motion (tokens.json > transitionDuration / transitionTimingFunction) */
+  --duration-fall: 1500ms;
+  --duration-event-fade: 400ms;
+  --duration-tick: 120ms;
+  --duration-press: 120ms;
+  --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --bg-base: #f7f4ec;
-    --bg-elevated: #ffffff;
-    --text-primary: #1a1c22;
-    --text-secondary: #4b4f58;
-    --text-muted: #8a8e97;
-    --accent: #9a6b1f;
-    --line: #d9d3c4;
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --bg-base: #f5ead8;
+    --bg-elevated: #ebddc5;
+    --bg-raised: #f9f4ed;
+    --text-primary: #201e1d;
+    --text-secondary: #645c50;
+    --text-muted: #82796a;
+    --accent: #c67139;
+    --accent-hover: #b2622d;
+    --accent-text: #8c491a;
+    --accent-ink: #f5ead8;
+    --sage: #56633f;
+    --line: rgba(32, 30, 29, 0.16);
+    --glow: 0 0 14px rgba(198, 113, 57, 0.6);
+    --shadow-sm: 0 1px 2px rgba(46, 43, 37, 0.14);
+    --shadow-md: 0 3px 10px rgba(46, 43, 37, 0.16);
+    --shadow-lg: 0 12px 32px rgba(46, 43, 37, 0.22);
+    --discipline-mathematics: #8b7aa3;
+    --discipline-physics: #5f7f9a;
+    --discipline-astronomy: #5c6494;
+    --discipline-chemistry: #c67139;
+    --discipline-biology: #7a8a5e;
+    --discipline-medicine: #c4705f;
+    --discipline-earth: #b08a3e;
+    --discipline-technology: #7d8489;
   }
 }
 
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg-base: #f5ead8;
+  --bg-elevated: #ebddc5;
+  --bg-raised: #f9f4ed;
+  --text-primary: #201e1d;
+  --text-secondary: #645c50;
+  --text-muted: #82796a;
+  --accent: #c67139;
+  --accent-hover: #b2622d;
+  --accent-text: #8c491a;
+  --accent-ink: #f5ead8;
+  --sage: #56633f;
+  --line: rgba(32, 30, 29, 0.16);
+  --glow: 0 0 14px rgba(198, 113, 57, 0.6);
+  --shadow-sm: 0 1px 2px rgba(46, 43, 37, 0.14);
+  --shadow-md: 0 3px 10px rgba(46, 43, 37, 0.16);
+  --shadow-lg: 0 12px 32px rgba(46, 43, 37, 0.22);
+  --discipline-mathematics: #8b7aa3;
+  --discipline-physics: #5f7f9a;
+  --discipline-astronomy: #5c6494;
+  --discipline-chemistry: #c67139;
+  --discipline-biology: #7a8a5e;
+  --discipline-medicine: #c4705f;
+  --discipline-earth: #b08a3e;
+  --discipline-technology: #7d8489;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fall: 250ms;
+    --duration-event-fade: 250ms;
+    --duration-tick: 0ms;
+    --duration-press: 0ms;
+    --ease-fall: ease;
+  }
+}
+
+/* Tailwind v4 theme: utilities read the semantic tokens above, so they follow the theme at runtime. */
 @theme inline {
   --color-base: var(--bg-base);
   --color-elevated: var(--bg-elevated);
+  --color-raised: var(--bg-raised);
   --color-primary: var(--text-primary);
   --color-secondary: var(--text-secondary);
   --color-muted: var(--text-muted);
   --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-text: var(--accent-text);
+  --color-accent-ink: var(--accent-ink);
+  --color-sage: var(--sage);
   --color-line: var(--line);
-  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-display), Georgia, serif;
+  --color-discipline-mathematics: var(--discipline-mathematics);
+  --color-discipline-physics: var(--discipline-physics);
+  --color-discipline-astronomy: var(--discipline-astronomy);
+  --color-discipline-chemistry: var(--discipline-chemistry);
+  --color-discipline-biology: var(--discipline-biology);
+  --color-discipline-medicine: var(--discipline-medicine);
+  --color-discipline-earth: var(--discipline-earth);
+  --color-discipline-technology: var(--discipline-technology);
+
+  --font-sans: var(--font-sans), "Golos Text", system-ui, sans-serif;
+  --font-display: var(--font-display), Literata, Georgia, serif;
+
+  /* Organic density 1.10x: every spacing utility scales from a 4.4px unit. */
+  --spacing: 0.275rem;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-image: 20px;
+  --radius-lg: 28px;
+  --radius-card: 32px;
+  --radius-pill: 999px;
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-glow: var(--glow);
+
+  /* Type scale (tokens.json > fontSize). The year is the largest element on any screen. */
+  --text-year-hero: 7rem;
+  --text-year-hero--line-height: 1;
+  --text-year-hero--letter-spacing: -0.02em;
+  --text-year-bar: 2.5rem;
+  --text-year-bar--line-height: 1;
+  --text-year-bar--letter-spacing: -0.01em;
+  --text-year-landmark: 2.75rem;
+  --text-year-landmark--line-height: 1;
+  --text-year-landmark--letter-spacing: -0.01em;
+  --text-year-standard: 1.75rem;
+  --text-year-standard--line-height: 1;
+  --text-year-minor: 1.125rem;
+  --text-year-minor--line-height: 1;
+  --text-era: 1.75rem;
+  --text-era--line-height: 1.15;
+  --text-title-lg: 1.25rem;
+  --text-title-lg--line-height: 1.25;
+  --text-title: 1.0625rem;
+  --text-title--line-height: 1.25;
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.55;
+  --text-small: 0.8125rem;
+  --text-small--line-height: 1.5;
+  --text-label: 0.6875rem;
+  --text-label--line-height: 1.4;
+  --text-label--letter-spacing: 0.1em;
+
+  --ease-fall: var(--ease-fall);
+}
+
+@layer base {
+  body {
+    background: var(--bg-base);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
 }
 
 .tabular { font-variant-numeric: tabular-nums; }
+
+/* Every content photograph goes through this so it sits back into the page. */
+.washed { filter: saturate(0.6) contrast(0.85) brightness(1.1) opacity(0.94); }

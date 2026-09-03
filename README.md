@@ -12,3 +12,4 @@ Plan ve tasarım dokümanları: [doc/00-README.md](doc/00-README.md)
 | `backend/` | Supabase migration'ları, seed, script'ler |
 | `mobile/` | Flutter uygulaması (4. ay+) |
 | `resource/` | Tasarım dosyaları, fontlar, görsel kaynakları |
+

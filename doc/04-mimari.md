@@ -13,7 +13,7 @@
 
 | Katman                      | Seçim                                          | Neden                                                                       |
 | --------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
-| Frontend + Admin            | **Next.js 15 (App Router) + TypeScript**       | SSR/ISR ile SEO, sunucu eylemleri ile admin, tek repo                       |
+| Frontend + Admin            | **Next.js 16 (App Router) + TypeScript**       | SSR/ISR ile SEO, sunucu eylemleri ile admin, tek repo                       |
 | Stil                        | **Tailwind CSS v4** + kendi tasarım token'ları | Hızlı, tutarlı, Claude ile üretmesi kolay                                   |
 | Animasyon                   | **Motion (framer-motion)**                     | Timeline geçişleri, kaydırma bağlı efektler                                 |
 | i18n                        | **next-intl**                                  | App Router ile en olgun, `/tr`, `/ky` gibi ön ek rotalar                    |
@@ -67,7 +67,7 @@ history-of-science/
 │   │   ├── translate.ts     # Claude API çeviri
 │   │   └── queries/         # getTimeline, getEvent, getChain ...
 │   ├── messages/            # UI çevirileri: en.json, ru.json, ky.json, tr.json
-│   ├── middleware.ts        # locale yönlendirme + admin koruması
+│   ├── proxy.ts             # locale yönlendirme + admin koruması (Next 16: middleware.ts yerine)
 │   └── ...
 ├── backend/                 # Veri katmanı
 │   ├── supabase/
