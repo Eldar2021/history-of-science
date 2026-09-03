@@ -16,7 +16,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <p className="max-w-xl text-lg text-secondary">{t("lead")}</p>
         <Link
           href="/timeline"
-          className="rounded-full bg-accent px-8 py-3 text-base font-medium text-base transition hover:opacity-90"
+          className="rounded-full bg-accent px-8 py-3 text-base font-medium text-accent-ink transition hover:bg-accent-hover"
         >
           {t("cta")}
         </Link>
