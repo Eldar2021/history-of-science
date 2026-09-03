@@ -36,5 +36,21 @@
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
     "report": "Hata bildir"
+  },
+  "event": {
+    "whyItMatters": "Neden önemli",
+    "ifYouWereThere": "Orada olsaydın",
+    "buildsOn": "Dayanır",
+    "enabled": "Mümkün kıldı",
+    "people": "Kişiler",
+    "sources": "Kaynaklar",
+    "close": "Kapat",
+    "showInTimeline": "Zaman çizgisinde göster",
+    "imageCredit": "Görsel: {credit}, {license}"
+  },
+  "notFound": {
+    "title": "Bulunamadı",
+    "text": "Bu sayfa yok ya da olay henüz yayınlanmadı.",
+    "back": "Zaman çizgisine dön"
   }
 }

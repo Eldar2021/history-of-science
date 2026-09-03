@@ -1,6 +1,7 @@
 import type { Locale } from "@/lib/i18n/formatYear";
 import { formatYearRange } from "@/lib/i18n/formatYear";
 import type { TimelineEvent } from "@/lib/queries/types";
+import { Link } from "@/i18n/navigation";
 
 export type CardSize = "landmark" | "standard" | "minor";
 
@@ -69,7 +70,7 @@ export function EventCard(props: Props) {
       <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 flex flex-wrap items-baseline gap-x-2.5 gap-y-1 py-1">
         {dot}
         <time className="font-display text-year-minor tabular text-secondary">{year}</time>
-        <h3 className="text-small text-secondary">{event.title}</h3>
+        <h3 className="text-small text-secondary"><Link href={`/event/${event.slug}`} className="after:absolute after:inset-0 hover:text-primary">{event.title}</Link></h3>
         <Badges {...props} withChips={false} />
       </article>
     );
@@ -77,7 +78,7 @@ export function EventCard(props: Props) {
 
   if (size === "standard") {
     return (
-      <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 rounded-[24px] bg-elevated px-4 py-4">
+      <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 rounded-[24px] bg-elevated px-4 py-4 transition-shadow hover:shadow-md">
         {dot}
         {primary && (
           <p className="flex items-center gap-1.5 text-label uppercase tracking-wider text-muted">
@@ -86,7 +87,7 @@ export function EventCard(props: Props) {
           </p>
         )}
         <time className="mt-1.5 block font-display text-year-standard tabular text-primary">{year}</time>
-        <h3 className="mt-1.5 font-display text-title text-primary">{event.title}</h3>
+        <h3 className="mt-1.5 font-display text-title text-primary"><Link href={`/event/${event.slug}`} className="after:absolute after:inset-0 after:rounded-[inherit]">{event.title}</Link></h3>
         <p className="mt-1.5 text-body text-secondary">{event.summary}</p>
         <Badges {...props} withChips />
       </article>
@@ -94,7 +95,7 @@ export function EventCard(props: Props) {
   }
 
   return (
-    <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 rounded-card bg-raised px-5 py-5 shadow-lg">
+    <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 rounded-card bg-raised px-5 py-5 shadow-lg transition-shadow hover:shadow-glow">
       {dot}
       <p className="flex items-center justify-between gap-3 text-label uppercase tracking-wider text-muted">
         {primary ? (
@@ -106,7 +107,7 @@ export function EventCard(props: Props) {
         <span className="text-accent-text">{labels.landmark}</span>
       </p>
       <time className="mt-2 block font-display text-year-landmark tabular text-primary">{year}</time>
-      <h3 className="mt-2 font-display text-title-lg text-primary">{event.title}</h3>
+      <h3 className="mt-2 font-display text-title-lg text-primary"><Link href={`/event/${event.slug}`} className="after:absolute after:inset-0 after:rounded-[inherit]">{event.title}</Link></h3>
       <p className="mt-2 text-body text-secondary">{event.summary}</p>
       <Badges {...props} withChips />
     </article>

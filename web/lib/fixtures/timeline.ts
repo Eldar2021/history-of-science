@@ -1,4 +1,4 @@
-import type { Discipline, Era, TimelineEvent } from "@/lib/queries/types";
+import type { Discipline, Era, EventDetail, TimelineEvent } from "@/lib/queries/types";
 import type { Locale } from "@/lib/i18n/formatYear";
 
 /** Used when Supabase env is missing, so the site runs before the database exists. Mirrors seed.sql. */
@@ -62,4 +62,45 @@ const DISCIPLINE_NAMES: Record<Locale, string[]> = {
 
 export function fixtureDisciplines(locale: Locale): Discipline[] {
   return DISCIPLINE_SLUGS.map((slug, i) => ({ id: i + 1, slug, name: DISCIPLINE_NAMES[locale][i] }));
+}
+
+/** Mirrors the event_links block of seed.sql: [from, to, note]; "from builds on to". */
+const LINKS: Array<[string, string, string]> = [
+  ["newton-principia", "copernicus-heliocentrism", "A moving Earth needed a physics that could explain it"],
+  ["newton-principia", "euclid-elements", "The Principia is written in the geometric style of the Elements"],
+  ["newton-principia", "archimedes-buoyancy-levers", "Mathematical treatment of physical force"],
+  ["copernicus-heliocentrism", "ulugh-beg-observatory", "Better tables exposed the strain in Ptolemy's system"],
+  ["ibn-al-haytham-optics", "euclid-elements", "Geometry of rays, corrected by experiment"],
+  ["al-khwarizmi-algebra", "euclid-elements", "Geometric proofs of algebraic rules"],
+];
+
+export function fixtureEventDetail(slug: string, locale: Locale): EventDetail | null {
+  const e = EVENTS.find((x) => x.slug === slug);
+  if (!e) return null;
+  const bySlug = new Map(EVENTS.map((x) => [x.slug, x]));
+  const disciplines = fixtureDisciplines(locale);
+  const eras = fixtureEras(locale);
+  const linked = (target: string, note: string) => {
+    const t = bySlug.get(target)!;
+    return { slug: t.slug, year: t.year, title: t.title, note };
+  };
+  const era = eras.find((x) => x.id === e.era_id);
+  return {
+    ...e,
+    source_locale: "en",
+    image_credit: null,
+    image_license: null,
+    image_source_url: null,
+    body: null,
+    why_it_matters: null,
+    if_you_were_there: null,
+    locale_used: "en",
+    is_fallback: locale !== "en",
+    era: era ? { slug: era.slug, name: era.name } : null,
+    disciplines: e.disciplines.map((d) => ({ slug: d, name: disciplines.find((x) => x.slug === d)?.name ?? d })),
+    people: [],
+    builds_on: LINKS.filter(([from]) => from === slug).map(([, to, note]) => linked(to, note)).sort((a, b) => b.year - a.year),
+    enabled: LINKS.filter(([, to]) => to === slug).map(([from, , note]) => linked(from, note)).sort((a, b) => a.year - b.year),
+    sources: [],
+  };
 }
