@@ -33,7 +33,7 @@ export default async function EventPage({ params }: Props) {
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-8">
         <EventDetail event={event} locale={locale} headingLevel="h1" />
       </main>
-      <HonestyBand context={`event ${event.slug} (${event.year})`} />
+      <HonestyBand event={{ slug: event.slug, year: event.year, precision: event.precision, title: event.title }} />
     </>
   );
 }

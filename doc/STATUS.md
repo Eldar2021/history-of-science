@@ -19,7 +19,7 @@
 - [ ] Ana sayfa + "Zamana düş" sayaç geçişi + reduced-motion.
 - [ ] Minimap (gerçek ölçek, `xScale` ile) + tıklayınca atlama.
 - [ ] Disiplin filtre çipleri, URL senkron (`?d=physics,astronomy`).
-- [ ] **Dürüstlük bandı** alt bilgide, 4 dilde, "Hata bildir" mailto (olay bilgisi otomatik).
+- [x] **Dürüstlük bandı** alt bilgide, 4 dilde, "Hata bildir" mailto (olay bilgisi otomatik): `components/HonestyBand.tsx` konu satırına olay başlığı + yıl, gövdeye sayfa URL'si; adres `NEXT_PUBLIC_REPORT_EMAIL` (Vercel prod/preview/dev + `.env.local` = Gmail), `NEXT_PUBLIC_SITE_URL` Vercel prod'a eklendi. (2026-09-03)
 
 **İçerik**
 

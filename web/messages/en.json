@@ -35,7 +35,10 @@
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
-    "report": "Report an error"
+    "report": "Report an error",
+    "subject": "Uchkun: error report",
+    "subjectEvent": "Uchkun: error in \"{title}\" ({year})",
+    "body": "Page: {url}\n\nWhat is wrong:\n"
   },
   "event": {
     "whyItMatters": "Why it matters",

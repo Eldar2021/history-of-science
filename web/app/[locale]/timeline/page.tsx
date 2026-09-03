@@ -83,7 +83,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
           );
         })}
       </main>
-      <HonestyBand context="timeline" />
+      <HonestyBand path="/timeline" />
     </>
   );
 }
