@@ -80,6 +80,8 @@
 
 ## Park (3 aydan sonra bakılacak fikirler)
 
+- 2026-09-03: Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"). Şema alanı yok; `eras` ya da ayrı `gaps` tablosu + çeviri gerekir. Hafta 3-4'te değerlendir.
+
 - 2026-09-02: "Orada olsaydın" etkileşimli senaryolar.
 - 2026-09-02: "Geriye sar" modu (bugünden geçmişe).
 - 2026-09-02: Flutter uygulaması, çevrimdışı okuma, günlük bildirim.
