@@ -15,10 +15,14 @@ supabase db reset                       # migration + seed
 
 ## Bulut projesi
 
-1. https://supabase.com → New project (bölge: Frankfurt). Şifreyi 1Password'e.
-2. `supabase link --project-ref <ref>` sonra `supabase db push` migration'ları uygular.
-3. Studio → SQL editor → `seed.sql` içeriğini bir kez çalıştır.
+Proje: `jnclaqxvfitggyprasxw` (Supabase, oluşturuldu). Tek seferlik kurulum:
+
+1. `supabase login` (tarayıcı açılır; bir kez).
+2. `backend/scripts/cloud-setup.sh` → link, `db push`, isteğe bağlı seed (`db reset --linked`), Vercel'e `NEXT_PUBLIC_SUPABASE_URL` ve `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+3. `main`'e push ya da `npx vercel redeploy` → site bulut veritabanını okur.
 4. Authentication → Users → kendi e-postanla kullanıcı oluştur; sonra SQL: `update profiles set role='admin' where id='<uuid>';`
+
+Sonraki şema değişiklikleri: yeni migration + `supabase db push`.
 
 ## Taslakları yerel DB'ye yükleme
 

@@ -7,8 +7,9 @@
 
 - **Faz**: Ay 1 / Hafta 3 (başladı 2026-09-03, dal `el/week-3-event-detail`). Hedef: olay detayı, giriş geçişi, minimap, filtreler; M1'e giden yol (Hafta 4 sonu).
 - **Hafta 2 kalan**: içerik kutucuğu (10 antik taslak) kullanıcı doğrulaması bekliyor; kod ve tasarım kapandı, PR #3 `main`'e birleşti.
-- **Sonraki adım**: Hafta 3 kod kutucukları sırayla (aşağıda). İlk iş: olay detayı için `get_event_detail(slug, locale)` migration'ı (0002) + `/[locale]/event/[slug]` sayfası + timeline üstünde panel/sheet.
-- **Kullanıcıdan bekleyen**: (0) 10 antik olay taslağını doğrula (`backend/content/drafts/`, `verify_note_tr`); yerelde `published`'a çevirme kararı. (1) Supabase MCP OAuth (`/mcp`) ya da `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`; bulut şeması hâlâ uygulanmadı. (2) İsteğe bağlı: `resource/Design system conflict scope/` klasörünü yeniden adlandır. (3) Hafta sonu kontrolü: bir arkadaşa telefonu ver, 2 dakika izle.
+- **Doğrulandı (2026-09-03, 7. oturum)**: Hafta 3'ün 5 kod kutucuğu bitti, her biri headless Chrome ile test edildi, `npm run check` 69 test yeşil. Dal `el/week-3-event-detail`, PR açık. Kalan: içerik (+10 İslam Altın Çağı) ve hafta sonu kontrolü.
+- **Sonraki adım**: (1) Kullanıcı `supabase login` yapar → `backend/scripts/cloud-setup.sh` (link, `db push`, seed, Vercel env) → PR merge → site bulut DB'yi okur. (2) `/com_event` ile İslam Altın Çağı 10 olayı (03 listesi: Brahmagupta, El-Harezmi gövdesi, El-Farabi, İbn-i Heysem, İbn Sina, El-Biruni, Ömer Hayyam, Fibonacci, Roger Bacon, Uluğ Bey). (3) Hafta 4: admin + auth + RLS kanıtı → M1.
+- **Kullanıcıdan bekleyen**: (0) `supabase login` (tarayıcı, bir kez); sonra betiği ben ya da sen çalıştırır. (1) PR'ı incele ve `main`'e birleştir (= Vercel prod deploy). (2) 10 antik olay taslağını doğrula (`backend/content/drafts/`, `verify_note_tr`); `published` kararı. (3) Hafta sonu kontrolü: bir arkadaşa telefonu ver, 2 dakika izle. (4) İsteğe bağlı: `resource/Design system conflict scope/` klasörünü yeniden adlandır.
 - **Bloklayan**: yok. Yerel geliştirme: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
 
 ## Hafta 3 kutucukları
@@ -72,6 +73,15 @@
 - `04-mimari` ve `CLAUDE.md` artık Next 16 / `proxy.ts` diyor.
 
 ## Oturum günlüğü
+
+### 2026-09-03 — 7. oturum: Hafta 3 kod kutucukları (tamamlandı)
+- Migration `0002_event_detail.sql`: `get_event_detail(slug, locale)` tek JSON, `event_title` yardımcısı; anon rolüyle taslak null doğrulandı; `gen:types`.
+- Olay detayı: `/[locale]/event/[slug]` tam sayfa + `timeline/@panel/(..)event/[slug]` intercepting rota (masaüstü yan panel, mobil sheet). `router.replace` ile kapatmak slot'u açık bırakıyor (Next yumuşak geçişte slot durumunu korur, `default.tsx` yalnızca sert yüklemede); panel yalnızca yumuşak geçişle açılabildiği için `router.back()` her zaman doğru.
+- Dürüstlük bandı mailto: olay başlığı + yıl + URL, `NEXT_PUBLIC_REPORT_EMAIL` (Vercel prod/preview/dev + `.env.local`), `NEXT_PUBLIC_SITE_URL` Vercel prod.
+- Disiplin çipleri (`?d=`, `&only=1`), SVG minimap (`xScale`), "Zamana düş" örtüsü. 5 commit.
+- Bulunan tuzaklar: Vitest, Next'e bağımlı bileşeni çözemiyor → saf mantık `lib/timeline/*.ts`'de, testler orada. CSS minifier `1500ms`→`1.5s`, `parseFloat` ile süre 1.5 ms oluyordu → `parseDuration`. Puppeteer `click` elemanı görünür alana kaydırır; kaydırma konumu testlerinde `evaluate` ile tıklanmalı.
+- Bulut: Supabase CLI girişli değil (OAuth tarayıcı ister); `backend/scripts/cloud-setup.sh` hazır, `backend/README.md` güncel. Vercel CLI girişli.
+- Yarım kalan: içerik kutucuğu (+10 İslam Altın Çağı), hafta sonu kontrolü (kullanıcı), masaüstü sol çağ sütunu (isteğe bağlı, Hafta 4+).
 
 ### 2026-09-03 — 6. oturum: içerik taslakları (Hafta 2 içerik kutucuğu)
 
