@@ -11,7 +11,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "";
  * The honesty band (ADR-017): on every page, warm and human, with a report link. When an event is on
  * screen, the mail already names it (title, year, URL) so the reader only has to say what is wrong.
  */
-export function HonestyBand({ event, path }: { event?: EventRef; path?: string }) {
+export function HonestyBand({ event, path, className = "" }: { event?: EventRef; path?: string; className?: string }) {
   const t = useTranslations("honesty");
   const locale = useLocale() as Locale;
   const url = `${SITE_URL}/${locale}${event ? `/event/${event.slug}` : path ?? ""}`;
@@ -21,7 +21,7 @@ export function HonestyBand({ event, path }: { event?: EventRef; path?: string }
   const body = t("body", { url });
   const href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   return (
-    <footer className="mt-auto border-t border-line px-4 py-6 text-sm text-secondary">
+    <footer className={`mt-auto border-t border-line px-4 py-6 text-sm text-secondary ${className}`}>
       <p className="mx-auto max-w-3xl">
         {t("text")}{" "}
         <a className="underline decoration-accent underline-offset-4 hover:text-primary" href={href}>

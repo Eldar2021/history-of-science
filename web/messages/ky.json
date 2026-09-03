@@ -54,7 +54,8 @@
     "sources": "Булактар",
     "close": "Жабуу",
     "showInTimeline": "Убакыт сызыгында көрсөтүү",
-    "imageCredit": "Сүрөт: {credit}, {license}"
+    "imageCredit": "Сүрөт: {credit}, {license}",
+    "unknownYear": "?"
   },
   "notFound": {
     "title": "Табылган жок",

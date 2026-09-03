@@ -57,27 +57,48 @@ export function Minimap({ years, slugs, eras, locale, orientation, className = "
     return () => { window.removeEventListener("scroll", onScroll); window.removeEventListener("resize", onScroll); cancelAnimationFrame(frame); };
   }, []);
 
-  function jump(e: React.PointerEvent<SVGSVGElement>) {
-    const rect = svgRef.current!.getBoundingClientRect();
-    const frac = vertical ? (e.clientY - rect.top) / rect.height : (e.clientX - rect.left) / rect.width;
-    const year = xScaleInvert(Math.min(1, Math.max(0, frac)));
-    const target = document.getElementById(`event-${slugs[closestIndex(years, year)]}`);
+  function scrollToIndex(i: number) {
+    const target = document.getElementById(`event-${slugs[Math.min(years.length - 1, Math.max(0, i))]}`);
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     target?.scrollIntoView({ block: "start", behavior: reduce ? "instant" : "smooth" });
   }
 
-  const desc = `${label}: ${formatYear(TIMELINE_START, "exact", locale)} – ${formatYear(TIMELINE_END, "exact", locale)}, ${formatYear(cursor, "exact", locale)}`;
+  function jump(e: React.PointerEvent<SVGSVGElement>) {
+    const rect = svgRef.current!.getBoundingClientRect();
+    const frac = vertical ? (e.clientY - rect.top) / rect.height : (e.clientX - rect.left) / rect.width;
+    scrollToIndex(closestIndex(years, xScaleInvert(Math.min(1, Math.max(0, frac)))));
+  }
+
+  /** Keyboard: arrows step to the previous/next event, Home/End to the ends (doc/05: everything works by keyboard). */
+  function onKey(e: React.KeyboardEvent<SVGSVGElement>) {
+    const at = closestIndex(years, cursor);
+    const step: Record<string, number | undefined> = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
+    if (e.key === "Home") scrollToIndex(0);
+    else if (e.key === "End") scrollToIndex(years.length - 1);
+    else if (step[e.key] !== undefined) scrollToIndex(at + step[e.key]!);
+    else return;
+    e.preventDefault();
+  }
+
+  const desc = `${label}: ${formatYear(TIMELINE_START, "exact", locale)} - ${formatYear(TIMELINE_END, "exact", locale)}`;
   const u = (y: number) => yearToUnit(y);
 
   return (
     <div className={className}>
       <svg
         ref={svgRef}
-        role="img"
+        role="slider"
+        tabIndex={0}
         aria-label={desc}
+        aria-orientation={orientation}
+        aria-valuemin={TIMELINE_START}
+        aria-valuemax={TIMELINE_END}
+        aria-valuenow={cursor}
+        aria-valuetext={formatYear(cursor, "exact", locale)}
+        onKeyDown={onKey}
         onPointerDown={jump}
         onPointerMove={(e) => { if (e.buttons === 1) jump(e); }}
-        className="h-full w-full cursor-pointer touch-none select-none overflow-visible"
+        className="h-full w-full cursor-pointer touch-none select-none overflow-visible rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
       >
         {/* on-screen band */}
         {vertical

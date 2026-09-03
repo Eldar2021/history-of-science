@@ -21,21 +21,27 @@ export function DetailPanel({ children, closeLabel, labelledBy }: Props) {
   }
 
   useEffect(() => {
+    // Focus trap: the page behind the dialog goes inert; focus returns to the opener (the card) on close.
+    const opener = document.activeElement as HTMLElement | null;
+    const behind = Array.from(document.querySelectorAll<HTMLElement>("body > div > header, body > div > main, body > div > footer, body > header, body > main, body > footer"));
+    behind.forEach((el) => { el.inert = true; });
     closeRef.current?.focus();
     const previous = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") close(); };
     window.addEventListener("keydown", onKey);
     return () => {
+      behind.forEach((el) => { el.inert = false; });
       document.body.style.overflow = previous;
       window.removeEventListener("keydown", onKey);
+      opener?.focus?.();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <div className="fixed inset-0 z-20">
-      <button type="button" aria-label={closeLabel} onClick={close} className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
+      <button type="button" tabIndex={-1} aria-hidden onClick={close} className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
       <div
         role="dialog"
         aria-modal="true"
@@ -53,7 +59,7 @@ export function DetailPanel({ children, closeLabel, labelledBy }: Props) {
             <span aria-hidden className="text-lg leading-none">×</span>
           </button>
         </div>
-        <div className="flex-1 overflow-y-auto px-5 pb-10 pt-1 md:px-6">{children}</div>
+        <div className="flex-1 overflow-y-auto overscroll-y-contain px-5 pb-10 pt-1 md:px-6">{children}</div>
       </div>
     </div>
   );

@@ -54,7 +54,8 @@
     "sources": "Kaynaklar",
     "close": "Kapat",
     "showInTimeline": "Zaman çizgisinde göster",
-    "imageCredit": "Görsel: {credit}, {license}"
+    "imageCredit": "Görsel: {credit}, {license}",
+    "unknownYear": "?"
   },
   "notFound": {
     "title": "Bulunamadı",

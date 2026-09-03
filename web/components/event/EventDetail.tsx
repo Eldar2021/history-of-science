@@ -31,7 +31,8 @@ function LinkedList({ items, locale }: { items: LinkedEvent[]; locale: Locale })
     <ul className="mt-2 space-y-2">
       {items.map((l) => (
         <li key={l.slug} className="rounded-md bg-elevated px-3 py-2">
-          <Link href={`/event/${l.slug}`} className="group flex items-baseline gap-3">
+          {/* replace: hopping between linked events keeps the panel one history entry deep, so Back/Esc closes it. */}
+          <Link href={`/event/${l.slug}`} replace className="group flex items-baseline gap-3">
             <span className="shrink-0 font-display text-small tabular text-muted">{formatYear(l.year, "exact", locale)}</span>
             <span className="text-body text-primary underline-offset-4 group-hover:underline">{l.title}</span>
           </Link>
@@ -48,6 +49,8 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
     getTranslations("event"), getTranslations("timeline"), getTranslations("locales"),
   ]);
   const Heading = headingLevel;
+  // Section headings sit one level under the title (heading order matters for screen readers and Lighthouse).
+  const Sub = headingLevel === "h1" ? "h2" : "h3";
   const year = formatYearRange(event.year, event.year_end, event.precision, locale);
   const blocks = event.body ? parseBlocks(event.body) : [];
 
@@ -110,40 +113,40 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
 
       {event.why_it_matters && (
         <section className="mt-6 rounded-lg bg-elevated px-4 py-3">
-          <h3 className="text-label uppercase tracking-wider text-accent-text">{t("whyItMatters")}</h3>
+          <Sub className="text-label uppercase tracking-wider text-accent-text">{t("whyItMatters")}</Sub>
           <p className="mt-1.5 text-body"><Inline text={event.why_it_matters} /></p>
         </section>
       )}
       {event.if_you_were_there && (
         <section className="mt-3 rounded-lg border border-line px-4 py-3">
-          <h3 className="text-label uppercase tracking-wider text-sage">{t("ifYouWereThere")}</h3>
+          <Sub className="text-label uppercase tracking-wider text-sage">{t("ifYouWereThere")}</Sub>
           <p className="mt-1.5 text-body italic text-secondary"><Inline text={event.if_you_were_there} /></p>
         </section>
       )}
 
       {event.builds_on.length > 0 && (
         <section className="mt-6">
-          <h3 className="text-label uppercase tracking-wider text-muted">{t("buildsOn")}</h3>
+          <Sub className="text-label uppercase tracking-wider text-muted">{t("buildsOn")}</Sub>
           <LinkedList items={event.builds_on} locale={locale} />
         </section>
       )}
       {event.enabled.length > 0 && (
         <section className="mt-5">
-          <h3 className="text-label uppercase tracking-wider text-muted">{t("enabled")}</h3>
+          <Sub className="text-label uppercase tracking-wider text-muted">{t("enabled")}</Sub>
           <LinkedList items={event.enabled} locale={locale} />
         </section>
       )}
 
       {event.people.length > 0 && (
         <section className="mt-6">
-          <h3 className="text-label uppercase tracking-wider text-muted">{t("people")}</h3>
+          <Sub className="text-label uppercase tracking-wider text-muted">{t("people")}</Sub>
           <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-body">
             {event.people.map((p) => (
               <li key={p.slug}>
                 <span className="text-primary">{p.name}</span>
                 {(p.birth_year || p.death_year) && (
                   <span className="ml-1.5 text-small tabular text-muted">
-                    {p.birth_year ? formatYear(p.birth_year, "exact", locale) : "?"}–{p.death_year ? formatYear(p.death_year, "exact", locale) : "?"}
+                    {p.birth_year ? formatYear(p.birth_year, "exact", locale) : t("unknownYear")} - {p.death_year ? formatYear(p.death_year, "exact", locale) : t("unknownYear")}
                   </span>
                 )}
               </li>
@@ -154,7 +157,7 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
 
       {event.sources.length > 0 && (
         <section className="mt-6">
-          <h3 className="text-label uppercase tracking-wider text-muted">{t("sources")}</h3>
+          <Sub className="text-label uppercase tracking-wider text-muted">{t("sources")}</Sub>
           <ol className="mt-2 list-decimal space-y-1 pl-5 text-small text-secondary">
             {event.sources.map((s, i) => (
               <li key={i}>

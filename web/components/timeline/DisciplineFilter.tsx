@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import { usePathname, useRouter } from "@/i18n/navigation";
 import { matchesFilter as matches, parseSelected } from "@/lib/timeline/filter";
 
 type Chip = { slug: string; name: string };
@@ -15,8 +14,6 @@ type Labels = { legend: string; onlyThese: string; clear: string; empty: string 
  */
 export function DisciplineFilter({ disciplines, eventDisciplines, labels }: { disciplines: Chip[]; eventDisciplines: string[][]; labels: Labels }) {
   const params = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
   const known = new Set(disciplines.map((d) => d.slug));
   const selected = parseSelected(params.get("d"), known);
   const only = params.get("only") === "1" && selected.size > 0;
@@ -28,7 +25,8 @@ export function DisciplineFilter({ disciplines, eventDisciplines, labels }: { di
     if (nextOnly && next.size) q.set("only", "1"); else q.delete("only");
     // Keep the comma readable (doc/05 shows ?d=physics,astronomy); URLSearchParams would encode it.
     const qs = q.toString().replace(/%2C/g, ",");
-    router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+    // Native replaceState: Next syncs useSearchParams to it, and the (dynamic) page is not re-fetched.
+    window.history.replaceState(null, "", `${location.pathname}${qs ? `?${qs}` : ""}`);
   }
 
   function toggle(slug: string) {

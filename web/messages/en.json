@@ -54,7 +54,8 @@
     "sources": "Sources",
     "close": "Close",
     "showInTimeline": "Show in the timeline",
-    "imageCredit": "Image: {credit}, {license}"
+    "imageCredit": "Image: {credit}, {license}",
+    "unknownYear": "?"
   },
   "notFound": {
     "title": "Not found",

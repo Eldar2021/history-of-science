@@ -54,7 +54,8 @@
     "sources": "Источники",
     "close": "Закрыть",
     "showInTimeline": "Показать в хронологии",
-    "imageCredit": "Изображение: {credit}, {license}"
+    "imageCredit": "Изображение: {credit}, {license}",
+    "unknownYear": "?"
   },
   "notFound": {
     "title": "Не найдено",
