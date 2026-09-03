@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "check": "tsc --noEmit && eslint . && vitest run",
-    "gen:types": "cd ../backend && supabase gen types typescript --local > ../web/lib/supabase/types.ts"
+    "gen:types": "cd ../backend && supabase gen types typescript --local > ../web/lib/supabase/types.ts",
+    "e2e": "playwright test"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",
@@ -21,6 +22,7 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

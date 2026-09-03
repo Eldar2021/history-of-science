@@ -33,19 +33,19 @@ export function EventForm({ initial, disciplines, uiLocale }: Props) {
         <legend className="mb-2 font-display text-lg text-primary">{t("form.when")}</legend>
         <YearField name="year" defaultValue={v.year} required label={t("form.year")} hint={t("form.yearHint")} locale={uiLocale} precision={v.precision} error={err("year")} />
         <YearField name="year_end" defaultValue={v.year_end} label={t("form.yearEnd")} hint={t("form.yearEndHint")} locale={uiLocale} precision={v.precision} error={err("year_end")} />
-        <label className={label}>
-          {t("form.precision")}
-          <select name="precision" defaultValue={v.precision} className={`${input} mt-1`}>
+        <div>
+          <label htmlFor="precision" className={label}>{t("form.precision")}</label>
+          <select id="precision" name="precision" defaultValue={v.precision} className={`${input} mt-1`}>
             {PRECISIONS.map((p) => <option key={p} value={p}>{t(`precision.${p}`)}</option>)}
           </select>
-        </label>
-        <label className={label}>
-          {t("form.importance")}
-          <select name="importance" defaultValue={v.importance} className={`${input} mt-1`}>
+        </div>
+        <div>
+          <label htmlFor="importance" className={label}>{t("form.importance")}</label>
+          <select id="importance" name="importance" defaultValue={v.importance} className={`${input} mt-1`}>
             {[5, 4, 3, 2, 1].map((n) => <option key={n} value={n}>{n} · {t(`importanceLevels.${n}`)}</option>)}
           </select>
           {err("importance")}
-        </label>
+        </div>
       </fieldset>
 
       <fieldset className="space-y-4">
@@ -75,20 +75,20 @@ export function EventForm({ initial, disciplines, uiLocale }: Props) {
 
       <fieldset className="grid gap-4 sm:grid-cols-3">
         <legend className="mb-2 font-display text-lg text-primary">{t("form.publishing")}</legend>
-        <label className={label}>
-          {t("form.sourceLocale")}
-          <select name="source_locale" defaultValue={v.source_locale} className={`${input} mt-1`}>
+        <div>
+          <label htmlFor="source_locale" className={label}>{t("form.sourceLocale")}</label>
+          <select id="source_locale" name="source_locale" defaultValue={v.source_locale} className={`${input} mt-1`}>
             {locales.map((l) => <option key={l} value={l}>{tLocales(l)}</option>)}
           </select>
-        </label>
+        </div>
         <SlugField defaultValue={v.slug} label={t("form.slug")} hint={t("form.slugHint")} error={err("slug")} />
-        <label className={label}>
-          {t("form.status")}
-          <select name="status" defaultValue={v.status} className={`${input} mt-1`}>
+        <div>
+          <label htmlFor="status" className={label}>{t("form.status")}</label>
+          <select id="status" name="status" defaultValue={v.status} aria-describedby="status-hint" className={`${input} mt-1`}>
             {STATUSES.map((s) => <option key={s} value={s}>{t(`status.${s}`)}</option>)}
           </select>
-          <span className="mt-1 block text-xs text-muted">{t("form.statusHint")}</span>
-        </label>
+          <p id="status-hint" className="mt-1 text-xs text-muted">{t("form.statusHint")}</p>
+        </div>
       </fieldset>
 
       <div className="flex items-center gap-3">
@@ -107,12 +107,12 @@ function YearField({ name, defaultValue, required, label: text, hint, locale, pr
   const n = Number(value);
   const preview = /^-?\d+$/.test(value) && n !== 0 ? formatYear(n, precision, locale) : null;
   return (
-    <label className={label}>
-      {text}
-      <input name={name} type="number" step={1} required={required} defaultValue={defaultValue} onChange={(e) => setValue(e.target.value)} className={`${input} mt-1 font-display tabular`} />
-      <span className="mt-1 block text-xs text-muted">{preview ? <strong className="text-secondary">{preview}</strong> : hint}</span>
+    <div>
+      <label htmlFor={name} className={label}>{text}</label>
+      <input id={name} name={name} type="number" step={1} required={required} defaultValue={defaultValue} aria-describedby={`${name}-hint`} onChange={(e) => setValue(e.target.value)} className={`${input} mt-1 font-display tabular`} />
+      <p id={`${name}-hint`} className="mt-1 text-xs text-muted">{preview ? <strong className="text-secondary">{preview}</strong> : hint}</p>
       {error}
-    </label>
+    </div>
   );
 }
 
@@ -122,20 +122,21 @@ function TextField({ name, defaultValue, required, rows, label: text, hint, soft
   const [len, setLen] = useState(defaultValue.length);
   const over = softMax !== undefined && len > softMax;
   const cls = `${input} mt-1 ${mono ? "font-mono text-sm leading-relaxed" : ""}`;
+  const hintId = `${name}-hint`;
   return (
-    <label className={label}>
-      <span className="flex justify-between">
-        <span>{text}</span>
-        {softMax !== undefined && <span className={`text-xs ${over ? "text-accent-text" : "text-muted"}`}>{len}/{softMax}</span>}
-      </span>
+    <div>
+      <div className="flex justify-between">
+        <label htmlFor={name} className={label}>{text}</label>
+        {softMax !== undefined && <span aria-hidden className={`text-xs ${over ? "text-accent-text" : "text-muted"}`}>{len}/{softMax}</span>}
+      </div>
       {rows ? (
-        <textarea name={name} rows={rows} required={required} defaultValue={defaultValue} onChange={(e) => setLen(e.target.value.length)} className={cls} />
+        <textarea id={name} name={name} rows={rows} required={required} defaultValue={defaultValue} aria-describedby={hintId} onChange={(e) => setLen(e.target.value.length)} className={cls} />
       ) : (
-        <input name={name} type="text" required={required} defaultValue={defaultValue} onChange={(e) => setLen(e.target.value.length)} className={cls} />
+        <input id={name} name={name} type="text" required={required} defaultValue={defaultValue} aria-describedby={hintId} onChange={(e) => setLen(e.target.value.length)} className={cls} />
       )}
-      {over && warn ? <span className="mt-1 block text-xs text-accent-text">{warn}</span> : hint && <span className="mt-1 block text-xs text-muted">{hint}</span>}
+      <p id={hintId} className={`mt-1 text-xs ${over && warn ? "text-accent-text" : "text-muted"}`}>{over && warn ? warn : hint}</p>
       {error}
-    </label>
+    </div>
   );
 }
 
@@ -143,11 +144,11 @@ function TextField({ name, defaultValue, required, rows, label: text, hint, soft
 function SlugField({ defaultValue, label: text, hint, error }: { defaultValue: string; label: string; hint: string; error: React.ReactNode }) {
   const [value, setValue] = useState(defaultValue);
   return (
-    <label className={label}>
-      {text}
-      <input name="slug" type="text" defaultValue={defaultValue} onChange={(e) => setValue(e.target.value)} onBlur={(e) => { const s = slugify(e.target.value); e.target.value = s; setValue(s); }} className={`${input} mt-1 font-mono text-sm`} />
-      <span className="mt-1 block text-xs text-muted">{value ? `/event/${value}` : hint}</span>
+    <div>
+      <label htmlFor="slug" className={label}>{text}</label>
+      <input id="slug" name="slug" type="text" defaultValue={defaultValue} aria-describedby="slug-hint" onChange={(e) => setValue(e.target.value)} onBlur={(e) => { const s = slugify(e.target.value); e.target.value = s; setValue(s); }} className={`${input} mt-1 font-mono text-sm`} />
+      <p id="slug-hint" className="mt-1 text-xs text-muted">{value ? `/event/${value}` : hint}</p>
       {error}
-    </label>
+    </div>
   );
 }
