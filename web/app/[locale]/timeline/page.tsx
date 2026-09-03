@@ -11,7 +11,7 @@ import { EraHeader } from "@/components/timeline/EraHeader";
 import { TimeGap } from "@/components/timeline/TimeGap";
 import { YearIndicator } from "@/components/timeline/YearIndicator";
 import { DeepLink } from "@/components/timeline/DeepLink";
-import { DisciplineFilter } from "@/components/timeline/DisciplineFilter";
+import { DisciplineFilter, DisciplineFilterSkeleton } from "@/components/timeline/DisciplineFilter";
 import { Minimap } from "@/components/timeline/Minimap";
 import { FallOverlay } from "@/components/timeline/FallOverlay";
 
@@ -71,7 +71,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
         {events[0] && <FallOverlay locale={locale} firstYear={events[0].year} />}
       </Suspense>
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-24 pt-4 lg:pb-16">
-        <Suspense fallback={null}>
+        <Suspense fallback={<DisciplineFilterSkeleton disciplines={disciplines.map((d) => ({ slug: d.slug, name: d.name }))} label={t("filterLegend")} />}>
           <DisciplineFilter
             disciplines={disciplines.map((d) => ({ slug: d.slug, name: d.name }))}
             eventDisciplines={events.map((e) => e.disciplines)}
