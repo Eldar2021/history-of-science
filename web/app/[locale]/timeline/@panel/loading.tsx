@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { DetailPanel } from "@/components/event/DetailPanel";
 
-/** Shown while get_event_detail runs (doc/05 Durumlar: skeleton). Same shell as the real panel. */
+/** Shown while get_event_detail runs. Same shell as the real panel, so nothing shifts on arrival. */
 export default async function PanelLoading() {
   const t = await getTranslations("event");
   return (

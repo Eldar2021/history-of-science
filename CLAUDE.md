@@ -1,12 +1,12 @@
 # Uchkun (Учкун) — Bilim Tarihi Timeline
 
 Dört dilli (en, ru, ky, tr) bilim tarihi timeline sitesi. Kullanıcı (Eldiiar) bilim insanı değil; Türkçe/Kırgızca yazar.
-**Her oturumun başında `/com_read_doc` çalıştır** ya da en azından `doc/STATUS.md` ve `doc/00-README.md` oku.
+**Her oturumun başında `/com_read_doc` çalıştır** ya da en azından `doc/STATUS.md` oku. Diğer dokümanları hepsini değil, işe göre aç.
 Kullanıcıyla Türkçe konuş. Kod, commit mesajları ve kod yorumları İngilizce.
 
 ## Yapı
 
-- `doc/`: tek gerçek kaynak. 00 rehber, 01 vizyon, 02 spec, 03 içerik, 04 mimari, 05 timeline UX, 06 i18n, 07 tasarım promptu, 08 yol haritası, 09 ADR, 10 riskler, 11 Claude ile çalışma, STATUS güncel durum.
+- `doc/`: tek gerçek kaynak, sadece güncel olan. 00 rehber, 03 içerik, 04 mimari, 06 i18n, 08 yol haritası, 09 ADR, 10 riskler, 11 Claude ile çalışma, STATUS güncel durum. Vizyon ve ürün ilkeleri kök `README.md`'de. **Biten iş dokümandan silinir**; geçmişin cevabı `git log`.
 - `web/`: Next.js 16 App Router, TypeScript, Tailwind v4, next-intl. Site (`/[locale]/...`) + admin (`/admin`).
 - `backend/supabase/`: SQL migration'lar, seed, `backend/scripts/` (içerik hattı, çeviri, kontroller). Supabase (Postgres, Auth, Storage).
 - `mobile/`: Flutter, 5. ay+. Şimdilik boş.
@@ -25,7 +25,7 @@ Kullanıcıyla Türkçe konuş. Kod, commit mesajları ve kod yorumları İngili
 - Görsel eklenirken atıf + lisans + kaynak URL zorunlu.
 - Commit: `type(scope): summary` İngilizce. Örn. `feat(timeline): sticky year indicator`.
 - Yeni özellik veya şema değişikliğinde önce plan özeti, onay, sonra kod. Bug/stil için doğrudan.
-- Her önemli karar `doc/09-kararlar-ADR.md`'ye ADR olarak. Eskisini silme, geçersiz işaretle.
+- Her önemli karar `doc/09-kararlar-ADR.md`'ye ADR olarak. Bir karar değişirse yeni ADR yaz; eskisi "Geçersiz, bkz. ADR-N" olur. İşi tamamen bitmiş ve koda gömülmüş ADR silinebilir.
 
 ## Komutlar (web/ içinde, kurulduktan sonra)
 

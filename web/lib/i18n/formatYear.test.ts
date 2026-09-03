@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { formatYear, formatYearParts, formatYearRange, formatYearRangeParts, yearsBetween, type Locale, type YearPrecision } from "./formatYear";
 
-// 4 locales × 4 precisions × BCE/CE = 32 cases, from the year table in doc/04-mimari.md
+// 4 locales × 4 precisions × BCE/CE = 32 cases, from the year table in doc/06-i18n-stratejisi.md
 const cases: Array<[number, YearPrecision, Locale, string]> = [
   // exact
   [-585, "exact", "en", "585 BCE"], [1687, "exact", "en", "1687"],

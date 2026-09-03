@@ -1,7 +1,7 @@
 import { yearToUnit } from "./xScale";
 
 /**
- * Event density along the real time axis (doc/05: the minimap is a "▁▂▅█" strip). Years are bucketed by
+ * Event density along the real time axis; the minimap draws it as a "▁▂▅█" strip. Years are bucketed by
  * their full-range fraction; heights are square-rooted so one crowded decade does not flatten the rest.
  * Returns `bins` values in [0, 1].
  */

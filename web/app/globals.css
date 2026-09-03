@@ -194,7 +194,7 @@
 /* Every content photograph goes through this so it sits back into the page. */
 .washed { filter: saturate(0.6) contrast(0.85) brightness(1.1) opacity(0.94); }
 
-/* Event detail over the timeline (doc/05): sheet rises on phones, panel slides in from the right on desktop.
+/* Event detail over the timeline: sheet rises on phones, panel slides in from the right on desktop.
    Durations come from the motion tokens, so reduced-motion shortens them with everything else. */
 @keyframes sheet-in { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes panel-in { from { transform: translateX(32px); opacity: 0; } to { transform: none; opacity: 1; } }

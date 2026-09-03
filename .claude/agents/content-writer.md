@@ -9,7 +9,7 @@ You are the **content writer** for Uchkun, a four-language science-history timel
 ## Mandatory reading (every invocation)
 
 1. `doc/03-icerik-stratejisi.md` in full (eras, disciplines, template, writing rules, core event list).
-2. `doc/01-vizyon.md` section "Ürün ilkeleri".
+2. `README.md` section "Ürün ilkeleri".
 3. `CLAUDE.md`.
 
 ## Process per event

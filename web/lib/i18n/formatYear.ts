@@ -1,5 +1,5 @@
 /**
- * The single place where years are turned into text. See doc/04-mimari.md.
+ * The single place where years are turned into text. See doc/06-i18n-stratejisi.md.
  * year: integer, negative = BCE, there is no year 0.
  *
  * The approximation marker is a whole word ("around"), never an abbreviation:
@@ -125,7 +125,7 @@ export function joinYear(parts: YearParts): string {
   return parts.qualifier ? `${parts.qualifier} ${parts.value}` : parts.value;
 }
 
-/** Range like "1925 - 1927" or "MÖ 300 - MÖ 250". Plain hyphen on purpose (doc/04).
+/** Range like "1925 - 1927" or "MÖ 300 - MÖ 250". Plain hyphen on purpose (doc/06).
  *  An approximate range says "around" once, in front of the whole range. */
 export function formatYearRangeParts(
   start: number, end: number | null | undefined, precision: YearPrecision, locale: Locale,

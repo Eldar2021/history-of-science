@@ -43,7 +43,7 @@ function LinkedList({ items, locale }: { items: LinkedEvent[]; locale: Locale })
   );
 }
 
-/** The event detail (doc/05 "Olay kartı" > tıklama): same component on the full page and inside the panel. */
+/** The event detail: the same component on the full page and inside the panel. */
 export async function EventDetail({ event, locale, headingLevel = "h1", headingId }: Props) {
   const [t, tTimeline, tLocales] = await Promise.all([
     getTranslations("event"), getTranslations("timeline"), getTranslations("locales"),

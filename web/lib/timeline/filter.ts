@@ -1,4 +1,4 @@
-/** Discipline filter state, kept in the URL (`?d=physics,astronomy&only=1`, doc/05 Navigasyon). */
+/** Discipline filter state, kept in the URL: `?d=physics,astronomy&only=1`. */
 
 /** `?d=physics,astronomy` -> Set. Unknown slugs are ignored so a stale link cannot dim everything. */
 export function parseSelected(param: string | null, known: Set<string>): Set<string> {
