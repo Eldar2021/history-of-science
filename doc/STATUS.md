@@ -25,7 +25,7 @@
 - [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`; anahtar başlıkta, iki tema ekran görüntüsüyle doğrulandı.
 
 **İçerik**
-- [ ] +10 olay İngilizce (antik dünya) — `/com_event` ile taslak, kullanıcı doğrular. **Açık**: henüz başlanmadı, sonraki oturum.
+- [~] +10 olay İngilizce (antik dünya): 10 taslak `backend/content/drafts/*.json` (Pisagor, Demokritos, Hipokrat, Platon, Aristoteles, Hipparkos, Batlamyus, Galen, Hypatia, Aryabhata), her biri 5-7 kaynak ve Türkçe doğrulama notuyla. **Kullanıcı doğrulaması bekliyor**; DB'ye yazılmadı. (2026-09-03)
 
 **Hafta sonu kontrolü**
 - [x] `/en/timeline` konsepteki gibi akıyor; yıl göstergesi kaydırdıkça güncelleniyor; `?year=1687` Newton kartına düşüyor (headless Chrome, 2026-09-03).

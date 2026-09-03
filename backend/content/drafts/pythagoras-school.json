@@ -1,0 +1,33 @@
+{
+  "slug": "pythagoras-school",
+  "year": -530,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "title": "The Pythagoreans: the universe can be understood through numbers",
+  "summary": "In Croton, a community founded by Pythagoras comes to believe that number is the hidden order behind music, the sky and the body. What Pythagoras himself did is mostly legend.",
+  "body": "### The scene\n\nAround 530 BCE a man from the island of Samos arrives in Croton, a Greek colony on the coast of southern Italy. He is about forty. Behind him is a world where Thales and his students in Miletus have already begun to explain storms and eclipses without gods. Ahead of him is something stranger: a community, part school and part religious order, that will decide that the deepest thing you can say about the world is a number.\n\n### What happened\n\nPythagoras founded a group with strict rules: shared property, food bans, long silences, and a belief that the soul is reborn in new bodies. Members lived by short sayings they memorised. Women joined too. Later Greek writers list seventeen women among the members and report on the fame of Pythagorean women; the best-known name, Theano, appears mainly in late and unreliable sources.\n\nSomewhere in this community a conviction took shape: that harmony, the heavens and the body all rest on relationships between numbers. The clearest case was music. Pluck a string, then pluck a string half as long, and you hear the same note an octave higher. The other pleasing intervals also come from small whole-number ratios. Small numbers, hiding inside beauty. If music obeyed number, why not everything?\n\nThink of it as the difference between a song and its sheet music. The Pythagoreans claimed that behind every song the world sings there is a score, and the score is written in numbers. The analogy breaks in one important way: sheet music is written by a composer after the song exists, while the Pythagoreans believed the numbers came first and the world followed them.\n\n### Why it was hard\n\nAlmost nothing here can be safely pinned on Pythagoras himself. He wrote nothing. The theorem that carries his name was known to Babylonian scribes a thousand years earlier, and the first text crediting him with proving it was written by Proclus almost a thousand years after his death. The story that he discovered musical ratios by listening to hammers in a blacksmith's shop is a legend, and the method it describes does not even work. The modern scholarly view is that Pythagoras was someone who saw special significance in numbers, not a mathematician who proved things.\n\nThe real mathematics came from later Pythagoreans. Philolaus, born in Croton around 470 BCE, wrote the first Pythagorean book and argued that nothing can be known without number; he also placed a central fire, not the Earth, at the centre of the cosmos. Hippasus, according to another legend, was drowned at sea for revealing that the diagonal of a square cannot be written as a ratio of whole numbers, a discovery that broke the school's own creed. The community itself was attacked and scattered around 510 BCE, and Pythagoras died in exile.\n\n### What it opened\n\nPlato absorbed Pythagorean ideas and put mathematics at the door of his Academy. Euclid's Elements gathered up the number theory and geometry the Pythagoreans had begun. Two thousand years later Copernicus cited Philolaus when he dared to move the Earth, and Kepler searched for the harmony of the planets. The idea that the world has a hidden mathematical structure, and that finding it is what understanding means, is still the working faith of every physicist.",
+  "why_it_matters": "This is the first time a community bet that the world is mathematical underneath. Every later attempt to write the laws of nature in numbers, from Kepler to quantum mechanics, inherits that bet.",
+  "if_you_were_there": "Nobody thought numbers had anything to do with the sky or the body; counting was for merchants and priests. Even inside the school, most members learned rules of life, not geometry.",
+  "disciplines": ["mathematics"],
+  "people": [
+    { "name": "Pythagoras", "role": "founder of the community at Croton" },
+    { "name": "Philolaus", "role": "later Pythagorean; first written account of the doctrine" },
+    { "name": "Theano", "role": "Pythagorean woman, mainly in late sources" },
+    { "name": "Hippasus", "role": "Pythagorean linked by legend to irrational numbers" }
+  ],
+  "builds_on": ["thales-natural-explanations"],
+  "enables": ["plato-academy", "euclid-elements", "copernicus-heliocentrism", "kepler-planetary-laws?"],
+  "sources": [
+    { "title": "Pythagoras — Stanford Encyclopedia of Philosophy", "url": "https://plato.stanford.edu/entries/pythagoras/", "kind": "encyclopedia" },
+    { "title": "Pythagoras — Britannica", "url": "https://www.britannica.com/biography/Pythagoras", "kind": "encyclopedia" },
+    { "title": "Pythagoras — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pythagoras", "kind": "encyclopedia" },
+    { "title": "Philolaus — Wikipedia", "url": "https://en.wikipedia.org/wiki/Philolaus", "kind": "encyclopedia" },
+    { "title": "Pythagoras of Samos — MacTutor History of Mathematics, University of St Andrews", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/", "kind": "article" },
+    { "title": "Walter Burkert, Lore and Science in Ancient Pythagoreanism (Harvard University Press, 1972)", "url": "https://www.hup.harvard.edu/books/9780674539181", "kind": "book" }
+  ],
+  "verify_note_tr": "Croton'a varış yılı kaynaklarda MÖ 530 (SEP, Wikipedia) ile MÖ 518 (MacTutor) arasında değişiyor; MacTutor tarihlerin 20 yıl oynayabildiğini söylüyor, circa işareti bu yüzden. Kadın üye sayısı (235 isimden 17'si) Iamblichus'un geç listesinden geliyor; Theano ve Hippasus'un boğulma hikâyesi efsane olarak yazıldı. Burkert kitabının yayınevi linkini ve Britannica sayfasını (403 verdi, arama özetiyle doğrulandı) elle kontrol et.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

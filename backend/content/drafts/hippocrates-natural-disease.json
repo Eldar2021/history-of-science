@@ -1,0 +1,33 @@
+{
+  "slug": "hippocrates-natural-disease",
+  "year": -400,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Hippocrates and the physicians of Kos: disease has natural causes",
+  "summary": "A treatise on epilepsy, the 'sacred disease', argues it is no more divine than any other illness. Doctors around Hippocrates start looking at bodies, diet and climate instead of gods.",
+  "body": "### The scene\n\nGreece around 400 BCE, in the middle of the long war between Athens and Sparta. If you fall ill you have choices. You can visit a temple of Asclepius, sleep in its hall, and hope the god sends a healing dream. You can pay a purifier who will chant over you and forbid certain foods. Or you can find one of a new kind of doctor, trained in families and schools on islands like Kos, who will ask about your diet, feel your body, and tell you, sometimes bluntly, what is likely to happen next.\n\n### What happened\n\nSomewhere in these decades a physician wrote a short, angry book about epilepsy, which Greeks called the sacred disease because its seizures looked like possession. \"It is not, in my opinion, any more divine or more sacred than other diseases,\" the author begins, \"but has a natural cause.\" He locates it in the brain, blames a blockage of phlegm, and mocks the magicians who profit from fear: if they can cure the disease by ritual, then it was never divine in the first place.\n\nThe book has come down to us under the name of Hippocrates of Kos, born around 460 BCE, praised by Plato in his own lifetime and later called the father of medicine. But it is one of about sixty works in the Hippocratic Corpus, written by many hands over roughly a century, and scholars cannot say for certain that Hippocrates wrote any of them. The same is true of the famous Oath. What \"Hippocrates\" names is a movement more than a man: the school of Kos, his sons Thessalus and Draco, his son-in-law Polybus, and rivals in nearby Knidos, all writing down cases, seasons and outcomes.\n\nThink of these doctors as detectives who refuse to write \"the ghost did it\" in the case file. Every illness has a cause that can, in principle, be traced, and the doctor's job is to observe, record and predict. The analogy breaks because their cases were mostly wrong: the answer was usually \"an imbalance of the four humours\", and no one would see a real culprit under a microscope for another two thousand years.\n\n### Why it was hard\n\nNaturalism was not a new idea; Thales and the Milesians had applied it to the sky a century and a half earlier. Applying it to a suffering body was harder. Temple medicine was popular and sometimes worked, because rest and hope do. The new doctors had no anatomy from dissection, no way to see inside a living person, and no theory that could be tested. Their honesty took another form: the Epidemics record patients who died as carefully as those who recovered, and prognosis, saying in advance how a case would turn out, was how a physician earned trust.\n\nMany stories about Hippocrates himself are legends: that he stopped the plague of Athens, that he refused the gold of the Persian king Artaxerxes, that he taught under a plane tree still shown to visitors on Kos. They tell us how later ages wanted to remember him, not what he did.\n\n### What it opened\n\nGalen, six centuries later, made Hippocrates the authority of all medicine and wrote commentaries that carried the Corpus into the Islamic world, where Ibn Sina built on it. The humoral theory it launched held on until the nineteenth century and was replaced only when Pasteur and Koch found the actual causes of infection. What survived the replacement was the habit: disease is a natural event, and the doctor's first tools are observation and an honest record.",
+  "why_it_matters": "It moved illness from the realm of the gods into the realm of nature, where it could be studied. Every diagnosis, case history and clinical trial since is a descendant of that move, even though the specific answers of the Corpus were wrong.",
+  "if_you_were_there": "Nobody knew what caused any disease; germs, organs and nerves were unknown, and a seizure looked exactly like a god taking hold of someone. Choosing a doctor over a temple was a gamble with no evidence on either side.",
+  "disciplines": ["medicine"],
+  "people": [
+    { "name": "Hippocrates of Kos", "role": "physician whose name the Corpus carries" },
+    { "name": "Polybus", "role": "son-in-law; probable author of On the Nature of Man (four humours)" },
+    { "name": "Thessalus and Draco", "role": "sons of Hippocrates, physicians of the Kos school" },
+    { "name": "Galen", "role": "canonised Hippocrates six centuries later" }
+  ],
+  "builds_on": ["thales-natural-explanations", "empedocles-four-elements?"],
+  "enables": ["aristotle-lyceum", "galen-anatomy", "ibn-sina-canon?", "pasteur-germ-theory?"],
+  "sources": [
+    { "title": "Hippocrates — Britannica", "url": "https://www.britannica.com/biography/Hippocrates", "kind": "encyclopedia" },
+    { "title": "Corpus Hippocraticum — Britannica", "url": "https://www.britannica.com/topic/Corpus-Hippocraticum", "kind": "encyclopedia" },
+    { "title": "Hippocrates — Wikipedia", "url": "https://en.wikipedia.org/wiki/Hippocrates", "kind": "encyclopedia" },
+    { "title": "On the Sacred Disease — Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Sacred_Disease", "kind": "encyclopedia" },
+    { "title": "Hippocratic Corpus — Wikipedia", "url": "https://en.wikipedia.org/wiki/Hippocratic_Corpus", "kind": "encyclopedia" },
+    { "title": "Jacques Jouanna, Hippocrates, trans. M. B. DeBevoise (Johns Hopkins University Press, 1999)", "url": "https://www.press.jhu.edu/books/title/2039/hippocrates", "kind": "book" }
+  ],
+  "verify_note_tr": "MÖ 400, 'Kutsal Hastalık Üzerine' metninin yaygın tarihi; Hipokrat'ın kendi ömrü MÖ 460-375 civarı, Korpus metinleri ise MÖ 420-350 arasına yayılıyor, yani yıl temsili. Polybus'un 'İnsanın Doğası' yazarlığı Galen'e dayanan bir atıf, ikinci kaynakla doğrulanmadı. Atina vebası, Artaxerxes ve çınar ağacı hikâyeleri efsane olarak yazıldı; Jouanna kitabının linkini kontrol et.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}
