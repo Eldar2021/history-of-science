@@ -4,58 +4,13 @@
   Uchkun design tokens. Source of truth: resource/design/tokens.json
   (Claude Design "Foundation" concept, 2026-09-03, on the Organic base ramps).
 
-  Light ("the observer's notebook") is the primary theme and the only default
-  (ADR-020). Dark ("night at the observatory") applies only when the reader
-  presses the theme switch, which writes data-theme="dark" on <html> and
-  remembers it (ADR-022). The OS preference is deliberately not consulted:
-  it made the site open dark and flip theme on its own between reloads.
+  One theme: "night at the observatory" (ADR-029). There is no switch and no light
+  ramp any more - the home page is a photograph of the Earth against space, and the
+  rest of the site is asked to belong to it. ADR-020 and ADR-022, which made light
+  the primary and only default, are superseded.
 */
 
 :root {
-  color-scheme: light;
-  --bg-base: #f5ead8;
-  --bg-elevated: #ebddc5;
-  --bg-raised: #f9f4ed;
-  --text-primary: #201e1d;
-  --text-secondary: #645c50;
-  --text-muted: #82796a;
-  --accent: #c67139;
-  --accent-hover: #b2622d;
-  --accent-text: #8c491a;
-  --accent-ink: #f5ead8;
-  --sage: #56633f;
-  --line: rgba(32, 30, 29, 0.16);
-  --glow: 0 0 14px rgba(198, 113, 57, 0.6);
-  --shadow-sm: 0 1px 2px rgba(46, 43, 37, 0.14);
-  --shadow-md: 0 3px 10px rgba(46, 43, 37, 0.16);
-  --shadow-lg: 0 12px 32px rgba(46, 43, 37, 0.22);
-  --discipline-mathematics: #8b7aa3;
-  --discipline-physics: #5f7f9a;
-  --discipline-astronomy: #5c6494;
-  --discipline-chemistry: #c67139;
-  --discipline-biology: #7a8a5e;
-  --discipline-medicine: #c4705f;
-  --discipline-earth: #b08a3e;
-  --discipline-technology: #7d8489;
-
-  /* Eras have no hue of their own in the concept; labels are sage. eras.color in the DB names these tokens. */
-  --era-ancient: var(--sage); --era-golden: var(--sage); --era-revolution: var(--sage); --era-enlightenment: var(--sage);
-  --era-industrial: var(--sage); --era-modern: var(--sage); --era-information: var(--sage); --era-today: var(--sage);
-
-  /* Motion (tokens.json > transitionDuration / transitionTimingFunction) */
-  --duration-fall: 1500ms;
-  --duration-event-fade: 400ms;
-  --duration-tick: 120ms;
-  --duration-press: 120ms;
-  --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
-}
-
-/*
-  The globe stage is deliberately dark in both themes: a lit sphere needs a night sky behind it
-  (ADR-024). It borrows the dark palette rather than copying it, so the two never drift apart.
-*/
-:root[data-theme="dark"],
-.globe-stage {
   color-scheme: dark;
   --bg-base: #2e2b25;
   --bg-elevated: #3b372f;
@@ -88,6 +43,16 @@
   --globe-sphere-edge: #423d33;  /* the lit shoulder */
   --globe-halo: rgba(174, 191, 146, 0.10);
   --globe-trail: rgba(246, 160, 107, 0.35);
+
+  /* Eras have no hue of their own in the concept; labels are sage. eras.color in the DB names these tokens. */
+  --era-ancient: var(--sage); --era-golden: var(--sage); --era-revolution: var(--sage); --era-enlightenment: var(--sage);
+  --era-industrial: var(--sage); --era-modern: var(--sage); --era-information: var(--sage); --era-today: var(--sage);
+  /* Motion (tokens.json > transitionDuration / transitionTimingFunction) */
+  --duration-fall: 1500ms;
+  --duration-event-fade: 400ms;
+  --duration-tick: 120ms;
+  --duration-press: 120ms;
+  --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
 }
 
 /*
@@ -122,7 +87,7 @@
   }
 }
 
-/* Tailwind v4 theme: utilities read the semantic tokens above, so they follow the theme at runtime. */
+/* Tailwind v4 theme: utilities read the semantic tokens above. */
 @theme inline {
   --color-base: var(--bg-base);
   --color-elevated: var(--bg-elevated);

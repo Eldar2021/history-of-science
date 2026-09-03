@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { signIn } from "./actions";
 
 const ERRORS = ["invalid", "forbidden", "noEnv"] as const;
@@ -22,7 +21,6 @@ export default async function LoginPage({ searchParams }: Props) {
             <p className="font-display text-sm text-secondary">{t("title")}</p>
             <h1 className="font-display text-2xl text-primary">{t("login.title")}</h1>
           </div>
-          <ThemeToggle />
         </div>
 
         {errorKey && (

@@ -6,8 +6,6 @@ test("the first event is in the HTML before any script runs", async ({ request }
   const html = await (await request.get("/en")).text();
   expect(html).toContain("Thales looks for natural causes");
   expect(html).toContain("Miletus");
-  // The way into the timeline must not depend on JavaScript either.
-  expect(html).toContain("/en/timeline");
 });
 
 test("the buttons walk the timeline and the URL follows", async ({ page }) => {

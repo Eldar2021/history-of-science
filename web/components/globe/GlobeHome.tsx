@@ -95,19 +95,11 @@ export function GlobeHome({ events, locale }: Props) {
       {/* The site's own bar, with no background of its own, floating on the sky (ADR-027). */}
       <SiteHeader over />
 
-      {/* Below the bar, so the two never collide. The heading stays in the document for readers
-          and search engines even on a phone, where there is no room to show it. */}
-      <div className="pointer-events-none absolute inset-x-0 top-[4.25rem] z-10 flex items-start gap-4 px-6">
-        <h1 className="sr-only max-w-[15rem] font-display text-lg leading-snug text-secondary sm:not-sr-only">
-          {t("question")}
-        </h1>
-        <Link
-          href="/timeline"
-          className="pointer-events-auto ml-auto rounded-full border border-line bg-elevated px-4 py-2 text-sm text-secondary backdrop-blur transition hover:border-accent hover:text-primary"
-        >
-          {t("exploreAll")}
-        </Link>
-      </div>
+      {/* Below the bar. The heading stays in the document for readers and search engines even on
+          a phone, where there is no room to show it. */}
+      <h1 className="sr-only absolute left-6 top-[4.25rem] z-10 max-w-[15rem] font-display text-lg leading-snug text-secondary sm:not-sr-only">
+        {t("question")}
+      </h1>
 
       <Link
         href={`/event/${current.slug}`}

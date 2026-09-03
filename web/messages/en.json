@@ -12,16 +12,12 @@
   "nav": {
     "timeline": "Timeline",
     "about": "About",
-    "language": "Language",
-    "theme": "Theme",
-    "themeLight": "Switch to light theme",
-    "themeDark": "Switch to dark theme"
+    "language": "Language"
   },
   "home": {
     "question": "How did we get here?",
     "lead": "From Thales to CRISPR: every discovery stood on an earlier one. Fall into time and watch how slowly it started, and how fast it got.",
     "cta": "Fall into time",
-    "exploreAll": "Explore the whole timeline",
     "previous": "Previous event",
     "next": "Next event",
     "progress": "{index} of {total}",

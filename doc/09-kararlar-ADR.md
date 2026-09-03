@@ -264,9 +264,13 @@ kart, ileri/geri) aynen geçerli.
   gösteriyordu. Dürüstlük ilkesinden **vazgeçilmedi**, yalnızca boyu değişti: itiraf da, hata bildirme
   bağlantısı da ekranda duruyor (README'deki ürün ilkesi korunuyor). Sitenin kalanı açık tema olarak
   kalıyor — ADR-020 ve ADR-022 değişmedi; koyu olan sayfa değil, uzay.
-- **Sonuçlar**: Ana sayfa artık kaydırılmıyor, tek ekran. Olay sheet'i sitenin açık temasıyla kürenin
-  üstünde açılıyor (kasıtlı kontrast). Tema düğmesi ana sayfada gözle görülür bir şey değiştirmiyor,
-  çünkü gökyüzü temaya bağlı değil; sitenin geri kalanında çalışmaya devam ediyor.
+- **Sonuçlar**: Ana sayfa artık kaydırılmıyor, tek ekran.
+- **Ek (2026-09-04)**: Ana sayfada zaman çizelgesine giden bağlantıların ikisi de kaldırıldı
+  (başlıktaki bağlantı ve "Tüm zaman çizelgesini keşfet" düğmesi) — kullanıcı kararı, küre iyice
+  sadeleşsin diye. `/timeline` duruyor ve diğer her sayfanın başlığından erişiliyor; **ana sayfadan
+  erişilmiyor.** Ziyaretçinin oraya ulaşması için bir olay açıp oradan gitmesi ya da adresi bilmesi
+  gerekiyor. Ana sayfa bu hâliyle bir çıkmaz; beta geri bildirimlerinde bu çıkarsa ilk geri alınacak
+  şey budur.
 
 ---
 
@@ -289,6 +293,28 @@ kalanı (yer kesinliği enumu, çıplak ad, kesikli çember, en az 22 piksel) ay
   bu kürede **hata değil "yer"** demek: her pin kızıl. Belirsizliği taşıyan şey renk değil,
   **kesikli çizgi** — `exact` ve `city` düz bir nokta, `region` ve `continent` kesikli bir çember.
   Ayrım hâlâ görünür ve hâlâ dürüst.
+
+---
+
+## ADR-029: Tek tema, koyu
+
+**2026-09-04 · Kabul** · ADR-020 (açık tema birincil) ve ADR-022 (açık tema tek varsayılan)
+geçersizdir.
+
+- **Bağlam**: Ana sayfa uzayda bir Dünya fotoğrafı oldu (ADR-026, ADR-027). Kullanıcı sitenin
+  tamamının buna ait olmasını istedi: açık tema kalksın, tema düğmesi kalksın, admin dahil her yer
+  koyu olsun.
+- **Karar**: Tek tema. `globals.css` artık yalnızca koyu paleti tanımlıyor; `data-theme` niteliği,
+  `lib/theme.ts`, ön-boyama betiği ve `ThemeToggle` silindi. `.globe-stage` yalnızca gökyüzüne özgü
+  değerleri (neredeyse siyah zemin, yıldız, kızıl işaret renkleri) üstüne yazıyor.
+- **Gerekçe**: Tek görünüm, tek palet, bakımı en kolayı; ve sayfanın kimliği artık küreden geliyor.
+- **Karşı görüş (kayda geçsin)**: Uzun metni koyu zeminde okumak birçok kişi için daha yorucudur —
+  özellikle astigmatlı gözde açık harfler koyu zeminde dağılır (halation). Olay sayfaları uzun metin
+  taşıyor. Açık palet zaten yazılmış ve çalışıyordu; düğmeyi tutmak bize bir şey kaybettirmezdi.
+  Bunu kullanıcıya söyledim, kullanıcı kararında ısrar etti — karar onun, gerekçesi burada duruyor.
+- **Sonuçlar**: Okuyucunun tema seçimi yok. Beta'da (M2) okuma yorgunluğu geri bildirimi gelirse
+  ilk bakılacak yer burasıdır; açık palet `git log`'da duruyor, geri getirmek bir commit'tir.
+  `resource/design/tokens.json`'daki açık ramp artık kullanılmıyor; işleyen kaynak `globals.css`.
 
 ---
 
