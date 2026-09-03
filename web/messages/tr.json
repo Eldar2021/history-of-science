@@ -31,10 +31,35 @@
     "importance": "Önem {level}",
     "landmark": "Dönüm noktası",
     "today": "bugün",
-    "era": "Çağ"
+    "era": "Çağ",
+    "filterLegend": "Disipline göre süz",
+    "onlyThese": "Sadece bunlar",
+    "clearFilter": "Temizle",
+    "filterEmpty": "Bu disiplinlerde henüz olay yok. Belki de asıl ilginç olan bu.",
+    "overview": "Zaman çizgisi genel görünümü"
   },
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
-    "report": "Hata bildir"
+    "report": "Hata bildir",
+    "subject": "Uchkun: hata bildirimi",
+    "subjectEvent": "Uchkun: \"{title}\" ({year}) olayında hata",
+    "body": "Sayfa: {url}\n\nYanlış olan:\n"
+  },
+  "event": {
+    "whyItMatters": "Neden önemli",
+    "ifYouWereThere": "Orada olsaydın",
+    "buildsOn": "Dayanır",
+    "enabled": "Mümkün kıldı",
+    "people": "Kişiler",
+    "sources": "Kaynaklar",
+    "close": "Kapat",
+    "showInTimeline": "Zaman çizgisinde göster",
+    "imageCredit": "Görsel: {credit}, {license}",
+    "unknownYear": "?"
+  },
+  "notFound": {
+    "title": "Bulunamadı",
+    "text": "Bu sayfa yok ya da olay henüz yayınlanmadı.",
+    "back": "Zaman çizgisine dön"
   }
 }

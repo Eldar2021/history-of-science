@@ -5,15 +5,36 @@
 
 ## Şu an
 
-- **Faz**: Ay 1 / Hafta 2 (başladı 2026-09-03, dal `el/week-2-timeline-mvp`). Hedef: Akış timeline'ı MVP; M1'e giden yol.
-- **Doğrulandı (2026-09-03, 5. oturum)**: Hafta 2 kod kutucuklarının tamamı bitti ve headless Chrome ile test edildi: 3 boyutta kart, sticky çağ pill'i, zaman boşluğu, canlı yıl göstergesi (kaydırma örnekleri MÖ 585 → 1947), `?year=1687` Newton'a, `?year=-240` "MÖ 240"a düşüyor, tema anahtarı localStorage ile kalıcı, konsol hatası yok. `npm run check` 51 test yeşil. Ekran görüntüleri iki temada alındı.
-- **Sonraki adım**: (1) Kullanıcı 10 taslağı doğrular (`backend/content/drafts/`, her dosyada `verify_note_tr`); onaylananlar yerel DB'ye `draft` olarak yüklenir (kullanıcı kararı bekleniyor). (2) Hafta 3'e geçiş: olay detay paneli/sheet, ana sayfa "Zamana düş" sayacı, minimap (`xScale` hazır), disiplin filtre çipleri, dürüstlük bandı mailto'ya olay bilgisi. (3) İsteğe bağlı: `timeline-ux-reviewer` ajanıyla Hafta 2 çıktısını 05'e karşı gözden geçir.
-- **Kullanıcıdan bekleyen**: (0) 10 antik olay taslağını doğrula; siteden okumak için yerelde `published`'a çevirme kararı (gövde metni Hafta 3 detay sayfasıyla görünür olacak). (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
-- **Bloklayan**: yok. Vercel CLI bu makinede girişli (`web/.vercel/` bağlı, gitignore'da); `npx vercel ls`, `vercel inspect --logs`, `vercel redeploy` buradan çalışır. Yerel geliştirme için: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
+- **Faz**: Ay 1 / Hafta 3 (başladı 2026-09-03, dal `el/week-3-event-detail`). Hedef: olay detayı, giriş geçişi, minimap, filtreler; M1'e giden yol (Hafta 4 sonu).
+- **Hafta 2 kalan**: içerik kutucuğu (10 antik taslak) kullanıcı doğrulaması bekliyor; kod ve tasarım kapandı, PR #3 `main`'e birleşti.
+- **Doğrulandı (2026-09-03, 7. oturum)**: Hafta 3'ün 5 kod kutucuğu bitti, her biri headless Chrome ile test edildi, `npm run check` 69 test yeşil. Dal `el/week-3-event-detail`, PR açık. Kalan: içerik (+10 İslam Altın Çağı) ve hafta sonu kontrolü.
+- **Bulut (2026-09-03)**: Supabase projesi **uchkun** `hsllmvouqayaccubodcl` (Frankfurt, ücretsiz) CLI ile açıldı; eski ref `jnclaqxvfitggyprasxw` = kullanıcının başka projesi **uro-go** (duraklatılmış, dokunulmadı). Migration 0001+0002 `db push` ile, seed `db query --file` ile uygulandı (8 çağ, 8 disiplin, 10 yayınlı olay, 6 bağlantı); anon RPC doğrulandı. Vercel prod/preview: `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_ANON_KEY`. DB şifresi kullanıcıya bir kez gösterildi (1Password). Üretim `vercel redeploy` ile yeniden dağıtıldı: https://history-of-science.vercel.app bulut DB'yi okuyor (doğrulandı).
+- **Sonraki adım**: (1) PR #4 merge → Vercel prod bulut DB ile deploy. (2) `/com_event` ile İslam Altın Çağı 10 olayı (03 listesi: Brahmagupta, El-Harezmi gövdesi, El-Farabi, İbn-i Heysem, İbn Sina, El-Biruni, Ömer Hayyam, Fibonacci, Roger Bacon, Uluğ Bey). (3) Hafta 4: admin + auth + RLS kanıtı → M1.
+- **Kullanıcıdan bekleyen**: (0) Supabase Studio → Authentication → Users → kendi e-postanla kullanıcı; `update profiles set role='admin' where id='<uuid>'` (Hafta 4 admin için). (1) PR'ı incele ve `main`'e birleştir (= Vercel prod deploy). (2) 10 antik olay taslağını doğrula (`backend/content/drafts/`, `verify_note_tr`); `published` kararı. (3) Hafta sonu kontrolü: bir arkadaşa telefonu ver, 2 dakika izle. (4) İsteğe bağlı: `resource/Design system conflict scope/` klasörünü yeniden adlandır.
+- **Bloklayan**: yok. Bulut: `supabase link` bağlı (`backend/supabase/.temp`), `supabase db push` yeni migration'ları uygular. Yerel geliştirme: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
+
+## Hafta 3 kutucukları
+
+**Kod**
+
+- [x] Olay detay: masaüstü yan panel, mobil sheet, doğrudan URL tam sayfa; geri tuşu konumu korur. Migration `0002_event_detail.sql` (`get_event_detail(slug, locale)` tek JSON + `event_title` yardımcısı, anon'da taslak null), `lib/queries/event.ts`, `components/event/{EventDetail,DetailPanel}.tsx`, `app/[locale]/event/[slug]`, `app/[locale]/timeline/@panel/(..)event/[slug]` intercepting rota, `lib/content/markdown.ts` (### başlık + paragraf + *em*/**strong**, 5 test), kartlar tıklanabilir, `not-found.tsx`. Headless Chrome: panel/sheet açılır, Esc ve geri tuşu kapatır, kaydırma konumu birebir korunur, taslak 404. (2026-09-03)
+- [x] Ana sayfa + "Zamana düş" sayaç geçişi + reduced-motion: `components/FallLink.tsx` (CTA, sessionStorage bayrağı) + `components/timeline/FallOverlay.tsx` (tam ekran örtü, 2026 → ilk olay ya da `?year=`, `--duration-fall` 1.5 s ease-out, `formatYear` ile MÖ/MS; reduced-motion'da sayaç yok, 250 ms fade). `lib/timeline/fall.ts` (`easeOut`, `parseDuration`; 4 test). Paylaşılan timeline linki düz açılır, bayrak yalnızca CTA'dan gelir. Bulunan hata: minifier `1500ms`→`1.5s` yazıyor, `parseFloat` 1.5 ms okuyordu. (2026-09-03)
+- [x] Minimap (gerçek ölçek, `xScale` ile) + tıklayınca atlama: `components/timeline/Minimap.tsx` tek SVG, `lib/timeline/minimap.ts` (yoğunluk kutuları karekök ölçekli, en yakın olay; 6 test). Mobilde alt şerit, masaüstünde sağ sütun; çağ çizgileri, ekrandaki yıl bandı, canlı imleç (passive scroll + rAF); tıklama/sürükleme en yakın olaya kaydırır, reduced-motion'da anında. `aria-label` yılı söyler. Headless Chrome iki boyutta doğrulandı. Sol çağ sütunu (masaüstü 3 sütun) yapılmadı; sticky çağ pill'i şimdilik yeterli. (2026-09-03)
+- [x] Disiplin filtre çipleri, URL senkron: `components/timeline/DisciplineFilter.tsx` + `lib/timeline/filter.ts` (5 test). `?d=physics,astronomy` seçilmeyenleri 0.3 soluklaştırır; "Sadece bunlar" çipi `&only=1` ile gizler, boş kalan çağ bölümleri de gizlenir; "Temizle"; boş sonuç mesajı; `?year=` korunur; yenilemede URL'den geri yüklenir. Sapma: 05'teki "ikinci tık = sadece bunlar" yerine ayrı çip (ikinci tıkın seçimi kaldırmasıyla çakışıyordu). (2026-09-03)
+- [x] **Dürüstlük bandı** alt bilgide, 4 dilde, "Hata bildir" mailto (olay bilgisi otomatik): `components/HonestyBand.tsx` konu satırına olay başlığı + yıl, gövdeye sayfa URL'si; adres `NEXT_PUBLIC_REPORT_EMAIL` (Vercel prod/preview/dev + `.env.local` = Gmail), `NEXT_PUBLIC_SITE_URL` Vercel prod'a eklendi. (2026-09-03)
+
+**İçerik**
+
+- [ ] +10 olay (İslam Altın Çağı, Orta Asya vurgusu).
+
+**Hafta sonu kontrolü**
+
+- [ ] Bir arkadaşa telefonu ver, 2 dakika sessiz izle, not al. (kullanıcı)
 
 ## Hafta 2 kutucukları
 
 **Kod**
+
 - [x] Dikey akış, 3 boyutta olay kartı (landmark / standart / küçük not), sticky çağ başlığı, zaman boşluğu işareti (konsept 1d-1g). `components/timeline/{EventCard,EraHeader,TimeGap}.tsx`, `getDisciplines(locale)` ile çevrili çipler. (2026-09-03)
 - [x] Sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer, `aria-live`). `components/timeline/YearIndicator.tsx`; headless Chrome ile kaydırma testi geçti. (2026-09-03)
 - [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest (Hafta 1'de yapıldı, 38 test).
@@ -22,12 +43,15 @@
 - [x] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, 13 test: sıfır yılı yok, tersi, zoom/pan, Z0-Z3, imleç etrafında zoom). (2026-09-03)
 
 **Tasarım**
+
 - [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`; anahtar başlıkta, iki tema ekran görüntüsüyle doğrulandı.
 
 **İçerik**
+
 - [~] +10 olay İngilizce (antik dünya): 10 taslak `backend/content/drafts/*.json` (Pisagor, Demokritos, Hipokrat, Platon, Aristoteles, Hipparkos, Batlamyus, Galen, Hypatia, Aryabhata), her biri 5-7 kaynak ve Türkçe doğrulama notuyla. Yerel DB'ye `draft` olarak yüklendi (`backend/scripts/drafts-to-sql.mjs`, 37 bağlantı dahil); RLS gizliyor. **Kullanıcı doğrulaması ve yerel yayın kararı bekliyor.** (2026-09-03)
 
 **Hafta sonu kontrolü**
+
 - [x] `/en/timeline` konsepteki gibi akıyor; yıl göstergesi kaydırdıkça güncelleniyor; `?year=1687` Newton kartına düşüyor (headless Chrome, 2026-09-03).
 
 ## Hafta 1 kutucukları
@@ -42,6 +66,7 @@
 - [ ] İçerik: ilk 5 olay şablonla yazıldı ve doğrulandı (seed'de 10 olayın özetleri var; gövdeler `/com_event` ile yazılacak)
 
 ## Notlar / kararlar
+
 - Yerel Docker **Colima** ile (`colima start`); Docker Desktop yok. Supabase CLI 2.116 Homebrew'dan kuruldu.
 - Postgres'te `precision` anahtar kelime: `returns table` içinde `"precision"` diye tırnaklı. Yeni fonksiyonlarda da aynısı gerekir.
 - Çağların kendi rengi yok (konsept); `era-*` token'ları adaçayına işaret ediyor. Explore kanvası turunda çağ paleti istenecek.
@@ -50,33 +75,46 @@
 
 ## Oturum günlüğü
 
+### 2026-09-03 — 7. oturum: Hafta 3 kod kutucukları (tamamlandı)
+- Migration `0002_event_detail.sql`: `get_event_detail(slug, locale)` tek JSON, `event_title` yardımcısı; anon rolüyle taslak null doğrulandı; `gen:types`.
+- Olay detayı: `/[locale]/event/[slug]` tam sayfa + `timeline/@panel/(..)event/[slug]` intercepting rota (masaüstü yan panel, mobil sheet). `router.replace` ile kapatmak slot'u açık bırakıyor (Next yumuşak geçişte slot durumunu korur, `default.tsx` yalnızca sert yüklemede); panel yalnızca yumuşak geçişle açılabildiği için `router.back()` her zaman doğru.
+- Dürüstlük bandı mailto: olay başlığı + yıl + URL, `NEXT_PUBLIC_REPORT_EMAIL` (Vercel prod/preview/dev + `.env.local`), `NEXT_PUBLIC_SITE_URL` Vercel prod.
+- Disiplin çipleri (`?d=`, `&only=1`), SVG minimap (`xScale`), "Zamana düş" örtüsü. 5 commit.
+- Bulunan tuzaklar: Vitest, Next'e bağımlı bileşeni çözemiyor → saf mantık `lib/timeline/*.ts`'de, testler orada. CSS minifier `1500ms`→`1.5s`, `parseFloat` ile süre 1.5 ms oluyordu → `parseDuration`. Puppeteer `click` elemanı görünür alana kaydırır; kaydırma konumu testlerinde `evaluate` ile tıklanmalı.
+- Bulut: Supabase CLI girişli değil (OAuth tarayıcı ister); `backend/scripts/cloud-setup.sh` hazır, `backend/README.md` güncel. Vercel CLI girişli.
+- `timeline-ux-reviewer` raporu (05/02/06'ya karşı, Lighthouse mobil yerel: timeline 84, olay 86): blocker yok. Aynı oturumda düzeltildi: panel içi bağlantılar `replace` (Esc/geri tek adımda kapatır), odak tuzağı (`inert` + odak iadesi), minimap `role=slider` + ok/Home/End tuşları, `@panel/loading.tsx` iskelet, mobilde bandın alt boşluğu, çipler `history.replaceState` (sunucu turu yok), başlık sırası h1→h2, arka plan düğmesi `aria-hidden`, dikey minimap `lg` ve üstü.
+- Rapordan ertelenenler: **Lighthouse mobil 84 < 85** (374 KB font, 8 dosya; `latin-ext` Türkçe için şart → Hafta 8 performans turunda ağırlık/eksen kısıtı, ADR gerekebilir); `event_links.type='enables'` hiçbir listede okunmuyor (0001'de enum'da yok, 04 "tek yön saklanır" diyor; 02:88 ile çelişki, Hafta 4 migration'ında karar); `<time>` negatif yıl için geçersiz `dateTime`; rozetler tıklanamıyor (05:128); kart klavye gezintisi `↑/↓/Enter/[ ]`, yıl girme, `min=4` anahtarı, 30 kartlık artımlı yükleme (200 olayda LCP), `hreflang`; `revalidate=300` `cookies()` yüzünden etkisiz (anonim okumaları cookie'siz client'a taşımak TTFB kazandırır).
+- Yarım kalan: içerik kutucuğu (+10 İslam Altın Çağı), hafta sonu kontrolü (kullanıcı), masaüstü sol çağ sütunu (isteğe bağlı, Hafta 4+).
+
 ### 2026-09-03 — 6. oturum: içerik taslakları (Hafta 2 içerik kutucuğu)
+
 - `/com_event` ile antik listeden 10 olay, 4 paralel `content-writer` ajanıyla: Pisagor, Demokritos, Hipokrat, Platon, Aristoteles, Hipparkos, Batlamyus, Galen, Hypatia, Aryabhata → `backend/content/drafts/*.json` (+ `backend/content/README.md`). Her taslak 5-7 kaynak, `verify_note_tr`, `status: draft`; DB'ye yazılmadı.
 - Doğrulama betiği (scratchpad, `check-drafts.py`): alanlar, uzunluklar, disiplin/bağlantı slug'ları, kaynak sayısı. Hafta 5'te `backend/scripts/` içine TS olarak taşınabilir.
 - Sorunlar: Britannica doğrudan çekilemiyor (403), ajanlar arama özetlerine dayandı → kullanıcı elle açmalı. 12 ileri bağlantı `?` ile işaretli (hedef olaylar yazılmamış). Empedokles ve Zhang Heng bu turda yazılmadı.
 - Yarım kalan: taslakların insan doğrulaması ve DB yüklemesi (kullanıcı kararı).
 
-
 ### 2026-09-03 — 5. oturum: Hafta 2 kod kutucukları (tamamlandı)
+
 - Kartlar 3 boyutta, sticky çağ pill'i, zaman boşluğu, çevrili disiplin çipleri (`getDisciplines`); canlı yıl göstergesi; `?year=` derin bağlantı; `lib/timeline/xScale.ts` + 13 test; tema anahtarı (`lib/theme.ts` + `components/ThemeToggle.tsx`). 6 commit.
 - Doğrulama: headless Chrome (puppeteer-core, scratchpad'de; projeye bağımlılık eklenmedi). Playwright Hafta 4'te gelecek.
 - Bulunan sorunlar: React Compiler lint kuralları (render'da değişken atama, effect'te setState) iki yerde tasarımı değiştirdi: gap'ler önceden hesaplanıyor, tema `useSyncExternalStore` ile. `"use client"` modülünden sabit export server'a taşınamıyor → `lib/theme.ts`.
 - Yarım kalan: yok. İçerik kutucuğu (+10 antik olay) bekliyor; masaüstü 3 sütunlu düzen (sol çağ listesi, sağ minimap) Hafta 3'te minimapla birlikte.
 
-
 ### 2026-09-03 — 4. oturum (kısa): Hafta 2 açılışı
+
 - `el/week-2-timeline-mvp` dalı `el/try-planning` üzerinden açıldı. Kod yazılmadı.
 - Hafta 2 kutucukları STATUS'a kopyalandı; plan sunuldu: (1) 3 boyutta kart + sticky çağ pill + zaman boşluğu, `getDisciplines(locale)` ile çevrili çip adları; (2) üst çubuk + canlı yıl (IntersectionObserver, odometer, aria-live); (3) `?year=`; (4) `xScale.ts` + test; (5) tema anahtarı (`data-theme` + localStorage + inline script). Varsayımlar: zaman boşluğu bu hafta yalnızca "~N yıl geçti"; liste sunucuda render, yalnızca yıl göstergesi/tema client.
 - Kullanıcı onayı gelmedi; sonraki oturum bu planla başlar.
 
-
 ### 2026-09-03 — 3. oturum: tasarım token'ları + yerel Supabase
+
 - Konsept dosyaları okundu; `tokens.json` çıkarıldı, `globals.css` iki temayla yeniden yazıldı, fontlar Golos Text + Literata (`cyrillic-ext`, `Ңөү` fontTools ile woff2'de doğrulandı). ADR-019.
 - Ana sayfa CTA renk hatası düzeltildi (`text-base` → `text-accent-ink`).
 - Supabase CLI kuruldu, Colima başlatıldı, `supabase init` + `supabase start`; `0001_init.sql`'de `"precision"` düzeltmesi; seed uygulandı; RLS anonim testi geçti; `gen:types`; `.env.local`.
 - Site DB'ye karşı `next start` ile doğrulandı. `.mcp.json` eklendi; MCP bu oturumda bağlı değildi.
 
 ### 2026-09-03 — Hafta 1 kod (tamamlandı, iki oturumda)
+
 - Next.js 16 iskeleti + next-intl 4 dil altyapısı + mesaj dosyaları + placeholder CSS token'ları.
 - `0001_init.sql`, `seed.sql`, `backend/README.md`.
 - `formatYear` + 38 test; vitest (`vitest.config.mts`), scripts, `.env.example`.

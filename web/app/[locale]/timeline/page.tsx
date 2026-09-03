@@ -11,6 +11,9 @@ import { EraHeader } from "@/components/timeline/EraHeader";
 import { TimeGap } from "@/components/timeline/TimeGap";
 import { YearIndicator } from "@/components/timeline/YearIndicator";
 import { DeepLink } from "@/components/timeline/DeepLink";
+import { DisciplineFilter } from "@/components/timeline/DisciplineFilter";
+import { Minimap } from "@/components/timeline/Minimap";
+import { FallOverlay } from "@/components/timeline/FallOverlay";
 
 export const revalidate = 300;
 
@@ -50,6 +53,13 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
     machineTranslated: t("machineTranslated"),
   };
   const groups = groupByEra(events, eras);
+  const minimap = {
+    years: events.map((e) => e.year),
+    slugs: events.map((e) => e.slug),
+    eras: eras.map((e) => ({ slug: e.slug, start_year: e.start_year })),
+    locale,
+    label: t("overview"),
+  };
 
   return (
     <>
@@ -58,13 +68,21 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
       />
       <Suspense fallback={null}>
         <DeepLink />
+        {events[0] && <FallOverlay locale={locale} firstYear={events[0].year} />}
       </Suspense>
-      <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-4">
+      <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-24 pt-4 lg:pb-16">
+        <Suspense fallback={null}>
+          <DisciplineFilter
+            disciplines={disciplines.map((d) => ({ slug: d.slug, name: d.name }))}
+            eventDisciplines={events.map((e) => e.disciplines)}
+            labels={{ legend: t("filterLegend"), onlyThese: t("onlyThese"), clear: t("clearFilter"), empty: t("filterEmpty") }}
+          />
+        </Suspense>
         <p className="mb-2 text-small text-muted">{t("eventsCount", { count: events.length })}</p>
         {groups.map((group, gi) => {
           const headingId = `era-${group.era?.slug ?? gi}`;
           return (
-            <section key={headingId} aria-labelledby={group.era ? headingId : undefined}>
+            <section key={headingId} data-era={group.era?.slug ?? gi} aria-labelledby={group.era ? headingId : undefined}>
               {group.era && <EraHeader era={group.era} locale={locale} todayLabel={t("today")} headingId={headingId} />}
               <ol className="relative ml-3 space-y-5 pl-8">
                 <span
@@ -73,7 +91,7 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
                   style={{ background: "linear-gradient(transparent, var(--accent) 24px, var(--accent) calc(100% - 24px), transparent)" }}
                 />
                 {group.items.map(({ event, gapBefore }) => (
-                  <li key={event.id}>
+                  <li key={event.id} data-disciplines={event.disciplines.join(" ")} className="transition-opacity duration-(--duration-event-fade) data-[dim=dim]:opacity-30 data-[dim=hide]:hidden">
                     {gapBefore !== null && <TimeGap label={t("yearsPassed", { years: gapBefore })} />}
                     <EventCard event={event} locale={locale} eraName={group.era?.name} disciplineNames={disciplineNames} labels={labels} />
                   </li>
@@ -83,7 +101,11 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
           );
         })}
       </main>
-      <HonestyBand context="timeline" />
+      {/* Minimap (doc/05): a strip above the bottom edge on phones, a column on the right on desktop. */}
+      <Minimap {...minimap} orientation="horizontal" className="fixed inset-x-0 bottom-0 z-[6] h-10 border-t border-line bg-base/90 px-3 pb-2 pt-1 backdrop-blur lg:hidden" />
+      <Minimap {...minimap} orientation="vertical" className="fixed bottom-6 right-4 top-[4.5rem] z-[6] hidden w-10 lg:block" />
+      {/* Extra bottom padding on phones: the minimap strip sits over the last lines otherwise. */}
+      <HonestyBand path="/timeline" className="pb-16 md:pb-6" />
     </>
   );
 }

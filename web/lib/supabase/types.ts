@@ -490,6 +490,14 @@ export type Database = {
     }
     Functions: {
       event_is_visible: { Args: { eid: string }; Returns: boolean }
+      event_title: {
+        Args: {
+          p_event_id: string
+          p_locale: Database["public"]["Enums"]["locale_code"]
+          p_source: Database["public"]["Enums"]["locale_code"]
+        }
+        Returns: string
+      }
       get_chain: {
         Args: {
           p_depth?: number
@@ -504,6 +512,13 @@ export type Database = {
           to_title: string
           to_year: number
         }[]
+      }
+      get_event_detail: {
+        Args: {
+          p_locale: Database["public"]["Enums"]["locale_code"]
+          p_slug: string
+        }
+        Returns: Json
       }
       get_timeline: {
         Args: { p_locale: Database["public"]["Enums"]["locale_code"] }

@@ -31,10 +31,35 @@
     "importance": "Importance {level}",
     "landmark": "Landmark",
     "today": "today",
-    "era": "Era"
+    "era": "Era",
+    "filterLegend": "Filter by discipline",
+    "onlyThese": "Only these",
+    "clearFilter": "Clear",
+    "filterEmpty": "No event in these disciplines yet. Maybe that is the interesting part.",
+    "overview": "Timeline overview"
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
-    "report": "Report an error"
+    "report": "Report an error",
+    "subject": "Uchkun: error report",
+    "subjectEvent": "Uchkun: error in \"{title}\" ({year})",
+    "body": "Page: {url}\n\nWhat is wrong:\n"
+  },
+  "event": {
+    "whyItMatters": "Why it matters",
+    "ifYouWereThere": "If you were there",
+    "buildsOn": "Builds on",
+    "enabled": "Made possible",
+    "people": "People",
+    "sources": "Sources",
+    "close": "Close",
+    "showInTimeline": "Show in the timeline",
+    "imageCredit": "Image: {credit}, {license}",
+    "unknownYear": "?"
+  },
+  "notFound": {
+    "title": "Not found",
+    "text": "This page does not exist, or the event is not published yet.",
+    "back": "Back to the timeline"
   }
 }
