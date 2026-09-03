@@ -3,25 +3,16 @@ import { useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { THEME_KEY, type Theme } from "@/lib/theme";
 
-function systemTheme(): Theme {
-  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-}
-
+/** Light unless this browser has been switched to dark; the OS preference is not read (ADR-022). */
 function readTheme(): Theme {
-  const stored = document.documentElement.dataset.theme;
-  return stored === "dark" || stored === "light" ? stored : systemTheme();
+  return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
 }
 
-/** Re-render when the html attribute or the OS preference changes. */
+/** Re-render when the html attribute changes. */
 function subscribe(onChange: () => void) {
-  const media = window.matchMedia("(prefers-color-scheme: dark)");
-  media.addEventListener("change", onChange);
   const observer = new MutationObserver(onChange);
   observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-  return () => {
-    media.removeEventListener("change", onChange);
-    observer.disconnect();
-  };
+  return () => observer.disconnect();
 }
 
 /** Light is primary (ADR-020); the switch flips to the other theme and remembers it per browser. */

@@ -1,12 +1,43 @@
 /**
- * The single place where years are turned into text. See doc/06-i18n-stratejisi.md.
+ * The single place where years are turned into text. See doc/04-mimari.md.
  * year: integer, negative = BCE, there is no year 0.
+ *
+ * The approximation marker is a whole word ("around"), never an abbreviation:
+ * the reader is a curious non-scientist, and "c." reads as noise (doc/03 voice).
+ * The era marker stays short so the year keeps its size, and carries an
+ * expansion (eraNote) that the UI shows as a tooltip and as a one-line legend.
  */
 export type YearPrecision = "exact" | "circa" | "decade" | "century";
 export type Locale = "en" | "ru" | "ky" | "tr";
 
+/** A year split so the UI can set the number large and the qualifier small. */
+export type YearParts = {
+  /** "around" — null when the year is not approximate. */
+  qualifier: string | null;
+  /** The part that carries the number, e.g. "585 BCE". */
+  value: string;
+  /** Expansion of the era abbreviation inside value; null when there is none. */
+  eraNote: string | null;
+};
+
 const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
   "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII"];
+
+/** Spelled out on purpose; an abbreviation would need explaining. */
+const CIRCA: Record<Locale, string> = {
+  en: "around",
+  tr: "yaklaşık",
+  ru: "около",
+  ky: "болжол менен",
+};
+
+/** What the era abbreviation in `value` stands for, shown on hover and in the timeline legend. */
+const ERA_NOTE: Record<Locale, { bce: string; ce: string }> = {
+  en: { bce: "Before the Common Era", ce: "Common Era" },
+  tr: { bce: "Milattan Önce", ce: "Milattan Sonra" },
+  ru: { bce: "до нашей эры", ce: "нашей эры" },
+  ky: { bce: "биздин заманга чейин", ce: "биздин заман" },
+};
 
 function englishOrdinal(n: number): string {
   const mod100 = n % 100;
@@ -31,57 +62,82 @@ function centuryOf(absYear: number): number {
   return Math.floor((absYear - 1) / 100) + 1;
 }
 
-export function formatYear(year: number, precision: YearPrecision = "exact", locale: Locale = "en"): string {
+function eraNote(locale: Locale, bce: boolean, showCe: boolean): string | null {
+  if (bce) return ERA_NOTE[locale].bce;
+  return showCe ? ERA_NOTE[locale].ce : null;
+}
+
+/** Year split into a small qualifier and the large number. formatYear() joins the two. */
+export function formatYearParts(year: number, precision: YearPrecision = "exact", locale: Locale = "en"): YearParts {
   if (year === 0 || !Number.isInteger(year)) throw new Error(`Invalid year: ${year}`);
   const bce = year < 0;
   const abs = Math.abs(year);
 
   if (precision === "century") {
     const c = centuryOf(abs);
-    switch (locale) {
-      case "en": return bce ? `${englishOrdinal(c)} century BCE` : `${englishOrdinal(c)} century`;
-      case "tr": return bce ? `MÖ ${c}. yüzyıl` : `${c}. yüzyıl`;
-      case "ru": return bce ? `${ROMAN[c]} век до н. э.` : `${ROMAN[c]} век`;
-      case "ky": return bce ? `б.з.ч. ${ROMAN[c]} кылым` : `${ROMAN[c]} кылым`;
-    }
+    const value = (() => {
+      switch (locale) {
+        case "en": return bce ? `${englishOrdinal(c)} century BCE` : `${englishOrdinal(c)} century`;
+        case "tr": return bce ? `MÖ ${c}. yüzyıl` : `${c}. yüzyıl`;
+        case "ru": return bce ? `${ROMAN[c]} век до н. э.` : `${ROMAN[c]} век`;
+        case "ky": return bce ? `б.з.ч. ${ROMAN[c]} кылым` : `${ROMAN[c]} кылым`;
+      }
+    })();
+    return { qualifier: null, value, eraNote: eraNote(locale, bce, false) };
   }
 
   if (precision === "decade") {
     const d = Math.floor(abs / 10) * 10;
-    switch (locale) {
-      case "en": return bce ? `${d}s BCE` : `${d}s`;
-      case "tr": return bce ? `MÖ ${d}${turkishDecadeSuffix(d)}` : `${d}${turkishDecadeSuffix(d)}`;
-      case "ru": return bce ? `${d}-е до н. э.` : `${d}-е`;
-      case "ky": return bce ? `б.з.ч. ${d}-жылдар` : `${d}-жылдар`;
-    }
+    const value = (() => {
+      switch (locale) {
+        case "en": return bce ? `${d}s BCE` : `${d}s`;
+        case "tr": return bce ? `MÖ ${d}${turkishDecadeSuffix(d)}` : `${d}${turkishDecadeSuffix(d)}`;
+        case "ru": return bce ? `${d}-е до н. э.` : `${d}-е`;
+        case "ky": return bce ? `б.з.ч. ${d}-жылдар` : `${d}-жылдар`;
+      }
+    })();
+    return { qualifier: null, value, eraNote: eraNote(locale, bce, false) };
   }
 
-  const circa = precision === "circa";
+  // CE is only spelled out for the first millennium; after that a bare number is unambiguous.
   const showCe = !bce && abs < 1000;
-  switch (locale) {
-    case "en": {
-      const base = bce ? `${abs} BCE` : showCe ? `${abs} CE` : `${abs}`;
-      return circa ? `c. ${base}` : base;
+  const value = (() => {
+    switch (locale) {
+      case "en": return bce ? `${abs} BCE` : showCe ? `${abs} CE` : `${abs}`;
+      case "tr": return bce ? `MÖ ${abs}` : showCe ? `MS ${abs}` : `${abs}`;
+      case "ru": return bce ? `${abs} до н. э.` : showCe ? `${abs} н. э.` : `${abs}`;
+      case "ky": return bce ? `б.з.ч. ${abs}` : showCe ? `б.з. ${abs}` : `${abs}`;
     }
-    case "tr": {
-      const base = bce ? `MÖ ${circa ? "y. " : ""}${abs}` : showCe ? `MS ${circa ? "y. " : ""}${abs}` : `${circa ? "y. " : ""}${abs}`;
-      return base;
-    }
-    case "ru": {
-      const base = bce ? `${abs} до н. э.` : showCe ? `${abs} н. э.` : `${abs}`;
-      return circa ? `ок. ${base}` : base;
-    }
-    case "ky": {
-      const base = bce ? `б.з.ч. ${abs}` : showCe ? `б.з. ${abs}` : `${abs}`;
-      return circa ? `болж. ${base}` : base;
-    }
-  }
+  })();
+  return {
+    qualifier: precision === "circa" ? CIRCA[locale] : null,
+    value,
+    eraNote: eraNote(locale, bce, showCe),
+  };
 }
 
-/** Range like "1925-1927" or "MÖ 300 - MÖ 250". Plain hyphen on purpose (doc/06). */
+/** The whole year as one string, for plain-text places: titles, aria labels, e-mail subjects. */
+export function formatYear(year: number, precision: YearPrecision = "exact", locale: Locale = "en"): string {
+  return joinYear(formatYearParts(year, precision, locale));
+}
+
+export function joinYear(parts: YearParts): string {
+  return parts.qualifier ? `${parts.qualifier} ${parts.value}` : parts.value;
+}
+
+/** Range like "1925 - 1927" or "MÖ 300 - MÖ 250". Plain hyphen on purpose (doc/04).
+ *  An approximate range says "around" once, in front of the whole range. */
+export function formatYearRangeParts(
+  start: number, end: number | null | undefined, precision: YearPrecision, locale: Locale,
+): YearParts {
+  const from = formatYearParts(start, precision, locale);
+  if (end == null || end === start) return from;
+  const to = formatYearParts(end, precision, locale);
+  return { qualifier: from.qualifier, value: `${from.value} - ${to.value}`, eraNote: from.eraNote ?? to.eraNote };
+}
+
 export function formatYearRange(start: number, end: number | null | undefined, precision: YearPrecision, locale: Locale): string {
-  if (end == null || end === start) return formatYear(start, precision, locale);
-  return `${formatYear(start, precision, locale)} - ${formatYear(end, precision, locale)}`;
+  return joinYear(formatYearRangeParts(start, end, precision, locale));
 }
 
 /** Number of elapsed years between two years, skipping the non-existent year 0. */

@@ -25,6 +25,7 @@
   "timeline": {
     "title": "Убакыт сызыгы",
     "eventsCount": "{count} окуя",
+    "eraNotation": "б.з.ч. = биздин заманга чейин",
     "yearsPassed": "~{years} жыл өттү",
     "notTranslated": "Азырынча {locale} тилинде жок",
     "machineTranslated": "Автоматтык котормо",

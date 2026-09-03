@@ -1,11 +1,12 @@
 import type { Locale } from "@/lib/i18n/formatYear";
-import { formatYearRange } from "@/lib/i18n/formatYear";
+import { formatYearRangeParts, joinYear, type YearParts } from "@/lib/i18n/formatYear";
 import type { TimelineEvent } from "@/lib/queries/types";
 import { Link } from "@/i18n/navigation";
 
 export type CardSize = "landmark" | "standard" | "minor";
 
-/** Importance 5 = landmark (always visible when zoomed out), 3-4 = standard, 1-2 = a one-line note. */
+/** Importance 5 = landmark (always visible when zoomed out), 3-4 = standard, 1-2 = a one-line note.
+ *  All sizes share the bg-elevated surface; size, shadow and the landmark label carry the hierarchy. */
 export function cardSize(importance: number): CardSize {
   if (importance >= 5) return "landmark";
   if (importance >= 3) return "standard";
@@ -57,11 +58,24 @@ function Badges({ event, locale, labels, disciplineNames, withChips }: Props & {
   return <div className="mt-3 flex flex-wrap items-center gap-1.5">{items}</div>;
 }
 
+/** The number keeps the display size; "around" rides above it in small type so it never
+ *  pushes the year onto a second line. title expands the era abbreviation on hover. */
+function YearDisplay({ parts, className }: { parts: YearParts; className: string }) {
+  return (
+    <time title={parts.eraNote ?? undefined} className={className}>
+      {parts.qualifier && (
+        <span className="block font-sans text-small font-normal tracking-normal text-muted">{parts.qualifier}</span>
+      )}
+      {parts.value}
+    </time>
+  );
+}
+
 export function EventCard(props: Props) {
   const { event, locale, disciplineNames, labels, eraName } = props;
   const data = { "data-year": event.year, "data-era": eraName };
   const size = cardSize(event.importance);
-  const year = formatYearRange(event.year, event.year_end, event.precision, locale);
+  const year = formatYearRangeParts(event.year, event.year_end, event.precision, locale);
   const primary = event.disciplines[0];
   const dot = <span aria-hidden className={`absolute rounded-full bg-accent ${DOT[size]}`} />;
 
@@ -69,7 +83,7 @@ export function EventCard(props: Props) {
     return (
       <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 flex flex-wrap items-baseline gap-x-2.5 gap-y-1 py-1">
         {dot}
-        <time className="font-display text-year-minor tabular text-secondary">{year}</time>
+        <time title={year.eraNote ?? undefined} className="font-display text-year-minor tabular text-secondary">{joinYear(year)}</time>
         <h3 className="text-small text-secondary"><Link href={`/event/${event.slug}`} className="after:absolute after:inset-0 hover:text-primary">{event.title}</Link></h3>
         <Badges {...props} withChips={false} />
       </article>
@@ -86,7 +100,7 @@ export function EventCard(props: Props) {
             {disciplineNames.get(primary) ?? primary}
           </p>
         )}
-        <time className="mt-1.5 block font-display text-year-standard tabular text-primary">{year}</time>
+        <YearDisplay parts={year} className="mt-1.5 block font-display text-year-standard tabular text-primary" />
         <h3 className="mt-1.5 font-display text-title text-primary"><Link href={`/event/${event.slug}`} className="after:absolute after:inset-0 after:rounded-[inherit]">{event.title}</Link></h3>
         <p className="mt-1.5 text-body text-secondary">{event.summary}</p>
         <Badges {...props} withChips />
@@ -95,7 +109,7 @@ export function EventCard(props: Props) {
   }
 
   return (
-    <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 rounded-card bg-raised px-5 py-5 shadow-lg transition-shadow hover:shadow-glow">
+    <article id={`event-${event.slug}`} {...data} className="relative scroll-mt-28 rounded-card bg-elevated px-5 py-5 shadow-lg transition-shadow hover:shadow-glow">
       {dot}
       <p className="flex items-center justify-between gap-3 text-label uppercase tracking-wider text-muted">
         {primary ? (
@@ -106,7 +120,7 @@ export function EventCard(props: Props) {
         ) : <span />}
         <span className="text-accent-text">{labels.landmark}</span>
       </p>
-      <time className="mt-2 block font-display text-year-landmark tabular text-primary">{year}</time>
+      <YearDisplay parts={year} className="mt-2 block font-display text-year-landmark tabular text-primary" />
       <h3 className="mt-2 font-display text-title-lg text-primary"><Link href={`/event/${event.slug}`} className="after:absolute after:inset-0 after:rounded-[inherit]">{event.title}</Link></h3>
       <p className="mt-2 text-body text-secondary">{event.summary}</p>
       <Badges {...props} withChips />

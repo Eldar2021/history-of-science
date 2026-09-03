@@ -25,6 +25,7 @@
   "timeline": {
     "title": "Zaman çizgisi",
     "eventsCount": "{count} olay",
+    "eraNotation": "MÖ = Milattan Önce",
     "yearsPassed": "~{years} yıl geçti",
     "notTranslated": "Henüz {locale} değil",
     "machineTranslated": "Otomatik çeviri",

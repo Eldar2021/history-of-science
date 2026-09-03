@@ -25,6 +25,7 @@
   "timeline": {
     "title": "Timeline",
     "eventsCount": "{count, plural, one {# event} other {# events}}",
+    "eraNotation": "BCE = before the common era",
     "yearsPassed": "~{years} years passed",
     "notTranslated": "Not yet in {locale}",
     "machineTranslated": "Auto-translated",

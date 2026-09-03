@@ -78,7 +78,11 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
             labels={{ legend: t("filterLegend"), onlyThese: t("onlyThese"), clear: t("clearFilter"), empty: t("filterEmpty") }}
           />
         </Suspense>
-        <p className="mb-2 text-small text-muted">{t("eventsCount", { count: events.length })}</p>
+        <p className="mb-2 flex flex-wrap gap-x-2 text-small text-muted">
+          <span>{t("eventsCount", { count: events.length })}</span>
+          {/* The era abbreviation is short so the year stays large; it is spelled out once here. */}
+          {events.some((e) => e.year < 1000) && <span>{t("eraNotation")}</span>}
+        </p>
         {groups.map((group, gi) => {
           const headingId = `era-${group.era?.slug ?? gi}`;
           return (

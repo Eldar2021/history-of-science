@@ -25,6 +25,7 @@
   "timeline": {
     "title": "Хронология",
     "eventsCount": "{count, plural, one {# событие} few {# события} many {# событий} other {# события}}",
+    "eraNotation": "до н. э. = до нашей эры",
     "yearsPassed": "~{years} лет прошло",
     "notTranslated": "Пока нет на языке: {locale}",
     "machineTranslated": "Автоперевод",

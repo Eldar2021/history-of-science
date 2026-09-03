@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { formatYear, formatYearRange, yearsBetween, type Locale, type YearPrecision } from "./formatYear";
+import { formatYear, formatYearParts, formatYearRange, formatYearRangeParts, yearsBetween, type Locale, type YearPrecision } from "./formatYear";
 
-// 4 locales × 4 precisions × BCE/CE = 32 cases, from the table in doc/06-i18n-stratejisi.md
+// 4 locales × 4 precisions × BCE/CE = 32 cases, from the year table in doc/04-mimari.md
 const cases: Array<[number, YearPrecision, Locale, string]> = [
   // exact
   [-585, "exact", "en", "585 BCE"], [1687, "exact", "en", "1687"],
@@ -9,10 +9,10 @@ const cases: Array<[number, YearPrecision, Locale, string]> = [
   [-585, "exact", "ru", "585 до н. э."], [1687, "exact", "ru", "1687"],
   [-585, "exact", "ky", "б.з.ч. 585"], [1687, "exact", "ky", "1687"],
   // circa
-  [-300, "circa", "en", "c. 300 BCE"], [1600, "circa", "en", "c. 1600"],
-  [-300, "circa", "tr", "MÖ y. 300"], [1600, "circa", "tr", "y. 1600"],
-  [-300, "circa", "ru", "ок. 300 до н. э."], [1600, "circa", "ru", "ок. 1600"],
-  [-300, "circa", "ky", "болж. б.з.ч. 300"], [1600, "circa", "ky", "болж. 1600"],
+  [-300, "circa", "en", "around 300 BCE"], [1600, "circa", "en", "around 1600"],
+  [-300, "circa", "tr", "yaklaşık MÖ 300"], [1600, "circa", "tr", "yaklaşık 1600"],
+  [-300, "circa", "ru", "около 300 до н. э."], [1600, "circa", "ru", "около 1600"],
+  [-300, "circa", "ky", "болжол менен б.з.ч. 300"], [1600, "circa", "ky", "болжол менен 1600"],
   // decade
   [-305, "decade", "en", "300s BCE"], [1834, "decade", "en", "1830s"],
   [-305, "decade", "tr", "MÖ 300'ler"], [1834, "decade", "tr", "1830'lar"],
@@ -61,6 +61,34 @@ describe("formatYearRange", () => {
     expect(formatYearRange(1925, 1927, "exact", "en")).toBe("1925 - 1927");
     expect(formatYearRange(-300, -250, "exact", "tr")).toBe("MÖ 300 - MÖ 250");
     expect(formatYearRange(1687, null, "exact", "en")).toBe("1687");
+  });
+});
+
+describe("formatYearParts", () => {
+  it("keeps the approximation word out of the number so the UI can set it smaller", () => {
+    expect(formatYearParts(-300, "circa", "en")).toEqual({
+      qualifier: "around", value: "300 BCE", eraNote: "Before the Common Era",
+    });
+    expect(formatYearParts(1687, "exact", "en").qualifier).toBeNull();
+  });
+
+  it("explains the era abbreviation in every locale", () => {
+    expect(formatYearParts(-585, "exact", "tr").eraNote).toBe("Milattan Önce");
+    expect(formatYearParts(-585, "exact", "ru").eraNote).toBe("до нашей эры");
+    expect(formatYearParts(-585, "exact", "ky").eraNote).toBe("биздин заманга чейин");
+    expect(formatYearParts(499, "exact", "en").eraNote).toBe("Common Era");
+  });
+
+  it("has nothing to explain once the year stands alone", () => {
+    expect(formatYearParts(1687, "exact", "en").eraNote).toBeNull();
+    expect(formatYearParts(1687, "century", "en").eraNote).toBeNull();
+  });
+
+  it("says the approximation once for a range", () => {
+    expect(formatYearRangeParts(-300, -250, "circa", "en")).toEqual({
+      qualifier: "around", value: "300 BCE - 250 BCE", eraNote: "Before the Common Era",
+    });
+    expect(formatYearRange(-300, -250, "circa", "en")).toBe("around 300 BCE - 250 BCE");
   });
 });
 
