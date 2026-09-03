@@ -1,0 +1,78 @@
+{
+  "slug": "al-farabi-classification",
+  "year": 950,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 3,
+  "title": "Al-Farabi draws a map of every science, from logic to music",
+  "summary": "A philosopher from Central Asia, working in Baghdad, sets out what a science is, how the sciences fit together, and how a plucked string can be measured. His map guided scholars for centuries.",
+  "body": "### The scene\n\nAround 950 Baghdad has been the Abbasid capital for two centuries, and for most of that time it has been a translation factory. Aristotle, Euclid, Ptolemy and Galen have arrived in Arabic, often via Syriac and Christian translators like Hunayn ibn Ishaq. The result is a heap: dozens of works, uneven in quality, with no agreed vocabulary and no agreed order in which to read them. Into this city, probably in the 890s, came a young man known from his name as \"the man from Farab\". Farab was a district on the middle Syr Darya near Otrar, in today's southern Kazakhstan, and the tenth-century geographer Ibn Hawqal names its village of Wasij as his birthplace. But \"farab\" is also a Persian word for irrigated land, and other places carry it: Faryab in northern Afghanistan, a Farab near Türkmenabat in Turkmenistan. The oldest sources do not settle the question, and whether his family was Turkic or Persian is still argued. What is not disputed: he learned logic in Baghdad from Yuhanna ibn Haylan, a Syriac Christian teacher, moved late in life to Aleppo and the court of Sayf al-Dawla, and died in Damascus in the winter of 950-951.\n\n### What happened\n\nHis works carry no dates, so this event sits at the end of his life; read the year as \"by 950\". Three works matter here. First, logic. He wrote commentaries and introductions to Aristotle's whole Organon and taught that logic is not one science among others but the grammar every science must pass through first. Second, the Enumeration of the Sciences (Ihsa al-ulum), a short book in five chapters: language; logic; mathematics, which for him includes arithmetic, geometry, optics, astronomy, music, weights and ingenious devices; physics and metaphysics; and political science together with jurisprudence and theology. For each he says what it studies, what its parts are and what it is for. Third, the Great Book of Music (Kitab al-Musiqa al-Kabir), where music is measured: pitch as fractions of a plucked string, intervals built from fifths and fourths, fret positions on the oud, the tuning of the tanbur of Khurasan, the syllables drummers use to count rhythm. It is the most important musical treatise of the medieval Islamic world.\n\nThe Enumeration works like the floor plan of a library that does not yet exist: here is the room for geometry, here the door from logic into everything else. Where the picture breaks: a floor plan describes rooms already built, while al-Farabi was also deciding which rooms deserved to exist and in what order a student should walk through them.\n\n### Why it was hard\n\nOrdering knowledge sounds like clerical work. It was not. Religious scholars asked whether the \"foreign sciences\" of the Greeks belonged in a Muslim city at all; al-Farabi answered by drawing jurisprudence and theology onto the same map, after logic, as parts of one enterprise. He needed Aristotle's own division of knowledge, the Alexandrian commentators whose tradition Yuhanna ibn Haylan carried, a century of translators, and patrons who paid for thinking. Later readers called him \"the Second Teacher\"; the first was Aristotle.\n\n### What it opened\n\nIbn Sina, born near Bukhara thirty years after al-Farabi died, said he had read Aristotle's Metaphysics forty times without understanding it until he found a small book by al-Farabi. Ibn Sina's Canon of Medicine, and his own music theory, sit inside the Farabian map. In twelfth-century Toledo, Gerard of Cremona and Dominicus Gundissalinus turned the Enumeration into Latin as De scientiis, and it became a template for how European scholars sorted the curriculum; Roger Bacon cites it. Later theorists such as Safi al-Din al-Urmawi built on the music treatise, and the modal systems of Persian, Turkish and Arabic music still carry its vocabulary. Kazakhstan's largest university, in Almaty, carries his name.",
+  "why_it_matters": "Al-Farabi turned a pile of translated Greek books into an ordered body of knowledge with logic at the gate, and that order shaped how scholars from Bukhara to Toledo decided what to study and in which sequence. His music treatise is the earliest large-scale attempt in the Islamic world to treat music as a measurable science.",
+  "if_you_were_there": "Nobody agreed on what counted as a science, or on whether the 'foreign' learning of the Greeks was compatible with religious scholarship; the idea that one map could hold logic, astronomy, music and law together was new.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Al-Farabi (Abu Nasr al-Farabi)",
+      "role": "philosopher, logician and music theorist; author of the Enumeration of the Sciences and the Great Book of Music"
+    },
+    {
+      "name": "Yuhanna ibn Haylan",
+      "role": "Syriac Christian teacher who taught him Aristotelian logic in Baghdad"
+    },
+    {
+      "name": "Sayf al-Dawla",
+      "role": "Hamdanid ruler of Aleppo, his patron from about 942"
+    },
+    {
+      "name": "Gerard of Cremona",
+      "role": "twelfth-century Toledo translator of the Enumeration into Latin (De scientiis)"
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum",
+    "plato-academy",
+    "pythagoras-school"
+  ],
+  "enables": [
+    "ibn-sina-canon",
+    "roger-bacon-experiment"
+  ],
+  "sources": [
+    {
+      "title": "al-Farabi - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/al-farabi/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Al-Farabi | Arabic philosopher, Islamic scholar, logician | Britannica",
+      "url": "https://www.britannica.com/biography/al-Farabi",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Al-Farabi - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Farabi",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "FARABI i. Biography - Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/farabi-i/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "FARABI v. Music - Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/farabi-v/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Majid Fakhry, Al-Farabi, Founder of Islamic Neoplatonism: His Life, Works and Influence (Oneworld, 2002)",
+      "url": "https://oneworld-publications.com/work/al-farabi-founder-of-islamic-neoplatonism/",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica ve Iranica sayfaları fetch'te 403 verdi; arama özetleri kullanıldı. Doğum yılı SEP'te c. 870, Britannica'da c. 878; eserler tarihsiz olduğu için yıl 950 (ölüm) circa seçildi, metin bunu açıkça söylüyor. Wasij/Farab bilgisi Iranica'nın Ibn Hawqal aktarımına dayanıyor; Türk/Fars köken tartışması iki tarafıyla verildi. Roger Bacon'ın De scientiis atfı ve Safi al-Din bağlantısı web kaynağıyla doğrulanmadı (Fakhry kitabından kontrol et); İbn Sina'nın 'kırk kez okudum' anekdotu otobiyografisinden.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

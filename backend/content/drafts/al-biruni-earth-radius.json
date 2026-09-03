@@ -1,0 +1,85 @@
+{
+  "slug": "al-biruni-earth-radius",
+  "year": 1030,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "title": "Al-Biruni measures the Earth from a hill in the Punjab",
+  "summary": "A captive scholar from Khwarazm climbs a hill near Nandana, measures how far the horizon dips below level, and works out the Earth's radius to within a few percent of today's value.",
+  "body": "### The scene\n\nIn 1017 Mahmud of Ghazni conquers Khwarazm, and among what he carries back to Ghazna is a 44-year-old scholar, Abu Rayhan al-Biruni, born in Kath on the lower Amu Darya. Biruni had grown up at the Khwarazmian court, been taught by the astronomer Abu Nasr Mansur, and traded sharp letters with Ibn Sina about Aristotle's physics. Now he follows Mahmud's campaigns into the Punjab. One of the places the army holds is Nandana, a fort on the Salt Range near Pind Dadan Khan in today's Pakistan, where a hill rises over a flat plain. For a man with an astrolabe and a question, it is a gift.\n\n### What happened\n\nThe question was the oldest in geography: how big is the Earth? Eratosthenes had answered it around 240 BC with shadows and a long walk. Around 830 the caliph al-Ma'mun's astronomers had measured it again on the plain of Sinjar by pacing out a degree of latitude. Biruni found the walking method tiresome; he had once tried to repeat it and his patron lost interest.\n\nAt Nandana he found a way to sit still. First he measured the height of the hill: from two points on the plain a known distance apart, he took the angle to the summit with an astrolabe and worked the height from the two angles. Then he climbed up and measured how far the horizon dipped below level: a little over half a degree. That small tilt is the whole answer. If you know how high you stand and how much the edge of the world drops away, geometry gives the radius of the sphere. His figure, converted into modern units, comes out near 6,340 kilometres; the modern average is about 6,371.\n\nPicture an ant on a football. On the surface the ant sees a flat horizon; let it climb a blade of grass and the ball's edge drops away, and how much it drops tells the ant the size of the ball. Where the analogy breaks: the football has no air. The Earth's atmosphere bends light and lifts the horizon slightly, an effect Biruni did not know about, so part of his accuracy is luck, and historians also argue about how long his cubit was.\n\n### Why it was hard\n\nNothing in the method is beyond a good student today; the difficulty was in having all the pieces at once. The trigonometry came from India and from the Baghdad tradition built on Hipparchus and Ptolemy; the astrolabe was a Greek instrument refined in the Islamic world; the taste for measuring rather than quoting came from Biruni himself, who in the same years weighed gems to find their densities. He wrote the measurement up in 1025 in the Tahdid, a book on fixing the coordinates of cities, so the climb itself falls somewhere between 1017 and 1025; the 1030 on this timeline marks the year of his larger harvest.\n\n### What it opened\n\nAround 1030 Biruni finished the Kitab al-Hind, a study of India's science, religion and customs written after learning Sanskrit and talking at length with Indian scholars, and unusual for its refusal to sneer. Soon after he dedicated the Mas'udi Canon, a complete astronomy in the tradition of Ptolemy's Almagest, to Mahmud's son Mas'ud. The Earth-radius method was not widely copied, but the habit was: measure, compare the sources, say what you doubt. That habit runs through the Samarkand observatory of Ulugh Beg four centuries later. Today the town near his birthplace in Karakalpakstan carries his name.",
+  "why_it_matters": "Biruni showed that one careful person with an instrument and geometry could measure the whole planet without walking across it. His India book and his Mas'udi Canon set a standard for checking inherited knowledge against observation that later Central Asian astronomers inherited.",
+  "if_you_were_there": "Almost everyone educated knew the Earth was round, but nobody could say how big it was to better than a rough guess, and most people had never met anyone who cared.",
+  "disciplines": [
+    "earth",
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Abu Rayhan al-Biruni",
+      "role": "scholar from Khwarazm who made the Nandana measurement and wrote the Kitab al-Hind and the Mas'udi Canon"
+    },
+    {
+      "name": "Abu Nasr Mansur ibn Iraq",
+      "role": "Biruni's teacher in mathematics and astronomy at the Khwarazmian court"
+    },
+    {
+      "name": "Mahmud of Ghazni",
+      "role": "conqueror whose campaigns brought Biruni to the Punjab; reluctant patron"
+    },
+    {
+      "name": "Ibn Sina (Avicenna)",
+      "role": "correspondent with whom Biruni argued about Aristotle's physics"
+    }
+  ],
+  "builds_on": [
+    "eratosthenes-earth-circumference",
+    "ptolemy-almagest",
+    "aryabhata",
+    "al-khwarizmi-algebra"
+  ],
+  "enables": [
+    "ulugh-beg-observatory",
+    "omar-khayyam-cubics"
+  ],
+  "sources": [
+    {
+      "title": "Al-Biruni (973 - 1048) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Biruni/",
+      "kind": "article"
+    },
+    {
+      "title": "Al-Biruni - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Biruni",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Al-Biruni | Persian Scholar, Astronomer, Mathematician & Geographer - Britannica",
+      "url": "https://www.britannica.com/biography/al-Biruni",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Abu Rayhan al-Biruni - Dictionary of Scientific Biography (E. S. Kennedy), via Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/astronomy-biographies/abu-rayhan-al-biruni",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Amelia Carolina Sparavigna, The Science of al-Biruni (2013), arXiv:1312.7288",
+      "url": "https://arxiv.org/abs/1312.7288",
+      "kind": "paper"
+    },
+    {
+      "title": "Al Biruni and the Size of the Earth - ThatsMaths (Peter Lynch)",
+      "url": "https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/",
+      "kind": "article"
+    },
+    {
+      "title": "E. S. Kennedy, A Commentary upon Biruni's Kitab Tahdid al-Amakin (American University of Beirut, 1973)",
+      "url": "https://philpapers.org/rec/HERACU",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Ölçümün yılı hiçbir kaynakta kesin değil: 1017-1025 arası (Tahdid 1025'te yazıldı); 1030 yılı çekirdek listeye ve Kitab al-Hind / Mesudi Kanunu tarihlerine göre seçildi, 'circa'. Ufuk eğimi (34 dakika), tepe yüksekliği ve 6.339,6 km sonucu Wikipedia ve popüler kaynaklardan; arşın uzunluğuna göre sonuç %2-20 sapar, Kennedy'nin şerhiyle karşılaştır. Britannica sayfası 403 verdi, arama özeti kullanıldı; ölüm yılı 1048 mi 1050 mi tartışmalı, metinde verilmedi.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

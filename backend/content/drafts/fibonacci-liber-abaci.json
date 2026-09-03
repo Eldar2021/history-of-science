@@ -1,0 +1,78 @@
+{
+  "slug": "fibonacci-liber-abaci",
+  "year": 1202,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "title": "Fibonacci's Liber Abaci: the Hindu-Arabic numerals get a user's manual",
+  "summary": "A merchant's son who learned arithmetic in North Africa writes a Latin handbook showing how nine Indian figures and a zero beat the counting board. Europe's merchants slowly take note.",
+  "body": "### The scene\n\nAround 1200, if you wanted to add up a cargo of pepper in Pisa, you did not write the sum down. You slid counters across a lined board, a kind of abacus, and recorded the answer afterwards in Roman numerals: MCCII, not 1202. The figures we use today were not unknown. They appear in a Spanish manuscript of 976; the monk Gerbert of Aurillac, later Pope Sylvester II, put them on the counters of his abacus around the year 1000; and twelfth-century translators in Spain had turned al-Khwarizmi's Arabic arithmetic into Latin. But those books lived in monasteries and astronomers' studies. In the counting houses, nobody used them.\n\nLeonardo of Pisa, nicknamed Fibonacci centuries later, grew up on the other shore of the Mediterranean. His father Guglielmo represented Pisan merchants at the customs house of Bugia, today Bejaia in Algeria, and had the boy taught calculation there by Arabic-speaking masters. Leonardo then toured the trading ports of Egypt, Syria, Sicily and Provence, comparing how each place reckoned.\n\n### What happened\n\nIn 1202 he finished Liber Abaci, the Book of Calculation. Despite its title, it argues against the counting board. Its opening is the whole point: \"The nine Indian figures are 9 8 7 6 5 4 3 2 1. With these nine figures, and with the sign 0, which the Arabs call zephir, any number whatsoever is written.\" Then, across fifteen chapters, it does what no Latin book had done: it shows a merchant how to use them. Currency exchange, profit sharing, silver alloys, interest: hundreds of worked examples. Tucked among them, almost as a game, is the question of how many pairs of rabbits one pair breeds in a year; the sequence it produces now carries Fibonacci's name, though Indian scholars of poetic metre had described it centuries before.\n\nThink of the numerals as a tool that had lain in the workshop for two hundred years without an instruction manual. Fibonacci did not invent the tool; he wrote the manual, for the people who needed it. Where the picture breaks: a tool works the moment you pick it up, while place-value numbers ask you to rethink what a written quantity is, and that took Europe three more centuries.\n\n### Why it was hard\n\nZero was the sticking point: a sign for nothing that changes the value of everything beside it. An Arabic 0 could become a 6 with one pen stroke, and a Florentine bankers' statute of 1299 is often cited as banning the new figures from account books, though historians disagree about what it really forbade. The book itself was long, in Latin, and copied by hand; no manuscript of the 1202 version survives, and what we read is the revision of 1228 dedicated to Michael Scot, astrologer at the court of Emperor Frederick II. What the work needed was mostly old: Brahmagupta's rules for zero, al-Khwarizmi's treatise on Indian reckoning, the translators of Toledo, and, new in Fibonacci's century, an Italian merchant class that needed arithmetic every day. Pisa understood: in 1240 the city voted him a yearly stipend for his services in accounting and teaching.\n\n### What it opened\n\nWithin a hundred years Italian towns had abacus schools, where merchants' sons learned the new arithmetic from short vernacular textbooks descended from Liber Abaci. Out of that tradition came double-entry bookkeeping, printed by Luca Pacioli in 1494, and the Italian algebra of the sixteenth century. Only after printing, by the mid-1500s, were the figures ordinary across Europe. Fibonacci's deeper work, the number theory of his Liber Quadratorum of 1225, went almost unread until the 1600s. The book that changed things was the practical one.",
+  "why_it_matters": "Liber Abaci did not bring the numerals to Europe; it made them usable, by tying Indian and Arabic arithmetic to the daily problems of merchants. The abacus schools and algebra of Renaissance Italy grew directly out of it, and with them the habit of calculating on paper.",
+  "if_you_were_there": "For most Europeans a number was something you counted out on a board or wrote as a string of letters; the idea that a mark meaning \"nothing\" could make 12 different from 102 sounded like a trick.",
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "name": "Leonardo of Pisa (Fibonacci)",
+      "role": "author of Liber Abaci; merchant's son trained in Bugia"
+    },
+    {
+      "name": "Guglielmo Bonacci",
+      "role": "Leonardo's father, Pisan representative at the customs house of Bugia who arranged his training"
+    },
+    {
+      "name": "al-Khwarizmi",
+      "role": "ninth-century Khwarezmian scholar whose arithmetic and algebra, in Arabic and Latin, underlie the book"
+    },
+    {
+      "name": "Gerbert of Aurillac",
+      "role": "monk and later Pope Sylvester II who spread the numerals in Europe around 1000, two centuries earlier"
+    },
+    {
+      "name": "Michael Scot",
+      "role": "scholar at Frederick II's court to whom the 1228 revision is dedicated"
+    }
+  ],
+  "builds_on": [
+    "brahmagupta-zero",
+    "al-khwarizmi-algebra",
+    "euclid-elements"
+  ],
+  "enables": [
+    "napier-logarithms?",
+    "descartes-coordinates?",
+    "gutenberg-press"
+  ],
+  "sources": [
+    {
+      "title": "Fibonacci | Biography, Sequence, & Facts | Britannica",
+      "url": "https://www.britannica.com/biography/Fibonacci",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Liber Abaci - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liber_Abaci",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Fibonacci (1170 - 1250) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "kind": "article"
+    },
+    {
+      "title": "Arabic numerals (adoption in Europe) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arabic_numerals",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Laurence Sigler, Fibonacci's Liber Abaci: A Translation into Modern English of Leonardo Pisano's Book of Calculation (Springer, 2002)",
+      "url": "https://books.google.com/books/about/Fibonacci_s_Liber_Abaci.html?id=PilhoGJeKBUC",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica sayfası 403 verdi; Britannica bilgisi yalnızca arama özetinden alındı. 1299 Floransa bankacılar yasağı (Arte del Cambio) tarihçiler arasında tartışmalı, cümle ihtiyatlı yazıldı; 1240 Pisa maaşı ve 976 Codex Vigilanus MacTutor/Wikipedia'ya dayanıyor. Tavşan dizisinin Hint kökeni (Pingala/Virahanka, şiir ölçüsü) ve 'Toledo çevirmenleri' genellemesi ikinci kaynakla doğrulanmalı.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

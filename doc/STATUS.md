@@ -9,8 +9,8 @@
 - **Hafta 2 kalan**: içerik kutucuğu (10 antik taslak) kullanıcı doğrulaması bekliyor; kod ve tasarım kapandı, PR #3 `main`'e birleşti.
 - **Doğrulandı (2026-09-03, 7. oturum)**: Hafta 3'ün 5 kod kutucuğu bitti, her biri headless Chrome ile test edildi, `npm run check` 69 test yeşil. Dal `el/week-3-event-detail`, PR açık. Kalan: içerik (+10 İslam Altın Çağı) ve hafta sonu kontrolü.
 - **Bulut (2026-09-03)**: Supabase projesi **uchkun** `hsllmvouqayaccubodcl` (Frankfurt, ücretsiz) CLI ile açıldı; eski ref `jnclaqxvfitggyprasxw` = kullanıcının başka projesi **uro-go** (duraklatılmış, dokunulmadı). Migration 0001+0002 `db push` ile, seed `db query --file` ile uygulandı (8 çağ, 8 disiplin, 10 yayınlı olay, 6 bağlantı); anon RPC doğrulandı. Vercel prod/preview: `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_ANON_KEY`. DB şifresi kullanıcıya bir kez gösterildi (1Password). Üretim `vercel redeploy` ile yeniden dağıtıldı: https://history-of-science.vercel.app bulut DB'yi okuyor (doğrulandı).
-- **Sonraki adım**: (1) PR #4 merge → Vercel prod bulut DB ile deploy. (2) `/com_event` ile İslam Altın Çağı 10 olayı (03 listesi: Brahmagupta, El-Harezmi gövdesi, El-Farabi, İbn-i Heysem, İbn Sina, El-Biruni, Ömer Hayyam, Fibonacci, Roger Bacon, Uluğ Bey). (3) Hafta 4: admin + auth + RLS kanıtı → M1.
-- **Kullanıcıdan bekleyen**: (0) Supabase Studio → Authentication → Users → kendi e-postanla kullanıcı; `update profiles set role='admin' where id='<uuid>'` (Hafta 4 admin için). (1) PR'ı incele ve `main`'e birleştir (= Vercel prod deploy). (2) 10 antik olay taslağını doğrula (`backend/content/drafts/`, `verify_note_tr`); `published` kararı. (3) Hafta sonu kontrolü: bir arkadaşa telefonu ver, 2 dakika izle. (4) İsteğe bağlı: `resource/Design system conflict scope/` klasörünü yeniden adlandır.
+- **Sonraki adım**: (1) Taslak doğrulaması → yerel/bulut DB'ye `draft` → Hafta 4 admin panelinden yayın. (2) `/com_event` ile İslam Altın Çağı 10 olayı (03 listesi: Brahmagupta, El-Harezmi gövdesi, El-Farabi, İbn-i Heysem, İbn Sina, El-Biruni, Ömer Hayyam, Fibonacci, Roger Bacon, Uluğ Bey). (3) Hafta 4: admin + auth + RLS kanıtı → M1.
+- **Kullanıcıdan bekleyen**: (0) PR (içerik dalı `el/week-3-content`) — 11 altın çağ taslağını `verify_note_tr` ile doğrula; yerel DB'ye `draft` yükleme kararı; Uluğ Bey yılı (`1420 exact` seed vs `circa`+`1437`). (1) 10 antik taslağın doğrulaması hâlâ açık. (3) Hafta sonu kontrolü: bir arkadaşa telefonu ver, 2 dakika izle. (4) İsteğe bağlı: `resource/Design system conflict scope/` klasörünü yeniden adlandır.
 - **Bloklayan**: yok. Bulut: `supabase link` bağlı (`backend/supabase/.temp`), `supabase db push` yeni migration'ları uygular. Yerel geliştirme: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
 
 ## Hafta 3 kutucukları
@@ -25,7 +25,7 @@
 
 **İçerik**
 
-- [ ] +10 olay (İslam Altın Çağı, Orta Asya vurgusu).
+- [~] +10 olay (İslam Altın Çağı, Orta Asya vurgusu): 11 taslak `backend/content/drafts/` (Brahmagupta, El-Harezmi, El-Farabi, İbn-i Heysem, İbn Sina, El-Biruni, Ömer Hayyam, Fibonacci, Roger Bacon, Uluğ Bey, Gutenberg), 4 paralel `content-writer` ajanı, her biri 5-7 kaynak + `verify_note_tr`. Üçü (El-Harezmi, İbn-i Heysem, Uluğ Bey) seed'de yayında olan olayların tam gövdesi; loader yayınlanmışa dokunmadığı için bunlar admin formu (Hafta 4) ya da elle SQL ister. `backend/scripts/check-drafts.mjs` (yeni, bağımlılıksız): 21 taslak 0 hata; 10 gövde 610-652 kelime (üst sınır 600, kısaltma kararı incelemede). **Kullanıcı doğrulaması ve yerel yükleme kararı bekliyor.** (2026-09-03)
 
 **Hafta sonu kontrolü**
 
@@ -84,7 +84,8 @@
 - Bulut: Supabase CLI girişli değil (OAuth tarayıcı ister); `backend/scripts/cloud-setup.sh` hazır, `backend/README.md` güncel. Vercel CLI girişli.
 - `timeline-ux-reviewer` raporu (05/02/06'ya karşı, Lighthouse mobil yerel: timeline 84, olay 86): blocker yok. Aynı oturumda düzeltildi: panel içi bağlantılar `replace` (Esc/geri tek adımda kapatır), odak tuzağı (`inert` + odak iadesi), minimap `role=slider` + ok/Home/End tuşları, `@panel/loading.tsx` iskelet, mobilde bandın alt boşluğu, çipler `history.replaceState` (sunucu turu yok), başlık sırası h1→h2, arka plan düğmesi `aria-hidden`, dikey minimap `lg` ve üstü.
 - Rapordan ertelenenler: **Lighthouse mobil 84 < 85** (374 KB font, 8 dosya; `latin-ext` Türkçe için şart → Hafta 8 performans turunda ağırlık/eksen kısıtı, ADR gerekebilir); `event_links.type='enables'` hiçbir listede okunmuyor (0001'de enum'da yok, 04 "tek yön saklanır" diyor; 02:88 ile çelişki, Hafta 4 migration'ında karar); `<time>` negatif yıl için geçersiz `dateTime`; rozetler tıklanamıyor (05:128); kart klavye gezintisi `↑/↓/Enter/[ ]`, yıl girme, `min=4` anahtarı, 30 kartlık artımlı yükleme (200 olayda LCP), `hreflang`; `revalidate=300` `cookies()` yüzünden etkisiz (anonim okumaları cookie'siz client'a taşımak TTFB kazandırır).
-- Yarım kalan: içerik kutucuğu (+10 İslam Altın Çağı), hafta sonu kontrolü (kullanıcı), masaüstü sol çağ sütunu (isteğe bağlı, Hafta 4+).
+- İçerik turu (aynı gün, `/com_event`): 11 İslam Altın Çağı taslağı, `check-drafts.mjs` repo'ya alındı, üç eski taslakta `ibn-sina-canon?` / `brahmagupta-zero?` bağlantıları çözüldü. Uluğ Bey taslağı kaynak çelişkisi yüzünden `circa` + `year_end 1437` seçti; seed `1420 exact`, karar kullanıcıda. Britannica yine 403, ajanlar arama özetine dayandı.
+- Yarım kalan: taslak doğrulaması (antik 10 + altın çağ 11), hafta sonu kontrolü (kullanıcı), masaüstü sol çağ sütunu (isteğe bağlı, Hafta 4+).
 
 ### 2026-09-03 — 6. oturum: içerik taslakları (Hafta 2 içerik kutucuğu)
 

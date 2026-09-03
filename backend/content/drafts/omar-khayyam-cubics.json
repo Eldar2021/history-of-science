@@ -1,0 +1,84 @@
+{
+  "slug": "omar-khayyam-cubics",
+  "year": 1070,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 3,
+  "title": "Omar Khayyam solves cubic equations with curves, then fixes the calendar",
+  "summary": "In Samarkand around 1070 a scholar from Nishapur shows that two curves crossing on a page can solve equations nobody could crack with numbers. In 1079 his team's calendar beats the one we use today.",
+  "body": "### The scene\n\nNishapur in Khorasan has just changed hands: the Seljuk Turks have taken it and made it one of their seats. Omar Khayyam is born there in 1048, grows up a scholar in violent times, and later complains that \"the people of knowledge\" are reduced to \"a group small in number, with many troubles\". Around 1070 he travels to Samarkand, where the chief judge Abu Tahir becomes his patron and gives him the calm to write. The problem waiting for him was two centuries old. Al-Khwarizmi in Baghdad had shown how to solve equations with squares in them. Al-Mahani, in the ninth century, tried to solve a problem of Archimedes, cutting a sphere in a given ratio, found it led to an equation with a cube in it, and got stuck. Abu Ja'far al-Khazin cracked that one case by making two curves cross. Abu'l-Jud, Ibn al-Haytham and al-Biruni handled other cases. Nobody had done them all.\n\n### What happened\n\nKhayyam's Treatise on Demonstration of Problems of Algebra does. Because he, like everyone then, allowed only positive quantities, an equation looked different depending on which terms sat on which side, so he sorted them into twenty-five types, fourteen of them cubics that could not be reduced to anything simpler. For each of the fourteen he gives a construction: draw a circle, a parabola or a hyperbola, draw a second curve, and their crossing marks off a length that is the answer. He shows that some equations have two answers. He argues that ruler and compass cannot do this and the curves are genuinely needed, a claim not proved until the 1830s. And he says plainly that he has looked for a solution in numbers rather than lengths and failed: \"perhaps someone else who comes after us may find it out.\"\n\nIt is like finding where two roads cross on a map instead of computing the address. Where the analogy breaks: a map lets you read the crossing off as a number, while Khayyam's crossing gave a length you could construct but not a number you could write down, which is exactly the gap he regretted.\n\nThen the calendar. In 1074 or 1075 the Seljuk sultan Malik-Shah and his vizier Nizam al-Mulk brought him to Isfahan to build an observatory and repair the drifting Persian calendar. He led a panel of eight astronomers, among them Abu'l-Muzaffar al-Isfizari and Maymun ibn Najib al-Wasiti. The Jalali calendar took effect on 15 March 1079: the year begins at the spring equinox, and leap days follow a 33-year cycle that tracks the true solar year more closely than the Gregorian calendar Europe adopted five centuries later.\n\n### Why it was hard\n\nEverything was written in words: \"a cube and sides are equal to a number.\" No minus signs, no letters, no coordinates, so one equation became fourteen. What made the work possible was Apollonius's Conics in Arabic, al-Khwarizmi's vocabulary of algebra, the chain of predecessors above, and patrons in Samarkand and Isfahan willing to fund quiet work in a loud century. The date of the algebra is uncertain: sources place it between about 1070 and 1078, hence circa. The poems that made his name in the West, the Rubaiyat in Edward FitzGerald's 1859 translation, are another matter; scholars doubt how many of the quatrains are his.\n\n### What it opened\n\nSharaf al-Din al-Tusi, around 1209, took the fourteen cases further and asked when a cubic has a solution at all, using ideas that look like early calculus. The formula in numbers that Khayyam hoped for was found in Italy in the 1500s by del Ferro, Tartaglia and Cardano. When Descartes in 1637 put equations and curves on the same page with coordinates, he was, without knowing it, completing a marriage Khayyam had arranged. The calendar outlived its makers: the solar calendar of Iran and Afghanistan descends from the Jalali, and Nowruz still falls on the equinox.",
+  "why_it_matters": "Khayyam gave the first complete, systematic treatment of cubic equations, showing that geometry could answer questions algebra alone could not, and he was honest about what he had not solved. The Jalali calendar shows the same team turning careful observation into a public tool that is still in use.",
+  "if_you_were_there": "Nobody had symbols for unknowns or a minus sign, so an equation was a sentence in prose, and the idea that a curve could be an answer to a sentence sounded strange even to mathematicians.",
+  "disciplines": [
+    "mathematics",
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Omar Khayyam",
+      "role": "mathematician and astronomer from Nishapur; author of the Treatise on Demonstration of Problems of Algebra; led the Isfahan calendar reform"
+    },
+    {
+      "name": "Abu Tahir",
+      "role": "chief judge of Samarkand and patron under whom the algebra treatise was written"
+    },
+    {
+      "name": "Abu Ja'far al-Khazin",
+      "role": "tenth-century astronomer who first solved a cubic with intersecting conics"
+    },
+    {
+      "name": "Malik-Shah I and Nizam al-Mulk",
+      "role": "Seljuk sultan and vizier who commissioned the Isfahan observatory and the calendar"
+    },
+    {
+      "name": "Abu'l-Muzaffar al-Isfizari",
+      "role": "astronomer on the eight-member calendar panel"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "archimedes-buoyancy-levers",
+    "al-khwarizmi-algebra",
+    "ibn-al-haytham-optics"
+  ],
+  "enables": [
+    "descartes-geometry?",
+    "ulugh-beg-observatory"
+  ],
+  "sources": [
+    {
+      "title": "Omar Khayyam | Persian Poet, Astronomer & Mathematician | Britannica",
+      "url": "https://www.britannica.com/biography/Omar-Khayyam-Persian-poet-and-astronomer",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Omar Khayyam - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Omar_Khayyam",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Omar Khayyam (1048 - 1131) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/",
+      "kind": "article"
+    },
+    {
+      "title": "KHAYYAM, OMAR xv. As Mathematician - Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/khayyam-omar-mathematician/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Jalali calendar - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jalali_calendar",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Roshdi Rashed and Bijan Vahabzadeh, Omar Khayyam, the Mathematician (Bibliotheca Persica, 2000)",
+      "url": "https://books.google.com/books/about/Omar_Khayyam_the_Mathematician.html?id=S_hUAAAAYAAJ",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica ve Iranica sayfaları fetch'te 403 verdi; arama özetleri kullanıldı. Cebir risalesinin tarihi MacTutor/Wikipedia'da c. 1070 (Semerkant), Encyclopedia.com'da c. 1078; bu yüzden circa. 25 tür / 14 indirgenemez kübik sayısı MacTutor'a dayanıyor. Takvim heyetinin sekiz kişi olduğu ve üye adları Wikipedia'dan; 'Gregoryen'den daha doğru' iddiası yaygın ama Jalali'nin artık yıl kuralı tarihçiler arasında tartışmalı. Cetvel-pergel imkânsızlığının 1830'larda kanıtlanması (Wantzel 1837) MacTutor'dan.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

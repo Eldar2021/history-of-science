@@ -1,0 +1,82 @@
+{
+  "slug": "ibn-sina-canon",
+  "year": 1025,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "title": "Ibn Sina's Canon of Medicine: one rulebook for six centuries of doctors",
+  "summary": "A physician from a village near Bukhara gathers Galen, Hippocrates and a decade of his own practice into five books. Translated in Toledo, it was Europe's medical textbook into the 1600s.",
+  "body": "### The scene\n\nBukhara around the year 1000 is one of the richest cities on the Silk Road, the Samanid capital, full of books. A teenager from the nearby village of Afshana, Husayn ibn Sina, is already treating patients; when he treats the emir Nuh II successfully, he is rewarded with the run of the palace library. Then everything falls apart. In 999 the Qarakhanids take Bukhara, and Ibn Sina spends the rest of his life moving from court to court: Gurganj in Khwarazm, where al-Biruni and the mathematician Abu Nasr Mansur are colleagues; Gurgan; Rayy; Hamadan, where he serves as vizier and for a while sits in a fortress prison; Isfahan. Medicine in these courts meant Galen: nine centuries old, translated into Arabic in Baghdad, scattered across dozens of treatises that often disagreed.\n\n### What happened\n\nOver about a decade of travel Ibn Sina wrote, section by section, al-Qanun fi al-Tibb, The Canon of Medicine: begun by most accounts in his Khwarazm and Gurgan years, continued in Rayy and, by the usual dating, finished in Hamadan in 1025. It is five books. The first lays out the theory: the four humors, anatomy, how illness starts, how to stay healthy. The second lists about 800 simple drugs in alphabetical order. The third runs through diseases from head to toe; the fourth covers fevers, conditions of the whole body, wounds and fractures; the fifth gives some 650 compound remedies. Qanun means \"rule\" or \"law\", and that is the point: one book with one set of rules instead of a shelf of arguing authorities.\n\nThink of it as a city's master map. Almost no street on it was new; Galen, Hippocrates, Aristotle and Indian pharmacology had drawn them. What was new was putting every street on one sheet, at one scale, with one legend, so a student anywhere could find the way. Where the analogy breaks: a map only shows what exists, but the Canon also confidently drew passages that were not there, such as Galen's invisible pores through the wall of the heart, and those were copied for five hundred years.\n\nSome of it is his own, though. In the second book Ibn Sina sets out seven rules for testing a drug: try it on the human body, not on paper; test one disease at a time; watch the timing and the dose; trust an effect only if it comes back consistently in many cases. It is the oldest known checklist of its kind. He also describes the pulse, the anatomy of the eye, and illnesses that pass from person to person.\n\n### Why it was hard\n\nNobody could do this alone. Ibn Sina had the Baghdad translations, the Samanid library, and a student and secretary, al-Juzjani, who wrote down his life and rescued his manuscripts. He also had a gift for system that came from his philosophy: he was ordering medicine the way Aristotle had ordered everything else. The hard part was the audience, physicians trained on Galen who distrusted a summary, and the conditions: much of the writing happened on the road and in prison.\n\n### What it opened\n\nIn twelfth-century Toledo Gerard of Cremona put the Canon into Latin. By the 1300s it was on the syllabus at Montpellier, Bologna and Padua, and it was still lectured on in Italy in the 1600s, by some accounts at Padua as late as 1715, having survived the Renaissance attack on \"Arab\" medicine. Ibn al-Nafis in Cairo, commenting on the Canon in the 1240s, rejected the pores in the heart and described how blood passes through the lungs; Vesalius in 1543 and Harvey in 1628 broke its anatomy further, but they had learned that anatomy from it first. For Central Asia the Canon is a homegrown book: written in Arabic by a Persian-speaking man from a village near Bukhara, in today's Uzbekistan.",
+  "why_it_matters": "The Canon turned a scattered inheritance into one teachable system, and that system trained physicians from Samarkand to Paris for roughly six hundred years. Its rules for testing drugs are the earliest known statement of how to judge a remedy by evidence rather than reputation.",
+  "if_you_were_there": "Nobody knew that blood circulates, that germs exist, or that the body's fluids were not four humors; a physician's best tools were the pulse, the patient's story, and a very good book.",
+  "disciplines": [
+    "medicine"
+  ],
+  "people": [
+    {
+      "name": "Ibn Sina (Avicenna)",
+      "role": "author of the Canon of Medicine; physician and philosopher born near Bukhara"
+    },
+    {
+      "name": "Abu Ubayd al-Juzjani",
+      "role": "student and secretary who recorded Ibn Sina's life and preserved his works"
+    },
+    {
+      "name": "Galen",
+      "role": "second-century physician whose system the Canon organised and transmitted"
+    },
+    {
+      "name": "Gerard of Cremona",
+      "role": "twelfth-century translator who turned the Canon into Latin at Toledo"
+    },
+    {
+      "name": "Ibn al-Nafis",
+      "role": "thirteenth-century commentator who corrected the Canon's account of the heart"
+    }
+  ],
+  "builds_on": [
+    "galen-anatomy",
+    "hippocrates-natural-disease",
+    "aristotle-lyceum"
+  ],
+  "enables": [
+    "vesalius-fabrica?",
+    "harvey-circulation?"
+  ],
+  "sources": [
+    {
+      "title": "The Canon of Medicine - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Canon_of_Medicine",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Avicenna - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Avicenna",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ibn Sina [Avicenna] - Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/ibn-sina/",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "The Canon of Medicine | work by Avicenna - Britannica",
+      "url": "https://www.britannica.com/topic/The-Canon-of-Medicine",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ibn Sina's Canon of Medicine: 11th century rules for assessing the effects of drugs - James Lind Library",
+      "url": "https://www.jameslindlibrary.org/articles/ibn-sinas-canon-of-medicine-11th-century-rules-for-assessing-the-effects-of-drugs/",
+      "kind": "article"
+    },
+    {
+      "title": "Nancy G. Siraisi, Avicenna in Renaissance Italy: The Canon and Medical Teaching in Italian Universities after 1500 (Princeton University Press, 1987)",
+      "url": "https://press.princeton.edu/books/hardcover/9780691637785/avicenna-in-renaissance-italy",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "1025 yılı Wikipedia'ya dayanıyor; Britannica sadece '11. yüzyıl başı' diyor ve SEP tarih vermiyor (Britannica sayfası 403 verdi, arama özeti kullanıldı). Yazım on yıla yayıldığı için 'circa' tercih edilebilir; kitabın nerede başladığı (Gürgenç mi Gürgan mı) kaynaklarda farklı. 'Hastalık kişiden kişiye geçer' ve 'Padua 1715' Wikipedia kaynaklı, tarihçiler arasında tartışmalı; ikinci kaynakla doğrula. İbn Nefis'in 1240'larda akciğer dolaşımını tanımlaması genel kabul, ama şerh tarihini kontrol et.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

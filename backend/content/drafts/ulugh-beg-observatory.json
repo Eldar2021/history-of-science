@@ -1,0 +1,88 @@
+{
+  "slug": "ulugh-beg-observatory",
+  "year": 1420,
+  "year_end": 1437,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Ulugh Beg's Samarkand observatory: a thousand stars measured anew",
+  "summary": "A ruler-astronomer in Samarkand builds a giant meridian arc and, with his team, catalogues over a thousand stars with naked-eye precision unmatched until Tycho Brahe.",
+  "body": "### The scene\n\nSamarkand in 1420 is Timur's capital a generation after Timur. His grandson Ulugh Beg, born in 1394 and governor of the city since his mid-teens, is a ruler who would rather be a mathematician. The model in his mind is Maragha in Iran, where Nasir al-Din al-Tusi's team had worked in the 1260s; he is said to have seen its ruins as a boy. Between 1417 and 1420 he builds a madrasa on the Registan and staffs it with the best he can find: Qadi Zada al-Rumi from Bursa, and Jamshid al-Kashi from Kashan, who writes home to his father that the prince can hold his own in a mathematical argument. The astronomy they all use rests on Ptolemy's star positions, fixed in Alexandria nearly thirteen centuries earlier, and every year the gap between table and sky grows.\n\n### What happened\n\nThe team built an observatory to close that gap. The foundations went in around 1420 by one reckoning and in the later 1420s by another; the sources disagree, and the building was probably finished about 1428 or 1429. Its shape is not in doubt: a round, three-storey building about 46 metres across on a hill north of the city, and inside it a colossal meridian arc, the Fakhri sextant, with a radius of about 40 metres, so tall that its lower part was sunk in a trench cut into the rock. On that arc one degree of sky stretched over 70 centimetres of marble, so minutes of arc could be read directly.\n\nImagine reading the time on a wristwatch and then on a tower clock. The minute mark that is a hair's width on your wrist is a hand's width on the tower. Ulugh Beg's team built a tower clock for the sky. Where the analogy breaks: a bigger dial cannot help an eye that sees stars as blurry points. The naked eye tops out at roughly a minute of arc, and that ceiling is why the next leap needed a telescope, not a still larger arc.\n\nFor about seventeen years they measured. In 1437 the results appeared as the Zij-i Sultani, tables in Persian: positions of 992 stars re-observed from Samarkand plus 27 southern stars taken from al-Sufi's tenth-century catalogue; a year length within about 25 seconds of the modern value; the tilt of the Earth's axis; and trigonometric tables built on al-Kashi's and Qadi Zada's value for the sine of one degree. It was the first large star catalogue since Ptolemy to rest on fresh observation, and no one did better until Tycho Brahe in the 1590s.\n\n### Why it was hard\n\nIt took a ruler's treasury and a scholar's patience, and those rarely sit in the same person. The team also kept dying: al-Kashi in 1429, Qadi Zada around 1436. The work was carried through by Ali Qushji, the falconer's son, born in Samarkand in 1403, who had studied under both. Then politics ended it. In 1449 Ulugh Beg was murdered on the orders of his son Abd al-Latif; the observatory was stripped and the scholars scattered. Qushji carried the tables to Herat and Tabriz and, in 1472, to Mehmed II's Istanbul.\n\n### What it opened\n\nThe tables travelled west. Part of the catalogue was printed at Oxford in 1648 through John Greaves, and Thomas Hyde published the whole of it there, with a Latin translation, in 1665. How much of the Samarkand work reached Copernicus is debated; Qushji's argument that astronomy need not obey Aristotle's physics has been read as one step on that road. The building itself vanished so completely that its site was lost until 1908, when the archaeologist Vasily Vyatkin dug up the marble trench of the sextant. It is still there on the edge of Samarkand, a curved cut in the rock.",
+  "why_it_matters": "For the first time since antiquity a whole sky was measured rather than copied, and the result held as the best catalogue in the world for a century and a half. It is proof that careful instruments beat inherited tables, and the proof came from Central Asia.",
+  "if_you_were_there": "Star positions came from Ptolemy, already nearly thirteen centuries old and drifting further from the sky each year, and nobody had a telescope; the only way to see finer was to build bigger.",
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "name": "Ulugh Beg",
+      "role": "Timurid ruler of Samarkand who founded and worked in the observatory"
+    },
+    {
+      "name": "Qadi Zada al-Rumi",
+      "role": "mathematician from Bursa; teacher of Ulugh Beg and head of the madrasa"
+    },
+    {
+      "name": "Jamshid al-Kashi",
+      "role": "mathematician from Kashan; leading astronomer in the observatory's first years"
+    },
+    {
+      "name": "Ali Qushji",
+      "role": "Samarkand-born astronomer who completed the work and carried it to Tabriz and Istanbul"
+    },
+    {
+      "name": "Nasir al-Din al-Tusi",
+      "role": "founder of the Maragha observatory (1259), the model Samarkand followed"
+    }
+  ],
+  "builds_on": [
+    "ptolemy-almagest",
+    "hipparchus-star-catalogue",
+    "al-biruni-earth-radius",
+    "omar-khayyam-cubics"
+  ],
+  "enables": [
+    "copernicus-heliocentrism",
+    "tycho-supernova?"
+  ],
+  "sources": [
+    {
+      "title": "Ulugh Beg Observatory - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ulugh_Beg_Observatory",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Zij-i Sultani - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zij-i_Sultani",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ulugh Beg (1394 - 1449) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulugh_Beg/",
+      "kind": "article"
+    },
+    {
+      "title": "Ulugh Beg and his Contributions to Late-Islamic Astronomy - Robert van Gent, Utrecht University",
+      "url": "https://webspace.science.uu.nl/~gent0113/ulughbeg/ulughbeg_observatory.htm",
+      "kind": "article"
+    },
+    {
+      "title": "Ulugh Beg | Astronomer, Mathematician, Scientist - Britannica",
+      "url": "https://www.britannica.com/biography/Ulugh-Beg",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ali Qushji (1403 - 1474) - MacTutor History of Mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Qushji/",
+      "kind": "article"
+    },
+    {
+      "title": "Kevin Krisciunas, The Legacy of Ulugh Beg, in Central Asian Monuments, ed. H. B. Paksoy (Isis Press, 1992)",
+      "url": "http://vlib.iue.it/carrie/texts/carrie_books/paksoy-2/cam6.html",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Gözlemevi tarihi kaynaklarda çelişkili: van Gent ve Britannica 'yaklaşık 1420' (823 H), Wikipedia '1420'lerin ilk yarısı, bitiş ~1428', MacTutor ve Britannica biyografisi '1428'de başladı'; bu yüzden 1420 'circa' ve year_end 1437 (katalog) verildi, seed.sql'deki 'exact' değerini güncellemeyi düşün. Katalog yılı 1437 (MacTutor) ile 1438-39 (Wikipedia) arasında; yıldız sayısı 992+27=1018/1019. Britannica sayfaları 403 verdi, arama özeti kullanıldı; Maragha kalıntılarını çocukken görme anekdotu ve Kopernik bağlantısı yorum, kesin değil.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "gutenberg-press",
+  "year": 1450,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Gutenberg's press in Mainz: knowledge becomes copyable",
+  "summary": "A Mainz goldsmith combines cast metal type, oil ink and a screw press. Within five years a Bible exists in some 180 copies; within fifty, Europe has millions of printed books.",
+  "body": "### The scene\n\nIn the 1440s a book is a thing you commission. A scribe copies a Bible in about a year, and the result costs as much as a farm. Paper, invented in China and carried west through the Islamic world, is now made in mills in Italy and Germany. What is missing is a way to write the same page many times.\n\nMovable type itself is not missing. Around 1040 in Song China the artisan Bi Sheng printed with characters of baked clay. In Korea, metal type was in use by 1234, and a Buddhist anthology called the Jikji, printed with cast metal type at Heungdeok temple in 1377, survives today in Paris. But Chinese and Korean writing uses thousands of characters, so a carved woodblock of the whole page was usually cheaper, and Korean type printing stayed mostly a court affair with small runs.\n\n### What happened\n\nJohannes Gutenberg, born in Mainz around 1400, spent the 1430s in Strasbourg on ventures that a lawsuit of 1439 calls only \"the adventure and the art\". Back in Mainz by 1448, he borrowed 800 guilders from the financier Johann Fust around 1450, and 800 more in 1452, and set up a workshop. What he assembled was a system rather than a single device. A letter cut on a steel punch was stamped into copper to make a mould, and into that mould went a molten alloy of lead, tin and antimony, a metal that melts at low heat and holds its shape as it cools, so every letter came out the same and thousands could be cast in a day. Oil-based ink, closer to a painter's varnish than to a scribe's water ink, clung to metal. A screw press pushed the sheet evenly onto the inked type. And the Latin alphabet needed only a few dozen signs, though his Bible font used about 290 to imitate a scribe's joined letters.\n\nThe workshop's first great product was the 42-line Bible, roughly 180 copies, finished by 1455; in March of that year the future Pope Pius II wrote from Frankfurt that he had seen sample pages and that they could be read without spectacles. Then Fust sued for his money, won, and took over the shop with Gutenberg's assistant Peter Schoeffer. Gutenberg's own name appears on no book at all.\n\nA press is a photocopier for the fifteenth century: the same page, again and again. Where the comparison breaks: a photocopier reproduces what exists, whereas type let you correct a page and print it again, so a text could get better with each edition instead of worse with each copy.\n\n### Why it was hard\n\nNo single piece was new. Punches, moulds, presses and oil paints already existed. The difficulty was combining them so that they paid, and that took years of secrecy and a great deal of someone else's money. Even the mould is debated: in 2001 Paul Needham and Blaise Aguera y Arcas showed that letters in Gutenberg's earliest printing vary slightly, suggesting sand-casting before the adjustable mould was perfected. Whether any knowledge of Asian type reached the Rhine is argued about; no document shows it.\n\n### What it opened\n\nBy 1500, presses in more than 250 European towns had produced several million books. Copernicus's treatise of 1543 and Vesalius's anatomy of the same year, with the same woodcuts in every copy, depended on this: for the first time scholars in Krakow and Padua could argue about the same diagram. Elizabeth Eisenstein argued that the deepest change was not speed but fixity: a printed error could be found and corrected by readers everywhere, and knowledge began to accumulate instead of decay.",
+  "why_it_matters": "Gutenberg's workshop turned a manuscript into an edition: hundreds of identical copies of a text, cheap enough to spread and fixed enough to correct. Every later step in this timeline, from Copernicus to the scientific journal, assumes that a result can be printed and read by strangers.",
+  "if_you_were_there": "Nobody could imagine owning more than a handful of books, and most people had never held one; a text existed only where a scribe had sat, and two copies of the same work were never quite the same.",
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "name": "Johannes Gutenberg",
+      "role": "Mainz goldsmith who assembled the type-casting, ink and press system"
+    },
+    {
+      "name": "Johann Fust",
+      "role": "financier whose loans built the workshop and who took it over after the 1455 lawsuit"
+    },
+    {
+      "name": "Peter Schoeffer",
+      "role": "Gutenberg's assistant, later Fust's partner; printer of the Mainz Psalter of 1457"
+    },
+    {
+      "name": "Bi Sheng",
+      "role": "Song-dynasty artisan who made ceramic movable type around 1040"
+    },
+    {
+      "name": "Baegun",
+      "role": "Korean monk whose anthology Jikji was printed with metal type in 1377"
+    }
+  ],
+  "builds_on": [],
+  "enables": [
+    "copernicus-heliocentrism",
+    "vesalius-fabrica?",
+    "francis-bacon-novum-organum?"
+  ],
+  "sources": [
+    {
+      "title": "Johannes Gutenberg | Printing Press, Inventions, Facts, Accomplishments, & Biography | Britannica",
+      "url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Johannes Gutenberg - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Gutenberg Bible - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Movable type - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Movable_type",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Jikji - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jikji",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Gutenberg Bible - Library of Congress",
+      "url": "https://www.loc.gov/item/2021666734/",
+      "kind": "other"
+    },
+    {
+      "title": "Elizabeth L. Eisenstein, The Printing Press as an Agent of Change (Cambridge University Press, 1979)",
+      "url": "https://www.cambridge.org/us/universitypress/subjects/history/european-history-after-1450/printing-press-agent-change",
+      "kind": "book"
+    }
+  ],
+  "verify_note_tr": "Britannica sayfası 403 verdi, yalnızca arama özeti kullanıldı. Yıl 1450 circa: doğum 1393-1406 arası, Mainz atölyesi 1448-1450, Fust kredisi 1450; 'gözlük olmadan okunabilir' Piccolomini mektubu ve 158-180 kopya Wikipedia'dan. 1500'e kadar 250+ şehir ve 'milyonlarca kitap' rakamı Eisenstein/Febvre-Martin'e dayanıyor; Needham 2001 kum döküm tartışması ve Kore için 'saray işi' yorumu ikinci kaynakla doğrulanmalı. builds_on boş: Bi Sheng / Jikji çekirdek listede yok, ayrı olay olarak eklenebilir.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "ibn-al-haytham-optics",
+  "year": 1021,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 5,
+  "title": "Ibn al-Haytham explains vision with experiments",
+  "summary": "In Cairo, working with a darkened room and a small hole, Ibn al-Haytham shows that we see because light enters the eye, not because the eye sends out rays, and insists that claims be tested.",
+  "body": "### The scene\n\nCairo in the early 1000s is the capital of the Fatimid caliphs and of a ruler, al-Hakim, who funds scholars and also has people executed on a whim. The story told by al-Qifti two centuries later says that Ibn al-Haytham, a mathematician from Basra in Iraq, boasted that he could tame the Nile's floods, was invited by al-Hakim, travelled upriver, and realised it could not be done. Fearing the caliph, he pretended to be mad and lived under house arrest until al-Hakim vanished in 1021. Treat this as a legend: other accounts have him fleeing to Syria instead.\n\nThe learned theory of sight was thirteen centuries old. Euclid and Ptolemy taught that the eye sends out rays, a cone of feelers that touches objects, and the geometry of that cone explained perspective beautifully. Aristotle said something comes into the eye instead, and Galen described the eye's anatomy. Nobody had a theory in which geometry, anatomy and physics agreed.\n\n### What happened\n\nThe Book of Optics, Kitab al-Manazir, has seven books. The first argues from ordinary experience: staring at the Sun hurts; a bright thing leaves a trace when you close your eyes; and it is absurd that the eye fills the whole sky with rays the instant you open it. So the light must come in. His claim: from every point of every lit surface, light and colour travel out in straight lines in every direction, and some of those lines end in your eye. He keeps Euclid's geometry of the ray but reverses its direction.\n\nThen he tests. In a dark room with a small hole, several lamps outside make separate spots of light on the wall; cover one lamp and only its spot goes out. Light travels straight, and lights do not mix. He describes the setups so that a reader can rebuild them, which is the point.\n\nThe analogy is his own: the eye works like that dark room with a hole. Where it breaks, he could not follow it through. He placed the picture at the front of the eye, on the lens, because an image on the back wall would be upside down. Kepler accepted the upside-down image in 1604 and finished the job.\n\nOn the date: the popular version ties the book to the house-arrest years, 1011 to 1021; A. I. Sabra, who edited the Arabic text, argued from its cross-references for the 1030s. Hence \"circa.\"\n\n### Why it was hard\n\nIncoming light had a problem the old theory did not: if every point of the object sends light to every point of the eye, the eye should receive a blur. Ibn al-Haytham's answer, that only the ray striking each part of the eye head-on counts, was a patch, and it took Kepler to replace it. He needed Galen's anatomy, Euclid's geometry, Ibn Sahl's work on refraction in Baghdad a generation earlier, and the habit of treating every claim as something to test. Whether he was \"the first scientist,\" as a popular phrase has it, is doubtful: Ptolemy's Optics already contained refraction experiments, and historians such as G. J. Toomer and A. Mark Smith warn against pulling him out of his tradition. More carefully: he was one of the first to make the test the judge.\n\n### What it opened\n\nKamal al-Din al-Farisi revised the book around 1300 and used a glass globe of water to explain the rainbow. A Latin translation, De aspectibus or Perspectiva, appeared around 1200; Roger Bacon, Witelo and John Pecham built on it; Friedrich Risner printed it in Basel in 1572 as Opticae thesaurus, and that edition was on Kepler's desk in 1604. Galileo, Descartes and Huygens read it too.",
+  "why_it_matters": "The Book of Optics is one of the first sustained uses of controlled, repeatable experiment to decide between theories, and it settled a thirteen-century-old question: sight is light coming in. Kepler and Galileo read it in Latin, and modern optics starts from the picture it drew.",
+  "if_you_were_there": "The learned view, from Euclid and Ptolemy, was that the eye sent out rays that touched objects; nobody knew that light bounced off things into the eye, or that the eye contained an image at all.",
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "name": "Ibn al-Haytham (Alhazen)",
+      "role": "author of the Book of Optics; mathematician from Basra working in Cairo"
+    },
+    {
+      "name": "Ptolemy",
+      "role": "second-century author of an Optics on outgoing rays, the theory Ibn al-Haytham argued against and borrowed from"
+    },
+    {
+      "name": "Ibn Sahl",
+      "role": "tenth-century Baghdad mathematician whose work on refraction preceded the Optics"
+    },
+    {
+      "name": "Kamal al-Din al-Farisi",
+      "role": "Persian scholar who revised the Optics around 1300 and explained the rainbow"
+    },
+    {
+      "name": "Johannes Kepler",
+      "role": "read the Latin Optics via Risner's 1572 edition and placed the image on the retina in 1604"
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "ptolemy-almagest",
+    "galen-anatomy",
+    "aristotle-lyceum"
+  ],
+  "enables": [
+    "roger-bacon-experiment",
+    "galileo-telescope?",
+    "kepler-laws?"
+  ],
+  "sources": [
+    {
+      "title": "Ibn al-Haytham | Arab Scientist, Mathematician & Optics Pioneer | Britannica",
+      "url": "https://www.britannica.com/biography/Ibn-al-Haytham",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Ibn al-Haytham - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Book of Optics - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Optics",
+      "kind": "encyclopedia"
+    },
+    {
+      "title": "Abu Ali al-Hasan ibn al-Haytham (965 - 1040) - MacTutor History of Mathematics, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/",
+      "kind": "article"
+    },
+    {
+      "title": "A. I. Sabra (trans.), The Optics of Ibn al-Haytham, Books I-III: On Direct Vision (Warburg Institute, 1989)",
+      "url": "https://monoskop.org/images/f/ff/The_Optics_of_Ibn_Al-Haytham_Books_I-III_On_Direct_Vision_Sabra_1989.pdf",
+      "kind": "book"
+    },
+    {
+      "title": "A. Mark Smith, From Sight to Light: The Passage from Ancient to Modern Optics (University of Chicago Press, 2015)",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/F/bo18985859.html",
+      "kind": "book"
+    },
+    {
+      "title": "Medieval Skepticism - Stanford Encyclopedia of Philosophy (on the Latin reception of the Optics)",
+      "url": "https://plato.stanford.edu/entries/skepticism-medieval/",
+      "kind": "encyclopedia"
+    }
+  ],
+  "verify_note_tr": "Kitabın tarihi çelişkili: 1011-1021 (Wikipedia, ev hapsi hikâyesine bağlı) ile 1028-1038 (Sabra; Britannica arama özeti 'c. 1038' diyor); çekirdek listeye uyarak 1021 circa tutuldu, gövde iki görüşü de yazıyor. Britannica sayfası 403 verdi, yalnızca arama özeti kullanıldı. Nil / deli taklidi hikâyesi el-Kıfti'ye dayanır, efsane olarak etiketlendi. İbn Sahl (984), el-Farisi'nin gökkuşağı açıklaması ve Latince çeviri tarihi (~1200) Wikipedia'dan; ikinci kaynakla doğrula.",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "status": "draft"
+}
