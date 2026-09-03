@@ -19,7 +19,7 @@
 - [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS, Vitest (Hafta 1'de yapıldı, 38 test).
 - [~] Tasarım token'ları (`tokens.json` → `globals.css`), her iki tema; sistem tercihi ✓ (Hafta 1 sonu) + **anahtar** (bekliyor).
 - [ ] `?year=` derin bağlantı.
-- [ ] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, birim testli).
+- [x] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, 13 test: sıfır yılı yok, tersi, zoom/pan, Z0-Z3, imleç etrafında zoom). (2026-09-03)
 
 **Tasarım**
 - [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`. Anahtar hâlâ kod kutucuğunda.
