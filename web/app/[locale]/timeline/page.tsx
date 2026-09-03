@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { yearsBetween } from "@/lib/i18n/formatYear";
@@ -9,6 +10,7 @@ import { EventCard } from "@/components/timeline/EventCard";
 import { EraHeader } from "@/components/timeline/EraHeader";
 import { TimeGap } from "@/components/timeline/TimeGap";
 import { YearIndicator } from "@/components/timeline/YearIndicator";
+import { DeepLink } from "@/components/timeline/DeepLink";
 
 export const revalidate = 300;
 
@@ -54,6 +56,9 @@ export default async function TimelinePage({ params }: { params: Promise<{ local
       <SiteHeader
         center={events[0] && <YearIndicator locale={locale} initialYear={events[0].year} initialEra={groups[0]?.era?.name} />}
       />
+      <Suspense fallback={null}>
+        <DeepLink />
+      </Suspense>
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-4">
         <p className="mb-2 text-small text-muted">{t("eventsCount", { count: events.length })}</p>
         {groups.map((group, gi) => {

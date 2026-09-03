@@ -12,7 +12,10 @@
   "nav": {
     "timeline": "Timeline",
     "about": "About",
-    "language": "Language"
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme"
   },
   "home": {
     "question": "How did we get here?",

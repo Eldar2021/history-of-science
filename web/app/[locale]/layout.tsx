@@ -4,6 +4,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { THEME_INIT_SCRIPT } from "@/lib/theme";
 import "../globals.css";
 
 // Design concept faces (resource/design/tokens.json): Golos Text for body/UI, Literata for years,
@@ -38,7 +39,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${golos.variable} ${literata.variable} h-full antialiased`}>
+    // suppressHydrationWarning: the theme script may add data-theme to <html> before React hydrates.
+    <html lang={locale} className={`${golos.variable} ${literata.variable} h-full antialiased`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
       <body className="min-h-full flex flex-col bg-base text-primary">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>

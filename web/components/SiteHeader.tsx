@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LocaleSwitcher } from "./LocaleSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function SiteHeader({ center }: { center?: React.ReactNode }) {
   const t = useTranslations();
@@ -11,6 +12,7 @@ export function SiteHeader({ center }: { center?: React.ReactNode }) {
       <nav className="flex items-center gap-4 text-sm">
         <Link href="/timeline" className="hidden text-secondary hover:text-primary sm:inline">{t("nav.timeline")}</Link>
         <LocaleSwitcher />
+        <ThemeToggle />
       </nav>
     </header>
   );

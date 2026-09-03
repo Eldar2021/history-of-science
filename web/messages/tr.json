@@ -12,7 +12,10 @@
   "nav": {
     "timeline": "Zaman çizgisi",
     "about": "Hakkında",
-    "language": "Dil"
+    "language": "Dil",
+    "theme": "Tema",
+    "themeLight": "Açık temaya geç",
+    "themeDark": "Karanlık temaya geç"
   },
   "home": {
     "question": "Buraya nasıl geldik?",
