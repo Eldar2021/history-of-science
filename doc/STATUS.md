@@ -7,8 +7,8 @@
 
 - **Faz**: Ay 1 / Hafta 2 (başladı 2026-09-03, dal `el/week-2-timeline-mvp`). Hedef: Akış timeline'ı MVP; M1'e giden yol.
 - **Doğrulandı (2026-09-03, 5. oturum)**: Hafta 2 kod kutucuklarının tamamı bitti ve headless Chrome ile test edildi: 3 boyutta kart, sticky çağ pill'i, zaman boşluğu, canlı yıl göstergesi (kaydırma örnekleri MÖ 585 → 1947), `?year=1687` Newton'a, `?year=-240` "MÖ 240"a düşüyor, tema anahtarı localStorage ile kalıcı, konsol hatası yok. `npm run check` 51 test yeşil. Ekran görüntüleri iki temada alındı.
-- **Sonraki adım**: (1) İçerik: +10 antik olay (`/com_event`, kullanıcı doğrular). (2) Hafta 3'e geçiş: olay detay paneli/sheet, ana sayfa "Zamana düş" sayacı, minimap (`xScale` hazır), disiplin filtre çipleri, dürüstlük bandı mailto'ya olay bilgisi. (3) İsteğe bağlı: `timeline-ux-reviewer` ajanıyla Hafta 2 çıktısını 05'e karşı gözden geçir.
-- **Kullanıcıdan bekleyen**: (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı; `el/week-2-timeline-mvp` dalını `main`'e PR ile almak. (3) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
+- **Sonraki adım**: (1) Kullanıcı 10 taslağı doğrular (`backend/content/drafts/`, her dosyada `verify_note_tr`); onaylananlar yerel DB'ye `draft` olarak yüklenir (kullanıcı kararı bekleniyor). (2) Hafta 3'e geçiş: olay detay paneli/sheet, ana sayfa "Zamana düş" sayacı, minimap (`xScale` hazır), disiplin filtre çipleri, dürüstlük bandı mailto'ya olay bilgisi. (3) İsteğe bağlı: `timeline-ux-reviewer` ajanıyla Hafta 2 çıktısını 05'e karşı gözden geçir.
+- **Kullanıcıdan bekleyen**: (0) 10 antik olay taslağını okuyup doğrula; DB'ye `draft` yüklensin mi karar ver. (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı; `el/week-2-timeline-mvp` dalını `main`'e PR ile almak. (3) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
 - **Bloklayan**: yok. Yerel geliştirme için: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
 
 ## Hafta 2 kutucukları
@@ -49,6 +49,13 @@
 - `04-mimari` ve `CLAUDE.md` artık Next 16 / `proxy.ts` diyor.
 
 ## Oturum günlüğü
+
+### 2026-09-03 — 6. oturum: içerik taslakları (Hafta 2 içerik kutucuğu)
+- `/com_event` ile antik listeden 10 olay, 4 paralel `content-writer` ajanıyla: Pisagor, Demokritos, Hipokrat, Platon, Aristoteles, Hipparkos, Batlamyus, Galen, Hypatia, Aryabhata → `backend/content/drafts/*.json` (+ `backend/content/README.md`). Her taslak 5-7 kaynak, `verify_note_tr`, `status: draft`; DB'ye yazılmadı.
+- Doğrulama betiği (scratchpad, `check-drafts.py`): alanlar, uzunluklar, disiplin/bağlantı slug'ları, kaynak sayısı. Hafta 5'te `backend/scripts/` içine TS olarak taşınabilir.
+- Sorunlar: Britannica doğrudan çekilemiyor (403), ajanlar arama özetlerine dayandı → kullanıcı elle açmalı. 12 ileri bağlantı `?` ile işaretli (hedef olaylar yazılmamış). Empedokles ve Zhang Heng bu turda yazılmadı.
+- Yarım kalan: taslakların insan doğrulaması ve DB yüklemesi (kullanıcı kararı).
+
 
 ### 2026-09-03 — 5. oturum: Hafta 2 kod kutucukları (tamamlandı)
 - Kartlar 3 boyutta, sticky çağ pill'i, zaman boşluğu, çevrili disiplin çipleri (`getDisciplines`); canlı yıl göstergesi; `?year=` derin bağlantı; `lib/timeline/xScale.ts` + 13 test; tema anahtarı (`lib/theme.ts` + `components/ThemeToggle.tsx`). 6 commit.

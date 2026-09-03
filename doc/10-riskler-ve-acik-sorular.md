@@ -80,6 +80,8 @@
 
 ## Park (3 aydan sonra bakılacak fikirler)
 
+- 2026-09-03: İçerik hattı (Hafta 5) için not: Britannica otomatik çekimi engelliyor (403). Hat, kaynak eşiğini SEP / Wikipedia / MacTutor / üniversite sayfalarıyla tutmalı; Britannica yalnızca insan kontrolü için link olarak kalsın.
+
 - 2026-09-03: Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"). Şema alanı yok; `eras` ya da ayrı `gaps` tablosu + çeviri gerekir. Hafta 3-4'te değerlendir.
 
 - 2026-09-02: "Orada olsaydın" etkileşimli senaryolar.
