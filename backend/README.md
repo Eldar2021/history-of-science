@@ -32,7 +32,9 @@ node backend/scripts/drafts-to-sql.mjs backend/content/drafts | docker exec -i s
 ```
 
 Yalnızca `status='draft'` yazar; yeniden çalıştırmak güvenlidir (slug üstünden günceller; yayınlanmış olayın hiçbir satırına, çeviri/disiplin/kaynak/bağlantı dahil, dokunmaz). Buluta: `node backend/scripts/drafts-to-sql.mjs backend/content/drafts > /tmp/drafts.sql && cd backend && supabase db query --linked --file /tmp/drafts.sql`. Denetim: `node backend/scripts/check-drafts.mjs`.
-Yayınlama insan eylemidir: `update events set status='published' where slug='...'` (yerelde) ya da admin paneli (Hafta 4).
+Yayınlama insan eylemidir: admin paneli `/admin/events` (ya da yerelde `update events set status='published' where slug='...'`).
+
+Yayınlı ama gövdesi boş olaylar (seed satırları): `node backend/scripts/fill-stubs-sql.mjs backend/content/drafts [slug ...] | psql ...` yalnızca `body` boşken başlık/özet/gövde/neden/orada-olsaydın yazar, kaynak yoksa ekler, bağlantıları `on conflict do nothing` ile ekler; durum/yıl/önem değişmez, ikinci çalıştırma no-op. Buluta: `> /tmp/fill.sql && cd backend && supabase db query --linked --file /tmp/fill.sql`.
 
 ## Klasörler
 

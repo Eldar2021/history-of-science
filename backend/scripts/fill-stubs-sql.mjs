@@ -32,17 +32,19 @@ for (const d of drafts) {
     pending.length ? `Pending links (targets not written yet): ${pending.join(", ")}` : "",
   ].filter(Boolean).join("\n\n");
 
+  // Order matters: research_note and sources are gated on "body still empty", so they go before the text.
+  const sourceRows = d.sources.map((src) => `(${q(src.title)}, ${q(src.url)}, ${q(src.kind)})`).join(",\n    ");
   out.push(`
--- ${d.slug}: text only while the published body is empty
+-- ${d.slug}: only while the published body is empty
+update events set research_note = ${q(note)} where id = ${stub(d.slug)};
+insert into sources (event_id, title, url, kind)
+  select s.id, v.title, v.url, v.kind from (select ${stub(d.slug)} as id) s, (values
+    ${sourceRows}) as v(title, url, kind)
+  where s.id is not null and not exists (select 1 from sources x where x.event_id = s.id);
 with s as (select ${stub(d.slug)} as id)
 update event_translations t set title = ${q(d.title)}, summary = ${q(d.summary)}, body = ${q(d.body)},
   why_it_matters = ${q(d.why_it_matters)}, if_you_were_there = ${q(d.if_you_were_there)}
-from s, events e where t.event_id = s.id and e.id = s.id and t.locale = e.source_locale;
-update events set research_note = ${q(note)} where id = ${stub(d.slug)};`);
-  for (const src of d.sources) {
-    out.push(`insert into sources (event_id, title, url, kind) select e.id, ${q(src.title)}, ${q(src.url)}, ${q(src.kind)} from events e
-  where e.slug = ${q(d.slug)} and e.status = 'published' and not exists (select 1 from sources x where x.event_id = e.id);`);
-  }
+from s, events e where t.event_id = s.id and e.id = s.id and t.locale = e.source_locale;`);
 }
 for (const d of drafts) {
   for (const t of d.builds_on.filter((s) => !s.endsWith("?"))) {
