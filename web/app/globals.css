@@ -4,84 +4,12 @@
   Uchkun design tokens. Source of truth: resource/design/tokens.json
   (Claude Design "Foundation" concept, 2026-09-03, on the Organic base ramps).
 
-  Dark ("night at the observatory") is the CSS default; light ("the observer's
-  notebook") applies via the system preference or data-theme="light" on <html>.
-  The primary theme is still undecided (S15): once chosen, only this default flips.
+  Light ("the observer's notebook") is the primary theme and the CSS default
+  (S15, ADR-020). Dark ("night at the observatory") applies via the system
+  preference or data-theme="dark" on <html>.
 */
 
 :root {
-  color-scheme: dark;
-
-  --bg-base: #2e2b25;
-  --bg-elevated: #3b372f;
-  --bg-raised: #474238;
-  --text-primary: #f9f4ed;
-  --text-secondary: #dcd3c4;
-  --text-muted: #c0b6a5;
-  --accent: #f6a06b;
-  --accent-hover: #ffc6a5;
-  --accent-text: #f6a06b;
-  --accent-ink: #2e2b25;
-  --sage: #aebf92;
-  --line: rgba(249, 244, 237, 0.16);
-  --glow: 0 0 14px #f6a06b;
-
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
-
-  --discipline-mathematics: #b3a3c9;
-  --discipline-physics: #8fb0cc;
-  --discipline-astronomy: #9aa2cf;
-  --discipline-chemistry: #f6a06b;
-  --discipline-biology: #aebf92;
-  --discipline-medicine: #e89a8a;
-  --discipline-earth: #d9b46a;
-  --discipline-technology: #a7aeb3;
-
-  /* Eras have no hue of their own in the concept; labels are sage. eras.color in the DB names these tokens. */
-  --era-ancient: var(--sage); --era-golden: var(--sage); --era-revolution: var(--sage); --era-enlightenment: var(--sage);
-  --era-industrial: var(--sage); --era-modern: var(--sage); --era-information: var(--sage); --era-today: var(--sage);
-
-  /* Motion (tokens.json > transitionDuration / transitionTimingFunction) */
-  --duration-fall: 1500ms;
-  --duration-event-fade: 400ms;
-  --duration-tick: 120ms;
-  --duration-press: 120ms;
-  --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
-}
-
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    color-scheme: light;
-    --bg-base: #f5ead8;
-    --bg-elevated: #ebddc5;
-    --bg-raised: #f9f4ed;
-    --text-primary: #201e1d;
-    --text-secondary: #645c50;
-    --text-muted: #82796a;
-    --accent: #c67139;
-    --accent-hover: #b2622d;
-    --accent-text: #8c491a;
-    --accent-ink: #f5ead8;
-    --sage: #56633f;
-    --line: rgba(32, 30, 29, 0.16);
-    --glow: 0 0 14px rgba(198, 113, 57, 0.6);
-    --shadow-sm: 0 1px 2px rgba(46, 43, 37, 0.14);
-    --shadow-md: 0 3px 10px rgba(46, 43, 37, 0.16);
-    --shadow-lg: 0 12px 32px rgba(46, 43, 37, 0.22);
-    --discipline-mathematics: #8b7aa3;
-    --discipline-physics: #5f7f9a;
-    --discipline-astronomy: #5c6494;
-    --discipline-chemistry: #c67139;
-    --discipline-biology: #7a8a5e;
-    --discipline-medicine: #c4705f;
-    --discipline-earth: #b08a3e;
-    --discipline-technology: #7d8489;
-  }
-}
-
-:root[data-theme="light"] {
   color-scheme: light;
   --bg-base: #f5ead8;
   --bg-elevated: #ebddc5;
@@ -107,6 +35,75 @@
   --discipline-medicine: #c4705f;
   --discipline-earth: #b08a3e;
   --discipline-technology: #7d8489;
+
+  /* Eras have no hue of their own in the concept; labels are sage. eras.color in the DB names these tokens. */
+  --era-ancient: var(--sage); --era-golden: var(--sage); --era-revolution: var(--sage); --era-enlightenment: var(--sage);
+  --era-industrial: var(--sage); --era-modern: var(--sage); --era-information: var(--sage); --era-today: var(--sage);
+
+  /* Motion (tokens.json > transitionDuration / transitionTimingFunction) */
+  --duration-fall: 1500ms;
+  --duration-event-fade: 400ms;
+  --duration-tick: 120ms;
+  --duration-press: 120ms;
+  --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg-base: #2e2b25;
+    --bg-elevated: #3b372f;
+    --bg-raised: #474238;
+    --text-primary: #f9f4ed;
+    --text-secondary: #dcd3c4;
+    --text-muted: #c0b6a5;
+    --accent: #f6a06b;
+    --accent-hover: #ffc6a5;
+    --accent-text: #f6a06b;
+    --accent-ink: #2e2b25;
+    --sage: #aebf92;
+    --line: rgba(249, 244, 237, 0.16);
+    --glow: 0 0 14px #f6a06b;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
+    --discipline-mathematics: #b3a3c9;
+    --discipline-physics: #8fb0cc;
+    --discipline-astronomy: #9aa2cf;
+    --discipline-chemistry: #f6a06b;
+    --discipline-biology: #aebf92;
+    --discipline-medicine: #e89a8a;
+    --discipline-earth: #d9b46a;
+    --discipline-technology: #a7aeb3;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-base: #2e2b25;
+  --bg-elevated: #3b372f;
+  --bg-raised: #474238;
+  --text-primary: #f9f4ed;
+  --text-secondary: #dcd3c4;
+  --text-muted: #c0b6a5;
+  --accent: #f6a06b;
+  --accent-hover: #ffc6a5;
+  --accent-text: #f6a06b;
+  --accent-ink: #2e2b25;
+  --sage: #aebf92;
+  --line: rgba(249, 244, 237, 0.16);
+  --glow: 0 0 14px #f6a06b;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 3px 10px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
+  --discipline-mathematics: #b3a3c9;
+  --discipline-physics: #8fb0cc;
+  --discipline-astronomy: #9aa2cf;
+  --discipline-chemistry: #f6a06b;
+  --discipline-biology: #aebf92;
+  --discipline-medicine: #e89a8a;
+  --discipline-earth: #d9b46a;
+  --discipline-technology: #a7aeb3;
 }
 
 @media (prefers-reduced-motion: reduce) {

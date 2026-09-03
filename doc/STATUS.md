@@ -7,8 +7,8 @@
 
 - **Faz**: Ay 1 / Hafta 2 (başladı 2026-09-03, dal `el/week-2-timeline-mvp`). Hedef: Akış timeline'ı MVP; M1'e giden yol.
 - **Doğrulandı (2026-09-03, 3. oturum)**: Tasarım token'ları koda aktarıldı (`resource/design/tokens.json` → `web/app/globals.css`, iki tema; fontlar Golos Text + Literata, `Ңөү` build edilen woff2'lerde doğrulandı). Yerel Supabase (Colima üstünde Docker) ayakta: `0001_init.sql` + `seed.sql` uygulanıyor; 8 çağ, 8 disiplin, 10 yayınlanmış olay, `get_timeline`/`get_chain` çalışıyor; RLS anonim istekte taslağı gizliyor (test edildi). `web/.env.local` yerel anahtarlarla yazıldı (gitignore'da). `npm run gen:types` → `lib/supabase/types.ts`, client'lar `Database` ile tipli. `npm run check` + `next build` yeşil; `next start` ile `/en/timeline` ve `/ky/timeline` DB'den render ediyor.
-- **Sonraki adım**: Hafta 2 planı sunuldu, kullanıcı onayı bekleniyor ("devam" deyince 1. kutucuktan başla). Sıra: 3 boyutta olay kartı (landmark/standart/küçük not, konsept 1d-1g) → sticky çağ başlığı (pill) → sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer) → `?year=` derin bağlantı → `lib/timeline/xScale.ts` → tema anahtarı (`data-theme`) ve S15 birincil tema kararı → +10 antik olay.
-- **Kullanıcıdan bekleyen**: (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı. (3) S15 birincil tema (karanlık şu an CSS varsayılanı; konsept panosu da karanlığı öneriyor). (4) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
+- **Sonraki adım**: Hafta 2 planı sunuldu, kullanıcı onayı bekleniyor ("devam" deyince 1. kutucuktan başla). Sıra: 3 boyutta olay kartı (landmark/standart/küçük not, konsept 1d-1g) → sticky çağ başlığı (pill) → sabit üst çubuk + canlı yıl göstergesi (IntersectionObserver, odometer) → `?year=` derin bağlantı → `lib/timeline/xScale.ts` → tema anahtarı (`data-theme`) → +10 antik olay.
+- **Kullanıcıdan bekleyen**: (1) Supabase MCP: `.mcp.json` projeye eklendi (proje ref `jnclaqxvfitggyprasxw`); yeni oturumda `/mcp` ile bağlan ve OAuth onayı ver, sonra bulut şeması `supabase db push` ya da MCP ile uygulanır. Alternatif: `supabase login` + `supabase link --project-ref jnclaqxvfitggyprasxw`. (2) Vercel bağlantısı. (3) `resource/Design system conflict scope/` klasörünü `resource/design/concept/` gibi bir ada taşıma (isteğe bağlı; `tokens.json` zaten `resource/design/` altında).
 - **Bloklayan**: yok. Yerel geliştirme için: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
 
 ## Hafta 2 kutucukları
@@ -22,7 +22,7 @@
 - [ ] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, birim testli).
 
 **Tasarım**
-- [ ] İki temayı gerçek kodda gör, **birincil temayı seç** (S15) — kullanıcı. Token'lar `resource/design/tokens.json`'da ✓.
+- [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`. Anahtar hâlâ kod kutucuğunda.
 
 **İçerik**
 - [ ] +10 olay İngilizce (antik dünya) — `/com_event` ile taslak, kullanıcı doğrular.
