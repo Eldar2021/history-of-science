@@ -31,6 +31,7 @@ Kullanıcıyla Türkçe konuş. Kod, commit mesajları ve kod yorumları İngili
 
 - `npm run dev` — site
 - `npm run check` — typecheck + lint + unit test
+- `npm run e2e` — Playwright (üretim build + yerel Supabase + Chrome; `e2e/`)
 - `npm run gen:types` — Supabase tiplerini üret
 - `cd ../backend && supabase start` — yerel DB; `supabase db reset` — migration + seed baştan
 

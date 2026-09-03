@@ -1,25 +1,11 @@
 import type { Metadata } from "next";
-import { Golos_Text, Literata } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { fontClassName } from "@/lib/fonts";
 import { THEME_INIT_SCRIPT } from "@/lib/theme";
 import "../globals.css";
-
-// Design concept faces (resource/design/tokens.json): Golos Text for body/UI, Literata for years,
-// era names and titles. Both ship cyrillic-ext, which holds the Kyrgyz letters Ң Ө Ү (U+04A2, U+04E8, U+04AE).
-const golos = Golos_Text({
-  variable: "--font-sans",
-  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
-  display: "swap",
-});
-const literata = Literata({
-  variable: "--font-display",
-  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
-  axes: ["opsz"],
-  display: "swap",
-});
 
 type Props = { children: React.ReactNode; params: Promise<{ locale: string }> };
 
@@ -40,7 +26,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     // suppressHydrationWarning: the theme script may add data-theme to <html> before React hydrates.
-    <html lang={locale} className={`${golos.variable} ${literata.variable} h-full antialiased`} suppressHydrationWarning>
+    <html lang={locale} className={`${fontClassName} h-full antialiased`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>

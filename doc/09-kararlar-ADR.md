@@ -125,6 +125,14 @@ Format: Bağlam → Karar → Gerekçe → Sonuçlar → Alternatifler.
 - **Sonuçlar**: `web/app/globals.css` ve `resource/design/tokens.json` güncellendi. Vurgu rengi kâğıt üstünde 3:1: buton/çizgi için yeterli, metin için `--accent-text` (#8c491a) kullanılır. Karanlık tema ikinci sınıf değildir; her bileşen iki temada test edilir.
 - **Alternatifler**: Karanlık birincil (konsept panosunun önerisi; elendi).
 
+## ADR-021: Site okumaları etiketli veri önbelleğinde (`unstable_cache`), admin kaydı `updateTag` ile düşürür; `cacheComponents` ertelendi
+**Tarih**: 2026-09-03 · **Durum**: Kabul
+- **Bağlam**: 04 "Admin → site otomatik yayın akışı" `revalidateTag('timeline')` diyor. Hafta 3'te fark edildi: sayfalardaki `revalidate = 300` etkisizdi, çünkü Supabase client `cookies()` okuyor ve her sayfayı dinamik yapıyordu. Next 16'da `revalidateTag` ikinci argüman (profil) ister, `updateTag` server action içinde anında geçersiz kılar; asıl yeni yol `cacheComponents: true` + `"use cache"` + `cacheTag`.
+- **Karar**: (1) Ziyaretçi okumaları (`getTimeline`, `getEras`, `getDisciplines`, `getEventDetail`) çerezsiz **anon client** ile yapılır (`lib/supabase/anon.ts`): RLS ziyaretçi olarak uygulanır, giriş yapmış admin de sitede taslak görmez. (2) Bu okumalar `unstable_cache` ile `timeline` ve `event:{slug}` etiketleriyle (`lib/cache-tags.ts`) önbelleğe alınır; yedek `revalidate: 300` korunur. (3) Admin kaydetme action'ı `updateTag('timeline')`, `updateTag('event:{slug}')` (slug değiştiyse eskisini de) çağırır. (4) `cacheComponents` şimdilik açılmaz.
+- **Gerekçe**: `cacheComponents` tüm uygulamanın render modelini değiştirir (her dinamik API Suspense sınırı ister, `@panel` kesişen rota ve derin bağlantılar yeniden test edilir); Hafta 4'ün hedefi admin. `unstable_cache` 16.3'te hâlâ çalışıyor ve aynı etiket mekanizmasını kullanıyor; geçiş fonksiyon başına birkaç satır.
+- **Sonuçlar**: Timeline ve olay sayfaları artık statik/ISR olabilir (TTFB düşer, Lighthouse için iyi). Supabase Studio'dan elle yapılan değişiklik en geç 5 dk'da görünür; 04'teki `/api/revalidate` webhook'u hâlâ isteğe bağlı. Hafta 8 performans turunda `cacheComponents` + `"use cache"` geçişi değerlendirilir; `unstable_cache` bir gün kaldırılırsa bu üç fonksiyon değişir, başka yer değişmez.
+- **Alternatifler**: `cacheComponents` şimdi (riskli, elendi); önbelleksiz kalmak (her istek 3 RPC, elendi); `revalidatePath` (locale × sayfa çarpımı, elendi).
+
 ## Şablon (yeni karar için)
 
 ```
