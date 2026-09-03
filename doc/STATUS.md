@@ -22,12 +22,13 @@
 - [x] `xScale(year, zoom, pan)` ölçek fonksiyonu (`lib/timeline/xScale.ts`, 13 test: sıfır yılı yok, tersi, zoom/pan, Z0-Z3, imleç etrafında zoom). (2026-09-03)
 
 **Tasarım**
-- [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`. Anahtar hâlâ kod kutucuğunda.
+- [x] Birincil tema seçildi: **açık** (S15, ADR-020, 2026-09-03). CSS varsayılanı açık, karanlık sistem tercihi/`data-theme`; anahtar başlıkta, iki tema ekran görüntüsüyle doğrulandı.
 
 **İçerik**
-- [ ] +10 olay İngilizce (antik dünya) — `/com_event` ile taslak, kullanıcı doğrular.
+- [ ] +10 olay İngilizce (antik dünya) — `/com_event` ile taslak, kullanıcı doğrular. **Açık**: henüz başlanmadı, sonraki oturum.
 
-**Hafta sonu kontrolü**: `/en/timeline` konsepteki gibi akıyor; yıl göstergesi kaydırdıkça güncelleniyor; `?year=1687` doğru yere düşüyor.
+**Hafta sonu kontrolü**
+- [x] `/en/timeline` konsepteki gibi akıyor; yıl göstergesi kaydırdıkça güncelleniyor; `?year=1687` Newton kartına düşüyor (headless Chrome, 2026-09-03).
 
 ## Hafta 1 kutucukları
 
