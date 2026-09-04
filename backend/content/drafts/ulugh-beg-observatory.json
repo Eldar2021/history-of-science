@@ -81,7 +81,7 @@
       "kind": "book"
     }
   ],
-  "verify_note_tr": "Gözlemevi tarihi kaynaklarda çelişkili: van Gent ve Britannica 'yaklaşık 1420' (823 H), Wikipedia '1420'lerin ilk yarısı, bitiş ~1428', MacTutor ve Britannica biyografisi '1428'de başladı'; bu yüzden 1420 'circa' ve year_end 1437 (katalog) verildi, seed.sql'deki 'exact' değerini güncellemeyi düşün. Katalog yılı 1437 (MacTutor) ile 1438-39 (Wikipedia) arasında; yıldız sayısı 992+27=1018/1019. Britannica sayfaları 403 verdi, arama özeti kullanıldı; Maragha kalıntılarını çocukken görme anekdotu ve Kopernik bağlantısı yorum, kesin değil.",
+  "verify_note_tr": "Gözlemevi tarihi kaynaklarda çelişkili: van Gent ve Britannica 'yaklaşık 1420' (823 H), Wikipedia '1420'lerin ilk yarısı, bitiş ~1428', MacTutor ve Britannica biyografisi '1428'de başladı'; bu yüzden 1420 'circa' ve year_end 1437 (katalog) verildi; seed.sql 2026-09-04'te buna göre düzeltildi. Katalog yılı 1437 (MacTutor) ile 1438-39 (Wikipedia) arasında; yıldız sayısı 992+27=1018/1019. Britannica sayfaları 403 verdi, arama özeti kullanıldı; Maragha kalıntılarını çocukken görme anekdotu ve Kopernik bağlantısı yorum, kesin değil.",
   "drafted_by": "ai",
   "source_locale": "en",
   "status": "draft"

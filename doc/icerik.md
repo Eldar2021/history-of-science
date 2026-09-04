@@ -58,7 +58,9 @@ Görsel: Principia ilk baskı kapağı, Wikimedia Commons, kamu malı
 
 - **Kime**: 16 yaşındaki meraklı bir insana anlatır gibi. Aptal yerine koymadan, formül kullanmadan.
 - **Ton**: hayret + dürüstlük. "İnanılmaz" deme, inanılmaz olanı göster.
-- **Formül yok.** E=mc² bile yazılmaz; "kütle ve enerji aynı şeyin iki yüzü" denir.
+- **Formül yok.** E=mc² bile yazılmaz; "kütle ve enerji aynı şeyin iki yüzü" denir. Gövde `$...$` ile
+  formül dizebilir (ADR-033) ama bu istisnadır: anlatı formülsüz yürür, formül ancak sözcüklerin
+  yetmediği yerde ve açıklamasıyla birlikte gelir.
 - **Kısaltma yok.** Okuyucunun çözmesi gereken kısaltma kullanma. Site de öyle: yaklaşık yıl "c." değil
   "around" yazar (ADR-004).
 - **Bir benzetme** her olayda olsun; benzetmenin nerede bozulduğunu bir cümleyle söyle.
@@ -79,7 +81,7 @@ Bundan sonraki olaylarda da aynı ölçü aranır: Batı dışı katkı varsa g�
 
 ## Doğruluk süreci
 
-1. **İki kaynak kuralı**: her olay için en az 2 bağımsız kaynak. Sıra: Britannica, Stanford Encyclopedia
+1. **İki kaynak kuralı**: her olay için en az 2 bağımsız kaynak; admin formundaki Kaynaklar bölümüne girilir. Sıra: Britannica, Stanford Encyclopedia
    of Philosophy, İngilizce Wikipedia, MacTutor, üniversite sayfaları, hakemli tarih kitapları.
    Britannica otomatik çekimi engelliyor (403) — hattın kaynak eşiği diğerleriyle tutulur; Britannica
    yalnızca insan kontrolü için link olarak kalır.
@@ -91,7 +93,9 @@ Bundan sonraki olaylarda da aynı ölçü aranır: Batı dışı katkı varsa g�
 ## Görseller ve lisans
 
 Sadece **kamu malı** veya **CC BY / CC BY-SA**; kaynak Wikimedia Commons. Her görselde yazar/kaynak,
-lisans ve Commons linki zorunlu (form aksini kabul etmez, ADR-011). Eski portreler, kitap kapakları ve
+lisans ve Commons linki zorunlu (form aksini kabul etmez, ADR-011). Kapak görseli admin formundan
+girilir: kova yolu ya da tam https adresi. Gövdeye gömülen görselin künyesi Markdown başlığındadır
+(ADR-033). Eski portreler, kitap kapakları ve
 çizimler çoğunlukla kamu malı; NASA/ESA görselleri genelde serbest, kontrol edilir. Görsel yoksa olay
 yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş kart. Görsel bekleyen olay olmaz.
 

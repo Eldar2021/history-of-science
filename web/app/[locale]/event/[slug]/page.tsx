@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { formatYear } from "@/lib/i18n/formatYear";
 import { getEventDetail } from "@/lib/queries/event";

@@ -2,7 +2,9 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { formatYear, formatYearRangeParts } from "@/lib/i18n/formatYear";
-import { parseBlocks, parseInline } from "@/lib/content/markdown";
+import { parseInline } from "@/lib/content/markdown";
+import { imageUrl } from "@/lib/media";
+import { Markdown } from "@/components/content/Markdown";
 import type { EventDetail as Detail, LinkedEvent } from "@/lib/queries/types";
 
 type Props = {
@@ -50,7 +52,6 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
   // Section headings sit one level under the title (heading order matters for screen readers and Lighthouse).
   const Sub = headingLevel === "h1" ? "h2" : "h3";
   const year = formatYearRangeParts(event.year, event.year_end, event.precision, locale);
-  const blocks = event.body ? parseBlocks(event.body) : [];
 
   return (
     <article className="text-primary">
@@ -82,10 +83,9 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
 
       {event.image_path && (
         <figure className="mt-6">
-          {/* Storage images arrive in week 6; until then this is a plain public URL. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/images/${event.image_path}`}
+            src={imageUrl(event.image_path)}
             alt=""
             className="w-full rounded-image"
             loading="lazy"
@@ -102,15 +102,7 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
         </figure>
       )}
 
-      {blocks.length > 0 && (
-        <div className="mt-6 space-y-3 text-body text-primary">
-          {blocks.map((b, i) =>
-            b.type === "heading"
-              ? <h3 key={i} className="pt-2 font-display text-title text-primary">{b.text}</h3>
-              : <p key={i}><Inline text={b.text} /></p>,
-          )}
-        </div>
-      )}
+      {event.body && <Markdown source={event.body} className="mt-6 space-y-3 text-body text-primary" />}
 
       {event.why_it_matters && (
         <section className="mt-6 rounded-lg bg-elevated px-4 py-3">
