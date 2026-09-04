@@ -27,7 +27,7 @@ const CARD_WIDTH = { small: "10rem", open: "min(74vw, 17rem)" };
 
 /**
  * Every event, in order, along the foot of the home page: the timeline itself, not a way to another
- * page (ADR-030).
+ * page (ADR-024).
  *
  * Each card is a real link to its event, rendered on the server, so the page carries all fifty
  * titles for a crawler and works without JavaScript. With JavaScript, a click on a card that is not

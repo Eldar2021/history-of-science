@@ -1,73 +1,31 @@
 # 10 — Riskler, açık sorular, park
 
-Cevaplanmış sorular ve çözülmüş riskler buradan çıkarılır; kararları `09`'da, uygulaması kodda.
+Cevaplanan soru ve çözülen risk buradan çıkar; kararı `09`'da, uygulaması kodda.
 
 ## Açık sorular
 
-| #   | Soru                                                                 | Ne zaman | Not                                           |
-| --- | -------------------------------------------------------------------- | -------- | --------------------------------------------- |
-| S11 | Bildirim kanalı: Telegram bot mu, e-posta mı?                        | Faz B    | Öneri Telegram (ücretsiz, anlık)              |
-| S12 | Hata bildirimi nereye düşsün: e-posta mı, admin'de "bildirimler" mi? | Faz C    | Öneri: ikisi; e-posta yedek                   |
-| S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman başlasın?        | Faz D    | İngilizce beta bitince; `editor` hesabı       |
-| S14 | Alan adı hangisi?                                                    | Faz C    | uchkun.science / .kg / .org — müsaitlik       |
+| #   | Soru                                                    | Ne zaman | Not                                     |
+| --- | ------------------------------------------------------- | -------- | --------------------------------------- |
+| S11 | Bildirim kanalı: Telegram bot mu, e-posta mı?           | Faz B    | Öneri Telegram (ücretsiz, anlık)        |
+| S12 | Hata bildirimi nereye: e-posta mı, admin "bildirimler"? | Faz C    | Öneri ikisi; e-posta yedek              |
+| S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman?    | Faz D    | İngilizce beta bitince; `editor` hesabı |
+| S14 | Alan adı hangisi?                                       | Faz C    | uchkun.science / .kg / .org             |
 
 ## Canlı riskler
 
-### R1 — İçerik üretimi kodun gerisinde kalır
+- **R1 İçerik kodun gerisinde kalır.** Şimdilik askıda (50'de dondu). Faz B'de hat ile çözülür; sinyal:
+  reddetme oranı %30 üstü → prompt'u ayarla, kaynak eşiğini 4'e çıkar.
+- **R2 Tarihsel hata yayınlanır.** Dürüstlük bandı + iki kaynak kuralı + araştırma notu. Düzeltmeler
+  `about` sayfasında listelenecek (Faz C).
+- **R3 Kırgızca çeviri kalitesi.** Claude (tr+ru referanslı) → kullanıcı okur → öğretmen terimleri kontrol
+  eder → `reviewed`. Birikirse `machine` rozetli kalır, sorun değil.
+- **R9 Claude API maliyeti.** Hat + çeviri ayda ~10-15 $. Model adı tek yerden; `CONTENT_PIPELINE_ENABLED`.
+- **R5 Kapsam şişer.** Yeni fikir → Park; ayda bir bakılır. Kanvas dışında büyük özellik yok.
 
-**Şimdilik askıda**: içerik 50 olayda bilerek donduruldu (`08`). Risk Faz B'de geri gelir.
-**Çözüm**: otomatik içerik hattı (ADR-014, Faz B). Olay başına senin zamanın ~10 dakika.
-**Kalan risk**: taslak kalitesi düşükse onay yerine yeniden yazmak gerekir. **Sinyal**: reddetme oranı
-%30 üstü. **Plan**: ilk 10 taslaktan sonra prompt'u ayarla, kaynak eşiğini 3'ten 4'e çıkar.
+## Park
 
-### R2 — Tarihsel hata yayınlanır
-
-**Çözüm**: dürüstlük bandı her sayfada (yayında) + iki kaynak kuralı + hattın araştırma notu (çelişkileri
-listeler). Düzeltmeler `about` sayfasında şeffaf liste olacak (Faz C).
-
-### R3 — Kırgızca çeviri kalitesi
-
-**Çözüm**: Claude çevirir (tr+ru referanslı) → sen okursun → Kırgızca öğretmen terimleri kontrol eder →
-`reviewed`. **Kalan**: öğretmenin zamanı. Haftada 5-10 olay ile başla; birikirse `machine` rozetli kalır,
-sorun değil.
-
-### R9 — Claude API maliyeti / bağımlılığı
-
-Hat + çeviri ayda ~10-15 $. Model adı tek yerden okunur; `CONTENT_PIPELINE_ENABLED` kapatma anahtarı var.
-
-### R10 — Keşfet kanvası zamanında bitmez
-
-**Sinyal**: Faz D'nin kanvas işi sonunda Z0-Z2 masaüstünde çalışmıyorsa. **Plan**: lansmanı kanvassız yap (Akış modu
-tamdır), kanvası v1.1 olarak 2 hafta sonra çıkar. Lansman metninde "yakında: Keşfet" de; merak yaratır.
-
-### R5 — Kapsam şişer
-
-Kural: yeni fikir → aşağıdaki Park listesine, ayda bir bakılır. Kanvas zaten alındı; başka büyük özellik
-3 ayda yok.
-
-### R6 — Motivasyon
-
-Planın yardımı: Faz C'deki beta, her sabah gelen yeni taslak (küçük ama sürekli ilerleme hissi), haftada bir
-olay kuralı.
-
-## Park (3 aydan sonra bakılacak fikirler)
-
-- Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"). Şema alanı yok;
-  `eras` ya da ayrı `gaps` tablosu + çeviri gerekir.
-- "Orada olsaydın" etkileşimli senaryolar.
-- "Geriye sar" modu (bugünden geçmişe).
-- Flutter uygulaması, çevrimdışı okuma, günlük bildirim.
-- Sesli anlatım (her olay 2 dakika).
-- Öğretmen sunum modu.
-- Kullanıcı olay önerisi + editör onayı.
-- Quiz / "bu çağda hangisi yoktu?" oyunu.
-- Arama (v1.0'dan çıkarıldı, 4. ay).
+- Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"); `gaps` tablosu gerekir.
+- Disiplin filtresi ve minimap şeridin üstünde (eski `/timeline`'dan).
+- "Orada olsaydın" etkileşimli senaryolar · "Geriye sar" modu · Sesli anlatım · Öğretmen sunum modu.
+- Kullanıcı olay önerisi + editör onayı · Quiz · Arama · Flutter, çevrimdışı, günlük bildirim.
 - Go backend'e geçiş (ADR-002).
-
-## Neden
-
-"Şu anki bilgimle o yüzyıllara gitseydim hiçbir şey yapamazdım."
-
-Bu siteyi açan bir lise öğrencisi, Uluğ Bey'in Semerkant'ta çıplak gözle Tycho'dan 150 yıl önce yıldızları
-ölçtüğünü kendi dilinde okuyacak. Belki bir gün ekoloji meselesini çözen kişi o olur, belki olmaz. Ama
-merakı bizim yüzümüzden sönmüş olmayacak. Haftada bir olay. Devam.

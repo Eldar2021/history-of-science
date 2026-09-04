@@ -13,7 +13,7 @@ import { Globe } from "./Globe";
 import { TimeRibbon } from "./TimeRibbon";
 
 type Props = {
-  /** Every event, in order: this page is the timeline now (ADR-030). */
+  /** Every event, in order: this page is the timeline now (ADR-024). */
   events: StripEvent[];
   /** The subset the globe can point at, in the same order. */
   places: GlobeEvent[];
@@ -125,7 +125,7 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
         onOffCentreChange={setOffCentre}
       />
 
-      {/* The site's own bar, with no background of its own, floating on the sky (ADR-027). */}
+      {/* The site's own bar, with no background of its own, floating on the sky (ADR-024). */}
       <SiteHeader over />
 
       {/* Below the bar. The heading stays in the document for readers and search engines even on

@@ -8,7 +8,7 @@ import type { Locale } from "@/lib/i18n/formatYear";
 import { getEras, getTimeline } from "@/lib/queries/timeline";
 
 /**
- * The home page is the globe, and the timeline runs along the foot of it (ADR-024, ADR-030). The
+ * The home page is the globe, and the timeline runs along the foot of it (ADR-024). The
  * first event and every card are rendered here on the server, so the page carries real text and a
  * link to every event before any script runs.
  *

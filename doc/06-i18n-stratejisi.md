@@ -11,99 +11,62 @@ Karıştırma: UI metni veritabanına, içerik JSON'a gitmez. Dört dosya birebi
 
 ## URL
 
-- Her sayfa dil ön ekli: `/tr/timeline`, `/ky/event/newton-principia`.
-- Ön eksiz `/` → `Accept-Language` ile eşleşen dile 302; eşleşme yoksa `en`. Elle seçim çerezde kalır.
+- Her sayfa dil ön ekli: `/tr`, `/ky/event/newton-principia`. Ön eksiz `/` → `Accept-Language`, yoksa `en`.
 - Admin dil ön eksiz (`/admin`); arayüz dili `profiles.ui_locale` → `NEXT_LOCALE` çerezi → `en`.
-- **Slug dilden bağımsız, İngilizce** (ADR-005): `/ky/event/newton-principia`. Dil değiştirince aynı
-  sayfada kalınır.
-- `hreflang` 4 dil + `x-default`, her sayfada (Faz C).
+- Slug dilden bağımsız, İngilizce (ADR-005). `hreflang` 4 dil + `x-default` (Faz C).
 
 ## Yıl gösterimi
 
-En kritik lokalizasyon detayı. Tek fonksiyon: `web/lib/i18n/formatYear.ts`, birim testli. Kodun başka
-hiçbir yeri yıl formatlamaz.
+Tek fonksiyon `web/lib/i18n/formatYear.ts`, birim testli. Yaklaşık yıl tam kelimeyle; `formatYearParts`
+yılı küçük punto "qualifier" + büyük punto "value" diye böler (ADR-004).
 
-Yaklaşık yıl **tam kelimeyle** yazılır, kısaltmayla değil (ADR-023): okuyucu bilim insanı değil.
-Fonksiyon yılı iki parçaya böler — küçük punto "qualifier" ve büyük punto "value" — böylece yıl sayfanın
-en büyük tipografik ögesi olarak kalır.
+| Dil | MÖ             | MS (1000 öncesi) | Yaklaşık       | Örnek                     |
+| --- | -------------- | ---------------- | -------------- | ------------------------- |
+| en  | `585 BCE`      | `499 CE`         | `around`       | `around 300 BCE`, `1687`  |
+| tr  | `MÖ 585`       | `MS 499`         | `yaklaşık`     | `yaklaşık MÖ 300`, `1687` |
+| ru  | `585 до н. э.` | `499 н. э.`      | `около`        | `около 300 до н. э.`      |
+| ky  | `б.з.ч. 585`   | `б.з. 499`       | `болжол менен` | `болжол менен б.з.ч. 300` |
 
-| Dil | MÖ             | MS (1000 öncesi) | Yaklaşık (qualifier) | Örnek                     |
-| --- | -------------- | ---------------- | -------------------- | ------------------------- |
-| en  | `585 BCE`      | `499 CE`         | `around`             | `around 300 BCE`, `1687`  |
-| tr  | `MÖ 585`       | `MS 499`         | `yaklaşık`           | `yaklaşık MÖ 300`, `1687` |
-| ru  | `585 до н. э.` | `499 н. э.`      | `около`              | `около 300 до н. э.`      |
-| ky  | `б.з.ч. 585`   | `б.з. 499`       | `болжол менен`       | `болжол менен б.з.ч. 300` |
-
-- MS 1000'den sonra çağ etiketi yok, sadece sayı.
-- Çağ kısaltmasının açılımı (`eraNote`) her dilde fonksiyondan döner: `<time>` üzerinde tooltip olur ve
-  timeline'da olay sayısının yanında bir kez yazılır ("BCE = before the common era").
-- `decade`: `1830s` / `1830'lar` / `1830-е` / `1830-жылдар`. Türkçe ünlü uyumu test edilir.
+- MS 1000'den sonra çağ etiketi yok. Çağ kısaltmasının açılımı (`eraNote`) `<time>` tooltip'i.
+- `decade`: `1830s` / `1830'lar` / `1830-е` / `1830-жылдар` (Türkçe ünlü uyumu test edilir).
 - `century`: `5th century BCE` / `MÖ 5. yüzyıl` / `V век до н. э.` / `б.з.ч. V кылым`.
-- Aralık: `1925 - 1927`, `MÖ 300 - MÖ 250`. Basit tire, en dash değil. Yaklaşık aralıkta qualifier bir kez.
+- Aralık: `1925 - 1927`, `MÖ 300 - MÖ 250`. Basit tire. Yaklaşık aralıkta qualifier bir kez.
 
 ## Dil tuzakları
 
-- **Türkçe İ/ı**: `toUpperCase()` yasak, "i" → "I" yapar. `toLocaleUpperCase('tr')` ya da hiç büyütme.
-  En temizi CSS `text-transform` + doğru `lang`.
-- **`<html lang>`** her sayfada doğru olmalı; tireleme ve ekran okuyucu buna bakar.
-- **Metin uzunluğu**: Rusça ve Kırgızca İngilizce'den ~%30 uzun. Buton ve çip en uzun dille test edilir.
-- **Sayılar**: `Intl.NumberFormat`. Yıllarda `tabular-nums` şart, sayaç zıplamasın.
-- **Tırnak**: UI'da tırnak kullanma; içerikte yazar tutarlı olsun.
+- **Türkçe İ/ı**: `toUpperCase()` yasak. `toLocaleUpperCase('tr')` ya da CSS `text-transform` + doğru `lang`.
+- **`<html lang>`** her sayfada doğru; tireleme ve ekran okuyucu buna bakar.
+- **Metin uzunluğu**: ru ve ky İngilizce'den ~%30 uzun; buton ve çipler en uzun dille test edilir.
+- **Sayılar**: `Intl.NumberFormat`; yıllarda `tabular-nums`. UI'da tırnak kullanma.
+- **Font**: bir alt kümeyi "desteklemek" her glifi doğru çizmek değil (Golos Text `ğ`'yi breve'siz
+  çiziyordu). Her font `Ңөү` ve `değil Çağı` ile test edilir. Mevcut: Onest + Literata.
 
 ## Kırgızca
 
-En değerli ve en zor dil; ikisi de aynı sebepten: kaynak az.
-
-- **Alfabe**: Kiril + `Ң ң`, `Ө ө`, `Ү ү`. Her yeni font `Ңөү` **ve** `değil Çağı` ile görsel olarak
-  test edilir — bir alt kümeyi "desteklemek" her glifi doğru çizmek demek değil; Golos Text `latin-ext`
-  taşıdığı hâlde Türkçe `ğ`'yi breve'siz çiziyordu (ADR-031). Mevcut fontlar Onest ve Literata.
-- **Terminoloji**: bilim terimleri çoğunlukla Rusçadan ödünç. Bir terim sözlüğü tutulur
-  (`backend/scripts/glossary.ky.json`, Faz B) ve her çeviri isteğine verilir; ilk 50 olayla büyür.
-- **Makine çevirisi**: Claude Kırgızcada Türkçe ve Rusçadan zayıf. Süreç: Claude Kırgızca taslağı
-  **Türkçe ve Rusça çevirileri de görerek** üretir, `machine` rozetiyle yayınlanır, sonra sen okursun,
-  bilim terimleri için Kırgızca öğretmen tanıdığın kontrol eder → `reviewed`.
-- **Ses tonu**: resmi "сиз" değil, samimi ama saygılı anlatıcı.
+En değerli ve en zor dil: kaynak az. Alfabe Kiril + `Ң ң`, `Ө ө`, `Ү ү`. Bilim terimleri çoğunlukla
+Rusçadan ödünç; terim sözlüğü (`backend/scripts/glossary.ky.json`, Faz B) her çeviri isteğine verilir.
+Claude Kırgızcada zayıf: taslağı **Türkçe ve Rusça çevirileri görerek** üretir, `machine` rozetiyle
+yayınlanır, sen okursun, Kırgızca öğretmen terimleri kontrol eder → `reviewed`. Ses: samimi ama saygılı.
 
 ## Rusça, Türkçe, İngilizce
 
-- **ru**: Orta Asya'nın en geniş kitlesi, kalite yüksek olmalı; gözden geçirici var. Bilim insanı adlarında
-  yerleşik yazım (Ньютон, Аль-Хорезми). Okuyucuya doğrudan sesleniş yerine nötr anlatım.
+- **ru**: en geniş Orta Asya kitlesi, kalite yüksek olmalı. Yerleşik yazım (Ньютон, Аль-Хорезми). Nötr anlatım.
 - **tr**: senin sesin; kendi yazdığın olaylarda `source_locale = 'tr'`. Yerleşik yazım (Kopernik, Öklid,
   Batlamyus, İbn-i Heysem, Uluğ Bey).
-- **en**: uluslararası vitrin, SEO'nun büyük kısmı, `x-default`, ilk yayın dili, hattın kaynak dili.
-  Amerikan yazım (color, center). **BCE/CE kullan, BC/AD değil.**
+- **en**: vitrin, SEO, `x-default`, hattın kaynak dili. Amerikan yazım. **BCE/CE, BC/AD değil.**
 
-## Yayın sırası
+Yayın sırası İngilizce önce (ADR-013); kaynak dil olay başına (ADR-009).
 
-İngilizce önce (ADR-013): kaynaklar İngilizce, hat İngilizce üretir, hızlı yayın. Sonra ky, tr, ru —
-makine çevirisi rozetle hemen, insan onayı sırayla. Kaynak dil olay başına (`source_locale`, ADR-009).
+## Çeviri hattı (Faz B)
 
-## Çeviri isteği (Faz B)
+Server action → Claude API: alanlar (`title, summary, body, why_it_matters, if_you_were_there`), ses tonu
+kuralları (03), terim sözlüğü, yerleşik isim yazımları, hedef dil; ky için ru+tr referans. Yıl ve sayı
+çevrilmez (formatlama sitede). Çıktı JSON şemayla doğrulanır, boş alan gelirse kaydedilmez. Her çeviri
+`status='machine'`; admin düzeltince `reviewed`. Toplu işler: `translate-missing.ts` (gece),
+`check-i18n.ts` (eksik anahtar / eksik dil raporu).
 
-```
-Sistem: Sen bilim tarihi sitesinin çevirmenisin. Ses tonu: [03 kuralları özeti].
-        Terim sözlüğü (hedef dil): [glossary]. Yerleşik isim yazımları: [people tablosundan].
-        Yıl ve sayıları çevirme, formatlama sitede yapılıyor. Markdown yapısını koru.
-Kullanıcı: Kaynak dil: tr. Hedef: ky. Referans olarak ru çevirisi: [...]
-        Alanlar (JSON): { title, summary, body, why_it_matters, if_you_were_there }
-Çıktı: Aynı anahtarlarla JSON.
-```
+## Açık test maddeleri
 
-Model `claude-sonnet-5`; Kırgızca için `claude-opus-5` denenir, fark ölçülür. Çıktı şeması doğrulanır;
-boş alan gelirse kaydetme. Her çeviri `status='machine'` ile yazılır, admin onaylayınca `reviewed`.
-
-## Toplu işler (`backend/scripts/`)
-
-- `translate-missing.ts` — çevirisi olmayan yayınlanmış olayları çevirir, gece bir kez. (Faz B)
-- `check-i18n.ts` — UI JSON'larında eksik anahtar, veritabanında hangi olay hangi dilde eksik. (Faz B)
-- `glossary-extract.ts` — onaylanmış çevirilerden terim çifti önerir. (sonra)
-
-## Test listesi
-
-- [x] `formatYear` 4 dil × 4 kesinlik × MÖ/MS birim testli.
-- [x] Çeviri yokken kaynak dil + "bu dilde henüz yok" rozeti görünüyor.
-- [x] `Ңөү` mevcut iki fontta doğru render oluyor.
-- [ ] `/` → `/ky` yönlendirmesi ky-KG tarayıcıda çalışıyor.
-- [ ] Dil değiştirince aynı olay sayfasında kalınıyor.
-- [ ] En uzun UI metni (genelde ru/ky) butonlardan taşmıyor.
-- [ ] `hreflang` ve `<html lang>` her sayfada doğru. (Faz C)
+- [ ] `/` → `/ky` yönlendirmesi ky-KG tarayıcıda. Dil değiştirince aynı olay sayfasında kalınıyor.
+- [ ] En uzun UI metni (ru/ky) butonlardan taşmıyor.
+- [ ] `hreflang` ve `<html lang>` her sayfada doğru (Faz C).

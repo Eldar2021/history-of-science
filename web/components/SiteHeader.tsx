@@ -5,7 +5,7 @@ import { SiteNav } from "./SiteNav";
 /**
  * `over` drops the bar's own background and border so it can float on top of something - the home
  * page globe. Put it inside .globe-stage and the tokens turn light-on-dark by themselves. It also
- * asks the nav for the honesty badge, which belongs on the page that has no band (ADR-030).
+ * asks the nav for the honesty badge, which belongs on the page that has no band (ADR-024).
  */
 export function SiteHeader({ center, over = false }: { center?: React.ReactNode; over?: boolean }) {
   const t = useTranslations();

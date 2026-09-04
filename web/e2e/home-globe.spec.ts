@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 /**
- * The home page: the globe and, along its foot, the timeline (ADR-024, ADR-030).
+ * The home page: the globe and, along its foot, the timeline (ADR-024).
  * The local seed has ten published events, all of them with a place.
  */
 

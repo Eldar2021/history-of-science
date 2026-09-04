@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 /*
-  Uchkun design tokens. Source of truth: resource/design/tokens.json
+  Uchkun design tokens. This file is the source of truth (ADR-029).
   (Claude Design "Foundation" concept, 2026-09-03, on the Organic base ramps).
 
   One theme: "night at the observatory" (ADR-029). There is no switch and no light
   ramp any more - the home page is a photograph of the Earth against space, and the
-  rest of the site is asked to belong to it. ADR-020 and ADR-022, which made light
+  rest of the site is asked to belong to it. The earlier light-theme decisions, which made light
   the primary and only default, are superseded.
 */
 
@@ -58,7 +58,7 @@
 }
 
 /*
-  The home globe (ADR-027). Almost black, so the photograph of the Earth is the only bright thing
+  The home globe (ADR-024). Almost black, so the photograph of the Earth is the only bright thing
   on the page, and panels are translucent over it rather than opaque boxes beside it.
 */
 .globe-stage {
@@ -201,7 +201,7 @@
 /* Event detail over the timeline: sheet rises on phones, panel slides in from the right on desktop.
    Durations come from the motion tokens, so reduced-motion shortens them with everything else. */
 /*
-  The honesty badge on the home globe (ADR-030). A slow drop rather than a blink: the admission
+  The honesty badge on the home globe (ADR-024). A slow drop rather than a blink: the admission
   should ask to be opened, not compete with the Earth. Readers who asked for less motion get none.
 */
 @keyframes honesty-drop {

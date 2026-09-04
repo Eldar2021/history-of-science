@@ -5,11 +5,11 @@ import { reportHref, SITE_URL } from "@/lib/report";
 type EventRef = { slug: string; year: number; precision: YearPrecision; title: string };
 
 /**
- * The honesty band (ADR-017): warm, human, with a report link. When an event is on screen, the mail
+ * The honesty band (README, product principle 4): warm, human, with a report link. When an event is on screen, the mail
  * already names it (title, year, URL) so the reader only has to say what is wrong.
  *
  * Every page carries this except the home page, which is one screen of sky and gets the same
- * admission as a badge that opens the Contact panel instead (SiteNav, ADR-030).
+ * admission as a badge that opens the Contact panel instead (SiteNav, ADR-024).
  */
 export function HonestyBand({ event, path, className = "" }: {
   event?: EventRef;

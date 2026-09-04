@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-/** The right-hand side of the site bar: About, Contact and the language (ADR-030). */
+/** The right-hand side of the site bar: About, Contact and the language (ADR-024). */
 
 test("the language chooser switches locale and keeps the page", async ({ page }) => {
   await page.goto("/en?event=euclid-elements");

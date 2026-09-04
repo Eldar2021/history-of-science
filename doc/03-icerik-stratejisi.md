@@ -60,7 +60,7 @@ Görsel: Principia ilk baskı kapağı, Wikimedia Commons, kamu malı
 - **Ton**: hayret + dürüstlük. "İnanılmaz" deme, inanılmaz olanı göster.
 - **Formül yok.** E=mc² bile yazılmaz; "kütle ve enerji aynı şeyin iki yüzü" denir.
 - **Kısaltma yok.** Okuyucunun çözmesi gereken kısaltma kullanma. Site de öyle: yaklaşık yıl "c." değil
-  "around" yazar (ADR-023).
+  "around" yazar (ADR-004).
 - **Bir benzetme** her olayda olsun; benzetmenin nerede bozulduğunu bir cümleyle söyle.
 - **Kahraman anlatısından kaçın.** "Newton buldu" değil, "Newton, Kepler'in 80 yıllık verisi ve Hooke'un
   sorusuyla...".
@@ -97,18 +97,15 @@ yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş 
 
 ## Üretim temposu
 
-**İçerik 50 olayda dondu (2026-09-04, kullanıcı kararı).** M1 için gereken 7 Aydınlanma olayı yazılır,
-sonra Faz A boyunca yeni olay eklenmez: önce sitenin ne olduğu netleşsin, sonra içerik aksın (`08`).
-Aşağıdaki liste ve tempo Faz B'de geçerli olacak.
-
-Hat çalışınca günde 2 taslak; senin onayın olay başına ~10 dakika.
+**İçerik 50 olayda dondu (2026-09-04).** Önce 7 Aydınlanma olayı, sonra Faz A bitene kadar yeni olay
+yok (`08`). Hat çalışınca (Faz B) günde 2 taslak; senin onayın olay başına ~10 dakika.
 
 ---
 
 ## Yazılacak olaylar
 
 **43 olay yayında**: Antik Dünya, İslam Altın Çağı ve Bilimsel Devrim'in tamamı, artı 1947 transistör.
-Yayındaki liste sitede: https://history-of-science.vercel.app/en/timeline
+Yayındaki liste sitede: https://history-of-science.vercel.app/en
 
 Aşağıdaki tablolar kalan çekirdek listedir. Önem 5 = zoom-out'ta bile görünen "çapa" olaylar. Yıllar
 yaygın kabul gören yıllardır; yazarken her biri iki kaynakla doğrulanır. Negatif yıl = MÖ.

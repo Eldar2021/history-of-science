@@ -34,8 +34,8 @@ Her karar bu altı ilkeyle sınanır. Çelişirse ilke kazanır.
 2. **Hiçbir keşif tek başına değildir.** Olaylar arası bağlantı birinci sınıf veridir, süs değil.
 3. **"Orada olsaydın" hissi.** Her olayda o günün insanının neyi bilmediğini hatırlatan küçük bir kutu.
 4. **Dürüst tarih.** Tarihler yaklaşıktır, öncelik tartışmalıdır, "kim buldu" çoğu zaman "kimler buldu"dur.
-   Belirsizliği saklamayız. Sitenin her sayfasında dürüstlük bandı var: "Bu siteyi yapan kişi tarihçi ya da
-   bilim insanı değil. Bir hata gördüyseniz lütfen bildirin." Zayıflık değil, güven kaynağı.
+   Belirsizliği saklamayız. Her sayfada dürüstlük bandı: "Bu siteyi yapan kişi tarihçi ya da bilim insanı
+   değil. Bir hata gördüyseniz lütfen bildirin." Zayıflık değil, güven kaynağı.
 5. **Dört dil eşit vatandaştır.** Kırgızca ikinci sınıf olmayacak. Bir olay dört dilde yoksa "eksik"
    görünür, gizlenmez. Yayın sırası pratik nedenle İngilizce önce.
 6. **Hafif ve hızlı.** Zayıf telefonda, yavaş internette bile akar. Süs animasyonu içerikten önce gelmez.
@@ -43,41 +43,31 @@ Her karar bu altı ilkeyle sınanır. Çelişirse ilke kazanır.
 ## Neyi yapmıyoruz
 
 Wikipedia klonu değil (olay başına 300-600 kelime yeter). Ders kitabı değil (formül, ispat, sınav yok).
-Sosyal ağ değil (yorum, hesap, forum yok). "Her şey" değil — 3 ayda 200 olay, seçici olmak özelliktir.
+Sosyal ağ değil (yorum, hesap, forum yok). "Her şey" değil — seçici olmak özelliktir.
 
 ## Fark yaratan üç şey
 
-- **"Buraya nasıl geldik?" zinciri**: bir olaydan geriye doğru bağımlılık zinciri. Akıllı telefon →
-  mikroişlemci → entegre devre → transistör → kuantum mekaniği → elektron → Maxwell → Faraday → Volta.
-  Yukarıdaki içgörüyü görselleştiren ekran budur. (Hafta 10)
-- **Keşfet modu**: gerçek ölçekli, yakınlaştırılabilir kanvas. Antik çağın ne kadar uzun, 20. yüzyılın ne
-  kadar sıkışık olduğu gözle görülür. (Hafta 11-12)
-- **Dürüstlük bandı**: yukarıdaki 4. ilke, her sayfada. (Yayında)
+- **Küre + zaman şeridi** (yayında): bilginin İskenderiye → Bağdat → Semerkant → Londra göçü, zaman
+  çizelgesiyle aynı ekranda.
+- **"Buraya nasıl geldik?" zinciri** (Faz D): bir olaydan geriye bağımlılık zinciri. Akıllı telefon →
+  mikroişlemci → transistör → kuantum mekaniği → Maxwell → Faraday → Volta.
+- **Dürüstlük bandı** (yayında): 4. ilke, her sayfada.
 
-## Başarı ölçütü (3. ay sonu)
+## Başarı ölçütü
 
-200+ yayınlanmış olay, 150+'si dört dilde, 300+ bağlantı, Lighthouse mobil 90+, 100 gerçek kullanıcı
-(20'si geri bildirim vermiş), ortalama oturum 5 dakika üstü.
-
-1 yıl sonunda: bir öğretmen sınıfta kullanmış olsun. Bir öğrenci "bu siteden dolayı fizik bölümünü seçtim"
-desin. Bu ölçülmez ama hedef bu.
+200+ yayınlanmış olay, 150+'si dört dilde, 300+ bağlantı, Lighthouse mobil 90+, 100 gerçek kullanıcı.
+1 yıl sonunda: bir öğretmen sınıfta kullanmış olsun. Bir öğrenci "bu siteden dolayı fizik bölümünü
+seçtim" desin.
 
 ## İsim
 
 **Uchkun / Учкун** — Kırgızca "kıvılcım". Latin ve Kiril yazımı birlikte kullanılır. Alan adı henüz yok
-(uchkun.science / .kg / .org adayları, Hafta 8).
+(uchkun.science / .kg / .org adayları, Faz C).
 
-## Klasörler
+## Klasörler ve çalıştırma
 
-| Klasör      | İçerik                                                          |
-| ----------- | --------------------------------------------------------------- |
-| `doc/`      | İçerik stratejisi, mimari, i18n, yol haritası, kararlar, STATUS |
-| `web/`      | Next.js 16 sitesi + `/admin` paneli                             |
-| `backend/`  | Supabase migration'ları, seed, içerik script'leri               |
-| `mobile/`   | Flutter uygulaması (5. ay+, şimdilik boş)                       |
-| `resource/` | Tasarım token'ları, fontlar, görsel kaynakları                  |
-
-## Çalıştırma
+`doc/` çalışan hafıza · `web/` Next.js sitesi + `/admin` · `backend/` Supabase migration'ları, seed,
+script'ler · `mobile/` Flutter (sonra, boş). Çalışma kuralları `CLAUDE.md`'de.
 
 ```
 colima start                      # Docker
@@ -85,9 +75,7 @@ cd backend && supabase start      # yerel Postgres + Auth
 cd web && npm run dev             # site + admin
 ```
 
-`cd web && npm run check` typecheck + lint + unit test. `npm run e2e` Playwright.
+`cd web && npm run check` typecheck + lint + unit test; `npm run e2e` Playwright.
 Ayrıntı: [doc/04-mimari.md](doc/04-mimari.md).
 
-## etra-link
-
-https://eyes.nasa.gov/apps/solar-system/#/earth
+Tasarım referansı: https://eyes.nasa.gov/apps/solar-system/#/earth

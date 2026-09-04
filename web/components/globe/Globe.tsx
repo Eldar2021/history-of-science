@@ -32,7 +32,7 @@ type Props = {
  * Blue Marble, the ocean floor, so deep water reads dark and shelves pale. 2048 x 1024, 262 KB.
  * Source: https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg
  * NASA Earth science imagery is not copyrighted and carries no usage restriction; NASA asks only
- * to be credited, which the honesty dialog does. See doc/09 ADR-026 and ADR-032.
+ * to be credited, which the honesty dialog does. See doc/09 ADR-024.
  */
 const EARTH_TEXTURE = "/globe/earth-2048.jpg";
 /**
