@@ -8,6 +8,9 @@ const REPORT_EMAIL = process.env.NEXT_PUBLIC_REPORT_EMAIL ?? "eldiiaralmazbekov@
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "";
 
+/** The site is built in the open; an error report can also be an issue. */
+export const REPO_URL = "https://github.com/Eldar2021/history-of-science";
+
 export function reportHref(subject: string, body: string): string {
   return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }

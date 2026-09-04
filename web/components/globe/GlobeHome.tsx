@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { HonestyBadge } from "@/components/HonestyBadge";
 import { SiteHeader } from "@/components/SiteHeader";
 import { formatYearParts, type Locale } from "@/lib/i18n/formatYear";
 import { formatPlaceParts } from "@/lib/i18n/formatPlace";
@@ -130,7 +129,7 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
       />
 
       {/* The site's own bar, with no background of its own, floating on the sky (ADR-027). */}
-      <SiteHeader over trailing={<HonestyBadge />} />
+      <SiteHeader over />
 
       {/* Below the bar. The heading stays in the document for readers and search engines even on
           a phone, where there is no room to show it. The wrapper does the positioning: sr-only
@@ -148,7 +147,7 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
       <Link
         href={`/event/${current.slug}`}
         aria-label={t("openEvent", { title: current.title })}
-        className={`absolute bottom-[10.5rem] left-1/2 z-10 block w-[min(92vw,26rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated p-6 shadow-lg backdrop-blur-md transition hover:border-accent sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2 ${
+        className={`absolute bottom-[10.5rem] left-1/2 z-10 block w-[min(86vw,23rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated/65 p-4 shadow-lg backdrop-blur-md transition hover:border-accent sm:w-[min(92vw,26rem)] sm:p-6 sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2 ${
           // On a phone the open strip is the reading surface, and this card would be under it.
           expanded ? "max-sm:invisible" : ""
         }`}
@@ -158,16 +157,16 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
             the globe by hand the pin is elsewhere, so the tail goes rather than lie. */}
         {pointing && (
           <>
-            <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated backdrop-blur-md sm:hidden" />
-            <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated backdrop-blur-md sm:block" />
+            <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated/65 backdrop-blur-md sm:hidden" />
+            <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated/65 backdrop-blur-md sm:block" />
           </>
         )}
 
         {year.qualifier && <p className="text-xs text-muted">{year.qualifier}</p>}
-        <p className="font-display text-3xl tabular text-primary" title={year.eraNote ?? undefined}>{year.value}</p>
-        <h2 className="mt-2 font-display text-xl leading-snug text-primary">{current.title}</h2>
-        <p className="mt-2 text-sm leading-relaxed text-secondary">{current.summary}</p>
-        <p className="mt-3 flex flex-wrap gap-x-2 text-xs text-muted">
+        <p className="font-display text-2xl tabular text-primary sm:text-3xl" title={year.eraNote ?? undefined}>{year.value}</p>
+        <h2 className="mt-1.5 font-display text-lg leading-snug text-primary sm:mt-2 sm:text-xl">{current.title}</h2>
+        <p className="mt-1.5 line-clamp-3 text-sm leading-relaxed text-secondary sm:mt-2 sm:line-clamp-none">{current.summary}</p>
+        <p className="mt-2.5 flex flex-wrap gap-x-2 text-xs text-muted sm:mt-3">
           {place.value && (
             <span>
               {place.value}

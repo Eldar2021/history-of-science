@@ -101,12 +101,14 @@ Lighthouse 90 hedefi kalır, modern cihazda akıcılığın göstergesi olarak.
 Kırgızca öğretmen ve Rusça gözden geçirici `editor` rolüyle kendi dillerinde çalışsın diye. **Yeni admin
 ekranı dört dilde eklenir**, sonradan çevrilmez.
 
-## ADR-019: Tasarım sistemi — Uchkun Foundation, Literata + Golos Text
+## ADR-019: Tasarım sistemi — Uchkun Foundation, Literata + gövde fontu
 
-**2026-09-03 · Kabul** — Token kaynağı `resource/design/tokens.json`; oradan `web/app/globals.css`'e elle
-aktarılır, ikisi birlikte güncellenir. Fontlar **Golos Text** (gövde) + **Literata** (yıl, çağ, başlık),
+**2026-09-03 · Kabul** · Gövde fontu Golos Text'ti, ADR-031 ile Onest oldu; kararın geri kalanı
+aynen geçerli. — Token kaynağı `resource/design/tokens.json`; oradan `web/app/globals.css`'e elle
+aktarılır, ikisi birlikte güncellenir. Fontlar **Onest** (gövde) + **Literata** (yıl, çağ, başlık),
 ikisi de `cyrillic-ext` alt kümesiyle (Ң Ө Ү). Boşluk ölçeği tek düğme: `--spacing: 0.275rem`.
-Çağların kendi rengi yok; çağ etiketleri adaçayı (`--sage`). Font değişince `Ңөү` görsel testi tekrarlanır.
+Çağların kendi rengi yok; çağ etiketleri adaçayı (`--sage`). Font değişince görsel test tekrarlanır —
+ve artık `Ңөү` yetmiyor, `değil Çağı` de bakılır (ADR-031).
 Keşfet kanvası için çağ renk paleti ayrı bir tasarım turunda istenecek.
 
 ## ADR-020: Birincil tema açık ("gözlem defteri")
@@ -340,6 +342,31 @@ ADR-027'nin "ana sayfa bir çıkmaz" ekini geçersiz kılar.
   Dürüstlük ilkesinden vazgeçilmedi ama ana sayfada bir tıklama arkasında: beta'da (M2) "bunu
   görmedim" geri bildirimi gelirse ilk bakılacak yer burasıdır. Şeridin kaydırma-seçim eşiği ve
   mobilde tutamakla açılması gerçek cihazda denenmedi; ikinci sinyal orası.
+
+---
+
+## ADR-031: Gövde fontu Onest; Golos Text Türkçe `ğ`'yi çizmiyor
+
+**2026-09-04 · Kabul** · ADR-019'un gövde fontu maddesini değiştirir; o kararın geri kalanı geçerli.
+
+- **Bağlam**: Sitenin gövde ve arayüz fontu Golos Text, Türkçe `ğ` (U+011F) yerine düz `g` çiziyor.
+  Yani "değil" → "degil", "Çağı" → "Çagı". `latin-ext` alt kümesi yükleniyor ve tarayıcı glif'i
+  bulduğunu sanıyor, breve yok. Kırgızca `Ң Ө Ү` ve diğer Türkçe harfler (`ı ş ç ö ü İ`) sorunsuz;
+  yalnızca `ğ`. Literata (başlık fontu) doğru çiziyor, bu yüzden sorun uzun süre görülmedi.
+- **Karar**: Gövde fontu **Onest**. Altı aday aynı ekranda `değil Çağı · Ңөү` ile denendi: Golos hariç
+  hepsi (Onest, Inter, Manrope, Nunito Sans, IBM Plex Sans) doğru çiziyor. Onest seçildi çünkü Golos'la
+  aynı aileden bir modern geometrik grotesk — sitenin görünümü en az değişiyor — ve aynı dört alt
+  kümeyi (`latin`, `latin-ext`, `cyrillic`, `cyrillic-ext`) taşıyor.
+- **Gerekçe**: "Dört dil eşit vatandaştır" bir ürün ilkesi (README). Türkçe okuyucunun her sayfada
+  yazım hatası görmesi bu ilkenin somut ihlaliydi, üstelik içeriğin güvenilirliğini de zedeliyordu —
+  hata bizim değil fontunmuş gibi görünmüyor, sadece hata gibi görünüyor. Tek bir glif için Golos'u
+  tutup `unicode-range` ile yama yapmak, kelimenin ortasında iki ayrı yazı karakteri karıştırmak
+  demekti; kabul edilmedi.
+- **Sonuçlar**: `web/lib/fonts.ts` ve `resource/design/tokens.json` güncellendi. Bundan sonra font
+  görsel testi `Ңөү`'ye ek olarak **`değil Çağı`** ile de yapılır — bir fontun bir alt kümeyi
+  "desteklemesi", her glifi doğru çizdiği anlamına gelmiyor. Bulut veritabanında yazım hatası
+  sanılan `İslam Altın Çagı ve Orta Çag` büyük olasılıkla buydu; canlıda gözle doğrulanabilir hâle
+  geldi.
 
 ---
 

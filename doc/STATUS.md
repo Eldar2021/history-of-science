@@ -5,14 +5,14 @@
 
 ## Şu an
 
-- **Faz**: M1'in son maddesi (7 olay) + **Faz A** başladı. Dal `el/one-style-home`, **PR henüz
-  açılmadı**; iki commit hazır ve yerelde yeşil.
-- **Yayında** (`main`): https://history-of-science.vercel.app — küre, olay detayı, 4 dil, `/admin`,
-  kaydet→sitede anında. 43 olay, 150 bağlantı. **Ana sayfa şeridi henüz canlıda değil.**
-- **Dalda bekleyen** (`el/one-style-home`): zaman çizelgesi ana sayfanın ayağına taşındı — gerçek
-  ölçekli zaman şeridi + her olay bir kart, `scroll-snap` ile seçim, sunucudan gerçek bağlantılar.
-  `/timeline` silindi, adresi `/`'a 308 ile yönleniyor. Dürüstlük bandı ana sayfada açılan "!"
-  rozeti. "Turu oynat" ve "Yere dön" düğmeleri kalktı. Hepsi ADR-030'da.
+- **Faz**: M1'in son maddesi (7 olay) + **Faz A** sürüyor. PR #10 merge edildi; sıradaki iş
+  `el/nav-and-polish` dalında, PR #11.
+- **Yayında** (`main`): https://history-of-science.vercel.app — küre, ayağında zaman çizelgesi
+  şeridi, olay detayı, 4 dil, `/admin`, kaydet→sitede anında. 43 olay, 150 bağlantı. `/timeline`
+  silindi, adresi `/`'a yönleniyor (ADR-030).
+- **Dalda bekleyen** (`el/nav-and-polish`): site çubuğu — bayrak + kod dil rozeti ve alttan açılan
+  dil sheet'i, Hakkında ve İletişim panelleri (mobilde menü), cam ana kart, şeridin yumuşak
+  büyümesi, ve **gövde fontu Onest** (Golos Text Türkçe `ğ`'yi çizmiyordu, ADR-031).
 - **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl`, migration 0001-0004. Vercel prod, `main`
   push = deploy. Bulut admin: `eldiiaralmazbekov@gmail.com`; şifre
   `backend/scripts/cloud-admin-password.sh <email>`. Yerel admin `admin@uchkun.local` /
@@ -21,16 +21,13 @@
 
 ## Açık işler
 
-1. **`el/one-style-home` için PR aç, review et, merge et.**
-2. **Golos Text Türkçe `ğ`'yi çiziyor sanılıyordu, çizmiyor** (R13, `08`). Türkçe okuyucunun her
-   sayfası yazım hatalı görünüyor. Font kararı kullanıcının (ADR-019 revizyonu).
-3. **M1'in son maddesi**: +7 Aydınlanma olayı → 50 yayınlanmış olay (`03`'teki liste).
-4. **Faz A'nın kalanı** `08`'de; sıradaki büyük madde **canlıda Lighthouse mobil ölçümü** (küre
+1. **`el/nav-and-polish` için PR'ı review et ve merge et** (PR #11).
+2. **M1'in son maddesi**: +7 Aydınlanma olayı → 50 yayınlanmış olay (`03`'teki liste).
+3. **Faz A'nın kalanı** `08`'de; sıradaki büyük madde **canlıda Lighthouse mobil ölçümü** (küre
    905 KB doku + piksel piksel renderer, üstüne şerit geldi).
 
 ## Kullanıcıdan bekleyen
 
-- **Font**: Golos Text mi değişsin, yoksa `ğ` için yedek font yığını mı? (R13)
 - **Uluğ Bey yılı**: seed'de `1420 exact`, taslakta `circa` + `1437`. Admin formundan düzeltilebilir.
 - **Beta / "monkey test"**: birlikte yapılacak, tarih kullanıcıdan. Video zorunlu değil.
 
@@ -75,5 +72,9 @@
   ad alanı gitti, iki çeviri rozeti `event`'e taşındı.
 - Bulunan ve düzeltilen kendi hatam: karttaki `onFocus` seçim yapınca fare tıklaması "zaten aktif"
   sayılıp olay sayfasına gidiyordu; `:focus-visible` ile klavyeye daraltıldı (e2e yakaladı).
-- **Yan bulgu**: Golos Text `ğ` yerine düz `g` çiziyor (R13). "Bulutta yazım hatası" sanılan şey
-  büyük olasılıkla bu.
+- **Yan bulgu ve düzeltmesi**: Golos Text `ğ` yerine düz `g` çiziyordu. Altı font yan yana denendi,
+  gövde fontu **Onest** oldu (ADR-031). "Bulutta yazım hatası" sanılan şey büyük olasılıkla buydu.
+- İkinci oturum yarısı: site çubuğu yeniden yazıldı (bayrak+kod dil rozeti, alttan açılan sheet'ler,
+  Hakkında ve İletişim, mobilde menü), ana kart cam oldu ve küçüldü, şerit artık yumuşak büyüyor.
+  Bulunan iki hata: dil değiştirince `?event=` düşüyordu; iç içe sheet'lerde `<dialog>`'un close
+  olayı devir teslimi de kapanma sanıyordu.
