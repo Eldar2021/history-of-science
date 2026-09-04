@@ -50,6 +50,8 @@
   /* Motion (tokens.json > transitionDuration / transitionTimingFunction) */
   --duration-fall: 1500ms;
   --duration-event-fade: 400ms;
+  /* The strip opening and closing: long enough to read as growth, short enough not to wait. */
+  --duration-strip: 260ms;
   --duration-tick: 120ms;
   --duration-press: 120ms;
   --ease-fall: cubic-bezier(0.2, 0.7, 0.1, 1);
@@ -83,6 +85,7 @@
   :root {
     --duration-fall: 250ms;
     --duration-event-fade: 250ms;
+    --duration-strip: 0ms;
     --duration-tick: 0ms;
     --duration-press: 0ms;
     --ease-fall: ease;

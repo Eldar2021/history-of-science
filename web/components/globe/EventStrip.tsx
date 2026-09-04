@@ -53,7 +53,7 @@ export function EventStrip({ events, index, locale, onSelect, offCentre, onRecen
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     settlesAt.current = performance.now() + (reduced ? SETTLE_MS : SCROLL_MS);
     item.scrollIntoView({ inline: "center", block: "nearest", behavior: reduced ? "auto" : "smooth" });
-  }, [index, expanded]);
+  }, [index]);
 
   useEffect(() => () => window.clearTimeout(timer.current), []);
 
@@ -117,7 +117,7 @@ export function EventStrip({ events, index, locale, onSelect, offCentre, onRecen
         ref={listRef}
         onScroll={onScroll}
         aria-label={t("strip")}
-        className="relative flex snap-x snap-mandatory gap-2 overflow-x-auto overscroll-x-contain pb-4 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="relative flex snap-x snap-mandatory gap-2 overflow-x-auto overscroll-x-contain pb-4 pt-1 transition-[padding] duration-(--duration-strip) ease-out [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         // The padding is what lets the first and last card reach the middle, so it is derived from
         // the card width rather than guessed alongside it.
         style={{
@@ -141,7 +141,7 @@ export function EventStrip({ events, index, locale, onSelect, offCentre, onRecen
                 // Keyboard focus should carry the globe along; a mouse press must not, or the
                 // click that follows would find the card already active and open the story instead.
                 onFocus={(focused) => { if (focused.currentTarget.matches(":focus-visible")) onSelect(i); }}
-                className={`flex w-[var(--card-w)] flex-col overflow-hidden rounded-lg border px-3 py-2 backdrop-blur-md transition-colors ${
+                className={`flex w-[var(--card-w)] flex-col overflow-hidden rounded-lg border px-3 py-2 backdrop-blur-md transition-[width,height,color,background-color,border-color,opacity] duration-(--duration-strip) ease-out ${
                   expanded ? "h-[9.5rem]" : "h-[5.25rem]"
                 } ${
                   active

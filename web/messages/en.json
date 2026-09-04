@@ -11,7 +11,10 @@
   },
   "nav": {
     "about": "About",
-    "language": "Language"
+    "language": "Language",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
   },
   "home": {
     "question": "How did we get here?",
@@ -25,6 +28,13 @@
     "expand": "Enlarge the cards",
     "collapse": "Shrink the cards"
   },
+  "about": {
+    "title": "About Uchkun",
+    "lead": "Uchkun is Kyrgyz for spark. This site tells how humanity got from Thales to artificial intelligence, one step at a time, in four languages, for curious people who are not scientists.",
+    "quote": "If I went back to those centuries with what I know now, I could do nothing. I could not find electricity, or medicine, or build a single machine. We use everything as though we knew it, but we know almost none of it.",
+    "why": "That sentence is the spirit of the project. This is not an encyclopaedia; it is a journey through wonder. Every event asks how one discovery stood on an earlier one, and what the people of that day did not yet know.",
+    "who": "One person builds it, in the evenings, and he is not a historian or a scientist. All four languages are equal citizens here: Kyrgyz is not an afterthought."
+  },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
     "report": "Report an error",
@@ -32,10 +42,10 @@
     "subjectEvent": "Uchkun: error in \"{title}\" ({year})",
     "body": "Page: {url}\n\nWhat is wrong:\n",
     "badge": "About the accuracy of this site",
-    "title": "Before you read on",
-    "close": "Close",
+    "title": "Tell us where we are wrong",
     "earth": "The Earth behind this page is NASA's Blue Marble photograph, which carries no copyright.",
-    "earthCredit": "Source: NASA Blue Marble"
+    "earthCredit": "Source: NASA Blue Marble",
+    "github": "Open an issue on GitHub"
   },
   "event": {
     "whyItMatters": "Why it matters",

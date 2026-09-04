@@ -11,7 +11,10 @@
   },
   "nav": {
     "about": "Hakkında",
-    "language": "Dil"
+    "language": "Dil",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "close": "Kapat"
   },
   "home": {
     "question": "Buraya nasıl geldik?",
@@ -25,6 +28,13 @@
     "expand": "Kartları büyüt",
     "collapse": "Kartları küçült"
   },
+  "about": {
+    "title": "Uchkun hakkında",
+    "lead": "Uchkun Kırgızca «kıvılcım» demek. Bu site insanlığın Thales'ten yapay zekâya nasıl geldiğini, adım adım, dört dilde, bilim insanı olmayan meraklı insanlara anlatıyor.",
+    "quote": "Şu anki bilgimle o yüzyıllara gitseydim hiçbir şey yapamazdım. Ne elektriği ne ilacı ne bir makineyi bulabilirdim. Her şeyi bilmiş gibi kullanıyoruz ama aslında hiçbir şeyi bilmiyoruz.",
+    "why": "Bu cümle projenin ruhu. Burası bir ansiklopedi değil, bir hayret yolculuğu. Her olay, bir keşfin neyin üstünde yükseldiğini ve o günün insanının neyi henüz bilmediğini soruyor.",
+    "who": "Siteyi tek kişi, akşamları yapıyor; tarihçi ya da bilim insanı değil. Dört dil eşit vatandaş: Kırgızca burada ikinci sınıf değil."
+  },
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
     "report": "Hata bildir",
@@ -32,10 +42,10 @@
     "subjectEvent": "Uchkun: \"{title}\" ({year}) olayında hata",
     "body": "Sayfa: {url}\n\nYanlış olan:\n",
     "badge": "Bu sitenin doğruluğu hakkında",
-    "title": "Okumaya başlamadan önce",
-    "close": "Kapat",
+    "title": "Nerede yanıldığımızı bize söyleyin",
     "earth": "Bu sayfadaki Dünya, NASA'nın Blue Marble fotoğrafı; telif hakkı taşımıyor.",
-    "earthCredit": "Kaynak: NASA Blue Marble"
+    "earthCredit": "Kaynak: NASA Blue Marble",
+    "github": "GitHub'da issue aç"
   },
   "event": {
     "whyItMatters": "Neden önemli",
