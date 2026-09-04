@@ -12,9 +12,9 @@ yazılmamış parçaların planı var.
 | i18n                  | next-intl 4                                 | `/tr`, `/ky` ön ekli rotalar, App Router uyumlu    |
 | Veri + Auth + Storage | Supabase (Postgres)                         | Ücretsiz katman, RLS, Flutter SDK'sı var           |
 | Sorgu                 | Supabase JS client + Postgres fonksiyonları | Çeviri birleştirmeyi SQL çözer                     |
-| Çeviri                | Claude API (`claude-sonnet-5`)              | Admin'den tek tıkla 4 dile taslak (Hafta 6)        |
-| Görsel                | Supabase Storage + `next/image`             | Hafta 6                                            |
-| OG görsel             | `next/og` (Satori)                          | Hafta 7                                            |
+| Çeviri                | Claude API (`claude-sonnet-5`)              | Admin'den tek tıkla 4 dile taslak (Faz B)           |
+| Görsel                | Supabase Storage + `next/image`             | Faz B                                              |
+| OG görsel             | `next/og` (Satori)                          | Faz C                                              |
 | Hosting               | Vercel (web) + Supabase (veri)              | Git push = deploy                                  |
 
 **Ayrı backend yok** (ADR-002). İş mantığı Postgres fonksiyonlarında ve `backend/scripts` içinde tutulur;
@@ -62,7 +62,7 @@ Gerçek kaynak `backend/supabase/migrations/`. Desen: her varlığın dilden ba�
 | `events`                                        | slug, year, year_end, `"precision"`, era_id, importance 1-5, status, drafted_by, research_note, source_locale, görsel + lisans alanları, `lat`/`lng`/`place_precision`, created/updated/deleted_at |
 | `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, `place_name`, status, search (tsvector)                                                                                        |
 | `event_disciplines`                             | olay ↔ disiplin                                                                                                                                                                                    |
-| `people`, `person_translations`, `event_people` | Hafta 9                                                                                                                                                                                            |
+| `people`, `person_translations`, `event_people` | Faz D                                                                                                                                                                                              |
 | `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır (ADR-007)                                                                                                                                   |
 | `sources`                                       | event_id, title, url, kind                                                                                                                                                                         |
 | `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                                                                                      |
@@ -88,7 +88,7 @@ yazılır; yeni fonksiyonlarda da aynısı gerekir.
   küre ana sayfası tek çağrıyla beslenir. `place_name` çeviride yoksa `source_locale`'e düşer.
 - `get_event_detail(slug, locale)`: olay + çeviri + disiplinler + kişiler + bağlantılar (iki yönlü) +
   kaynaklar, tek JSON. Anon rolde taslak `null` döner.
-- `get_chain(slug, locale, depth)`: `builds_on` zinciri, derinlik 6, döngü koruması (Hafta 10'da kullanılacak).
+- `get_chain(slug, locale, depth)`: `builds_on` zinciri, derinlik 6, döngü koruması (Faz D'de kullanılacak).
 - Çağ ataması yıl üzerinden trigger ile otomatik.
 
 ### Güvenlik (RLS)
@@ -104,7 +104,7 @@ yazılır; yeni fonksiyonlarda da aynısı gerekir.
 - Kanıt: `backend/scripts/rls-proof.sh` anon key ile REST/RPC'yi dener; yayınsız satır 0, `profiles` gizli,
   anon insert 401.
 - **Bilinen açık**: `profiles` yazma politikası yalnızca admin, yani `editor` rolü kendi `ui_locale`'ini
-  değiştiremez. Hafta 9'da editör hesaplarıyla birlikte self-update policy migration'ı gerekir.
+  değiştiremez. Faz D'de editör hesaplarıyla birlikte self-update policy migration'ı gerekir.
 
 ## Ana sayfa küresi
 
@@ -140,10 +140,10 @@ uygulanır, giriş yapmış admin de sitede taslak görmez. Okumalar `unstable_c
 `event:{slug}` etiketlerinde; yedek `revalidate: 300`. Böylece Supabase Studio'dan elle yapılan değişiklik
 en geç 5 dakikada görünür. Olay sayfaları `generateStaticParams` ile önceden render edilir.
 
-`cacheComponents` + `"use cache"` geçişi Hafta 8'e ertelendi; `unstable_cache` bir gün kaldırılırsa
+`cacheComponents` + `"use cache"` geçişi Faz C'ye ertelendi; `unstable_cache` bir gün kaldırılırsa
 yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
-## Otomatik içerik hattı (Hafta 5, henüz yok)
+## Otomatik içerik hattı (Faz B, henüz yok)
 
 ```
 Her gece 03:00 (GitHub Actions cron)
@@ -160,7 +160,7 @@ Sabah: /admin/review → oku, düzelt, Yayınla / Reddet
 - Kapatma anahtarı `CONTENT_PIPELINE_ENABLED=false`. Kuyrukta 10'dan fazla bekleyen varsa üretmez.
 - Maliyet: taslak başına ~30-50 bin token, ayda ~60 taslak ≈ 5-10 $.
 
-## Çeviri hattı (Hafta 6, henüz yok)
+## Çeviri hattı (Faz B, henüz yok)
 
 1. Olay `source_locale` dilinde var (Claude taslağı `en`, senin yazdığın `ky`/`tr`).
 2. "Diğer dillere çevir" → server action → Claude API: alanlar, ses tonu kuralları (03), terim sözlüğü

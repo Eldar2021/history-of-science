@@ -86,7 +86,7 @@ Bundan sonraki olaylarda da aynı ölçü aranır: Batı dışı katkı varsa g�
 2. **Yıl çelişirse**: `circa` işaretle ve gövdede "kaynaklar 1609-1610 arasında" diye belirt.
 3. **Öncelik tartışması varsa**: hepsini yaz, kahraman seçme.
 4. **Claude taslak yazar, sen doğrularsın.** Şüphe varsa yayınlamayız.
-5. **Hata bildirimi**: dürüstlük bandındaki mailto. Düzeltmeler `about` sayfasında listelenir (Hafta 8).
+5. **Hata bildirimi**: dürüstlük bandındaki mailto. Düzeltmeler `about` sayfasında listelenir (Faz C).
 
 ## Görseller ve lisans
 
@@ -97,8 +97,11 @@ yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş 
 
 ## Üretim temposu
 
-Hat çalışınca günde 2 taslak; senin onayın olay başına ~10 dakika. Hedef: 2. ay sonu ~120 olay, 3. ay
-sonu 200. Sonrası haftada 5-10 olay sürdürülebilir tempo.
+**İçerik 50 olayda dondu (2026-09-04, kullanıcı kararı).** M1 için gereken 7 Aydınlanma olayı yazılır,
+sonra Faz A boyunca yeni olay eklenmez: önce sitenin ne olduğu netleşsin, sonra içerik aksın (`08`).
+Aşağıdaki liste ve tempo Faz B'de geçerli olacak.
+
+Hat çalışınca günde 2 taslak; senin onayın olay başına ~10 dakika.
 
 ---
 

@@ -16,7 +16,7 @@ Karıştırma: UI metni veritabanına, içerik JSON'a gitmez. Dört dosya birebi
 - Admin dil ön eksiz (`/admin`); arayüz dili `profiles.ui_locale` → `NEXT_LOCALE` çerezi → `en`.
 - **Slug dilden bağımsız, İngilizce** (ADR-005): `/ky/event/newton-principia`. Dil değiştirince aynı
   sayfada kalınır.
-- `hreflang` 4 dil + `x-default`, her sayfada (Hafta 7).
+- `hreflang` 4 dil + `x-default`, her sayfada (Faz C).
 
 ## Yıl gösterimi
 
@@ -57,7 +57,7 @@ En değerli ve en zor dil; ikisi de aynı sebepten: kaynak az.
 - **Alfabe**: Kiril + `Ң ң`, `Ө ө`, `Ү ү`. Her yeni font `Ңөү` ile görsel olarak test edilir. Golos Text
   ve Literata (mevcut fontlar) `cyrillic-ext` alt kümesiyle içeriyor.
 - **Terminoloji**: bilim terimleri çoğunlukla Rusçadan ödünç. Bir terim sözlüğü tutulur
-  (`backend/scripts/glossary.ky.json`, Hafta 6) ve her çeviri isteğine verilir; ilk 50 olayla büyür.
+  (`backend/scripts/glossary.ky.json`, Faz B) ve her çeviri isteğine verilir; ilk 50 olayla büyür.
 - **Makine çevirisi**: Claude Kırgızcada Türkçe ve Rusçadan zayıf. Süreç: Claude Kırgızca taslağı
   **Türkçe ve Rusça çevirileri de görerek** üretir, `machine` rozetiyle yayınlanır, sonra sen okursun,
   bilim terimleri için Kırgızca öğretmen tanıdığın kontrol eder → `reviewed`.
@@ -77,7 +77,7 @@ En değerli ve en zor dil; ikisi de aynı sebepten: kaynak az.
 İngilizce önce (ADR-013): kaynaklar İngilizce, hat İngilizce üretir, hızlı yayın. Sonra ky, tr, ru —
 makine çevirisi rozetle hemen, insan onayı sırayla. Kaynak dil olay başına (`source_locale`, ADR-009).
 
-## Çeviri isteği (Hafta 6)
+## Çeviri isteği (Faz B)
 
 ```
 Sistem: Sen bilim tarihi sitesinin çevirmenisin. Ses tonu: [03 kuralları özeti].
@@ -93,8 +93,8 @@ boş alan gelirse kaydetme. Her çeviri `status='machine'` ile yazılır, admin 
 
 ## Toplu işler (`backend/scripts/`)
 
-- `translate-missing.ts` — çevirisi olmayan yayınlanmış olayları çevirir, gece bir kez. (Hafta 6)
-- `check-i18n.ts` — UI JSON'larında eksik anahtar, veritabanında hangi olay hangi dilde eksik. (Hafta 6)
+- `translate-missing.ts` — çevirisi olmayan yayınlanmış olayları çevirir, gece bir kez. (Faz B)
+- `check-i18n.ts` — UI JSON'larında eksik anahtar, veritabanında hangi olay hangi dilde eksik. (Faz B)
 - `glossary-extract.ts` — onaylanmış çevirilerden terim çifti önerir. (sonra)
 
 ## Test listesi
@@ -105,4 +105,4 @@ boş alan gelirse kaydetme. Her çeviri `status='machine'` ile yazılır, admin 
 - [ ] `/` → `/ky` yönlendirmesi ky-KG tarayıcıda çalışıyor.
 - [ ] Dil değiştirince aynı olay sayfasında kalınıyor.
 - [ ] En uzun UI metni (genelde ru/ky) butonlardan taşmıyor.
-- [ ] `hreflang` ve `<html lang>` her sayfada doğru. (Hafta 7)
+- [ ] `hreflang` ve `<html lang>` her sayfada doğru. (Faz C)

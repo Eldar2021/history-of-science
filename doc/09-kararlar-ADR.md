@@ -111,11 +111,9 @@ Keşfet kanvası için çağ renk paleti ayrı bir tasarım turunda istenecek.
 
 ## ADR-020: Birincil tema açık ("gözlem defteri")
 
-**2026-09-03 · Kabul** — Krem kâğıt (#f5ead8), koyu mürekkep, terracotta vurgu. Karanlık tema ikinci sınıf
-değildir; her bileşen iki temada test edilir. Açık temada gövde metni 15.4:1, ikincil 5.6:1; `text-muted`
-(3.7:1) yalnızca etiketlerde, gövdede kullanılmaz. Vurgu rengi kâğıt üstünde 3:1 — buton ve çizgi için
-yeterli, metin için `--accent-text` (#8c491a) kullanılır.
-Karanlığa geçiş kuralı ADR-022 ile değişti.
+**2026-09-03 · Geçersiz, bkz. ADR-029.** Açık palet krem kâğıt + koyu mürekkep üzerineydi. Site tek koyu
+temaya geçti; açık ramp `git log`'da duruyor. Buradan tek taşınan kural: gövde metni en az 4.5:1,
+`text-muted` yalnızca etiketlerde.
 
 ## ADR-021: Site okumaları etiketli veri önbelleğinde; `cacheComponents` ertelendi
 
@@ -131,18 +129,9 @@ geçilirse yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
 ## ADR-022: Açık tema tek varsayılan; işletim sistemi tercihi okunmuyor
 
-**2026-09-04 · Kabul**
-
-- **Bağlam**: ADR-020 açık temayı birincil yaptı ama karanlık tema `prefers-color-scheme: dark` ile de
-  geliyordu. Sonuç: kullanıcının telefonu/masaüstü karanlıktaysa site karanlık açılıyordu ve işletim
-  sistemi gün içinde tema değiştirdiğinde site kendiliğinden açıktan karanlığa atlıyordu.
-- **Karar**: `prefers-color-scheme` medya sorgusu kaldırıldı. Açık tema tek varsayılan; karanlık tema
-  yalnızca kullanıcı başlıktaki anahtara bastığında gelir (`data-theme="dark"` + `localStorage`).
-- **Gerekçe**: Öngörülebilirlik. Sitenin kimliği "gözlem defteri"; ilk izlenim her ziyaretçide aynı olmalı.
-  Kendiliğinden değişen tema hata gibi okunuyordu.
-- **Sonuçlar**: Karanlık temayı isteyen her tarayıcıda bir kez anahtara basar, seçim orada kalır. Karanlık
-  tema token'ları ve testleri aynen duruyor. Tercihi otomatik almak ileride istenirse ayrı bir "sistem"
-  üçüncü durumu olarak eklenir, varsayılan olarak değil.
+**2026-09-04 · Geçersiz, bkz. ADR-029.** `prefers-color-scheme` kaldırılmıştı çünkü site işletim
+sistemine bakıp kendiliğinden tema değiştiriyordu. Artık tema seçimi yok. Taşınan tek ders: temanın
+kendiliğinden değişmesi ziyaretçiye hata gibi okunur.
 
 ## ADR-023: Yıl metninde kısaltma yok; çağ kısaltması açıklanır
 
