@@ -23,7 +23,9 @@
     "progress": "{index} / {total}",
     "openEvent": "Окуяны оку: {title}",
     "recenter": "Жерге кайтуу",
-    "earthCredit": "NASA Blue Marble"
+    "earthCredit": "NASA Blue Marble",
+    "playTour": "Турду баштоо",
+    "stopTour": "Токтотуу"
   },
   "timeline": {
     "title": "Убакыт сызыгы",

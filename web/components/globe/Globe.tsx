@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { layoutFor } from "@/lib/globe/layout";
 import { renderSphere, type Texture } from "@/lib/globe/sphere";
-import { circlePath, EARTH_RADIUS_KM, easeInOutCubic, interpolateCentre, project, type Centre } from "@/lib/globe/projection";
+import { circlePath, EARTH_RADIUS_KM, easeInOutCubic, greatCirclePath, interpolateCentre, project, type Centre } from "@/lib/globe/projection";
 import { PLACE_RADIUS_KM } from "@/lib/i18n/formatPlace";
 import type { GlobePlace } from "@/lib/globe/events";
 
@@ -125,6 +125,7 @@ type Palette = {
   marker: string;
   markerQuiet: string;
   markerOutline: string;
+  trail: string;
 };
 
 function readPalette(el: HTMLElement): Palette {
@@ -140,6 +141,7 @@ function readPalette(el: HTMLElement): Palette {
     marker: v("--globe-marker", "#ff4436"),
     markerQuiet: v("--globe-marker-quiet", "#d8483f"),
     markerOutline: v("--globe-marker-outline", "rgba(0, 0, 0, 0.6)"),
+    trail: v("--globe-trail", "rgba(255, 176, 150, 0.55)"),
   };
 }
 
@@ -183,6 +185,8 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
   const starsRef = useRef<{ canvas: HTMLCanvasElement; width: number; height: number } | null>(null);
   /** The sharper photograph is asked for at most once. */
   const upgradedRef = useRef(false);
+  /** Great-circle points for every leg of the journey, worked out once per set of places. */
+  const trailRef = useRef<{ places: GlobePlace[]; legs: Array<Array<[number, number]>> } | null>(null);
   const hitsRef = useRef<Array<{ index: number; x: number; y: number }>>([]);
 
   useEffect(() => {
@@ -312,6 +316,40 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
     }
 
     // Pins, and the dashed ring that admits we only know the area (ADR-025).
+    // The road travelled, from the first event to this one. It follows the active index rather
+    // than where the reader has been, so a shared link shows the same road as a walk to it does,
+    // and going back really does unwind it. Only the near side is drawn: the far side is behind
+    // the Earth, which is exactly how a road around a sphere should read.
+    if (activeIndex > 0) {
+      let trail = trailRef.current;
+      if (!trail || trail.places !== places) {
+        const legs: Array<Array<[number, number]>> = [];
+        for (let i = 1; i < places.length; i++) {
+          legs.push(greatCirclePath(places[i - 1].lng, places[i - 1].lat, places[i].lng, places[i].lat, 40));
+        }
+        trail = { places, legs };
+        trailRef.current = trail;
+      }
+      ctx.strokeStyle = palette.trail;
+      ctx.lineWidth = 1.2;
+      ctx.lineCap = "round";
+      for (let leg = 0; leg < activeIndex; leg++) {
+        // Older legs are quieter, so the eye is drawn along the road to where it is standing.
+        const recency = (leg + 1) / activeIndex;
+        const arriving = leg === activeIndex - 1;
+        ctx.globalAlpha = (0.2 + 0.8 * recency) * (arriving ? t : 1);
+        ctx.beginPath();
+        let started = false;
+        for (const [lng, lat] of trail.legs[leg]) {
+          const tp = project(lng, lat, centre, radius, cx, cy);
+          if (!tp.visible) { started = false; continue; }
+          if (started) ctx.lineTo(tp.x, tp.y); else { ctx.moveTo(tp.x, tp.y); started = true; }
+        }
+        ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
+
     const hits: Array<{ index: number; x: number; y: number }> = [];
     let activePlaceHidden = false;
     places.forEach((place, index) => {

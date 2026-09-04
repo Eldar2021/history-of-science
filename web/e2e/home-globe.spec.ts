@@ -47,3 +47,16 @@ test("the card opens the event over the globe, and Escape closes it", async ({ p
   await expect(page.getByRole("dialog")).toHaveCount(0);
   await expect(page).toHaveURL(/\/en$/);
 });
+
+test("the guided tour walks forward on its own and any touch stops it", async ({ page }) => {
+  await page.goto("/en");
+  await expect(page.getByText("1 of 10")).toBeVisible();
+  await page.getByRole("button", { name: "Play the tour" }).click();
+  // It advances without being asked; the step is a little over four seconds.
+  await expect(page.getByText("2 of 10")).toBeVisible({ timeout: 9000 });
+  await page.getByRole("button", { name: "Stop" }).click();
+  const stoppedAt = await page.locator("[aria-live=polite]").textContent();
+  await page.waitForTimeout(5500);
+  expect(await page.locator("[aria-live=polite]").textContent()).toBe(stoppedAt);
+});
+

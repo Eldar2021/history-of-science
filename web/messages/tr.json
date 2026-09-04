@@ -23,7 +23,9 @@
     "progress": "{index} / {total}",
     "openEvent": "Hikâyeyi oku: {title}",
     "recenter": "Yere geri dön",
-    "earthCredit": "NASA Blue Marble"
+    "earthCredit": "NASA Blue Marble",
+    "playTour": "Turu oynat",
+    "stopTour": "Durdur"
   },
   "timeline": {
     "title": "Zaman çizgisi",

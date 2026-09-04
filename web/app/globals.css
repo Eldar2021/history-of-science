@@ -75,6 +75,8 @@
   --globe-marker: #ff4436;
   --globe-marker-quiet: #d8483f;
   --globe-marker-outline: rgba(0, 0, 0, 0.6);
+  /* The road travelled: warm, thin, and always quieter than a marker. */
+  --globe-trail: rgba(255, 176, 150, 0.55);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -12,6 +12,9 @@ import { Globe } from "./Globe";
 
 type Props = { events: GlobeEvent[]; locale: Locale };
 
+/** How long the guided tour rests on each event: the turn takes about a second, the rest is reading. */
+const TOUR_STEP_MS = 4200;
+
 /**
  * The home page: a globe that turns to wherever the current event happened, and two buttons that
  * walk the whole timeline in order.
@@ -30,6 +33,8 @@ export function GlobeHome({ events, locale }: Props) {
   const [recenterKey, setRecenterKey] = useState(0);
   /** The URL only starts carrying ?event= once the reader has actually moved. */
   const moved = useRef(false);
+  /** The guided tour: off unless the reader asks for it (ADR-024). */
+  const [playing, setPlaying] = useState(false);
 
   const go = useCallback((delta: number) => {
     setIndex((current) => {
@@ -41,8 +46,30 @@ export function GlobeHome({ events, locale }: Props) {
 
   const jumpTo = useCallback((next: number) => {
     moved.current = true;
+    setPlaying(false);
     setIndex(next);
   }, []);
+
+  /** Taking hold of anything - a button, a key, the globe itself - ends the tour. */
+  const step = useCallback((delta: number) => {
+    setPlaying(false);
+    go(delta);
+  }, [go]);
+
+  useEffect(() => {
+    if (!playing) return;
+    const timer = window.setInterval(() => {
+      setIndex((current) => {
+        if (current >= events.length - 1) {
+          setPlaying(false);
+          return current;
+        }
+        moved.current = true;
+        return current + 1;
+      });
+    }, TOUR_STEP_MS);
+    return () => window.clearInterval(timer);
+  }, [playing, events.length]);
 
   useEffect(() => {
     // Syncing state from an external system - the URL - which is exactly what an effect is for.
@@ -72,11 +99,11 @@ export function GlobeHome({ events, locale }: Props) {
       const target = event.target as HTMLElement | null;
       if (target && (target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName))) return;
       event.preventDefault();
-      go(event.key === "ArrowRight" ? 1 : -1);
+      step(event.key === "ArrowRight" ? 1 : -1);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [go]);
+  }, [step]);
 
   const current = events[index];
   const year = formatYearParts(current.year, current.precision, locale);
@@ -89,17 +116,23 @@ export function GlobeHome({ events, locale }: Props) {
         activeIndex={index}
         recenterKey={recenterKey}
         onSelect={jumpTo}
-        onOffCentreChange={setOffCentre}
+        onOffCentreChange={(off) => {
+          setOffCentre(off);
+          if (off) setPlaying(false);
+        }}
       />
 
       {/* The site's own bar, with no background of its own, floating on the sky (ADR-027). */}
       <SiteHeader over />
 
       {/* Below the bar. The heading stays in the document for readers and search engines even on
-          a phone, where there is no room to show it. */}
-      <h1 className="sr-only absolute left-6 top-[4.25rem] z-10 max-w-[15rem] font-display text-lg leading-snug text-secondary sm:not-sr-only">
-        {t("question")}
-      </h1>
+          a phone, where there is no room to show it. The wrapper does the positioning: sr-only
+          makes the heading itself absolute, and not-sr-only would undo any placement put on it. */}
+      <div className="pointer-events-none absolute left-6 top-[4.25rem] z-10 max-w-[15rem]">
+        <h1 className="sr-only font-display text-lg leading-snug text-secondary sm:not-sr-only">
+          {t("question")}
+        </h1>
+      </div>
 
       <Link
         href={`/event/${current.slug}`}
@@ -132,7 +165,7 @@ export function GlobeHome({ events, locale }: Props) {
         <div className="flex items-center gap-4">
           <button
             type="button"
-            onClick={() => go(-1)}
+            onClick={() => step(-1)}
             disabled={index === 0}
             aria-label={t("previous")}
             className="rounded-full border border-line px-4 py-2 text-secondary transition hover:border-accent hover:text-primary disabled:opacity-35 disabled:hover:border-line"
@@ -145,7 +178,7 @@ export function GlobeHome({ events, locale }: Props) {
           </p>
           <button
             type="button"
-            onClick={() => go(1)}
+            onClick={() => step(1)}
             disabled={index === events.length - 1}
             aria-label={t("next")}
             className="rounded-full border border-line px-4 py-2 text-secondary transition hover:border-accent hover:text-primary disabled:opacity-35 disabled:hover:border-line"
@@ -174,15 +207,27 @@ export function GlobeHome({ events, locale }: Props) {
         </div>
       </div>
 
-      {offCentre && (
-        <button
-          type="button"
-          onClick={() => setRecenterKey((n) => n + 1)}
-          className="absolute bottom-6 right-6 z-10 rounded-full border border-accent/60 px-4 py-2 text-sm text-secondary transition hover:text-primary"
-        >
-          {t("recenter")}
-        </button>
-      )}
+      <div className="absolute bottom-6 right-6 z-10 flex items-center gap-2">
+        {offCentre && (
+          <button
+            type="button"
+            onClick={() => setRecenterKey((n) => n + 1)}
+            className="rounded-full border border-accent/60 px-4 py-2 text-sm text-secondary transition hover:text-primary"
+          >
+            {t("recenter")}
+          </button>
+        )}
+        {index < events.length - 1 && (
+          <button
+            type="button"
+            onClick={() => setPlaying((on) => !on)}
+            aria-pressed={playing}
+            className="rounded-full border border-line px-4 py-2 text-sm text-secondary transition hover:border-accent hover:text-primary"
+          >
+            {t(playing ? "stopTour" : "playTour")}
+          </button>
+        )}
+      </div>
     </main>
   );
 }

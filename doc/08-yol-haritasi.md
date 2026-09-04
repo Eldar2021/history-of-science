@@ -65,7 +65,10 @@ Hafta 8'den öne alındı; kullanıcı 2026-09-04'te karar verdi. Sıra bağlay�
 - [x] Yedekler: ilk olay sunucudan gerçek HTML (sayfa hâlâ statik), `prefers-reduced-motion` açıksa
       kamera anında gider. WebGL yedeği **gerekmedi**: Canvas 2D her yerde çalışıyor, kaybedilecek
       bağlam ve yüklenecek kütüphane yok — statik küre görseli fikri bu yüzden düştü.
-- [ ] Gidilen yolun küre üzerinde soluk yaylar olarak birikmesi; varsayılanı kapalı "Turu oynat".
+- [x] Gidilen yol küre üzerinde soluk yaylar olarak birikiyor. İz **geçmişe değil aktif olaya** bağlı
+      (0'dan bulunulan olaya kadar), yani paylaşılan bağlantı da aynı yolu gösteriyor ve geri gitmek
+      yolu gerçekten geri sarıyor. Yalnızca ön yüz çiziliyor. "Turu oynat" varsayılanı kapalı; düğme,
+      tuş ya da küreye dokunmak turu durduruyor.
       (`greatCirclePath` yazıldı ve test edildi, çizim kaldı.)
 - [x] Tasarım: tam ekran gökyüzü, yıldız alanı, saydam başlık, yarı saydam kart, tek satırlık
       dürüstlük bandı (ADR-027).

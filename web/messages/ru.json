@@ -23,7 +23,9 @@
     "progress": "{index} из {total}",
     "openEvent": "Читать историю: {title}",
     "recenter": "Вернуться к месту",
-    "earthCredit": "NASA Blue Marble"
+    "earthCredit": "NASA Blue Marble",
+    "playTour": "Запустить тур",
+    "stopTour": "Остановить"
   },
   "timeline": {
     "title": "Хронология",
