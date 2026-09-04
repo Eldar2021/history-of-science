@@ -10,7 +10,6 @@
     "tr": "Türkçe"
   },
   "nav": {
-    "timeline": "Zaman çizgisi",
     "about": "Hakkında",
     "language": "Dil"
   },
@@ -25,23 +24,6 @@
     "strip": "Tüm olaylar, eskiden yeniye",
     "expand": "Kartları büyüt",
     "collapse": "Kartları küçült"
-  },
-  "timeline": {
-    "title": "Zaman çizgisi",
-    "eventsCount": "{count} olay",
-    "eraNotation": "MÖ = Milattan Önce",
-    "yearsPassed": "~{years} yıl geçti",
-    "notTranslated": "Henüz {locale} değil",
-    "machineTranslated": "Otomatik çeviri",
-    "importance": "Önem {level}",
-    "landmark": "Dönüm noktası",
-    "today": "bugün",
-    "era": "Çağ",
-    "filterLegend": "Disipline göre süz",
-    "onlyThese": "Sadece bunlar",
-    "clearFilter": "Temizle",
-    "filterEmpty": "Bu disiplinlerde henüz olay yok. Belki de asıl ilginç olan bu.",
-    "overview": "Zaman çizgisi genel görünümü"
   },
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
@@ -63,9 +45,11 @@
     "people": "Kişiler",
     "sources": "Kaynaklar",
     "close": "Kapat",
-    "showInTimeline": "Zaman çizgisinde göster",
     "imageCredit": "Görsel: {credit}, {license}",
-    "unknownYear": "?"
+    "unknownYear": "?",
+    "showOnGlobe": "Küre üzerinde göster",
+    "notTranslated": "Henüz {locale} değil",
+    "machineTranslated": "Otomatik çeviri"
   },
   "notFound": {
     "title": "Bulunamadı",

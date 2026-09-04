@@ -138,7 +138,9 @@ export function EventStrip({ events, index, locale, onSelect, offCentre, onRecen
                 href={`/event/${event.slug}`}
                 aria-current={active ? "true" : undefined}
                 onClick={(clicked) => onCardClick(clicked, i)}
-                onFocus={() => onSelect(i)}
+                // Keyboard focus should carry the globe along; a mouse press must not, or the
+                // click that follows would find the card already active and open the story instead.
+                onFocus={(focused) => { if (focused.currentTarget.matches(":focus-visible")) onSelect(i); }}
                 className={`flex w-[var(--card-w)] flex-col overflow-hidden rounded-lg border px-3 py-2 backdrop-blur-md transition-colors ${
                   expanded ? "h-[9.5rem]" : "h-[5.25rem]"
                 } ${

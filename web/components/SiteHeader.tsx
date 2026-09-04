@@ -26,10 +26,6 @@ export function SiteHeader({ center, trailing, over = false }: {
       <Link href="/" className="font-display text-lg text-primary">{t("site.name")}</Link>
       <div className="min-w-0 whitespace-nowrap font-display text-2xl tabular text-primary">{center}</div>
       <nav className="flex items-center gap-3 text-sm">
-        {/* The home globe carries no chrome it does not need; every other page keeps the link. */}
-        {!over && (
-          <Link href="/timeline" className="hidden text-secondary hover:text-primary sm:inline">{t("nav.timeline")}</Link>
-        )}
         {trailing}
         <LocaleSwitcher />
       </nav>

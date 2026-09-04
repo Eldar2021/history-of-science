@@ -10,7 +10,6 @@
     "tr": "Türkçe"
   },
   "nav": {
-    "timeline": "Timeline",
     "about": "About",
     "language": "Language"
   },
@@ -25,23 +24,6 @@
     "strip": "All events, oldest first",
     "expand": "Enlarge the cards",
     "collapse": "Shrink the cards"
-  },
-  "timeline": {
-    "title": "Timeline",
-    "eventsCount": "{count, plural, one {# event} other {# events}}",
-    "eraNotation": "BCE = before the common era",
-    "yearsPassed": "~{years} years passed",
-    "notTranslated": "Not yet in {locale}",
-    "machineTranslated": "Auto-translated",
-    "importance": "Importance {level}",
-    "landmark": "Landmark",
-    "today": "today",
-    "era": "Era",
-    "filterLegend": "Filter by discipline",
-    "onlyThese": "Only these",
-    "clearFilter": "Clear",
-    "filterEmpty": "No event in these disciplines yet. Maybe that is the interesting part.",
-    "overview": "Timeline overview"
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
@@ -63,9 +45,11 @@
     "people": "People",
     "sources": "Sources",
     "close": "Close",
-    "showInTimeline": "Show in the timeline",
     "imageCredit": "Image: {credit}, {license}",
-    "unknownYear": "?"
+    "unknownYear": "?",
+    "showOnGlobe": "Show it on the globe",
+    "notTranslated": "Not yet in {locale}",
+    "machineTranslated": "Auto-translated"
   },
   "notFound": {
     "title": "Not found",

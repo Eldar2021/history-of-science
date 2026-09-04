@@ -10,7 +10,6 @@
     "tr": "Türkçe"
   },
   "nav": {
-    "timeline": "Хронология",
     "about": "О проекте",
     "language": "Язык"
   },
@@ -25,23 +24,6 @@
     "strip": "Все события, от древних к новым",
     "expand": "Увеличить карточки",
     "collapse": "Уменьшить карточки"
-  },
-  "timeline": {
-    "title": "Хронология",
-    "eventsCount": "{count, plural, one {# событие} few {# события} many {# событий} other {# события}}",
-    "eraNotation": "до н. э. = до нашей эры",
-    "yearsPassed": "~{years} лет прошло",
-    "notTranslated": "Пока нет на языке: {locale}",
-    "machineTranslated": "Автоперевод",
-    "importance": "Важность {level}",
-    "landmark": "Веха",
-    "today": "наши дни",
-    "era": "Эпоха",
-    "filterLegend": "Фильтр по дисциплине",
-    "onlyThese": "Только эти",
-    "clearFilter": "Сбросить",
-    "filterEmpty": "В этих дисциплинах пока нет событий. Может быть, это и есть самое интересное.",
-    "overview": "Обзор хронологии"
   },
   "honesty": {
     "text": "Автор этого сайта не историк и не учёный. Если вы заметили ошибку, пожалуйста, сообщите нам; мы с радостью её исправим.",
@@ -63,9 +45,11 @@
     "people": "Люди",
     "sources": "Источники",
     "close": "Закрыть",
-    "showInTimeline": "Показать в хронологии",
     "imageCredit": "Изображение: {credit}, {license}",
-    "unknownYear": "?"
+    "unknownYear": "?",
+    "showOnGlobe": "Показать на глобусе",
+    "notTranslated": "Пока нет на языке: {locale}",
+    "machineTranslated": "Автоперевод"
   },
   "notFound": {
     "title": "Не найдено",
