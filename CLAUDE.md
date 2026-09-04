@@ -22,8 +22,9 @@ dokümandan silinir**; geçmişin cevabı `git log`.
 ## Yapı
 
 - `web/`: Next.js 16 App Router, TypeScript, Tailwind v4, next-intl. Site (`/[locale]`) + admin (`/admin`).
-- `backend/supabase/`: migration'lar ve seed. `backend/scripts/`: admin oluşturma, RLS kanıtı, taslak → SQL.
-  `backend/content/drafts/`: olay taslakları (JSON).
+- `backend/supabase/`: migration'lar ve seed. `backend/scripts/`: admin oluşturma, RLS kanıtı,
+  taslak → SQL, yedek. `backend/content/drafts/`: olay taslakları (JSON).
+- `.github/workflows/`: her PR'da CI (check + e2e), her gece veritabanı yedeği.
 - `mobile/`: Flutter, sonra. Boş.
 
 ## Kurallar
@@ -41,6 +42,7 @@ dokümandan silinir**; geçmişin cevabı `git log`.
 - Türkçe büyük harf: `toUpperCase()` yasak; `toLocaleUpperCase('tr')` ya da hiç.
 - Görsel eklenirken atıf + lisans + kaynak URL zorunlu.
 - Commit: `type(scope): summary` İngilizce. Feature branch → PR → merge; `main` = üretim.
+  CI (check + e2e) her PR'da çalışır; yeşil olmadan merge yok.
 - Yeni özellik veya şema değişikliğinde önce plan özeti, onay, sonra kod. Bug/stil için doğrudan.
 - İçerik doğrulama kullanıcının: Claude taslak yazar ve kaynak önerir, yayın kararı insan.
 - Her önemli karar `doc/kararlar.md`'ye ADR. Karar değişirse yeni ADR; eskisi silinir ya da "Geçersiz, bkz. ADR-N".

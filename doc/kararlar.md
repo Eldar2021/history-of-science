@@ -182,10 +182,11 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 - **Gerekçe**: İçerik yakında projenin en değerli varlığı olacak; yedeksiz içerik toplamak kumar.
   Erişilebilir ad ile görünen metin uyuşmazlığı (dil düğmesi "EN" ama adı "Language") sesle kontrol
   edeni engelliyordu; düzeltildi.
-- **Sonuçlar**: Canlıda ölçüldü (2026-09-05, `history-of-science.vercel.app/en`): **mobil 94 / 100 /
-  100 / 91**, masaüstü 90 / 100 / 100 / 91. SEO'nun kaybı yalnızca eksik `robots.txt` idi; yerel üretim
-  build'inde artık **erişilebilirlik 100, SEO 100, en iyi uygulamalar 100**. Analitik ve Sentry hâlâ yok
-  (hesap kararı, S12). Uyarı: `NEXT_PUBLIC_SITE_URL` üretimde yanlışsa canonical ve OG adresleri yanlış olur.
+- **Sonuçlar**: Canlıda, merge sonrası (2026-09-05, 6 ölçüm): erişilebilirlik, en iyi uygulamalar ve
+  **SEO 100** (SEO'nun eski kaybı yalnızca eksik `robots.txt` idi). Performans **83-92, ortalama 88** —
+  tek ölçüm 9 puan oynuyor, bütçe ancak iyi turda tutuyor; ayrı bir performans turu gerekiyor
+  (`yol-haritasi.md`, Faz C). Analitik ve Sentry hâlâ yok (hesap kararı, S12). Uyarı:
+  `NEXT_PUBLIC_SITE_URL` üretimde yanlışsa canonical ve OG adresleri yanlış olur.
 
 ---
 

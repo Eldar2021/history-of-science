@@ -67,7 +67,8 @@ seçtim" desin.
 ## Klasörler ve çalıştırma
 
 `doc/` çalışan hafıza · `web/` Next.js sitesi + `/admin` · `backend/` Supabase migration'ları, seed,
-script'ler · `mobile/` Flutter (sonra, boş). Çalışma kuralları `CLAUDE.md`'de.
+script'ler · `.github/` her PR'da CI, her gece veritabanı yedeği · `mobile/` Flutter (sonra, boş).
+Çalışma kuralları `CLAUDE.md`'de.
 
 ```
 colima start                      # Docker
