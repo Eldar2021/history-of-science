@@ -1,5 +1,5 @@
 /**
- * The subset of Markdown that event bodies use (doc/03 template, backend/content/drafts): "###" headings,
+ * The subset of Markdown that event bodies use (doc/icerik.md template, backend/content/drafts): "###" headings,
  * paragraphs separated by blank lines, *italic* and **bold**. Anything else is shown as text.
  * A full renderer is not worth its bundle weight while bodies are this regular.
  */

@@ -1,4 +1,4 @@
-# 09 — Kararlar (ADR)
+# Kararlar (ADR)
 
 Yalnızca **hâlâ bağlayıcı** kararlar; koda gömülmüş olanlar silindi (son temizlik 2026-09-04: ADR-012,
 015, 017, 019, 020, 022, 023, 026, 027, 028, 030, 031, 032; küre serisi ADR-024'e, yıl yazımı ADR-004'e,

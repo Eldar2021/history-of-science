@@ -1,4 +1,4 @@
-# 04 — Mimari
+# Mimari
 
 Çalışan sistemin haritası. Ayrıntı kodda; burada kodda görünmeyen "neden"ler, şema özeti ve tuzaklar var.
 

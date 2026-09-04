@@ -6,15 +6,15 @@ Kod, commit mesajları ve kod yorumları İngilizce.
 
 **Her oturumun başında `/com_read_doc`** (STATUS + git). Diğer dokümanları işe göre aç:
 
-| Dosya                              | Ne zaman                                             |
-| ---------------------------------- | ---------------------------------------------------- |
-| `doc/STATUS.md`                    | Her oturum: neredeyiz, ne bekliyor, son oturum        |
-| `doc/03-icerik-stratejisi.md`      | Olay yazarken: çağlar, şablon, ses tonu, kalan liste  |
-| `doc/04-mimari.md`                 | Kod yazarken: şema, RLS, önbellek, küre, tuzaklar     |
-| `doc/06-i18n-stratejisi.md`        | Dil işi: yıl tablosu, Kırgızca, çeviri hattı          |
-| `doc/08-yol-haritasi.md`           | Faza başlarken                                       |
-| `doc/09-kararlar-ADR.md`           | Bir kararı sorgularken                               |
-| `doc/10-riskler-ve-acik-sorular.md`| Açık sorular, park edilmiş fikirler                   |
+| Dosya                 | Ne zaman                                             |
+| --------------------- | ---------------------------------------------------- |
+| `doc/STATUS.md`       | Her oturum: neredeyiz, ne bekliyor, son oturum       |
+| `doc/icerik.md`       | Olay yazarken: çağlar, şablon, ses tonu, kalan liste |
+| `doc/mimari.md`       | Kod yazarken: şema, RLS, önbellek, küre, tuzaklar    |
+| `doc/i18n.md`         | Dil işi: yıl tablosu, Kırgızca, çeviri hattı         |
+| `doc/yol-haritasi.md` | Faza başlarken                                       |
+| `doc/kararlar.md`     | Bir kararı sorgularken                               |
+| `doc/riskler.md`      | Açık sorular, park edilmiş fikirler                  |
 
 Vizyon ve ürün ilkeleri kök `README.md`'de. `doc/` çalışan hafızadır, arşiv değil: **biten iş
 dokümandan silinir**; geçmişin cevabı `git log`.
@@ -43,7 +43,7 @@ dokümandan silinir**; geçmişin cevabı `git log`.
 - Commit: `type(scope): summary` İngilizce. Feature branch → PR → merge; `main` = üretim.
 - Yeni özellik veya şema değişikliğinde önce plan özeti, onay, sonra kod. Bug/stil için doğrudan.
 - İçerik doğrulama kullanıcının: Claude taslak yazar ve kaynak önerir, yayın kararı insan.
-- Her önemli karar `doc/09`'a ADR. Karar değişirse yeni ADR; eskisi silinir ya da "Geçersiz, bkz. ADR-N".
+- Her önemli karar `doc/kararlar.md`'ye ADR. Karar değişirse yeni ADR; eskisi silinir ya da "Geçersiz, bkz. ADR-N".
   Koda tamamen gömülmüş ADR silinir.
 
 ## Komutlar (web/ içinde)

@@ -1,9 +1,9 @@
 /**
- * The single place where years are turned into text. See doc/06-i18n-stratejisi.md.
+ * The single place where years are turned into text. See doc/i18n.md.
  * year: integer, negative = BCE, there is no year 0.
  *
  * The approximation marker is a whole word ("around"), never an abbreviation:
- * the reader is a curious non-scientist, and "c." reads as noise (doc/03 voice).
+ * the reader is a curious non-scientist, and "c." reads as noise (doc/icerik.md voice).
  * The era marker stays short so the year keeps its size, and carries an
  * expansion (eraNote) that the UI shows as a tooltip and as a one-line legend.
  */
@@ -125,7 +125,7 @@ export function joinYear(parts: YearParts): string {
   return parts.qualifier ? `${parts.qualifier} ${parts.value}` : parts.value;
 }
 
-/** Range like "1925 - 1927" or "MÖ 300 - MÖ 250". Plain hyphen on purpose (doc/06).
+/** Range like "1925 - 1927" or "MÖ 300 - MÖ 250". Plain hyphen on purpose (doc/i18n.md).
  *  An approximate range says "around" once, in front of the whole range. */
 export function formatYearRangeParts(
   start: number, end: number | null | undefined, precision: YearPrecision, locale: Locale,

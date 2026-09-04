@@ -76,6 +76,6 @@ cd web && npm run dev             # site + admin
 ```
 
 `cd web && npm run check` typecheck + lint + unit test; `npm run e2e` Playwright.
-Ayrıntı: [doc/04-mimari.md](doc/04-mimari.md).
+Ayrıntı: [doc/mimari.md](doc/mimari.md).
 
 Tasarım referansı: https://eyes.nasa.gov/apps/solar-system/#/earth

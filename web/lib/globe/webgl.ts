@@ -7,7 +7,7 @@
  * arithmetic. A fragment shader does it for every pixel at once, so the globe is drawn at full
  * resolution on every frame of a turn, with the photograph filtered properly (mipmaps, so the
  * compressed limb does not sparkle), and there is money left over for a glint of sun on the
- * water and a thin sky along the rim. See doc/09 ADR-024.
+ * water and a thin sky along the rim. See doc/kararlar.md ADR-024.
  *
  * WebGL2 only. Where it is missing the caller falls back to sphere.ts, which draws the same globe
  * more slowly; the pins, the road and the card never depend on either.

@@ -1,4 +1,4 @@
-# 08 — Yol Haritası
+# Yol Haritası
 
 Sıralı fazlar; sıra bağlayıcı, süre değil. Darboğaz kod değil, karar vermek ve içerik onaylamak.
 
@@ -15,7 +15,7 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 
 ## M1 — kalan tek madde
 
-- [ ] **En az 50 yayınlanmış olay.** 43 var; +7 Aydınlanma olayı (`03`'teki liste).
+- [ ] **En az 50 yayınlanmış olay.** 43 var; +7 Aydınlanma olayı (`icerik.md`'deki liste).
 
 ## Faz A — kalanlar
 
@@ -29,7 +29,7 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 
 ## Faz B — içerik hattı, çeviri, görseller
 
-- [ ] `backend/scripts/draft-next.ts`: `03`'teki listeden sıradaki olay → Claude API (web search) → 3+ kaynak
+- [ ] `backend/scripts/draft-next.ts`: `icerik.md`'deki listeden sıradaki olay → Claude API (web search) → 3+ kaynak
       → şablona göre İngilizce JSON → `status='review'`, `drafted_by='ai'`, `research_note`, `sources`.
 - [ ] GitHub Actions cron (gece 03:00), `CONTENT_PIPELINE_ENABLED`, "kuyrukta 10+ varsa üretme". Telegram (S11).
 - [ ] `/admin/review` onay kuyruğu: taslak + kaynaklar + araştırma notu; Yayınla / Düzenle / Reddet.

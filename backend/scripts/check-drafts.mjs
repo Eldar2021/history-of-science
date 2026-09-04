@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Lints event drafts in backend/content/drafts against doc/03 (template limits) and the schema enums.
+// Lints event drafts in backend/content/drafts against doc/icerik.md (template limits) and the schema enums.
 // Usage: node backend/scripts/check-drafts.mjs [dir]   (exit 1 when any draft has an error)
 // Dependency-free on purpose: the nightly pipeline (week 5) will reuse these checks.
 import { readdirSync, readFileSync } from "node:fs";

@@ -1,6 +1,6 @@
-# 10 — Riskler, açık sorular, park
+# Riskler, açık sorular, park
 
-Cevaplanan soru ve çözülen risk buradan çıkar; kararı `09`'da, uygulaması kodda.
+Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uygulaması kodda.
 
 ## Açık sorular
 

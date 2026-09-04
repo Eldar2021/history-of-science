@@ -1,5 +1,5 @@
 -- 0001_init.sql — Uchkun core schema
--- See doc/04-mimari.md for the rationale. Years are integers; negative = BCE; there is no year 0.
+-- See doc/mimari.md for the rationale. Years are integers; negative = BCE; there is no year 0.
 
 create extension if not exists "pgcrypto";
 create extension if not exists "unaccent";

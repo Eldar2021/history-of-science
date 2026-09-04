@@ -1,6 +1,6 @@
 Check the four-language (en, ru, ky, tr) consistency of the Uchkun project.
 
-1. Read `doc/06-i18n-stratejisi.md` for the rules (URL structure, year formatting table, Kyrgyz letters, Turkish casing, string length).
+1. Read `doc/i18n.md` for the rules (URL structure, year formatting table, Kyrgyz letters, Turkish casing, string length).
 2. Compare `web/messages/en.json` against `ru.json`, `ky.json`, `tr.json`: list keys missing or empty in any language, and keys present in a translation but not in English (stale).
 3. Grep `web/` for hardcoded user-facing strings in JSX (text between tags or in `placeholder`/`aria-label`/`title` props that is not a `t(...)` call). List them with file:line.
 4. Grep for `.toUpperCase(` and `.toLowerCase(` in `web/`; flag any applied to user-visible Turkish/Kyrgyz text.

@@ -1,5 +1,5 @@
 /**
- * Orthographic globe geometry. See doc/09 ADR-024.
+ * Orthographic globe geometry. See doc/kararlar.md ADR-024.
  *
  * The whole globe is a sphere seen from infinitely far away, so the maths is small enough to
  * keep here rather than pull in a projection library: the browser bundle has no dependency of

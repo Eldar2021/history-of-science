@@ -6,12 +6,12 @@ Read only what you need. The docs are small now, but the point of this command i
 2. Read `doc/STATUS.md`: current phase, open items, what is waiting on the user, last session.
 3. Run `git log --oneline -10` and `git status --short`.
 4. Read **only the docs the session's work touches**:
-   - content or event writing → `doc/03-icerik-stratejisi.md`
-   - schema, queries, caching, pipeline, deployment → `doc/04-mimari.md`
-   - languages, year formatting, translation → `doc/06-i18n-stratejisi.md`
-   - starting or planning a phase → `doc/08-yol-haritasi.md`
-   - questioning or changing a decision → `doc/09-kararlar-ADR.md`
-   - risks, open questions, parked ideas → `doc/10-riskler-ve-acik-sorular.md`
+   - content or event writing → `doc/icerik.md`
+   - schema, queries, caching, pipeline, deployment → `doc/mimari.md`
+   - languages, year formatting, translation → `doc/i18n.md`
+   - starting or planning a phase → `doc/yol-haritasi.md`
+   - questioning or changing a decision → `doc/kararlar.md`
+   - risks, open questions, parked ideas → `doc/riskler.md`
      If the session's subject is not clear yet, stop after step 3 and ask.
 
 Then reply in Turkish with a briefing of at most ~12 lines:
