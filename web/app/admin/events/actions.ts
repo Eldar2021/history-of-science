@@ -30,6 +30,9 @@ export async function saveEvent(prev: SaveState, formData: FormData): Promise<Sa
     year_end: parsed.year_end,
     precision: parsed.precision,
     importance: parsed.importance,
+    lat: parsed.lat,
+    lng: parsed.lng,
+    place_precision: parsed.place_precision,
     status: parsed.status,
     source_locale: parsed.source_locale,
   };

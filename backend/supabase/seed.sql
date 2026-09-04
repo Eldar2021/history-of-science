@@ -166,3 +166,7 @@ join events f on f.slug = v.fs join events t on t.slug = v.ts
 on conflict do nothing;
 
 drop function seed_event(text, int, year_precision, int, text[], text, text, text, text);
+
+-- Places for the seeded events. Migration 0004 already ran, but on a fresh local database
+-- it ran before these events existed, so the backfill is applied once more here (see 0004).
+select public.seed_event_places();

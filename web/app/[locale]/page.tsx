@@ -2,11 +2,30 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { FallLink } from "@/components/FallLink";
 import { SiteHeader } from "@/components/SiteHeader";
 import { HonestyBand } from "@/components/HonestyBand";
+import { GlobeHome } from "@/components/globe/GlobeHome";
+import { toGlobeEvents } from "@/lib/globe/events";
+import type { Locale } from "@/lib/i18n/formatYear";
+import { getEras, getTimeline } from "@/lib/queries/timeline";
 
+/**
+ * The home page is the globe (ADR-024). The first event is rendered here on the server, so the
+ * page carries real text and a way into the timeline before any script runs.
+ *
+ * Events with no place cannot be pointed at, so they are not part of the tour; they are still on
+ * the timeline. If no event has a place yet - a database where migration 0004 has not run - the
+ * page falls back to the old opening rather than showing an empty world.
+ */
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations("home");
+  const { locale: raw } = await params;
+  setRequestLocale(raw);
+  const locale = raw as Locale;
+  const [t, timeline, eras] = await Promise.all([getTranslations("home"), getTimeline(locale), getEras(locale)]);
+  const eraNames = new Map(eras.map((e) => [e.id, e.name]));
+
+  const events = toGlobeEvents(timeline, eraNames);
+
+  // The globe is the whole page: it brings its own header and its own honesty line (ADR-027).
+  if (events.length > 0) return <GlobeHome events={events} locale={locale} />;
 
   return (
     <>

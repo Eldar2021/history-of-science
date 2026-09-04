@@ -1,36 +1,49 @@
 import type { Discipline, Era, EventDetail, TimelineEvent } from "@/lib/queries/types";
 import type { Locale } from "@/lib/i18n/formatYear";
+import type { PlacePrecision } from "@/lib/i18n/formatPlace";
 
 /** Used when Supabase env is missing, so the site runs before the database exists. Mirrors seed.sql. */
 const E = (
   slug: string, year: number, precision: TimelineEvent["precision"], era_id: number,
   disciplines: string[], title: string, summary: string,
+  place: [number, number, PlacePrecision, string],
 ): Omit<TimelineEvent, "locale_used" | "is_fallback"> => ({
   id: slug, slug, year, year_end: null, precision, era_id, importance: 5, image_path: null,
+  lat: place[0], lng: place[1], place_precision: place[2], place_name: place[3],
   title, summary, translation_status: "human", disciplines,
 });
 
 const EVENTS = [
   E("thales-natural-explanations", -585, "circa", 1, ["physics", "astronomy"], "Thales looks for natural causes",
-    "A man in Miletus proposes that the world can be explained without gods. The story that he predicted an eclipse is probably legend, but the habit of asking \"why\" is real."),
+    "A man in Miletus proposes that the world can be explained without gods. The story that he predicted an eclipse is probably legend, but the habit of asking \"why\" is real.",
+    [37.5306, 27.2778, "city", "Miletus"]),
   E("euclid-elements", -300, "circa", 1, ["mathematics"], "Euclid writes the Elements",
-    "Thirteen books that build all of geometry from a handful of definitions and five postulates. It stayed a textbook for over two thousand years."),
+    "Thirteen books that build all of geometry from a handful of definitions and five postulates. It stayed a textbook for over two thousand years.",
+    [31.2001, 29.9187, "city", "Alexandria"]),
   E("archimedes-buoyancy-levers", -250, "circa", 1, ["physics", "mathematics"], "Archimedes: buoyancy, levers and the value of pi",
-    "In Syracuse, Archimedes works out why things float, how levers multiply force, and squeezes pi between two numbers using polygons."),
+    "In Syracuse, Archimedes works out why things float, how levers multiply force, and squeezes pi between two numbers using polygons.",
+    [37.0755, 15.2866, "city", "Syracuse"]),
   E("eratosthenes-earth-circumference", -240, "circa", 1, ["astronomy", "earth"], "Eratosthenes measures the Earth",
-    "Using the angle of a shadow in Alexandria and the distance to a well in Syene, a librarian computes the circumference of the planet to within a few percent."),
+    "Using the angle of a shadow in Alexandria and the distance to a well in Syene, a librarian computes the circumference of the planet to within a few percent.",
+    [31.2001, 29.9187, "city", "Alexandria"]),
   E("al-khwarizmi-algebra", 820, "circa", 2, ["mathematics"], "Al-Khwarizmi founds algebra",
-    "In Baghdad, a scholar from Khwarezm writes a book on \"restoring and balancing\" equations. Its title gives us the word algebra; his name gives us algorithm."),
+    "In Baghdad, a scholar from Khwarezm writes a book on \"restoring and balancing\" equations. Its title gives us the word algebra; his name gives us algorithm.",
+    [33.3152, 44.3661, "city", "Baghdad"]),
   E("ibn-al-haytham-optics", 1021, "circa", 2, ["physics"], "Ibn al-Haytham explains vision with experiments",
-    "Working in a darkened room, Ibn al-Haytham shows that we see because light enters the eye, not because the eye sends out rays, and insists that claims be tested."),
+    "Working in a darkened room, Ibn al-Haytham shows that we see because light enters the eye, not because the eye sends out rays, and insists that claims be tested.",
+    [30.0444, 31.2357, "city", "Cairo"]),
   E("ulugh-beg-observatory", 1420, "exact", 3, ["astronomy"], "Ulugh Beg builds the Samarkand observatory",
-    "A ruler-astronomer builds a giant sextant and, with his team, catalogues over a thousand stars with naked-eye precision unmatched until Tycho Brahe."),
+    "A ruler-astronomer builds a giant sextant and, with his team, catalogues over a thousand stars with naked-eye precision unmatched until Tycho Brahe.",
+    [39.6753, 67.0053, "exact", "Samarkand"]),
   E("copernicus-heliocentrism", 1543, "exact", 3, ["astronomy"], "Copernicus puts the Sun at the center",
-    "Published as he lay dying, On the Revolutions argues that the Earth moves around the Sun. The idea was old; the full mathematical system was new."),
+    "Published as he lay dying, On the Revolutions argues that the Earth moves around the Sun. The idea was old; the full mathematical system was new.",
+    [54.3586, 19.6807, "city", "Frombork"]),
   E("newton-principia", 1687, "exact", 3, ["physics", "astronomy", "mathematics"], "Newton publishes the Principia",
-    "The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics."),
+    "The fall of an apple and the orbit of the Moon obey one law. Sky and earth become one physics.",
+    [52.2053, 0.1218, "city", "Cambridge"]),
   E("transistor", 1947, "exact", 7, ["physics", "technology"], "The transistor is invented",
-    "At Bell Labs, Bardeen, Brattain and Shockley make a tiny crystal amplify an electric signal. Every computer, phone and satellite descends from it."),
+    "At Bell Labs, Bardeen, Brattain and Shockley make a tiny crystal amplify an electric signal. Every computer, phone and satellite descends from it.",
+    [40.6836, -74.4007, "exact", "Murray Hill"]),
 ];
 
 const ERA_NAMES: Record<Locale, string[]> = {

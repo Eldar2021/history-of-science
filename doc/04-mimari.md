@@ -12,9 +12,9 @@ yazılmamış parçaların planı var.
 | i18n                  | next-intl 4                                 | `/tr`, `/ky` ön ekli rotalar, App Router uyumlu    |
 | Veri + Auth + Storage | Supabase (Postgres)                         | Ücretsiz katman, RLS, Flutter SDK'sı var           |
 | Sorgu                 | Supabase JS client + Postgres fonksiyonları | Çeviri birleştirmeyi SQL çözer                     |
-| Çeviri                | Claude API (`claude-sonnet-5`)              | Admin'den tek tıkla 4 dile taslak (Hafta 6)        |
-| Görsel                | Supabase Storage + `next/image`             | Hafta 6                                            |
-| OG görsel             | `next/og` (Satori)                          | Hafta 7                                            |
+| Çeviri                | Claude API (`claude-sonnet-5`)              | Admin'den tek tıkla 4 dile taslak (Faz B)           |
+| Görsel                | Supabase Storage + `next/image`             | Faz B                                              |
+| OG görsel             | `next/og` (Satori)                          | Faz C                                              |
 | Hosting               | Vercel (web) + Supabase (veri)              | Git push = deploy                                  |
 
 **Ayrı backend yok** (ADR-002). İş mantığı Postgres fonksiyonlarında ve `backend/scripts` içinde tutulur;
@@ -53,24 +53,30 @@ backend/
 Gerçek kaynak `backend/supabase/migrations/`. Desen: her varlığın dilden bağımsız bir tablosu ve bir
 `*_translations` tablosu var (ADR-003). `locale_code` enum: `en | ru | ky | tr`.
 
-| Tablo                                           | Taşıdığı                                                                                                                                                            |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `eras`                                          | 8 çağ: slug, start_year, end_year, sort_order, color (token adı)                                                                                                    |
-| `era_translations`                              | name, tagline, description                                                                                                                                          |
-| `disciplines`                                   | 8 disiplin: slug, color, icon                                                                                                                                       |
-| `discipline_translations`                       | name                                                                                                                                                                |
-| `events`                                        | slug, year, year_end, `"precision"`, era_id, importance 1-5, status, drafted_by, research_note, source_locale, görsel + lisans alanları, created/updated/deleted_at |
-| `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, status, search (tsvector)                                                                       |
-| `event_disciplines`                             | olay ↔ disiplin                                                                                                                                                     |
-| `people`, `person_translations`, `event_people` | Hafta 9                                                                                                                                                             |
-| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır (ADR-007)                                                                                                    |
-| `sources`                                       | event_id, title, url, kind                                                                                                                                          |
-| `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                                                       |
+| Tablo                                           | Taşıdığı                                                                                                                                                                                           |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `eras`                                          | 8 çağ: slug, start_year, end_year, sort_order, color (token adı)                                                                                                                                   |
+| `era_translations`                              | name, tagline, description                                                                                                                                                                         |
+| `disciplines`                                   | 8 disiplin: slug, color, icon                                                                                                                                                                      |
+| `discipline_translations`                       | name                                                                                                                                                                                               |
+| `events`                                        | slug, year, year_end, `"precision"`, era_id, importance 1-5, status, drafted_by, research_note, source_locale, görsel + lisans alanları, `lat`/`lng`/`place_precision`, created/updated/deleted_at |
+| `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, `place_name`, status, search (tsvector)                                                                                        |
+| `event_disciplines`                             | olay ↔ disiplin                                                                                                                                                                                    |
+| `people`, `person_translations`, `event_people` | Faz D                                                                                                                                                                                              |
+| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır (ADR-007)                                                                                                                                   |
+| `sources`                                       | event_id, title, url, kind                                                                                                                                                                         |
+| `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                                                                                      |
 
-Enum'lar: `year_precision` (exact/circa/decade/century), `content_status` (draft/review/published),
+Enum'lar: `year_precision` (exact/circa/decade/century), `place_precision`
+(exact/city/region/continent/unknown), `content_status` (draft/review/published),
 `author_kind` (human/ai), `translation_status` (machine/human/reviewed), `link_type`.
 
 **Yıl tamsayıdır, negatif = MÖ, sıfır yılı yoktur** (ADR-004). Formatlama yalnızca `formatYear.ts`'de.
+
+**Yer, yılın aynı desenini izler** (ADR-025): belirsizlik veride enum olarak durur
+(`place_precision`), sözcük UI'dan gelir. `place_name` **çıplak addır** ("Semerkant"); "civarı",
+"around", "bir yerde" gibi ekler `messages/*.json`'dan eklenir, veritabanına yazılmaz. `unknown`
+ise koordinat olamaz, diğer durumlarda zorunludur (`place_needs_coords`).
 
 **Tuzak**: Postgres'te `precision` anahtar kelime. `returns table` içinde `"precision"` diye tırnaklı
 yazılır; yeni fonksiyonlarda da aynısı gerekir.
@@ -78,10 +84,11 @@ yazılır; yeni fonksiyonlarda da aynısı gerekir.
 ### Okuma fonksiyonları
 
 - `get_timeline(locale)`: yayınlanmış olaylar + istenen dilde çeviri; yoksa `source_locale` çevirisi ve
-  `is_fallback = true`.
+  `is_fallback = true`. Yer alanları (`lat`, `lng`, `place_precision`, `place_name`) da burada gelir;
+  küre ana sayfası tek çağrıyla beslenir. `place_name` çeviride yoksa `source_locale`'e düşer.
 - `get_event_detail(slug, locale)`: olay + çeviri + disiplinler + kişiler + bağlantılar (iki yönlü) +
   kaynaklar, tek JSON. Anon rolde taslak `null` döner.
-- `get_chain(slug, locale, depth)`: `builds_on` zinciri, derinlik 6, döngü koruması (Hafta 10'da kullanılacak).
+- `get_chain(slug, locale, depth)`: `builds_on` zinciri, derinlik 6, döngü koruması (Faz D'de kullanılacak).
 - Çağ ataması yıl üzerinden trigger ile otomatik.
 
 ### Güvenlik (RLS)
@@ -97,7 +104,26 @@ yazılır; yeni fonksiyonlarda da aynısı gerekir.
 - Kanıt: `backend/scripts/rls-proof.sh` anon key ile REST/RPC'yi dener; yayınsız satır 0, `profiles` gizli,
   anon insert 401.
 - **Bilinen açık**: `profiles` yazma politikası yalnızca admin, yani `editor` rolü kendi `ui_locale`'ini
-  değiştiremez. Hafta 9'da editör hesaplarıyla birlikte self-update policy migration'ı gerekir.
+  değiştiremez. Faz D'de editör hesaplarıyla birlikte self-update policy migration'ı gerekir.
+
+## Ana sayfa küresi
+
+Canvas 2D, **çalışma zamanında bağımlılık yok**. Ortografik izdüşüm, büyük daire yayı ve belirsizlik
+çemberi `web/lib/globe/projection.ts` içinde birkaç düzine satır trigonometri; `formatYear`/`formatPlace`
+gibi saf ve test edilebilir.
+
+Kara bir **fotoğraftan** geliyor: NASA Blue Marble, telifsiz (ADR-026). İki boy var, ikisi de aynı
+8192'lik asıldan türetildi — yükseltme yalnızca netleştirir, görüntüyü değiştirmez:
+`earth-2048.jpg` (238 KB) ilk boyamada gelir; `earth-4096.jpg` (905 KB) yalnızca ekran gerçekten
+farkı gösterecekse ve cihaz kaldırabiliyorsa (küre çapı 1024 aygıt pikselinden büyük, `saveData`
+kapalı, `deviceMemory ≥ 4`) arkadan yüklenip devralır. Küre durunca doku çift doğrusal (bilinear)
+örneklenir, dönerken en yakın komşu. `sphere.ts` diskin her pikseli için izdüşümü tersine çevirip dokudan
+okuyor ve tek ışıkla gölgeliyor; saf fonksiyon olduğu için eşleme test edilebiliyor. Dönerken %55
+çözünürlükte çizilip büyütülüyor (her pikselde bir arcsin + bir arctan var), durunca tam çözünürlük.
+
+Ana sayfa tam ekran bir gökyüzü (ADR-027): `.globe-stage` sınıfı, tema ne olursa olsun karanlık
+paleti ödünç alır ve zemini neredeyse siyaha çeker; site başlığı bu sahnenin içinde, kendi zemini
+olmadan yüzer. Animasyon karesi yalnızca kamera hareket ederken ya da küre elle çevrilirken döner.
 
 ## Admin → site anında yayın (ADR-021)
 
@@ -114,10 +140,10 @@ uygulanır, giriş yapmış admin de sitede taslak görmez. Okumalar `unstable_c
 `event:{slug}` etiketlerinde; yedek `revalidate: 300`. Böylece Supabase Studio'dan elle yapılan değişiklik
 en geç 5 dakikada görünür. Olay sayfaları `generateStaticParams` ile önceden render edilir.
 
-`cacheComponents` + `"use cache"` geçişi Hafta 8'e ertelendi; `unstable_cache` bir gün kaldırılırsa
+`cacheComponents` + `"use cache"` geçişi Faz C'ye ertelendi; `unstable_cache` bir gün kaldırılırsa
 yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
-## Otomatik içerik hattı (Hafta 5, henüz yok)
+## Otomatik içerik hattı (Faz B, henüz yok)
 
 ```
 Her gece 03:00 (GitHub Actions cron)
@@ -134,7 +160,7 @@ Sabah: /admin/review → oku, düzelt, Yayınla / Reddet
 - Kapatma anahtarı `CONTENT_PIPELINE_ENABLED=false`. Kuyrukta 10'dan fazla bekleyen varsa üretmez.
 - Maliyet: taslak başına ~30-50 bin token, ayda ~60 taslak ≈ 5-10 $.
 
-## Çeviri hattı (Hafta 6, henüz yok)
+## Çeviri hattı (Faz B, henüz yok)
 
 1. Olay `source_locale` dilinde var (Claude taslağı `en`, senin yazdığın `ky`/`tr`).
 2. "Diğer dillere çevir" → server action → Claude API: alanlar, ses tonu kuralları (03), terim sözlüğü

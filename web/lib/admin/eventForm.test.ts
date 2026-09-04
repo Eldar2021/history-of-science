@@ -49,3 +49,58 @@ describe("validateEventForm", () => {
     expect(validateEventForm({ ...good, slug: "thales-eclipse" }).parsed?.slug).toBe("thales-eclipse");
   });
 });
+
+describe("validateEventForm: place", () => {
+  const good = { ...emptyEventForm(), year: "-585", title: "Thales looks for natural causes", summary: "A sentence.", disciplines: ["astronomy"] };
+
+  it("accepts an event with no place at all", () => {
+    const { errors, parsed } = validateEventForm({ ...good, place_precision: "unknown" });
+    expect(errors).toEqual({});
+    expect(parsed!.lat).toBeNull();
+    expect(parsed!.lng).toBeNull();
+    expect(parsed!.translation.place_name).toBeNull();
+  });
+
+  it("drops coordinates and name left over from a place that was set to unknown", () => {
+    // The form hides the fields, but a stale POST must not slip past place_needs_coords.
+    const { parsed } = validateEventForm({ ...good, place_precision: "unknown", lat: "37.5", lng: "27.3", place_name: "Miletus" });
+    expect(parsed!.lat).toBeNull();
+    expect(parsed!.lng).toBeNull();
+    expect(parsed!.translation.place_name).toBeNull();
+  });
+
+  it("requires coordinates and a name once a place is claimed", () => {
+    const { errors } = validateEventForm({ ...good, place_precision: "city" });
+    expect(errors.lat).toBe("latInvalid");
+    expect(errors.lng).toBe("lngInvalid");
+    expect(errors.place_name).toBe("placeNameRequired");
+  });
+
+  it("lets a translator leave the name empty in a language that is not the source", () => {
+    const { errors, parsed } = validateEventForm({
+      ...good, place_precision: "city", lat: "54.3586", lng: "19.6807",
+      source_locale: "en", edit_locale: "ky", place_name: "",
+    });
+    expect(errors).toEqual({});
+    expect(parsed!.translation.place_name).toBeNull(); // reads fall back to the source locale
+  });
+
+  it("keeps latitude and longitude inside their own ranges", () => {
+    const at = (lat: string, lng: string) => validateEventForm({ ...good, place_precision: "city", place_name: "Miletus", lat, lng }).errors;
+    expect(at("120", "27.2778").lat).toBe("latInvalid");
+    expect(at("37.5306", "200").lng).toBe("lngInvalid");
+    // 100 is a valid longitude but not a valid latitude
+    expect(at("100", "100").lat).toBe("latInvalid");
+    expect(at("100", "100").lng).toBeUndefined();
+    expect(at("-90", "-180")).toEqual({});
+  });
+
+  it("passes a real place through unchanged", () => {
+    const { errors, parsed } = validateEventForm({ ...good, place_precision: "exact", place_name: "Samarkand", lat: "39.6753", lng: "67.0053" });
+    expect(errors).toEqual({});
+    expect(parsed!.lat).toBe(39.6753);
+    expect(parsed!.lng).toBe(67.0053);
+    expect(parsed!.place_precision).toBe("exact");
+    expect(parsed!.translation.place_name).toBe("Samarkand");
+  });
+});

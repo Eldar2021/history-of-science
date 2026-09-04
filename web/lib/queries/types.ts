@@ -1,8 +1,9 @@
 import type { Locale, YearPrecision } from "@/lib/i18n/formatYear";
+import type { PlacePrecision } from "@/lib/i18n/formatPlace";
 
 export type TranslationStatus = "machine" | "human" | "reviewed";
 
-/** One row of get_timeline(locale). Mirrors backend/supabase/migrations/0001_init.sql. */
+/** One row of get_timeline(locale). Mirrors backend/supabase/migrations/0001_init.sql and 0003_event_place.sql. */
 export type TimelineEvent = {
   id: string;
   slug: string;
@@ -12,6 +13,12 @@ export type TimelineEvent = {
   era_id: number;
   importance: number;
   image_path: string | null;
+  /** Where it happened. null whenever place_precision is "unknown" (see ADR-025). */
+  lat: number | null;
+  lng: number | null;
+  place_precision: PlacePrecision;
+  /** Bare name, no qualifier; falls back to the source locale. Format with formatPlace. */
+  place_name: string | null;
   title: string;
   summary: string;
   translation_status: TranslationStatus;
@@ -28,7 +35,7 @@ export type LinkedEvent = { slug: string; year: number; title: string; note: str
 export type EventPerson = { slug: string; name: string; role: string | null; birth_year: number | null; death_year: number | null };
 export type EventSource = { title: string; url: string | null; kind: string | null };
 
-/** The JSON document of get_event_detail(slug, locale). Mirrors backend/supabase/migrations/0002_event_detail.sql. */
+/** The JSON document of get_event_detail(slug, locale). Mirrors backend/supabase/migrations/0002_event_detail.sql and 0003_event_place.sql. */
 export type EventDetail = {
   id: string;
   slug: string;
@@ -42,6 +49,12 @@ export type EventDetail = {
   image_credit: string | null;
   image_license: string | null;
   image_source_url: string | null;
+  /** Where it happened. null whenever place_precision is "unknown" (see ADR-025). */
+  lat: number | null;
+  lng: number | null;
+  place_precision: PlacePrecision;
+  /** Bare name, no qualifier; falls back to the source locale. Format with formatPlace. */
+  place_name: string | null;
   title: string;
   summary: string;
   body: string | null;

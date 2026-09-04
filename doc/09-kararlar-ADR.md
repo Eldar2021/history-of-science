@@ -111,11 +111,9 @@ Keşfet kanvası için çağ renk paleti ayrı bir tasarım turunda istenecek.
 
 ## ADR-020: Birincil tema açık ("gözlem defteri")
 
-**2026-09-03 · Kabul** — Krem kâğıt (#f5ead8), koyu mürekkep, terracotta vurgu. Karanlık tema ikinci sınıf
-değildir; her bileşen iki temada test edilir. Açık temada gövde metni 15.4:1, ikincil 5.6:1; `text-muted`
-(3.7:1) yalnızca etiketlerde, gövdede kullanılmaz. Vurgu rengi kâğıt üstünde 3:1 — buton ve çizgi için
-yeterli, metin için `--accent-text` (#8c491a) kullanılır.
-Karanlığa geçiş kuralı ADR-022 ile değişti.
+**2026-09-03 · Geçersiz, bkz. ADR-029.** Açık palet krem kâğıt + koyu mürekkep üzerineydi. Site tek koyu
+temaya geçti; açık ramp `git log`'da duruyor. Buradan tek taşınan kural: gövde metni en az 4.5:1,
+`text-muted` yalnızca etiketlerde.
 
 ## ADR-021: Site okumaları etiketli veri önbelleğinde; `cacheComponents` ertelendi
 
@@ -131,18 +129,9 @@ geçilirse yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
 
 ## ADR-022: Açık tema tek varsayılan; işletim sistemi tercihi okunmuyor
 
-**2026-09-04 · Kabul**
-
-- **Bağlam**: ADR-020 açık temayı birincil yaptı ama karanlık tema `prefers-color-scheme: dark` ile de
-  geliyordu. Sonuç: kullanıcının telefonu/masaüstü karanlıktaysa site karanlık açılıyordu ve işletim
-  sistemi gün içinde tema değiştirdiğinde site kendiliğinden açıktan karanlığa atlıyordu.
-- **Karar**: `prefers-color-scheme` medya sorgusu kaldırıldı. Açık tema tek varsayılan; karanlık tema
-  yalnızca kullanıcı başlıktaki anahtara bastığında gelir (`data-theme="dark"` + `localStorage`).
-- **Gerekçe**: Öngörülebilirlik. Sitenin kimliği "gözlem defteri"; ilk izlenim her ziyaretçide aynı olmalı.
-  Kendiliğinden değişen tema hata gibi okunuyordu.
-- **Sonuçlar**: Karanlık temayı isteyen her tarayıcıda bir kez anahtara basar, seçim orada kalır. Karanlık
-  tema token'ları ve testleri aynen duruyor. Tercihi otomatik almak ileride istenirse ayrı bir "sistem"
-  üçüncü durumu olarak eklenir, varsayılan olarak değil.
+**2026-09-04 · Geçersiz, bkz. ADR-029.** `prefers-color-scheme` kaldırılmıştı çünkü site işletim
+sistemine bakıp kendiliğinden tema değiştiriyordu. Artık tema seçimi yok. Taşınan tek ders: temanın
+kendiliğinden değişmesi ziyaretçiye hata gibi okunur.
 
 ## ADR-023: Yıl metninde kısaltma yok; çağ kısaltması açıklanır
 
@@ -160,6 +149,161 @@ geçilirse yalnızca `lib/queries/` içindeki dört fonksiyon değişir.
   başına yılı iki satıra düşürüyordu; parçalara bölmek hem okunurluğu hem tipografik hiyerarşiyi korudu.
 - **Sonuçlar**: `formatYear` hâlâ tek string döndürür (aria-label, sayfa başlığı, e-posta konusu için).
   Yeni yıl gösteren her yer `formatYearParts` kullanmalı. `06`'daki yıl tablosu güncellendi.
+
+---
+
+## ADR-024: Ana sayfa tam ekran bir küre; timeline'a kapı
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Ana sayfa "herhangi bir site" gibi duruyordu (S16'dan beri kullanıcının açık şikâyeti).
+  Site tek soruya cevap veriyordu: **ne zaman**. Bilim tarihinin en çarpıcı hikâyelerinden biri ise
+  coğrafi: bilgi merkezinin İskenderiye → Bağdat → Semerkant → Mainz → Londra diye göç etmesi. Hiçbir
+  zaman çizelgesi bunu gösteremez.
+- **Karar**: Ana sayfa (`/[locale]`) tam ekran, stilize (dokusuz, noktalı) bir küre olur. Olayın yeri
+  **her zaman ekranın merkezinde** durur; kart merkeze bakan kuyruklu bir balon olarak açılır; karta
+  tıklamak mevcut yandan sheet'i açar. İleri/geri düğmeleri (+ klavye okları, mobilde kaydırma) 43+
+  olayın tamamını kronolojik olarak dolaşır ve gidilen yol küre üzerinde soluk yaylar olarak birikir.
+  Açılışta **giriş animasyonu yok**: küre ilk olayın yerine dönmüş hâlde gelir. Sinematik gezinti
+  isteyen için varsayılanı kapalı bir "Turu oynat" düğmesi olur. Tek çıkış kapısı: "Tüm zaman
+  çizelgesini keşfet" → `/[locale]/timeline`.
+- **Gerekçe**: Kullanıcının ilk fikri 2026'dan MÖ 585'e geri sayan bir açılış animasyonu içeriyordu;
+  tartışmada bundan vazgeçildi çünkü zorunlu bekleme ekranı en çok terk ettiren şeydir ve 2600 yılı
+  lineer saymak 40 saniye sürüyordu. Stilize küre gerçekçi doku yerine seçildi: WebGL paketi ve 1-2 MB
+  Dünya dokusu mobil performans bütçesini zorluyordu, ayrıca noktalı küre sitenin sade estetiğine ve
+  açık temaya (ADR-020, ADR-022) daha iyi oturuyor — küre kendi koyu "uzay" bandında yaşar, sayfanın
+  kalanı aydınlık kalır.
+- **Sonuçlar**: Küre yalnızca ilerlemeli bir katman: ilk boyamada ilk olayın metni sunucudan gerçek
+  HTML olarak gelir (SEO + JS'siz durum), LCP statik bir küre görselidir, WebGL yoksa veya
+  `prefers-reduced-motion` açıksa sabit görsel + kart gösterilir ve düğmeler yine çalışır. Her olay
+  derin bağlantılıdır (`?event=slug`), tarayıcı geri tuşu çalışır. Yer verisi ADR-025'te.
+  `08`'deki "Hafta 8 ana sayfa yeniden tasarımı" maddesi bu karara dönüştü.
+
+---
+
+## ADR-025: Yer belirsizliği yıl belirsizliğinin desenini izler
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Küre bir noktaya kamera götürmek zorunda, ama bazı olayların yeri gerçekten bilinmiyor:
+  al-Biruni'nin Dünya'nın yarıçapını ölçtüğü tepe Pencap'ta bir yerdedir, hangisi olduğu belirsiz.
+  Bunu gizlemek sitenin dürüstlük ilkesine aykırı olurdu.
+- **Karar**: Yıl için `year_precision` ne yapıyorsa yer için `place_precision` aynısını yapar:
+  `exact` (tespit edilmiş yapı/alan) · `city` · `region` · `continent` · `unknown`. Belirsizlik
+  **veride** durur, sözcük **UI'dan** gelir: `place_name` çıplak addır ("Semerkant"), "civarı" /
+  "around" / "bir yerde" ekleri `messages/*.json`'dan eklenir. Kürede `exact`/`city` net bir pin,
+  `region`/`continent` yarıçapı kesinliğe göre büyüyen kesikli bir çember, `unknown` pin yok +
+  küre geri çekilmiş olur. Renk **kırmızı değildir**: kırmızı "hata" demektir, bu ise bilgi eksikliği.
+  Kısıt: `unknown` ise koordinat olamaz, değilse zorunludur (`place_needs_coords`).
+- **Gerekçe**: ADR-023 ile birebir aynı mantık — okuyucunun çözmesi gereken kısaltma ya da uydurulmuş
+  kesinlik yok. Enum'u veride tutmak, ileride "MÖ 9000 civarı tarım" gibi olayları kıta düzeyinde
+  gösterebilmemizi sağlar; koordinatı uydurmak zorunda kalmayız.
+- **Sonuçlar**: Migration 0003 şemayı, 0004 ilk 43 olayın backfill'ini taşır; bundan sonra yer
+  `/admin` formundan girilir. `continent` ve `unknown` henüz hiçbir olayda kullanılmıyor ama küre
+  ikisini de çizmek zorundadır — tarih öncesi olaylar geldiğinde gerekecek. Yer metnini biçimleyen
+  tek yer `formatPlace.ts` olur (`formatYear.ts` ile aynı kural).
+
+---
+
+## ADR-026: Küre bir fotoğraf; nokta haritası kaldırıldı
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: İlk küre karayı 1°'lik bir maskeden üretilen noktalarla çiziyordu. Kullanıcı canlıda
+  denedi ve iki şey söyledi: küre 2D duruyor, kıtalarda hatalar var. İkisi de doğruydu — maske
+  kıyıları yarım derece şişiriyor, ince yarımadaları yutuyordu; dönmeyen ve elle çevrilemeyen bir
+  nokta bulutu da göz için düz bir daire. Kullanıcı NASA'nın `solarsystem.nasa.gov/gltf_embed/2393`
+  küresini önerdi.
+- **Karar**: Küre artık NASA Blue Marble fotoğrafını giyiyor (`land_shallow_topo_2048.jpg`,
+  2048×1024, **238 KB**, `web/public/globe/`). Çizim yine kendi Canvas 2D'imiz: `sphere.ts` diskin
+  her pikseli için ortografik izdüşümü tersine çevirip eşlek dikdörtgen dokudan okuyor ve tek bir
+  ışıkla gölgeliyor. Nokta üreteci, kara maskesi ve üç build-time bağımlılığı (`d3-geo`,
+  `topojson-client`, `world-atlas`) silindi.
+- **Gerekçe**: NASA'nın **modeli** 12,9 MB — bizim tüm küremiz 11 KB'dı; mobil performans bütçesini
+  (M2: Lighthouse 90+) tek başına bitirirdi. Embed'i iframe ile gömmek teknik olarak mümkün ama
+  işe yaramaz: o çerçeveyi Semerkant'a çeviremeyiz ve üstüne kendi pinlerimizi koyamayız, yani
+  özelliğin kendisi kaybolur. NASA'nın **görüntüsü** ise telifsiz (CC0 muadili) ve boyutunu biz
+  seçiyoruz. Böylece coğrafya foto gerçekliğinde doğru, "maske hatası" diye bir kategori kalmıyor,
+  ışık ve terminatör küreyi top gibi gösteriyor — üstelik pinler, belirsizlik çemberleri, kart ve
+  elle çevirme olduğu gibi kalıyor, üç.js gibi bir katman gerekmiyor.
+- **Sonuçlar**: Her pikselde bir arcsin ve bir arctan var; küre dönerken **%55 çözünürlükte** çizilip
+  büyütülüyor, durunca son kare tam çözünürlükte. Fotoğraf yüklenene kadar sade ışıklı bir top
+  çiziliyor, yüklenemezse de öyle kalıyor — pinler ve düğmeler her hâlükârda çalışıyor. Atıf
+  kürenin altında görünür (kaynak URL'ye bağlı), lisans ve tam kaynak `Globe.tsx`'te
+  `EARTH_TEXTURE`'ın yanında.
+
+---
+
+## ADR-027: Ana sayfa tam ekran bir gökyüzü; site kabuğu kürenin üstünde yüzer
+
+**2026-09-04 · Kabul** · ADR-024'ün "küre kendi koyu bandında, sayfanın kalanı aydınlık" maddesini
+geçersiz kılar; o kararın geri kalanı (küre = timeline'a kapı, yerin hep merkezde olması, kuyruklu
+kart, ileri/geri) aynen geçerli.
+
+- **Bağlam**: Küre NASA fotoğrafını giydikten sonra sayfanın kalanı ona yakışmıyordu: açık zeminli
+  opak bir başlık çubuğu, altta bir kutu içinde uzun dürüstlük paragrafı, ve ekranın ancak bir
+  kısmını kaplayan bir küre. Kullanıcı referans olarak `eyes.nasa.gov/apps/solar-system` verdi:
+  saydam kabuk, siyah zemin, beyaz metin, tam ekran.
+- **Karar**: Ana sayfa `100dvh`, neredeyse siyah (`#05070b`) bir gökyüzü; üzerinde sabit bir yıldız
+  alanı var. Site başlığı kendi zemini ve çizgisi olmadan kürenin üstünde yüzüyor (`SiteHeader over`).
+  Kart opak kutu değil, `backdrop-blur`'lu yarı saydam bir panel. **Dürüstlük bandı ana sayfada tek
+  satıra iniyor** ("Bu siteyi bir tarihçi yazmadı." + hata bildirme bağlantısı); diğer tüm sayfalarda
+  paragraf hâliyle duruyor. NASA atfı onun yanında.
+- **Gerekçe**: Sayfadaki tek parlak şey Dünya olmalı; onunla yarışan her kutu küreyi bir bileşen gibi
+  gösteriyordu. Dürüstlük ilkesinden **vazgeçilmedi**, yalnızca boyu değişti: itiraf da, hata bildirme
+  bağlantısı da ekranda duruyor (README'deki ürün ilkesi korunuyor). Sitenin kalanı açık tema olarak
+  kalıyor — ADR-020 ve ADR-022 değişmedi; koyu olan sayfa değil, uzay.
+- **Sonuçlar**: Ana sayfa artık kaydırılmıyor, tek ekran.
+- **Ek (2026-09-04)**: Ana sayfada zaman çizelgesine giden bağlantıların ikisi de kaldırıldı
+  (başlıktaki bağlantı ve "Tüm zaman çizelgesini keşfet" düğmesi) — kullanıcı kararı, küre iyice
+  sadeleşsin diye. `/timeline` duruyor ve diğer her sayfanın başlığından erişiliyor; **ana sayfadan
+  erişilmiyor.** Ziyaretçinin oraya ulaşması için bir olay açıp oradan gitmesi ya da adresi bilmesi
+  gerekiyor. Ana sayfa bu hâliyle bir çıkmaz; beta geri bildirimlerinde bu çıkarsa ilk geri alınacak
+  şey budur.
+
+---
+
+## ADR-028: İşaretler kızıl, koyu konturlu
+
+**2026-09-04 · Kabul** · ADR-025'in "renk kırmızı değildir" maddesini geçersiz kılar; o kararın geri
+kalanı (yer kesinliği enumu, çıplak ad, kesikli çember, en az 22 piksel) aynen geçerli.
+
+- **Bağlam**: Pinler disiplin rengindeydi ve aktif olan sitenin turuncu vurgu rengiydi. Dünya
+  fotoğrafı gelince ikisi de kayboldu: Sahra, Arabistan ve Avustralya iç bölgeleri zaten sıcak
+  sarı-turuncu. Kullanıcı işaretleri bulamadığını söyledi ve kızıl önerdi.
+- **Karar**: Bütün işaretler kızıl (`--globe-marker`), aktif olan daha parlak ve haleli, diğerleri
+  daha sönük. Her pinin altına **koyu bir kontur** çiziliyor; belirsizlik çemberinin kesikleri de
+  önce koyu, sonra kızıl çiziliyor. Disiplin rengi kürede kullanılmıyor.
+- **Gerekçe**: Kızıl, fotoğrafta bulunmayan tek renk; okyanusta, çölde, ormanda ve buzda aynı
+  şekilde görünüyor. Kontur ise zemin ne olursa olsun kontrastı garantiliyor — asıl işi yapan o.
+  Disiplin rengi 2,8 pikselde zaten okunmuyordu: sekiz tonu ayırt edebilen kimse yok, yani bilgi
+  taşıdığını sanmak kendimizi kandırmaktı.
+- **Sonuçlar**: ADR-025'teki "kırmızı hata demektir" gerekçesi artık geçerli değil, çünkü kızıl
+  bu kürede **hata değil "yer"** demek: her pin kızıl. Belirsizliği taşıyan şey renk değil,
+  **kesikli çizgi** — `exact` ve `city` düz bir nokta, `region` ve `continent` kesikli bir çember.
+  Ayrım hâlâ görünür ve hâlâ dürüst.
+
+---
+
+## ADR-029: Tek tema, koyu
+
+**2026-09-04 · Kabul** · ADR-020 (açık tema birincil) ve ADR-022 (açık tema tek varsayılan)
+geçersizdir.
+
+- **Bağlam**: Ana sayfa uzayda bir Dünya fotoğrafı oldu (ADR-026, ADR-027). Kullanıcı sitenin
+  tamamının buna ait olmasını istedi: açık tema kalksın, tema düğmesi kalksın, admin dahil her yer
+  koyu olsun.
+- **Karar**: Tek tema. `globals.css` artık yalnızca koyu paleti tanımlıyor; `data-theme` niteliği,
+  `lib/theme.ts`, ön-boyama betiği ve `ThemeToggle` silindi. `.globe-stage` yalnızca gökyüzüne özgü
+  değerleri (neredeyse siyah zemin, yıldız, kızıl işaret renkleri) üstüne yazıyor.
+- **Gerekçe**: Tek görünüm, tek palet, bakımı en kolayı; ve sayfanın kimliği artık küreden geliyor.
+- **Karşı görüş (kayda geçsin)**: Uzun metni koyu zeminde okumak birçok kişi için daha yorucudur —
+  özellikle astigmatlı gözde açık harfler koyu zeminde dağılır (halation). Olay sayfaları uzun metin
+  taşıyor. Açık palet zaten yazılmış ve çalışıyordu; düğmeyi tutmak bize bir şey kaybettirmezdi.
+  Bunu kullanıcıya söyledim, kullanıcı kararında ısrar etti — karar onun, gerekçesi burada duruyor.
+- **Sonuçlar**: Okuyucunun tema seçimi yok. Beta'da (M2) okuma yorgunluğu geri bildirimi gelirse
+  ilk bakılacak yer burasıdır; açık palet `git log`'da duruyor, geri getirmek bir commit'tir.
+  `resource/design/tokens.json`'daki açık ramp artık kullanılmıyor; işleyen kaynak `globals.css`.
 
 ---
 

@@ -12,15 +12,20 @@
   "nav": {
     "timeline": "Timeline",
     "about": "About",
-    "language": "Language",
-    "theme": "Theme",
-    "themeLight": "Switch to light theme",
-    "themeDark": "Switch to dark theme"
+    "language": "Language"
   },
   "home": {
     "question": "How did we get here?",
     "lead": "From Thales to CRISPR: every discovery stood on an earlier one. Fall into time and watch how slowly it started, and how fast it got.",
-    "cta": "Fall into time"
+    "cta": "Fall into time",
+    "previous": "Previous event",
+    "next": "Next event",
+    "progress": "{index} of {total}",
+    "openEvent": "Read the story: {title}",
+    "recenter": "Back to the place",
+    "earthCredit": "NASA Blue Marble",
+    "playTour": "Play the tour",
+    "stopTour": "Stop"
   },
   "timeline": {
     "title": "Timeline",
@@ -41,6 +46,7 @@
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
+    "short": "This site was not written by a historian.",
     "report": "Report an error",
     "subject": "Uchkun: error report",
     "subjectEvent": "Uchkun: error in \"{title}\" ({year})",
@@ -128,6 +134,13 @@
         "decade": "Decade",
         "century": "Century"
       },
+      "placePrecision": {
+        "exact": "Exact site",
+        "city": "City",
+        "region": "Region",
+        "continent": "Wider region",
+        "unknown": "No single place"
+      },
       "importanceLevels": {
         "1": "footnote, only when zoomed in",
         "2": "minor",
@@ -143,6 +156,14 @@
         "yearEndHint": "Only for processes (1925–1927).",
         "precision": "Precision",
         "importance": "Importance",
+        "where": "Where",
+        "placePrecision": "How well the place is known",
+        "placePrecisionHint": "Never invent a spot: choose \"no single place\" instead.",
+        "placeName": "Place name",
+        "placeNameHint": "Bare name, no \"around\": Samarkand, Central Asia.",
+        "lat": "Latitude",
+        "lng": "Longitude",
+        "coordsHint": "Decimal degrees. North and east are positive.",
         "text": "Text",
         "title": "Title",
         "summary": "Summary",
@@ -172,6 +193,9 @@
         "yearEndInvalid": "Enter a whole number or leave empty.",
         "yearEndBefore": "End year is before the start year.",
         "importanceRange": "Importance is 1 to 5.",
+        "placeNameRequired": "Give the place a name, or choose \"no single place\".",
+        "latInvalid": "Latitude between -90 and 90.",
+        "lngInvalid": "Longitude between -180 and 180.",
         "titleRequired": "Title is required.",
         "summaryRequired": "Summary is required.",
         "disciplineRequired": "Pick at least one discipline.",

@@ -11,9 +11,9 @@ Bitmiş iş buradan silinir; kanıtı kodda ve git geçmişinde durur.
 | 03     | [03-icerik-stratejisi.md](03-icerik-stratejisi.md)             | Çağlar, disiplinler, olay şablonu, ses tonu, yazılacak liste | İçerik yazarken      |
 | 04     | [04-mimari.md](04-mimari.md)                                   | Yığın, veri modeli, yayın akışı, içerik hattı, ortam        | Kod yazarken         |
 | 06     | [06-i18n-stratejisi.md](06-i18n-stratejisi.md)                 | Yıl tablosu, dil tuzakları, çeviri hattı                    | Dil işine girerken   |
-| 08     | [08-yol-haritasi.md](08-yol-haritasi.md)                       | Kalan haftalar ve kilometre taşları                         | Hafta başı           |
+| 08     | [08-yol-haritasi.md](08-yol-haritasi.md)                       | Sıradaki fazlar, kilometre taşları, içerik dondurma kuralı  | Bir faza başlarken   |
 | 09     | [09-kararlar-ADR.md](09-kararlar-ADR.md)                       | Hâlâ bağlayıcı olan kararlar ve gerekçeleri                 | Bir kararı sorgularken |
-| 10     | [10-riskler-ve-acik-sorular.md](10-riskler-ve-acik-sorular.md) | Açık sorular, canlı riskler, park edilmiş fikirler          | Hafta başı           |
+| 10     | [10-riskler-ve-acik-sorular.md](10-riskler-ve-acik-sorular.md) | Açık sorular, canlı riskler, park edilmiş fikirler          | Bir faza başlarken   |
 | 11     | [11-claude-ile-calisma.md](11-claude-ile-calisma.md)           | Bu projeyi Claude Code ile yürütme kuralları                | Her oturum           |
 | STATUS | [STATUS.md](STATUS.md)                                         | Şu an neredeyiz, ne bekliyor, son oturum                    | Her oturum başı      |
 

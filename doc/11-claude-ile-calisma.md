@@ -35,7 +35,7 @@ Ajanlar (`.claude/agents/`): `content-writer` (olay taslağı), `fact-checker` (
 > 03'teki şablon ve ses tonuyla şu olayları İngilizce yaz: [liste]. Her biri için en az 2 kaynak URL'si
 > öner, yıl belirsizse söyle. Efsane olan kısımları "efsane" diye işaretle.
 
-**Hat kalitesi oturumu** (Hafta 5'ten sonra ayda bir)
+**Hat kalitesi oturumu** (Faz B'den sonra ayda bir)
 
 > Son 30 gündeki review kuyruğunda reddedilen ve çok düzenlenen taslaklara bak (`research_note` ve fark).
 > Ortak sorunları çıkar, `draft-next.ts` prompt'unu iyileştir, 3 yeni taslakla test et.

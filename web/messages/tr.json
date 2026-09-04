@@ -12,15 +12,20 @@
   "nav": {
     "timeline": "Zaman çizgisi",
     "about": "Hakkında",
-    "language": "Dil",
-    "theme": "Tema",
-    "themeLight": "Açık temaya geç",
-    "themeDark": "Karanlık temaya geç"
+    "language": "Dil"
   },
   "home": {
     "question": "Buraya nasıl geldik?",
     "lead": "Thales'ten CRISPR'a: her keşif bir öncekinin omzunda yükseldi. Zamana düş; ne kadar yavaş başladığını, ne kadar hızlandığını gör.",
-    "cta": "Zamana düş"
+    "cta": "Zamana düş",
+    "previous": "Önceki olay",
+    "next": "Sonraki olay",
+    "progress": "{index} / {total}",
+    "openEvent": "Hikâyeyi oku: {title}",
+    "recenter": "Yere geri dön",
+    "earthCredit": "NASA Blue Marble",
+    "playTour": "Turu oynat",
+    "stopTour": "Durdur"
   },
   "timeline": {
     "title": "Zaman çizgisi",
@@ -41,6 +46,7 @@
   },
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
+    "short": "Bu siteyi bir tarihçi yazmadı.",
     "report": "Hata bildir",
     "subject": "Uchkun: hata bildirimi",
     "subjectEvent": "Uchkun: \"{title}\" ({year}) olayında hata",
@@ -128,6 +134,13 @@
         "decade": "On yıl",
         "century": "Yüzyıl"
       },
+      "placePrecision": {
+        "exact": "Kesin nokta",
+        "city": "Şehir",
+        "region": "Bölge",
+        "continent": "Geniş bölge",
+        "unknown": "Tek bir yer yok"
+      },
       "importanceLevels": {
         "1": "dipnot, sadece yakınlaşınca",
         "2": "küçük",
@@ -143,6 +156,14 @@
         "yearEndHint": "Sadece süreçler için (1925–1927).",
         "precision": "Kesinlik",
         "importance": "Önem",
+        "where": "Nerede",
+        "placePrecision": "Yer ne kadar biliniyor",
+        "placePrecisionHint": "Yer uydurma; bilinmiyorsa \"tek bir yer yok\" seç.",
+        "placeName": "Yer adı",
+        "placeNameHint": "Çıplak ad, \"civarı\" ekleme: Semerkant, Orta Asya.",
+        "lat": "Enlem",
+        "lng": "Boylam",
+        "coordsHint": "Ondalık derece. Kuzey ve doğu artı.",
         "text": "Metin",
         "title": "Başlık",
         "summary": "Özet",
@@ -172,6 +193,9 @@
         "yearEndInvalid": "Tam sayı gir ya da boş bırak.",
         "yearEndBefore": "Bitiş yılı başlangıçtan önce.",
         "importanceRange": "Önem 1 ile 5 arasında.",
+        "placeNameRequired": "Yere bir ad ver ya da \"tek bir yer yok\" seç.",
+        "latInvalid": "Enlem -90 ile 90 arasında.",
+        "lngInvalid": "Boylam -180 ile 180 arasında.",
         "titleRequired": "Başlık zorunlu.",
         "summaryRequired": "Özet zorunlu.",
         "disciplineRequired": "En az bir disiplin seç.",
