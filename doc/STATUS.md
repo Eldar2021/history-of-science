@@ -29,8 +29,8 @@
    Şifre = veritabanı şifresi (Project Settings → Database); hatırlanmıyorsa oradan sıfırlanır, uygulamayı
    etkilemez (uygulama anon/service anahtarlarıyla bağlanır). Sonra Actions → Backup → "Run workflow" ile
    elle bir kez çalıştır: artefakt inebiliyorsa yedek gerçekten var demektir.
-2. **Supabase → Authentication → URL Configuration**: Site URL `https://history-of-science.vercel.app`,
-   Redirect URLs'e `https://history-of-science.vercel.app/**`. Şifre sıfırlama ancak bundan sonra çalışır.
+2. ~~Supabase Auth URL yapılandırması~~ — **yapıldı (2026-09-05)**. Canlıda uçtan uca denenmedi: denemek
+   gerçek bir e-posta yollayıp bulut admin şifresini değiştirir, o yüzden kullanıcının kararına bırakıldı.
 3. **Vercel → Environment Variables**: `NEXT_PUBLIC_SITE_URL` üretimde canlı adres olsun (ya da hiç
    olmasın — kod üretim adresine düşer). `localhost` kalırsa canonical, sitemap ve OG adresleri yanlış olur.
 

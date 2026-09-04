@@ -10,6 +10,7 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 | S12 | Hata bildirimi nereye: e-posta mı, admin "bildirimler"? | Faz C    | Öneri ikisi; e-posta yedek              |
 | S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman?    | Faz D    | İngilizce beta bitince; `editor` hesabı |
 | S14 | Alan adı hangisi?                                       | Faz C    | uchkun.science / .kg / .org             |
+| S15 | Analitik ve Sentry ne zaman, hangisi? | Ertelendi | Kullanıcı 2026-09-05: **şimdilik yok** — önce site yayında yaşasın |
 
 ## Canlı riskler
 
