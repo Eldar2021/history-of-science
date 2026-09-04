@@ -71,7 +71,9 @@ export function SiteNav({ honesty = false }: { honesty?: boolean }) {
         <button
           type="button"
           onClick={() => setPanel("language")}
-          aria-label={t("nav.language")}
+          // The code is the visible label, so it belongs in the accessible name too: voice control
+          // says what it sees ("EN"), not what a hidden label calls it.
+          aria-label={`${t("nav.language")}: ${CODE[locale]}`}
           className={`flex items-center gap-1.5 text-xs ${quiet}`}
         >
           <span aria-hidden className="text-sm leading-none">{FLAG[locale]}</span>

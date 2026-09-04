@@ -188,6 +188,24 @@
 
 .tabular { font-variant-numeric: tabular-nums; }
 
+/*
+  The keyboard's first stop. Parked above the viewport rather than in an .sr-only box: sr-only plus
+  not-sr-only fights over `position`, and this needs to place itself when it appears.
+*/
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -4rem;
+  z-index: 60;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: var(--accent-ink);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: top var(--duration-press) var(--ease-fall);
+}
+.skip-link:focus-visible { top: 0.75rem; }
+
 /* Odometer-style tick for the live year (tokens.json > odometer-tick). */
 @keyframes tick {
   from { transform: translateY(0.35em); opacity: 0; }

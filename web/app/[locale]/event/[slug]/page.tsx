@@ -5,6 +5,7 @@ import type { Locale } from "@/lib/i18n/formatYear";
 import { formatYear } from "@/lib/i18n/formatYear";
 import { getEventDetail } from "@/lib/queries/event";
 import { routing } from "@/i18n/routing";
+import { absolute, alternates } from "@/lib/site";
 import { createAnonClient } from "@/lib/supabase/anon";
 import { hasSupabaseEnv } from "@/lib/supabase/server";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -28,7 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const event = await getEventDetail(slug, locale as Locale);
   if (!event) return {};
-  return { title: `${formatYear(event.year, event.precision, locale as Locale)} · ${event.title}`, description: event.summary };
+  const title = `${formatYear(event.year, event.precision, locale as Locale)} · ${event.title}`;
+  return {
+    title,
+    description: event.summary,
+    alternates: alternates(locale as Locale, `/event/${slug}`),
+    openGraph: { type: "article", title, description: event.summary, locale, url: absolute(`/${locale}/event/${slug}`) },
+  };
 }
 
 /** Direct URL (shared link, search): the same detail as the panel, as a full page. */
@@ -44,7 +51,7 @@ export default async function EventPage({ params }: Props) {
       {/* The bar said "Timeline" here, back when that was a page to go to. It is the home page
           now, and the wordmark already leads there (ADR-024). */}
       <SiteHeader />
-      <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-8">
+      <main id="main" className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-8">
         <EventDetail event={event} locale={locale} headingLevel="h1" />
       </main>
       <HonestyBand event={{ slug: event.slug, year: event.year, precision: event.precision, title: event.title }} />

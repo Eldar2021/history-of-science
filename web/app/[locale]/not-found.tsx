@@ -8,7 +8,7 @@ export default function NotFound() {
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-start gap-4 px-4 py-24">
+      <main id="main" className="mx-auto flex w-full max-w-2xl flex-1 flex-col items-start gap-4 px-4 py-24">
         <h1 className="font-display text-3xl text-primary">{t("title")}</h1>
         <p className="text-body text-secondary">{t("text")}</p>
         <Link href="/" className="text-accent-text underline underline-offset-4">{t("back")}</Link>

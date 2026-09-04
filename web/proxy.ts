@@ -7,6 +7,8 @@ const handleI18n = createMiddleware(routing);
 
 const ADMIN_PREFIX = "/admin";
 const LOGIN_PATH = "/admin/login";
+/** Reachable without a session: you cannot sign in to ask for a new password. */
+const PUBLIC_ADMIN_PATHS = new Set([LOGIN_PATH, "/admin/forgot-password"]);
 
 function hasSupabaseEnv(): boolean {
   return Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
@@ -20,8 +22,9 @@ function hasSupabaseEnv(): boolean {
 async function handleAdmin(request: NextRequest): Promise<NextResponse> {
   const { pathname, search } = request.nextUrl;
   const isLogin = pathname === LOGIN_PATH;
+  const isPublic = PUBLIC_ADMIN_PATHS.has(pathname);
   if (!hasSupabaseEnv()) {
-    if (isLogin) return NextResponse.next();
+    if (isPublic) return NextResponse.next();
     return NextResponse.redirect(new URL(`${LOGIN_PATH}?error=noEnv`, request.url), 302);
   }
 
@@ -30,6 +33,7 @@ async function handleAdmin(request: NextRequest): Promise<NextResponse> {
     if (user && role) return redirectWithCookies(new URL(ADMIN_PREFIX, request.url), response);
     return response;
   }
+  if (isPublic) return response;
   if (!user) {
     const url = new URL(LOGIN_PATH, request.url);
     url.searchParams.set("next", pathname + search);

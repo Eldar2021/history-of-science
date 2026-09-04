@@ -115,7 +115,7 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
   const year = formatYearParts(current.year, current.precision, locale);
   const place = formatPlaceParts(current.placeName, current.placePrecision, locale);
   return (
-    <main className="globe-stage relative h-[100dvh] w-full overflow-hidden bg-[var(--globe-space)]">
+    <main id="main" className="globe-stage relative h-[100dvh] w-full overflow-hidden bg-[var(--globe-space)]">
       <Globe
         places={places}
         activeIndex={current.globeIndex ?? -1}
@@ -143,12 +143,14 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
 
       <Link
         href={`/event/${current.slug}`}
-        aria-label={t("openEvent", { title: current.title })}
         className={`absolute bottom-[10.5rem] left-1/2 z-10 block w-[min(86vw,23rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated/40 p-4 shadow-lg backdrop-blur-md transition hover:border-accent sm:w-[min(92vw,26rem)] sm:p-6 sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2 ${
           // On a phone the open strip is the reading surface, and this card would be under it.
           expanded ? "max-sm:invisible" : ""
         }`}
       >
+        {/* The lead-in a screen reader hears first. As content rather than an aria-label, so the
+            accessible name still contains everything on the card instead of replacing it. */}
+        <span className="sr-only">{t("openEvent", { title: current.title })}</span>
         {year.qualifier && <p className="text-xs text-muted">{year.qualifier}</p>}
         <p className="font-display text-2xl tabular text-primary sm:text-3xl" title={year.eraNote ?? undefined}>{year.value}</p>
         <h2 className="mt-1.5 font-display text-lg leading-snug text-primary sm:mt-2 sm:text-xl">{current.title}</h2>
