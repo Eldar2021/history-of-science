@@ -15,6 +15,7 @@ export async function AdminShell({ staff, title, actions, children }: Props) {
         <nav className="flex items-center gap-4 text-sm">
           <Link href="/admin" className="font-display text-lg text-primary">{t("title")}</Link>
           <Link href="/admin/events" className="text-secondary hover:text-primary">{t("nav.events")}</Link>
+          <Link href="/admin/help/markdown" className="text-secondary hover:text-primary">{t("nav.help")}</Link>
           <Link href={`/${staff.uiLocale}`} className="text-secondary hover:text-primary">{t("nav.site")}</Link>
         </nav>
         <div className="flex items-center gap-4 text-sm">

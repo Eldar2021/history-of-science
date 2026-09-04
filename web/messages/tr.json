@@ -61,6 +61,17 @@
     "notTranslated": "Henüz {locale} değil",
     "machineTranslated": "Otomatik çeviri"
   },
+  "content": {
+    "alert": {
+      "note": "Not",
+      "tip": "İpucu",
+      "important": "Önemli",
+      "warning": "Uyarı",
+      "caution": "Dikkat",
+      "theory": "Teori"
+    },
+    "videoTitle": "Video"
+  },
   "notFound": {
     "title": "Bulunamadı",
     "text": "Bu sayfa yok ya da olay henüz yayınlanmadı.",
@@ -84,7 +95,8 @@
     "nav": {
       "dashboard": "Genel bakış",
       "events": "Olaylar",
-      "site": "Siteyi aç"
+      "site": "Siteyi aç",
+      "help": "Markdown"
     },
     "roles": {
       "admin": "yönetici",
@@ -166,7 +178,7 @@
         "summary": "Özet",
         "summaryHint": "Bir iki cümle; zaman çizgisi kartında görünür.",
         "body": "Gövde",
-        "bodyHint": "Markdown: ### başlık, paragraf, *vurgu*, **kalın**. 300–600 kelime.",
+        "bodyHint": "Markdown: başlık, liste, tablo, görsel, video, formül. 300–600 kelime.",
         "whyItMatters": "Neden önemli",
         "whyItMattersHint": "2–3 cümle, detay sayfasında vurgulu kutu.",
         "ifYouWereThere": "Orada olsaydın",
@@ -182,7 +194,11 @@
         "statusHint": "Sitede sadece yayındaki olaylar görünür.",
         "editLocale": "Düzenlenen dil",
         "save": "Kaydet",
-        "saving": "Kaydediliyor…"
+        "saving": "Kaydediliyor…",
+        "write": "Yaz",
+        "preview": "Önizleme",
+        "markdownHelp": "Markdown nasıl yazılır",
+        "uncredited": "Künyesi olmayan görsel: {names}. Bağlantıdan sonra tırnak içinde \"Yazar · Lisans · https://kaynak\" yaz."
       },
       "errors": {
         "yearRequired": "Tam sayı gir.",
@@ -212,6 +228,26 @@
       "title": "Bulunamadı",
       "back": "Olaylara dön"
     },
-    "uiLocale": "Yönetim dili"
+    "uiLocale": "Yönetim dili",
+    "help": {
+      "title": "Markdown nasıl yazılır",
+      "syntax": "Ne yazıyorsun",
+      "result": "Okuyucu ne görüyor",
+      "intro": "Olayın gövdesi Markdown ile yazılır: düz metin ve birkaç işaret. Aşağıdakilerin hepsi Yaz kutusunda çalışır; Önizleme sekmesi kaydetmeden önce sonucu gösterir.",
+      "rows": {
+        "headings": "### ile başlayan satır bölüm başlığı olur.",
+        "emphasis": "Kelimenin iki yanına bir yıldız eğik, iki yıldız kalın yapar.",
+        "list": "Tire ile başlayan satır madde, rakamla başlayan satır numaralı liste olur.",
+        "link": "Köşeli parantezdeki sözcükler görünür, yuvarlak parantezdeki adres nereye gittiğidir.",
+        "image": "Adresten sonra tırnak içinde: yazar, lisans ve görselin alındığı sayfa. Atıf isteğe bağlı değil.",
+        "video": "Tek başına bir satırdaki YouTube adresi oynatıcıya dönüşür.",
+        "callout": "Göze çarpan kutu. NOT, İPUCU, ÖNEMLİ, UYARI, DİKKAT ve TEORİ ayrı renk alır.",
+        "code": "Üstte ve altta üç ters tırnak, metni yazdığın gibi ve eşit genişlikte yazıyla bırakır.",
+        "formula": "Tek dolar arasında formül satırın içinde durur, çift dolar arasında kendi satırına geçer.",
+        "table": "Sütunlar dik çizgiyle ayrılır; ikinci satırdaki tireler onu tablo yapan şeydir.",
+        "quote": "Büyüktür işaretiyle başlayan satır alıntı olur.",
+        "rule": "Tek başına üç tire ayırıcı çizgi çizer."
+      }
+    }
   }
 }

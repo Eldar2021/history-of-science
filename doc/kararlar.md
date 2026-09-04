@@ -113,6 +113,28 @@ kararı. **Karşı görüş (kayda geçsin)**: koyu zeminde uzun metin birçok k
 (astigmat, halation); olay sayfaları uzun metin taşıyor. Beta'da okuma yorgunluğu geri bildirimi gelirse
 ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 
+## ADR-033: Olay gövdesi tam Markdown; okuyucuya bedeli yok
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Gövde başından beri Markdown metni olarak saklanıyordu ama elle yazılmış küçük bir
+  ayrıştırıcı yalnızca `###`, paragraf, `*eğik*` ve `**kalın**` tanıyordu. Bazı konular görsel, video,
+  kod, formül ve "şu teori şu demek" kutusu istiyor.
+- **Karar**: `react-markdown` + `remark-gfm` + `remark-math`/`rehype-katex`. Render `EventDetail`
+  içinde, yani **sunucuda**: site paketine ayrıştırıcıdan tek bayt binmez (ölçüldü: 428 KB'lık öbek
+  yalnızca admin rotalarında). Okuyucunun ödediği tek şey KaTeX stil dosyası (~28 KB ham).
+  Ham HTML kapalı. GFM'nin üstüne üç sözleşme (`lib/content/remarkUchkun.ts`):
+  `> [!NOT]` kutuları (GitHub'ın beşlisi + kendi `[!THEORY]`'miz), tek başına satırdaki YouTube adresi
+  gömülü oynatıcı, tek başına satırdaki görsel künyeli `figure`.
+- **Gerekçe**: Sözdizimi ödünç alındı, icat edilmedi: editör GitHub'da ne yazıyorsa burada da o.
+  Görsel künyesi (`![alt](url "Yazar · Lisans · https://kaynak")`) Markdown görsellerinin atıf
+  zorunluluğunu delmesini engeller — admin önizlemesi künyesizleri uyarır ama kaydı engellemez, çünkü
+  taslağın yarım olma hakkı var.
+- **Sonuçlar**: Şema değişmedi. `icerik.md`'deki "formül yok" kuralı **gövde metni** için sürüyor
+  (anlatı formülle yapılmaz); `$...$` istisnai bir araç, kural değil. Admin gövde alanı GitHub'ın
+  Write/Preview sekmelerini taşır ve önizleme siteyle **aynı bileşeni** kullanır, böylece ikisi
+  ayrışamaz. `/admin/help/markdown` aynı bileşenle render edilen canlı bir kılavuz.
+
 ---
 
 ## Şablon

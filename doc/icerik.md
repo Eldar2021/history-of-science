@@ -58,7 +58,9 @@ Görsel: Principia ilk baskı kapağı, Wikimedia Commons, kamu malı
 
 - **Kime**: 16 yaşındaki meraklı bir insana anlatır gibi. Aptal yerine koymadan, formül kullanmadan.
 - **Ton**: hayret + dürüstlük. "İnanılmaz" deme, inanılmaz olanı göster.
-- **Formül yok.** E=mc² bile yazılmaz; "kütle ve enerji aynı şeyin iki yüzü" denir.
+- **Formül yok.** E=mc² bile yazılmaz; "kütle ve enerji aynı şeyin iki yüzü" denir. Gövde `$...$` ile
+  formül dizebilir (ADR-033) ama bu istisnadır: anlatı formülsüz yürür, formül ancak sözcüklerin
+  yetmediği yerde ve açıklamasıyla birlikte gelir.
 - **Kısaltma yok.** Okuyucunun çözmesi gereken kısaltma kullanma. Site de öyle: yaklaşık yıl "c." değil
   "around" yazar (ADR-004).
 - **Bir benzetme** her olayda olsun; benzetmenin nerede bozulduğunu bir cümleyle söyle.

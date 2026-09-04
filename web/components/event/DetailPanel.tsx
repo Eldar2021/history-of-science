@@ -8,6 +8,11 @@ type Props = { children: React.ReactNode; closeLabel: string; labelledBy: string
  * The event detail over the timeline: a full-screen sheet on phones, a right-hand panel on
  * desktop. The timeline stays mounted underneath (intercepting route), so closing restores the exact
  * scroll position. Back button, Esc, the backdrop and the close button all close it.
+ *
+ * It wears the same clothes as `components/Sheet.tsx` - translucent, blurred, a grab handle on a
+ * phone - so the site has one panel, not two. It is not a <dialog> like that one: closing has to go
+ * through router.back() for the intercepting route, and a nested <dialog> bubbles its close event
+ * into the one behind it.
  */
 export function DetailPanel({ children, closeLabel, labelledBy }: Props) {
   const router = useRouter();
@@ -41,20 +46,22 @@ export function DetailPanel({ children, closeLabel, labelledBy }: Props) {
 
   return (
     <div className="fixed inset-0 z-20">
-      <button type="button" tabIndex={-1} aria-hidden onClick={close} className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
+      <button type="button" tabIndex={-1} aria-hidden onClick={close} className="absolute inset-0 bg-black/70 md:bg-black/45" />
       <div
         role="dialog"
         aria-modal="true"
         aria-labelledby={labelledBy}
-        className="absolute inset-x-0 bottom-0 top-8 flex flex-col rounded-t-card bg-base shadow-lg animate-sheet-in md:inset-y-0 md:left-auto md:right-0 md:w-[30rem] md:rounded-none md:border-l md:border-line md:animate-panel-in"
+        className="animate-sheet-in absolute inset-x-0 bottom-0 top-8 flex flex-col rounded-t-2xl border border-line bg-elevated shadow-lg backdrop-blur-xl md:inset-y-0 md:left-auto md:right-0 md:w-[30rem] md:rounded-none md:border-y-0 md:border-r-0 md:animate-panel-in"
       >
         <div className="flex shrink-0 items-center justify-end px-4 pt-3">
+          {/* The grab handle a phone expects at the top of a sheet; nothing to read, so it is hidden. */}
+          <span aria-hidden className="absolute inset-x-0 top-3 mx-auto h-1 w-10 rounded-full bg-muted/30 md:hidden" />
           <button
             ref={closeRef}
             type="button"
             onClick={close}
             aria-label={closeLabel}
-            className="inline-flex h-9 w-9 items-center justify-center rounded-pill border border-line text-secondary hover:text-primary"
+            className="relative inline-flex h-9 w-9 items-center justify-center rounded-pill border border-line text-secondary transition hover:border-accent hover:text-primary"
           >
             <span aria-hidden className="text-lg leading-none">×</span>
           </button>

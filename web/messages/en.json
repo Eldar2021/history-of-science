@@ -61,6 +61,17 @@
     "notTranslated": "Not yet in {locale}",
     "machineTranslated": "Auto-translated"
   },
+  "content": {
+    "alert": {
+      "note": "Note",
+      "tip": "Tip",
+      "important": "Important",
+      "warning": "Warning",
+      "caution": "Caution",
+      "theory": "The theory"
+    },
+    "videoTitle": "Video"
+  },
   "notFound": {
     "title": "Not found",
     "text": "This page does not exist, or the event is not published yet.",
@@ -84,7 +95,8 @@
     "nav": {
       "dashboard": "Overview",
       "events": "Events",
-      "site": "Open site"
+      "site": "Open site",
+      "help": "Markdown"
     },
     "roles": {
       "admin": "admin",
@@ -166,7 +178,7 @@
         "summary": "Summary",
         "summaryHint": "One or two sentences; shown on the timeline card.",
         "body": "Body",
-        "bodyHint": "Markdown: ### headings, paragraphs, *em*, **strong**. 300–600 words.",
+        "bodyHint": "Markdown: headings, lists, tables, pictures, video, formulas. 300–600 words.",
         "whyItMatters": "Why it matters",
         "whyItMattersHint": "2–3 sentences, highlighted box on the detail page.",
         "ifYouWereThere": "If you were there",
@@ -182,7 +194,11 @@
         "statusHint": "Only published events appear on the site.",
         "editLocale": "Editing language",
         "save": "Save",
-        "saving": "Saving…"
+        "saving": "Saving…",
+        "write": "Write",
+        "preview": "Preview",
+        "markdownHelp": "How to write Markdown",
+        "uncredited": "No credit on: {names}. Write \"Author · Licence · https://source\" in quotes after the link."
       },
       "errors": {
         "yearRequired": "Enter a whole number.",
@@ -212,6 +228,26 @@
       "title": "Not found",
       "back": "Back to events"
     },
-    "uiLocale": "Admin language"
+    "uiLocale": "Admin language",
+    "help": {
+      "title": "How to write Markdown",
+      "syntax": "What you write",
+      "result": "What the reader sees",
+      "intro": "The body of an event is written in Markdown: plain text plus a few marks. Everything below works in the Write box, and the Preview tab shows the result before you save.",
+      "rows": {
+        "headings": "A line beginning with ### is a section heading.",
+        "emphasis": "One star around a word leans it, two make it heavy.",
+        "list": "A line starting with a dash is a bullet; starting with a number, a numbered list.",
+        "link": "The words in brackets are shown, the address in parentheses is where they go.",
+        "image": "After the address, in quotes: author, licence and the page the picture came from. Attribution is not optional.",
+        "video": "A YouTube address alone on its own line turns into a player.",
+        "callout": "A box that stands out. NOTE, TIP, IMPORTANT, WARNING, CAUTION and THEORY each get their own colour.",
+        "code": "Three backticks above and below keep the text as typed, in a fixed-width font.",
+        "formula": "Between single dollars a formula sits in the line; between double dollars it gets a line of its own.",
+        "table": "Columns separated by pipes; the second row of dashes is what makes it a table.",
+        "quote": "A line beginning with a greater-than sign is a quotation.",
+        "rule": "Three dashes on a line of their own draw a divider."
+      }
+    }
   }
 }

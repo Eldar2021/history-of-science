@@ -97,6 +97,15 @@ arkadan yüklenip devralır. Animasyon karesi yalnızca kamera dönerken ya da k
 Seçim kaydırmanın kendisine değil `scroll-snap`'in oturmasına bağlı: her kaydırma karesinde kamera
 istemek telefonu tıkatır.
 
+## Olay gövdesi: Markdown (ADR-033)
+
+`event_translations.body` GitHub-flavoured Markdown. Tek renderer `components/content/Markdown.tsx`;
+onu site (`EventDetail`, sunucuda), admin önizlemesi ve `/admin/help/markdown` paylaşır. Sunucu
+bileşeni olduğu için ayrıştırıcı site paketine girmez — client tarafına yalnızca admin rotalarından
+girer. Ham HTML kapalı. GFM'nin üstündeki üç sözleşme `lib/content/remarkUchkun.ts`'te:
+`> [!NOTE]` kutusu, tek başına satırdaki YouTube adresi, tek başına satırdaki künyeli görsel.
+Formül `remark-math` + `rehype-katex` ile; KaTeX stil dosyası olay sayfasına biner (~28 KB ham).
+
 ## Admin → site anında yayın (ADR-021)
 
 ```

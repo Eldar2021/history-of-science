@@ -75,13 +75,14 @@ on conflict (discipline_id, locale) do update set name = excluded.name;
 -- Helper: insert event + translation + disciplines in one go.
 create or replace function seed_event(
   p_slug text, p_year int, p_precision year_precision, p_importance int, p_disciplines text[],
-  p_title text, p_summary text, p_why text, p_if text
+  p_title text, p_summary text, p_why text, p_if text, p_year_end int default null
 ) returns void language plpgsql as $$
 declare eid uuid;
 begin
-  insert into events (slug, year, precision, importance, status, source_locale)
-  values (p_slug, p_year, p_precision, p_importance, 'published', 'en')
-  on conflict (slug) do update set year = excluded.year, precision = excluded.precision, importance = excluded.importance
+  insert into events (slug, year, year_end, precision, importance, status, source_locale)
+  values (p_slug, p_year, p_year_end, p_precision, p_importance, 'published', 'en')
+  on conflict (slug) do update set year = excluded.year, year_end = excluded.year_end,
+    precision = excluded.precision, importance = excluded.importance
   returning id into eid;
   insert into event_translations (event_id, locale, title, summary, why_it_matters, if_you_were_there, status)
   values (eid, 'en', p_title, p_summary, p_why, p_if, 'human')
@@ -128,11 +129,14 @@ select seed_event('ibn-al-haytham-optics', 1021, 'circa', 5, array['physics'],
   'His Book of Optics is one of the first sustained uses of controlled experiment. Kepler and Galileo read it in Latin.',
   'The learned view, from Euclid and Ptolemy, was that the eye emitted rays that touched objects.');
 
-select seed_event('ulugh-beg-observatory', 1420, 'exact', 5, array['astronomy'],
+-- The sources disagree about the founding: around 1420 (van Gent, Britannica) or 1428 (MacTutor), so
+-- `circa`; the range runs to the Zij-i Sultani of 1437, which is what the work was for.
+select seed_event('ulugh-beg-observatory', 1420, 'circa', 5, array['astronomy'],
   'Ulugh Beg builds the Samarkand observatory',
   'A ruler-astronomer in Samarkand builds a giant sextant and, with his team, catalogues over a thousand stars with naked-eye precision unmatched until Tycho Brahe.',
   'It was the finest observatory of its age and proof that careful instruments beat inherited tables. Its catalogue was still used in Europe centuries later.',
-  'Star positions came from Ptolemy, already twelve centuries old and drifting further from the sky each year.');
+  'Star positions came from Ptolemy, already twelve centuries old and drifting further from the sky each year.',
+  p_year_end => 1437);
 
 select seed_event('copernicus-heliocentrism', 1543, 'exact', 5, array['astronomy'],
   'Copernicus puts the Sun at the center',
@@ -165,7 +169,7 @@ select f.id, t.id, 'builds_on', n from (values
 join events f on f.slug = v.fs join events t on t.slug = v.ts
 on conflict do nothing;
 
-drop function seed_event(text, int, year_precision, int, text[], text, text, text, text);
+drop function seed_event(text, int, year_precision, int, text[], text, text, text, text, int);
 
 -- Places for the seeded events. Migration 0004 already ran, but on a fresh local database
 -- it ran before these events existed, so the backfill is applied once more here (see 0004).

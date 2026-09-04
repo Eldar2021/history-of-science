@@ -6,6 +6,7 @@ import { formatYear } from "@/lib/i18n/formatYear";
 import { formatPlaceParts, type PlacePrecision } from "@/lib/i18n/formatPlace";
 import { PLACE_PRECISIONS, PRECISIONS, STATUSES, SUMMARY_SOFT_MAX, TITLE_SOFT_MAX, type EventFormValues } from "@/lib/admin/eventForm";
 import { slugify } from "@/lib/admin/slug";
+import { MarkdownField } from "./MarkdownField";
 import { saveEvent, type SaveState } from "@/app/admin/events/actions";
 import type { Discipline } from "@/lib/queries/types";
 
@@ -57,7 +58,7 @@ export function EventForm({ initial, disciplines, uiLocale }: Props) {
         </legend>
         <TextField name="title" defaultValue={v.title} required label={t("form.title")} softMax={TITLE_SOFT_MAX} warn={t("form.tooLong", { max: TITLE_SOFT_MAX })} error={err("title")} />
         <TextField name="summary" defaultValue={v.summary} required rows={2} label={t("form.summary")} hint={t("form.summaryHint")} softMax={SUMMARY_SOFT_MAX} warn={t("form.tooLong", { max: SUMMARY_SOFT_MAX })} error={err("summary")} />
-        <TextField name="body" defaultValue={v.body} rows={14} label={t("form.body")} hint={t("form.bodyHint")} mono />
+        <MarkdownField name="body" defaultValue={v.body} label={t("form.body")} hint={t("form.bodyHint")} />
         <TextField name="why_it_matters" defaultValue={v.why_it_matters} rows={3} label={t("form.whyItMatters")} hint={t("form.whyItMattersHint")} />
         <TextField name="if_you_were_there" defaultValue={v.if_you_were_there} rows={2} label={t("form.ifYouWereThere")} hint={t("form.ifYouWereThereHint")} />
       </fieldset>
