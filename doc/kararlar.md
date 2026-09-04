@@ -157,6 +157,36 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   `saveEvent` hâlâ işlem (transaction) değil: yarıda kalan kayıt aynı formdan tekrar kaydedince onarılır.
   Kapak görseli artık kova yolu **ya da** tam https adresi kabul eder (`lib/media.ts`).
 
+## ADR-035: Üretim işletmesi — CI, yedek, hata sayfası, keşfedilebilirlik
+
+**2026-09-05 · Kabul**
+
+- **Bağlam**: Site ve admin bitti ama işletme yoktu: PR'da hiçbir şey test çalıştırmıyordu, veritabanının
+  yedeği yoktu (Supabase ücretsiz katmanda PITR yok), üretimdeki bir hata çıplak "Application error"
+  veriyordu, dört dil sürümü birbirine `hreflang` ile bağlı değildi, paylaşılan link boş kart açıyordu ve
+  bulut Auth'un dönüş adresi localhost olduğu için şifre sıfırlama kırıktı.
+- **Karar**:
+  - **CI** (`.github/workflows/ci.yml`): her PR'da `npm run check` **ve** yerel Supabase'li Playwright.
+    `main` = üretim olduğuna göre kapı burada.
+  - **Yedek** (`.github/workflows/backup.yml`): her gece `supabase db dump` → 90 gün saklanan iş
+    artefaktı. Depoya dump **işlenmez** (boyut ve sır riski) ve PITR beklenmez. Elle almak için
+    `backend/scripts/backup.sh`. Depo sırrı `SUPABASE_DB_URL` gerektirir; yoksa iş açıkça durur.
+  - **Hata sınırı**: `[locale]/error.tsx` okuyucunun dilinde, `global-error.tsx` son çare olarak
+    İngilizce — dili seçen makine zaten bozulmuştur.
+  - **Adres tek yerden** (`lib/site.ts`): `SITE_ORIGIN`. Ortama göre tahmin yürütmek sunucu ve istemcide
+    farklı cevap verip hydration'ı bozardı; tek sabit, tek `NEXT_PUBLIC_SITE_URL`.
+  - **Şifre sıfırlama**: e-posta `/api/auth/callback`'e döner (çerez yazdığı için route handler, ve
+    `/api` proxy'nin dışında olduğu için anonim erişilebilir). `/admin/forgot-password` de proxy'de
+    açık listede. Auth izin listesi uygulamanın kendi adreslerini içermek **zorunda**.
+  - **Küre dokusu WebP**, JPEG arkada duruyor: aynı fotoğraf üçte bir hafif (176 KB ve 587 KB).
+- **Gerekçe**: İçerik yakında projenin en değerli varlığı olacak; yedeksiz içerik toplamak kumar.
+  Erişilebilir ad ile görünen metin uyuşmazlığı (dil düğmesi "EN" ama adı "Language") sesle kontrol
+  edeni engelliyordu; düzeltildi.
+- **Sonuçlar**: Canlıda ölçüldü (2026-09-05, `history-of-science.vercel.app/en`): **mobil 94 / 100 /
+  100 / 91**, masaüstü 90 / 100 / 100 / 91. SEO'nun kaybı yalnızca eksik `robots.txt` idi; yerel üretim
+  build'inde artık **erişilebilirlik 100, SEO 100, en iyi uygulamalar 100**. Analitik ve Sentry hâlâ yok
+  (hesap kararı, S12). Uyarı: `NEXT_PUBLIC_SITE_URL` üretimde yanlışsa canonical ve OG adresleri yanlış olur.
+
 ---
 
 ## Şablon

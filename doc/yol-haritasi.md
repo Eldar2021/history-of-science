@@ -19,13 +19,11 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 
 ## Faz A — kalanlar
 
-- [ ] Canlıda Lighthouse mobil ölçümü (907 KB doku + WebGL küre + şerit). Bütçeyi bozup bozmadığını bilmiyoruz.
-- [ ] Şeridi gerçek telefonda dene: kaydırma-seçim eşiği, tutamakla açma, küreyi sürükleme.
-- [ ] Bulut Auth: Site URL ve redirect listesi Vercel adresi olsun; `/admin/reset-password`.
-      **Şu an şifre sıfırlama bağlantısı localhost'a gidiyor.**
+- [ ] **Bulutta Auth ayarı**: Site URL ve redirect listesi Vercel adresi olsun. Kod ve yerel yapılandırma
+      hazır (ADR-035); kalan tek şey Supabase panelindeki iki alan.
 - [ ] Altı olayın yeri bir tarihçi kararına dayanıyor, kontrol edilmedi (liste migration 0004'ün başında).
-- [ ] Uluğ Bey yılı: seed `1420 exact`, taslak `circa 1437`. Admin formundan.
-- [ ] Erişilebilirlik geçişi (klavye, odak, `aria-live`, kontrast).
+- [ ] Uluğ Bey yılı buluttaki kayıtta: admin formundan `1420` / `1437` / yaklaşık.
+- [ ] Analitik ve Sentry (hesap kararı, S12) — Faz C'den öne alınabilir.
 
 ## Faz B — içerik hattı, çeviri, görseller
 
@@ -40,9 +38,11 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 
 ## Faz C — çağ/disiplin sayfaları, SEO, beta
 
-- [ ] `/era/{slug}`, `/discipline/{slug}`; `hreflang`, meta 4 dilde, `sitemap.xml`, `robots.txt`, OG görselleri.
+- [ ] `/era/{slug}`, `/discipline/{slug}`. (`hreflang`, meta, `sitemap.xml`, `robots.txt`, OG görselleri
+      ve yedekleme ADR-035 ile bitti.)
 - [ ] Analitik (Plausible/Umami), Sentry. `about` sayfası 4 dilde (neden, kaynak politikası, düzeltmeler, iletişim).
-- [ ] Alan adı (S14), yedekleme. Performans turu: Lighthouse 90+; `cacheComponents` değerlendir (ADR-021).
+- [ ] Alan adı (S14). Performans turu; `cacheComponents` değerlendir (ADR-021).
+      Ölçüm 2026-09-05: canlı mobil 94/100/100/91, `robots.txt` eklendikten sonra SEO 100.
 
 **M2**: 10 kişilik İngilizce kapalı beta, 1 hafta, geri bildirim formu. 3 büyük sorun → Faz D'nin başı.
 

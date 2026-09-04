@@ -8,8 +8,9 @@ import { AdminShell } from "@/components/admin/AdminShell";
 import { StatusBadge } from "@/components/admin/StatusBadge";
 
 /** Where the day starts: what is unfinished, which language is behind, what was touched last. */
-export default async function AdminHome() {
+export default async function AdminHome({ searchParams }: { searchParams: Promise<{ passwordChanged?: string }> }) {
   const staff = await requireStaff();
+  const { passwordChanged } = await searchParams;
   const [t, tLocales, stats] = await Promise.all([
     getTranslations("admin"),
     getTranslations("locales"),
@@ -28,6 +29,9 @@ export default async function AdminHome() {
         </Link>
       }
     >
+      {passwordChanged && (
+        <p role="status" className="mb-6 rounded-lg border border-sage/60 bg-sage/15 px-4 py-3 text-sm text-primary">{t("login.reset.done")}</p>
+      )}
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {STATUSES.map((s) => (
           <Link key={s} href={`/admin/events?status=${s}`} className="rounded-lg border border-line bg-elevated/40 p-4 transition hover:border-accent">

@@ -20,6 +20,9 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 - **R3 Kırgızca çeviri kalitesi.** Claude (tr+ru referanslı) → kullanıcı okur → öğretmen terimleri kontrol
   eder → `reviewed`. Birikirse `machine` rozetli kalır, sorun değil.
 - **R9 Claude API maliyeti.** Hat + çeviri ayda ~10-15 $. Model adı tek yerden; `CONTENT_PIPELINE_ENABLED`.
+- **R10 Veritabanı kaybı.** İçerik projenin varlığı ve ücretsiz katmanda PITR yok. Gece yedeği artefakt
+  olarak alınıyor (ADR-035); **artık kalan risk sırrın kurulmamış olması** — `SUPABASE_DB_URL` yoksa iş
+  her gece açık bir hatayla durur, sessizce değil.
 - **R5 Kapsam şişer.** Yeni fikir → Park; ayda bir bakılır. Kanvas dışında büyük özellik yok.
 
 ## Park

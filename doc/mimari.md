@@ -138,6 +138,20 @@ NEXT_PUBLIC_SITE_URL= / NEXT_PUBLIC_REPORT_EMAIL=   # dürüstlük bandındaki m
 ANTHROPIC_API_KEY= / TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_ENABLED=   # Faz B
 ```
 
+## İşletme (ADR-035)
+
+| Ne          | Nerede                                                | Not                                                        |
+| ----------- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| CI          | `.github/workflows/ci.yml`                            | Her PR: `npm run check` + yerel Supabase'li Playwright      |
+| Yedek       | `.github/workflows/backup.yml`, `scripts/backup.sh`   | Gece 02:00 UTC, 90 gün artefakt; `SUPABASE_DB_URL` sırrı    |
+| Hata sayfası| `app/[locale]/error.tsx`, `app/global-error.tsx`      | İlki dört dilde, ikincisi son çare İngilizce                |
+| Keşif       | `app/sitemap.ts`, `app/robots.ts`, `lib/site.ts`      | 44 URL, `hreflang` + `x-default`, canonical                 |
+| Paylaşım    | `app/[locale]/opengraph-image.tsx` (+ olay için)      | `next/og`, Literata (OFL) `web/assets`'ten, 1200×630        |
+| Şifre kurtarma | `/admin/forgot-password` → e-posta → `/api/auth/callback` → `/admin/reset-password` | Auth izin listesi uygulamanın adresini içermeli |
+
+Adres tek yerden: `lib/site.ts` içindeki `SITE_ORIGIN` (`NEXT_PUBLIC_SITE_URL`, yoksa üretim adresi).
+Metadata, sitemap, robots, OG ve hata bildirimi mailto'su hepsi onu okur.
+
 ## Geliştirme akışı
 
 - Yerel Docker **Colima**, Docker Desktop yok. Supabase CLI Homebrew'dan. `supabase db reset` migration + seed.

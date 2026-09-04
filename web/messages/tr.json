@@ -14,7 +14,8 @@
     "language": "Dil",
     "contact": "İletişim",
     "menu": "Menü",
-    "close": "Kapat"
+    "close": "Kapat",
+    "skipToContent": "İçeriğe geç"
   },
   "home": {
     "question": "Buraya nasıl geldik?",
@@ -77,6 +78,13 @@
     "text": "Bu sayfa yok ya da olay henüz yayınlanmadı.",
     "back": "Zaman çizgisine dön"
   },
+  "error": {
+    "title": "Bir şeyler ters gitti",
+    "text": "Sayfa kurulamadı. Bu bizim hatamız, senin değil. Tekrar dene; sürerse aşağıdaki numara hangi hata olduğunu bize söyler.",
+    "retry": "Tekrar dene",
+    "back": "Zaman şeridine dön",
+    "reference": "Numara: {digest}"
+  },
   "admin": {
     "title": "Yönetim",
     "login": {
@@ -87,7 +95,31 @@
       "errors": {
         "invalid": "E-posta ya da şifre yanlış.",
         "forbidden": "Bu hesabın yönetici ya da editör rolü yok.",
-        "noEnv": "Bu ortamda Supabase yapılandırılmamış."
+        "noEnv": "Bu ortamda Supabase yapılandırılmamış.",
+        "linkExpired": "Bu bağlantının süresi dolmuş ya da zaten kullanılmış. Yenisini iste."
+      },
+      "forgot": {
+        "link": "Şifreni mi unuttun?",
+        "eyebrow": "Yönetim",
+        "title": "Yeni şifre",
+        "text": "Yönetici hesabının adresine bir bağlantı yollarız. Bir saat geçerlidir.",
+        "submit": "Bağlantıyı yolla",
+        "sent": "Bu adres bir yönetici hesabına aitse bağlantı yola çıktı. Gelen kutusuna bak.",
+        "back": "Girişe dön"
+      },
+      "reset": {
+        "title": "Yeni bir şifre seç",
+        "password": "Yeni şifre",
+        "confirm": "Tekrar",
+        "hint": "En az sekiz karakter. Uzun olması, kurnaz olmasından iyidir.",
+        "submit": "Şifreyi kaydet",
+        "errors": {
+          "tooShort": "En az sekiz karakter.",
+          "mismatch": "İkisi aynı değil.",
+          "failed": "Şifre değiştirilemedi. Yeni bir bağlantı isteyip tekrar dene.",
+          "samePassword": "Bu zaten mevcut şifren. Başka bir tane seç."
+        },
+        "done": "Şifren değiştirildi."
       }
     },
     "signedInAs": "{email} olarak giriş yapıldı ({role})",

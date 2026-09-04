@@ -29,20 +29,22 @@ type Props = {
 
 /**
  * NASA's Blue Marble Next Generation, July 2004: land, shaded topography and, unlike the plain
- * Blue Marble, the ocean floor, so deep water reads dark and shelves pale. 2048 x 1024, 262 KB.
+ * Blue Marble, the ocean floor, so deep water reads dark and shelves pale. 2048 x 1024; 176 KB as WebP, 262 KB as JPEG.
  * Source: https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg
  * NASA Earth science imagery is not copyrighted and carries no usage restriction; NASA asks only
  * to be credited, which the honesty dialog does. See doc/kararlar.md ADR-024.
  */
-const EARTH_TEXTURE = "/globe/earth-2048.jpg";
+const EARTH_TEXTURE = ["/globe/earth-2048.webp", "/globe/earth-2048.jpg"] as const;
 /**
- * The same photograph at 4096 x 2048 (907 KB), so the upgrade only sharpens and never changes what
+ * The same photograph at 4096 x 2048, so the upgrade only sharpens and never changes what
  * the Earth looks like. Fetched after the small one is already on screen, and only where it will
  * actually be seen: a 2048-wide map supplies about a thousand pixels across the hemisphere we can
  * see, so anything wider than that is being stretched. On the graphics card it costs about 43 MB
  * with its mipmaps, which is why small and frugal devices keep the small one.
  */
-const EARTH_TEXTURE_HIGH = "/globe/earth-4096.jpg";
+/* WebP first, JPEG behind it: the same photograph a third lighter (176 KB and 587 KB), with the
+   original left in place for anything that cannot decode WebP. */
+const EARTH_TEXTURE_HIGH = ["/globe/earth-4096.webp", "/globe/earth-4096.jpg"] as const;
 const HEMISPHERE_PIXELS_2048 = 1024;
 /**
  * Fallback only, for a browser without WebGL2: fraction of full resolution to draw at while the
@@ -74,6 +76,15 @@ function loadImage(src: string): Promise<HTMLImageElement | null> {
     img.onerror = () => resolve(null);
     img.src = src;
   });
+}
+
+/** The first source that decodes, so a newer format can be offered with an older one behind it. */
+async function loadFirst(sources: readonly string[]): Promise<HTMLImageElement | null> {
+  for (const src of sources) {
+    const image = await loadImage(src);
+    if (image) return image;
+  }
+  return null;
 }
 
 /** The raw pixels of a photograph, for the processor-side fallback renderer. */
@@ -263,7 +274,7 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
     let cancelled = false;
     // A failure needs no handling: the plain lit ball is already the answer, and the pins, the
     // card and every button keep working without the photograph.
-    loadImage(EARTH_TEXTURE).then((image) => {
+    loadFirst(EARTH_TEXTURE).then((image) => {
       if (cancelled || !image || imageRef.current) return;
       imageRef.current = image;
       adoptRef.current(image);
@@ -277,7 +288,7 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
     if (upgradedRef.current || !wantsSharperEarth(size.width, size.height, size.dpr)) return;
     upgradedRef.current = true;
     let cancelled = false;
-    loadImage(EARTH_TEXTURE_HIGH).then((image) => {
+    loadFirst(EARTH_TEXTURE_HIGH).then((image) => {
       if (cancelled || !image) return;
       imageRef.current = image;
       adoptRef.current(image);

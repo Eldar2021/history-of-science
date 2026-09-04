@@ -1,0 +1,82 @@
+name: CI
+
+# main is production (doc/mimari.md), so nothing reaches it without these two jobs passing.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: typecheck, lint, unit tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run check
+
+  e2e:
+    name: end to end
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      # Migrations and seed, exactly as `supabase start` does locally.
+      - name: Start Supabase
+        working-directory: backend
+        run: supabase start -x realtime,storage-api,imgproxy,studio,inbucket,logflare,vector,pgbouncer
+
+      # The keys are the local demo ones, printed by the CLI; the app reads them from .env.local.
+      - name: Write web/.env.local
+        working-directory: backend
+        run: |
+          eval "$(supabase status -o env)"
+          {
+            echo "NEXT_PUBLIC_SUPABASE_URL=$API_URL"
+            echo "NEXT_PUBLIC_SUPABASE_ANON_KEY=$ANON_KEY"
+            echo "SUPABASE_SERVICE_ROLE_KEY=$SERVICE_ROLE_KEY"
+            echo "NEXT_PUBLIC_SITE_URL=http://localhost:3300"
+            echo "NEXT_PUBLIC_REPORT_EMAIL=ci@uchkun.local"
+          } > ../web/.env.local
+
+      - name: Install
+        working-directory: web
+        run: npm ci
+
+      # No Google Chrome on the runner: the config falls back to bundled Chromium on PW_BROWSER.
+      - name: Install Chromium
+        working-directory: web
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Playwright
+        working-directory: web
+        env:
+          PW_BROWSER: chromium
+        run: npm run e2e
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: web/playwright-report
+          retention-days: 7

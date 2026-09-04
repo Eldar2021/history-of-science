@@ -32,7 +32,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 px-6 py-24 text-center">
+      <main id="main" className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 px-6 py-24 text-center">
         <h1 className="font-display text-4xl leading-tight text-primary sm:text-6xl">{t("question")}</h1>
         <p className="max-w-xl text-lg text-secondary">{t("lead")}</p>
       </main>

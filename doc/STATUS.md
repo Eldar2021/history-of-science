@@ -16,15 +16,25 @@
 
 ## Açık işler
 
-1. `el/markdown-body` PR'ını merge et, canlıda dene: bir olayın gövdesini markdown'a çevir, admin'den
-   dört dili tek formda doldur, kaynak/kişi/bağlantı/görsel ekle.
-2. Faz A'nın kalanı `yol-haritasi.md`'de; ilk sırada canlıda Lighthouse mobil (artık KaTeX stil
-   dosyası da olay sayfasına biniyor, ~28 KB ham — ölçümde buna bak).
+1. `el/production-ready` PR'ını merge et. CI ilk kez bu PR'da çalışacak — yeşil mi, ona bak.
+2. Faz A'nın kalanı `yol-haritasi.md`'de. Sonra içerik: +7 Aydınlanma olayı → 50.
 
 ## Kullanıcıdan bekleyen
 
-- **Uluğ Bey, bulutta**: admin formundan Yıl `1420`, Bitiş `1437`, Kesinlik `yaklaşık`. Yerel `seed.sql`
-  düzeltildi ama bulut verisini yalnızca sen yazabilirsin.
+Üçü de panel işi; kod tarafı hazır.
+
+1. **GitHub deposu → Settings → Secrets → Actions**: `SUPABASE_DB_URL` ekle. **Session pooler** dizesi
+   olmalı; panelin önce gösterdiği doğrudan bağlantı IPv6-only, GitHub makinesi IPv4 — asla bağlanamaz.
+   `postgresql://postgres.hsllmvouqayaccubodcl:<şifre>@aws-0-eu-central-1.pooler.supabase.com:5432/postgres`
+   Şifre = veritabanı şifresi (Project Settings → Database); hatırlanmıyorsa oradan sıfırlanır, uygulamayı
+   etkilemez (uygulama anon/service anahtarlarıyla bağlanır). Sonra Actions → Backup → "Run workflow" ile
+   elle bir kez çalıştır: artefakt inebiliyorsa yedek gerçekten var demektir.
+2. **Supabase → Authentication → URL Configuration**: Site URL `https://history-of-science.vercel.app`,
+   Redirect URLs'e `https://history-of-science.vercel.app/**`. Şifre sıfırlama ancak bundan sonra çalışır.
+3. **Vercel → Environment Variables**: `NEXT_PUBLIC_SITE_URL` üretimde canlı adres olsun (ya da hiç
+   olmasın — kod üretim adresine düşer). `localhost` kalırsa canonical, sitemap ve OG adresleri yanlış olur.
+
+Ayrıca: **Uluğ Bey, bulutta** — admin formundan Yıl `1420`, Bitiş `1437`, Kesinlik `yaklaşık`.
 
 **Bloklayan**: yok.
 
@@ -45,6 +55,19 @@
   (`vercel env pull` → `next start`). Teknik tuzaklar `mimari.md`'nin sonunda.
 
 ## Son oturum
+
+### 2026-09-05 — 16. oturum
+- Teknik açıkların turu (ADR-035). **CI** (her PR'da check + e2e) ve **gece yedeği** (dump → 90 günlük
+  artefakt) eklendi; ikisi de yoktu. Elle yedek: `backend/scripts/backup.sh`.
+- **Hata sınırı**: `[locale]/error.tsx` dört dilde, `global-error.tsx` son çare. Tarayıcıda denendi.
+- **Keşfedilebilirlik**: `sitemap.xml` (44 URL, `hreflang` + `x-default`), `robots.txt`, canonical,
+  OG kartları (`next/og`, Literata). Adres tek yerden: `lib/site.ts`.
+- **Şifre sıfırlama uçtan uca çalışıyor**: forgot → e-posta (Mailpit) → `/api/auth/callback` → yeni şifre
+  → o şifreyle giriş. Aynı şifre denenirse ayrı mesaj. Yerel `config.toml`'un izin listesi de düzeltildi.
+- **Erişilebilirlik**: atlama bağlantısı; görünen metin ile erişilebilir ad uyuşmazlığı giderildi
+  (dil düğmesi, olay kartı). Kontrast tablosu ölçüldü, hepsi AA.
+- **Küre dokusu WebP** (JPEG arkada): 262→176 KB ve 907→587 KB.
+- Ölçüm: canlı mobil 94/100/100/91 · yerel üretim build'inde a11y 100, SEO 100, best practices 100.
 
 ### 2026-09-04 — 15. oturum
 - Admin refactor (ADR-034). Form artık **dört dili birden** taşıyor: sekmeler client'ta, tek kaydetme

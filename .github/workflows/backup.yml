@@ -1,0 +1,55 @@
+name: Backup
+
+# Supabase's free tier has no point-in-time recovery, and the content is the project (doc/riskler.md R10).
+# A nightly dump of schema and data, kept as a workflow artifact.
+# Needs the repository secret SUPABASE_DB_URL. Take the **Session pooler** string (port 5432), not the
+# direct one the dashboard shows first: db.<ref>.supabase.co resolves to IPv6 only and a GitHub runner
+# has no IPv6, so a direct connection here can never work. Shape:
+#   postgresql://postgres.<project-ref>:<password>@aws-0-<region>.pooler.supabase.com:5432/postgres
+# Without the secret the job says so and stops rather than failing silently.
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  dump:
+    name: dump the cloud database
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Check the secret is set
+        env:
+          DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          if [ -z "$DB_URL" ]; then
+            echo "::error::SUPABASE_DB_URL is not set. Add it under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          # The direct host is IPv6-only and this runner is not; fail with the reason rather than a timeout.
+          case "$DB_URL" in
+            *db.*.supabase.co*)
+              echo "::error::That is the direct connection (IPv6 only). Use the session pooler string: postgresql://postgres.<ref>:<password>@aws-0-<region>.pooler.supabase.com:5432/postgres"
+              exit 1
+              ;;
+          esac
+
+      - name: Dump
+        env:
+          DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          mkdir -p dump
+          supabase db dump --db-url "$DB_URL" -f dump/schema.sql
+          supabase db dump --db-url "$DB_URL" -f dump/data.sql --data-only
+          supabase db dump --db-url "$DB_URL" -f dump/roles.sql --role-only
+          ls -lh dump
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: uchkun-db-${{ github.run_id }}
+          path: dump
+          retention-days: 90

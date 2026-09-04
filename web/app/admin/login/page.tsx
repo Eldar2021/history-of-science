@@ -1,7 +1,8 @@
+import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { signIn } from "./actions";
 
-const ERRORS = ["invalid", "forbidden", "noEnv"] as const;
+const ERRORS = ["invalid", "forbidden", "noEnv", "linkExpired"] as const;
 type ErrorKey = (typeof ERRORS)[number];
 
 type Props = { searchParams: Promise<{ error?: string; next?: string }> };
@@ -44,6 +45,9 @@ export default async function LoginPage({ searchParams }: Props) {
         >
           {t("login.submit")}
         </button>
+        <Link href="/admin/forgot-password" className="block text-center text-sm text-accent-text underline underline-offset-4">
+          {t("login.forgot.link")}
+        </Link>
       </form>
     </main>
   );

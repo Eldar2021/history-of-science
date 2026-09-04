@@ -6,7 +6,8 @@
 /** Fallback while no domain is chosen (S14); production sets NEXT_PUBLIC_REPORT_EMAIL. */
 const REPORT_EMAIL = process.env.NEXT_PUBLIC_REPORT_EMAIL ?? "eldiiaralmazbekov@gmail.com";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "";
+/** Kept as a name; the value now has a real fallback so a report always carries a full address. */
+export { SITE_ORIGIN as SITE_URL } from "@/lib/site";
 
 /** The site is built in the open; an error report can also be an issue. */
 export const REPO_URL = "https://github.com/Eldar2021/history-of-science";

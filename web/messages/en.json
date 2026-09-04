@@ -14,7 +14,8 @@
     "language": "Language",
     "contact": "Contact",
     "menu": "Menu",
-    "close": "Close"
+    "close": "Close",
+    "skipToContent": "Skip to the content"
   },
   "home": {
     "question": "How did we get here?",
@@ -77,6 +78,13 @@
     "text": "This page does not exist, or the event is not published yet.",
     "back": "Back to the timeline"
   },
+  "error": {
+    "title": "Something went wrong",
+    "text": "The page could not be built. This is our fault, not yours. Try again; if it keeps happening, the reference below tells us which failure it was.",
+    "retry": "Try again",
+    "back": "Back to the timeline",
+    "reference": "Reference: {digest}"
+  },
   "admin": {
     "title": "Admin",
     "login": {
@@ -87,7 +95,31 @@
       "errors": {
         "invalid": "Wrong email or password.",
         "forbidden": "This account has no admin or editor role.",
-        "noEnv": "Supabase is not configured for this environment."
+        "noEnv": "Supabase is not configured for this environment.",
+        "linkExpired": "That link has expired or has already been used. Ask for a new one."
+      },
+      "forgot": {
+        "link": "Forgot your password?",
+        "eyebrow": "Admin",
+        "title": "New password",
+        "text": "We send a link to the address of a staff account. It is good for one hour.",
+        "submit": "Send the link",
+        "sent": "If that address belongs to a staff account, the link is on its way. Check the inbox.",
+        "back": "Back to sign in"
+      },
+      "reset": {
+        "title": "Choose a new password",
+        "password": "New password",
+        "confirm": "Again",
+        "hint": "At least eight characters. Long beats clever.",
+        "submit": "Save the password",
+        "errors": {
+          "tooShort": "At least eight characters.",
+          "mismatch": "The two do not match.",
+          "failed": "The password could not be changed. Ask for a new link and try again.",
+          "samePassword": "That is the password you already have. Choose a different one."
+        },
+        "done": "Your password has been changed."
       }
     },
     "signedInAs": "Signed in as {email} ({role})",
