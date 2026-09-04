@@ -135,6 +135,28 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   Write/Preview sekmelerini taşır ve önizleme siteyle **aynı bileşeni** kullanır, böylece ikisi
   ayrışamaz. `/admin/help/markdown` aynı bileşenle render edilen canlı bir kılavuz.
 
+## ADR-034: Admin formu dört dili birden taşır; olayın her parçası admin'den düzenlenir
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Form tek çeviri taşıyordu; dil değiştirmek tam sayfa gezinmeydi (`?locale=ru`) ve
+  **kaydedilmemiş yazıyı sessizce siliyordu**. Kaynaklar, kişiler, `builds_on` bağlantıları ve kapak
+  görseli ise formda hiç yoktu: 43 olayın kaynakları `drafts-to-sql.mjs` ile girilmişti, admin'den
+  düzenlenemiyordu. `icerik.md` her olayda en az iki kaynak istiyor.
+- **Karar**: `EventFormValues` tek çeviri yerine `Record<Locale, …>` tutar. Dört dilin alanları da
+  DOM'da durur, sekmeler yalnızca hangisinin görüneceğine karar verir, tek kaydetme **metin taşıyan
+  bütün dilleri** yazar. Boş bırakılan dil yazılmaz ve var olan çevirisi **silinmez**. Aynı formda
+  kaynak, kişi, `builds_on` ve kapak görseli editörleri; tekrarlanan satırlar aynı alan adı altında
+  paralel dizi olarak gönderilir. Kaydet listeye döner, "Kaydet ve kal" formda bırakır.
+- **Gerekçe**: Veri kaybının kökü tek dilli formdu; sekmeyi client'a almak onu ortadan kaldırıyor.
+  Kaynak ve görsel editörü olmadan içerik toplamaya geçmek, her olay için SQL yazmak demekti.
+  Kişiler `people` tablosunda ortaktır: buradan kaydedilen ad o kişinin her olaydaki adıdır.
+- **Sonuçlar**: Şema değişmedi. Doğrulama artık dil başına (`"<locale>.title"`), hatalı dil sekmede
+  işaretlenir. Tarayıcı `required`'ı kalktı — gizli sekmedeki alana tarayıcı hata gösteremez, sunucu
+  doğrular. **Bir dili tamamen boşaltmak o çeviriyi silmez**; silmek ayrı bir eylem ister (yapılmadı).
+  `saveEvent` hâlâ işlem (transaction) değil: yarıda kalan kayıt aynı formdan tekrar kaydedince onarılır.
+  Kapak görseli artık kova yolu **ya da** tam https adresi kabul eder (`lib/media.ts`).
+
 ---
 
 ## Şablon

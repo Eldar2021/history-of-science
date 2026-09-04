@@ -15,7 +15,7 @@ export function UiLocaleSelect() {
         aria-label={t("admin.uiLocale")}
         defaultValue={locale}
         onChange={() => form.current?.requestSubmit()}
-        className="rounded-md border border-line bg-elevated px-2 py-1 text-sm text-primary"
+        className="rounded-pill border border-line bg-elevated px-3 py-1 text-sm text-primary transition hover:border-accent"
       >
         {locales.map((l) => <option key={l} value={l}>{t(`locales.${l}`)}</option>)}
       </select>

@@ -106,6 +106,19 @@ girer. Ham HTML kapalı. GFM'nin üstündeki üç sözleşme `lib/content/remark
 `> [!NOTE]` kutusu, tek başına satırdaki YouTube adresi, tek başına satırdaki künyeli görsel.
 Formül `remark-math` + `rehype-katex` ile; KaTeX stil dosyası olay sayfasına biner (~28 KB ham).
 
+## Admin (ADR-034)
+
+`/admin` pano (durum sayıları, dil başına eksik çeviri, son düzenlenenler) · `/admin/events` liste
+(arama, durum filtresi, "şu dili olmayanlar", sıralama) · olay formu · `/admin/help/markdown`.
+
+Form tek bir client bileşeni ve **dört dili birden** taşır: her dilin alanları DOM'da durur, sekme
+yalnızca görüneni seçer, kaydetme metin taşıyan bütün dilleri yazar. Tekrarlanan satırlar (kaynak,
+kişi, bağlantı) aynı alan adı altında paralel dizi gönderir — `getAll` sırayı korur, o yüzden **her
+satır her alanını basmak zorundadır**. Doğrulama `lib/admin/eventForm.ts`'te ve saftır; yazma sırası
+`app/admin/events/actions.ts`'te: olay → çeviriler → disiplinler → kaynaklar → kişiler → bağlantılar.
+Bağlantı hedefleri hiçbir şey yazılmadan önce çözülür. Kaydet/sil/geri al listeye döner ve
+`revalidatePath` ile client router'ın kopyasını düşürür.
+
 ## Admin → site anında yayın (ADR-021)
 
 ```

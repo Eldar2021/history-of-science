@@ -16,7 +16,8 @@
 
 ## Açık işler
 
-1. `el/markdown-body` PR'ını merge et, canlıda bir olayın gövdesini markdown'a çevirip dene.
+1. `el/markdown-body` PR'ını merge et, canlıda dene: bir olayın gövdesini markdown'a çevir, admin'den
+   dört dili tek formda doldur, kaynak/kişi/bağlantı/görsel ekle.
 2. Faz A'nın kalanı `yol-haritasi.md`'de; ilk sırada canlıda Lighthouse mobil (artık KaTeX stil
    dosyası da olay sayfasına biniyor, ~28 KB ham — ölçümde buna bak).
 
@@ -29,6 +30,12 @@
 
 ## Yaşayan notlar
 
+- Admin'de **bir dili boşaltmak o çeviriyi silmez** (ADR-034). Silmek isteyen için ayrı bir eylem lazım;
+  bugüne kadar ihtiyaç olmadı.
+- `saveEvent` işlem değil: yarıda kalan kayıt aynı formdan tekrar kaydedince onarılır (ADR-034).
+- Liste araması, eksik dil filtresi ve sıralama bellekte çalışıyor; olay sayısı bir sayfayı aşarsa
+  SQL'e taşınmalı (`lib/admin/events.ts`).
+
 - İçerik durduruldu (kullanıcı, 2026-09-04): Faz A bitene kadar yeni olay yok. 50 olay hedefi ve
   kalan Aydınlanma listesi `icerik.md`'de duruyor.
 - Bulut Auth Site URL'i hâlâ localhost → şifre sıfırlama bağlantısı localhost'a gidiyor (`yol-haritasi.md`, Faz A).
@@ -38,6 +45,17 @@
   (`vercel env pull` → `next start`). Teknik tuzaklar `mimari.md`'nin sonunda.
 
 ## Son oturum
+
+### 2026-09-04 — 15. oturum
+- Admin refactor (ADR-034). Form artık **dört dili birden** taşıyor: sekmeler client'ta, tek kaydetme
+  metin taşıyan bütün dilleri yazar. Eski davranış (dil linki = tam sayfa gezinme) kaydedilmemiş yazıyı
+  sessizce siliyordu; o gitti. Yeni olayda da sekmeler var.
+- Admin'e **kaynak, kişi, builds_on bağlantısı ve kapak görseli** editörleri eklendi — bunların hiçbiri
+  formda yoktu, 43 olayınki `drafts-to-sql.mjs` ile girilmişti.
+- `/admin` panosu doldu: durum sayıları, dil başına eksik çeviri, son düzenlenen 5. Liste arama +
+  "şu dili olmayanlar" + sıralama aldı. Kaydet/sil/geri al listeye dönüyor; "Kaydet ve kal" ikinci düğme.
+- Admin site diline geçti (pill, kart, `text-label` başlık, `rounded-lg` alan).
+- Kapak görseli artık tam https adresi de kabul ediyor (`lib/media.ts`).
 
 ### 2026-09-04 — 14. oturum
 - Kullanıcı mobilde test etti, küre onaylandı; PR #12 merge edildi. İçerik durduruldu.

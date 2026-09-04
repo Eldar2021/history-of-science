@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { formatYear, formatYearRangeParts } from "@/lib/i18n/formatYear";
 import { parseInline } from "@/lib/content/markdown";
+import { imageUrl } from "@/lib/media";
 import { Markdown } from "@/components/content/Markdown";
 import type { EventDetail as Detail, LinkedEvent } from "@/lib/queries/types";
 
@@ -82,10 +83,9 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
 
       {event.image_path && (
         <figure className="mt-6">
-          {/* Storage images arrive in week 6; until then this is a plain public URL. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/images/${event.image_path}`}
+            src={imageUrl(event.image_path)}
             alt=""
             className="w-full rounded-image"
             loading="lazy"

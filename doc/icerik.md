@@ -81,7 +81,7 @@ Bundan sonraki olaylarda da aynı ölçü aranır: Batı dışı katkı varsa g�
 
 ## Doğruluk süreci
 
-1. **İki kaynak kuralı**: her olay için en az 2 bağımsız kaynak. Sıra: Britannica, Stanford Encyclopedia
+1. **İki kaynak kuralı**: her olay için en az 2 bağımsız kaynak; admin formundaki Kaynaklar bölümüne girilir. Sıra: Britannica, Stanford Encyclopedia
    of Philosophy, İngilizce Wikipedia, MacTutor, üniversite sayfaları, hakemli tarih kitapları.
    Britannica otomatik çekimi engelliyor (403) — hattın kaynak eşiği diğerleriyle tutulur; Britannica
    yalnızca insan kontrolü için link olarak kalır.
@@ -93,7 +93,9 @@ Bundan sonraki olaylarda da aynı ölçü aranır: Batı dışı katkı varsa g�
 ## Görseller ve lisans
 
 Sadece **kamu malı** veya **CC BY / CC BY-SA**; kaynak Wikimedia Commons. Her görselde yazar/kaynak,
-lisans ve Commons linki zorunlu (form aksini kabul etmez, ADR-011). Eski portreler, kitap kapakları ve
+lisans ve Commons linki zorunlu (form aksini kabul etmez, ADR-011). Kapak görseli admin formundan
+girilir: kova yolu ya da tam https adresi. Gövdeye gömülen görselin künyesi Markdown başlığındadır
+(ADR-033). Eski portreler, kitap kapakları ve
 çizimler çoğunlukla kamu malı; NASA/ESA görselleri genelde serbest, kontrol edilir. Görsel yoksa olay
 yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş kart. Görsel bekleyen olay olmaz.
 

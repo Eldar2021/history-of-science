@@ -192,13 +192,45 @@
         "slugHint": "Boş bırakılırsa başlıktan üretilir.",
         "status": "Durum",
         "statusHint": "Sitede sadece yayındaki olaylar görünür.",
-        "editLocale": "Düzenlenen dil",
         "save": "Kaydet",
         "saving": "Kaydediliyor…",
         "write": "Yaz",
         "preview": "Önizleme",
         "markdownHelp": "Markdown nasıl yazılır",
-        "uncredited": "Künyesi olmayan görsel: {names}. Bağlantıdan sonra tırnak içinde \"Yazar · Lisans · https://kaynak\" yaz."
+        "uncredited": "Künyesi olmayan görsel: {names}. Bağlantıdan sonra tırnak içinde \"Yazar · Lisans · https://kaynak\" yaz.",
+        "language": "Dil",
+        "sourceMark": "kaynak",
+        "saveAndStay": "Kaydet ve kal",
+        "unsaved": "Kaydedilmemiş değişiklik var",
+        "removeRow": "Kaldır",
+        "sourceLocaleHint": "Olayın yazıldığı dil; diğer diller buna düşer.",
+        "sources": "Kaynaklar",
+        "sourcesHint": "En az iki bağımsız kaynak, biri ansiklopedi.",
+        "sourcesEmpty": "Henüz kaynak yok.",
+        "addSource": "Kaynak ekle",
+        "sourceTitle": "Başlık",
+        "sourceUrl": "Adres",
+        "sourceKind": "Tür",
+        "people": "Kişiler",
+        "peopleHint": "Olaylar arasında ortaktır: buraya yazılan ad o kişinin her yerdeki adıdır. Yıl ve rol boş kalabilir.",
+        "peopleEmpty": "Henüz kimse yok.",
+        "addPerson": "Kişi ekle",
+        "personName": "Ad",
+        "personRole": "Burada ne yaptı",
+        "personBirth": "Doğum",
+        "personDeath": "Ölüm",
+        "buildsOn": "Dayanır",
+        "buildsOnHint": "Bu olayın üstüne bindiği daha eski olaylar. Yalnızca bu yön saklanır; ters yön kendiliğinden görünür.",
+        "buildsOnEmpty": "Henüz hiçbir şeye dayanmıyor.",
+        "addLink": "Bağlantı ekle",
+        "linkSlug": "Olay slug'ı",
+        "linkNote": "Tek satırda: ondan ne aldı",
+        "image": "Kart görseli",
+        "imagePath": "Dosya ya da adres",
+        "imagePathHint": "images kovasındaki yol ya da tam https adresi. Görsel yoksa boş bırak.",
+        "imageCredit": "Yazar ya da kaynak",
+        "imageLicense": "Lisans",
+        "imageSourceUrl": "Alındığı sayfa"
       },
       "errors": {
         "yearRequired": "Tam sayı gir.",
@@ -214,7 +246,18 @@
         "disciplineRequired": "En az bir disiplin seç.",
         "slugInvalid": "Slug yalnızca a–z, 0–9 ve tire içerebilir.",
         "slugTaken": "Bu slug'ı başka bir olay kullanıyor.",
-        "saveFailed": "Kaydedilemedi. Yeniden dene; tekrarlarsa sunucu günlüğüne bak."
+        "saveFailed": "Kaydedilemedi. Yeniden dene; tekrarlarsa sunucu günlüğüne bak.",
+        "imageNeedsCredit": "Görsel yazar, lisans ve alındığı sayfa ister.",
+        "sourceTitleRequired": "Kaynağın başlığı olmalı.",
+        "sourceUrlInvalid": "Adres http:// ya da https:// ile başlamalı.",
+        "personNameRequired": "Önce kişiyi kaynak dilde adlandır.",
+        "personSlugInvalid": "Bu addan kullanılabilir bir slug çıkmıyor; elle yaz.",
+        "personDuplicate": "Aynı kişi iki kez yazılmış.",
+        "personYearInvalid": "Yıllar tam sayıdır ve sıfır yılı yoktur.",
+        "linkSlugInvalid": "Slug yalnızca a–z, 0–9 ve tire içerebilir.",
+        "linkSelf": "Bir olay kendine dayanamaz.",
+        "linkDuplicate": "Aynı olay iki kez bağlanmış.",
+        "linkUnknown": "Bu slug'la bir olay yok."
       },
       "delete": "Bu olayı sil",
       "deleteConfirm": "“{title}” silinsin mi? Siteden hemen kalkar; Silindi listesinden geri alabilirsin.",
@@ -222,7 +265,26 @@
       "deletedFlash": "Olay silindi. Silindi listesinde.",
       "deletedOn": "{date} tarihinde silindi. Sitede görünmüyor.",
       "restore": "Geri al",
-      "restored": "Geri alındı. Yayındaysa sitede yeniden görünür."
+      "restored": "Geri alındı. Yayındaysa sitede yeniden görünür.",
+      "search": "Ara",
+      "searchHint": "Herhangi bir dildeki başlık ya da slug",
+      "missingLabel": "Eksik dil",
+      "missingAny": "Hepsi",
+      "apply": "Uygula",
+      "clear": "Temizle",
+      "sortLabel": "Sırala",
+      "sort": {
+        "year": "Yıl",
+        "updated": "Son düzenlenen",
+        "title": "Başlık"
+      },
+      "sourceKind": {
+        "encyclopedia": "Ansiklopedi",
+        "book": "Kitap",
+        "paper": "Makale (hakemli)",
+        "article": "Yazı",
+        "other": "Diğer"
+      }
     },
     "notFound": {
       "title": "Bulunamadı",
@@ -248,6 +310,11 @@
         "quote": "Büyüktür işaretiyle başlayan satır alıntı olur.",
         "rule": "Tek başına üç tire ayırıcı çizgi çizer."
       }
+    },
+    "dashboard": {
+      "missing": "Geride kalan diller",
+      "missingHint": "Yayındaki {total} olaydan kaçında o dilde metin yok. Tıklayınca listelenir.",
+      "recent": "En son düzenlenenler"
     }
   }
 }

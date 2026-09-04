@@ -192,13 +192,45 @@
         "slugHint": "Left empty: derived from the title.",
         "status": "Status",
         "statusHint": "Only published events appear on the site.",
-        "editLocale": "Editing language",
         "save": "Save",
         "saving": "Saving…",
         "write": "Write",
         "preview": "Preview",
         "markdownHelp": "How to write Markdown",
-        "uncredited": "No credit on: {names}. Write \"Author · Licence · https://source\" in quotes after the link."
+        "uncredited": "No credit on: {names}. Write \"Author · Licence · https://source\" in quotes after the link.",
+        "language": "Language",
+        "sourceMark": "source",
+        "saveAndStay": "Save and stay",
+        "unsaved": "Unsaved changes",
+        "removeRow": "Remove",
+        "sourceLocaleHint": "The language this event was written in; the others fall back to it.",
+        "sources": "Sources",
+        "sourcesHint": "At least two independent ones, and one of them an encyclopedia.",
+        "sourcesEmpty": "No sources yet.",
+        "addSource": "Add a source",
+        "sourceTitle": "Title",
+        "sourceUrl": "Address",
+        "sourceKind": "Kind",
+        "people": "People",
+        "peopleHint": "Shared across events: a name saved here is that person's name everywhere. Years and role may stay empty.",
+        "peopleEmpty": "Nobody named yet.",
+        "addPerson": "Add a person",
+        "personName": "Name",
+        "personRole": "What they did here",
+        "personBirth": "Born",
+        "personDeath": "Died",
+        "buildsOn": "Builds on",
+        "buildsOnHint": "Earlier events this one rests on. Only this direction is stored; the other appears by itself.",
+        "buildsOnEmpty": "Rests on nothing yet.",
+        "addLink": "Add a link",
+        "linkSlug": "Event slug",
+        "linkNote": "In one line, what it took from it",
+        "image": "Card picture",
+        "imagePath": "File or address",
+        "imagePathHint": "A path in the images bucket, or a full https address. Leave empty for no picture.",
+        "imageCredit": "Author or source",
+        "imageLicense": "Licence",
+        "imageSourceUrl": "Page it came from"
       },
       "errors": {
         "yearRequired": "Enter a whole number.",
@@ -214,7 +246,18 @@
         "disciplineRequired": "Pick at least one discipline.",
         "slugInvalid": "Slug may contain only a–z, 0–9 and hyphens.",
         "slugTaken": "Another event already uses this slug.",
-        "saveFailed": "Could not save. Try again; if it repeats, check the server log."
+        "saveFailed": "Could not save. Try again; if it repeats, check the server log.",
+        "imageNeedsCredit": "A picture needs an author, a licence and the page it came from.",
+        "sourceTitleRequired": "A source needs a title.",
+        "sourceUrlInvalid": "An address must begin with http:// or https://.",
+        "personNameRequired": "Name the person in the source language first.",
+        "personSlugInvalid": "That name gives no usable slug; write one by hand.",
+        "personDuplicate": "The same person is listed twice.",
+        "personYearInvalid": "Years are whole numbers, and there is no year zero.",
+        "linkSlugInvalid": "A slug holds only a–z, 0–9 and hyphens.",
+        "linkSelf": "An event cannot build on itself.",
+        "linkDuplicate": "The same event is linked twice.",
+        "linkUnknown": "No event has that slug."
       },
       "delete": "Delete this event",
       "deleteConfirm": "Delete “{title}”? It leaves the site at once; you can restore it from the Deleted list.",
@@ -222,7 +265,26 @@
       "deletedFlash": "Event deleted. It is in the Deleted list.",
       "deletedOn": "Deleted on {date}. Hidden from the site.",
       "restore": "Restore",
-      "restored": "Restored. It is back on the site if it was published."
+      "restored": "Restored. It is back on the site if it was published.",
+      "search": "Search",
+      "searchHint": "Title in any language, or slug",
+      "missingLabel": "Missing language",
+      "missingAny": "Any",
+      "apply": "Apply",
+      "clear": "Clear",
+      "sortLabel": "Sort",
+      "sort": {
+        "year": "Year",
+        "updated": "Last edited",
+        "title": "Title"
+      },
+      "sourceKind": {
+        "encyclopedia": "Encyclopedia",
+        "book": "Book",
+        "paper": "Paper",
+        "article": "Article",
+        "other": "Other"
+      }
     },
     "notFound": {
       "title": "Not found",
@@ -248,6 +310,11 @@
         "quote": "A line beginning with a greater-than sign is a quotation.",
         "rule": "Three dashes on a line of their own draw a divider."
       }
+    },
+    "dashboard": {
+      "missing": "Languages behind",
+      "missingHint": "Of {total} live events, how many have no text in each language. Click one to list them.",
+      "recent": "Last edited"
     }
   }
 }
