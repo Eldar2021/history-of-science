@@ -154,7 +154,10 @@ kendiliğinden değişmesi ziyaretçiye hata gibi okunur.
 
 ## ADR-024: Ana sayfa tam ekran bir küre; timeline'a kapı
 
-**2026-09-04 · Kabul**
+**2026-09-04 · Kabul** · "timeline'a kapı" maddesi ADR-030 ile geçersiz: gidilecek bir timeline
+sayfası kalmadı, ana sayfanın kendisi o. Kararın geri kalanı (küre, yerin hep merkezde olması,
+kuyruklu kart, giriş animasyonu yok, derin bağlantı) aynen geçerli; "Turu oynat" da ADR-030 ile
+kaldırıldı.
 
 - **Bağlam**: Ana sayfa "herhangi bir site" gibi duruyordu (S16'dan beri kullanıcının açık şikâyeti).
   Site tek soruya cevap veriyordu: **ne zaman**. Bilim tarihinin en çarpıcı hikâyelerinden biri ise
@@ -254,6 +257,8 @@ kart, ileri/geri) aynen geçerli.
   bağlantısı da ekranda duruyor (README'deki ürün ilkesi korunuyor). Sitenin kalanı açık tema olarak
   kalıyor — ADR-020 ve ADR-022 değişmedi; koyu olan sayfa değil, uzay.
 - **Sonuçlar**: Ana sayfa artık kaydırılmıyor, tek ekran.
+- **Ek 2 (2026-09-04)**: Aşağıdaki "çıkmaz" maddesi ADR-030 ile konusuz kaldı: ana sayfa artık
+  zaman çizelgesinin kendisi, gidilecek başka bir yer yok.
 - **Ek (2026-09-04)**: Ana sayfada zaman çizelgesine giden bağlantıların ikisi de kaldırıldı
   (başlıktaki bağlantı ve "Tüm zaman çizelgesini keşfet" düğmesi) — kullanıcı kararı, küre iyice
   sadeleşsin diye. `/timeline` duruyor ve diğer her sayfanın başlığından erişiliyor; **ana sayfadan
@@ -304,6 +309,37 @@ geçersizdir.
 - **Sonuçlar**: Okuyucunun tema seçimi yok. Beta'da (M2) okuma yorgunluğu geri bildirimi gelirse
   ilk bakılacak yer burasıdır; açık palet `git log`'da duruyor, geri getirmek bir commit'tir.
   `resource/design/tokens.json`'daki açık ramp artık kullanılmıyor; işleyen kaynak `globals.css`.
+
+---
+
+## ADR-030: Zaman çizelgesi ana sayfanın kendisi; `/timeline` silindi
+
+**2026-09-04 · Kabul** · ADR-024'ün "tek çıkış kapısı timeline" ve "Turu oynat" maddelerini,
+ADR-027'nin "ana sayfa bir çıkmaz" ekini geçersiz kılar.
+
+- **Bağlam**: Elli olay dikey bir akışta seyrek duruyordu ("timeline boş gibi", kullanıcı) ve
+  kürenin oraya bir kapısı yoktu (ADR-027 Ek). İkisi de aynı sorunun iki yüzü: sitenin iki ayrı
+  biçimi vardı ve her olayın iki evi.
+- **Karar**: Zaman çizelgesi ana sayfanın ayağında yaşar. Üstte gerçek ölçekli ince bir zaman
+  şeridi (`lib/timeline/xScale.ts`, çağ bantları ve olay çentikleri), altında her olay bir kart.
+  Kartlar sunucudan gelen gerçek bağlantılar. Seçim `scroll-snap` oturunca değişir. Küçük kart
+  yıl + başlık, büyük kart + bir cümle; masaüstünde fareyle, mobilde tutamağa dokunarak. Yeri
+  olmayan olay da şeritte durur, küre onun için yerinde kalır ve gidilen yolu silmez.
+  `/timeline` silinir, adresi ana sayfaya 308 ile yönlenir. Dürüstlük bandı ana sayfada açılan bir
+  "!" rozetine iner; diğer tüm sayfalarda paragraf hâliyle kalır. "Turu oynat" ve "Yere dön"
+  düğmeleri kalkar: şerit ileri/geri'nin kendisi, elle çevrilmiş küreye dönüş de aktif kartın
+  üstündeki işaret.
+- **Gerekçe**: İçerik 50'de donduruldu (`08`); site iyileşecekse kabuğu değişmeliydi. Yatay şerit
+  aynı elli olayı aynı anda sekiz-on tane gösterdiği için dolu hissettiriyor, ve ana sayfa hem
+  küre hem dizin olunca ADR-027'nin çıkmazı kendiliğinden kapanıyor. Kaybedilenler yazılıdır:
+  disiplin filtresi, sabit yıl göstergesi, zaman boşluğu işaretleri, minimap, "zamana düş"
+  animasyonu. Bunların taşıdığı **ölçek duygusu** kaybolmasın diye zaman şeridi konuldu; eşit
+  genişlikte elli kart 2600 yılı elli eşit adıma çevirir ki bu sitenin kendi cümlesinin tersidir.
+  Taranabilir uzun listenin SEO değeri kartlar sunucudan gerçek `<a>` olarak geldiği için duruyor.
+- **Sonuçlar**: Tek biçim, tek adres. Filtre ve minimap geri istenirse şeridin üstüne eklenir.
+  Dürüstlük ilkesinden vazgeçilmedi ama ana sayfada bir tıklama arkasında: beta'da (M2) "bunu
+  görmedim" geri bildirimi gelirse ilk bakılacak yer burasıdır. Şeridin kaydırma-seçim eşiği ve
+  mobilde tutamakla açılması gerçek cihazda denenmedi; ikinci sinyal orası.
 
 ---
 

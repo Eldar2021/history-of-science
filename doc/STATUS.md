@@ -5,32 +5,32 @@
 
 ## Şu an
 
-- **Faz**: M1'in son maddesi → sonra **Faz A** (siteyi 50 olayla biçimlendirmek, `08`). Hafta numaraları
-  bırakıldı. Dal `el/ne-home-rdesign`, **PR #9 açık, kullanıcı review edip merge edecek.**
-- **Yayında** (`main`): https://history-of-science.vercel.app — timeline, olay detayı, minimap, disiplin
-  filtresi, dürüstlük bandı, 4 dil, `/admin`, kaydet→sitede anında. 43 olay, 150 bağlantı.
-- **PR #9'da bekleyen** (henüz canlıda değil): ana sayfa küresi. NASA Blue Marble dokulu küre, 43 olayın
-  yer verisi, kızıl işaretler, belirsizlik çemberleri, elle çevirme, gidilen yolun yayları, "Turu oynat",
-  tam ekran gökyüzü, **tek koyu tema** (açık tema kaldırıldı).
-- **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl`, migration 0001-0004 (yer verisi uygulandı).
-  Vercel prod, `main` push = deploy. Bulut admin: `eldiiaralmazbekov@gmail.com`; şifre
+- **Faz**: M1'in son maddesi (7 olay) + **Faz A** başladı. Dal `el/one-style-home`, **PR henüz
+  açılmadı**; iki commit hazır ve yerelde yeşil.
+- **Yayında** (`main`): https://history-of-science.vercel.app — küre, olay detayı, 4 dil, `/admin`,
+  kaydet→sitede anında. 43 olay, 150 bağlantı. **Ana sayfa şeridi henüz canlıda değil.**
+- **Dalda bekleyen** (`el/one-style-home`): zaman çizelgesi ana sayfanın ayağına taşındı — gerçek
+  ölçekli zaman şeridi + her olay bir kart, `scroll-snap` ile seçim, sunucudan gerçek bağlantılar.
+  `/timeline` silindi, adresi `/`'a 308 ile yönleniyor. Dürüstlük bandı ana sayfada açılan "!"
+  rozeti. "Turu oynat" ve "Yere dön" düğmeleri kalktı. Hepsi ADR-030'da.
+- **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl`, migration 0001-0004. Vercel prod, `main`
+  push = deploy. Bulut admin: `eldiiaralmazbekov@gmail.com`; şifre
   `backend/scripts/cloud-admin-password.sh <email>`. Yerel admin `admin@uchkun.local` /
   `uchkun-local-admin` (`create-admin.mjs` ile yeniden üretilebilir).
 - **Yerel**: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
 
 ## Açık işler
 
-1. **PR #9** — kullanıcı review edip merge edecek.
-2. **M1'in son maddesi**: +7 Aydınlanma olayı → 50 yayınlanmış olay (`03`'teki liste: Linnaeus, Franklin,
-   oksijen, Herschel, Lavoisier, Jenner, Volta). Diğer 8 kabul kriteri yeşil.
-3. **Faz A** — kapsamı kullanıcıdan bekleniyor (S17). Bilinen işler `08`'de; ilki **canlıda Lighthouse
-   mobil ölçümü**, çünkü küre 905 KB doku + piksel piksel çizen bir renderer getirdi ve sonucu diğer
-   her şeyi etkileyebilir.
+1. **`el/one-style-home` için PR aç, review et, merge et.**
+2. **Golos Text Türkçe `ğ`'yi çiziyor sanılıyordu, çizmiyor** (R13, `08`). Türkçe okuyucunun her
+   sayfası yazım hatalı görünüyor. Font kararı kullanıcının (ADR-019 revizyonu).
+3. **M1'in son maddesi**: +7 Aydınlanma olayı → 50 yayınlanmış olay (`03`'teki liste).
+4. **Faz A'nın kalanı** `08`'de; sıradaki büyük madde **canlıda Lighthouse mobil ölçümü** (küre
+   905 KB doku + piksel piksel renderer, üstüne şerit geldi).
 
 ## Kullanıcıdan bekleyen
 
-- **S17: Faz A'da siteyi ne yapacağız?** Kullanıcının fikirleri var, kendisi getirecek. Geldiğinde
-  `08`'deki Faz A bölümü ona göre yeniden yazılır. (Açık uçlu kalması R12 riski.)
+- **Font**: Golos Text mi değişsin, yoksa `ğ` için yedek font yığını mı? (R13)
 - **Uluğ Bey yılı**: seed'de `1420 exact`, taslakta `circa` + `1437`. Admin formundan düzeltilebilir.
 - **Beta / "monkey test"**: birlikte yapılacak, tarih kullanıcıdan. Video zorunlu değil.
 
@@ -40,17 +40,18 @@
 
 - **İçerik 50 olayda donduruldu** (kullanıcı kararı, `08`). Faz A boyunca yeni olay yok.
 - Bulut Auth'un Site URL'i hâlâ localhost → **şifre sıfırlama bağlantısı localhost'a gidiyor.** Faz A.
-- Bulut `era_translations`'ta Türkçe yazım hatası: `İslam Altın Çagı ve Orta Çag` (`ğ` düşmüş).
 - Migration 0004'ün başında altı olayın yeri "bir tarihçi kararına dayanıyor" diye listeli; kontrol
   edilmedi.
-- Ana sayfa şu an bir **çıkmaz**: zaman çizelgesine bağlantı yok (kullanıcı kararı, ADR-027). Beta'da
-  sorun çıkarsa ilk geri alınacak şey.
+- Ana sayfa artık çıkmaz değil: zaman çizelgesinin kendisi (ADR-030). Disiplin filtresi, minimap,
+  sabit yıl göstergesi ve zaman boşluğu işaretleri `/timeline` ile gitti; geri istenirse `08`'de.
 - Yerel Docker **Colima** ile; Docker Desktop yok. Supabase CLI Homebrew'dan.
 - Yerel DB'de 10 seed olayı `published` (yer verisi dahil); bulutta 43 olayın hepsi yayında, taslak yok.
 - Vercel preview'ları **giriş korumalı**: otomatik tarayıcı `vercel curl` ile HTML alabiliyor ama sayfayı
   çalıştıramıyor. Canlı davranışı görmek için yerel üretim build'ini bulut Supabase'e bağla
   (`vercel env pull` ile iki `NEXT_PUBLIC_SUPABASE_*` değişkenini alıp `next start`).
 - **`supabase db push` bu ortamda engelli** (üretim verisine yazıyor); kullanıcı kendi çalıştırır.
+- Playwright yerelde **kurulu Chrome'u** kullanıyor (`channel: "chrome"`), indirilmiş chromium yok;
+  ekran görüntüsü betiği `web/` içinden çalıştırılmalı, yoksa `playwright` çözülmüyor.
 - Puppeteer/headless testte: `click` elemanı görünür alana kaydırır, kaydırma konumu testlerinde
   `evaluate` ile tıkla. Next route announcer `role=alert` taşır → `main [role=alert]` diye daralt.
   Başlıktaki "Çıkış" düğmesi `button[type=submit]` seçicisine takılır → `main form` kullan.
@@ -59,19 +60,20 @@
 
 ## Son oturum
 
-### 2026-09-04 — 11. oturum: ana sayfa küresi, baştan sona
-- Yer verisi: migration 0003 (şema + `place_needs_coords`) ve 0004 (43 olayın yeri, tek kopya bir
-  fonksiyonda — `db reset` migration'ları seed'den önce çalıştırdığı için). `formatPlace.ts` yer metninin
-  tek kaynağı; belirsizlik ayrı not satırı, çünkü "Semerkant civarı" dört dilde gramerli kurulamıyor
-  (ADR-025). Admin formuna yer alanları.
-- Küre: Canvas 2D, çalışma zamanında sıfır bağımlılık. Önce nokta haritası yazıldı, kullanıcı canlıda
-  denedi ("2D duruyor, kıtalarda hata var") → NASA Blue Marble fotoğrafına geçildi (ADR-026). NASA'nın
-  12,9 MB'lık modeli ve iframe reddedildi, gerekçesi ADR'de.
-- Kullanıcı geri bildirimiyle: kızıl işaretler (ADR-028, ADR-025'in "kırmızı olmasın" maddesini geçersiz
-  kılar), siyah gökyüzü + yıldızlar, tam ekran + saydam başlık (ADR-027), tek koyu tema (ADR-029,
-  ADR-020 ve ADR-022 geçersiz), 4096'lık doku yalnızca ekran ve cihaz kaldırıyorsa.
-- Yaylar: iz geçmişe değil aktif olaya bağlı, yani paylaşılan bağlantı da aynı yolu gösteriyor.
-- Bulunan ve düzeltilen kendi hatalarım: `!== null` `undefined`'ı geçiriyordu (canlıda boş siyah küre),
-  çizim döngüsü sürüklemede uyanmıyordu, `sr-only` başlığı wordmark'ın üstüne bindiriyordu.
-- Dokümanlar bu oturumun sonunda güncel duruma çekildi: hafta numaraları bırakıldı, fazlar geldi,
-  içerik dondurma kuralı yazıldı, biten maddeler silindi, ADR-020/022 "geçersiz" olarak kısaltıldı.
+### 2026-09-04 — 12. oturum: tek stil, zaman çizelgesi ana sayfaya taşındı
+- Kullanıcının fikri: ayrı timeline sayfası yerine ana sayfaya carousel. Tartışıldı, üç soru
+  soruldu (NASA atfı mı küre mi · okuma yüzeyi hangisi · `/timeline` ne olacak), plan onaylandı.
+- `EventStrip` + `TimeRibbon`: şerit her olayı taşıyor, küre yalnızca yeri olanları. Aradaki köprü
+  `lib/globe/strip.ts`'teki `globeIndex`; yeri olmayan olayda küre yerinde kalıyor ve `trailTo` ile
+  gidilen yol silinmiyor. Ölçek duygusu için `xScale` tabanlı oransal şerit — eşit genişlikte elli
+  kart 2600 yılı düzleştiriyordu.
+- Seçim kaydırmanın kendisine değil `scroll-snap`'in oturmasına bağlı: küre piksel piksel çiziyor,
+  her kaydırma karesinde kamera istemek telefonu tıkatırdı.
+- `HonestyBadge`: native `<dialog>` (odak tuzağı ve Esc bedava), içinde itiraf + hata bildirme +
+  NASA atfı. Paragraf bandı diğer sayfalarda aynen duruyor.
+- `/timeline` ve parçaları silindi; `next.config` 308 yönlendirmesi. `nav.timeline` ve `timeline`
+  ad alanı gitti, iki çeviri rozeti `event`'e taşındı.
+- Bulunan ve düzeltilen kendi hatam: karttaki `onFocus` seçim yapınca fare tıklaması "zaten aktif"
+  sayılıp olay sayfasına gidiyordu; `:focus-visible` ile klavyeye daraltıldı (e2e yakaladı).
+- **Yan bulgu**: Golos Text `ğ` yerine düz `g` çiziyor (R13). "Bulutta yazım hatası" sanılan şey
+  büyük olasılıkla bu.

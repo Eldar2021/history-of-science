@@ -10,7 +10,6 @@ Cevaplanmış sorular ve çözülmüş riskler buradan çıkarılır; kararları
 | S12 | Hata bildirimi nereye düşsün: e-posta mı, admin'de "bildirimler" mi? | Faz C    | Öneri: ikisi; e-posta yedek                   |
 | S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman başlasın?        | Faz D    | İngilizce beta bitince; `editor` hesabı       |
 | S14 | Alan adı hangisi?                                                    | Faz C    | uchkun.science / .kg / .org — müsaitlik       |
-| S17 | Faz A'da siteyi ne yapacağız?                                        | **şimdi** | Kullanıcının fikirleri var, kendisi getirecek |
 
 ## Canlı riskler
 
@@ -21,11 +20,12 @@ Cevaplanmış sorular ve çözülmüş riskler buradan çıkarılır; kararları
 **Kalan risk**: taslak kalitesi düşükse onay yerine yeniden yazmak gerekir. **Sinyal**: reddetme oranı
 %30 üstü. **Plan**: ilk 10 taslaktan sonra prompt'u ayarla, kaynak eşiğini 3'ten 4'e çıkar.
 
-### R12 — Faz A açık uçlu (yeni, 2026-09-04)
+### R13 — Golos Text Türkçe `ğ`'yi çizmiyor (yeni, 2026-09-04)
 
-İçerik donduruldu ve fazın kapsamı "kullanıcının fikirleri" (S17). Kapsam yazılı olmadığı sürece bu faz
-süresiz uzayabilir ve site 50 olayda takılı kalır. **Sinyal**: S17 bir hafta içinde bir listeye
-dönüşmezse. **Plan**: fikirler geldiğinde `08`'e madde madde yazılır, kesme kuralına dahil edilir.
+Gövde/UI fontu `ğ` yerine düz `g` gösteriyor; Literata doğru. Türkçe okuyucu için sitenin her sayfası
+yazım hatalıymış gibi görünüyor — "dört dil eşit vatandaştır" ilkesinin somut ihlali. **Sinyal**:
+bulundu, açık. **Plan**: `08`'deki madde; sans'ı değiştirmek ADR-019'un revizyonu demek, o yüzden
+karar kullanıcının. **Yan etki**: bu bulunana kadar veri sanılan bir "yazım hatası" vardı.
 
 ### R2 — Tarihsel hata yayınlanır
 
