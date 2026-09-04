@@ -20,13 +20,6 @@ Cevaplanmış sorular ve çözülmüş riskler buradan çıkarılır; kararları
 **Kalan risk**: taslak kalitesi düşükse onay yerine yeniden yazmak gerekir. **Sinyal**: reddetme oranı
 %30 üstü. **Plan**: ilk 10 taslaktan sonra prompt'u ayarla, kaynak eşiğini 3'ten 4'e çıkar.
 
-### R13 — Golos Text Türkçe `ğ`'yi çizmiyor (yeni, 2026-09-04)
-
-Gövde/UI fontu `ğ` yerine düz `g` gösteriyor; Literata doğru. Türkçe okuyucu için sitenin her sayfası
-yazım hatalıymış gibi görünüyor — "dört dil eşit vatandaştır" ilkesinin somut ihlali. **Sinyal**:
-bulundu, açık. **Plan**: `08`'deki madde; sans'ı değiştirmek ADR-019'un revizyonu demek, o yüzden
-karar kullanıcının. **Yan etki**: bu bulunana kadar veri sanılan bir "yazım hatası" vardı.
-
 ### R2 — Tarihsel hata yayınlanır
 
 **Çözüm**: dürüstlük bandı her sayfada (yayında) + iki kaynak kuralı + hattın araştırma notu (çelişkileri

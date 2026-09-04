@@ -115,7 +115,7 @@
   --color-discipline-earth: var(--discipline-earth);
   --color-discipline-technology: var(--discipline-technology);
 
-  --font-sans: var(--font-sans), "Golos Text", system-ui, sans-serif;
+  --font-sans: var(--font-sans), Onest, system-ui, sans-serif;
   --font-display: var(--font-display), Literata, Georgia, serif;
 
   /* Organic density 1.10x: every spacing utility scales from a 4.4px unit. */

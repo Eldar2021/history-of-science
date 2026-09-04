@@ -50,12 +50,6 @@ Kalan tek madde içerik. Bitince M1 yeşil ve içerik donar.
 
 ### Bilinen, kapatılması gereken işler
 
-- [ ] **Golos Text Türkçe `ğ`'yi düşürüyor** — gövde/UI fontu `ğ` yerine düz `g` çiziyor (Literata
-      doğru çiziyor, Kırgızca `Ң Ө Ү` ikisinde de doğru). Dört dil eşit vatandaş ilkesine aykırı.
-      Seçenekler: sans'ı değiştirmek (ADR-019 revizyonu), ya da `ğ` için font yığınına yedek koymak.
-      **Not**: STATUS'taki "bulut `era_translations`'ta `Çagı` yazım hatası" büyük olasılıkla bu;
-      yerel seed'de `Çağı` doğru yazılmış ama ekranda `Çagı` görünüyor. Fontu düzeltmeden veriye
-      dokunma.
 - [ ] **Canlıda Lighthouse mobil ölçümü.** Küre 905 KB'lık bir doku ve piksel piksel çizen bir renderer
       getirdi; üstüne şerit geldi. Bütçeyi bozup bozmadığını bilmiyoruz; Faz A'nın sıradaki işi bu.
 - [ ] Şeridi gerçek telefonda dene: kaydırma-seçim eşiği ve tutamakla açma yalnızca emülatörde
@@ -63,9 +57,8 @@ Kalan tek madde içerik. Bitince M1 yeşil ve içerik donar.
 - [ ] Disiplin filtresi ve minimap `/timeline` ile gitti. Geri isteniyorsa şeridin üstüne.
 - [ ] Bulut Auth ayarı: Site URL ve redirect listesi Vercel adresi olsun; `/admin/reset-password`
       sayfası. **Şu an şifre sıfırlama bağlantısı localhost'a gidiyor** — şifre unutulursa girilemez.
-- [ ] Bulut `era_translations`'ta Türkçe çağ adını **gözle değil SQL ile** doğrula. Ekranda görülen
-      `Çagı`/`Çag` büyük olasılıkla fontun `ğ`'yi düşürmesi (yukarıdaki madde); yerel seed doğru.
-      Gerçekten bozuksa düzelt, değilse dokunma.
+- [ ] Bulut `era_translations`'ta Türkçe çağ adına canlıda bir kez bak. Font düzeldiğine göre
+      (ADR-031) `Çağı` doğru görünmeli; hâlâ `Çagı` ise gerçekten veri hatası, düzelt.
 - [ ] Altı olayın yeri bir tarihçi kararına dayanıyor, kontrol edilmedi: copernicus (Frombork/Nürnberg),
       roger-bacon (Paris/Oxford), aryabhata, ibn-sina, al-biruni, tycho. Liste migration 0004'ün başında.
 - [ ] Uluğ Bey yılı çelişkisi: seed `1420 exact`, taslak `circa 1437`. Admin formundan düzeltilir.

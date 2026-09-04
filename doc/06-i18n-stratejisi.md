@@ -54,8 +54,9 @@ en büyük tipografik ögesi olarak kalır.
 
 En değerli ve en zor dil; ikisi de aynı sebepten: kaynak az.
 
-- **Alfabe**: Kiril + `Ң ң`, `Ө ө`, `Ү ү`. Her yeni font `Ңөү` ile görsel olarak test edilir. Golos Text
-  ve Literata (mevcut fontlar) `cyrillic-ext` alt kümesiyle içeriyor.
+- **Alfabe**: Kiril + `Ң ң`, `Ө ө`, `Ү ү`. Her yeni font `Ңөү` **ve** `değil Çağı` ile görsel olarak
+  test edilir — bir alt kümeyi "desteklemek" her glifi doğru çizmek demek değil; Golos Text `latin-ext`
+  taşıdığı hâlde Türkçe `ğ`'yi breve'siz çiziyordu (ADR-031). Mevcut fontlar Onest ve Literata.
 - **Terminoloji**: bilim terimleri çoğunlukla Rusçadan ödünç. Bir terim sözlüğü tutulur
   (`backend/scripts/glossary.ky.json`, Faz B) ve her çeviri isteğine verilir; ilk 50 olayla büyür.
 - **Makine çevirisi**: Claude Kırgızcada Türkçe ve Rusçadan zayıf. Süreç: Claude Kırgızca taslağı
