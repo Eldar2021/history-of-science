@@ -67,7 +67,9 @@ Ayrıca: **Uluğ Bey, bulutta** — admin formundan Yıl `1420`, Bitiş `1437`, 
 - **Erişilebilirlik**: atlama bağlantısı; görünen metin ile erişilebilir ad uyuşmazlığı giderildi
   (dil düğmesi, olay kartı). Kontrast tablosu ölçüldü, hepsi AA.
 - **Küre dokusu WebP** (JPEG arkada): 262→176 KB ve 907→587 KB.
-- Ölçüm: canlı mobil 94/100/100/91 · yerel üretim build'inde a11y 100, SEO 100, best practices 100.
+- Ölçüm (merge sonrası, 6 tur): canlı mobil a11y/best-practices/SEO **100/100/100**, performans
+  **83-92 (ort. 88)**. Tek Lighthouse turu 9 puan oynuyor — merge öncesi elde tek okuma vardı (94),
+  o yüzden gerileme olduğu **gösterilemedi**; WebP dokusu aynı build'de A/B ile elendi.
 
 ### 2026-09-04 — 15. oturum
 - Admin refactor (ADR-034). Form artık **dört dili birden** taşıyor: sekmeler client'ta, tek kaydetme

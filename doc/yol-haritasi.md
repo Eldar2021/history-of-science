@@ -41,8 +41,12 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 - [ ] `/era/{slug}`, `/discipline/{slug}`. (`hreflang`, meta, `sitemap.xml`, `robots.txt`, OG görselleri
       ve yedekleme ADR-035 ile bitti.)
 - [ ] Analitik (Plausible/Umami), Sentry. `about` sayfası 4 dilde (neden, kaynak politikası, düzeltmeler, iletişim).
-- [ ] Alan adı (S14). Performans turu; `cacheComponents` değerlendir (ADR-021).
-      Ölçüm 2026-09-05: canlı mobil 94/100/100/91, `robots.txt` eklendikten sonra SEO 100.
+- [ ] **Performans turu.** Canlı mobil Lighthouse 2026-09-05, 6 ölçüm: perf **83-92, ortalama 88**;
+      LCP 3.2-4.0 s, render gecikmesi baskın. Erişilebilirlik/en iyi uygulamalar/SEO **100/100/100**.
+      Yani "mobil 90+" bütçesi ancak iyi bir turda tutuyor. Tek ölçüm 9 puan oynadığı için karar
+      vermeden önce en az 5 tur al. Küre dokusunun WebP olması ölçülebilir fark yaratmadı (aynı
+      build'de A/B: ikisi de aynı). `cacheComponents` de burada değerlendirilir (ADR-021).
+- [ ] Alan adı (S14).
 
 **M2**: 10 kişilik İngilizce kapalı beta, 1 hafta, geri bildirim formu. 3 büyük sorun → Faz D'nin başı.
 
