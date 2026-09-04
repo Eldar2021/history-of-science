@@ -36,12 +36,14 @@ export default async function EventPage({ params }: Props) {
   const { locale: raw, slug } = await params;
   setRequestLocale(raw);
   const locale = raw as Locale;
-  const [event, t] = await Promise.all([getEventDetail(slug, locale), getTranslations("nav")]);
+  const event = await getEventDetail(slug, locale);
   if (!event) notFound();
 
   return (
     <>
-      <SiteHeader center={<span className="text-secondary">{t("timeline")}</span>} />
+      {/* The bar said "Timeline" here, back when that was a page to go to. It is the home page
+          now, and the wordmark already leads there (ADR-030). */}
+      <SiteHeader />
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 pb-16 pt-8">
         <EventDetail event={event} locale={locale} headingLevel="h1" />
       </main>

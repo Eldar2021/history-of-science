@@ -58,7 +58,7 @@ test("admin adds a published event and it appears on the site at once", async ({
   // The public site, as a visitor (no cookies): a fresh context.
   const visitor = await page.context().browser()!.newContext();
   const site = await visitor.newPage();
-  await site.goto("/en/timeline");
+  await site.goto("/en");
   await expect(site.getByRole("link", { name: new RegExp(title.replace(/[()]/g, "\\$&")) })).toBeVisible();
   await site.goto(`/en/event/${slug}`);
   await expect(site.getByRole("heading", { level: 1 })).toHaveText(title);
@@ -77,7 +77,7 @@ test("switching the event back to draft hides it from the site", async ({ page }
   const visitor = await page.context().browser()!.newContext();
   const res = await visitor.request.get(`/en/event/${slug}`);
   expect(res.status()).toBe(404);
-  const timeline = await (await visitor.request.get("/en/timeline")).text();
-  expect(timeline).not.toContain(slug);
+  const home = await (await visitor.request.get("/en")).text();
+  expect(home).not.toContain(slug);
   await visitor.close();
 });

@@ -10,47 +10,32 @@
     "tr": "Türkçe"
   },
   "nav": {
-    "timeline": "Timeline",
     "about": "About",
     "language": "Language"
   },
   "home": {
     "question": "How did we get here?",
     "lead": "From Thales to CRISPR: every discovery stood on an earlier one. Fall into time and watch how slowly it started, and how fast it got.",
-    "cta": "Fall into time",
     "previous": "Previous event",
     "next": "Next event",
     "progress": "{index} of {total}",
     "openEvent": "Read the story: {title}",
     "recenter": "Back to the place",
-    "earthCredit": "NASA Blue Marble",
-    "playTour": "Play the tour",
-    "stopTour": "Stop"
-  },
-  "timeline": {
-    "title": "Timeline",
-    "eventsCount": "{count, plural, one {# event} other {# events}}",
-    "eraNotation": "BCE = before the common era",
-    "yearsPassed": "~{years} years passed",
-    "notTranslated": "Not yet in {locale}",
-    "machineTranslated": "Auto-translated",
-    "importance": "Importance {level}",
-    "landmark": "Landmark",
-    "today": "today",
-    "era": "Era",
-    "filterLegend": "Filter by discipline",
-    "onlyThese": "Only these",
-    "clearFilter": "Clear",
-    "filterEmpty": "No event in these disciplines yet. Maybe that is the interesting part.",
-    "overview": "Timeline overview"
+    "strip": "All events, oldest first",
+    "expand": "Enlarge the cards",
+    "collapse": "Shrink the cards"
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
-    "short": "This site was not written by a historian.",
     "report": "Report an error",
     "subject": "Uchkun: error report",
     "subjectEvent": "Uchkun: error in \"{title}\" ({year})",
-    "body": "Page: {url}\n\nWhat is wrong:\n"
+    "body": "Page: {url}\n\nWhat is wrong:\n",
+    "badge": "About the accuracy of this site",
+    "title": "Before you read on",
+    "close": "Close",
+    "earth": "The Earth behind this page is NASA's Blue Marble photograph, which carries no copyright.",
+    "earthCredit": "Source: NASA Blue Marble"
   },
   "event": {
     "whyItMatters": "Why it matters",
@@ -60,9 +45,11 @@
     "people": "People",
     "sources": "Sources",
     "close": "Close",
-    "showInTimeline": "Show in the timeline",
     "imageCredit": "Image: {credit}, {license}",
-    "unknownYear": "?"
+    "unknownYear": "?",
+    "showOnGlobe": "Show it on the globe",
+    "notTranslated": "Not yet in {locale}",
+    "machineTranslated": "Auto-translated"
   },
   "notFound": {
     "title": "Not found",

@@ -27,14 +27,15 @@ kıt kaynak olay sayısı değil, **hangi sitede duracakları.**
 
 ## M1 — MVP kabul kriterleri
 
-- [x] `/tr/timeline` açılıyor, dikey akışta çağ başlıklarıyla.
-- [x] Kaydırınca sabit yıl göstergesi güncelleniyor.
-- [x] Olaya tıklayınca detay açılıyor, geri tuşu timeline'da aynı konuma dönüyor.
+- [x] Zaman çizelgesi açılıyor, çağlarıyla ve gerçek ölçekli zaman şeridiyle (ADR-030'dan sonra
+      ana sayfanın ayağında, `/tr` — `/tr/timeline` oraya yönleniyor).
+- [x] Olaya tıklayınca detay açılıyor, geri tuşu aynı olaya dönüyor.
 - [x] `/admin` sadece giriş yapmış admin'e açık; anonim istek 302 ile login'e gidiyor.
 - [x] Admin'de kaydedince sitede anında görünüyor, deploy gerekmeden.
 - [x] Taslaklar sitede ve API'de görünmüyor (RLS ile veritabanı seviyesinde).
 - [x] Dört dil rotası çalışıyor; çeviri yoksa kaynak dil + "bu dilde henüz yok" rozeti.
-- [x] Mobil Lighthouse performans 85+ (timeline 93 canlı, üretim build'de 100).
+- [x] Mobil Lighthouse performans 85+ (93 canlı, üretim build'de 100) — küre ve şeritten sonra
+      yeniden ölçülecek, aşağıda.
 - [ ] **En az 50 yayınlanmış olay.** 43 var; +7 Aydınlanma olayı gerekiyor (`03`'teki liste).
 
 Kalan tek madde içerik. Bitince M1 yeşil ve içerik donar.
@@ -43,23 +44,31 @@ Kalan tek madde içerik. Bitince M1 yeşil ve içerik donar.
 
 ## Faz A — Siteyi 50 olayla istediğimiz hâle getirmek
 
-**Bu fazın kapsamı henüz açık.** Kullanıcının fikirleri var, kendisi getirecek (S17). Aşağıdakiler o
-fikirler gelene kadar bilinen işler; kullanıcının listesi geldiğinde bu bölüm ona göre yeniden yazılır.
+**Kapsam açıldı (2026-09-04, kullanıcının fikirleri, S17 kapandı):** siteyi tek biçime indirmek.
+İlk ve en büyük madde bitti — zaman çizelgesi ana sayfanın kendisi oldu, `/timeline` silindi
+(ADR-030). Kalanlar aşağıda.
 
 ### Bilinen, kapatılması gereken işler
 
+- [ ] **Golos Text Türkçe `ğ`'yi düşürüyor** — gövde/UI fontu `ğ` yerine düz `g` çiziyor (Literata
+      doğru çiziyor, Kırgızca `Ң Ө Ү` ikisinde de doğru). Dört dil eşit vatandaş ilkesine aykırı.
+      Seçenekler: sans'ı değiştirmek (ADR-019 revizyonu), ya da `ğ` için font yığınına yedek koymak.
+      **Not**: STATUS'taki "bulut `era_translations`'ta `Çagı` yazım hatası" büyük olasılıkla bu;
+      yerel seed'de `Çağı` doğru yazılmış ama ekranda `Çagı` görünüyor. Fontu düzeltmeden veriye
+      dokunma.
 - [ ] **Canlıda Lighthouse mobil ölçümü.** Küre 905 KB'lık bir doku ve piksel piksel çizen bir renderer
-      getirdi; bütçeyi bozup bozmadığını bilmiyoruz. Faz A'nın ilk işi bu olmalı, çünkü sonucu diğer
-      her şeyi etkileyebilir.
+      getirdi; üstüne şerit geldi. Bütçeyi bozup bozmadığını bilmiyoruz; Faz A'nın sıradaki işi bu.
+- [ ] Şeridi gerçek telefonda dene: kaydırma-seçim eşiği ve tutamakla açma yalnızca emülatörde
+      denendi (ADR-030).
+- [ ] Disiplin filtresi ve minimap `/timeline` ile gitti. Geri isteniyorsa şeridin üstüne.
 - [ ] Bulut Auth ayarı: Site URL ve redirect listesi Vercel adresi olsun; `/admin/reset-password`
       sayfası. **Şu an şifre sıfırlama bağlantısı localhost'a gidiyor** — şifre unutulursa girilemez.
-- [ ] Bulut veritabanındaki Türkçe çağ adında yazım hatası: `İslam Altın Çagı ve Orta Çag` → `Çağı`,
-      `Çağ`. `era_translations`, admin'den ya da SQL ile.
+- [ ] Bulut `era_translations`'ta Türkçe çağ adını **gözle değil SQL ile** doğrula. Ekranda görülen
+      `Çagı`/`Çag` büyük olasılıkla fontun `ğ`'yi düşürmesi (yukarıdaki madde); yerel seed doğru.
+      Gerçekten bozuksa düzelt, değilse dokunma.
 - [ ] Altı olayın yeri bir tarihçi kararına dayanıyor, kontrol edilmedi: copernicus (Frombork/Nürnberg),
       roger-bacon (Paris/Oxford), aryabhata, ibn-sina, al-biruni, tycho. Liste migration 0004'ün başında.
 - [ ] Uluğ Bey yılı çelişkisi: seed `1420 exact`, taslak `circa 1437`. Admin formundan düzeltilir.
-- [ ] Ana sayfa şu an bir çıkmaz: zaman çizelgesine giden bağlantı yok (ADR-027, kullanıcı kararı).
-      Beta'da bu bir sorun olarak çıkarsa ilk geri alınacak şey budur.
 - [ ] Erişilebilirlik geçişi (klavye, odak, `aria-live`, kontrast) — tek koyu temada baştan.
 
 ## Faz B — İçerik hattı, çeviri, görseller

@@ -5,8 +5,15 @@ import { LocaleSwitcher } from "./LocaleSwitcher";
 /**
  * `over` drops the bar's own background and border so it can float on top of something - the home
  * page globe. Put it inside .globe-stage and the tokens turn light-on-dark by themselves.
+ *
+ * `trailing` is for whatever a page needs beside the language switcher; the home page puts the
+ * honesty badge there (ADR-030).
  */
-export function SiteHeader({ center, over = false }: { center?: React.ReactNode; over?: boolean }) {
+export function SiteHeader({ center, trailing, over = false }: {
+  center?: React.ReactNode;
+  trailing?: React.ReactNode;
+  over?: boolean;
+}) {
   const t = useTranslations();
   return (
     <header
@@ -18,11 +25,8 @@ export function SiteHeader({ center, over = false }: { center?: React.ReactNode;
     >
       <Link href="/" className="font-display text-lg text-primary">{t("site.name")}</Link>
       <div className="min-w-0 whitespace-nowrap font-display text-2xl tabular text-primary">{center}</div>
-      <nav className="flex items-center gap-4 text-sm">
-        {/* The home globe carries no chrome it does not need; every other page keeps the link. */}
-        {!over && (
-          <Link href="/timeline" className="hidden text-secondary hover:text-primary sm:inline">{t("nav.timeline")}</Link>
-        )}
+      <nav className="flex items-center gap-3 text-sm">
+        {trailing}
         <LocaleSwitcher />
       </nav>
     </header>

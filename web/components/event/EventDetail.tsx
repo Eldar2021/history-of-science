@@ -45,9 +45,7 @@ function LinkedList({ items, locale }: { items: LinkedEvent[]; locale: Locale })
 
 /** The event detail: the same component on the full page and inside the panel. */
 export async function EventDetail({ event, locale, headingLevel = "h1", headingId }: Props) {
-  const [t, tTimeline, tLocales] = await Promise.all([
-    getTranslations("event"), getTranslations("timeline"), getTranslations("locales"),
-  ]);
+  const [t, tLocales] = await Promise.all([getTranslations("event"), getTranslations("locales")]);
   const Heading = headingLevel;
   // Section headings sit one level under the title (heading order matters for screen readers and Lighthouse).
   const Sub = headingLevel === "h1" ? "h2" : "h3";
@@ -73,11 +71,11 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
           ))}
           {event.is_fallback && (
             <span className="rounded-pill border border-line px-2.5 py-1 text-label text-muted">
-              {tTimeline("notTranslated", { locale: tLocales(locale) })}
+              {t("notTranslated", { locale: tLocales(locale) })}
             </span>
           )}
           {event.translation_status === "machine" && (
-            <span className="rounded-pill border border-line px-2.5 py-1 text-label text-muted">{tTimeline("machineTranslated")}</span>
+            <span className="rounded-pill border border-line px-2.5 py-1 text-label text-muted">{t("machineTranslated")}</span>
           )}
         </div>
       </header>
@@ -172,8 +170,8 @@ export async function EventDetail({ event, locale, headingLevel = "h1", headingI
       )}
 
       <p className="mt-8">
-        <Link href={`/timeline?year=${event.year}`} className="text-small text-accent-text underline-offset-4 hover:underline">
-          {t("showInTimeline")}
+        <Link href={`/?event=${event.slug}`} className="text-small text-accent-text underline-offset-4 hover:underline">
+          {t("showOnGlobe")}
         </Link>
       </p>
     </article>
