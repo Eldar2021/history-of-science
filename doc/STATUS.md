@@ -23,8 +23,12 @@
 
 Üçü de panel işi; kod tarafı hazır.
 
-1. **GitHub deposu → Settings → Secrets → Actions**: `SUPABASE_DB_URL` ekle (Supabase → Project Settings
-   → Database → Connection string, URI, şifre dolu). Bu olmadan gece yedeği her gece hata verir.
+1. **GitHub deposu → Settings → Secrets → Actions**: `SUPABASE_DB_URL` ekle. **Session pooler** dizesi
+   olmalı; panelin önce gösterdiği doğrudan bağlantı IPv6-only, GitHub makinesi IPv4 — asla bağlanamaz.
+   `postgresql://postgres.hsllmvouqayaccubodcl:<şifre>@aws-0-eu-central-1.pooler.supabase.com:5432/postgres`
+   Şifre = veritabanı şifresi (Project Settings → Database); hatırlanmıyorsa oradan sıfırlanır, uygulamayı
+   etkilemez (uygulama anon/service anahtarlarıyla bağlanır). Sonra Actions → Backup → "Run workflow" ile
+   elle bir kez çalıştır: artefakt inebiliyorsa yedek gerçekten var demektir.
 2. **Supabase → Authentication → URL Configuration**: Site URL `https://history-of-science.vercel.app`,
    Redirect URLs'e `https://history-of-science.vercel.app/**`. Şifre sıfırlama ancak bundan sonra çalışır.
 3. **Vercel → Environment Variables**: `NEXT_PUBLIC_SITE_URL` üretimde canlı adres olsun (ya da hiç
