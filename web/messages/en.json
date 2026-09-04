@@ -17,15 +17,14 @@
   "home": {
     "question": "How did we get here?",
     "lead": "From Thales to CRISPR: every discovery stood on an earlier one. Fall into time and watch how slowly it started, and how fast it got.",
-    "cta": "Fall into time",
     "previous": "Previous event",
     "next": "Next event",
     "progress": "{index} of {total}",
     "openEvent": "Read the story: {title}",
     "recenter": "Back to the place",
-    "earthCredit": "NASA Blue Marble",
-    "playTour": "Play the tour",
-    "stopTour": "Stop"
+    "strip": "All events, oldest first",
+    "expand": "Enlarge the cards",
+    "collapse": "Shrink the cards"
   },
   "timeline": {
     "title": "Timeline",
@@ -46,11 +45,15 @@
   },
   "honesty": {
     "text": "The person who built this site is not a historian or a scientist. If you spot a mistake, please tell us; we will be glad to fix it.",
-    "short": "This site was not written by a historian.",
     "report": "Report an error",
     "subject": "Uchkun: error report",
     "subjectEvent": "Uchkun: error in \"{title}\" ({year})",
-    "body": "Page: {url}\n\nWhat is wrong:\n"
+    "body": "Page: {url}\n\nWhat is wrong:\n",
+    "badge": "About the accuracy of this site",
+    "title": "Before you read on",
+    "close": "Close",
+    "earth": "The Earth behind this page is NASA's Blue Marble photograph, which carries no copyright.",
+    "earthCredit": "Source: NASA Blue Marble"
   },
   "event": {
     "whyItMatters": "Why it matters",

@@ -9,8 +9,13 @@ import type { GlobePlace } from "@/lib/globe/events";
 
 type Props = {
   places: GlobePlace[];
-  /** Index into `places` that must sit in the centre of the disc. */
+  /** Index into `places` that must sit in the centre of the disc; -1 when nothing is being pointed at. */
   activeIndex: number;
+  /**
+   * How many legs of the road to draw, when that is not the same as `activeIndex`: an event with no
+   * place leaves the globe where it was, and the road it travelled should stay drawn behind it.
+   */
+  trailTo?: number;
   onSelect?: (index: number) => void;
   /** Change this to ask the globe to turn back to the active place after a hand-turn. */
   recenterKey?: number;
@@ -155,22 +160,25 @@ function readPalette(el: HTMLElement): Palette {
  * The canvas is aria-hidden: everything it shows is also in the DOM around it (the card, the
  * place name, the buttons). A reader who cannot see it loses nothing.
  */
-export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCentreChange, ariaLabel, className }: Props) {
+export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect, onOffCentreChange, ariaLabel, className }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [size, setSize] = useState({ width: 0, height: 0, dpr: 1 });
   const [hovered, setHovered] = useState<number | null>(null);
   const [dragging, setDragging] = useState(false);
 
   const active = places[activeIndex];
-  const target: Centre = useMemo(
-    () => (active ? { lng: active.lng, lat: active.lat } : { lng: 20, lat: 20 }),
+  /** Null when nothing is being pointed at: an event with no single place has nowhere to aim. */
+  const target: Centre | null = useMemo(
+    () => (active ? { lng: active.lng, lat: active.lat } : null),
     [active],
   );
-
+  /** How far along the road we are; held over an event with no place so the road does not vanish. */
+  const road = trailTo ?? activeIndex;
 
   // The camera lives in a ref: it changes every frame and must not re-render React.
+  const opening = target ?? { lng: 20, lat: 20 };
   const camera = useRef<{ from: Centre; to: Centre; startedAt: number; duration: number; current: Centre }>({
-    from: target, to: target, startedAt: 0, duration: 0, current: target,
+    from: opening, to: opening, startedAt: 0, duration: 0, current: opening,
   });
   const paletteRef = useRef<Palette | null>(null);
   /** Set while a finger or the mouse is turning the globe by hand. */
@@ -229,6 +237,8 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
 
   // A new active event starts a turn. Readers who asked for less motion get the new view at once.
   useEffect(() => {
+    // Nothing to aim at: the globe holds the view it has rather than swinging off to a made-up spot.
+    if (!target) return;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const cam = camera.current;
     cam.from = cam.current;
@@ -320,7 +330,7 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
     // than where the reader has been, so a shared link shows the same road as a walk to it does,
     // and going back really does unwind it. Only the near side is drawn: the far side is behind
     // the Earth, which is exactly how a road around a sphere should read.
-    if (activeIndex > 0) {
+    if (road > 0) {
       let trail = trailRef.current;
       if (!trail || trail.places !== places) {
         const legs: Array<Array<[number, number]>> = [];
@@ -333,10 +343,10 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
       ctx.strokeStyle = palette.trail;
       ctx.lineWidth = 1.2;
       ctx.lineCap = "round";
-      for (let leg = 0; leg < activeIndex; leg++) {
+      for (let leg = 0; leg < road; leg++) {
         // Older legs are quieter, so the eye is drawn along the road to where it is standing.
-        const recency = (leg + 1) / activeIndex;
-        const arriving = leg === activeIndex - 1;
+        const recency = (leg + 1) / road;
+        const arriving = leg === road - 1;
         ctx.globalAlpha = (0.2 + 0.8 * recency) * (arriving ? t : 1);
         ctx.beginPath();
         let started = false;
@@ -452,7 +462,7 @@ export function Globe({ places, activeIndex, recenterKey = 0, onSelect, onOffCen
       if (frame !== null) cancelAnimationFrame(frame);
       requestDrawRef.current = () => {};
     };
-  }, [activeIndex, hovered, onOffCentreChange, places, size]);
+  }, [activeIndex, hovered, onOffCentreChange, places, road, size]);
 
   /** Degrees of rotation per pixel dragged, so the point under the finger roughly keeps up. */
   const dragScale = (radiusPx: number) => 180 / Math.PI / Math.max(1, radiusPx);

@@ -17,15 +17,14 @@
   "home": {
     "question": "Buraya nasıl geldik?",
     "lead": "Thales'ten CRISPR'a: her keşif bir öncekinin omzunda yükseldi. Zamana düş; ne kadar yavaş başladığını, ne kadar hızlandığını gör.",
-    "cta": "Zamana düş",
     "previous": "Önceki olay",
     "next": "Sonraki olay",
     "progress": "{index} / {total}",
     "openEvent": "Hikâyeyi oku: {title}",
     "recenter": "Yere geri dön",
-    "earthCredit": "NASA Blue Marble",
-    "playTour": "Turu oynat",
-    "stopTour": "Durdur"
+    "strip": "Tüm olaylar, eskiden yeniye",
+    "expand": "Kartları büyüt",
+    "collapse": "Kartları küçült"
   },
   "timeline": {
     "title": "Zaman çizgisi",
@@ -46,11 +45,15 @@
   },
   "honesty": {
     "text": "Bu siteyi yapan kişi tarihçi ya da bilim insanı değil. Bir hata gördüyseniz lütfen bildirin; düzeltmekten mutluluk duyarız.",
-    "short": "Bu siteyi bir tarihçi yazmadı.",
     "report": "Hata bildir",
     "subject": "Uchkun: hata bildirimi",
     "subjectEvent": "Uchkun: \"{title}\" ({year}) olayında hata",
-    "body": "Sayfa: {url}\n\nYanlış olan:\n"
+    "body": "Sayfa: {url}\n\nYanlış olan:\n",
+    "badge": "Bu sitenin doğruluğu hakkında",
+    "title": "Okumaya başlamadan önce",
+    "close": "Kapat",
+    "earth": "Bu sayfadaki Dünya, NASA'nın Blue Marble fotoğrafı; telif hakkı taşımıyor.",
+    "earthCredit": "Kaynak: NASA Blue Marble"
   },
   "event": {
     "whyItMatters": "Neden önemli",

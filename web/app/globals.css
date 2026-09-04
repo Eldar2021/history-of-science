@@ -197,6 +197,19 @@
 
 /* Event detail over the timeline: sheet rises on phones, panel slides in from the right on desktop.
    Durations come from the motion tokens, so reduced-motion shortens them with everything else. */
+/*
+  The honesty badge on the home globe (ADR-030). A slow drop rather than a blink: the admission
+  should ask to be opened, not compete with the Earth. Readers who asked for less motion get none.
+*/
+@keyframes honesty-drop {
+  0%, 65%, 100% { box-shadow: 0 0 0 0 rgba(246, 160, 107, 0); }
+  30% { box-shadow: 0 0 0 6px rgba(246, 160, 107, 0.16); }
+}
+.honesty-pulse { animation: honesty-drop 3.6s var(--ease-fall) infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .honesty-pulse { animation: none; }
+}
+
 @keyframes sheet-in { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes panel-in { from { transform: translateX(32px); opacity: 0; } to { transform: none; opacity: 1; } }
 .animate-sheet-in { animation: sheet-in var(--duration-event-fade) var(--ease-fall); }
