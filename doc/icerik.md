@@ -101,8 +101,8 @@ yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş 
 
 ## Üretim temposu
 
-**İçerik 50 olayda dondu (2026-09-04).** Önce 7 Aydınlanma olayı, sonra Faz A bitene kadar yeni olay
-yok (`yol-haritasi.md`). Hat çalışınca (Faz B) günde 2 taslak; senin onayın olay başına ~10 dakika.
+Dondurma **kalktı** (2026-09-05, teknik taraf bitti). Sıradaki iş aşağıdaki 7 Aydınlanma olayı → 50.
+Hat çalışınca (Faz B) günde 2 taslak; senin onayın olay başına ~10 dakika.
 
 ---
 

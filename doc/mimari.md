@@ -22,8 +22,10 @@ Supabase'e özgü tek şey Auth ve Storage.
 ```
 web/
 ├── app/
-│   ├── [locale]/          # page (küre + şerit), event/[slug], @panel (kesişen rota: panel / sheet)
-│   ├── admin/             # dil ön eki yok, korumalı: login, events, events/new, events/[id]
+│   ├── [locale]/          # page (küre + şerit), event/[slug], @panel (kesişen rota), error, opengraph-image
+│   ├── admin/             # dil ön eki yok, korumalı: login, forgot/reset-password, events, help
+│   ├── api/auth/callback/ # şifre kurtarma kodunu oturuma çevirir (proxy'nin dışında)
+│   ├── sitemap.ts · robots.ts · global-error.tsx
 │   └── globals.css        # tasarım token'ları, tek kaynak
 ├── components/            # globe/ (Globe, GlobeHome, EventStrip, TimeRibbon), event/, admin/, Site*
 ├── lib/
@@ -41,7 +43,7 @@ backend/
 ├── supabase/migrations/   # 0001_init, 0002_event_detail, 0003_event_place, 0004_event_place_data
 ├── supabase/seed.sql
 ├── content/drafts/        # olay taslakları (JSON) → drafts-to-sql.mjs
-└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, check-drafts
+└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, check-drafts, backup
 ```
 
 ## Veri modeli

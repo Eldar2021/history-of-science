@@ -10,20 +10,20 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 | S12 | Hata bildirimi nereye: e-posta mı, admin "bildirimler"? | Faz C    | Öneri ikisi; e-posta yedek              |
 | S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman?    | Faz D    | İngilizce beta bitince; `editor` hesabı |
 | S14 | Alan adı hangisi?                                       | Faz C    | uchkun.science / .kg / .org             |
-| S15 | Analitik ve Sentry ne zaman, hangisi? | Ertelendi | Kullanıcı 2026-09-05: **şimdilik yok** — önce site yayında yaşasın |
+| S15 | Analitik ve Sentry ne zaman, hangisi?                   | Ertelendi | Kullanıcı 2026-09-05: şimdilik yok      |
 
 ## Canlı riskler
 
-- **R1 İçerik kodun gerisinde kalır.** Şimdilik askıda (50'de dondu). Faz B'de hat ile çözülür; sinyal:
-  reddetme oranı %30 üstü → prompt'u ayarla, kaynak eşiğini 4'e çıkar.
+- **R1 İçerik kodun gerisinde kalır.** Artık **canlı risk**: teknik taraf bitti, darboğaz içerik.
+  Faz B'de hat ile çözülür; sinyal: reddetme oranı %30 üstü → prompt'u ayarla, kaynak eşiğini 4'e çıkar.
 - **R2 Tarihsel hata yayınlanır.** Dürüstlük bandı + iki kaynak kuralı + araştırma notu. Düzeltmeler
   `about` sayfasında listelenecek (Faz C).
 - **R3 Kırgızca çeviri kalitesi.** Claude (tr+ru referanslı) → kullanıcı okur → öğretmen terimleri kontrol
   eder → `reviewed`. Birikirse `machine` rozetli kalır, sorun değil.
 - **R9 Claude API maliyeti.** Hat + çeviri ayda ~10-15 $. Model adı tek yerden; `CONTENT_PIPELINE_ENABLED`.
-- **R10 Veritabanı kaybı.** İçerik projenin varlığı ve ücretsiz katmanda PITR yok. Gece yedeği artefakt
-  olarak alınıyor (ADR-035); **artık kalan risk sırrın kurulmamış olması** — `SUPABASE_DB_URL` yoksa iş
-  her gece açık bir hatayla durur, sessizce değil.
+- **R10 Veritabanı kaybı.** Ücretsiz katmanda PITR yok. Gece yedeği kuruldu, 2026-09-05'te elle
+  çalıştırılıp artefaktı indirildi (ADR-035). **Kalan risk: geri yükleme hiç denenmedi.** Denenmemiş
+  yedek yedek sayılmaz; ilk fırsatta boş bir projeye `roles → schema → data` sırasıyla yüklenmeli.
 - **R5 Kapsam şişer.** Yeni fikir → Park; ayda bir bakılır. Kanvas dışında büyük özellik yok.
 
 ## Park

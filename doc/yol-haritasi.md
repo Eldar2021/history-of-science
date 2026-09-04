@@ -5,13 +5,13 @@ Sıralı fazlar; sıra bağlayıcı, süre değil. Darboğaz kod değil, karar v
 | Faz    | Tema                       | Sonunda elimizde ne var                                                    |
 | ------ | -------------------------- | -------------------------------------------------------------------------- |
 | **M1** | Temel                      | Küre + şerit, admin ekliyor sitede görünüyor, **50 olay**. Son madde kaldı. |
-| **A**  | Siteyi biçimlendirmek      | 50 olayla istenen hâlde bir site. İçerik donmuş.                           |
+| **A**  | Siteyi biçimlendirmek      | Kabuk bitti (2026-09-05): CI, yedek, SEO, erişilebilirlik. İçerik akabilir. |
 | **B**  | Otomasyon ve dil           | Gece taslak hattı, 4 dil çevirisi, görseller. İçerik yeniden akar.         |
 | **C**  | SEO, erişilebilirlik, beta | Çağ/disiplin sayfaları, `about`, alan adı, 10 kişilik İngilizce beta (M2). |
 | **D**  | Derinlik ve lansman        | Kişiler, bağlantılar, zincir görünümü, Keşfet kanvası, v1.0 (M3).          |
 
-**İçerik dondurma kuralı (2026-09-04):** M1 için gereken 7 olay yazılır, 50'de durulur; Faz A boyunca
-yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde 2 taslak üretebilir.
+**İçerik dondurma kuralı**: kabuk doğru olana kadar yeni olay yazılmadı (2026-09-04 → 2026-09-05).
+Teknik taraf bittiği için dondurma **kalktı**: sıradaki iş 7 Aydınlanma olayı, sonra Faz B'nin hattı.
 
 ## M1 — kalan tek madde
 
@@ -19,11 +19,10 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 
 ## Faz A — kalanlar
 
-- [ ] **Bulutta Auth ayarı**: Site URL ve redirect listesi Vercel adresi olsun. Kod ve yerel yapılandırma
-      hazır (ADR-035); kalan tek şey Supabase panelindeki iki alan.
+İkisi de kod değil, içerik doğruluğu.
+
 - [ ] Altı olayın yeri bir tarihçi kararına dayanıyor, kontrol edilmedi (liste migration 0004'ün başında).
 - [ ] Uluğ Bey yılı buluttaki kayıtta: admin formundan `1420` / `1437` / yaklaşık.
-- [ ] Analitik ve Sentry (hesap kararı, S12) — Faz C'den öne alınabilir.
 
 ## Faz B — içerik hattı, çeviri, görseller
 
@@ -38,8 +37,7 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
 
 ## Faz C — çağ/disiplin sayfaları, SEO, beta
 
-- [ ] `/era/{slug}`, `/discipline/{slug}`. (`hreflang`, meta, `sitemap.xml`, `robots.txt`, OG görselleri
-      ve yedekleme ADR-035 ile bitti.)
+- [ ] `/era/{slug}`, `/discipline/{slug}`.
 - [ ] Analitik (Plausible/Umami), Sentry. `about` sayfası 4 dilde (neden, kaynak politikası, düzeltmeler, iletişim).
 - [ ] **Performans turu.** Canlı mobil Lighthouse 2026-09-05, 6 ölçüm: perf **83-92, ortalama 88**;
       LCP 3.2-4.0 s, render gecikmesi baskın. Erişilebilirlik/en iyi uygulamalar/SEO **100/100/100**.
@@ -59,18 +57,18 @@ yeni olay yok. Önce kabuk doğru olsun, sonra içerik akar. Faz B hattı günde
       (akıllı telefon, mRNA aşısı, GPS, penisilin, JWST).
 - [ ] `/explore`: SVG + d3-zoom, `xScale` ortak, Z0-Z2 anlamsal zoom, disiplin şeritleri, `importance`
       tabanlı görünürlük. Masaüstü öncelikli; mobilde Z0.
-- [ ] Playwright + CI her PR'da. Son Lighthouse turu (perf 90+, a11y 95+, SEO 95+). `v1.0.0`, `CHANGELOG.md`.
+- [ ] Son Lighthouse turu (perf 90+, a11y 95+, SEO 95+). `v1.0.0`, `CHANGELOG.md`.
 - [ ] Lansman: Show HN, Reddit (r/HistoryOfScience, r/InternetIsBeautiful), Kırgız/Türk Telegram kanalları,
       bir öğretmene doğrudan yaz.
 
 **M3 = v1.0**: 200+ olay İngilizce, 150+'si dört dilde (kalanlar `machine` rozetli); çağ, disiplin, kişi
-sayfaları; zincir en az 20 olayda anlamlı; kanvas masaüstünde Z0-Z2; onay kuyruğundan 50+ olay geçmiş; OG
-görselleri; Lighthouse 90/95/95; gerçek alan adı.
+sayfaları; zincir en az 20 olayda anlamlı; kanvas masaüstünde Z0-Z2; onay kuyruğundan 50+ olay geçmiş;
+Lighthouse 90/95/95; gerçek alan adı.
 
 ## Kapsam kesme kuralı
 
-Zaman daralırsa sırayla kes: 1. Kanvas Z3 + kişi çubukları. 2. Kişi sayfaları. 3. OG görselleri.
-4. Kanvasın tamamı (lansman kanvassız, v1.1 olarak sonra). **Asla kesme**: admin otomatik yayın, içerik
+Zaman daralırsa sırayla kes: 1. Kanvas Z3 + kişi çubukları. 2. Kişi sayfaları. 3. Kanvasın tamamı
+(lansman kanvassız, v1.1 olarak sonra). **Asla kesme**: admin otomatik yayın, içerik
 hattı, 4 dil altyapısı, zincir görünümü, dürüstlük bandı, içerik doğruluğu.
 
 ## Sonrası
