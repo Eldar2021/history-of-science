@@ -5,14 +5,11 @@
 
 ## Şu an
 
-- **Faz**: M1'in son maddesi (7 olay) + **Faz A** sürüyor. PR #10 merge edildi; sıradaki iş
-  `el/nav-and-polish` dalında, PR #11.
+- **Faz**: M1'in son maddesi (7 olay) + **Faz A** sürüyor. PR #11 merge edildi; küre WebGL'e
+  taşındı (ADR-032); dal `el/globe-webgl`, PR açık, review + merge bekliyor.
 - **Yayında** (`main`): https://history-of-science.vercel.app — küre, ayağında zaman çizelgesi
   şeridi, olay detayı, 4 dil, `/admin`, kaydet→sitede anında. 43 olay, 150 bağlantı. `/timeline`
-  silindi, adresi `/`'a yönleniyor (ADR-030).
-- **Dalda bekleyen** (`el/nav-and-polish`): site çubuğu — bayrak + kod dil rozeti ve alttan açılan
-  dil sheet'i, Hakkında ve İletişim panelleri (mobilde menü), cam ana kart, şeridin yumuşak
-  büyümesi, ve **gövde fontu Onest** (Golos Text Türkçe `ğ`'yi çizmiyordu, ADR-031).
+  silindi, adresi `/`'a yönleniyor (ADR-030). Site çubuğu, sheet'ler ve Onest fontu da yayında.
 - **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl`, migration 0001-0004. Vercel prod, `main`
   push = deploy. Bulut admin: `eldiiaralmazbekov@gmail.com`; şifre
   `backend/scripts/cloud-admin-password.sh <email>`. Yerel admin `admin@uchkun.local` /
@@ -21,10 +18,12 @@
 
 ## Açık işler
 
-1. **`el/nav-and-polish` için PR'ı review et ve merge et** (PR #11).
+1. **Küre WebGL PR'ını (`el/globe-webgl`, ADR-032) merge et, canlıda telefonla dene.** Kullanıcının ilk iki
+   şikâyeti (sürüklerken bozulma, cansız okyanus) bununla kapanmalı; kapanmazsa shader ayarları
+   (`ATMOSPHERE`, parıltı katsayısı, `AMBIENT`) `lib/globe/webgl.ts`'te.
 2. **M1'in son maddesi**: +7 Aydınlanma olayı → 50 yayınlanmış olay (`03`'teki liste).
 3. **Faz A'nın kalanı** `08`'de; sıradaki büyük madde **canlıda Lighthouse mobil ölçümü** (küre
-   905 KB doku + piksel piksel renderer, üstüne şerit geldi).
+   907 KB doku, artık ekran kartında çiziliyor; üstüne şerit geldi).
 
 ## Kullanıcıdan bekleyen
 
@@ -47,6 +46,8 @@
   çalıştıramıyor. Canlı davranışı görmek için yerel üretim build'ini bulut Supabase'e bağla
   (`vercel env pull` ile iki `NEXT_PUBLIC_SUPABASE_*` değişkenini alıp `next start`).
 - **`supabase db push` bu ortamda engelli** (üretim verisine yazıyor); kullanıcı kendi çalıştırır.
+- Headless Chrome'da WebGL için `--use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader`
+  bayrakları şart; yoksa bağlam kaybolmuş gelir ve küre CPU yedeğine düşer (test yine geçer).
 - Playwright yerelde **kurulu Chrome'u** kullanıyor (`channel: "chrome"`), indirilmiş chromium yok;
   ekran görüntüsü betiği `web/` içinden çalıştırılmalı, yoksa `playwright` çözülmüyor.
 - Puppeteer/headless testte: `click` elemanı görünür alana kaydırır, kaydırma konumu testlerinde
@@ -57,7 +58,20 @@
 
 ## Son oturum
 
+### 2026-09-04 — 13. oturum: küre ekran kartında, batimetrili doku, kuyruksuz kart
+
+- Kullanıcı: kart daha şeffaf ve kuyruksuz olsun; küre çevrilirken bozuluyor; NASA'nın küresi gibi
+  okyanus derinlikleri görünsün; performans çok önemli.
+- Sebep: CPU renderer dönerken %55 çözünürlük + en yakın piksel. Çözüm ADR-032: aynı izdüşüm
+  WebGL2 shader'da, iki kanvas üst üste, `sphere.ts` yedek. Doku Blue Marble NG batimetrili
+  (Temmuz 2004), aynı boyut bütçesi.
+- Bulunan kendi hatam: `dispose()` `loseContext` çağırıyordu, StrictMode'un ikinci mount'u ölü
+  bağlam alıyordu; kaldırıldı.
+- Doğrulama: `npm run check` temiz; Playwright ekran görüntüleri masaüstü + iPhone + sürükleme
+  ortası (tam çözünürlük); e2e 17/17 geçti.
+
 ### 2026-09-04 — 12. oturum: tek stil, zaman çizelgesi ana sayfaya taşındı
+
 - Kullanıcının fikri: ayrı timeline sayfası yerine ana sayfaya carousel. Tartışıldı, üç soru
   soruldu (NASA atfı mı küre mi · okuma yüzeyi hangisi · `/timeline` ne olacak), plan onaylandı.
 - `EventStrip` + `TimeRibbon`: şerit her olayı taşıyor, küre yalnızca yeri olanları. Aradaki köprü

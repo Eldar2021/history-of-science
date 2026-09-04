@@ -6,13 +6,13 @@ Tempo varsayımı haftada 10-15 saat; darboğaz kod değil, karar vermek ve içe
 içerik ise donduruldu — numaralar gerçeği anlatmıyordu. Yerine sıralı fazlar var. Sıra bağlayıcı, süre
 değil.
 
-| Faz     | Tema                       | Sonunda elimizde ne var                                                     |
-| ------- | -------------------------- | --------------------------------------------------------------------------- |
-| **M1**  | Temel                      | Akış timeline'ı, admin ekliyor sitede görünüyor, 50 olay. **Son madde kaldı.** |
-| **A**   | Siteyi biçimlendirmek      | 50 olayla, kullanıcının istediği hâlde bir site. İçerik donmuş.              |
-| **B**   | Otomasyon ve dil           | Gece taslak hattı, 4 dil çevirisi, görseller. İçerik yeniden akmaya başlar.  |
-| **C**   | SEO, erişilebilirlik, beta | Çağ/disiplin sayfaları, `about`, alan adı, 10 kişilik İngilizce beta (M2).   |
-| **D**   | Derinlik ve lansman        | Kişiler, bağlantılar, zincir görünümü, Keşfet kanvası, v1.0 (M3).            |
+| Faz    | Tema                       | Sonunda elimizde ne var                                                        |
+| ------ | -------------------------- | ------------------------------------------------------------------------------ |
+| **M1** | Temel                      | Akış timeline'ı, admin ekliyor sitede görünüyor, 50 olay. **Son madde kaldı.** |
+| **A**  | Siteyi biçimlendirmek      | 50 olayla, kullanıcının istediği hâlde bir site. İçerik donmuş.                |
+| **B**  | Otomasyon ve dil           | Gece taslak hattı, 4 dil çevirisi, görseller. İçerik yeniden akmaya başlar.    |
+| **C**  | SEO, erişilebilirlik, beta | Çağ/disiplin sayfaları, `about`, alan adı, 10 kişilik İngilizce beta (M2).     |
+| **D**  | Derinlik ve lansman        | Kişiler, bağlantılar, zincir görünümü, Keşfet kanvası, v1.0 (M3).              |
 
 ## İçerik dondurma kuralı (2026-09-04, kullanıcı kararı)
 
@@ -50,7 +50,7 @@ Kalan tek madde içerik. Bitince M1 yeşil ve içerik donar.
 
 ### Bilinen, kapatılması gereken işler
 
-- [ ] **Canlıda Lighthouse mobil ölçümü.** Küre 905 KB'lık bir doku ve piksel piksel çizen bir renderer
+- [ ] **Canlıda Lighthouse mobil ölçümü.** Küre 907 KB'lık bir doku ve (ADR-032'den beri ekran kartında çizen) bir renderer
       getirdi; üstüne şerit geldi. Bütçeyi bozup bozmadığını bilmiyoruz; Faz A'nın sıradaki işi bu.
 - [ ] Şeridi gerçek telefonda dene: kaydırma-seçim eşiği ve tutamakla açma yalnızca emülatörde
       denendi (ADR-030).

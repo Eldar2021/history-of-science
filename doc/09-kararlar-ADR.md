@@ -157,9 +157,9 @@ kendiliğinden değişmesi ziyaretçiye hata gibi okunur.
 ## ADR-024: Ana sayfa tam ekran bir küre; timeline'a kapı
 
 **2026-09-04 · Kabul** · "timeline'a kapı" maddesi ADR-030 ile geçersiz: gidilecek bir timeline
-sayfası kalmadı, ana sayfanın kendisi o. Kararın geri kalanı (küre, yerin hep merkezde olması,
-kuyruklu kart, giriş animasyonu yok, derin bağlantı) aynen geçerli; "Turu oynat" da ADR-030 ile
-kaldırıldı.
+sayfası kalmadı, ana sayfanın kendisi o. Kartın kuyruğu ADR-032 ile kaldırıldı. Kararın geri kalanı
+(küre, yerin hep merkezde olması, giriş animasyonu yok, derin bağlantı) aynen geçerli; "Turu oynat"
+da ADR-030 ile kaldırıldı.
 
 - **Bağlam**: Ana sayfa "herhangi bir site" gibi duruyordu (S16'dan beri kullanıcının açık şikâyeti).
   Site tek soruya cevap veriyordu: **ne zaman**. Bilim tarihinin en çarpıcı hikâyelerinden biri ise
@@ -231,8 +231,8 @@ kaldırıldı.
   seçiyoruz. Böylece coğrafya foto gerçekliğinde doğru, "maske hatası" diye bir kategori kalmıyor,
   ışık ve terminatör küreyi top gibi gösteriyor — üstelik pinler, belirsizlik çemberleri, kart ve
   elle çevirme olduğu gibi kalıyor, üç.js gibi bir katman gerekmiyor.
-- **Sonuçlar**: Her pikselde bir arcsin ve bir arctan var; küre dönerken **%55 çözünürlükte** çizilip
-  büyütülüyor, durunca son kare tam çözünürlükte. Fotoğraf yüklenene kadar sade ışıklı bir top
+- **Sonuçlar**: Çizim ADR-032 ile ekran kartına taşındı; `sphere.ts` yalnızca WebGL2 olmayan tarayıcı
+  için yedek (orada küre dönerken %55 çözünürlükte çizilip büyütülür). Fotoğraf yüklenene kadar sade ışıklı bir top
   çiziliyor, yüklenemezse de öyle kalıyor — pinler ve düğmeler her hâlükârda çalışıyor. Atıf
   kürenin altında görünür (kaynak URL'ye bağlı), lisans ve tam kaynak `Globe.tsx`'te
   `EARTH_TEXTURE`'ın yanında.
@@ -367,6 +367,37 @@ ADR-027'nin "ana sayfa bir çıkmaz" ekini geçersiz kılar.
   "desteklemesi", her glifi doğru çizdiği anlamına gelmiyor. Bulut veritabanında yazım hatası
   sanılan `İslam Altın Çagı ve Orta Çag` büyük olasılıkla buydu; canlıda gözle doğrulanabilir hâle
   geldi.
+
+---
+
+## ADR-032: Küre ekran kartında çiziliyor; doku batimetrili Blue Marble; kartın kuyruğu yok
+
+**2026-09-04 · Kabul**
+
+- **Bağlam**: Kullanıcı canlıda iki şey gördü: küreyi elle çevirirken görüntü bozuluyor (ADR-026'nın
+  "dönerken %55 çözünürlük + en yakın piksel" ödünü), ve NASA'nın küresine (`gltf_embed/2393`) göre
+  okyanus düz ve cansız. Ana sayfa artık hem zaman çizelgesi hem harita olduğu için (ADR-030) küre
+  sitenin en önemli yüzeyi; bu ikisi kabul edilemez. Ayrıca ana kartın kuyruğu gereksiz bulundu.
+- **Karar**: Aynı ters ortografik izdüşüm, aynı tek ışık, ama bir **WebGL2 fragment shader**'da
+  (`lib/globe/webgl.ts`). Her kare tam çözünürlük; doku mipmap + anizotropik süzgeçle örnekleniyor;
+  suda güneş parıltısı (maskesi yok, "mavi > kırmızı ve yeşil" kuralı) ve limbde ince bir atmosfer.
+  İki kanvas üst üste: altta yalnızca küre (WebGL), üstte gökyüzü, yol, pinler, belirsizlik
+  çemberleri (Canvas 2D, eskisi gibi). WebGL2 yoksa ya da bağlam kaybolursa üst kanvas küreyi
+  eskisi gibi kendisi çizer (`sphere.ts` kalıyor, birim testleri de). Doku NASA **Blue Marble Next
+  Generation, Temmuz 2004, topografya + batimetri** (`world.topo.bathy.200407`): derin okyanus koyu,
+  şelfler açık. Aynı iki boyut, aynı bütçe: 2048 → 262 KB, 4096 → 907 KB (JPEG q55). Kart
+  `bg-elevated/40` (eskisi /65), kuyruk ve `pointing` mantığı silindi; "merkezden uzaklaştın"
+  bilgisi şeritteki geri-döndür düğmesinde yaşamaya devam ediyor.
+- **Gerekçe**: İşlemcide her piksel bir arcsin + bir arctan; bir telefonda tam çözünürlüklü kare
+  16 ms'ye sığmıyordu, ödün olarak çözünürlük düşürülüyordu. Ekran kartında aynı hesap bedava,
+  üstelik doku süzgeçleme, parıltı ve atmosfer de. Üç.js gibi bir kütüphane yine yok: ~200 satır
+  shader + kurulum. 4096 dokunun 33 MB'lık ham piksel kopyası JS belleğinden gitti, doku ekran
+  kartında yaşıyor. ADR-026'nın "WebGL yok" gerekçesi (kaybolan bağlam, yedeksiz shader) yedek
+  renderer tutularak karşılandı.
+- **Sonuçlar**: `dispose()` bağlamı **bilerek düşürmez** — React'in geliştirme çift-mount'unda ikinci
+  kurulum ölü bağlam alıyordu. Tarih çizgisi dikişinde mipmap seçimi için türevler iki kez ölçülüp
+  küçüğü alınıyor (`textureGrad`). Atıf URL'si `lib/report.ts`'te yeni kaynağa çevrildi; UI metni
+  ("NASA Blue Marble") hâlâ doğru. Lighthouse mobil ölçümü (`08`) bu renderer ile yapılmalı.
 
 ---
 

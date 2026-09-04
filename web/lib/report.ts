@@ -20,4 +20,4 @@ export function reportHref(subject: string, body: string): string {
  * no usage restriction; NASA asks only to be credited, which the honesty dialog does (ADR-026).
  */
 export const EARTH_SOURCE_URL =
-  "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg";
+  "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg";

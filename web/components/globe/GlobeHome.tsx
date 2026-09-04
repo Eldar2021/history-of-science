@@ -114,9 +114,6 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
   const current = events[index];
   const year = formatYearParts(current.year, current.precision, locale);
   const place = formatPlaceParts(current.placeName, current.placePrecision, locale);
-  /** The tail may only claim to point at the pin while there is one and it is in the middle. */
-  const pointing = current.globeIndex !== null && !offCentre;
-
   return (
     <main className="globe-stage relative h-[100dvh] w-full overflow-hidden bg-[var(--globe-space)]">
       <Globe
@@ -147,21 +144,11 @@ export function GlobeHome({ events, places, eras, locale }: Props) {
       <Link
         href={`/event/${current.slug}`}
         aria-label={t("openEvent", { title: current.title })}
-        className={`absolute bottom-[10.5rem] left-1/2 z-10 block w-[min(86vw,23rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated/65 p-4 shadow-lg backdrop-blur-md transition hover:border-accent sm:w-[min(92vw,26rem)] sm:p-6 sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2 ${
+        className={`absolute bottom-[10.5rem] left-1/2 z-10 block w-[min(86vw,23rem)] -translate-x-1/2 rounded-lg border border-line bg-elevated/40 p-4 shadow-lg backdrop-blur-md transition hover:border-accent sm:w-[min(92vw,26rem)] sm:p-6 sm:bottom-auto sm:left-[calc(50%+8.5rem)] sm:top-1/2 sm:-translate-x-0 sm:-translate-y-1/2 ${
           // On a phone the open strip is the reading surface, and this card would be under it.
           expanded ? "max-sm:invisible" : ""
         }`}
       >
-        {/* The tail points at the pin, which sits in the centre of the sphere: below the card on
-            a phone, to its left on a wider screen (lib/globe/layout.ts). Once the reader turns
-            the globe by hand the pin is elsewhere, so the tail goes rather than lie. */}
-        {pointing && (
-          <>
-            <span aria-hidden className="absolute -top-[7px] left-1/2 size-3 -translate-x-1/2 rotate-45 border-l border-t border-line bg-elevated/65 backdrop-blur-md sm:hidden" />
-            <span aria-hidden className="absolute -left-[7px] top-1/2 hidden size-3 -translate-y-1/2 rotate-45 border-b border-l border-line bg-elevated/65 backdrop-blur-md sm:block" />
-          </>
-        )}
-
         {year.qualifier && <p className="text-xs text-muted">{year.qualifier}</p>}
         <p className="font-display text-2xl tabular text-primary sm:text-3xl" title={year.eraNote ?? undefined}>{year.value}</p>
         <h2 className="mt-1.5 font-display text-lg leading-snug text-primary sm:mt-2 sm:text-xl">{current.title}</h2>
