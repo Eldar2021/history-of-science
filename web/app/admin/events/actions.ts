@@ -68,7 +68,7 @@ export async function saveEvent(prev: SaveState, formData: FormData): Promise<Sa
     .insert((disciplineRows ?? []).map((d, i) => ({ event_id: id, discipline_id: d.id, is_primary: i === 0 })));
   if (insError) return fail("saveFailed");
 
-  // doc/04: save → tags expire → the next visitor gets the fresh page. updateTag expires immediately.
+  // doc/mimari.md: save → tags expire → the next visitor gets the fresh page. updateTag expires immediately.
   updateTag(TIMELINE_TAG);
   updateTag(eventTag(parsed.slug));
   if (previousSlug && previousSlug !== parsed.slug) updateTag(eventTag(previousSlug));

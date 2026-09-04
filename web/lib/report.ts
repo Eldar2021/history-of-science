@@ -1,6 +1,6 @@
 /**
  * Where an error report goes. One place, because both the band at the foot of an event page and the
- * badge on the home globe offer the same link (ADR-017, ADR-030).
+ * badge on the home globe offer the same link (ADR-024).
  */
 
 /** Fallback while no domain is chosen (S14); production sets NEXT_PUBLIC_REPORT_EMAIL. */
@@ -17,7 +17,7 @@ export function reportHref(subject: string, body: string): string {
 
 /**
  * NASA's Blue Marble, the photograph the globe wears. NASA imagery is not copyrighted and carries
- * no usage restriction; NASA asks only to be credited, which the honesty dialog does (ADR-026).
+ * no usage restriction; NASA asks only to be credited, which the honesty dialog does (ADR-024).
  */
 export const EARTH_SOURCE_URL =
-  "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg";
+  "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg";

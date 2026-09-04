@@ -20,7 +20,7 @@ Proje: `hsllmvouqayaccubodcl` (Supabase, oluşturuldu). Tek seferlik kurulum:
 1. `supabase login` (tarayıcı açılır; bir kez).
 2. `backend/scripts/cloud-setup.sh` → link, `db push`, isteğe bağlı seed (`db reset --linked`), Vercel'e `NEXT_PUBLIC_SUPABASE_URL` ve `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 3. `main`'e push ya da `npx vercel redeploy` → site bulut veritabanını okur.
-4. Admin hesabı / şifre: `backend/scripts/cloud-admin-password.sh <e-posta>` (anahtarı CLI'dan alır, şifreyi gizli sorar; kullanıcı yoksa oluşturur, varsa şifresini yeniler, rolü `admin` yapar; `editor` için ikinci argüman). E-posta ile şifre sıfırlama bağlantısı şimdilik çalışmaz: bulut Site URL yerel adres ve sitede sıfırlama sayfası yok (Hafta 5).
+4. Admin hesabı / şifre: `backend/scripts/cloud-admin-password.sh <e-posta>` (anahtarı CLI'dan alır, şifreyi gizli sorar; kullanıcı yoksa oluşturur, varsa şifresini yeniler, rolü `admin` yapar; `editor` için ikinci argüman). E-posta ile şifre sıfırlama bağlantısı şimdilik çalışmaz: bulut Site URL yerel adres ve sitede sıfırlama sayfası yok (Faz A).
 5. RLS kanıtı buluta karşı: `SUPABASE_URL=… SUPABASE_ANON_KEY=… backend/scripts/rls-proof.sh` (hepsi `ok` olmalı).
 
 Sonraki şema değişiklikleri: yeni migration + `supabase db push`.
@@ -40,4 +40,4 @@ Yayınlı ama gövdesi boş olaylar (seed satırları): `node backend/scripts/fi
 
 - `supabase/migrations/NNNN_*.sql` — şema, sıralı. Değişiklik = yeni dosya (`/com_migration`).
 - `supabase/seed.sql` — çağlar, disiplinler (4 dil), örnek olaylar.
-- `scripts/` — `drafts-to-sql.mjs` (taslak JSON → SQL, bağımlılıksız), `check-drafts.mjs` (taslak denetimi), `create-admin.mjs` (Auth kullanıcısı + `admin` rolü; yerelde `web/.env.local`'ı okur: `node backend/scripts/create-admin.mjs admin@uchkun.local 'şifre'`), `rls-proof.sh` (anon key ile taslak sızmıyor kanıtı, `jq` gerekir). Hafta 5-6: içerik hattı (`draft-next.ts`), çeviri (`translate-missing.ts`), kontroller (`check-i18n.ts`).
+- `scripts/` — `drafts-to-sql.mjs` (taslak JSON → SQL, bağımlılıksız), `check-drafts.mjs` (taslak denetimi), `create-admin.mjs` (Auth kullanıcısı + `admin` rolü; yerelde `web/.env.local`'ı okur: `node backend/scripts/create-admin.mjs admin@uchkun.local 'şifre'`), `rls-proof.sh` (anon key ile taslak sızmıyor kanıtı, `jq` gerekir). Faz B: içerik hattı (`draft-next.ts`), çeviri (`translate-missing.ts`), kontroller (`check-i18n.ts`).

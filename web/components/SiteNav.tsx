@@ -21,7 +21,7 @@ type Panel = "menu" | "about" | "contact" | "language";
  *
  * On a phone the bar has room for two small controls, so the language is a flag and a code and the
  * rest lives behind a menu. On a wider screen the three sit side by side. `honesty` adds the badge
- * that carries the site's admission on the home page, where the band is a badge (ADR-030); it opens
+ * that carries the site's admission on the home page, where the band is a badge (ADR-024); it opens
  * the same panel as Contact, because it is the same sentence and the same address.
  */
 export function SiteNav({ honesty = false }: { honesty?: boolean }) {

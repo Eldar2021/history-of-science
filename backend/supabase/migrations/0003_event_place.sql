@@ -1,5 +1,5 @@
 -- 0003_event_place.sql — where each event happened, for the globe home page.
--- Mirrors how years work (ADR-004, ADR-023): the uncertainty lives in the data as an enum,
+-- Mirrors how years work (ADR-004, ADR-025): the uncertainty lives in the data as an enum,
 -- the wording ("around Samarkand", "somewhere in Central Asia") is added by the UI from
 -- messages, never stored. place_name therefore holds the bare name only.
 

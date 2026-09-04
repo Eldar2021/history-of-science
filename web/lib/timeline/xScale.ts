@@ -1,5 +1,5 @@
 /**
- * The one time scale (doc/09 ADR-006): the minimap and the Explore canvas both map years
+ * The one time scale (doc/kararlar.md ADR-006): the minimap and the Explore canvas both map years
  * through here, so "real scale" means the same thing everywhere.
  *
  * Years are integers with no year 0 (ADR-004): -1 is followed by 1. For a continuous axis we shift

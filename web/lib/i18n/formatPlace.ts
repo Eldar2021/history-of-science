@@ -1,5 +1,5 @@
 /**
- * The single place where a location is turned into text. See doc/09 ADR-025.
+ * The single place where a location is turned into text. See doc/kararlar.md ADR-025.
  *
  * Same shape as formatYear: the name is the large, unchanged part and the
  * uncertainty is a small separate note. The note is never glued onto the name

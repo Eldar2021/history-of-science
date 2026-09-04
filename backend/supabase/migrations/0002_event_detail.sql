@@ -1,5 +1,5 @@
 -- 0002_event_detail.sql — one-call event detail for /[locale]/event/[slug]
--- doc/04-mimari "v_event_detail(slug, locale)": event + translation (with source-locale fallback)
+-- doc/mimari.md "v_event_detail(slug, locale)": event + translation (with source-locale fallback)
 -- + era + disciplines + people + links in both directions + sources, as a single JSON document.
 -- Security invoker: RLS applies, so drafts return null for anonymous readers.
 

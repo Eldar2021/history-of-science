@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { layoutFor } from "@/lib/globe/layout";
 import { renderSphere, type Texture } from "@/lib/globe/sphere";
+import { createGlobeGl, type GlobeGl } from "@/lib/globe/webgl";
 import { circlePath, EARTH_RADIUS_KM, easeInOutCubic, greatCirclePath, interpolateCentre, project, type Centre } from "@/lib/globe/projection";
 import { PLACE_RADIUS_KM } from "@/lib/i18n/formatPlace";
 import type { GlobePlace } from "@/lib/globe/events";
@@ -27,25 +28,27 @@ type Props = {
 };
 
 /**
- * NASA's Blue Marble: land surface, shallow water and shaded topography, 2048 x 1024, 238 KB.
- * Source: https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg
+ * NASA's Blue Marble Next Generation, July 2004: land, shaded topography and, unlike the plain
+ * Blue Marble, the ocean floor, so deep water reads dark and shelves pale. 2048 x 1024, 262 KB.
+ * Source: https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73751/world.topo.bathy.200407.3x5400x2700.jpg
  * NASA Earth science imagery is not copyrighted and carries no usage restriction; NASA asks only
- * to be credited, which the page does under the globe. See doc/09 ADR-026.
+ * to be credited, which the honesty dialog does. See doc/kararlar.md ADR-024.
  */
 const EARTH_TEXTURE = "/globe/earth-2048.jpg";
 /**
- * The same photograph at 4096 x 2048 (905 KB), derived from NASA's 8192 master so the upgrade only
- * sharpens and never changes what the Earth looks like. Fetched after the small one is already on
- * screen, and only where it will actually be seen: a 2048-wide map supplies about a thousand pixels
- * across the hemisphere we can see, so anything wider than that is being stretched. Held as raw
- * pixels it costs about 33 MB of memory, which is why small and frugal devices keep the small one.
+ * The same photograph at 4096 x 2048 (907 KB), so the upgrade only sharpens and never changes what
+ * the Earth looks like. Fetched after the small one is already on screen, and only where it will
+ * actually be seen: a 2048-wide map supplies about a thousand pixels across the hemisphere we can
+ * see, so anything wider than that is being stretched. On the graphics card it costs about 43 MB
+ * with its mipmaps, which is why small and frugal devices keep the small one.
  */
 const EARTH_TEXTURE_HIGH = "/globe/earth-4096.jpg";
 const HEMISPHERE_PIXELS_2048 = 1024;
 /**
- * Fraction of full resolution to draw at while the globe is turning. Every pixel of the disc costs
- * an arcsine and an arctangent, so a moving globe is drawn smaller and scaled up; it settles at
- * full resolution on the last frame, which is the one anybody looks at.
+ * Fallback only, for a browser without WebGL2: fraction of full resolution to draw at while the
+ * globe is turning. On the processor every pixel of the disc costs an arcsine and an arctangent,
+ * so a moving globe is drawn smaller and scaled up, and settles at full resolution on the last
+ * frame. The graphics card draws every frame in full.
  */
 const MOVING_QUALITY = 0.55;
 /** Whether this screen would actually show the difference, on a device that can afford it. */
@@ -62,24 +65,27 @@ function wantsSharperEarth(width: number, height: number, dpr: number): boolean 
 /** Stars per million pixels of stage. Enough to read as a sky, few enough to stay quiet. */
 const STAR_DENSITY = 190;
 
-/** Decode an image and keep its raw pixels; null if it never arrives. */
-function loadTexture(src: string): Promise<Texture | null> {
+/** Fetch and decode a photograph; null if it never arrives. */
+function loadImage(src: string): Promise<HTMLImageElement | null> {
   return new Promise((resolve) => {
     const img = new Image();
     img.decoding = "async";
-    img.onload = () => {
-      const store = document.createElement("canvas");
-      store.width = img.naturalWidth;
-      store.height = img.naturalHeight;
-      const ctx = store.getContext("2d");
-      if (!ctx) return resolve(null);
-      ctx.drawImage(img, 0, 0);
-      const pixels = ctx.getImageData(0, 0, store.width, store.height);
-      resolve({ data: pixels.data, width: store.width, height: store.height });
-    };
+    img.onload = () => resolve(img);
     img.onerror = () => resolve(null);
     img.src = src;
   });
+}
+
+/** The raw pixels of a photograph, for the processor-side fallback renderer. */
+function pixelsOf(img: HTMLImageElement): Texture | null {
+  const store = document.createElement("canvas");
+  store.width = img.naturalWidth;
+  store.height = img.naturalHeight;
+  const ctx = store.getContext("2d");
+  if (!ctx) return null;
+  ctx.drawImage(img, 0, 0);
+  const pixels = ctx.getImageData(0, 0, store.width, store.height);
+  return { data: pixels.data, width: store.width, height: store.height };
 }
 
 /**
@@ -151,17 +157,20 @@ function readPalette(el: HTMLElement): Palette {
 }
 
 /**
- * The globe. A sphere of land dots that always turns the active event's place to the centre.
+ * The globe. A photograph of the Earth that always turns the active event's place to the centre.
  *
- * Canvas 2D on purpose: the projection is a dozen lines of trigonometry (lib/globe/projection),
- * so there is no WebGL context to lose, no shader to fall back from, and the whole thing works
- * with the browser's own rendering. The animation frame only runs while the camera is moving.
+ * Two canvases, one on top of the other. The lower one is WebGL2 and draws only the sphere
+ * (lib/globe/webgl); the upper one is Canvas 2D and draws everything else: the sky, the road,
+ * the pins, the uncertainty rings. Where WebGL2 is missing or its context is lost, the upper
+ * canvas draws the sphere itself, one pixel at a time (lib/globe/sphere), and the page looks the
+ * same, only slower to turn. The animation frame only runs while the camera is moving.
  *
- * The canvas is aria-hidden: everything it shows is also in the DOM around it (the card, the
- * place name, the buttons). A reader who cannot see it loses nothing.
+ * Both canvases are aria-hidden: everything they show is also in the DOM around them (the card,
+ * the place name, the buttons). A reader who cannot see them loses nothing.
  */
 export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect, onOffCentreChange, ariaLabel, className }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const glCanvasRef = useRef<HTMLCanvasElement>(null);
   const [size, setSize] = useState({ width: 0, height: 0, dpr: 1 });
   const [hovered, setHovered] = useState<number | null>(null);
   const [dragging, setDragging] = useState(false);
@@ -186,7 +195,13 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
   const offCentreRef = useRef(false);
   /** Wakes the render loop. It stops itself when the globe settles, so a hand-turn must restart it. */
   const requestDrawRef = useRef<() => void>(() => {});
-  /** The photograph, as raw pixels. Null until it has loaded; the globe draws plain until then. */
+  /** Hands a freshly loaded photograph to whichever renderer is in use. */
+  const adoptRef = useRef<(image: HTMLImageElement) => void>(() => {});
+  /** The graphics card, when there is one to be had. Null means the fallback renderer. */
+  const glRef = useRef<GlobeGl | null>(null);
+  /** The latest photograph to arrive, so a restored WebGL context can be given it again. */
+  const imageRef = useRef<HTMLImageElement | null>(null);
+  /** The photograph as raw pixels, fallback only. Null until it has loaded; the globe draws plain until then. */
   const textureRef = useRef<Texture | null>(null);
   /** Reused between frames: allocating a megabyte of pixels sixty times a second is not free. */
   const sphereRef = useRef<{ canvas: HTMLCanvasElement; image: ImageData; size: number } | null>(null);
@@ -208,13 +223,50 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
     return () => observer.disconnect();
   }, []);
 
+  // The graphics card. Set up before the photograph is asked for, so the first frame with a
+  // texture is already the fast path. A lost context falls back to the processor until it is
+  // restored, and the page never notices either way.
+  useEffect(() => {
+    const el = glCanvasRef.current;
+    if (!el) return;
+    const adopt = (image: HTMLImageElement) => {
+      const gl = glRef.current;
+      if (gl && gl.setTexture(image)) textureRef.current = null;
+      else textureRef.current = pixelsOf(image);
+      sphereRef.current = null;
+    };
+    const start = () => {
+      glRef.current = createGlobeGl(el);
+      if (imageRef.current) adopt(imageRef.current);
+      requestDrawRef.current();
+    };
+    const onLost = (event: Event) => {
+      event.preventDefault();
+      glRef.current = null;
+      if (imageRef.current) adopt(imageRef.current);
+      requestDrawRef.current();
+    };
+    el.addEventListener("webglcontextlost", onLost);
+    el.addEventListener("webglcontextrestored", start);
+    start();
+    adoptRef.current = adopt;
+    return () => {
+      el.removeEventListener("webglcontextlost", onLost);
+      el.removeEventListener("webglcontextrestored", start);
+      glRef.current?.dispose();
+      glRef.current = null;
+      adoptRef.current = () => {};
+    };
+  }, []);
+
   useEffect(() => {
     let cancelled = false;
     // A failure needs no handling: the plain lit ball is already the answer, and the pins, the
     // card and every button keep working without the photograph.
-    loadTexture(EARTH_TEXTURE).then((texture) => {
-      if (cancelled || !texture) return;
-      textureRef.current = texture;
+    loadImage(EARTH_TEXTURE).then((image) => {
+      if (cancelled || !image || imageRef.current) return;
+      imageRef.current = image;
+      adoptRef.current(image);
       requestDrawRef.current();
     });
     return () => { cancelled = true; };
@@ -225,11 +277,10 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
     if (upgradedRef.current || !wantsSharperEarth(size.width, size.height, size.dpr)) return;
     upgradedRef.current = true;
     let cancelled = false;
-    loadTexture(EARTH_TEXTURE_HIGH).then((texture) => {
-      if (cancelled || !texture) return;
-      textureRef.current = texture;
-      // A new map means the cached sphere is stale.
-      sphereRef.current = null;
+    loadImage(EARTH_TEXTURE_HIGH).then((image) => {
+      if (cancelled || !image) return;
+      imageRef.current = image;
+      adoptRef.current(image);
       requestDrawRef.current();
     });
     return () => { cancelled = true; };
@@ -276,17 +327,24 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, width, height);
 
-    // The sky. Repainted only when the stage changes size.
+    // The sky. Repainted only when the stage changes size, and kept out of the disc: the sphere
+    // may be on the canvas underneath this one, and stars do not shine through the Earth.
     let stars = starsRef.current;
     if (!stars || stars.width !== width || stars.height !== height) {
       stars = { canvas: paintStars(width, height, palette.star), width, height };
       starsRef.current = stars;
     }
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(0, 0, width, height);
+    ctx.arc(cx, cy, radius, 0, Math.PI * 2, true);
+    ctx.clip();
     ctx.drawImage(stars.canvas, 0, 0, width, height);
+    ctx.restore();
 
     // A soft glow just outside the limb, fading to nothing: it separates the globe from the page
     // without drawing a ring around the photograph.
-    const glow = ctx.createRadialGradient(cx, cy, radius * 0.97, cx, cy, radius * 1.11);
+    const glow = ctx.createRadialGradient(cx, cy, radius, cx, cy, radius * 1.11);
     glow.addColorStop(0, palette.halo);
     glow.addColorStop(1, "transparent");
     ctx.beginPath();
@@ -294,9 +352,13 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
     ctx.fillStyle = glow;
     ctx.fill();
 
+    const gl = glRef.current;
     const texture = textureRef.current;
-    if (texture) {
-      // Drawn smaller while it turns and scaled up, full size once it settles.
+    if (gl?.hasTexture()) {
+      // The card draws the sphere on the canvas underneath, at full resolution every frame.
+      gl.render({ centre, cx: cx * dpr, cy: cy * dpr, radius: radius * dpr, width: Math.round(width * dpr), height: Math.round(height * dpr) });
+    } else if (texture) {
+      // Fallback: drawn smaller while it turns and scaled up, full size once it settles.
       const moving = t < 1 || dragRef.current !== null;
       const n = Math.max(16, Math.round(radius * 2 * (moving ? MOVING_QUALITY : 1)));
       let sphere = sphereRef.current;
@@ -316,6 +378,7 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
       ctx.drawImage(sphere.canvas, cx - radius, cy - radius, radius * 2, radius * 2);
     } else {
       // Until the photograph arrives: a lit ball, so the page never shows an empty hole.
+      gl?.render({ centre, cx: 0, cy: 0, radius: 0, width: Math.round(width * dpr), height: Math.round(height * dpr) });
       const plain = ctx.createRadialGradient(cx - radius * 0.3, cy - radius * 0.3, radius * 0.1, cx, cy, radius);
       plain.addColorStop(0, palette.sphereEdge);
       plain.addColorStop(1, palette.sphere);
@@ -431,9 +494,8 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
       ctx.globalAlpha = 1;
       hits.push({ index, x: p.x, y: p.y });
       if (isActive) {
-        // The card's tail points at the middle of the disc. Once the reader has turned the globe
-        // away from the active place, that is no longer where the pin is, and the card must stop
-        // claiming otherwise.
+        // The strip offers to turn the globe back once the reader has dragged the active place
+        // away from the middle of the disc, or over the horizon.
         const off = Math.hypot(p.x - cx, p.y - cy) > OFF_CENTRE_PX;
         if (off !== offCentreRef.current) {
           offCentreRef.current = off;
@@ -527,6 +589,15 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
   };
 
   return (
+    <>
+      {/* The sphere, by the graphics card. Under the drawing canvas, which takes the pointer. */}
+      <canvas
+        ref={glCanvasRef}
+        aria-hidden
+        width={Math.round(size.width * size.dpr)}
+        height={Math.round(size.height * size.dpr)}
+        className="pointer-events-none absolute inset-0 h-full w-full"
+      />
     <canvas
       ref={canvasRef}
       aria-hidden
@@ -548,5 +619,6 @@ export function Globe({ places, activeIndex, trailTo, recenterKey = 0, onSelect,
       // attributes, which start at zero) instead of stretching. Absolute also puts it under the card.
       className={`absolute inset-0 h-full w-full touch-none ${dragging ? "cursor-grabbing" : hovered !== null ? "cursor-pointer" : "cursor-grab"} ${className ?? ""}`}
     />
+    </>
   );
 }

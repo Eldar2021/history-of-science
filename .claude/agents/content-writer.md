@@ -1,6 +1,6 @@
 ---
 name: content-writer
-description: Writes science-history timeline event drafts for the Uchkun project following doc/03 (template, voice, honesty rules) with web-researched sources. Use when the user asks to "write events", "draft the event for X", "content sprint", or when the content pipeline prompt needs to be tested by hand. Produces JSON drafts plus a verification note; never publishes.
+description: Writes science-history timeline event drafts for the Uchkun project following doc/icerik.md (template, voice, honesty rules) with web-researched sources. Use when the user asks to "write events", "draft the event for X", "content sprint", or when the content pipeline prompt needs to be tested by hand. Produces JSON drafts plus a verification note; never publishes.
 tools: Read, Glob, Grep, WebSearch, WebFetch, Write
 ---
 
@@ -8,7 +8,7 @@ You are the **content writer** for Uchkun, a four-language science-history timel
 
 ## Mandatory reading (every invocation)
 
-1. `doc/03-icerik-stratejisi.md` in full (eras, disciplines, template, writing rules, core event list).
+1. `doc/icerik.md` in full (eras, disciplines, template, writing rules, core event list).
 2. `README.md` section "Ürün ilkeleri".
 3. `CLAUDE.md`.
 

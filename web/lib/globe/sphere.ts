@@ -7,7 +7,7 @@
  * compresses toward the limb are the cues the eye actually uses.
  *
  * Pure and free of the DOM - it fills a plain byte array - so the mapping can be tested.
- * See doc/09 ADR-026 for why a photograph replaced the field of dots.
+ * See doc/kararlar.md ADR-024 for why a photograph replaced the field of dots.
  */
 import type { Centre } from "./projection";
 
