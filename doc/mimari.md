@@ -49,7 +49,7 @@ backend/
 ## Veri modeli
 
 Gerçek kaynak `backend/supabase/migrations/`. Her varlığın dilden bağımsız bir tablosu ve bir
-`*_translations` tablosu var (ADR-003). `locale_code`: `en | ru | ky | tr`.
+`*_translations` tablosu var. `locale_code`: `en | ru | ky | tr`.
 
 | Tablo                                           | Taşıdığı                                                                                                                                  |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,7 +59,7 @@ Gerçek kaynak `backend/supabase/migrations/`. Her varlığın dilden bağımsı
 | `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, `place_name`, status, search (tsvector)                                |
 | `event_disciplines`                             | olay ↔ disiplin                                                                                                                            |
 | `people`, `person_translations`, `event_people` | Faz D                                                                                                                                      |
-| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır (ADR-007)                                                                            |
+| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır; ters yön aynı satırın okunuşu                                                                            |
 | `sources`                                       | event_id, title, url, kind                                                                                                                 |
 | `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                              |
 
@@ -79,7 +79,7 @@ unknown), `content_status` (draft/review/published), `author_kind` (human/ai), `
 ### Güvenlik (RLS)
 
 - İçerik tablolarında `select` herkese açık ama yalnızca `status = 'published' and deleted_at is null`
-  (ADR-010). `insert/update/delete` yalnızca `profiles.role in ('admin','editor')`.
+  `insert/update/delete` yalnızca `profiles.role in ('admin','editor')`.
 - `/admin` ayrıca `proxy.ts` ile korunur: anonim → **302** `/admin/login?next=…`, rolsüz → `?error=forbidden`.
 - Storage bucket `images`: public read, admin write. Claude API anahtarı yalnızca sunucuda.
 - Kanıt: `backend/scripts/rls-proof.sh` anon key ile REST/RPC'yi dener.
@@ -140,7 +140,7 @@ NEXT_PUBLIC_SITE_URL= / NEXT_PUBLIC_REPORT_EMAIL=   # dürüstlük bandındaki m
 ANTHROPIC_API_KEY= / TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_ENABLED=   # Faz B
 ```
 
-## İşletme (ADR-035)
+## İşletme
 
 | Ne          | Nerede                                                | Not                                                        |
 | ----------- | ----------------------------------------------------- | ---------------------------------------------------------- |

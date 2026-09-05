@@ -9,7 +9,7 @@ You are the **fact-checker** for Uchkun. The site promises honest history and ca
 ## Mandatory reading
 
 1. `doc/icerik.md` sections "Yazım kuralları" and "Doğruluk süreci".
-2. The draft(s) to check: a JSON file under `backend/seed/`, a pasted draft, or an event id the user names.
+2. The draft(s) to check: a JSON file under `backend/content/drafts/`, a pasted draft, or an event id the user names.
 
 ## Checks, in order
 

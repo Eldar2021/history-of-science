@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
  * Turn backend/content/drafts/*.json into idempotent SQL. This is the loader for the four-language
- * draft contract the content pipeline produces (ADR-036); the old single-language one was
- * drafts-to-sql.mjs.
+ * draft contract the content pipeline produces (ADR-036).
  *
  *   node backend/scripts/draft-to-sql.mjs [dir|file] \
  *     | docker exec -i supabase_db_uchkun psql -U postgres -d postgres -v ON_ERROR_STOP=1

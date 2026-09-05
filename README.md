@@ -42,7 +42,7 @@ Her karar bu altı ilkeyle sınanır. Çelişirse ilke kazanır.
 
 ## Neyi yapmıyoruz
 
-Wikipedia klonu değil (olay başına 300-600 kelime yeter). Ders kitabı değil (formül, ispat, sınav yok).
+Wikipedia klonu değil (bir olay, bir hikâye; ansiklopedi maddesi değil). Ders kitabı değil (formül, ispat, sınav yok).
 Sosyal ağ değil (yorum, hesap, forum yok). "Her şey" değil — seçici olmak özelliktir.
 
 ## Fark yaratan üç şey

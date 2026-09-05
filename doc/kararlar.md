@@ -1,24 +1,13 @@
 # Kararlar (ADR)
 
-Yalnızca **hâlâ bağlayıcı** kararlar; koda gömülmüş olanlar silindi (son temizlik 2026-09-04: ADR-012,
-015, 017, 019, 020, 022, 023, 026, 027, 028, 030, 031, 032; küre serisi ADR-024'e, yıl yazımı ADR-004'e,
-tema ADR-029'a katlandı; font ve token kuralları `CLAUDE.md`'de). Bir karar değişirse yeni ADR yazılır,
-eskisi silinir ya da "Geçersiz, bkz. ADR-N" olur. Format: Bağlam → Karar → Gerekçe → Sonuçlar.
-
-## ADR-001: Önce web, mobil sonra
-
-Yalnızca mobil uyumlu web; Flutter uygulaması ihtiyaç doğunca. Link paylaşmak uygulama indirtmekten
-kolay, Google'da bulunmak için web şart. Veri katmanı Flutter'a hazır; `mobile/` boş kalır.
+Yalnızca **hâlâ bağlayıcı** kararlar. Koda tamamen gömülen, yapılıp biten ya da yerine yenisi geçen
+ADR silinir; numaralar yeniden kullanılmaz, boşluk normaldir. Cevabı `git log`'da. Bir karar değişirse
+yeni ADR yazılır. Format: Bağlam → Karar → Gerekçe → Sonuçlar.
 
 ## ADR-002: Next.js + Supabase, ayrı backend yok
 
 Backend mantığı server action + RLS + Postgres fonksiyonları. **Gelecek yolu**: ücretsiz katman yetmezse
 Go ile kendi backend; iş mantığı Postgres'te ve script'lerde tutulduğu için aynı Postgres'e bağlanır.
-
-## ADR-003: Çeviriler veritabanında, dil başına satır
-
-Her varlık için `*_translations (id, locale, ...)`, JSON sütunu değil: dil başına arama, eksik dil raporu
-ve satır bazlı çeviri durumu (`machine`/`reviewed`) SQL ile kolay olsun diye.
 
 ## ADR-004: Yıl = tamsayı, negatif = MÖ, sıfır yılı yok
 
@@ -35,40 +24,19 @@ qualifier + value diye böler, yıl sayfanın en büyük ögesi kalır. BCE/CE, 
 Ana sayfadaki zaman şeridi ve ileride gerçek ölçekli Keşfet kanvası (Faz D) aynı `lib/timeline/xScale.ts`'i
 kullanır. `importance` alanı zorunlu ve anlamlı olmalı: zoom seviyesinde görünürlüğü o belirler.
 
-## ADR-007: Bağlantılar tek yönlü saklanır (`builds_on`)
-
-`event_links` sadece "A, B'ye dayanır" saklar; ters yön aynı satırın okunuşu. `contradicts` ve `parallel`
-simetriktir: küçük id'den büyüğe tek satır.
-
 ## ADR-008: Makine çevirisi gizlenmez, rozetle yayınlanır
 
 `status='machine'` çeviriler "otomatik çeviri" rozetiyle görünür. "Hiç yok"tansa "var ama otomatik".
 
-## ADR-009: Kaynak dil olay başına
-
-`events.source_locale`. Hat İngilizce üretir; kullanıcı Kırgızca/Türkçe yazar. Çeviri hattı buradan okur.
-
-## ADR-010: Taslaklar veritabanı seviyesinde gizli (RLS)
-
-Anonim `select` yalnızca `status='published' and deleted_at is null`. Frontend filtresi ikinci kilit.
-
 ## ADR-011: Görsel lisans alanları zorunlu
 
 Atıf + lisans + kaynak URL boş bırakılamaz. Sonradan toplamak imkânsız.
-
-## ADR-013: İngilizce önce yayın, sonra ky, tr, ru
-
-Kaynaklar İngilizce, hat İngilizce üretir. Diğer üç dil rozetli makine çevirisiyle, insan onayı sırayla.
 
 ## ADR-014: Otomatik içerik hattı — Claude taslak yazar, insan onayı şart
 
 GitHub Actions cron + `draft-next.ts` + Claude API (web search) → `status='review'`, `drafted_by='ai'`,
 kaynaklar ve araştırma notu. **Script asla `published` yazmaz.** Kapatma anahtarı ve "kuyrukta 10+ varsa
 üretme" kuralı. (Faz B)
-
-## ADR-016: Hedef cihaz modern telefonlar
-
-Son 4-5 yılın cihazları; eski Android için özel optimizasyon yok. Lighthouse mobil 90 hedefi.
 
 ## ADR-018: Admin arayüzü 4 dilde
 
@@ -157,37 +125,6 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   `saveEvent` hâlâ işlem (transaction) değil: yarıda kalan kayıt aynı formdan tekrar kaydedince onarılır.
   Kapak görseli artık kova yolu **ya da** tam https adresi kabul eder (`lib/media.ts`).
 
-## ADR-035: Üretim işletmesi — CI, yedek, hata sayfası, keşfedilebilirlik
-
-**2026-09-05 · Kabul**
-
-- **Bağlam**: Site ve admin bitti ama işletme yoktu: PR'da hiçbir şey test çalıştırmıyordu, veritabanının
-  yedeği yoktu (Supabase ücretsiz katmanda PITR yok), üretimdeki bir hata çıplak "Application error"
-  veriyordu, dört dil sürümü birbirine `hreflang` ile bağlı değildi, paylaşılan link boş kart açıyordu ve
-  bulut Auth'un dönüş adresi localhost olduğu için şifre sıfırlama kırıktı.
-- **Karar**:
-  - **CI** (`.github/workflows/ci.yml`): her PR'da `npm run check` **ve** yerel Supabase'li Playwright.
-    `main` = üretim olduğuna göre kapı burada.
-  - **Yedek** (`.github/workflows/backup.yml`): her gece `supabase db dump` → 90 gün saklanan iş
-    artefaktı. Depoya dump **işlenmez** (boyut ve sır riski) ve PITR beklenmez. Elle almak için
-    `backend/scripts/backup.sh`. Depo sırrı `SUPABASE_DB_URL` gerektirir; yoksa iş açıkça durur.
-  - **Hata sınırı**: `[locale]/error.tsx` okuyucunun dilinde, `global-error.tsx` son çare olarak
-    İngilizce — dili seçen makine zaten bozulmuştur.
-  - **Adres tek yerden** (`lib/site.ts`): `SITE_ORIGIN`. Ortama göre tahmin yürütmek sunucu ve istemcide
-    farklı cevap verip hydration'ı bozardı; tek sabit, tek `NEXT_PUBLIC_SITE_URL`.
-  - **Şifre sıfırlama**: e-posta `/api/auth/callback`'e döner (çerez yazdığı için route handler, ve
-    `/api` proxy'nin dışında olduğu için anonim erişilebilir). `/admin/forgot-password` de proxy'de
-    açık listede. Auth izin listesi uygulamanın kendi adreslerini içermek **zorunda**.
-  - **Küre dokusu WebP**, JPEG arkada duruyor: aynı fotoğraf üçte bir hafif (176 KB ve 587 KB).
-- **Gerekçe**: İçerik yakında projenin en değerli varlığı olacak; yedeksiz içerik toplamak kumar.
-  Erişilebilir ad ile görünen metin uyuşmazlığı (dil düğmesi "EN" ama adı "Language") sesle kontrol
-  edeni engelliyordu; düzeltildi.
-- **Sonuçlar**: Canlıda, merge sonrası (2026-09-05, 6 ölçüm): erişilebilirlik, en iyi uygulamalar ve
-  **SEO 100** (SEO'nun eski kaybı yalnızca eksik `robots.txt` idi). Performans **83-92, ortalama 88** —
-  tek ölçüm 9 puan oynuyor, bütçe ancak iyi turda tutuyor; ayrı bir performans turu gerekiyor
-  (`yol-haritasi.md`, Faz C). Analitik ve Sentry hâlâ yok (hesap kararı, S12). Uyarı:
-  `NEXT_PUBLIC_SITE_URL` üretimde yanlışsa canonical ve OG adresleri yanlış olur.
-
 ## ADR-036: İçerik sıfırlandı; gece hattı ve kelime tavanının kalkması
 
 **2026-09-06 · Kabul**
@@ -216,7 +153,8 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   giremiyordu ve kesilenler tam da Hypatia, El-Farabi, Ömer Hayyam, Noether, Bell Burnell, Zhang Heng
   oluyordu — yani `icerik.md`'nin korumakla yükümlü olduğu isimler. Puanlar küresel ölçeğe çekildi ve
   bu altısı listeye alındı.
-- **Sonuçlar**: Şema değişmedi. Sıralama önem katmanları içinde çağlara yayılıyor: **ilk 9 olay 8 çağın
+- **Sonuçlar**: **ADR-013 geçersiz**: yayın sırası artık "İngilizce önce, sonra ötekiler" değil; hat bir
+  olayın dört dilini tek koşuda yazar. Şema değişmedi. Sıralama önem katmanları içinde çağlara yayılıyor: **ilk 9 olay 8 çağın
   hepsine dokunuyor**, site hiçbir aşamada yarım görünmüyor. Yeni dört dilli taslak sözleşmesi ve
   yükleyicisi `backend/scripts/draft-to-sql.mjs`; sözleşme doğrulaması yükleyicinin **içinde**, atlanamaz
   (özet uzunluğu, lisans bütünlüğü, kutu anahtarları, iki kaynak). Yükleyici `status <> 'published'`
