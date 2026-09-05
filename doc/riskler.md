@@ -6,7 +6,6 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 
 | #   | Soru                                                    | Ne zaman | Not                                     |
 | --- | ------------------------------------------------------- | -------- | --------------------------------------- |
-| S11 | Bildirim kanalı: Telegram bot mu, e-posta mı?           | Faz B    | Öneri Telegram (ücretsiz, anlık)        |
 | S12 | Hata bildirimi nereye: e-posta mı, admin "bildirimler"? | Faz C    | Öneri ikisi; e-posta yedek              |
 | S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman?    | Faz D    | İngilizce beta bitince; `editor` hesabı |
 | S14 | Alan adı hangisi?                                       | Faz C    | uchkun.science / .kg / .org             |
@@ -20,9 +19,10 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
   `about` sayfasında listelenecek (Faz C).
 - **R3 Kırgızca çeviri kalitesi.** Claude (tr+ru referanslı) → kullanıcı okur → öğretmen terimleri kontrol
   eder → `reviewed`. Birikirse `machine` rozetli kalır, sorun değil.
-- **R9 Claude API maliyeti.** Hat + çeviri ayda ~10-15 $. Model adı tek yerden; `CONTENT_PIPELINE_ENABLED`.
+- **R9 Claude API maliyeti.** Tavan kalkınca gövdeler uzadı: tahmin olay başına 1-3 $, 100 olay için
+  100-300 $. İlk 3 olaydan sonra gerçeği ölç. Model adı tek yerden; `CONTENT_PIPELINE_ENABLED`.
 - **R10 Veritabanı kaybı.** Ücretsiz katmanda PITR yok. Gece yedeği kuruldu, 2026-09-05'te elle
-  çalıştırılıp artefaktı indirildi (ADR-035). **Kalan risk: geri yükleme hiç denenmedi.** Denenmemiş
+  çalıştırılıp artefaktı indirildi. **Kalan risk: geri yükleme hiç denenmedi.** Denenmemiş
   yedek yedek sayılmaz; ilk fırsatta boş bir projeye `roles → schema → data` sırasıyla yüklenmeli.
 - **R5 Kapsam şişer.** Yeni fikir → Park; ayda bir bakılır. Kanvas dışında büyük özellik yok.
 

@@ -1,0 +1,397 @@
+{
+  "note": "Cut from the top 100. This is the queue when the list runs out (ADR-036).",
+  "count": 35,
+  "events": [
+    {
+      "slug": "pythagoras-school",
+      "year": -530,
+      "precision": "circa",
+      "importance": 3,
+      "era": "ancient",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "The Pythagoreans: the universe can be understood through number"
+    },
+    {
+      "slug": "empedocles-four-elements",
+      "year": -450,
+      "precision": "circa",
+      "importance": 2,
+      "era": "ancient",
+      "disciplines": [
+        "chemistry"
+      ],
+      "working_title": "Empedocles: everything is made of four elements"
+    },
+    {
+      "slug": "plato-academy",
+      "year": -387,
+      "precision": "circa",
+      "importance": 3,
+      "era": "ancient",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Plato founds the Academy"
+    },
+    {
+      "slug": "hipparchus-star-catalogue",
+      "year": -150,
+      "precision": "circa",
+      "importance": 3,
+      "era": "ancient",
+      "disciplines": [
+        "astronomy",
+        "mathematics"
+      ],
+      "working_title": "Hipparchus catalogues the stars"
+    },
+    {
+      "slug": "galen-anatomy",
+      "year": 160,
+      "precision": "circa",
+      "importance": 3,
+      "era": "ancient",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Galen: the anatomy that ruled medicine for 1400 years"
+    },
+    {
+      "slug": "fibonacci-liber-abaci",
+      "year": 1202,
+      "precision": "exact",
+      "importance": 4,
+      "era": "golden-age",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Fibonacci brings Hindu-Arabic numerals to Europe"
+    },
+    {
+      "slug": "roger-bacon-experiment",
+      "year": 1267,
+      "precision": "exact",
+      "importance": 3,
+      "era": "golden-age",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Roger Bacon: experience over authority"
+    },
+    {
+      "slug": "tycho-supernova",
+      "year": 1572,
+      "precision": "exact",
+      "importance": 3,
+      "era": "revolution",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Tycho's new star: the heavens can change"
+    },
+    {
+      "slug": "gilbert-de-magnete",
+      "year": 1600,
+      "precision": "exact",
+      "importance": 3,
+      "era": "revolution",
+      "disciplines": [
+        "physics",
+        "earth"
+      ],
+      "working_title": "Gilbert: the Earth is a magnet"
+    },
+    {
+      "slug": "napier-logarithms",
+      "year": 1614,
+      "precision": "exact",
+      "importance": 3,
+      "era": "revolution",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Napier publishes logarithms"
+    },
+    {
+      "slug": "bacon-novum-organum",
+      "year": 1620,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Francis Bacon's manifesto for the experimental method"
+    },
+    {
+      "slug": "torricelli-barometer",
+      "year": 1643,
+      "precision": "exact",
+      "importance": 3,
+      "era": "revolution",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Torricelli: air has weight and the vacuum is real"
+    },
+    {
+      "slug": "royal-society",
+      "year": 1660,
+      "precision": "exact",
+      "importance": 3,
+      "era": "revolution",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "The Royal Society: science gets an institution"
+    },
+    {
+      "slug": "boyle-law",
+      "year": 1662,
+      "precision": "exact",
+      "importance": 3,
+      "era": "revolution",
+      "disciplines": [
+        "chemistry",
+        "physics"
+      ],
+      "working_title": "Boyle's law"
+    },
+    {
+      "slug": "hooke-micrographia",
+      "year": 1665,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Hooke's Micrographia and the word 'cell'"
+    },
+    {
+      "slug": "romer-speed-of-light",
+      "year": 1676,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "physics",
+        "astronomy"
+      ],
+      "working_title": "Romer shows that light takes time to travel"
+    },
+    {
+      "slug": "herschel-uranus",
+      "year": 1781,
+      "precision": "exact",
+      "importance": 3,
+      "era": "enlightenment",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Herschel discovers Uranus"
+    },
+    {
+      "slug": "neptune-discovered",
+      "year": 1846,
+      "precision": "exact",
+      "importance": 3,
+      "era": "industrial",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Neptune is found on paper before it is seen"
+    },
+    {
+      "slug": "helmholtz-conservation-of-energy",
+      "year": 1847,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Helmholtz and the conservation of energy"
+    },
+    {
+      "slug": "bell-telephone",
+      "year": 1876,
+      "precision": "exact",
+      "importance": 3,
+      "era": "industrial",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "Bell's telephone"
+    },
+    {
+      "slug": "edison-light-bulb",
+      "year": 1879,
+      "precision": "exact",
+      "importance": 3,
+      "era": "industrial",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "Edison's durable light bulb"
+    },
+    {
+      "slug": "koch-tuberculosis",
+      "year": 1882,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Koch finds the tuberculosis bacillus"
+    },
+    {
+      "slug": "becquerel-radioactivity",
+      "year": 1896,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Becquerel discovers radioactivity"
+    },
+    {
+      "slug": "bohr-atom-model",
+      "year": 1913,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Bohr's model of the atom"
+    },
+    {
+      "slug": "eddington-eclipse",
+      "year": 1919,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "The 1919 eclipse confirms relativity"
+    },
+    {
+      "slug": "uncertainty-and-expanding-universe",
+      "year": 1927,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "physics",
+        "astronomy"
+      ],
+      "working_title": "The uncertainty principle and Lemaitre's expanding universe"
+    },
+    {
+      "slug": "chadwick-neutron",
+      "year": 1932,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Chadwick discovers the neutron"
+    },
+    {
+      "slug": "fermi-chain-reaction",
+      "year": 1942,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Fermi's first chain reaction"
+    },
+    {
+      "slug": "miller-urey",
+      "year": 1953,
+      "precision": "exact",
+      "importance": 3,
+      "era": "information",
+      "disciplines": [
+        "chemistry",
+        "biology"
+      ],
+      "working_title": "Miller and Urey make the chemistry of life in a flask"
+    },
+    {
+      "slug": "quarks-and-higgs-proposed",
+      "year": 1964,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Quarks and the Higgs mechanism are proposed"
+    },
+    {
+      "slug": "voyager-launched",
+      "year": 1977,
+      "precision": "exact",
+      "importance": 3,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Voyager is launched"
+    },
+    {
+      "slug": "ipcc-founded",
+      "year": 1988,
+      "precision": "exact",
+      "importance": 3,
+      "era": "information",
+      "disciplines": [
+        "earth"
+      ],
+      "working_title": "The IPCC is founded"
+    },
+    {
+      "slug": "hubble-space-telescope",
+      "year": 1990,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "The Hubble Space Telescope"
+    },
+    {
+      "slug": "dolly-the-sheep",
+      "year": 1996,
+      "precision": "exact",
+      "importance": 3,
+      "era": "information",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Dolly the sheep"
+    },
+    {
+      "slug": "paris-agreement",
+      "year": 2015,
+      "precision": "exact",
+      "importance": 3,
+      "era": "today",
+      "disciplines": [
+        "earth"
+      ],
+      "working_title": "The Paris Agreement"
+    }
+  ]
+}

@@ -1,0 +1,1237 @@
+{
+  "note": "Production queue for the content pipeline. `rank` is the order the agent writes them; `importance` is the event's weight on the timeline. They are not the same thing. See doc/icerik.md and ADR-036.",
+  "count": 100,
+  "events": [
+    {
+      "rank": 1,
+      "slug": "newton-principia",
+      "year": 1687,
+      "precision": "exact",
+      "importance": 5,
+      "era": "revolution",
+      "disciplines": [
+        "physics",
+        "astronomy",
+        "mathematics"
+      ],
+      "working_title": "Newton publishes the Principia"
+    },
+    {
+      "rank": 2,
+      "slug": "thales-natural-explanations",
+      "year": -585,
+      "precision": "circa",
+      "importance": 5,
+      "era": "ancient",
+      "disciplines": [
+        "physics",
+        "astronomy"
+      ],
+      "working_title": "Thales looks for natural causes instead of gods"
+    },
+    {
+      "rank": 3,
+      "slug": "brahmagupta-zero",
+      "year": 628,
+      "precision": "exact",
+      "importance": 5,
+      "era": "golden-age",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Brahmagupta: zero becomes a number"
+    },
+    {
+      "rank": 4,
+      "slug": "ulugh-beg-observatory",
+      "year": 1420,
+      "precision": "circa",
+      "importance": 5,
+      "era": "revolution",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Ulugh Beg's Samarkand observatory"
+    },
+    {
+      "rank": 5,
+      "slug": "lavoisier-conservation-of-mass",
+      "year": 1789,
+      "precision": "exact",
+      "importance": 5,
+      "era": "enlightenment",
+      "disciplines": [
+        "chemistry"
+      ],
+      "working_title": "Lavoisier: mass is conserved, chemistry becomes a science"
+    },
+    {
+      "rank": 6,
+      "slug": "volta-battery",
+      "year": 1800,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "physics",
+        "technology"
+      ],
+      "working_title": "Volta's pile: electricity that keeps flowing"
+    },
+    {
+      "rank": 7,
+      "slug": "planck-quantum",
+      "year": 1900,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Planck: energy comes in packets"
+    },
+    {
+      "rank": 8,
+      "slug": "trinity-test",
+      "year": 1945,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Trinity: the first atomic bomb"
+    },
+    {
+      "rank": 9,
+      "slug": "human-genome-project",
+      "year": 2003,
+      "precision": "exact",
+      "importance": 5,
+      "era": "today",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "The Human Genome Project is completed"
+    },
+    {
+      "rank": 10,
+      "slug": "euclid-elements",
+      "year": -300,
+      "precision": "circa",
+      "importance": 5,
+      "era": "ancient",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Euclid assembles the Elements"
+    },
+    {
+      "rank": 11,
+      "slug": "al-khwarizmi-algebra",
+      "year": 820,
+      "precision": "circa",
+      "importance": 5,
+      "era": "golden-age",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Al-Khwarizmi founds algebra in Baghdad"
+    },
+    {
+      "rank": 12,
+      "slug": "gutenberg-press",
+      "year": 1450,
+      "precision": "circa",
+      "importance": 5,
+      "era": "revolution",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "Gutenberg's press: knowledge becomes copyable"
+    },
+    {
+      "rank": 13,
+      "slug": "jenner-smallpox-vaccine",
+      "year": 1796,
+      "precision": "exact",
+      "importance": 5,
+      "era": "enlightenment",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Jenner and the first vaccine"
+    },
+    {
+      "rank": 14,
+      "slug": "faraday-induction",
+      "year": 1831,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "physics",
+        "technology"
+      ],
+      "working_title": "Faraday: electricity from motion"
+    },
+    {
+      "rank": 15,
+      "slug": "einstein-miracle-year",
+      "year": 1905,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Einstein's miracle year"
+    },
+    {
+      "rank": 16,
+      "slug": "transistor",
+      "year": 1947,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "physics",
+        "technology"
+      ],
+      "working_title": "The transistor is invented"
+    },
+    {
+      "rank": 17,
+      "slug": "higgs-boson",
+      "year": 2012,
+      "precision": "exact",
+      "importance": 5,
+      "era": "today",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "The Higgs boson is found"
+    },
+    {
+      "rank": 18,
+      "slug": "ibn-al-haytham-optics",
+      "year": 1021,
+      "precision": "circa",
+      "importance": 5,
+      "era": "golden-age",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Ibn al-Haytham explains vision with experiments"
+    },
+    {
+      "rank": 19,
+      "slug": "copernicus-heliocentrism",
+      "year": 1543,
+      "precision": "exact",
+      "importance": 5,
+      "era": "revolution",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Copernicus puts the Sun at the centre"
+    },
+    {
+      "rank": 20,
+      "slug": "darwin-origin-of-species",
+      "year": 1859,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Darwin's On the Origin of Species"
+    },
+    {
+      "rank": 21,
+      "slug": "haber-bosch-process",
+      "year": 1909,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "chemistry",
+        "technology"
+      ],
+      "working_title": "Haber and Bosch make fertiliser from air"
+    },
+    {
+      "rank": 22,
+      "slug": "dna-double-helix",
+      "year": 1953,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "The double helix of DNA"
+    },
+    {
+      "rank": 23,
+      "slug": "crispr-cas9",
+      "year": 2012,
+      "precision": "exact",
+      "importance": 5,
+      "era": "today",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "CRISPR-Cas9"
+    },
+    {
+      "rank": 24,
+      "slug": "ibn-sina-canon",
+      "year": 1025,
+      "precision": "exact",
+      "importance": 5,
+      "era": "golden-age",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Ibn Sina's Canon of Medicine"
+    },
+    {
+      "rank": 25,
+      "slug": "galileo-telescope",
+      "year": 1609,
+      "precision": "exact",
+      "importance": 5,
+      "era": "revolution",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Galileo turns the telescope to the sky"
+    },
+    {
+      "rank": 26,
+      "slug": "pasteur-germ-theory",
+      "year": 1861,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "medicine",
+        "biology"
+      ],
+      "working_title": "Pasteur: germs cause disease"
+    },
+    {
+      "rank": 27,
+      "slug": "rutherford-nucleus",
+      "year": 1911,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Rutherford finds the nucleus"
+    },
+    {
+      "rank": 28,
+      "slug": "sputnik",
+      "year": 1957,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "astronomy",
+        "technology"
+      ],
+      "working_title": "Sputnik: the first satellite"
+    },
+    {
+      "rank": 29,
+      "slug": "gravitational-waves",
+      "year": 2015,
+      "precision": "exact",
+      "importance": 5,
+      "era": "today",
+      "disciplines": [
+        "physics",
+        "astronomy"
+      ],
+      "working_title": "LIGO detects gravitational waves"
+    },
+    {
+      "rank": 30,
+      "slug": "kepler-elliptical-orbits",
+      "year": 1609,
+      "precision": "exact",
+      "importance": 5,
+      "era": "revolution",
+      "disciplines": [
+        "astronomy",
+        "mathematics"
+      ],
+      "working_title": "Kepler: the planets move in ellipses"
+    },
+    {
+      "rank": 31,
+      "slug": "maxwell-electromagnetic-light",
+      "year": 1865,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Maxwell: light is an electromagnetic wave"
+    },
+    {
+      "rank": 32,
+      "slug": "general-relativity",
+      "year": 1915,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "physics",
+        "astronomy"
+      ],
+      "working_title": "General relativity: mass bends space-time"
+    },
+    {
+      "rank": 33,
+      "slug": "gagarin-first-human-in-space",
+      "year": 1961,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Gagarin: the first human in space"
+    },
+    {
+      "rank": 34,
+      "slug": "mrna-vaccines",
+      "year": 2020,
+      "precision": "exact",
+      "importance": 5,
+      "era": "today",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "mRNA vaccines in a single year"
+    },
+    {
+      "rank": 35,
+      "slug": "mendel-heredity",
+      "year": 1865,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Mendel's peas: the rules of inheritance"
+    },
+    {
+      "rank": 36,
+      "slug": "quantum-mechanics",
+      "year": 1925,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Heisenberg and Schrodinger build quantum mechanics"
+    },
+    {
+      "rank": 37,
+      "slug": "cosmic-microwave-background",
+      "year": 1965,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "The cosmic microwave background"
+    },
+    {
+      "rank": 38,
+      "slug": "mendeleev-periodic-table",
+      "year": 1869,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "chemistry"
+      ],
+      "working_title": "Mendeleev's periodic table"
+    },
+    {
+      "rank": 39,
+      "slug": "fleming-penicillin",
+      "year": 1928,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Fleming and penicillin"
+    },
+    {
+      "rank": 40,
+      "slug": "apollo-11",
+      "year": 1969,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "astronomy",
+        "technology"
+      ],
+      "working_title": "Apollo 11: humans on the Moon"
+    },
+    {
+      "rank": 41,
+      "slug": "roentgen-x-rays",
+      "year": 1895,
+      "precision": "exact",
+      "importance": 5,
+      "era": "industrial",
+      "disciplines": [
+        "physics",
+        "medicine"
+      ],
+      "working_title": "Rontgen and X-rays"
+    },
+    {
+      "rank": 42,
+      "slug": "hubble-expanding-universe",
+      "year": 1929,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Hubble: the universe is expanding"
+    },
+    {
+      "rank": 43,
+      "slug": "arpanet",
+      "year": 1969,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "ARPANET: the seed of the internet"
+    },
+    {
+      "rank": 44,
+      "slug": "turing-computability",
+      "year": 1936,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "mathematics",
+        "technology"
+      ],
+      "working_title": "Turing and the universal machine"
+    },
+    {
+      "rank": 45,
+      "slug": "microprocessor",
+      "year": 1971,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "The microprocessor"
+    },
+    {
+      "rank": 46,
+      "slug": "nuclear-fission",
+      "year": 1938,
+      "precision": "exact",
+      "importance": 5,
+      "era": "modern",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Hahn and Meitner: the nucleus splits"
+    },
+    {
+      "rank": 47,
+      "slug": "smallpox-eradicated",
+      "year": 1980,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Smallpox is erased from the Earth"
+    },
+    {
+      "rank": 48,
+      "slug": "world-wide-web",
+      "year": 1989,
+      "precision": "exact",
+      "importance": 5,
+      "era": "information",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "Berners-Lee invents the World Wide Web"
+    },
+    {
+      "rank": 49,
+      "slug": "democritus-atoms",
+      "year": -420,
+      "precision": "circa",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "physics",
+        "chemistry"
+      ],
+      "working_title": "Democritus and Leucippus: everything is made of atoms"
+    },
+    {
+      "rank": 50,
+      "slug": "al-biruni-earth-radius",
+      "year": 1030,
+      "precision": "circa",
+      "importance": 4,
+      "era": "golden-age",
+      "disciplines": [
+        "earth",
+        "astronomy"
+      ],
+      "working_title": "Al-Biruni measures the Earth from a hill"
+    },
+    {
+      "rank": 51,
+      "slug": "vesalius-fabrica",
+      "year": 1543,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Vesalius draws the body as he finds it"
+    },
+    {
+      "rank": 52,
+      "slug": "linnaeus-systema-naturae",
+      "year": 1735,
+      "precision": "exact",
+      "importance": 4,
+      "era": "enlightenment",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Linnaeus gives every living thing a name"
+    },
+    {
+      "rank": 53,
+      "slug": "dalton-atomic-theory",
+      "year": 1803,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "chemistry"
+      ],
+      "working_title": "Dalton's atomic theory"
+    },
+    {
+      "rank": 54,
+      "slug": "wright-brothers-flight",
+      "year": 1903,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "The Wright brothers fly"
+    },
+    {
+      "rank": 55,
+      "slug": "shannon-information-theory",
+      "year": 1948,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "mathematics",
+        "technology"
+      ],
+      "working_title": "Shannon invents information theory and the bit"
+    },
+    {
+      "rank": 56,
+      "slug": "smartphone",
+      "year": 2007,
+      "precision": "exact",
+      "importance": 4,
+      "era": "today",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "The smartphone: sixty years of science in a pocket"
+    },
+    {
+      "rank": 57,
+      "slug": "hippocrates-natural-disease",
+      "year": -400,
+      "precision": "circa",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Hippocrates: disease has natural causes"
+    },
+    {
+      "rank": 58,
+      "slug": "harvey-blood-circulation",
+      "year": 1628,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Harvey shows that blood circulates"
+    },
+    {
+      "rank": 59,
+      "slug": "franklin-lightning",
+      "year": 1752,
+      "precision": "exact",
+      "importance": 4,
+      "era": "enlightenment",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Franklin: lightning is electricity"
+    },
+    {
+      "rank": 60,
+      "slug": "oersted-electromagnetism",
+      "year": 1820,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Orsted: electricity moves a compass needle"
+    },
+    {
+      "rank": 61,
+      "slug": "wegener-continental-drift",
+      "year": 1912,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "earth"
+      ],
+      "working_title": "Wegener: the continents move"
+    },
+    {
+      "rank": 62,
+      "slug": "integrated-circuit",
+      "year": 1958,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "The integrated circuit"
+    },
+    {
+      "rank": 63,
+      "slug": "first-black-hole-image",
+      "year": 2019,
+      "precision": "exact",
+      "importance": 4,
+      "era": "today",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "The first photograph of a black hole"
+    },
+    {
+      "rank": 64,
+      "slug": "aristotle-lyceum",
+      "year": -335,
+      "precision": "circa",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "biology",
+        "physics"
+      ],
+      "working_title": "Aristotle's Lyceum: observation, biology and logic"
+    },
+    {
+      "rank": 65,
+      "slug": "descartes-geometry",
+      "year": 1637,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Descartes: curves become equations"
+    },
+    {
+      "rank": 66,
+      "slug": "oxygen-discovered",
+      "year": 1774,
+      "precision": "exact",
+      "importance": 4,
+      "era": "enlightenment",
+      "disciplines": [
+        "chemistry"
+      ],
+      "working_title": "Priestley and Scheele isolate oxygen"
+    },
+    {
+      "rank": 67,
+      "slug": "carnot-thermodynamics",
+      "year": 1824,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Carnot and the birth of thermodynamics"
+    },
+    {
+      "rank": 68,
+      "slug": "hubble-other-galaxies",
+      "year": 1924,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Hubble: there are other galaxies"
+    },
+    {
+      "rank": 69,
+      "slug": "keeling-curve",
+      "year": 1958,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "earth"
+      ],
+      "working_title": "The Keeling curve begins"
+    },
+    {
+      "rank": 70,
+      "slug": "alphafold",
+      "year": 2020,
+      "precision": "exact",
+      "importance": 4,
+      "era": "today",
+      "disciplines": [
+        "biology",
+        "technology"
+      ],
+      "working_title": "AlphaFold solves protein folding"
+    },
+    {
+      "rank": 71,
+      "slug": "archimedes-buoyancy-levers",
+      "year": -250,
+      "precision": "circa",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "physics",
+        "mathematics"
+      ],
+      "working_title": "Archimedes: floating, levers and the beginning of physics"
+    },
+    {
+      "rank": 72,
+      "slug": "leeuwenhoek-microbes",
+      "year": 1676,
+      "precision": "exact",
+      "importance": 4,
+      "era": "revolution",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Leeuwenhoek finds living creatures in a drop of water"
+    },
+    {
+      "rank": 73,
+      "slug": "lyell-deep-time",
+      "year": 1830,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "earth"
+      ],
+      "working_title": "Lyell: the Earth is old and changes slowly"
+    },
+    {
+      "rank": 74,
+      "slug": "godel-incompleteness",
+      "year": 1931,
+      "precision": "exact",
+      "importance": 4,
+      "era": "modern",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Godel and the limits of mathematics"
+    },
+    {
+      "rank": 75,
+      "slug": "laser",
+      "year": 1960,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "physics",
+        "technology"
+      ],
+      "working_title": "The laser"
+    },
+    {
+      "rank": 76,
+      "slug": "james-webb-first-images",
+      "year": 2022,
+      "precision": "exact",
+      "importance": 4,
+      "era": "today",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "The first images from James Webb"
+    },
+    {
+      "rank": 77,
+      "slug": "eratosthenes-earth-circumference",
+      "year": -240,
+      "precision": "circa",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "astronomy",
+        "earth"
+      ],
+      "working_title": "Eratosthenes measures the Earth with a shadow"
+    },
+    {
+      "rank": 78,
+      "slug": "cell-theory",
+      "year": 1838,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Schleiden and Schwann: every living thing is made of cells"
+    },
+    {
+      "rank": 79,
+      "slug": "recombinant-dna",
+      "year": 1973,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "Recombinant DNA: genetic engineering begins"
+    },
+    {
+      "rank": 80,
+      "slug": "nif-fusion-ignition",
+      "year": 2022,
+      "precision": "exact",
+      "importance": 4,
+      "era": "today",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Net energy gain from fusion at NIF"
+    },
+    {
+      "rank": 81,
+      "slug": "ptolemy-almagest",
+      "year": 150,
+      "precision": "circa",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Ptolemy's Almagest: the Earth-centred sky that worked"
+    },
+    {
+      "rank": 82,
+      "slug": "ether-anesthesia",
+      "year": 1846,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Ether anaesthesia: surgery without pain"
+    },
+    {
+      "rank": 83,
+      "slug": "pcr",
+      "year": 1983,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "biology"
+      ],
+      "working_title": "PCR: a machine for copying DNA"
+    },
+    {
+      "rank": 84,
+      "slug": "large-language-models",
+      "year": 2022,
+      "precision": "exact",
+      "importance": 4,
+      "era": "today",
+      "disciplines": [
+        "technology"
+      ],
+      "working_title": "Large language models reach the public"
+    },
+    {
+      "rank": 85,
+      "slug": "aryabhata",
+      "year": 499,
+      "precision": "exact",
+      "importance": 4,
+      "era": "ancient",
+      "disciplines": [
+        "mathematics",
+        "astronomy"
+      ],
+      "working_title": "Aryabhata: a spinning Earth and a sine table"
+    },
+    {
+      "rank": 86,
+      "slug": "semmelweis-handwashing",
+      "year": 1847,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "medicine"
+      ],
+      "working_title": "Semmelweis: washing hands saves lives"
+    },
+    {
+      "rank": 87,
+      "slug": "ozone-hole",
+      "year": 1985,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "earth"
+      ],
+      "working_title": "The ozone hole and the Montreal Protocol"
+    },
+    {
+      "rank": 88,
+      "slug": "hertz-radio-waves",
+      "year": 1887,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics",
+        "technology"
+      ],
+      "working_title": "Hertz proves radio waves are real"
+    },
+    {
+      "rank": 89,
+      "slug": "first-exoplanet",
+      "year": 1995,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "The first exoplanet around a Sun-like star"
+    },
+    {
+      "rank": 90,
+      "slug": "michelson-morley",
+      "year": 1887,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Michelson and Morley: there is no ether"
+    },
+    {
+      "rank": 91,
+      "slug": "dark-energy",
+      "year": 1998,
+      "precision": "exact",
+      "importance": 4,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Dark energy: the expansion is speeding up"
+    },
+    {
+      "rank": 92,
+      "slug": "arrhenius-greenhouse-effect",
+      "year": 1896,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "earth",
+        "chemistry"
+      ],
+      "working_title": "Arrhenius calculates that carbon dioxide warms the Earth"
+    },
+    {
+      "rank": 93,
+      "slug": "thomson-electron",
+      "year": 1897,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "physics"
+      ],
+      "working_title": "Thomson: the atom can be divided"
+    },
+    {
+      "rank": 94,
+      "slug": "curie-radium-polonium",
+      "year": 1898,
+      "precision": "exact",
+      "importance": 4,
+      "era": "industrial",
+      "disciplines": [
+        "chemistry",
+        "physics"
+      ],
+      "working_title": "The Curies isolate radium and polonium"
+    },
+    {
+      "rank": 95,
+      "slug": "zhang-heng-seismograph",
+      "year": 78,
+      "precision": "circa",
+      "importance": 3,
+      "era": "ancient",
+      "disciplines": [
+        "earth",
+        "technology"
+      ],
+      "working_title": "Zhang Heng's seismograph in Han China"
+    },
+    {
+      "rank": 96,
+      "slug": "al-farabi-classification",
+      "year": 950,
+      "precision": "circa",
+      "importance": 3,
+      "era": "golden-age",
+      "disciplines": [
+        "mathematics"
+      ],
+      "working_title": "Al-Farabi maps every science"
+    },
+    {
+      "rank": 97,
+      "slug": "noether-symmetry",
+      "year": 1918,
+      "precision": "exact",
+      "importance": 3,
+      "era": "modern",
+      "disciplines": [
+        "mathematics",
+        "physics"
+      ],
+      "working_title": "Emmy Noether links symmetry to conservation"
+    },
+    {
+      "rank": 98,
+      "slug": "bell-burnell-pulsars",
+      "year": 1967,
+      "precision": "exact",
+      "importance": 3,
+      "era": "information",
+      "disciplines": [
+        "astronomy"
+      ],
+      "working_title": "Jocelyn Bell Burnell finds pulsars"
+    },
+    {
+      "rank": 99,
+      "slug": "hypatia-alexandria",
+      "year": 400,
+      "precision": "circa",
+      "importance": 3,
+      "era": "ancient",
+      "disciplines": [
+        "mathematics",
+        "astronomy"
+      ],
+      "working_title": "Hypatia teaches mathematics in Alexandria"
+    },
+    {
+      "rank": 100,
+      "slug": "omar-khayyam-cubics",
+      "year": 1070,
+      "precision": "circa",
+      "importance": 3,
+      "era": "golden-age",
+      "disciplines": [
+        "mathematics",
+        "astronomy"
+      ],
+      "working_title": "Omar Khayyam solves cubics with curves"
+    }
+  ]
+}

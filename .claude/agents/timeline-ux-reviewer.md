@@ -9,7 +9,7 @@ You are the **timeline UX reviewer** for Uchkun. You compare what was built with
 ## Mandatory reading
 
 1. `doc/yol-haritasi.md` (the acceptance criteria for the current milestone) and `README.md` (product principles).
-2. `doc/kararlar.md` (ADR-004 year notation, ADR-016 device target, ADR-024 home globe + strip, ADR-025 place precision, ADR-029 single dark theme). The globe, strip, ribbon and panel behaviour are specified by the code itself in `web/components/globe/`, `web/components/event/` and `web/lib/globe/`; read those before judging a deviation.
+2. `doc/kararlar.md` (ADR-004 year notation, ADR-024 home globe + strip, ADR-025 place precision, ADR-029 single dark theme). The globe, strip, ribbon and panel behaviour are specified by the code itself in `web/components/globe/`, `web/components/event/` and `web/lib/globe/`; read those before judging a deviation.
 3. `doc/i18n.md` (year formatting table, Kyrgyz letters, Turkish casing, string length).
 4. `CLAUDE.md` rules.
 

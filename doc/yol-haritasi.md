@@ -4,36 +4,34 @@ Sıralı fazlar; sıra bağlayıcı, süre değil. Darboğaz kod değil, karar v
 
 | Faz    | Tema                       | Sonunda elimizde ne var                                                    |
 | ------ | -------------------------- | -------------------------------------------------------------------------- |
-| **M1** | Temel                      | Küre + şerit, admin ekliyor sitede görünüyor, **50 olay**. Son madde kaldı. |
+| **M1** | Temel                      | Küre + şerit, admin ekliyor sitede görünüyor, **50 olay**. İçerik yeniden toplanıyor. |
 | **A**  | Siteyi biçimlendirmek      | Kabuk bitti (2026-09-05): CI, yedek, SEO, erişilebilirlik. İçerik akabilir. |
 | **B**  | Otomasyon ve dil           | Gece taslak hattı, 4 dil çevirisi, görseller. İçerik yeniden akar.         |
 | **C**  | SEO, erişilebilirlik, beta | Çağ/disiplin sayfaları, `about`, alan adı, 10 kişilik İngilizce beta (M2). |
 | **D**  | Derinlik ve lansman        | Kişiler, bağlantılar, zincir görünümü, Keşfet kanvası, v1.0 (M3).          |
 
-**İçerik dondurma kuralı**: kabuk doğru olana kadar yeni olay yazılmadı (2026-09-04 → 2026-09-05).
-Teknik taraf bittiği için dondurma **kalktı**: sıradaki iş 7 Aydınlanma olayı, sonra Faz B'nin hattı.
-
 ## M1 — kalan tek madde
 
-- [ ] **En az 50 yayınlanmış olay.** 43 var; +7 Aydınlanma olayı (`icerik.md`'deki liste).
+- [ ] **En az 50 yayınlanmış olay.** İçerik 2026-09-06'da sıfırlandı (ADR-036); sıra
+      `backend/content/top100.json`. Hat kurulunca gecede bir olay.
 
-## Faz A — kalanlar
-
-İkisi de kod değil, içerik doğruluğu.
-
-- [ ] Altı olayın yeri bir tarihçi kararına dayanıyor, kontrol edilmedi (liste migration 0004'ün başında).
-- [ ] Uluğ Bey yılı buluttaki kayıtta: admin formundan `1420` / `1437` / yaklaşık.
+Faz A'nın kalan iki maddesi düştü: ikisi de silinen olaylara bağlıydı (altı olayın yer doğrulaması,
+Uluğ Bey'in yılı). Yeniden yazıldıklarında hat zaten yeri ve yılı kaynakla birlikte üretiyor.
 
 ## Faz B — içerik hattı, çeviri, görseller
 
-- [ ] `backend/scripts/draft-next.ts`: `icerik.md`'deki listeden sıradaki olay → Claude API (web search) → 3+ kaynak
-      → şablona göre İngilizce JSON → `status='review'`, `drafted_by='ai'`, `research_note`, `sources`.
-- [ ] GitHub Actions cron (gece 03:00), `CONTENT_PIPELINE_ENABLED`, "kuyrukta 10+ varsa üretme". Telegram (S11).
+Tasarımı ADR-036'da; sözleşme ve yükleyici hazır (`backend/content/drafts/`, `draft-to-sql.mjs`).
+
+- [ ] Kırgızca terim sözlüğü (`glossary.ky.json`, ilk 30 terim) — **hattan önce**.
+- [ ] `backend/scripts/pipeline/`: sıradaki olay (listede olup veritabanında olmayan en düşük `rank`) →
+      araştır → yaz → düşmanca doğrula → Commons'tan görsel (lisans API'den) → tr/ru/ky çevir →
+      `status='review'` yaz. Liste bitince yazmaz, "uzatalım mı?" der.
+- [ ] GitHub Actions: cron `0 16 * * *` (Bişkek 22:00) + `workflow_dispatch` (elle, günde kaç kez olursa).
+      Telegram **yalnızca haber verir**, içerik taşımaz. `CONTENT_PIPELINE_ENABLED`.
+- [ ] İlk 3 olaydan sonra gerçek maliyeti ölç (tahmin: olay başına 1-3 $); pahalıysa modeli aşağı çek.
 - [ ] `/admin/review` onay kuyruğu: taslak + kaynaklar + araştırma notu; Yayınla / Düzenle / Reddet.
-- [ ] İlk 10 taslağı elle tetikle, kaliteyi ölç, prompt'u ayarla.
-- [ ] Çeviri: `web/lib/translate.ts` (Claude API, JSON şema, kaynak dili olaydan okur, ky için tr+ru referanslı),
-      `/admin/translate/{id}` 4 dil yan yana, "Yayınla + çevir" tek tık, sitede `machine` rozeti.
-- [ ] Görsel yükleme: Storage, zorunlu atıf/lisans/kaynak. Kırgızca terim sözlüğü ilk 30 terim; `check-i18n.ts`.
+- [ ] Uzun gövde okuma deneyimi: 1000+ kelimede bölüm çapaları gerekiyor mu, telefonda bak.
+- [ ] Görsel yükleme: Storage, zorunlu atıf/lisans/kaynak.
 
 ## Faz C — çağ/disiplin sayfaları, SEO, beta
 
