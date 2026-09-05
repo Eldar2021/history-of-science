@@ -42,8 +42,8 @@ web/
 backend/
 ├── supabase/migrations/   # 0001_init, 0002_event_detail, 0003_event_place, 0004_event_place_data
 ├── supabase/seed.sql
-├── content/drafts/        # olay taslakları (JSON) → drafts-to-sql.mjs
-└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, check-drafts, backup
+├── content/               # top100.json (üretim sırası), drafts/ (JSON) → draft-to-sql.mjs
+└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, backup, draft-to-sql
 ```
 
 ## Veri modeli

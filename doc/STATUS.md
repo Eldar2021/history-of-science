@@ -5,9 +5,13 @@
 
 ## Şu an
 
-- **Faz**: Teknik taraf bitti (2026-09-05). Sıradaki iş **içerik**: +7 Aydınlanma olayı → 50.
-- **Yayında** (`main`): https://history-of-science.vercel.app — küre + zaman şeridi, olay detayı, 4 dil,
-  `/admin`, kaydet → sitede anında. 43 olay, 150 bağlantı. Her PR'da CI, her gece veritabanı yedeği.
+- **Faz**: İçerik **sıfırlandı ve yeniden toplanıyor** (ADR-036). Teknik taraf bitti (2026-09-05).
+- **Neden sıfırlandı**: 43 olayın 43'ü yalnızca İngilizceydi, gövdeler 550-652 kelimeye (600 tavanına)
+  sıkışmıştı, 0 görsel / 0 video / 0 formül / 0 kutu vardı ve `people` tablosu boştu. ADR-033'ün
+  araçları bu olaylar yazıldıktan sonra gelmişti.
+- **Yeni hat**: `backend/content/top100.json` üretim kuyruğu (rank = sıra, importance = ağırlık,
+  ayrı şeyler). Sıradaki olay "listede karşılığı veritabanında olmayan en düşük rank" — imleç dosyası
+  yok. Yükleyici `backend/scripts/draft-to-sql.mjs`, doğrulama içinde.
 - **Bulut**: Supabase **uchkun** `hsllmvouqayaccubodcl`, migration 0001-0004. Vercel prod, `main`
   push = deploy. Bulut admin `eldiiaralmazbekov@gmail.com`; şifre `backend/scripts/cloud-admin-password.sh
   <email>`. Yerel admin `admin@uchkun.local` / `uchkun-local-admin` (`create-admin.mjs`).
@@ -15,44 +19,61 @@
 
 ## Açık işler
 
-1. **+7 Aydınlanma olayı** → 50 yayınlanmış olay (`icerik.md`'deki liste, `/com_event`).
-2. Faz A'nın kalan iki maddesi `yol-haritasi.md`'de; ikisi de içerik doğruluğu işi.
+1. **Gece hattı** (bir sonraki oturum): `backend/scripts/pipeline/`, GitHub Actions cron `0 16 * * *`
+   (Bişkek 22:00) + `workflow_dispatch`, Telegram **haber** bildirimi. Adımlar: araştır → yaz →
+   düşmanca doğrula → Commons'tan görsel (lisans API'den) → tr/ru/ky çevir → `review` yaz → haber ver.
+   Liste bitince yazmaz, "uzatalım mı?" der.
+2. **`glossary.ky.json`** hattan **önce**: uzun gövde kötü Kırgızcayı büyütür (`i18n.md`).
+3. Uzun gövde için okuma deneyimi: 1000+ kelimede bölüm çapaları / içindekiler gerekebilir.
+   Newton yayınlandıktan sonra telefonda bakıp karar ver.
+4. Video yolu hiç denenmedi. Kanalı doğrulanabilen (oEmbed) iyi bir belgesel bulunan ilk olayda açılacak.
 
 ## Kullanıcıdan bekleyen
 
-- **Uluğ Bey, bulutta**: admin formundan Yıl `1420`, Bitiş `1437`, Kesinlik `yaklaşık`.
-- Canlıda şifre sıfırlama hiç denenmedi. Denemek gerçek bir e-posta yollar ve bulut admin şifresini
-  değiştirir, o yüzden sana bırakıldı; yerelde uçtan uca çalıştığı görüldü.
+1. **Bulut içeriğini sil**: `backend/supabase/snippets/reset-content.sql` → Supabase Studio SQL editor.
+   Öncesi/sonrası sayıları basıyor; `commit;` satırına gelmeden önce oku. Yerelde denendi, cascade'ler doğru.
+2. **Newton'u buluta yükle**: `node backend/scripts/draft-to-sql.mjs backend/content/drafts/newton-principia.json`
+   çıktısını Studio'da çalıştır. `status='review'` gelir; admin'den okuyup **Yayınla**'ya sen basarsın.
+3. **Telegram botu**: @BotFather'dan token + chat id. Token'ı bana verme, GitHub secret olarak gir.
+4. **GitHub secrets**: `ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`,
+   `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` (yedek zaten `SUPABASE_DB_URL` kullanıyor, o ayrı).
+5. Canlıda şifre sıfırlama hiç denenmedi. Gerçek e-posta yollar ve bulut admin şifresini değiştirir,
+   o yüzden sende; yerelde uçtan uca çalıştığı görüldü.
 
-**Bloklayan**: yok.
+**Bloklayan**: 1 ve 2 yapılmadan site boş kalır (şu an bulutta hâlâ eski 43 olay duruyor).
 
 ## Yaşayan notlar
 
-- Admin'de **bir dili boşaltmak o çeviriyi silmez** (ADR-034). Silmek isteyen için ayrı bir eylem lazım;
-  bugüne kadar ihtiyaç olmadı.
-- `saveEvent` işlem değil: yarıda kalan kayıt aynı formdan tekrar kaydedince onarılır (ADR-034).
+- **Yedek 2026-09-06'da alındı ve içeriği doğrulandı**: 43 olay, 43 çeviri, 150 bağlantı, 273 kaynak,
+  8 çağ + 8 disiplin (4 dilde). `backend/backup/2026-09-05T18-22-35Z/` (gitignore'da).
+  Dump `COPY` değil çok satırlı `INSERT` üretiyor — satır sayarken buna dikkat.
+  **Geri yükleme hâlâ hiç denenmedi** (`roles.sql` → `schema.sql` → `data.sql`).
+- Kutu anahtar sözcükleri **İngilizce**: `note, tip, important, warning, caution, theory`. Türkçe
+  karşılıkları yok; kutunun içi hedef dilde yazılır.
+- Admin'de **bir dili boşaltmak o çeviriyi silmez** (ADR-034). `saveEvent` işlem değil: yarıda kalan
+  kayıt aynı formdan tekrar kaydedince onarılır.
 - Liste araması, eksik dil filtresi ve sıralama bellekte çalışıyor; olay sayısı bir sayfayı aşarsa
   SQL'e taşınmalı (`lib/admin/events.ts`).
-- Gece yedeği 2026-09-05'te elle çalıştırılıp artefaktı indirildi. **Geri yükleme hiç denenmedi** —
-  yedeğin gerçek sınavı odur (`roles.sql` → `schema.sql` → `data.sql`).
-- Yerel DB'de 10 seed olayı `published`; bulutta 43 olayın hepsi yayında, taslak yok.
+- Yerel DB'de 10 seed olayı `published` — bunlar içerik değil, **e2e fikstürü**. Karıştırma.
 - `supabase db push` bu ortamda engelli (üretime yazar); kullanıcı kendi çalıştırır.
 - Vercel preview'ları giriş korumalı; canlı davranış için yerel üretim build'ini bulut Supabase'e bağla
   (`vercel env pull` → `next start`). Teknik tuzaklar `mimari.md`'nin sonunda.
 
 ## Son oturum
 
-### 2026-09-05 — 16. oturum
-- Teknik açıkların turu (ADR-035). **CI** (her PR'da check + e2e) ve **gece yedeği** (dump → 90 günlük
-  artefakt) eklendi; ikisi de yoktu. Elle yedek: `backend/scripts/backup.sh`.
-- **Hata sınırı**: `[locale]/error.tsx` dört dilde, `global-error.tsx` son çare. Tarayıcıda denendi.
-- **Keşfedilebilirlik**: `sitemap.xml` (44 sayfa × 4 dil = 176 URL, `hreflang` + `x-default`), `robots.txt`, canonical,
-  OG kartları (`next/og`, Literata). Adres tek yerden: `lib/site.ts`.
-- **Şifre sıfırlama uçtan uca çalışıyor**: forgot → e-posta (Mailpit) → `/api/auth/callback` → yeni şifre
-  → o şifreyle giriş. Aynı şifre denenirse ayrı mesaj. Yerel `config.toml`'un izin listesi de düzeltildi.
-- **Erişilebilirlik**: atlama bağlantısı; görünen metin ile erişilebilir ad uyuşmazlığı giderildi
-  (dil düğmesi, olay kartı). Kontrast tablosu ölçüldü, hepsi AA.
-- **Küre dokusu WebP** (JPEG arkada): 262→176 KB ve 907→587 KB.
-- Ölçüm (merge sonrası, 6 tur): canlı mobil a11y/best-practices/SEO **100/100/100**, performans
-  **83-92 (ort. 88)**. Tek Lighthouse turu 9 puan oynuyor — merge öncesi elde tek okuma vardı (94),
-  o yüzden gerileme olduğu **gösterilemedi**; WebP dokusu aynı build'de A/B ile elendi.
+### 2026-09-06 — 17. oturum
+- Plan değişti (ADR-036): içerik sıfırlanıyor, gece hattı kuruluyor, kelime tavanı kalkıyor.
+- Yedek alındı ve **içeriği sayılarak doğrulandı**. Silme SQL'i yazıldı ve **yerelde denendi**.
+- `top100.json` (100 olay) + `extension-queue.json` (35 yedek). Puanlar küresel ölçeğe çekildi;
+  çağ-içi puanlarla sıralayınca listeye tek bir "3" giremiyor ve Hypatia, El-Farabi, Ömer Hayyam,
+  Noether, Bell Burnell, Zhang Heng kesiliyordu. Altısı da listede. İlk 9 olay 8 çağın hepsine dokunuyor.
+- `icerik.md` yeni tarife göre yazıldı: tavan yok, dolgu yasak, gövde araçları (künyeli görsel, video,
+  kutu, formül) tabloyla. Lisans **Commons API'sinden** okunur, modelin sözüne güvenilmez.
+- **Newton dört dilde yazıldı** (en 1131, ru 997, ky 939, tr 859 kelime; eski tavan 600'dü).
+  3 künyeli görsel (lisanslar Commons API'den), 3 kutu, 1 formül. Olgular Wikipedia + MacTutor'dan
+  teyit edildi; kahvehane bahsinin Halley'in kendi anlatısı olduğu gövdede söylendi. 5 Temmuz 1686'nın
+  basım değil `imprimatur` tarihi olduğu not edildi (yaygın karışıklık).
+- Yeni yükleyici `draft-to-sql.mjs`: sözleşme doğrulaması içinde (kasten bozulmuş taslakla denendi,
+  6 hatanın 6'sını yakaladı). Dört dil de gerçek remark + KaTeX'ten geçirildi, hatasız.
+- Eski format silindi: 42 taslak, `drafts-to-sql.mjs`, `check-drafts.mjs`, `fill-stubs-sql.mjs`.
+- `npm run check` temiz (145 test).

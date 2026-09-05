@@ -1,7 +1,8 @@
 # İçerik Stratejisi
 
 Teknoloji üç ayda biter; içerik projenin ömrü boyunca sürer. Bu doküman içeriği sürdürülebilir ve doğru
-üretmenin sistemidir. Yayınlanmış olaylar listeden çıkarılır; kalan liste en altta.
+üretmenin sistemidir. Üretim listesi `backend/content/top100.json`; sıradaki olay veritabanından
+bulunur (en alta bak).
 
 ## Çağlar
 
@@ -29,17 +30,17 @@ renkler ayırt edilemez olur.
 
 ## Olay şablonu
 
-Alanlar admin formundaki alanlarla birebir eşleşir.
+Alanlar admin formundaki alanlarla birebir eşleşir. Hat da tam bu şekli üretir (ADR-036).
 
 ```
 Yıl: 1687          Kesinlik: exact       Önem: 5
 Başlık: Newton "Principia"yı yayımladı
-Özet (1-2 cümle, 200 karakter): Elmanın düşmesiyle Ay'ın dönmesini aynı yasa açıkladı.
+Özet (1-2 cümle, en fazla 200 karakter): Elmanın düşmesiyle Ay'ın dönmesini aynı yasa açıkladı.
   Gökyüzü ve yeryüzü ilk kez tek fizik oldu.
 
-Gövde (300-600 kelime):
+Gövde (Markdown, uzunluk serbest — aşağıdaki "Uzunluk" kuralına bak):
   - Sahne: o yıl dünya nasıl bir yerdi, bu soruya kim, neden takılmıştı?
-  - Ne oldu: sade dille, formülsüz. Bir benzetme.
+  - Ne oldu: sade dille. Bir benzetme, ve benzetmenin nerede bozulduğu.
   - Zorluk: neden bu kadar uzun sürdü? Neye ihtiyaç vardı?
   - Sonrası: bu ne kapı açtı?
 
@@ -51,8 +52,23 @@ Kişiler: Isaac Newton, Edmond Halley
 Dayanır (builds_on): Kepler yasaları (1609), Galileo eylemsizlik (1632), Descartes geometri (1637)
 Mümkün kıldı (enables): Neptün'ün keşfi (1846), Apollo 11 (1969)
 Kaynaklar: en az 2 (biri ansiklopedi: Britannica / Stanford Encyclopedia / Wikipedia; biri kitap)
-Görsel: Principia ilk baskı kapağı, Wikimedia Commons, kamu malı
+Kapak görseli: Principia ilk baskı kapağı, Wikimedia Commons, kamu malı
 ```
+
+### Gövdenin araçları (ADR-033)
+
+Gövde tam Markdown. Bunlar süs değil; konu istiyorsa **kullanılması beklenir**:
+
+| Araç             | Sözdizimi                                          | Ne zaman                                     |
+| ---------------- | -------------------------------------------------- | -------------------------------------------- |
+| Künyeli görsel   | `![alt](url "Yazar · Lisans · https://kaynak")`     | Elyazması, ilk baskı, aygıt, portre, diyagram |
+| Video            | Tek başına satırda YouTube adresi                   | Gerçekten iyi bir belgesel/anlatım varsa      |
+| Kutu             | `> [!NOTE]` `> [!TIP]` `> [!IMPORTANT]` `> [!WARNING]` `> [!CAUTION]` `> [!THEORY]` | Yan bilgi; "şu teori şu demek". **Anahtar sözcük İngilizce**, kutunun içi hedef dilde |
+| Formül           | `$...$`                                             | **İstisna.** Sözcükler yetmediğinde, açıklamasıyla |
+| Tablo, liste     | GFM                                                 | Karşılaştırma, ölçüm, kronoloji               |
+
+**Lisans tahmin edilmez.** Görselin lisansı Wikimedia Commons API'sinden okunur; modelin "kamu malı"
+demesi kabul edilmez. Lisans hukuki bir iddiadır. Künyesiz görsel gövdeye girmez.
 
 ## Ses tonu
 
@@ -71,13 +87,17 @@ Görsel: Principia ilk baskı kapağı, Wikimedia Commons, kamu malı
 - **Kadınları ve Batı dışını görünür kıl.** Hypatia, Emmy Noether, Lise Meitner, Rosalind Franklin,
   Jocelyn Bell Burnell, Tu Youyou; El-Harezmi, İbn-i Heysem, El-Biruni, Uluğ Bey, Zhang Heng, Brahmagupta.
 - **Her olay tek başına okunabilir.** Okuyucu ortadan girmiş olabilir.
-- **Uzunluk**: özet 200 karakter, gövde 300-600 kelime. Daha uzunsa iki olaya böl.
+- **Uzunluk**: özet en fazla **200 karakter** (zaman şeridi kartı ve OG görseli buna göre kurulu —
+  bu bir yerleşim kuralı, üslup değil). **Gövdenin tavanı yok.** Ama boşluk doldurulmaz:
+  her paragraf yeni bir olgu getirir; bir öncekini başka sözcüklerle söyleyen paragraf silinir.
+  Önem 5 derine iner, önem 3 kısa keser. Ölçü kelime sayısı değil, **dolgu yokluğu**.
 
 ## Orta Asya vurgusu
 
 Sitenin Kırgızca ve Rusça okuyucusu için özel değeri, kendi coğrafyasının bilim tarihine sahip
-çıkmasıdır. Omurga olaylar (El-Harezmi, El-Farabi, İbn Sina, El-Biruni, Ömer Hayyam, Uluğ Bey) yayında.
-Bundan sonraki olaylarda da aynı ölçü aranır: Batı dışı katkı varsa gövdede geçer.
+çıkmasıdır. Omurga olaylar (El-Harezmi, El-Farabi, İbn Sina, El-Biruni, Ömer Hayyam, Uluğ Bey, Zhang Heng,
+Brahmagupta, Aryabhata) top 100 listesindedir ve hiçbiri kesilmedi. Her olayda aynı ölçü aranır:
+Batı dışı katkı varsa gövdede geçer.
 
 ## Doğruluk süreci
 
@@ -101,137 +121,23 @@ yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş 
 
 ## Üretim temposu
 
-Dondurma **kalktı** (2026-09-05, teknik taraf bitti). Sıradaki iş aşağıdaki 7 Aydınlanma olayı → 50.
-Hat çalışınca (Faz B) günde 2 taslak; senin onayın olay başına ~10 dakika.
+İçerik 2026-09-06'da sıfırlandı ve yeniden toplanıyor (ADR-036). Gece hattı Bişkek saatiyle 22:00'de
+listeden bir olay alır, araştırır, dört dilde yazar ve `status='review'` olarak veritabanına koyar;
+Telegram sana haber verir. Elle de çalıştırılabilir, günde kaç kez istersen. Yayın kararı senindir.
 
 ---
 
 ## Yazılacak olaylar
 
-**43 olay yayında**: Antik Dünya, İslam Altın Çağı ve Bilimsel Devrim'in tamamı, artı 1947 transistör.
-Yayındaki liste sitede: https://history-of-science.vercel.app/en
+Liste artık bu dokümanda değil, **`backend/content/top100.json`** içinde: hat onu okuyor, iki kopya
+tutmuyoruz. Sıradaki olay "listede karşılığı henüz veritabanında olmayan en düşük `rank`" diye
+bulunur — imleç dosyası yok, o yüzden gece koşusu ile elle koşu birbirini ezmez.
 
-Aşağıdaki tablolar kalan çekirdek listedir. Önem 5 = zoom-out'ta bile görünen "çapa" olaylar. Yıllar
-yaygın kabul gören yıllardır; yazarken her biri iki kaynakla doğrulanır. Negatif yıl = MÖ.
-
-### Antik Dünya — kalan 2
-
-| Yıl  | Kesinlik | Önem | Olay                        | Disiplin          |
-| ---- | -------- | ---- | --------------------------- | ----------------- |
-| -450 | circa    | 3    | Empedokles'in dört elementi | chemistry         |
-| 78   | circa    | 3    | Zhang Heng: sismograf (Çin) | earth, technology |
-
-### Aydınlanma (1700 – 1800) — 7, **sıradaki grup** (50 olay hedefi)
-
-| Yıl  | Kesinlik | Önem | Olay                                           | Disiplin            |
-| ---- | -------- | ---- | ---------------------------------------------- | ------------------- |
-| 1735 | exact    | 4    | Linnaeus: canlılara isim ve düzen              | biology             |
-| 1752 | exact    | 4    | Franklin: yıldırım elektriktir                 | physics             |
-| 1774 | exact    | 4    | Priestley/Scheele: oksijen                     | chemistry           |
-| 1781 | exact    | 3    | Herschel Uranüs'ü keşfetti                     | astronomy           |
-| 1789 | exact    | 5    | Lavoisier: kütle korunur, kimya bir bilim oldu | chemistry           |
-| 1796 | exact    | 5    | Jenner: ilk aşı (çiçek)                        | medicine            |
-| 1800 | exact    | 5    | Volta pili: sürekli elektrik akımı             | physics, technology |
-
-### 19. Yüzyıl (1800 – 1900) — 25
-
-| Yıl  | Kesinlik | Önem | Olay                                              | Disiplin            |
-| ---- | -------- | ---- | ------------------------------------------------- | ------------------- |
-| 1803 | exact    | 5    | Dalton: atom teorisi                              | chemistry           |
-| 1820 | exact    | 4    | Ørsted: elektrik pusulayı oynattı                 | physics             |
-| 1824 | exact    | 4    | Carnot: termodinamiğin doğuşu                     | physics             |
-| 1830 | exact    | 4    | Lyell: Dünya çok yaşlı, yavaş değişir             | earth               |
-| 1831 | exact    | 5    | Faraday: hareketten elektrik (indüksiyon)         | physics, technology |
-| 1838 | exact    | 4    | Schleiden/Schwann: her canlı hücrelerden          | biology             |
-| 1846 | exact    | 3    | Neptün kâğıt üstünde bulundu                      | astronomy           |
-| 1846 | exact    | 4    | Eter anestezisi: acısız ameliyat                  | medicine            |
-| 1847 | exact    | 4    | Semmelweis: el yıkamak hayat kurtarır             | medicine            |
-| 1847 | exact    | 4    | Helmholtz: enerjinin korunumu                     | physics             |
-| 1859 | exact    | 5    | Darwin "Türlerin Kökeni"                          | biology             |
-| 1861 | exact    | 5    | Pasteur: mikroplar hastalık yapar                 | medicine, biology   |
-| 1865 | exact    | 5    | Maxwell: ışık bir elektromanyetik dalgadır        | physics             |
-| 1865 | exact    | 5    | Mendel'in bezelyeleri: kalıtımın kuralları        | biology             |
-| 1869 | exact    | 5    | Mendeleyev: periyodik tablo                       | chemistry           |
-| 1876 | exact    | 3    | Bell: telefon                                     | technology          |
-| 1879 | exact    | 3    | Edison: dayanıklı ampul                           | technology          |
-| 1882 | exact    | 4    | Koch: verem basili, mikrop kuramının kanıtı       | medicine            |
-| 1887 | exact    | 4    | Hertz: radyo dalgaları gerçek                     | physics, technology |
-| 1887 | exact    | 4    | Michelson-Morley: eter yok                        | physics             |
-| 1895 | exact    | 5    | Röntgen: X-ışınları                               | physics, medicine   |
-| 1896 | exact    | 4    | Becquerel: radyoaktivite                          | physics             |
-| 1896 | exact    | 4    | Arrhenius: CO₂ Dünya'yı ısıtır (ilk iklim hesabı) | earth, chemistry    |
-| 1897 | exact    | 5    | Thomson: elektron, atom bölünebilir               | physics             |
-| 1898 | exact    | 4    | Curie'ler: radyum, polonyum                       | chemistry, physics  |
-
-### Modern Fizik Çağı (1900 – 1945) — 21
-
-| Yıl  | Kesinlik | Önem | Olay                                           | Disiplin                |
-| ---- | -------- | ---- | ---------------------------------------------- | ----------------------- |
-| 1900 | exact    | 5    | Planck: enerji paketler halinde (kuantum)      | physics                 |
-| 1903 | exact    | 4    | Wright kardeşler: kontrollü uçuş               | technology              |
-| 1905 | exact    | 5    | Einstein'ın mucize yılı                        | physics                 |
-| 1909 | exact    | 5    | Haber-Bosch: havadan gübre, milyarları doyurdu | chemistry, technology   |
-| 1911 | exact    | 5    | Rutherford: atomun çekirdeği var               | physics                 |
-| 1912 | exact    | 4    | Wegener: kıtalar kayar                         | earth                   |
-| 1913 | exact    | 4    | Bohr atom modeli                               | physics                 |
-| 1915 | exact    | 5    | Genel görelilik: kütle uzay-zamanı büker       | physics, astronomy      |
-| 1918 | exact    | 3    | Emmy Noether: simetri ile korunum yasaları     | mathematics, physics    |
-| 1919 | exact    | 4    | Eddington tutulması: görelilik doğrulandı      | astronomy               |
-| 1924 | exact    | 5    | Hubble: başka galaksiler var                   | astronomy               |
-| 1925 | exact    | 5    | Heisenberg/Schrödinger: kuantum mekaniği       | physics                 |
-| 1927 | exact    | 4    | Belirsizlik ilkesi; Lemaître genişleyen evren  | physics, astronomy      |
-| 1928 | exact    | 5    | Fleming: penisilin                             | medicine                |
-| 1929 | exact    | 5    | Hubble: evren genişliyor                       | astronomy               |
-| 1931 | exact    | 4    | Gödel: matematiğin sınırları                   | mathematics             |
-| 1932 | exact    | 4    | Chadwick: nötron                               | physics                 |
-| 1936 | exact    | 5    | Turing: hesaplanabilirlik, evrensel makine     | mathematics, technology |
-| 1938 | exact    | 5    | Hahn/Meitner: çekirdek bölünmesi               | physics                 |
-| 1942 | exact    | 4    | Fermi: ilk zincirleme reaksiyon                | physics                 |
-| 1945 | exact    | 5    | Trinity: ilk atom bombası; bilim ve sorumluluk | physics                 |
-
-### Bilgi Çağı (1945 – 2000) — 25 (1947 transistör yayında)
-
-| Yıl  | Kesinlik | Önem | Olay                                                | Disiplin                |
-| ---- | -------- | ---- | --------------------------------------------------- | ----------------------- |
-| 1948 | exact    | 4    | Shannon: bilgi kuramı, "bit"                        | mathematics, technology |
-| 1953 | exact    | 5    | DNA çift sarmalı (Watson, Crick, Franklin, Wilkins) | biology                 |
-| 1953 | exact    | 3    | Miller-Urey: hayatın kimyası laboratuvarda          | chemistry, biology      |
-| 1957 | exact    | 5    | Sputnik: ilk uydu                                   | astronomy, technology   |
-| 1958 | exact    | 5    | Entegre devre (Kilby, Noyce)                        | technology              |
-| 1958 | exact    | 4    | Keeling eğrisi: CO₂ ölçümü başladı                  | earth                   |
-| 1960 | exact    | 4    | Lazer                                               | physics, technology     |
-| 1961 | exact    | 5    | Gagarin: uzayda ilk insan                           | astronomy               |
-| 1964 | exact    | 4    | Kuarklar; Higgs mekanizması önerildi                | physics                 |
-| 1965 | exact    | 5    | Kozmik mikrodalga arka plan                         | astronomy               |
-| 1967 | exact    | 3    | Jocelyn Bell Burnell: pulsarlar                     | astronomy               |
-| 1969 | exact    | 5    | Apollo 11: Ay'da insan                              | astronomy, technology   |
-| 1969 | exact    | 5    | ARPANET: internetin tohumu                          | technology              |
-| 1971 | exact    | 5    | Mikroişlemci (Intel 4004)                           | technology              |
-| 1973 | exact    | 4    | Rekombinant DNA: genetik mühendisliği               | biology                 |
-| 1977 | exact    | 3    | Voyager fırlatıldı                                  | astronomy               |
-| 1980 | exact    | 5    | Çiçek hastalığı yeryüzünden silindi                 | medicine                |
-| 1983 | exact    | 4    | PCR: DNA'yı kopyalama makinesi                      | biology                 |
-| 1985 | exact    | 4    | Ozon deliği keşfi → 1987 Montreal Protokolü         | earth                   |
-| 1988 | exact    | 3    | IPCC kuruldu                                        | earth                   |
-| 1989 | exact    | 5    | World Wide Web (Berners-Lee)                        | technology              |
-| 1990 | exact    | 4    | Hubble Uzay Teleskopu                               | astronomy               |
-| 1995 | exact    | 4    | İlk ötegezegen (51 Pegasi b)                        | astronomy               |
-| 1996 | exact    | 3    | Koyun Dolly: klonlama                               | biology                 |
-| 1998 | exact    | 4    | Karanlık enerji: genişleme hızlanıyor               | astronomy               |
-
-### Bugün (2000 – ) — 12
-
-| Yıl  | Kesinlik | Önem | Olay                                  | Disiplin            |
-| ---- | -------- | ---- | ------------------------------------- | ------------------- |
-| 2003 | exact    | 5    | İnsan Genom Projesi tamamlandı        | biology             |
-| 2007 | exact    | 4    | Akıllı telefon: cepte 60 yıllık bilim | technology          |
-| 2012 | exact    | 5    | Higgs bozonu (CERN)                   | physics             |
-| 2012 | exact    | 5    | CRISPR-Cas9 (Doudna, Charpentier)     | biology             |
-| 2015 | exact    | 5    | Kütleçekim dalgaları (LIGO)           | physics, astronomy  |
-| 2015 | exact    | 3    | Paris İklim Anlaşması                 | earth               |
-| 2019 | exact    | 4    | İlk kara delik fotoğrafı              | astronomy           |
-| 2020 | exact    | 5    | mRNA aşıları: 1 yılda pandemi aşısı   | medicine            |
-| 2020 | exact    | 4    | AlphaFold: protein katlanması çözüldü | biology, technology |
-| 2022 | exact    | 4    | James Webb'in ilk görüntüleri         | astronomy           |
-| 2022 | exact    | 4    | NIF: füzyonda net enerji kazancı      | physics             |
-| 2022 | exact    | 4    | Büyük dil modelleri kamuya açıldı     | technology          |
+- **`rank`** = üretim sırası. **`importance`** = olayın zaman şeridindeki ağırlığı. Aynı şey değiller.
+- Sıra önem sırasıdır, ama her önem katmanı çağlara yayılır: ilk 9 olay 8 çağın hepsine dokunur,
+  böylece site hiçbir aşamada yarım görünmez.
+- `importance` puanları **küresel** ölçekte verildi. Eski puanlar çağ-içi göreliydi; 135 adayı onlarla
+  sıralayınca listeye tek bir "3" giremiyordu ve kesilenler tam da Hypatia, El-Farabi, Ömer Hayyam,
+  Noether, Bell Burnell, Zhang Heng oluyordu. Bu altısı listede: bu sitenin varlık sebebi onlar.
+- Liste bitince hat yazmaz, "uzatalım mı?" der. Uzatma sırası **`backend/content/extension-queue.json`**
+  (top 100'e girmeyen 35 aday).

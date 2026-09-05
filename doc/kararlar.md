@@ -188,6 +188,44 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   (`yol-haritasi.md`, Faz C). Analitik ve Sentry hâlâ yok (hesap kararı, S12). Uyarı:
   `NEXT_PUBLIC_SITE_URL` üretimde yanlışsa canonical ve OG adresleri yanlış olur.
 
+## ADR-036: İçerik sıfırlandı; gece hattı ve kelime tavanının kalkması
+
+**2026-09-06 · Kabul**
+
+- **Bağlam**: 43 olay yayındaydı ama ölçüldüğünde tablo şuydu: **43/43 yalnızca İngilizce** (olay başına
+  tam bir çeviri satırı), gövdeler **550-652 kelime** arasına sıkışmış (yani hepsi 600 tavanına yapışmış:
+  sınır malzemeyi değil, malzeme sınırı takip etmiş), **0 kapak görseli, 0 gövde görseli, 0 video,
+  0 kutu, 0 formül**, ve `people` tablosu boş — taslaklarda kişiler yazılıydı, eski hat onları hiç
+  yazmamıştı. ADR-033 (Markdown, künyeli görsel, YouTube, KaTeX, kutular) bu 43 olay yazıldıktan
+  **sonra** geldi; platform bugün istediğimiz her şeyi yapıyor, içerik ise o yetenekler yokken yazılmış.
+- **Karar**: İçerik tablolarını boşalt (`events` cascade + `people`; `eras`, `disciplines`, `profiles`
+  kalır), 43 eski taslağı sil, üretimi baştan kur:
+  1. **`backend/content/top100.json`** üretim kuyruğu. `rank` = yazılma sırası, `importance` = zaman
+     şeridindeki ağırlık; **ayrı iki şey**.
+  2. **Gövde kelime tavanı kalktı.** Özetin 200 karakteri kaldı (yerleşim kuralı). Ölçü kelime sayısı
+     değil dolgu yokluğu: her paragraf yeni bir olgu getirir.
+  3. **Gece hattı** (yazılacak): Bişkek 22:00, elle de çalıştırılabilir. Veriyi doğrudan veritabanına
+     `status='review'` yazar; **Telegram yalnızca haber verir**, içerik taşımaz.
+  4. Sıradaki olay = "listede karşılığı veritabanında olmayan en düşük `rank`". **İmleç dosyası yok**;
+     konum veritabanından türer, o yüzden gece koşusu ile elle koşu birbirini ezmez.
+- **Gerekçe**: Silmeden önce yeni tarifin daha iyi olduğunu kanıtlamayı önerdim; kullanıcı site fiilen
+  yayında olmadığı (yalnızca kendisi ve eşi test ediyor) için silmeyi seçti, bu da itirazın dayanağını
+  ortadan kaldırdı. Telegram'dan dosya gönderip admin'e elle girmek olay başına ~32 kopyala-yapıştır
+  demekti; hattın `review` yazması zaten mimarinin kuralı (ADR-014) ve insan onayını hiç zayıflatmıyor.
+  `importance` puanları çağ-içi göreliydi: 135 adayı onlarla sıralayınca top 100'e tek bir "3"
+  giremiyordu ve kesilenler tam da Hypatia, El-Farabi, Ömer Hayyam, Noether, Bell Burnell, Zhang Heng
+  oluyordu — yani `icerik.md`'nin korumakla yükümlü olduğu isimler. Puanlar küresel ölçeğe çekildi ve
+  bu altısı listeye alındı.
+- **Sonuçlar**: Şema değişmedi. Sıralama önem katmanları içinde çağlara yayılıyor: **ilk 9 olay 8 çağın
+  hepsine dokunuyor**, site hiçbir aşamada yarım görünmüyor. Yeni dört dilli taslak sözleşmesi ve
+  yükleyicisi `backend/scripts/draft-to-sql.mjs`; sözleşme doğrulaması yükleyicinin **içinde**, atlanamaz
+  (özet uzunluğu, lisans bütünlüğü, kutu anahtarları, iki kaynak). Yükleyici `status <> 'published'`
+  ile korumalı: insan bir olayı yayınladıktan sonra hat ona dokunamaz. `builds_on` hedefleri çoğu zaman
+  henüz yok (sıra kronolojik değil); bağlantılar iki ucu da var olduğunda eklenir, bekleyen-bağlantı
+  durumu hiçbir yerde tutulmaz. Eski format betikleri (`drafts-to-sql`, `check-drafts`,
+  `fill-stubs-sql`) silindi. Kırgızca sözlüğü (`glossary.ky.json`) hat başlamadan önce gerekiyor:
+  uzun gövde kötü Kırgızcayı büyütür.
+
 ---
 
 ## Şablon
