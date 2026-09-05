@@ -27,6 +27,13 @@
 3. Uzun gövde için okuma deneyimi: 1000+ kelimede bölüm çapaları / içindekiler gerekebilir.
    Newton yayınlandıktan sonra telefonda bakıp karar ver.
 4. Video yolu hiç denenmedi. Kanalı doğrulanabilen (oEmbed) iyi bir belgesel bulunan ilk olayda açılacak.
+5. **Fixture geri düşüşü üretimde sessiz** (2026-09-06'da canlıda görüldü). `lib/queries/event.ts` ve
+   `timeline.ts`, `hasSupabaseEnv()` yanlışsa hata vermek yerine `lib/fixtures/timeline.ts`'i sunuyor.
+   Olay sayfaları `generateStaticParams` ile build'de basıldığı için, değişkensiz bir build **sahte
+   olayları statik sayfa olarak** yayınlıyor; `revalidate = 300` dolana kadar öyle kalıyorlar.
+   Canlıda `/en/event/newton-principia` 200 + doğru başlık + gövdesiz döndü, 5 dakika sonra 404 oldu.
+   Fixture'ın `importance` değerleri de şemaya uymuyor (transistor = 7, izin verilen aralık 1-5).
+   Karar gerek: fixture yalnızca teste mi ait olmalı, yoksa üretimde env eksikse sayfa çökmeli mi?
 
 ## Kullanıcıdan bekleyen
 
