@@ -31,7 +31,9 @@
 ## Kullanıcıdan bekleyen
 
 1. **Bulut içeriğini sil**: `backend/supabase/snippets/reset-content.sql` → Supabase Studio SQL editor.
-   Öncesi/sonrası sayıları basıyor; `commit;` satırına gelmeden önce oku. Yerelde denendi, cascade'ler doğru.
+   Öncesi/sonrası sayılarını basar. Studio betiği **tek seferde** çalıştırır: sonuçlar olan biteni gösterir,
+   karar verme noktası değil — çalıştırmadan önce tarayıcıdaki proje ref'inin `hsllmvouqayaccubodcl`
+   olduğunu doğrula (diğer proje `uro-go`). Yerelde denendi, cascade'ler doğru.
 2. **Newton'u buluta yükle**: `node backend/scripts/draft-to-sql.mjs backend/content/drafts/newton-principia.json`
    çıktısını Studio'da çalıştır. `status='review'` gelir; admin'den okuyup **Yayınla**'ya sen basarsın.
 3. **Telegram botu**: @BotFather'dan token + chat id. Token'ı bana verme, GitHub secret olarak gir.

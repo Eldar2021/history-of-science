@@ -39,6 +39,8 @@ select 'kept' as when,
        (select count(*) from discipline_translations) as disc_tr,
        (select count(*) from profiles)                as profiles;
 
--- Read the three rows above. If they are what you expect:
 commit;
--- If not, run `rollback;` instead.
+
+-- The Studio SQL editor runs the whole script in one go, so the three result sets above are a record
+-- of what happened, not a checkpoint to decide at. Confirm the project ref in the browser URL is
+-- hsllmvouqayaccubodcl and that a fresh dump exists (backend/scripts/backup.sh) BEFORE running this.
