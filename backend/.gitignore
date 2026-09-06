@@ -1,1 +1,4 @@
 backup/
+
+# Cloud credentials for a pipeline run started from this machine (doc/hat-kurulum.md).
+.env.pipeline

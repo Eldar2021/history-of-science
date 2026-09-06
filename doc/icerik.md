@@ -123,7 +123,10 @@ yine yayınlanır: disiplin renginde, yılın büyük yazıldığı üretilmiş 
 
 İçerik 2026-09-06'da sıfırlandı ve yeniden toplanıyor (ADR-036). Gece hattı Bişkek saatiyle 22:00'de
 listeden bir olay alır, araştırır, dört dilde yazar ve `status='review'` olarak veritabanına koyar;
-Telegram sana haber verir. Elle de çalıştırılabilir, günde kaç kez istersen. Yayın kararı senindir.
+Telegram sana haber verir. Elle de çalıştırılabilir (`backend/scripts/pipeline/run.sh` ya da bir
+oturumda `/com_pipeline`), günde kaç kez istersen. Yayın kararı senindir. Hattın talimatı
+`backend/scripts/pipeline/prompts/run.md`: bu dokümanın kuralları orada uygulanıyor, ikisi birlikte
+değişir. On olay incelemede beklerken hat kendiliğinden durur (ADR-014).
 
 ---
 
