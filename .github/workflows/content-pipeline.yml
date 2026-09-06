@@ -1,0 +1,103 @@
+name: Content pipeline
+
+# The nightly content run (ADR-036, ADR-039). It writes one event into the cloud database as
+# status='review' and tells the user on Telegram. Publishing stays a human act (ADR-014).
+#
+# The model is Claude Code on the **subscription**, not the metered API: the secret is
+# CLAUDE_CODE_OAUTH_TOKEN, printed by `claude setup-token` on a machine that is already logged in.
+# ANTHROPIC_API_KEY is deliberately absent — see doc/hat-kurulum.md.
+on:
+  schedule:
+    # 16:00 UTC = 22:00 in Bishkek. Kyrgyzstan does not change its clock, so this needs no adjustment.
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: "Only say which event is next, do not write it"
+        type: boolean
+        default: false
+
+# One run at a time. Two runs would read the same queue position and write the same event twice.
+concurrency:
+  group: content-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  write-one-event:
+    name: write the next event
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check the secrets are set
+        env:
+          TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          missing=""
+          [ -z "$TOKEN" ] && missing="$missing CLAUDE_CODE_OAUTH_TOKEN"
+          [ -z "$SUPABASE_URL" ] && missing="$missing SUPABASE_URL"
+          [ -z "$SERVICE_KEY" ] && missing="$missing SUPABASE_SERVICE_ROLE_KEY"
+          [ -z "$DB_URL" ] && missing="$missing SUPABASE_DB_URL"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing secrets:$missing — see doc/hat-kurulum.md"
+            exit 1
+          fi
+          # The direct database host is IPv6-only and a GitHub runner is not; fail with the reason
+          # rather than a six-minute timeout (the same trap as the backup workflow).
+          case "$DB_URL" in
+            *db.*.supabase.co*)
+              echo "::error::That is the direct connection (IPv6 only). Use the session pooler string."
+              exit 1 ;;
+          esac
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run the pipeline
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CONTENT_PIPELINE_ENABLED: ${{ vars.CONTENT_PIPELINE_ENABLED || '1' }}
+        run: |
+          if [ "${{ inputs.check_only }}" = "true" ]; then
+            bash backend/scripts/pipeline/run.sh --check
+          else
+            bash backend/scripts/pipeline/run.sh
+          fi
+
+      - name: Keep the draft
+        if: ${{ inputs.check_only != true }}
+        run: |
+          # The database is the source of truth; the JSON draft is kept because running the loader over
+          # the whole directory is what completes `builds_on` links whose other end arrives later.
+          # Content only — this commit touches no code, so it does not go through a pull request.
+          if [ -z "$(git status --porcelain backend/content/drafts)" ]; then
+            echo "no new draft to commit"
+            exit 0
+          fi
+          git config user.name "uchkun-pipeline"
+          git config user.email "noreply@github.com"
+          git add backend/content/drafts
+          git commit -m "content(draft): $(git diff --cached --name-only | xargs -n1 basename | tr '\n' ' ')"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && inputs.check_only != true }}
+        with:
+          name: draft-${{ github.run_id }}
+          path: backend/content/drafts
+          retention-days: 30
