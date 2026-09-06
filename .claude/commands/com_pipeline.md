@@ -10,5 +10,5 @@ Only these differences apply here:
 - Say out loud which database you are pointed at before writing anything. Without `SUPABASE_URL` in the
   environment this is the **local** one, whose ten published rows are e2e fixtures — a draft loaded there
   never reaches the site. For a run that counts, the cloud credentials have to be in the environment
-  (`doc/hat-kurulum.md`).
+  (`doc/mimari.md`, "İçerik hattı").
 - The final report is in Turkish, to the user, in this session. No Telegram.

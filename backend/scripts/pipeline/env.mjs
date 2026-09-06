@@ -44,7 +44,7 @@ export function supabaseCredentials() {
   if (!url || !key) {
     throw new Error(
       "No Supabase credentials. Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the environment, or\n" +
-        "in backend/.env.pipeline (cloud, see doc/hat-kurulum.md), or start the local Supabase so that\n" +
+        "in backend/.env.pipeline (cloud, see doc/mimari.md), or start the local Supabase so that\n" +
         "web/.env.local applies.",
     );
   }

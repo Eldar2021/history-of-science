@@ -37,7 +37,8 @@ Her karar bu altı ilkeyle sınanır. Çelişirse ilke kazanır.
    Belirsizliği saklamayız. Her sayfada dürüstlük bandı: "Bu siteyi yapan kişi tarihçi ya da bilim insanı
    değil. Bir hata gördüyseniz lütfen bildirin." Zayıflık değil, güven kaynağı.
 5. **Dört dil eşit vatandaştır.** Kırgızca ikinci sınıf olmayacak. Bir olay dört dilde yoksa "eksik"
-   görünür, gizlenmez. Yayın sırası pratik nedenle İngilizce önce.
+   görünür, gizlenmez. Bir olayın dört dili tek seferde yazılır; İngilizce kaynak dildir, önce yayınlanan
+   dil değil.
 6. **Hafif ve hızlı.** Zayıf telefonda, yavaş internette bile akar. Süs animasyonu içerikten önce gelmez.
 
 ## Neyi yapmıyoruz

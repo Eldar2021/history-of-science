@@ -5,7 +5,7 @@ name: Content pipeline
 #
 # The model is Claude Code on the **subscription**, not the metered API: the secret is
 # CLAUDE_CODE_OAUTH_TOKEN, printed by `claude setup-token` on a machine that is already logged in.
-# ANTHROPIC_API_KEY is deliberately absent — see doc/hat-kurulum.md.
+# ANTHROPIC_API_KEY is deliberately absent — see doc/mimari.md, "İçerik hattı".
 on:
   schedule:
     # 16:00 UTC = 22:00 in Bishkek. Kyrgyzstan does not change its clock, so this needs no adjustment.
@@ -49,7 +49,7 @@ jobs:
           [ -z "$SERVICE_KEY" ] && missing="$missing SUPABASE_SERVICE_ROLE_KEY"
           [ -z "$DB_URL" ] && missing="$missing SUPABASE_DB_URL"
           if [ -n "$missing" ]; then
-            echo "::error::Missing secrets:$missing — see doc/hat-kurulum.md"
+            echo "::error::Missing secrets:$missing — see doc/mimari.md"
             exit 1
           fi
           # The direct database host is IPv6-only and a GitHub runner is not; fail with the reason

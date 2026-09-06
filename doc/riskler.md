@@ -19,8 +19,9 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
   `about` sayfasında listelenecek (Faz C).
 - **R3 Kırgızca çeviri kalitesi.** Claude (tr+ru referanslı) → kullanıcı okur → öğretmen terimleri kontrol
   eder → `reviewed`. Birikirse `machine` rozetli kalır, sorun değil.
-- **R9 Claude API maliyeti.** Tavan kalkınca gövdeler uzadı: tahmin olay başına 1-3 $, 100 olay için
-  100-300 $. İlk 3 olaydan sonra gerçeği ölç. Model adı tek yerden; `CONTENT_PIPELINE_ENABLED`.
+- **R9 Hattın kotası ve token'ı.** Para riski ADR-039 ile bitti (abonelik, ölçülen API değil). Kalan iki
+  şey: koşular Max kotasından yiyor, ve `CLAUDE_CODE_OAUTH_TOKEN` süresi dolarsa gece koşusu
+  "authentication" hatasıyla düşer — `claude setup-token` ile yenilenir, başka bir şey bozulmaz.
 - **R10 Veritabanı kaybı.** Ücretsiz katmanda PITR yok. Gece yedeği kuruldu, 2026-09-05'te elle
   çalıştırılıp artefaktı indirildi. **Kalan risk: geri yükleme hiç denenmedi.** Denenmemiş
   yedek yedek sayılmaz; ilk fırsatta boş bir projeye `roles → schema → data` sırasıyla yüklenmeli.
