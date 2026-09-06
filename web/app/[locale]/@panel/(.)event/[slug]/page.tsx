@@ -14,7 +14,7 @@ export default async function EventPanel({ params }: Props) {
   const [event, t, tNotFound] = await Promise.all([getEventDetail(slug, locale), getTranslations("event"), getTranslations("notFound")]);
 
   return (
-    <DetailPanel closeLabel={t("close")} labelledBy="event-panel-title">
+    <DetailPanel closeLabel={t("close")} resizeLabel={t("resizePanel")} labelledBy="event-panel-title">
       {event ? (
         <EventDetail event={event} locale={locale} headingLevel="h2" headingId="event-panel-title" />
       ) : (

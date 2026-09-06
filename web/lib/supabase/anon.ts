@@ -1,4 +1,5 @@
 import { createClient as createSupabaseClient } from "@supabase/supabase-js";
+import { requireSupabaseEnv } from "./env";
 import type { Database } from "./types";
 
 /**
@@ -7,9 +8,10 @@ import type { Database } from "./types";
  * cache (`unstable_cache` forbids cookies()) and static pages stay static.
  */
 export function createAnonClient() {
+  const { url, anonKey } = requireSupabaseEnv();
   return createSupabaseClient<Database>(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    url,
+    anonKey,
     { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false } },
   );
 }

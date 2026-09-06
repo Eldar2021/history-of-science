@@ -1,7 +1,8 @@
 import { cache } from "react";
 import { redirect } from "next/navigation";
 import type { Locale } from "@/i18n/routing";
-import { createClient, hasSupabaseEnv } from "@/lib/supabase/server";
+import { hasSupabaseEnv } from "@/lib/supabase/env";
+import { createClient } from "@/lib/supabase/server";
 import type { StaffRole } from "@/lib/supabase/session";
 
 export type Staff = { id: string; email: string | null; role: StaffRole; uiLocale: Locale };

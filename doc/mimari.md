@@ -29,10 +29,11 @@ web/
 │   └── globals.css        # tasarım token'ları, tek kaynak
 ├── components/            # globe/ (Globe, GlobeHome, EventStrip, TimeRibbon), event/, admin/, Site*
 ├── lib/
-│   ├── supabase/          # server, client, anon (çerezsiz), session, types (üretilmiş)
+│   ├── supabase/          # env (tek kapı), server, client, anon (çerezsiz), session, types (üretilmiş)
 │   ├── i18n/              # formatYear, formatPlace — tek doğruluk noktaları
 │   ├── globe/             # projection, sphere (CPU yedek), webgl, strip, layout, events — saf, Vitest
 │   ├── timeline/xScale.ts # zaman ölçeği; şerit ve ileride Keşfet kanvası
+│   ├── panelWidth.ts      # olay panelinin masaüstü genişliği: sınırlar ve kırpma (saf)
 │   ├── queries/           # timeline, event; cache-tags
 │   └── admin/             # slug, eventForm, events
 ├── messages/{en,ru,ky,tr}.json   # UI metinleri (`admin` ad alanı dahil)
@@ -43,7 +44,8 @@ backend/
 ├── supabase/migrations/   # 0001_init, 0002_event_detail, 0003_event_place, 0004_event_place_data
 ├── supabase/seed.sql
 ├── content/               # top100.json (üretim sırası), drafts/ (JSON) → draft-to-sql.mjs
-└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, backup, draft-to-sql
+└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, backup,
+                       # draft-to-sql, glossary.ky.json (Kırgızca terim sözlüğü)
 ```
 
 ## Veri modeli
@@ -132,6 +134,10 @@ Ziyaretçi okumaları çerezsiz anon client ile (`lib/supabase/anon.ts`), `unsta
 `revalidate: 300` (Studio'dan elle değişiklik en geç 5 dk'da görünür). Olay sayfaları `generateStaticParams`.
 
 ## Ortam değişkenleri
+
+İlk iki değişken **zorunlu**: ziyaretçi okumalarının geri düşüşü yok, eksikse `requireSupabaseEnv()`
+eksik olanın adını söyleyip hata fırlatır ve build patlar (ADR-037). Sahte içerik yayınlamaktansa
+yayınlamamak yeğdir.
 
 ```
 NEXT_PUBLIC_SUPABASE_URL= / NEXT_PUBLIC_SUPABASE_ANON_KEY=
