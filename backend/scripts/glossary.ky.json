@@ -1,0 +1,920 @@
+{
+  "purpose": "Kyrgyz term glossary. Handed to the content pipeline with every ky translation request (doc/i18n.md), so the same word is used for the same thing in every event. Kyrgyz is the language with the fewest sources and the one Claude is weakest in, so this file exists before the pipeline does.",
+  "updated": "2026-09-06",
+  "confidence": {
+    "high": "Everyday Kyrgyz or a borrowing already settled in Kyrgyz school books. Use as written.",
+    "check": "Claude's best guess. A Kyrgyz teacher has to confirm it before any event using it leaves 'machine' status."
+  },
+  "rules": [
+    "Scientific terms mostly arrive through Russian and keep the Russian form (физика, энергия, орбита). Do not invent a native calque for them.",
+    "Where an everyday Kyrgyz word already means the thing, prefer it over the borrowing: күч, жарык, сан, кан, оору.",
+    "If neither is certain, use the Russian borrowing and leave the translation for review rather than coining a word.",
+    "Kyrgyz is subject-object-verb. Translating a Russian or English sentence clause by clause produces text nobody speaks; rebuild the sentence.",
+    "Years and numbers are never translated - the site formats them (formatYear.ts): б.з.ч. 585, б.з. 499, болжол менен, 1830-жылдар, V кылым.",
+    "Markdown structure survives translation untouched: figure paths and credits, $...$ maths, and the box keywords ([!NOTE], [!TIP], [!WARNING]) stay in English while their contents become Kyrgyz.",
+    "Voice: warm but respectful, second person plural (сиз). No exclamation marks, no 'amazing'."
+  ],
+  "eras": [
+    {
+      "slug": "ancient",
+      "en": "The Ancient World",
+      "ky": "Байыркы дүйнө",
+      "confidence": "high",
+      "note": "Exactly as in the database (seed.sql); never re-translate an era name."
+    },
+    {
+      "slug": "golden-age",
+      "en": "The Islamic Golden Age and the Middle Ages",
+      "ky": "Ислам алтын доору жана Орто кылымдар",
+      "confidence": "high"
+    },
+    {
+      "slug": "revolution",
+      "en": "Renaissance and the Scientific Revolution",
+      "ky": "Кайра жаралуу жана илимий революция",
+      "confidence": "high"
+    },
+    {
+      "slug": "enlightenment",
+      "en": "The Enlightenment",
+      "ky": "Агартуу доору",
+      "confidence": "high"
+    },
+    {
+      "slug": "industrial",
+      "en": "The 19th century",
+      "ky": "XIX кылым",
+      "confidence": "high"
+    },
+    {
+      "slug": "modern",
+      "en": "The age of modern physics",
+      "ky": "Заманбап физика доору",
+      "confidence": "high"
+    },
+    {
+      "slug": "information",
+      "en": "The information age",
+      "ky": "Маалымат доору",
+      "confidence": "high"
+    },
+    {
+      "slug": "today",
+      "en": "Today",
+      "ky": "Бүгүн",
+      "confidence": "high"
+    }
+  ],
+  "disciplines": [
+    {
+      "slug": "mathematics",
+      "en": "Mathematics",
+      "ky": "Математика",
+      "confidence": "high",
+      "note": "Exactly as in the database (seed.sql)."
+    },
+    {
+      "slug": "physics",
+      "en": "Physics",
+      "ky": "Физика",
+      "confidence": "high"
+    },
+    {
+      "slug": "astronomy",
+      "en": "Astronomy & Space",
+      "ky": "Астрономия жана космос",
+      "confidence": "high"
+    },
+    {
+      "slug": "chemistry",
+      "en": "Chemistry",
+      "ky": "Химия",
+      "confidence": "high"
+    },
+    {
+      "slug": "biology",
+      "en": "Biology",
+      "ky": "Биология",
+      "confidence": "high"
+    },
+    {
+      "slug": "medicine",
+      "en": "Medicine",
+      "ky": "Медицина",
+      "confidence": "high"
+    },
+    {
+      "slug": "earth",
+      "en": "Earth & Climate",
+      "ky": "Жер илимдери жана климат",
+      "confidence": "high"
+    },
+    {
+      "slug": "technology",
+      "en": "Technology & Engineering",
+      "ky": "Технология жана инженерия",
+      "confidence": "high"
+    }
+  ],
+  "terms": [
+    {
+      "en": "science",
+      "ru": "наука",
+      "tr": "bilim",
+      "ky": "илим",
+      "confidence": "high"
+    },
+    {
+      "en": "scientist",
+      "ru": "учёный",
+      "tr": "bilim insanı",
+      "ky": "окумуштуу",
+      "confidence": "high"
+    },
+    {
+      "en": "knowledge",
+      "ru": "знание",
+      "tr": "bilgi",
+      "ky": "билим",
+      "confidence": "high"
+    },
+    {
+      "en": "research",
+      "ru": "исследование",
+      "tr": "araştırma",
+      "ky": "изилдөө",
+      "confidence": "high"
+    },
+    {
+      "en": "experiment",
+      "ru": "эксперимент",
+      "tr": "deney",
+      "ky": "тажрыйба",
+      "confidence": "high",
+      "note": "тажрыйба also means 'experience'; where the difference matters, эксперимент is understood too."
+    },
+    {
+      "en": "observation",
+      "ru": "наблюдение",
+      "tr": "gözlem",
+      "ky": "байкоо",
+      "confidence": "high"
+    },
+    {
+      "en": "evidence",
+      "ru": "доказательство",
+      "tr": "kanıt",
+      "ky": "далил",
+      "confidence": "high"
+    },
+    {
+      "en": "to prove",
+      "ru": "доказать",
+      "tr": "kanıtlamak",
+      "ky": "далилдөө",
+      "confidence": "check"
+    },
+    {
+      "en": "theory",
+      "ru": "теория",
+      "tr": "kuram",
+      "ky": "теория",
+      "confidence": "high"
+    },
+    {
+      "en": "hypothesis",
+      "ru": "гипотеза",
+      "tr": "hipotez",
+      "ky": "гипотеза",
+      "confidence": "high"
+    },
+    {
+      "en": "law of nature",
+      "ru": "закон природы",
+      "tr": "doğa yasası",
+      "ky": "табият мыйзамы",
+      "confidence": "high"
+    },
+    {
+      "en": "measurement",
+      "ru": "измерение",
+      "tr": "ölçüm",
+      "ky": "өлчөө",
+      "confidence": "high"
+    },
+    {
+      "en": "calculation",
+      "ru": "вычисление",
+      "tr": "hesaplama",
+      "ky": "эсептөө",
+      "confidence": "high"
+    },
+    {
+      "en": "discovery",
+      "ru": "открытие",
+      "tr": "keşif",
+      "ky": "ачылыш",
+      "confidence": "high"
+    },
+    {
+      "en": "invention",
+      "ru": "изобретение",
+      "tr": "icat",
+      "ky": "ойлоп табуу",
+      "confidence": "check",
+      "note": "Verbal noun; a teacher should say whether a plain noun reads better in a heading."
+    },
+    {
+      "en": "model",
+      "ru": "модель",
+      "tr": "model",
+      "ky": "модель",
+      "confidence": "high"
+    },
+    {
+      "en": "mistake",
+      "ru": "ошибка",
+      "tr": "hata",
+      "ky": "ката",
+      "confidence": "high"
+    },
+    {
+      "en": "question",
+      "ru": "вопрос",
+      "tr": "soru",
+      "ky": "суроо",
+      "confidence": "high"
+    },
+    {
+      "en": "idea",
+      "ru": "идея",
+      "tr": "fikir",
+      "ky": "идея",
+      "confidence": "high"
+    },
+    {
+      "en": "matter (substance)",
+      "ru": "вещество",
+      "tr": "madde",
+      "ky": "зат",
+      "confidence": "check"
+    },
+    {
+      "en": "atom",
+      "ru": "атом",
+      "tr": "atom",
+      "ky": "атом",
+      "confidence": "high"
+    },
+    {
+      "en": "molecule",
+      "ru": "молекула",
+      "tr": "molekül",
+      "ky": "молекула",
+      "confidence": "high"
+    },
+    {
+      "en": "energy",
+      "ru": "энергия",
+      "tr": "enerji",
+      "ky": "энергия",
+      "confidence": "high"
+    },
+    {
+      "en": "force",
+      "ru": "сила",
+      "tr": "kuvvet",
+      "ky": "күч",
+      "confidence": "high"
+    },
+    {
+      "en": "gravity",
+      "ru": "гравитация",
+      "tr": "yerçekimi",
+      "ky": "гравитация",
+      "confidence": "high",
+      "note": "In an explanation, тартылуу күчү ('the pulling force') reads better than the borrowing; the database already carries гравитациялык толкундар for gravitational waves."
+    },
+    {
+      "en": "motion",
+      "ru": "движение",
+      "tr": "hareket",
+      "ky": "кыймыл",
+      "confidence": "high"
+    },
+    {
+      "en": "speed",
+      "ru": "скорость",
+      "tr": "hız",
+      "ky": "ылдамдык",
+      "confidence": "high"
+    },
+    {
+      "en": "mass",
+      "ru": "масса",
+      "tr": "kütle",
+      "ky": "масса",
+      "confidence": "high"
+    },
+    {
+      "en": "weight",
+      "ru": "вес",
+      "tr": "ağırlık",
+      "ky": "салмак",
+      "confidence": "high"
+    },
+    {
+      "en": "pressure",
+      "ru": "давление",
+      "tr": "basınç",
+      "ky": "басым",
+      "confidence": "high"
+    },
+    {
+      "en": "vacuum",
+      "ru": "вакуум",
+      "tr": "boşluk",
+      "ky": "вакуум",
+      "confidence": "high"
+    },
+    {
+      "en": "light",
+      "ru": "свет",
+      "tr": "ışık",
+      "ky": "жарык",
+      "confidence": "high"
+    },
+    {
+      "en": "ray",
+      "ru": "луч",
+      "tr": "ışın",
+      "ky": "нур",
+      "confidence": "high"
+    },
+    {
+      "en": "heat",
+      "ru": "тепло",
+      "tr": "ısı",
+      "ky": "жылуулук",
+      "confidence": "high"
+    },
+    {
+      "en": "temperature",
+      "ru": "температура",
+      "tr": "sıcaklık",
+      "ky": "температура",
+      "confidence": "high"
+    },
+    {
+      "en": "electricity",
+      "ru": "электричество",
+      "tr": "elektrik",
+      "ky": "электр",
+      "confidence": "high"
+    },
+    {
+      "en": "magnet",
+      "ru": "магнит",
+      "tr": "mıknatıs",
+      "ky": "магнит",
+      "confidence": "high"
+    },
+    {
+      "en": "orbit",
+      "ru": "орбита",
+      "tr": "yörünge",
+      "ky": "орбита",
+      "confidence": "high"
+    },
+    {
+      "en": "star",
+      "ru": "звезда",
+      "tr": "yıldız",
+      "ky": "жылдыз",
+      "confidence": "high"
+    },
+    {
+      "en": "planet",
+      "ru": "планета",
+      "tr": "gezegen",
+      "ky": "планета",
+      "confidence": "high"
+    },
+    {
+      "en": "the Sun",
+      "ru": "Солнце",
+      "tr": "Güneş",
+      "ky": "Күн",
+      "confidence": "high"
+    },
+    {
+      "en": "the Moon",
+      "ru": "Луна",
+      "tr": "Ay",
+      "ky": "Ай",
+      "confidence": "high"
+    },
+    {
+      "en": "the Earth",
+      "ru": "Земля",
+      "tr": "Dünya",
+      "ky": "Жер",
+      "confidence": "high"
+    },
+    {
+      "en": "sky",
+      "ru": "небо",
+      "tr": "gökyüzü",
+      "ky": "асман",
+      "confidence": "high"
+    },
+    {
+      "en": "comet",
+      "ru": "комета",
+      "tr": "kuyruklu yıldız",
+      "ky": "комета",
+      "confidence": "high"
+    },
+    {
+      "en": "eclipse",
+      "ru": "затмение",
+      "tr": "tutulma",
+      "ky": "тутулуу",
+      "confidence": "check",
+      "note": "Күн тутулуусу (solar), Ай тутулуусу (lunar)."
+    },
+    {
+      "en": "telescope",
+      "ru": "телескоп",
+      "tr": "teleskop",
+      "ky": "телескоп",
+      "confidence": "high"
+    },
+    {
+      "en": "microscope",
+      "ru": "микроскоп",
+      "tr": "mikroskop",
+      "ky": "микроскоп",
+      "confidence": "high"
+    },
+    {
+      "en": "lens",
+      "ru": "линза",
+      "tr": "mercek",
+      "ky": "линза",
+      "confidence": "high"
+    },
+    {
+      "en": "pendulum",
+      "ru": "маятник",
+      "tr": "sarkaç",
+      "ky": "маятник",
+      "confidence": "check"
+    },
+    {
+      "en": "number",
+      "ru": "число",
+      "tr": "sayı",
+      "ky": "сан",
+      "confidence": "high"
+    },
+    {
+      "en": "zero",
+      "ru": "ноль",
+      "tr": "sıfır",
+      "ky": "нөл",
+      "confidence": "high"
+    },
+    {
+      "en": "equation",
+      "ru": "уравнение",
+      "tr": "denklem",
+      "ky": "теңдеме",
+      "confidence": "check"
+    },
+    {
+      "en": "geometry",
+      "ru": "геометрия",
+      "tr": "geometri",
+      "ky": "геометрия",
+      "confidence": "high"
+    },
+    {
+      "en": "algebra",
+      "ru": "алгебра",
+      "tr": "cebir",
+      "ky": "алгебра",
+      "confidence": "high"
+    },
+    {
+      "en": "angle",
+      "ru": "угол",
+      "tr": "açı",
+      "ky": "бурч",
+      "confidence": "high"
+    },
+    {
+      "en": "circle",
+      "ru": "окружность",
+      "tr": "çember",
+      "ky": "айлана",
+      "confidence": "check"
+    },
+    {
+      "en": "triangle",
+      "ru": "треугольник",
+      "tr": "üçgen",
+      "ky": "үч бурчтук",
+      "confidence": "check"
+    },
+    {
+      "en": "infinity",
+      "ru": "бесконечность",
+      "tr": "sonsuzluk",
+      "ky": "чексиздик",
+      "confidence": "check"
+    },
+    {
+      "en": "cell (biology)",
+      "ru": "клетка",
+      "tr": "hücre",
+      "ky": "клетка",
+      "confidence": "check"
+    },
+    {
+      "en": "microbe",
+      "ru": "микроб",
+      "tr": "mikrop",
+      "ky": "микроб",
+      "confidence": "high"
+    },
+    {
+      "en": "bacteria",
+      "ru": "бактерия",
+      "tr": "bakteri",
+      "ky": "бактерия",
+      "confidence": "high"
+    },
+    {
+      "en": "blood",
+      "ru": "кровь",
+      "tr": "kan",
+      "ky": "кан",
+      "confidence": "high"
+    },
+    {
+      "en": "blood circulation",
+      "ru": "кровообращение",
+      "tr": "kan dolaşımı",
+      "ky": "кан айлануу",
+      "confidence": "check"
+    },
+    {
+      "en": "heart",
+      "ru": "сердце",
+      "tr": "kalp",
+      "ky": "жүрөк",
+      "confidence": "high"
+    },
+    {
+      "en": "brain",
+      "ru": "мозг",
+      "tr": "beyin",
+      "ky": "мээ",
+      "confidence": "high"
+    },
+    {
+      "en": "body",
+      "ru": "тело",
+      "tr": "vücut",
+      "ky": "дене",
+      "confidence": "high"
+    },
+    {
+      "en": "anatomy",
+      "ru": "анатомия",
+      "tr": "anatomi",
+      "ky": "анатомия",
+      "confidence": "high"
+    },
+    {
+      "en": "disease",
+      "ru": "болезнь",
+      "tr": "hastalık",
+      "ky": "оору",
+      "confidence": "high"
+    },
+    {
+      "en": "treatment",
+      "ru": "лечение",
+      "tr": "tedavi",
+      "ky": "дарылоо",
+      "confidence": "high"
+    },
+    {
+      "en": "medicine (drug)",
+      "ru": "лекарство",
+      "tr": "ilaç",
+      "ky": "дары",
+      "confidence": "high"
+    },
+    {
+      "en": "vaccine",
+      "ru": "вакцина",
+      "tr": "aşı",
+      "ky": "вакцина",
+      "confidence": "high"
+    },
+    {
+      "en": "gene",
+      "ru": "ген",
+      "tr": "gen",
+      "ky": "ген",
+      "confidence": "high"
+    },
+    {
+      "en": "heredity",
+      "ru": "наследственность",
+      "tr": "kalıtım",
+      "ky": "тукум куучулук",
+      "confidence": "check"
+    },
+    {
+      "en": "species",
+      "ru": "вид",
+      "tr": "tür",
+      "ky": "түр",
+      "confidence": "check"
+    },
+    {
+      "en": "evolution",
+      "ru": "эволюция",
+      "tr": "evrim",
+      "ky": "эволюция",
+      "confidence": "high"
+    },
+    {
+      "en": "element (chemical)",
+      "ru": "элемент",
+      "tr": "element",
+      "ky": "элемент",
+      "confidence": "high"
+    },
+    {
+      "en": "compound",
+      "ru": "соединение",
+      "tr": "bileşik",
+      "ky": "кошулма",
+      "confidence": "check"
+    },
+    {
+      "en": "chemical reaction",
+      "ru": "химическая реакция",
+      "tr": "kimyasal tepkime",
+      "ky": "химиялык реакция",
+      "confidence": "high"
+    },
+    {
+      "en": "acid",
+      "ru": "кислота",
+      "tr": "asit",
+      "ky": "кислота",
+      "confidence": "check"
+    },
+    {
+      "en": "air",
+      "ru": "воздух",
+      "tr": "hava",
+      "ky": "аба",
+      "confidence": "high"
+    },
+    {
+      "en": "water",
+      "ru": "вода",
+      "tr": "su",
+      "ky": "суу",
+      "confidence": "high"
+    },
+    {
+      "en": "fire",
+      "ru": "огонь",
+      "tr": "ateş",
+      "ky": "от",
+      "confidence": "high"
+    },
+    {
+      "en": "mineral",
+      "ru": "минерал",
+      "tr": "mineral",
+      "ky": "минерал",
+      "confidence": "high"
+    },
+    {
+      "en": "earthquake",
+      "ru": "землетрясение",
+      "tr": "deprem",
+      "ky": "жер титирөө",
+      "confidence": "high"
+    },
+    {
+      "en": "volcano",
+      "ru": "вулкан",
+      "tr": "yanardağ",
+      "ky": "жанар тоо",
+      "confidence": "check"
+    },
+    {
+      "en": "climate",
+      "ru": "климат",
+      "tr": "iklim",
+      "ky": "климат",
+      "confidence": "high"
+    },
+    {
+      "en": "century",
+      "ru": "век",
+      "tr": "yüzyıl",
+      "ky": "кылым",
+      "confidence": "high"
+    },
+    {
+      "en": "year",
+      "ru": "год",
+      "tr": "yıl",
+      "ky": "жыл",
+      "confidence": "high"
+    },
+    {
+      "en": "book",
+      "ru": "книга",
+      "tr": "kitap",
+      "ky": "китеп",
+      "confidence": "high"
+    },
+    {
+      "en": "manuscript",
+      "ru": "рукопись",
+      "tr": "el yazması",
+      "ky": "кол жазма",
+      "confidence": "high"
+    },
+    {
+      "en": "library",
+      "ru": "библиотека",
+      "tr": "kütüphane",
+      "ky": "китепкана",
+      "confidence": "high"
+    },
+    {
+      "en": "university",
+      "ru": "университет",
+      "tr": "üniversite",
+      "ky": "университет",
+      "confidence": "high"
+    },
+    {
+      "en": "observatory",
+      "ru": "обсерватория",
+      "tr": "gözlemevi",
+      "ky": "обсерватория",
+      "confidence": "high"
+    },
+    {
+      "en": "printing press",
+      "ru": "печатный станок",
+      "tr": "matbaa",
+      "ky": "басма станок",
+      "confidence": "check"
+    },
+    {
+      "en": "map",
+      "ru": "карта",
+      "tr": "harita",
+      "ky": "карта",
+      "confidence": "high"
+    },
+    {
+      "en": "clock",
+      "ru": "часы",
+      "tr": "saat",
+      "ky": "саат",
+      "confidence": "high"
+    },
+    {
+      "en": "translation",
+      "ru": "перевод",
+      "tr": "çeviri",
+      "ky": "котормо",
+      "confidence": "high"
+    }
+  ],
+  "names": [
+    {
+      "en": "Newton",
+      "ky": "Ньютон",
+      "confidence": "high",
+      "note": "Names come through the Russian tradition; the database already spells it this way."
+    },
+    {
+      "en": "Copernicus",
+      "ky": "Коперник",
+      "confidence": "high"
+    },
+    {
+      "en": "Galileo Galilei",
+      "ky": "Галилео Галилей",
+      "confidence": "high"
+    },
+    {
+      "en": "Kepler",
+      "ky": "Кеплер",
+      "confidence": "high"
+    },
+    {
+      "en": "Euclid",
+      "ky": "Евклид",
+      "confidence": "high"
+    },
+    {
+      "en": "Archimedes",
+      "ky": "Архимед",
+      "confidence": "high"
+    },
+    {
+      "en": "Aristotle",
+      "ky": "Аристотель",
+      "confidence": "high"
+    },
+    {
+      "en": "Plato",
+      "ky": "Платон",
+      "confidence": "high"
+    },
+    {
+      "en": "Ptolemy",
+      "ky": "Птолемей",
+      "confidence": "high"
+    },
+    {
+      "en": "Al-Khwarizmi",
+      "ky": "Аль-Хорезми",
+      "confidence": "high"
+    },
+    {
+      "en": "Ibn Sina (Avicenna)",
+      "ky": "Ибн Сина",
+      "confidence": "high"
+    },
+    {
+      "en": "Ibn al-Haytham",
+      "ky": "Ибн аль-Хайсам",
+      "confidence": "check"
+    },
+    {
+      "en": "Al-Biruni",
+      "ky": "Аль-Бируни",
+      "confidence": "check"
+    },
+    {
+      "en": "Ulugh Beg",
+      "ky": "Улукбек",
+      "confidence": "check",
+      "note": "Kyrgyz usually writes Улукбек where Russian writes Улугбек. This one matters: he is the closest thing the timeline has to a local hero."
+    },
+    {
+      "en": "Darwin",
+      "ky": "Дарвин",
+      "confidence": "high"
+    },
+    {
+      "en": "Einstein",
+      "ky": "Эйнштейн",
+      "confidence": "high"
+    },
+    {
+      "en": "Mendeleev",
+      "ky": "Менделеев",
+      "confidence": "high"
+    },
+    {
+      "en": "Marie Curie",
+      "ky": "Мария Кюри",
+      "confidence": "check"
+    },
+    {
+      "en": "Alexandria",
+      "ky": "Александрия",
+      "confidence": "high"
+    },
+    {
+      "en": "Baghdad",
+      "ky": "Багдад",
+      "confidence": "high"
+    },
+    {
+      "en": "Samarkand",
+      "ky": "Самарканд",
+      "confidence": "high"
+    }
+  ]
+}
