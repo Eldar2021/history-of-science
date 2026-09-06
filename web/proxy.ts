@@ -1,6 +1,7 @@
 import createMiddleware from "next-intl/middleware";
 import { NextResponse, type NextRequest } from "next/server";
 import { routing } from "./i18n/routing";
+import { hasSupabaseEnv } from "./lib/supabase/env";
 import { refreshSession, redirectWithCookies } from "./lib/supabase/session";
 
 const handleI18n = createMiddleware(routing);
@@ -9,10 +10,6 @@ const ADMIN_PREFIX = "/admin";
 const LOGIN_PATH = "/admin/login";
 /** Reachable without a session: you cannot sign in to ask for a new password. */
 const PUBLIC_ADMIN_PATHS = new Set([LOGIN_PATH, "/admin/forgot-password"]);
-
-function hasSupabaseEnv(): boolean {
-  return Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-}
 
 /**
  * Admin gate (first lock; RLS is the second): every /admin request refreshes the Supabase session.

@@ -7,7 +7,6 @@ import { getEventDetail } from "@/lib/queries/event";
 import { routing } from "@/i18n/routing";
 import { absolute, alternates } from "@/lib/site";
 import { createAnonClient } from "@/lib/supabase/anon";
-import { hasSupabaseEnv } from "@/lib/supabase/server";
 import { SiteHeader } from "@/components/SiteHeader";
 import { HonestyBand } from "@/components/HonestyBand";
 import { EventDetail } from "@/components/event/EventDetail";
@@ -18,7 +17,6 @@ export const revalidate = 300;
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  if (!hasSupabaseEnv()) return [];
   const { data } = await createAnonClient().from("events").select("slug").eq("status", "published").is("deleted_at", null);
   return (data ?? []).flatMap((e) => routing.locales.map((locale) => ({ locale, slug: e.slug })));
 }

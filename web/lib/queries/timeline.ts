@@ -1,8 +1,6 @@
 import { unstable_cache } from "next/cache";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { createAnonClient } from "@/lib/supabase/anon";
-import { hasSupabaseEnv } from "@/lib/supabase/server";
-import { fixtureDisciplines, fixtureEras, fixtureTimeline } from "@/lib/fixtures/timeline";
 import { FALLBACK_REVALIDATE_SECONDS, TIMELINE_TAG } from "@/lib/cache-tags";
 import type { Discipline, Era, TimelineEvent } from "./types";
 
@@ -55,6 +53,7 @@ const fetchDisciplines = unstable_cache(
   cacheOptions,
 );
 
-export const getTimeline = (locale: Locale) => (hasSupabaseEnv() ? fetchTimeline(locale) : Promise.resolve(fixtureTimeline(locale)));
-export const getEras = (locale: Locale) => (hasSupabaseEnv() ? fetchEras(locale) : Promise.resolve(fixtureEras(locale)));
-export const getDisciplines = (locale: Locale) => (hasSupabaseEnv() ? fetchDisciplines(locale) : Promise.resolve(fixtureDisciplines(locale)));
+// No fallback content: without Supabase these throw, and the page that asked fails loudly (ADR-037).
+export const getTimeline = (locale: Locale) => fetchTimeline(locale);
+export const getEras = (locale: Locale) => fetchEras(locale);
+export const getDisciplines = (locale: Locale) => fetchDisciplines(locale);

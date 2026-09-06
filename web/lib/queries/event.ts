@@ -1,8 +1,6 @@
 import { unstable_cache } from "next/cache";
 import type { Locale } from "@/lib/i18n/formatYear";
 import { createAnonClient } from "@/lib/supabase/anon";
-import { hasSupabaseEnv } from "@/lib/supabase/server";
-import { fixtureEventDetail } from "@/lib/fixtures/timeline";
 import { FALLBACK_REVALIDATE_SECONDS, TIMELINE_TAG, eventTag } from "@/lib/cache-tags";
 import type { EventDetail } from "./types";
 
@@ -18,6 +16,9 @@ const fetchEventDetail = (slug: string, locale: Locale) =>
     { tags: [eventTag(slug), TIMELINE_TAG], revalidate: FALLBACK_REVALIDATE_SECONDS },
   )();
 
-/** One published event with everything the detail view shows; null when missing, draft or deleted (RLS). */
+/**
+ * One published event with everything the detail view shows; null when missing, draft or deleted (RLS).
+ * Without Supabase this throws rather than inventing an event (ADR-037).
+ */
 export const getEventDetail = (slug: string, locale: Locale): Promise<EventDetail | null> =>
-  hasSupabaseEnv() ? fetchEventDetail(slug, locale) : Promise.resolve(fixtureEventDetail(slug, locale));
+  fetchEventDetail(slug, locale);
