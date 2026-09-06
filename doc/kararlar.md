@@ -166,6 +166,48 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 
 ---
 
+## ADR-037: Fixture geri düşüşü yok; ortam değişkeni eksikse site çöker
+
+**2026-09-06 · Kabul**
+
+- **Bağlam**: `lib/queries/*` `hasSupabaseEnv()` yanlışsa `lib/fixtures/timeline.ts`'i sunuyordu. Olay
+  sayfaları `generateStaticParams` ile build'de basıldığı için değişkeni eksik bir build **10 uydurma
+  olayı gerçek statik sayfa olarak** yayınlıyordu; 2026-09-06'da canlıda `/en/event/newton-principia`
+  200 döndü, beş dakika sonra 404 oldu. Fixture'ı başka hiçbir yer kullanmıyordu (e2e yerel
+  Supabase'e gider), `importance` değerleri şemanın 1-5 aralığına da uymuyordu.
+- **Karar**: Fixture dosyası silindi. İki değişken tek kapıdan okunuyor (`lib/supabase/env.ts`):
+  `requireSupabaseEnv()` eksik olanın adını söyleyerek hata fırlatır, `hasSupabaseEnv()` yalnızca
+  değişkensiz de anlamlı olan iki yerde kalır — admin'i `?error=noEnv`'e yollayan `proxy.ts` ve
+  oturumu olmayan `lib/auth.ts`. Ziyaretçi okumalarında geri düşüş yok: değişken yoksa build patlar.
+- **Gerekçe**: Yanlış içerik yayınlamaktansa hiç yayınlamamak yeğdir; sessiz geri düşüş hatayı
+  gizlediği için tehlikeliydi. "Veritabanı yokken site çalışsın" gerekçesi veritabanı kurulduğunda
+  öldü, fixture'ı canlı tutan tek şey buydu.
+- **Sonuçlar**: Değişkensiz `npm run build` artık başarısız olur — istenen davranış budur. Vercel ve CI
+  (e2e işi yerel Supabase kurar) değişkenleri zaten veriyor. `getEventDetail` bir daha asla uydurma
+  olay döndürmez; `generateStaticParams` içindeki env kontrolü de kalktı.
+
+---
+
+## ADR-038: Olay paneli masaüstünde okuyucunun seçtiği genişlikte
+
+**2026-09-06 · Kabul**
+
+- **Bağlam**: Panel `md:w-[30rem]`'de sabitti. Kelime tavanı kalkınca gövdeler uzadı (Newton 1131
+  kelime) ve deneyen ilk kişi paneli genişletmek istedi; 480 piksel 27" ekranda da 480 piksel.
+- **Karar**: Panelin sol kenarı sürüklenebilir bir tutamak (`role="separator"`, ok tuşları 32'şer
+  piksel, Home/End uçlar, çift tık varsayılana döner). Sınırlar `lib/panelWidth.ts`'te ve saf:
+  24rem - min(56rem, pencerenin %90'ı). Seçilen genişlik `localStorage`'da (`uchkun:panel-width`).
+  Telefonda tutamak yok; sayfa zaten tam genişlikte.
+- **Gerekçe**: Rahat okuma genişliği ekrana ve kişiye göre değişir, tek doğru sayı yok. Üst sınır
+  56rem: daha genişte satır ölçüsü okunmaz olur ve arkadaki zaman şeridi tamamen kaybolur.
+  Genişlik React'in state'i değil tarayıcının durumu (localStorage + pencere), o yüzden
+  `useSyncExternalStore` ile okunuyor: sunucu varsayılanı basar, hidrasyon uyuşmazlığı olmaz.
+- **Sonuçlar**: `DetailPanel` artık `resizeLabel` alıyor, dört dile `event.resizePanel` eklendi.
+  Sınır mantığı birim testli, genişletme + hatırlama e2e testli. Tam sayfa (`/event/[slug]`)
+  `max-w-2xl` olarak kaldı: orada panel yok, ölçüyü sayfanın kendisi belirliyor.
+
+---
+
 ## Şablon
 
 ```
