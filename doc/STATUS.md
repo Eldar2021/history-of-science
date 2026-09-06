@@ -14,22 +14,22 @@
   push = deploy. Bulut admin `eldiiaralmazbekov@gmail.com`; şifre `backend/scripts/cloud-admin-password.sh
   <email>`. Yerel admin `admin@uchkun.local` / `uchkun-local-admin` (`create-admin.mjs`).
 - **Yerel**: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
-- **Açık PR**: [#17](https://github.com/Eldar2021/history-of-science/pull/17) `el/panel-width-and-fixtures`
-  — fixture geri düşüşü kalktı, panel genişleyebiliyor, Kırgızca sözlük. Merge senden.
+- **Hat**: `backend/scripts/pipeline/` yazıldı, **API anahtarı değil Claude Code aboneliği** kullanıyor
+  (ADR-039). Deterministik parçalar (kuyruk, Commons lisansı, yükleyici, bildirim) yerelde çalıştı;
+  `claude -p` çağıran koşu **henüz uçtan uca denenmedi**. Kurulum: `doc/hat-kurulum.md`.
 
 ## Açık işler
 
-1. **Gece hattı**: `backend/scripts/pipeline/`, cron `0 16 * * *` (Bişkek 22:00) + elle tetikleme.
-   Araştır → yaz → düşmanca doğrula → Commons'tan görsel (lisans API'den) → tr/ru/ky → `review` yaz →
-   Telegram **haber** ver. Liste bitince yazmaz, "uzatalım mı?" der. Kırgızca sözlük hazır:
-   `backend/scripts/glossary.ky.json`, her ky çeviri isteğine verilecek.
+1. **Hattın ilk gerçek koşusu**: sen `backend/.env.pipeline`'ı yazınca (Adım 5, `hat-kurulum.md`)
+   `run.sh` buluta bir olay yazar. Sıradaki gerçek olay üretimde **rank 2, Thales** — yereldeki
+   "rank 3" fikstürlerden geliyor. İlk koşu izlenerek yapılmalı: prompt ilk kez sınanıyor.
 2. **Video yolu hiç denenmedi.** Kanalı oEmbed ile doğrulanabilen iyi bir belgesel bulunan ilk olayda açılır.
 
 ## Kullanıcıdan bekleyen
 
-1. **Telegram botu**: @BotFather'dan token + chat id. Token'ı Claude'a verme, GitHub secret olarak gir.
-2. **GitHub secrets**: `ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`,
-   `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` (yedek zaten `SUPABASE_DB_URL` kullanıyor, o ayrı).
+1. **`doc/hat-kurulum.md`'yi uygula** — adım adım yazıldı. Özeti: Supabase'ten üç değer (Adım 1),
+   `claude setup-token` (Adım 2), Telegram opsiyonel (Adım 3), GitHub secret'ları (Adım 4).
+   **`ANTHROPIC_API_KEY` artık hiçbir yerde gerekmiyor** (ADR-039). Hiçbir token'ı Claude'a yapıştırma.
 3. **Kırgızca sözlükte 21 giriş `"confidence": "check"`** — Claude'un tahmini, Kırgızca bilen birinin
    onayı gerekiyor (теңдеме, айлана, кан айлануу, тукум куучулук, Улукбек…). Hat başlamadan önce
    bakılırsa bütün olaylar doğru terimle doğar.
@@ -53,7 +53,9 @@
   kayıt aynı formdan tekrar kaydedince onarılır.
 - Liste araması, eksik dil filtresi ve sıralama bellekte çalışıyor; olay sayısı bir sayfayı aşarsa
   SQL'e taşınmalı (`lib/admin/events.ts`).
-- Yerel DB'de 10 seed olayı `published` — bunlar içerik değil, **e2e fikstürü**. Karıştırma.
+- Yerel DB'de 10 seed olayı `published` — bunlar içerik değil, **e2e fikstürü**. Karıştırma. Hattın
+  kuyruk konumu da bu yüzden yerelde yanlış çıkar (yerelde "sıradaki" rank 3, üretimde rank 2);
+  `next-event.mjs` hedefi yerel görürse uyarı basar.
 - e2e spec **dosyaları paralel** koşar ve aynı veritabanını paylaşır: `admin-publish` yayınlarken olay
   sayısı 11 olur. Olay sayısına dayanan iddia yazma (`2 of 10` yerine `/^2 of /`). Ayrıca tuşa basan
   test önce hidrasyonu beklemeli; `?event=` efektinin oturması iyi bir işaret.

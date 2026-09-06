@@ -15,6 +15,7 @@ Kod, commit mesajları ve kod yorumları İngilizce.
 | `doc/yol-haritasi.md` | Faza başlarken                                       |
 | `doc/kararlar.md`     | Bir kararı sorgularken                               |
 | `doc/riskler.md`      | Açık sorular, park edilmiş fikirler                  |
+| `doc/hat-kurulum.md`  | Gece hattı sırları: kullanıcı ne verecek (geçici)    |
 
 Vizyon ve ürün ilkeleri kök `README.md`'de. `doc/` çalışan hafızadır, arşiv değil: **biten iş
 dokümandan silinir**; geçmişin cevabı `git log`.
@@ -23,7 +24,7 @@ dokümandan silinir**; geçmişin cevabı `git log`.
 
 - `web/`: Next.js 16 App Router, TypeScript, Tailwind v4, next-intl. Site (`/[locale]`) + admin (`/admin`).
 - `backend/supabase/`: migration'lar ve seed. `backend/scripts/`: admin oluşturma, RLS kanıtı,
-  taslak → SQL, yedek. `backend/content/drafts/`: olay taslakları (JSON).
+  taslak → SQL, yedek. `backend/scripts/pipeline/`: gece içerik hattı (ADR-039). `backend/content/drafts/`: olay taslakları (JSON).
 - `.github/workflows/`: her PR'da CI (check + e2e), her gece veritabanı yedeği.
 - `mobile/`: Flutter, sonra. Boş.
 
@@ -58,5 +59,5 @@ dokümandan silinir**; geçmişin cevabı `git log`.
 ## Slash komutları (.claude/commands)
 
 `/com_read_doc` oturum başı · `/com_wrapup` oturum sonu (STATUS + commit) · `/com_event` olay taslağı ·
-`/com_adr` karar · `/com_migration` şema · `/com_check` kalite · `/com_i18n_check` dil kontrolü.
+`/com_adr` karar · `/com_migration` şema · `/com_check` kalite · `/com_i18n_check` dil kontrolü · `/com_pipeline` hattı elle koştur.
 Ajanlar (`.claude/agents/`): `content-writer`, `fact-checker`, `timeline-ux-reviewer`.

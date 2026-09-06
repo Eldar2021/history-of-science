@@ -208,6 +208,38 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 
 ---
 
+## ADR-039: Hat, ölçülen API'yi değil Claude Code aboneliğini kullanır
+
+**2026-09-06 · Kabul**
+
+- **Bağlam**: ADR-014 hattı `ANTHROPIC_API_KEY` ile Claude API'ye bağlıyordu: her koşu token başına
+  ayrı bir fatura demekti. Kullanıcı Claude Code'a zaten aylık ödüyor ve ikinci bir ödeme kalemi
+  istemedi. Hattın gerçekten LLM'e ihtiyaç duyan kısmı da sanıldığından küçük: sıradaki olayı bulmak,
+  Commons lisansını okumak, sözleşmeyi doğrulamak ve veritabanına yazmak modelsiz işlerdir.
+- **Karar**: Hat iki katmana ayrıldı.
+  1. **Deterministik katman** (`backend/scripts/pipeline/`): `next-event.mjs` sıradaki olayı ve inceleme
+     kuyruğunun doluluğunu veritabanından türetir, `commons.mjs` lisansı Commons API'sinden okuyup künye
+     dizesini üretir, `load.sh` sözleşmeyi doğrulayıp `status='review'` yazar, `notify.sh` haber verir.
+     Bunların hiçbiri model çağırmaz, dolayısıyla hiçbiri para harcamaz.
+  2. **Model katmanı**: `run.sh`, `prompts/run.md` talimatını `claude -p` ile çalıştırır. Yerelde bu
+     makinedeki oturum, GitHub Actions'ta `claude setup-token`'ın verdiği `CLAUDE_CODE_OAUTH_TOKEN`
+     — ikisi de aynı abonelik. `run.sh` `ANTHROPIC_API_KEY`'i **kasten siler**.
+     Kuyruk durumu modelden **önce** sorulur: liste bitmişse ya da 10 olay incelemede bekliyorsa koşu
+     hiçbir şey harcamadan çıkar.
+- **Gerekçe**: Aynı işi iki ayrı ödeme kaleminden almak için sebep yok. Ayrıca bu ayrım hattı test
+  edilebilir yaptı: lisans okuma, kuyruk konumu ve sözleşme doğrulaması artık modelin doğru davranmasına
+  değil, koşan koda bağlı. "Lisans tahmin edilmez" kuralı ilk kez gerçekten uygulanıyor — model bir
+  lisans iddia edemez, `commons.mjs` serbest olmayan dosyayı reddeder.
+- **Sonuçlar**: `ANTHROPIC_API_KEY` hiçbir ortamda gerekmiyor; `mimari.md`'nin Faz B satırından silindi.
+  Gece koşusu `.github/workflows/content-pipeline.yml`, 16:00 UTC (Bişkek 22:00) + elle tetikleme;
+  taslak JSON'u `main`'e doğrudan `content(draft):` diye yazar — kod dosyasına dokunmadığı için PR'dan
+  geçmez. Kotayı Max planı taşır: gecede bir olay, koşu başına bir oturum. Kurulum adımları
+  `doc/hat-kurulum.md` (hat çalışınca silinecek geçici doküman). Yerel koşu bulut kimliğini
+  `backend/.env.pipeline`'dan okur; o dosya yoksa hedef yerel veritabanıdır ve betikler bunu uyarı
+  olarak basar, çünkü yereldeki 10 yayınlanmış satır e2e fikstürü ve kuyruk konumunu yanıltır.
+
+---
+
 ## Şablon
 
 ```

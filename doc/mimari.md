@@ -11,7 +11,7 @@
 | i18n                  | next-intl 4                                 | `/tr`, `/ky` ön ekli rotalar                       |
 | Veri + Auth + Storage | Supabase (Postgres)                         | Ücretsiz katman, RLS, Flutter SDK'sı var           |
 | Sorgu                 | Supabase JS client + Postgres fonksiyonları | Çeviri birleştirmeyi SQL çözer                     |
-| Çeviri / içerik hattı | Claude API                                  | Faz B                                              |
+| Çeviri / içerik hattı | Claude Code (abonelik, ADR-039)             | `backend/scripts/pipeline/`, gece 22:00 Bişkek     |
 | Hosting               | Vercel (web) + Supabase (veri)              | `main` push = deploy                               |
 
 **Ayrı backend yok** (ADR-002). İş mantığı Postgres fonksiyonlarında ve `backend/scripts` içinde;
@@ -44,9 +44,26 @@ backend/
 ├── supabase/migrations/   # 0001_init, 0002_event_detail, 0003_event_place, 0004_event_place_data
 ├── supabase/seed.sql
 ├── content/               # top100.json (üretim sırası), drafts/ (JSON) → draft-to-sql.mjs
-└── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, backup,
-                       # draft-to-sql, glossary.ky.json (Kırgızca terim sözlüğü)
+├── scripts/               # create-admin, cloud-admin-password, cloud-setup, rls-proof, backup,
+│                       # draft-to-sql, glossary.ky.json (Kırgızca terim sözlüğü)
+└── scripts/pipeline/      # gece hattı: env, next-event, commons, load, notify, run + prompts/run.md
 ```
+
+## İçerik hattı (ADR-039)
+
+İki katman, ve para harcayan yalnızca ikincisi:
+
+| Katman            | Ne yapar                                                                       |
+| ----------------- | ------------------------------------------------------------------------------ |
+| `next-event.mjs`  | sıradaki olay = listede olup veritabanında olmayan en düşük `rank`; imleç dosyası yok. Çıkış 3 = liste bitti, 4 = inceleme kuyruğu dolu (ADR-014) |
+| `commons.mjs`     | lisansı Commons API'sinden **okur**; serbest olmayanı reddeder, künye dizesini üretir |
+| `load.sh`         | `draft-to-sql.mjs` ile doğrular ve `status='review'` yazar; `psql` yoksa yerel Supabase konteynerininkini kullanır |
+| `run.sh`          | önce kuyruğu sorar (model çağırmadan), sonra `prompts/run.md`'yi `claude -p` ile koşturur, sonunda **veritabanından** doğrular |
+| `notify.sh`       | Telegram'a haber; sır yoksa ekrana basar                                        |
+
+Kimlik: ortam değişkenleri → `backend/.env.pipeline` (bulut, gitignore'da) → `web/.env.local` (yerel).
+Yerel veritabanındaki 10 yayınlanmış satır e2e fikstürü olduğu için kuyruk konumu orada yanıltır;
+betikler bunu uyarı olarak basar.
 
 ## Veri modeli
 
@@ -143,7 +160,7 @@ yayınlamamak yeğdir.
 NEXT_PUBLIC_SUPABASE_URL= / NEXT_PUBLIC_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=        # yalnızca sunucu ve betikler
 NEXT_PUBLIC_SITE_URL= / NEXT_PUBLIC_REPORT_EMAIL=   # dürüstlük bandındaki mailto
-ANTHROPIC_API_KEY= / TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_ENABLED=   # Faz B
+TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_ENABLED=   # hat; hiçbir yerde ANTHROPIC_API_KEY yok (ADR-039)
 ```
 
 ## İşletme
@@ -152,6 +169,7 @@ ANTHROPIC_API_KEY= / TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_
 | ----------- | ----------------------------------------------------- | ---------------------------------------------------------- |
 | CI          | `.github/workflows/ci.yml`                            | Her PR: `npm run check` + yerel Supabase'li Playwright      |
 | Yedek       | `.github/workflows/backup.yml`, `scripts/backup.sh`   | Gece 02:00 UTC, 90 gün artefakt; `SUPABASE_DB_URL` sırrı    |
+| İçerik hattı| `.github/workflows/content-pipeline.yml`, `scripts/pipeline/` | 16:00 UTC; `CLAUDE_CODE_OAUTH_TOKEN` + Supabase sırları; kurulum `hat-kurulum.md` |
 | Hata sayfası| `app/[locale]/error.tsx`, `app/global-error.tsx`      | İlki dört dilde, ikincisi son çare İngilizce                |
 | Keşif       | `app/sitemap.ts`, `app/robots.ts`, `lib/site.ts`      | 44 URL, `hreflang` + `x-default`, canonical                 |
 | Paylaşım    | `app/[locale]/opengraph-image.tsx` (+ olay için)      | `next/og`, Literata (OFL) `web/assets`'ten, 1200×630        |
