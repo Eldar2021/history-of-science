@@ -28,6 +28,8 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 
 ## Park
 
+- Uzun gövdede bölüm çapaları / içindekiler. 2026-09-06'da 1131 kelime telefonda okundu, gerekmedi;
+  gövdeler 2000 kelimeyi aşarsa yeniden bakılır.
 - Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"); `gaps` tablosu gerekir.
 - Disiplin filtresi ve minimap şeridin üstünde (eski `/timeline`'dan).
 - "Orada olsaydın" etkileşimli senaryolar · "Geriye sar" modu · Sesli anlatım · Öğretmen sunum modu.

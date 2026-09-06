@@ -22,7 +22,6 @@ Uluğ Bey'in yılı). Yeniden yazıldıklarında hat zaten yeri ve yılı kaynak
 
 Tasarımı ADR-036'da; sözleşme ve yükleyici hazır (`backend/content/drafts/`, `draft-to-sql.mjs`).
 
-- [ ] Kırgızca terim sözlüğü (`glossary.ky.json`, ilk 30 terim) — **hattan önce**.
 - [ ] `backend/scripts/pipeline/`: sıradaki olay (listede olup veritabanında olmayan en düşük `rank`) →
       araştır → yaz → düşmanca doğrula → Commons'tan görsel (lisans API'den) → tr/ru/ky çevir →
       `status='review'` yaz. Liste bitince yazmaz, "uzatalım mı?" der.
@@ -30,7 +29,6 @@ Tasarımı ADR-036'da; sözleşme ve yükleyici hazır (`backend/content/drafts/
       Telegram **yalnızca haber verir**, içerik taşımaz. `CONTENT_PIPELINE_ENABLED`.
 - [ ] İlk 3 olaydan sonra gerçek maliyeti ölç (tahmin: olay başına 1-3 $); pahalıysa modeli aşağı çek.
 - [ ] `/admin/review` onay kuyruğu: taslak + kaynaklar + araştırma notu; Yayınla / Düzenle / Reddet.
-- [ ] Uzun gövde okuma deneyimi: 1000+ kelimede bölüm çapaları gerekiyor mu, telefonda bak.
 - [ ] Görsel yükleme: Storage, zorunlu atıf/lisans/kaynak.
 
 ## Faz C — çağ/disiplin sayfaları, SEO, beta
