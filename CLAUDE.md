@@ -15,7 +15,6 @@ Kod, commit mesajları ve kod yorumları İngilizce.
 | `doc/yol-haritasi.md` | Faza başlarken                                       |
 | `doc/kararlar.md`     | Bir kararı sorgularken                               |
 | `doc/riskler.md`      | Açık sorular, park edilmiş fikirler                  |
-| `doc/hat-kurulum.md`  | Gece hattı sırları: kullanıcı ne verecek (geçici)    |
 
 Vizyon ve ürün ilkeleri kök `README.md`'de. `doc/` çalışan hafızadır, arşiv değil: **biten iş
 dokümandan silinir**; geçmişin cevabı `git log`.

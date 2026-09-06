@@ -1,5 +1,8 @@
 # Uchkun content pipeline — one run
 
+**This message is the task. Start now and do not ask what to do — nobody is at the keyboard to answer,
+and a question is a failed run.** Work through the steps below and finish with the report in step 8.
+
 You are writing **one** event for Uchkun, a four-language science-history timeline. A run produces a
 draft in the database with `status='review'`. A human publishes; you never do (ADR-014).
 

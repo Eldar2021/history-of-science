@@ -32,11 +32,12 @@ kullanır. `importance` alanı zorunlu ve anlamlı olmalı: zoom seviyesinde gö
 
 Atıf + lisans + kaynak URL boş bırakılamaz. Sonradan toplamak imkânsız.
 
-## ADR-014: Otomatik içerik hattı — Claude taslak yazar, insan onayı şart
+## ADR-014: İçeriği Claude yazar, yayın kararı insanındır
 
-GitHub Actions cron + `draft-next.ts` + Claude API (web search) → `status='review'`, `drafted_by='ai'`,
-kaynaklar ve araştırma notu. **Script asla `published` yazmaz.** Kapatma anahtarı ve "kuyrukta 10+ varsa
-üretme" kuralı. (Faz B)
+Hat `status='review'`, `drafted_by='ai'`, kaynaklar ve araştırma notu yazar. **Hiçbir betik `published`
+yazmaz**; `published` yazan her kod insan eylemine bağlı olmalı. Kapatma anahtarı
+(`CONTENT_PIPELINE_ENABLED`) ve "inceleme kuyruğunda 10 varsa üretme" kuralı hattın parçası.
+Nasıl koştuğu ADR-039'da.
 
 ## ADR-018: Admin arayüzü 4 dilde
 
@@ -53,19 +54,14 @@ değişir.
 
 **2026-09-04 · Kabul** (eski 024, 026, 027, 028, 030, 032'nin toplamı)
 
-- **Karar**: Ana sayfa tam ekran bir gökyüzü; NASA Blue Marble (batimetrili) fotoğrafını giyen bir küre
-  ve ayağında gerçek ölçekli zaman şeridi + olay kartları. Olayın yeri **her zaman merkezde**; giriş
-  animasyonu yok; her olay derin bağlantılı (`?event=slug`). `/timeline` yok, ana sayfaya yönlenir.
-  Küre WebGL2 shader'da çizilir (`lib/globe/webgl.ts`), WebGL yoksa `sphere.ts` CPU yedeği; pinler, yol
-  ve belirsizlik çemberleri Canvas 2D'de. İşaretler kızıl + koyu konturlu (fotoğrafta bulunmayan tek renk);
-  belirsizliği renk değil **kesikli çizgi** taşır. Dürüstlük bandı ana sayfada "!" rozetinin arkasında,
-  diğer sayfalarda paragraf. Doku kaynağı ve lisansı `Globe.tsx` ve `lib/report.ts`'te.
+- **Karar**: Ana sayfa tam ekran bir gökyüzü: dünya fotoğrafını giyen bir küre ve ayağında gerçek
+  ölçekli zaman şeridi. Olayın yeri **her zaman merkezde**; giriş animasyonu yok; her olay derin
+  bağlantılı (`?event=slug`). `/timeline` yok, ana sayfaya yönlenir. Belirsizliği renk değil **kesikli
+  çizgi** taşır. Dürüstlük bandı ana sayfada "!" rozetinin arkasında, diğer sayfalarda paragraf.
 - **Gerekçe**: Site "ne zaman"a cevap veriyordu; bilim tarihinin en çarpıcı hikâyesi coğrafi (İskenderiye
   → Bağdat → Semerkant → Londra). Elli olay dikey akışta boş görünüyordu; yatay şerit dolu hissettirir.
-  Üç.js gibi bir katman yok: ~200 satır shader.
-- **Sonuçlar / beta sinyalleri**: "Dürüstlük bandını görmedim" gelirse rozet paragrafa döner. Disiplin
-  filtresi, minimap ve zaman boşluğu işaretleri `/timeline` ile gitti; istenirse şeridin üstüne. Şerit
-  gerçek telefonda denenmedi. Lighthouse bu renderer ile ölçülmeli.
+- **Geri dönüş sinyalleri**: "Dürüstlük bandını görmedim" gelirse rozet paragrafa döner. Disiplin
+  filtresi ve minimap `/timeline` ile gitti; istenirse şeridin üstüne (`riskler.md`, Park).
 
 ## ADR-025: Yer belirsizliği yıl belirsizliğinin desenini izler
 
@@ -85,9 +81,6 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 
 **2026-09-04 · Kabul**
 
-- **Bağlam**: Gövde başından beri Markdown metni olarak saklanıyordu ama elle yazılmış küçük bir
-  ayrıştırıcı yalnızca `###`, paragraf, `*eğik*` ve `**kalın**` tanıyordu. Bazı konular görsel, video,
-  kod, formül ve "şu teori şu demek" kutusu istiyor.
 - **Karar**: `react-markdown` + `remark-gfm` + `remark-math`/`rehype-katex`. Render `EventDetail`
   içinde, yani **sunucuda**: site paketine ayrıştırıcıdan tek bayt binmez (ölçüldü: 428 KB'lık öbek
   yalnızca admin rotalarında). Okuyucunun ödediği tek şey KaTeX stil dosyası (~28 KB ham).
@@ -98,7 +91,7 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   Görsel künyesi (`![alt](url "Yazar · Lisans · https://kaynak")`) Markdown görsellerinin atıf
   zorunluluğunu delmesini engeller — admin önizlemesi künyesizleri uyarır ama kaydı engellemez, çünkü
   taslağın yarım olma hakkı var.
-- **Sonuçlar**: Şema değişmedi. `icerik.md`'deki "formül yok" kuralı **gövde metni** için sürüyor
+- **Sonuçlar**: `icerik.md`'deki "formül yok" kuralı **gövde metni** için sürüyor
   (anlatı formülle yapılmaz); `$...$` istisnai bir araç, kural değil. Admin gövde alanı GitHub'ın
   Write/Preview sekmelerini taşır ve önizleme siteyle **aynı bileşeni** kullanır, böylece ikisi
   ayrışamaz. `/admin/help/markdown` aynı bileşenle render edilen canlı bir kılavuz.
@@ -107,36 +100,26 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 
 **2026-09-04 · Kabul**
 
-- **Bağlam**: Form tek çeviri taşıyordu; dil değiştirmek tam sayfa gezinmeydi (`?locale=ru`) ve
-  **kaydedilmemiş yazıyı sessizce siliyordu**. Kaynaklar, kişiler, `builds_on` bağlantıları ve kapak
-  görseli ise formda hiç yoktu: 43 olayın kaynakları `drafts-to-sql.mjs` ile girilmişti, admin'den
-  düzenlenemiyordu. `icerik.md` her olayda en az iki kaynak istiyor.
-- **Karar**: `EventFormValues` tek çeviri yerine `Record<Locale, …>` tutar. Dört dilin alanları da
-  DOM'da durur, sekmeler yalnızca hangisinin görüneceğine karar verir, tek kaydetme **metin taşıyan
-  bütün dilleri** yazar. Boş bırakılan dil yazılmaz ve var olan çevirisi **silinmez**. Aynı formda
-  kaynak, kişi, `builds_on` ve kapak görseli editörleri; tekrarlanan satırlar aynı alan adı altında
-  paralel dizi olarak gönderilir. Kaydet listeye döner, "Kaydet ve kal" formda bırakır.
-- **Gerekçe**: Veri kaybının kökü tek dilli formdu; sekmeyi client'a almak onu ortadan kaldırıyor.
-  Kaynak ve görsel editörü olmadan içerik toplamaya geçmek, her olay için SQL yazmak demekti.
+- **Karar**: Form dört dili birden taşır: hepsinin alanları DOM'da durur, sekmeler yalnızca hangisinin
+  görüneceğine karar verir, tek kaydetme **metin taşıyan bütün dilleri** yazar. Olayın her parçası
+  (kaynak, kişi, `builds_on`, kapak görseli) aynı formdan düzenlenir; hiçbiri için SQL yazılmaz.
   Kişiler `people` tablosunda ortaktır: buradan kaydedilen ad o kişinin her olaydaki adıdır.
-- **Sonuçlar**: Şema değişmedi. Doğrulama artık dil başına (`"<locale>.title"`), hatalı dil sekmede
-  işaretlenir. Tarayıcı `required`'ı kalktı — gizli sekmedeki alana tarayıcı hata gösteremez, sunucu
-  doğrular. **Bir dili tamamen boşaltmak o çeviriyi silmez**; silmek ayrı bir eylem ister (yapılmadı).
-  `saveEvent` hâlâ işlem (transaction) değil: yarıda kalan kayıt aynı formdan tekrar kaydedince onarılır.
-  Kapak görseli artık kova yolu **ya da** tam https adresi kabul eder (`lib/media.ts`).
+- **Gerekçe**: Tek dilli form dil değiştirirken kaydedilmemiş yazıyı sessizce siliyordu; sekmeyi
+  client'a almak veri kaybının kökünü kesti.
+- **Hâlâ ısıran iki şey**: **bir dili tamamen boşaltmak o çeviriyi silmez** — silmek ayrı bir eylem
+  ister ve yapılmadı. `saveEvent` işlem (transaction) **değil**: yarıda kalan kayıt aynı formdan tekrar
+  kaydedince onarılır.
 
 ## ADR-036: İçerik sıfırlandı; gece hattı ve kelime tavanının kalkması
 
 **2026-09-06 · Kabul**
 
-- **Bağlam**: 43 olay yayındaydı ama ölçüldüğünde tablo şuydu: **43/43 yalnızca İngilizce** (olay başına
-  tam bir çeviri satırı), gövdeler **550-652 kelime** arasına sıkışmış (yani hepsi 600 tavanına yapışmış:
-  sınır malzemeyi değil, malzeme sınırı takip etmiş), **0 kapak görseli, 0 gövde görseli, 0 video,
-  0 kutu, 0 formül**, ve `people` tablosu boş — taslaklarda kişiler yazılıydı, eski hat onları hiç
-  yazmamıştı. ADR-033 (Markdown, künyeli görsel, YouTube, KaTeX, kutular) bu 43 olay yazıldıktan
-  **sonra** geldi; platform bugün istediğimiz her şeyi yapıyor, içerik ise o yetenekler yokken yazılmış.
-- **Karar**: İçerik tablolarını boşalt (`events` cascade + `people`; `eras`, `disciplines`, `profiles`
-  kalır), 43 eski taslağı sil, üretimi baştan kur:
+- **Bağlam**: 43 olay yayındaydı ama hepsi yalnızca İngilizceydi, gövdeler 600 kelime tavanına
+  yapışmıştı (sınır malzemeyi değil, malzeme sınırı takip etmişti) ve hiçbirinde görsel, video, kutu
+  ya da kişi yoktu. ADR-033 bu 43 olay yazıldıktan **sonra** gelmişti: platform istediğimiz her şeyi
+  yapıyordu, içerik ise o yetenekler yokken yazılmıştı.
+- **Karar**: İçerik tabloları boşaltıldı (`events` cascade + `people`; `eras`, `disciplines`,
+  `profiles` kaldı) ve üretim baştan kuruldu:
   1. **`backend/content/top100.json`** üretim kuyruğu. `rank` = yazılma sırası, `importance` = zaman
      şeridindeki ağırlık; **ayrı iki şey**.
   2. **Gövde kelime tavanı kalktı.** Özetin 200 karakteri kaldı (yerleşim kuralı). Ölçü kelime sayısı
@@ -146,23 +129,17 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   4. Sıradaki olay = "listede karşılığı veritabanında olmayan en düşük `rank`". **İmleç dosyası yok**;
      konum veritabanından türer, o yüzden gece koşusu ile elle koşu birbirini ezmez.
 - **Gerekçe**: Silmeden önce yeni tarifin daha iyi olduğunu kanıtlamayı önerdim; kullanıcı site fiilen
-  yayında olmadığı (yalnızca kendisi ve eşi test ediyor) için silmeyi seçti, bu da itirazın dayanağını
-  ortadan kaldırdı. Telegram'dan dosya gönderip admin'e elle girmek olay başına ~32 kopyala-yapıştır
-  demekti; hattın `review` yazması zaten mimarinin kuralı (ADR-014) ve insan onayını hiç zayıflatmıyor.
-  `importance` puanları çağ-içi göreliydi: 135 adayı onlarla sıralayınca top 100'e tek bir "3"
-  giremiyordu ve kesilenler tam da Hypatia, El-Farabi, Ömer Hayyam, Noether, Bell Burnell, Zhang Heng
-  oluyordu — yani `icerik.md`'nin korumakla yükümlü olduğu isimler. Puanlar küresel ölçeğe çekildi ve
-  bu altısı listeye alındı.
-- **Sonuçlar**: **ADR-013 geçersiz**: yayın sırası artık "İngilizce önce, sonra ötekiler" değil; hat bir
-  olayın dört dilini tek koşuda yazar. Şema değişmedi. Sıralama önem katmanları içinde çağlara yayılıyor: **ilk 9 olay 8 çağın
-  hepsine dokunuyor**, site hiçbir aşamada yarım görünmüyor. Yeni dört dilli taslak sözleşmesi ve
-  yükleyicisi `backend/scripts/draft-to-sql.mjs`; sözleşme doğrulaması yükleyicinin **içinde**, atlanamaz
-  (özet uzunluğu, lisans bütünlüğü, kutu anahtarları, iki kaynak). Yükleyici `status <> 'published'`
-  ile korumalı: insan bir olayı yayınladıktan sonra hat ona dokunamaz. `builds_on` hedefleri çoğu zaman
-  henüz yok (sıra kronolojik değil); bağlantılar iki ucu da var olduğunda eklenir, bekleyen-bağlantı
-  durumu hiçbir yerde tutulmaz. Eski format betikleri (`drafts-to-sql`, `check-drafts`,
-  `fill-stubs-sql`) silindi. Kırgızca sözlüğü (`glossary.ky.json`) hat başlamadan önce gerekiyor:
-  uzun gövde kötü Kırgızcayı büyütür.
+  yayında olmadığı için silmeyi seçti ve bu itirazın dayanağını ortadan kaldırdı. `importance` puanları
+  çağ-içi göreliydi ve o ölçekle top 100'den kesilenler tam da Hypatia, El-Farabi, Ömer Hayyam, Noether,
+  Bell Burnell, Zhang Heng oluyordu — `icerik.md`'nin korumakla yükümlü olduğu isimler. Puanlar küresel
+  ölçeğe çekildi, altısı da listede.
+- **Sonuçlar**: Yayın sırası artık "İngilizce önce" değil; hat bir olayın dört dilini tek koşuda yazar.
+  Şema değişmedi. Sıralama önem katmanları içinde çağlara yayılıyor: **ilk 9 olay 8 çağın hepsine
+  dokunuyor**, site hiçbir aşamada yarım görünmüyor. Sözleşme doğrulaması yükleyicinin (`draft-to-sql.mjs`)
+  **içinde**, atlanamaz: özet uzunluğu, lisans bütünlüğü, kutu anahtarları, iki kaynak. Yükleyici
+  `status <> 'published'` ile korumalı, yani insan yayınladıktan sonra hat o olaya dokunamaz. `builds_on`
+  hedefleri çoğu zaman henüz yok (sıra kronolojik değil); bağlantı iki ucu da var olduğunda eklenir,
+  bekleyen-bağlantı durumu hiçbir yerde tutulmaz.
 
 ---
 
@@ -170,11 +147,8 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 
 **2026-09-06 · Kabul**
 
-- **Bağlam**: `lib/queries/*` `hasSupabaseEnv()` yanlışsa `lib/fixtures/timeline.ts`'i sunuyordu. Olay
-  sayfaları `generateStaticParams` ile build'de basıldığı için değişkeni eksik bir build **10 uydurma
-  olayı gerçek statik sayfa olarak** yayınlıyordu; 2026-09-06'da canlıda `/en/event/newton-principia`
-  200 döndü, beş dakika sonra 404 oldu. Fixture'ı başka hiçbir yer kullanmıyordu (e2e yerel
-  Supabase'e gider), `importance` değerleri şemanın 1-5 aralığına da uymuyordu.
+- **Bağlam**: Ortam değişkeni eksikse sorgular sessizce fixture'a düşüyordu ve olay sayfaları build'de
+  basıldığı için canlıda **10 uydurma olay gerçek statik sayfa olarak** yayınlandı.
 - **Karar**: Fixture dosyası silindi. İki değişken tek kapıdan okunuyor (`lib/supabase/env.ts`):
   `requireSupabaseEnv()` eksik olanın adını söyleyerek hata fırlatır, `hasSupabaseEnv()` yalnızca
   değişkensiz de anlamlı olan iki yerde kalır — admin'i `?error=noEnv`'e yollayan `proxy.ts` ve
@@ -185,26 +159,6 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
 - **Sonuçlar**: Değişkensiz `npm run build` artık başarısız olur — istenen davranış budur. Vercel ve CI
   (e2e işi yerel Supabase kurar) değişkenleri zaten veriyor. `getEventDetail` bir daha asla uydurma
   olay döndürmez; `generateStaticParams` içindeki env kontrolü de kalktı.
-
----
-
-## ADR-038: Olay paneli masaüstünde okuyucunun seçtiği genişlikte
-
-**2026-09-06 · Kabul**
-
-- **Bağlam**: Panel `md:w-[30rem]`'de sabitti. Kelime tavanı kalkınca gövdeler uzadı (Newton 1131
-  kelime) ve deneyen ilk kişi paneli genişletmek istedi; 480 piksel 27" ekranda da 480 piksel.
-- **Karar**: Panelin sol kenarı sürüklenebilir bir tutamak (`role="separator"`, ok tuşları 32'şer
-  piksel, Home/End uçlar, çift tık varsayılana döner). Sınırlar `lib/panelWidth.ts`'te ve saf:
-  24rem - min(56rem, pencerenin %90'ı). Seçilen genişlik `localStorage`'da (`uchkun:panel-width`).
-  Telefonda tutamak yok; sayfa zaten tam genişlikte.
-- **Gerekçe**: Rahat okuma genişliği ekrana ve kişiye göre değişir, tek doğru sayı yok. Üst sınır
-  56rem: daha genişte satır ölçüsü okunmaz olur ve arkadaki zaman şeridi tamamen kaybolur.
-  Genişlik React'in state'i değil tarayıcının durumu (localStorage + pencere), o yüzden
-  `useSyncExternalStore` ile okunuyor: sunucu varsayılanı basar, hidrasyon uyuşmazlığı olmaz.
-- **Sonuçlar**: `DetailPanel` artık `resizeLabel` alıyor, dört dile `event.resizePanel` eklendi.
-  Sınır mantığı birim testli, genişletme + hatırlama e2e testli. Tam sayfa (`/event/[slug]`)
-  `max-w-2xl` olarak kaldı: orada panel yok, ölçüyü sayfanın kendisi belirliyor.
 
 ---
 
@@ -230,13 +184,15 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   edilebilir yaptı: lisans okuma, kuyruk konumu ve sözleşme doğrulaması artık modelin doğru davranmasına
   değil, koşan koda bağlı. "Lisans tahmin edilmez" kuralı ilk kez gerçekten uygulanıyor — model bir
   lisans iddia edemez, `commons.mjs` serbest olmayan dosyayı reddeder.
-- **Sonuçlar**: `ANTHROPIC_API_KEY` hiçbir ortamda gerekmiyor; `mimari.md`'nin Faz B satırından silindi.
-  Gece koşusu `.github/workflows/content-pipeline.yml`, 16:00 UTC (Bişkek 22:00) + elle tetikleme;
-  taslak JSON'u `main`'e doğrudan `content(draft):` diye yazar — kod dosyasına dokunmadığı için PR'dan
-  geçmez. Kotayı Max planı taşır: gecede bir olay, koşu başına bir oturum. Kurulum adımları
-  `doc/hat-kurulum.md` (hat çalışınca silinecek geçici doküman). Yerel koşu bulut kimliğini
-  `backend/.env.pipeline`'dan okur; o dosya yoksa hedef yerel veritabanıdır ve betikler bunu uyarı
-  olarak basar, çünkü yereldeki 10 yayınlanmış satır e2e fikstürü ve kuyruk konumunu yanıltır.
+- **Sonuçlar**: `ANTHROPIC_API_KEY` hiçbir ortamda gerekmiyor. Gece koşusu 16:00 UTC (Bişkek 22:00) +
+  elle tetikleme; taslak JSON'u `main`'e doğrudan `content(draft):` diye yazar — kod dosyasına
+  dokunmadığı için PR'dan geçmez. Kotayı Max planı taşır: gecede bir olay, koşu başına bir oturum.
+  Sırlar, kimlik sırası ve durdurma `mimari.md`'nin "İçerik hattı" bölümünde.
+- **İlk koşuda öğrenilen**: CI'da `claude -p` prompt'u argüman olarak verilince model görevi almamış gibi
+  davrandı (aynı çağrı bu makinede çalışıyordu). Prompt stdin'e alındı, talimat "bu mesaj görevin"
+  diye açılıyor ve koşu prompt'un kaç bayt verildiğini loga basıyor. Üçü birlikte gitti, hangisinin
+  çözdüğü ayırt edilmedi. Ayrıca hat kendi raporuna güvenmez: koşu sonunda olayın veritabanında
+  gerçekten `review` olduğu sorgulanır — boş dönen ilk koşuyu yakalayan buydu.
 
 ---
 

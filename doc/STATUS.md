@@ -6,7 +6,7 @@
 ## Şu an
 
 - **Faz**: İçerik sıfırlandı (ADR-036) ve yeniden toplanıyor. Teknik taraf bitti.
-- **Yayında**: 1 olay — Newton, dört dilde, 3 künyeli görselle. Yeni tarifin ilk örneği ve doğrulaması.
+- **İçerik**: 2/100. Newton **yayında**, Thales **incelemede** (hattın yazdığı ilk olay).
 - **Üretim kuyruğu**: `backend/content/top100.json`. Sıradaki olay = "listede olup veritabanında
   olmayan en düşük `rank`" — imleç dosyası yok, o yüzden paralel koşular birbirini ezmez.
   Yükleyici `backend/scripts/draft-to-sql.mjs`, sözleşme doğrulaması içinde.
@@ -14,26 +14,25 @@
   push = deploy. Bulut admin `eldiiaralmazbekov@gmail.com`; şifre `backend/scripts/cloud-admin-password.sh
   <email>`. Yerel admin `admin@uchkun.local` / `uchkun-local-admin` (`create-admin.mjs`).
 - **Yerel**: `colima start` → `cd backend && supabase start` → `cd web && npm run dev`.
-- **Hat**: `backend/scripts/pipeline/` yazıldı, **API anahtarı değil Claude Code aboneliği** kullanıyor
-  (ADR-039). Deterministik parçalar (kuyruk, Commons lisansı, yükleyici, bildirim) yerelde çalıştı;
-  `claude -p` çağıran koşu **henüz uçtan uca denenmedi**. Kurulum: `doc/hat-kurulum.md`.
+- **Hat çalışıyor** (ADR-039): her gece 16:00 UTC, `backend/scripts/pipeline/`, **API anahtarı değil
+  Claude Code aboneliği**. İlk gerçek koşu 2026-09-06'da 21 dakikada Thales'i yazdı. Sırlar ve durdurma
+  `mimari.md`'de.
 
 ## Açık işler
 
-1. **Hattın ilk gerçek koşusu**: sen `backend/.env.pipeline`'ı yazınca (Adım 5, `hat-kurulum.md`)
-   `run.sh` buluta bir olay yazar. Sıradaki gerçek olay üretimde **rank 2, Thales** — yereldeki
-   "rank 3" fikstürlerden geliyor. İlk koşu izlenerek yapılmalı: prompt ilk kez sınanıyor.
+1. **İlk üç olaydan sonra prompt'u ayarla.** Elimizde bir örnek var (Thales: 1241 kelime, 3 görsel,
+   6 kaynak, fact-checker beş düzeltme yaptırdı). Reddetme oranı %30'u aşarsa `prompts/run.md`
+   sıkılaştırılır (riskler.md R1).
 2. **Video yolu hiç denenmedi.** Kanalı oEmbed ile doğrulanabilen iyi bir belgesel bulunan ilk olayda açılır.
 
 ## Kullanıcıdan bekleyen
 
-1. **`doc/hat-kurulum.md`'yi uygula** — adım adım yazıldı. Özeti: Supabase'ten üç değer (Adım 1),
-   `claude setup-token` (Adım 2), Telegram opsiyonel (Adım 3), GitHub secret'ları (Adım 4).
-   **`ANTHROPIC_API_KEY` artık hiçbir yerde gerekmiyor** (ADR-039). Hiçbir token'ı Claude'a yapıştırma.
-3. **Kırgızca sözlükte 21 giriş `"confidence": "check"`** — Claude'un tahmini, Kırgızca bilen birinin
+1. **Thales'i oku ve karar ver** (`/admin`, `status=review`). Hattın ilk ürünü; yayınlarsan tarif
+   tutuyor demektir. Tutulmanın önceden bilinip bilinmediği tartışması gövdede belirsiz işaretli.
+2. **Kırgızca sözlükte 21 giriş `"confidence": "check"`** — Claude'un tahmini, Kırgızca bilen birinin
    onayı gerekiyor (теңдеме, айлана, кан айлануу, тукум куучулук, Улукбек…). Hat başlamadan önce
    bakılırsa bütün olaylar doğru terimle doğar.
-4. Canlıda şifre sıfırlama hiç denenmedi. Gerçek e-posta yollar ve bulut admin şifresini değiştirir,
+3. Canlıda şifre sıfırlama hiç denenmedi. Gerçek e-posta yollar ve bulut admin şifresini değiştirir,
    o yüzden sende; yerelde uçtan uca çalıştığı görüldü.
 
 **Bloklayan**: yok.
@@ -63,17 +62,19 @@
 - Vercel preview'ları giriş korumalı; canlı davranış için yerel üretim build'ini bulut Supabase'e bağla
   (`vercel env pull` → `next start`). Teknik tuzaklar `mimari.md`'nin sonunda.
 
-## Son oturum — 2026-09-06
+## Son oturum — 2026-09-06 (ikinci)
 
-STATUS'taki üç madde tek PR'da bitti (#17, dört commit, CI'da check yeşil, e2e koşuyordu):
-
-- **Fixture geri düşüşü silindi** (ADR-037). `lib/fixtures/timeline.ts` yok; `lib/supabase/env.ts` tek
-  kapı. Env eksikse build patlar, uydurma olay yayınlanamaz.
-- **Panel masaüstünde genişleyebiliyor** (ADR-038): `components/event/DetailPanel.tsx` +
-  `panelWidthStore.ts`, sınırlar `lib/panelWidth.ts`, `event.resizePanel` dört dilde.
-- **`backend/scripts/glossary.ky.json`** yazıldı: 98 terim + 21 ad, 21'i `"confidence": "check"`.
-  **Yarım kalan tek şey bu**: o 21 girişi Kırgızca bilen biri onaylamalı.
-- Yolda çıkan: `the arrow keys do the same as the buttons` testi beş koşunun ikisinde düşüyordu
-  (hidrasyondan önce tuşa basıyor). Düzeltildi; paralel admin spec'i yüzünden olay sayısına dayanan
-  iddialar da regexp'e çevrildi.
-- Kullanıcı uzun gövdeyi telefonda okudu: iyiydi, bölüm çapağı gerekmedi. Okuma deneyimi maddesi kapandı.
+- **Gece hattı kuruldu ve çalıştı.** Kullanıcı ölçülen API'ye ayrı para ödemeyi reddetti; hat Claude Code
+  aboneliğine bağlandı (ADR-039). Deterministik iş modelden ayrıldı: kuyruk, Commons lisansı, sözleşme
+  doğrulaması ve veritabanına yazma saf Node — koşu model süresini yalnızca araştırma, yazma ve çeviriye
+  harcıyor. Liste bitmişse ya da kuyruk doluysa koşu modele hiç gitmeden çıkıyor.
+- **İlk CI koşusu düştü**: model talimat yerine selam verdi, sanki eline hiç görev geçmemiş gibi. Prompt
+  stdin'e alındı, talimatın başına "bu mesaj görevin, kimse klavyede değil" cümlesi kondu ve koşu artık
+  prompt'un kaç bayt verildiğini loga basıyor. Üç değişiklik birlikte gitti, **hangisinin çözdüğü ayırt
+  edilmedi**; tekrar düşerse log tek satırda söyleyecek.
+- Hattın kendi raporuna güvenilmiyor: koşu sonunda olayın veritabanında `review` olduğu ayrıca
+  sorgulanıyor. Düşen koşuyu yakalayan buydu.
+- **Doküman budaması**: ADR-038 silindi (tamamen koda gömülü), ADR-014 mekaniği ADR-039'a devretti,
+  024/033/034/036/037'nin tarih anlatan bölümleri kısaldı — `kararlar.md` 253 → 207 satır.
+  `hat-kurulum.md` işini bitirdi ve silindi; sırlar ve durdurma `mimari.md`'ye taşındı.
+  README'nin "İngilizce önce yayınlanır" ilkesi düzeltildi: hat dört dili tek koşuda yazıyor.

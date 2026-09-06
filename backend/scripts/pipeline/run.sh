@@ -65,14 +65,24 @@ if [ "${1:-}" = "--check" ]; then
 fi
 
 echo "writing rank $RANK — $SLUG"
+# An `x && y` one-liner here would leave the script on a non-zero status under `set -e` whenever
+# PIPELINE_MODEL is unset, which is the normal case.
 MODEL_ARGS=()
-[ -n "${PIPELINE_MODEL:-}" ] && MODEL_ARGS=(--model "$PIPELINE_MODEL")
+if [ -n "${PIPELINE_MODEL:-}" ]; then MODEL_ARGS=(--model "$PIPELINE_MODEL"); fi
+
+PROMPT_FILE="backend/scripts/pipeline/prompts/run.md"
+# The first run in CI came back with a greeting instead of an event: the model behaved as though it had
+# been handed no task at all. Both the argument form and this one work on a laptop, so the difference is
+# something about the CI environment rather than the shell. Two changes so that a repeat is diagnosable:
+# the prompt goes in on stdin, which is the documented way to feed `claude -p`, and the size the CLI was
+# actually given is printed. A line saying "0 bytes" would end the guessing immediately.
+echo "claude $(claude --version 2>/dev/null || echo '?'), prompt $(wc -c < "$PROMPT_FILE") bytes" >&2
 
 set +e
-OUT="$(claude -p "$(cat backend/scripts/pipeline/prompts/run.md)" \
+OUT="$(claude -p \
   --permission-mode bypassPermissions \
   --output-format json \
-  "${MODEL_ARGS[@]}")"
+  "${MODEL_ARGS[@]}" < "$PROMPT_FILE")"
 RUN_STATE=$?
 set -e
 

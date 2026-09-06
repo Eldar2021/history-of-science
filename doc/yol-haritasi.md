@@ -6,7 +6,7 @@ Sıralı fazlar; sıra bağlayıcı, süre değil. Darboğaz kod değil, karar v
 | ------ | -------------------------- | -------------------------------------------------------------------------- |
 | **M1** | Temel                      | Küre + şerit, admin ekliyor sitede görünüyor, **50 olay**. İçerik yeniden toplanıyor. |
 | **A**  | Siteyi biçimlendirmek      | Kabuk bitti (2026-09-05): CI, yedek, SEO, erişilebilirlik. İçerik akabilir. |
-| **B**  | Otomasyon ve dil           | Gece taslak hattı, 4 dil çevirisi, görseller. İçerik yeniden akar.         |
+| **B**  | Otomasyon ve dil           | Gece hattı çalışıyor (2026-09-06). Kalan: onay kuyruğu, görsel yükleme.    |
 | **C**  | SEO, erişilebilirlik, beta | Çağ/disiplin sayfaları, `about`, alan adı, 10 kişilik İngilizce beta (M2). |
 | **D**  | Derinlik ve lansman        | Kişiler, bağlantılar, zincir görünümü, Keşfet kanvası, v1.0 (M3).          |
 
@@ -20,16 +20,13 @@ Uluğ Bey'in yılı). Yeniden yazıldıklarında hat zaten yeri ve yılı kaynak
 
 ## Faz B — içerik hattı, çeviri, görseller
 
-Tasarımı ADR-036'da; sözleşme ve yükleyici hazır (`backend/content/drafts/`, `draft-to-sql.mjs`).
+Hat 2026-09-06'da kuruldu ve ilk olayını yazdı (ADR-039); her gece bir olay `review`'a düşüyor.
 
-- [ ] `backend/scripts/pipeline/`: sıradaki olay (listede olup veritabanında olmayan en düşük `rank`) →
-      araştır → yaz → düşmanca doğrula → Commons'tan görsel (lisans API'den) → tr/ru/ky çevir →
-      `status='review'` yaz. Liste bitince yazmaz, "uzatalım mı?" der.
-- [ ] GitHub Actions: cron `0 16 * * *` (Bişkek 22:00) + `workflow_dispatch` (elle, günde kaç kez olursa).
-      Telegram **yalnızca haber verir**, içerik taşımaz. `CONTENT_PIPELINE_ENABLED`.
-- [ ] İlk 3 olaydan sonra gerçek maliyeti ölç (tahmin: olay başına 1-3 $); pahalıysa modeli aşağı çek.
 - [ ] `/admin/review` onay kuyruğu: taslak + kaynaklar + araştırma notu; Yayınla / Düzenle / Reddet.
-- [ ] Görsel yükleme: Storage, zorunlu atıf/lisans/kaynak.
+      Şimdilik olay listesindeki `status` filtresi bu işi görüyor.
+- [ ] Görsel yükleme: Storage, zorunlu atıf/lisans/kaynak. (Hat şimdilik Commons adresini doğrudan
+      kullanıyor, kova yolu değil.)
+- [ ] Kırgızca sözlükteki 21 `confidence: check` girişi onaylansın — hattın her olayda çarptığı yer.
 
 ## Faz C — çağ/disiplin sayfaları, SEO, beta
 

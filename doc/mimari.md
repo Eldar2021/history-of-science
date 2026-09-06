@@ -65,6 +65,14 @@ Kimlik: ortam değişkenleri → `backend/.env.pipeline` (bulut, gitignore'da) �
 Yerel veritabanındaki 10 yayınlanmış satır e2e fikstürü olduğu için kuyruk konumu orada yanıltır;
 betikler bunu uyarı olarak basar.
 
+GitHub sırları: `CLAUDE_CODE_OAUTH_TOKEN` (`claude setup-token`, abonelik — API anahtarı değil),
+`SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `SUPABASE_DB_URL` (session pooler; doğrudan adres IPv6-only
+ve runner'da IPv6 yok), `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+
+**Durdurma**: bir gecelik → koşuyu Actions'tan iptal et. Süresiz → Actions **Variables** sekmesinde
+`CONTENT_PIPELINE_ENABLED=0`; iş akışı çalışır, hiçbir şey yazmadan çıkar. İnceleme kuyruğunda 10 olay
+birikirse hat kendiliğinden durur (ADR-014).
+
 ## Veri modeli
 
 Gerçek kaynak `backend/supabase/migrations/`. Her varlığın dilden bağımsız bir tablosu ve bir
@@ -169,7 +177,7 @@ TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_ENABLED=   # hat; hi�
 | ----------- | ----------------------------------------------------- | ---------------------------------------------------------- |
 | CI          | `.github/workflows/ci.yml`                            | Her PR: `npm run check` + yerel Supabase'li Playwright      |
 | Yedek       | `.github/workflows/backup.yml`, `scripts/backup.sh`   | Gece 02:00 UTC, 90 gün artefakt; `SUPABASE_DB_URL` sırrı    |
-| İçerik hattı| `.github/workflows/content-pipeline.yml`, `scripts/pipeline/` | 16:00 UTC; `CLAUDE_CODE_OAUTH_TOKEN` + Supabase sırları; kurulum `hat-kurulum.md` |
+| İçerik hattı| `.github/workflows/content-pipeline.yml`, `scripts/pipeline/` | 16:00 UTC (Bişkek 22:00) + elle tetikleme; sırlar ve durdurma aşağıda |
 | Hata sayfası| `app/[locale]/error.tsx`, `app/global-error.tsx`      | İlki dört dilde, ikincisi son çare İngilizce                |
 | Keşif       | `app/sitemap.ts`, `app/robots.ts`, `lib/site.ts`      | 44 URL, `hreflang` + `x-default`, canonical                 |
 | Paylaşım    | `app/[locale]/opengraph-image.tsx` (+ olay için)      | `next/og`, Literata (OFL) `web/assets`'ten, 1200×630        |
