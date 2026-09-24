@@ -1,0 +1,284 @@
+{
+  "slug": "mendeleev-periodic-table",
+  "year": 1869,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 59.9398,
+  "lng": 30.2994,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mendeleev%27s_periodic_table_%281869_year%29.jpg",
+    "credit": "Dmitri Mendeleev",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mendeleev's_periodic_table_(1869_year).jpg"
+  },
+  "disciplines": [
+    "chemistry"
+  ],
+  "people": [
+    {
+      "slug": "dmitri-mendeleev",
+      "birth_year": 1834,
+      "death_year": 1907,
+      "role": "author",
+      "name": {
+        "en": "Dmitri Mendeleev",
+        "tr": "Dmitri Mendeleyev",
+        "ru": "Дмитрий Менделеев",
+        "ky": "Дмитрий Менделеев"
+      }
+    },
+    {
+      "slug": "lothar-meyer",
+      "birth_year": 1830,
+      "death_year": 1895,
+      "role": "co-discoverer",
+      "name": {
+        "en": "Lothar Meyer",
+        "tr": "Lothar Meyer",
+        "ru": "Лотар Мейер",
+        "ky": "Лотар Мейер"
+      }
+    },
+    {
+      "slug": "nikolai-menshutkin",
+      "birth_year": 1842,
+      "death_year": 1907,
+      "role": "collaborator",
+      "name": {
+        "en": "Nikolai Menshutkin",
+        "tr": "Nikolay Menşutkin",
+        "ru": "Николай Меншуткин",
+        "ky": "Николай Меншуткин"
+      }
+    },
+    {
+      "slug": "julia-lermontova",
+      "birth_year": 1847,
+      "death_year": 1919,
+      "role": "collaborator",
+      "name": {
+        "en": "Julia Lermontova",
+        "tr": "Yuliya Lermontova",
+        "ru": "Юлия Лермонтова",
+        "ky": "Юлия Лермонтова"
+      }
+    },
+    {
+      "slug": "johann-wolfgang-dobereiner",
+      "birth_year": 1780,
+      "death_year": 1849,
+      "role": "predecessor",
+      "name": {
+        "en": "Johann Wolfgang Döbereiner",
+        "tr": "Johann Wolfgang Döbereiner",
+        "ru": "Иоганн Вольфганг Дёберейнер",
+        "ky": "Иоганн Вольфганг Дёберейнер"
+      }
+    },
+    {
+      "slug": "alexandre-emile-beguyer-de-chancourtois",
+      "birth_year": 1820,
+      "death_year": 1886,
+      "role": "predecessor",
+      "name": {
+        "en": "Alexandre-Émile Béguyer de Chancourtois",
+        "tr": "Alexandre-Émile Béguyer de Chancourtois",
+        "ru": "Александр-Эмиль Бегуйе де Шанкуртуа",
+        "ky": "Александр-Эмиль Бегуйе де Шанкуртуа"
+      }
+    },
+    {
+      "slug": "john-newlands",
+      "birth_year": 1837,
+      "death_year": 1898,
+      "role": "predecessor",
+      "name": {
+        "en": "John Newlands",
+        "tr": "John Newlands",
+        "ru": "Джон Ньюлендс",
+        "ky": "Джон Ньюлендс"
+      }
+    },
+    {
+      "slug": "stanislao-cannizzaro",
+      "birth_year": 1826,
+      "death_year": 1910,
+      "role": "predecessor",
+      "name": {
+        "en": "Stanislao Cannizzaro",
+        "tr": "Stanislao Cannizzaro",
+        "ru": "Станислао Канниццаро",
+        "ky": "Станислао Канниццаро"
+      }
+    },
+    {
+      "slug": "paul-emile-lecoq-de-boisbaudran",
+      "birth_year": 1838,
+      "death_year": 1912,
+      "role": "confirmer",
+      "name": {
+        "en": "Paul-Émile Lecoq de Boisbaudran",
+        "tr": "Paul-Émile Lecoq de Boisbaudran",
+        "ru": "Поль-Эмиль Лекок де Буабодран",
+        "ky": "Поль-Эмиль Лекок де Буабодран"
+      }
+    },
+    {
+      "slug": "lars-fredrik-nilson",
+      "birth_year": 1840,
+      "death_year": 1899,
+      "role": "confirmer",
+      "name": {
+        "en": "Lars Fredrik Nilson",
+        "tr": "Lars Fredrik Nilson",
+        "ru": "Ларс Фредрик Нильсон",
+        "ky": "Ларс Фредрик Нильсон"
+      }
+    },
+    {
+      "slug": "clemens-winkler",
+      "birth_year": 1838,
+      "death_year": 1904,
+      "role": "confirmer",
+      "name": {
+        "en": "Clemens Winkler",
+        "tr": "Clemens Winkler",
+        "ru": "Клеменс Винклер",
+        "ky": "Клеменс Винклер"
+      }
+    },
+    {
+      "slug": "antonius-van-den-broek",
+      "birth_year": 1870,
+      "death_year": 1926,
+      "role": "predecessor",
+      "name": {
+        "en": "Antonius van den Broek",
+        "tr": "Antonius van den Broek",
+        "ru": "Антониус ван ден Брук",
+        "ky": "Антониус ван ден Брук"
+      }
+    },
+    {
+      "slug": "henry-moseley",
+      "birth_year": 1887,
+      "death_year": 1915,
+      "role": "successor",
+      "name": {
+        "en": "Henry Moseley",
+        "tr": "Henry Moseley",
+        "ru": "Генри Мозли",
+        "ky": "Генри Мозли"
+      }
+    }
+  ],
+  "builds_on": [
+    "lavoisier-conservation-of-mass",
+    "dalton-atomic-theory"
+  ],
+  "enables": [
+    "curie-radium-polonium",
+    "nuclear-fission"
+  ],
+  "sources": [
+    {
+      "title": "Dmitri Mendeleev — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Dmitri-Mendeleev"
+    },
+    {
+      "title": "Dmitri Mendeleev — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+    },
+    {
+      "title": "History of the periodic table — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_periodic_table"
+    },
+    {
+      "title": "Lothar Meyer — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lothar_Meyer"
+    },
+    {
+      "title": "Julia Lermontova — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Julia_Lermontova"
+    },
+    {
+      "title": "Mendeleev's First Periodic Table (English translation of the 1869 paper, ed. Carmen Giunta) — Le Moyne College, Classic Chemistry",
+      "kind": "other",
+      "url": "https://web.lemoyne.edu/giunta/ea/mendeleevann.html"
+    },
+    {
+      "title": "Mendeleev's Periodic Table presented in public — OUPblog (Oxford University Press)",
+      "kind": "article",
+      "url": "https://blog.oup.com/2012/03/mendeleev-periodic-table/"
+    },
+    {
+      "title": "Julia Lermontova: an early pioneer — Chemistry World (Royal Society of Chemistry)",
+      "kind": "article",
+      "url": "https://www.chemistryworld.com/culture/julia-lermontova-an-early-pioneer/4013163.article"
+    },
+    {
+      "title": "Antonius van den Broek — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Antonius_van_den_Broek"
+    },
+    {
+      "title": "Mendeleev on a path to the law — Science First Hand (SCFH)",
+      "kind": "article",
+      "url": "https://scfh.ru/en/papers/mendeleev-on-a-path-to-the-law/"
+    },
+    {
+      "title": "Nauka i Zhizn (nkj.ru) on the 1869 table and its presentation",
+      "kind": "article",
+      "url": "https://www.nkj.ru/archive/articles/35498/"
+    }
+  ],
+  "research_note": "Checked 2026-09-24 against English Wikipedia (Dmitri Mendeleev; History of the periodic table; Lothar Meyer; Julia Lermontova), Carmen Giunta's English translation of the 1869 paper and its annotations (Le Moyne College, Classic Chemistry), the OUPblog 'This Day in World History' entry, and Chemistry World on Lermontova. Britannica is linked for human review only (automated fetch blocked, per doc/icerik.md).\n\nYEAR: 1869 is uncontested; precision stays EXACT. The draft table is dated 17 February 1869 Julian = 1 March 1869 Gregorian (ru.wikipedia, Nauka i Zhizn). The reading at the Russian Chemical Society was 6 March Julian = 18 March Gregorian (Nauka i Zhizn '6 (18) марта'; OUPblog gives 18 March New Style); English Wikipedia's bare '6 March' mixes calendars. Because the two dates would otherwise sit in different calendars, the body gives the reading only as 'March 1869'.\n\nWHY MENSHUTKIN READ IT: sources disagree. Giunta names Menshutkin and says Mendeleev was ill (OUPblog also says ill but does not name the reader); other popular accounts say he was away inspecting cheese-making cooperatives (artels). The body states both and picks neither.\n\nLEGENDS: the dream story rests on Inostrantsev's later account (Wikipedia quotes it 'as quoted by Inostrantzev'); the body calls it a legend. The card/'patience' story is presented as a popular story, not fact (Wikipedia itself calls it possible, not documented).\n\nLONE-HERO AVOIDED: Döbereiner (triads, 1829), de Chancourtois (telluric helix, 1862), Newlands (octaves; ridiculed at the Chemical Society 1866; Davy Medal 1887), Cannizzaro (Karlsruhe 1860, consistent atomic weights), Lothar Meyer (28-element table 1864; independent full table published 1870; acknowledged Mendeleev's priority; joint Davy Medal 1882), Julia Lermontova (in Bunsen's Heidelberg lab from autumn 1869; worked on platinum-metal separation 'probably at Mendeleev's suggestion' per Chemistry World; doctorate Göttingen 1874), Antonius van den Broek (1911 proposal that the atomic number equals nuclear charge, confirmed by Moseley), and the three confirmers Lecoq de Boisbaudran, Nilson and Winkler are all named. Lermontova's contribution is phrased modestly: the body says she took up the separation, probably at Mendeleev's suggestion, and does not claim she fixed the metals' places in the table (no source documents that directly; popular pieces overstate it). Her birth year is given as 1847: born 21 December 1846 Julian = 2 January 1847 Gregorian; English Wikipedia says 1846.\n\nPREDICTIONS: 1869 paper already predicts analogues of Al and Si with weights 65-75 and says Te 'cannot have the atomic weight 128' (Giunta translation). The detailed eka-element predictions are the 1871 paper. Gallium 1875, scandium 1879, germanium 1886. The gallium density episode (Lecoq's first value too low, Mendeleev insisting on higher, confirmed by purer sample) is the standard account; exact numbers deliberately left out of the body. 'Within fifteen years' in the body counts 1871 to 1886; the summary's '17 years' counts from 1869 to 1886 - both consistent.\n\nTELLURIUM: Mendeleev believed the measured weight was wrong; it was not (Te 127.6 > I 126.9). The body says so explicitly and gives Moseley (1913) as the resolution.\n\nFAILED PREDICTIONS / ARGON: Mendeleev initially rejected argon as an element (Wikipedia History of the periodic table: he suggested triatomic nitrogen). 'Also expected elements that never appeared' refers to his later ether elements (coronium, 'newtonium') and several wrong rare-earth guesses; kept general in the body because not chased to a primary source.\n\nNUMBERS: 63 elements known in 1869 follows Wikipedia; some popular sources say ~70 (EDN). Mendelevium first made 1955 (element 101). UN International Year of the Periodic Table 2019. 118 elements today.\n\nBUILDS_ON / ENABLES: lavoisier-conservation-of-mass exists and is the direct predecessor (Lavoisier's 1789 list of elements, named in the body). dalton-atomic-theory does not exist yet (allowed; links later). enables curie-radium-polonium (the Curies placed radium and polonium by the table) and nuclear-fission (Hahn and Strassmann's identification of barium, interpreted by Meitner and Frisch, depended on placing elements by the table) - neither exists yet; both are genuine downstream links. quantum-mechanics exists and is mentioned in the body as the later explanation of the rows, but it is an explanation of the table, not something the table enabled, so it was not listed.\n\nPLACE: St Petersburg University, city precision.\n\nIMAGES: all three verified with commons.mjs, values used verbatim. Cover and first figure: File:Mendeleev's periodic table (1869 year).jpg, credit 'Dmitri Mendeleev', Public domain. Portrait: Ivan Kramskoi 1878, Public domain. Lothar Meyer 1883 by Wilhelm Hornung, Public domain. A Lermontova portrait exists (Public domain) but is 185x264 px with 'Unknown author' credit, so it was left out.\n\nKYRGYZ TERMS (reviewer should check): glossary 'check' entries used: кошулма (compound), зат (matter/substance). Not in glossary, my own choices: мезгилдик таблица / мезгилдик система (periodic table - Kyrgyz school books may prefer 'мезгилдик система'), атомдук салмак (atomic weight), атомдук номер (atomic number - school books may say 'катар номери'), инерттүү газдар (noble gases), сейрек жер металлдары (rare-earth metals), электрондук кабык -> 'кабыктар' (electron shells), платина тобундагы металлдар, экаалюминий/экабор/экасилиций. Name spellings follow the Russian tradition (glossary rule).\n\n\nPOST-FACT-CHECK FIXES (fact-checker agent, 2026-09-24), applied in all four languages: (1) reading date 6 March was Julian - body now says 'March 1869', note corrected; (2) 'he called it a law' was wrong for 1869 - the word 'law' does not appear in the 1869 conclusions (Giunta), 'periodic law' comes in 1870-71 (SCFH) - body now says he treated the pattern as nature's and was calling it the periodic law within two years; (3) 'found by chemists who were not looking for them' was wrong - Lecoq de Boisbaudran was searching spectroscopically for new elements - now 'working on their own lines of research, not from his descriptions'; (4) van den Broek added as the source of the atomic-number = nuclear-charge idea, Moseley as the confirmer; (5) Lermontova: '1869' suggestion date removed, 'probably at Mendeleev's suggestion', 'helped fix their places' removed. The fact-checker found no errors in the translations beyond these shared ones. Remaining 'belirsiz': Mendeleev's ill-vs-cheese-trip absence (both stated), and whether Lermontova or Lydia Sesemann (Zürich) was the first woman chemistry doctorate - the body says 'one of the first'.",
+  "translations": {
+    "en": {
+      "title": "Mendeleev's periodic table leaves room for the unknown",
+      "summary": "Ordering the 63 known elements by atomic weight, Mendeleev saw their properties repeat and left gaps for elements no one had found. Three turned up within 17 years.",
+      "body": "![Mendeleev's periodic table as printed in 1869](https://upload.wikimedia.org/wikipedia/commons/b/bb/Mendeleev%27s_periodic_table_%281869_year%29.jpg \"Dmitri Mendeleev · Public domain · https://commons.wikimedia.org/wiki/File:Mendeleev's_periodic_table_(1869_year).jpg\")\n\n### The scene\n\nIn 1869 chemists knew 63 elements: substances that could not be broken down into anything simpler. Gold, copper and sulfur had been known since antiquity; dozens more had turned up in the eighty years since Antoine Lavoisier drew up the first modern list of elements in 1789, as chemists learned to pull metals out of minerals with electric current and to identify substances by the colours of light they gave off. The list kept growing. Nobody knew whether it had an end, or any order at all.\n\nThere were hints. In 1829 the German chemist Johann Wolfgang Döbereiner noticed \"triads\": groups of three look-alike elements, such as chlorine, bromine and iodine, in which the middle one's atomic weight sat roughly halfway between the other two. In 1862 the French geologist Alexandre-Émile Béguyer de Chancourtois wound the elements, in order of weight, in a spiral around a cylinder and saw similar ones line up vertically; his paper was printed without its diagram and went almost unread. In London, John Newlands noticed in the mid-1860s that properties seemed to recur with every eighth element and called it the law of octaves, after the musical scale. When he presented it to the Chemical Society in 1866, one member asked whether he had tried putting the elements in alphabetical order.\n\nPart of the trouble was that the numbers themselves were unreliable. Different chemists used different atomic weights for the same element, some off by a factor of two. At the first international chemistry congress, in Karlsruhe in 1860, the Italian chemist Stanislao Cannizzaro argued for one consistent way of working them out. Among the listeners was a 26-year-old Russian, Dmitri Mendeleev.\n\nMendeleev had been born in 1834 in Siberia, near Tobolsk. By 1869 he was professor of chemistry at St Petersburg University and was writing a textbook, *Principles of Chemistry*. That gave him a very practical problem: after the chapters on a few common elements, in what order should the rest come?\n\n### What happened\n\nHe looked for a rule rather than a convenient sequence. On 1 March 1869 (17 February by the Julian calendar Russia still used) he finished a draft table: the elements in order of increasing atomic weight, broken into rows so that elements with similar chemistry fell into line — lithium, sodium and potassium in one line; fluorine, chlorine, bromine and iodine in another. A popular story says he worked it out with cards, one per element, like a game of patience. Another says the whole table came to him in a dream; that version rests on a single account, told years later by his friend the geologist Alexander Inostrantsev, and is best read as a legend.\n\nWhat turned the table from a tidy list into a scientific claim were three bold choices.\n\n- **He left gaps.** Where the next known element by weight did not match the family of its line, he left an empty place with a question mark and bet that an undiscovered element belonged there. The 1869 paper already said that new elements resembling aluminium and silicon, with atomic weights between 65 and 75, could be expected.\n- **He let chemistry overrule the scales.** Tellurium weighs slightly more than iodine, but iodine plainly belongs with chlorine and bromine. Mendeleev put tellurium first and declared its measured weight must be wrong.\n- **He treated the pattern as nature's, not his own.** The properties of the elements, he wrote, repeat periodically as their atomic weight grows — the origin of the name \"periodic table\". Within two years he was calling it the periodic law.\n\nIn March 1869 the paper was read to the newly founded Russian Chemical Society in St Petersburg — not by Mendeleev, but by his colleague Nikolai Menshutkin. Sources disagree about why: most say Mendeleev was ill; some say he was away inspecting cheese-making cooperatives in the countryside. The paper appeared in the society's journal that year, and a short German abstract carried it to Western Europe.\n\n> [!THEORY]\n> Picture an old encyclopedia on a shelf, one volume per stretch of the alphabet. If the volume between \"Ga–Gy\" and \"Ha–He\" is missing, you know more than that it exists: you know roughly what is inside it, because its neighbours fence it in. Mendeleev read the table the same way, estimating a missing element's weight, density and the compounds it would form from the elements around the gap. The analogy breaks on one point: encyclopedia volumes have their number printed on the spine. Elements did not. Mendeleev had to order them by weight, which is not their true number, and what that true number was would not be discovered for another 44 years.\n\n![Dmitri Mendeleev in 1878, portrait by Ivan Kramskoi](https://upload.wikimedia.org/wikipedia/commons/f/f4/0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev%2C_1878_%28Kramskoy_I.N.%29.jpg \"Ivan Kramskoi · Public domain · https://commons.wikimedia.org/wiki/File:0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev,_1878_(Kramskoy_I.N.).jpg\")\n\n### Not one discoverer\n\nMendeleev was not alone. In Germany, Lothar Meyer had already published a partial table of 28 elements in 1864, grouped by how many bonds they form. Working independently, he reached a full table much like Mendeleev's and published it in 1870, together with a graph in which the size of atoms rises and falls in waves as the atomic weight grows — a picture of periodicity that Mendeleev's table did not give. Meyer acknowledged that Mendeleev had been first, and he made no detailed predictions of missing elements. In 1882 the Royal Society in London awarded its Davy Medal to both men together; five years later it gave the same medal to Newlands, whose octaves had been laughed at.\n\n![Lothar Meyer in 1883](https://upload.wikimedia.org/wikipedia/commons/6/60/Lothar_Meyer_1883.jpg \"Wilhelm Hornung · Public domain · https://commons.wikimedia.org/wiki/File:Lothar_Meyer_1883.jpg\")\n\n### Why it was hard\n\nOrdering by weight almost works, and \"almost\" was the trap. The table only made sense if some weights were declared wrong, and a chemist who did that was either seeing deeper than everyone else or fooling himself. Sometimes Mendeleev was right that a weight had been mismeasured. Sometimes he was not: tellurium really is heavier than iodine. His order was still correct, for a reason nobody in the 19th century could know.\n\nSome corners of the table were a mess of look-alikes. The six platinum metals occur together in the same ores and are very hard to separate, so their weights were uncertain. Julia Lermontova, a young Russian chemist who, barred from Russian universities as a woman, studied in Heidelberg with Robert Bunsen from 1869, took up the separation of these metals, probably at Mendeleev's suggestion; in 1874 she became one of the first women anywhere to earn a doctorate in chemistry. The rare-earth metals were worse still: they resembled each other so closely that for decades they did not fit the table at all, and today they sit in a separate row below it.\n\n### What it opened\n\nIn 1871 Mendeleev described three missing elements in detail, calling them eka-aluminium, eka-boron and eka-silicon (\"eka\" is Sanskrit for \"one\": one place beyond aluminium, boron and silicon). Within fifteen years all three were found by chemists working on their own lines of research, not from his descriptions: gallium by Paul-Émile Lecoq de Boisbaudran in France in 1875, scandium by Lars Fredrik Nilson in Sweden in 1879, germanium by Clemens Winkler in Germany in 1886. When Lecoq de Boisbaudran reported gallium's density, Mendeleev wrote that it must be higher; a purer sample showed that he was right. A table that could predict what an unseen substance would weigh was no longer a filing system but a theory.\n\nNot every prediction came true. Mendeleev also expected elements that never appeared, and when William Ramsay and Lord Rayleigh found argon in 1894 he at first doubted it was an element at all. Argon and the other noble gases — helium, neon, krypton, xenon — fitted nowhere, until a whole new column was added at the table's edge. The table bent, and did not break.\n\nThe deeper answer came in 1913. The young English physicist Henry Moseley, measuring the X-rays that different elements give off, found that each element has a whole number, its atomic number. It confirmed a guess made two years earlier by the Dutch amateur physicist Antonius van den Broek: that this number equals the electric charge of the atom's nucleus. Ordered by that number instead of by weight, tellurium falls before iodine without any excuses. A decade later quantum mechanics explained why the rows have the lengths they do: electrons fill shells around the nucleus, and elements whose outermost shells look alike behave alike.\n\nThe element with atomic number 101, made in 1955, was named mendelevium. Today the table holds 118 elements, and in 2019, on its 150th anniversary, the United Nations declared an International Year of the Periodic Table.",
+      "why_it_matters": "The periodic table turned a growing heap of unrelated substances into a map in which every element has neighbours and a family, and its gaps told chemists what to look for. When its predictions came true it became a theory rather than a list, and every later picture of the atom had to explain why the table has the shape it does.",
+      "if_you_were_there": "Chemists knew 63 elements and had no idea whether there were 70 or 700, or why some of them behaved like close relatives; even whether atoms were real things was still argued.",
+      "place_name": "Saint Petersburg, Russia",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Mendeleyev'in periyodik tablosu bilinmeyene yer ayırıyor",
+      "summary": "Mendeleyev bilinen 63 elementi atom ağırlığına göre dizince özelliklerin tekrarlandığını gördü ve henüz bulunmamış elementlere boşluk bıraktı. Üçü 17 yıl içinde bulundu.",
+      "body": "![Mendeleyev'in 1869'da basılan periyodik tablosu](https://upload.wikimedia.org/wikipedia/commons/b/bb/Mendeleev%27s_periodic_table_%281869_year%29.jpg \"Dmitri Mendeleev · Public domain · https://commons.wikimedia.org/wiki/File:Mendeleev's_periodic_table_(1869_year).jpg\")\n\n### Sahne\n\n1869'da kimyacılar 63 element biliyordu: daha basit bir şeye ayrıştırılamayan maddeler. Altın, bakır ve kükürt Antik Çağ'dan beri tanınıyordu; Antoine Lavoisier 1789'da ilk modern element listesini çıkardıktan sonraki seksen yılda düzinelercesi daha ortaya çıkmıştı. Kimyacılar elektrik akımıyla minerallerden metal ayırmayı, maddeleri yaydıkları ışığın renklerinden tanımayı öğrenmişti. Liste uzayıp gidiyordu. Bir sonu olup olmadığını, bir düzeni olup olmadığını kimse bilmiyordu.\n\nİpuçları vardı. 1829'da Alman kimyacı Johann Wolfgang Döbereiner \"üçlüler\" fark etti: klor, brom ve iyot gibi birbirine benzeyen üç element; ortadakinin atom ağırlığı öteki ikisinin aşağı yukarı tam ortasında. 1862'de Fransız jeolog Alexandre-Émile Béguyer de Chancourtois elementleri ağırlık sırasıyla bir silindirin çevresine sarmal biçimde dizdi ve benzerlerin alt alta geldiğini gördü; makalesi çizimi olmadan basıldı ve neredeyse hiç okunmadı. Londra'da John Newlands 1860'ların ortasında özelliklerin her sekizinci elementte tekrarlandığını fark etti ve buna müzikteki gama benzeterek \"oktavlar yasası\" dedi. 1866'da bunu Kimya Derneği'nde sunduğunda üyelerden biri elementleri alfabetik sıraya dizmeyi denemiş mi diye sordu.\n\nSorunun bir kısmı sayıların kendisindeydi. Farklı kimyacılar aynı element için farklı atom ağırlıkları kullanıyordu; bazıları iki kat yanlıştı. 1860'ta Karlsruhe'de toplanan ilk uluslararası kimya kongresinde İtalyan kimyacı Stanislao Cannizzaro bu ağırlıkları hesaplamanın tutarlı bir yolunu savundu. Dinleyiciler arasında 26 yaşında bir Rus vardı: Dmitri Mendeleyev.\n\nMendeleyev 1834'te Sibirya'da, Tobolsk yakınında doğmuştu. 1869'da Sankt-Peterburg Üniversitesi'nde kimya profesörüydü ve bir ders kitabı yazıyordu: *Kimyanın İlkeleri*. Bu ona çok somut bir sorun verdi: birkaç yaygın elementin bölümlerinden sonra geri kalanlar hangi sırayla gelmeli?\n\n### Ne oldu\n\nKullanışlı bir sıra değil, bir kural aradı. 1 Mart 1869'da (Rusya'nın o zaman hâlâ kullandığı Jülyen takvimine göre 17 Şubat) bir taslak tabloyu bitirdi: elementler artan atom ağırlığına göre sıralanmış, benzer kimyaya sahip olanlar aynı hizaya gelecek şekilde satırlara bölünmüştü — lityum, sodyum ve potasyum bir hizada; flor, klor, brom ve iyot bir başka hizada. Yaygın bir hikâyeye göre bunu her element için bir kart yazıp bir tür iskambil falı gibi dizerek buldu. Bir başka hikâyeye göre tablonun tamamı ona rüyasında göründü; bu anlatı, arkadaşı jeolog Aleksandr İnostrantsev'in yıllar sonra aktardığı tek bir tanıklığa dayanır ve efsane olarak okunmalıdır.\n\nTabloyu düzenli bir listeden bilimsel bir iddiaya dönüştüren üç cesur seçimdi.\n\n- **Boşluk bıraktı.** Ağırlıkça sıradaki bilinen element o hizanın ailesine uymadığında oraya soru işaretli boş bir yer koydu ve henüz bulunmamış bir elementin oraya ait olduğuna bahse girdi. 1869 makalesi, alüminyuma ve silisyuma benzeyen, atom ağırlığı 65 ile 75 arasında yeni elementlerin beklenebileceğini zaten söylüyordu.\n- **Kimyayı terazinin önüne koydu.** Tellür iyottan biraz daha ağırdır, ama iyot açıkça klor ve bromla aynı ailedendir. Mendeleyev tellürü öne koydu ve ölçülen ağırlığının yanlış olması gerektiğini ilan etti.\n- **Örüntüyü kendi icadı değil, doğanın düzeni saydı.** Elementlerin özellikleri, diye yazdı, atom ağırlıkları arttıkça dönem dönem tekrarlanır; \"periyodik tablo\" adı buradan gelir. İki yıl içinde buna periyodik yasa diyordu.\n\nMart 1869'da makale, yeni kurulmuş Rus Kimya Derneği'nde Sankt-Peterburg'da okundu — ama Mendeleyev tarafından değil, meslektaşı Nikolay Menşutkin tarafından. Kaynaklar nedeni konusunda ayrılır: çoğu Mendeleyev'in hasta olduğunu söyler; bazıları kırsaldaki peynir kooperatiflerini denetlemeye gittiğini. Makale aynı yıl derneğin dergisinde çıktı ve kısa bir Almanca özet onu Batı Avrupa'ya taşıdı.\n\n> [!THEORY]\n> Raftaki eski bir ansiklopediyi düşünün; her cilt alfabenin bir dilimini kapsıyor. \"Ga–Gy\" ile \"Ha–He\" arasındaki cilt eksikse, yalnızca var olduğunu bilmezsiniz: içinde aşağı yukarı ne olduğunu da bilirsiniz, çünkü komşuları onu çevreler. Mendeleyev tabloyu aynı biçimde okudu; eksik bir elementin ağırlığını, yoğunluğunu ve hangi bileşikleri oluşturacağını boşluğun çevresindeki elementlerden tahmin etti. Benzetme bir noktada bozulur: ansiklopedi ciltlerinin numarası sırtlarında yazar. Elementlerinki yazmıyordu. Mendeleyev onları gerçek numaraları olmayan ağırlığa göre sıralamak zorundaydı ve o gerçek numaranın ne olduğu 44 yıl daha bulunamayacaktı.\n\n![Dmitri Mendeleyev 1878'de, İvan Kramskoy'un portresi](https://upload.wikimedia.org/wikipedia/commons/f/f4/0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev%2C_1878_%28Kramskoy_I.N.%29.jpg \"Ivan Kramskoi · Public domain · https://commons.wikimedia.org/wiki/File:0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev,_1878_(Kramskoy_I.N.).jpg\")\n\n### Tek bir kâşif değil\n\nMendeleyev yalnız değildi. Almanya'da Lothar Meyer 1864'te, elementleri kaç bağ kurduklarına göre gruplayan 28 elementlik kısmi bir tablo yayımlamıştı. Bağımsız çalışarak Mendeleyev'inkine çok benzeyen tam bir tabloya ulaştı ve 1870'te yayımladı; yanında, atom ağırlığı arttıkça atomların büyüklüğünün dalgalar hâlinde inip çıktığını gösteren bir grafik vardı — Mendeleyev'in tablosunun vermediği bir periyodiklik resmi. Meyer önceliğin Mendeleyev'de olduğunu kabul etti ve eksik elementler hakkında ayrıntılı tahminde bulunmadı. 1882'de Londra'daki Kraliyet Cemiyeti Davy Madalyası'nı iki adama birlikte verdi; beş yıl sonra aynı madalyayı, oktavlarına gülünen Newlands'e verdi.\n\n![Lothar Meyer, 1883](https://upload.wikimedia.org/wikipedia/commons/6/60/Lothar_Meyer_1883.jpg \"Wilhelm Hornung · Public domain · https://commons.wikimedia.org/wiki/File:Lothar_Meyer_1883.jpg\")\n\n### Neden zordu\n\nAğırlığa göre sıralamak neredeyse işe yarar ve tuzak tam da bu \"neredeyse\"ydi. Tablo ancak bazı ağırlıklar yanlış ilan edilirse anlam kazanıyordu; bunu yapan bir kimyacı ya herkesten derini görüyordu ya da kendini kandırıyordu. Mendeleyev bazen bir ağırlığın yanlış ölçüldüğünde haklıydı. Bazen değildi: tellür gerçekten iyottan ağırdır. Yine de sıralaması doğruydu, hem de 19. yüzyılda kimsenin bilemeyeceği bir nedenle.\n\nTablonun bazı köşeleri birbirine benzeyenlerle dolu bir karmaşaydı. Altı platin metali aynı cevherlerde birlikte bulunur ve ayrıştırılmaları çok zordur; bu yüzden ağırlıkları belirsizdi. Kadın olduğu için Rus üniversitelerine alınmayan ve 1869'dan itibaren Heidelberg'de Robert Bunsen'in yanında okuyan genç Rus kimyacı Yuliya Lermontova, muhtemelen Mendeleyev'in önerisiyle bu metalleri ayırma işine girişti; 1874'te dünyada kimya doktorası alan ilk kadınlardan biri oldu. Nadir toprak metalleri daha da zordu: birbirlerine o kadar benziyorlardı ki onlarca yıl tabloya hiç oturmadılar; bugün tablonun altında ayrı bir sırada dururlar.\n\n### Ne kapı açtı\n\n1871'de Mendeleyev eksik üç elementi ayrıntılı olarak tarif etti ve onlara eka-alüminyum, eka-bor ve eka-silisyum dedi (\"eka\" Sanskritçe \"bir\" demektir: alüminyumun, borun ve silisyumun bir basamak ötesi). On beş yıl içinde üçü de, onun tariflerinden değil kendi araştırmalarından yola çıkan kimyacılar tarafından bulundu: galyum 1875'te Fransa'da Paul-Émile Lecoq de Boisbaudran, skandiyum 1879'da İsveç'te Lars Fredrik Nilson, germanyum 1886'da Almanya'da Clemens Winkler tarafından. Lecoq de Boisbaudran galyumun yoğunluğunu bildirdiğinde Mendeleyev daha yüksek olması gerektiğini yazdı; daha saf bir örnek onun haklı olduğunu gösterdi. Görülmemiş bir maddenin ne kadar ağır olacağını önceden söyleyebilen bir tablo artık bir dosyalama sistemi değil, bir kuramdı.\n\nHer tahmin tutmadı. Mendeleyev hiç ortaya çıkmayan elementler de bekledi ve William Ramsay ile Lord Rayleigh 1894'te argonu bulduğunda, önce onun bir element olduğundan bile şüphe etti. Argon ve öteki soy gazlar — helyum, neon, kripton, ksenon — hiçbir yere oturmadı; ta ki tablonun kenarına koca bir yeni sütun eklenene dek. Tablo esnedi ama kırılmadı.\n\nDaha derin cevap 1913'te geldi. Genç İngiliz fizikçi Henry Moseley, farklı elementlerin yaydığı X-ışınlarını ölçerken her elementin bir tam sayısı, yani atom numarası olduğunu buldu. Bu, Hollandalı amatör fizikçi Antonius van den Broek'un iki yıl önceki bir tahminini doğruladı: bu sayı atom çekirdeğinin elektrik yüküne eşittir. Ağırlık yerine bu sayıya göre dizildiğinde tellür hiçbir bahaneye gerek kalmadan iyottan önce gelir. On yıl kadar sonra kuantum mekaniği satırların neden o uzunlukta olduğunu açıkladı: elektronlar çekirdeğin çevresindeki kabukları doldurur ve en dış kabukları birbirine benzeyen elementler benzer davranır.\n\n1955'te laboratuvarda üretilen 101 numaralı elemente mendelevyum adı verildi. Bugün tabloda 118 element var ve 2019'da, 150. yıldönümünde, Birleşmiş Milletler Uluslararası Periyodik Tablo Yılı ilan etti.",
+      "why_it_matters": "Periyodik tablo, büyüyen bir ilgisiz maddeler yığınını her elementin komşuları ve bir ailesi olan bir haritaya çevirdi; boşlukları da kimyacılara ne aramaları gerektiğini söyledi. Tahminleri tuttuğunda liste olmaktan çıkıp kuram oldu ve atomun sonraki her resmi, tablonun neden bu biçimde olduğunu açıklamak zorunda kaldı.",
+      "if_you_were_there": "Kimyacılar 63 element biliyordu; 70 mi yoksa 700 mü olduğunu, bazılarının neden yakın akraba gibi davrandığını bilmiyorlardı. Atomların gerçekten var olup olmadığı bile hâlâ tartışılıyordu.",
+      "place_name": "Sankt-Peterburg, Rusya",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Периодическая таблица Менделеева оставляет место для неизвестного",
+      "summary": "Расставив 63 известных элемента по атомному весу, Менделеев увидел, что их свойства повторяются, и оставил места для неоткрытых. Три нашли за 17 лет.",
+      "body": "![Периодическая таблица Менделеева в печатном виде 1869 года](https://upload.wikimedia.org/wikipedia/commons/b/bb/Mendeleev%27s_periodic_table_%281869_year%29.jpg \"Dmitri Mendeleev · Public domain · https://commons.wikimedia.org/wiki/File:Mendeleev's_periodic_table_(1869_year).jpg\")\n\n### Время и место\n\nВ 1869 году химики знали 63 элемента — вещества, которые нельзя разложить на что-то более простое. Золото, медь и сера были известны с древности; ещё десятки появились за восемьдесят лет после того, как Антуан Лавуазье в 1789 году составил первый современный список элементов. Химики научились извлекать металлы из минералов электрическим током и узнавать вещества по цветам света, который они испускают. Список всё рос. Никто не знал, есть ли у него конец и есть ли в нём хоть какой-то порядок.\n\nПодсказки были. В 1829 году немецкий химик Иоганн Вольфганг Дёберейнер заметил «триады»: группы из трёх похожих элементов, например хлор, бром и йод, где атомный вес среднего лежит примерно посередине между двумя другими. В 1862 году французский геолог Александр-Эмиль Бегуйе де Шанкуртуа расположил элементы по весу спиралью на цилиндре и увидел, что похожие оказываются друг под другом; его статью напечатали без рисунка, и её почти никто не прочёл. В Лондоне Джон Ньюлендс в середине 1860-х годов заметил, что свойства как будто повторяются у каждого восьмого элемента, и назвал это «законом октав» — по аналогии с музыкальной гаммой. Когда в 1866 году он доложил об этом Химическому обществу, один из слушателей спросил, не пробовал ли он расставить элементы по алфавиту.\n\nОтчасти беда была в самих числах. Разные химики пользовались разными атомными весами для одного и того же элемента, иногда отличавшимися вдвое. На первом международном химическом конгрессе в Карлсруэ в 1860 году итальянский химик Станислао Канниццаро отстаивал единый способ их вычисления. Среди слушателей был 26-летний русский — Дмитрий Менделеев.\n\nМенделеев родился в 1834 году в Сибири, под Тобольском. К 1869 году он был профессором химии Санкт-Петербургского университета и писал учебник «Основы химии». Это поставило перед ним вполне практическую задачу: после глав о нескольких распространённых элементах — в каком порядке излагать остальные?\n\n### Что произошло\n\nОн искал не удобную последовательность, а закон. 1 марта 1869 года (17 февраля по юлианскому календарю, которым Россия тогда ещё пользовалась) он закончил черновик таблицы: элементы шли по возрастанию атомного веса и были разбиты на ряды так, что элементы с похожей химией вставали в одну линию — литий, натрий и калий в одной; фтор, хлор, бром и йод в другой. Популярная история говорит, что он раскладывал карточки, по одной на элемент, как пасьянс. Другая — что вся таблица приснилась ему во сне; эта версия держится на единственном рассказе, записанном годы спустя со слов его друга, геолога Александра Иностранцева, и её лучше читать как легенду.\n\nИз аккуратного списка в научное утверждение таблицу превратили три смелых решения.\n\n- **Он оставил пустые места.** Там, где следующий известный по весу элемент не подходил к семейству своей линии, он оставлял клетку с вопросительным знаком и ставил на то, что туда относится ещё не открытый элемент. Уже в статье 1869 года говорилось, что можно ожидать новых элементов, похожих на алюминий и кремний, с атомным весом от 65 до 75.\n- **Он поставил химию выше весов.** Теллур чуть тяжелее йода, но йод явно принадлежит к семейству хлора и брома. Менделеев поставил теллур раньше и объявил, что его измеренный вес, должно быть, ошибочен.\n- **Он считал закономерность свойством природы, а не своей выдумкой.** Свойства элементов, писал он, периодически повторяются с ростом их атомного веса — отсюда и название «периодическая система». Через два года он уже называл это периодическим законом.\n\nВ марте 1869 года статью зачитали на заседании недавно основанного Русского химического общества в Санкт-Петербурге — но не Менделеев, а его коллега Николай Меншуткин. Источники расходятся в причине: большинство пишет, что Менделеев был болен; некоторые — что он уехал осматривать сыроварни-артели в деревне. Статья вышла в журнале общества в том же году, а короткий немецкий реферат донёс её до Западной Европы.\n\n> [!THEORY]\n> Представьте старую энциклопедию на полке: каждый том охватывает свой отрезок алфавита. Если между томами «Га–Гю» и «Да–Де» не хватает одного, вы знаете не только то, что он существует, — вы примерно знаете, что в нём, потому что соседи задают его границы. Менделеев читал таблицу так же: по элементам вокруг пустой клетки он оценивал вес, плотность и соединения недостающего элемента. Аналогия ломается в одном месте: у томов энциклопедии номер напечатан на корешке. У элементов его не было. Менделееву приходилось упорядочивать их по весу, а это не их настоящий номер, — и каков этот настоящий номер, узнают лишь через 44 года.\n\n![Дмитрий Менделеев в 1878 году, портрет Ивана Крамского](https://upload.wikimedia.org/wikipedia/commons/f/f4/0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev%2C_1878_%28Kramskoy_I.N.%29.jpg \"Ivan Kramskoi · Public domain · https://commons.wikimedia.org/wiki/File:0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev,_1878_(Kramskoy_I.N.).jpg\")\n\n### Не один первооткрыватель\n\nМенделеев был не один. В Германии Лотар Мейер ещё в 1864 году опубликовал неполную таблицу из 28 элементов, сгруппированных по числу связей, которые они образуют. Работая независимо, он пришёл к полной таблице, очень похожей на менделеевскую, и опубликовал её в 1870 году вместе с графиком, где размер атомов волнами растёт и падает по мере роста атомного веса, — картиной периодичности, которой не было в таблице Менделеева. Мейер признал первенство Менделеева и не делал подробных предсказаний недостающих элементов. В 1882 году Лондонское королевское общество присудило медаль Дэви обоим вместе; через пять лет ту же медаль получил Ньюлендс, над чьими октавами когда-то смеялись.\n\n![Лотар Мейер в 1883 году](https://upload.wikimedia.org/wikipedia/commons/6/60/Lothar_Meyer_1883.jpg \"Wilhelm Hornung · Public domain · https://commons.wikimedia.org/wiki/File:Lothar_Meyer_1883.jpg\")\n\n### Почему это было трудно\n\nПорядок по весу почти работает, и в этом «почти» была ловушка. Таблица имела смысл, только если объявить некоторые веса ошибочными, а химик, который так поступает, либо видит глубже всех, либо обманывает себя. Иногда Менделеев был прав, что вес измерен неверно. Иногда — нет: теллур действительно тяжелее йода. И всё же его порядок был верен — по причине, которую в XIX веке никто знать не мог.\n\nНекоторые углы таблицы были сплошной путаницей похожих друг на друга элементов. Шесть платиновых металлов встречаются вместе в одних рудах, и разделить их очень трудно, поэтому их веса были неточны. Молодой русский химик Юлия Лермонтова, которая, не имея как женщина доступа в российские университеты, с 1869 года училась в Гейдельберге у Роберта Бунзена, занялась разделением этих металлов — вероятно, по совету Менделеева; в 1874 году она стала одной из первых в мире женщин — докторов химии. С редкоземельными металлами было ещё хуже: они настолько похожи друг на друга, что десятилетиями вообще не укладывались в таблицу, и сегодня стоят отдельной строкой под ней.\n\n### Что это открыло\n\nВ 1871 году Менделеев подробно описал три недостающих элемента, назвав их экаалюминием, экабором и экасилицием («эка» на санскрите — «один»: на одно место дальше алюминия, бора и кремния). В течение пятнадцати лет все три нашли химики, шедшие своими путями, а не по его описаниям: галлий — Поль-Эмиль Лекок де Буабодран во Франции в 1875 году, скандий — Ларс Фредрик Нильсон в Швеции в 1879-м, германий — Клеменс Винклер в Германии в 1886-м. Когда Лекок де Буабодран сообщил плотность галлия, Менделеев написал, что она должна быть выше; более чистый образец показал, что он прав. Таблица, способная заранее сказать, сколько будет весить невиданное вещество, была уже не картотекой, а теорией.\n\nСбылось не всё. Менделеев ждал и элементов, которые так и не появились, а когда Уильям Рамзай и лорд Рэлей в 1894 году нашли аргон, он поначалу сомневался, что это вообще элемент. Аргону и другим благородным газам — гелию, неону, криптону, ксенону — не было места, пока с края таблицы не добавили целый новый столбец. Таблица прогнулась, но не сломалась.\n\nБолее глубокий ответ пришёл в 1913 году. Молодой английский физик Генри Мозли, измеряя рентгеновское излучение разных элементов, обнаружил, что у каждого элемента есть целое число — атомный номер. Это подтвердило догадку, высказанную двумя годами раньше голландским физиком-любителем Антониусом ван ден Бруком: этот номер равен электрическому заряду ядра атома. Если расставить элементы по этому числу, а не по весу, теллур без всяких оговорок встаёт перед йодом. Примерно через десять лет квантовая механика объяснила, почему ряды имеют именно такую длину: электроны заполняют оболочки вокруг ядра, и элементы с похожими внешними оболочками ведут себя похоже.\n\nЭлемент с атомным номером 101, полученный в 1955 году, назвали менделевием. Сегодня в таблице 118 элементов, а в 2019 году, к её 150-летию, Организация Объединённых Наций объявила Международный год Периодической таблицы.",
+      "why_it_matters": "Периодическая таблица превратила растущую груду разрозненных веществ в карту, где у каждого элемента есть соседи и семейство, а пустые клетки подсказывали химикам, что искать. Когда её предсказания сбылись, она стала теорией, а не списком, и каждая следующая модель атома должна была объяснить, почему таблица устроена именно так.",
+      "if_you_were_there": "Химики знали 63 элемента и понятия не имели, будет их 70 или 700 и почему некоторые ведут себя как близкие родственники; даже реальность атомов ещё оспаривалась.",
+      "place_name": "Санкт-Петербург, Россия",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Менделеевдин мезгилдик таблицасы белгисизге орун калтырат",
+      "summary": "Белгилүү 63 элементти атомдук салмагы боюнча тизгенде Менделеев касиеттердин кайталанарын көрүп, ачыла элек элементтерге орун калтырган. Үчөө 17 жылда табылды.",
+      "body": "![Менделеевдин 1869-жылы басылган мезгилдик таблицасы](https://upload.wikimedia.org/wikipedia/commons/b/bb/Mendeleev%27s_periodic_table_%281869_year%29.jpg \"Dmitri Mendeleev · Public domain · https://commons.wikimedia.org/wiki/File:Mendeleev's_periodic_table_(1869_year).jpg\")\n\n### Окуя болгон заман\n\n1869-жылы химиктер 63 элементти билишчү: андан жөнөкөй бир нерсеге ажыратууга мүмкүн болбогон заттарды. Алтын, жез жана күкүрт байыркы замандан бери белгилүү болчу. Антуан Лавуазье 1789-жылы элементтердин биринчи заманбап тизмесин түзгөндөн кийинки сексен жылда дагы ондогон элементтер табылды. Химиктер электр тогу менен минералдардан металл бөлүп алууну, заттарды алар чыгарган жарыктын түсүнө карап таанууну үйрөнүштү. Тизме узарып жатты. Анын аягы барбы, ичинде кандайдыр бир тартип барбы — муну эч ким билчү эмес.\n\nАйрым белгилер бар эле. 1829-жылы немис химиги Иоганн Вольфганг Дёберейнер «үчтүктөрдү» байкаган: хлор, бром жана йод сыяктуу бири-бирине окшош үч элемент, алардын ортоңкусунун атомдук салмагы калган экөөнүн дээрлик так ортосунда турат. 1862-жылы француз геологу Александр-Эмиль Бегуйе де Шанкуртуа элементтерди салмагы боюнча цилиндрдин тегерегине спираль түрүндө жайгаштырып, окшоштору бири-биринин астына туура келерин көргөн. Бирок анын макаласы сүрөтү жок басылып, аны дээрлик эч ким окуган эмес. Лондондо Джон Ньюлендс 1860-жылдардын ортосунда касиеттер ар бир сегизинчи элементте кайталангансыйт деп байкап, муну музыкалык гаммага окшоштуруп «октавалар мыйзамы» деп атаган. 1866-жылы ал муну Химия коомуна баяндаганда, угуучулардын бири элементтерди алфавит боюнча тизип көргөн жоксузбу деп сураган.\n\nКыйынчылыктын бир бөлүгү сандардын өзүндө болчу. Ар кайсы химиктер бир эле элемент үчүн ар башка атомдук салмакты колдонушчу, кээ бирлери эки эсе айырмаланчу. 1860-жылы Карлсруэде өткөн биринчи эл аралык химия съездинде италиялык химик Станислао Канниццаро аларды эсептөөнүн бирдиктүү жолун жактаган. Угуучулардын арасында 26 жаштагы орус жигити, Дмитрий Менделеев отурган.\n\nМенделеев 1834-жылы Сибирде, Тобольскинин жанында төрөлгөн. 1869-жылы ал Санкт-Петербург университетинде химия профессору болуп иштеп, «Химиянын негиздери» деген окуу китебин жазып жаткан. Ушул китеп анын алдына абдан практикалык суроо койгон: бир нече кеңири тараган элементтер тууралуу бөлүмдөрдөн кийин калгандарын кандай тартипте жазуу керек?\n\n### Эмне болду\n\nАл ыңгайлуу ырааттуулукту эмес, мыйзамды издеген. 1869-жылдын 1-мартында (Россия ал кезде дагы эле колдонгон Юлиан календары боюнча 17-февралда) ал таблицанын долбоорун бүтүргөн. Анда элементтер атомдук салмагы өскөн тартипте тизилип, химиялык жактан окшоштору бир сапка туура келгидей катарларга бөлүнгөн: литий, натрий жана калий бир сапта; фтор, хлор, бром жана йод башка сапта. Кеңири тараган бир аңгемеге караганда, ал ар бир элемент үчүн бирден карточка жазып, пасьянс сыяктуу жайгаштырып отуруп тапкан. Башка бир аңгемеде таблица ага бүт бойдон түшүндө көрүнгөн дешет. Бул аңгеме анын досу, геолог Александр Иностранцевдин көп жылдан кийин айтып берген жалгыз гана күбөлүгүнө таянат, ошондуктан аны уламыш катары окуган туура.\n\nТаблицаны жөн гана иреттүү тизмеден илимий ырастоого айландырган үч кайраттуу чечим болгон.\n\n- **Ал бош орундарды калтырган.** Салмагы боюнча кийинки белгилүү элемент ошол саптын үй-бүлөсүнө туура келбесе, ал ошол жерге суроо белгиси бар бош орун калтырып, ал жерге али ачыла элек элемент таандык деп тобокелге барган. 1869-жылдагы макалада эле алюминийге жана кремнийге окшош, атомдук салмагы 65 менен 75тин ортосундагы жаңы элементтерди күтүүгө болот деп жазылган.\n- **Ал химияны таразадан жогору койгон.** Теллур йоддон бир аз оор, бирок йод хлор жана бром менен бир үй-бүлөдөн экени ачык көрүнүп турат. Менделеев теллурду алдыга коюп, анын өлчөнгөн салмагы туура эмес болушу керек деп жарыялаган.\n- **Ал бул үлгүнү өзүнүн ойлоп тапканы эмес, табияттын тартиби деп эсептеген.** Элементтердин касиеттери, деп жазган ал, атомдук салмагы өскөн сайын мезгил-мезгили менен кайталанат — «мезгилдик таблица» деген ат ушундан келип чыккан. Эки жылдын ичинде ал муну мезгилдик мыйзам деп атай баштаган.\n\n1869-жылдын мартында макала Санкт-Петербургда жаңы гана түзүлгөн Орус химия коомунун жыйынында окулган. Бирок аны Менделеевдин өзү эмес, кесиптеши Николай Меншуткин окуган. Себеби тууралуу булактар ар башкача айтат: көбү Менделеев ооруп калган дейт, айрымдары ал айылдагы сыр жасоочу артелдерди текшерүүгө кеткен дейт. Макала ошол эле жылы коомдун журналында жарык көрүп, кыскача немисче баяндамасы аны Батыш Европага жеткирген.\n\n> [!THEORY]\n> Текчедеги эски энциклопедияны элестетип көрүңүз: ар бир томго алфавиттин бир бөлүгү туура келет. Эгер «Га–Гю» менен «Да–Де» томдорунун ортосундагы том жок болсо, сиз анын бар экенин гана эмес, ичинде болжол менен эмне барын да билесиз, анткени коңшулары анын чегин белгилеп турат. Менделеев таблицаны дал ушундай окуган: бош орундун тегерегиндеги элементтерге карап, жетишпеген элементтин салмагын, тыгыздыгын жана кандай кошулмаларды пайда кыларын болжолдогон. Бул салыштыруу бир жеринен бузулат: энциклопедия томдорунун номери кабында жазылып турат. Элементтерде андай номер жазылган эмес. Менделеев аларды чыныгы номери болбогон салмак боюнча тизүүгө аргасыз болгон, ал эми ошол чыныгы номер эмне экени дагы 44 жылдан кийин гана ачылмак.\n\n![Дмитрий Менделеев 1878-жылы, Иван Крамскойдун портрети](https://upload.wikimedia.org/wikipedia/commons/f/f4/0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev%2C_1878_%28Kramskoy_I.N.%29.jpg \"Ivan Kramskoi · Public domain · https://commons.wikimedia.org/wiki/File:0444Hb._Portrait_of_Dmitri_Ivanovich_Mendeleev,_1878_(Kramskoy_I.N.).jpg\")\n\n### Ачылышты жалгыз бир адам жасаган эмес\n\nМенделеев жалгыз болгон эмес. Германияда Лотар Мейер 1864-жылы эле 28 элементтен турган толук эмес таблицаны жарыялаган; анда элементтер канча байланыш түзөрүнө жараша топторго бөлүнгөн. Ал өз алдынча иштеп, Менделеевдикине абдан окшош толук таблицага жеткен жана аны 1870-жылы жарыялаган. Таблицанын жанында атомдук салмак өскөн сайын атомдордун өлчөмү толкун сымал көтөрүлүп-түшүп турганын көрсөткөн график бар эле — Менделеевдин таблицасында жок болгон мезгилдүүлүктүн сүрөтү. Мейер биринчилик Менделеевге таандык экенин моюнга алган жана жетишпеген элементтер тууралуу кеңири божомолдорду айткан эмес. 1882-жылы Лондондогу Королдук коом Дэви медалын экөөнө тең берген. Беш жылдан кийин ошол эле медалды бир кезде октаваларын шылдыңдашкан Ньюлендс алган.\n\n![Лотар Мейер, 1883-жыл](https://upload.wikimedia.org/wikipedia/commons/6/60/Lothar_Meyer_1883.jpg \"Wilhelm Hornung · Public domain · https://commons.wikimedia.org/wiki/File:Lothar_Meyer_1883.jpg\")\n\n### Эмне үчүн кыйын болду\n\nСалмак боюнча тизүү дээрлик иштейт, ал эми тузак дал ушул «дээрлик» деген сөздө болчу. Таблица айрым салмактарды туура эмес деп жарыялаганда гана маанилүү болуп калчу. Мындай кылган химик же баарынан тереңирээк көрүп жатат, же өзүн өзү алдап жатат. Кээде Менделеев салмак туура эмес өлчөнгөн деп айтканда туура чыккан. Кээде андай болгон эмес: теллур чындап эле йоддон оор. Ошентсе да анын тартиби туура болгон — XIX кылымда эч ким биле албаган себеп менен.\n\nТаблицанын айрым бурчтары бири-бирине окшош элементтердин чаташкан тобу эле. Платина тобундагы алты металл бир эле кендерде чогуу кездешет жана аларды бири-биринен ажыратуу абдан кыйын, ошондуктан алардын салмактары так эмес болчу. Жаш орус химиги Юлия Лермонтова аял болгондуктан Россиянын университеттерине кабыл алынчу эмес, ошондуктан 1869-жылдан баштап Гейдельбергде Роберт Бунзендин жанында окуган. Ал, кыязы, Менделеевдин сунушу менен бул металлдарды ажыратуу ишине киришкен. 1874-жылы ал химия боюнча доктордук даража алган дүйнөдөгү алгачкы аялдардын бири болгон. Сейрек жер металлдары менен иш андан да татаал болгон: алар бири-бирине ушунчалык окшош болгондуктан, ондогон жылдар бою таблицага такыр батпай келген, бүгүн болсо анын астында өзүнчө сапта турат.\n\n### Кийин эмне ачылды\n\n1871-жылы Менделеев жетишпеген үч элементти кеңири сүрөттөп, аларды экаалюминий, экабор жана экасилиций деп атаган («эка» санскритче «бир» дегенди билдирет: алюминийден, бордон жана кремнийден бир орун ары). Он беш жылдын ичинде үчөөнү тең анын сүрөттөмөлөрүнө эмес, өз изилдөөлөрүнө таянган химиктер тапкан: галлийди 1875-жылы Францияда Поль-Эмиль Лекок де Буабодран, скандийди 1879-жылы Швецияда Ларс Фредрик Нильсон, германийди 1886-жылы Германияда Клеменс Винклер. Лекок де Буабодран галлийдин тыгыздыгын жарыялаганда, Менделеев ал жогорураак болушу керек деп жазган; тазараак үлгү анын туура экенин көрсөткөн. Көрүнө элек заттын канча салмакта болорун алдын ала айта алган таблица эми жөн гана каталог эмес, теория болчу.\n\nБожомолдордун баары эле аткарылган эмес. Менделеев такыр пайда болбогон элементтерди да күткөн, ал эми Уильям Рамзай менен лорд Рэлей 1894-жылы аргонду тапканда, ал адегенде анын элемент экенине да шектенген. Аргон жана башка инерттүү газдар — гелий, неон, криптон, ксенон — таблицанын эч бир жерине батпай, анын четине бүтүндөй жаңы мамыча кошулганга чейин ордун таба алган эмес. Таблица ийилди, бирок сынган жок.\n\nТереңирээк жооп 1913-жылы келди. Жаш англис физиги Генри Мозли ар кандай элементтер чыгарган рентген нурларын өлчөп жатып, ар бир элементтин өз бүтүн саны — атомдук номери бар экенин тапкан. Бул голландиялык ышкыбоз физик Антониус ван ден Бруктун эки жыл мурунку болжолун ырастады: ал сан атомдун ядросунун электр зарядына барабар. Элементтерди салмак боюнча эмес, ушул сан боюнча тизсеңиз, теллур эч кандай шылтоосуз эле йоддун алдына турат. Болжол менен он жылдан кийин кванттык механика саптардын эмне үчүн дал ушундай узундукта экенин түшүндүрдү: электрондор ядронун тегерегиндеги кабыктарды толтурат, ал эми сырткы кабыктары окшош элементтер окшош жүрүм-турум көрсөтөт.\n\n1955-жылы лабораторияда алынган 101-номердеги элемент менделевий деп аталган. Бүгүн таблицада 118 элемент бар, ал эми 2019-жылы, анын 150 жылдыгында, Бириккен Улуттар Уюму Мезгилдик таблицанын эл аралык жылын жарыялаган.",
+      "why_it_matters": "Мезгилдик таблица бири-бирине байланышы жок заттардын өсүп бараткан үйүмүн ар бир элементтин коңшулары жана үй-бүлөсү бар картага айлантты, ал эми бош орундары химиктерге эмнени издөө керектигин айтып берди. Божомолдору аткарылганда ал жөн гана тизме эмес, теория болуп калды, жана андан кийинки атомдун ар бир модели таблица эмне үчүн дал ушундай түзүлгөнүн түшүндүрүүгө тийиш болду.",
+      "if_you_were_there": "Химиктер 63 элементти билишчү, бирок алар 70 бекен же 700 бекен, айрымдары эмне үчүн жакын туугандардай окшош жүрөрүн билишчү эмес; атомдор чын эле барбы деген суроо да али талаш болчу.",
+      "place_name": "Санкт-Петербург, Россия",
+      "status": "machine"
+    }
+  }
+}
