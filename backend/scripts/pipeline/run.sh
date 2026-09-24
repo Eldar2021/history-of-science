@@ -15,7 +15,7 @@
 #   SUPABASE_DB_URL               where load.sh writes; unset means the local container
 #   TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID      optional; without them the run just prints
 #   REVIEW_QUEUE_LIMIT            default 10
-#   PIPELINE_MODEL                default: whatever the CLI is configured with
+#   PIPELINE_MODEL                CI pins it (content-pipeline.yml); unset locally means the CLI default
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
@@ -66,7 +66,7 @@ fi
 
 echo "writing rank $RANK — $SLUG"
 # An `x && y` one-liner here would leave the script on a non-zero status under `set -e` whenever
-# PIPELINE_MODEL is unset, which is the normal case.
+# PIPELINE_MODEL is unset, which is the normal case on a laptop.
 MODEL_ARGS=()
 if [ -n "${PIPELINE_MODEL:-}" ]; then MODEL_ARGS=(--model "$PIPELINE_MODEL"); fi
 
