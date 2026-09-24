@@ -72,6 +72,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CONTENT_PIPELINE_ENABLED: ${{ vars.CONTENT_PIPELINE_ENABLED || '1' }}
+          # Pinned so a change in the CLI's default model cannot silently change the content.
+          # A repository variable of the same name overrides it without a pull request.
+          PIPELINE_MODEL: ${{ vars.PIPELINE_MODEL || 'claude-opus-5-5' }}
         run: |
           if [ "${{ inputs.check_only }}" = "true" ]; then
             bash backend/scripts/pipeline/run.sh --check
