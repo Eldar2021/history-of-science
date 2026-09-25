@@ -124,8 +124,8 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
      şeridindeki ağırlık; **ayrı iki şey**.
   2. **Gövde kelime tavanı kalktı.** Özetin 200 karakteri kaldı (yerleşim kuralı). Ölçü kelime sayısı
      değil dolgu yokluğu: her paragraf yeni bir olgu getirir.
-  3. **Gece hattı** (yazılacak): Bişkek 22:00, elle de çalıştırılabilir. Veriyi doğrudan veritabanına
-     `status='review'` yazar; **Telegram yalnızca haber verir**, içerik taşımaz.
+  3. **Gece hattı** (ADR-039): veriyi doğrudan veritabanına `status='review'` yazar; **Telegram
+     yalnızca haber verir**, içerik taşımaz.
   4. Sıradaki olay = "listede karşılığı veritabanında olmayan en düşük `rank`". **İmleç dosyası yok**;
      konum veritabanından türer, o yüzden gece koşusu ile elle koşu birbirini ezmez.
 - **Gerekçe**: Silmeden önce yeni tarifin daha iyi olduğunu kanıtlamayı önerdim; kullanıcı site fiilen
@@ -139,7 +139,8 @@ ilk bakılacak yer burası; açık palet `git log`'da, geri getirmek bir commit.
   **içinde**, atlanamaz: özet uzunluğu, lisans bütünlüğü, kutu anahtarları, iki kaynak. Yükleyici
   `status <> 'published'` ile korumalı, yani insan yayınladıktan sonra hat o olaya dokunamaz. `builds_on`
   hedefleri çoğu zaman henüz yok (sıra kronolojik değil); bağlantı iki ucu da var olduğunda eklenir,
-  bekleyen-bağlantı durumu hiçbir yerde tutulmaz.
+  bekleyen-bağlantı durumu hiçbir yerde tutulmaz. Bunu her koşunun sonundaki bağlantı geçişi sağlar
+  (`load.sh --links-only`); bağlantı olay satırına dokunmadığı için yayınlanmış olaya da eklenir.
 
 ---
 

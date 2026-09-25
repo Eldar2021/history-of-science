@@ -4,19 +4,21 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 
 ## Açık sorular
 
-| #   | Soru                                                    | Ne zaman | Not                                     |
-| --- | ------------------------------------------------------- | -------- | --------------------------------------- |
-| S12 | Hata bildirimi nereye: e-posta mı, admin "bildirimler"? | Faz C    | Öneri ikisi; e-posta yedek              |
-| S13 | Kırgızca öğretmen ve Rusça gözden geçirici ne zaman?    | Faz D    | İngilizce beta bitince; `editor` hesabı |
-| S14 | Alan adı hangisi?                                       | Faz C    | uchkun.science / .kg / .org             |
+| #   | Soru                                                    | Ne zaman  | Not                                     |
+| --- | ------------------------------------------------------- | --------- | --------------------------------------- |
+| S12 | Hata bildirimi nereye: e-posta mı, admin "bildirimler"? | Faz C     | Öneri ikisi; e-posta yedek              |
+| S13 | Kırgızca ve Rusça gözden geçirici kim, ne zaman?        | Faz Q     | Öne çekildi: 143 çeviri `machine`       |
+| S14 | Alan adı hangisi?                                       | Faz C     | uchkun.science / .kg / .org             |
 | S15 | Analitik ve Sentry ne zaman, hangisi?                   | Ertelendi | Kullanıcı 2026-09-05: şimdilik yok      |
 
 ## Canlı riskler
 
-- **R1 İçerik kodun gerisinde kalır.** Artık **canlı risk**: teknik taraf bitti, darboğaz içerik.
-  Faz B'de hat ile çözülür; sinyal: reddetme oranı %30 üstü → prompt'u ayarla, kaynak eşiğini 4'e çıkar.
-- **R2 Tarihsel hata yayınlanır.** Dürüstlük bandı + iki kaynak kuralı + araştırma notu. Düzeltmeler
-  `about` sayfasında listelenecek (Faz C).
+- **R2 Tarihsel hata yayınlanır. Gerçekleşti.** 2026-09-24'te yayındaki üç olay (Uluğ Bey,
+  Haber-Bosch, Rutherford) bağımsız kontrol edildi: ~5.200 İngilizce kelimede **7 somut hata** + 4
+  abartı, yaklaşık 750 kelimede bir. Yıl, yer, kişi, görsel künyesi doğru; hatalar hikâyeyi canlandıran
+  ayrıntılarda (bir çocuğun yaşı, "yıkıldı" efsanesi, üretim tonajı, "hiç dedektör yoktu"). Hattın kendi
+  fact-checker adımı ve insan onayı ikisini de kaçırdı; hata dört dile aynen kopyalanıyor. Plan: Faz Q.
+- **R1 İçerik hızı** artık risk değil: 18 günde 37 olay. Darboğaz hız değil doğruluk (R2).
 - **R3 Kırgızca çeviri kalitesi.** Claude (tr+ru referanslı) → kullanıcı okur → öğretmen terimleri kontrol
   eder → `reviewed`. Birikirse `machine` rozetli kalır, sorun değil.
 - **R9 Hattın kotası ve token'ı.** Para riski ADR-039 ile bitti (abonelik, ölçülen API değil). Kalan iki
@@ -34,5 +36,5 @@ Cevaplanan soru ve çözülen risk buradan çıkar; kararı `kararlar.md`'de, uy
 - Zaman boşluğu işaretine tek cümlelik anlatı notu ("Optik iyi cam ve matbaayı bekledi"); `gaps` tablosu gerekir.
 - Disiplin filtresi ve minimap şeridin üstünde (eski `/timeline`'dan).
 - "Orada olsaydın" etkileşimli senaryolar · "Geriye sar" modu · Sesli anlatım · Öğretmen sunum modu.
-- Kullanıcı olay önerisi + editör onayı · Quiz · Arama · Flutter, çevrimdışı, günlük bildirim.
+- Kullanıcı olay önerisi + editör onayı · Quiz · Flutter, çevrimdışı, günlük bildirim.
 - Go backend'e geçiş (ADR-002).

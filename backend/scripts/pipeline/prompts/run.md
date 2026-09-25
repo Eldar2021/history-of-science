@@ -76,7 +76,9 @@ what was confirmed, what is flagged in the body, and what the reviewer should ch
 
 ## 6. Verify adversarially, before loading
 
-Run the `fact-checker` agent on the draft file. It reports; you fix. Treat "belirsiz" as a reason to
+Run the `fact-checker` agent on the draft file **in the foreground** and wait for its report — a
+background agent still running when you finish kills the run (the 2026-09-18 run died that way after
+600 seconds). It reports; you fix. Treat "belirsiz" as a reason to
 soften the claim in the body or drop it, not as a reason to publish it louder. Carry anything it could
 not confirm into `research_note`.
 

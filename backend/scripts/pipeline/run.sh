@@ -103,6 +103,10 @@ import("./backend/scripts/pipeline/env.mjs").then(async (m) => {
 })' "$SLUG")"
 
 if [ "$STATUS" = "review" ]; then
+  # The run loaded one file. Links from older events to the one just written, and any other link whose
+  # target has arrived since, only appear when the whole directory is passed through again.
+  bash backend/scripts/pipeline/load.sh --links-only backend/content/drafts \
+    || echo "warning: the link pass failed; the event itself is in review" >&2
   notify "✅ Uchkun: yeni olay incelemede — $SLUG (sıra $RANK)
 
 $REPORT"

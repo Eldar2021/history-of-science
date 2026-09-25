@@ -3,6 +3,7 @@
 #
 #   backend/scripts/pipeline/load.sh backend/content/drafts/<slug>.json
 #   backend/scripts/pipeline/load.sh --dry-run backend/content/drafts        # validate the whole dir
+#   backend/scripts/pipeline/load.sh --links-only backend/content/drafts     # add links whose ends now exist
 #
 # The contract check lives inside draft-to-sql.mjs and cannot be skipped: a malformed draft fails here
 # instead of landing half-written (ADR-036). Every statement is guarded by `status <> 'published'`, so
@@ -15,12 +16,14 @@
 set -euo pipefail
 
 DRY=0
+MODE=()
 if [ "${1:-}" = "--dry-run" ]; then DRY=1; shift; fi
+if [ "${1:-}" = "--links-only" ]; then MODE=(--links-only); shift; fi
 TARGET="${1:-backend/content/drafts}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
 CONTAINER="${SUPABASE_DB_CONTAINER:-supabase_db_uchkun}"
 
-SQL="$(node "$ROOT/backend/scripts/draft-to-sql.mjs" "$TARGET")"
+SQL="$(node "$ROOT/backend/scripts/draft-to-sql.mjs" ${MODE[@]+"${MODE[@]}"} "$TARGET")"
 
 if [ "$DRY" = 1 ]; then
   echo "$SQL"
