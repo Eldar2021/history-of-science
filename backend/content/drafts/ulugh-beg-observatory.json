@@ -67,7 +67,7 @@
       }
     }
   ],
-  "builds_on": ["al-khwarizmi", "al-biruni"],
+  "builds_on": ["al-khwarizmi-algebra", "al-biruni-earth-radius"],
   "sources": [
     {
       "title": "Ulūgh Beg — Britannica (linked for human review; blocks automated fetches)",

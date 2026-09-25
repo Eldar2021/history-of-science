@@ -53,13 +53,18 @@ backend/
 
 İki katman, ve para harcayan yalnızca ikincisi:
 
-| Katman            | Ne yapar                                                                       |
-| ----------------- | ------------------------------------------------------------------------------ |
-| `next-event.mjs`  | sıradaki olay = listede olup veritabanında olmayan en düşük `rank`; imleç dosyası yok. Çıkış 3 = liste bitti, 4 = inceleme kuyruğu dolu (ADR-014) |
-| `commons.mjs`     | lisansı Commons API'sinden **okur**; serbest olmayanı reddeder, künye dizesini üretir |
-| `load.sh`         | `draft-to-sql.mjs` ile doğrular ve `status='review'` yazar; `psql` yoksa yerel Supabase konteynerininkini kullanır |
-| `run.sh`          | önce kuyruğu sorar (model çağırmadan), sonra `prompts/run.md`'yi `claude -p` ile koşturur, sonunda **veritabanından** doğrular |
-| `notify.sh`       | Telegram'a haber; sır yoksa ekrana basar                                        |
+| Katman           | Ne yapar                                                                                                                                                                                                   |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `next-event.mjs` | sıradaki olay = listede olup veritabanında olmayan en düşük `rank`; imleç dosyası yok. Çıkış 3 = liste bitti, 4 = inceleme kuyruğu dolu (ADR-014)                                                          |
+| `commons.mjs`    | lisansı Commons API'sinden **okur**; serbest olmayanı reddeder, künye dizesini üretir                                                                                                                      |
+| `load.sh`        | `draft-to-sql.mjs` ile doğrular ve `status='review'` yazar; `psql` yoksa yerel Supabase konteynerininkini kullanır                                                                                         |
+| `run.sh`         | önce kuyruğu sorar (model çağırmadan), sonra `prompts/run.md`'yi `claude -p` ile koşturur, sonunda **veritabanından** doğrular ve bütün taslaklar üzerinden bağlantı geçişi yapar (`load.sh --links-only`) |
+| `notify.sh`      | Telegram'a haber; sır yoksa ekrana basar                                                                                                                                                                   |
+
+Model workflow'da sabit: `PIPELINE_MODEL` (varsayılan `claude-opus-5-5`, aynı adlı repo değişkeni
+ezer). GitHub zamanlanmış koşuyu geciktiriyor: 16:00 UTC'ye kurulu koşular gerçekte 18:00-20:30 UTC
+arasında başlıyor. Yükleyici `builds_on` hedefini iki kuyrukta ya da `drafts/`'ta bulamazsa reddeder
+(yazım hatası, bekleyen bağlantı değil).
 
 Kimlik: ortam değişkenleri → `backend/.env.pipeline` (bulut, gitignore'da) → `web/.env.local` (yerel).
 Yerel veritabanındaki 10 yayınlanmış satır e2e fikstürü olduğu için kuyruk konumu orada yanıltır;
@@ -78,17 +83,17 @@ birikirse hat kendiliğinden durur (ADR-014).
 Gerçek kaynak `backend/supabase/migrations/`. Her varlığın dilden bağımsız bir tablosu ve bir
 `*_translations` tablosu var. `locale_code`: `en | ru | ky | tr`.
 
-| Tablo                                           | Taşıdığı                                                                                                                                  |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `eras`, `era_translations`                      | 8 çağ: slug, start_year, end_year, sort_order, color · name, tagline, description                                                          |
-| `disciplines`, `discipline_translations`        | 8 disiplin: slug, color, icon · name                                                                                                       |
+| Tablo                                           | Taşıdığı                                                                                                                                                                                  |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `eras`, `era_translations`                      | 8 çağ: slug, start_year, end_year, sort_order, color · name, tagline, description                                                                                                         |
+| `disciplines`, `discipline_translations`        | 8 disiplin: slug, color, icon · name                                                                                                                                                      |
 | `events`                                        | slug, year, year_end, `"precision"`, era_id, importance 1-5, status, drafted_by, research_note, source_locale, görsel + lisans, `lat`/`lng`/`place_precision`, created/updated/deleted_at |
-| `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, `place_name`, status, search (tsvector)                                |
-| `event_disciplines`                             | olay ↔ disiplin                                                                                                                            |
-| `people`, `person_translations`, `event_people` | Faz D                                                                                                                                      |
-| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır; ters yön aynı satırın okunuşu                                                                            |
-| `sources`                                       | event_id, title, url, kind                                                                                                                 |
-| `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                              |
+| `event_translations`                            | title, summary, body (markdown), why_it_matters, if_you_were_there, `place_name`, status, search (tsvector)                                                                               |
+| `event_disciplines`                             | olay ↔ disiplin                                                                                                                                                                           |
+| `people`, `person_translations`, `event_people` | Faz D                                                                                                                                                                                     |
+| `event_links`                                   | from → to + `link_type`; yalnızca `builds_on` saklanır; ters yön aynı satırın okunuşu                                                                                                     |
+| `sources`                                       | event_id, title, url, kind                                                                                                                                                                |
+| `profiles`                                      | auth.users'a bağlı: `role` (admin/editor/viewer), `ui_locale`                                                                                                                             |
 
 Enum'lar: `year_precision` (exact/circa/decade/century), `place_precision` (exact/city/region/continent/
 unknown), `content_status` (draft/review/published), `author_kind` (human/ai), `translation_status`
@@ -108,7 +113,7 @@ unknown), `content_status` (draft/review/published), `author_kind` (human/ai), `
 - İçerik tablolarında `select` herkese açık ama yalnızca `status = 'published' and deleted_at is null`
   `insert/update/delete` yalnızca `profiles.role in ('admin','editor')`.
 - `/admin` ayrıca `proxy.ts` ile korunur: anonim → **302** `/admin/login?next=…`, rolsüz → `?error=forbidden`.
-- Storage bucket `images`: public read, admin write. Claude API anahtarı yalnızca sunucuda.
+- Storage bucket `images`: public read, admin write.
 - Kanıt: `backend/scripts/rls-proof.sh` anon key ile REST/RPC'yi dener.
 - **Bilinen açık**: `profiles` yazma yalnızca admin; `editor` kendi `ui_locale`'ini değiştiremez (Faz D).
 
@@ -173,15 +178,15 @@ TELEGRAM_BOT_TOKEN= / TELEGRAM_CHAT_ID= / CONTENT_PIPELINE_ENABLED=   # hat; hi�
 
 ## İşletme
 
-| Ne          | Nerede                                                | Not                                                        |
-| ----------- | ----------------------------------------------------- | ---------------------------------------------------------- |
-| CI          | `.github/workflows/ci.yml`                            | Her PR: `npm run check` + yerel Supabase'li Playwright      |
-| Yedek       | `.github/workflows/backup.yml`, `scripts/backup.sh`   | Gece 02:00 UTC, 90 gün artefakt; `SUPABASE_DB_URL` sırrı    |
-| İçerik hattı| `.github/workflows/content-pipeline.yml`, `scripts/pipeline/` | 16:00 UTC (Bişkek 22:00) + elle tetikleme; sırlar ve durdurma aşağıda |
-| Hata sayfası| `app/[locale]/error.tsx`, `app/global-error.tsx`      | İlki dört dilde, ikincisi son çare İngilizce                |
-| Keşif       | `app/sitemap.ts`, `app/robots.ts`, `lib/site.ts`      | 44 URL, `hreflang` + `x-default`, canonical                 |
-| Paylaşım    | `app/[locale]/opengraph-image.tsx` (+ olay için)      | `next/og`, Literata (OFL) `web/assets`'ten, 1200×630        |
-| Şifre kurtarma | `/admin/forgot-password` → e-posta → `/api/auth/callback` → `/admin/reset-password` | Auth izin listesi uygulamanın adresini içermeli |
+| Ne             | Nerede                                                                              | Not                                                                             |
+| -------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| CI             | `.github/workflows/ci.yml`                                                          | Her PR: `npm run check` + yerel Supabase'li Playwright                          |
+| Yedek          | `.github/workflows/backup.yml`, `scripts/backup.sh`                                 | Gece 02:00 UTC, 90 gün artefakt; `SUPABASE_DB_URL` sırrı                        |
+| İçerik hattı   | `.github/workflows/content-pipeline.yml`, `scripts/pipeline/`                       | 16:00 UTC (Bişkek 22:00) + elle tetikleme; sırlar ve durdurma aşağıda           |
+| Hata sayfası   | `app/[locale]/error.tsx`, `app/global-error.tsx`                                    | İlki dört dilde, ikincisi son çare İngilizce                                    |
+| Keşif          | `app/sitemap.ts`, `app/robots.ts`, `lib/site.ts`                                    | Dil başına ana sayfa + yayınlanmış olaylar, `hreflang` + `x-default`, canonical |
+| Paylaşım       | `app/[locale]/opengraph-image.tsx` (+ olay için)                                    | `next/og`, Literata (OFL) `web/assets`'ten, 1200×630                            |
+| Şifre kurtarma | `/admin/forgot-password` → e-posta → `/api/auth/callback` → `/admin/reset-password` | Auth izin listesi uygulamanın adresini içermeli                                 |
 
 Adres tek yerden: `lib/site.ts` içindeki `SITE_ORIGIN` (`NEXT_PUBLIC_SITE_URL`, yoksa üretim adresi).
 Metadata, sitemap, robots, OG ve hata bildirimi mailto'su hepsi onu okur.

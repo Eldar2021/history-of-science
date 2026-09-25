@@ -108,7 +108,10 @@ Batı dışı katkı varsa gövdede geçer.
 2. **Yıl çelişirse**: `circa` işaretle ve gövdede "kaynaklar 1609-1610 arasında" diye belirt.
 3. **Öncelik tartışması varsa**: hepsini yaz, kahraman seçme.
 4. **Claude taslak yazar, sen doğrularsın.** Şüphe varsa yayınlamayız.
-5. **Hata bildirimi**: dürüstlük bandındaki mailto. Düzeltmeler `about` sayfasında listelenir (Faz C).
+5. **Hata bildirimi**: dürüstlük bandındaki mailto. Düzeltmeler herkese açık listelenir (Faz Q5).
+6. **Süsleme yasak**: hikâyeyi canlandırmak için eklenen yaş, tonaj, süre, alıntı ya da "ilk / hiç"
+   kaynaksızsa kesilir. Yayındaki olayların denetiminde hataların hepsi bu türdendi
+   (`backend/content/audit/`).
 
 ## Görseller ve lisans
 

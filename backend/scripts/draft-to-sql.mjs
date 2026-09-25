@@ -14,15 +14,34 @@
  * not chronological order, so a draft usually names targets that are not written yet. There is no
  * pending-link state anywhere: run this over the whole drafts directory and every link whose two ends
  * now exist is inserted, so the graph completes itself as the list fills in.
+ *
+ *   node backend/scripts/draft-to-sql.mjs --links-only [dir]
+ *
+ * emits only those link inserts. The pipeline runs it over the whole directory after every load: a
+ * nightly run loads one file, so without this pass a link whose target arrived later never appeared
+ * (Newton → Kepler stayed missing after Kepler was published). A link touches no event row, so it is
+ * not guarded by status.
  */
 import { readdirSync, readFileSync, statSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const target = process.argv[2] ?? "backend/content/drafts";
+const args = process.argv.slice(2);
+const LINKS_ONLY = args[0] === "--links-only";
+if (LINKS_ONLY) args.shift();
+const target = args[0] ?? "backend/content/drafts";
 const files = statSync(target).isDirectory()
   ? readdirSync(target).filter((f) => f.endsWith(".json")).map((f) => join(target, f))
   : [target];
 const drafts = files.map((f) => JSON.parse(readFileSync(f, "utf8")));
+
+/** Every slug a builds_on may name: the two queues plus whatever drafts exist. */
+const CONTENT = join(dirname(fileURLToPath(import.meta.url)), "../content");
+const KNOWN_SLUGS = new Set([
+  ...["top100.json", "extension-queue.json"].flatMap(
+    (f) => JSON.parse(readFileSync(join(CONTENT, f), "utf8")).events.map((e) => e.slug)),
+  ...readdirSync(join(CONTENT, "drafts")).filter((f) => f.endsWith(".json")).map((f) => f.slice(0, -5)),
+]);
 
 const LOCALES = ["en", "ru", "ky", "tr"];
 const DISCIPLINES = ["mathematics","physics","astronomy","chemistry","biology","medicine","earth","technology"];
@@ -43,6 +62,9 @@ function validate(d) {
   for (const s of d.disciplines ?? []) need(DISCIPLINES.includes(s), `unknown discipline: ${s}`);
   need((d.sources ?? []).length >= 2, "at least two sources (icerik.md)");
   need((d.sources ?? []).some((s) => s.kind === "encyclopedia"), "at least one encyclopedia source");
+  // A target that is in neither queue can never link: it is a typo, not a link waiting for its event.
+  for (const to of d.builds_on ?? [])
+    need(KNOWN_SLUGS.has(to), `builds_on "${to}" is not a slug in top100.json, extension-queue.json or drafts/`);
 
   const img = d.image ?? {};
   if (img.path) need(img.credit && img.license && img.source_url,
@@ -69,7 +91,18 @@ const num = (v) => (v == null ? "null" : String(v));
 /** id of the event, but only while it is not published. */
 const eid = (slug) => `(select id from events where slug = ${q(slug)} and status <> 'published')`;
 
+const linkInserts = (d) => (d.builds_on ?? []).map((to) => `insert into event_links (from_event_id, to_event_id, type)
+select f.id, t.id, 'builds_on' from events f, events t
+where f.slug = ${q(d.slug)} and t.slug = ${q(to)} and f.id <> t.id
+on conflict do nothing;`);
+
 const out = ["begin;"];
+
+if (LINKS_ONLY) {
+  out.push(...drafts.flatMap(linkInserts), "commit;");
+  process.stdout.write(out.join("\n") + "\n");
+  process.exit(0);
+}
 
 for (const d of drafts) {
   if (d.status !== "review") throw new Error(`${d.slug}: this script only loads status='review' drafts`);
@@ -131,12 +164,7 @@ on conflict (event_id, person_id) do update set role = excluded.role;`);
 select ${eid(d.slug)}, ${q(s.title)}, ${q(s.url)}, ${q(s.kind)} where ${eid(d.slug)} is not null;`);
   }
 
-  for (const to of d.builds_on ?? []) {
-    out.push(`insert into event_links (from_event_id, to_event_id, type)
-select f.id, t.id, 'builds_on' from events f, events t
-where f.slug = ${q(d.slug)} and t.slug = ${q(to)} and f.id <> t.id
-on conflict do nothing;`);
-  }
+  out.push(...linkInserts(d));
 }
 
 out.push("\ncommit;");
