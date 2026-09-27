@@ -1,0 +1,278 @@
+{
+  "slug": "roentgen-x-rays",
+  "year": 1895,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 49.8,
+  "lng": 9.9308,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg",
+    "credit": "Wilhelm Röntgen",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg"
+  },
+  "disciplines": [
+    "physics",
+    "medicine"
+  ],
+  "people": [
+    {
+      "slug": "wilhelm-rontgen",
+      "birth_year": 1845,
+      "death_year": 1923,
+      "role": "author",
+      "name": {
+        "en": "Wilhelm Conrad Röntgen",
+        "tr": "Wilhelm Conrad Röntgen",
+        "ru": "Вильгельм Конрад Рентген",
+        "ky": "Вильгельм Конрад Рентген"
+      }
+    },
+    {
+      "slug": "anna-bertha-rontgen",
+      "birth_year": 1839,
+      "death_year": 1919,
+      "role": "contemporary",
+      "name": {
+        "en": "Anna Bertha Röntgen",
+        "tr": "Anna Bertha Röntgen",
+        "ru": "Анна Берта Рентген",
+        "ky": "Анна Берта Рентген"
+      }
+    },
+    {
+      "slug": "philipp-lenard",
+      "birth_year": 1862,
+      "death_year": 1947,
+      "role": "predecessor",
+      "name": {
+        "en": "Philipp Lenard",
+        "tr": "Philipp Lenard",
+        "ru": "Филипп Ленард",
+        "ky": "Филипп Ленард"
+      }
+    },
+    {
+      "slug": "william-crookes",
+      "birth_year": 1832,
+      "death_year": 1919,
+      "role": "predecessor",
+      "name": {
+        "en": "William Crookes",
+        "tr": "William Crookes",
+        "ru": "Уильям Крукс",
+        "ky": "Уильям Крукс"
+      }
+    },
+    {
+      "slug": "arthur-goodspeed",
+      "birth_year": 1860,
+      "death_year": 1943,
+      "role": "predecessor",
+      "name": {
+        "en": "Arthur Goodspeed",
+        "tr": "Arthur Goodspeed",
+        "ru": "Артур Гудспид",
+        "ky": "Артур Гудспид"
+      }
+    },
+    {
+      "slug": "john-hall-edwards",
+      "birth_year": 1858,
+      "death_year": 1926,
+      "role": "contemporary",
+      "name": {
+        "en": "John Hall-Edwards",
+        "tr": "John Hall-Edwards",
+        "ru": "Джон Холл-Эдвардс",
+        "ky": "Джон Холл-Эдвардс"
+      }
+    },
+    {
+      "slug": "alexander-popov",
+      "birth_year": 1859,
+      "death_year": 1906,
+      "role": "contemporary",
+      "name": {
+        "en": "Alexander Popov",
+        "tr": "Aleksandr Popov",
+        "ru": "Александр Попов",
+        "ky": "Александр Попов"
+      }
+    },
+    {
+      "slug": "clarence-dally",
+      "birth_year": 1865,
+      "death_year": 1904,
+      "role": "contemporary",
+      "name": {
+        "en": "Clarence Dally",
+        "tr": "Clarence Dally",
+        "ru": "Кларенс Далли",
+        "ky": "Кларенс Далли"
+      }
+    },
+    {
+      "slug": "max-von-laue",
+      "birth_year": 1879,
+      "death_year": 1960,
+      "role": "successor",
+      "name": {
+        "en": "Max von Laue",
+        "tr": "Max von Laue",
+        "ru": "Макс фон Лауэ",
+        "ky": "Макс фон Лауэ"
+      }
+    },
+    {
+      "slug": "marie-curie",
+      "birth_year": 1867,
+      "death_year": 1934,
+      "role": "successor",
+      "name": {
+        "en": "Marie Curie",
+        "tr": "Marie Curie",
+        "ru": "Мария Кюри",
+        "ky": "Мария Кюри"
+      }
+    },
+    {
+      "slug": "dorothy-hodgkin",
+      "birth_year": 1910,
+      "death_year": 1994,
+      "role": "successor",
+      "name": {
+        "en": "Dorothy Hodgkin",
+        "tr": "Dorothy Hodgkin",
+        "ru": "Дороти Ходжкин",
+        "ky": "Дороти Ходжкин"
+      }
+    },
+    {
+      "slug": "rosalind-franklin",
+      "birth_year": 1920,
+      "death_year": 1958,
+      "role": "successor",
+      "name": {
+        "en": "Rosalind Franklin",
+        "tr": "Rosalind Franklin",
+        "ru": "Розалинд Франклин",
+        "ky": "Розалинд Франклин"
+      }
+    }
+  ],
+  "builds_on": [
+    "faraday-induction"
+  ],
+  "sources": [
+    {
+      "title": "Wilhelm Röntgen — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Wilhelm-Rontgen"
+    },
+    {
+      "title": "Wilhelm Röntgen — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+    },
+    {
+      "title": "X-ray (history section) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/X-ray"
+    },
+    {
+      "title": "Wilhelm Röntgen — Scientist of the Day, Linda Hall Library",
+      "kind": "article",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/wilhelm-rontgen-2/"
+    },
+    {
+      "title": "Röntgen Memorial Site, Würzburg — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/R%C3%B6ntgen_Memorial_Site"
+    },
+    {
+      "title": "Wilhelm Conrad Röntgen 1895–2020: an exhibition of the University of Würzburg (catalogue, PDF)",
+      "kind": "article",
+      "url": "https://www.uni-wuerzburg.de/fileadmin/uniwue/Presse/pdf-Dateien/Roentgen-Ausstellungskatalog_en.pdf"
+    },
+    {
+      "title": "November 8, 1895: Roentgen's Discovery of X-Rays — APS News",
+      "kind": "article",
+      "url": "https://www.aps.org/apsnews/2001/11/1895-roentgens-discovery-xrays"
+    },
+    {
+      "title": "Father and Son Jointly Announced the Discovery of Röntgen Rays in Two Consecutive Press Articles – Revisited. Journal of the Belgian Society of Radiology (PMC9818045)",
+      "kind": "article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9818045/"
+    },
+    {
+      "title": "Clarence Madison Dally — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Clarence_Madison_Dally"
+    },
+    {
+      "title": "Marie Curie — Wikipedia (First World War section)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Marie_Curie"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1914 — Perspectives: X-ray's identity becomes crystal clear",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/physics/1914/perspectives/"
+    },
+    {
+      "title": "Aleksandr Stepanovich Popov — EBSCO Research Starters",
+      "kind": "encyclopedia",
+      "url": "https://www.ebsco.com/research-starters/history/aleksandr-stepanovich-popov/"
+    },
+    {
+      "title": "Röntgen, W. C. (1895). Ueber eine neue Art von Strahlen. Sitzungsberichte der Physikalisch-Medicinischen Gesellschaft zu Würzburg",
+      "kind": "paper",
+      "url": "https://commons.wikimedia.org/wiki/File:%C3%9Cber_eine_neue_Art_von_Strahlen_01.jpg"
+    }
+  ],
+  "research_note": "Checked 2026-09-27 (nightly pipeline, rank 41 of 100). YEAR: 1895 exact, no dispute. Discovery late evening Friday 8 Nov 1895, Physics Institute, Würzburg (Wikipedia Röntgen, Röntgen Memorial Site, Linda Hall). Hand radiograph 22 Dec 1895 (Commons file date, Linda Hall). Paper handed in 28 Dec 1895; reprints posted 1 Jan 1896; Exner/Lecher/Die Presse 4-5 Jan 1896 (PMC9818045). Lecture 23 Jan 1896, Kölliker (Linda Hall). >1000 articles in 1896 (Wikipedia X-ray, after Glasser: 49 essays, 1044 articles). Britannica linked for human review only (automated fetch blocked); APS and nobelprize.org also returned 403 to the fetcher and are linked, not relied on alone.\nFLAGGED IN THE BODY: (1) \"I have seen my death\" presented in a NOTE box as a later retelling that cannot be checked. (2) Popov: 'began X-ray photographs in 1896' (EBSCO; fact-checker found etu.ru/radi0.ru: tube Feb 1896, hospital apparatus 1896, X-ray room 1897); the Kronstadt apparatus is attributed to 'Russian histories', not stated as bare fact. (3) Prior unnoticed X-rays: Goodspeed & Jennings 22 Feb 1890, Zehnder 1890, Lenard's tube 'may have'.\nNO LONE HERO: Lenard, Crookes, Goodspeed/Jennings, Zehnder, Exner/Lecher, Kölliker, Hall-Edwards, Frost brothers, Popov (Russian reader), Dally, Laue/Friedrich/Knipping, Marie and Irène Curie, Becquerel, the Braggs, Dorothy Hodgkin, Rosalind Franklin. No Central Asian contribution found for this event; none invented.\nFACT-CHECKER FIXES APPLIED (all four languages): summary no longer says rays do not pass bone (they are absorbed more strongly); removed 'for the first time doctors could look inside a living body' (ophthalmoscope 1851, cystoscope 1877 came earlier) -> 'see bones and objects lodged in the body'; THEORY box now explains absorption by heavier atoms (calcium) instead of 'gaps between atoms'; Dally: left hand and four fingers of the right first, then both arms; Die Presse 'front page' softened to 'appeared in'. builds_on reduced to faraday-induction (induction coil); maxwell-electromagnetic-light dropped because Röntgen did not use Maxwell's theory and the electromagnetic nature was only shown in 1912 — reviewer may re-add as a conceptual link.\nNOT INDEPENDENTLY FETCHED (fact-checker judged correct from general knowledge): materials list from the 1895 paper (1000-page book, wood, aluminium, lead); no patent and prize money left to Würzburg (search snippets + Wikipedia); Lenard's resentment into the 1930s (search snippet only); Becquerel's motivation; Braggs 1913; Laue Nobel 1914 (nobelprize.org perspectives, search result).\nPLACE: pin is the former Physics Institute, Röntgenring 8, Würzburg (Röntgen Memorial Site, 49°48'00\"N 9°55'51\"E).\nIMAGES: all read from the Commons API via commons.mjs, all Public domain: cover and figure = hand radiograph 18951222 (credit 'Wilhelm Röntgen'); first page of 'Über eine neue Art von Strahlen' (credit 'Wilhelm Conrad Röntgen'); 'Crookes tube xray experiment.jpg' 1896 (credit 'William J. Morton').\nREVIEWER SHOULD CHECK: Kyrgyz technical words not in the glossary: 'барий платиносинеродиди', 'жез купоросу', 'сиңирип алат' (absorb), 'сол колунун билегинен төмөнкү бөлүгү' (left hand), 'тор' for diffraction grating; glossary term 'тажрыйба' (high). Whether Anna Bertha's hand is the cover and also a figure is acceptable (duplicated image).",
+  "translations": {
+    "en": {
+      "title": "Röntgen discovers X-rays",
+      "summary": "In November 1895 Wilhelm Röntgen saw a screen glow beside a covered tube. The invisible rays crossed flesh far more easily than bone: doctors could now see bones inside a living body.",
+      "why_it_matters": "X-rays let medicine see bones and foreign objects inside a living body without cutting, and within weeks of the announcement they were finding needles and broken bones. They also opened new physics: radioactivity was found while chasing them, and X-ray crystallography later revealed the shapes of penicillin and DNA.",
+      "if_you_were_there": "You would have read about it in a newspaper in January 1896, beside pictures of a skeleton hand, and nobody could yet tell you what the rays were or that they could burn you.",
+      "place_name": "Physics Institute, University of Würzburg, Germany",
+      "body": "### The scene\n\nIn the autumn of 1895 physicists across Europe were experimenting with the same glass device. A Crookes tube is a glass bulb pumped almost empty of air, with a metal plate sealed into each end. Drive a high voltage across it with an induction coil and the glass glows green, because something streams out of the negative plate. Nobody agreed what that something was. Many German physicists thought these \"cathode rays\" were waves in the ether; many British physicists thought they were a stream of charged particles. Philipp Lenard had built a tube with a thin aluminium window that let the cathode rays out a few centimetres into the air.\n\nWilhelm Conrad Röntgen, fifty years old and head of the Physics Institute at the University of Würzburg, was repeating these experiments with Lenard and Crookes–Hittorf tubes. He was known as a careful measurer, not as a famous discoverer.\n\n### What happened\n\nOn the late evening of Friday 8 November 1895, Röntgen wrapped a tube in black cardboard so that no light could escape and darkened the room. When he switched on the current, a paper screen painted with barium platinocyanide, a salt that glows when rays strike it, shimmered on a bench nearby. Cathode rays could not have done it: they die out after a few centimetres of air, and the screen was about a metre away. Something else was leaving the tube, invisible, and passing straight through cardboard.\n\nOver the next seven weeks he tested what the new rays could cross. Paper, a book of about a thousand pages, wood, and aluminium let them through; lead stopped them. Photographic plates darkened under them even inside their closed holders. Because he did not know what they were, he called them X-rays, using the mathematician's letter for an unknown.\n\nOn 22 December he laid his wife Anna Bertha's hand on a photographic plate. The picture showed the bones of her fingers and the dark ring on one of them.\n\n![The X-ray of Anna Bertha Röntgen's hand, 22 December 1895](https://upload.wikimedia.org/wikipedia/commons/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg \"Wilhelm Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg\")\n\n> [!NOTE]\n> It is often told that when Anna Bertha saw the picture she said, \"I have seen my death.\" The line is repeated in almost every account, but it reaches us through later retellings. It may be true; it cannot be checked.\n\nOn 28 December he handed his paper, \"On a New Kind of Rays\", to the Physical-Medical Society of Würzburg, and on 1 January 1896 he posted copies, with prints of his X-ray pictures, to physicists he knew. One went to Franz Exner in Vienna. On 4 January Exner showed the pictures to guests at his home; one of them, the Prague physicist Ernst Lecher, passed the news to his father, who edited the Vienna newspaper *Die Presse*. On 5 January the story appeared in *Die Presse*, and within days newspapers around the world were repeating it. More than a thousand articles on the new rays appeared in 1896 alone.\n\n![The first page of Röntgen's paper \"Ueber eine neue Art von Strahlen\", 1895](https://upload.wikimedia.org/wikipedia/commons/1/12/%C3%9Cber_eine_neue_Art_von_Strahlen_01.jpg \"Wilhelm Conrad Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:Über_eine_neue_Art_von_Strahlen_01.jpg\")\n\nOn 23 January 1896 Röntgen gave a lecture on the discovery to the Würzburg society. In front of the audience he X-rayed the hand of the anatomist Albert von Kölliker, who proposed calling them Röntgen rays. German and Russian still use his name, and so do Turkish and Kyrgyz: a medical scan is a \"röntgen\" in Turkish and a \"рентген\" in Kyrgyz.\n\nAn X-ray picture is a kind of shadow. Hold your hand between a lamp and a wall and the wall shows its outline. Now imagine a lamp whose light flesh only dims while bone blocks far more of it: the shadow on the wall would show the skeleton. The comparison breaks in one place: an ordinary shadow is made by light stopped at the surface, while an X-ray image is made by rays that travel through the whole thickness of the body, and glass lenses cannot focus them, so the picture is a shadow cast straight onto the plate, not an image taken through a lens.\n\n> [!THEORY]\n> What Röntgen found is light, but light far outside what the eye can see. When the fast electrons of the cathode rays slam into glass or metal and are suddenly braked, part of their energy leaves as waves thousands of times shorter than visible light. Waves that short pass through flesh fairly easily, but heavier atoms such as the calcium in bone absorb them much more strongly, which is why bone casts the darker shadow.\n\n### Who else was there\n\nRöntgen was not the first person whose apparatus made X-rays; he was the first to notice that something new was happening and to chase it. Any Crookes tube driven hard gives off X-rays where the cathode rays strike the glass. In Philadelphia on 22 February 1890, the physicist Arthur Goodspeed and the photographer William Jennings found unexplained disc shapes on a plate after an evening of photographing sparks; only in 1896 did they realise these were X-ray shadows, and they did not claim the discovery. In 1890 Ludwig Zehnder, who had been Röntgen's assistant, saw a fluorescent screen flash beside a covered tube just before the tube failed. Lenard's window tube, which Röntgen himself used, may have been producing X-rays in Lenard's own laboratory. Lenard received the 1905 Nobel Prize for his cathode-ray work but felt his part in Röntgen's discovery had been ignored; the resentment lasted into the 1930s, by which time he had become a German nationalist and antisemite.\n\nThe news turned into practice within weeks. On 11 January 1896 John Hall-Edwards in Birmingham X-rayed a needle stuck in a colleague's hand. On 3 February the brothers Edwin and Gilman Frost at Dartmouth College in the United States photographed the broken wrist of a boy, Eddie McCarthy. In Russia, the physicist and radio pioneer Alexander Popov began making X-ray photographs of objects and human limbs in 1896; Russian histories also credit him with building an X-ray apparatus for the naval hospital at Kronstadt.\n\n![An X-ray experiment with a Crookes tube, from a book of 1896](https://upload.wikimedia.org/wikipedia/commons/1/10/Crookes_tube_xray_experiment.jpg \"William J. Morton · Public domain · https://commons.wikimedia.org/wiki/File:Crookes_tube_xray_experiment.jpg\")\n\n### Why it was hard\n\nThe first difficulty was noticing at all. The glow on the screen was faint, and a physicist expecting a leak of light from the tube could easily have ignored it. Röntgen's black cardboard is what turned an odd shimmer into a clear question: nothing visible could have got out.\n\nThe second was understanding what the rays were. In Röntgen's experiments they did not measurably bend in prisms or lenses and showed no clear reflection or interference, the usual signs of a wave. He wondered whether they might be a new kind of vibration in the ether; others thought they were particles. The answer took seventeen years. In 1912 Max von Laue reasoned that the atoms in a crystal sit about as close together as the waves might be long, so a crystal could act like a very fine grating. Walter Friedrich and Paul Knipping sent X-rays through a crystal of copper sulphate and got a pattern of spots on the plate. X-rays were light, with very short waves. Laue received the 1914 Nobel Prize for it.\n\nThe third difficulty nobody saw coming: the rays harm living tissue. Burns and hair loss appeared among early users within months. Clarence Dally, a glassblower who tested X-ray tubes on his own hands in Thomas Edison's laboratory, lost first his left hand and four fingers of his right, then both arms, and died of cancer on 2 October 1904. Edison stopped working with X-rays, saying in 1903, \"Don't talk to me about X-rays; I am afraid of them.\" Hall-Edwards lost his left arm in 1908 and died of cancer in 1926. Rules for protecting patients and workers came only slowly, after many such injuries.\n\n### What it opened\n\nDoctors could now see bones, and objects lodged in the body, through the living skin without cutting it open. During the First World War Marie Curie, helped at first by her seventeen-year-old daughter Irène, fitted out some twenty X-ray vehicles and around two hundred X-ray rooms in field hospitals in the first year of the war, and trained women to run them; an estimated million or more wounded soldiers passed through her units. Later came CT scanners, which combine many X-ray shadows into slices of the body.\n\nThe rays also started a chain of physics. Early in 1896 Henri Becquerel, looking for a link between X-rays and the glow of certain minerals, found that uranium salts give off rays of their own; Marie and Pierre Curie followed that thread to radioactivity. And Laue's spots became a tool: from 1913 William Henry Bragg and his son William Lawrence Bragg used X-rays to measure where the atoms in a crystal sit. With the same method Dorothy Hodgkin worked out the structures of penicillin and vitamin B12, and Rosalind Franklin's X-ray photographs of DNA were central to finding the double helix.\n\nRöntgen received the first Nobel Prize in Physics in 1901. He took out no patent on the discovery, believing it should be free to everyone, and left his prize money to the University of Würzburg. He died in Munich on 10 February 1923.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Röntgen X ışınlarını keşfediyor",
+      "summary": "Kasım 1895'te Wilhelm Röntgen örtülü bir tüpün yanında bir ekranın parladığını gördü. Görünmez ışınlar etten kemikten çok daha kolay geçiyordu: doktorlar artık canlı bedende kemiği görebildi.",
+      "why_it_matters": "X ışınları tıbba canlı bir bedenin içindeki kemikleri ve yabancı cisimleri kesmeden görme imkânı verdi; duyurudan birkaç hafta sonra iğneleri ve kırık kemikleri buluyorlardı. Fizikte de yeni bir kapı açtılar: radyoaktivite onların peşindeyken bulundu, X ışını kristalografisi de sonradan penisilinin ve DNA'nın biçimini ortaya çıkardı.",
+      "if_you_were_there": "Bunu Ocak 1896'da bir gazetede, iskelet bir el resminin yanında okurdunuz; ışınların ne olduğunu ya da sizi yakabileceğini henüz kimse söyleyemezdi.",
+      "place_name": "Würzburg Üniversitesi Fizik Enstitüsü, Almanya",
+      "body": "### Sahne\n\n1895 sonbaharında Avrupa'nın dört bir yanındaki fizikçiler aynı cam aygıtla deney yapıyordu. Crookes tüpü, havası neredeyse tamamen boşaltılmış, iki ucuna birer metal levha yerleştirilmiş bir cam balondur. Bir indüksiyon bobiniyle aralarına yüksek gerilim verilince cam yeşil yeşil parlar, çünkü eksi levhadan bir şey akar. O şeyin ne olduğunda kimse anlaşamıyordu. Pek çok Alman fizikçi bu \"katot ışınlarının\" esirdeki dalgalar olduğunu düşünüyordu; pek çok İngiliz fizikçi ise yüklü parçacıklardan oluşan bir akım olduklarını. Philipp Lenard, katot ışınlarını birkaç santimetre havaya çıkaran ince alüminyum pencereli bir tüp yapmıştı.\n\nElli yaşındaki Wilhelm Conrad Röntgen, Würzburg Üniversitesi Fizik Enstitüsü'nün başındaydı ve bu deneyleri Lenard ve Crookes–Hittorf tüpleriyle tekrarlıyordu. Titiz bir ölçücü olarak tanınıyordu; ünlü bir kâşif olarak değil.\n\n### Ne oldu\n\n8 Kasım 1895 Cuma gecesi geç saatte Röntgen, hiç ışık sızmasın diye bir tüpü siyah kartona sardı ve odayı kararttı. Akımı açtığında, yakındaki bir tezgâhta duran, baryum platinosiyanürle boyanmış kâğıt bir ekran titrek bir ışıkla parladı. Bu tuz, üzerine ışın düşünce ışıldar. Bunu katot ışınları yapmış olamazdı: havada birkaç santimetrede sönerler, ekran ise yaklaşık bir metre uzaktaydı. Tüpten görünmez başka bir şey çıkıyor ve kartonun içinden dosdoğru geçiyordu.\n\nSonraki yedi hafta boyunca yeni ışınların nelerden geçebildiğini denedi. Kâğıt, bin sayfa kadar bir kitap, tahta ve alüminyum onları geçirdi; kurşun durdurdu. Fotoğraf plakaları, kapalı kutularının içinde bile bu ışınlar altında karardı. Ne olduklarını bilmediği için onlara X ışınları dedi: matematikçilerin bilinmeyene verdiği harf.\n\n22 Aralık'ta karısı Anna Bertha'nın elini bir fotoğraf plakasının üstüne koydu. Resimde parmak kemikleri ve parmaklardan birindeki koyu yüzük görünüyordu.\n\n![Anna Bertha Röntgen'in elinin röntgeni, 22 Aralık 1895](https://upload.wikimedia.org/wikipedia/commons/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg \"Wilhelm Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg\")\n\n> [!NOTE]\n> Anna Bertha'nın resmi görünce \"Ölümümü gördüm\" dediği sık sık anlatılır. Bu söz neredeyse her anlatımda geçer ama bize sonraki aktarımlarla ulaşır. Doğru olabilir; doğrulanamaz.\n\n28 Aralık'ta \"Yeni Bir Işın Türü Üzerine\" başlıklı makalesini Würzburg Fizik-Tıp Derneği'ne teslim etti ve 1 Ocak 1896'da, röntgen resimlerinin baskılarıyla birlikte, tanıdığı fizikçilere postaladı. Bir kopya Viyana'da Franz Exner'e gitti. 4 Ocak'ta Exner resimleri evindeki konuklara gösterdi; konuklardan Prag'lı fizikçi Ernst Lecher haberi, Viyana gazetesi *Die Presse*'nin editörü olan babasına iletti. 5 Ocak'ta haber *Die Presse*'de çıktı ve birkaç gün içinde dünyanın dört bir yanındaki gazeteler onu tekrarlıyordu. Yalnızca 1896'da yeni ışınlar üzerine binden fazla yazı yayımlandı.\n\n![Röntgen'in \"Ueber eine neue Art von Strahlen\" makalesinin ilk sayfası, 1895](https://upload.wikimedia.org/wikipedia/commons/1/12/%C3%9Cber_eine_neue_Art_von_Strahlen_01.jpg \"Wilhelm Conrad Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:Über_eine_neue_Art_von_Strahlen_01.jpg\")\n\n23 Ocak 1896'da Röntgen, Würzburg derneğinde buluşu üzerine bir konuşma yaptı. Dinleyicilerin önünde anatomici Albert von Kölliker'in elinin röntgenini çekti; Kölliker de ışınlara Röntgen ışınları denmesini önerdi. Almanca ve Rusça hâlâ onun adını kullanır, Türkçe ve Kırgızca da öyle: tıbbi çekime Türkçede \"röntgen\", Kırgızcada \"рентген\" denir.\n\nRöntgen resmi bir tür gölgedir. Elinizi bir lambayla duvar arasında tutun, duvarda elinizin dış çizgisi belirir. Şimdi öyle bir lamba düşünün ki ışığını et yalnızca biraz zayıflatsın, kemik ise çok daha fazlasını tutsun: duvardaki gölge iskeleti gösterirdi. Benzetme bir yerde bozulur: sıradan gölge, yüzeyde durdurulan ışıkla oluşur; röntgen resmi ise vücudun bütün kalınlığını geçen ışınlarla oluşur ve cam mercekler bu ışınları odaklayamaz. Bu yüzden resim, bir mercekten çekilmiş görüntü değil, doğrudan plakaya düşen bir gölgedir.\n\n> [!THEORY]\n> Röntgen'in bulduğu şey ışıktır, ama gözün görebildiğinin çok dışında bir ışık. Katot ışınlarının hızlı elektronları cama ya da metale çarpıp birden frenlendiğinde, enerjilerinin bir kısmı görünür ışıktan binlerce kat kısa dalgalar olarak çıkar. Bu kadar kısa dalgalar etten oldukça kolay geçer, ama kemikteki kalsiyum gibi daha ağır atomlar onları çok daha güçlü soğurur; kemiğin gölgesinin daha koyu olması bundandır.\n\n### Orada başka kimler vardı\n\nRöntgen, aygıtı X ışını üreten ilk kişi değildi; yeni bir şey olduğunu fark eden ve peşine düşen ilk kişiydi. Güçlü sürülen her Crookes tüpü, katot ışınlarının cama çarptığı yerden X ışını yayar. Philadelphia'da 22 Şubat 1890'da fizikçi Arthur Goodspeed ile fotoğrafçı William Jennings, kıvılcım fotoğrafladıkları bir akşamın ardından bir plakada açıklanamayan disk biçimleri buldu; bunların X ışını gölgeleri olduğunu ancak 1896'da anladılar ve buluşu sahiplenmediler. 1890'da Röntgen'in eski asistanı Ludwig Zehnder, örtülü bir tüpün yanındaki ışıldayan ekranın, tüp bozulmadan hemen önce parladığını görmüştü. Röntgen'in de kullandığı Lenard'ın pencereli tüpü, Lenard'ın kendi laboratuvarında da X ışını üretiyor olabilirdi. Lenard katot ışınları çalışması için 1905 Nobel Ödülü'nü aldı, ama Röntgen'in buluşundaki payının görmezden gelindiğini düşündü; bu kırgınlık 1930'lara kadar sürdü, o zamana dek Lenard bir Alman milliyetçisi ve antisemit olmuştu.\n\nHaber birkaç hafta içinde uygulamaya dönüştü. 11 Ocak 1896'da Birmingham'da John Hall-Edwards, bir meslektaşının eline batmış bir iğnenin röntgenini çekti. 3 Şubat'ta ABD'deki Dartmouth Koleji'nde Edwin ve Gilman Frost kardeşler, Eddie McCarthy adlı bir çocuğun kırık bileğini görüntüledi. Rusya'da fizikçi ve radyo öncüsü Aleksandr Popov 1896'da nesnelerin ve insan uzuvlarının röntgen fotoğraflarını çekmeye başladı; Rus tarih yazımı ona Kronştadt deniz hastanesi için bir röntgen aygıtı kurmayı da atfeder.\n\n![Crookes tüpüyle bir X ışını deneyi, 1896 tarihli bir kitaptan](https://upload.wikimedia.org/wikipedia/commons/1/10/Crookes_tube_xray_experiment.jpg \"William J. Morton · Public domain · https://commons.wikimedia.org/wiki/File:Crookes_tube_xray_experiment.jpg\")\n\n### Neden zordu\n\nİlk zorluk, fark etmekti. Ekrandaki parıltı zayıftı; tüpten ışık sızdığını düşünen bir fizikçi onu kolayca geçiştirebilirdi. Garip bir titreşimi açık bir soruya çeviren, Röntgen'in siyah kartonuydu: görünür hiçbir şey dışarı çıkmış olamazdı.\n\nİkincisi, ışınların ne olduğunu anlamaktı. Röntgen'in deneylerinde prizmalarda ya da merceklerde ölçülebilir biçimde kırılmadılar, dalgaların olağan işaretleri olan belirgin bir yansıma ya da girişim de göstermediler. Esirde yeni bir tür titreşim olabilirler mi diye düşündü; başkaları parçacık olduklarını sandı. Cevap on yedi yıl sürdü. 1912'de Max von Laue, bir kristaldeki atomların, bu dalgaların olası uzunluğu kadar sık dizildiğini, bu yüzden kristalin çok ince bir ızgara gibi davranabileceğini düşündü. Walter Friedrich ve Paul Knipping X ışınlarını bir bakır sülfat kristalinden geçirdi ve plakada bir benek deseni elde etti. X ışınları ışıktı, hem de çok kısa dalgalı. Laue bunun için 1914 Nobel Ödülü'nü aldı.\n\nÜçüncü zorluğu kimse önceden görmedi: ışınlar canlı dokuya zarar veriyordu. İlk kullanıcılarda birkaç ay içinde yanıklar ve saç dökülmesi görüldü. Thomas Edison'un laboratuvarında X ışını tüplerini kendi elleri üzerinde deneyen cam üfleyicisi Clarence Dally önce sol elini ve sağ elinin dört parmağını, sonra iki kolunu kaybetti ve 2 Ekim 1904'te kanserden öldü. Edison X ışınlarıyla çalışmayı bıraktı ve 1903'te \"Bana X ışınlarından söz etmeyin; onlardan korkuyorum\" dedi. Hall-Edwards 1908'de sol kolunu kaybetti ve 1926'da kanserden öldü. Hastaları ve çalışanları koruyan kurallar, bunun gibi pek çok yaralanmadan sonra, ancak yavaş yavaş geldi.\n\n### Neyin kapısını açtı\n\nDoktorlar artık kemikleri ve bedene saplanmış nesneleri, canlı deriyi kesmeden görebiliyordu. Birinci Dünya Savaşı sırasında Marie Curie, başta on yedi yaşındaki kızı Irène'in yardımıyla, savaşın ilk yılında yirmi kadar röntgen aracını ve cephe hastanelerinde iki yüz kadar röntgen odasını donattı, bunları kullanacak kadınları da yetiştirdi; tahminen bir milyon ya da daha fazla yaralı asker onun birimlerinden geçti. Daha sonra, pek çok röntgen gölgesini birleştirip bedenin kesitlerini çıkaran bilgisayarlı tomografi geldi.\n\nIşınlar fizikte de bir zincir başlattı. 1896'nın başında Henri Becquerel, X ışınlarıyla bazı minerallerin ışıldaması arasında bağ ararken uranyum tuzlarının kendiliğinden ışın yaydığını buldu; Marie ve Pierre Curie bu ipi radyoaktiviteye kadar izledi. Laue'nin benekleri de bir araca dönüştü: 1913'ten itibaren William Henry Bragg ve oğlu William Lawrence Bragg, bir kristaldeki atomların nerede durduğunu X ışınlarıyla ölçtü. Aynı yöntemle Dorothy Hodgkin penisilinin ve B12 vitamininin yapısını çözdü; Rosalind Franklin'in DNA'nın X ışını fotoğrafları da çift sarmalın bulunmasında merkezi rol oynadı.\n\nRöntgen 1901'de ilk Nobel Fizik Ödülü'nü aldı. Buluşun herkese serbest kalması gerektiğine inandığı için patent almadı ve ödül parasını Würzburg Üniversitesi'ne bıraktı. 10 Şubat 1923'te Münih'te öldü.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Рентген открывает X-лучи",
+      "summary": "В ноябре 1895 года Вильгельм Рентген увидел, как светится экран рядом с закрытой трубкой. Невидимые лучи проходили сквозь плоть легче, чем сквозь кость: врачи увидели кости живого тела.",
+      "why_it_matters": "X-лучи позволили медицине видеть кости и инородные предметы внутри живого тела без разреза, и уже через несколько недель после объявления с их помощью находили иглы и переломы. Они открыли и новую физику: радиоактивность нашли, изучая их, а рентгеновская кристаллография позже показала строение пенициллина и ДНК.",
+      "if_you_were_there": "Вы прочли бы об этом в газете в январе 1896 года, рядом со снимком руки-скелета, и никто ещё не мог сказать вам, что это за лучи и что они способны обжечь.",
+      "place_name": "Физический институт Вюрцбургского университета, Германия",
+      "body": "### Обстановка\n\nОсенью 1895 года физики по всей Европе экспериментировали с одним и тем же стеклянным прибором. Трубка Крукса — это стеклянная колба, из которой почти полностью откачан воздух, с металлической пластинкой, впаянной в каждый конец. Если подать на пластинки высокое напряжение от индукционной катушки, стекло светится зелёным: из отрицательной пластинки что-то течёт. Что именно, никто не мог договориться. Многие немецкие физики считали эти «катодные лучи» волнами в эфире, многие британские — потоком заряженных частиц. Филипп Ленард построил трубку с тонким алюминиевым окошком, через которое катодные лучи выходили на несколько сантиметров в воздух.\n\nПятидесятилетний Вильгельм Конрад Рентген руководил Физическим институтом Вюрцбургского университета и повторял эти опыты с трубками Ленарда и Крукса–Гитторфа. Его знали как тщательного экспериментатора, но не как знаменитого первооткрывателя.\n\n### Что произошло\n\nПоздним вечером в пятницу 8 ноября 1895 года Рентген обернул трубку чёрным картоном, чтобы наружу не проникал свет, и затемнил комнату. Когда он включил ток, на соседнем столе замерцал бумажный экран, покрытый платиносинеродистым барием — солью, которая светится, когда на неё падают лучи. Катодные лучи сделать этого не могли: в воздухе они гаснут через несколько сантиметров, а экран стоял примерно в метре. Из трубки выходило что-то другое, невидимое, и проходило прямо сквозь картон.\n\nСледующие семь недель он проверял, сквозь что проходят новые лучи. Бумага, книга примерно в тысячу страниц, дерево и алюминий их пропускали, свинец задерживал. Фотопластинки темнели под ними даже в закрытых кассетах. Не зная, что это такое, он назвал их X-лучами — буквой, которой математики обозначают неизвестное.\n\n22 декабря он положил на фотопластинку руку своей жены Анны Берты. На снимке были видны кости её пальцев и тёмное кольцо на одном из них.\n\n![Рентгеновский снимок руки Анны Берты Рентген, 22 декабря 1895 года](https://upload.wikimedia.org/wikipedia/commons/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg \"Wilhelm Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg\")\n\n> [!NOTE]\n> Часто рассказывают, что, увидев снимок, Анна Берта сказала: «Я увидела свою смерть». Эта фраза повторяется почти в каждом пересказе, но дошла до нас через более поздние воспоминания. Возможно, так и было; проверить это нельзя.\n\n28 декабря он передал статью «О новом роде лучей» Физико-медицинскому обществу Вюрцбурга, а 1 января 1896 года разослал оттиски вместе с отпечатками своих рентгеновских снимков знакомым физикам. Один экземпляр получил Франц Экснер в Вене. 4 января Экснер показал снимки гостям у себя дома; один из них, пражский физик Эрнст Лехер, рассказал о них отцу, редактору венской газеты *Die Presse*. 5 января новость появилась в *Die Presse*, и через несколько дней её перепечатывали газеты всего мира. Только за 1896 год о новых лучах вышло больше тысячи статей.\n\n![Первая страница статьи Рентгена «Ueber eine neue Art von Strahlen», 1895](https://upload.wikimedia.org/wikipedia/commons/1/12/%C3%9Cber_eine_neue_Art_von_Strahlen_01.jpg \"Wilhelm Conrad Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:Über_eine_neue_Art_von_Strahlen_01.jpg\")\n\n23 января 1896 года Рентген выступил с докладом об открытии в Вюрцбургском обществе. На глазах у слушателей он сделал снимок руки анатома Альберта фон Кёлликера, и тот предложил назвать лучи рентгеновскими. Немецкий и русский языки до сих пор называют их по его имени, как и турецкий с киргизским: медицинский снимок по-турецки — «röntgen», по-киргизски — «рентген».\n\nРентгеновский снимок — это своего рода тень. Поставьте руку между лампой и стеной, и на стене появится её контур. А теперь представьте лампу, чей свет плоть лишь ослабляет, а кость задерживает гораздо сильнее: тень на стене показала бы скелет. Сравнение ломается в одном месте: обычная тень возникает из-за света, остановленного на поверхности, а рентгеновское изображение создают лучи, прошедшие через всю толщу тела, и стеклянные линзы не могут их сфокусировать. Поэтому снимок — это тень, упавшая прямо на пластинку, а не изображение, полученное через объектив.\n\n> [!THEORY]\n> Рентген нашёл свет, но далеко за пределами того, что видит глаз. Когда быстрые электроны катодных лучей ударяются о стекло или металл и резко тормозят, часть их энергии уходит в виде волн, в тысячи раз более коротких, чем видимый свет. Такие короткие волны довольно легко проходят сквозь мягкие ткани, но более тяжёлые атомы, например кальций в кости, поглощают их гораздо сильнее, — поэтому кость отбрасывает более тёмную тень.\n\n### Кто ещё был рядом\n\nРентген был не первым, чей прибор испускал X-лучи; он первым заметил, что происходит что-то новое, и стал это исследовать. Любая трубка Крукса при сильном токе испускает X-лучи там, где катодные лучи бьют в стекло. В Филадельфии 22 февраля 1890 года физик Артур Гудспид и фотограф Уильям Дженнингс после вечера съёмки искр нашли на пластинке непонятные круглые пятна; лишь в 1896 году они поняли, что это были тени от X-лучей, и на открытие не претендовали. В 1890 году Людвиг Цендер, бывший ассистент Рентгена, видел, как флуоресцирующий экран вспыхнул рядом с закрытой трубкой перед тем, как она вышла из строя. Трубка Ленарда с окошком, которой пользовался и сам Рентген, возможно, давала X-лучи и в лаборатории Ленарда. Ленард получил Нобелевскую премию 1905 года за работы о катодных лучах, но считал, что его вклад в открытие Рентгена проигнорировали; обида тянулась до 1930-х годов, когда Ленард уже стал немецким националистом и антисемитом.\n\nНовость за несколько недель превратилась в практику. 11 января 1896 года Джон Холл-Эдвардс в Бирмингеме сделал снимок иглы, застрявшей в руке коллеги. 3 февраля братья Эдвин и Гилман Фрост в Дартмутском колледже в США сняли сломанное запястье мальчика Эдди Маккарти. В России физик и пионер радио Александр Попов в 1896 году начал делать рентгеновские снимки предметов и конечностей человека; русская историография приписывает ему и создание рентгеновского аппарата для Кронштадтского морского госпиталя.\n\n![Опыт с X-лучами и трубкой Крукса, из книги 1896 года](https://upload.wikimedia.org/wikipedia/commons/1/10/Crookes_tube_xray_experiment.jpg \"William J. Morton · Public domain · https://commons.wikimedia.org/wiki/File:Crookes_tube_xray_experiment.jpg\")\n\n### Почему это было трудно\n\nПервая трудность — вообще заметить. Свечение экрана было слабым, и физик, ожидавший утечки света из трубки, легко мог не обратить на него внимания. Именно чёрный картон Рентгена превратил странное мерцание в ясный вопрос: ничего видимого наружу выйти не могло.\n\nВторая — понять, что это за лучи. В опытах Рентгена они заметно не преломлялись в призмах и линзах и не давали явного отражения или интерференции — обычных признаков волны. Он предполагал, что это может быть новый вид колебаний эфира; другие считали их частицами. Ответ занял семнадцать лет. В 1912 году Макс фон Лауэ рассудил, что атомы в кристалле расположены примерно так же тесно, как могут быть длинны эти волны, и поэтому кристалл может работать как очень тонкая решётка. Вальтер Фридрих и Пауль Книппинг пропустили X-лучи через кристалл медного купороса и получили на пластинке узор из пятен. X-лучи оказались светом с очень короткими волнами. Лауэ получил за это Нобелевскую премию 1914 года.\n\nТретьей трудности никто не предвидел: лучи повреждают живые ткани. Ожоги и выпадение волос у первых пользователей появились уже через несколько месяцев. Кларенс Далли, стеклодув в лаборатории Томаса Эдисона, проверявший рентгеновские трубки на собственных руках, потерял сначала левую кисть и четыре пальца правой руки, затем обе руки и умер от рака 2 октября 1904 года. Эдисон прекратил работу с X-лучами и в 1903 году сказал: «Не говорите мне о X-лучах; я их боюсь». Холл-Эдвардс в 1908 году лишился левой руки и умер от рака в 1926 году. Правила защиты пациентов и работников появлялись медленно, после многих таких травм.\n\n### Что это открыло\n\nВрачи теперь могли видеть кости и застрявшие в теле предметы сквозь живую кожу, не делая разреза. В Первую мировую войну Мария Кюри, поначалу с помощью семнадцатилетней дочери Ирен, за первый год войны оснастила около двадцати рентгеновских автомобилей и около двухсот рентгеновских кабинетов в полевых госпиталях и обучала женщин работать на них; по оценкам, через её установки прошёл миллион или больше раненых солдат. Позже появилась компьютерная томография, которая собирает множество рентгеновских теней в срезы тела.\n\nЛучи запустили и цепочку открытий в физике. В начале 1896 года Анри Беккерель, искавший связь между X-лучами и свечением некоторых минералов, обнаружил, что соли урана сами испускают лучи; Мария и Пьер Кюри прошли по этой нити до радиоактивности. А пятна Лауэ стали инструментом: с 1913 года Уильям Генри Брэгг и его сын Уильям Лоуренс Брэгг с помощью X-лучей измеряли, где стоят атомы в кристалле. Тем же методом Дороти Ходжкин определила строение пенициллина и витамина B12, а рентгеновские снимки ДНК Розалинд Франклин сыграли ключевую роль в открытии двойной спирали.\n\nВ 1901 году Рентген получил первую Нобелевскую премию по физике. Он не стал патентовать открытие, считая, что оно должно быть доступно всем, и оставил премию Вюрцбургскому университету. Он умер в Мюнхене 10 февраля 1923 года.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Рентген X-нурларды ачты",
+      "summary": "1895-жылдын ноябрында Вильгельм Рентген жабык түтүктүн жанында экран жаркыраганын көрдү. Көрүнбөгөн нурлар эттен сөөккө караганда оңой өттү: дарыгерлер тирүү дененин сөөктөрүн көрүштү.",
+      "why_it_matters": "X-нурлар медицинага тирүү дененин ичиндеги сөөктөрдү жана бөтөн буюмдарды кеспей туруп көрүүгө мүмкүндүк берди, жарыялангандан бир нече жума өтпөй алар менен ийнелерди жана сынган сөөктөрдү табышкан. Алар физикада да жаңы жол ачты: радиоактивдүүлүк аларды изилдөөдө табылды, кийин рентген кристаллографиясы пенициллиндин жана ДНКнын түзүлүшүн көрсөттү.",
+      "if_you_were_there": "Сиз бул тууралуу 1896-жылдын январында гезиттен, скелет колдун сүрөтүнүн жанынан окумаксыз, бирок нурлар эмне экенин же алар күйгүзө аларын азырынча эч ким айта алмак эмес.",
+      "place_name": "Вюрцбург университетинин Физика институту, Германия",
+      "body": "### Көрүнүш\n\n1895-жылдын күзүндө Европанын ар кайсы жеринде физиктер бир эле айнек аспап менен тажрыйба жүргүзүп жатышкан. Крукс түтүгү — ичиндеги абасы дээрлик толук сордурулуп алынган, эки учуна бирден металл пластинка орнотулган айнек колба. Индукциялык катушка менен пластинкаларга жогорку чыңалуу берилгенде айнек жашыл түстө жаркырайт, анткени терс пластинкадан бир нерсе агып чыгат. Ал эмне экенине эч ким бир пикирге келе алган эмес. Көптөгөн немис физиктери бул «катод нурларын» эфирдеги толкундар деп эсептешкен, көптөгөн британ физиктери болсо заряддуу бөлүкчөлөрдүн агымы деп ойлошкон. Филипп Ленард катод нурларын абага бир нече сантиметрге чыгарган ичке алюминий терезеси бар түтүк жасап алган.\n\nЭлүү жаштагы Вильгельм Конрад Рентген Вюрцбург университетинин Физика институтун жетектеп, ушул тажрыйбаларды Ленард жана Крукс–Гитторф түтүктөрү менен кайталап жаткан. Аны атактуу ачылыштардын ээси катары эмес, так өлчөгөн окумуштуу катары билишчү.\n\n### Эмне болду\n\n1895-жылдын 8-ноябрында, жума күнү кечинде кеч Рентген түтүктөн жарык чыкпасын деп аны кара картон менен ороп, бөлмөнү караңгылатты. Токту күйгүзгөндө жанындагы үстөлдө турган, барий платиносинеродиди менен боёлгон кагаз экран жылтылдап жарык берди. Бул туз үстүнө нур түшкөндө жаркырайт. Муну катод нурлары кыла алмак эмес: алар абада бир нече сантиметрден кийин өчөт, ал эми экран болжол менен бир метр алыста турган. Түтүктөн көзгө көрүнбөгөн башка бир нерсе чыгып, картондон түз эле өтүп жаткан.\n\nКийинки жети жумада ал жаңы нурлар эмнеден өтө аларын текшерди. Кагаз, миңге жакын барактуу китеп, жыгач жана алюминий аларды өткөрдү, коргошун токтотту. Фотопластинкалар жабык кутучаларынын ичинде да бул нурлардын астында карарды. Алардын эмне экенин билбегендиктен, ал аларды X-нурлар деп атады: математиктер белгисиз нерсени ушул тамга менен белгилешет.\n\n22-декабрда ал аялы Анна Бертанын колун фотопластинканын үстүнө койду. Сүрөттө анын манжаларынын сөөктөрү жана бир манжасындагы кара шакек көрүнүп турду.\n\n![Анна Берта Рентгендин колунун рентген сүрөтү, 1895-жылдын 22-декабры](https://upload.wikimedia.org/wikipedia/commons/7/79/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg \"Wilhelm Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg\")\n\n> [!NOTE]\n> Анна Берта сүрөттү көргөндө «Мен өлүмүмдү көрдүм» деп айткан деп көп айтылат. Бул сөз дээрлик ар бир баянда кездешет, бирок бизге кийинки эскерүүлөр аркылуу жеткен. Чын болушу мүмкүн, бирок аны текшерүүгө болбойт.\n\n28-декабрда ал «Нурлардын жаңы түрү жөнүндө» деген макаласын Вюрцбургдун Физика-медицина коомуна тапшырды, ал эми 1896-жылдын 1-январында анын нускаларын рентген сүрөттөрүнүн басылмалары менен кошо тааныш физиктерге почта аркылуу жөнөттү. Бир нускасы Венадагы Франц Экснерге жетти. 4-январда Экснер сүрөттөрдү үйүндөгү конокторго көрсөттү. Алардын бири, прагалык физик Эрнст Лехер, бул кабарды венанын *Die Presse* гезитинин редактору болгон атасына айтты. 5-январда кабар *Die Presse* гезитине чыкты, бир нече күндөн кийин аны дүйнө жүзүндөгү гезиттер кайталап жатышты. 1896-жылдын өзүндө эле жаңы нурлар тууралуу миңден ашык макала жарыяланды.\n\n![Рентгендин «Ueber eine neue Art von Strahlen» макаласынын биринчи бети, 1895](https://upload.wikimedia.org/wikipedia/commons/1/12/%C3%9Cber_eine_neue_Art_von_Strahlen_01.jpg \"Wilhelm Conrad Röntgen · Public domain · https://commons.wikimedia.org/wiki/File:Über_eine_neue_Art_von_Strahlen_01.jpg\")\n\n1896-жылдын 23-январында Рентген Вюрцбург коомунда ачылышы тууралуу баяндама жасады. Угуучулардын көз алдында ал анатом Альберт фон Кёлликердин колунун сүрөтүн тартты, ал эми Кёлликер нурларды Рентгендин атынан атоону сунуштады. Немис жана орус тилдери аларды азыр да анын аты менен атайт, түрк жана кыргыз тилдери да ошондой: медициналык сүрөттү түркчө «röntgen», кыргызча «рентген» дешет.\n\nРентген сүрөтү — көлөкөнүн бир түрү. Колуңузду чырак менен дубалдын ортосуна кармасаңыз, дубалда колуңуздун сулуэти пайда болот. Эми ушундай чыракты элестетиңиз: анын жарыгын эт бир аз гана басаңдатат, ал эми сөөк андан алда канча көбүн кармап калат. Анда дубалдагы көлөкө скелетти көрсөтмөк. Салыштыруу бир жерде бузулат: кадимки көлөкө беттен токтоп калган жарыктан пайда болот, ал эми рентген сүрөтүн дененин бүт калыңдыгынан өткөн нурлар түзөт жана айнек линзалар аларды фокустай албайт. Ошондуктан сүрөт линза аркылуу тартылган сүрөт эмес, түз эле пластинкага түшкөн көлөкө.\n\n> [!THEORY]\n> Рентген тапкан нерсе — жарык, бирок көз көргөндөн алда канча сырткары жаткан жарык. Катод нурларынын ылдам электрондору айнекке же металлга урунуп, кескин токтогондо, алардын энергиясынын бир бөлүгү көзгө көрүнгөн жарыктан миңдеген эсе кыска толкундар болуп чыгат. Мынчалык кыска толкундар эттен бир кыйла жеңил өтөт, бирок сөөктөгү кальций сыяктуу оорураак атомдор аларды алда канча күчтүү сиңирип алат. Сөөктүн көлөкөсү ошондуктан карараак болот.\n\n### Дагы кимдер болгон\n\nРентген аспабы X-нурларды чыгарган биринчи адам болгон эмес; ал жаңы бир нерсе болуп жатканын биринчи байкап, анын артынан түшкөн адам. Катуу иштетилген ар кандай Крукс түтүгү катод нурлары айнекке урунган жерден X-нурларды чыгарат. 1890-жылдын 22-февралында Филадельфияда физик Артур Гудспид менен фотограф Уильям Дженнингс учкундарды сүрөткө тарткан кечтен кийин пластинкадан түшүнүксүз тегерек тактарды табышкан. Алар бул X-нурлардын көлөкөлөрү экенин 1896-жылы гана түшүнүп, ачылышты өздөрүнө ыйгарышкан эмес. 1890-жылы Рентгендин мурдагы жардамчысы Людвиг Цендер жабык түтүктүн жанындагы жаркыраган экран түтүк бузулаардын алдында жылт эткенин көргөн. Рентген өзү да колдонгон Ленарддын терезелүү түтүгү Ленарддын өз лабораториясында да X-нурларды чыгарып жаткан болушу мүмкүн. Ленард катод нурлары боюнча иши үчүн 1905-жылы Нобель сыйлыгын алган, бирок Рентгендин ачылышындагы өз салымы көз жаздымда калды деп эсептеген. Бул таарыныч 1930-жылдарга чейин созулду, ал убакта Ленард немис улутчулу жана антисемит болуп калган.\n\nКабар бир нече жуманын ичинде иш жүзүнө ашты. 1896-жылдын 11-январында Бирмингемде Джон Холл-Эдвардс кесиптешинин колуна кирип кеткен ийненин сүрөтүн тартты. 3-февралда АКШдагы Дартмут колледжинде бир туугандар Эдвин жана Гилман Фросттор Эдди Маккарти аттуу баланын сынган билегин сүрөткө түшүрүштү. Орусияда физик жана радионун пионери Александр Попов 1896-жылы буюмдардын жана адамдын колу-бутунун рентген сүрөттөрүн тарта баштаган. Орус тарыхчылары ага Кронштадттагы деңиз госпиталы үчүн рентген аппаратын курууну да ыйгарышат.\n\n![Крукс түтүгү менен X-нурлар тажрыйбасы, 1896-жылдагы китептен](https://upload.wikimedia.org/wikipedia/commons/1/10/Crookes_tube_xray_experiment.jpg \"William J. Morton · Public domain · https://commons.wikimedia.org/wiki/File:Crookes_tube_xray_experiment.jpg\")\n\n### Эмне үчүн кыйын болду\n\nБиринчи кыйынчылык — байкоо. Экрандагы жарык алсыз болчу, түтүктөн жарык агып чыгып жатат деп ойлогон физик ага көңүл бурбай коюшу оңой эле. Кызык жылтылдоону так суроого айландырган нерсе — Рентгендин кара картону: көзгө көрүнгөн эч нерсе сыртка чыга алмак эмес.\n\nЭкинчиси — нурлардын эмне экенин түшүнүү. Рентгендин тажрыйбаларында алар призмаларда же линзаларда байкаларлык сынган жок, толкундун кадимки белгилери болгон ачык чагылууну же интерференцияны да көрсөткөн жок. Ал булар эфирдеги термелүүнүн жаңы түрү болушу мүмкүн деп ойлогон, башкалар аларды бөлүкчөлөр деп эсептешкен. Жооп он жети жылдан кийин келди. 1912-жылы Макс фон Лауэ кристаллдагы атомдор бул толкундардын болжолдуу узундугундай жыш жайгашкан, ошондуктан кристалл өтө майда тор сыяктуу иштей алат деп ойлоду. Вальтер Фридрих менен Пауль Книппинг X-нурларды жез купоросунун кристаллы аркылуу өткөрүп, пластинкадан тактардан турган оюм-чийим алышты. X-нурлар толкуну өтө кыска жарык болуп чыкты. Лауэ бул үчүн 1914-жылы Нобель сыйлыгын алды.\n\nҮчүнчү кыйынчылыкты эч ким алдын ала көргөн эмес: нурлар тирүү ткандарга зыян келтирет. Алгачкы колдонуучуларда бир нече айдын ичинде күйүктөр жана чачтын түшүүсү пайда болгон. Томас Эдисондун лабораториясында рентген түтүктөрүн өз колдорунда сынаган айнек үйлөөчү Кларенс Далли адегенде сол колунун билегинен төмөнкү бөлүгүн жана оң колунун төрт манжасын, андан кийин эки колун тең жоготуп, 1904-жылдын 2-октябрында рак оорусунан каза болду. Эдисон X-нурлар менен иштөөнү токтотуп, 1903-жылы: «Мага X-нурлар жөнүндө сүйлөбөгүлө, мен алардан коркомун», — деген. Холл-Эдвардс 1908-жылы сол колунан ажырап, 1926-жылы рактан каза болду. Бейтаптарды жана кызматкерлерди коргоо эрежелери ушундай көп жаракаттардан кийин гана акырындап пайда болду.\n\n### Эмнеге жол ачты\n\nДарыгерлер эми сөөктөрдү жана денеге кирип калган буюмдарды тирүү терини кеспей туруп көрө алышты. Биринчи дүйнөлүк согуш учурунда Мария Кюри, адегенде он жети жаштагы кызы Ирендин жардамы менен, согуштун биринчи жылында жыйырмага жакын рентген автомобилин жана талаа госпиталдарында эки жүзгө жакын рентген бөлмөсүн жабдып, аларда иштөөгө аялдарды үйрөттү. Болжол менен миллион же андан көп жарадар аскер анын аппараттарынан өткөн. Кийинчерээк көп рентген көлөкөлөрүн бириктирип, дененин кесиндилерин түзгөн компьютердик томография пайда болду.\n\nНурлар физикада да ачылыштардын чынжырын баштады. 1896-жылдын башында Анри Беккерель X-нурлар менен кээ бир минералдардын жаркырашынын ортосунда байланыш издеп жатып, уран туздары өзүнөн өзү нур чыгарарын тапты. Мария жана Пьер Кюри бул жипти радиоактивдүүлүккө чейин ээрчишти. Лауэнин тактары болсо куралга айланды: 1913-жылдан тартып Уильям Генри Брэгг жана анын уулу Уильям Лоуренс Брэгг X-нурлардын жардамы менен кристаллдагы атомдордун кайда турганын өлчөштү. Ушул эле ыкма менен Дороти Ходжкин пенициллиндин жана B12 витамининин түзүлүшүн аныктады, ал эми Розалинд Франклиндин ДНКнын рентген сүрөттөрү кош спиралдын ачылышында негизги ролду ойноду.\n\n1901-жылы Рентген физика боюнча биринчи Нобель сыйлыгын алды. Ал ачылыш баарына эркин болушу керек деп эсептеп, ага патент алган жок жана сыйлык акчасын Вюрцбург университетине калтырды. Ал 1923-жылдын 10-февралында Мюнхенде каза болду.",
+      "status": "machine"
+    }
+  }
+}
