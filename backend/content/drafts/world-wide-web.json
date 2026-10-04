@@ -1,0 +1,313 @@
+{
+  "slug": "world-wide-web",
+  "year": 1989,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 5,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 46.2338,
+  "lng": 6.047,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/d/d1/First_Web_Server.jpg",
+    "credit": "Coolcaesar at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg"
+  },
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "tim-berners-lee",
+      "birth_year": 1955,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Tim Berners-Lee",
+        "tr": "Tim Berners-Lee",
+        "ru": "Тим Бернерс-Ли",
+        "ky": "Тим Бернерс-Ли"
+      }
+    },
+    {
+      "slug": "robert-cailliau",
+      "birth_year": 1947,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Robert Cailliau",
+        "tr": "Robert Cailliau",
+        "ru": "Робер Кайо",
+        "ky": "Робер Кайо"
+      }
+    },
+    {
+      "slug": "nicola-pellow",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Nicola Pellow",
+        "tr": "Nicola Pellow",
+        "ru": "Никола Пеллоу",
+        "ky": "Никола Пеллоу"
+      }
+    },
+    {
+      "slug": "mike-sendall",
+      "birth_year": 1939,
+      "death_year": 1999,
+      "role": "patron",
+      "name": {
+        "en": "Mike Sendall",
+        "tr": "Mike Sendall",
+        "ru": "Майк Сендалл",
+        "ky": "Майк Сендалл"
+      }
+    },
+    {
+      "slug": "mary-lee-woods",
+      "birth_year": 1924,
+      "death_year": 2017,
+      "role": "context",
+      "name": {
+        "en": "Mary Lee Woods",
+        "tr": "Mary Lee Woods",
+        "ru": "Мэри Ли Вудс",
+        "ky": "Мэри Ли Вудс"
+      }
+    },
+    {
+      "slug": "ted-nelson",
+      "birth_year": 1937,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Ted Nelson",
+        "tr": "Ted Nelson",
+        "ru": "Тед Нельсон",
+        "ky": "Тед Нельсон"
+      }
+    },
+    {
+      "slug": "douglas-engelbart",
+      "birth_year": 1925,
+      "death_year": 2013,
+      "role": "predecessor",
+      "name": {
+        "en": "Douglas Engelbart",
+        "tr": "Douglas Engelbart",
+        "ru": "Дуглас Энгельбарт",
+        "ky": "Дуглас Энгельбарт"
+      }
+    },
+    {
+      "slug": "vannevar-bush",
+      "birth_year": 1890,
+      "death_year": 1974,
+      "role": "predecessor",
+      "name": {
+        "en": "Vannevar Bush",
+        "tr": "Vannevar Bush",
+        "ru": "Вэнивар Буш",
+        "ky": "Вэнивар Буш"
+      }
+    },
+    {
+      "slug": "paul-otlet",
+      "birth_year": 1868,
+      "death_year": 1944,
+      "role": "predecessor",
+      "name": {
+        "en": "Paul Otlet",
+        "tr": "Paul Otlet",
+        "ru": "Поль Отле",
+        "ky": "Поль Отле"
+      }
+    },
+    {
+      "slug": "wendy-hall",
+      "birth_year": 1952,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Wendy Hall",
+        "tr": "Wendy Hall",
+        "ru": "Венди Холл",
+        "ky": "Венди Холл"
+      }
+    },
+    {
+      "slug": "paul-kunz",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Paul Kunz",
+        "tr": "Paul Kunz",
+        "ru": "Пол Кунц",
+        "ky": "Пол Кунц"
+      }
+    },
+    {
+      "slug": "louise-addis",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Louise Addis",
+        "tr": "Louise Addis",
+        "ru": "Луиза Аддис",
+        "ky": "Луиза Аддис"
+      }
+    },
+    {
+      "slug": "terry-hung",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Terry Hung",
+        "tr": "Terry Hung",
+        "ru": "Терри Хунг",
+        "ky": "Терри Хунг"
+      }
+    },
+    {
+      "slug": "eric-bina",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Eric Bina",
+        "tr": "Eric Bina",
+        "ru": "Эрик Бина",
+        "ky": "Эрик Бина"
+      }
+    },
+    {
+      "slug": "marc-andreessen",
+      "birth_year": 1971,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Marc Andreessen",
+        "tr": "Marc Andreessen",
+        "ru": "Марк Андриссен",
+        "ky": "Марк Андриссен"
+      }
+    }
+  ],
+  "builds_on": [
+    "arpanet"
+  ],
+  "sources": [
+    {
+      "title": "World Wide Web — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/topic/World-Wide-Web"
+    },
+    {
+      "title": "World Wide Web — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+    },
+    {
+      "title": "Tim Berners-Lee — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+    },
+    {
+      "title": "Nicola Pellow — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nicola_Pellow"
+    },
+    {
+      "title": "A short history of the Web — CERN",
+      "kind": "article",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+    },
+    {
+      "title": "Web history timeline — CERN, Web@30",
+      "kind": "article",
+      "url": "https://web30.web.cern.ch/web-history.html"
+    },
+    {
+      "title": "Tim Berners-Lee, Information Management: A Proposal (March 1989, May 1990) — W3C",
+      "kind": "other",
+      "url": "https://www.w3.org/History/1989/proposal.html"
+    },
+    {
+      "title": "Tim Berners-Lee, Frequently asked questions — W3C",
+      "kind": "other",
+      "url": "https://www.w3.org/People/Berners-Lee/FAQ.html"
+    },
+    {
+      "title": "Restoring the first website — W3C Web History Community Group (2013)",
+      "kind": "article",
+      "url": "https://www.w3.org/community/webhistory/2013/04/03/restoring-the-first-website"
+    },
+    {
+      "title": "Happy webiversary (first US web server at SLAC) — Symmetry magazine, 2012",
+      "kind": "article",
+      "url": "https://www.symmetrymagazine.org/article/march-2012/happy-webiversary"
+    },
+    {
+      "title": "1991: Tim Berners-Lee tries to convert the hypertext faithful — Cybercultural",
+      "kind": "article",
+      "url": "https://cybercultural.com/p/1991-tim-berners-lee-trys-to-convert-the-hypertext-faithful/"
+    },
+    {
+      "title": "Gopher (protocol) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gopher_(protocol)"
+    },
+    {
+      "title": "Tim Berners-Lee, Weaving the Web (HarperSanFrancisco, 1999)",
+      "kind": "book",
+      "url": "https://www.w3.org/People/Berners-Lee/Weaving/"
+    }
+  ],
+  "research_note": "Drafted by the nightly pipeline 2026-10-04; fact-checker agent run in the foreground before loading. CONFIRMED (CERN short history, CERN Web@30 timeline, W3C proposal and FAQ, Wikipedia: World Wide Web, Tim Berners-Lee, Nicola Pellow, Robert Cailliau, Gopher, Mosaic, Otlet, Mary Lee Woods; Symmetry; Cybercultural): proposal March 1989, TBL born 8 June 1955 so 33; 1980 six-month contract and ENQUIRE, return 1984; parents and Ferranti Mark 1; the two proposal quotes verbatim; Sendall's 'Vague but exciting'; November 1990 formal proposal with Cailliau; December 1990 browser-editor, server and site on the NeXT; the 'DO NOT POWER IT DOWN!!' label (visible in the cover photo); Pellow (Leicester Polytechnic, November 1990, line-mode browser, March 1991); 6 August 1991 alt.hypertext; 12 December 1991 SLAC (Kunz, Terry Hung, Louise Addis); Hypertext '91 paper rejected, demo only; Bush 1945, Engelbart 1968, HyperCard 1987, Otlet 1934; Gopher fees February 1993; public domain 30 April 1993; Mosaic 1993 (Andreessen, Bina, inline images); >500 servers end 1993, ~10,000 end 1994; first WWW conference May 1994; W3C October 1994 at MIT; 2016 Turing Award. FIXED after fact-check: first site was on nxoc01.cern.ch in 1990 — body now says 'the machine later known as info.cern.ch'; restored page is a 1992 copy restored in 2013 (figure caption and closing line say so); Sendall approved buying the NeXT (not 'CERN had bought'); URL/HTTP/HTML now dated 'by the end of 1990', not attributed to the 1989 proposal (TBL's term then was UDI/URI; the 1989 system was called 'Mesh'); Microcosm 'could never point to nothing' cut as unsourced; Nelson 'put hypertext into print in 1965' (coined 1963); Turing Award described as 'the 2016 Turing Award, often called the highest honour'; Terry Hung added at SLAC; summary 'within five years' replaced by 'by the end of 1994'; if_you_were_there 'nothing to search' was wrong (Archie, WAIS, Gopher existed) — now 'no way to click across machines'; Pellow 'little programming experience' (her own words: a bit of Pascal and FORTRAN); line-mode browser 'on several kinds of computers at CERN'; project name now given as the proposal title; Mosaic Windows/Mac versions by end of 1993 by NCSA colleagues; why_it_matters 'much of', not 'most of'; builds_on microprocessor dropped (indirect). REVIEWER CHECK: Britannica link by hand; 'Weaving the Web' book link is the W3C page about it. Birth years left null for Pellow, Kunz, Addis, Hung, Bina (not confirmed). Non-Western contribution: none found in the core story — the web came out of an international European lab; I did not invent one. A Kyrgyz/Russian internet paragraph (Relcom 1990, .kg 1995) was considered and dropped because .kg dates conflict between sources. Place: CERN Meyrin site, precision 'city' (the exact building is not confirmed by the sources I read). Cover: First_Web_Server.jpg, 'Coolcaesar at en.wikipedia', CC BY-SA 3.0 (author line is a Wikipedia username — thin but as the Commons API gives it); figure W3_First_Website.png, 'Cern/Tim Berners-Lee', Public domain per Commons. Kyrgyz: 'Бүткүл дүйнөлүк желе' for World Wide Web (same choice as the arpanet draft, my coinage — needs a Kyrgyz reader); 'тажрыйба' used in its 'experience' sense; no glossary 'check' terms used beyond these.",
+  "translations": {
+    "en": {
+      "title": "Berners-Lee proposes the World Wide Web",
+      "summary": "At CERN, Tim Berners-Lee proposed linking documents across computers with simple addresses and links. By the end of 1994 the web had about 10,000 servers.",
+      "body": "### The scene\n\nIn 1989 CERN, the European particle-physics laboratory on the border of Switzerland and France near Geneva, was a small city of scientists. Several thousand physicists and engineers from dozens of countries came and went, most staying only a couple of years, and each group brought its own computers: mainframes, minicomputers, early personal computers, all with different systems and different ways of storing documents. The internet already existed — the descendant of the ARPANET, linking universities and laboratories — but using it to find a document meant knowing which machine it was on, logging in there, and learning that machine's commands.\n\nTim Berners-Lee, a 33-year-old British software engineer in CERN's computing division, had been bothered by this for nearly a decade. Both his parents, Mary Lee Woods and Conway Berners-Lee, were mathematicians who had programmed one of the first commercial computers, the Ferranti Mark 1, in Manchester. During a six-month contract at CERN in 1980 he had written a private program called ENQUIRE to keep track of who worked on what and which piece of software depended on which: notes that pointed to other notes. When he came back to CERN in 1984 the problem had only grown.\n\n### What happened\n\nIn March 1989 Berners-Lee handed his manager, Mike Sendall, a document titled \"Information Management: A Proposal\". It described the loss of information at CERN — people leave, and \"the technical details of past projects are sometimes lost forever\" — and proposed a cure: \"a web of notes with links (like references) between them\", spread across all of the laboratory's computers. Sendall wrote three words on the cover: \"Vague but exciting\". He did not approve a project, but in 1990 he approved the purchase of a new workstation, the NeXT computer, and let Berners-Lee use it to try the idea out.\n\nBy the end of 1990 the idea had become three simple pieces. Every document gets an address that says which machine it is on and where — today called a URL. Machines hand documents to each other through one short set of rules — HTTP. And documents are written in a plain text format with marks for headings and links — HTML. None of these needed anyone's permission: anyone could put up a server, and anyone could link to anything without asking the owner of the page at the other end.\n\nThe analogy is a library in which every book contains, in its margins, the shelf address of every other book it mentions, so that a reader can walk from one to the next without a catalogue. The analogy breaks in two places: the \"books\" sit in thousands of different buildings owned by different people, and nobody checks the margins — when a book is moved or thrown away, the address simply leads nowhere.\n\nIn the autumn of 1990 a Belgian engineer at CERN, Robert Cailliau, who had proposed a hypertext system for the laboratory himself, joined Berners-Lee; in November 1990 they wrote a second, formal proposal together, titled \"WorldWideWeb: Proposal for a HyperText Project\". By December 1990 Berners-Lee had a working browser that could also edit pages, the first web server, and the first website, all running on his NeXT computer, the machine later known as info.cern.ch. A label on the machine read: \"This machine is a server. DO NOT POWER IT DOWN!!\"\n\n![A 1992 copy of the first website's home page, restored by CERN at info.cern.ch in 2013; it explained what the World Wide Web was and how to use it](https://upload.wikimedia.org/wikipedia/commons/6/61/W3_First_Website.png \"Cern/Tim Berners-Lee · Public domain · https://commons.wikimedia.org/wiki/File:W3_First_Website.png\")\n\nAlmost nobody had a NeXT. The piece that let everyone else in was written by Nicola Pellow, an undergraduate mathematics student from Leicester Polytechnic who joined the project in November 1990 on a work placement and had little programming experience. Her \"line-mode\" browser showed pages as plain text on any terminal, with links as numbers to type. From March 1991 it was available on several kinds of computers at CERN. On 6 August 1991 Berners-Lee described the project in the internet newsgroup alt.hypertext, and outsiders began to download the software. On 12 December 1991 the first web server outside Europe went online at the Stanford Linear Accelerator Center in California, set up by Paul Kunz, a physicist who had seen the web at CERN, with Terry Hung and the laboratory's librarian, Louise Addis.\n\n### Why it was hard\n\nThe technical parts were modest; that was the point, and also the objection. Hypertext was by then an established research field. Vannevar Bush had imagined a desk-sized machine of linked microfilm, the Memex, in 1945; Ted Nelson put the word \"hypertext\" into print in 1965; Douglas Engelbart demonstrated clickable links in 1968; Apple shipped HyperCard in 1987; at the University of Southampton, Wendy Hall's team was building Microcosm, which kept links in a separate database. Earlier still, in 1934, the Belgian bibliographer Paul Otlet had described a network of documents that people could consult from a distance. Measured against these systems, the web looked crude. When Berners-Lee and Cailliau submitted a paper to the Hypertext '91 conference in San Antonio, it was rejected, and they were allowed only to give a demonstration.\n\nWhat the experts saw as a flaw was the design decision that made the web grow. Links in the web go one way and can break. A system that guarantees every link must keep track of every page in one place, and somebody has to run that place. The web needed nothing central: a broken link produces an error message, and the rest keeps working.\n\n> [!NOTE]\n> The internet and the web are not the same thing. The internet is the network of networks — cables, radio links and the rules for moving packets of data between machines, built up from 1969 onwards. The web is one service that runs on top of it, a space of documents joined by links. Email, for example, used the internet long before the web existed.\n\nThe other obstacle was ownership. In February 1993 the University of Minnesota announced that it would charge licence fees for its server of Gopher, a menu-based system for finding documents on the internet that was then more popular than the web. On 30 April 1993 CERN put the web's software into the public domain, so that anyone could use it, change it and build on it without paying. Berners-Lee later explained that if the technology had been proprietary and under his control, it probably would not have taken off.\n\n### What it opened\n\nIn 1993 the National Center for Supercomputing Applications at the University of Illinois released Mosaic, a browser by Marc Andreessen and Eric Bina that showed pictures inside the page alongside the text; by the end of the year colleagues of theirs had versions for Windows and Macintosh personal computers. There had been over 500 known web servers at the end of 1993; by the end of 1994 there were about 10,000. In May 1994 Cailliau organised the first international web conference at CERN, and in October 1994 Berners-Lee, who had moved to the Massachusetts Institute of Technology, founded the World Wide Web Consortium to keep the web's rules open and shared. He received the 2016 Turing Award, often called the highest honour in computer science.\n\nThe NeXT computer that served the first website is on display at CERN. The original 1990 page was not kept; in 2013 CERN restored a 1992 copy of it at info.cern.ch.",
+      "why_it_matters": "The web turned the internet from a network for specialists into a space anyone could read and publish in. Because CERN gave it away and nobody needed permission to link, it grew without a centre, and much of what people now do online runs on it.",
+      "if_you_were_there": "To read a document on another computer you would have needed to know which machine held it, log in there, and learn that machine's commands. There was no way to click from a document on one machine to a document on another.",
+      "place_name": "CERN, Meyrin, Switzerland",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Berners-Lee World Wide Web'i önerdi",
+      "summary": "CERN'de Tim Berners-Lee, bilgisayarlar arasındaki belgeleri basit adresler ve bağlantılarla birleştirmeyi önerdi. 1994 sonunda webde yaklaşık 10.000 sunucu vardı.",
+      "body": "### Sahne\n\n1989'da CERN, Cenevre yakınında İsviçre-Fransa sınırındaki Avrupa parçacık fiziği laboratuvarı, küçük bir bilim insanları kentiydi. Onlarca ülkeden birkaç bin fizikçi ve mühendis gelip gidiyordu; çoğu yalnızca birkaç yıl kalıyordu ve her grup kendi bilgisayarlarını getiriyordu: ana bilgisayarlar, mini bilgisayarlar, ilk kişisel bilgisayarlar; hepsi farklı sistemlerle, belgeleri farklı biçimlerde saklıyordu. İnternet zaten vardı — ARPANET'in torunu, üniversiteleri ve laboratuvarları birbirine bağlıyordu — ama onunla bir belge bulmak, belgenin hangi makinede olduğunu bilmek, o makineye girmek ve o makinenin komutlarını öğrenmek demekti.\n\nCERN'in bilgisayar bölümünde çalışan 33 yaşındaki İngiliz yazılım mühendisi Tim Berners-Lee, neredeyse on yıldır bu sorunla uğraşıyordu. Annesi Mary Lee Woods ve babası Conway Berners-Lee matematikçiydi; Manchester'da ilk ticari bilgisayarlardan biri olan Ferranti Mark 1'i programlamışlardı. Berners-Lee 1980'de CERN'deki altı aylık bir sözleşme sırasında ENQUIRE adında kişisel bir program yazmıştı: kimin ne üzerinde çalıştığını, hangi yazılımın hangisine dayandığını takip etmek için başka notlara işaret eden notlar. 1984'te CERN'e döndüğünde sorun yalnızca büyümüştü.\n\n### Ne oldu\n\nMart 1989'da Berners-Lee, yöneticisi Mike Sendall'a \"Bilgi Yönetimi: Bir Öneri\" başlıklı bir belge verdi. Belge CERN'deki bilgi kaybını anlatıyordu — insanlar ayrılıyor ve \"geçmiş projelerin teknik ayrıntıları bazen sonsuza dek kayboluyor\" — ve bir çare öneriyordu: laboratuvarın bütün bilgisayarlarına yayılmış, \"aralarında bağlantılar (kaynak göstermeler gibi) bulunan bir notlar ağı\". Sendall kapağa üç sözcük yazdı: \"Belirsiz ama heyecan verici\". Bir proje onaylamadı, ama 1990'da yeni bir iş istasyonunun, NeXT bilgisayarının satın alınmasını onayladı ve Berners-Lee'nin fikri onunla denemesine izin verdi.\n\n1990 sonunda fikir üç basit parçaya dönüşmüştü. Her belge, hangi makinede ve nerede olduğunu söyleyen bir adres alır — bugün buna URL deniyor. Makineler belgeleri birbirine tek bir kısa kurallar dizisiyle verir — HTTP. Belgeler de başlıklar ve bağlantılar için işaretler taşıyan sade bir metin biçiminde yazılır — HTML. Bunların hiçbiri kimsenin iznine gerek duymuyordu: herkes bir sunucu kurabilir, herkes öbür uçtaki sayfanın sahibine sormadan her şeye bağlantı verebilirdi.\n\nBenzetme şöyle: her kitabın kenar boşluklarında andığı bütün öbür kitapların raf adresinin yazılı olduğu bir kütüphane düşünün; okur katalog olmadan bir kitaptan ötekine yürüyebilir. Benzetme iki yerde bozulur: \"kitaplar\" farklı insanlara ait binlerce ayrı binada durur, ve kenar boşluklarını kimse denetlemez — bir kitap taşınınca ya da atılınca adres hiçbir yere çıkmaz.\n\n1990 sonbaharında CERN'de çalışan ve laboratuvar için kendisi de bir hipermetin sistemi önermiş olan Belçikalı mühendis Robert Cailliau, Berners-Lee'ye katıldı; Kasım 1990'da birlikte \"WorldWideWeb: Bir Hipermetin Projesi Önerisi\" başlıklı ikinci, resmî bir öneri yazdılar. Aralık 1990'a gelindiğinde Berners-Lee'nin sayfa da düzenleyebilen çalışan bir tarayıcısı, ilk web sunucusu ve ilk web sitesi vardı; hepsi, sonradan info.cern.ch adıyla bilinecek NeXT bilgisayarında çalışıyordu. Makinenin üstündeki etikette şöyle yazıyordu: \"Bu makine bir sunucudur. KAPATMAYIN!!\"\n\n![İlk web sitesinin ana sayfasının 1992 tarihli kopyası, CERN tarafından 2013'te info.cern.ch adresinde yeniden kuruldu; World Wide Web'in ne olduğunu ve nasıl kullanılacağını anlatıyordu](https://upload.wikimedia.org/wikipedia/commons/6/61/W3_First_Website.png \"Cern/Tim Berners-Lee · Public domain · https://commons.wikimedia.org/wiki/File:W3_First_Website.png\")\n\nNeredeyse kimsenin NeXT'i yoktu. Geri kalan herkesi içeri alan parçayı Nicola Pellow yazdı: Leicester Politeknik'te matematik okuyan, Kasım 1990'da staj için projeye katılan ve programlama deneyimi azdı. Onun \"satır kipi\" tarayıcısı sayfaları herhangi bir terminalde düz metin olarak gösteriyordu; bağlantılar yazılacak numaralardı. Mart 1991'den itibaren CERN'de birkaç farklı türde bilgisayarda kullanılabiliyordu. 6 Ağustos 1991'de Berners-Lee projeyi internet haber grubu alt.hypertext'te anlattı ve dışarıdan insanlar yazılımı indirmeye başladı. 12 Aralık 1991'de Kaliforniya'daki Stanford Doğrusal Hızlandırıcı Merkezi'nde Avrupa dışındaki ilk web sunucusu çalışmaya başladı; onu, webi CERN'de görmüş bir fizikçi olan Paul Kunz, Terry Hung ve laboratuvarın kütüphanecisi Louise Addis'le birlikte kurdu.\n\n### Neden zordu\n\nTeknik parçalar mütevazıydı; asıl mesele de, itiraz da buydu. Hipermetin o sıralarda yerleşik bir araştırma alanıydı. Vannevar Bush 1945'te birbirine bağlı mikrofilmlerden oluşan masa büyüklüğünde bir makine, Memex'i hayal etmişti; Ted Nelson \"hipermetin\" sözcüğünü 1965'te yayımladı; Douglas Engelbart 1968'de tıklanabilir bağlantıları gösterdi; Apple 1987'de HyperCard'ı piyasaya sürdü; Southampton Üniversitesi'nde Wendy Hall'un ekibi, bağlantıları ayrı bir veritabanında tutan Microcosm'u geliştiriyordu. Daha da önce, 1934'te Belçikalı bibliyograf Paul Otlet, insanların uzaktan başvurabileceği bir belgeler ağını tarif etmişti. Bu sistemlerle karşılaştırıldığında web kaba görünüyordu. Berners-Lee ve Cailliau, San Antonio'daki Hypertext '91 konferansına bir bildiri gönderdiğinde bildiri reddedildi; yalnızca bir gösterim yapmalarına izin verildi.\n\nUzmanların kusur gördüğü şey, webin büyümesini sağlayan tasarım kararıydı. Webde bağlantılar tek yönlüdür ve kopabilir. Her bağlantıyı garanti eden bir sistem bütün sayfaları tek bir yerde izlemek zorundadır, ve o yeri birinin yönetmesi gerekir. Webin merkeze ihtiyacı yoktu: kopuk bir bağlantı bir hata mesajı verir, gerisi çalışmaya devam eder.\n\n> [!NOTE]\n> İnternet ile web aynı şey değildir. İnternet, ağların ağıdır: kablolar, radyo bağlantıları ve veri paketlerini makineler arasında taşımanın kuralları; 1969'dan itibaren kuruldu. Web onun üstünde çalışan hizmetlerden biridir, bağlantılarla birleşmiş bir belgeler uzayı. Örneğin e-posta, web var olmadan çok önce interneti kullanıyordu.\n\nÖbür engel sahiplikti. Şubat 1993'te Minnesota Üniversitesi, internette belge bulmak için menülere dayanan ve o sırada webden daha popüler olan Gopher sisteminin sunucusu için lisans ücreti alacağını duyurdu. 30 Nisan 1993'te CERN webin yazılımını kamu malı yaptı: herkes onu ücret ödemeden kullanabilir, değiştirebilir ve üzerine inşa edebilirdi. Berners-Lee sonradan, teknoloji tescilli ve kendi denetiminde olsaydı muhtemelen tutmayacağını söyledi.\n\n### Sonrası\n\n1993'te Illinois Üniversitesi'ndeki Ulusal Süperbilgisayar Uygulamaları Merkezi, Marc Andreessen ve Eric Bina'nın yazdığı Mosaic tarayıcısını yayımladı: resimleri sayfanın içinde metnin yanında gösteriyordu; yıl sonuna kadar ekip arkadaşları Windows ve Macintosh kişisel bilgisayarları için sürümler yazdı. 1993 sonunda bilinen 500'ü aşkın web sunucusu vardı; 1994 sonunda yaklaşık 10.000 oldu. Mayıs 1994'te Cailliau CERN'de ilk uluslararası web konferansını düzenledi; Ekim 1994'te Massachusetts Teknoloji Enstitüsü'ne geçmiş olan Berners-Lee, webin kurallarını açık ve ortak tutmak için World Wide Web Konsorsiyumu'nu kurdu. Sık sık bilgisayar biliminin en yüksek onuru diye anılan 2016 Turing Ödülü'nü aldı.\n\nİlk web sitesini sunan NeXT bilgisayarı CERN'de sergileniyor. 1990'daki özgün sayfa saklanmadı; CERN 2013'te onun 1992 tarihli bir kopyasını info.cern.ch adresinde yeniden kurdu.",
+      "why_it_matters": "Web, interneti uzmanlara ait bir ağdan herkesin okuyup yayımlayabildiği bir uzaya çevirdi. CERN onu bedelsiz verdiği ve bağlantı vermek için kimsenin iznine gerek olmadığı için merkezsiz büyüdü; bugün çevrim içi yapılanların büyük kısmı onun üstünde çalışıyor.",
+      "if_you_were_there": "Başka bir bilgisayardaki belgeyi okumak için onun hangi makinede durduğunu bilmeniz, o makineye girmeniz ve o makinenin komutlarını öğrenmeniz gerekirdi. Bir makinedeki belgeden başka bir makinedeki belgeye tıklayarak geçmenin yolu yoktu.",
+      "place_name": "CERN, Meyrin, İsviçre",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Бернерс-Ли предлагает Всемирную паутину",
+      "summary": "В ЦЕРНе Тим Бернерс-Ли предложил связать документы на разных компьютерах простыми адресами и ссылками. К концу 1994 года в вебе было около 10 000 серверов.",
+      "body": "### Обстановка\n\nВ 1989 году ЦЕРН, Европейская лаборатория физики частиц на границе Швейцарии и Франции под Женевой, был маленьким городом учёных. Несколько тысяч физиков и инженеров из десятков стран приезжали и уезжали, большинство оставалось всего на пару лет, и каждая группа привозила свои компьютеры: большие ЭВМ, мини-компьютеры, первые персональные компьютеры — все с разными системами и разными способами хранить документы. Интернет уже существовал — наследник ARPANET, связывавший университеты и лаборатории, — но найти через него документ значило знать, на какой машине он лежит, войти на неё и выучить её команды.\n\nТим Бернерс-Ли, 33-летний британский программист из вычислительного отдела ЦЕРНа, думал об этой проблеме почти десять лет. Оба его родителя, Мэри Ли Вудс и Конвей Бернерс-Ли, были математиками и программировали в Манчестере один из первых коммерческих компьютеров, Ferranti Mark 1. Во время полугодового контракта в ЦЕРНе в 1980 году он написал для себя программу ENQUIRE, чтобы следить, кто над чем работает и какая программа от какой зависит: заметки, указывающие на другие заметки. Когда в 1984 году он вернулся в ЦЕРН, проблема только выросла.\n\n### Что произошло\n\nВ марте 1989 года Бернерс-Ли передал своему начальнику Майку Сендаллу документ под названием «Управление информацией: предложение». В нём описывалась потеря информации в ЦЕРНе — люди уходят, и «технические подробности прошлых проектов порой теряются навсегда» — и предлагалось лекарство: «сеть заметок со ссылками между ними (вроде библиографических ссылок)», раскинутая по всем компьютерам лаборатории. Сендалл написал на обложке три слова: «Расплывчато, но захватывающе». Проекта он не утвердил, но в 1990 году одобрил покупку новой рабочей станции, компьютера NeXT, и позволил Бернерсу-Ли опробовать на ней идею.\n\nК концу 1990 года идея сложилась из трёх простых частей. У каждого документа есть адрес, который говорит, на какой машине и где он лежит, — сегодня его называют URL. Машины передают друг другу документы по одному короткому набору правил — HTTP. А сами документы пишутся в простом текстовом формате с пометками для заголовков и ссылок — HTML. Ни для чего из этого не требовалось ничьё разрешение: любой мог поставить сервер, и любой мог сослаться на что угодно, не спрашивая владельца страницы на другом конце.\n\nПодходящее сравнение — библиотека, в которой на полях каждой книги записан адрес полки всех книг, которые в ней упомянуты, так что читатель может переходить от одной к другой без каталога. Сравнение ломается в двух местах: «книги» стоят в тысячах разных зданий, принадлежащих разным людям, и поля никто не проверяет — если книгу переставили или выбросили, адрес просто ведёт в никуда.\n\nОсенью 1990 года к Бернерсу-Ли присоединился бельгийский инженер ЦЕРНа Робер Кайо, который и сам предлагал лаборатории гипертекстовую систему; в ноябре 1990 года они вместе написали второе, официальное предложение под названием «WorldWideWeb: предложение гипертекстового проекта». К декабрю 1990 года у Бернерса-Ли были работающий браузер, умевший также редактировать страницы, первый веб-сервер и первый сайт — всё на его компьютере NeXT, машине, позже известной как info.cern.ch. На машине была наклейка: «Эта машина — сервер. НЕ ВЫКЛЮЧАТЬ!!»\n\n![Копия главной страницы первого сайта 1992 года, восстановленная ЦЕРНом по адресу info.cern.ch в 2013 году: она объясняла, что такое Всемирная паутина и как ею пользоваться](https://upload.wikimedia.org/wikipedia/commons/6/61/W3_First_Website.png \"Cern/Tim Berners-Lee · Public domain · https://commons.wikimedia.org/wiki/File:W3_First_Website.png\")\n\nКомпьютер NeXT почти ни у кого не было. Часть, впустившую всех остальных, написала Никола Пеллоу — студентка-математик Лестерского политехникума, пришедшая в проект на практику в ноябре 1990 года и почти не имевшая опыта программирования. Её «строчный» браузер показывал страницы простым текстом на любом терминале, а ссылки были номерами, которые нужно набрать. С марта 1991 года он был доступен на нескольких типах компьютеров в ЦЕРНе. 6 августа 1991 года Бернерс-Ли описал проект в интернет-конференции alt.hypertext, и посторонние люди начали скачивать программы. 12 декабря 1991 года заработал первый веб-сервер за пределами Европы — в Стэнфордском центре линейного ускорителя в Калифорнии; его запустил Пол Кунц, физик, увидевший веб в ЦЕРНе, вместе с Терри Хунгом и библиотекарем лаборатории Луизой Аддис.\n\n### Почему это было трудно\n\nТехнические части были скромными — в этом и был смысл, и в этом же было возражение. Гипертекст к тому времени был сложившейся областью исследований. Вэнивар Буш в 1945 году вообразил машину размером со стол из связанных между собой микрофильмов — «Мемекс»; Тед Нельсон в 1965 году ввёл в печать слово «гипертекст»; Дуглас Энгельбарт в 1968 году показал ссылки, по которым можно щёлкнуть; Apple в 1987 году выпустила HyperCard; в Саутгемптонском университете группа Венди Холл строила систему Microcosm, которая хранила ссылки в отдельной базе данных. Ещё раньше, в 1934 году, бельгийский библиограф Поль Отле описал сеть документов, к которым люди могли бы обращаться издалека. На фоне этих систем веб выглядел грубым. Когда Бернерс-Ли и Кайо подали доклад на конференцию Hypertext '91 в Сан-Антонио, его отклонили и разрешили только демонстрацию.\n\nТо, что специалисты считали недостатком, было решением, благодаря которому веб вырос. Ссылки в вебе односторонние и могут обрываться. Система, гарантирующая каждую ссылку, должна следить за всеми страницами в одном месте, и кто-то должен этим местом управлять. Вебу не нужен был центр: оборванная ссылка выдаёт сообщение об ошибке, а всё остальное продолжает работать.\n\n> [!NOTE]\n> Интернет и веб — не одно и то же. Интернет — это сеть сетей: кабели, радиоканалы и правила передачи пакетов данных между машинами; его строили начиная с 1969 года. Веб — одна из служб, работающих поверх него, пространство документов, соединённых ссылками. Электронная почта, например, пользовалась интернетом задолго до появления веба.\n\nДругим препятствием была собственность. В феврале 1993 года Миннесотский университет объявил, что будет брать лицензионную плату за свой сервер Gopher — меню-системы для поиска документов в интернете, которая тогда была популярнее веба. 30 апреля 1993 года ЦЕРН передал программы веба в общественное достояние: любой мог бесплатно их использовать, менять и строить на них своё. Позже Бернерс-Ли объяснял, что если бы технология была собственнической и под его контролем, она, вероятно, не прижилась бы.\n\n### Что это открыло\n\nВ 1993 году Национальный центр суперкомпьютерных приложений при Иллинойсском университете выпустил браузер Mosaic, написанный Марком Андриссеном и Эриком Биной: он показывал картинки прямо на странице рядом с текстом; к концу года их коллеги сделали версии для персональных компьютеров Windows и Macintosh. В конце 1993 года было известно более 500 веб-серверов; к концу 1994 года — около 10 000. В мае 1994 года Кайо организовал в ЦЕРНе первую международную конференцию по вебу, а в октябре 1994 года Бернерс-Ли, перешедший в Массачусетский технологический институт, основал Консорциум Всемирной паутины, чтобы правила веба оставались открытыми и общими. Он получил премию Тьюринга за 2016 год, которую часто называют высшей наградой в информатике.\n\nКомпьютер NeXT, на котором работал первый сайт, выставлен в ЦЕРНе. Исходная страница 1990 года не сохранилась; в 2013 году ЦЕРН восстановил её копию 1992 года по адресу info.cern.ch.",
+      "why_it_matters": "Веб превратил интернет из сети для специалистов в пространство, где любой может читать и публиковать. ЦЕРН отдал его бесплатно, а для ссылки не нужно было ничьё разрешение, поэтому он рос без центра; многое из того, что люди сегодня делают в сети, работает на нём.",
+      "if_you_were_there": "Чтобы прочитать документ на другом компьютере, вам нужно было бы знать, на какой машине он лежит, войти на неё и выучить её команды. Перейти щелчком от документа на одной машине к документу на другой было невозможно.",
+      "place_name": "ЦЕРН, Мейрен, Швейцария",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Бернерс-Ли Бүткүл дүйнөлүк желени сунуштады",
+      "summary": "ЦЕРНде Тим Бернерс-Ли ар кайсы компьютерлердеги документтерди жөнөкөй даректер жана шилтемелер менен байланыштырууну сунуштады. 1994-жылдын аягында вебде 10 000ге жакын сервер бар эле.",
+      "body": "### Окуя болгон жер жана маал\n\n1989-жылы Женеванын жанында, Швейцария менен Франциянын чек арасында жайгашкан Европалык бөлүкчөлөр физикасы лабораториясы — ЦЕРН — окумуштуулардын кичинекей шаарына окшош болчу. Ондогон өлкөлөрдөн келген бир нече миң физик жана инженер келип-кетип турчу, алардын көбү бир-эки жыл гана калчу, ар бир топ өз компьютерлерин алып келчү: чоң ЭЭМдер, мини-компьютерлер, алгачкы жеке компьютерлер — баарынын системасы башка, документтерди сактоо жолу башка. Интернет буга чейин эле бар болчу — ARPANETтин мураскору университеттерди жана лабораторияларды байланыштырып турчу, — бирок ал аркылуу бир документти табыш үчүн анын кайсы машинада жатканын билип, ошол машинага кирип, анын буйруктарын үйрөнүү керек эле.\n\nЦЕРНдин эсептөө бөлүмүндө иштеген 33 жаштагы британиялык программист Тим Бернерс-Ли бул көйгөй жөнүндө дээрлик он жыл ойлонуп келген. Анын ата-энеси, Мэри Ли Вудс менен Конвей Бернерс-Ли, математиктер болушкан жана Манчестерде алгачкы коммерциялык компьютерлердин бири болгон Ferranti Mark 1ге программа жазышкан. 1980-жылы ЦЕРНдеги алты айлык келишим учурунда ал ENQUIRE деген жеке программа жазган: ким эмне менен иштеп жатканын, кайсы программа кайсынысына көз каранды экенин көзөмөлдөө үчүн — башка жазууларды көрсөтүп турган жазуулар. 1984-жылы ЦЕРНге кайтып келгенде көйгөй андан бетер чоңойгон эле.\n\n### Эмне болду\n\n1989-жылдын мартында Бернерс-Ли жетекчиси Майк Сендаллга «Маалыматты башкаруу: сунуш» деген документ тапшырды. Анда ЦЕРНдеги маалыматтын жоголушу сүрөттөлгөн — адамдар кетет, жана «мурунку долбоорлордун техникалык майда-чүйдөсү кээде түбөлүккө жоголот», — жана дары сунушталган: лабораториянын бардык компьютерлерине жайылган «ортосунда шилтемелери (адабиятка шилтемелер сыяктуу) бар жазуулардын торчосу». Сендалл мукабага: «Бүдөмүк, бирок кызыктуу» деп жазды. Ал долбоорду бекиткен жок, бирок 1990-жылы жаңы жумушчу станцияны — NeXT компьютерин — сатып алууну жактырып, Бернерс-Лиге идеяны ошол компьютерде сынап көрүүгө уруксат берди.\n\n1990-жылдын аягына карата идея үч жөнөкөй бөлүккө айланган. Ар бир документтин кайсы машинада жана кайсы жерде жатканын айткан дареги болот — бүгүн аны URL деп аташат. Машиналар документтерди бири-бирине бир кыска эрежелер топтому аркылуу беришет — HTTP. Документтердин өзү аталыштар жана шилтемелер үчүн белгилери бар жөнөкөй текст форматында жазылат — HTML. Мунун бири үчүн да эч кимдин уруксаты керек болгон эмес: каалаган адам сервер орното алчу, каалаган адам экинчи учтагы барактын ээсинен сурабай эле каалаган нерсеге шилтеме бере алчу.\n\nМуну мындай китепканага салыштырууга болот: ар бир китептин четине анда аталган бардык башка китептердин текчедеги дареги жазылган, ошондуктан окурман каталогсуз эле бир китептен экинчисине өтө алат. Салыштыруу эки жерде бузулат: «китептер» ар башка адамдарга таандык миңдеген ар башка имараттарда турат, жана четтерди эч ким текшербейт — китеп башка жерге көчүрүлсө же ыргытылса, дарек жөн эле эч жакка алып барбайт.\n\n1990-жылдын күзүндө Бернерс-Лиге ЦЕРНдин бельгиялык инженери Робер Кайо кошулду; ал өзү да лаборатория үчүн гипертекст системасын сунуштаган эле. 1990-жылдын ноябрында алар экөө «WorldWideWeb: гипертекст долбоорунун сунушу» деген экинчи, расмий сунушту жазышты. 1990-жылдын декабрына карата Бернерс-Линин барактарды оңдой да алган иштеген браузери, биринчи веб-сервери жана биринчи сайты бар болчу — баары кийин info.cern.ch деп аталып калган анын NeXT компьютеринде иштечү. Машинанын үстүндө: «Бул машина — сервер. ӨЧҮРБӨҢҮЗ!!» деген жазуу турчу.\n\n![Биринчи сайттын башкы барагынын 1992-жылкы көчүрмөсү, аны ЦЕРН 2013-жылы info.cern.ch дарегинде калыбына келтирген: ал Бүткүл дүйнөлүк желе эмне экенин жана аны кантип колдонууну түшүндүргөн](https://upload.wikimedia.org/wikipedia/commons/6/61/W3_First_Website.png \"Cern/Tim Berners-Lee · Public domain · https://commons.wikimedia.org/wiki/File:W3_First_Website.png\")\n\nNeXT компьютери дээрлик эч кимде жок эле. Калган бардык адамдарга эшик ачкан бөлүктү Никола Пеллоу жазган: Лестер политехникасынын математика студенти, ал 1990-жылдын ноябрында практикадан өтүү үчүн долбоорго келген жана программалоо тажрыйбасы аз болчу. Анын «саптык» браузери барактарды каалаган терминалда жөнөкөй текст катары көрсөтчү, ал эми шилтемелер терүү керек болгон сандар эле. 1991-жылдын мартынан тартып ал ЦЕРНдеги бир нече түрдөгү компьютерлерде жеткиликтүү болду. 1991-жылдын 6-августунда Бернерс-Ли долбоорду alt.hypertext деген интернет-талкуу тобунда сүрөттөдү, жана сырттагы адамдар программаны жүктөп ала башташты. 1991-жылдын 12-декабрында Калифорниядагы Стэнфорд сызыктуу ылдамдаткыч борборунда Европадан тышкаркы биринчи веб-сервер иштей баштады; аны вебди ЦЕРНде көргөн физик Пол Кунц Терри Хунг жана лабораториянын китепканачысы Луиза Аддис менен бирге ишке киргизген.\n\n### Эмнеси кыйын болду\n\nТехникалык бөлүктөр жөнөкөй эле — максат да, каршылык да ушунда болчу. Ал убакта гипертекст калыптанып калган изилдөө тармагы эле. Вэнивар Буш 1945-жылы бири-бирине байланышкан микрофильмдерден турган үстөлдөй машинаны — Мемексти — элестеткен; Тед Нельсон 1965-жылы «гипертекст» деген сөздү басма сөзгө чыгарган; Дуглас Энгельбарт 1968-жылы басып ачыла турган шилтемелерди көрсөткөн; Apple 1987-жылы HyperCardды чыгарган; Саутгемптон университетинде Венди Холлдун тобу шилтемелерди өзүнчө маалымат базасында сактаган Microcosm системасын куруп жаткан. Андан да мурун, 1934-жылы, бельгиялык библиограф Поль Отле адамдар алыстан кайрыла ала турган документтер торчосун сүрөттөгөн. Бул системалардын жанында веб орой көрүнгөн. Бернерс-Ли менен Кайо Сан-Антониодогу Hypertext '91 конференциясына баяндама жөнөткөндө, ал четке кагылган, аларга көрсөтүү өткөрүүгө гана уруксат беришкен.\n\nАдистер кемчилик деп эсептеген нерсе вебдин өсүшүнө жол ачкан чечим болчу. Вебдеги шилтемелер бир тараптуу жана үзүлүп калышы мүмкүн. Ар бир шилтемеге кепилдик берген система бардык барактарды бир жерде көзөмөлдөшү керек, жана ал жерди бирөө башкарышы керек. Вебге борбор керек болгон эмес: үзүлгөн шилтеме ката жөнүндө билдирүү берет, калганы иштей берет.\n\n> [!NOTE]\n> Интернет менен веб — бир нерсе эмес. Интернет — тармактардын тармагы: кабелдер, радиобайланыштар жана маалымат пакеттерин машиналардын ортосунда ташуу эрежелери; ал 1969-жылдан баштап курулган. Веб — анын үстүндө иштеген кызматтардын бири, шилтемелер менен туташкан документтер мейкиндиги. Мисалы, электрондук почта интернетти веб пайда боло электе эле көп мурун колдонуп келген.\n\nДагы бир тоскоол — менчик маселеси болгон. 1993-жылдын февралында Миннесота университети интернеттен документ табуу үчүн менюга негизделген, ал кезде вебден популярдуураак болгон Gopher системасынын серверин колдонуу үчүн лицензиялык акы алаарын жарыялады. 1993-жылдын 30-апрелинде ЦЕРН вебдин программаларын коомдук мүлк кылды: каалаган адам аларды акысыз колдонуп, өзгөртүп, алардын үстүнө өзүнүкүн кура алчу. Кийин Бернерс-Ли эгер технология менчик болуп, анын көзөмөлүндө калганда, балким, тамыр жайбайт эле деп түшүндүргөн.\n\n### Эмнеге жол ачты\n\n1993-жылы Иллинойс университетиндеги Улуттук суперкомпьютердик тиркемелер борбору Марк Андриссен менен Эрик Бина жазган Mosaic браузерин чыгарды: ал сүрөттөрдү барактын ичинде, тексттин жанында көрсөтчү; жылдын аягына чейин алардын кесиптештери Windows жана Macintosh жеке компьютерлери үчүн нускаларын жазышты. 1993-жылдын аягында 500дөн ашык белгилүү веб-сервер бар болчу; 1994-жылдын аягында болжол менен 10 000ге жетти. 1994-жылдын майында Кайо ЦЕРНде веб боюнча биринчи эл аралык конференцияны уюштурду, ал эми 1994-жылдын октябрында Массачусетс технология институтуна өткөн Бернерс-Ли вебдин эрежелерин ачык жана жалпы бойдон сактоо үчүн Бүткүл дүйнөлүк желе консорциумун негиздеди. Ал көп учурда информатикадагы эң жогорку сыйлык деп аталган 2016-жылдын Тьюринг сыйлыгын алды.\n\nБиринчи сайт иштеген NeXT компьютери ЦЕРНде көргөзмөдө турат. 1990-жылдагы баштапкы барак сакталган эмес; 2013-жылы ЦЕРН анын 1992-жылкы көчүрмөсүн info.cern.ch дарегинде калыбына келтирди.",
+      "why_it_matters": "Веб интернетти адистердин тармагынан ар бир адам окуп, жарыялай ала турган мейкиндикке айлантты. ЦЕРН аны акысыз берип, шилтеме берүү үчүн эч кимдин уруксаты керек болбогондуктан, ал борборсуз өстү; бүгүн адамдар интернетте жасагандардын көп бөлүгү анын үстүндө иштейт.",
+      "if_you_were_there": "Башка компьютердеги документти окуш үчүн анын кайсы машинада жатканын билип, ошол машинага кирип, анын буйруктарын үйрөнүшүңүз керек болмок. Бир машинадагы документтен башка машинадагы документке басып өтүүнүн жолу жок эле.",
+      "place_name": "ЦЕРН, Мейрен, Швейцария",
+      "status": "machine"
+    }
+  }
+}
