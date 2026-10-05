@@ -1,0 +1,256 @@
+{
+  "slug": "democritus-atoms",
+  "year": -420,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 40.9339,
+  "lng": 24.9725,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Democritus_Rijksmuseum_SK-A-2783.jpeg",
+    "credit": "Hendrick ter Brugghen",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Democritus_Rijksmuseum_SK-A-2783.jpeg"
+  },
+  "disciplines": [
+    "physics",
+    "chemistry"
+  ],
+  "people": [
+    {
+      "slug": "leucippus",
+      "birth_year": null,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Leucippus",
+        "tr": "Leukippos",
+        "ru": "Левкипп",
+        "ky": "Левкипп"
+      }
+    },
+    {
+      "slug": "democritus",
+      "birth_year": -460,
+      "death_year": -370,
+      "role": "author",
+      "name": {
+        "en": "Democritus",
+        "tr": "Demokritos",
+        "ru": "Демокрит",
+        "ky": "Демокрит"
+      }
+    },
+    {
+      "slug": "parmenides",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Parmenides of Elea",
+        "tr": "Elealı Parmenides",
+        "ru": "Парменид Элейский",
+        "ky": "Элеялык Парменид"
+      }
+    },
+    {
+      "slug": "zeno-of-elea",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Zeno of Elea",
+        "tr": "Elealı Zenon",
+        "ru": "Зенон Элейский",
+        "ky": "Элеялык Зенон"
+      }
+    },
+    {
+      "slug": "melissus",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Melissus of Samos",
+        "tr": "Samoslu Melissos",
+        "ru": "Мелисс Самосский",
+        "ky": "Самостук Мелисс"
+      }
+    },
+    {
+      "slug": "kanada",
+      "birth_year": null,
+      "death_year": null,
+      "role": "context",
+      "name": {
+        "en": "Kanada",
+        "tr": "Kanada",
+        "ru": "Канада",
+        "ky": "Канада"
+      }
+    },
+    {
+      "slug": "aristotle",
+      "birth_year": -384,
+      "death_year": -322,
+      "role": "rival",
+      "name": {
+        "en": "Aristotle",
+        "tr": "Aristoteles",
+        "ru": "Аристотель",
+        "ky": "Аристотель"
+      }
+    },
+    {
+      "slug": "epicurus",
+      "birth_year": -341,
+      "death_year": -270,
+      "role": "successor",
+      "name": {
+        "en": "Epicurus",
+        "tr": "Epikuros",
+        "ru": "Эпикур",
+        "ky": "Эпикур"
+      }
+    },
+    {
+      "slug": "lucretius",
+      "birth_year": -99,
+      "death_year": -55,
+      "role": "transmitter",
+      "name": {
+        "en": "Lucretius",
+        "tr": "Lucretius",
+        "ru": "Лукреций",
+        "ky": "Лукреций"
+      }
+    },
+    {
+      "slug": "ibn-sina",
+      "birth_year": 980,
+      "death_year": 1037,
+      "role": "rival",
+      "name": {
+        "en": "Ibn Sina",
+        "tr": "İbn Sina",
+        "ru": "Ибн Сина",
+        "ky": "Ибн Сина"
+      }
+    },
+    {
+      "slug": "john-dalton",
+      "birth_year": 1766,
+      "death_year": 1844,
+      "role": "successor",
+      "name": {
+        "en": "John Dalton",
+        "tr": "John Dalton",
+        "ru": "Джон Дальтон",
+        "ky": "Джон Дальтон"
+      }
+    }
+  ],
+  "builds_on": [
+    "thales-natural-explanations"
+  ],
+  "sources": [
+    {
+      "title": "Democritus — Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/democritus/"
+    },
+    {
+      "title": "Ancient Atomism — Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/atomism-ancient/"
+    },
+    {
+      "title": "Leucippus — Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/leucippus/"
+    },
+    {
+      "title": "Democritus — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Democritus/"
+    },
+    {
+      "title": "Democritus — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Democritus"
+    },
+    {
+      "title": "Atomism — Wikipedia (Indian, Islamic and early modern atomism)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Atomism"
+    },
+    {
+      "title": "Kanada (philosopher) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kanada_(philosopher)"
+    },
+    {
+      "title": "Ibn Sina's Natural Philosophy — Stanford Encyclopedia of Philosophy (critique of kalam atomism)",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/ibn-sina-natural/"
+    },
+    {
+      "title": "De rerum natura — Wikipedia (Lucretius; Poggio's 1417 find)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/De_rerum_natura"
+    },
+    {
+      "title": "Democritus — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Democritus"
+    },
+    {
+      "title": "Aristotle, Metaphysics A.4, 985b4-19 (the letters analogy) — Perseus Digital Library",
+      "kind": "book",
+      "url": "http://www.perseus.tufts.edu/hopper/text?doc=Aristot.+Met.+1.985b&lang=original"
+    }
+  ],
+  "research_note": "Checked 2026-10-05 against Stanford Encyclopedia of Philosophy (Democritus, Ancient Atomism, Leucippus, Ibn Sina's Natural Philosophy), MacTutor, English Wikipedia (Democritus, Atomism, Kanada, De rerum natura) and Aristotle's Metaphysics A.4 via Perseus; Britannica linked for the human reviewer only. Verified adversarially by the fact-checker agent before loading.\nFIXED AFTER FACT-CHECK: (1) the body had atoms differing 'only in shape, arrangement and position' in one place and 'only in shape and size' in another; now atoms differ in shape and size, compounds also in arrangement and turning (SEP). (2) Continuous recreation by God is attributed to the Ash'arites specifically, and the body notes not every Mu'tazilite was an atomist (al-Nazzam). (3) 'Suspect to Christian and Muslim scholars alike' contradicted the kalam paragraph; now 'Christian scholars and Aristotelian philosophers of the Islamic world'. (4) The anecdote box no longer says all legends are centuries later: the Plato book-burning story goes back to Aristoxenus (4th c. BCE) via Diogenes Laertius IX.40, and is framed as hostile gossip. (5) 'By 1938 nuclei were being split' was misleading; now artificial transmutation within two decades, and the 1938 fission finding credited to Hahn, Strassmann, Meitner and Frisch. (6) why_it_matters 'the first proposal' softened to 'one of the earliest and boldest' (Empedocles's four roots and Anaxagoras are contemporary rivals). (7) Melissus added as the Eleatic who explicitly denied the void; Smoluchowski (1906) added beside Einstein. (8) 'About seventy titles' changed to 'some sixty to seventy' (Diogenes Laertius IX.46-49). (9) 'Survived mainly through Lucretius' limited to Latin Europe (Diogenes Laertius book X and Aristotle's commentators also carried it).\nFLAGGED IN THE BODY: no document dates the theory; year -420 circa is an approximate point in Democritus's working life (birth c. 460 BCE per Apollodorus, c. 470 per Thrasyllus). Leucippus's historicity (Epicurus reportedly denied he existed, Diogenes Laertius X.13) and the impossibility of separating his ideas from Democritus's are stated. Travel, laughing-philosopher and Plato anecdotes are labelled legends. Kanada's dates (6th-2nd c. BCE) are uncertain; priority between Indian and Greek atomism is left unsettled and independence is stated cautiously ('look independent').\nREVIEWER SHOULD CHECK: the Leiden manuscript caption (VLF 30, 'Oblongus', 9th century; Commons credit line names Lucretius as author, which is thin but the file is public domain); the Dalton chart: Commons gives the date 1808 and Dalton as author but its stated source is a secondary website, and visual inspection shows a hand-drawn lecture-style chart rather than the printed 1808 New System plate, so the caption was softened to 'of the kind he drew for his lectures in the early 1800s' and does not assert a year; Poggio's monastery is probably Fulda but not certain, so the body says only 'a German monastery'. Birth/death years for Leucippus, Parmenides, Zeno, Melissus and Kanada are left null because sources give no reliable figures.\nLEFT OUT / NON-WESTERN: Vaisheshika (Kanada), Buddhist and Jain atomism, kalam atomism (Mu'tazila, Ash'ari) and Ibn Sina's critique (born near Bukhara) are in the body. No women are attested in this tradition; not papered over. Lise Meitner appears in the fission sentence.\nKYRGYZ: machine translation. Glossary terms used: атом, зат ('check'), айлана ('check'), үч бурчтук ('check', here тик бурчтуу үч бурчтук), далилдөө ('check', in 'далилдөө үчүн'). Not in the glossary and chosen by Claude: боштук (void), бөлүкчө (particle), кесилбес (uncuttable), шарттуу түрдө (by convention), калам/мутазилиттер/ашариттер, вайшешика/параману, «Айыктыруу китеби» for the Book of Healing, «Нерселердин табияты жөнүндө» for De rerum natura. Proper nouns follow the Russian forms (Левкипп, Демокрит, Абдера, Парменид, Зенон, Мелисс, Лукреций, Поджо Браччолини, Смолуховский); only Aristotle, Plato and Ibn Sina are in the glossary names list.",
+  "translations": {
+    "en": {
+      "title": "Leucippus and Democritus: the world is atoms and void",
+      "summary": "Around 420 BCE Leucippus and Democritus argued that everything is made of tiny uncuttable pieces moving through empty space: a guess no one could test for more than 2,000 years.",
+      "why_it_matters": "Atomism was one of the earliest and boldest proposals that the endless variety of the world comes from a few simple pieces following rules. No one could test it for more than two thousand years, and when chemistry and physics finally did, the core idea held.",
+      "if_you_were_there": "The cleverest arguments of your day said empty space could not exist. Then someone claimed that emptiness was real, and that everything you can touch is invisible grains moving through it.",
+      "place_name": "Abdera",
+      "status": "human",
+      "body": "![Democritus as Hendrick ter Brugghen painted him in 1628: the \"laughing philosopher\" of later legend. No portrait from his lifetime survives.](https://upload.wikimedia.org/wikipedia/commons/2/2d/Democritus_Rijksmuseum_SK-A-2783.jpeg \"Hendrick ter Brugghen · Public domain · https://commons.wikimedia.org/wiki/File:Democritus_Rijksmuseum_SK-A-2783.jpeg\")\n\n### The scene\n\nGreece, the second half of the 5th century BCE. For more than a hundred years, thinkers in the Greek cities of Ionia had been asking what the world is ultimately made of. Water, said Thales; air, said Anaximenes. Then Parmenides of Elea, a Greek city in southern Italy, put a logical obstacle in front of all of them. What is not cannot exist, he argued, so there can be no empty space; and without empty space nothing can move, nothing can be born, nothing can change. Change, on this argument, is an illusion of the senses. His follower Zeno added paradoxes about dividing things without end: if every distance can be halved, and halved again, forever, how does anything get from one place to another? Melissus, another follower, spelled out that there can be no void.\n\nThese were not idle puzzles. Anyone who wanted to explain a changing world had to answer them first.\n\n### What happened\n\nLeucippus, a shadowy figure placed around the middle of the century, and his student Democritus of Abdera, a trading city on the coast of Thrace, gave an answer that accepted half of Parmenides's argument and refused the other half. Yes, what truly exists never comes into being and never perishes. But there is not just one such thing. There are countless numbers of them: pieces of matter too small to see, solid all the way through, impossible to cut. The Greek word for \"uncuttable\" is *atomos*. Between them lies the void, empty space, which the atomists declared just as real as the bodies moving through it. \"Nothing\" exists, and that is what makes motion possible.\n\nEverything we see, on this account, is atoms meeting, hooking together and drifting apart in the void. Atoms themselves differ in shape and size; the things they build differ also in how the atoms are arranged and turned. Aristotle, reporting the theory a century later, passed on the atomists' comparison with letters of the alphabet: A differs from N in shape, AN differs from NA in order, and Z is an N turned on its side. Two dozen letters make every word of a language; a few kinds of atom, arranged differently, make iron, water and flesh. The comparison breaks at one point: letters spell words only because someone arranges them for a reader, while the atomists insisted that no mind arranges atoms. They collide blindly, by necessity.\n\n> [!THEORY]\n> A line attributed to Democritus and preserved by later writers says that sweet and bitter, hot and cold, and colour exist \"by convention\"; in reality there are only atoms and void. Taste and colour, in other words, are what atoms do to us, not properties atoms have. Another fragment lets the senses answer back: the mind takes its evidence from them, so if it overthrows them, it overthrows itself. The fragment suggests Democritus saw the weak point in his own theory.\n\nHere the record thins. Aristotle and his student Theophrastus credit Leucippus with founding the theory, but almost nothing else about him survives, and Epicurus, a later atomist, is reported to have said there never was a philosopher called Leucippus. Democritus wrote a great deal (the catalogue in Diogenes Laertius lists some sixty to seventy titles, on ethics, nature, mathematics, music and technical subjects), and not one book survives whole. What we have are quotations and summaries by others, many of them from Aristotle, who disagreed with him. Separating what Leucippus thought from what Democritus added is mostly impossible, which is why the two names travel together. No document dates the theory either: ancient chronologers put Democritus's birth around 460 BCE (another reckoning puts it a decade earlier), so 420 BCE on this timeline is an approximate point in his working life, not a recorded year.\n\n> [!NOTE]\n> The colourful stories about Democritus — that he spent his inheritance travelling to Egypt, Persia and perhaps India, that he laughed at human folly, that Plato wanted to burn his books — come from later writers, gathered above all by the biographer Diogenes Laertius in the 3rd century CE. Even the oldest, the story about Plato, goes back to Aristoxenus, a 4th-century BCE writer repeating hostile gossip. They are legends about him, not a record of his life.\n\n### Not the only atomists\n\nGreece was not alone. In India, the Vaisheshika school, traced to a sage called Kanada, taught that matter is made of *paramanu*: indivisible, eternal particles that combine into larger things. Kanada's dates are uncertain (scholars place him anywhere from the 6th to the 2nd century BCE), so who came first cannot be settled, and the two theories look independent of each other. They also differ: Kanada's atoms came in kinds with their own qualities, one for each of earth, water, fire and air, while the Greek atoms differed only in shape and size. Buddhist and Jain thinkers later developed atom theories of their own.\n\nMore than a thousand years after Democritus, Muslim theologians of the *kalam* tradition, first many of the Mu'tazila and then the Ash'ari school, built a theology on atoms: the world is made of indivisible parts, which the Ash'arites held God recreates at every instant. Not every Mu'tazilite agreed; al-Nazzam rejected atoms. Ibn Sina, born near Bukhara, attacked that view in the physics of his *Book of Healing* with geometry: if bodies were built from indivisible parts, he argued, circles and right-angled triangles could not exist as geometry describes them.\n\n### Why it took so long\n\nThe atomists had no way to test their idea. They could not see an atom, weigh one or count them; their case was pure reasoning, and an equally clever reasoner could argue the other way. Aristotle did. He denied that empty space could exist and held that matter can be divided without limit, and his physics shaped thinking in Europe and the Islamic world for nearly two thousand years. Atomism also picked up a reputation for godlessness through Epicurus, who used it to argue that the gods do not interfere in the world and that death is nothing to fear. That made it suspect to Christian scholars and to the Aristotelian philosophers of the Islamic world.\n\nIn Latin Europe the theory survived mainly through one long poem, *On the Nature of Things*, written by the Roman Epicurean Lucretius in the 1st century BCE. A few copies sat in monastery libraries for centuries. In 1417 the Italian book-hunter Poggio Bracciolini found one in a German monastery, and copies spread among Renaissance scholars.\n\n![The opening of Lucretius's poem *On the Nature of Things* in a 9th-century manuscript now in Leiden. Copies like this one carried ancient atomism through the Middle Ages.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Lucretius_-_De_rerum_natura%2C_first_page_Leiden_VLF_30%2C_9th_century.jpg \"Titus Lucretius Carus (c. 99 – October 15, 55 BC) · Public domain · https://commons.wikimedia.org/wiki/File:Lucretius_-_De_rerum_natura,_first_page_Leiden_VLF_30,_9th_century.jpg\")\n\n### What it opened\n\nIn the 17th century Pierre Gassendi and Robert Boyle revived atoms as a serious way to explain matter. The decisive turn came when the guess became measurable. In 1808 John Dalton published a table of atoms, each with its own relative weight, which explained why substances combine in fixed proportions. Even so, some leading scientists around 1900 still treated atoms as a useful fiction. Albert Einstein's 1905 analysis of the jittering of tiny grains suspended in water, worked out independently by Marian Smoluchowski in 1906, and Jean Perrin's measurements of it from 1908, settled that atoms are real.\n\n![A chart of John Dalton's symbols for the elements, each a circle with its relative weight, of the kind he drew for his lectures in the early 1800s. Atoms had become something you could calculate with.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Dalton%27s_Element_List.jpg \"John Dalton · Public domain · https://commons.wikimedia.org/wiki/File:Dalton's_Element_List.jpg\")\n\nThe name outlived the claim. A few years after Perrin, Ernest Rutherford showed that the atom has a tiny nucleus with electrons around it. Within two decades nuclei were being broken apart, and in 1938 Otto Hahn, Fritz Strassmann, Lise Meitner and Otto Frisch found that a uranium nucleus can split in two. The \"uncuttable\" turned out to be cuttable. What Leucippus and Democritus got right went deeper than the word: the idea that the endless variety of the world might come from a small number of simple pieces, arranged differently, following rules rather than wills.\n"
+    },
+    "tr": {
+      "title": "Leukippos ve Demokritos: dünya atomlar ve boşluktur",
+      "summary": "MÖ 420 civarında Leukippos ve Demokritos her şeyin boş uzayda hareket eden kesilemez minik parçalardan yapıldığını savundu: 2.000 yıldan uzun süre sınanamayan bir tahmin.",
+      "why_it_matters": "Atomculuk, dünyanın sonsuz çeşitliliğinin kurallara uyan birkaç basit parçadan geldiği yönündeki en erken ve en cesur önerilerden biriydi. İki bin yılı aşkın süre kimse onu sınayamadı; kimya ve fizik sonunda sınadığında ana fikir ayakta kaldı.",
+      "if_you_were_there": "Çağınızın en zekice akıl yürütmeleri boş uzayın var olamayacağını söylüyordu. Sonra biri boşluğun gerçek olduğunu, dokunabildiğiniz her şeyin de onun içinde hareket eden görünmez tanelerden ibaret olduğunu iddia etti.",
+      "place_name": "Abdera",
+      "status": "machine",
+      "body": "![Hendrick ter Brugghen'in 1628'de resmettiği Demokritos: sonraki efsanelerin \"gülen filozofu\". Kendi yaşamından kalma bir portresi yok.](https://upload.wikimedia.org/wikipedia/commons/2/2d/Democritus_Rijksmuseum_SK-A-2783.jpeg \"Hendrick ter Brugghen · Public domain · https://commons.wikimedia.org/wiki/File:Democritus_Rijksmuseum_SK-A-2783.jpeg\")\n\n### Sahne\n\nYunan dünyası, MÖ 5. yüzyılın ikinci yarısı. Yüz yılı aşkın bir süredir İonya'nın Yunan kentlerindeki düşünürler dünyanın en sonunda neyden yapıldığını soruyordu. Thales su demişti, Anaksimenes hava. Sonra Güney İtalya'daki Yunan kenti Elea'dan Parmenides hepsinin önüne mantıksal bir engel koydu. Olmayan var olamaz, diyordu; demek ki boş uzay da olamaz. Boş uzay yoksa hiçbir şey hareket edemez, hiçbir şey doğamaz, hiçbir şey değişemez. Bu akıl yürütmeye göre değişim duyuların bir yanılsamasıdır. İzleyicisi Zenon buna sonsuz bölmeyle ilgili paradokslar ekledi: her mesafe ikiye bölünebiliyorsa, sonra yine ikiye, sonsuza dek, bir şey bir yerden başka bir yere nasıl varır? Bir başka izleyici, Melissos, boşluk olamayacağını açıkça söyledi.\n\nBunlar boş bilmeceler değildi. Değişen bir dünyayı açıklamak isteyen herkes önce bunlara cevap vermek zorundaydı.\n\n### Ne oldu\n\nYüzyılın ortalarına yerleştirilen, hakkında çok az şey bilinen Leukippos ile öğrencisi, Trakya kıyısındaki ticaret kenti Abdera'dan Demokritos, Parmenides'in akıl yürütmesinin yarısını kabul edip öbür yarısını reddeden bir cevap verdi. Evet, gerçekten var olan şey ne doğar ne yok olur. Ama böyle tek bir şey yoktur; sayısız tane vardır: gözle görülemeyecek kadar küçük, baştan sona katı, kesilemeyen madde parçaları. Yunancada \"kesilemez\" sözcüğü *atomos*'tur. Bunların arasında ise boşluk vardır, boş uzay; atomcular onu içinde hareket eden cisimler kadar gerçek saydı. \"Hiçlik\" vardır ve hareketi mümkün kılan da odur.\n\nBu görüşe göre gördüğümüz her şey, boşlukta karşılaşan, birbirine takılan ve sonra ayrılan atomlardır. Atomların kendisi biçim ve büyüklükçe farklıdır; kurdukları şeyler ise atomların nasıl dizildiği ve döndüğüyle de ayrılır. Kuramı bir yüzyıl sonra aktaran Aristoteles, atomcuların alfabe harfleriyle yaptığı karşılaştırmayı aktardı: A ile N biçimce farklıdır, AN ile NA dizilişçe, Z ise yan yatırılmış bir N'dir. Yirmi dört harf bir dilin bütün sözcüklerini yapar; birkaç tür atom, farklı dizilerek demiri, suyu ve eti yapar. Benzetme bir noktada bozulur: harfler ancak biri onları bir okur için dizdiği için sözcük olur, oysa atomcular atomları hiçbir aklın dizmediğinde ısrar ediyordu. Atomlar körü körüne, zorunlulukla çarpışır.\n\n> [!THEORY]\n> Demokritos'a atfedilen ve sonraki yazarların koruduğu bir cümleye göre tatlı ve acı, sıcak ve soğuk, renk \"uzlaşımla\" vardır; gerçekte yalnızca atomlar ve boşluk vardır. Yani tat ve renk, atomların bize yaptığı şeydir; atomların kendi özellikleri değil. Başka bir parça duyulara söz verir: akıl kanıtını onlardan alır, onları devirirse kendini de devirir. Bu parça, Demokritos'un kendi kuramının zayıf noktasını gördüğünü düşündürüyor.\n\nBurada kayıtlar inceliyor. Aristoteles ve öğrencisi Theophrastos kuramın kurucusu olarak Leukippos'u gösterir, ama onun hakkında neredeyse başka hiçbir şey kalmamıştır; sonraki bir atomcu olan Epikuros'un, Leukippos diye bir filozofun hiç olmadığını söylediği aktarılır. Demokritos çok yazdı (Diogenes Laertios'taki katalog ahlak, doğa, matematik, müzik ve teknik konular üzerine altmış ile yetmiş arası başlık sayar), ama tek bir kitabı bile bütün olarak günümüze ulaşmadı. Elimizde başkalarının alıntıları ve özetleri var; çoğu ona katılmayan Aristoteles'ten. Leukippos'un ne düşündüğünü Demokritos'un neyi eklediğinden ayırmak büyük ölçüde imkânsız; iki ad bu yüzden birlikte anılır. Kuramın tarihini veren bir belge de yok: antik kronoloji yazarları Demokritos'un doğumunu MÖ 460 civarına koyar (başka bir hesap on yıl önceye), bu yüzden zaman şeridindeki MÖ 420 kaydedilmiş bir yıl değil, onun çalışma yıllarından yaklaşık bir noktadır.\n\n> [!NOTE]\n> Demokritos'la ilgili renkli hikâyeler — mirasını Mısır'a, İran'a ve belki Hindistan'a yolculuklarda harcadığı, insanların budalalığına güldüğü, Platon'un kitaplarını yakmak istediği — sonraki yazarlardan gelir; onları en çok MS 3. yüzyılda biyograf Diogenes Laertios toplamıştır. En eskisi, Platon hikâyesi bile, düşmanca dedikodu aktaran MÖ 4. yüzyıl yazarı Aristoksenos'a dayanır. Bunlar onun hakkındaki efsanelerdir, hayatının kaydı değil.\n\n### Tek atomcular onlar değildi\n\nYunanistan yalnız değildi. Hindistan'da Kanada adlı bir bilgeye dayandırılan Vaişeşika okulu, maddenin *paramanu*'lardan yapıldığını öğretti: birleşerek daha büyük şeyleri oluşturan bölünmez, ezelî ve ebedî parçacıklar. Kanada'nın tarihi belirsiz (araştırmacılar onu MÖ 6. ile 2. yüzyıl arasında herhangi bir yere koyuyor), bu yüzden kimin önce geldiği çözülemez ve iki kuram birbirinden bağımsız görünüyor. Farkları da var: Kanada'nın atomları kendi nitelikleri olan türlere ayrılıyordu, toprak, su, ateş ve havanın her biri için bir tür; Yunan atomları ise yalnızca biçim ve büyüklükçe ayrılıyordu. Budist ve Caynist düşünürler de sonradan kendi atom kuramlarını geliştirdi.\n\nDemokritos'tan bin yılı aşkın süre sonra *kelâm* geleneğinin Müslüman teologları, önce Mutezile'nin çoğu, sonra Eşarî okulu, atomlar üzerine bir teoloji kurdu: dünya bölünmez parçalardan oluşur ve Eşarîlere göre Tanrı onları her an yeniden yaratır. Her Mutezilî buna katılmadı; en-Nazzâm atomları reddetti. Buhara yakınlarında doğan İbn Sina bu görüşe *Şifa Kitabı*'nın fizik bölümünde geometriyle saldırdı: cisimler bölünmez parçalardan kurulsaydı, diyordu, daireler ve dik üçgenler geometrinin tarif ettiği gibi var olamazdı.\n\n### Neden bu kadar uzun sürdü\n\nAtomcuların fikirlerini sınamanın hiçbir yolu yoktu. Bir atomu göremez, tartamaz, sayamazlardı; savları saf akıl yürütmeydi ve aynı ölçüde zeki biri tersini savunabilirdi. Aristoteles de bunu yaptı. Boş uzayın var olabileceğini reddetti, maddenin sınırsızca bölünebileceğini savundu ve onun fiziği Avrupa'da ve İslam dünyasında yaklaşık iki bin yıl düşünceye yön verdi. Atomculuk ayrıca Epikuros yüzünden tanrısızlıkla anılır oldu: Epikuros onu tanrıların dünyaya karışmadığını ve ölümden korkmamak gerektiğini savunmak için kullandı. Bu da onu Hristiyan âlimlerin ve İslam dünyasının Aristotelesçi filozoflarının gözünde şüpheli kıldı.\n\nLatin Avrupa'da kuram esas olarak tek bir uzun şiir sayesinde yaşadı: Romalı Epikurosçu Lucretius'un MÖ 1. yüzyılda yazdığı *Şeylerin Doğası Üzerine*. Birkaç kopya yüzyıllarca manastır kütüphanelerinde bekledi. 1417'de İtalyan kitap avcısı Poggio Bracciolini bir Alman manastırında bir kopya buldu ve kopyalar Rönesans âlimleri arasında yayıldı.\n\n![Lucretius'un *Şeylerin Doğası Üzerine* şiirinin açılışı, bugün Leiden'de bulunan 9. yüzyıldan bir elyazmasında. Bunun gibi kopyalar antik atomculuğu Orta Çağ boyunca taşıdı.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Lucretius_-_De_rerum_natura%2C_first_page_Leiden_VLF_30%2C_9th_century.jpg \"Titus Lucretius Carus (c. 99 – October 15, 55 BC) · Public domain · https://commons.wikimedia.org/wiki/File:Lucretius_-_De_rerum_natura,_first_page_Leiden_VLF_30,_9th_century.jpg\")\n\n### Bu ne kapı açtı\n\n17. yüzyılda Pierre Gassendi ve Robert Boyle atomları maddeyi açıklamanın ciddi bir yolu olarak yeniden canlandırdı. Belirleyici dönüş, tahmin ölçülebilir hale gelince geldi. 1808'de John Dalton, her birinin kendi göreli ağırlığı olan atomlardan bir tablo yayımladı; bu, maddelerin neden sabit oranlarda birleştiğini açıklıyordu. Yine de 1900 civarında bazı önde gelen bilim insanları atomları hâlâ işe yarar bir kurgu sayıyordu. Albert Einstein'ın 1905'te suda asılı minik tanelerin titreşmesini çözümlemesi (Marian Smoluchowski 1906'da aynı sonuca bağımsız olarak vardı) ve Jean Perrin'in 1908'den itibaren bunu ölçmesi, atomların gerçek olduğu tartışmasını kapattı.\n\n![John Dalton'ın element simgelerini gösteren bir çizelge; her biri göreli ağırlığıyla bir daire. 1800'lerin başında derslerinde kullandığı türden. Atomlar artık hesap yapılabilen bir şey olmuştu.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Dalton%27s_Element_List.jpg \"John Dalton · Public domain · https://commons.wikimedia.org/wiki/File:Dalton's_Element_List.jpg\")\n\nAd, iddiadan uzun yaşadı. Perrin'den birkaç yıl sonra Ernest Rutherford atomun minik bir çekirdeği ve çevresinde elektronları olduğunu gösterdi. Yirmi yıl içinde çekirdekler parçalanıyordu; 1938'de Otto Hahn, Fritz Strassmann, Lise Meitner ve Otto Frisch bir uranyum çekirdeğinin ikiye bölünebildiğini buldu. \"Kesilemez\" olanın kesilebildiği ortaya çıktı. Leukippos ile Demokritos'un doğru bulduğu şey sözcükten daha derindi: dünyanın sonsuz çeşitliliğinin, farklı dizilen, iradelere değil kurallara uyan az sayıda basit parçadan gelebileceği fikri.\n"
+    },
+    "ru": {
+      "title": "Левкипп и Демокрит: мир — это атомы и пустота",
+      "summary": "Около 420 года до н. э. Левкипп и Демокрит утверждали, что всё состоит из крошечных неразрезаемых частиц, движущихся в пустоте, — догадка, которую больше 2000 лет нельзя было проверить.",
+      "why_it_matters": "Атомизм был одной из самых ранних и смелых мыслей о том, что бесконечное разнообразие мира складывается из немногих простых частиц, подчиняющихся правилам. Больше двух тысяч лет его никто не мог проверить, а когда химия и физика наконец проверили, главная идея устояла.",
+      "if_you_were_there": "Самые изощрённые доводы вашего времени говорили, что пустоты быть не может. И вдруг кто-то заявил, что пустота реальна, а всё, к чему вы можете прикоснуться, — это невидимые крупинки, движущиеся в ней.",
+      "place_name": "Абдера",
+      "status": "machine",
+      "body": "![Демокрит на картине Хендрика тер Брюггена 1628 года — «смеющийся философ» поздних легенд. Прижизненных портретов не сохранилось.](https://upload.wikimedia.org/wikipedia/commons/2/2d/Democritus_Rijksmuseum_SK-A-2783.jpeg \"Hendrick ter Brugghen · Public domain · https://commons.wikimedia.org/wiki/File:Democritus_Rijksmuseum_SK-A-2783.jpeg\")\n\n### Сцена\n\nГреция, вторая половина V века до н. э. Больше ста лет мыслители греческих городов Ионии спрашивали, из чего в конечном счёте состоит мир. Из воды, говорил Фалес; из воздуха, говорил Анаксимен. Затем Парменид из Элеи, греческого города на юге Италии, поставил перед ними всеми логическое препятствие. Небытие не может существовать, рассуждал он, значит, не может быть и пустого пространства; а без пустоты ничто не может двигаться, рождаться или меняться. По этому рассуждению, изменение — обман чувств. Его последователь Зенон добавил парадоксы о бесконечном делении: если любое расстояние можно разделить пополам, и ещё раз пополам, и так без конца, как вообще что-то добирается из одного места в другое? Другой последователь, Мелисс, прямо заявил, что пустоты нет.\n\nЭто были не праздные головоломки. Всякий, кто хотел объяснить меняющийся мир, должен был сначала на них ответить.\n\n### Что произошло\n\nЛевкипп — смутная фигура, которую относят к середине века, — и его ученик Демокрит из Абдеры, торгового города на побережье Фракии, дали ответ, который принимал половину рассуждения Парменида и отвергал другую. Да, подлинно существующее не возникает и не гибнет. Но такое не одно — их бесчисленное множество: частицы вещества, слишком малые, чтобы их увидеть, сплошные насквозь, неразрезаемые. «Неразрезаемый» по-гречески — *atomos*. Между ними — пустота, пустое пространство, которое атомисты объявили столь же реальным, как и движущиеся в нём тела. «Ничто» существует, и именно оно делает движение возможным.\n\nВсё, что мы видим, с этой точки зрения — атомы, которые встречаются, сцепляются и расходятся в пустоте. Сами атомы различаются формой и размером; тела, которые они составляют, различаются ещё и тем, как атомы расставлены и повёрнуты. Аристотель, пересказавший теорию столетием позже, передал сравнение атомистов с буквами алфавита: A отличается от N формой, AN от NA порядком, а Z — это N, повёрнутая набок. Два десятка букв составляют все слова языка; несколько видов атомов в разных сочетаниях составляют железо, воду и плоть. Сравнение ломается в одном месте: буквы складываются в слова потому, что кто-то расставляет их для читателя, а атомисты настаивали, что атомы не расставляет никакой разум. Они сталкиваются слепо, по необходимости.\n\n> [!THEORY]\n> Строка, которую приписывают Демокриту и которую сохранили поздние авторы, гласит: сладкое и горькое, тёплое и холодное, цвет существуют «по установлению»; в действительности есть только атомы и пустота. Иначе говоря, вкус и цвет — это то, что атомы делают с нами, а не свойства самих атомов. Другой фрагмент даёт слово чувствам: разум берёт доказательства у них, и если он их ниспровергает, то ниспровергает и себя. Этот фрагмент заставляет думать, что Демокрит видел слабое место собственной теории.\n\nЗдесь источники редеют. Аристотель и его ученик Теофраст называют основателем теории Левкиппа, но почти ничего другого о нём не сохранилось, а Эпикур, более поздний атомист, по сообщениям, утверждал, что философа по имени Левкипп вообще не было. Демокрит писал много (каталог у Диогена Лаэртского насчитывает от шестидесяти до семидесяти заглавий — об этике, природе, математике, музыке и технических предметах), но ни одна его книга не дошла целиком. У нас есть цитаты и пересказы других авторов, многие — от Аристотеля, который с ним не соглашался. Отделить мысли Левкиппа от того, что добавил Демокрит, в основном невозможно, поэтому два имени и называют вместе. Документа, датирующего теорию, тоже нет: античные хронографы относят рождение Демокрита примерно к 460 году до н. э. (по другому счёту — на десять лет раньше), так что 420 год до н. э. на этой ленте — приблизительная точка его творческой жизни, а не записанный год.\n\n> [!NOTE]\n> Яркие истории о Демокрите — что он потратил наследство на путешествия в Египет, Персию и, возможно, Индию, что смеялся над людской глупостью, что Платон хотел сжечь его книги — идут от поздних авторов; собрал их прежде всего биограф Диоген Лаэртский в III веке н. э. Даже самая ранняя, история о Платоне, восходит к Аристоксену, автору IV века до н. э., пересказывавшему враждебные сплетни. Это легенды о нём, а не запись его жизни.\n\n### Не единственные атомисты\n\nГреция была не одна. В Индии школа вайшешика, восходящая к мудрецу по имени Канада, учила, что вещество состоит из *параману* — неделимых вечных частиц, которые соединяются в более крупные тела. Время жизни Канады неизвестно (исследователи помещают его где угодно между VI и II веком до н. э.), поэтому кто был первым, решить нельзя, и две теории выглядят независимыми друг от друга. Различаются они и по сути: атомы Канады делились на виды со своими качествами — по одному для земли, воды, огня и воздуха, — а греческие атомы различались только формой и размером. Позднее собственные учения об атомах развили буддийские и джайнские мыслители.\n\nБольше чем через тысячу лет после Демокрита мусульманские богословы традиции *калам* — сначала многие мутазилиты, затем ашариты — построили богословие на атомах: мир состоит из неделимых частей, которые, по учению ашаритов, Бог воссоздаёт в каждое мгновение. Не все мутазилиты были согласны: ан-Наззам атомы отвергал. Ибн Сина, родившийся под Бухарой, оспорил этот взгляд в физике своей «Книги исцеления» с помощью геометрии: если бы тела строились из неделимых частей, доказывал он, круги и прямоугольные треугольники не могли бы существовать так, как их описывает геометрия.\n\n### Почему это заняло так много времени\n\nУ атомистов не было способа проверить свою идею. Они не могли увидеть атом, взвесить его или сосчитать атомы; их довод был чистым рассуждением, и столь же умный человек мог рассуждать наоборот. Так и сделал Аристотель. Он отрицал возможность пустоты и считал, что вещество делимо без предела, и его физика направляла мысль в Европе и исламском мире почти две тысячи лет. Вдобавок атомизм приобрёл репутацию безбожия из-за Эпикура, который выводил из него, что боги не вмешиваются в мир и что смерти не нужно бояться. Это сделало его подозрительным для христианских учёных и для философов-аристотеликов исламского мира.\n\nВ латинской Европе теория уцелела в основном благодаря одной длинной поэме — «О природе вещей» римского эпикурейца Лукреция, написанной в I веке до н. э. Несколько списков веками лежали в монастырских библиотеках. В 1417 году итальянский охотник за книгами Поджо Браччолини нашёл один из них в немецком монастыре, и копии разошлись среди учёных Возрождения.\n\n![Начало поэмы Лукреция «О природе вещей» в рукописи IX века, которая хранится сейчас в Лейдене. Такие списки пронесли античный атомизм через Средние века.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Lucretius_-_De_rerum_natura%2C_first_page_Leiden_VLF_30%2C_9th_century.jpg \"Titus Lucretius Carus (c. 99 – October 15, 55 BC) · Public domain · https://commons.wikimedia.org/wiki/File:Lucretius_-_De_rerum_natura,_first_page_Leiden_VLF_30,_9th_century.jpg\")\n\n### Что это открыло\n\nВ XVII веке Пьер Гассенди и Роберт Бойль возродили атомы как серьёзный способ объяснять вещество. Решающий поворот наступил, когда догадку стало можно измерить. В 1808 году Джон Дальтон опубликовал таблицу атомов, у каждого из которых свой относительный вес, — и это объяснило, почему вещества соединяются в постоянных пропорциях. И всё же около 1900 года некоторые ведущие учёные по-прежнему считали атомы полезной выдумкой. Анализ Альберта Эйнштейна 1905 года — о дрожании мельчайших частиц, взвешенных в воде (Мариан Смолуховский независимо пришёл к тому же в 1906 году), — и измерения Жана Перрена начиная с 1908 года закрыли спор: атомы реальны.\n\n![Таблица символов элементов Джона Дальтона — каждый кружок со своим относительным весом, — такие он рисовал для лекций в начале 1800-х годов. Атомы стали тем, с чем можно считать.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Dalton%27s_Element_List.jpg \"John Dalton · Public domain · https://commons.wikimedia.org/wiki/File:Dalton's_Element_List.jpg\")\n\nНазвание пережило утверждение. Через несколько лет после Перрена Эрнест Резерфорд показал, что у атома есть крошечное ядро и электроны вокруг него. В течение двух десятилетий ядра уже разбивали, а в 1938 году Отто Ган, Фриц Штрасман, Лиза Мейтнер и Отто Фриш обнаружили, что ядро урана может разделиться надвое. «Неразрезаемое» оказалось разрезаемым. То, в чём Левкипп и Демокрит оказались правы, глубже самого слова: мысль, что бесконечное разнообразие мира может происходить из небольшого числа простых частиц, по-разному расставленных и подчиняющихся правилам, а не чьей-то воле.\n"
+    },
+    "ky": {
+      "title": "Левкипп жана Демокрит: дүйнө — атомдор жана боштук",
+      "summary": "Болжол менен б.з.ч. 420-жылы Левкипп менен Демокрит бардык нерсе боштукта кыймылдаган кесилбес майда бөлүкчөлөрдөн турат деп айтышкан: 2000 жылдан ашык текшерилбеген божомол.",
+      "why_it_matters": "Атомизм дүйнөнүн чексиз ар түрдүүлүгү эрежелерге баш ийген бир нече жөнөкөй бөлүкчөдөн келип чыгат деген эң алгачкы жана эң тайманбас ойлордун бири болгон. Эки миң жылдан ашык эч ким аны текшере алган эмес, ал эми химия менен физика акыры текшергенде негизги идея туруп берди.",
+      "if_you_were_there": "Сиздин доордогу эң акылдуу ой жүгүртүүлөр бош мейкиндик болушу мүмкүн эмес дешчү. Анан бирөө боштук чыныгы экенин, колуңуз тийген нерселердин баары анын ичинде кыймылдаган көзгө көрүнбөс бүртүкчөлөр экенин айтып чыкты.",
+      "place_name": "Абдера",
+      "status": "machine",
+      "body": "![Хендрик тер Брюгген 1628-жылы тарткан Демокрит — кийинки уламыштардагы «күлгөн философ». Анын тирүү кезинен калган портрети жок.](https://upload.wikimedia.org/wikipedia/commons/2/2d/Democritus_Rijksmuseum_SK-A-2783.jpeg \"Hendrick ter Brugghen · Public domain · https://commons.wikimedia.org/wiki/File:Democritus_Rijksmuseum_SK-A-2783.jpeg\")\n\n### Көрүнүш\n\nГрекия, б.з.ч. V кылымдын экинчи жарымы. Иониянын грек шаарларындагы ойчулдар жүз жылдан ашык убакыттан бери дүйнө акыры эмнеден жаралган деп сурап келишкен. Фалес суу деген, Анаксимен аба деген. Анан Түштүк Италиядагы грек шаары Элеядан чыккан Парменид алардын баарынын алдына логикалык тоскоол койду. Анын ою боюнча, жок нерсе бар боло албайт, демек, бош мейкиндик да болушу мүмкүн эмес; ал эми боштук жок болсо, эч нерсе кыймылдай албайт, жарала албайт, өзгөрө албайт. Бул ой жүгүртүү боюнча өзгөрүү — сезимдердин алдамчылыгы. Анын жолдоочусу Зенон буга чексиз бөлүү жөнүндөгү парадокстарды кошту: ар бир аралыкты экиге, анан кайра экиге, түбөлүккө бөлүүгө мүмкүн болсо, кандайдыр бир нерсе бир жерден экинчи жерге кантип жетет? Дагы бир жолдоочусу Мелисс боштук болушу мүмкүн эмес экенин ачык айткан.\n\nБулар бекер табышмактар эмес эле. Өзгөрүп турган дүйнөнү түшүндүргүсү келген ар бир адам адегенде аларга жооп бериши керек болчу.\n\n### Эмне болду\n\nКылымдын орто ченине таандык деп эсептелген, ал тууралуу аз эле белгилүү Левкипп жана анын окуучусу, Фракия жээгиндеги соода шаары Абдерадан чыккан Демокрит Парменидтин ой жүгүртүүсүнүн жарымын кабыл алып, калган жарымын четке каккан жооп беришти. Ооба, чындап бар нерсе жаралбайт да, жок болбойт да. Бирок андай нерсе бирөө эле эмес, алар сансыз көп: көзгө көрүнбөгөндөй майда, ичи-тышы бүт катуу, кесүүгө болбогон зат бөлүкчөлөрү. Грекче «кесилбес» деген сөз — *atomos*. Алардын ортосунда боштук, бош мейкиндик жатат; атомисттер аны анын ичинде кыймылдаган нерселердей эле чыныгы деп жарыялашкан. «Эч нерсе» бар, кыймылды мүмкүн кылган да ошол.\n\nБул көз караш боюнча, биз көргөн нерселердин баары — боштукта жолугушуп, бири-бирине илинишип, кайра ажырашкан атомдор. Атомдордун өздөрү формасы жана өлчөмү менен айырмаланат; алар курган нерселер болсо атомдордун кантип тизилип, кантип бурулганы менен да айырмаланат. Теорияны бир кылымдан кийин баяндаган Аристотель атомисттердин алфавит тамгалары менен салыштыруусун жеткирген: A менен N формасы боюнча, AN менен NA тартиби боюнча айырмаланат, ал эми Z — капталына жаткырылган эле N. Жыйырма төрт тамга бир тилдин бардык сөздөрүн түзөт; бир нече түрдөгү атом башкача тизилип, темирди, сууну жана этти түзөт. Салыштыруу бир жерден бузулат: тамгалар сөз болуп калышы үчүн аларды бирөө окурман үчүн тизиши керек, ал эми атомисттер атомдорду эч кандай акыл тизбейт деп турушкан. Алар сокур кагылышат, зарылчылыктан улам.\n\n> [!THEORY]\n> Демокритке таандык делип, кийинки авторлор сактап калган бир сап мындай дейт: таттуу менен ачуу, ысык менен суук, түс «шарттуу түрдө» бар; чындыгында атомдор жана боштук гана бар. Башкача айтканда, даам менен түс атомдордун өзүнүн касиеттери эмес, атомдор бизге эмне кыларынын натыйжасы. Дагы бир үзүндү сезимдерге сөз берет: акыл далилин ошолордон алат, аларды кулатса, өзүн да кулатат. Бул үзүндү Демокрит өз теориясынын алсыз жерин көргөнүн көрсөтүп турат окшойт.\n\nБул жерде булактар азаят. Аристотель жана анын окуучусу Теофраст теориянын негиздөөчүсү катары Левкиппти аташат, бирок ал жөнүндө дээрлик башка эч нерсе сакталган эмес, ал эми кийинки атомист Эпикур Левкипп деген философ такыр болгон эмес деп айткан дешет. Демокрит көп жазган (Диоген Лаэртийдеги тизме адеп, табият, математика, музыка жана техникалык темалар боюнча алтымыштан жетимишке чейин аталышты санайт), бирок анын бир да китеби толук бойдон бизге жеткен эмес. Колубузда башкалардын цитаталары жана кыскача баяндары гана бар, алардын көбү аны менен макул болбогон Аристотелден. Левкипп эмнени ойлогонун Демокрит эмнени кошконунан ажыратуу негизинен мүмкүн эмес, ошондуктан эки ысым бирге аталат. Теориянын датасын көрсөткөн документ да жок: байыркы хронологдор Демокриттин туулушун болжол менен б.з.ч. 460-жылга коюшат (башка эсеп боюнча он жыл мурда), ошондуктан бул убакыт сызыгындагы б.з.ч. 420-жыл жазылып калган жыл эмес, анын иштеген жылдарынан болжолдуу бир чекит.\n\n> [!NOTE]\n> Демокрит тууралуу кызыктуу аңгемелер — мурасын Египетке, Персияга жана балким Индияга саякатка короткону, адамдардын акылсыздыгына күлгөнү, Платон анын китептерин өрттөгүсү келгени — кийинки авторлордон келет; аларды баарынан көп б.з. III кылымында биограф Диоген Лаэртий чогулткан. Эң эскиси, Платон жөнүндөгү аңгеме да, душмандык ушак-айыңды кайталаган б.з.ч. IV кылымдагы автор Аристоксенге барып такалат. Булар анын өмүрүнүн жазуусу эмес, ал жөнүндөгү уламыштар.\n\n### Жалгыз атомисттер алар эмес эле\n\nГрекия жалгыз эмес болчу. Индияда Канада аттуу даанышманга барып такалган вайшешика мектеби зат *параманулардан* турат деп үйрөткөн: бириккенде чоңураак нерселерди түзгөн, бөлүнбөс, түбөлүктүү бөлүкчөлөр. Канаданын жашаган убагы белгисиз (изилдөөчүлөр аны б.з.ч. VI жана II кылымдардын ортосундагы каалаган жерге коюшат), ошондуктан ким биринчи болгонун чечүү мүмкүн эмес, эки теория бири-биринен көз карандысыз көрүнөт. Алар мазмуну боюнча да айырмаланат: Канаданын атомдору өз сапаттары бар түрлөргө бөлүнгөн — жер, суу, от жана абанын ар бири үчүн бирден, ал эми грек атомдору формасы жана өлчөмү менен гана айырмаланган. Кийинчерээк буддист жана жайнист ойчулдар да атом жөнүндө өз окууларын иштеп чыгышкан.\n\nДемокриттен миң жылдан ашык убакыт өткөндөн кийин *калам* салтындагы мусулман теологдору — адегенде мутазилиттердин көбү, андан кийин ашариттер — атомдорго негизделген теология курушкан: дүйнө бөлүнбөс бөлүктөрдөн турат, ал эми ашариттердин окуусу боюнча Кудай аларды ар бир көз ирмемде кайра жаратып турат. Бардык мутазилиттер эле макул болгон эмес: ан-Наззам атомдорду четке каккан. Бухаранын жанында туулган Ибн Сина «Айыктыруу китебинин» («Китаб аш-Шифа») физика бөлүгүндө бул көз карашка геометрия менен каршы чыккан: эгер нерселер бөлүнбөс бөлүктөрдөн курулса, анын айтымында, айлана жана тик бурчтуу үч бурчтук геометрия сүрөттөгөндөй боло алмак эмес.\n\n### Эмне үчүн ушунча узакка созулду\n\nАтомисттердин өз идеясын текшерүүгө эч кандай жолу жок болчу. Алар атомду көрө да, тарта да, санай да алышкан эмес; алардын далили таза ой жүгүртүү эле, ошондой эле акылдуу башка адам тескерисин далилдей алмак. Аристотель так ошондой кылды. Ал боштук болушу мүмкүн эмес деп, зат чексиз бөлүнөт деп эсептеген, анын физикасы Европада жана ислам дүйнөсүндө эки миң жылга жакын ойго багыт берип турган. Мындан тышкары атомизм Эпикурдун айынан кудайсыздык деген атка калган: Эпикур аны кудайлар дүйнөгө кийлигишпейт жана өлүмдөн коркуунун кереги жок деп далилдөө үчүн колдонгон. Ушундан улам ал христиан окумуштууларына жана ислам дүйнөсүндөгү Аристотелди жолдогон философторго шектүү көрүнгөн.\n\nЛатын Европасында теория негизинен бир узун поэманын — римдик эпикурчу Лукреций б.з.ч. I кылымда жазган «Нерселердин табияты жөнүндө» поэмасынын аркасында сакталып калган. Анын бир нече көчүрмөсү кылымдар бою монастырлардын китепканаларында жаткан. 1417-жылы италиялык китеп издөөчү Поджо Браччолини алардын бирин немис монастырынан тапкан, андан кийин көчүрмөлөр Кайра жаралуу доорунун окумуштууларынын арасына тараган.\n\n![Лукрецийдин «Нерселердин табияты жөнүндө» поэмасынын башталышы, азыр Лейденде сакталган IX кылымдагы кол жазмада. Ушундай көчүрмөлөр байыркы атомизмди Орто кылымдар аркылуу алып өткөн.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Lucretius_-_De_rerum_natura%2C_first_page_Leiden_VLF_30%2C_9th_century.jpg \"Titus Lucretius Carus (c. 99 – October 15, 55 BC) · Public domain · https://commons.wikimedia.org/wiki/File:Lucretius_-_De_rerum_natura,_first_page_Leiden_VLF_30,_9th_century.jpg\")\n\n### Бул эмнеге жол ачты\n\nXVII кылымда Пьер Гассенди менен Роберт Бойль атомдорду затты түшүндүрүүнүн олуттуу жолу катары кайра тирилтишкен. Чечүүчү бурулуш божомолду өлчөөгө мүмкүн болгондо келди. 1808-жылы Джон Дальтон ар биринин өз салыштырмалуу салмагы бар атомдордун таблицасын жарыялаган; бул заттар эмне үчүн туруктуу өлчөмдө кошуларын түшүндүргөн. Ошентсе да 1900-жылдын тегерегинде кээ бир алдыңкы окумуштуулар атомдорду дагы эле пайдалуу ойдон чыгарылган нерсе деп эсептешкен. Альберт Эйнштейндин 1905-жылы суудагы эң майда бүртүкчөлөрдүн титирешин талдоосу (Мариан Смолуховский 1906-жылы ага өз алдынча келген) жана Жан Перрендин 1908-жылдан баштап аны өлчөөсү талашты жапты: атомдор чыныгы.\n\n![Джон Дальтондун элементтердин белгилерин көрсөткөн таблицасы: ар бири өз салыштырмалуу салмагы менен тегерек. Ал 1800-жылдардын башында лекциялары үчүн ушундайларды тарткан. Атомдор эми алар менен эсептөө жүргүзсө боло турган нерсеге айланган.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Dalton%27s_Element_List.jpg \"John Dalton · Public domain · https://commons.wikimedia.org/wiki/File:Dalton's_Element_List.jpg\")\n\nАт дооматтан узак жашады. Перренден бир нече жыл кийин Эрнест Резерфорд атомдун кичинекей ядросу жана анын айланасында электрондору бар экенин көрсөттү. Жыйырма жылдын ичинде ядролорду талкалай башташты, ал эми 1938-жылы Отто Ган, Фриц Штрассман, Лиза Мейтнер жана Отто Фриш уран ядросу экиге бөлүнө аларын табышты. «Кесилбес» нерсе кесиле турган болуп чыкты. Левкипп менен Демокрит туура тапкан нерсе сөздүн өзүнөн тереңирээк: дүйнөнүн чексиз ар түрдүүлүгү ар кандай тизилген, кимдир бирөөнүн эркине эмес, эрежелерге баш ийген аз сандагы жөнөкөй бөлүкчөлөрдөн келип чыгышы мүмкүн деген идея.\n"
+    }
+  }
+}
