@@ -1,0 +1,251 @@
+{
+  "slug": "vesalius-fabrica",
+  "year": 1543,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 47.5596,
+  "lng": 7.5886,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vesalius_Fabrica_fronticepiece.jpg",
+    "credit": "Unknown author",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_fronticepiece.jpg"
+  },
+  "disciplines": [
+    "medicine"
+  ],
+  "people": [
+    {
+      "slug": "andreas-vesalius",
+      "birth_year": 1514,
+      "death_year": 1564,
+      "role": "author",
+      "name": {
+        "en": "Andreas Vesalius",
+        "tr": "Andreas Vesalius",
+        "ru": "Андреас Везалий",
+        "ky": "Андреас Везалий"
+      }
+    },
+    {
+      "slug": "galen",
+      "birth_year": 129,
+      "death_year": 216,
+      "role": "predecessor",
+      "name": {
+        "en": "Galen",
+        "tr": "Galenos",
+        "ru": "Гален",
+        "ky": "Гален"
+      }
+    },
+    {
+      "slug": "al-razi",
+      "birth_year": 865,
+      "death_year": 925,
+      "role": "predecessor",
+      "name": {
+        "en": "Al-Razi (Rhazes)",
+        "tr": "Er-Razi (Rhazes)",
+        "ru": "Ар-Рази (Разес)",
+        "ky": "Ар-Рази"
+      }
+    },
+    {
+      "slug": "ibn-al-nafis",
+      "birth_year": 1213,
+      "death_year": 1288,
+      "role": "predecessor",
+      "name": {
+        "en": "Ibn al-Nafis",
+        "tr": "İbnü'n-Nefis",
+        "ru": "Ибн ан-Нафис",
+        "ky": "Ибн ан-Нафис"
+      }
+    },
+    {
+      "slug": "mondino-de-luzzi",
+      "birth_year": null,
+      "death_year": 1326,
+      "role": "predecessor",
+      "name": {
+        "en": "Mondino de Luzzi",
+        "tr": "Mondino de Luzzi",
+        "ru": "Мондино де Луцци",
+        "ky": "Мондино де Луцци"
+      }
+    },
+    {
+      "slug": "berengario-da-carpi",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Berengario da Carpi",
+        "tr": "Berengario da Carpi",
+        "ru": "Беренгарио да Карпи",
+        "ky": "Беренгарио да Карпи"
+      }
+    },
+    {
+      "slug": "jan-van-calcar",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Jan van Calcar",
+        "tr": "Jan van Calcar",
+        "ru": "Ян ван Калькар",
+        "ky": "Ян ван Калькар"
+      }
+    },
+    {
+      "slug": "johannes-oporinus",
+      "birth_year": 1507,
+      "death_year": 1568,
+      "role": "collaborator",
+      "name": {
+        "en": "Johannes Oporinus",
+        "tr": "Johannes Oporinus",
+        "ru": "Иоганн Опорин",
+        "ky": "Иоганн Опорин"
+      }
+    },
+    {
+      "slug": "marcantonio-contarini",
+      "birth_year": null,
+      "death_year": null,
+      "role": "context",
+      "name": {
+        "en": "Marcantonio Contarini",
+        "tr": "Marcantonio Contarini",
+        "ru": "Маркантонио Контарини",
+        "ky": "Маркантонио Контарини"
+      }
+    },
+    {
+      "slug": "jacobus-sylvius",
+      "birth_year": 1478,
+      "death_year": 1555,
+      "role": "rival",
+      "name": {
+        "en": "Jacobus Sylvius",
+        "tr": "Jacobus Sylvius",
+        "ru": "Якоб Сильвий",
+        "ky": "Якоб Сильвий"
+      }
+    },
+    {
+      "slug": "william-harvey",
+      "birth_year": 1578,
+      "death_year": 1657,
+      "role": "successor",
+      "name": {
+        "en": "William Harvey",
+        "tr": "William Harvey",
+        "ru": "Уильям Гарвей",
+        "ky": "Уильям Гарвей"
+      }
+    }
+  ],
+  "builds_on": [
+    "ibn-sina-canon",
+    "gutenberg-press"
+  ],
+  "sources": [
+    {
+      "title": "De humani corporis fabrica — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/De_humani_corporis_fabrica"
+    },
+    {
+      "title": "Andreas Vesalius — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Andreas_Vesalius"
+    },
+    {
+      "title": "C. D. O'Malley, 'Vesalius, Andreas', Complete Dictionary of Scientific Biography (via Encyclopedia.com)",
+      "kind": "encyclopedia",
+      "url": "https://www.encyclopedia.com/people/medicine/medicine-biographies/andreas-vesalius"
+    },
+    {
+      "title": "Historical Anatomies on the Web: Andreas Vesalius — U.S. National Library of Medicine",
+      "kind": "other",
+      "url": "https://www.nlm.nih.gov/exhibition/historicalanatomies/vesalius_home.html"
+    },
+    {
+      "title": "Ibn al-Nafis — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+    },
+    {
+      "title": "The Canon of Medicine — Wikipedia (still taught at Padua as background reading in 1715)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/The_Canon_of_Medicine"
+    },
+    {
+      "title": "Hektoen International, 'Vesalius: spirit of excellence and inquiry' (sheep's-head passage from the Fabrica)",
+      "kind": "article",
+      "url": "https://hekint.org/2017/01/22/vesalius-spirit-of-excellence-and-inquiry/"
+    },
+    {
+      "title": "Columbia University Libraries exhibition: the Fabrica title page",
+      "kind": "other",
+      "url": "https://exhibitions.library.columbia.edu/exhibits/show/jewels/themes/health_sciences/144"
+    },
+    {
+      "title": "C. D. O'Malley, Andreas Vesalius of Brussels, 1514-1564 (University of California Press, 1964)",
+      "kind": "book",
+      "url": "https://archive.org/details/andreasvesaliuso0000omal"
+    },
+    {
+      "title": "Andreas Vesalius — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Andreas-Vesalius"
+    }
+  ],
+  "research_note": "Checked 2026-10-07 against English Wikipedia (De humani corporis fabrica, Andreas Vesalius, Ibn al-Nafis, The Canon of Medicine), C. D. O'Malley's Dictionary of Scientific Biography article (via Encyclopedia.com, read in full to 100k characters), Hektoen International (sheep's-head passage), the NLM Historical Anatomies page and the Columbia Libraries exhibition note on the title page. Britannica returns 403 and is linked for the human reviewer only. O'Malley's 1964 biography is listed as the book source; its archive.org record was confirmed to exist (title matches). Verified adversarially by the fact-checker agent before loading.\nFIXED AFTER FACT-CHECK (all four languages): (1) sheep's head: no longer 'passed it off as human'; now 'used a sheep's head to show what he had never found in a human one', which is what the Fabrica passage says. (2) Septum note: added that in 1543 he still accepted that blood seeps through passages too small to see; only 1555 says the wall is closed (O'Malley). (3) Ibn al-Nafis: now 'solid, with no passages, visible or invisible' and 'working in Cairo' (Galen's pores were already invisible, so 'no visible pores' did not distinguish them). (4) Harvey at Padua 'around 1600' (c. 1599-1602). (5) Title-page caption: monkey 'at lower left', not on a column (the figure on the column is a man). (6) The Epitome 'seen more widely than the Fabrica' was single-sourced (Wikipedia) and was cut. (7) 'Students in the 1530s studied the Canon at Padua' was unsourced and was replaced by the sourced claim: standard European textbook, still taught at Padua as background reading in 1715.\nFLAGGED IN THE BODY: colophon says June 1543, O'Malley says it appeared in August (same year, so precision stays exact). The illustrators are not known; Titian's workshop and Jan van Calcar are given as attributions only. Contarini delaying executions is attributed to O'Malley by name.\nREVIEWER SHOULD CHECK: the ribs sentence calls men-have-fewer-ribs a popular belief from the Eve story (Wikipedia lists it among Galenic errors but calls it 'the common belief'). Sylvius's 'the body has changed since Galen' argument is attributed to the 1551 Depulsio (O'Malley names the pamphlet; the argument is attributed by Wikipedia/Catholic Encyclopedia - Wikipedia dates it 'c. 1555'). The count of Galen errors corrected (Wikipedia 'about 300', often '200') is deliberately not given. Place: Basel (where it was printed), place_precision city; the dissections were in Padua. builds_on ibn-sina-canon is thematic (the Canon as the textbook he was trained in), not a direct citation; gutenberg-press is direct (printed, reproducible images). People: Ibn al-Nafis birth 1213 and al-Razi 865-925, Galen 129-216 kept identical to ibn-sina-canon so the shared people rows do not change; sources give Ibn al-Nafis c.1210-1213. Mondino birth (c.1270) and Calcar (c.1499-c.1546) left null as uncertain. Images: cover = 1543 title page, credit 'Unknown author', Public domain; figure = page 164 skeleton, 'Unknown author', Public domain; both licences read from the Commons API. The thin 'Unknown author' line is the Commons value; the artist is genuinely unknown.\nLEFT OUT / NON-WESTERN: Galen's Arabic transmission (9th-century Baghdad), al-Razi (Vesalius's first book, Paraphrasis in nonum librum Rhazae, 1537), Ibn Sina's Canon and Ibn al-Nafis are in the body. No women are attested in the making of the Fabrica; the anecdote of the exhumed body of a woman in Padua was not used. Leonardo, Mondino and Berengario are named as predecessors. Andrea Alpago and the possible Ibn al-Nafis-Colombo transmission debate were left out.\nKYRGYZ: machine translation. Glossary terms used: дене, анатомия, кан, кан айлануу (check), жүрөк, мээ, китеп, басма станок (check), байкоо, далил, ката, кылым, илимий, дарыгер/медицина, ачылыш, Жер, Ибн Сина, Багдад. 'check' terms used: кан айлануу, басма станок. Not in the glossary, chosen by Claude: жаруу (to dissect), сөөк (bone), булчуң, кан тамыр, нерв, жаак (jaw), төш сөөгү (breastbone), кабырга, боор, вена/артерия, тешикче/өтмөк (pore/passage), жыгачка оюлган сүрөт (woodcut), жыгач калып (woodblock), басмакана, басма белгиси (colophon), титул барагы, мүрзө ташы, баш сөөгү (skull), угарман (audience), Обо эне (Eve), Ыйык Китеп. Proper nouns follow Russian forms (Везалий, Гален, Ар-Рази, Ибн ан-Нафис, Падуя, Лёвен, Базель, Опорин, Сильвий, Гарвей).",
+  "translations": {
+    "en": {
+      "title": "Vesalius draws the body as he finds it",
+      "summary": "In Basel, Andreas Vesalius printed the Fabrica: seven illustrated books of anatomy taken from human bodies, showing where Galen's ancient, animal-based anatomy went wrong.",
+      "why_it_matters": "Vesalius moved the authority in anatomy from the oldest book to the body on the table, and printed pictures precise enough for anyone to check. Every later discovery about the inside of the body, from the circulation of the blood onward, was argued on that ground.",
+      "if_you_were_there": "Before him, your professor read Galen from a high chair while someone else cut. In his lecture hall, the professor has his own hands in the body, and the book you carry home shows you exactly what he saw.",
+      "place_name": "Basel",
+      "status": "machine",
+      "body": "![The title page of the Fabrica (Basel, 1543): Vesalius dissects a body in a packed anatomy theatre, with a skeleton above the table. A monkey sits at lower left and a dog stands at lower right, animals that were also dissected in anatomy lessons.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Vesalius_Fabrica_fronticepiece.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_fronticepiece.jpg\")\n\n### The scene\n\nIn the early 16th century, a European medical student learned the inside of the body mostly from books. In a typical anatomy lesson the professor sat in a raised chair and read aloud from Galen, the Greek physician who worked in Rome in the 2nd century, while a surgeon below did the cutting and an assistant pointed at the parts. When the body on the table did not match the text, the usual conclusion was that the body was odd, not that the book was wrong.\n\nGalen had been a superb observer, but in Rome human dissection was not allowed. Much of what he wrote about the human interior came from apes, pigs and other animals. His books had travelled a long road: translated into Arabic in 9th-century Baghdad, built into the medical encyclopedias of the Islamic world, and carried back into Latin. The *Canon of Medicine* of Ibn Sina (Avicenna) had long been a standard textbook in European universities; at Padua, one of the leading medical schools, it was still taught as background reading as late as 1715.\n\nAndreas Vesalius was born in Brussels on 31 December 1514. He studied at Leuven and then in Paris under Jacobus Sylvius, a devoted follower of Galen. His first book, in 1537, was a commentary on a medical text by al-Razi (Rhazes), the Persian physician who worked in Baghdad and Rayy around the year 900. The same year he took his doctorate at Padua and was immediately given the chair of surgery and anatomy. He was 22.\n\n### What happened\n\nVesalius did something professors were not supposed to do: he came down from the chair and cut the body himself, in front of the students. From 1539 he had far more bodies to work with than his predecessors. Marcantonio Contarini, a judge of the Padua criminal court, took an interest in his work and gave him the bodies of executed criminals. According to the historian Charles O'Malley, he sometimes even delayed executions to suit the anatomist's schedule. Repeated dissections let Vesalius compare one body with another, and then with Galen.\n\nThe comparison did not come out in Galen's favour. In 1538 Vesalius had still drawn a net of blood vessels at the base of the brain, the *rete mirabile*, which Galen described and on which much of his physiology depended. In humans it is not there; it exists in cattle and sheep. Vesalius later admitted in the Fabrica that, afraid of being thought unable to find it, he had once used a sheep's head to show his audience what he had never found in a human one. Other corrections followed. The human lower jaw is one bone, not two as in many animals. The breastbone has three parts, not the seven Galen described from an ape. The great veins do not start in the liver. And men do not have one rib fewer than women, a belief taken from the Bible's story of Eve.\n\nThe result, *De humani corporis fabrica libri septem* (\"Seven Books on the Fabric of the Human Body\"), came out in Basel in 1543 from the press of Johannes Oporinus. The colophon says June; the book seems to have appeared in August. Vesalius travelled to Basel himself to oversee the printing, and the carved wooden blocks for the pictures were sent there from Italy. It begins with the bones, the frame on which everything else hangs, and goes on through muscles, vessels, nerves, the abdomen, the chest and the brain. It has more than 250 woodcut illustrations. Who drew them is not known for certain: they are usually credited to artists from the Venetian workshop of Titian, perhaps including Jan van Calcar, who had drawn for Vesalius before.\n\n![A skeleton from the Fabrica (page 164) leans on a tomb and contemplates a skull. The Latin on the tomb reads \"one lives on through genius; all else will belong to death\". Small letters on the bones key them to the text.](https://upload.wikimedia.org/wikipedia/commons/f/ff/Vesalius_Fabrica_p164.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_p164.jpg\")\n\nThe pictures were the point. Letters printed on each part tie it to a passage in the text, so a reader in another city could check the drawing against a body of their own. Printing made that possible: before Gutenberg's press, a copyist redrew every picture by hand, and with every copy the details drifted further from the original. The same year Vesalius also published the *Epitome*, a short and cheaper version for beginners. He dedicated the Fabrica to the emperor Charles V and became a physician at his court.\n\n### Why it was hard\n\nThink of Galen's anatomy as a city map drawn by someone who had only ever walked the streets of the neighbouring town. Most of the roads lead the right way, because the towns were built to the same plan; but here and there a bridge is drawn where there is only water. Vesalius walked the real streets and redrew the map. The analogy breaks in one place: Vesalius never stopped using animals. He kept ape and dog skeletons beside human ones precisely to show where Galen's descriptions came from.\n\nHe was not the first to doubt. Mondino de Luzzi had dissected human bodies in Bologna and written an anatomy textbook in 1316. Berengario da Carpi had already questioned the *rete mirabile* in 1521. Leonardo da Vinci dissected bodies and drew them with great accuracy, but his notebooks stayed unpublished for centuries. In the 13th century Ibn al-Nafis, working in Cairo, had written against Galen that the thick wall between the two halves of the heart is solid, with no passages, visible or invisible; his work was almost unknown in Europe. What Vesalius added was the combination: many bodies, a professor's own hands, first-class artists, and a printed book that anyone could check.\n\n> [!NOTE]\n> Vesalius did not overturn everything. In 1543 he wrote that he could not see the pores in the heart's wall through which, Galen said, blood seeps from the right side to the left, yet he still accepted that blood seeps through passages too small to see, and wrote that he could only marvel at the Creator's work. Only the 1555 edition says plainly that the wall is closed. He also kept Galen's idea that veins and arteries carry two different kinds of blood. The circulation of the blood waited for William Harvey in 1628.\n\nAuthority pushed back. His old teacher Sylvius attacked him in print in 1551, punning on his name as *Vaesanus*, \"madman\", and argued that if the body no longer matched Galen, the human body must have changed since Galen's time.\n\n### What it opened\n\nVesalius changed what counted as proof in anatomy: not the oldest book, but the body on the table, described so that anyone could check. His successors at Padua, Realdo Colombo, Gabriele Falloppio and Girolamo Fabrici, corrected some of his own mistakes in the same spirit, and the Padua tradition reached William Harvey, who studied there around 1600. The Fabrica appeared in the same year as Copernicus's book that moved the Earth from the centre of the cosmos, and the two are often taken together as a starting point of the Scientific Revolution."
+    },
+    "tr": {
+      "title": "Vesalius bedeni bulduğu gibi çiziyor",
+      "summary": "Andreas Vesalius Basel'de Fabrica'yı bastı: insan bedenlerinden çıkarılmış yedi resimli anatomi kitabı. Galenos'un hayvanlara dayanan eski anatomisinin nerede yanıldığını gösterdi.",
+      "why_it_matters": "Vesalius anatomide otoriteyi en eski kitaptan masadaki bedene taşıdı ve herkesin kontrol edebileceği kadar kesin resimler bastı. Kan dolaşımından başlayarak bedenin içine dair sonraki her keşif bu zeminde tartışıldı.",
+      "if_you_were_there": "Ondan önce hocan yüksek bir kürsüden Galenos okur, kesmeyi başkası yapardı. Onun dersliğinde profesörün elleri bedenin içinde ve eve götürdüğün kitap sana onun ne gördüğünü tam olarak gösteriyor.",
+      "place_name": "Basel",
+      "status": "machine",
+      "body": "![Fabrica'nın başlık sayfası (Basel, 1543): Vesalius tıklım tıklım bir anatomi tiyatrosunda bir bedeni açıyor, masanın üstünde bir iskelet duruyor. Sol altta bir maymun, sağ altta bir köpek var; ikisi de anatomi derslerinde açılan hayvanlardı.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Vesalius_Fabrica_fronticepiece.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_fronticepiece.jpg\")\n\n### Sahne\n\n16. yüzyılın başında Avrupalı bir tıp öğrencisi bedenin içini çoğunlukla kitaplardan öğrenirdi. Sıradan bir anatomi dersinde profesör yüksek bir kürsüde oturur ve 2. yüzyılda Roma'da çalışmış Yunan hekim Galenos'tan yüksek sesle okurdu; aşağıda bir cerrah keser, bir yardımcı da parçaları gösterirdi. Masadaki beden metne uymadığında genellikle varılan sonuç, kitabın yanlış olduğu değil, bedenin tuhaf olduğuydu.\n\nGalenos olağanüstü bir gözlemciydi, ama Roma'da insan kadavrası açmak yasaktı. İnsan bedeninin içi hakkında yazdıklarının büyük kısmı maymunlardan, domuzlardan ve başka hayvanlardan geliyordu. Kitapları uzun bir yol yürümüştü: 9. yüzyılda Bağdat'ta Arapçaya çevrilmiş, İslam dünyasının tıp ansiklopedilerine işlenmiş, sonra yeniden Latinceye taşınmıştı. İbn Sina'nın *Tıp Kanunu* uzun zamandır Avrupa üniversitelerinin temel ders kitabıydı; önde gelen tıp okullarından Padova'da 1715'e kadar hâlâ arka plan okuması olarak okutuldu.\n\nAndreas Vesalius 31 Aralık 1514'te Brüksel'de doğdu. Leuven'de, sonra Paris'te Galenos'a bağlılığıyla bilinen Jacobus Sylvius'un yanında okudu. 1537'deki ilk kitabı, 900 yılı civarında Bağdat ve Rey'de çalışan İranlı hekim Er-Razi'nin (Rhazes) bir tıp metni üzerine yorumdu. Aynı yıl Padova'da doktorasını aldı ve hemen cerrahi ve anatomi kürsüsüne getirildi. 22 yaşındaydı.\n\n### Ne oldu\n\nVesalius profesörlerden beklenmeyen bir şey yaptı: kürsüden indi ve bedeni öğrencilerin önünde kendisi kesti. 1539'dan itibaren elinde öncüllerinden çok daha fazla beden vardı. Padova ceza mahkemesi yargıcı Marcantonio Contarini çalışmasıyla ilgilendi ve ona idam edilen suçluların cesetlerini verdi. Tarihçi Charles O'Malley'e göre yargıç zaman zaman infazları bile anatomistin takvimine göre erteledi. Tekrar tekrar yapılan diseksiyonlar Vesalius'a bir bedeni öbürüyle, sonra da Galenos'la karşılaştırma imkânı verdi.\n\nKarşılaştırma Galenos'un lehine çıkmadı. 1538'de Vesalius beynin tabanındaki damar ağını, Galenos'un anlattığı ve fizyolojisinin büyük kısmını üstüne kurduğu *rete mirabile*'yi hâlâ çiziyordu. İnsanda bu ağ yoktur; sığırda ve koyunda vardır. Vesalius sonradan Fabrica'da, onu bulamayan biri gibi görünmekten korktuğu için bir keresinde insanda hiç bulamadığı şeyi dinleyicilerine bir koyun kafası üzerinde gösterdiğini itiraf etti. Başka düzeltmeler de geldi. İnsanın alt çenesi birçok hayvanda olduğu gibi iki değil, tek kemiktir. Göğüs kemiği Galenos'un bir maymundan tarif ettiği gibi yedi değil, üç parçadır. Büyük toplardamarlar karaciğerden başlamaz. Ve erkeklerin kadınlardan bir kaburgası eksik değildir; bu, Havva hikâyesinden çıkan yaygın bir inançtı.\n\nSonuç, *De humani corporis fabrica libri septem* (\"İnsan Bedeninin Yapısı Üzerine Yedi Kitap\"), 1543'te Basel'de Johannes Oporinus'un matbaasından çıktı. Kitabın son sayfasındaki baskı notu Haziran diyor; kitap Ağustos'ta çıkmış görünüyor. Vesalius baskıyı yönetmek için Basel'e kendisi gitti; resimlerin oyulmuş tahta kalıpları İtalya'dan oraya gönderildi. Kitap her şeyin üzerine asıldığı çatıyla, kemiklerle başlar; sonra kaslar, damarlar, sinirler, karın, göğüs ve beyinle devam eder. 250'den fazla tahta baskı resim içerir. Bunları kimin çizdiği kesin bilinmiyor: genellikle Venedik'te Tiziano'nun atölyesinden ressamlara, belki daha önce Vesalius için çizmiş olan Jan van Calcar'a da atfediliyor.\n\n![Fabrica'dan bir iskelet (sayfa 164) bir mezar taşına yaslanmış, bir kafatasına bakıyor. Mezar taşındaki Latince yazı: \"insan dehasıyla yaşar; geri kalan her şey ölümün olacak.\" Kemiklerin üzerindeki küçük harfler onları metne bağlıyor.](https://upload.wikimedia.org/wikipedia/commons/f/ff/Vesalius_Fabrica_p164.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_p164.jpg\")\n\nAsıl mesele resimlerdi. Her parçanın üzerine basılmış harfler onu metindeki bir paragrafa bağlıyordu; böylece başka bir şehirdeki okur çizimi kendi önündeki bir bedenle karşılaştırabiliyordu. Bunu matbaa mümkün kıldı: Gutenberg'in presinden önce müstensih her resmi elle yeniden çizerdi ve her kopyada ayrıntılar aslından biraz daha uzaklaşırdı. Vesalius aynı yıl yeni başlayanlar için kısa ve daha ucuz bir sürüm olan *Epitome*'yi de yayımladı. Fabrica'yı imparator V. Karl'a ithaf etti ve onun sarayında hekim oldu.\n\n### Neden zordu\n\nGalenos'un anatomisini, yalnızca komşu kasabanın sokaklarında yürümüş birinin çizdiği bir şehir haritası gibi düşün. Yolların çoğu doğru yöne gider, çünkü iki kasaba aynı plana göre kurulmuştur; ama orada burada, yalnızca su olan yere bir köprü çizilmiştir. Vesalius gerçek sokaklarda yürüdü ve haritayı yeniden çizdi. Benzetme bir yerde bozulur: Vesalius hayvanları kullanmayı hiç bırakmadı. Galenos'un tariflerinin nereden geldiğini göstermek için insan iskeletlerinin yanında maymun ve köpek iskeletleri de tuttu.\n\nŞüphe eden ilk kişi o değildi. Mondino de Luzzi Bologna'da insan bedenleri açmış ve 1316'da bir anatomi ders kitabı yazmıştı. Berengario da Carpi 1521'de *rete mirabile*'yi zaten sorgulamıştı. Leonardo da Vinci bedenler açıp onları büyük bir doğrulukla çizdi, ama defterleri yüzyıllarca yayımlanmadı. 13. yüzyılda Kahire'de çalışan İbnü'n-Nefis, Galenos'a karşı, kalbin iki yarısı arasındaki kalın duvarın som olduğunu, görünür ya da görünmez hiçbir geçit bulunmadığını yazmıştı; çalışması Avrupa'da neredeyse hiç bilinmiyordu. Vesalius'un kattığı şey bir bileşimdi: çok sayıda beden, bir profesörün kendi elleri, birinci sınıf ressamlar ve herkesin kontrol edebileceği basılı bir kitap.\n\n> [!NOTE]\n> Vesalius her şeyi devirmedi. 1543'te kalbin duvarında, Galenos'a göre kanın sağdan sola sızdığı gözenekleri göremediğini yazdı; yine de kanın gözle görülemeyecek kadar küçük geçitlerden sızdığını kabul etti ve yalnızca Yaradan'ın işine hayret edebildiğini söyledi. Duvarın kapalı olduğunu açıkça söyleyen ancak 1555 baskısıdır. Galenos'un toplardamarlarla atardamarların iki ayrı tür kan taşıdığı fikrini de korudu. Kan dolaşımı 1628'de William Harvey'i bekledi.\n\nOtorite karşılık verdi. Eski hocası Sylvius 1551'de onu matbu bir metinde hedef aldı, adıyla oynayıp ona *Vaesanus*, yani \"deli\" dedi ve beden artık Galenos'a uymuyorsa insan bedeninin Galenos'un zamanından beri değişmiş olması gerektiğini savundu.\n\n### Sonrası\n\nVesalius anatomide neyin kanıt sayılacağını değiştirdi: en eski kitap değil, masadaki beden; üstelik herkesin kontrol edebileceği biçimde anlatılmış olarak. Padova'daki halefleri Realdo Colombo, Gabriele Falloppio ve Girolamo Fabrici aynı ruhla onun kendi hatalarından bazılarını düzeltti; Padova geleneği 1600 civarında orada okuyan William Harvey'e ulaştı. Fabrica, Dünya'yı evrenin merkezinden çıkaran Kopernik'in kitabıyla aynı yıl çıktı; ikisi çoğu zaman Bilimsel Devrim'in başlangıç noktası olarak birlikte anılır."
+    },
+    "ru": {
+      "title": "Везалий рисует тело таким, каким его видит",
+      "summary": "В Базеле Андреас Везалий напечатал «Фабрику» — семь иллюстрированных книг анатомии по вскрытиям людей. Они показали, где древняя анатомия Галена, основанная на животных, ошибалась.",
+      "why_it_matters": "Везалий перенёс авторитет в анатомии с самой древней книги на тело на столе и напечатал рисунки, достаточно точные, чтобы их мог проверить каждый. Все последующие открытия о внутреннем устройстве тела, начиная с кровообращения, спорили уже на этой почве.",
+      "if_you_were_there": "До него ваш профессор читал Галена с высокой кафедры, а резал кто-то другой. В его аудитории руки профессора — в теле, и книга, которую вы уносите домой, показывает ровно то, что он увидел.",
+      "place_name": "Базель",
+      "status": "machine",
+      "body": "![Титульный лист «Фабрики» (Базель, 1543): Везалий вскрывает тело в переполненном анатомическом театре, над столом стоит скелет. Слева внизу сидит обезьяна, справа внизу — собака: животных тоже вскрывали на уроках анатомии.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Vesalius_Fabrica_fronticepiece.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_fronticepiece.jpg\")\n\n### Обстановка\n\nВ начале XVI века европейский студент-медик узнавал устройство тела в основном из книг. На обычном уроке анатомии профессор сидел на высокой кафедре и читал вслух Галена — греческого врача, работавшего в Риме во II веке, — а внизу хирург резал, и помощник указывал на органы. Если тело на столе не совпадало с текстом, обычно решали, что странное тело, а не что книга ошибается.\n\nГален был превосходным наблюдателем, но в Риме вскрывать людей запрещалось. Многое из того, что он писал о внутреннем устройстве человека, взято у обезьян, свиней и других животных. Его книги прошли долгий путь: их перевели на арабский в Багдаде IX века, вплели в медицинские энциклопедии исламского мира и снова перенесли на латынь. «Канон врачебной науки» Ибн Сины (Авиценны) давно был стандартным учебником европейских университетов; в Падуе, одной из ведущих медицинских школ, его преподавали как дополнительное чтение ещё в 1715 году.\n\nАндреас Везалий родился в Брюсселе 31 декабря 1514 года. Учился в Лёвене, затем в Париже у Якоба Сильвия, преданного последователя Галена. Его первая книга, 1537 года, была комментарием к медицинскому сочинению ар-Рази (Разеса) — персидского врача, работавшего в Багдаде и Рее около 900 года. В том же году он получил докторскую степень в Падуе и сразу же — кафедру хирургии и анатомии. Ему было 22 года.\n\n### Что произошло\n\nВезалий сделал то, чего профессору делать не полагалось: спустился с кафедры и сам вскрывал тело на глазах у студентов. С 1539 года тел у него было гораздо больше, чем у предшественников. Маркантонио Контарини, судья падуанского уголовного суда, заинтересовался его работой и стал передавать ему тела казнённых преступников. По словам историка Чарльза О'Мэлли, он иногда даже откладывал казни, чтобы они пришлись на удобное анатому время. Повторные вскрытия позволили Везалию сравнивать одно тело с другим, а затем — с Галеном.\n\nСравнение оказалось не в пользу Галена. В 1538 году Везалий ещё рисовал сеть сосудов у основания мозга — *rete mirabile*, «чудесную сеть», которую описал Гален и на которой держалась значительная часть его физиологии. У человека её нет; она есть у быков и овец. Позже в «Фабрике» Везалий признался, что однажды, боясь прослыть неспособным её найти, показал слушателям на овечьей голове то, чего никогда не находил у человека. Последовали и другие поправки. Нижняя челюсть человека — одна кость, а не две, как у многих животных. Грудина состоит из трёх частей, а не из семи, как описал Гален по обезьяне. Крупные вены начинаются не в печени. И у мужчин не на одно ребро меньше, чем у женщин, — это было распространённое поверье, выросшее из библейского рассказа о Еве.\n\nИтог, *De humani corporis fabrica libri septem* («О строении человеческого тела в семи книгах»), вышел в Базеле в 1543 году в типографии Иоганна Опорина. В выходных данных стоит июнь; по-видимому, книга появилась в августе. Везалий сам поехал в Базель следить за печатью, а резные деревянные доски для иллюстраций отправили туда из Италии. Книга начинается с костей — каркаса, на котором держится всё остальное, — и продолжается мышцами, сосудами, нервами, брюшной полостью, грудью и мозгом. В ней более 250 гравюр на дереве. Кто их рисовал, точно не известно: обычно их приписывают художникам из венецианской мастерской Тициана, возможно, включая Яна ван Калькара, который рисовал для Везалия и раньше.\n\n![Скелет из «Фабрики» (страница 164) опирается на надгробие и разглядывает череп. Латинская надпись на надгробии: «живут гением, всё прочее достанется смерти». Мелкие буквы на костях связывают их с текстом.](https://upload.wikimedia.org/wikipedia/commons/f/ff/Vesalius_Fabrica_p164.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_p164.jpg\")\n\nГлавным были иллюстрации. Буквы, напечатанные на каждой части, связывали её с местом в тексте, и читатель в другом городе мог сверить рисунок с телом перед собой. Это стало возможным благодаря книгопечатанию: до станка Гутенберга переписчик перерисовывал каждую картинку от руки, и с каждой копией детали всё дальше уходили от оригинала. В том же году Везалий выпустил «Эпитому» — короткую и более дешёвую версию для начинающих. «Фабрику» он посвятил императору Карлу V и стал врачом при его дворе.\n\n### Почему это было трудно\n\nПредставьте анатомию Галена как карту города, нарисованную человеком, который ходил только по улицам соседнего городка. Большинство дорог ведут куда надо, потому что оба города построены по одному плану, но кое-где нарисован мост там, где только вода. Везалий прошёл по настоящим улицам и перерисовал карту. В одном месте сравнение хромает: Везалий никогда не отказывался от животных. Он держал скелеты обезьяны и собаки рядом с человеческими именно для того, чтобы показать, откуда взялись описания Галена.\n\nОн был не первым, кто сомневался. Мондино де Луцци вскрывал человеческие тела в Болонье и в 1316 году написал учебник анатомии. Беренгарио да Карпи усомнился в *rete mirabile* уже в 1521 году. Леонардо да Винчи вскрывал тела и рисовал их с большой точностью, но его тетради веками оставались неопубликованными. В XIII веке Ибн ан-Нафис, работавший в Каире, писал, споря с Галеном, что толстая стенка между двумя половинами сердца сплошная и в ней нет никаких проходов, ни видимых, ни невидимых; в Европе его труд почти не знали. Везалий добавил сочетание: много тел, собственные руки профессора, первоклассные художники и печатная книга, которую мог проверить любой.\n\n> [!NOTE]\n> Везалий опроверг не всё. В 1543 году он написал, что не видит в стенке сердца пор, через которые, по Галену, кровь просачивается из правой половины в левую, но всё же принимал, что кровь просачивается через проходы, слишком малые для глаза, и писал, что может лишь дивиться делу Творца. Прямо о том, что стенка сплошная, говорит только издание 1555 года. Он сохранил и идею Галена о том, что вены и артерии несут два разных вида крови. Кровообращение ждало Уильяма Гарвея в 1628 году.\n\nАвторитеты ответили. Его бывший учитель Сильвий в 1551 году напал на него в печати, обыграв фамилию как *Vaesanus* — «безумец», и утверждал, что если тело больше не совпадает с Галеном, значит, человеческое тело изменилось со времён Галена.\n\n### Что это открыло\n\nВезалий изменил то, что считалось доказательством в анатомии: не самая древняя книга, а тело на столе, описанное так, чтобы проверить мог каждый. Его преемники в Падуе — Реальдо Коломбо, Габриеле Фаллопий и Иероним Фабриций — в том же духе исправили часть его собственных ошибок, и падуанская традиция дошла до Уильяма Гарвея, учившегося там около 1600 года. «Фабрика» вышла в один год с книгой Коперника, убравшей Землю из центра мира, и обе часто называют вместе как точку отсчёта Научной революции."
+    },
+    "ky": {
+      "title": "Везалий денени кандай көрсө, ошондой тартат",
+      "summary": "Андреас Везалий Базелде «Фабриканы» бастырды: адамдын денесин жарып жазылган жети сүрөттүү анатомия китеби. Ал Галендин жаныбарларга таянган байыркы анатомиясы кайда жаңылганын көрсөттү.",
+      "why_it_matters": "Везалий анатомиядагы бийликти эң байыркы китептен столдогу денеге өткөрдү жана ар ким текшере алгыдай так сүрөттөрдү бастырды. Кан айланууну ачуудан баштап, дененин ички түзүлүшү жөнүндөгү кийинки ар бир ачылыш ушул негизде талкууланган.",
+      "if_you_were_there": "Ага чейин профессоруңуз бийик кафедрадан Галенди окучу, ал эми денени башка бирөө кесчү. Анын аудиториясында профессордун колу дененин ичинде, а сиз үйгө алып кеткен китеп ал эмнени көргөнүн так көрсөтөт.",
+      "place_name": "Базель",
+      "status": "machine",
+      "body": "![«Фабриканын» титул барагы (Базель, 1543): Везалий адамга толгон анатомия театрында денени жарып жатат, столдун үстүндө скелет турат. Сол жакта ылдыйда маймыл, оң жакта ылдыйда ит бар: анатомия сабактарында жаныбарлар да жарылчу.](https://upload.wikimedia.org/wikipedia/commons/e/ee/Vesalius_Fabrica_fronticepiece.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_fronticepiece.jpg\")\n\n### Окуя болгон убак\n\nXVI кылымдын башында Европадагы медицина студенти дененин ички түзүлүшүн көбүнчө китептерден үйрөнчү. Кадимки анатомия сабагында профессор бийик кафедрада отуруп, II кылымда Римде иштеген грек дарыгери Галендин китебин үн чыгарып окучу. Ылдыйда хирург кесип, жардамчы органдарды көрсөтүп турчу. Столдогу дене текстке туура келбесе, адатта китеп жаңылыптыр деп эмес, бул дене өзгөчө экен деп чечишчү.\n\nГален мыкты байкоочу болгон, бирок Римде адамдын денесин жарууга тыюу салынган. Анын адамдын ички түзүлүшү жөнүндө жазгандарынын көбү маймылдардан, чочколордон жана башка жаныбарлардан алынган. Анын китептери узак жолду басып өткөн: IX кылымда Багдадда араб тилине которулуп, ислам дүйнөсүнүн медицина энциклопедияларына кирип, кайра латын тилине келген. Ибн Синанын «Медицина илиминин каноны» көптөн бери Европа университеттеринин негизги окуу китеби болгон; алдыңкы медицина мектептеринин бири болгон Падуяда аны 1715-жылга чейин кошумча окуу катары окутушкан.\n\nАндреас Везалий 1514-жылдын 31-декабрында Брюсселде төрөлгөн. Ал Лёвенде, андан кийин Парижде Галенге берилген окумуштуу Якоб Сильвийден окуган. Анын 1537-жылы чыккан биринчи китеби болжол менен 900-жылы Багдадда жана Рейде иштеген перс дарыгери Ар-Разинин (Разес) медициналык эмгегине түшүндүрмө эле. Ошол эле жылы ал Падуяда доктордук даражасын алып, дароо хирургия жана анатомия кафедрасына дайындалган. Ал кезде ал 22 жашта болчу.\n\n### Эмне болду\n\nВезалий профессорго ылайык эмес деп эсептелген ишти кылды: кафедрадан түшүп, денени студенттердин көз алдында өзү жарды. 1539-жылдан баштап анын колунда мурункуларга караганда алда канча көп дене болгон. Падуянын кылмыш иштери боюнча сотунун судьясы Маркантонио Контарини анын ишине кызыгып, өлүм жазасына тартылган кылмышкерлердин денелерин бере баштаган. Тарыхчы Чарльз О'Мэллинин айтымында, ал кээде жазаны анатомго ыңгайлуу убакытка чейин кийинкиге да калтырган. Кайра-кайра жаруу Везалийге бир денени экинчиси менен, андан кийин Гален менен салыштырууга мүмкүнчүлүк берди.\n\nСалыштыруу Галендин пайдасына чыккан жок. 1538-жылы Везалий мээнин түбүндөгү кан тамырлардын торун — Гален сүрөттөгөн жана анын физиологиясынын көп бөлүгү ага таянган *rete mirabile* («кереметтүү тор») дегенди — али тартып жүргөн. Адамда мындай тор жок; ал уйда жана койдо болот. Кийин «Фабрикада» Везалий бир жолу аны таба албаган адам болуп көрүнүүдөн коркуп, адамдан эч качан таппаган нерсени угармандарына койдун башынан көрсөткөнүн мойнуна алган. Башка оңдоолор да болгон. Адамдын астыңкы жаагы көп жаныбарлардагыдай эки эмес, бир сөөк. Төш сөөгү Гален маймылдан сүрөттөгөндөй жети эмес, үч бөлүктөн турат. Чоң веналар боордон башталбайт. Эркектердин кабыргасы аялдардыкынан бирөөгө аз эмес; бул Ыйык Китептеги Обо эне жөнүндөгү окуядан чыккан кеңири тараган ишеним болчу.\n\nНатыйжа — *De humani corporis fabrica libri septem* («Адам денесинин түзүлүшү жөнүндө жети китеп») — 1543-жылы Базелде Иоганн Опориндин басмаканасынан чыккан. Китептин аягындагы басма белгисинде июнь деп жазылган; китеп августта чыккандай. Везалий басууну көзөмөлдөө үчүн Базелге өзү барган, ал эми сүрөттөр үчүн оюлган жыгач калыптар ал жакка Италиядан жөнөтүлгөн. Китеп калган баары илинген алкак — сөөктөр менен башталат, андан кийин булчуңдар, кан тамырлар, нервдер, курсак, көкүрөк жана мээ келет. Анда жыгачка оюлган 250дөн ашык сүрөт бар. Аларды ким тартканы так белгисиз: адатта Венециядагы Тициандын устаканасынын сүрөтчүлөрүнө, балким мурда да Везалий үчүн сүрөт тарткан Ян ван Калькарга да таандык деп эсептешет.\n\n![«Фабрикадан» скелет (164-барак) мүрзө ташына жөлөнүп, баш сөөгүн карап турат. Мүрзө ташындагы латынча жазуу: «адам акыл-чеберчилиги менен жашайт, калганынын баары өлүмгө таандык болот». Сөөктөрдөгү майда тамгалар аларды текст менен байланыштырат.](https://upload.wikimedia.org/wikipedia/commons/f/ff/Vesalius_Fabrica_p164.jpg \"Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_p164.jpg\")\n\nЭң негизгиси сүрөттөр болгон. Ар бир бөлүккө басылган тамгалар аны тексттеги белгилүү бир жерге байлачу, ошондуктан башка шаардагы окурман сүрөттү өз алдындагы дене менен салыштыра алчу. Муну басма мүмкүн кылган: Гутенбергдин басма станогуна чейин көчүрүүчү ар бир сүрөттү кол менен кайра тартчу, ар бир көчүрмө сайын майда-чүйдөлөр түп нускадан алыстай берчү. Ошол эле жылы Везалий жаңы баштагандар үчүн кыска жана арзаныраак нуска — «Эпитоманы» да чыгарган. «Фабриканы» ал император Карл V арнаган жана анын сарайында дарыгер болгон.\n\n### Эмне үчүн оор болду\n\nГалендин анатомиясын кошуна шаарчанын көчөлөрүн гана басып көргөн адам тарткан шаардын картасы деп элестетиңиз. Жолдордун көбү туура багытка алып барат, анткени эки шаар бир эле план менен курулган; бирок тигил-бул жерде суу гана бар жерге көпүрө тартылып калган. Везалий чыныгы көчөлөрдү басып өтүп, картаны кайра тарткан. Салыштыруу бир жерде туура келбейт: Везалий жаныбарларды колдонууну эч качан токтоткон эмес. Галендин сүрөттөмөлөрү кайдан келгенин көрсөтүү үчүн ал адамдын скелетинин жанында маймылдын жана иттин скелеттерин да кармаган.\n\nАл биринчи шектенген адам эмес болчу. Мондино де Луцци Болоньяда адамдын денесин жарып, 1316-жылы анатомия окуу китебин жазган. Беренгарио да Карпи *rete mirabile* жөнүндө 1521-жылы эле шек санаган. Леонардо да Винчи денелерди жарып, аларды абдан так тарткан, бирок анын дептерлери кылымдар бою басылган эмес. XIII кылымда Каирде иштеген Ибн ан-Нафис Гален менен талашып, жүрөктүн эки жарымынын ортосундагы калың дубал бүтүн, анда көрүнгөн да, көрүнбөгөн да эч кандай өтмөк жок деп жазган; Европада анын эмгеги дээрлик белгисиз болчу. Везалийдин кошкону — айкалыш: көп дене, профессордун өз колу, мыкты сүрөтчүлөр жана ар ким текшере ала турган басма китеп.\n\n> [!NOTE]\n> Везалий баарын эле жокко чыгарган эмес. 1543-жылы ал Гален боюнча кан оңдон солго сиңип өтүүчү жүрөктүн дубалындагы тешикчелерди көрө албаганын жазган; ошентсе да кан көзгө көрүнбөгөн майда өтмөктөр аркылуу сиңип өтөт деп эсептеп, Жаратуучунун ишине таң калуу гана калганын айткан. Дубал бүтүн экенин ачык айткан 1555-жылкы басылыш гана. Ал ошондой эле веналар менен артериялар кандын эки башка түрүн алып жүрөт деген Галендин оюн сактап калган. Кан айлануу 1628-жылы Уильям Гарвейди күтүп турган.\n\nБийлик ээлери жооп беришкен. Анын мурдагы мугалими Сильвий 1551-жылы басылган текстинде ага кол салып, фамилиясын *Vaesanus* — «жинди» деп ойнотуп, эгерде дене Галенге туура келбесе, демек адамдын денеси Галендин заманынан бери өзгөрүп кеткен деп далилдөөгө аракет кылган.\n\n### Эмнеге жол ачты\n\nВезалий анатомияда эмне далил деп эсептелерин өзгөрттү: эң байыркы китеп эмес, столдогу дене — анан да ар ким текшере алгыдай сүрөттөлгөн дене. Анын Падуядагы мураскерлери Реальдо Коломбо, Габриеле Фаллопий жана Джироламо Фабрицио ошол эле рух менен анын өз каталарынын бир бөлүгүн оңдошкон, ал эми Падуя салты болжол менен 1600-жылы ошол жерде окуган Уильям Гарвейге чейин жеткен. «Фабрика» Жерди ааламдын борборунан чыгарган Коперниктин китеби менен бир жылы чыккан; экөөнү көп учурда илимий революциянын башталыш чекити катары чогуу айтышат."
+    }
+  }
+}
