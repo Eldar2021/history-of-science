@@ -1,0 +1,289 @@
+{
+  "slug": "linnaeus-systema-naturae",
+  "year": 1735,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 52.1601,
+  "lng": 4.497,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/5/54/Linn%C3%A9-Systema_Naturae_1735.jpg",
+    "credit": "Carl Linnaeus",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Linné-Systema_Naturae_1735.jpg"
+  },
+  "disciplines": [
+    "biology"
+  ],
+  "people": [
+    {
+      "slug": "carl-linnaeus",
+      "birth_year": 1707,
+      "death_year": 1778,
+      "role": "author",
+      "name": {
+        "en": "Carl Linnaeus",
+        "tr": "Carl Linnaeus",
+        "ru": "Карл Линней",
+        "ky": "Карл Линней"
+      }
+    },
+    {
+      "slug": "johan-frederik-gronovius",
+      "birth_year": 1686,
+      "death_year": 1762,
+      "role": "collaborator",
+      "name": {
+        "en": "Johan Frederik Gronovius",
+        "tr": "Johan Frederik Gronovius",
+        "ru": "Ян Фредерик Гроновиус",
+        "ky": "Ян Фредерик Гроновиус"
+      }
+    },
+    {
+      "slug": "isaac-lawson",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Isaac Lawson",
+        "tr": "Isaac Lawson",
+        "ru": "Исаак Лоусон",
+        "ky": "Исаак Лоусон"
+      }
+    },
+    {
+      "slug": "aristotle",
+      "birth_year": -384,
+      "death_year": -322,
+      "role": "predecessor",
+      "name": {
+        "en": "Aristotle",
+        "tr": "Aristoteles",
+        "ru": "Аристотель",
+        "ky": "Аристотель"
+      }
+    },
+    {
+      "slug": "li-shizhen",
+      "birth_year": 1518,
+      "death_year": 1593,
+      "role": "predecessor",
+      "name": {
+        "en": "Li Shizhen",
+        "tr": "Li Shizhen",
+        "ru": "Ли Шичжэнь",
+        "ky": "Ли Шичжэнь"
+      }
+    },
+    {
+      "slug": "andrea-cesalpino",
+      "birth_year": 1519,
+      "death_year": 1603,
+      "role": "predecessor",
+      "name": {
+        "en": "Andrea Cesalpino",
+        "tr": "Andrea Cesalpino",
+        "ru": "Андреа Чезальпино",
+        "ky": "Андреа Чезальпино"
+      }
+    },
+    {
+      "slug": "caspar-bauhin",
+      "birth_year": 1560,
+      "death_year": 1624,
+      "role": "predecessor",
+      "name": {
+        "en": "Caspar Bauhin",
+        "tr": "Caspar Bauhin",
+        "ru": "Каспар Баугин",
+        "ky": "Каспар Баугин"
+      }
+    },
+    {
+      "slug": "john-ray",
+      "birth_year": 1627,
+      "death_year": 1705,
+      "role": "predecessor",
+      "name": {
+        "en": "John Ray",
+        "tr": "John Ray",
+        "ru": "Джон Рей",
+        "ky": "Джон Рей"
+      }
+    },
+    {
+      "slug": "joseph-pitton-de-tournefort",
+      "birth_year": 1656,
+      "death_year": 1708,
+      "role": "predecessor",
+      "name": {
+        "en": "Joseph Pitton de Tournefort",
+        "tr": "Joseph Pitton de Tournefort",
+        "ru": "Жозеф Питтон де Турнефор",
+        "ky": "Жозеф Питтон де Турнефор"
+      }
+    },
+    {
+      "slug": "rudolf-jakob-camerarius",
+      "birth_year": 1665,
+      "death_year": 1721,
+      "role": "predecessor",
+      "name": {
+        "en": "Rudolf Jakob Camerarius",
+        "tr": "Rudolf Jakob Camerarius",
+        "ru": "Рудольф Якоб Камерариус",
+        "ky": "Рудольф Якоб Камерариус"
+      }
+    },
+    {
+      "slug": "itty-achuden",
+      "birth_year": null,
+      "death_year": null,
+      "role": "context",
+      "name": {
+        "en": "Itty Achuden",
+        "tr": "Itty Achuden",
+        "ru": "Итти Ачуден",
+        "ky": "Итти Ачуден"
+      }
+    },
+    {
+      "slug": "johann-georg-siegesbeck",
+      "birth_year": null,
+      "death_year": null,
+      "role": "rival",
+      "name": {
+        "en": "Johann Georg Siegesbeck",
+        "tr": "Johann Georg Siegesbeck",
+        "ru": "Иоганн Георг Зигесбек",
+        "ky": "Иоганн Георг Зигесбек"
+      }
+    },
+    {
+      "slug": "charles-darwin",
+      "birth_year": 1809,
+      "death_year": 1882,
+      "role": "successor",
+      "name": {
+        "en": "Charles Darwin",
+        "tr": "Charles Darwin",
+        "ru": "Чарльз Дарвин",
+        "ky": "Дарвин"
+      }
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum"
+  ],
+  "sources": [
+    {
+      "title": "Systema Naturae — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Systema_Naturae"
+    },
+    {
+      "title": "Carl Linnaeus — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Carl_Linnaeus"
+    },
+    {
+      "title": "Linnaean taxonomy — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Linnaean_taxonomy"
+    },
+    {
+      "title": "The Linnean Society of London, 'The Living World in Eleven Pages: Systema naturae, 1735'",
+      "kind": "article",
+      "url": "https://www.linnean.org/news/2026/05/12/the-living-world-in-eleven-pages-systema-naturae-1735"
+    },
+    {
+      "title": "The Linnean Society of London, 'Linnaeus and Race'",
+      "kind": "article",
+      "url": "https://www.linnean.org/learning/who-was-linnaeus/linnaeus-and-race"
+    },
+    {
+      "title": "University of Otago Library, Linnaeus exhibition, Cabinet 7: Systema Naturae",
+      "kind": "other",
+      "url": "https://www.otago.ac.nz/library/exhibitions/linnaeus/cabinet7/index.html"
+    },
+    {
+      "title": "University of Otago Library, Linnaeus exhibition, Cabinet 8: The Sexual System (Siegesbeck)",
+      "kind": "other",
+      "url": "https://www.otago.ac.nz/library/exhibitions/linnaeus/cabinet8/index.html"
+    },
+    {
+      "title": "Bencao Gangmu — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Bencao_Gangmu"
+    },
+    {
+      "title": "Gaspard Bauhin — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gaspard_Bauhin"
+    },
+    {
+      "title": "Rudolf Jakob Camerarius — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Jakob_Camerarius"
+    },
+    {
+      "title": "Hortus Malabaricus — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hortus_Malabaricus"
+    },
+    {
+      "title": "K. S. Manilal et al., 'Carl Linnaeus and Hortus Malabaricus: A 250th Anniversary Tribute to Species Plantarum', Rheedea 13 (2003)",
+      "kind": "article",
+      "url": "https://www.rheedea.in/IAAT/article/view/386"
+    },
+    {
+      "title": "Systema Naturae — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Systema-Naturae"
+    }
+  ],
+  "research_note": "Checked 2026-10-08 against English Wikipedia (Systema Naturae, Carl Linnaeus, Linnaean taxonomy, Bencao Gangmu, Gaspard Bauhin, Rudolf Jakob Camerarius, Hortus Malabaricus), the Linnean Society article 'The Living World in Eleven Pages' (format, Gronovius letter of 2 October 1735, six animal classes, 24 plant classes), the Linnean Society page 'Linnaeus and Race', and the University of Otago Library Linnaeus exhibition (Cabinet 7: printed December 1735, funded by Gronovius and Isaac Lawson; Cabinet 8: Siegesbeck, 'loathsome harlotry', 1760s acceptance). The 1735 title page and the Anthropomorpha detail were read directly from the Commons images (Homo, Simia, Bradypus; 'Nosce te ipsum'; four varieties). Britannica returns 403 and is linked for the human reviewer only. Verified adversarially by the fact-checker agent before loading.\nFIXED AFTER FACT-CHECK (all four languages): (1) the 24 plant classes are no longer 'count one, two, three': only the first classes are by number; the rest use stamen length, fusion and separate male/female flowers. Pistils split 'most' classes into orders. (2) 1758: 'whales and bats moved to Mammalia' was wrong (bats were already among the four-footed animals); now the four-footed animals became Mammalia and the whales joined them. (3) The racism box now follows the Linnean Society's own wording ('one of the origins of scientific racism', above all in the 1758 form); the earlier 'colonial stereotypes' wording was not on their page. (4) Hortus Malabaricus: added van Rheede, the three Konkani Brahmin physicians, and translation via Portuguese, so Itty Achuden is not presented as the lone source. (5) Page count: 'twelve or fourteen' -> 'fourteen' (Otago counts fourteen folio sheets; Linnean Society and Britannica say eleven pages). (6) Cesalpino years filled (1519-1603). (7) ru: orders = 'порядки' throughout.\nFLAGGED IN THE BODY: eleven pages vs fourteen sheets; Siegesbeck's 'loathsome harlotry' given as what later writers quote (English rendering of the Latin, not checked in the original); whether Linnaeus meant a ranking of human varieties is stated as disputed.\nREVIEWER SHOULD CHECK: 'took hold almost everywhere only from the 1760s' rests on one source (Otago Cabinet 8). 'Relied heavily on Hortus Malabaricus' rests on Manilal et al. (Rheedea 2003, 255 Rheedean elements used by Linnaeus); the article itself was not opened. Hortus Malabaricus end date varies (1693 vs 1703), so the body says only 'from 1678'. The 10th edition plant volume came out in 1759; the body says 1758. Bencao Gangmu printing is 1596 per Wikipedia, some sources say 1593. Isaac Lawson (d. 1747?) and Siegesbeck (1686-1755?) years left null as unconfirmed. charles-darwin ky name kept as the existing shared row ('Дарвин') so the people row is not altered by this event. builds_on aristotle-lyceum is thematic (Aristotle's grouping of animals). Kyrgyz botanical/taxonomic terms not in the glossary: падышалык (kingdom), түркүм (order), уруу (genus), аталык (stamen), энелик (pistil), чаңча (pollen); 'түр' (species) is marked check in the glossary.",
+  "translations": {
+    "en": {
+      "title": "Linnaeus sorts nature into boxes within boxes",
+      "summary": "In Leiden, Carl Linnaeus printed eleven huge pages sorting minerals, plants and animals into classes, orders, genera and species: the nested scheme biology still uses to name life.",
+      "why_it_matters": "Linnaeus gave naturalists one shared filing system at the moment Europe was flooded with unknown species, and his two-word names became the rule that still governs every new species. The same tables also put humans among the animals, and sorted people by skin colour in a way that fed later racism.",
+      "if_you_were_there": "You have a dried flower from a ship's cargo and no idea what it is. Now you count its stamens, run your finger along one printed table, and find its place.",
+      "place_name": "Leiden",
+      "status": "machine",
+      "body": "![The title page of the first edition (Leiden, 1735). The title itself announces the method: the three kingdoms of nature set out \"by classes, orders, genera and species\".](https://upload.wikimedia.org/wikipedia/commons/5/54/Linn%C3%A9-Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Linné-Systema_Naturae_1735.jpg\")\n\n### The scene\n\nBy the early 18th century, ships were bringing seeds, dried plants and preserved animals into Europe from Asia, Africa and the Americas faster than anyone could sort them. There was no agreed way to name them. A plant was usually called by a short Latin description, several words long, and two botanists describing the same plant could give it two different descriptions. The same plant could circulate under many names, and two different plants could be confused under one.\n\nPeople had tried to bring order before. Aristotle had grouped animals by features such as blood, legs and live birth. In China, Li Shizhen's *Bencao Gangmu*, printed in 1596, sorted 1,892 medicinal entries into 16 divisions and 60 subdivisions; its words for its two levels, *gang* and *mu*, were later used in Chinese for \"class\" and \"order\". In Europe, Andrea Cesalpino had classified plants by their fruits and seeds in 1583, Caspar Bauhin's *Pinax* of 1623 had sorted about 6,000 plants and their tangle of names, and John Ray and Joseph Pitton de Tournefort had built systems of their own. Each worked; none was adopted by everyone.\n\nCarl Linnaeus was born in 1707 in Råshult, in southern Sweden, the son of a country curate. He studied at Uppsala and in 1732 travelled through Lapland collecting plants. In 1735 he went to the Netherlands, where a doctor's degree could be had quickly: he took his medical degree at Harderwijk in about two weeks. He arrived with a manuscript in his luggage.\n\n### What happened\n\nIn Leiden, the botanist Johan Frederik Gronovius read the manuscript and was impressed. He and a young Scottish physician, Isaac Lawson, paid for it to be printed. *Systema Naturae* came out in Leiden in 1735, printed by Johann Wilhelm de Groot. It was not a thick book but a few enormous sheets: a large folio usually counted as eleven pages (some descriptions count the sheets differently and give fourteen). The printing was hard, because the tables mixed several typefaces and symbols; Gronovius wrote that one part had to be set a third time, and the book was not finished until the end of the year.\n\nEach of the three kingdoms of nature, mineral, plant and animal, got one great table across two pages. Classes ran in columns, orders in rows, and the genera sat in the boxes. The full title names the ladder: nature set out \"by classes, orders, genera and species\". Every living thing had an address, and every level of the address fit inside the one above it.\n\n![George Dionysius Ehret's 1736 plate of Linnaeus's \"sexual method\" for plants. Each letter shows a different arrangement of stamens; the handwritten column on the right names the 24 classes, from one stamen (Monandria) to plants with hidden flowers (Cryptogamia).](https://upload.wikimedia.org/wikipedia/commons/6/62/Ehret%2C_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis%2C_1736.jpg \"Georg Dionysus Ehret · Public domain · https://commons.wikimedia.org/wiki/File:Ehret,_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis,_1736.jpg\")\n\nFor plants, Linnaeus sorted by the parts of the flower. In 1694 Rudolf Jakob Camerarius had shown by experiment that plants need pollen to set seed. Linnaeus took the male parts, the stamens, and counted them: one stamen, two, three, and so on. Where counting was not enough, he looked at how long the stamens were, whether they were joined, and whether male and female flowers grew apart, which gave 24 classes. In most classes the female parts, the pistils, split each class into orders. Anyone with a hand lens could now take an unknown flower, count, and find where it belonged.\n\nThe animal table had six classes: four-footed animals, birds, amphibians, fishes, insects and worms. Whales were among the fishes. And humans were not set apart: they stood in the first group of four-footed animals, *Anthropomorpha* (\"man-shaped\"), alongside apes and sloths, a placement critics objected to. Where the other genera had descriptions, beside *Homo* he wrote only *Nosce te ipsum*, \"know yourself\".\n\n![A detail of the 1735 animal table. Under \"Quadrupedia\" (four-footed animals), the group \"Anthropomorpha\" holds three genera: Homo (humans), Simia (apes and monkeys) and Bradypus (sloths). Beside Homo, four human varieties are listed by continent and skin colour.](https://upload.wikimedia.org/wikipedia/commons/4/48/Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg\")\n\n> [!WARNING]\n> The same table split humans into four varieties by continent and skin colour: European, American, Asian and African. Later editions tied them to temperaments and character. Scholars disagree on whether Linnaeus meant a ranking, but the Linnean Society of London, which keeps his collections, names this classification, above all in its expanded 1758 form, as one of the origins of scientific racism.\n\n### Why it was hard\n\nThink of the system as a postal address: kingdom, class, order, genus, species, like country, region, city, street, house. Once the levels are fixed, a newcomer can be filed and found again. The analogy breaks at its core: an address is decided by people, while the question of biology was whether the groups are real. Linnaeus believed his genera and species were natural, the plan of the Creator, but he openly called his plant classes artificial, a key for identification. A flower with ten stamens could end up beside a quite unrelated one.\n\nNot everyone accepted it. The flowers-as-marriages language invited moral outrage. In 1737 Johann Georg Siegesbeck, who ran the botanical garden in St Petersburg, attacked the sexual system; later writers quote him as calling it \"loathsome harlotry\". Linnaeus named a small weed *Siegesbeckia*. The anatomist Lorenz Heister in Germany and Albrecht von Haller in Switzerland also rejected it. Only from the 1760s did the system take hold almost everywhere.\n\n### What it opened\n\nLinnaeus kept rewriting the book. By the tenth edition (Stockholm, 1758), the eleven pages had become more than 1,300, covering about 4,400 animal and 7,700 plant species. In that edition the four-footed animals became a new class, *Mammalia*, named after the mammary glands, and the whales joined them, while humans got the name they still carry, *Homo sapiens*. Above all, every animal received a two-word name: a genus and a single species word, like a surname and a first name. Bauhin had sometimes used two-word names a century earlier; Linnaeus made them the rule. Biologists still count valid names from his *Species Plantarum* (1753) for plants and from the 1758 *Systema Naturae* for animals.\n\nThe system also needed specimens, and many came through others. Linnaeus sent 17 of his students, whom he called \"apostles\", across the world; seven of them died on their journeys. For the plants of South Asia he relied heavily on the *Hortus Malabaricus*, a 12-volume Dutch work printed in Amsterdam from 1678, compiled for the Dutch governor Hendrik van Rheede. Its descriptions rest on the knowledge of the Kerala healer Itty Achuden and three Konkani Brahmin physicians, dictated in Malayalam and translated through Portuguese into Latin.\n\nA century later, Charles Darwin gave the boxes-inside-boxes a reason Linnaeus had not imagined: groups nest inside one another because species descend from common ancestors. The ranks have multiplied and the plant classes are gone, but the two-word name and the nested hierarchy are still how biology names every new species."
+    },
+    "tr": {
+      "title": "Linnaeus doğayı iç içe kutulara yerleştiriyor",
+      "summary": "Carl Linnaeus Leiden'de on bir dev sayfa bastı: mineralleri, bitkileri ve hayvanları sınıf, takım, cins ve türe ayırdı. Biyoloji canlılara hâlâ bu iç içe şemayla ad veriyor.",
+      "why_it_matters": "Linnaeus, Avrupa bilinmeyen türlerle dolup taşarken doğa bilimcilere ortak bir dosyalama sistemi verdi; iki sözcüklü adları bugün her yeni türü yöneten kural oldu. Aynı tablolar insanı da hayvanların arasına koydu ve insanları ten rengine göre ayırarak sonraki ırkçılığı besledi.",
+      "if_you_were_there": "Elinde bir geminin yükünden çıkmış kuru bir çiçek var ve ne olduğunu bilmiyorsun. Şimdi erciklerini sayıyor, parmağını basılı bir tabloda gezdiriyor ve yerini buluyorsun.",
+      "place_name": "Leiden",
+      "status": "machine",
+      "body": "![İlk baskının başlık sayfası (Leiden, 1735). Başlık yöntemi kendisi söylüyor: doğanın üç âlemi \"sınıflar, takımlar, cinsler ve türler hâlinde\" düzenlenmiştir.](https://upload.wikimedia.org/wikipedia/commons/5/54/Linn%C3%A9-Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Linné-Systema_Naturae_1735.jpg\")\n\n### Sahne\n\n18. yüzyılın başında gemiler Asya'dan, Afrika'dan ve Amerika'dan Avrupa'ya tohum, kurutulmuş bitki ve saklanmış hayvan getiriyordu; hem de kimsenin ayıklayamayacağı bir hızla. Bunlara ad vermenin üzerinde anlaşılmış bir yolu yoktu. Bir bitki genellikle birkaç sözcüklük kısa bir Latince tarifle anılırdı ve aynı bitkiyi anlatan iki botanikçi ona iki farklı tarif verebilirdi. Aynı bitki birçok adla dolaşabiliyor, iki ayrı bitki tek ad altında karışabiliyordu.\n\nDüzen kurma denemeleri daha önce de olmuştu. Aristoteles hayvanları kan, bacak ve doğurma gibi özelliklere göre gruplamıştı. Çin'de Li Shizhen'in 1596'da basılan *Bencao Gangmu*'su 1.892 şifalı maddeyi 16 bölüm ve 60 alt bölüme ayırmıştı; bu katmanlar için kullandığı *gang* ve *mu* sözcükleri sonradan Çincede \"sınıf\" ve \"takım\" anlamında kullanıldı. Avrupa'da Andrea Cesalpino 1583'te bitkileri meyve ve tohumlarına göre sınıflamış, Caspar Bauhin 1623 tarihli *Pinax*'ında yaklaşık 6.000 bitkiyi ve onların karmakarışık adlarını ayıklamış, John Ray ile Joseph Pitton de Tournefort da kendi sistemlerini kurmuştu. Her biri işe yarıyordu; hiçbiri herkesçe benimsenmedi.\n\nCarl Linnaeus 1707'de güney İsveç'te Råshult'ta, bir köy papazının oğlu olarak doğdu. Uppsala'da okudu ve 1732'de bitki toplayarak Laponya'yı dolaştı. 1735'te, doktorluk derecesinin hızla alınabildiği Hollanda'ya gitti: tıp derecesini Harderwijk'te yaklaşık iki haftada aldı. Bavulunda bir el yazması vardı.\n\n### Ne oldu\n\nLeiden'de botanikçi Johan Frederik Gronovius el yazmasını okudu ve etkilendi. O ve genç İskoç hekim Isaac Lawson baskı masrafını üstlendi. *Systema Naturae* 1735'te Leiden'de, Johann Wilhelm de Groot'un matbaasında çıktı. Kalın bir kitap değil, birkaç dev sayfaydı: genellikle on bir sayfa sayılan büyük bir folyo (bazı tarifler yaprakları farklı sayar ve on dört der). Baskı zordu, çünkü tablolarda birkaç yazı tipi ve simge iç içeydi; Gronovius bir bölümün üçüncü kez dizilmesi gerektiğini yazdı ve kitap ancak yıl sonunda bitti.\n\nDoğanın üç âleminin, yani mineral, bitki ve hayvanın her biri iki sayfaya yayılan büyük bir tablo aldı. Sınıflar sütunlarda, takımlar satırlarda, cinsler de kutuların içindeydi. Tam başlık merdiveni adıyla sayıyor: doğa \"sınıflar, takımlar, cinsler ve türler hâlinde\" düzenlenmiştir. Her canlının bir adresi vardı ve adresin her katmanı bir üsttekinin içine sığıyordu.\n\n![George Dionysius Ehret'in 1736 tarihli, Linnaeus'un bitkiler için \"cinsel yöntemini\" gösteren levhası. Her harf farklı bir erkek organ düzenini gösterir; sağdaki el yazısı sütun, tek erkek organlılardan (Monandria) çiçeği gizli bitkilere (Cryptogamia) kadar 24 sınıfı sayar.](https://upload.wikimedia.org/wikipedia/commons/6/62/Ehret%2C_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis%2C_1736.jpg \"Georg Dionysus Ehret · Public domain · https://commons.wikimedia.org/wiki/File:Ehret,_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis,_1736.jpg\")\n\nLinnaeus bitkileri çiçeğin parçalarına göre ayırdı. 1694'te Rudolf Jakob Camerarius, bitkilerin tohum bağlamak için polene ihtiyaç duyduğunu deneyle göstermişti. Linnaeus erkek organları, yani ercikleri aldı ve saydı: bir, iki, üç ve devamı. Saymanın yetmediği yerde erciklerin uzunluğuna, birbirine kaynaşıp kaynaşmadığına ve erkek ile dişi çiçeklerin ayrı açıp açmadığına baktı; böylece 24 sınıf çıktı. Çoğu sınıfta dişi organlar, yani pistiller (dişicikler), sınıfı takımlara böldü. Artık elinde büyüteci olan herkes bilinmeyen bir çiçeği alıp sayabilir ve nereye ait olduğunu bulabilirdi.\n\nHayvan tablosunda altı sınıf vardı: dört ayaklılar, kuşlar, amfibiler, balıklar, böcekler ve kurtlar. Balinalar balıkların arasındaydı. İnsan da ayrı tutulmamıştı: dört ayaklıların ilk grubu olan *Anthropomorpha*'da (\"insan biçimliler\") maymunlar ve tembel hayvanlarla yan yana duruyordu; eleştirmenler bu yere itiraz etti. Öteki cinslerin yanında tarifler varken *Homo*'nun yanına yalnızca *Nosce te ipsum*, \"kendini bil\" yazdı.\n\n![1735 hayvan tablosundan bir ayrıntı. \"Quadrupedia\" (dört ayaklılar) başlığı altında \"Anthropomorpha\" grubu üç cins içerir: Homo (insan), Simia (maymunlar) ve Bradypus (tembel hayvanlar). Homo'nun yanında dört insan çeşidi kıtaya ve ten rengine göre sıralanmıştır.](https://upload.wikimedia.org/wikipedia/commons/4/48/Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg\")\n\n> [!WARNING]\n> Aynı tablo insanları kıtaya ve ten rengine göre dört çeşide ayırdı: Avrupalı, Amerikalı, Asyalı ve Afrikalı. Sonraki baskılar bunları mizaç ve karaktere bağladı. Linnaeus'un bir sıralama kastedip etmediği tartışmalıdır; ama koleksiyonlarını saklayan Londra Linnean Derneği bu sınıflamayı, özellikle genişletilmiş 1758 biçimiyle, bilimsel ırkçılığın kökenlerinden biri sayıyor.\n\n### Neden zordu\n\nSistemi bir posta adresi gibi düşünün: âlem, sınıf, takım, cins, tür; tıpkı ülke, bölge, şehir, sokak, ev gibi. Katmanlar sabitlenince yeni gelen bir canlı dosyalanabilir ve yeniden bulunabilir. Benzetme özünde bozulur: adresi insanlar belirler, oysa biyolojinin sorusu grupların gerçek olup olmadığıydı. Linnaeus cinslerinin ve türlerinin doğal, Yaratıcı'nın planı olduğuna inanıyordu; ama bitki sınıflarına açıkça yapay, tanımaya yarayan bir anahtar diyordu. On erkek organlı bir çiçek, hiç akraba olmadığı bir başkasının yanına düşebilirdi.\n\nHerkes kabul etmedi. Çiçekleri evlilik gibi anlatan dil ahlaki öfke çekti. 1737'de St. Petersburg botanik bahçesini yöneten Johann Georg Siegesbeck cinsel sisteme saldırdı; sonraki yazarlar ona \"iğrenç fuhuş\" dediğini aktarır. Linnaeus küçük bir yabani otun adını *Siegesbeckia* koydu. Almanya'da anatomist Lorenz Heister ve İsviçre'de Albrecht von Haller de sistemi reddetti. Sistem neredeyse her yerde ancak 1760'lardan itibaren tutundu.\n\n### Sonrası\n\nLinnaeus kitabı yeniden yazmayı sürdürdü. Onuncu baskıya gelindiğinde (Stockholm, 1758) on bir sayfa 1.300'ü aşmış, yaklaşık 4.400 hayvan ve 7.700 bitki türünü kapsıyordu. Bu baskıda dört ayaklılar meme bezlerinden adını alan yeni bir sınıf, *Mammalia* (memeliler) oldu ve balinalar da onlara katıldı; insan da bugün hâlâ taşıdığı adı aldı: *Homo sapiens*. Hepsinden önemlisi, her hayvan iki sözcüklü bir ad aldı: bir cins adı ve tek bir tür sözcüğü, tıpkı soyadı ve ad gibi. Bauhin bir yüzyıl önce zaman zaman iki sözcüklü adlar kullanmıştı; Linnaeus bunu kural yaptı. Biyologlar geçerli adları bugün de bitkilerde onun *Species Plantarum*'undan (1753), hayvanlarda 1758 tarihli *Systema Naturae*'den başlatır.\n\nSistemin örneklere de ihtiyacı vardı ve bunların çoğu başkalarının eliyle geldi. Linnaeus \"havarileri\" dediği 17 öğrencisini dünyanın dört bir yanına gönderdi; yedisi yolculukları sırasında öldü. Güney Asya bitkileri için büyük ölçüde *Hortus Malabaricus*'a dayandı: 1678'den itibaren Amsterdam'da basılan bu 12 ciltlik eser Hollandalı vali Hendrik van Rheede için hazırlanmıştı. Tarifleri Keralalı şifacı Itty Achuden ile üç Konkani Brahman hekimin bilgisine dayanır; Malayalam dilinde dikte edildi, Portekizce üzerinden Latinceye çevrildi.\n\nBir yüzyıl sonra Charles Darwin iç içe kutulara Linnaeus'un aklına gelmeyen bir neden verdi: gruplar iç içe geçer, çünkü türler ortak atalardan iner. Katmanlar çoğaldı, bitki sınıfları tarihe karıştı; ama iki sözcüklü ad ve iç içe hiyerarşi, biyolojinin her yeni türe ad verme yolu olmaya devam ediyor."
+    },
+    "ru": {
+      "title": "Линней раскладывает природу по коробкам внутри коробок",
+      "summary": "В Лейдене Карл Линней напечатал одиннадцать огромных страниц, разложив минералы, растения и животных по классам, порядкам, родам и видам. Этой вложенной схемой биология пользуется до сих пор.",
+      "why_it_matters": "Линней дал натуралистам общую систему каталогизации в тот момент, когда Европу захлестнули неизвестные виды, а его двусловные названия стали правилом, по которому и сегодня называют каждый новый вид. Те же таблицы поставили человека среди животных и разделили людей по цвету кожи — это подпитало позднейший расизм.",
+      "if_you_were_there": "У вас в руках засушенный цветок из корабельного груза, и вы не знаете, что это. Теперь вы считаете его тычинки, ведёте пальцем по одной печатной таблице и находите его место.",
+      "place_name": "Лейден",
+      "status": "machine",
+      "body": "![Титульный лист первого издания (Лейден, 1735). Само название объявляет метод: три царства природы, изложенные «по классам, порядкам, родам и видам».](https://upload.wikimedia.org/wikipedia/commons/5/54/Linn%C3%A9-Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Linné-Systema_Naturae_1735.jpg\")\n\n### Обстановка\n\nВ начале XVIII века корабли везли в Европу из Азии, Африки и Америки семена, засушенные растения и сохранённых животных быстрее, чем кто-либо успевал их разобрать. Общепринятого способа их называть не было. Растение обычно обозначали коротким латинским описанием в несколько слов, и два ботаника, описывая одно и то же растение, могли дать ему два разных описания. Одно растение ходило под многими именами, а два разных могли спутать под одним.\n\nПопытки навести порядок были и раньше. Аристотель группировал животных по таким признакам, как кровь, число ног и живорождение. В Китае «Бэньцао ганму» Ли Шичжэня, напечатанная в 1596 году, распределила 1892 лекарственные статьи по 16 разделам и 60 подразделам; её слова для этих уровней, *ган* и *му*, позже стали в китайском языке означать «класс» и «отряд». В Европе Андреа Чезальпино в 1583 году классифицировал растения по плодам и семенам, «Пинакс» Каспара Баугина 1623 года разобрал около 6000 растений и путаницу их названий, а Джон Рей и Жозеф Питтон де Турнефор построили собственные системы. Каждая работала; ни одну не приняли все.\n\nКарл Линней родился в 1707 году в Росхульте, на юге Швеции, в семье сельского священника. Он учился в Уппсале и в 1732 году путешествовал по Лапландии, собирая растения. В 1735 году он отправился в Нидерланды, где степень доктора можно было получить быстро: медицинскую степень он получил в Хардервейке примерно за две недели. В его багаже была рукопись.\n\n### Что произошло\n\nВ Лейдене ботаник Ян Фредерик Гроновиус прочёл рукопись и был впечатлён. Вместе с молодым шотландским врачом Исааком Лоусоном он оплатил её печать. «Система природы» вышла в Лейдене в 1735 году в типографии Иоганна Вильгельма де Гроота. Это была не толстая книга, а несколько огромных листов: большой фолиант, который обычно считают в одиннадцать страниц (некоторые описания считают листы иначе и называют четырнадцать). Печатать было трудно: в таблицах смешивались несколько шрифтов и символов. Гроновиус писал, что одну часть пришлось набирать в третий раз, и книга была готова только к концу года.\n\nКаждое из трёх царств природы — минералы, растения и животные — получило одну большую таблицу на развороте. Классы шли столбцами, отряды — строками, а роды стояли в клетках. Полное название перечисляет всю лестницу: природа, изложенная «по классам, порядкам, родам и видам». У каждого живого существа появился адрес, и каждый уровень адреса помещался внутри уровня выше.\n\n![Таблица Георга Дионисия Эрета 1736 года, изображающая «половой метод» Линнея для растений. Каждая буква показывает своё расположение тычинок; рукописный столбец справа называет 24 класса — от растений с одной тычинкой (Monandria) до растений со скрытыми цветками (Cryptogamia).](https://upload.wikimedia.org/wikipedia/commons/6/62/Ehret%2C_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis%2C_1736.jpg \"Georg Dionysus Ehret · Public domain · https://commons.wikimedia.org/wiki/File:Ehret,_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis,_1736.jpg\")\n\nРастения Линней сортировал по частям цветка. В 1694 году Рудольф Якоб Камерариус показал опытами, что растениям для завязывания семян нужна пыльца. Линней взял мужские части — тычинки — и пересчитал их: одна, две, три и так далее. Где счёта не хватало, он смотрел на длину тычинок, на то, срослись ли они, и на то, растут ли мужские и женские цветки отдельно; так получилось 24 класса. В большинстве классов женские части — пестики — делили класс на порядки. Теперь любой человек с лупой мог взять незнакомый цветок, сосчитать и найти, куда он относится.\n\nВ таблице животных было шесть классов: четвероногие, птицы, амфибии, рыбы, насекомые и черви. Киты стояли среди рыб. И человека не выделили отдельно: он стоял в первой группе четвероногих, *Anthropomorpha* («человекообразные»), рядом с обезьянами и ленивцами, и критики возражали против этого. Если у других родов были описания, то рядом с *Homo* Линней написал только *Nosce te ipsum* — «познай самого себя».\n\n![Фрагмент таблицы животных 1735 года. Под заголовком «Quadrupedia» (четвероногие) группа «Anthropomorpha» включает три рода: Homo (человек), Simia (обезьяны) и Bradypus (ленивцы). Рядом с Homo перечислены четыре разновидности людей по континенту и цвету кожи.](https://upload.wikimedia.org/wikipedia/commons/4/48/Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg\")\n\n> [!WARNING]\n> Та же таблица делила людей на четыре разновидности по континенту и цвету кожи: европейскую, американскую, азиатскую и африканскую. В поздних изданиях их связали с темпераментами и характером. Историки спорят, подразумевал ли Линней иерархию, но Лондонское Линнеевское общество, хранящее его коллекции, называет эту классификацию, особенно в расширенном виде 1758 года, одним из истоков научного расизма.\n\n### Почему это было трудно\n\nПредставьте систему как почтовый адрес: царство, класс, отряд, род, вид — как страна, область, город, улица, дом. Когда уровни закреплены, новичка можно занести в картотеку и снова найти. Аналогия ломается в главном: адрес назначают люди, а вопрос биологии был в том, реальны ли сами группы. Линней верил, что его роды и виды естественны — это замысел Творца, но свои классы растений открыто называл искусственными, ключом для определения. Цветок с десятью тычинками мог оказаться рядом с совсем не родственным ему.\n\nПриняли систему не все. Язык, в котором цветы вступали в брак, вызывал моральное негодование. В 1737 году Иоганн Георг Зигесбек, руководивший ботаническим садом в Санкт-Петербурге, выступил против половой системы; более поздние авторы приводят его слова о «мерзком распутстве». Линней назвал в его честь мелкий сорняк — *Siegesbeckia*. Анатом Лоренц Гейстер в Германии и Альбрехт фон Галлер в Швейцарии тоже её отвергали. Почти повсеместно система утвердилась лишь с 1760-х годов.\n\n### Что это открыло\n\nЛинней продолжал переписывать книгу. К десятому изданию (Стокгольм, 1758) одиннадцать страниц превратились в более чем 1300 и охватывали около 4400 видов животных и 7700 видов растений. В этом издании четвероногие стали новым классом *Mammalia* (млекопитающие), названным по молочным железам, и к ним присоединились киты; а человек получил имя, которое носит до сих пор, — *Homo sapiens*. Главное же — каждое животное получило имя из двух слов: род и одно видовое слово, как фамилия и имя. Баугин веком раньше иногда пользовался двусловными названиями; Линней сделал их правилом. Биологи до сих пор отсчитывают действительные названия растений от его «Видов растений» (*Species Plantarum*, 1753), а животных — от «Системы природы» 1758 года.\n\nСистеме нужны были и образцы, и многие пришли через других людей. Линней разослал по миру 17 своих учеников, которых называл «апостолами»; семеро из них погибли в путешествиях. Для растений Южной Азии он во многом опирался на *Hortus Malabaricus* — двенадцатитомный труд, печатавшийся в Амстердаме с 1678 года и составленный для голландского губернатора Хендрика ван Реде. Его описания основаны на знаниях керальского лекаря Итти Ачудена и трёх конканских врачей-брахманов: их диктовали на малаялам и переводили через португальский на латынь.\n\nВек спустя Чарльз Дарвин дал «коробкам внутри коробок» объяснение, которого Линней не предполагал: группы вложены друг в друга потому, что виды происходят от общих предков. Уровней стало больше, классы растений ушли в прошлое, но двусловное имя и вложенная иерархия по-прежнему остаются тем, как биология называет каждый новый вид."
+    },
+    "ky": {
+      "title": "Линней табиятты кутучанын ичиндеги кутучаларга жайгаштырат",
+      "summary": "Карл Линней Лейденде он бир зор бет бастырып, минералдарды, өсүмдүктөрдү жана жаныбарларды класс, түркүм, уруу жана түргө бөлдү. Биология жандыктарга азыр да ушул схема менен ат коёт.",
+      "why_it_matters": "Европага белгисиз түрлөр агылып келип жатканда Линней табият таануучуларга жалпы каттоо системасын берди, анын эки сөздүү аттары бүгүн ар бир жаңы түргө ат коюунун эрежеси болуп калды. Ошол эле таблицалар адамды жаныбарлардын катарына коюп, адамдарды тери түсүнө карап бөлүп, кийинки расизмге азык берди.",
+      "if_you_were_there": "Колуңузда кеменин жүгүнөн чыккан кургак гүл бар, бирок ал эмне экенин билбейсиз. Эми анын аталыктарын санап, манжаңызды бир басылган таблица боюнча жылдырып, анын ордун табасыз.",
+      "place_name": "Лейден",
+      "status": "machine",
+      "body": "![Биринчи басылыштын титул барагы (Лейден, 1735). Аталышы ыкманы өзү жарыялайт: табияттын үч падышалыгы «класстар, түркүмдөр, уруулар жана түрлөр боюнча» тизилген.](https://upload.wikimedia.org/wikipedia/commons/5/54/Linn%C3%A9-Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Linné-Systema_Naturae_1735.jpg\")\n\n### Окуя болгон мезгил\n\nXVIII кылымдын башында кемелер Европага Азиядан, Африкадан жана Америкадан үрөн, кургатылган өсүмдүк жана сакталган жаныбарларды ташып келчү, аларды эч ким ылгап үлгүрө албай калган. Аларга ат коюунун макулдашылган жолу жок эле. Өсүмдүк адатта бир нече сөздөн турган кыска латынча сүрөттөмө менен аталчу, ошол эле өсүмдүктү сүрөттөгөн эки ботаник ага эки башка сүрөттөмө бериши мүмкүн болчу. Бир өсүмдүк көп ат менен жүрүп, эки башка өсүмдүк бир аттын астында чаташып кетчү.\n\nТартип орнотуу аракеттери мурун да болгон. Аристотель жаныбарларды каны, буттарынын саны, тирүү тууганы сыяктуу белгилерине карап топтогон. Кытайда Ли Шичжэндин 1596-жылы басылган «Бэньцао ганму» китеби 1892 дары макаласын 16 бөлүмгө жана 60 бөлүмчөгө бөлгөн; ал бул деңгээлдер үчүн колдонгон *ган* жана *му* сөздөрү кийин кытай тилинде «класс» жана «түркүм» маанисинде колдонулуп калган. Европада Андреа Чезальпино 1583-жылы өсүмдүктөрдү мөмөсүнө жана үрөнүнө карап классификациялаган, Каспар Баугиндин 1623-жылкы «Пинакс» китеби 6000ге жакын өсүмдүктү жана алардын чаташкан аттарын иреттеген, ал эми Джон Рей менен Жозеф Питтон де Турнефор өз системаларын түзүшкөн. Ар бири иштечү, бирок бирин да баары кабыл алган эмес.\n\nКарл Линней 1707-жылы Швециянын түштүгүндөгү Росхульт деген жерде айыл дин кызматчысынын үй-бүлөсүндө төрөлгөн. Ал Уппсалада окуп, 1732-жылы өсүмдүк чогултуп Лапландияны кыдырган. 1735-жылы ал доктор даражасын тез алууга боло турган Нидерландыга жөнөгөн: медицина даражасын Хардервейкте болжол менен эки жумада алган. Жүгүндө бир кол жазма бар эле.\n\n### Эмне болду\n\nЛейденде ботаник Ян Фредерик Гроновиус кол жазманы окуп, таасирленген. Ал жаш шотландиялык дарыгер Исаак Лоусон экөө анын басылышына акча төлөшкөн. «Табият системасы» (*Systema Naturae*) 1735-жылы Лейденде Иоганн Вильгельм де Гроотун басмаканасында жарык көргөн. Бул калың китеп эмес, бир нече зор барак эле: адатта он бир бет деп саналган чоң фолиант (кээ бир сүрөттөмөлөр барактарды башкача санап, он төрт дешет). Басуу оор болгон, анткени таблицаларда бир нече шрифт жана белгилер аралашкан; Гроновиус бир бөлүгүн үчүнчү жолу терүүгө туура келгенин жазган, китеп жыл аягында гана бүткөн.\n\nТабияттын үч падышалыгынын — минералдардын, өсүмдүктөрдүн жана жаныбарлардын — ар бирине эки бетке жайылган бир чоң таблица берилген. Класстар мамычалар менен, түркүмдөр саптар менен жүрүп, уруулар кутучалардын ичинде турган. Толук аталышы бүт тепкичти санап берет: табият «класстар, түркүмдөр, уруулар жана түрлөр боюнча» тизилген. Ар бир тирүү жандын дареги пайда болду, даректин ар бир деңгээли өзүнөн жогоркусунун ичине батып турду.\n\n![Георг Дионисий Эреттин 1736-жылкы барагы: Линнейдин өсүмдүктөр үчүн «жыныстык ыкмасы». Ар бир тамга аталыктардын башка бир жайгашуусун көрсөтөт; оң жактагы кол менен жазылган мамыча 24 классты атайт — бир аталыктуулардан (Monandria) гүлү жашыруун өсүмдүктөргө (Cryptogamia) чейин.](https://upload.wikimedia.org/wikipedia/commons/6/62/Ehret%2C_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis%2C_1736.jpg \"Georg Dionysus Ehret · Public domain · https://commons.wikimedia.org/wiki/File:Ehret,_George_Dionysius_-_Linnaei_Methodus_plantarum_sexualis,_1736.jpg\")\n\nӨсүмдүктөрдү Линней гүлдүн бөлүктөрү боюнча ылгаган. 1694-жылы Рудольф Якоб Камерариус өсүмдүктөр үрөн байлаш үчүн чаңчага муктаж экенин тажрыйба менен көрсөткөн. Линней эркек бөлүктөрдү — аталыктарды — алып, санаган: бир, эки, үч жана андан ары. Санап жетпеген жерде ал аталыктардын узундугун, алар бири-бирине бириккенин же жокпу, эркек жана ургаачы гүлдөр өзүнчө өсөбү, ошону караган; ушинтип 24 класс чыккан. Көпчүлүк класстарда ургаачы бөлүктөр — энеликтер — классты түркүмдөргө бөлгөн. Эми колунда лупасы бар ар бир адам бейтааныш гүлдү алып, санап, анын кайда таандык экенин таба алмак.\n\nЖаныбарлар таблицасында алты класс болгон: төрт буттуулар, канаттуулар, амфибиялар, балыктар, курт-кумурскалар жана курттар. Киттер балыктардын арасында турган. Адам да өзүнчө бөлүнгөн эмес: ал төрт буттуулардын биринчи тобунда, *Anthropomorpha* («адамга окшоштор») ичинде маймылдар жана ленивецтер менен катар турган, сынчылар буга каршы чыгышкан. Башка урууларга сүрөттөмө берилсе, *Homo* деген сөздүн жанына Линней *Nosce te ipsum* — «өзүңдү тааны» деп гана жазган.\n\n![1735-жылкы жаныбарлар таблицасынан үзүндү. «Quadrupedia» (төрт буттуулар) деген аталыштын астында «Anthropomorpha» тобунда үч уруу бар: Homo (адам), Simia (маймылдар) жана Bradypus (ленивецтер). Homo уруусунун жанында адамдардын төрт түрдүүлүгү континент жана тери түсү боюнча саналган.](https://upload.wikimedia.org/wikipedia/commons/4/48/Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg \"Carl Linnaeus · Public domain · https://commons.wikimedia.org/wiki/File:Anthropomorpha_Detail_form_Systema_Naturae_1735.jpg\")\n\n> [!WARNING]\n> Ошол эле таблица адамдарды континентке жана тери түсүнө карап төрт түрдүүлүккө бөлгөн: европалык, америкалык, азиялык жана африкалык. Кийинки басылыштарда аларды мүнөзгө жана темпераментке байлашкан. Линней муну менен адамдарды даражага бөлгүсү келгенби, тарыхчылар ар башкача ойлошот, бирок анын коллекцияларын сактаган Лондондогу Линней коому бул классификацияны, өзгөчө 1758-жылкы кеңейтилген түрүндө, илимий расизмдин башаттарынын бири деп атайт.\n\n### Эмне үчүн оор болду\n\nСистеманы почта дареги катары элестетиңиз: падышалык, класс, түркүм, уруу, түр — өлкө, облус, шаар, көчө, үй сыяктуу. Деңгээлдер бекитилгенден кийин жаңы келген жандыкты каттоого коюп, кайра табууга болот. Салыштыруу эң негизги жеринде бузулат: даректи адамдар коёт, ал эми биологиянын суроосу топтор чындап эле барбы деген суроо болчу. Линней өзүнүн урууларын жана түрлөрүн табигый, Жараткандын планы деп ишенген, бирок өсүмдүк класстарын ачык эле жасалма, аныктоо үчүн ачкыч деп атаган. Он аталыгы бар гүл таптакыр тууганы эмес башка гүлдүн жанына түшүп калышы мүмкүн эле.\n\nБаары эле кабыл алган жок. Гүлдөрдү нике катары сүрөттөгөн тил адеп-ахлак жагынан ачууну туудурган. 1737-жылы Санкт-Петербургдагы ботаникалык бакты башкарган Иоганн Георг Зигесбек жыныстык системага каршы чыккан; кийинки авторлор анын муну «жийиркеничтүү бузуктук» деп атаганын келтиришет. Линней кичинекей бир отоо чөпкө *Siegesbeckia* деген ат койгон. Германияда анатом Лоренц Гейстер жана Швейцарияда Альбрехт фон Галлер да системаны четке каккан. Система дээрлик бардык жерде 1760-жылдардан баштап гана орноп калган.\n\n### Эмнеге жол ачты\n\nЛинней китепти кайра-кайра жазып турган. Онунчу басылышка чейин (Стокгольм, 1758) он бир бет 1300дөн ашып, 4400гө жакын жаныбар жана 7700гө жакын өсүмдүк түрүн камтыган. Бул басылышта төрт буттуулар сүт бездеринин атынан аталган жаңы класс — *Mammalia* (сүт эмүүчүлөр) — болуп калган, киттер да аларга кошулган; адам болсо азыр да алып жүргөн атын алган: *Homo sapiens*. Баарынан маанилүүсү — ар бир жаныбар эки сөздөн турган ат алган: уруунун аты жана бир түр сөзү, фамилия менен ысым сыяктуу. Баугин бир кылым мурун кээде эки сөздүү аттарды колдонгон; Линней аны эрежеге айландырган. Биологдор азыр да өсүмдүктөрдүн жарактуу аттарын анын «Өсүмдүктөрдүн түрлөрү» (*Species Plantarum*, 1753) китебинен, жаныбарлардыкын 1758-жылкы «Табият системасынан» баштап эсептешет.\n\nСистемага үлгүлөр да керек болчу, алардын көбү башка адамдар аркылуу келген. Линней «апостолдор» деп атаган 17 шакиртин дүйнө жүзүнө жиберген; алардын жетөө сапарда каза болгон. Түштүк Азиянын өсүмдүктөрү үчүн ал негизинен *Hortus Malabaricus* эмгегине таянган. Амстердамда 1678-жылдан баштап басылган бул он эки томдук эмгек голландиялык губернатор Хендрик ван Реде үчүн даярдалган. Анын сүрөттөмөлөрү Кераладагы табып Итти Ачудендин жана конкан тилдүү үч брахман дарыгердин билимине негизделген: алар малаялам тилинде айтылып, португал тили аркылуу латын тилине которулган.\n\nБир кылымдан кийин Чарльз Дарвин «кутучанын ичиндеги кутучаларга» Линней ойлобогон түшүндүрмө берген: топтор бири-биринин ичине батат, анткени түрлөр жалпы ата-бабалардан тараган. Деңгээлдер көбөйдү, өсүмдүк класстары тарыхта калды, бирок эки сөздүү ат жана бири-биринин ичине бата турган иерархия биология ар бир жаңы түргө ат коюунун жолу бойдон калууда."
+    }
+  }
+}
