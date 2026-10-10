@@ -1,0 +1,270 @@
+{
+  "slug": "wright-brothers-flight",
+  "year": 1903,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 36.0142,
+  "lng": -75.6678,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/8/86/First_flight2.jpg",
+    "credit": "John T. Daniels",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_flight2.jpg"
+  },
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "wilbur-wright",
+      "birth_year": 1867,
+      "death_year": 1912,
+      "role": "author",
+      "name": {
+        "en": "Wilbur Wright",
+        "tr": "Wilbur Wright",
+        "ru": "Уилбур Райт",
+        "ky": "Уилбур Райт"
+      }
+    },
+    {
+      "slug": "orville-wright",
+      "birth_year": 1871,
+      "death_year": 1948,
+      "role": "author",
+      "name": {
+        "en": "Orville Wright",
+        "tr": "Orville Wright",
+        "ru": "Орвилл Райт",
+        "ky": "Орвилл Райт"
+      }
+    },
+    {
+      "slug": "charles-taylor",
+      "birth_year": 1868,
+      "death_year": 1956,
+      "role": "collaborator",
+      "name": {
+        "en": "Charles Taylor",
+        "tr": "Charles Taylor",
+        "ru": "Чарльз Тейлор",
+        "ky": "Чарльз Тейлор"
+      }
+    },
+    {
+      "slug": "katharine-wright",
+      "birth_year": 1874,
+      "death_year": 1929,
+      "role": "contributor",
+      "name": {
+        "en": "Katharine Wright",
+        "tr": "Katharine Wright",
+        "ru": "Кэтрин Райт",
+        "ky": "Кэтрин Райт"
+      }
+    },
+    {
+      "slug": "otto-lilienthal",
+      "birth_year": 1848,
+      "death_year": 1896,
+      "role": "predecessor",
+      "name": {
+        "en": "Otto Lilienthal",
+        "tr": "Otto Lilienthal",
+        "ru": "Отто Лилиенталь",
+        "ky": "Отто Лилиенталь"
+      }
+    },
+    {
+      "slug": "octave-chanute",
+      "birth_year": 1832,
+      "death_year": 1910,
+      "role": "predecessor",
+      "name": {
+        "en": "Octave Chanute",
+        "tr": "Octave Chanute",
+        "ru": "Октав Шанют",
+        "ky": "Октав Шанют"
+      }
+    },
+    {
+      "slug": "george-cayley",
+      "birth_year": 1773,
+      "death_year": 1857,
+      "role": "predecessor",
+      "name": {
+        "en": "George Cayley",
+        "tr": "George Cayley",
+        "ru": "Джордж Кейли",
+        "ky": "Джордж Кейли"
+      }
+    },
+    {
+      "slug": "alexander-mozhaysky",
+      "birth_year": 1825,
+      "death_year": 1890,
+      "role": "context",
+      "name": {
+        "en": "Alexander Mozhaysky",
+        "tr": "Aleksandr Mojayski",
+        "ru": "Александр Можайский",
+        "ky": "Александр Можайский"
+      }
+    },
+    {
+      "slug": "samuel-langley",
+      "birth_year": 1834,
+      "death_year": 1906,
+      "role": "rival",
+      "name": {
+        "en": "Samuel Langley",
+        "tr": "Samuel Langley",
+        "ru": "Сэмюэл Лэнгли",
+        "ky": "Сэмюэл Лэнгли"
+      }
+    },
+    {
+      "slug": "alberto-santos-dumont",
+      "birth_year": 1873,
+      "death_year": 1932,
+      "role": "contemporary",
+      "name": {
+        "en": "Alberto Santos-Dumont",
+        "tr": "Alberto Santos-Dumont",
+        "ru": "Альберту Сантус-Дюмон",
+        "ky": "Альберту Сантус-Дюмон"
+      }
+    },
+    {
+      "slug": "glenn-curtiss",
+      "birth_year": 1878,
+      "death_year": 1930,
+      "role": "rival",
+      "name": {
+        "en": "Glenn Curtiss",
+        "tr": "Glenn Curtiss",
+        "ru": "Гленн Кёртисс",
+        "ky": "Гленн Кёртисс"
+      }
+    },
+    {
+      "slug": "john-t-daniels",
+      "birth_year": 1873,
+      "death_year": 1948,
+      "role": "context",
+      "name": {
+        "en": "John T. Daniels",
+        "tr": "John T. Daniels",
+        "ru": "Джон Т. Дэниелс",
+        "ky": "Джон Т. Дэниелс"
+      }
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "Wright brothers — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_brothers"
+    },
+    {
+      "title": "Wright Flyer — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer"
+    },
+    {
+      "title": "The First Flight — Wright Brothers National Memorial, US National Park Service",
+      "kind": "other",
+      "url": "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm"
+    },
+    {
+      "title": "Dayton Aviation Heritage, chapter 7 — US National Park Service (Dayton press reaction)",
+      "kind": "other",
+      "url": "https://www.nps.gov/parkhistory/online_books/daav/chap7.htm"
+    },
+    {
+      "title": "John T. Daniels — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/John_T._Daniels"
+    },
+    {
+      "title": "The Wright Brothers Made History at Kitty Hawk — Smithsonian National Air and Space Museum",
+      "kind": "article",
+      "url": "https://airandspace.si.edu/stories/editorial/wright-brothers-made-history-kitty-hawk"
+    },
+    {
+      "title": "Otto Lilienthal — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Otto_Lilienthal"
+    },
+    {
+      "title": "Langley Aerodrome — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Langley_Aerodrome"
+    },
+    {
+      "title": "Alberto Santos-Dumont — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+    },
+    {
+      "title": "Alexander Mozhaysky — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Mozhaysky"
+    },
+    {
+      "title": "Tom D. Crouch, The Bishop's Boys: A Life of Wilbur and Orville Wright, W. W. Norton, 1989",
+      "kind": "book",
+      "url": null
+    },
+    {
+      "title": "Wright brothers — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Wright-brothers"
+    }
+  ],
+  "research_note": "Checked 2026-10-10 against English Wikipedia (Wright brothers; Wright Flyer; Otto Lilienthal; Langley Aerodrome; Alberto Santos-Dumont; Alexander Mozhaysky; John T. Daniels), the National Park Service pages on the first flight and on Dayton press reaction, and the Smithsonian National Air and Space Museum article (via the fact-checker; the www. host does not resolve, the URL without www. does). Britannica returns 403 and is linked for the human reviewer only.\nCONFIRMED: 17 December 1903, 10:35, Orville prone, ~37 m (120 ft) in 12 s; Wilbur 59 s / 260 m (852 ft) on the fourth flight; five local witnesses; gust overturned the Flyer, never flew again. 1899 Smithsonian letter and wing-warping kite; gliders 1900–1902; 1901 glider about a third of calculated lift; 1901 tunnel 6 ft, ~200 wings, 38 in detail, Smeaton coefficient 0.0054 vs 0.0033. Taylor engine ~6 weeks, 12 hp, 82 kg, aluminium block. Langley: $50,000, houseboat launches 7 Oct and 8 Dec 1903. Flyer < $1,000. 5 Oct 1905 flight 24.5 miles. Santos-Dumont 12 Nov 1906, 220 m / 21 s, Aéro-Club de France. Le Mans 8 Aug 1908; Archdeacon's public admission; Selfridge 17 Sep 1908; Katharine seven weeks and Army contract extension, flew with Wilbur 1909. Curtiss suits, 1917 cross-licensing; Wilbur typhoid 1912; Smithsonian claim based on Curtiss's 1914 modified Aerodrome; Flyer to London 1928, retraction 1942, return 1948. Flyer pieces on Apollo 11 and Ingenuity. Lilienthal >2,000 glides 1891–1896, ~15 m fall, died next day. Mozhaysky ~1884 ramp; TsAGI 1971–1981 study.\nFLAGGED / SOFTENED IN BODY: duration of the 5 Oct 1905 flight (Wikipedia 38 min 3 s; NPS 39 min; often 39 min 23 s) — body says \"about 39 minutes\". Daniels later said he was not sure he squeezed the bulb — body says so. The cardboard-box origin of wing warping is attributed to the brothers' later account (Wikipedia: an inner-tube box). Lilienthal's crash cause is given as a stall that weight-shifting could not correct, not as a certainty about steering. Whitehead's 1901 claim is reported and said to be rejected by most historians. Santos-Dumont's priority as held in Brazil is presented with its argument, not endorsed or dismissed. Propellers: \"no usable theory\" (Rankine–Froude and Drzewiecki theories existed but were not usable for them).\nREVIEWER SHOULD CHECK: wind speed is given as \"more than 30 km/h\" (Wikipedia: averaged over 20 mph; NPS and Smithsonian: 27 mph, ~43 km/h) — could be raised to \"about 40 km/h\". Propeller length \"about 2.5 m\" (Wikipedia: just over 8 ft / 8 ft 6 in). Tom Crouch's The Bishop's Boys is listed as a book source but was not read for this draft. builds_on is empty: no Cayley or Lilienthal event exists in top100 or the extension queue.\nIMAGES: cover = John T. Daniels's photograph of 17 Dec 1903 (public domain); figure 1 = 1902 glider in a right turn, 24 Oct 1902, credit as Commons gives it (\"Attributed to Wilbur and/or Orville Wright, most likely Orville\"), public domain; figure 2 = modern replica of the 1901 wind tunnel by MLWatts, CC BY-SA 3.0. All read from the Commons API via commons.mjs. The figure-2 caption's description of balances from bicycle spokes and hacksaw blades is confirmed by the Franklin Institute (the replica photo itself may not show them clearly).\nKYRGYZ: machine translation. Glossary term marked 'check' used: ойлоп табуу (invention, in why_it_matters/body as ойлоп тапкан, ойлоп чыккан). Not in the glossary at all and should be confirmed: учак (aeroplane), учкуч (pilot), кыймылдаткыч (engine), планер, пропеллер, калак (propeller blade), батпырак (kite — least sure), аэродинамикалык түтүк (wind tunnel), тик учак (helicopter), ич келте (typhoid), карагай/шумтал (spruce/ash).\nFACT-CHECKER PASS (2026-10-10): no claim found false in substance. Fixed in all four languages: (1) the Dayton press — it was a Dayton Journal reporter who judged the flights too short to be news, other Dayton papers did report; (2) why_it_matters no longer implies the autonomous Mars helicopter has a pilot; (3) the 1905 flight duration softened; (4) Santos-Dumont: his autumn 1906 flights, not one flight, were the first certified; (5) Daniels's shutter uncertainty added; (6) Smithsonian URL fixed. Softened: propeller theory, Lilienthal's death, \"about a thousand\" 1902 glides, Mozhaysky's engines plural.",
+  "translations": {
+    "en": {
+      "title": "The Wright brothers fly a powered aeroplane",
+      "summary": "At Kitty Hawk, two bicycle makers from Ohio flew a machine that lifted a person under its own power and could be steered. The first flight lasted 12 seconds.",
+      "why_it_matters": "The Wrights did not invent the wing or the engine; they solved control, and built the measurements they needed to do it. Control of pitch, roll and yaw by the pilot has been part of every aeroplane since.",
+      "if_you_were_there": "Balloons and gliders exist, and the best-funded scientist in America has just dropped his flying machine into a river. Most experts doubt a heavier-than-air machine can carry a person under power.",
+      "place_name": "Kill Devil Hills",
+      "body": "### The scene\n\nOn the morning of 17 December 1903 a cold wind of more than 30 kilometres an hour was blowing across the sand dunes of Kill Devil Hills, near the fishing village of Kitty Hawk on the coast of North Carolina. Two brothers from Dayton, Ohio, Wilbur and Orville Wright, had laid a wooden rail on the sand and set a machine of spruce, ash and cotton cloth on it. They ran a bicycle shop at home. Neither had a high-school diploma.\n\nPeople had built flying toys, balloons and gliders for a century. In 1799 the English engineer George Cayley sketched the plan every aeroplane still follows: a fixed wing to hold the machine up, something separate to push it forward, and a tail to steer. In Germany Otto Lilienthal made more than 2,000 glides from hills in gliders of his own design between 1891 and 1896, and published the lift he measured. In Chicago the engineer Octave Chanute collected everything known about flying in his 1894 book *Progress in Flying Machines*, and later wrote to the Wrights and visited their camp. Each of them had solved a piece. Nobody had put the pieces together into a machine that could lift a person under its own power and be steered.\n\n> [!NOTE]\n> Others claimed to have flown before 1903. In Russia, Alexander Mozhaysky's steam-powered aeroplane left a ramp around 1884; Soviet books later called this the first powered flight, but a study by Russia's Central Aerohydrodynamic Institute between 1971 and 1981 concluded that its engines were too weak to keep it in the air. In Connecticut, Gustave Whitehead's supporters say he flew in 1901, a claim most aviation historians reject for lack of reliable evidence.\n\n### What happened\n\nThe Wrights began, in 1899, with a letter to the Smithsonian Institution asking for everything it had published on flight, and with a question nobody before them had made central: how does a pilot keep a flying machine balanced? Lilienthal had steered by swinging his body, and when his glider stalled in August 1896, shifting his weight could not save it: he fell about 15 metres and died the next day.\n\nTheir answer was to make the wings themselves move. According to the brothers' later account, Wilbur got the idea while twisting an empty cardboard box in the bicycle shop. By twisting the tips of the wings in opposite directions with wires, \"wing warping\", the pilot could make one wing lift more than the other and roll the machine back to level. They tried it on a kite in 1899 and on gliders at Kitty Hawk in 1900, 1901 and 1902. The 1902 glider added a movable rudder at the back. Wing warping for rolling, an elevator at the front for climbing and diving, and the rudder for turning: three controls, one for each way an aircraft can tip, and every aircraft since has needed all three.\n\n![The Wrights' 1902 glider in a right turn, photographed on 24 October 1902. In about a thousand glides that autumn the brothers learned to steer before they had an engine.](https://upload.wikimedia.org/wikipedia/commons/8/8c/1902_Wright_glider_in_right_turn.jpg \"Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright. · Public domain · https://commons.wikimedia.org/wiki/File:1902_Wright_glider_in_right_turn.jpg\")\n\nThink of riding a bicycle. A bicycle is not stable by itself; it stays up because the rider keeps correcting it, and the Wrights believed a flying machine would work the same way: not built to balance itself, but balanced by a pilot who had learned how. The analogy breaks in two places. A bicycle that tips falls a metre onto the road, while an aeroplane that loses its balance falls from the sky. And a rider balances only from side to side; a pilot has to balance in three directions at once.\n\nOn 17 December, at 10:35 in the morning, Orville lay flat on the lower wing and released the wire holding the machine on its rail. It flew about 37 metres in 12 seconds. John T. Daniels, a man from the nearby lifesaving station, had been posted at the camera the brothers had set up, and the photograph taken there is now the picture of the day; Daniels himself later said he was not sure he had squeezed the bulb. Five local men watched. The brothers took turns and flew three more times. On the fourth flight Wilbur stayed up for 59 seconds and covered 260 metres over the ground. Minutes later a gust of wind turned the machine over, and it never flew again.\n\n### Why it was hard\n\nThe first problem was that the published numbers were wrong. Their 1901 glider produced only about a third of the lift the Wrights had calculated from Lilienthal's tables. Instead of giving up, they built a wind tunnel in the bicycle shop: a wooden box about two metres long with a fan blowing through it. Between October and December 1901 they tested about 200 small model wings and measured 38 of them in detail. They found that a constant used in every lift calculation for more than a century was too large by more than half. With their own measurements, the 1902 glider worked.\n\n![A replica of the Wrights' 1901 wind tunnel. Small wings were mounted inside on balances made from bicycle spokes and hacksaw blades, and the fan at the end drove air through the box.](https://upload.wikimedia.org/wikipedia/commons/c/c4/Wright_Brothers_Wind_Tunnel_Replica.jpg \"MLWatts · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Wright_Brothers_Wind_Tunnel_Replica.jpg\")\n\nThe second problem was power. No company would sell them a light enough engine, so their mechanic Charles Taylor built one in about six weeks: 12 horsepower, about 82 kilograms, with a block cast in aluminium, which was unusual at the time. The propellers were a third problem. They found no usable theory for them, so the brothers treated each blade as a wing turning in a circle, and carved two propellers of laminated spruce, each about two and a half metres long.\n\nMoney was the measure of how unlikely their success seemed. The United States War Department had given 50,000 dollars to Samuel Langley, secretary of the Smithsonian, for his \"Great Aerodrome\". It was launched from a houseboat on the Potomac River on 7 October and on 8 December 1903, and both times it fell into the water. The Wright Flyer cost less than 1,000 dollars, paid from the bicycle business.\n\n### What it opened\n\nAlmost nobody believed it at first. Orville telegraphed their father asking him to \"inform press\"; a reporter at the *Dayton Journal* thought flights that short were not news. In 1904 and 1905 the brothers kept flying in a cow pasture near Dayton, Huffman Prairie, and on 5 October 1905 Wilbur flew 39 kilometres in about 39 minutes. Then they stopped flying in public until they had a contract, afraid of being copied before their patent was secure. In Paris some newspapers called them bluffers.\n\nMeanwhile Europe flew on its own. On 12 November 1906 in Paris, the Brazilian Alberto Santos-Dumont flew his *14-bis* about 220 metres in 21 seconds, taking off from the ground on its own wheels before a crowd and officials of the Aéro-Club de France. His flights that autumn were the first aeroplane flights certified by an aviation body, and in Brazil he is still widely regarded as the first to fly. Supporters of that view point out that the Wrights launched from a rail into a headwind and later used a catapult weight.\n\nThe doubts ended in 1908. On 8 August Wilbur flew before a crowd near Le Mans in France, making smooth, banked turns under full control; the French aviation promoter Ernest Archdeacon, who had doubted them, admitted publicly that he had been wrong. In September Orville flew for the United States Army at Fort Myer, Virginia; on 17 September a propeller split, the machine crashed, and his passenger, Lieutenant Thomas Selfridge, became the first person killed in an aeroplane crash. Orville was badly injured. Their sister Katharine Wright, a schoolteacher, rushed to his bedside and stayed for the seven weeks he spent in hospital, and helped negotiate the extension of the Army contract; in 1909 she joined her brothers in Europe and flew with Wilbur.\n\nThe years after were less heroic. The Wrights spent much of their energy in patent suits, above all against Glenn Curtiss, until the First World War forced the American industry to share its patents in 1917. Wilbur died of typhoid in 1912. The Smithsonian for decades presented Langley's Aerodrome as the first machine \"capable\" of manned flight, based on tests of a version Curtiss had modified in 1914; in protest Orville sent the 1903 Flyer to the Science Museum in London in 1928. The Smithsonian retracted its claim in 1942, and the Flyer came home in 1948, the year Orville died.\n\nWithin 66 years of the 12-second flight, a piece of the Flyer's wood and fabric went to the Moon on Apollo 11. In 2021 a scrap of its wing cloth rode on Ingenuity, the small helicopter that made the first powered, controlled flight on another planet, Mars.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Wright kardeşler motorlu bir uçakla uçuyor",
+      "summary": "Kitty Hawk'ta Ohio'lu iki bisikletçi, bir insanı kendi gücüyle havaya kaldıran ve yönlendirilebilen bir makineyle uçtu. İlk uçuş 12 saniye sürdü.",
+      "why_it_matters": "Wright'lar kanadı da motoru da icat etmedi; denetim sorununu çözdüler ve bunun için gereken ölçümleri kendileri yaptılar. Pilotun üç eksende denetimi o günden beri her uçağın parçası.",
+      "if_you_were_there": "Balonlar ve planörler var; Amerika'nın en çok para alan bilim insanı uçan makinesini daha yeni bir nehre düşürdü. Uzmanların çoğu havadan ağır bir makinenin bir insanı motorla taşıyabileceğinden şüpheli.",
+      "place_name": "Kill Devil Hills",
+      "body": "### Sahne\n\n17 Aralık 1903 sabahı, Kuzey Carolina kıyısındaki Kitty Hawk balıkçı köyünün yakınında, Kill Devil Hills kum tepelerinin üzerinden saatte 30 kilometreyi aşan soğuk bir rüzgâr esiyordu. Ohio'nun Dayton kentinden iki kardeş, Wilbur ve Orville Wright, kuma tahta bir ray döşemiş ve üzerine ladin, dişbudak ve pamuklu bezden bir makine yerleştirmişti. Memleketlerinde bir bisiklet dükkânı işletiyorlardı. İkisi de lise diploması almamıştı.\n\nİnsanlar bir yüzyıldır uçan oyuncaklar, balonlar ve planörler yapıyordu. 1799'da İngiliz mühendis George Cayley, bugün her uçağın hâlâ izlediği planı çizdi: makineyi havada tutan sabit bir kanat, onu ileri iten ayrı bir şey ve yön veren bir kuyruk. Almanya'da Otto Lilienthal 1891 ile 1896 arasında kendi tasarladığı planörlerle tepelerden 2.000'den fazla süzülüş yaptı ve ölçtüğü kaldırma kuvvetini yayımladı. Chicago'da mühendis Octave Chanute, uçuş hakkında bilinen her şeyi 1894 tarihli *Progress in Flying Machines* (Uçan Makinelerde İlerleme) kitabında topladı; sonra Wright'larla mektuplaştı ve kamplarını ziyaret etti. Her biri bir parçayı çözmüştü. Kimse parçaları, bir insanı kendi gücüyle havaya kaldıran ve yönlendirilebilen bir makinede birleştirememişti.\n\n> [!NOTE]\n> 1903'ten önce uçtuğunu iddia edenler de oldu. Rusya'da Aleksandr Mojayski'nin buharla çalışan uçağı 1884 civarında bir rampadan ayrıldı; Sovyet kitapları bunu sonradan ilk motorlu uçuş saydı, ama Rusya'nın Merkezi Aerohidrodinamik Enstitüsü'nün 1971-1981 arasındaki bir incelemesi, motorlarının makineyi havada tutmaya yetmeyecek kadar zayıf olduğu sonucuna vardı. Connecticut'ta Gustave Whitehead'in destekçileri onun 1901'de uçtuğunu söyler; havacılık tarihçilerinin çoğu bu iddiayı güvenilir kanıt olmadığı için kabul etmez.\n\n### Ne oldu\n\nWright'lar 1899'da işe Smithsonian Enstitüsü'ne, uçuş üzerine yayımladığı her şeyi isteyen bir mektupla başladılar; bir de kendilerinden öncekilerin merkeze koymadığı bir soruyla: Pilot uçan bir makinenin dengesini nasıl korur? Lilienthal yönü bedenini savurarak veriyordu; Ağustos 1896'da planörü hız kaybettiğinde ağırlığını kaydırmak onu kurtaramadı: yaklaşık 15 metreden düştü ve ertesi gün öldü.\n\nKardeşlerin cevabı, kanatların kendisini hareket ettirmekti. Kardeşlerin sonraki anlatımına göre fikir, Wilbur bisiklet dükkânında boş bir karton kutuyu bükerken aklına geldi. Kanat uçlarını tellerle ters yönlere bükerek, yani \"kanat burma\" ile, pilot bir kanadı ötekinden fazla kaldırabilir ve makineyi yeniden düz konuma yatırabilirdi. Bunu 1899'da bir uçurtmada, 1900, 1901 ve 1902'de Kitty Hawk'ta planörlerde denediler. 1902 planörüne arkada hareketli bir dümen eklendi. Yana yatmak için kanat burma, tırmanıp alçalmak için öndeki yükseliş dümeni, dönmek için arkadaki dümen: Bir uçağın devrilebileceği her yön için bir kumanda, toplam üç. O günden beri her uçak üçüne de muhtaç oldu.\n\n![Wright'ların 1902 planörü sağa dönüşte, 24 Ekim 1902'de çekilmiş fotoğraf. Kardeşler o sonbahar bin kadar süzülüşte, daha motorları yokken yön vermeyi öğrendiler.](https://upload.wikimedia.org/wikipedia/commons/8/8c/1902_Wright_glider_in_right_turn.jpg \"Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright. · Public domain · https://commons.wikimedia.org/wiki/File:1902_Wright_glider_in_right_turn.jpg\")\n\nBisiklete binmeyi düşünün. Bisiklet kendi başına dengede durmaz; sürücü onu sürekli düzelttiği için ayakta kalır. Wright'lar uçan makinenin de böyle çalışacağına inanıyordu: kendi kendini dengelemek üzere yapılmış değil, bunu öğrenmiş bir pilot tarafından dengelenen bir makine. Benzetme iki yerde bozulur. Devrilen bisiklet bir metre yükseklikten yola düşer, dengesini kaybeden uçak ise gökyüzünden. Ve bisikletçi yalnızca sağa sola denge kurar; pilot aynı anda üç yönde dengede durmak zorundadır.\n\n17 Aralık'ta sabah 10.35'te Orville alt kanadın üzerine yüzüstü uzandı ve makineyi rayda tutan teli bıraktı. Makine 12 saniyede yaklaşık 37 metre uçtu. Yakındaki can kurtarma istasyonundan John T. Daniels, kardeşlerin kurduğu fotoğraf makinesinin başına konmuştu ve orada çekilen fotoğraf bugün o günün simgesidir; Daniels sonradan deklanşöre gerçekten basıp basmadığından emin olmadığını söyledi. Beş yerli adam izliyordu. Kardeşler sırayla üç kez daha uçtu. Dördüncü uçuşta Wilbur 59 saniye havada kaldı ve yerde 260 metre yol aldı. Birkaç dakika sonra bir rüzgâr darbesi makineyi devirdi; bir daha hiç uçmadı.\n\n### Neden zordu\n\nİlk sorun, yayımlanmış sayıların yanlış olmasıydı. 1901 planörü, Wright'ların Lilienthal'in tablolarından hesapladığı kaldırma kuvvetinin ancak üçte birini verdi. Vazgeçmek yerine bisiklet dükkânında bir rüzgâr tüneli yaptılar: içinden vantilatörle hava üflenen, yaklaşık iki metre uzunluğunda tahta bir kutu. Ekim-Aralık 1901 arasında yaklaşık 200 küçük model kanadı denediler ve 38'ini ayrıntılı ölçtüler. Bir yüzyıldan uzun süredir her kaldırma hesabında kullanılan bir sabitin yarıdan fazla büyük alındığını buldular. Kendi ölçümleriyle yapılan 1902 planörü çalıştı.\n\n![Wright'ların 1901 rüzgâr tünelinin bir kopyası. Küçük kanatlar içeride bisiklet telleri ve demir testeresi ağızlarından yapılmış teraziler üzerine takılıyor, uçtaki vantilatör havayı kutunun içinden geçiriyordu.](https://upload.wikimedia.org/wikipedia/commons/c/c4/Wright_Brothers_Wind_Tunnel_Replica.jpg \"MLWatts · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Wright_Brothers_Wind_Tunnel_Replica.jpg\")\n\nİkinci sorun güçtü. Hiçbir şirket onlara yeterince hafif bir motor satmadı; bu yüzden ustaları Charles Taylor yaklaşık altı haftada bir motor yaptı: 12 beygir gücü, yaklaşık 82 kilogram, o dönem için alışılmadık biçimde alüminyumdan dökülmüş bir blok. Pervaneler üçüncü sorundu. Bunlar için işe yarar bir kuram bulamadılar; kardeşler her pervane kanadını daire çizerek dönen bir kanat gibi ele aldı ve her biri iki buçuk metre kadar uzunlukta, katmanlı ladinden iki pervane oydular.\n\nBaşarılarının ne kadar beklenmedik göründüğünün ölçüsü paraydı. ABD Savaş Bakanlığı, Smithsonian'ın sekreteri Samuel Langley'e \"Büyük Aerodrom\"u için 50.000 dolar vermişti. Makine 7 Ekim ve 8 Aralık 1903'te Potomac Nehri'ndeki bir yüzer evden fırlatıldı ve iki seferde de suya düştü. Wright Flyer bisiklet işinden ödenen 1.000 dolardan az paraya mal oldu.\n\n### Ne açtı\n\nİlk başta neredeyse kimse inanmadı. Orville babasına \"basına haber verin\" diye telgraf çekti; *Dayton Journal*'daki bir muhabir bu kadar kısa uçuşları haber değeri taşımaz buldu. 1904 ve 1905'te kardeşler Dayton yakınlarında bir inek otlağında, Huffman Prairie'de uçmayı sürdürdü; 5 Ekim 1905'te Wilbur yaklaşık 39 dakikada 39 kilometre uçtu. Sonra, patentleri güvenceye alınmadan kopyalanmaktan korkarak, bir sözleşme imzalanana kadar halka açık uçmayı bıraktılar. Paris'te bazı gazeteler onlara blöfçü dedi.\n\nBu arada Avrupa kendi yolunda uçuyordu. 12 Kasım 1906'da Paris'te Brezilyalı Alberto Santos-Dumont, *14-bis* adlı uçağıyla bir kalabalığın ve Fransa Aero Kulübü yetkililerinin önünde kendi tekerlekleriyle yerden kalkarak 21 saniyede yaklaşık 220 metre uçtu. O sonbahardaki uçuşları, bir havacılık kuruluşunca onaylanan ilk uçak uçuşlarıydı ve Brezilya'da o hâlâ yaygın olarak ilk uçan kişi sayılır. Bu görüşü savunanlar, Wright'ların bir raydan, karşıdan esen rüzgâra doğru kalktığını ve sonra bir mancınık ağırlığı kullandığını hatırlatır.\n\nŞüpheler 1908'de bitti. 8 Ağustos'ta Wilbur Fransa'da Le Mans yakınında bir kalabalığın önünde uçtu ve tam denetim altında yumuşak, yatışlı dönüşler yaptı; onlardan şüphe etmiş olan Fransız havacılık destekçisi Ernest Archdeacon yanıldığını açıkça kabul etti. Eylülde Orville ABD Ordusu için Virginia'daki Fort Myer'de uçtu; 17 Eylül'de bir pervane yarıldı, makine düştü ve yolcusu Teğmen Thomas Selfridge uçak kazasında ölen ilk insan oldu. Orville ağır yaralandı. Öğretmen olan kız kardeşleri Katharine Wright yanına koştu, hastanede geçirdiği yedi hafta boyunca yanında kaldı ve ordu sözleşmesinin uzatılması için yapılan görüşmelere yardım etti; 1909'da Avrupa'da kardeşlerine katıldı ve Wilbur'la birlikte uçtu.\n\nSonraki yıllar daha az kahramancaydı. Wright'lar enerjilerinin büyük kısmını, başta Glenn Curtiss'e karşı olmak üzere patent davalarına harcadı; ta ki Birinci Dünya Savaşı 1917'de Amerikan sanayisini patentlerini paylaşmaya zorlayana kadar. Wilbur 1912'de tifodan öldü. Smithsonian onlarca yıl boyunca Langley'in Aerodrom'unu insanlı uçuşa \"muktedir\" ilk makine olarak sundu; dayanağı, Curtiss'in 1914'te değiştirdiği bir sürümün denemeleriydi. Orville buna itiraz olarak 1903 Flyer'ı 1928'de Londra'daki Bilim Müzesi'ne gönderdi. Smithsonian iddiasını 1942'de geri aldı ve Flyer, Orville'in öldüğü yıl olan 1948'de eve döndü.\n\n12 saniyelik uçuştan 66 yıl sonra Flyer'ın ahşabından ve bezinden bir parça Apollo 11 ile Ay'a gitti. 2021'de kanat bezinden bir parça, başka bir gezegende, Mars'ta ilk motorlu ve denetimli uçuşu yapan küçük helikopter Ingenuity'nin üzerindeydi.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Братья Райт летят на самолёте с двигателем",
+      "summary": "В Китти-Хок два велосипедных мастера из Огайо полетели на машине, которая поднимала человека собственной силой и слушалась управления. Первый полёт длился 12 секунд.",
+      "why_it_matters": "Райты не изобрели ни крыло, ни двигатель: они решили задачу управления и сами провели нужные для этого измерения. Управление по трём осям в руках пилота с тех пор есть в каждом самолёте.",
+      "if_you_were_there": "Воздушные шары и планеры уже есть, а самый богато финансируемый учёный Америки только что уронил свою летающую машину в реку. Большинство специалистов сомневается, что машина тяжелее воздуха сможет нести человека на моторе.",
+      "place_name": "Килл-Девил-Хиллс",
+      "body": "### Обстановка\n\nУтром 17 декабря 1903 года над песчаными дюнами Килл-Девил-Хиллс, возле рыбацкой деревни Китти-Хок на побережье Северной Каролины, дул холодный ветер — больше 30 километров в час. Двое братьев из Дейтона, штат Огайо, Уилбур и Орвилл Райт, проложили по песку деревянный рельс и поставили на него машину из ели, ясеня и хлопковой ткани. Дома у них была велосипедная мастерская. Ни один из них не получил аттестата о среднем образовании.\n\nЛетающие игрушки, воздушные шары и планеры люди строили уже целый век. В 1799 году английский инженер Джордж Кейли набросал схему, которой до сих пор следует любой самолёт: неподвижное крыло держит машину в воздухе, отдельное устройство толкает её вперёд, хвост направляет. В Германии Отто Лилиенталь с 1891 по 1896 год совершил больше 2000 полётов с холмов на планерах собственной конструкции и опубликовал измеренную им подъёмную силу. В Чикаго инженер Октав Шанют собрал всё, что было известно о полёте, в книге 1894 года *Progress in Flying Machines* («Прогресс летательных машин»), а позже переписывался с Райтами и приезжал к ним в лагерь. Каждый решил свою часть задачи. Никто не собрал части в машину, которая поднимала бы человека собственной силой и слушалась управления.\n\n> [!NOTE]\n> Были и те, кто заявлял о полёте до 1903 года. В России самолёт Александра Можайского с паровыми двигателями около 1884 года сошёл с наклонного разгонного помоста; советские книги позже называли это первым полётом самолёта с двигателем, но исследование ЦАГИ 1971–1981 годов пришло к выводу, что двигатели были слишком слабы, чтобы удержать машину в воздухе. В Коннектикуте сторонники Густава Уайтхеда утверждают, что он летал в 1901 году; большинство историков авиации это отвергают за отсутствием надёжных свидетельств.\n\n### Что произошло\n\nРайты начали в 1899 году с письма в Смитсоновский институт с просьбой прислать всё, что там издавали о полёте, — и с вопроса, который до них никто не ставил в центр: как пилоту удерживать равновесие летающей машины? Лилиенталь управлял, раскачивая собственное тело, и когда в августе 1896 года его планер потерял скорость, смещение веса его не спасло: он упал примерно с 15 метров и умер на следующий день.\n\nОтвет братьев — заставить двигаться сами крылья. По их более позднему рассказу, идея пришла Уилбуру, когда он скручивал в мастерской пустую картонную коробку. Закручивая концы крыльев тросами в разные стороны — «перекашивая крыло», — пилот мог заставить одно крыло подниматься сильнее другого и выровнять крен. Они проверили это на воздушном змее в 1899 году и на планерах в Китти-Хок в 1900, 1901 и 1902 годах. На планере 1902 года появился подвижный руль сзади. Перекос крыла — для крена, руль высоты спереди — для подъёма и снижения, руль направления сзади — для поворота: три органа управления, по одному на каждое направление, в котором самолёт может опрокинуться. С тех пор все три нужны любому самолёту.\n\n![Планер Райтов 1902 года в правом повороте, снимок 24 октября 1902 года. Той осенью примерно в тысяче полётов братья научились управлять машиной ещё до того, как у них появился двигатель.](https://upload.wikimedia.org/wikipedia/commons/8/8c/1902_Wright_glider_in_right_turn.jpg \"Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright. · Public domain · https://commons.wikimedia.org/wiki/File:1902_Wright_glider_in_right_turn.jpg\")\n\nПредставьте езду на велосипеде. Велосипед сам по себе не устойчив; он не падает, потому что ездок всё время его поправляет. Райты считали, что летающая машина устроена так же: она не должна балансировать сама, её балансирует пилот, который этому научился. Сравнение не работает в двух местах. Опрокинувшийся велосипед падает на дорогу с высоты метра, а самолёт, потерявший равновесие, — с неба. И велосипедист держит равновесие только влево-вправо, а пилот — сразу в трёх направлениях.\n\n17 декабря в 10:35 утра Орвилл лёг ничком на нижнее крыло и отпустил трос, державший машину на рельсе. Она пролетела около 37 метров за 12 секунд. Джон Т. Дэниелс со спасательной станции неподалёку стоял у фотоаппарата, заранее установленного братьями, и снятая им фотография сегодня стала образом этого дня; сам Дэниелс позже говорил, что не уверен, нажал ли он на грушу затвора. Смотрели пятеро местных жителей. Братья по очереди поднимались ещё три раза. В четвёртом полёте Уилбур продержался в воздухе 59 секунд и пролетел над землёй 260 метров. Через несколько минут порыв ветра перевернул машину, и больше она не летала.\n\n### Почему это было трудно\n\nПервая трудность: опубликованные числа оказались неверными. Планер 1901 года давал лишь около трети подъёмной силы, которую Райты рассчитали по таблицам Лилиенталя. Вместо того чтобы сдаться, они построили в мастерской аэродинамическую трубу — деревянный ящик длиной около двух метров, через который вентилятор гнал воздух. С октября по декабрь 1901 года они испытали около 200 маленьких моделей крыльев и 38 из них подробно измерили. Оказалось, что коэффициент, входивший больше века во все расчёты подъёмной силы, был завышен больше чем в полтора раза. Планер 1902 года, построенный по их собственным измерениям, полетел.\n\n![Копия аэродинамической трубы Райтов 1901 года. Маленькие крылья крепились внутри на весах из велосипедных спиц и ножовочных полотен, а вентилятор в конце гнал воздух через ящик.](https://upload.wikimedia.org/wikipedia/commons/c/c4/Wright_Brothers_Wind_Tunnel_Replica.jpg \"MLWatts · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Wright_Brothers_Wind_Tunnel_Replica.jpg\")\n\nВторая трудность — мощность. Ни одна фирма не продала им достаточно лёгкий двигатель, поэтому их механик Чарльз Тейлор построил его примерно за шесть недель: 12 лошадиных сил, около 82 килограммов, с алюминиевым блоком цилиндров, что было тогда редкостью. Третьей трудностью были винты. Пригодной теории для них братья не нашли, поэтому рассматривали каждую лопасть как крыло, вращающееся по кругу, и вырезали из клеёной ели два винта длиной около двух с половиной метров.\n\nНасколько невероятным казался их успех, видно по деньгам. Военное министерство США выделило 50 000 долларов Сэмюэлу Лэнгли, секретарю Смитсоновского института, на его «Большой аэродром». Его запускали с плавучего дома на реке Потомак 7 октября и 8 декабря 1903 года, и оба раза он падал в воду. «Флайер» Райтов обошёлся меньше чем в 1000 долларов, оплаченных из доходов велосипедной мастерской.\n\n### Что это открыло\n\nСначала почти никто не поверил. Орвилл телеграфировал отцу с просьбой «сообщить прессе»; репортёр газеты *Dayton Journal* решил, что такие короткие полёты — не новость. В 1904 и 1905 годах братья продолжали летать на коровьем пастбище под Дейтоном, Хаффман-Прери, и 5 октября 1905 года Уилбур пролетел 39 километров примерно за 39 минут. Потом, боясь, что их скопируют раньше, чем будет защищён патент, они перестали летать публично, пока не получат контракт. В Париже некоторые газеты называли их блефующими.\n\nТем временем Европа училась летать сама. 12 ноября 1906 года в Париже бразилец Альберту Сантус-Дюмон на самолёте *14-bis* пролетел около 220 метров за 21 секунду, взлетев с земли на собственных колёсах перед толпой и представителями Аэроклуба Франции. Его полёты той осенью стали первыми полётами самолёта, засвидетельствованными авиационной организацией, и в Бразилии его по сей день многие считают первым, кто полетел. Сторонники этой точки зрения напоминают, что Райты взлетали с рельса против ветра, а позже пользовались катапультой с грузом.\n\nСомнения закончились в 1908 году. 8 августа Уилбур летал перед публикой под Ле-Маном во Франции, плавно и полностью управляемо закладывая виражи с креном; французский покровитель авиации Эрнест Аршдакон, сомневавшийся в Райтах, публично признал, что ошибался. В сентябре Орвилл летал для армии США в Форт-Майере, штат Виргиния; 17 сентября треснул винт, машина разбилась, и его пассажир лейтенант Томас Селфридж стал первым человеком, погибшим в авиакатастрофе. Орвилл был тяжело ранен. Их сестра Кэтрин Райт, школьная учительница, примчалась к нему, провела рядом все семь недель, что он лежал в больнице, и помогла договориться о продлении армейского контракта; в 1909 году она присоединилась к братьям в Европе и летала вместе с Уилбуром.\n\nСледующие годы были менее героическими. Много сил Райты потратили на патентные суды, прежде всего против Гленна Кёртисса, пока Первая мировая война не заставила американскую промышленность в 1917 году объединить патенты. Уилбур умер от брюшного тифа в 1912 году. Смитсоновский институт десятилетиями представлял «Аэродром» Лэнгли первой машиной, «способной» к пилотируемому полёту, опираясь на испытания версии, которую Кёртисс переделал в 1914 году; в знак протеста Орвилл в 1928 году отправил «Флайер» 1903 года в Музей науки в Лондоне. Смитсоновский институт отказался от своего утверждения в 1942 году, и «Флайер» вернулся домой в 1948-м — в год смерти Орвилла.\n\nЧерез 66 лет после 12-секундного полёта кусочек дерева и ткани «Флайера» отправился на Луну с «Аполлоном-11». В 2021 году лоскут ткани с его крыла был на Ingenuity — маленьком вертолёте, совершившем первый управляемый полёт с двигателем на другой планете, Марсе.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Райт бир туугандар кыймылдаткычтуу учак менен учушат",
+      "summary": "Китти-Хокто Огайодон келген эки велосипед устасы адамды өз күчү менен абага көтөргөн жана башкарылган машина менен учушкан. Биринчи учуу 12 секунд созулган.",
+      "why_it_matters": "Райттар канатты да, кыймылдаткычты да ойлоп тапкан эмес: алар башкаруу маселесин чечип, ага керектүү өлчөөлөрдү өздөрү жүргүзүшкөн. Учкуч башкарган үч октогу башкаруу ошондон бери ар бир учакта бар.",
+      "if_you_were_there": "Аба шарлары жана планерлер бар, ал эми Американын эң көп каржыланган окумуштуусу өзүнүн учуучу машинасын жаңы эле дарыяга кулатты. Адистердин көбү абадан оор машина адамды кыймылдаткыч менен көтөрө аларына ишенбейт.",
+      "place_name": "Килл-Девил-Хиллс",
+      "body": "### Окуя болгон мезгил\n\n1903-жылдын 17-декабрында эртең менен Түндүк Каролинанын жээгиндеги Китти-Хок балыкчы айылынын жанындагы Килл-Девил-Хиллс кум дөбөлөрүнүн үстүнөн саатына 30 километрден ашык ылдамдыктагы суук шамал согуп турган. Огайо штатындагы Дейтон шаарынан келген эки бир тууган, Уилбур жана Орвилл Райт, кумга жыгач рельс төшөп, анын үстүнө карагай, шумтал жана пахта кездемесинен жасалган машинаны коюшкан. Үйүндө алар велосипед устаканасын кармашчу. Экөө тең орто мектептин аттестатын алган эмес.\n\nАдамдар бир кылымдан бери учуучу оюнчуктарды, аба шарларын жана планерлерди жасап келишкен. 1799-жылы англиялык инженер Джордж Кейли бүгүнкү ар бир учак дагы эле карманган схеманы чийген: машинаны абада кармап турган кыймылсыз канат, аны алдыга түрткөн өзүнчө түзүлүш жана багыт берген куйрук. Германияда Отто Лилиенталь 1891–1896-жылдары өзү ойлоп чыккан планерлер менен дөбөлөрдөн 2000ден ашык жолу учуп, өзү өлчөгөн көтөрүүчү күчтү жарыялаган. Чикагодо инженер Октав Шанют учуу жөнүндө белгилүү болгондун баарын 1894-жылы чыккан *Progress in Flying Machines* («Учуучу машиналардагы прогресс») китебине чогулткан, кийин Райттар менен кат алышып, алардын лагерине келип турган. Ар бири маселенин бир бөлүгүн чечкен. Бирок бөлүктөрдү бириктирип, адамды өз күчү менен абага көтөрө турган жана башкарууга баш ийген машина эч ким жасай элек болчу.\n\n> [!NOTE]\n> 1903-жылга чейин учтук дегендер да болгон. Россияда Александр Можайскийдин буу кыймылдаткычтуу учагы болжол менен 1884-жылы жантайма тепкичтен ажыраган; кийин совет китептери муну кыймылдаткычтуу биринчи учуу деп жазышкан, бирок 1971–1981-жылдары Борбордук аэрогидродинамикалык институт (ЦАГИ) жүргүзгөн изилдөө анын кыймылдаткычтары машинаны абада кармоого өтө алсыз болгон деген жыйынтыкка келген. Коннектикутта Густав Уайтхеддин тарапкерлери ал 1901-жылы учкан деп айтышат; авиация тарыхчыларынын көбү ишенимдүү далил жок болгондуктан бул дооматты четке кагышат.\n\n### Эмне болду\n\nРайттар 1899-жылы ишти Смитсон институтуна учуу жөнүндө чыгарган бардык нерсесин сураган кат жазуудан баштады. Ошондой эле алардан мурункулар негизги деп эсептебеген бир суроодон: учкуч учуучу машинанын тең салмактуулугун кантип сактайт? Лилиенталь денесин ары-бери ыргытып башкарчу; 1896-жылдын августунда анын планери ылдамдыгын жоготкондо салмагын жылдыруу аны куткара алган эмес: ал болжол менен 15 метр бийиктиктен кулап, эртеси күнү көз жумган.\n\nБир туугандардын жообу — канаттардын өзүн кыймылга келтирүү. Алардын кийинки айтуусу боюнча, бул ой Уилбурга устаканада бош картон кутучаны буруп жатканда келген. Канаттардын учтарын тросс менен карама-каршы тарапка буруп, башкача айтканда «канатты кыйшайтып», учкуч бир канатты экинчисинен күчтүүрөөк көтөрүп, машинаны кайра түздөй алган. Муну алар 1899-жылы батпыракта, 1900, 1901 жана 1902-жылдары Китти-Хокто планерлерде сынап көрүшкөн. 1902-жылкы планерге арт жагынан кыймылдуу руль кошулган. Капталга ооп-түзөлүү үчүн канатты кыйшайтуу, өйдө-ылдый үчүн алдыңкы бийиктик рули, бурулуу үчүн арткы руль: учак оодарылышы мүмкүн болгон ар бир багыт үчүн бирден, бардыгы үч башкаруу. Ошондон бери ар бир учакка үчөө тең керек.\n\n![Райттардын 1902-жылкы планери оңго бурулуп жатат, сүрөт 1902-жылдын 24-октябрында тартылган. Ошол күзү миңге жакын учууда бир туугандар кыймылдаткычы боло электе эле машинаны башкарганды үйрөнүшкөн.](https://upload.wikimedia.org/wikipedia/commons/8/8c/1902_Wright_glider_in_right_turn.jpg \"Attributed to Wilbur Wright (1867–1912) and/or Orville Wright (1871–1948). Most likely taken by Orville Wright. · Public domain · https://commons.wikimedia.org/wiki/File:1902_Wright_glider_in_right_turn.jpg\")\n\nВелосипед тээп баратканыңызды элестетиңиз. Велосипед өзүнөн өзү тең салмакта турбайт; айдоочу аны дайыма оңдоп тургандыктан жыгылбайт. Райттар учуучу машина да ушундай иштейт деп ишенишкен: ал өзүн өзү тең салмакта кармай турган кылып жасалбайт, аны муну үйрөнгөн учкуч тең салмакта кармайт. Салыштыруу эки жерде туура келбейт. Ооп кеткен велосипед жолго бир метр бийиктиктен жыгылат, ал эми тең салмагын жоготкон учак асмандан кулайт. Анан велосипедчи оңго-солго гана тең салмак кармайт, учкуч болсо бир эле учурда үч багытта кармашы керек.\n\n17-декабрда эртең мененки саат 10:35те Орвилл төмөнкү канатка этпетинен жатып, машинаны рельсте кармап турган тросту бошоткон. Машина 12 секундда болжол менен 37 метр учкан. Жакын жердеги куткаруу станциясынан келген Джон Т. Дэниелс бир туугандар алдын ала орноткон фотоаппараттын жанына коюлган, ошол жерден тартылган сүрөт бүгүн ошол күндүн белгисине айланган; Дэниелс өзү кийин баскычты чын эле басканына ишенбей турганын айткан. Беш жергиликтүү киши карап турган. Бир туугандар кезектешип дагы үч жолу учушкан. Төртүнчү учууда Уилбур абада 59 секунд туруп, жер үстүнөн 260 метр учкан. Бир нече мүнөттөн кийин шамалдын бир уюлгусу машинаны оодарып салган жана ал мындан кийин эч качан учкан эмес.\n\n### Эмне үчүн оор болду\n\nБиринчи кыйынчылык: жарыяланган сандар туура эмес болуп чыккан. 1901-жылкы планер Райттар Лилиенталдын таблицалары боюнча эсептеген көтөрүүчү күчтүн болжол менен үчтөн бирин гана берген. Алар колун шилтеп койбой, устаканада аэродинамикалык түтүк курушкан: ичинен желдеткич аба айдаган, узундугу эки метрдей жыгач куту. 1901-жылдын октябрынан декабрына чейин алар 200гө жакын кичинекей канат моделин сынап, алардын 38ин кылдат өлчөшкөн. Бир кылымдан ашык убакыт бою көтөрүүчү күчтүн бардык эсептөөлөрүндө колдонулуп келген коэффициент бир жарым эседен ашык чоң алынганын табышкан. Өз өлчөөлөрү боюнча курулган 1902-жылкы планер учкан.\n\n![Райттардын 1901-жылкы аэродинамикалык түтүгүнүн көчүрмөсү. Кичинекей канаттар ичинде велосипед спицаларынан жана темир араанын мизинен жасалган таразаларга бекитилип, аягындагы желдеткич абаны кутунун ичинен айдап турган.](https://upload.wikimedia.org/wikipedia/commons/c/c4/Wright_Brothers_Wind_Tunnel_Replica.jpg \"MLWatts · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Wright_Brothers_Wind_Tunnel_Replica.jpg\")\n\nЭкинчи кыйынчылык — кубаттуулук. Бир дагы фирма аларга жетишерлик жеңил кыймылдаткыч саткан эмес, ошондуктан алардын механиги Чарльз Тейлор аны болжол менен алты жумада курган: 12 ат күчү, болжол менен 82 килограмм, ал убакта сейрек кездешкен алюминий блогу менен. Үчүнчү кыйынчылык пропеллерлер болгон. Алар үчүн жарактуу теория таба алышкан эмес, ошондуктан бир туугандар ар бир калакты айлана боюнча айланган канат катары карап, чапталган карагайдан ар биринин узундугу эки жарым метрдей эки пропеллер чапкылап чыгышкан.\n\nАлардын ийгилиги канчалык күтүлбөгөндөй көрүнгөнүн акча көрсөтүп турат. АКШнын Согуш министрлиги Смитсон институтунун катчысы Сэмюэл Лэнглиге анын «Чоң аэродромуна» 50 000 доллар бөлгөн. Ал 1903-жылдын 7-октябрында жана 8-декабрында Потомак дарыясындагы калкыма үйдөн учурулуп, эки жолу тең сууга кулаган. Райттардын «Флайери» велосипед ишинен төлөнгөн 1000 доллардан аз акчага түшкөн.\n\n### Эмнеге жол ачты\n\nАдегенде дээрлик эч ким ишенген эмес. Орвилл атасына «басма сөзгө кабарлаңыз» деп телеграмма жөнөткөн; *Dayton Journal* гезитинин кабарчысы мынчалык кыска учуулар жаңылык эмес деп эсептеген. 1904 жана 1905-жылдары бир туугандар Дейтондун жанындагы Хаффман-Прери деген уй жайытында уча беришкен, 1905-жылдын 5-октябрында Уилбур болжол менен 39 мүнөттө 39 километр учкан. Андан кийин, патенти бекемделе электе көчүрүп алышат деп коркуп, келишим түзүлгөнгө чейин эл алдында учпай калышкан. Парижде айрым гезиттер аларды алдамчы деп атаган.\n\nОшол эле убакта Европа өз алдынча уча баштаган. 1906-жылдын 12-ноябрында Парижде бразилиялык Альберту Сантус-Дюмон *14-bis* учагында элдин жана Франция аэроклубунун өкүлдөрүнүн алдында өз дөңгөлөктөрү менен жерден көтөрүлүп, 21 секундда болжол менен 220 метр учкан. Анын ошол күзкү учуулары авиациялык уюм күбөлөндүргөн биринчи учак учуулары болгон, Бразилияда аны азыр да көптөр биринчи учкан адам деп эсептешет. Бул көз караштын тарапкерлери Райттар рельстен каршы шамалга карай көтөрүлгөнүн, кийин жүк менен иштеген катапульта колдонгонун эске салышат.\n\nШектенүүлөр 1908-жылы бүттү. 8-августта Уилбур Франциянын Ле-Ман шаарынын жанында эл алдында учуп, толук башкаруу менен жай, кыйшайып бурулууларды жасаган; Райттарга ишенбей келген француз авиациясынын колдоочусу Эрнест Аршдакон жаңылганын ачык мойнуна алган. Сентябрда Орвилл АКШнын армиясы үчүн Виржиниядагы Форт-Майерде учкан; 17-сентябрда пропеллер жарылып, машина кулап, анын жүргүнчүсү лейтенант Томас Селфридж учак кырсыгынан каза болгон биринчи адам болуп калган. Орвилл оор жаракат алган. Алардын карындашы, мугалим Кэтрин Райт анын жанына жетип келип, ал ооруканада жаткан жети жума бою жанында болгон жана армия менен келишимди узартуу боюнча сүйлөшүүлөргө жардам берген; 1909-жылы ал Европада бир туугандарына кошулуп, Уилбур менен бирге учкан.\n\nАндан кийинки жылдар анча баатырдык болгон эмес. Райттар күчүнүн көбүн патенттик соттошууларга, баарынан мурда Гленн Кёртисске каршы сарпташкан, Биринчи дүйнөлүк согуш 1917-жылы Американын өнөр жайын патенттерин бөлүшүүгө мажбурлаганга чейин. Уилбур 1912-жылы ич келтеден каза болгон. Смитсон институту ондогон жылдар бою Лэнглинин «Аэродромун» адам башкарган учууга «жөндөмдүү» биринчи машина катары көрсөтүп келген, буга Кёртисс 1914-жылы өзгөрткөн вариантты сыноолорду негиз кылган; ага каршылык катары Орвилл 1903-жылкы «Флайерди» 1928-жылы Лондондогу Илим музейине жөнөткөн. Смитсон институту бул дооматынан 1942-жылы баш тарткан, ал эми «Флайер» 1948-жылы, Орвилл көз жумган жылы, мекенине кайтып келген.\n\n12 секунддук учуудан 66 жыл өткөндөн кийин «Флайердин» жыгачынан жана кездемесинен бир бөлүкчө «Аполлон-11» менен Айга барган. 2021-жылы анын канатынын кездемесинен бир кесим Ingenuity деген кичинекей тик учакта болгон; ал башка планетада, Марста кыймылдаткычтуу жана башкарылуучу биринчи учууну жасаган.",
+      "status": "machine"
+    }
+  }
+}
