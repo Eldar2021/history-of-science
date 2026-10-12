@@ -1,0 +1,310 @@
+{
+  "slug": "shannon-information-theory",
+  "year": 1948,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "region",
+  "lat": 40.73,
+  "lng": -74.17,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/9/98/C.E._Shannon._Tekniska_museet_43069_%28cropped%29.jpg",
+    "credit": "Unknown author Unknown author",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069_(cropped).jpg"
+  },
+  "disciplines": [
+    "mathematics",
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "claude-shannon",
+      "birth_year": 1916,
+      "death_year": 2001,
+      "role": "author",
+      "name": {
+        "en": "Claude Shannon",
+        "tr": "Claude Shannon",
+        "ru": "Клод Шеннон",
+        "ky": "Клод Шеннон"
+      }
+    },
+    {
+      "slug": "harry-nyquist",
+      "birth_year": 1889,
+      "death_year": 1976,
+      "role": "predecessor",
+      "name": {
+        "en": "Harry Nyquist",
+        "tr": "Harry Nyquist",
+        "ru": "Гарри Найквист",
+        "ky": "Гарри Найквист"
+      }
+    },
+    {
+      "slug": "ralph-hartley",
+      "birth_year": 1888,
+      "death_year": 1970,
+      "role": "predecessor",
+      "name": {
+        "en": "Ralph Hartley",
+        "tr": "Ralph Hartley",
+        "ru": "Ральф Хартли",
+        "ky": "Ральф Хартли"
+      }
+    },
+    {
+      "slug": "john-tukey",
+      "birth_year": 1915,
+      "death_year": 2000,
+      "role": "contributor",
+      "name": {
+        "en": "John Tukey",
+        "tr": "John Tukey",
+        "ru": "Джон Тьюки",
+        "ky": "Джон Тьюки"
+      }
+    },
+    {
+      "slug": "vladimir-kotelnikov",
+      "birth_year": 1908,
+      "death_year": 2005,
+      "role": "co-discoverer",
+      "name": {
+        "en": "Vladimir Kotelnikov",
+        "tr": "Vladimir Kotelnikov",
+        "ru": "Владимир Котельников",
+        "ky": "Владимир Котельников"
+      }
+    },
+    {
+      "slug": "norbert-wiener",
+      "birth_year": 1894,
+      "death_year": 1964,
+      "role": "contemporary",
+      "name": {
+        "en": "Norbert Wiener",
+        "tr": "Norbert Wiener",
+        "ru": "Норберт Винер",
+        "ky": "Норберт Винер"
+      }
+    },
+    {
+      "slug": "alan-turing",
+      "birth_year": 1912,
+      "death_year": 1954,
+      "role": "contemporary",
+      "name": {
+        "en": "Alan Turing",
+        "tr": "Alan Turing",
+        "ru": "Алан Тьюринг",
+        "ky": "Алан Тьюринг"
+      }
+    },
+    {
+      "slug": "warren-weaver",
+      "birth_year": 1894,
+      "death_year": 1978,
+      "role": "collaborator",
+      "name": {
+        "en": "Warren Weaver",
+        "tr": "Warren Weaver",
+        "ru": "Уоррен Уивер",
+        "ky": "Уоррен Уивер"
+      }
+    },
+    {
+      "slug": "betty-shannon",
+      "birth_year": 1922,
+      "death_year": 2017,
+      "role": "context",
+      "name": {
+        "en": "Betty Shannon",
+        "tr": "Betty Shannon",
+        "ru": "Бетти Шеннон",
+        "ky": "Бетти Шеннон"
+      }
+    },
+    {
+      "slug": "amiel-feinstein",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Amiel Feinstein",
+        "tr": "Amiel Feinstein",
+        "ru": "Амиэль Файнстейн",
+        "ky": "Амиэль Файнстейн"
+      }
+    },
+    {
+      "slug": "richard-hamming",
+      "birth_year": 1915,
+      "death_year": 1998,
+      "role": "successor",
+      "name": {
+        "en": "Richard Hamming",
+        "tr": "Richard Hamming",
+        "ru": "Ричард Хэмминг",
+        "ky": "Ричард Хэмминг"
+      }
+    },
+    {
+      "slug": "marcel-golay",
+      "birth_year": 1902,
+      "death_year": 1989,
+      "role": "successor",
+      "name": {
+        "en": "Marcel Golay",
+        "tr": "Marcel Golay",
+        "ru": "Марсель Голей",
+        "ky": "Марсель Голей"
+      }
+    },
+    {
+      "slug": "robert-gallager",
+      "birth_year": 1931,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Robert Gallager",
+        "tr": "Robert Gallager",
+        "ru": "Роберт Галлагер",
+        "ky": "Роберт Галлагер"
+      }
+    },
+    {
+      "slug": "andrey-kolmogorov",
+      "birth_year": 1903,
+      "death_year": 1987,
+      "role": "successor",
+      "name": {
+        "en": "Andrey Kolmogorov",
+        "tr": "Andrey Kolmogorov",
+        "ru": "Андрей Колмогоров",
+        "ky": "Андрей Колмогоров"
+      }
+    },
+    {
+      "slug": "aleksandr-khinchin",
+      "birth_year": 1894,
+      "death_year": 1959,
+      "role": "successor",
+      "name": {
+        "en": "Aleksandr Khinchin",
+        "tr": "Aleksandr Hinçin",
+        "ru": "Александр Хинчин",
+        "ky": "Александр Хинчин"
+      }
+    }
+  ],
+  "builds_on": [
+    "turing-computability",
+    "bell-telephone"
+  ],
+  "sources": [
+    {
+      "title": "Claude Shannon — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Claude-Shannon"
+    },
+    {
+      "title": "A Mathematical Theory of Communication — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication"
+    },
+    {
+      "title": "Claude Shannon — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_Shannon"
+    },
+    {
+      "title": "Claude Elwood Shannon — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/"
+    },
+    {
+      "title": "History of information theory — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_information_theory"
+    },
+    {
+      "title": "Nyquist–Shannon sampling theorem — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem"
+    },
+    {
+      "title": "Vladimir Kotelnikov — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Kotelnikov"
+    },
+    {
+      "title": "Noisy-channel coding theorem — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem"
+    },
+    {
+      "title": "Bit — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Bit"
+    },
+    {
+      "title": "A Man in a Hurry: Claude Shannon's New York Years — IEEE Spectrum",
+      "kind": "article",
+      "url": "https://spectrum.ieee.org/a-man-in-a-hurry-claude-shannons-new-york-years"
+    },
+    {
+      "title": "C. E. Shannon, \"The Bandwagon\", IRE Transactions on Information Theory 2(1), 1956 — Fermat's Library",
+      "kind": "article",
+      "url": "https://fermatslibrary.com/s/the-bandwagon"
+    },
+    {
+      "title": "C. E. Shannon, \"A Mathematical Theory of Communication\", Bell System Technical Journal 27 (1948), reprint hosted at Harvard",
+      "kind": "article",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"
+    }
+  ],
+  "research_note": "Drafted by the nightly pipeline 2026-10-12. Sources read: English Wikipedia (A Mathematical Theory of Communication; Claude Shannon; History of information theory; Nyquist–Shannon sampling theorem; Vladimir Kotelnikov; Noisy-channel coding theorem; Bit; Ralph Hartley), MacTutor biography of Shannon. Britannica linked for the human reviewer only (403 to automated fetch).\nCONFIRMED: paper in Bell System Technical Journal, July and October 1948, two parts; 1949 book renamed \"The Mathematical Theory of Communication\" with Weaver's essay; \"bit\" credited by Shannon to John Tukey (Bell Labs memo 9 January 1947); Nyquist 1924, Hartley 1928 \"Transmission of Information\" (BSTJ July 1928); 1937 MIT master's thesis applying Boolean algebra to switching circuits; Bell Labs from 1941; wartime fire control and cryptography; early-1943 meeting with Turing over tea, Turing showing the 1936 paper; September 1945 classified memo \"A Mathematical Theory of Cryptography\", declassified 1949 as \"Communication Theory of Secrecy Systems\"; married Mary Elizabeth Moore 27 March 1949, numerical analyst at Bell Labs; Feinstein 1954 first rigorous proof; Kotelnikov 1933 sampling theorem (\"Kotelnikov's theorem\" in Russian literature), 1941 classified one-time-pad report; Shannon included the sampling theorem and never claimed to originate it; Whittaker 1915 interpolation formula; Turing's ban/deciban for Enigma; applications listed in Wikipedia (ZIP, CD, Voyager, mobile phones).\nFLAGGED / SOFTENED IN BODY: von Neumann's advice to call it \"entropy\" is presented as a later-retold story, not documented from 1948. Birthplace given only as \"Michigan\" (Wikipedia: Petoskey; MacTutor: Gaylord). English redundancy \"roughly half\" follows Shannon's own estimate (~50%). The Turing meeting is told as in Wikipedia; \"over tea in the cafeteria\" rests on later recollection.\nFACT-CHECKER (2026-10-12) fixes applied: Bandwagon quote corrected to the original wording (\"has perhaps been ballooned to an importance beyond its actual accomplishments\", IRE Trans. Inf. Theory 2(1), March 1956) and its warning paraphrased faithfully; Golay 1949 / Hamming 1950 order fixed; Turing's visit softened to \"wartime cryptography work\" (he came to inspect speech encipherment, and the two did not discuss secret work); \"much of\" the rigorous footing for Khinchin/Kolmogorov (McMillan 1953 and Feinstein also contributed); turbo-code inventors named. Fact-checker confirmed from the paper: \"irrelevant to the engineering problem\", Tukey footnote, \"roughly 50%\" redundancy, the Wiener acknowledgement.\nREVIEWER SHOULD CHECK: place. Sources conflict on where Shannon worked in 1948 (ETHW: Murray Hill from 1941; IEEE Spectrum: wartime work at West Street, Manhattan; he lived in Greenwich Village until 1949). Set to place_name \"New York\" at region precision with coordinates between Manhattan and Murray Hill — tighten it if a primary source settles it. Gallager's living status not rechecked for October 2026. Cover image author line is \"Unknown author\" (Tekniska museet, CC BY 2.0) — thin credit; alternative is File:ClaudeShannon MFO3807.jpg (Konrad Jacobs, CC BY-SA 2.0 de, small 284×400). Kyrgyz terms not in the glossary: маалымат (information), ызы-чуу (noise), өткөрүү жөндөмдүүлүгү (channel capacity), ыктымалдык (probability), отсчёт (sample) — need a Kyrgyz reader.",
+  "translations": {
+    "en": {
+      "title": "Shannon founds information theory and names the bit",
+      "summary": "A Bell Labs engineer showed that any message can be measured in bits, and that every noisy channel has a top speed below which errors can be made as rare as you like.",
+      "why_it_matters": "Shannon turned \"information\" from a vague word into a quantity that can be measured, compressed and protected against noise. Every phone call, file and video stream today is built inside the limits his 1948 paper drew.",
+      "if_you_were_there": "Telephone engineers fight hiss and crackle with bigger amplifiers, and everyone assumes that sending faster means more mistakes. Nobody can say how much a wire can carry.",
+      "place_name": "New York",
+      "body": "![Shannon's diagram of a communication system: an information source, a transmitter, a channel disturbed by a noise source, a receiver and a destination](https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg \"en:User:Wanderingstan , User:Stannered · Public domain · https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg\")\n\n### The scene\n\nBy the 1940s the world already talked through wires and through the air: telegraph cables crossed oceans, telephone lines crossed continents, radio reached every town. Engineers knew how to make a signal louder and how to build a better amplifier. What they did not have was a way to say how much a line could carry at all. Every cable hissed and crackled, and every amplifier along the way boosted the noise together with the voice. It seemed obvious that noise set a floor under the errors: the faster you sent, the more mistakes you would make.\n\nSome of the groundwork had been laid at the same company. At Bell Telephone Laboratories, the research arm of the American telephone monopoly, Harry Nyquist showed in 1924 how fast a telegraph line could send signals, and in 1928 Ralph Hartley published \"Transmission of Information\", which proposed something radical: measure information by how many different messages could have been sent, and ignore what they mean. A century earlier, Morse code had already given the commonest letter, E, the shortest signal, a single dot — an intuition that frequent things should cost less.\n\nClaude Shannon, born in Michigan in 1916, arrived with an unusual mix of skills. His 1937 master's thesis at the Massachusetts Institute of Technology showed that the yes-or-no logic of the nineteenth-century mathematician George Boole could describe circuits of electrical switches — the idea behind every digital circuit since. In 1941 he joined Bell Labs, and during the Second World War he worked on anti-aircraft fire control and on cryptography. In early 1943 he met Alan Turing, who was visiting the United States on wartime cryptography work; the two talked over tea in the cafeteria, and Turing showed him his 1936 paper on the universal machine. In September 1945 Shannon wrote a classified memo, \"A Mathematical Theory of Cryptography\", which already used many of the ideas of what came next.\n\n### What happened\n\nIn July and October 1948 the *Bell System Technical Journal* printed Shannon's paper \"A Mathematical Theory of Communication\" in two parts. Its first move was to set meaning aside. The meaning of a message, Shannon wrote, is irrelevant to the engineering problem; what matters is that the message is one chosen from a set of possible messages. Information, in this sense, is surprise: how much a message narrows down what could have been sent.\n\nThat gave him a unit. The simplest choice is between two equally likely possibilities — heads or tails, yes or no — and its answer is one *binary digit*, or, as Shannon wrote, a *bit*, crediting the word to his Bell Labs colleague John Tukey, who had used the short form in a memo in January 1947. Any message, whether text, voice or picture, could now be measured in bits. Shannon drew every communication system as the same five boxes: a source, a transmitter that turns the message into a signal, a channel where noise gets in, a receiver, and a destination.\n\nHe called the average information produced by a source its *entropy*, borrowing the word, and the shape of the formula, from physics. A popular story says that John von Neumann advised him to use the name because nobody really knows what entropy is, so in an argument he would always have the advantage; the story was retold years later and is not documented from 1948.\n\nA helpful picture is the game of twenty questions. Each yes-or-no answer is one bit, and a good player chooses questions that split the remaining possibilities in half, so twenty answers can single out one thing among about a million. The picture breaks in two places. In the game you choose each question after hearing the last answer, while a sender must encode a message before anyone replies. And Shannon's measure is an average over very many messages: it tells you how many bits a source needs on average, not what any single message is worth.\n\nFrom there came two results that shaped everything after. The first: a source can be compressed down to its entropy, and no further. English text is full of predictable letters — Shannon estimated its redundancy at roughly half — which is why a sentence with missing vowels can often still be read, and why text compresses so well. The second, the one engineers found hardest to believe: every noisy channel has a *capacity*, a top speed in bits per second. Below that speed, a suitable code can make errors as rare as you like; above it, no code can. Noise does not put a floor under the errors. It only puts a ceiling on the speed.\n\n> [!NOTE]\n> \"Information\" in Shannon's sense has nothing to do with truth, importance or meaning. A line of poetry and a line of random letters of the same length can need the same number of bits — the random one often more, because it is harder to predict.\n\n### Why it was hard, and who else got there\n\nThe hard step was the one that sounds like giving up: to stop asking what a message means and to treat it as a choice among possibilities, governed by probability. Hartley had taken half of that step; Shannon added probability, noise and coding, and proved theorems about them. Even so, his proof of the noisy-channel theorem was an outline. He showed that good codes must exist by imagining codes chosen at random and averaging over them — which tells you that a needle is in the haystack without telling you where. The first fully rigorous proof, for the simplest case, was published by Amiel Feinstein in 1954.\n\nShannon was not alone. In 1948 the American mathematician Norbert Wiener published *Cybernetics*, with his own statistical measure of information, and Shannon acknowledged in the paper how much communication theory owed to Wiener. At Bletchley Park in the early 1940s, Turing had used a logarithmic unit for weighing evidence, the \"ban\", while breaking German Enigma messages.\n\n![Vladimir Kotelnikov, the Soviet engineer who stated the sampling theorem in 1933, photographed in 1997](https://upload.wikimedia.org/wikipedia/commons/5/5e/Kotelnikov.jpg \"Leo Medvedev/Лев Леонидович Медведев · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kotelnikov.jpg\")\n\nIn the Soviet Union, the radio engineer Vladimir Kotelnikov stated precisely in 1933 that a signal whose frequencies are limited can be rebuilt completely from samples taken at more than twice its highest frequency — the principle that lets music and voice be stored as numbers. Shannon included the same theorem in his work and never claimed to have originated it; mathematicians such as Edmund Whittaker had found the underlying result even earlier. In Russian textbooks it is still called Kotelnikov's theorem. Kotelnikov also proved, in a 1941 report that stayed secret, that a cipher using a truly random key as long as the message cannot be broken — the same conclusion Shannon reached independently in his 1945 memo.\n\n### What it opened\n\nIn 1949 the paper came out as a book, renamed *The Mathematical Theory of Communication* — \"the\" instead of \"a\" — with an essay for general readers by Warren Weaver of the Rockefeller Foundation. That year Shannon also married Mary Elizabeth \"Betty\" Moore, a numerical analyst at Bell Labs, who worked with him on several of his later machines.\n\nShannon had shown that near-perfect codes exist; finding them took half a century. The first error-correcting codes were published by Marcel Golay in 1949 and by Richard Hamming at Bell Labs in 1950. Robert Gallager's low-density parity-check codes of the early 1960s were largely forgotten until the 1990s, when they and the \"turbo codes\" of Claude Berrou, Alain Glavieux and Punya Thitimajshima in 1993 finally came close to Shannon's limit. Codes of these families now run in mobile phones and Wi-Fi. The same theory sits under compressed files, the compact disc and the radio links of the Voyager space probes. In the Soviet Union, Andrey Kolmogorov and Aleksandr Khinchin gave the theory much of its rigorous mathematical footing in the 1950s, and Kolmogorov went on to a related idea: measuring the information in a single object by the length of the shortest description of it.\n\n> [!WARNING]\n> Shannon himself was uneasy with the excitement. In 1956 he wrote a short editorial, \"The Bandwagon\", warning that information theory \"has perhaps been ballooned to an importance beyond its actual accomplishments\". Using it in fields such as biology, psychology and economics, he wrote, needed slow testing by hypothesis and experiment, not just borrowed words.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Shannon bilgi kuramını kuruyor ve bite adını veriyor",
+      "summary": "Bell Labs'tan bir mühendis her mesajın bit ile ölçülebileceğini ve her gürültülü kanalın, altında hataların istendiği kadar azaltılabildiği bir azami hızı olduğunu gösterdi.",
+      "why_it_matters": "Shannon \"bilgi\"yi belirsiz bir sözcükten ölçülebilen, sıkıştırılabilen ve gürültüye karşı korunabilen bir niceliğe dönüştürdü. Bugün her telefon görüşmesi, dosya ve video akışı 1948 makalesinin çizdiği sınırlar içinde kuruluyor.",
+      "if_you_were_there": "Telefon mühendisleri hışırtı ve cızırtıyla daha büyük yükselteçlerle savaşıyor; herkes daha hızlı göndermenin daha çok hata demek olduğunu varsayıyor. Bir telin ne kadar taşıyabileceğini kimse söyleyemiyor.",
+      "place_name": "New York",
+      "body": "![Shannon'ın iletişim sistemi şeması: bilgi kaynağı, verici, gürültü kaynağının bozduğu kanal, alıcı ve hedef](https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg \"en:User:Wanderingstan , User:Stannered · Public domain · https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg\")\n\n### Sahne\n\n1940'lara gelindiğinde dünya tellerle ve havadan konuşuyordu: telgraf kabloları okyanusları, telefon hatları kıtaları aşıyor, radyo her kasabaya ulaşıyordu. Mühendisler bir sinyali nasıl güçlendireceklerini, nasıl daha iyi bir yükselteç yapacaklarını biliyordu. Bilmedikleri şey, bir hattın en fazla ne kadar taşıyabileceğini söylemenin bir yoluydu. Her kablo hışırdıyor, cızırdıyordu; yol boyunca her yükselteç sesle birlikte gürültüyü de büyütüyordu. Gürültünün hatalara bir taban koyduğu apaçık görünüyordu: ne kadar hızlı gönderirsen o kadar çok yanlış yaparsın.\n\nZeminin bir kısmı aynı şirkette atılmıştı. Amerikan telefon tekelinin araştırma kolu Bell Telefon Laboratuvarları'nda Harry Nyquist 1924'te bir telgraf hattının sinyalleri ne hızda gönderebileceğini gösterdi; Ralph Hartley 1928'de \"Bilginin İletimi\" adlı makalesinde radikal bir öneri yaptı: bilgiyi, kaç farklı mesajın gönderilmiş olabileceğiyle ölç ve ne anlama geldiklerini yok say. Bir yüzyıl önce Mors alfabesi de en sık kullanılan harfe, E'ye, en kısa işareti, tek bir noktayı vermişti: sık olan şey daha ucuza gelmeli sezgisi.\n\n1916'da Michigan'da doğan Claude Shannon alışılmadık bir beceri karışımıyla geldi. Massachusetts Teknoloji Enstitüsü'ndeki 1937 tarihli yüksek lisans tezi, 19. yüzyıl matematikçisi George Boole'un evet-hayır mantığının elektrik anahtarlarından kurulu devreleri betimleyebileceğini gösterdi; o günden beri her dijital devrenin ardındaki fikir budur. 1941'de Bell Labs'a katıldı; İkinci Dünya Savaşı sırasında uçaksavar atış denetimi ve kriptografi üzerinde çalıştı. 1943'ün başında, savaş dönemi kriptografi işleri için ABD'ye gelen Alan Turing ile tanıştı; ikisi kafeteryada çay içerken konuştu ve Turing ona evrensel makine üzerine 1936 makalesini gösterdi. Eylül 1945'te Shannon gizli bir not yazdı, \"Kriptografinin Matematiksel Kuramı\"; sonra gelecek olanın fikirlerinin çoğu burada zaten vardı.\n\n### Ne oldu\n\nTemmuz ve Ekim 1948'de *Bell System Technical Journal*, Shannon'ın \"İletişimin Matematiksel Kuramı\" makalesini iki bölüm hâlinde yayımladı. İlk hamlesi anlamı bir kenara koymaktı. Shannon'a göre bir mesajın anlamı mühendislik sorunu açısından önemsizdi; önemli olan, mesajın olası mesajlar kümesinden seçilmiş biri olmasıydı. Bu anlamda bilgi şaşkınlıktır: bir mesajın, gönderilebilecek olanları ne kadar daralttığı.\n\nBu ona bir birim verdi. En basit seçim eşit olasılıklı iki seçenek arasındadır, yazı ya da tura, evet ya da hayır, ve cevabı bir *ikili basamaktır* (binary digit), Shannon'ın yazdığı gibi bir *bit*. Shannon bu sözcüğü, kısa biçimi Ocak 1947'de bir notta kullanmış olan Bell Labs'taki meslektaşı John Tukey'e mal etti. Artık her mesaj, ister yazı, ister ses, ister resim olsun, bit ile ölçülebilirdi. Shannon her iletişim sistemini aynı beş kutuyla çizdi: kaynak, mesajı sinyale çeviren verici, gürültünün girdiği kanal, alıcı ve hedef.\n\nBir kaynağın ürettiği ortalama bilgiye *entropi* adını verdi; hem sözcüğü hem formülün biçimini fizikten ödünç aldı. Yaygın bir hikâyeye göre John von Neumann ona bu adı önermiş, çünkü entropinin ne olduğunu kimse tam bilmediğinden tartışmada hep üstün gelecekmiş; hikâye yıllar sonra anlatıldı ve 1948'den kalma bir belgesi yok.\n\nİşe yarar bir benzetme yirmi soru oyunudur. Her evet-hayır cevabı bir bittir; iyi bir oyuncu kalan olasılıkları ikiye bölen sorular seçer, böylece yirmi cevap yaklaşık bir milyon şey arasından birini bulabilir. Benzetme iki yerde bozulur. Oyunda her soruyu bir önceki cevabı duyduktan sonra seçersiniz; gönderen ise mesajı daha kimse cevap vermeden kodlamak zorundadır. Shannon'ın ölçüsü de çok sayıda mesaj üzerinden bir ortalamadır: bir kaynağın ortalamada kaç bite ihtiyaç duyduğunu söyler, tek bir mesajın ne değerde olduğunu değil.\n\nBuradan, sonraki her şeyi biçimlendiren iki sonuç çıktı. Birincisi: bir kaynak entropisine kadar sıkıştırılabilir, daha fazla değil. İngilizce metin tahmin edilebilir harflerle doludur, Shannon fazlalığını kabaca yarı olarak tahmin etti; ünlüleri eksik bir cümlenin çoğu zaman yine de okunabilmesinin ve metnin bu kadar iyi sıkışmasının nedeni bu. İkincisi, mühendislerin inanmakta en çok zorlandığı: her gürültülü kanalın bir *kapasitesi*, saniyede bit cinsinden bir azami hızı vardır. Bu hızın altında uygun bir kod hataları istediğiniz kadar seyrekleştirebilir; üstünde hiçbir kod bunu yapamaz. Gürültü hatalara bir taban koymaz. Yalnızca hıza bir tavan koyar.\n\n> [!NOTE]\n> Shannon'ın anlamındaki \"bilgi\"nin doğrulukla, önemle ya da anlamla ilgisi yoktur. Aynı uzunlukta bir şiir dizesi ile rastgele harflerden bir dize aynı sayıda bit gerektirebilir; rastgele olan çoğu zaman daha fazlasını, çünkü tahmin edilmesi daha zordur.\n\n### Neden zordu ve başka kimler oraya vardı\n\nZor adım, pes etmek gibi görünendi: bir mesajın ne anlama geldiğini sormayı bırakıp onu olasılığın yönettiği seçenekler arasından bir seçim olarak ele almak. Hartley bu adımın yarısını atmıştı; Shannon olasılığı, gürültüyü ve kodlamayı ekledi ve bunlar hakkında teoremler kanıtladı. Yine de gürültülü kanal teoreminin kanıtı bir taslaktı. İyi kodların var olması gerektiğini, rastgele seçilmiş kodları hayal edip ortalamalarını alarak gösterdi; bu, iğnenin samanlıkta olduğunu söyler ama nerede olduğunu söylemez. En basit durum için ilk tam titiz kanıtı Amiel Feinstein 1954'te yayımladı.\n\nShannon yalnız değildi. 1948'de Amerikalı matematikçi Norbert Wiener kendi istatistiksel bilgi ölçüsünü içeren *Sibernetik* kitabını yayımladı; Shannon da makalesinde iletişim kuramının Wiener'e ne kadar borçlu olduğunu belirtti. 1940'ların başında Bletchley Park'ta Turing, Alman Enigma mesajlarını kırarken kanıtı tartmak için logaritmik bir birim, \"ban\" kullanmıştı.\n\n![1933'te örnekleme teoremini ifade eden Sovyet mühendisi Vladimir Kotelnikov, 1997'de çekilmiş bir fotoğraf](https://upload.wikimedia.org/wikipedia/commons/5/5e/Kotelnikov.jpg \"Leo Medvedev/Лев Леонидович Медведев · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kotelnikov.jpg\")\n\nSovyetler Birliği'nde radyo mühendisi Vladimir Kotelnikov 1933'te, frekansları sınırlı bir sinyalin, en yüksek frekansının iki katından fazla sıklıkla alınan örneklerden eksiksiz yeniden kurulabileceğini kesin biçimde ifade etti; müziğin ve sesin sayı olarak saklanabilmesini sağlayan ilke budur. Shannon aynı teoremi çalışmasına aldı ve onu ilk bulanın kendisi olduğunu hiç iddia etmedi; Edmund Whittaker gibi matematikçiler altta yatan sonucu daha da önce bulmuştu. Rusça ders kitaplarında hâlâ Kotelnikov teoremi diye geçer. Kotelnikov ayrıca gizli kalan 1941 tarihli bir raporda, mesaj kadar uzun ve gerçekten rastgele bir anahtar kullanan bir şifrenin kırılamayacağını kanıtladı; Shannon 1945 notunda aynı sonuca bağımsız olarak vardı.\n\n### Ardından ne açıldı\n\n1949'da makale bir kitap olarak çıktı; adı *The Mathematical Theory of Communication* oldu, \"bir\" kuram yerine \"o\" kuram. Kitapta Rockefeller Vakfı'ndan Warren Weaver'ın genel okur için yazdığı bir deneme de vardı. Aynı yıl Shannon, Bell Labs'ta sayısal analizci olan ve onun sonraki makinelerinin birçoğunda onunla çalışan Mary Elizabeth \"Betty\" Moore ile evlendi.\n\nShannon kusursuza yakın kodların var olduğunu göstermişti; onları bulmak yarım yüzyıl sürdü. İlk hata düzelten kodları 1949'da Marcel Golay, 1950'de Bell Labs'ta Richard Hamming yayımladı. Robert Gallager'ın 1960'ların başındaki düşük yoğunluklu eşlik denetimi kodları 1990'lara kadar büyük ölçüde unutuldu; o zaman bunlar ve Claude Berrou, Alain Glavieux ve Punya Thitimajshima'nın 1993'teki \"turbo kodları\" sonunda Shannon sınırına yaklaştı. Bu ailelerden kodlar bugün cep telefonlarında ve Wi-Fi'da çalışıyor. Aynı kuram sıkıştırılmış dosyaların, kompakt diskin ve Voyager uzay sondalarının radyo bağlantılarının altında yatıyor. Sovyetler Birliği'nde Andrey Kolmogorov ve Aleksandr Hinçin 1950'lerde kuramın titiz matematiksel temelinin büyük kısmını kurdu; Kolmogorov sonra ilişkili bir fikre ulaştı: tek bir nesnedeki bilgiyi, onun en kısa tarifinin uzunluğuyla ölçmek.\n\n> [!WARNING]\n> Shannon'ın kendisi bu heyecandan rahatsızdı. 1956'da \"The Bandwagon\" (\"Kervana katılanlar\") adlı kısa bir başyazıda, bilgi kuramının \"belki de gerçek başarılarının ötesinde bir öneme şişirildiğini\" yazdı. Onu biyoloji, psikoloji, ekonomi gibi alanlarda kullanmak, dedi, ödünç sözcüklerle değil, hipotez ve deneyle yavaş yavaş sınamakla olur.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Шеннон создаёт теорию информации и даёт имя биту",
+      "summary": "Инженер Bell Labs показал, что любое сообщение можно измерить в битах и что у каждого канала с шумом есть предельная скорость, ниже которой ошибки можно сделать сколь угодно редкими.",
+      "why_it_matters": "Шеннон превратил «информацию» из расплывчатого слова в величину, которую можно измерить, сжать и защитить от шума. Каждый телефонный звонок, файл и видеопоток сегодня строятся внутри границ, очерченных его статьёй 1948 года.",
+      "if_you_were_there": "Инженеры-телефонисты борются с шипением и треском всё более мощными усилителями, и все уверены, что передавать быстрее значит ошибаться чаще. Никто не может сказать, сколько способен передать провод.",
+      "place_name": "Нью-Йорк",
+      "body": "![Схема системы связи Шеннона: источник информации, передатчик, канал, в который вмешивается источник шума, приёмник и получатель](https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg \"en:User:Wanderingstan , User:Stannered · Public domain · https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg\")\n\n### Обстановка\n\nК 1940-м годам мир уже разговаривал по проводам и по воздуху: телеграфные кабели пересекали океаны, телефонные линии — континенты, радио доходило до каждого города. Инженеры умели делать сигнал громче и строить усилители получше. Чего у них не было, так это способа сказать, сколько вообще может передать линия. Каждый кабель шипел и трещал, и каждый усилитель по пути усиливал шум вместе с голосом. Казалось очевидным, что шум ставит нижнюю границу ошибкам: чем быстрее передаёшь, тем больше ошибаешься.\n\nЧасть фундамента заложили в той же компании. В Bell Telephone Laboratories, исследовательском подразделении американской телефонной монополии, Гарри Найквист в 1924 году показал, с какой скоростью телеграфная линия может посылать сигналы, а в 1928 году Ральф Хартли опубликовал статью «Передача информации» с радикальным предложением: измерять информацию тем, сколько разных сообщений могло быть отправлено, и не обращать внимания на их смысл. Ещё за столетие до того азбука Морзе отдала самой частой букве, E, самый короткий сигнал, одну точку: интуиция о том, что частое должно стоить дешевле.\n\nКлод Шеннон, родившийся в Мичигане в 1916 году, пришёл с необычным набором умений. Его магистерская работа 1937 года в Массачусетском технологическом институте показала, что логика «да или нет» математика XIX века Джорджа Буля описывает схемы из электрических переключателей; на этой идее с тех пор стоит любая цифровая схема. В 1941 году он пришёл в Bell Labs, а во время Второй мировой войны работал над управлением зенитным огнём и над криптографией. В начале 1943 года он познакомился с Аланом Тьюрингом, который приехал в США по делам военной криптографии; они разговаривали за чаем в кафетерии, и Тьюринг показал ему свою статью 1936 года об универсальной машине. В сентябре 1945 года Шеннон написал секретную записку «Математическая теория криптографии», в которой уже были многие идеи того, что последовало.\n\n### Что произошло\n\nВ июле и октябре 1948 года журнал *Bell System Technical Journal* напечатал в двух частях статью Шеннона «Математическая теория связи». Первым делом она отодвигала смысл в сторону. Смысл сообщения, писал Шеннон, не имеет отношения к инженерной задаче; важно то, что сообщение выбрано из множества возможных. Информация в этом смысле — это неожиданность: насколько сообщение сужает круг того, что могло быть послано.\n\nЭто дало ему единицу измерения. Простейший выбор — между двумя равновероятными вариантами, орёл или решка, да или нет, — и ответ на него составляет одну *двоичную цифру* (binary digit), или, как написал Шеннон, один *бит*. Слово он приписал коллеге по Bell Labs Джону Тьюки, который употребил короткую форму в служебной записке в январе 1947 года. Теперь любое сообщение — текст, голос или изображение — можно было измерить в битах. Любую систему связи Шеннон рисовал как одни и те же пять блоков: источник, передатчик, превращающий сообщение в сигнал, канал, куда проникает шум, приёмник и получатель.\n\nСреднее количество информации, которое выдаёт источник, он назвал *энтропией*, позаимствовав из физики и слово, и вид формулы. По популярной истории, Джон фон Нейман посоветовал ему это название, потому что никто толком не знает, что такое энтропия, и в споре у него всегда будет преимущество; эту историю пересказывали спустя годы, и документов 1948 года о ней нет.\n\nУдобная картинка — игра в двадцать вопросов. Каждый ответ «да» или «нет» — это один бит, и хороший игрок выбирает вопросы, делящие оставшиеся варианты пополам, так что двадцать ответов могут выделить одну вещь примерно из миллиона. Картинка ломается в двух местах. В игре каждый вопрос выбирают, услышав предыдущий ответ, а отправитель должен закодировать сообщение заранее, прежде чем кто-то ответит. И мера Шеннона — это среднее по очень многим сообщениям: она говорит, сколько битов нужно источнику в среднем, а не чего стоит отдельное сообщение.\n\nОтсюда вышли два результата, определившие всё дальнейшее. Первый: источник можно сжать до его энтропии, но не сильнее. Английский текст полон предсказуемых букв — Шеннон оценил его избыточность примерно в половину, — поэтому фразу без гласных часто всё равно можно прочесть, и поэтому текст так хорошо сжимается. Второй результат, в который инженерам было труднее всего поверить: у каждого зашумлённого канала есть *пропускная способность*, предельная скорость в битах в секунду. Ниже этой скорости подходящий код может сделать ошибки сколь угодно редкими; выше — никакой код не может. Шум не ставит нижнюю границу ошибкам. Он ставит лишь верхнюю границу скорости.\n\n> [!NOTE]\n> «Информация» в смысле Шеннона не связана ни с истинностью, ни с важностью, ни со смыслом. Строка стихов и строка случайных букв той же длины могут потребовать одинакового числа битов, а случайная — часто и больше, потому что её труднее предсказать.\n\n### Почему это было трудно и кто ещё пришёл туда же\n\nТрудным был шаг, похожий на отказ: перестать спрашивать, что сообщение значит, и считать его выбором среди возможностей, подчинённым вероятности. Хартли сделал половину этого шага; Шеннон добавил вероятность, шум и кодирование и доказал о них теоремы. И всё же его доказательство теоремы о канале с шумом было наброском. Он показал, что хорошие коды должны существовать, вообразив коды, выбранные наугад, и усреднив по ним; это говорит, что иголка в стоге сена есть, но не говорит, где она. Первое полностью строгое доказательство для простейшего случая опубликовал Амиэль Файнстейн в 1954 году.\n\nШеннон был не один. В 1948 году американский математик Норберт Винер выпустил книгу «Кибернетика» со своей статистической мерой информации, и Шеннон в статье признал, насколько теория связи обязана Винеру. В Блетчли-парке в начале 1940-х Тьюринг, взламывая сообщения немецкой «Энигмы», пользовался логарифмической единицей для взвешивания свидетельств — «баном».\n\n![Владимир Котельников, советский инженер, сформулировавший теорему отсчётов в 1933 году, на фотографии 1997 года](https://upload.wikimedia.org/wikipedia/commons/5/5e/Kotelnikov.jpg \"Leo Medvedev/Лев Леонидович Медведев · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kotelnikov.jpg\")\n\nВ Советском Союзе радиоинженер Владимир Котельников в 1933 году точно сформулировал, что сигнал с ограниченными частотами можно полностью восстановить по отсчётам, взятым с частотой более чем вдвое выше его наивысшей частоты, — принцип, благодаря которому музыку и голос можно хранить в виде чисел. Шеннон включил ту же теорему в свою работу и никогда не утверждал, что открыл её первым; математики вроде Эдмунда Уиттекера нашли лежащий в её основе результат ещё раньше. В русскоязычных учебниках она по сей день называется теоремой Котельникова. Кроме того, в оставшемся секретным отчёте 1941 года Котельников доказал, что шифр с по-настоящему случайным ключом длиной в само сообщение невозможно взломать, — к тому же выводу Шеннон независимо пришёл в записке 1945 года.\n\n### Что это открыло\n\nВ 1949 году статья вышла книгой под названием *The Mathematical Theory of Communication* — с определённым артиклем вместо неопределённого, то есть уже «та самая» теория, а не «одна из». В книгу вошло эссе для широкого читателя Уоррена Уивера из Фонда Рокфеллера. В том же году Шеннон женился на Мэри Элизабет «Бетти» Мур, специалистке по численному анализу из Bell Labs, которая работала с ним над несколькими его более поздними машинами.\n\nШеннон показал, что почти совершенные коды существуют; найти их удалось за полвека. Первые коды, исправляющие ошибки, опубликовали Марсель Голей в 1949 году и Ричард Хэмминг в Bell Labs в 1950-м. Коды с малой плотностью проверок на чётность, предложенные Робертом Галлагером в начале 1960-х, были почти забыты до 1990-х, когда они и «турбокоды» Клода Берру, Алена Главьё и Пунья Титимаджшимы 1993 года наконец подошли вплотную к пределу Шеннона. Коды этих семейств сегодня работают в мобильных телефонах и Wi-Fi. Та же теория лежит в основе сжатых файлов, компакт-диска и радиосвязи космических зондов «Вояджер». В Советском Союзе Андрей Колмогоров и Александр Хинчин в 1950-х годах заложили значительную часть строгого математического фундамента теории, а Колмогоров пришёл к родственной идее: измерять информацию в отдельном объекте длиной его кратчайшего описания.\n\n> [!WARNING]\n> Самого Шеннона ажиотаж тревожил. В 1956 году он написал короткую редакционную заметку «The Bandwagon» («Все в один вагон»), предупреждая, что теорию информации, «возможно, раздули до значения, превосходящего её реальные достижения». Применять её в биологии, психологии или экономике, писал он, можно лишь после медленной проверки гипотезами и экспериментами, а не просто заимствуя слова.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Шеннон маалымат теориясын негиздеп, битке ат коёт",
+      "summary": "Bell Labs инженери ар кандай билдирүүнү бит менен өлчөөгө болорун жана ар бир ызы-чуулуу каналдын каталарды каалагандай азайтууга мүмкүн болгон эң жогорку ылдамдыгы бар экенин көрсөткөн.",
+      "why_it_matters": "Шеннон «маалыматты» бүдөмүк сөздөн өлчөөгө, кысууга жана ызы-чуудан коргоого мүмкүн болгон чоңдукка айландырган. Бүгүнкү ар бир телефон чалуу, файл жана видео агымы анын 1948-жылкы макаласы тарткан чектердин ичинде курулат.",
+      "if_you_were_there": "Телефон инженерлери шыңгыраган, чытыраган үндөр менен барган сайын күчтүү күчөткүчтөр аркылуу күрөшүп жатышат, баары тезирээк жиберүү көбүрөөк ката дегенди билдирет деп ойлошот. Бир зым канча маалымат өткөрө аларын эч ким айта албайт.",
+      "place_name": "Нью-Йорк",
+      "body": "![Шеннондун байланыш системасынын схемасы: маалымат булагы, өткөргүч, ызы-чуу булагы бузган канал, кабыл алгыч жана алуучу](https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg \"en:User:Wanderingstan , User:Stannered · Public domain · https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg\")\n\n### Окуя болгон мезгил\n\n1940-жылдарга карата дүйнө зым аркылуу да, аба аркылуу да сүйлөшүп калган эле: телеграф кабелдери океандарды, телефон линиялары континенттерди кесип өтүп, радио ар бир шаарга жетчү. Инженерлер сигналды кантип күчөтүүнү, жакшыраак күчөткүчтү кантип курууну билишчү. Бирок бир линия жалпысынан канча маалымат өткөрө аларын айтуунун жолу аларда жок болчу. Ар бир кабель шыңгырап, чытырап турчу, жолдогу ар бир күчөткүч үн менен кошо ызы-чууну да күчөтчү. Ызы-чуу каталарга төмөнкү чек коёру ачык-айкын көрүнчү: канчалык тез жиберсең, ошончолук көп ката кетиресиң.\n\nПайдубалдын бир бөлүгү ошол эле компанияда коюлган. Америкалык телефон монополиясынын изилдөө бөлүмү болгон Bell Telephone Laboratories мекемесинде Гарри Найквист 1924-жылы телеграф линиясы сигналдарды кандай ылдамдыкта жибере аларын көрсөткөн. Ральф Хартли болсо 1928-жылы «Маалыматты берүү» деген макаласында радикалдуу сунуш киргизген: маалыматты канча ар түрдүү билдирүү жиберилиши мүмкүн болгонуна карап өлчөө, ал эми алардын маанисин эске албоо. Андан бир кылым мурун эле Морзе алиппеси эң көп колдонулган E тамгасына эң кыска белгини, бир чекитти берген: көп кездешкен нерсе арзаныраак турушу керек деген туюм.\n\n1916-жылы Мичиганда туулган Клод Шеннон адаттан тыш көндүмдөрдүн айкалышы менен келген. Анын 1937-жылы Массачусетс технологиялык институтунда жазган магистрдик иши XIX кылымдагы математик Джордж Булдун «ооба же жок» логикасы электр которгучтарынан турган схемаларды сүрөттөй аларын көрсөткөн; ошондон бери ар бир санариптик схеманын артында ушул идея турат. 1941-жылы ал Bell Labs мекемесине иштөөгө келип, Экинчи дүйнөлүк согуш учурунда зениттик атышты башкаруу жана криптография боюнча иштеген. 1943-жылдын башында ал согуш мезгилиндеги криптография иштери менен АКШга келген Алан Тьюринг менен таанышкан; экөө кафетерияда чай ичип отуруп сүйлөшүшкөн, Тьюринг ага универсалдуу машина тууралуу 1936-жылкы макаласын көрсөткөн. 1945-жылдын сентябрында Шеннон «Криптографиянын математикалык теориясы» деген жашыруун кат жазган; кийин боло турган иштин көп идеялары анда эле бар болчу.\n\n### Эмне болду\n\n1948-жылдын июль жана октябрь айларында *Bell System Technical Journal* журналы Шеннондун «Байланыштын математикалык теориясы» деген макаласын эки бөлүк кылып басып чыгарган. Анын биринчи кадамы маанини четке коюу болгон. Шеннон жазгандай, билдирүүнүн мааниси инженердик маселе үчүн маанилүү эмес; маанилүүсү — билдирүү мүмкүн болгон билдирүүлөрдүн арасынан тандалып алынган бирөө экени. Бул мааниде маалымат — күтүүсүздүк: билдирүү жиберилиши мүмкүн болгон нерселердин чөйрөсүн канчалык тарытканы.\n\nУшундан ага өлчөө бирдиги келип чыккан. Эң жөнөкөй тандоо — бирдей ыктымалдуу эки вариант ортосунда: ак же кара, ооба же жок. Ага берилген жооп бир *экилик цифра* (binary digit), же Шеннон жазгандай, бир *бит* болот. Бул сөздү Шеннон Bell Labs мекемесиндеги кесиптеши Джон Тьюкиге таандык кылган; Тьюки кыска форманы 1947-жылдын январында кызматтык катында колдонгон. Эми ар кандай билдирүүнү — текстти, үндү же сүрөттү — бит менен өлчөөгө болот эле. Шеннон ар бир байланыш системасын бирдей беш блок менен тарткан: булак, билдирүүнү сигналга айландырган өткөргүч, ызы-чуу кирген канал, кабыл алгыч жана алуучу.\n\nБулак чыгарган орточо маалыматты ал *энтропия* деп атаган; сөздү да, формуланын түрүн да физикадан алган. Белгилүү бир окуяга караганда, бул атты ага Джон фон Нейман сунуштаган, анткени энтропия деген эмне экенин эч ким так билбейт, ошондуктан талашта ал дайыма жеңип чыгат имиш. Бул окуя жылдар өткөндөн кийин айтылып жүргөн, 1948-жылдан калган документ менен тастыкталбайт.\n\nЫңгайлуу салыштыруу — жыйырма суроо оюну. Ар бир «ооба» же «жок» деген жооп бир бит болот. Жакшы оюнчу калган варианттарды экиге бөлгөн суроолорду тандайт, ошентип жыйырма жооп болжол менен миллион нерсенин ичинен бирөөнү таба алат. Салыштыруу эки жерде бузулат. Оюнда ар бир суроону мурунку жоопту уккандан кийин тандайсыз, ал эми жиберүүчү билдирүүнү эч ким жооп бере электе алдын ала коддошу керек. Анан Шеннондун өлчөмү абдан көп билдирүүлөр боюнча орточо көрсөткүч: ал булакка орточо канча бит керек экенин айтат, бир билдирүүнүн баасын эмес.\n\nМындан кийинки нерселердин баарын аныктаган эки натыйжа чыккан. Биринчиси: булакты анын энтропиясына чейин кысууга болот, андан ары болбойт. Англис тексти алдын ала билүүгө мүмкүн болгон тамгаларга толо — Шеннон анын ашыкчалыгын болжол менен жарымы деп баалаган. Ошондуктан үндүү тамгалары жок сүйлөмдү көбүнчө баары бир окууга болот, текст да ошондуктан жакшы кысылат. Экинчиси, инженерлер ишенүүгө эң кыйналган натыйжа: ар бир ызы-чуулуу каналдын *өткөрүү жөндөмдүүлүгү*, башкача айтканда, секундасына бит менен өлчөнгөн эң жогорку ылдамдыгы бар. Бул ылдамдыктан төмөн болсо, ылайыктуу код каталарды каалагандай сейрек кыла алат; андан жогору болсо, эч бир код мындай кыла албайт. Ызы-чуу каталарга төмөнкү чек коюбайт. Ал ылдамдыкка гана жогорку чек коёт.\n\n> [!NOTE]\n> Шеннондун маанисиндеги «маалыматтын» чындык, маанилүүлүк же маани менен эч кандай байланышы жок. Бирдей узундуктагы ыр сабы менен кокус тамгалардан турган сап бирдей сандагы битти талап кылышы мүмкүн, ал эми кокус сап көбүнчө көбүрөөк талап кылат, анткени аны алдын ала билүү кыйыныраак.\n\n### Эмне үчүн кыйын болгон жана дагы кимдер ушуга жеткен\n\nКыйын кадам баш тартууга окшош көрүнгөн: билдирүү эмнени билдирерин сурабай, аны ыктымалдык башкарган мүмкүнчүлүктөрдүн арасынан жасалган тандоо катары кароо. Хартли бул кадамдын жарымын жасаган; Шеннон ага ыктымалдыкты, ызы-чууну жана коддоону кошуп, алар тууралуу теоремаларды далилдеген. Ошентсе да анын ызы-чуулуу канал тууралуу теоремасынын далили жалпы схема гана болгон. Ал жакшы коддор болушу керек экенин кокус тандалган коддорду элестетип, алар боюнча орточону эсептөө аркылуу көрсөткөн. Бул ийне чөптүн ичинде бар экенин айтат, бирок кайсы жерде экенин айтпайт. Эң жөнөкөй учур үчүн биринчи толук катаал далилди 1954-жылы Амиэль Файнстейн жарыялаган.\n\nШеннон жалгыз болгон эмес. 1948-жылы америкалык математик Норберт Винер маалыматтын өзүнүн статистикалык өлчөмүн камтыган «Кибернетика» китебин чыгарган, Шеннон да макаласында байланыш теориясы Винерге канчалык карыз экенин белгилеген. 1940-жылдардын башында Блетчли-паркта Тьюринг немистердин «Энигма» билдирүүлөрүн чечип жатканда далилдерди салмактоо үчүн логарифмдик бирдикти — «банды» колдонгон.\n\n![1933-жылы отсчёттор теоремасын так айтып берген совет инженери Владимир Котельников, 1997-жылкы сүрөт](https://upload.wikimedia.org/wikipedia/commons/5/5e/Kotelnikov.jpg \"Leo Medvedev/Лев Леонидович Медведев · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kotelnikov.jpg\")\n\nСоветтер Союзунда радиоинженер Владимир Котельников 1933-жылы жыштыктары чектелген сигналды анын эң жогорку жыштыгынан эки эседен ашык жыштык менен алынган өзүнчө маанилери (отсчёттору) аркылуу толук калыбына келтирүүгө болорун так айтып берген. Музыканы жана үндү сан түрүндө сактоого мүмкүндүк берген принцип мына ушул. Шеннон ошол эле теореманы өз ишине киргизген, бирок аны биринчи ачкан мен деп эч качан айткан эмес; Эдмунд Уиттекер сыяктуу математиктер анын негизиндеги натыйжаны андан да мурун табышкан. Орус тилиндеги окуу китептеринде ал азыр да Котельников теоремасы деп аталат. Мындан тышкары Котельников жашыруун бойдон калган 1941-жылкы отчётунда билдирүүнүн өзүндөй узун жана чындап кокус ачкычы бар шифрди чечүүгө мүмкүн эмес экенин далилдеген. Шеннон да 1945-жылкы катында ушул эле жыйынтыкка өз алдынча келген.\n\n### Бул эмнеге жол ачты\n\n1949-жылы макала *The Mathematical Theory of Communication* деген ат менен китеп болуп чыккан: англис тилинде белгисиз артикль аныкталганга алмашып, «бир теория» эмес, «тигил теория» болуп калган. Китепке Рокфеллер фондунун кызматкери Уоррен Уивердин кеңири окурман үчүн жазган эссеси да кирген. Ошол эле жылы Шеннон Bell Labs мекемесинде сандык анализ боюнча адис болуп иштеген жана кийинки бир нече машинасында аны менен чогуу иштеген Мэри Элизабет «Бетти» Мурга үйлөнгөн.\n\nШеннон дээрлик кемчиликсиз коддор бар экенин көрсөткөн; аларды табуу жарым кылымды алды. Каталарды оңдогон алгачкы коддорду 1949-жылы Марсель Голей, 1950-жылы Bell Labs мекемесинде Ричард Хэмминг жарыялашкан. Роберт Галлагердин 1960-жылдардын башындагы жыштыгы төмөн жуптук текшерүү коддору 1990-жылдарга чейин дээрлик унутулуп калган. Ошондо алар жана Клод Берру, Ален Главьё жана Пунья Титимаджшима 1993-жылы түзгөн «турбокоддор» акыры Шеннондун чегине жакындашкан. Ушул үй-бүлөлөрдүн коддору бүгүн мобилдик телефондордо жана Wi-Fi'да иштейт. Ошол эле теория кысылган файлдардын, компакт-дисктин жана «Вояджер» космостук зонддорунун радиобайланышынын негизинде турат. Советтер Союзунда Андрей Колмогоров менен Александр Хинчин 1950-жылдары теориянын катаал математикалык пайдубалынын көп бөлүгүн түзүшкөн, Колмогоров кийин ага жакын идеяга келген: бир нерседеги маалыматты аны сүрөттөгөн эң кыска баяндын узундугу менен өлчөө.\n\n> [!WARNING]\n> Шеннондун өзү бул дүрбөлөңдөн тынчсызданган. 1956-жылы ал «The Bandwagon» («Баары бир арабага») деген кыска редакциялык макала жазып, маалымат теориясын «балким, чыныгы жетишкендиктеринен ашыра өтө чоң мааниге ээ кылып жиберишти» деп эскерткен. Аны биология, психология же экономика сыяктуу тармактарда колдонуу үчүн, анын айтымында, сөздөрдү жөн эле алуу жетишсиз, гипотеза жана тажрыйба менен акырындык менен текшерүү керек.",
+      "status": "machine"
+    }
+  }
+}
