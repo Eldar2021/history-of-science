@@ -1,0 +1,294 @@
+{
+  "slug": "smartphone",
+  "year": 2007,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 37.784,
+  "lng": -122.4012,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/6/6d/First_iPhone_Macworld_2007_DSCF1286.agr.jpg",
+    "credit": "ArnoldReinhold",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg"
+  },
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "steve-jobs",
+      "birth_year": 1955,
+      "death_year": 2011,
+      "role": "author",
+      "name": {
+        "en": "Steve Jobs",
+        "tr": "Steve Jobs",
+        "ru": "Стив Джобс",
+        "ky": "Стив Джобс"
+      }
+    },
+    {
+      "slug": "frank-canova",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Frank Canova",
+        "tr": "Frank Canova",
+        "ru": "Фрэнк Канова",
+        "ky": "Фрэнк Канова"
+      }
+    },
+    {
+      "slug": "mari-matsunaga",
+      "birth_year": 1954,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Mari Matsunaga",
+        "tr": "Mari Matsunaga",
+        "ru": "Мари Мацунага",
+        "ky": "Мари Мацунага"
+      }
+    },
+    {
+      "slug": "martin-cooper",
+      "birth_year": 1928,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Martin Cooper",
+        "tr": "Martin Cooper",
+        "ru": "Мартин Купер",
+        "ky": "Мартин Купер"
+      }
+    },
+    {
+      "slug": "sophie-wilson",
+      "birth_year": 1957,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Sophie Wilson",
+        "tr": "Sophie Wilson",
+        "ru": "Софи Уилсон",
+        "ky": "Софи Уилсон"
+      }
+    },
+    {
+      "slug": "steve-furber",
+      "birth_year": 1953,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Steve Furber",
+        "tr": "Steve Furber",
+        "ru": "Стив Фербер",
+        "ky": "Стив Фербер"
+      }
+    },
+    {
+      "slug": "stanley-whittingham",
+      "birth_year": 1941,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "M. Stanley Whittingham",
+        "tr": "M. Stanley Whittingham",
+        "ru": "М. Стэнли Уиттингем",
+        "ky": "М. Стэнли Уиттингем"
+      }
+    },
+    {
+      "slug": "john-goodenough",
+      "birth_year": 1922,
+      "death_year": 2023,
+      "role": "predecessor",
+      "name": {
+        "en": "John B. Goodenough",
+        "tr": "John B. Goodenough",
+        "ru": "Джон Гуденаф",
+        "ky": "Джон Гуденаф"
+      }
+    },
+    {
+      "slug": "akira-yoshino",
+      "birth_year": 1948,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Akira Yoshino",
+        "tr": "Akira Yoshino",
+        "ru": "Акира Ёсино",
+        "ky": "Акира Ёсино"
+      }
+    },
+    {
+      "slug": "e-a-johnson",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "E. A. Johnson",
+        "tr": "E. A. Johnson",
+        "ru": "Э. А. Джонсон",
+        "ky": "Э. А. Джонсон"
+      }
+    },
+    {
+      "slug": "wayne-westerman",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Wayne Westerman",
+        "tr": "Wayne Westerman",
+        "ru": "Уэйн Уэстерман",
+        "ky": "Уэйн Уэстерман"
+      }
+    },
+    {
+      "slug": "john-elias",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "John Elias",
+        "tr": "John Elias",
+        "ru": "Джон Элиас",
+        "ky": "Джон Элиас"
+      }
+    },
+    {
+      "slug": "eric-fossum",
+      "birth_year": 1957,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Eric Fossum",
+        "tr": "Eric Fossum",
+        "ru": "Эрик Фоссум",
+        "ky": "Эрик Фоссум"
+      }
+    },
+    {
+      "slug": "gladys-west",
+      "birth_year": 1930,
+      "death_year": 2026,
+      "role": "predecessor",
+      "name": {
+        "en": "Gladys West",
+        "tr": "Gladys West",
+        "ru": "Глэдис Уэст",
+        "ky": "Глэдис Уэст"
+      }
+    }
+  ],
+  "builds_on": [
+    "transistor",
+    "integrated-circuit",
+    "microprocessor",
+    "world-wide-web"
+  ],
+  "sources": [
+    {
+      "title": "Smartphone — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/technology/smartphone"
+    },
+    {
+      "title": "History of smartphones — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_smartphones"
+    },
+    {
+      "title": "iPhone (1st generation) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+    },
+    {
+      "title": "IBM Simon — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/IBM_Simon"
+    },
+    {
+      "title": "Touchscreen — Wikipedia (history section)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Touchscreen"
+    },
+    {
+      "title": "Lithium-ion battery — Wikipedia (history section)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+    },
+    {
+      "title": "ARM architecture family — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/ARM_architecture_family"
+    },
+    {
+      "title": "Gladys West — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gladys_West"
+    },
+    {
+      "title": "iPhone (original), 2007 — Cooper Hewitt, Smithsonian Design Museum collection",
+      "kind": "article",
+      "url": "https://collection.cooperhewitt.org/objects/18733051"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 2019 — press release",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/press-release/"
+    },
+    {
+      "title": "Dr. Wayne C. Westerman — Purdue University ECE Outstanding Alumni",
+      "kind": "article",
+      "url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+    }
+  ],
+  "research_note": "Checked 2026-10-13 against English Wikipedia (History of smartphones; Smartphone; iPhone (1st generation); IBM Simon; Touchscreen; Lithium-ion battery; ARM architecture family; Global Positioning System; Active-pixel sensor; i-mode; Martin Cooper; Gladys West; FingerWorks), the Cooper Hewitt collection record for the original iPhone, and Purdue's alumni profile of Wayne Westerman. Britannica is linked for the human only (automated fetch blocked). The Nobel press release returned 403 to the fetcher; the 2019 prize facts come from Wikipedia. Image licences were read from the Wikimedia Commons API via backend/scripts/pipeline/commons.mjs and are used verbatim.\nCONFIRMED: iPhone announced 9 January 2007 at Macworld, Moscone West, San Francisco; US sale 29 June 2007; 3.5-inch capacitive multi-touch screen; accelerometer, proximity and ambient-light sensors; Samsung-made ARM processor; no 3G, no GPS, no third-party apps at launch; App Store July 2008; HTC Dream October 2008; LG Prada announced December 2006 with a capacitive screen; IBM Simon (Frank Canova lead, COMDEX November 1992, BellSouth sale 16 August 1994, Mitsubishi Electric manufacture, 510 g, about an hour of battery, about 50,000 sold); i-mode 22 February 1999 with Mari Matsunaga leading content planning; Kyocera VP-210 (May 1999) first camera phone, Sharp J-SH04 (November 2000) first mass-market one; Ericsson \"smartphone\" for GS88 concept 1997, R380 2000; ARM first silicon 26 April 1985 (Wilson, Furber); lithium-ion chronology Whittingham 1974, Goodenough/Mizushima 1980, Yoshino 1985, Sony 1991, Nobel 2019; E. A. Johnson 1965/1967; Beck and Stumpe at CERN 1972-73/1977; FingerWorks (Westerman, Elias) acquired by Apple 2005; CMOS active-pixel sensor at JPL 1993 (Fossum), Olympus 1985 in Japan; Cooper's call 3 April 1973; Bell Labs cellular concept 1947; GPS begun 1973, full operational capability April 1995; Gladys West 1930–2026, Air Force Space and Missile Pioneers Hall of Fame 2018; well over a billion smartphones sold in 2019.\nFLAGGED IN THE BODY: \"first smartphone\" is a counting question (IMPORTANT callout names Simon, Ericsson, Japan); the iPhone is framed as an assembly of older work, not a lone invention; Gladys West's role is stated as building Earth-shape models GPS needs, not as \"inventing GPS\" (her Wikipedia GPS paragraph is weakly sourced).\nREVIEWER SHOULD CHECK: place is San Francisco (announcement venue); Cupertino (Apple's headquarters, where it was designed) is the alternative. The iPhone 3G's GPS was assisted GPS. The DynaTAC figure's Commons description says only \"Motorola DynaTAC\" and is a crop of a 2007 photo of Martin Cooper, so the caption describes the handset family, not the specific 1973 prototype. Birth years for Frank Canova, E. A. Johnson, Wayne Westerman and John Elias were not confirmed and are left empty. builds_on names integrated-circuit, which is not written yet.\nFACT-CHECKER PASS (2026-10-13): all dated claims confirmed. Fixed in all four languages: the 2019 figure, first written as about 1.5 billion shipped (Wikipedia's 1.54 billion is unsourced; IDC/Canalys report about 1.37 billion shipped), now reads \"well over a billion sold\"; \"showed web pages squeezed into a mobile version\" softened with \"often\" (Nokia's S60 browser showed full pages from 2005); Turkish summary \"on yıllık\" (ten years) corrected to \"onlarca yıllık\" (decades); Russian and Kyrgyz \"Франк Бек\" unified to \"Фрэнк Бек\". Goodenough's 1980 cathode work was shared with Koichi Mizushima (not named in the body). Beck and Stumpe appear in the body but not in people.\nKYRGYZ TERMS: no glossary entry marked \"check\" is used. Not in the glossary, chosen as Russian borrowings or plain Kyrgyz by the fallback rule and worth a look: смартфон, микросхема, процессор, сенсордук экран, стилус, батарея (кубаттала турган = rechargeable), уюлдук байланыш (cellular), спутник аркылуу жайгашкан жерди аныктоо (satellite positioning), ийилүү сенсору (tilt sensor) is a guess, Аскердик-деңиз флоту / Аскердик-аба күчтөрү for US Navy / Air Force, section heading \"Окуя болгон чөйрө\" for The scene.",
+  "translations": {
+    "en": {
+      "title": "The smartphone: sixty years of science in a pocket",
+      "summary": "In 2007 the iPhone made the screen the whole phone. Inside it were decades of other people's work: the transistor, the ARM chip, the lithium-ion battery, the touchscreen.",
+      "body": "![The first iPhone on public display under a glass dome at Macworld in San Francisco, on the day it was announced](https://upload.wikimedia.org/wikipedia/commons/6/6d/First_iPhone_Macworld_2007_DSCF1286.agr.jpg \"ArnoldReinhold · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg\")\n\n### The scene\n\nAt the start of 2007, carrying a phone was normal and carrying the internet was not. Most phones made calls, sent short text messages and had a small keypad. The phones that could do more, the BlackBerry for email, Nokia's Communicators and the many phones running the Symbian system, put a keyboard of tiny buttons or a stylus between the person and the screen, and often showed web pages squeezed into a rough mobile version. Japan was further ahead: NTT DoCoMo's i-mode service, launched in February 1999 with a team that included the content planner Mari Matsunaga, had brought email and simple web services to tens of millions of phones, and the first mass-market camera phone, Sharp's J-SH04, had gone on sale there in November 2000.\n\nThe idea of a phone that is also a small computer was already old. IBM's engineer Frank Canova led the team behind the Simon, shown as a prototype in November 1992 and sold by the US company BellSouth from August 1994. Built by Mitsubishi Electric, it had a touchscreen, an address book, a calendar, email and fax. It weighed about half a kilogram, its battery lasted about an hour, and roughly 50,000 were sold.\n\n![The IBM Simon Personal Communicator, from the early 1990s, in the Computer History Museum](https://upload.wikimedia.org/wikipedia/commons/8/8a/IBM_Simon_Personal_Communicator_%281993%29_-_the_first_smartphone_-_Computer_History_Museum.jpg \"Michael Hicks from Saint Paul, MN, USA · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg\")\n\n### What happened\n\nOn 9 January 2007, at the Macworld conference in San Francisco, Steve Jobs announced Apple's iPhone; it went on sale in the United States on 29 June. Its front was almost all screen: a 3.5-inch glass panel that sensed a bare finger, and more than one finger at once, so a photo or a page could be enlarged by spreading two fingers apart. There was no keypad and no stylus; a keyboard appeared on the glass only when needed. Its browser showed ordinary web pages, the same ones a computer showed, rather than a cut-down mobile version. Inside were a tilt sensor that turned the picture when the phone was turned, a sensor that switched off the screen when the phone was held to the ear, and another that adjusted the brightness to the room.\n\nIt was not the first of anything on its own. The LG Prada, announced in December 2006, already had a large finger-sensing screen. What the iPhone did was put the pieces together in a way that made the screen, not the buttons, the place where everything happens.\n\nA way to picture it: a smartphone is like a city skyline seen from a distance, a single shape built over decades by people who never met. The comparison breaks in one place: buildings in a city stand side by side and can be built separately, while every part of a phone had to be shrunk, rebuilt and made to share one small battery before they could work together.\n\n### What was already inside it\n\nThe title \"sixty years of science in a pocket\" is meant literally. The iPhone of 2007 rested on work that began long before Apple was involved.\n\n| Part | Where it came from |\n| --- | --- |\n| Transistors | Bell Labs, 1947; a modern phone chip holds billions of them |\n| A processor that sips power | The ARM design, created at Acorn in Cambridge by Sophie Wilson and Steve Furber; the first chips worked in April 1985. The first iPhone's processor was an ARM chip made by Samsung |\n| A battery that can be recharged hundreds of times | Lithium-ion: Stanley Whittingham in the 1970s, John Goodenough's cobalt oxide in 1980, Akira Yoshino's working design in 1985, first sold by Sony in 1991; Nobel Prize in Chemistry, 2019 |\n| A screen that feels a finger | E. A. Johnson at the Royal Radar Establishment in Malvern, England, described the first finger touchscreen in 1965–67; Frank Beck and Bent Stumpe built one at CERN in the 1970s; Wayne Westerman and John Elias's company FingerWorks, which made multi-finger touch pads, was bought by Apple in 2005 |\n| A camera on a chip | Image sensors made with ordinary chip technology, developed in Japan from the 1980s and at NASA's Jet Propulsion Laboratory in 1993 under Eric Fossum |\n| A phone without wires | Bell Labs proposed the cellular idea in 1947; Martin Cooper of Motorola made the first call from a handheld cellular phone in New York on 3 April 1973 |\n\n![A Motorola DynaTAC, the brick-sized family of handsets that carried the first handheld cellular calls](https://upload.wikimedia.org/wikipedia/commons/7/7f/Motorola_DynaTAC.jpg \"2007Computex e21Forum-MartinCooper.jpg Rico Shen derivative work: ויקיג'אנקי · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg\")\n\n> [!NOTE]\n> Satellite positioning, the blue dot on today's maps, was not in the first iPhone at all; it arrived in the iPhone 3G in 2008. The system itself was begun by the US military in 1973 and declared fully working in 1995. It needs a very exact model of Earth's shape, and the mathematician Gladys West spent decades at a US Navy laboratory building such models from satellite data; the US Air Force honoured her for that work in 2018.\n\n### Why it was hard\n\nEach of these pieces existed, but not in a form that fit in a pocket and ran all day. The Simon shows the problem: a phone with a computer inside it in 1994 was heavy, expensive and flat within an hour. It took fifteen years of chips that did more work for less electricity, batteries that stored more in less space, and screens that were cheap, bright and could sense a finger through glass.\n\nThe networks were a second wall. A phone is only as useful as the data it can reach, and in 2007 mobile data was slow and costly in most of the world. The first iPhone itself could not use the faster third-generation networks, had no satellite positioning and could not install programs from other companies. Critics pointed all of this out at the time.\n\n> [!IMPORTANT]\n> \"The first smartphone\" depends on what you count. The IBM Simon of 1994 is the usual answer for a phone with a touchscreen and built-in programs. Ericsson used the word \"smartphone\" for a concept in 1997 and sold the R380 under that name in 2000. Japan had a mobile internet years before the United States. The iPhone is not the first smartphone; it is the one after which the smartphone became the normal kind of phone.\n\n### What it opened\n\nThe bigger change came a year later. In July 2008 Apple opened the App Store, letting outside programmers sell programs for the phone, and in October 2008 the first phone running Google's Android system, the HTC Dream, built by a Taiwanese company, went on sale. Android was offered to many manufacturers, and phones from Asian makers soon carried it around the world. In 2019 well over a billion smartphones were sold.\n\nFor many people the result was that their first computer, first camera and first connection to the internet were the same object, and that it fitted in a pocket. The phone became the place where maps, banking, messages and photographs live, and it was built from sixty years of physics, chemistry and mathematics that almost nobody holding it has to think about.",
+      "why_it_matters": "The smartphone put a computer, a camera, a map and the internet into one object that billions of people carry. For many of them it was the first computer they ever owned, and it gathered sixty years of physics, chemistry and mathematics into something used without a thought.",
+      "if_you_were_there": "You looked up an address on a computer at home and wrote it down, or carried a paper map. A phone that showed the whole web, with your fingers on the glass, was something nobody in the room had held.",
+      "place_name": "San Francisco",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Akıllı telefon: cepte altmış yıllık bilim",
+      "summary": "2007'de iPhone ekranı telefonun kendisi yaptı. İçinde başkalarının onlarca yıllık emeği vardı: transistör, ARM çipi, lityum-iyon pil, dokunmatik ekran.",
+      "body": "![İlk iPhone, tanıtıldığı gün San Francisco'daki Macworld fuarında cam bir fanusun altında sergileniyor](https://upload.wikimedia.org/wikipedia/commons/6/6d/First_iPhone_Macworld_2007_DSCF1286.agr.jpg \"ArnoldReinhold · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg\")\n\n### Sahne\n\n2007'nin başında cepte telefon taşımak olağandı, interneti taşımak değil. Çoğu telefon arama yapar, kısa mesaj gönderir ve küçük bir tuş takımı taşırdı. Daha fazlasını yapabilenler, e-posta için BlackBerry, Nokia'nın Communicator'ları ve Symbian sistemiyle çalışan pek çok telefon, insanla ekran arasına minik tuşlardan bir klavye ya da bir kalem koyuyor, web sayfalarını çoğu zaman kaba bir mobil sürüme sıkıştırarak gösteriyordu. Japonya daha ilerideydi: NTT DoCoMo'nun Şubat 1999'da açılan, içerik planlamacısı Mari Matsunaga'nın da ekibinde yer aldığı i-mode hizmeti, on milyonlarca telefona e-posta ve basit web hizmetleri getirmişti; ilk kitlesel kameralı telefon Sharp J-SH04 de Kasım 2000'de orada satışa çıkmıştı.\n\nAynı zamanda küçük bir bilgisayar olan telefon fikri zaten eskiydi. IBM mühendisi Frank Canova'nın yönettiği ekip Simon'u yaptı: Kasım 1992'de prototip olarak gösterildi, Ağustos 1994'ten itibaren ABD şirketi BellSouth tarafından satıldı. Mitsubishi Electric'in ürettiği cihazın dokunmatik ekranı, adres defteri, takvimi, e-postası ve faksı vardı. Yaklaşık yarım kilo ağırlığındaydı, pili bir saat kadar dayanıyordu ve aşağı yukarı 50.000 adet satıldı.\n\n![IBM Simon Personal Communicator, 1990'ların başından; Bilgisayar Tarihi Müzesi'nde](https://upload.wikimedia.org/wikipedia/commons/8/8a/IBM_Simon_Personal_Communicator_%281993%29_-_the_first_smartphone_-_Computer_History_Museum.jpg \"Michael Hicks from Saint Paul, MN, USA · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg\")\n\n### Ne oldu\n\n9 Ocak 2007'de San Francisco'daki Macworld konferansında Steve Jobs, Apple'ın iPhone'unu tanıttı; telefon 29 Haziran'da ABD'de satışa çıktı. Önü neredeyse tamamen ekrandı: çıplak parmağı, hatta aynı anda birden fazla parmağı algılayan 3,5 inçlik bir cam panel. Böylece bir fotoğraf ya da sayfa iki parmağı birbirinden uzaklaştırarak büyütülebiliyordu. Tuş takımı da kalem de yoktu; klavye camın üstünde yalnızca gerektiğinde beliriyordu. Tarayıcısı, sayfaların kırpılmış mobil sürümlerini değil, bilgisayarın gösterdiği sıradan web sayfalarını gösteriyordu. İçinde telefon çevrildiğinde görüntüyü de çeviren bir eğim algılayıcısı, telefon kulağa götürülünce ekranı kapatan bir algılayıcı ve parlaklığı odanın ışığına göre ayarlayan bir başkası vardı.\n\nTek başına hiçbir şeyin ilki değildi. Aralık 2006'da duyurulan LG Prada'da zaten parmağı algılayan büyük bir ekran vardı. iPhone'un yaptığı, parçaları öyle bir araya getirmekti ki her şeyin olduğu yer tuşlar değil ekran oldu.\n\nŞöyle düşünebilirsin: akıllı telefon, uzaktan bakılan bir şehir silueti gibidir; birbirini hiç tanımamış insanların on yıllar boyunca inşa ettiği tek bir biçim. Benzetme bir yerde bozulur: şehirdeki binalar yan yana durur ve ayrı ayrı yapılabilir; telefonun her parçası ise birlikte çalışabilmek için küçültülmek, yeniden tasarlanmak ve tek bir küçük pili paylaşmak zorundaydı.\n\n### İçinde zaten neler vardı\n\n\"Cepte altmış yıllık bilim\" sözü mecaz değil. 2007'nin iPhone'u, Apple'ın işin içinde olmadığı çok daha eski çalışmaların üstünde duruyordu.\n\n| Parça | Nereden geldi |\n| --- | --- |\n| Transistörler | Bell Laboratuvarları, 1947; bugünün telefon çipinde milyarlarcası var |\n| Az elektrik yiyen işlemci | Cambridge'deki Acorn şirketinde Sophie Wilson ve Steve Furber'ın yarattığı ARM tasarımı; ilk çipler Nisan 1985'te çalıştı. İlk iPhone'un işlemcisi Samsung'un ürettiği bir ARM çipiydi |\n| Yüzlerce kez şarj edilebilen pil | Lityum-iyon: 1970'lerde Stanley Whittingham, 1980'de John Goodenough'un kobalt oksidi, 1985'te Akira Yoshino'nun çalışan tasarımı; ilk kez 1991'de Sony sattı; 2019 Nobel Kimya Ödülü |\n| Parmağı hisseden ekran | İngiltere'de Malvern'deki Kraliyet Radar Kurumu'ndan E. A. Johnson ilk parmakla kullanılan dokunmatik ekranı 1965–67'de tanımladı; Frank Beck ve Bent Stumpe 1970'lerde CERN'de bir tane yaptı; çok parmaklı dokunmatik yüzeyler yapan, Wayne Westerman ile John Elias'ın şirketi FingerWorks'ü 2005'te Apple satın aldı |\n| Çipin üstünde bir kamera | Sıradan çip teknolojisiyle yapılan görüntü algılayıcıları; 1980'lerden itibaren Japonya'da, 1993'te de NASA'nın Jet İtki Laboratuvarı'nda Eric Fossum'un yönetiminde geliştirildi |\n| Kablosuz telefon | Hücresel ağ fikrini Bell Laboratuvarları 1947'de önerdi; Motorola'dan Martin Cooper elde taşınan bir hücresel telefonla ilk aramayı 3 Nisan 1973'te New York'ta yaptı |\n\n![Motorola DynaTAC: elde taşınan ilk hücresel aramaları yapan, tuğla büyüklüğündeki telefon ailesi](https://upload.wikimedia.org/wikipedia/commons/7/7f/Motorola_DynaTAC.jpg \"2007Computex e21Forum-MartinCooper.jpg Rico Shen derivative work: ויקיג'אנקי · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg\")\n\n> [!NOTE]\n> Uydudan konum bulma, bugünkü haritalardaki mavi nokta, ilk iPhone'da hiç yoktu; 2008'de iPhone 3G ile geldi. Sistemin kendisine ABD ordusu 1973'te başladı ve 1995'te tam çalışır ilan edildi. Sistem, Dünya'nın biçiminin çok kesin bir modeline ihtiyaç duyar; matematikçi Gladys West, ABD Donanması'nın bir laboratuvarında onlarca yıl uydu verilerinden böyle modeller kurdu. ABD Hava Kuvvetleri onu bu çalışması için 2018'de onurlandırdı.\n\n### Neden zordu\n\nBu parçaların her biri vardı, ama cebe sığan ve bütün gün çalışan bir biçimde değil. Simon sorunu gösteriyor: 1994'te içinde bilgisayar olan bir telefon ağır ve pahalıydı, bir saat içinde de pili bitiyordu. Daha az elektrikle daha çok iş yapan çipler, daha az yerde daha çok enerji tutan piller ve ucuz, parlak, camın ardından parmağı algılayabilen ekranlar için on beş yıl gerekti.\n\nAğlar ikinci duvardı. Bir telefon ancak ulaşabildiği veri kadar işe yarar ve 2007'de mobil veri dünyanın çoğu yerinde yavaş ve pahalıydı. İlk iPhone'un kendisi daha hızlı üçüncü nesil ağları kullanamıyor, uydudan konum bulamıyor ve başka şirketlerin programlarını yükleyemiyordu. Eleştirmenler bunların hepsini o zaman dile getirdi.\n\n> [!IMPORTANT]\n> \"İlk akıllı telefon\" neyi saydığına bağlı. Dokunmatik ekranlı ve programları yüklü bir telefon için olağan cevap 1994'ün IBM Simon'u. Ericsson \"smartphone\" sözcüğünü 1997'de bir tasarım için kullandı ve 2000'de R380'i bu adla sattı. Japonya'da mobil internet ABD'den yıllar önce vardı. iPhone ilk akıllı telefon değil; ondan sonra akıllı telefon, telefonun sıradan biçimi oldu.\n\n### Ardından ne geldi\n\nAsıl değişiklik bir yıl sonra geldi. Temmuz 2008'de Apple, dışarıdan programcıların telefon için program satabildiği App Store'u açtı; Ekim 2008'de Google'ın Android sistemiyle çalışan ilk telefon, Tayvanlı HTC şirketinin yaptığı HTC Dream satışa çıktı. Android pek çok üreticiye sunuldu ve kısa sürede Asyalı üreticilerin telefonları onu dünyanın her yerine taşıdı. 2019'da bir milyardan çok fazla akıllı telefon satıldı.\n\nPek çok insan için sonuç şu oldu: ilk bilgisayarları, ilk fotoğraf makineleri ve internete ilk bağlantıları aynı nesneydi ve bu nesne cebe sığıyordu. Telefon; haritaların, bankacılığın, mesajların ve fotoğrafların yaşadığı yer oldu. Ve onu elinde tutan neredeyse hiç kimsenin düşünmesi gerekmeyen altmış yıllık fizik, kimya ve matematikten yapılmıştı.",
+      "why_it_matters": "Akıllı telefon bir bilgisayarı, bir fotoğraf makinesini, bir haritayı ve interneti milyarlarca insanın taşıdığı tek bir nesneye koydu. Birçoğu için sahip oldukları ilk bilgisayardı; altmış yıllık fizik, kimya ve matematiği hiç düşünmeden kullanılan bir şeyde topladı.",
+      "if_you_were_there": "Bir adresi evdeki bilgisayardan bakıp kâğıda yazardın ya da yanında kâğıt harita taşırdın. Parmaklarının camın üstünde olduğu, web'in tamamını gösteren bir telefonu odadaki kimse eline almamıştı.",
+      "place_name": "San Francisco",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Смартфон: шестьдесят лет науки в кармане",
+      "summary": "В 2007 году iPhone превратил экран в весь телефон. Внутри был многолетний труд других людей: транзистор, процессор ARM, литий-ионная батарея, сенсорный экран.",
+      "body": "![Первый iPhone под стеклянным колпаком на выставке Macworld в Сан-Франциско в день его презентации](https://upload.wikimedia.org/wikipedia/commons/6/6d/First_iPhone_Macworld_2007_DSCF1286.agr.jpg \"ArnoldReinhold · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg\")\n\n### Обстановка\n\nВ начале 2007 года носить с собой телефон было обычным делом, а носить с собой интернет — нет. Большинство телефонов звонили, отправляли короткие сообщения и имели маленькую клавиатуру с цифрами. Те, что умели больше, — BlackBerry для электронной почты, коммуникаторы Nokia и множество телефонов на системе Symbian, — ставили между человеком и экраном клавиатуру из крошечных кнопок или стилус и часто показывали веб-страницы, сжатые до грубой мобильной версии. Япония ушла дальше: служба i-mode компании NTT DoCoMo, запущенная в феврале 1999 года командой, в которую входила специалист по контенту Мари Мацунага, принесла электронную почту и простые веб-сервисы на десятки миллионов телефонов, а первый массовый телефон с камерой, Sharp J-SH04, поступил там в продажу в ноябре 2000 года.\n\nСама идея телефона, который одновременно маленький компьютер, была не новой. Команда инженера IBM Фрэнка Кановы создала Simon: прототип показали в ноябре 1992 года, а с августа 1994 года его продавала американская компания BellSouth. Устройство, собранное Mitsubishi Electric, имело сенсорный экран, адресную книгу, календарь, электронную почту и факс. Оно весило около полукилограмма, батареи хватало примерно на час, и продали около 50 000 штук.\n\n![IBM Simon Personal Communicator начала 1990-х годов в Музее компьютерной истории](https://upload.wikimedia.org/wikipedia/commons/8/8a/IBM_Simon_Personal_Communicator_%281993%29_-_the_first_smartphone_-_Computer_History_Museum.jpg \"Michael Hicks from Saint Paul, MN, USA · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg\")\n\n### Что произошло\n\n9 января 2007 года на конференции Macworld в Сан-Франциско Стив Джобс представил iPhone компании Apple; в США он поступил в продажу 29 июня. Его лицевая сторона была почти целиком экраном: стеклянная панель диагональю 3,5 дюйма, чувствовавшая голый палец и даже несколько пальцев сразу, так что фотографию или страницу можно было увеличить, раздвинув два пальца. Не было ни кнопок с цифрами, ни стилуса: клавиатура появлялась на стекле только тогда, когда была нужна. Браузер показывал обычные веб-страницы, те же, что и компьютер, а не урезанные мобильные версии. Внутри были датчик наклона, поворачивавший изображение вместе с телефоном, датчик, выключавший экран у уха, и ещё один, подстраивавший яркость под освещение комнаты.\n\nСам по себе он не был первым ни в чём. У LG Prada, анонсированного в декабре 2006 года, уже был большой экран, чувствовавший палец. iPhone соединил части так, что главным местом, где всё происходит, стал экран, а не кнопки.\n\nЭто можно представить так: смартфон похож на силуэт города издалека — единую форму, которую десятилетиями строили люди, никогда не встречавшиеся друг с другом. Сравнение ломается в одном месте: дома в городе стоят рядом и строятся по отдельности, а каждую часть телефона пришлось уменьшить, переделать и заставить делить одну маленькую батарею, прежде чем они смогли работать вместе.\n\n### Что уже было внутри\n\nСлова «шестьдесят лет науки в кармане» стоит понимать буквально. iPhone 2007 года опирался на работу, начатую задолго до того, как в ней появилась Apple.\n\n| Деталь | Откуда она взялась |\n| --- | --- |\n| Транзисторы | Bell Labs, 1947 год; в современной микросхеме телефона их миллиарды |\n| Процессор, потребляющий мало энергии | Архитектура ARM, созданная в компании Acorn в Кембридже Софи Уилсон и Стивом Фербером; первые микросхемы заработали в апреле 1985 года. Процессор первого iPhone был микросхемой ARM производства Samsung |\n| Батарея, которую можно заряжать сотни раз | Литий-ионная: Стэнли Уиттингем в 1970-х, оксид кобальта Джона Гуденафа в 1980 году, работающая конструкция Акиры Ёсино в 1985 году; первой в продажу её выпустила Sony в 1991 году; Нобелевская премия по химии 2019 года |\n| Экран, чувствующий палец | Э. А. Джонсон из Королевского радиолокационного института в Малверне (Англия) описал первый сенсорный экран для пальца в 1965–1967 годах; Фрэнк Бек и Бент Стумпе построили такой в ЦЕРН в 1970-х; компанию FingerWorks Уэйна Уэстермана и Джона Элиаса, делавшую сенсорные панели для нескольких пальцев, Apple купила в 2005 году |\n| Камера на микросхеме | Датчики изображения, сделанные по обычной технологии микросхем, разрабатывали в Японии с 1980-х, а в 1993 году — в Лаборатории реактивного движения NASA под руководством Эрика Фоссума |\n| Телефон без проводов | Идею сотовой связи предложили в Bell Labs в 1947 году; Мартин Купер из Motorola сделал первый звонок с портативного сотового телефона в Нью-Йорке 3 апреля 1973 года |\n\n![Motorola DynaTAC — семейство телефонов размером с кирпич, с которых шли первые звонки с портативного сотового телефона](https://upload.wikimedia.org/wikipedia/commons/7/7f/Motorola_DynaTAC.jpg \"2007Computex e21Forum-MartinCooper.jpg Rico Shen derivative work: ויקיג'אנקי · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg\")\n\n> [!NOTE]\n> Спутникового определения местоположения — синей точки на сегодняшних картах — в первом iPhone не было вовсе; оно появилось в iPhone 3G в 2008 году. Саму систему американские военные начали создавать в 1973 году и объявили полностью работающей в 1995 году. Ей нужна очень точная модель формы Земли, и математик Глэдис Уэст десятилетиями строила такие модели по спутниковым данным в лаборатории ВМС США; в 2018 году ВВС США отметили её за эту работу.\n\n### Почему это было трудно\n\nКаждая из этих частей существовала, но не в виде, который помещается в карман и работает весь день. Simon показывает проблему: телефон с компьютером внутри в 1994 году был тяжёлым, дорогим и разряжался за час. Понадобилось пятнадцать лет: микросхемы, делающие больше работы при меньшем расходе электричества, батареи, хранящие больше энергии в меньшем объёме, и экраны — дешёвые, яркие и чувствующие палец через стекло.\n\nВторой стеной были сети. Телефон полезен настолько, насколько доступны ему данные, а в 2007 году мобильный интернет почти везде в мире был медленным и дорогим. Первый iPhone сам не умел работать в более быстрых сетях третьего поколения, не определял местоположение по спутникам и не позволял устанавливать программы других компаний. Критики говорили обо всём этом ещё тогда.\n\n> [!IMPORTANT]\n> «Первый смартфон» зависит от того, что считать. Для телефона с сенсорным экраном и встроенными программами обычный ответ — IBM Simon 1994 года. Ericsson назвал словом «smartphone» концепт в 1997 году и продавал под этим именем R380 в 2000 году. Мобильный интернет в Японии появился на годы раньше, чем в США. iPhone не первый смартфон; после него смартфон стал обычным видом телефона.\n\n### Что это открыло\n\nБольшая перемена пришла через год. В июле 2008 года Apple открыла App Store, где сторонние программисты могли продавать программы для телефона, а в октябре 2008 года в продажу поступил первый телефон на системе Android от Google — HTC Dream тайваньской компании HTC. Android предлагали многим производителям, и вскоре телефоны азиатских компаний разнесли его по всему миру. В 2019 году было продано намного больше миллиарда смартфонов.\n\nДля многих людей итог оказался таким: их первый компьютер, первый фотоаппарат и первое подключение к интернету стали одним предметом, и этот предмет помещался в кармане. Телефон стал местом, где живут карты, банк, переписка и фотографии, и он собран из шестидесяти лет физики, химии и математики, о которых почти никому из тех, кто держит его в руке, не приходится думать.",
+      "why_it_matters": "Смартфон соединил компьютер, фотоаппарат, карту и интернет в одном предмете, который носят с собой миллиарды людей. Для многих он стал первым собственным компьютером и собрал шестьдесят лет физики, химии и математики в вещь, которой пользуются не задумываясь.",
+      "if_you_were_there": "Адрес вы искали на домашнем компьютере и переписывали на бумагу или носили с собой бумажную карту. Телефона, который показывает весь интернет и слушается пальцев на стекле, никто вокруг ещё не держал в руках.",
+      "place_name": "Сан-Франциско",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Смартфон: чөнтөктөгү алтымыш жылдык илим",
+      "summary": "2007-жылы iPhone экранды телефондун өзүнө айлантты. Анын ичинде башкалардын көп жылдык эмгеги бар эле: транзистор, ARM процессору, литий-иондук батарея, сенсордук экран.",
+      "body": "![Биринчи iPhone тааныштырылган күнү Сан-Францискодогу Macworld көргөзмөсүндө айнек капкактын астында турат](https://upload.wikimedia.org/wikipedia/commons/6/6d/First_iPhone_Macworld_2007_DSCF1286.agr.jpg \"ArnoldReinhold · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg\")\n\n### Окуя болгон чөйрө\n\n2007-жылдын башында телефонду чөнтөккө салып жүрүү кадимки иш болчу, ал эми интернетти көтөрүп жүрүү андай эмес эле. Көпчүлүк телефондор чалып, кыска билдирүү жөнөтүп, кичинекей сандык баскычтары менен гана иштечү. Көбүрөөк нерсе кыла алгандары — электрондук почта үчүн BlackBerry, Nokia'нын коммуникаторлору жана Symbian системасындагы көптөгөн телефондор — адам менен экрандын ортосуна майда баскычтуу клавиатураны же стилусту коюп, веб-баракчаларды көбүнчө мобилдик нускага кысып көрсөтчү. Япония алдыда болчу: NTT DoCoMo компаниясынын 1999-жылдын февралында ишке киргизилген i-mode кызматы — анын командасында мазмун пландоочу Мари Мацунага да бар эле — он миллиондогон телефонго электрондук почта менен жөнөкөй веб-кызматтарды алып келген. Камерасы бар биринчи массалык телефон Sharp J-SH04 да ошол жерде 2000-жылдын ноябрында сатыкка чыккан.\n\nОшол эле учурда кичинекей компьютер да боло турган телефон идеясы эски болчу. Аны IBM инженери Фрэнк Канова жетектеген команда Simon деген ат менен жасаган: прототиби 1992-жылдын ноябрында көрсөтүлүп, 1994-жылдын августунан тартып аны америкалык BellSouth компаниясы саткан. Mitsubishi Electric чыгарган бул аппараттын сенсордук экраны, дарек китепчеси, календары, электрондук почтасы жана факсы бар болчу. Анын салмагы жарым килограммдай эле, батареясы бир саатка жакын чыдачу, болжол менен 50 000 даана сатылган.\n\n![1990-жылдардын башындагы IBM Simon Personal Communicator, Компьютер тарыхы музейинде](https://upload.wikimedia.org/wikipedia/commons/8/8a/IBM_Simon_Personal_Communicator_%281993%29_-_the_first_smartphone_-_Computer_History_Museum.jpg \"Michael Hicks from Saint Paul, MN, USA · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg\")\n\n### Эмне болду\n\n2007-жылдын 9-январында Сан-Францискодогу Macworld конференциясында Стив Джобс Apple компаниясынын iPhone'ун тааныштырды; АКШда ал 29-июнда сатыкка чыкты. Анын алдыңкы бети дээрлик толугу менен экран эле: жылаңач манжаны, атүгүл бир эле учурда бир нече манжаны сезген 3,5 дюймдук айнек панель. Ошондуктан сүрөттү же баракчаны эки манжаны бири-биринен алыстатып чоңойтууга болчу. Сандык баскычтар да, стилус да жок эле; клавиатура айнектин бетинде керек болгондо гана пайда болчу. Анын браузери кесилген мобилдик нускаларды эмес, компьютер көрсөткөн кадимки веб-баракчаларды көрсөтчү. Ичинде телефон бурулганда сүрөттү да бура турган ийилүү сенсору, телефон кулакка жакындаганда экранды өчүргөн сенсор жана жарыкты бөлмөнүн жарыгына жараша жөндөгөн дагы бир сенсор бар эле.\n\nАл өз алдынча эч нерсенин биринчиси болгон эмес. 2006-жылдын декабрында жарыяланган LG Prada'да манжаны сезген чоң экран мурунтан эле бар болчу. iPhone бөлүктөрдү баары баскычтарда эмес, экранда боло тургандай кылып бириктирди.\n\nМуну мындай элестетүүгө болот: смартфон алыстан көрүнгөн шаардын силуэтине окшош — бири-бирин эч качан көрбөгөн адамдар ондогон жылдар бою курган бир бүтүн форма. Салыштыруу бир жерде бузулат: шаардагы үйлөр катар турат жана өз-өзүнчө курулушу мүмкүн, ал эми телефондун ар бир бөлүгү чогуу иштей алышы үчүн кичирейтилип, кайра долбоорлонуп, бир кичинекей батареяны бөлүшүүгө тийиш болгон.\n\n### Анын ичинде эмнелер мурунтан эле бар болчу\n\n«Чөнтөктөгү алтымыш жылдык илим» деген сөз түз мааниде. 2007-жылдагы iPhone Apple иштин ичинде болбогон убактан бир топ мурун башталган эмгектин үстүндө турган.\n\n| Бөлүгү | Каяктан келген |\n| --- | --- |\n| Транзисторлор | Bell Labs, 1947-жыл; азыркы телефондун микросхемасында алардын миллиарддаганы бар |\n| Аз энергия жеген процессор | Кембридждеги Acorn компаниясында Софи Уилсон менен Стив Фербер түзгөн ARM архитектурасы; алгачкы микросхемалар 1985-жылдын апрелинде иштеп кеткен. Биринчи iPhone'дун процессору Samsung чыгарган ARM микросхемасы болчу |\n| Жүздөгөн жолу кубаттала турган батарея | Литий-иондук: 1970-жылдары Стэнли Уиттингем, 1980-жылы Джон Гуденафтын кобальт оксиди, 1985-жылы Акира Ёсинонун иштеген конструкциясы; аны биринчи жолу 1991-жылы Sony саткан; 2019-жылкы химия боюнча Нобель сыйлыгы |\n| Манжаны сезген экран | Англиядагы Малверндин Королдук радиолокация мекемесинен Э. А. Джонсон манжа менен иштеген биринчи сенсордук экранды 1965–1967-жылдары сүрөттөгөн; Фрэнк Бек менен Бент Стумпе 1970-жылдары ЦЕРНде андай экран курушкан; бир нече манжаны сезген сенсордук панелдерди жасаган Уэйн Уэстерман менен Джон Элиастын FingerWorks компаниясын 2005-жылы Apple сатып алган |\n| Микросхемадагы камера | Кадимки микросхема технологиясы менен жасалган сүрөт сенсорлору; 1980-жылдардан тартып Японияда, 1993-жылы NASAнын Реактивдүү кыймыл лабораториясында Эрик Фоссумдун жетекчилиги менен иштелип чыккан |\n| Зымсыз телефон | Уюлдук байланыш идеясын Bell Labs 1947-жылы сунуштаган; Motorola'дан Мартин Купер колго көтөрүп жүрүүчү уюлдук телефон менен биринчи чалууну 1973-жылдын 3-апрелинде Нью-Йоркто жасаган |\n\n![Motorola DynaTAC — колго көтөрүп жүрүүчү уюлдук телефондон алгачкы чалуулар жасалган, кирпичтей чоң телефондордун үй-бүлөсү](https://upload.wikimedia.org/wikipedia/commons/7/7f/Motorola_DynaTAC.jpg \"2007Computex e21Forum-MartinCooper.jpg Rico Shen derivative work: ויקיג'אנקי · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg\")\n\n> [!NOTE]\n> Спутник аркылуу жайгашкан жерди аныктоо — азыркы карталардагы көк чекит — биринчи iPhone'до таптакыр жок болчу; ал 2008-жылы iPhone 3G менен келген. Системанын өзүн АКШнын аскерлери 1973-жылы түзө баштап, 1995-жылы толук иштеп жатат деп жарыялашкан. Ага Жердин формасынын абдан так модели керек, жана математик Глэдис Уэст АКШнын Аскердик-деңиз флотунун лабораториясында ондогон жылдар бою спутник маалыматтарынан ошондой моделдерди курган; 2018-жылы АКШнын Аскердик-аба күчтөрү аны ушул эмгеги үчүн сыйлаган.\n\n### Эмне үчүн кыйын болду\n\nБул бөлүктөрдүн ар бири бар болчу, бирок чөнтөккө батып, күнү бою иштей турган түрдө эмес. Simon көйгөйдү көрсөтөт: 1994-жылы ичинде компьютери бар телефон оор, кымбат болчу жана бир сааттын ичинде өчүп калчу. Азыраак электр менен көбүрөөк иш жасаган микросхемалар, азыраак орунда көбүрөөк энергия сактаган батареялар жана арзан, жарык, айнектин аркы өйүзүнөн манжаны сезген экрандар үчүн он беш жыл керек болду.\n\nЭкинчи дубал тармактар болчу. Телефон жете алган маалыматтай гана пайдалуу, ал эми 2007-жылы мобилдик интернет дүйнөнүн көпчүлүк жеринде жай жана кымбат эле. Биринчи iPhone'дун өзү үчүнчү муундагы ылдамыраак тармактарда иштей алчу эмес, жайгашкан жерди спутник аркылуу аныктачу эмес жана башка компаниялардын программаларын орното алчу эмес. Сынчылар мунун баарын ошол кезде эле айтышкан.\n\n> [!IMPORTANT]\n> «Биринчи смартфон» эмнени эсептегениңизге жараша болот. Сенсордук экраны жана орнотулган программалары бар телефон үчүн кадимки жооп — 1994-жылкы IBM Simon. Ericsson «smartphone» деген сөздү 1997-жылы бир долбоор үчүн колдонуп, 2000-жылы R380'ди ушул ат менен саткан. Японияда мобилдик интернет АКШга караганда бир нече жыл мурун пайда болгон. iPhone биринчи смартфон эмес; андан кийин смартфон телефондун кадимки түрүнө айланган.\n\n### Эмнеге жол ачты\n\nЧоң өзгөрүү бир жылдан кийин келди. 2008-жылдын июлунда Apple App Store'ду ачты — анда сырттан келген программисттер телефон үчүн программаларды сата алышчу. 2008-жылдын октябрында Google'дун Android системасындагы биринчи телефон — тайвандык HTC компаниясы жасаган HTC Dream сатыкка чыкты. Android көптөгөн өндүрүүчүлөргө сунушталып, көп өтпөй Азия өндүрүүчүлөрүнүн телефондору аны бүт дүйнөгө таратты. 2019-жылы бир миллиарддан алда канча көп смартфон сатылган.\n\nКөп адамдар үчүн натыйжа мындай болду: алардын биринчи компьютери, биринчи фотоаппараты жана интернетке биринчи туташуусу бир эле буюм болуп калды, ал буюм чөнтөккө батчу. Телефон карталар, банк, кат алышуу жана сүрөттөр жашаган жерге айланды. Аны колунда кармаган адамдардын дээрлик эч кимиси ойлонбогон алтымыш жылдык физика, химия жана математикадан курулган.",
+      "why_it_matters": "Смартфон компьютерди, фотоаппаратты, картаны жана интернетти миллиарддаган адамдар көтөрүп жүргөн бир буюмга бириктирди. Көптөрү үчүн ал алардын биринчи компьютери болду; алтымыш жылдык физиканы, химияны жана математиканы эч ойлонбой колдонулган нерсеге чогултту.",
+      "if_you_were_there": "Даректи үйдөгү компьютерден издеп, кагазга жазып алчусуз же кагаз карта көтөрүп жүрчүсүз. Бүт интернетти көрсөткөн, айнектин бетиндеги манжаларыңызга баш ийген телефонду айланаңыздагы эч ким колуна кармай элек болчу.",
+      "place_name": "Сан-Франциско",
+      "status": "machine"
+    }
+  }
+}
