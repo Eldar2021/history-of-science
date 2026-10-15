@@ -1,0 +1,284 @@
+{
+  "slug": "harvey-blood-circulation",
+  "year": 1628,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 50.1109,
+  "lng": 8.6821,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/2/24/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%281_of_2%29.jpg",
+    "credit": "Harvey, William (1578-1657). Auteur du texte",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(1_of_2).jpg"
+  },
+  "disciplines": [
+    "medicine",
+    "biology"
+  ],
+  "people": [
+    {
+      "slug": "william-harvey",
+      "birth_year": 1578,
+      "death_year": 1657,
+      "role": "author",
+      "name": {
+        "en": "William Harvey",
+        "tr": "William Harvey",
+        "ru": "Уильям Гарвей",
+        "ky": "Уильям Гарвей"
+      }
+    },
+    {
+      "slug": "hieronymus-fabricius",
+      "birth_year": null,
+      "death_year": 1619,
+      "role": "predecessor",
+      "name": {
+        "en": "Hieronymus Fabricius",
+        "tr": "Hieronymus Fabricius",
+        "ru": "Иероним Фабриций",
+        "ky": "Иероним Фабриций"
+      }
+    },
+    {
+      "slug": "galen",
+      "birth_year": 129,
+      "death_year": 216,
+      "role": "predecessor",
+      "name": {
+        "en": "Galen",
+        "tr": "Galenos",
+        "ru": "Гален",
+        "ky": "Гален"
+      }
+    },
+    {
+      "slug": "ibn-al-nafis",
+      "birth_year": 1213,
+      "death_year": 1288,
+      "role": "predecessor",
+      "name": {
+        "en": "Ibn al-Nafis",
+        "tr": "İbnü'n-Nefis",
+        "ru": "Ибн ан-Нафис",
+        "ky": "Ибн ан-Нафис"
+      }
+    },
+    {
+      "slug": "michael-servetus",
+      "birth_year": null,
+      "death_year": 1553,
+      "role": "predecessor",
+      "name": {
+        "en": "Michael Servetus",
+        "tr": "Michael Servetus",
+        "ru": "Мигель Сервет",
+        "ky": "Мигель Сервет"
+      }
+    },
+    {
+      "slug": "realdo-colombo",
+      "birth_year": null,
+      "death_year": 1559,
+      "role": "predecessor",
+      "name": {
+        "en": "Realdo Colombo",
+        "tr": "Realdo Colombo",
+        "ru": "Реальдо Коломбо",
+        "ky": "Реальдо Коломбо"
+      }
+    },
+    {
+      "slug": "andrea-cesalpino",
+      "birth_year": 1519,
+      "death_year": 1603,
+      "role": "predecessor",
+      "name": {
+        "en": "Andrea Cesalpino",
+        "tr": "Andrea Cesalpino",
+        "ru": "Андреа Чезальпино",
+        "ky": "Андреа Чезальпино"
+      }
+    },
+    {
+      "slug": "william-fitzer",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "William Fitzer",
+        "tr": "William Fitzer",
+        "ru": "Уильям Фитцер",
+        "ky": "Уильям Фитцер"
+      }
+    },
+    {
+      "slug": "james-primrose",
+      "birth_year": null,
+      "death_year": 1659,
+      "role": "rival",
+      "name": {
+        "en": "James Primrose",
+        "tr": "James Primrose",
+        "ru": "Джеймс Примроуз",
+        "ky": "Джеймс Примроуз"
+      }
+    },
+    {
+      "slug": "jean-riolan-the-younger",
+      "birth_year": 1580,
+      "death_year": 1657,
+      "role": "rival",
+      "name": {
+        "en": "Jean Riolan the Younger",
+        "tr": "Genç Jean Riolan",
+        "ru": "Жан Риолан Младший",
+        "ky": "Кичүү Жан Риолан"
+      }
+    },
+    {
+      "slug": "rene-descartes",
+      "birth_year": 1596,
+      "death_year": 1650,
+      "role": "contemporary",
+      "name": {
+        "en": "René Descartes",
+        "tr": "René Descartes",
+        "ru": "Рене Декарт",
+        "ky": "Рене Декарт"
+      }
+    },
+    {
+      "slug": "marcello-malpighi",
+      "birth_year": 1628,
+      "death_year": 1694,
+      "role": "successor",
+      "name": {
+        "en": "Marcello Malpighi",
+        "tr": "Marcello Malpighi",
+        "ru": "Марчелло Мальпиги",
+        "ky": "Марчелло Мальпиги"
+      }
+    }
+  ],
+  "builds_on": [
+    "vesalius-fabrica",
+    "ibn-sina-canon"
+  ],
+  "sources": [
+    {
+      "title": "William Harvey — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/William_Harvey"
+    },
+    {
+      "title": "De Motu Cordis — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/De_Motu_Cordis"
+    },
+    {
+      "title": "'Harvey, William', World of Scientific Discovery / Encyclopedia.com",
+      "kind": "encyclopedia",
+      "url": "https://www.encyclopedia.com/people/medicine/medicine-biographies/william-harvey"
+    },
+    {
+      "title": "University of Glasgow Library, Book of the Month, June 2007: Harvey, Exercitatio anatomica de motu cordis (1628)",
+      "kind": "other",
+      "url": "https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/june2007.html"
+    },
+    {
+      "title": "G. Friedland, 'Discovery of the function of the heart and circulation of blood', Cardiovascular Journal of Africa 20(3), 2009",
+      "kind": "article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3721262/"
+    },
+    {
+      "title": "Ibn al-Nafis — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Nafis"
+    },
+    {
+      "title": "Circulatory system, History section — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Circulatory_system"
+    },
+    {
+      "title": "Marcello Malpighi — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Marcello_Malpighi"
+    },
+    {
+      "title": "Realdo Colombo — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Realdo_Colombo"
+    },
+    {
+      "title": "Jean Riolan the Younger — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jean_Riolan_the_Younger"
+    },
+    {
+      "title": "Hieronymus Fabricius — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hieronymus_Fabricius"
+    },
+    {
+      "title": "W. Harvey, On the Motion of the Heart and Blood in Animals, chapter 9, trans. R. Willis (Wikisource)",
+      "kind": "book",
+      "url": "https://en.wikisource.org/wiki/The_Works_of_William_Harvey/An_Anatomical_Disquisition_on_the_Motion_of_the_Heart_and_Blood_in_Animals/Chapter_9"
+    },
+    {
+      "title": "W. Harvey, Exercitatio anatomica de motu cordis et sanguinis in animalibus (Frankfurt: W. Fitzer, 1628), plates digitised by the Bibliothèque nationale de France",
+      "kind": "book",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b2100015j"
+    },
+    {
+      "title": "William Harvey — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/William-Harvey"
+    }
+  ],
+  "research_note": "Researched 2026-10-15 against English Wikipedia (William Harvey, De Motu Cordis, Ibn al-Nafis, Circulatory system history, Marcello Malpighi), Encyclopedia.com (Harvey), University of Glasgow Library Book of the Month June 2007 (Fitzer, 72 pages, poor paper, 126-correction erratum, dedication to Charles I comparing king and heart), Friedland 2009 in PMC (ligature experiment, quantitative argument, Servetus, Colombo), and a search on the reception (Primrose 1630, Riolan, Descartes 1637, Harvey's 1649 reply). Britannica is linked for the human only. The 1628 title page itself (BnF scan) reads 'Francofurti, sumptibus Gulielmi Fitzeri, 1628'. Verified adversarially by the fact-checker agent before loading.\nFIXED AFTER FACT-CHECK (all four languages): (1) 'over a day, far more than a man weighs' was presented as Harvey's own claim; Harvey only compares half an hour with the body's blood (Wikisource ch. 9). Now: carried on to a full day, the same cautious figures come to more than a man's weight (Wikipedia's 498 lb/day extrapolation). (2) 'Harvey's teacher had found the valves' -> 'described the valves in detail' (Canano and Amato Lusitano saw them earlier). (3) Riolan 'never accepted it' -> never accepted Harvey's version, allowed only a slow partial circulation that left Galen's medicine intact; the bloodletting objection was dropped as not sourced to Riolan specifically. (4) Ibn al-Nafis 'Europe did not know his text' -> largely unknown (Alpago published a partial Latin translation of other commentary material in 1547). (5) Lumleian notes: softened to 'lectures from 1616 onward contain an early statement; exact date of the passage uncertain' (notes were added to over years). (6) Fitzer no longer called 'young' (single source) and is 'published by' (title page says sumptibus). (7) Cover alt text now mentions the printer's emblem (angel, column, shield), checked by eye. (8) historyofinformation.com source replaced by Wikipedia Realdo Colombo.\nREVIEWER SHOULD CHECK: Descartes 1637 (heat moves the heart), Leiden's early acceptance and 'about twenty years' (Wikipedia), Paris holding out longer (Encyclopedia.com 'half a century') were confirmed by search snippets and the fact-checker's knowledge, not by a full page read. Aubrey's 'fell mightily' / 'crack-brained' is a single late account and is labelled as Aubrey's alone in the body. Harvey's study of snakes, cold-blooded animals and dying hearts rests on De motu ch. 2 as recalled by the fact-checker plus Encyclopedia.com (snake); not read page-by-page. Fabricius thinking the valves slowed blood to prevent pooling in the limbs: Linda Hall/Christie's per the fact-checker. Place: Frankfurt (where printed), place_precision city, following the vesalius-fabrica precedent (place of printing); the work itself was done in London. Year 1628 is uncontested, precision exact.\nPEOPLE: Ibn al-Nafis birth 1213, Galen 129-216 and Cesalpino 1519 kept identical to existing rows (ibn-sina-canon, vesalius-fabrica, linnaeus-systema-naturae) so shared people rows do not change; the fact-checker notes Ibn al-Nafis c. 1210/1211, Cesalpino 1524/1525 in Wikipedia (some authors 1519), Riolan born 1577 or 1580, Galen death c. 216 - the reviewer may want to correct these rows once, everywhere. Fabricius, Servetus, Colombo, Primrose births left null as uncertain. Fitzer dates unknown.\nIMAGES: cover = 1628 title page, BnF scan on Commons, credit is the Commons value 'Harvey, William (1578-1657). Auteur du texte' (the text author, not the engraver; thin but verbatim), Public domain. Figure 1 = the four ligature-arm figures from the same edition, same credit/licence. Figure 2 = portrait 'After Daniël Mijtens', c. 1627, Public domain (NPG 5115 per fact-checker). All licences read with commons.mjs.\nLEFT OUT / NON-WESTERN: Ibn al-Nafis is in the body with his Damascus/Cairo work and the 1924 rediscovery; Ibn Sina (born near Bukhara) frames the Galenic system. Servetus, Colombo, Cesalpino and Fabricius are named as predecessors; Malpighi as the one who closed the loop. Not used: Juan Valverde (first to print Colombo's finding, 1556), Canano/Amato Lusitano (earlier valve sightings), claims about circulation in the Huangdi Neijing or Sushruta (not researched to the standard needed). No women attested in the work.\nKYRGYZ: machine translation. Glossary terms used: кан, кан айлануу (check), жүрөк, дене, анатомия, тажрыйба, далил, эсептөө, өлчөө, байкоо, кылым, медицина, микроскоп, Ибн Сина, Бухара (not in glossary; standard), кол жазма, китепкана, ачылыш avoided. 'check' terms used: кан айлануу. Not in the glossary, chosen by Claude: вена, артерия, клапан, капилляр, насос, ткань (ткандар), булчуң, тамыр согуу (pulse), боор, өпкө, жыйрылуу, таңуу (to bind with a band), билек (forearm), бака, жылан, жылуу/муздак кандуу, кан чыгаруу (bloodletting), айлампа (loop), сугат/арык (irrigation), суу түтүгү (water main), звено (link, Russian borrowing), периште, мамы, калкан, басмачынын белгиси. Proper nouns follow Russian forms (Гарвей, Фабриций, Ибн ан-Нафис, Сервет, Коломбо, Чезальпино, Мальпиги, Риолан, Примроуз, Обри, Декарт, Мейтенс, Фитцер).",
+  "translations": {
+    "en": {
+      "title": "Harvey shows that blood goes round",
+      "summary": "In Frankfurt, William Harvey published proof that the heart is a pump and the same blood circulates through the body again and again, overturning a system that had stood since Galen.",
+      "why_it_matters": "Harvey replaced a 1,400-year-old picture of blood made and used up with a closed loop driven by the heart, and he proved it with measurement and experiments anyone could repeat. Physiology, the study of how the living body works, grew from that method.",
+      "if_you_were_there": "Your doctor tells you the liver makes your blood from yesterday's dinner and your limbs use it up. A small, badly printed book from Frankfurt says the same blood has been round your body hundreds of times today.",
+      "place_name": "Frankfurt",
+      "body": "![The title page of the 1628 first edition: \"An anatomical exercise on the motion of the heart and blood in animals, by William Harvey, Englishman, royal physician\". In the middle, the printer's emblem: an angel beside a column and a shield. At the bottom: Frankfurt, at the expense of William Fitzer, 1628.](https://upload.wikimedia.org/wikipedia/commons/2/24/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%281_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(1_of_2).jpg\")\n\n### The scene\n\nFor about fourteen hundred years, educated doctors from Europe to Central Asia explained the blood with a system laid down by Galen, the Greek physician who worked in Rome in the 2nd century. In that system the liver turns food into blood, and the veins carry it outward to the organs, which use it up the way a field soaks up water. A second, brighter blood, mixed with a \"vital spirit\" drawn from the air, moves out through the arteries. To get from the right side of the heart to the left, blood was supposed to seep through invisible pores in the wall between them. The heart, in this picture, was mainly a furnace, not a pump. Nothing came back to where it started.\n\nThe system was not foolish. It explained why we need to eat, why the two kinds of blood look different, and why a cut artery spurts. It passed from Greek into Arabic and back into Latin; in the 11th century Ibn Sina, born near Bukhara, built it into the *Canon of Medicine*, which European universities still taught in Harvey's time.\n\nWilliam Harvey was born in Folkestone, England, in 1578. He studied at Cambridge and then at Padua, where Andreas Vesalius had taught anatomy two generations earlier. He took his doctorate there in 1602. His teacher was Hieronymus Fabricius, who in 1603 published a book on the small valves inside the veins. Fabricius called them \"little doors\" and thought they slowed the blood so it would not pool in the hands and feet. Back in London, Harvey became physician at St Bartholomew's Hospital and later physician to King James I and then Charles I. Notes for the anatomy lectures he gave from 1616 onward contain an early statement of the circulation; he kept adding to them, so exactly when he wrote that passage is uncertain.\n\n### What happened\n\nIn 1628 a small Latin book of 72 pages appeared in Frankfurt, the centre of the European book trade, published by William Fitzer, an English printer working there. Its title was *Exercitatio anatomica de motu cordis et sanguinis in animalibus*, \"An anatomical exercise on the motion of the heart and blood in animals\". The paper was poor and the text was full of misprints; some copies carry a list of 126 corrections. Harvey dedicated it to Charles I, comparing the king in his kingdom to the heart in the body.\n\nThe argument came from three directions.\n\n**Watching the heart.** Harvey opened up living animals, and many of them. In warm-blooded animals the heart beats so fast that he wrote he was almost tempted to think, with the Italian physician Girolamo Fracastoro, that its motion could be understood only by God. So he looked at snakes and other cold-blooded animals, and at dying hearts, whose beat is slow enough to follow. What he saw was a muscle squeezing: when it contracts, it drives blood out into the arteries, and the pulse in the arteries is that push arriving.\n\n**Counting.** Then he did something that had not been a usual part of anatomy: arithmetic. He took deliberately small figures for how much blood the heart sends out with each beat, and a deliberately low count of beats, and multiplied. Even then, in half an hour the heart pushed out more blood than the whole body contains. Carried on to a full day, the same cautious figures come to far more than a man weighs. No liver could make that much from food, and no body could use it up. The only way out of the contradiction was that the same blood keeps coming back. In his words, there had to be a motion, as it were, in a circle.\n\n**The arm.** The third proof could be done on a living person. Tie a band around the upper arm and the veins of the forearm swell, with small knots where Fabricius's valves sit. Press a finger on a vein and try to push the blood down, away from the heart: it will not go past a valve. Push it toward the heart, and it moves easily. The valves are not brakes but one-way doors, and they all point the same way: back to the heart.\n\n![Four figures from the 1628 book. A band is tied around the upper arm; the man grips a staff so that the forearm veins stand out. The swellings marked with letters are the valves. In figures 2 to 4 a finger presses on the vein to show that the blood can be pushed toward the heart but not away from it.](https://upload.wikimedia.org/wikipedia/commons/8/8a/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%282_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(2_of_2).jpg\")\n\nPut together, the picture was this: the heart pumps blood into the arteries, the arteries carry it out to the whole body, the veins bring it back, and the right side of the heart sends it through the lungs to the left side, which sends it out again. A double loop, with the heart at the centre of both.\n\nThink of the old system as irrigation: water from a spring runs down ditches into the fields and soaks away, so the spring must keep producing. Harvey's system is a closed water main with a pump: the same water goes round and round. The analogy breaks in one place: blood is not unchanged cargo. In the lungs and in the tissues it picks up and gives away what it carries, and Harvey could not say why the blood needed to go round at all.\n\n### Why it was hard\n\nHarvey was not the first to break a piece off Galen's system. In the 13th century, in a commentary on the anatomy of Ibn Sina's *Canon*, the physician Ibn al-Nafis, who worked in Damascus and Cairo, wrote that the wall between the two halves of the heart has no passage through it. Blood from the right side, he said, must go to the lungs and come back to the left side, and he guessed at tiny connections inside the lungs. His text remained largely unknown in Europe; the manuscript was found in a Berlin library only in 1924. Whether any of it reached Italy through translators in the 16th century is still debated.\n\nIn Europe the same loop through the lungs was described by Michael Servetus in a theological book of 1553, which was burned together with its author in Geneva, and by Realdo Colombo, Vesalius's successor at Padua, in 1559, apparently on his own evidence from dissection and vivisection. In the later 16th century Andrea Cesalpino wrote of a continuous movement of blood from the veins through the heart into the arteries; how close he came to the full circulation is still argued over. Harvey's own teacher had described the valves in detail. What Harvey added was the whole loop, the heart as a pump, and the counting that made any other explanation impossible.\n\n> [!WARNING]\n> Harvey could not close his own circle. With the lenses of his day he could not see how blood crosses from the smallest arteries to the smallest veins, and he supposed it seeped through pores in the flesh. The missing link was seen in 1661, four years after his death, when Marcello Malpighi looked at the lung of a frog under a microscope and found the capillaries.\n\nThe book also ran into authority. The first printed attack, by James Primrose, came in 1630. Jean Riolan, the leading anatomist in Paris, never accepted Harvey's version: he allowed only a slow, partial circulation that left Galen's medicine intact. The philosopher René Descartes praised the circulation in 1637, but argued that heat, not muscle, moved the heart. Harvey answered Riolan in print in 1649. John Aubrey, who knew Harvey, wrote that he had heard Harvey say his practice \"fell mightily\" after the book came out, and that people thought him \"crack-brained\"; that account is Aubrey's alone. Leiden accepted the circulation early; it took about twenty years for it to win over most physicians, and Paris held out for longer.\n\n![William Harvey around 1627, the year before the book appeared, in a copy of a portrait by Daniël Mijtens.](https://upload.wikimedia.org/wikipedia/commons/4/42/William_Harvey_2.jpg \"After Daniël Mijtens · Public domain · https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg\")\n\n### What it opened\n\nHarvey's book changed what a question about the body looked like. Instead of asking what an organ was for in the grand plan, he asked how much, how fast and in which direction, and answered with experiments that anyone could repeat on an arm. Once blood was known to go round, the next questions followed: what it picks up in the lungs, what it delivers to the tissues, why the body needs it to move at all. Those answers took another century and a half and needed chemistry, including Lavoisier's work on air and burning. Later medicine, from injecting drugs into a vein to blood transfusion and heart surgery, rests on the fact Harvey established: the heart is a pump, and the blood goes round.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Harvey kanın döndüğünü gösterdi",
+      "summary": "William Harvey Frankfurt'ta, kalbin bir pompa olduğunu ve aynı kanın bedende tekrar tekrar dolaştığını kanıtlayan kitabını yayımladı; Galenos'tan beri süren sistem yıkıldı.",
+      "why_it_matters": "Harvey, kanın üretilip tüketildiği 1400 yıllık tabloyu kalbin sürdüğü kapalı bir döngüyle değiştirdi ve bunu ölçümle, herkesin tekrarlayabileceği deneylerle kanıtladı. Canlı bedenin nasıl çalıştığını inceleyen fizyoloji bu yöntemden büyüdü.",
+      "if_you_were_there": "Hekimin, kanını karaciğerinin dünkü yemekten yaptığını, kollarınla bacaklarının da onu tükettiğini söylüyor. Frankfurt'tan gelen kötü basılmış küçük bir kitap ise aynı kanın bugün bedeninde yüzlerce kez döndüğünü söylüyor.",
+      "place_name": "Frankfurt",
+      "body": "![1628 ilk baskısının başlık sayfası: \"Hayvanlarda kalbin ve kanın hareketi üzerine anatomik bir inceleme, İngiliz William Harvey, kraliyet hekimi\". Ortada matbaacının amblemi: bir sütun ve bir kalkanın yanında bir melek. Altta: Frankfurt, William Fitzer'in masrafıyla, 1628.](https://upload.wikimedia.org/wikipedia/commons/2/24/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%281_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(1_of_2).jpg\")\n\n### Sahne\n\nYaklaşık bin dört yüz yıl boyunca Avrupa'dan Orta Asya'ya kadar eğitimli hekimler kanı, 2. yüzyılda Roma'da çalışan Yunan hekim Galenos'un kurduğu bir sistemle açıkladı. Bu sistemde karaciğer besini kana çevirir, toplardamarlar da bu kanı organlara taşır; organlar onu, tarlanın suyu emmesi gibi tüketir. Daha parlak ikinci bir kan, havadan alınan bir \"hayat ruhu\" ile karışarak atardamarlardan dışarı yayılır. Kalbin sağ yarısından sol yarısına geçmek için kanın aradaki duvarda gözle görülmeyen gözeneklerden sızdığı düşünülürdü. Bu tabloda kalp bir pompa değil, daha çok bir ocaktı. Hiçbir şey çıktığı yere geri dönmüyordu.\n\nSistem saçma değildi. Neden yemek yememiz gerektiğini, iki tür kanın neden farklı göründüğünü, kesilen atardamarın neden fışkırdığını açıklıyordu. Yunancadan Arapçaya, oradan yeniden Latinceye geçti; 11. yüzyılda Buhara yakınlarında doğan İbn Sina onu, Harvey'nin zamanında Avrupa üniversitelerinde hâlâ okutulan *Tıp Kanunu*'na yerleştirdi.\n\nWilliam Harvey 1578'de İngiltere'de, Folkestone'da doğdu. Cambridge'de, ardından Andreas Vesalius'un iki kuşak önce anatomi dersi verdiği Padova'da okudu ve 1602'de orada doktorasını aldı. Hocası Hieronymus Fabricius'tu; Fabricius 1603'te toplardamarların içindeki küçük kapakçıklar üzerine bir kitap yayımladı. Onlara \"küçük kapılar\" diyor, kanı yavaşlatıp el ve ayaklarda birikmesini önlediklerini düşünüyordu. Londra'ya dönen Harvey, St Bartholomew Hastanesi'nin hekimi, sonra Kral I. James'in ve ardından I. Charles'ın hekimi oldu. 1616'dan itibaren verdiği anatomi derslerinin notlarında dolaşımın erken bir ifadesi var; notlara sürekli ekleme yaptığı için o satırları tam ne zaman yazdığı belirsiz.\n\n### Ne oldu\n\n1628'de Avrupa kitap ticaretinin merkezi Frankfurt'ta, Latince yazılmış 72 sayfalık küçük bir kitap çıktı. Onu orada çalışan İngiliz matbaacı William Fitzer yayımlamıştı. Adı *Exercitatio anatomica de motu cordis et sanguinis in animalibus*, yani \"Hayvanlarda kalbin ve kanın hareketi üzerine anatomik bir inceleme\" idi. Kâğıdı kötüydü, metin baskı hatalarıyla doluydu; bazı nüshalarda 126 düzeltmelik bir liste bulunur. Harvey kitabı I. Charles'a adadı ve kralın krallıktaki yerini kalbin bedendeki yerine benzetti.\n\nKanıt üç yönden geldi.\n\n**Kalbi izlemek.** Harvey canlı hayvanları açtı, hem de pek çoğunu. Sıcakkanlı hayvanlarda kalp o kadar hızlı atar ki, İtalyan hekim Girolamo Fracastoro gibi onun hareketini yalnızca Tanrı'nın anlayabileceğini düşünmeye neredeyse kapıldığını yazdı. Bu yüzden yılanlara ve başka soğukkanlı hayvanlara, bir de ölmekte olan kalplere baktı; bunların atışı izlenebilecek kadar yavaştır. Gördüğü şey sıkışan bir kastı: kalp kasıldığında kanı atardamarlara iter, atardamardaki nabız da o itişin oraya varmasıdır.\n\n**Saymak.** Sonra anatomide alışılmış olmayan bir şey yaptı: hesap. Kalbin her atışta gönderdiği kan için bilerek küçük bir rakam, atış sayısı için bilerek düşük bir değer aldı ve çarptı. Böyle bile kalp yarım saatte bütün bedende bulunandan fazla kan pompalıyordu. Aynı temkinli rakamlar bir güne yayıldığında bir insanın ağırlığından çok daha fazlasını verir. Hiçbir karaciğer besinden bu kadar kan üretemez, hiçbir beden bunu tüketemezdi. Çelişkiden tek çıkış, aynı kanın sürekli geri gelmesiydi. Kendi sözleriyle, adeta bir daire içinde bir hareket olmalıydı.\n\n**Kol.** Üçüncü kanıt canlı bir insan üzerinde yapılabiliyordu. Üst kola bir bant bağlayın: ön koldaki toplardamarlar şişer, Fabricius'un kapakçıklarının bulunduğu yerlerde küçük düğümler belirir. Parmağınızla bir damara bastırıp kanı aşağıya, kalpten uzağa itmeye çalışın: kapakçığı geçmez. Kalbe doğru itin: kolayca ilerler. Kapakçıklar fren değil, tek yönlü kapılardır ve hepsi aynı yöne bakar: kalbe.\n\n![1628 tarihli kitaptan dört şekil. Üst kola bir bant bağlanmış; adam ön koldaki toplardamarlar belirsin diye bir sopayı sıkıyor. Harflerle işaretli şişkinlikler kapakçıklar. 2-4. şekillerde bir parmak damara bastırıyor: kan kalbe doğru itilebiliyor, kalpten uzağa itilemiyor.](https://upload.wikimedia.org/wikipedia/commons/8/8a/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%282_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(2_of_2).jpg\")\n\nParçalar birleşince tablo şuydu: kalp kanı atardamarlara pompalar, atardamarlar onu bütün bedene taşır, toplardamarlar geri getirir; kalbin sağ yarısı kanı akciğerlerden geçirip sol yarıya yollar, sol yarı da yeniden dışarı gönderir. İkisinin de merkezinde kalp olan çift bir döngü.\n\nEski sistemi bir sulama düzeni gibi düşünün: kaynaktan çıkan su arklardan tarlalara akar ve toprağa çekilir, bu yüzden kaynak durmadan üretmek zorundadır. Harvey'nin sistemi ise pompası olan kapalı bir su şebekesidir: aynı su dönüp durur. Benzetme bir yerde bozulur: kan değişmeden taşınan bir yük değildir. Akciğerlerde ve dokularda taşıdığı şeyleri alır ve bırakır; Harvey kanın neden dönmesi gerektiğini ise söyleyemedi.\n\n### Neden zordu\n\nHarvey, Galenos'un sisteminden bir parça koparan ilk kişi değildi. 13. yüzyılda Şam'da ve Kahire'de çalışan hekim İbnü'n-Nefis, İbn Sina'nın *Kanun*'undaki anatomi bölümüne yazdığı şerhte, kalbin iki yarısı arasındaki duvarda hiçbir geçit olmadığını yazdı. Ona göre sağ taraftaki kan akciğerlere gitmeli ve sol tarafa geri gelmeliydi; akciğerlerin içinde çok küçük bağlantılar olduğunu da tahmin etti. Metin Avrupa'da büyük ölçüde bilinmiyordu; yazması Berlin'deki bir kütüphanede ancak 1924'te bulundu. 16. yüzyılda çevirmenler aracılığıyla bir kısmının İtalya'ya ulaşıp ulaşmadığı hâlâ tartışılıyor.\n\nAvrupa'da akciğerlerden geçen aynı döngüyü Michael Servetus 1553'te bir teoloji kitabında anlattı; kitap Cenevre'de yazarıyla birlikte yakıldı. Vesalius'un Padova'daki halefi Realdo Colombo da 1559'da, görünüşe göre kendi kadavra ve canlı hayvan deneylerine dayanarak aynı şeyi yazdı. 16. yüzyılın sonlarında Andrea Cesalpino, kanın toplardamarlardan kalp yoluyla atardamarlara sürekli hareketinden söz etti; tam dolaşıma ne kadar yaklaştığı hâlâ tartışma konusu. Kapakçıkları Harvey'nin kendi hocası ayrıntılı olarak tanımlamıştı. Harvey'nin eklediği ise döngünün tamamı, pompa olarak kalp ve başka her açıklamayı imkânsız kılan hesaptı.\n\n> [!WARNING]\n> Harvey kendi dairesini kapatamadı. Zamanının mercekleriyle kanın en küçük atardamarlardan en küçük toplardamarlara nasıl geçtiğini göremedi ve etteki gözeneklerden sızdığını varsaydı. Eksik halka 1661'de, ölümünden dört yıl sonra görüldü: Marcello Malpighi bir kurbağanın akciğerine mikroskopla baktı ve kılcal damarları buldu.\n\nKitap otoriteyle de çarpıştı. İlk basılı saldırı 1630'da James Primrose'dan geldi. Paris'in önde gelen anatomisti Jean Riolan, Harvey'nin anlattığı dolaşımı hiç kabul etmedi: Galenos'un tıbbını bozmayan, yavaş ve kısmi bir dolaşıma razı oldu. Filozof René Descartes 1637'de dolaşımı övdü ama kalbi kasın değil ısının hareket ettirdiğini savundu. Harvey 1649'da Riolan'a basılı bir yanıt verdi. Harvey'yi tanıyan John Aubrey, kitap çıktıktan sonra hasta sayısının \"müthiş düştüğünü\" Harvey'nin kendi ağzından duyduğunu ve halkın onu \"kafadan çatlak\" saydığını yazdı; bu anlatım yalnızca Aubrey'ye dayanır. Leiden dolaşımı erken kabul etti; hekimlerin çoğunu ikna etmesi yaklaşık yirmi yıl sürdü, Paris daha da uzun direndi.\n\n![William Harvey, kitabın çıkmasından bir yıl önce, 1627 dolaylarında; Daniël Mijtens'in bir portresinin kopyası.](https://upload.wikimedia.org/wikipedia/commons/4/42/William_Harvey_2.jpg \"After Daniël Mijtens · Public domain · https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg\")\n\n### Ne kapı açtı\n\nHarvey'nin kitabı beden hakkındaki bir sorunun neye benzediğini değiştirdi. Bir organın büyük plandaki amacını sormak yerine ne kadar, ne hızla ve hangi yöne sorularını sordu ve bunları herkesin bir kol üzerinde tekrarlayabileceği deneylerle yanıtladı. Kanın döndüğü bilinince sıradaki sorular geldi: akciğerlerde ne alıyor, dokulara ne taşıyor, beden neden onun hareket etmesine ihtiyaç duyuyor? Bu yanıtlar bir buçuk yüzyıl daha sürdü ve kimya gerektirdi; Lavoisier'nin hava ve yanma üzerine çalışmaları da bunlar arasındaydı. Damara ilaç vermekten kan nakline ve kalp ameliyatına kadar sonraki tıp, Harvey'nin ortaya koyduğu gerçeğe dayanır: kalp bir pompadır ve kan döner.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Гарвей показывает, что кровь ходит по кругу",
+      "summary": "Во Франкфурте Уильям Гарвей издал доказательство того, что сердце — насос, а одна и та же кровь снова и снова обходит тело. Система, стоявшая со времён Галена, рухнула.",
+      "why_it_matters": "Гарвей заменил картину, в которой кровь 1400 лет производилась и расходовалась, замкнутым кругом с сердцем-насосом и доказал это измерением и опытами, которые мог повторить каждый. Физиология, наука о том, как работает живое тело, выросла из этого метода.",
+      "if_you_were_there": "Врач говорит вам, что печень делает кровь из вчерашнего ужина, а руки и ноги её расходуют. Маленькая, плохо напечатанная книжка из Франкфурта утверждает, что та же кровь сегодня уже сотни раз обошла ваше тело.",
+      "place_name": "Франкфурт",
+      "body": "![Титульный лист первого издания 1628 года: «Анатомическое исследование о движении сердца и крови у животных Уильяма Гарвея, англичанина, королевского врача». В середине — эмблема печатника: ангел рядом с колонной и щитом. Внизу: Франкфурт, иждивением Уильяма Фитцера, 1628.](https://upload.wikimedia.org/wikipedia/commons/2/24/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%281_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(1_of_2).jpg\")\n\n### Время и место\n\nОколо тысячи четырёхсот лет образованные врачи от Европы до Средней Азии объясняли кровь по системе Галена, греческого врача, работавшего в Риме во II веке. В этой системе печень превращает пищу в кровь, а вены разносят её к органам, которые расходуют её, как поле впитывает воду. Вторая, более яркая кровь, смешанная с «жизненным духом» из воздуха, расходится по артериям. Из правой половины сердца в левую кровь будто бы просачивается через невидимые поры в перегородке между ними. Сердце в этой картине было скорее печью, чем насосом. Ничто не возвращалось туда, откуда вышло.\n\nСистема не была глупой. Она объясняла, зачем нам есть, почему два вида крови выглядят по-разному и почему из перерезанной артерии бьёт струя. Она перешла с греческого на арабский и снова на латынь; в XI веке Ибн Сина, родившийся под Бухарой, встроил её в «Канон врачебной науки», который во времена Гарвея всё ещё преподавали в европейских университетах.\n\nУильям Гарвей родился в 1578 году в английском Фолкстоне. Он учился в Кембридже, а затем в Падуе, где за два поколения до него преподавал анатомию Андреас Везалий, и в 1602 году получил там степень доктора. Его учителем был Иероним Фабриций, который в 1603 году издал книгу о маленьких клапанах внутри вен. Фабриций называл их «дверцами» и считал, что они замедляют кровь, чтобы она не скапливалась в кистях и стопах. Вернувшись в Лондон, Гарвей стал врачом больницы Святого Варфоломея, а позже врачом короля Якова I, затем Карла I. В заметках к лекциям по анатомии, которые он читал с 1616 года, есть раннее изложение кровообращения; он всё время дополнял их, поэтому когда именно написан этот отрывок, неясно.\n\n### Что произошло\n\nВ 1628 году во Франкфурте, центре европейской книжной торговли, вышла небольшая латинская книга в 72 страницы. Её издал Уильям Фитцер, работавший там английский печатник. Она называлась *Exercitatio anatomica de motu cordis et sanguinis in animalibus*, «Анатомическое исследование о движении сердца и крови у животных». Бумага была плохой, текст полон опечаток; в некоторых экземплярах есть список из 126 исправлений. Гарвей посвятил книгу Карлу I, сравнив короля в королевстве с сердцем в теле.\n\nДоказательство шло с трёх сторон.\n\n**Наблюдать сердце.** Гарвей вскрывал живых животных, и многих. У теплокровных сердце бьётся так быстро, что, как он писал, он почти готов был вслед за итальянским врачом Джироламо Фракасторо решить, что его движение постижимо лишь для Бога. Поэтому он смотрел на змей и других холоднокровных животных и на умирающие сердца: их ритм достаточно медленный, чтобы за ним следить. Он увидел сжимающуюся мышцу: сокращаясь, сердце выталкивает кровь в артерии, и пульс в артериях — это приход этого толчка.\n\n**Считать.** Затем он сделал то, что не было обычной частью анатомии: арифметику. Он намеренно взял малую величину для крови, которую сердце выбрасывает за одно сокращение, и намеренно низкое число ударов, и перемножил. Даже так за полчаса сердце выталкивало больше крови, чем содержится во всём теле. Если продолжить те же осторожные цифры на целые сутки, выйдет гораздо больше, чем весит человек. Никакая печень не может сделать столько крови из пищи, и никакое тело не может её израсходовать. Единственный выход из противоречия: одна и та же кровь всё время возвращается. По его словам, должно быть движение как бы по кругу.\n\n**Рука.** Третье доказательство можно было провести на живом человеке. Перетяните плечо повязкой, и вены предплечья набухнут, с маленькими узелками там, где сидят клапаны Фабриция. Прижмите вену пальцем и попробуйте протолкнуть кровь вниз, от сердца: она не пройдёт через клапан. Толкните к сердцу, и она легко пойдёт. Клапаны не тормоза, а двери в одну сторону, и все смотрят в одном направлении: к сердцу.\n\n![Четыре рисунка из книги 1628 года. На плече завязана повязка; человек сжимает палку, чтобы вены предплечья проступили. Вздутия, отмеченные буквами, — клапаны. На рисунках 2–4 палец прижимает вену, показывая, что кровь можно протолкнуть к сердцу, но не от него.](https://upload.wikimedia.org/wikipedia/commons/8/8a/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%282_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(2_of_2).jpg\")\n\nВ сумме получалась такая картина: сердце качает кровь в артерии, артерии разносят её по всему телу, вены возвращают её обратно, правая половина сердца прогоняет её через лёгкие в левую, а левая снова отправляет наружу. Двойная петля, и в центре обеих — сердце.\n\nПредставьте старую систему как орошение: вода из родника бежит по арыкам на поля и уходит в землю, поэтому родник должен давать её без конца. Система Гарвея — замкнутый водопровод с насосом: одна и та же вода ходит по кругу. Сравнение ломается в одном месте: кровь — не неизменный груз. В лёгких и тканях она забирает и отдаёт то, что несёт, а зачем крови вообще нужно ходить по кругу, Гарвей сказать не мог.\n\n### Почему это было трудно\n\nГарвей был не первым, кто отломил кусок от системы Галена. В XIII веке врач Ибн ан-Нафис, работавший в Дамаске и Каире, в комментарии к анатомии «Канона» Ибн Сины написал, что в стенке между половинами сердца нет никакого прохода. Кровь из правой стороны, по его словам, должна идти в лёгкие и возвращаться в левую, и он предположил крошечные соединения внутри лёгких. В Европе этот текст оставался почти неизвестным; рукопись нашли в берлинской библиотеке только в 1924 году. Дошло ли что-то из него до Италии через переводчиков XVI века, до сих пор спорят.\n\nВ Европе тот же путь через лёгкие описали Мигель Сервет в богословской книге 1553 года, которую сожгли в Женеве вместе с автором, и Реальдо Коломбо, преемник Везалия в Падуе, в 1559 году, по-видимому на основании собственных вскрытий и опытов на живых животных. В конце XVI века Андреа Чезальпино писал о непрерывном движении крови из вен через сердце в артерии; насколько близко он подошёл к полному кругу, всё ещё обсуждают. Клапаны подробно описал собственный учитель Гарвея. Гарвей добавил весь круг целиком, сердце как насос и расчёт, который делал любое другое объяснение невозможным.\n\n> [!WARNING]\n> Гарвей не смог замкнуть собственный круг. С линзами своего времени он не видел, как кровь переходит из мельчайших артерий в мельчайшие вены, и полагал, что она просачивается через поры в тканях. Недостающее звено увидели в 1661 году, через четыре года после его смерти: Марчелло Мальпиги рассмотрел под микроскопом лёгкое лягушки и нашёл капилляры.\n\nКнига столкнулась и с авторитетом. Первый печатный выпад, Джеймса Примроуза, появился в 1630 году. Жан Риолан, ведущий анатом Парижа, так и не принял кровообращение в версии Гарвея: он допускал лишь медленное, частичное обращение, оставлявшее медицину Галена нетронутой. Философ Рене Декарт в 1637 году похвалил открытие кровообращения, но утверждал, что сердце движет теплота, а не мышца. Гарвей ответил Риолану в печати в 1649 году. Джон Обри, знавший Гарвея, писал, что слышал от него самого, будто после выхода книги его практика «сильно упала», а люди сочли его «помешанным»; этот рассказ держится только на Обри. Лейден принял кровообращение рано; чтобы убедить большинство врачей, понадобилось около двадцати лет, а Париж сопротивлялся дольше.\n\n![Уильям Гарвей около 1627 года, за год до выхода книги; копия портрета работы Даниэла Мейтенса.](https://upload.wikimedia.org/wikipedia/commons/4/42/William_Harvey_2.jpg \"After Daniël Mijtens · Public domain · https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg\")\n\n### Что это открыло\n\nКнига Гарвея изменила сам вид вопроса о теле. Вместо того чтобы спрашивать, для чего нужен орган в великом замысле, он спрашивал: сколько, как быстро и в каком направлении, и отвечал опытами, которые любой мог повторить на собственной руке. Когда стало известно, что кровь ходит по кругу, последовали новые вопросы: что она забирает в лёгких, что приносит тканям, зачем телу вообще нужно её движение. Ответы заняли ещё полтора века и потребовали химии, в том числе работ Лавуазье о воздухе и горении. Вся дальнейшая медицина, от уколов в вену до переливания крови и операций на сердце, стоит на факте, который установил Гарвей: сердце — насос, а кровь ходит по кругу.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Гарвей кандын айланарын көрсөттү",
+      "summary": "Уильям Гарвей Франкфуртта жүрөк насос экенин жана ошол эле кан денени кайра-кайра айланып турарын далилдеген китебин чыгарды. Галенден бери турган система кулады.",
+      "why_it_matters": "Гарвей кан жаралып, сарпталат деген 1400 жылдык түшүнүктү жүрөк айдаган жабык айлампа менен алмаштырды жана муну өлчөө жана ар ким кайталай ала турган тажрыйбалар менен далилдеди. Тирүү дене кантип иштээрин изилдеген физиология ушул ыкмадан өсүп чыкты.",
+      "if_you_were_there": "Дарыгериңиз канды боор кечээки тамактан жасайт, колуңуз менен бутуңуз аны сарптайт дейт. Франкфурттан келген начар басылган кичинекей китеп болсо ошол эле кан бүгүн денеңизди жүздөгөн жолу айланып чыкканын айтат.",
+      "place_name": "Франкфурт",
+      "body": "![1628-жылкы биринчи басылыштын титул барагы: «Жаныбарлардагы жүрөктүн жана кандын кыймылы жөнүндө анатомиялык изилдөө. Англиялык Уильям Гарвей, падышанын дарыгери». Ортодо басмачынын белгиси: мамы менен калкандын жанында периште. Ылдыйда: Франкфурт, Уильям Фитцердин каражатына, 1628.](https://upload.wikimedia.org/wikipedia/commons/2/24/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%281_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(1_of_2).jpg\")\n\n### Окуя болгон убак\n\nБолжол менен миң төрт жүз жыл бою Европадан Орто Азияга чейинки билимдүү дарыгерлер канды II кылымда Римде иштеген грек дарыгери Галендин системасы менен түшүндүрүп келишкен. Бул системада боор тамакты канга айлантат, веналар аны органдарга жеткирет, ал эми органдар аны талаа сууну сиңиргендей сарптайт. Абадан алынган «жашоо руху» менен аралашкан экинчи, ачыгыраак кан артериялар аркылуу тарайт. Кан жүрөктүн оң жарымынан сол жарымына алардын ортосундагы дубалдагы көзгө көрүнбөгөн тешикчелер аркылуу сиңип өтөт деп эсептелчү. Бул сүрөттөлүштө жүрөк насостон көрө меш сыяктуу болгон. Эч нерсе чыккан жерине кайтып келчү эмес.\n\nБул система акылсыз болгон эмес. Ал эмне үчүн тамак жешибиз керек экенин, кандын эки түрү эмне үчүн ар башка көрүнөрүн, кесилген артериядан кан эмне үчүн атылып чыгарын түшүндүрчү. Ал грек тилинен араб тилине, андан кайра латын тилине өткөн; XI кылымда Бухаранын жанында төрөлгөн Ибн Сина аны «Медицина илиминин канонуна» киргизген, ал эми бул китеп Гарвейдин заманында да Европа университеттеринде окутулуп келген.\n\nУильям Гарвей 1578-жылы Англиянын Фолкстон шаарында төрөлгөн. Ал Кембриджде, андан кийин эки муун мурда Андреас Везалий анатомиядан сабак берген Падуяда окуп, 1602-жылы ошол жерден доктордук даражасын алган. Анын мугалими Иероним Фабриций болгон; ал 1603-жылы веналардын ичиндеги кичинекей клапандар жөнүндө китеп чыгарган. Фабриций аларды «кичинекей эшиктер» деп атап, алар кан колдо жана бутта топтолуп калбашы үчүн аны жайлатат деп ойлогон. Лондонго кайтып келген Гарвей Ыйык Варфоломей ооруканасынын дарыгери, кийин падыша Яков I жана андан соң Карл I дарыгери болгон. Ал 1616-жылдан баштап окуган анатомия лекцияларынын жазууларында кан айлануунун алгачкы баяны бар; ал жазууларына улам кошумча киргизип турганы үчүн ал саптар качан жазылганы так белгисиз.\n\n### Эмне болду\n\n1628-жылы Европадагы китеп соодасынын борбору болгон Франкфуртта латын тилинде жазылган 72 барактык кичинекей китеп чыккан. Аны ошол жерде иштеген англиялык басмачы Уильям Фитцер чыгарган. Анын аталышы *Exercitatio anatomica de motu cordis et sanguinis in animalibus*, башкача айтканда «Жаныбарлардагы жүрөктүн жана кандын кыймылы жөнүндө анатомиялык изилдөө» болгон. Кагазы начар, тексти басма каталарына толгон; кээ бир нускаларында 126 оңдоодон турган тизме бар. Гарвей китепти Карл I арнап, падышанын өлкөдөгү ордун жүрөктүн денедеги ордуна салыштырган.\n\nДалил үч тараптан келген.\n\n**Жүрөктү байкоо.** Гарвей тирүү жаныбарларды, анын ичинде абдан көбүн жарып көргөн. Жылуу кандуу жаныбарларда жүрөк ушунчалык тез согот, ал италиялык дарыгер Джироламо Фракастородой эле анын кыймылын Кудай гана түшүнө алат деп ойлоого аз калганын жазган. Ошондуктан ал жыландарды жана башка муздак кандуу жаныбарларды, ошондой эле өлүп бара жаткан жүрөктөрдү караган: алардын согушу көз менен байкаганга жетиштүү жай. Ал көргөн нерсе кысылып жаткан булчуң болгон: жүрөк жыйрылганда канды артерияларга түртөт, ал эми артериядагы тамыр согуу ошол түртүүнүн келиши.\n\n**Эсептөө.** Андан кийин ал анатомияда адаттагыдай болбогон ишти кылган: арифметика. Жүрөк ар бир сокканда чыгарган кандын көлөмүнө атайылап кичине сан, соккулардын санына атайылап төмөн маани алып, аларды көбөйткөн. Ошондо деле жүрөк жарым саатта бүт денеде болгон кандан көбүрөөк канды айдап чыгарган. Ошол эле этияттык менен алынган сандарды бир суткага улантсаңыз, адамдын салмагынан алда канча көп чыгат. Эч бир боор тамактан мынча канды жасай албайт, эч бир дене аны сарптай албайт. Бул карама-каршылыктан бир гана чыгуу жолу бар эле: ошол эле кан кайра-кайра кайтып келет. Анын өз сөзү менен айтканда, тегерек боюнча кандайдыр бир кыймыл болушу керек.\n\n**Кол.** Үчүнчү далилди тирүү адамдын үстүндө көрсөтсө болот. Колдун жогорку бөлүгүн таңып коюңуз: билектеги веналар көөп чыгат, Фабрицийдин клапандары жайгашкан жерлерде кичинекей түйүндөр пайда болот. Венаны манжаңыз менен басып, канды ылдый, жүрөктөн алыс түртүп көрүңүз: ал клапандан өтпөйт. Жүрөккө карай түртсөңүз, оңой жылат. Клапандар тормоз эмес, бир тарапка гана ачылган эшиктер, жана алардын баары бир тарапты карайт: жүрөктү.\n\n![1628-жылкы китептен төрт сүрөт. Колдун жогорку бөлүгү таңылган; киши билектеги веналар бадырайып чыгышы үчүн таякты кысып турат. Тамгалар менен белгиленген томпоктор — клапандар. 2–4-сүрөттөрдө манжа венаны басып турат: канды жүрөккө карай түртсө болот, жүрөктөн алыс түртүүгө болбойт.](https://upload.wikimedia.org/wikipedia/commons/8/8a/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%282_of_2%29.jpg \"Harvey, William (1578-1657). Auteur du texte · Public domain · https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifié)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(2_of_2).jpg\")\n\nБаарын бириктиргенде мындай сүрөт чыккан: жүрөк канды артерияларга айдайт, артериялар аны бүт денеге жеткирет, веналар кайра алып келет; жүрөктүн оң жарымы канды өпкө аркылуу сол жарымына жөнөтөт, сол жарымы аны кайра сыртка чыгарат. Экөөнүн тең борборунда жүрөк турган кош айлампа.\n\nЭски системаны сугат катары элестетиңиз: булактан чыккан суу арыктар менен талааларга агып, жерге сиңет, ошондуктан булак тынымсыз суу берип турушу керек. Гарвейдин системасы болсо насосу бар жабык суу түтүгү: ошол эле суу айланып жүрө берет. Салыштыруу бир жерде туура келбейт: кан өзгөрбөй ташылган жүк эмес. Өпкөдө жана ткандарда ал көтөрүп жүргөн нерселерди алат жана берет, ал эми кан эмне үчүн айланышы керек экенин Гарвей айта алган эмес.\n\n### Эмне үчүн оор болду\n\nГалендин системасынан бир бөлүгүн биринчи болуп сындырган Гарвей эмес. XIII кылымда Дамаскта жана Каирде иштеген дарыгер Ибн ан-Нафис Ибн Синанын «Канонундагы» анатомия бөлүмүнө жазган түшүндүрмөсүндө жүрөктүн эки жарымынын ортосундагы дубалда эч кандай өтмөк жок деп жазган. Анын айтымында, оң тараптагы кан өпкөгө барып, сол тарапка кайтып келиши керек; ал өпкөнүн ичинде өтө майда байланыштар бар деп да божомолдогон. Европада бул текст дээрлик белгисиз бойдон калган; кол жазма Берлиндеги китепканадан 1924-жылы гана табылган. Анын бир бөлүгү XVI кылымда котормочулар аркылуу Италияга жеткенби же жокпу, азыр да талаш.\n\nЕвропада өпкө аркылуу өткөн ошол эле жолду Мигель Сервет 1553-жылы диний китебинде сүрөттөгөн; китеп Женевада автору менен кошо өрттөлгөн. Везалийдин Падуядагы мураскери Реальдо Коломбо да 1559-жылы, сыягы, өзүнүн жарып көрүүлөрүнө жана тирүү жаныбарлардагы тажрыйбаларына таянып жазган. XVI кылымдын аягында Андреа Чезальпино кандын веналардан жүрөк аркылуу артерияларга тынымсыз кыймылы жөнүндө жазган; ал толук айланууга канчалык жакындаганы азыр да талкууланат. Клапандарды Гарвейдин өз мугалими кеңири сүрөттөп жазган. Гарвей кошкону — айлампанын толук сүрөтү, насос катары жүрөк жана башка бардык түшүндүрмөлөрдү мүмкүн эмес кылган эсептөө.\n\n> [!WARNING]\n> Гарвей өзүнүн тегерегин туташтыра алган эмес. Өз заманынын линзалары менен ал кан эң майда артериялардан эң майда веналарга кантип өтөрүн көрө алган эмес жана ал эттеги тешикчелер аркылуу сиңип өтөт деп божомолдогон. Жетишпеген звено 1661-жылы, анын өлүмүнөн төрт жыл кийин көрүлгөн: Марчелло Мальпиги бака өпкөсүн микроскоп менен карап, капиллярларды тапкан.\n\nКитеп бийликтүү пикирлерге да кабылган. Биринчи басма чабуулду 1630-жылы Джеймс Примроуз жасаган. Париждин алдыңкы анатому Жан Риолан Гарвей сүрөттөгөн кан айланууну эч качан кабыл алган эмес: ал Галендин медицинасын бузбаган жай жана жарым-жартылай айланууга гана макул болгон. Философ Рене Декарт 1637-жылы кан айланууну мактаган, бирок жүрөктү булчуң эмес, жылуулук кыймылдатат деп ырастаган. Гарвей 1649-жылы Риоланга басма түрүндө жооп берген. Гарвейди тааныган Джон Обри китеп чыккандан кийин анын бейтаптары «абдан азайып кеткенин» Гарвейдин өз оозунан укканын жана эл аны «акылынан айныган» деп эсептегенин жазган; бул баян Обриге гана таянат. Лейден кан айланууну эрте кабыл алган; дарыгерлердин көпчүлүгүн ынандырууга болжол менен жыйырма жыл кеткен, ал эми Париж андан да узак каршылык көрсөткөн.\n\n![Уильям Гарвей болжол менен 1627-жылы, китеп чыгардан бир жыл мурда; Даниэл Мейтенс тарткан портреттин көчүрмөсү.](https://upload.wikimedia.org/wikipedia/commons/4/42/William_Harvey_2.jpg \"After Daniël Mijtens · Public domain · https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg\")\n\n### Эмнеге жол ачты\n\nГарвейдин китеби дене жөнүндөгү суроонун түрүн өзгөрттү. Органдын улуу пландагы максатын сураштын ордуна ал канча, канчалык тез жана кайсы багытта деп сураган жана ар ким өз колунда кайталай ала турган тажрыйбалар менен жооп берген. Кан айланары белгилүү болгондон кийин жаңы суроолор келди: ал өпкөдөн эмнени алат, ткандарга эмнени жеткирет, дене эмне үчүн анын кыймылына муктаж? Бул жоопторго дагы бир жарым кылым кетти жана химия керек болду, анын ичинде Лавуазьенин аба жана күйүү боюнча эмгектери да. Венага дары сайуудан тартып кан куюуга жана жүрөк операцияларына чейинки кийинки медицина Гарвей далилдеген чындыкка таянат: жүрөк — насос, ал эми кан айланат.",
+      "status": "machine"
+    }
+  }
+}
