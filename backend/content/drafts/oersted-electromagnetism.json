@@ -1,0 +1,238 @@
+{
+  "slug": "oersted-electromagnetism",
+  "year": 1820,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 55.6761,
+  "lng": 12.5683,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/3/3d/C.A._Jensen_-_Portrait_of_the_Physicist_Hans_Christian_%C3%98rsted_-_KMS8176_-_Statens_Museum_for_Kunst.jpg",
+    "credit": "Christian Albrecht Jensen",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:C.A._Jensen_-_Portrait_of_the_Physicist_Hans_Christian_Ørsted_-_KMS8176_-_Statens_Museum_for_Kunst.jpg"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "hans-christian-oersted",
+      "birth_year": 1777,
+      "death_year": 1851,
+      "role": "author",
+      "name": {
+        "en": "Hans Christian Ørsted",
+        "tr": "Hans Christian Ørsted",
+        "ru": "Ханс Кристиан Эрстед",
+        "ky": "Ханс Кристиан Эрстед"
+      }
+    },
+    {
+      "slug": "alessandro-volta",
+      "birth_year": 1745,
+      "death_year": 1827,
+      "role": "predecessor",
+      "name": {
+        "en": "Alessandro Volta",
+        "tr": "Alessandro Volta",
+        "ru": "Алессандро Вольта",
+        "ky": "Алессандро Вольта"
+      }
+    },
+    {
+      "slug": "johann-wilhelm-ritter",
+      "birth_year": 1776,
+      "death_year": 1810,
+      "role": "predecessor",
+      "name": {
+        "en": "Johann Wilhelm Ritter",
+        "tr": "Johann Wilhelm Ritter",
+        "ru": "Иоганн Вильгельм Риттер",
+        "ky": "Иоганн Вильгельм Риттер"
+      }
+    },
+    {
+      "slug": "gian-domenico-romagnosi",
+      "birth_year": 1761,
+      "death_year": 1835,
+      "role": "predecessor",
+      "name": {
+        "en": "Gian Domenico Romagnosi",
+        "tr": "Gian Domenico Romagnosi",
+        "ru": "Джан Доменико Романьози",
+        "ky": "Джан Доменико Романьози"
+      }
+    },
+    {
+      "slug": "francois-arago",
+      "birth_year": 1786,
+      "death_year": 1853,
+      "role": "successor",
+      "name": {
+        "en": "François Arago",
+        "tr": "François Arago",
+        "ru": "Франсуа Араго",
+        "ky": "Франсуа Араго"
+      }
+    },
+    {
+      "slug": "andre-marie-ampere",
+      "birth_year": 1775,
+      "death_year": 1836,
+      "role": "successor",
+      "name": {
+        "en": "André-Marie Ampère",
+        "tr": "André-Marie Ampère",
+        "ru": "Андре-Мари Ампер",
+        "ky": "Андре-Мари Ампер"
+      }
+    },
+    {
+      "slug": "johann-schweigger",
+      "birth_year": 1779,
+      "death_year": 1857,
+      "role": "successor",
+      "name": {
+        "en": "Johann Schweigger",
+        "tr": "Johann Schweigger",
+        "ru": "Иоганн Швейггер",
+        "ky": "Иоганн Швейггер"
+      }
+    },
+    {
+      "slug": "michael-faraday",
+      "birth_year": 1791,
+      "death_year": 1867,
+      "role": "successor",
+      "name": {
+        "en": "Michael Faraday",
+        "tr": "Michael Faraday",
+        "ru": "Майкл Фарадей",
+        "ky": "Майкл Фарадей"
+      }
+    },
+    {
+      "slug": "william-sturgeon",
+      "birth_year": 1783,
+      "death_year": 1850,
+      "role": "successor",
+      "name": {
+        "en": "William Sturgeon",
+        "tr": "William Sturgeon",
+        "ru": "Уильям Стёрджен",
+        "ky": "Уильям Стёрджен"
+      }
+    },
+    {
+      "slug": "pavel-schilling",
+      "birth_year": 1786,
+      "death_year": 1837,
+      "role": "successor",
+      "name": {
+        "en": "Pavel Schilling",
+        "tr": "Pavel Schilling",
+        "ru": "Павел Шиллинг",
+        "ky": "Павел Шиллинг"
+      }
+    }
+  ],
+  "builds_on": [
+    "volta-battery"
+  ],
+  "sources": [
+    {
+      "title": "Hans Christian Ørsted — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted"
+    },
+    {
+      "title": "L. Pearce Williams, \"Oersted, Hans Christian\", Complete Dictionary of Scientific Biography — Encyclopedia.com",
+      "kind": "encyclopedia",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/hans-christian-oersted"
+    },
+    {
+      "title": "Gian Domenico Romagnosi — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gian_Domenico_Romagnosi"
+    },
+    {
+      "title": "Galvanometer, history section — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Galvanometer"
+    },
+    {
+      "title": "Pavel Schilling — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Pavel_Schilling"
+    },
+    {
+      "title": "APS News, \"This Month in Physics History: July 1820: Oersted & Electromagnetism\" (2008)",
+      "kind": "article",
+      "url": "https://www.aps.org/apsnews/2008/07/1820-oersted-electromagnetism"
+    },
+    {
+      "title": "National MagLab, \"Hans Christian Ørsted\" (Magnet Academy pioneers)",
+      "kind": "other",
+      "url": "https://nationalmaglab.org/magnet-academy/history-of-electricity-magnetism/pioneers/hans-christian-orsted/"
+    },
+    {
+      "title": "Linda Hall Library, Scientist of the Day: Hans Christian Oersted",
+      "kind": "other",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/hans-christian-oersted/"
+    },
+    {
+      "title": "\"The birth of electromagnetism (1820)\", Skulls in the Stars — a reading of the English translation of Ørsted's paper",
+      "kind": "other",
+      "url": "https://skullsinthestars.com/2011/04/03/the-birth-of-electromagnetism-1820/"
+    },
+    {
+      "title": "Hans Christian Ørsted — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Hans-Christian-Orsted"
+    }
+  ],
+  "research_note": "Researched 2026-10-19 against English Wikipedia (Hans Christian Ørsted; Gian Domenico Romagnosi; Galvanometer; Pavel Schilling; André-Marie Ampère; History of electromagnetic theory for the 1731 Yorkshire knives and Franklin's 1751 needles), L. Pearce Williams' Dictionary of Scientific Biography entry via Encyclopedia.com (winter 1819-20 lecture course, discovery during a lecture in spring 1820, thin platinum wire, effect faint, resumed in July before colleagues, 21 July 1820 four-page Latin essay sent across Europe, Kant's Grundkräfte, Ritter, more than a hundred scientists publishing within seven years), APS News 2008, National MagLab, Linda Hall Library, and a blog reading of the English translation of the 1820 paper (twenty copper troughs, witnesses Esmarch, Wleugel, Hauch, Reinhardt, Jacobsen, Zeise; through glass, metal, wood, water, stone; 'performs circles'). Romagnosi's two 1802 Trentino newspaper notices (Gazzetta di Trento, 3 August; a longer one in Rovereto, date not confirmed) confirmed through an Italian paper on heyjoe.fbk.eu found by search (not opened). Britannica linked for the human only.\nFLAGGED IN THE BODY: (1) the lecture rests on Ørsted's own third-person account in the Edinburgh Encyclopaedia article 'Thermo-electricity' (1830), said in a NOTE box; (2) 21 April 1820 is called traditional, not documented; (3) the 'lucky accident' story is contradicted (Wikipedia calls it a myth; DSB says the discovery did happen during a lecture, so the body keeps the lecture and drops the accident); (4) Romagnosi's 1802 priority is presented as disputed, with the majority reading (electrostatic, open circuit) stated.\nREVIEWER SHOULD CHECK: (1) precision 'exact' is for the year 1820, which every source agrees on; only the day is uncertain. (2) 'still looking for that link without clear results' paraphrases Wikipedia's 'since 1818, but was quite confused'; the DSB says he had predicted such an effect as early as 1813. (3) The point that a wire laid across the needle shows little is physics reasoning; the fact-checker found Ørsted noted no effect with the wire perpendicular to the magnetic meridian (Encyclopedia of World Biography), but no source says this was what earlier experimenters tried. (4) Arago 'early September' (sources give 4 and 11 September 1820), Ampère 'by late September' (18 and 25 September). (5) 'Variants of that idea carried the first telegraph lines in Britain' relies on Cooke having seen a copy of Schilling's apparatus in 1836 (Cooke-Wheatstone patent 1837); not separately sourced here. (6) Figure credit 'Agustin Privat-Deschanel' is the Commons author field verbatim (the textbook author is usually spelled Augustin). (7) builds_on: volta-battery only; franklin-lightning is mentioned (1751 needles) but is not a real predecessor. (8) Kyrgyz terms not in the glossary: 'электр тогу' (electric current), 'магнит жебеси' (compass needle), 'зым' (wire), 'туюк чынжыр' (closed circuit), 'мамыча' (voltaic pile), 'электр кагылышуусу' (rendering of Ørsted's 'electric conflict') — a Kyrgyz reader should confirm.\n\nFIXED AFTER FACT-CHECK (all four languages): (1) the 'rubbed comb' sentence was physically wrong (a static charge does attract a light needle electrically); now says a static charge tugs only by electric attraction, not magnetism. (2) Kant sentence split: Kant's few basic forces vs Ørsted's own 'one original power'. (3) 'by his own later admission, not finding it' -> 'without clear results'. (4) 'every careful attempt' -> 'attempts'. (5) 'a natural first try' dropped. (6) 'small battery' -> 'a battery' (size not sourced). (7) 'colleagues' -> 'witnesses'. (8) 'almost all electricity' -> 'most' (solar panels). (9) aluminium 1825 -> 1824-25. (10) 'people had looked' -> 'looked for a link' (ru/ky had drifted to 'studied the pile'). (11) if_you_were_there toned down to the source's 'not much impressed'; 'lecture hall' dropped (venue not clear in sources).\nSTILL UNCONFIRMED: Schweigger's galvanometer date (16 September 1820 in Wikipedia's Galvanometer article; another article says 1822; Poggendorff worked independently); Ampère's parallel-wires demonstration date (18 or 25 September 1820, single source each); 'more than a hundred scientists within seven years' is the DSB figure, reportedly Ørsted's own count; Sturgeon's electromagnet is dated 1824-25 in some sources (body says 1825).",
+  "translations": {
+    "en": {
+      "title": "Ørsted: an electric current moves a compass needle",
+      "summary": "In 1820 Hans Christian Ørsted showed in Copenhagen that a wire carrying current turns a compass needle. Electricity and magnetism, long thought separate, were linked.",
+      "why_it_matters": "It was the first firm proof that electricity and magnetism are connected, and it set off a wave of work across Europe within weeks. Motors, electromagnets, the telegraph and, through Faraday, the generator all start from that turning needle.",
+      "if_you_were_there": "A professor lecturing in Copenhagen closes a circuit, and a compass needle under glass twitches. The audience is not much impressed.",
+      "place_name": "Copenhagen",
+      "body": "### The scene\n\nIn 1800 Alessandro Volta's pile gave the world its first steady electric current. Within weeks it was splitting water, and over the next twenty years chemists used it to pull new metals out of their compounds. One question it did not answer: did electricity have anything to do with magnetism?\n\nThere were hints. Lightning strikes had been known to magnetise steel: in 1731 a bolt in Yorkshire left a box of knives and forks able to pick up nails, and in 1751 Benjamin Franklin magnetised sewing needles with the discharge of a Leyden jar. Yet attempts to make a battery move a magnet failed, and many physicists, following Coulomb, held that the two were separate fluids that simply looked alike.\n\nHans Christian Ørsted, a pharmacist's son from the Danish island town of Rudkøbing, thought otherwise. His doctoral thesis of 1799 was on Kant, who taught that the forces of nature are forms of a few basic forces. Ørsted went further: all of them, he believed, come from one original power. On a long tour of Europe from 1801 he befriended the German experimenter Johann Wilhelm Ritter, who was also sure electricity and magnetism were linked. By the 1810s Ørsted was a professor in Copenhagen, still looking for that link without clear results.\n\n### What happened\n\nIn the winter of 1819–20 Ørsted gave a lecture course on electricity, galvanism and magnetism. During one lecture in the spring of 1820 he passed the current of a battery through a very thin platinum wire placed over a compass needle in a glass-covered box. The needle moved. The effect was so weak, he wrote years later, that the audience was not much impressed. The popular version, a lucky accident noticed by chance, does not fit his own account: he set up the test because he expected something. A date of 21 April 1820 is often given; it comes from tradition rather than from his notes.\n\n> [!NOTE]\n> Our main witness to the lecture is Ørsted himself, writing in the third person in an encyclopaedia article published in 1830, ten years later. Historians accept the lecture, but the exact day, and how much he understood at that moment, rest on that one late account.\n\nOther duties held him up until July. Then, with a far stronger battery of twenty copper troughs, he repeated every step in front of a small group of witnesses whom he named in his report. The results were strange. With the wire above the needle, the north end swung one way; with the wire below, it swung the other. Reversing the current reversed the swing. The force passed through glass, metal, wood, water and stone as if they were not there. And it did not pull the needle towards the wire or push it away, as every known force did. It turned it sideways.\n\nOn 21 July 1820 Ørsted put this into four pages of Latin, *Experimenta circa effectum conflictus electrici in acum magneticam* (Experiments on the effect of the electric conflict on the magnetic needle), and posted copies to scientists and learned societies across Europe. His conclusion: the \"electric conflict\" is not shut inside the wire but spreads into the space around it and \"performs circles\".\n\n![A teaching apparatus for Ørsted's experiment: a wire held above a compass needle, which swings when a current flows](https://upload.wikimedia.org/wikipedia/commons/1/13/Oersted_experiment.png \"Agustin Privat-Deschanel · Public domain · https://commons.wikimedia.org/wiki/File:Oersted_experiment.png\")\n\nThink of a drain in a still pond. A leaf near it is not pulled straight in; it is carried round. The force around a current behaves like that swirl: it has a direction around the wire, not towards it. The picture breaks in one place: nothing actually flows around the wire. The circle is the direction in which a magnetic pole is pushed, not a stream of anything, and a compass needle, whose two ends are pushed in opposite directions, turns and stops instead of being swept round.\n\n### Why it took so long\n\nVolta's pile was twenty years old, and people had looked for a link. Part of the trouble was the expectation itself. Since Newton, physicists knew forces that act along the line between two bodies: gravity and the pull between electric charges both work that way. A force that wraps around its source was something no one was looking for. A wire laid across the needle at right angles pushes the needle along its own length and shows almost nothing; the wire has to run along the needle for the swing to appear. And the effect needed a closed circuit carrying a real current: a static charge tugs on a needle only the way it tugs on any light object, by electric attraction, not by magnetism.\n\nThere was an earlier report. In 1802 the Italian jurist and philosopher Gian Domenico Romagnosi described in two local newspapers in Trentino how a voltaic pile deflected a magnetic needle. It went almost unnoticed. Whether he saw the effect of a current at all is disputed: many historians read his description as an electrostatic effect of the charged pile, not a current in a closed circuit. The question of priority is still argued.\n\n### What it opened\n\nThe pamphlet reached Geneva, and in early September François Arago repeated the experiment in front of the Academy of Sciences in Paris. André-Marie Ampère reacted within weeks: by late September he was showing the Academy that two parallel wires carrying current attract or repel each other with no magnet involved, and he went on to build a mathematical theory of what he called electrodynamics. That same September Johann Schweigger in Halle wound the wire into many turns around a needle to multiply the effect. That was the first galvanometer, and for decades the main way to measure a current. Over the next seven years more than a hundred scientists published on electromagnetism.\n\nIn 1821 Michael Faraday made a wire carrying a current spin continuously around a magnet, the first electric motor in principle. In 1825 William Sturgeon wound a coil around an iron bar and got the first electromagnet. Then the question ran in reverse: if a current makes magnetism, can magnetism make a current? Faraday answered yes in 1831, and that answer is how most electricity is generated today.\n\nThe swinging needle also became a signal. In 1832 in Saint Petersburg, Pavel Schilling, a diplomat in Russian service, sent messages between two rooms by deflecting magnetic needles with currents. Variants of that idea carried the first telegraph lines in Britain a few years later.\n\n![One needle instrument of Pavel Schilling's telegraph, from an 1884 history of the telegraph](https://upload.wikimedia.org/wikipedia/commons/1/12/Schilling_one-needle_telegraph.png \"John Joseph Fahie (1846-1934) · Public domain · https://commons.wikimedia.org/wiki/File:Schilling_one-needle_telegraph.png\")\n\nØrsted received the Royal Society's Copley Medal in 1820. He went on to produce the first, impure, metallic aluminium in 1824–25, and in 1829 founded the institution that became the Technical University of Denmark. A unit of magnetic field in the older centimetre-gram-second system, the oersted, carries his name.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Ørsted: elektrik akımı pusula iğnesini oynatıyor",
+      "summary": "1820'de Hans Christian Ørsted Kopenhag'da akım taşıyan bir telin pusula iğnesini döndürdüğünü gösterdi. Uzun süre ayrı sanılan elektrik ve manyetizma birbirine bağlandı.",
+      "why_it_matters": "Elektrik ile manyetizmanın bağlantılı olduğunun ilk sağlam kanıtıydı ve birkaç hafta içinde Avrupa'nın dört bir yanında bir çalışma dalgası başlattı. Motorlar, elektromıknatıslar, telgraf ve Faraday üzerinden jeneratör, hepsi o dönen iğneden başlar.",
+      "if_you_were_there": "Kopenhag'da ders veren bir profesör devreyi kapatıyor ve camın altındaki pusula iğnesi kıpırdıyor. Dinleyiciler pek etkilenmiyor.",
+      "place_name": "Kopenhag",
+      "body": "### Sahne\n\n1800'de Alessandro Volta'nın pili dünyaya ilk kesintisiz elektrik akımını verdi. Birkaç hafta içinde suyu ayrıştırıyordu; sonraki yirmi yılda kimyacılar onunla bileşiklerin içinden yeni metaller çıkardı. Ama bir soruyu yanıtlamadı: elektriğin manyetizmayla bir ilgisi var mıydı?\n\nİpuçları vardı. Yıldırımın çeliği mıknatıslayabildiği biliniyordu: 1731'de Yorkshire'da düşen bir yıldırım, bir kutu bıçak ve çatalı çivi çekecek hale getirmişti; 1751'de Benjamin Franklin dikiş iğnelerini bir Leyden şişesinin boşalmasıyla mıknatısladı. Yine de bir pille mıknatısı oynatma denemeleri başarısız oldu ve Coulomb'u izleyen pek çok fizikçi, ikisinin yalnızca birbirine benzeyen ayrı akışkanlar olduğunu düşünüyordu.\n\nDanimarka'nın Rudkøbing adlı ada kasabasından bir eczacının oğlu olan Hans Christian Ørsted başka türlü düşünüyordu. 1799'daki doktora tezi Kant üzerineydi; Kant doğanın kuvvetlerinin birkaç temel kuvvetin biçimleri olduğunu öğretiyordu. Ørsted bir adım ileri gitti: ona göre hepsi tek bir ilk güçten geliyordu. 1801'de başlayan uzun Avrupa gezisinde, elektrikle manyetizmanın bağlantılı olduğundan o da emin olan Alman deneyci Johann Wilhelm Ritter'le dost oldu. 1810'larda Ørsted Kopenhag'da profesördü; bu bağı hâlâ arıyor, ama net bir sonuca varamıyordu.\n\n### Ne oldu\n\n1819–20 kışında Ørsted elektrik, galvanizm ve manyetizma üzerine bir ders dizisi verdi. 1820 baharında derslerden birinde, bir pilin akımını camla örtülü bir kutudaki pusula iğnesinin üstüne yerleştirilmiş çok ince bir platin telden geçirdi. İğne kıpırdadı. Yıllar sonra yazdığına göre etki o kadar zayıftı ki dinleyiciler pek etkilenmedi. Yaygın anlatı, yani şans eseri fark edilmiş talihli bir kaza, onun kendi anlatımıyla uyuşmuyor: deneyi bir şey beklediği için kurmuştu. Sık sık 21 Nisan 1820 tarihi verilir; bu tarih onun notlarından değil, gelenekten gelir.\n\n> [!NOTE]\n> Dersin asıl tanığı Ørsted'in kendisidir: on yıl sonra, 1830'da yayımlanan bir ansiklopedi maddesinde, üçüncü tekil şahısla yazmıştır. Tarihçiler dersi kabul eder; ama tam gün ve o anda ne kadarını anladığı bu tek ve geç anlatıma dayanır.\n\nBaşka işler onu temmuza kadar oyaladı. Sonra yirmi bakır tekneden oluşan çok daha güçlü bir pille, raporunda adlarını verdiği küçük bir tanık grubunun önünde her adımı tekrarladı. Sonuçlar tuhaftı. Tel iğnenin üstündeyken iğnenin kuzey ucu bir yöne, tel altındayken öbür yöne döndü. Akımı ters çevirmek dönüşü de ters çevirdi. Kuvvet camın, metalin, tahtanın, suyun ve taşın içinden sanki yoklarmış gibi geçti. Üstelik bilinen her kuvvetin yaptığı gibi iğneyi tele doğru çekmedi ya da itmedi. Onu yana çevirdi.\n\n21 Temmuz 1820'de Ørsted bunu dört sayfalık Latince bir metne döktü: *Experimenta circa effectum conflictus electrici in acum magneticam* (Elektrik çatışmasının mıknatıslı iğne üzerindeki etkisine dair deneyler). Kopyalarını Avrupa'nın dört bir yanındaki bilim insanlarına ve bilim kurumlarına postaladı. Vardığı sonuç: \"elektrik çatışması\" telin içine kapalı kalmaz, çevresindeki boşluğa yayılır ve \"daireler çizer\".\n\n![Ørsted deneyi için bir ders aleti: pusula iğnesinin üstünde tutulan bir tel; akım geçince iğne döner](https://upload.wikimedia.org/wikipedia/commons/1/13/Oersted_experiment.png \"Agustin Privat-Deschanel · Public domain · https://commons.wikimedia.org/wiki/File:Oersted_experiment.png\")\n\nDurgun bir göletteki bir gideri düşünün. Yakınındaki bir yaprak dümdüz içeri çekilmez, etrafında döndürülür. Akımın çevresindeki kuvvet o girdap gibi davranır: yönü tele doğru değil, telin etrafındadır. Benzetme bir yerde bozulur: telin etrafında gerçekte hiçbir şey akmaz. Daire, bir mıknatıs kutbunun itildiği yöndür, bir şeyin akıntısı değil; iki ucu zıt yönlere itilen pusula iğnesi de sürüklenip dönmez, döner ve durur.\n\n### Neden bu kadar uzun sürdü\n\nVolta'nın pili yirmi yaşındaydı ve insanlar bir bağ aramıştı. Sorunun bir kısmı beklentinin kendisiydi. Newton'dan beri fizikçilerin bildiği kuvvetler iki cismi birleştiren çizgi boyunca etki ederdi: kütleçekimi de elektrik yükleri arasındaki çekim de öyle çalışır. Kaynağının etrafına sarılan bir kuvveti kimse aramıyordu. İğnenin üstüne dik açıyla konan bir tel iğneyi kendi uzunluğu boyunca iter ve neredeyse hiçbir şey göstermez; dönüşün görünmesi için telin iğne boyunca uzanması gerekir. Etki ayrıca gerçek bir akım taşıyan kapalı bir devre istiyordu: durgun bir yük iğneyi ancak herhangi bir hafif cismi çektiği gibi, manyetizmayla değil elektriksel çekimle çeker.\n\nDaha önce bir bildirim de vardı. 1802'de İtalyan hukukçu ve filozof Gian Domenico Romagnosi, Trentino'daki iki yerel gazetede bir Volta pilinin mıknatıslı iğneyi nasıl saptırdığını anlattı. Neredeyse hiç fark edilmedi. Etkinin bir akımdan kaynaklandığını görüp görmediği tartışmalıdır: pek çok tarihçi onun anlattığını kapalı devredeki bir akımın değil, yüklü pilin elektrostatik etkisi olarak okur. Öncelik sorusu hâlâ tartışılıyor.\n\n### Neyin kapısını açtı\n\nBroşür Cenevre'ye ulaştı ve eylül başında François Arago deneyi Paris'te Bilimler Akademisi'nin önünde tekrarladı. André-Marie Ampère birkaç hafta içinde karşılık verdi: eylül sonunda Akademi'ye akım taşıyan iki paralel telin, hiç mıknatıs olmadan birbirini çektiğini ya da ittiğini gösteriyordu; ardından elektrodinamik adını verdiği şeyin matematiksel kuramını kurdu. Aynı eylülde Halle'de Johann Schweigger, etkiyi katlamak için teli bir iğnenin etrafına çok sayıda tur sardı. Bu ilk galvanometreydi ve onlarca yıl boyunca akımı ölçmenin başlıca yolu oldu. Sonraki yedi yılda yüzden fazla bilim insanı elektromanyetizma üzerine yayın yaptı.\n\n1821'de Michael Faraday, akım taşıyan bir teli bir mıknatısın etrafında durmadan döndürdü; ilkesel olarak ilk elektrik motoru buydu. 1825'te William Sturgeon bir demir çubuğun etrafına bobin sararak ilk elektromıknatısı elde etti. Sonra soru tersine döndü: akım manyetizma yaratıyorsa, manyetizma da akım yaratabilir mi? Faraday 1831'de evet dedi ve bugün elektriğin çoğu bu yanıtla üretiliyor.\n\nDönen iğne bir işarete de dönüştü. 1832'de Sankt Peterburg'da Rus hizmetindeki diplomat Pavel Schilling, akımlarla mıknatıslı iğneleri saptırarak iki oda arasında mesaj gönderdi. Bu fikrin türevleri birkaç yıl sonra Britanya'daki ilk telgraf hatlarını taşıdı.\n\n![Pavel Schilling'in telgrafının tek iğneli aleti; 1884 tarihli bir telgraf tarihinden](https://upload.wikimedia.org/wikipedia/commons/1/12/Schilling_one-needle_telegraph.png \"John Joseph Fahie (1846-1934) · Public domain · https://commons.wikimedia.org/wiki/File:Schilling_one-needle_telegraph.png\")\n\nØrsted 1820'de Royal Society'nin Copley Madalyası'nı aldı. 1824–25'te ilk, saf olmayan metalik alüminyumu üretti; 1829'da sonradan Danimarka Teknik Üniversitesi'ne dönüşecek kurumu kurdu. Eski santimetre-gram-saniye sistemindeki bir manyetik alan birimi, oersted, onun adını taşır.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Эрстед: электрический ток поворачивает стрелку компаса",
+      "summary": "В 1820 году Ханс Кристиан Эрстед показал в Копенгагене, что провод с током поворачивает магнитную стрелку. Электричество и магнетизм, считавшиеся разными, оказались связаны.",
+      "why_it_matters": "Это было первое твёрдое доказательство связи электричества и магнетизма, и уже через несколько недель по всей Европе началась волна исследований. Двигатели, электромагниты, телеграф, а через Фарадея и генератор начинаются с этой повернувшейся стрелки.",
+      "if_you_were_there": "Профессор, читающий лекцию в Копенгагене, замыкает цепь, и магнитная стрелка под стеклом вздрагивает. Слушатели не особенно впечатлены.",
+      "place_name": "Копенгаген",
+      "body": "### Обстановка\n\nВ 1800 году вольтов столб Алессандро Вольты дал миру первый постоянный электрический ток. Уже через несколько недель им разлагали воду, а в следующие двадцать лет химики с его помощью извлекали из соединений новые металлы. На один вопрос он не ответил: связано ли электричество с магнетизмом?\n\nНамёки были. Было известно, что молния способна намагнитить сталь: в 1731 году после удара молнии в Йоркшире коробка ножей и вилок стала притягивать гвозди, а в 1751 году Бенджамин Франклин намагнитил швейные иглы разрядом лейденской банки. Но попытки заставить батарею сдвинуть магнит проваливались, и многие физики вслед за Кулоном считали электричество и магнетизм разными жидкостями, которые лишь похожи друг на друга.\n\nХанс Кристиан Эрстед, сын аптекаря из датского островного городка Рудкёбинг, думал иначе. Его докторская диссертация 1799 года была посвящена Канту, который учил, что силы природы — это формы нескольких основных сил. Эрстед пошёл дальше: по его убеждению, все они происходят из одной первоначальной силы. Во время долгой поездки по Европе, начавшейся в 1801 году, он подружился с немецким экспериментатором Иоганном Вильгельмом Риттером, который тоже был уверен в связи электричества и магнетизма. К 1810-м годам Эрстед был профессором в Копенгагене и всё ещё искал эту связь, но без ясных результатов.\n\n### Что произошло\n\nЗимой 1819–20 года Эрстед читал курс лекций об электричестве, гальванизме и магнетизме. Весной 1820 года на одной из лекций он пропустил ток батареи через очень тонкую платиновую проволоку, расположенную над магнитной стрелкой в застеклённой коробке. Стрелка шевельнулась. Эффект был так слаб, писал он годы спустя, что слушатели не были особенно впечатлены. Популярная версия о счастливой случайности, замеченной мимоходом, не сходится с его собственным рассказом: он поставил опыт, потому что чего-то ожидал. Часто называют дату 21 апреля 1820 года; она идёт от традиции, а не из его записей.\n\n> [!NOTE]\n> Главный свидетель той лекции — сам Эрстед: он писал о себе в третьем лице в энциклопедической статье, вышедшей в 1830 году, десять лет спустя. Историки признают, что лекция была, но точный день и то, насколько он понял увиденное в тот момент, держатся на этом единственном позднем свидетельстве.\n\nДругие обязанности задержали его до июля. Затем с гораздо более мощной батареей из двадцати медных корыт он повторил каждый шаг перед небольшой группой свидетелей, которых назвал в своём отчёте поимённо. Результаты были странными. Когда проволока шла над стрелкой, северный конец отклонялся в одну сторону; когда под стрелкой — в другую. Если поменять направление тока, менялось и отклонение. Сила проходила сквозь стекло, металл, дерево, воду и камень, словно их не было. И она не притягивала стрелку к проволоке и не отталкивала, как делала любая известная сила. Она поворачивала её вбок.\n\n21 июля 1820 года Эрстед изложил всё это на четырёх страницах латыни — *Experimenta circa effectum conflictus electrici in acum magneticam* («Опыты, касающиеся действия электрического конфликта на магнитную стрелку») — и разослал экземпляры учёным и научным обществам по всей Европе. Его вывод: «электрический конфликт» не заперт внутри проводника, а распространяется в окружающее пространство и «описывает круги».\n\n![Учебный прибор для опыта Эрстеда: проволока над магнитной стрелкой, которая поворачивается, когда идёт ток](https://upload.wikimedia.org/wikipedia/commons/1/13/Oersted_experiment.png \"Agustin Privat-Deschanel · Public domain · https://commons.wikimedia.org/wiki/File:Oersted_experiment.png\")\n\nПредставьте сток в тихом пруду. Лист рядом с ним не втягивается прямо внутрь, его несёт по кругу. Сила вокруг тока ведёт себя как этот водоворот: она направлена вокруг проволоки, а не к ней. В одном месте сравнение ломается: вокруг проволоки на самом деле ничего не течёт. Круг — это направление, в котором толкает магнитный полюс, а не поток чего-либо, и магнитная стрелка, два конца которой толкаются в противоположные стороны, поворачивается и останавливается, а не уносится по кругу.\n\n### Почему это заняло столько времени\n\nВольтову столбу было двадцать лет, и связь с магнетизмом искали. Отчасти мешало само ожидание. Со времён Ньютона физики знали силы, действующие вдоль линии, соединяющей два тела: так устроены и тяготение, и притяжение электрических зарядов. Силу, которая обвивается вокруг своего источника, никто не искал. Проволока, положенная поперёк стрелки под прямым углом, толкает стрелку вдоль её же длины и почти ничего не показывает; чтобы появилось отклонение, проволока должна идти вдоль стрелки. Кроме того, эффекту нужна замкнутая цепь с настоящим током: неподвижный заряд притягивает стрелку лишь так, как притягивает любой лёгкий предмет, — электрически, а не магнитно.\n\nБыло и более раннее сообщение. В 1802 году итальянский юрист и философ Джан Доменико Романьози описал в двух местных газетах Трентино, как вольтов столб отклонил магнитную стрелку. Этого почти никто не заметил. Видел ли он вообще действие тока, спорно: многие историки читают его описание как электростатическое действие заряженного столба, а не тока в замкнутой цепи. Спор о приоритете продолжается.\n\n### Что это открыло\n\nБрошюра дошла до Женевы, и в начале сентября Франсуа Араго повторил опыт перед Академией наук в Париже. Андре-Мари Ампер откликнулся за считаные недели: к концу сентября он показывал Академии, что два параллельных провода с током притягиваются или отталкиваются без всякого магнита, а затем построил математическую теорию того, что назвал электродинамикой. В том же сентябре Иоганн Швейггер в Галле намотал провод множеством витков вокруг стрелки, чтобы умножить эффект. Это был первый гальванометр, и десятилетиями он оставался главным способом измерить ток. За следующие семь лет об электромагнетизме опубликовали работы больше ста учёных.\n\nВ 1821 году Майкл Фарадей заставил провод с током непрерывно вращаться вокруг магнита — в принципе это был первый электродвигатель. В 1825 году Уильям Стёрджен намотал катушку на железный стержень и получил первый электромагнит. Затем вопрос развернулся: если ток создаёт магнетизм, может ли магнетизм создать ток? Фарадей ответил «да» в 1831 году, и большая часть электричества сегодня вырабатывается по этому ответу.\n\nОтклоняющаяся стрелка стала и сигналом. В 1832 году в Санкт-Петербурге Павел Шиллинг, дипломат на русской службе, передавал сообщения между двумя комнатами, отклоняя токами магнитные стрелки. Варианты этой идеи через несколько лет легли в основу первых телеграфных линий в Британии.\n\n![Однострелочный прибор телеграфа Павла Шиллинга, из истории телеграфа 1884 года](https://upload.wikimedia.org/wikipedia/commons/1/12/Schilling_one-needle_telegraph.png \"John Joseph Fahie (1846-1934) · Public domain · https://commons.wikimedia.org/wiki/File:Schilling_one-needle_telegraph.png\")\n\nВ 1820 году Эрстед получил медаль Копли Королевского общества. В 1824–25 годах он первым получил металлический алюминий, пусть и нечистый, а в 1829 году основал учебное заведение, ставшее позднее Техническим университетом Дании. Единица магнитного поля в старой системе сантиметр-грамм-секунда, эрстед, носит его имя.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Эрстед: электр тогу компастын жебесин бурат",
+      "summary": "1820-жылы Ханс Кристиан Эрстед Копенгагенде ток өткөн зым компастын жебесин бурарын көрсөттү. Көпкө чейин бөлөк деп эсептелген электр менен магнетизм байланыштуу болуп чыкты.",
+      "why_it_matters": "Бул электр менен магнетизмдин байланышы бар экенинин биринчи бекем далили болгон жана бир нече жуманын ичинде бүткүл Европада изилдөөлөрдүн толкунун козгогон. Кыймылдаткычтар, электромагниттер, телеграф жана Фарадей аркылуу генератор — баары ошол бурулган жебеден башталат.",
+      "if_you_were_there": "Копенгагенде лекция окуп жаткан профессор чынжырды туташтырат, айнек астындагы магнит жебеси селт этет. Угуучулар анча деле таң калышпайт.",
+      "place_name": "Копенгаген",
+      "body": "### Шарттар\n\n1800-жылы Алессандро Вольтанын мамычасы дүйнөгө биринчи туруктуу электр тогун берди. Бир нече жуманын ичинде аны менен сууну ажыратып башташты, кийинки жыйырма жылда химиктер ал аркылуу кошулмалардын ичинен жаңы металлдарды бөлүп алышты. Бирок бир суроого ал жооп берген жок: электрдин магнетизмге кандайдыр бир тиешеси барбы?\n\nБелгилер бар эле. Чагылган болотту магниттей алары белгилүү болчу: 1731-жылы Йоркширде түшкөн чагылгандан кийин бир куту бычак менен айры мыхтарды тартып калган, ал эми 1751-жылы Бенджамин Франклин тигүү ийнелерин лейден банкасынын разряды менен магниттеген. Ошентсе да батарея менен магнитти жылдырууга болгон аракеттер ийгиликсиз аяктаган, көп физиктер Кулонго ээрчип, электр менен магнетизмди бири-бирине жөн гана окшош эки башка суюктук деп эсептешкен.\n\nДаниянын Рудкёбинг деген арал шаарчасынан чыккан аптекачынын уулу Ханс Кристиан Эрстед башкача ойлогон. Анын 1799-жылкы доктордук диссертациясы Кант жөнүндө болгон; Кант табияттын күчтөрү бир нече негизги күчтүн формалары деп үйрөткөн. Эрстед андан ары кетти: анын ишениминде алардын баары бир баштапкы күчтөн келип чыгат. 1801-жылы башталган Европа боюнча узак сапарында ал электр менен магнетизмдин байланышы бар экенине ал да ишенген немис экспериментатору Иоганн Вильгельм Риттер менен дос болгон. 1810-жылдары Эрстед Копенгагенде профессор болчу, ал байланышты дагы эле издеп жүргөн, бирок так натыйжага жете элек болчу.\n\n### Эмне болду\n\n1819–20-жылдын кышында Эрстед электр, гальванизм жана магнетизм боюнча лекциялар курсун окуган. 1820-жылдын жазында лекциялардын биринде ал батареянын тогун айнек менен жабылган кутудагы магнит жебесинин үстүнө коюлган абдан ичке платина зым аркылуу өткөргөн. Жебе кыймылдады. Бир нече жыл өткөндөн кийин жазгандай, таасир ушунчалык алсыз болгондуктан угуучулар анча деле таң калышкан эмес. «Кокустан байкалган бактылуу кырсык» деген кеңири тараган версия анын өз баянына туура келбейт: ал тажрыйбаны бир нерсе күткөндүктөн уюштурган. Көбүнчө 1820-жылдын 21-апрели деген дата айтылат; ал анын жазууларынан эмес, салттан келет.\n\n> [!NOTE]\n> Ал лекциянын негизги күбөсү Эрстеддин өзү: ал он жыл өткөндөн кийин, 1830-жылы чыккан энциклопедиялык макалада өзү жөнүндө үчүнчү жакта жазган. Тарыхчылар лекция болгонун кабыл алышат, бирок так күнү жана ал ошол учурда канчалык түшүнгөнү ушул жалгыз кеч баянга гана таянат.\n\nБашка милдеттер аны июлга чейин кармап турду. Андан кийин жыйырма жез челектен турган алда канча күчтүү батарея менен ал ар бир кадамды отчетунда аты-жөнүн атаган күбөлөрүнүн чакан тобунун көзүнчө кайталады. Натыйжалар таң калыштуу болду. Зым жебенин үстүндө турганда жебенин түндүк учу бир жакка бурулду, зым астында турганда башка жакка бурулду. Токтун багытын алмаштырганда бурулуу да алмашты. Күч айнектин, металлдын, жыгачтын, суунун жана таштын ичинен алар жоктой эле өттү. Анын үстүнө ал белгилүү бардык күчтөрдөй жебени зымга тартпады да, түртпөдү да. Аны капталга бурду.\n\n1820-жылдын 21-июлунда Эрстед мунун баарын латын тилинде төрт бетке жазды: *Experimenta circa effectum conflictus electrici in acum magneticam* («Электр кагылышуусунун магнит жебесине таасири жөнүндө тажрыйбалар»), анан анын нускаларын бүткүл Европадагы окумуштууларга жана илимий коомдорго почта менен жөнөттү. Анын жыйынтыгы: «электр кагылышуусу» зымдын ичинде камалып калбайт, айланадагы мейкиндикке таралып, «айланалар жасайт».\n\n![Эрстеддин тажрыйбасы үчүн окуу аспабы: магнит жебесинин үстүндө кармалган зым; ток жүргөндө жебе бурулат](https://upload.wikimedia.org/wikipedia/commons/1/13/Oersted_experiment.png \"Agustin Privat-Deschanel · Public domain · https://commons.wikimedia.org/wiki/File:Oersted_experiment.png\")\n\nТынч көлмөдөгү суу агып кетүүчү тешикти элестетиңиз. Анын жанындагы жалбырак түз эле ичине тартылбайт, аны айланта алып кетет. Токтун айланасындагы күч ошол куюн сыяктуу: анын багыты зымга карай эмес, зымдын айланасында. Бул салыштыруу бир жерде бузулат: зымдын айланасында чындыгында эч нерсе акпайт. Айлана — бул магнит уюлу түртүлгөн багыт, кандайдыр бир нерсенин агымы эмес; эки учу карама-каршы жакка түртүлгөн магнит жебеси айлана боюнча агып кетпейт, бурулуп, токтоп калат.\n\n### Эмне үчүн мынча узакка созулду\n\nВольтанын мамычасына жыйырма жыл болгон, байланышты издеп келишкен. Кыйынчылыктын бир бөлүгү күтүүнүн өзүндө болчу. Ньютондон бери физиктер эки нерсени бириктирген сызык боюнча аракет кылган күчтөрдү билишкен: тартылуу да, электр заряддарынын ортосундагы тартылуу да ошондой иштейт. Өз булагын айланып оролгон күчтү эч ким издеген эмес. Жебенин үстүнө туура бурч менен туурасынан коюлган зым жебени өзүнүн узундугу боюнча түртөт жана дээрлик эч нерсе көрсөтпөйт; бурулуу көрүнүшү үчүн зым жебе бойлото тартылышы керек. Мындан тышкары, таасир чыныгы ток өткөн туюк чынжырды талап кылган: кыймылсыз заряд жебени каалаган жеңил нерсени тарткандай эле, магнетизм менен эмес, электр тартылуусу менен гана тартат.\n\nМурунку бир билдирүү да бар болчу. 1802-жылы италиялык юрист жана философ Джан Доменико Романьози Трентинодогу эки жергиликтүү гезитте вольта мамычасы магнит жебесин кантип бурганын сүрөттөгөн. Аны дээрлик эч ким байкаган эмес. Ал токтун таасирин көргөнбү же жокпу, талаштуу: көп тарыхчылар анын сүрөттөмөсүн туюк чынжырдагы токтун эмес, заряддалган мамычанын электростатикалык таасири катары окушат. Биринчилик тууралуу талаш дагы деле уланып жатат.\n\n### Эмнеге жол ачты\n\nБрошюра Женевага жетти, сентябрдын башында Франсуа Араго тажрыйбаны Париждеги Илимдер академиясынын алдында кайталады. Андре-Мари Ампер бир нече жуманын ичинде жооп берди: сентябрдын аягында ал Академияга ток өткөн эки параллель зым эч кандай магнитсиз эле бири-бирин тартарын же түртөрүн көрсөтүп жаткан, андан кийин өзү электродинамика деп атаган нерсенин математикалык теориясын түздү. Ошол эле сентябрда Галледе Иоганн Швейггер таасирди көбөйтүү үчүн зымды жебенин айланасына көп ирет ороду. Бул биринчи гальванометр болгон жана ондогон жылдар бою токту өлчөөнүн негизги жолу бойдон калган. Кийинки жети жылда электромагнетизм боюнча жүздөн ашык окумуштуу эмгек жарыялады.\n\n1821-жылы Майкл Фарадей ток өткөн зымды магниттин айланасында тынымсыз айландырды; принцибинде бул биринчи электр кыймылдаткычы болчу. 1825-жылы Уильям Стёрджен темир таякчага катушка ороп, биринчи электромагнитти алды. Андан кийин суроо тескерисинче коюлду: эгер ток магнетизмди жаратса, магнетизм да ток жарата алабы? Фарадей 1831-жылы «ооба» деп жооп берди, бүгүн электрдин көпчүлүгү ушул жооп боюнча өндүрүлөт.\n\nБурулган жебе белгиге да айланды. 1832-жылы Санкт-Петербургда орус кызматындагы дипломат Павел Шиллинг магнит жебелерин ток менен буруп, эки бөлмөнүн ортосунда кабар жөнөткөн. Бул идеянын варианттары бир нече жылдан кийин Британиядагы алгачкы телеграф линияларынын негизи болду.\n\n![Павел Шиллингдин телеграфынын бир жебелүү аспабы, 1884-жылкы телеграф тарыхынан](https://upload.wikimedia.org/wikipedia/commons/1/12/Schilling_one-needle_telegraph.png \"John Joseph Fahie (1846-1934) · Public domain · https://commons.wikimedia.org/wiki/File:Schilling_one-needle_telegraph.png\")\n\n1820-жылы Эрстед Королдук коомдун Копли медалын алган. 1824–25-жылдары ал таза эмес болсо да биринчи металл алюминийди алган, ал эми 1829-жылы кийин Даниянын Техникалык университети болуп калган окуу жайын негиздеген. Эски сантиметр-грамм-секунда системасындагы магнит талаасынын бирдиги — эрстед — анын атын алып жүрөт.",
+      "status": "machine"
+    }
+  }
+}
