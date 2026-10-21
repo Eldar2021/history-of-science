@@ -1,0 +1,224 @@
+{
+  "slug": "integrated-circuit",
+  "year": 1958,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 32.7767,
+  "lng": -96.797,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Replica_IC.png",
+    "credit": "Florian Schäffer",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Replica_IC.png"
+  },
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "jack-kilby",
+      "birth_year": 1923,
+      "death_year": 2005,
+      "role": "author",
+      "name": {
+        "en": "Jack Kilby",
+        "tr": "Jack Kilby",
+        "ru": "Джек Килби",
+        "ky": "Джек Килби"
+      }
+    },
+    {
+      "slug": "robert-noyce",
+      "birth_year": 1927,
+      "death_year": 1990,
+      "role": "author",
+      "name": {
+        "en": "Robert Noyce",
+        "tr": "Robert Noyce",
+        "ru": "Роберт Нойс",
+        "ky": "Роберт Нойс"
+      }
+    },
+    {
+      "slug": "jean-hoerni",
+      "birth_year": 1924,
+      "death_year": 1997,
+      "role": "collaborator",
+      "name": {
+        "en": "Jean Hoerni",
+        "tr": "Jean Hoerni",
+        "ru": "Жан Эрни",
+        "ky": "Жан Эрни"
+      }
+    },
+    {
+      "slug": "kurt-lehovec",
+      "birth_year": 1918,
+      "death_year": 2012,
+      "role": "collaborator",
+      "name": {
+        "en": "Kurt Lehovec",
+        "tr": "Kurt Lehovec",
+        "ru": "Курт Леховец",
+        "ky": "Курт Леховец"
+      }
+    },
+    {
+      "slug": "jay-last",
+      "birth_year": 1929,
+      "death_year": 2021,
+      "role": "collaborator",
+      "name": {
+        "en": "Jay Last",
+        "tr": "Jay Last",
+        "ru": "Джей Ласт",
+        "ky": "Джей Ласт"
+      }
+    },
+    {
+      "slug": "geoffrey-dummer",
+      "birth_year": 1909,
+      "death_year": 2002,
+      "role": "predecessor",
+      "name": {
+        "en": "Geoffrey Dummer",
+        "tr": "Geoffrey Dummer",
+        "ru": "Джеффри Даммер",
+        "ky": "Джеффри Даммер"
+      }
+    },
+    {
+      "slug": "werner-jacobi",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Werner Jacobi",
+        "tr": "Werner Jacobi",
+        "ru": "Вернер Якоби",
+        "ky": "Вернер Якоби"
+      }
+    },
+    {
+      "slug": "yuri-osokin",
+      "birth_year": 1937,
+      "death_year": 2013,
+      "role": "collaborator",
+      "name": {
+        "en": "Yuri Osokin",
+        "tr": "Yuri Osokin",
+        "ru": "Юрий Осокин",
+        "ky": "Юрий Осокин"
+      }
+    }
+  ],
+  "builds_on": [
+    "transistor"
+  ],
+  "sources": [
+    {
+      "title": "Integrated circuit — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/technology/integrated-circuit"
+    },
+    {
+      "title": "Invention of the integrated circuit — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Invention_of_the_integrated_circuit"
+    },
+    {
+      "title": "Jack Kilby — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jack_Kilby"
+    },
+    {
+      "title": "1958: All Semiconductor \"Solid Circuit\" is Demonstrated — The Silicon Engine, Computer History Museum",
+      "kind": "article",
+      "url": "https://www.computerhistory.org/siliconengine/all-semiconductor-solid-circuit-is-demonstrated/"
+    },
+    {
+      "title": "1959: Practical Monolithic Integrated Circuit Concept Patented — The Silicon Engine, Computer History Museum",
+      "kind": "article",
+      "url": "https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/"
+    },
+    {
+      "title": "1960: First Planar Integrated Circuit is Fabricated — The Silicon Engine, Computer History Museum",
+      "kind": "article",
+      "url": "https://www.computerhistory.org/siliconengine/first-planar-integrated-circuit-is-fabricated/"
+    },
+    {
+      "title": "Indigenous Circuits — Computer History Museum blog",
+      "kind": "article",
+      "url": "https://computerhistory.org/blog/indigenous-circuits/"
+    },
+    {
+      "title": "Осокин, Юрий Валентинович — Википедия (Russian Wikipedia)",
+      "kind": "encyclopedia",
+      "url": "https://ru.wikipedia.org/wiki/Осокин,_Юрий_Валентинович"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2000 — NobelPrize.org",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/physics/2000/summary/"
+    },
+    {
+      "title": "Р12-2 and early Soviet integrated circuits — Habr (Russian)",
+      "kind": "article",
+      "url": "https://habr.com/ru/companies/7days/articles/93240"
+    },
+    {
+      "title": "1965: \"Moore's Law\" Predicts the Future of Integrated Circuits — The Silicon Engine, Computer History Museum",
+      "kind": "article",
+      "url": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/"
+    },
+    {
+      "title": "Jack Kilby — NAE Memorial Tributes",
+      "kind": "article",
+      "url": "https://nap.nationalacademies.org/read/11912/chapter/34"
+    }
+  ],
+  "research_note": "Checked 2026-10-21 against English Wikipedia (Invention of the integrated circuit; Jack Kilby), the Computer History Museum's Silicon Engine pages (1958 solid circuit; 1959 monolithic IC patent; 1960 first planar IC; 1965 Moore's Law), the CHM blog 'Indigenous Circuits', Russian Wikipedia (Osokin) and a Habr history of Soviet ICs; Britannica linked, not fetched. Image licences read from the Commons API via commons.mjs. A fact-checker pass followed.\nCONFIRMED: Kilby joined TI in May 1958; 12 September 1958 demonstration of a germanium oscillator with transistor, resistors and capacitor joined by gold 'flying wires'; a second circuit about a week later (CHM says an amplifier, Wikipedia a two-transistor trigger on 19 September — the body says only 'a second circuit'); TI announcement March 1959; Kilby patent 3,138,743 filed 6 February 1959, issued 1964 (not in body); Jacobi 1949, Dummer 7 May 1952 quote, Harwick Johnson 21 May 1953; Hoerni planar process; Noyce notebook 23 January 1959, patent filed July 1959, issued April 1961; Lehovec filed 22 April 1959 (granted 1962); Last's team (Fok, Haas, Kattner, Nall; Norman designed the flip-flop) 26 May 1960 physical isolation, 27 September 1960 junction isolation; Micrologic March 1961; TI Type 502 March 1960 at $450; 1966 cross-licence; Shiprock 1965-1975, almost entirely female Navajo workforce, 1975 AIM occupation of about a week, closure and move to Asia already decided; Kilby half of the 2000 Nobel with Alferov and Kroemer sharing the other half.\nFIXED AFTER FACT-CHECK: Lehovec 'patented' changed to 'filed a patent' (all four languages); summary softened (Noyce described a manufacturable way; the earlier 'by the thousand' and 'electronics stopped being wired by hand' were embellishment); 'first microprocessor' narrowed to Intel's 4004; holiday story framed as 'as the story is usually told' because Kilby's own first-hand account (1976 IEEE article, ETHW oral history) could not be read here; R12-2 use and longevity attributed to Russian sources.\nFLAGGED IN BODY: who invented the IC (IMPORTANT box: Kilby, Noyce, Hoerni, Lehovec, Last's team); R12-2 'first in the USSR, around 1962' is a claim of Russian sources (ru.wikipedia says 1962 and 'third in the world'; some Russian sources date the production line to 1963 and an earlier Riga 1959 germanium logic sample exists); Habr says the R12-2 went into Kvant hybrid modules and the Gnom aircraft computer and that production ran into the mid-1990s.\nREVIEWER SHOULD CHECK: NobelPrize.org returned 403 to automation — confirm the Kilby motivation wording and the Alferov/Kroemer share; the patent litigation ran on to about 1969 (not in body, unverified); place is Dallas (TI's semiconductor lab), city precision; Moore's 1965 'every year' and later 'about two years' rest on the CHM page; Werner Jacobi has no life dates; Noyce photo caption on Commons says 'with motherboard 1959' (Intel Free Press) — the alt text only says 1959.\nKYRGYZ TERMS: glossary 'check' term used: ойлоп табуу (invention) as ойлоп табуучулар and 'ойлоп тапкан'; зат (matter) used for 'material'. Not in glossary, chosen as Russian borrowings or best guesses: интегралдык схема, микросхема, жарым өткөргүч (semiconductor), резистор, конденсатор, осциллограф, генератор, триггер, p-n өткөөлдөрү (p-n junctions — a calque, shakiest term), планардык процесс, оксид катмары, 'сандардын зордугу' for 'tyranny of numbers' (a calque), көмүртек резистору.",
+  "translations": {
+    "en": {
+      "title": "The integrated circuit: a whole circuit in one piece",
+      "summary": "In 1958 Jack Kilby built a working circuit in one sliver of germanium. Months later Robert Noyce described how to make such chips in silicon in a way factories could repeat.",
+      "body": "![A replica of Jack Kilby's first integrated circuit: a sliver of germanium with fine gold wires, on a glass slide](https://upload.wikimedia.org/wikipedia/commons/e/ea/Replica_IC.png \"Florian Schäffer · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Replica_IC.png\")\n\n### The scene\n\nBy the mid-1950s the transistor had started to replace the vacuum tube. It was small, cool and did not burn out. But every transistor was still a separate part, and so was every resistor and capacitor next to it. Each one had to be connected to its neighbours by hand, with wires and solder. A computer needed tens of thousands of them, and every joint was a place where it could fail. Engineers called this the \"tyranny of numbers\": the better the circuits on paper, the harder they were to build.\n\nThe idea of a way out was older than the solution. In 1949 Werner Jacobi of the German company Siemens filed a patent for an amplifier with five transistors on one common base. In 1952 the British radar engineer Geoffrey Dummer told a conference in Washington that \"it seems now to be possible to envisage electronic equipment in a solid block with no connecting wires\". In 1953 Harwick Johnson of the American company RCA filed a patent for making transistors, resistors and capacitors in one piece of semiconductor. None of them produced a working device that anyone took further. The US military, meanwhile, was paying for other schemes, such as the Army's Micro-Module: tiny standard parts stacked and wired together.\n\n### What happened\n\nJack Kilby joined Texas Instruments in Dallas in mid-1958. As the story is usually told, Kilby was too new to have earned the company's summer holiday, so he spent the quiet weeks in the laboratory thinking about the tyranny of numbers. His conclusion was that if every part of a circuit could be made from the same semiconductor material, they could all be made in one piece.\n\nOn 12 September 1958 he showed it to the company's managers. On a sliver of germanium, he had shaped a transistor, resistors and a capacitor into a simple oscillator, a circuit that produces a steady electrical wave. The parts were joined by hair-thin gold wires. When it was switched on, an oscilloscope showed a continuous wave. About a week later he demonstrated a second circuit. Texas Instruments announced the \"solid circuit\" in March 1959.\n\nA few months later, in California, Robert Noyce of Fairchild Semiconductor solved the part Kilby had left open. His colleague Jean Hoerni had just invented the planar process: the surface of a silicon wafer is covered with a thin protective layer of oxide, and transistors are made through small windows opened in it. On 23 January 1959 Noyce wrote down in his notebook that metal lines could be laid on top of that oxide to connect the parts, so that the wiring was made at the same time as the components. Kurt Lehovec of the Sprague Electric Company filed a patent for the remaining piece in April 1959: a way to keep neighbouring parts on the same chip electrically apart, using the semiconductor's own junctions.\n\n![Robert Noyce in 1959, the year he described how to wire a chip without loose wires](https://upload.wikimedia.org/wikipedia/commons/8/82/Robert_Noyce_with_Motherboard_1959.png \"Intel Free Press · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png\")\n\nA team at Fairchild led by Jay Last, with Isy Haas, Lionel Kattner and others, turned these ideas into a product. Their first working chips came on 26 May 1960, and by 27 September 1960 they were separating the parts with junctions, as Lehovec had proposed. In March 1961 Fairchild began selling them under the name Micrologic.\n\n> [!IMPORTANT]\n> Who invented the integrated circuit depends on what you count. Kilby built the first working circuit with all its parts made of semiconductor, but his gold wires could not be made in a factory. Noyce described the version that could, built on Hoerni's process and later using Lehovec's isolation, and it was Last's team that made it work. Texas Instruments and Fairchild fought over the patents for most of the 1960s and in 1966 agreed to share them. Today Kilby and Noyce are usually named as co-inventors.\n\nA way to picture the change: wiring a circuit by hand was like copying a book letter by letter, and the integrated circuit was like the printing press, which makes a whole page, wiring included, in one go. The comparison breaks in one place: a printed page is complete after one press, while a chip is built up in many layers, one on top of the other, and a single speck of dust in any layer can ruin it.\n\n### Why it was hard\n\nThe idea went against good engineering sense. A resistor made of semiconductor was worse than an ordinary carbon one, and a semiconductor capacitor was worse still. Making them all from expensive, hard-to-purify crystal looked like wasting the best material on the cheapest parts. Kilby's argument was about numbers, not quality: one piece instead of many joints.\n\nIt was also hard to make chips that worked. In the early years many chips on each wafer were faulty, and the first ones were expensive: Texas Instruments' first chip for sale, the Type 502 flip-flop of March 1960, cost $450. The early customers were those who cared more about weight and reliability than price: the military and space programmes.\n\nThe idea also arose outside the United States. At a semiconductor plant in Riga, in Soviet Latvia, a group in which Yuri Osokin was chief designer developed a germanium integrated circuit, the R12-2, which Russian histories date to around 1962 and describe as the first in the Soviet Union. Russian sources say it was built into modules for aircraft on-board computers and was still being made more than thirty years later.\n\n### What it opened\n\nThe planar method, layers of silicon, oxide and metal made by light and chemistry, is still the basic way chips are made. In 1965 Gordon Moore, a co-founder of Fairchild, noticed that the number of components that could be put on a chip was doubling every year, and predicted it would continue. The rate later slowed to about every two years, but the trend held for half a century: from a handful of parts in 1960 to the 2,300 transistors of Intel's first microprocessor, the 4004, in 1971 and billions today.\n\n![Fairchild Micrologic chips from 1963 in their metal cans, each holding a small logic circuit](https://upload.wikimedia.org/wikipedia/commons/b/b3/Fairchild_Milliwatt_Micrologic_series_%2801%29.jpg \"155LA3 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Fairchild_Milliwatt_Micrologic_series_(01).jpg\")\n\nThe chips were also made by people who rarely appear in the story. From 1965 to 1975 Fairchild ran a chip plant in Shiprock, New Mexico, on Navajo land, and most of its workers were Navajo women, who assembled the circuits by hand, bent over microscopes. In 1975, after layoffs, activists of the American Indian Movement occupied the plant for a week; Fairchild closed it and moved the work to Asia.\n\nIn 2000 Kilby received half of the Nobel Prize in Physics \"for his part in the invention of the integrated circuit\". The other half went to Zhores Alferov of the Ioffe Institute in Saint Petersburg and the German-born Herbert Kroemer, working in the United States, for layered semiconductor structures used in lasers and fast electronics. Noyce had died in 1990, and the Nobel Prize is not given after death.",
+      "why_it_matters": "It ended the need to wire electronics part by part. Once a whole circuit could be made in one piece, and many at a time, the number of components on a chip could keep growing, which led to the microprocessor and to every computer and phone since.",
+      "if_you_were_there": "A circuit was a board of separate parts soldered together by hand, and a big computer filled a room. The idea that a whole circuit could be carved from a single crystal smaller than a fingernail sounded, to many engineers, like a waste of good material.",
+      "place_name": "Dallas",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Entegre devre: tek parçada bütün bir devre",
+      "summary": "1958'de Jack Kilby tek bir germanyum parçasında çalışan bir devre kurdu. Aylar sonra Robert Noyce, böyle çiplerin silisyumda fabrikada tekrar tekrar yapılabileceği bir yol tarif etti.",
+      "body": "![Jack Kilby'nin ilk entegre devresinin bir kopyası: ince altın tellerle bağlanmış bir germanyum parçası, cam bir lam üzerinde](https://upload.wikimedia.org/wikipedia/commons/e/ea/Replica_IC.png \"Florian Schäffer · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Replica_IC.png\")\n\n### Sahne\n\n1950'lerin ortasında transistör vakum tüpünün yerini almaya başlamıştı. Küçüktü, ısınmıyordu, yanıp bozulmuyordu. Ama her transistör hâlâ ayrı bir parçaydı; yanındaki her direnç ve kondansatör de öyle. Her birinin komşularına elle, tel ve lehimle bağlanması gerekiyordu. Bir bilgisayar on binlercesine ihtiyaç duyuyordu ve her lehim noktası arızanın çıkabileceği bir yerdi. Mühendisler buna \"sayıların tiranlığı\" diyordu: devreler kâğıt üzerinde ne kadar iyileşirse, kurmak o kadar zorlaşıyordu.\n\nÇıkış yolu fikri, çözümden daha eskiydi. 1949'da Alman Siemens şirketinden Werner Jacobi, ortak bir taban üzerinde beş transistörlü bir yükselteç için patent başvurusu yaptı. 1952'de İngiliz radar mühendisi Geoffrey Dummer, Washington'daki bir konferansta \"elektronik donanımı bağlantı telleri olmayan tek bir katı blok olarak düşünmek artık mümkün görünüyor\" dedi. 1953'te Amerikan RCA şirketinden Harwick Johnson, transistörleri, dirençleri ve kondansatörleri tek bir yarı iletken parçasında yapmak için patent başvurusu yaptı. Hiçbiri, birinin ileri taşıdığı çalışan bir aygıt üretmedi. Bu sırada ABD ordusu başka planlara para veriyordu; örneğin Kara Kuvvetleri'nin Micro-Module programına: üst üste dizilip birbirine bağlanan minik standart parçalar.\n\n### Ne oldu\n\nJack Kilby 1958 ortasında Dallas'taki Texas Instruments'a katıldı. Genellikle anlatıldığı hâliyle Kilby'nin, şirketin yaz tatilini hak edecek kadar kıdemi yoktu; o sessiz haftaları laboratuvarda sayıların tiranlığını düşünerek geçirdi. Vardığı sonuç şuydu: bir devrenin bütün parçaları aynı yarı iletken malzemeden yapılabilirse, hepsi tek parça hâlinde yapılabilirdi.\n\n12 Eylül 1958'de bunu şirket yöneticilerine gösterdi. Bir germanyum parçasının üzerinde bir transistörü, dirençleri ve bir kondansatörü basit bir osilatöre, yani düzenli bir elektrik dalgası üreten bir devreye dönüştürmüştü. Parçalar saç inceliğinde altın tellerle birleştirilmişti. Devre açıldığında osiloskop kesintisiz bir dalga gösterdi. Yaklaşık bir hafta sonra ikinci bir devreyi gösterdi. Texas Instruments \"katı devre\"yi Mart 1959'da duyurdu.\n\nBirkaç ay sonra Kaliforniya'da, Fairchild Semiconductor'dan Robert Noyce, Kilby'nin açık bıraktığı kısmı çözdü. Meslektaşı Jean Hoerni planar yöntemi henüz bulmuştu: silisyum bir diskin yüzeyi ince, koruyucu bir oksit tabakasıyla kaplanır ve transistörler bu tabakada açılan küçük pencerelerden yapılır. Noyce 23 Ocak 1959'da defterine, parçaları bağlamak için bu oksidin üzerine metal çizgiler döşenebileceğini yazdı; böylece kablolama, parçalarla aynı anda yapılmış olacaktı. Sprague Electric şirketinden Kurt Lehovec kalan parça için Nisan 1959'da patent başvurusu yaptı: aynı çip üzerindeki komşu parçaları, yarı iletkenin kendi eklemlerini kullanarak elektriksel olarak birbirinden ayırmanın bir yolu.\n\n![1959'da Robert Noyce; bir çipi gevşek teller olmadan nasıl bağlayacağını o yıl tarif etti](https://upload.wikimedia.org/wikipedia/commons/8/82/Robert_Noyce_with_Motherboard_1959.png \"Intel Free Press · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png\")\n\nFairchild'da Jay Last'in yönettiği, Isy Haas, Lionel Kattner ve başkalarından oluşan bir ekip bu fikirleri ürüne dönüştürdü. İlk çalışan çipleri 26 Mayıs 1960'ta çıktı; 27 Eylül 1960'a gelindiğinde parçaları, Lehovec'in önerdiği gibi eklemlerle ayırıyorlardı. Mart 1961'de Fairchild bunları Micrologic adıyla satmaya başladı.\n\n> [!IMPORTANT]\n> Entegre devreyi kimin icat ettiği, neyi saydığınıza bağlı. Kilby, bütün parçaları yarı iletkenden yapılmış ilk çalışan devreyi kurdu, ama altın telleri bir fabrikada üretilemezdi. Noyce, Hoerni'nin yöntemine dayanan ve sonra Lehovec'in yalıtımını kullanan üretilebilir sürümü tarif etti; onu çalıştıran ise Last'in ekibiydi. Texas Instruments ile Fairchild 1960'ların büyük kısmında patentler için çekiştiler ve 1966'da onları paylaşmaya karar verdiler. Bugün Kilby ve Noyce genellikle ortak mucitler olarak anılır.\n\nDeğişimi şöyle düşünebilirsiniz: bir devreyi elle bağlamak, bir kitabı harf harf kopyalamak gibiydi; entegre devre ise bütün bir sayfayı, bağlantılarıyla birlikte, tek seferde basan matbaa gibiydi. Benzetme bir yerde bozuluyor: basılı bir sayfa tek baskıda tamamlanır, oysa bir çip üst üste binen birçok katmanla kurulur ve herhangi bir katmandaki tek bir toz zerresi onu bozabilir.\n\n### Neden zordu\n\nFikir, iyi mühendislik sağduyusuna ters düşüyordu. Yarı iletkenden yapılmış bir direnç, sıradan bir karbon dirençten kötüydü; yarı iletken kondansatör daha da kötüydü. Hepsini pahalı ve saflaştırması zor kristalden yapmak, en iyi malzemeyi en ucuz parçalara harcamak gibi görünüyordu. Kilby'nin savı kaliteyle değil sayılarla ilgiliydi: birçok bağlantı noktası yerine tek parça.\n\nÇalışan çip üretmek de zordu. İlk yıllarda her diskteki çiplerin çoğu kusurluydu ve ilkler pahalıydı: Texas Instruments'ın satışa sunduğu ilk çip, Mart 1960 tarihli Type 502 flip-flop, 450 dolardı. İlk müşteriler fiyattan çok ağırlığı ve güvenilirliği önemseyenlerdi: ordu ve uzay programları.\n\nFikir Amerika Birleşik Devletleri dışında da doğdu. Sovyet Letonyası'nda, Riga'daki bir yarı iletken fabrikasında, Yuri Osokin'in baş tasarımcı olduğu bir grup germanyum bir entegre devre geliştirdi: R12-2. Rus tarih kaynakları onu 1962 dolaylarına tarihler ve Sovyetler Birliği'nin ilki olarak anlatır. Rus kaynaklarına göre uçakların yerleşik bilgisayarları için modüllere yerleştirildi ve otuz yılı aşkın süre sonra hâlâ üretiliyordu.\n\n### Sonrası\n\nPlanar yöntem, yani ışık ve kimyayla yapılan silisyum, oksit ve metal katmanları, bugün de çiplerin yapılışının temel yoludur. 1965'te Fairchild'ın kurucularından Gordon Moore, bir çipe sığdırılabilen parça sayısının her yıl ikiye katlandığını fark etti ve bunun süreceğini öngördü. Hız sonra yaklaşık iki yılda bire düştü, ama eğilim yarım yüzyıl sürdü: 1960'taki bir avuç parçadan 1971'de Intel'in ilk mikroişlemcisi 4004'ün 2.300 transistörüne ve bugünün milyarlarına.\n\n![Fairchild'ın 1963 tarihli Micrologic çipleri metal kılıflarında; her biri küçük bir mantık devresi taşıyor](https://upload.wikimedia.org/wikipedia/commons/b/b3/Fairchild_Milliwatt_Micrologic_series_%2801%29.jpg \"155LA3 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Fairchild_Milliwatt_Micrologic_series_(01).jpg\")\n\nÇipleri hikâyede nadiren görünen insanlar da yaptı. Fairchild 1965'ten 1975'e kadar New Mexico'daki Shiprock'ta, Navajo topraklarında bir çip fabrikası işletti; çalışanlarının çoğu, devreleri mikroskopların üzerine eğilerek elle birleştiren Navajo kadınlarıydı. 1975'te, işten çıkarmaların ardından Amerikan Yerlileri Hareketi'nden eylemciler fabrikayı bir hafta işgal etti; Fairchild fabrikayı kapattı ve işi Asya'ya taşıdı.\n\n2000'de Kilby, Nobel Fizik Ödülü'nün yarısını \"entegre devrenin icadındaki payı için\" aldı. Öbür yarısı, lazerlerde ve hızlı elektronikte kullanılan katmanlı yarı iletken yapılar için Saint Petersburg'daki Ioffe Enstitüsü'nden Jores Alferov'a ve Amerika Birleşik Devletleri'nde çalışan, Almanya doğumlu Herbert Kroemer'e verildi. Noyce 1990'da ölmüştü ve Nobel Ödülü ölümden sonra verilmez.",
+      "why_it_matters": "Elektroniği parça parça bağlama zorunluluğunu bitirdi. Bütün bir devre tek parçada ve aynı anda birçoğu birden yapılabilince, bir çipteki parça sayısı büyümeyi sürdürebildi; bu da mikroişlemciye ve o günden beri her bilgisayara ve telefona götürdü.",
+      "if_you_were_there": "Bir devre, elle lehimlenmiş ayrı parçalardan oluşan bir karttı ve büyük bir bilgisayar bir odayı doldururdu. Bütün bir devrenin tırnaktan küçük tek bir kristalden oyulabileceği fikri, birçok mühendise iyi malzemeyi israf etmek gibi geliyordu.",
+      "place_name": "Dallas",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Интегральная схема: целая схема в одном куске",
+      "summary": "В 1958 году Джек Килби собрал работающую схему на одной пластинке германия. Через несколько месяцев Роберт Нойс описал, как делать такие кристаллы из кремния так, чтобы их мог повторять завод.",
+      "body": "![Копия первой интегральной схемы Джека Килби: пластинка германия с тонкими золотыми проводками на стеклянной подложке](https://upload.wikimedia.org/wikipedia/commons/e/ea/Replica_IC.png \"Florian Schäffer · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Replica_IC.png\")\n\n### Обстановка\n\nК середине 1950-х годов транзистор начал вытеснять электронную лампу. Он был маленьким, не грелся и не перегорал. Но каждый транзистор по-прежнему оставался отдельной деталью, как и каждый резистор и конденсатор рядом с ним. Каждую деталь приходилось соединять с соседними вручную, проводами и пайкой. Компьютеру их требовались десятки тысяч, и каждая пайка была местом, где он мог отказать. Инженеры называли это «тиранией чисел»: чем лучше становились схемы на бумаге, тем труднее было их собрать.\n\nМысль о выходе появилась раньше, чем решение. В 1949 году Вернер Якоби из немецкой компании Siemens подал заявку на патент усилителя с пятью транзисторами на общем основании. В 1952 году британский радиоинженер Джеффри Даммер сказал на конференции в Вашингтоне, что «теперь, кажется, можно представить электронную аппаратуру в виде сплошного блока без соединительных проводов». В 1953 году Харвик Джонсон из американской компании RCA подал заявку на патент на изготовление транзисторов, резисторов и конденсаторов в одном куске полупроводника. Ни один из них не создал работающего устройства, которое кто-то развил бы дальше. Тем временем американские военные финансировали другие проекты, например армейскую программу Micro-Module: крошечные стандартные детали, которые складывали стопкой и соединяли между собой.\n\n### Что произошло\n\nДжек Килби пришёл в Texas Instruments в Далласе в середине 1958 года. Как обычно рассказывают эту историю, Килби был слишком новым сотрудником, чтобы получить летний отпуск вместе со всей компанией, и провёл тихие недели в лаборатории, думая о тирании чисел. Он пришёл к выводу: если все части схемы можно сделать из одного и того же полупроводника, то их можно сделать и одним куском.\n\n12 сентября 1958 года он показал это руководству компании. На пластинке германия он сформировал транзистор, резисторы и конденсатор, из которых получился простой генератор — схема, создающая ровную электрическую волну. Детали соединялись золотыми проводками толщиной с волос. Когда схему включили, осциллограф показал непрерывную волну. Примерно через неделю он продемонстрировал вторую схему. Texas Instruments объявила о «твёрдой схеме» в марте 1959 года.\n\nЧерез несколько месяцев в Калифорнии Роберт Нойс из Fairchild Semiconductor решил ту часть задачи, которую Килби оставил открытой. Его коллега Жан Эрни только что изобрёл планарный процесс: поверхность кремниевой пластины покрывают тонким защитным слоем оксида, а транзисторы создают через маленькие окна, вскрытые в нём. 23 января 1959 года Нойс записал в рабочем журнале, что поверх этого оксида можно проложить металлические дорожки, соединяющие детали, — так соединения изготавливались бы одновременно с самими компонентами. Курт Леховец из компании Sprague Electric в апреле 1959 года подал заявку на патент на недостающую часть: способ электрически разделить соседние детали на одном кристалле с помощью собственных p-n-переходов полупроводника.\n\n![Роберт Нойс в 1959 году — в том году он описал, как соединить детали на кристалле без свободных проводов](https://upload.wikimedia.org/wikipedia/commons/8/82/Robert_Noyce_with_Motherboard_1959.png \"Intel Free Press · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png\")\n\nГруппа в Fairchild под руководством Джея Ласта, в которую входили Иси Хаас, Лайонел Каттнер и другие, превратила эти идеи в изделие. Первые работающие микросхемы появились 26 мая 1960 года, а к 27 сентября 1960 года детали в них уже разделялись переходами, как предлагал Леховец. В марте 1961 года Fairchild начала продавать их под названием Micrologic.\n\n> [!IMPORTANT]\n> Кто изобрёл интегральную схему, зависит от того, что считать. Килби собрал первую работающую схему, все части которой были сделаны из полупроводника, но его золотые проводки нельзя было воспроизвести на заводе. Нойс описал вариант, который можно было производить, — на основе процесса Эрни и позднее с изоляцией Леховца, — а заставила его работать группа Ласта. Texas Instruments и Fairchild судились из-за патентов большую часть 1960-х годов и в 1966 году договорились пользоваться ими совместно. Сегодня Килби и Нойса обычно называют соавторами изобретения.\n\nПеремену можно представить так: собирать схему вручную было всё равно что переписывать книгу буква за буквой, а интегральная схема похожа на печатный станок, который печатает целую страницу вместе со всеми связями за один раз. Сравнение хромает в одном месте: печатная страница готова после одного оттиска, а микросхему строят из множества слоёв, один поверх другого, и одна пылинка в любом слое может её погубить.\n\n### Почему это было трудно\n\nИдея шла против инженерного здравого смысла. Полупроводниковый резистор был хуже обычного углеродного, а полупроводниковый конденсатор — ещё хуже. Делать их все из дорогого, трудно очищаемого кристалла казалось тратой лучшего материала на самые дешёвые детали. Довод Килби касался не качества, а количества: один кусок вместо множества соединений.\n\nСделать работающие микросхемы тоже было трудно. В первые годы многие кристаллы на каждой пластине оказывались бракованными, а первые изделия стоили дорого: первая микросхема Texas Instruments, поступившая в продажу, — триггер Type 502 в марте 1960 года — стоила 450 долларов. Первыми покупателями стали те, кому вес и надёжность были важнее цены: военные и космические программы.\n\nИдея возникла и за пределами США. На заводе полупроводниковых приборов в Риге, в Советской Латвии, группа, в которой главным конструктором был Юрий Осокин, разработала германиевую интегральную схему Р12-2. Российские исторические источники относят её примерно к 1962 году и называют первой в Советском Союзе. По данным российских источников, её встраивали в модули бортовых вычислительных машин самолётов, и она выпускалась ещё более тридцати лет спустя.\n\n### Что это открыло\n\nПланарный метод — слои кремния, оксида и металла, создаваемые светом и химией, — до сих пор остаётся основным способом изготовления микросхем. В 1965 году Гордон Мур, один из основателей Fairchild, заметил, что число компонентов, которые удаётся разместить на кристалле, удваивается каждый год, и предсказал, что так будет и дальше. Позже темп замедлился примерно до удвоения раз в два года, но тенденция продержалась полвека: от горстки деталей в 1960 году до 2300 транзисторов первого микропроцессора Intel, 4004, в 1971 году и миллиардов сегодня.\n\n![Микросхемы Fairchild Micrologic 1963 года в металлических корпусах; в каждой — небольшая логическая схема](https://upload.wikimedia.org/wikipedia/commons/b/b3/Fairchild_Milliwatt_Micrologic_series_%2801%29.jpg \"155LA3 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Fairchild_Milliwatt_Micrologic_series_(01).jpg\")\n\nМикросхемы делали и люди, которые редко появляются в этой истории. С 1965 по 1975 год Fairchild держала завод микросхем в Шипроке, в штате Нью-Мексико, на земле народа навахо, и большинство работников там составляли женщины навахо, которые вручную собирали схемы, склонившись над микроскопами. В 1975 году, после увольнений, активисты Движения американских индейцев на неделю заняли завод; Fairchild закрыла его и перенесла работу в Азию.\n\nВ 2000 году Килби получил половину Нобелевской премии по физике «за вклад в изобретение интегральной схемы». Другую половину получили Жорес Алфёров из Физико-технического института имени Иоффе в Санкт-Петербурге и уроженец Германии Герберт Крёмер, работавший в США, — за слоистые полупроводниковые структуры, которые применяются в лазерах и быстродействующей электронике. Нойс умер в 1990 году, а Нобелевскую премию посмертно не присуждают.",
+      "why_it_matters": "Она избавила от необходимости соединять электронику деталь за деталью. Когда целую схему стало возможно делать одним куском, и сразу много штук, число компонентов на кристалле смогло расти и дальше — это привело к микропроцессору и ко всем компьютерам и телефонам после него.",
+      "if_you_were_there": "Схема была платой из отдельных деталей, спаянных вручную, а большой компьютер занимал комнату. Мысль, что целую схему можно вырезать из одного кристалла меньше ногтя, многим инженерам казалась пустой тратой хорошего материала.",
+      "place_name": "Даллас",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Интегралдык схема: бүтүн схема бир кесимде",
+      "summary": "1958-жылы Джек Килби бир кесим германийде иштеген схема курган. Бир нече айдан кийин Роберт Нойс мындай кристаллдарды кремнийден заводдо кайталап жасоонун жолун сүрөттөгөн.",
+      "body": "![Джек Килбинин биринчи интегралдык схемасынын көчүрмөсү: айнек пластинкадагы, ичке алтын зымдар менен туташтырылган германий кесиндиси](https://upload.wikimedia.org/wikipedia/commons/e/ea/Replica_IC.png \"Florian Schäffer · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Replica_IC.png\")\n\n### Окуя болгон жер жана маал\n\n1950-жылдардын ортосунда транзистор электрондук лампаны сүрүп чыгара баштаган. Ал кичинекей эле, ысыбайт, күйүп кетпейт эле. Бирок ар бир транзистор дагы эле өзүнчө тетик болчу, анын жанындагы ар бир резистор менен конденсатор да ошондой. Ар бирин коңшусуна кол менен, зым жана ширетүү аркылуу туташтыруу керек эле. Бир компьютерге алардын он миңдегени керек болчу, ар бир ширетилген жер бузулуу чыгышы мүмкүн болгон жер эле. Инженерлер муну «сандардын зордугу» деп аташчу: схемалар кагаз бетинде канчалык жакшырса, аларды чогултуу ошончолук кыйындачу.\n\nЧыгуунун жолу тууралуу ой чечимден эрте пайда болгон. 1949-жылы немец Siemens компаниясынан Вернер Якоби жалпы негиздин үстүндө беш транзистору бар күчөткүчкө патент өтүнмөсүн берген. 1952-жылы британ радар инженери Джеффри Даммер Вашингтондогу конференцияда «электрондук аппаратураны туташтыруучу зымдары жок бир бүтүн катуу блок катары элестетүүгө азыр мүмкүн окшойт» деген. 1953-жылы америкалык RCA компаниясынан Харвик Джонсон транзисторлорду, резисторлорду жана конденсаторлорду бир кесим жарым өткөргүчтө жасоого патент өтүнмөсүн берген. Алардын бири да кимдир бирөө улантып кеткен иштеген түзүлүш жасаган эмес. Ошол эле учурда АКШнын аскерлери башка долбоорлорго акча бөлүп жаткан, мисалы, армиянын Micro-Module программасына: бири-биринин үстүнө тизилип, өз ара туташтырылган майда стандарттуу тетиктер.\n\n### Эмне болду\n\nДжек Килби 1958-жылдын ортосунда Далластагы Texas Instruments компаниясына ишке кирген. Адатта айтылгандай, Килби компаниянын жайкы өргүүсүнө укук ала турганчалык көп иштей элек болгон, ошондуктан тынч жумаларды лабораторияда сандардын зордугу жөнүндө ойлонуп өткөргөн. Анын жыйынтыгы мындай болгон: эгер схеманын бардык бөлүктөрүн бир эле жарым өткөргүч заттан жасоого мүмкүн болсо, анда алардын баарын бир бүтүн кесимде жасоого болот.\n\n1958-жылдын 12-сентябрында ал муну компаниянын жетекчилерине көрсөткөн. Германий кесиндисинин үстүндө ал транзисторду, резисторлорду жана конденсаторду жөнөкөй генераторго, башкача айтканда бир калыптагы электр толкунун чыгарган схемага айландырган. Тетиктер чачтай ичке алтын зымдар менен туташтырылган. Схема күйгүзүлгөндө осциллограф үзгүлтүксүз толкунду көрсөткөн. Болжол менен бир жумадан кийин ал экинчи схеманы көрсөткөн. Texas Instruments «катуу схема» жөнүндө 1959-жылдын мартында жарыялаган.\n\nБир нече айдан кийин Калифорнияда Fairchild Semiconductor компаниясынан Роберт Нойс Килби ачык калтырган бөлүктү чечкен. Анын кесиптеши Жан Эрни жаңы эле планардык процессти ойлоп тапкан: кремний пластинасынын бети ичке коргоочу оксид катмары менен капталат, ал эми транзисторлор ошол катмарда ачылган кичинекей терезелер аркылуу жасалат. 1959-жылдын 23-январында Нойс дептерине тетиктерди туташтыруу үчүн ошол оксиддин үстүнө металл сызыктарды төшөөгө болот деп жазган; ошентип туташтыруулар тетиктер менен бир убакта жасалмак. Sprague Electric компаниясынан Курт Леховец калган бөлүккө 1959-жылдын апрелинде патент өтүнмөсүн берген: бир эле кристаллдагы коңшу тетиктерди жарым өткөргүчтүн өзүнүн p-n өткөөлдөрү аркылуу электр жагынан бири-биринен бөлүүнүн жолу.\n\n![1959-жылдагы Роберт Нойс: ошол жылы ал кристаллдагы тетиктерди бош зымдарсыз кантип туташтырууну сүрөттөгөн](https://upload.wikimedia.org/wikipedia/commons/8/82/Robert_Noyce_with_Motherboard_1959.png \"Intel Free Press · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png\")\n\nFairchild компаниясында Джей Ласт жетектеген, Иси Хаас, Лайонел Каттнер жана башкалар кирген топ бул идеяларды буюмга айландырган. Алардын биринчи иштеген микросхемалары 1960-жылдын 26-майында чыккан, ал эми 1960-жылдын 27-сентябрына чейин алар тетиктерди Леховец сунуштагандай өткөөлдөр менен бөлө башташкан. 1961-жылдын мартында Fairchild аларды Micrologic деген ат менен сата баштаган.\n\n> [!IMPORTANT]\n> Интегралдык схеманы ким ойлоп тапканы эмнени эсепке алганыңыздан көз каранды. Килби бардык бөлүктөрү жарым өткөргүчтөн жасалган биринчи иштеген схеманы курган, бирок анын алтын зымдарын заводдо кайталоого мүмкүн эмес эле. Нойс заводдо чыгарууга боло турган нускасын сүрөттөгөн: ал Эрнинин процессине негизделип, кийин Леховецтин бөлүү ыкмасын колдонгон, ал эми аны иштеткен Ласттын тобу болгон. Texas Instruments менен Fairchild 1960-жылдардын көбүн патенттер үчүн соттошуп өткөрүшүп, 1966-жылы аларды бирге колдонууга макул болушкан. Бүгүн Килби менен Нойсту адатта биргелешкен ойлоп табуучулар деп аташат.\n\nӨзгөрүүнү мындайча элестетсеңиз болот: схеманы кол менен туташтыруу китепти тамгама-тамга көчүрүп жазуу сыяктуу эле, ал эми интегралдык схема бүтүн бир баракты туташтыруулары менен кошо бир жолу басып чыгарган басма станокко окшош. Салыштыруу бир жерде бузулат: басылган барак бир басуудан кийин даяр болот, ал эми микросхема бири-биринин үстүнө түшкөн көп катмардан курулат, жана каалаган катмардагы бир чаң бүртүгү аны бузуп салышы мүмкүн.\n\n### Эмне үчүн кыйын болду\n\nБул идея инженердик акыл-эске каршы келчү. Жарым өткөргүчтөн жасалган резистор кадимки көмүртек резисторунан начар эле, жарым өткөргүч конденсатор андан да начар болчу. Алардын баарын кымбат, тазалоо кыйын кристаллдан жасоо эң жакшы затты эң арзан тетиктерге коротуу сыяктуу көрүнчү. Килбинин далили сапатка эмес, санга байланыштуу эле: көп туташтыруунун ордуна бир бүтүн кесим.\n\nИштеген микросхемаларды жасоо да кыйын болгон. Алгачкы жылдары ар бир пластинадагы көп кристаллдар бузук чыгып, алгачкылары кымбат болгон: Texas Instruments сатыкка чыгарган биринчи микросхема, 1960-жылдын мартындагы Type 502 триггери 450 доллар турган. Биринчи сатып алуучулар баадан көрө салмакты жана ишенимдүүлүктү маанилүү көргөндөр болгон: аскердик жана космостук программалар.\n\nБул идея АКШдан тышкары жерде да жаралган. Советтик Латвиянын Рига шаарындагы жарым өткөргүч приборлор заводунда Юрий Осокин башкы конструктор болгон топ Р12-2 деген германий интегралдык схемасын иштеп чыккан. Орус тарыхый булактары аны болжол менен 1962-жылга таандык кылып, Советтер Союзундагы биринчиси деп сүрөттөйт. Орус булактарына караганда, ал учактардын бортундагы эсептөө машиналары үчүн модулдарга орнотулуп, отуз жылдан ашык убакыттан кийин да чыгарылып турган.\n\n### Эмнеге жол ачты\n\nПланардык ыкма, башкача айтканда жарык жана химия менен жасалган кремний, оксид жана металл катмарлары, бүгүнкү күнгө чейин микросхемаларды жасоонун негизги жолу бойдон калууда. 1965-жылы Fairchild компаниясынын негиздөөчүлөрүнүн бири Гордон Мур бир кристаллга батыра турган тетиктердин саны жыл сайын эки эсе көбөйүп жатканын байкап, бул уланат деп божомолдогон. Кийин ылдамдык болжол менен эки жылда бир эки эсеге чейин басаңдаган, бирок бул тенденция жарым кылым бою сакталган: 1960-жылдагы бир ууч тетиктен 1971-жылдагы Intel компаниясынын биринчи микропроцессору 4004түн 2300 транзисторуна жана бүгүнкү миллиарддарга чейин.\n\n![Fairchild компаниясынын 1963-жылкы металл корпустагы Micrologic микросхемалары; ар биринде кичинекей логикалык схема бар](https://upload.wikimedia.org/wikipedia/commons/b/b3/Fairchild_Milliwatt_Micrologic_series_%2801%29.jpg \"155LA3 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Fairchild_Milliwatt_Micrologic_series_(01).jpg\")\n\nМикросхемаларды бул окуяда сейрек көрүнгөн адамдар да жасашкан. 1965-жылдан 1975-жылга чейин Fairchild Нью-Мексико штатындагы Шипрок шаарында, навахо элинин жеринде микросхема заводун иштеткен, анын жумушчуларынын көбү микроскопко эңкейип, схемаларды кол менен чогулткан навахо аялдары болгон. 1975-жылы жумуштан бошотуулардан кийин Америка индейлеринин кыймылынын активисттери заводду бир жумага ээлеп алышкан; Fairchild аны жаап, ишти Азияга көчүргөн.\n\n2000-жылы Килби физика боюнча Нобель сыйлыгынын жарымын «интегралдык схеманы ойлоп табууга кошкон салымы үчүн» алган. Калган жарымы лазерлерде жана тез иштеген электроникада колдонулган катмарлуу жарым өткөргүч түзүлүштөр үчүн Санкт-Петербургдагы Иоффе институтунан Жорес Алферовго жана АКШда иштеген, Германияда төрөлгөн Герберт Крёмерге берилген. Нойс 1990-жылы көз жумган, ал эми Нобель сыйлыгы каза болгондон кийин берилбейт.",
+      "why_it_matters": "Ал электрониканы тетикти-тетикке туташтыруу зарылдыгын жоюп салды. Бүтүн схеманы бир кесимде жана бир эле учурда көп санда жасоого мүмкүн болгондо, кристаллдагы тетиктердин саны өсө берди; бул микропроцессорго жана андан берки ар бир компьютер менен телефонго алып келди.",
+      "if_you_were_there": "Схема кол менен ширетилген өзүнчө тетиктерден турган плата болчу, ал эми чоң компьютер бүтүн бөлмөнү ээлечү. Бүтүн схеманы тырмактан кичине бир кристаллдан оюп жасоого болот деген ой көп инженерлерге жакшы затты бекер коротуу сыяктуу сезилчү.",
+      "place_name": "Даллас",
+      "status": "machine"
+    }
+  }
+}
