@@ -1,0 +1,331 @@
+{
+  "slug": "descartes-geometry",
+  "year": 1637,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 52.1601,
+  "lng": 4.497,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Descartes_Discours_de_la_Methode.jpg",
+    "credit": "Ian Maire",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Descartes_Discours_de_la_Methode.jpg"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "slug": "rene-descartes",
+      "birth_year": 1596,
+      "death_year": 1650,
+      "role": "author",
+      "name": {
+        "en": "René Descartes",
+        "tr": "René Descartes",
+        "ru": "Рене Декарт",
+        "ky": "Рене Декарт"
+      }
+    },
+    {
+      "slug": "pierre-de-fermat",
+      "birth_year": null,
+      "death_year": 1665,
+      "role": "contributor",
+      "name": {
+        "en": "Pierre de Fermat",
+        "tr": "Pierre de Fermat",
+        "ru": "Пьер Ферма",
+        "ky": "Пьер Ферма"
+      }
+    },
+    {
+      "slug": "jacob-golius",
+      "birth_year": 1596,
+      "death_year": 1667,
+      "role": "contemporary",
+      "name": {
+        "en": "Jacob Golius",
+        "tr": "Jacob Golius",
+        "ru": "Якоб Голиус",
+        "ky": "Якоб Голиус"
+      }
+    },
+    {
+      "slug": "marin-mersenne",
+      "birth_year": 1588,
+      "death_year": 1648,
+      "role": "collaborator",
+      "name": {
+        "en": "Marin Mersenne",
+        "tr": "Marin Mersenne",
+        "ru": "Марен Мерсенн",
+        "ky": "Марен Мерсенн"
+      }
+    },
+    {
+      "slug": "pappus-of-alexandria",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Pappus of Alexandria",
+        "tr": "İskenderiyeli Pappos",
+        "ru": "Папп Александрийский",
+        "ky": "Александриялык Папп"
+      }
+    },
+    {
+      "slug": "apollonius-of-perga",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Apollonius of Perga",
+        "tr": "Pergeli Apollonios",
+        "ru": "Аполлоний Пергский",
+        "ky": "Пергалык Аполлоний"
+      }
+    },
+    {
+      "slug": "al-khwarizmi",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Al-Khwarizmi",
+        "tr": "El-Harezmi",
+        "ru": "аль-Хорезми",
+        "ky": "аль-Хорезми"
+      }
+    },
+    {
+      "slug": "omar-khayyam",
+      "birth_year": 1048,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Omar Khayyam",
+        "tr": "Ömer Hayyam",
+        "ru": "Омар Хайям",
+        "ky": "Омар Хайям"
+      }
+    },
+    {
+      "slug": "francois-viete",
+      "birth_year": 1540,
+      "death_year": 1603,
+      "role": "predecessor",
+      "name": {
+        "en": "François Viète",
+        "tr": "François Viète",
+        "ru": "Франсуа Виет",
+        "ky": "Франсуа Виет"
+      }
+    },
+    {
+      "slug": "nicole-oresme",
+      "birth_year": null,
+      "death_year": 1382,
+      "role": "predecessor",
+      "name": {
+        "en": "Nicole Oresme",
+        "tr": "Nicole Oresme",
+        "ru": "Николай Орем",
+        "ky": "Николай Орем"
+      }
+    },
+    {
+      "slug": "frans-van-schooten",
+      "birth_year": null,
+      "death_year": 1660,
+      "role": "transmitter",
+      "name": {
+        "en": "Frans van Schooten",
+        "tr": "Frans van Schooten",
+        "ru": "Франс ван Схотен",
+        "ky": "Франс ван Схотен"
+      }
+    },
+    {
+      "slug": "johannes-hudde",
+      "birth_year": 1628,
+      "death_year": 1704,
+      "role": "successor",
+      "name": {
+        "en": "Johannes Hudde",
+        "tr": "Johannes Hudde",
+        "ru": "Иоганн Худде",
+        "ky": "Иоганн Худде"
+      }
+    },
+    {
+      "slug": "elisabeth-of-bohemia",
+      "birth_year": 1618,
+      "death_year": 1680,
+      "role": "contemporary",
+      "name": {
+        "en": "Elisabeth of Bohemia",
+        "tr": "Bohemyalı Elisabeth",
+        "ru": "Елизавета Богемская",
+        "ky": "Богемиялык Елизавета"
+      }
+    },
+    {
+      "slug": "isaac-newton",
+      "birth_year": 1643,
+      "death_year": 1727,
+      "role": "successor",
+      "name": {
+        "en": "Isaac Newton",
+        "tr": "Isaac Newton",
+        "ru": "Исаак Ньютон",
+        "ky": "Исаак Ньютон"
+      }
+    },
+    {
+      "slug": "gottfried-wilhelm-leibniz",
+      "birth_year": 1646,
+      "death_year": 1716,
+      "role": "successor",
+      "name": {
+        "en": "Gottfried Wilhelm Leibniz",
+        "tr": "Gottfried Wilhelm Leibniz",
+        "ru": "Готфрид Вильгельм Лейбниц",
+        "ky": "Готфрид Вильгельм Лейбниц"
+      }
+    },
+    {
+      "slug": "leonhard-euler",
+      "birth_year": 1707,
+      "death_year": 1783,
+      "role": "successor",
+      "name": {
+        "en": "Leonhard Euler",
+        "tr": "Leonhard Euler",
+        "ru": "Леонард Эйлер",
+        "ky": "Леонард Эйлер"
+      }
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "al-khwarizmi-algebra"
+  ],
+  "sources": [
+    {
+      "title": "La Géométrie — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"
+    },
+    {
+      "title": "Analytic geometry, History section — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Analytic_geometry"
+    },
+    {
+      "title": "Discourse on the Method — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Discourse_on_the_Method"
+    },
+    {
+      "title": "Pierre de Fermat — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Pierre_de_Fermat"
+    },
+    {
+      "title": "'Descartes' Mathematics', Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/descartes-mathematics/"
+    },
+    {
+      "title": "'Elisabeth of Bohemia', Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/elisabeth-bohemia/"
+    },
+    {
+      "title": "J. J. O'Connor and E. F. Robertson, 'René Descartes', MacTutor History of Mathematics",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Descartes/"
+    },
+    {
+      "title": "J. J. O'Connor and E. F. Robertson, 'Pierre de Fermat', MacTutor History of Mathematics",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/"
+    },
+    {
+      "title": "J. J. O'Connor and E. F. Robertson, 'Omar Khayyam', MacTutor History of Mathematics",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/"
+    },
+    {
+      "title": "R. Descartes, La Géométrie (1637), French text — Project Gutenberg ebook 26400",
+      "kind": "book",
+      "url": "https://www.gutenberg.org/ebooks/26400"
+    },
+    {
+      "title": "J. Cottingham, R. Stoothoff, D. Murdoch (trans.), The Philosophical Writings of Descartes, vol. 1: Discourse and Essays (Cambridge University Press)",
+      "kind": "book",
+      "url": "https://www.cambridge.org/core/books/philosophical-writings-of-descartes/discourse-and-essays/9118C4C559BC54873DD406CB54097B93"
+    },
+    {
+      "title": "Extracts from Newton's notebooks (1699 memorandum on his reading of Descartes in 1664) — The Newton Project",
+      "kind": "other",
+      "url": "https://hf-web-newton2.history.ox.ac.uk/view/texts/normalized/THEM00174"
+    },
+    {
+      "title": "Cartesian coordinates — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Cartesian-coordinates"
+    },
+    {
+      "title": "René Descartes — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Rene-Descartes"
+    }
+  ],
+  "research_note": "Researched 2026-10-24 against English Wikipedia (La Géométrie, Analytic geometry history, Discourse on the Method, Pierre de Fermat), the Stanford Encyclopedia of Philosophy (Descartes' Mathematics; Elisabeth of Bohemia), MacTutor (Descartes, Fermat, Khayyam), the Cambridge translation's introduction (anonymous, Leiden, June 1637), the Newton Project (Newton's 1699 memorandum on reading and buying the Schooten edition in 1664) and the French text of La Géométrie on Project Gutenberg (ebook 26400), which confirms Pappus's three-or-four-lines remark, the true/false/imaginary roots and the closing sentence (\"nos neveux me sauront gré ... de celles que j'ai omises volontairement, afin de leur laisser le plaisir de les inventer\"). Britannica linked for the human only (it calls the fly story a legend).\nFLAGGED IN THE BODY: the fly-on-the-ceiling story is labelled a legend with no contemporary source; Fermat's independent priority (manuscript circulating by 1636, printed 1679) is given equal weight; the modern perpendicular two-axis grid is said to be a later addition, not Descartes's.\nREVIEWER SHOULD CHECK: the June 1637 printing date (Cottingham says June; the exact 8 June appears only in booksellers' descriptions and is not used); \"Golius urged him late in 1631\" and \"five or six weeks\" rest on SEP; Elisabeth's lost solution is described only as different from Descartes's and admired by him (SEP); Newton's first reading is dated 1664 from his own late memorandum; Fermat's birth year is left empty because it is disputed (1601 or 1607); Omar Khayyam's death year left empty (disputed).\nFIXED AFTER FACT-CHECK (all four languages): (1) omar-khayyam-cubics removed from builds_on: Khayyam's algebra reached Europe only with Woepcke's 1851 edition, so he stays in the body as a parallel predecessor, not a link. (2) \"solved Pappus's problem for any number of lines\" -> offered a method for any number of lines, worked in detail only for the simplest cases. (3) Roots: true (positive) / false (negative), and both kinds can be \"imaginary\" (verified in the French text), instead of imaginary as a third class. (4) Elisabeth: \"first readers included a woman\" -> among those who worked on such problems with him; algebra probably learned from Stampioen's textbook (SEP); \"admired\" -> praised its clarity; \"The Hague\" -> \"the Dutch Republic\". (5) Newton: per his 1699 note he had read the Geometry by mid-1664 and bought it with van Schooten's Miscellanies before Christmas 1664; which edition he first read is not stated. (6) why_it_matters counterfactual softened; \"never drew a grid\" -> \"the book contains no full grid\"; fly story: \"no early source is known\". al-Khwarizmi's dates left empty (approximate). Golius role -> contemporary.\nSTILL OPEN: Descartes's concession to Fermat is quoted from MacTutor; the original letter's date was not confirmed. Newton's 1699 memorandum was crossed out by Newton himself and its dates may be slightly off (Cambridge Historical Journal).\nKYRGYZ: machine translation. Glossary terms used: геометрия, алгебра, теңдеме ('check'), айлана ('check'), бурч, сан, китеп, кол жазма, котормо, кылым, окумуштуу, илим, далилдөө ('check', as \"далилдөөлөр\" = proofs), өлчөө, эсептөө, ачылыш, жарык, линза. Not in the glossary, chosen by Claude: ийри сызык (curve), түз сызык (straight line), кесинди (segment), конустук кесилиш (conic section), жаныма (tangent), тамыр (root of an equation), көбөйтүндү (product), даража (power), чоңдук (quantity), «элестүү» (imaginary, with мнимый in brackets), математикалык анализ (calculus), ханбийке (princess). Proper nouns follow the Russian forms (Стампиун is a guess at the Russian form of Stampioen).",
+  "translations": {
+    "en": {
+      "title": "Descartes's Geometry: curves become equations",
+      "summary": "In 1637 René Descartes showed that any point can be named by two lengths and a curve written as an equation. Fermat reached the same idea independently; geometry and algebra became one tool.",
+      "why_it_matters": "Analytic geometry let mathematicians solve problems about shapes by calculating instead of drawing, and gave algebra a picture. Graphs as we know them grew from it, and so, in large part, did the calculus of Newton and Leibniz.",
+      "if_you_were_there": "A circle is something you draw with compasses and argue about with diagrams. That the same circle could be written down as a line of letters, and worked on like a sum, would sound like a category mistake.",
+      "place_name": "Leiden",
+      "status": "machine",
+      "body": "### The scene\n\nLeiden, June 1637. A book in French comes off the press of Jan Maire with no author's name on its title page: *Discourse on the Method of Rightly Conducting One's Reason and Seeking Truth in the Sciences*. Behind it are three essays meant to show the method at work: one on light and lenses, one on weather, and one called simply *La Géométrie*. The author is René Descartes, a Frenchman of about forty who has lived in the Dutch Republic since 1628. Four years earlier, hearing that Galileo had been condemned in Rome, he had shelved his book on the world. Now he was testing the public with something safer. He wrote in French rather than Latin, the usual language of scholars, so that more readers could follow.\n\nMathematics at the time ran on two tracks. Geometry came from the Greeks: Euclid's proofs and Apollonius's book on the curves you get by slicing a cone, the ellipse, parabola and hyperbola. It worked with figures, compass and ruler. Algebra came from the other direction: its name comes from the book of al-Khwarizmi, a scholar from Khwarazm on the lower Amu Darya who worked in 9th-century Baghdad. Around 1070 in Samarkand, Omar Khayyam had joined the two tracks in one direction: he classified cubic equations and solved each type by finding where two conic curves cross. In France, François Viète had begun writing whole classes of problems with letters.\n\n### What happened\n\nThe spark was an old puzzle. Late in 1631 the Leiden scholar Jacob Golius, a specialist in Arabic and mathematics, urged Descartes to try a problem recorded by Pappus of Alexandria in the 4th century. Given several straight lines, find every point whose distances to them stand in a fixed relationship. The Greeks knew that for three or four lines the answer is a conic section; for more lines, as Pappus noted, nobody had found a general solution. Descartes told his friend Marin Mersenne that it took him five or six weeks.\n\nHis trick was to stop thinking about the figure and start naming lengths. He picked one of the given lines as a base and measured every point by two lengths: how far along that line, and how far out from it at a fixed angle. He called the unknown lengths x and y. Every condition in the problem then became an equation between x and y, and the equation *was* the curve. The type of equation told you the type of curve: the simplest ones gave the circle and the conic sections, more complicated ones gave new curves the Greeks had no names for. He offered a method for any number of lines, something Pappus had not had, though he worked through in detail only the simplest cases.\n\n![The first page of La Géométrie, 1637: \"All the problems of geometry can easily be reduced to such terms that one then needs to know only the length of certain straight lines in order to construct them.\"](https://upload.wikimedia.org/wikipedia/commons/0/0c/DescartesLaGeometrieIntroPage.jpg \"René Descartes · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DescartesLaGeometrieIntroPage.jpg\")\n\nThink of an address on a city street grid: two numbers, a street and an avenue, are enough to find any corner, and a rule linking the two numbers (\"the avenue is always twice the street\") traces a path across the map. The comparison breaks in two places. Descartes's two directions were often not at right angles and the book contains no full grid; the square grid with two axes that schoolbooks call \"Cartesian\" was added by later mathematicians. And an address is only a label, while Descartes's lengths could be added, multiplied and divided, so the equation carried every property of the curve.\n\nTo make that work he had to change what multiplication meant. For the Greeks, multiplying two lengths gave an area, and three gave a volume, so an equation could not mix a length with an area any more than you can add metres and square metres. Descartes chose one segment as the unit, and with a simple construction of parallel lines showed that the product of two lengths could itself be drawn as a length. Now any power of a length was still a length, and every term of an equation was of the same kind.\n\n![Descartes's figure for multiplying lines: with AB as the unit, joining A to C and drawing DE parallel to it makes BE the product of BD and BC.](https://upload.wikimedia.org/wikipedia/commons/d/dc/DescartesLaGeometriePg3LaMult.jpg \"René Descartes · Public domain · https://commons.wikimedia.org/wiki/File:DescartesLaGeometriePg3LaMult.jpg\")\n\nAlong the way the book fixed much of the notation still taught today: letters from the end of the alphabet (x, y, z) for unknowns, letters from the start (a, b, c) for known quantities, and small raised numbers for powers, though he still wrote a squared as *aa*. The second of its three books divided curves into \"geometrical\" ones, which an equation describes exactly, and \"mechanical\" ones such as the spiral, which he left out of geometry. It also gave a method for drawing the line at right angles to a curve at any point, and from it the tangent. The third book treated equations on their own: move every term to one side and set it equal to zero, count the roots, read from the pattern of plus and minus signs the most positive roots it can have (still called Descartes's rule of signs). He called positive roots \"true\" and negative ones \"false\", and added that both kinds were sometimes only \"imaginary\": you can imagine as many as the equation promises, but no quantity corresponds to some of them. That word stayed in mathematics.\n\n![A page of Book One: the letters a and b stand for lines, ab for their product, and small raised figures for powers.](https://upload.wikimedia.org/wikipedia/commons/6/6d/Page9-Descartes_La_G%C3%A9om%C3%A9trie.jpg \"Descartes · Public domain · https://commons.wikimedia.org/wiki/File:Page9-Descartes_La_Géométrie.jpg\")\n\n### He was not alone\n\nPierre de Fermat, a lawyer and councillor at the parliament of Toulouse who did mathematics in his spare time, reached the same idea independently. His short *Introduction to Plane and Solid Loci* was circulating in manuscript among Paris mathematicians by 1636, based on results he had reached by 1629, but it was printed only in 1679, after his death. The two came at it from opposite ends: Fermat usually started from an equation and asked what curve it drew, Descartes started from a curve and looked for its equation. In 1638 they quarrelled by letter, through Mersenne, over Fermat's method for tangents. Descartes attacked it, other mathematicians joined in, and in the end he conceded that if Fermat had explained it that way from the start he would not have objected at all.\n\n> [!NOTE]\n> A popular story says Descartes got the idea lying in bed watching a fly crawl across a tiled ceiling, and wondering how to describe its position by counting tiles from a corner. No early source for it is known, and Britannica calls it a legend. The real trail runs through Pappus's problem and years of letters.\n\n### Why it was hard\n\nThe Greek rule about dimensions was not a mere habit: it was how geometers kept their proofs honest, and Viète had still respected it. Dropping it needed the idea of an arbitrary unit length, which made numbers and lengths interchangeable. Algebraic notation was itself only a few decades old, and the symbols varied from one author to the next.\n\nDescartes did not make it easy. The book is short, jumps between topics and sketches proofs rather than giving them. He closed it by hoping that later generations would be grateful to him not only for what he had explained but also for what he had left out on purpose, \"so as to leave them the pleasure of discovering it\". Few readers could follow. What rescued the book was a Leiden professor, Frans van Schooten, who translated it into Latin in 1649 with commentary, and in 1659–1661 published a two-volume edition more than twice as long, with additions by his students, among them Johannes Hudde.\n\nAmong those who worked on such problems with Descartes was a woman. In 1643 he set Princess Elisabeth of Bohemia, then living in exile in the Dutch Republic, the old problem of finding a circle that touches three given circles. Her solution is lost; we know from Descartes's replies that she solved it with algebra, probably learned from Johan Stampioen's textbook, by a route different from his, and that he praised its clarity.\n\n### What it opened\n\nThe new method turned geometry into calculation. A curve could now be studied by working on its equation: finding where two curves meet meant solving two equations together, and the tangent at a point became a question about the equation near that point. That question is where the calculus began. By his own note written in 1699, Isaac Newton had read Descartes's *Geometry* by the middle of 1664, and a little before Christmas that year bought it together with van Schooten's *Miscellanies*; his first discoveries in the calculus followed within months. Gottfried Wilhelm Leibniz also learned from the Cartesian tradition, and in the 18th century Leonhard Euler carried the method systematically into three dimensions, to curved surfaces in space.\n\nEvery graph in a schoolbook, every map grid, every image on a screen made of pixels counted from a corner uses the habit this book made general: a point is a pair of numbers, a shape is a rule linking them. Earlier steps existed, Apollonius's reference lines, Khayyam's crossing curves, Nicole Oresme's 14th-century diagrams of changing quantities, Viète's letters, but none of them made the translation run both ways."
+    },
+    "tr": {
+      "title": "Descartes'ın Geometrisi: eğriler denkleme dönüşüyor",
+      "summary": "1637'de René Descartes her noktanın iki uzunlukla adlandırılabileceğini, bir eğrinin denklem olarak yazılabileceğini gösterdi. Fermat da aynı fikre bağımsız ulaştı; geometri ile cebir tek araç oldu.",
+      "why_it_matters": "Analitik geometri, şekillerle ilgili problemleri çizmek yerine hesaplayarak çözmeyi sağladı ve cebire bir resim verdi. Bildiğimiz anlamdaki grafikler ondan doğdu; Newton ile Leibniz'in kalkülüsü de büyük ölçüde.",
+      "if_you_were_there": "Çember pergelle çizilen ve şekillerle tartışılan bir şeydir. Aynı çemberin bir sıra harf olarak yazılıp bir toplama işlemi gibi üzerinde çalışılabileceği fikri size bir kategori hatası gibi gelirdi.",
+      "place_name": "Leiden",
+      "status": "machine",
+      "body": "### Sahne\n\nLeiden, Haziran 1637. Jan Maire'nin matbaasından, kapağında yazar adı olmayan Fransızca bir kitap çıkıyor: *Aklı iyi yönetmek ve bilimlerde doğruyu aramak için Yöntem Üzerine Konuşma*. Arkasında yöntemi iş başında göstermek için üç deneme var: biri ışık ve mercekler, biri hava olayları üzerine, üçüncüsünün adı yalnızca *La Géométrie*. Yazar, 1628'den beri Hollanda Cumhuriyeti'nde yaşayan, kırk yaşlarında bir Fransız: René Descartes. Dört yıl önce Galileo'nun Roma'da mahkûm edildiğini duyunca dünya üzerine kitabını rafa kaldırmıştı. Şimdi okurları daha güvenli bir konuyla deniyordu. Daha çok kişi okuyabilsin diye, bilginlerin alışılmış dili Latince yerine Fransızca yazdı.\n\nO dönemde matematik iki ayrı yoldan ilerliyordu. Geometri Yunanlardan geliyordu: Öklid'in ispatları ve Apollonios'un bir koniyi keserek elde edilen eğriler, yani elips, parabol ve hiperbol üzerine kitabı. Şekillerle, pergel ve cetvelle çalışırdı. Cebir öbür yönden geldi: adı, Amu Derya'nın aşağı kesimindeki Harezm'den gelip 9. yüzyılda Bağdat'ta çalışan El-Harezmi'nin kitabından gelir. 1070 dolaylarında Semerkant'ta Ömer Hayyam iki yolu tek yönde birleştirmişti: kübik denklemleri sınıflandırdı ve her türünü iki konik eğrinin kesiştiği noktayı bularak çözdü. Fransa'da François Viète ise bütün problem sınıflarını harflerle yazmaya başlamıştı.\n\n### Ne oldu\n\nKıvılcım eski bir bilmeceden çıktı. 1631'in sonunda Leidenli bilgin Jacob Golius, Arapça ve matematik uzmanı, Descartes'ı 4. yüzyılda İskenderiyeli Pappos'un kaydettiği bir problemi denemeye yöneltti. Birkaç doğru verilmiş olsun; bu doğrulara uzaklıkları sabit bir ilişki içinde olan bütün noktaları bulun. Yunanlar üç ya da dört doğru için cevabın bir konik kesit olduğunu biliyordu; Pappos'un da belirttiği gibi, daha fazla doğru için kimse genel bir çözüm bulamamıştı. Descartes dostu Marin Mersenne'e bunun kendisini beş altı hafta uğraştırdığını yazdı.\n\nHilesi, şekli düşünmeyi bırakıp uzunluklara ad vermekti. Verilen doğrulardan birini taban seçti ve her noktayı iki uzunlukla ölçtü: o doğru boyunca ne kadar ilerde, ve ondan sabit bir açıyla ne kadar uzakta. Bilinmeyen uzunluklara x ve y dedi. Böylece problemdeki her koşul x ile y arasında bir denkleme dönüştü ve denklem eğrinin *kendisi* oldu. Denklemin türü eğrinin türünü söylüyordu: en basitleri çemberi ve konik kesitleri veriyor, daha karmaşıkları Yunanların adını bile koymadığı yeni eğriler veriyordu. İstenen sayıda doğru için bir yöntem önerdi; Pappos'ta böyle bir yöntem yoktu. Yine de ayrıntılı olarak yalnızca en basit durumları işledi.\n\n![La Géométrie'nin ilk sayfası, 1637: \"Geometrinin bütün problemleri kolayca öyle terimlere indirgenebilir ki, onları kurmak için sonra yalnızca bazı doğruların uzunluğunu bilmek yeter.\"](https://upload.wikimedia.org/wikipedia/commons/0/0c/DescartesLaGeometrieIntroPage.jpg \"René Descartes · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DescartesLaGeometrieIntroPage.jpg\")\n\nBir şehrin ızgara planındaki bir adresi düşünün: bir sokak ve bir cadde numarası, yani iki sayı, her köşeyi bulmaya yeter; iki sayıyı bağlayan bir kural (\"cadde numarası hep sokak numarasının iki katı\") haritada bir yol çizer. Benzetme iki yerde bozulur. Descartes'ın iki yönü çoğu zaman dik açılı değildi ve kitapta tam bir ızgara yoktur; ders kitaplarının \"Kartezyen\" dediği iki eksenli kare ızgarayı sonraki matematikçiler ekledi. Üstelik adres yalnızca bir etikettir; Descartes'ın uzunlukları ise toplanabilir, çarpılabilir, bölünebilirdi, bu yüzden denklem eğrinin her özelliğini taşıyordu.\n\nBunu işletmek için çarpmanın anlamını değiştirmesi gerekti. Yunanlar için iki uzunluğu çarpmak bir alan, üçünü çarpmak bir hacim verirdi; bu yüzden bir denklem uzunluğu alanla karıştıramazdı, tıpkı metreyle metrekareyi toplayamayacağınız gibi. Descartes bir doğru parçasını birim seçti ve paralel doğrularla yapılan basit bir çizimle iki uzunluğun çarpımının yine bir uzunluk olarak çizilebileceğini gösterdi. Artık bir uzunluğun her kuvveti yine bir uzunluktu ve denklemin bütün terimleri aynı türdendi.\n\n![Descartes'ın doğruları çarpma çizimi: AB birim olsun; A'yı C'ye birleştirip ona paralel DE çizilince BE, BD ile BC'nin çarpımı olur.](https://upload.wikimedia.org/wikipedia/commons/d/dc/DescartesLaGeometriePg3LaMult.jpg \"René Descartes · Public domain · https://commons.wikimedia.org/wiki/File:DescartesLaGeometriePg3LaMult.jpg\")\n\nKitap bu arada bugün hâlâ öğretilen gösterimin çoğunu yerleştirdi: bilinmeyenler için alfabenin sonundaki harfler (x, y, z), bilinenler için başındaki harfler (a, b, c), kuvvetler için küçük üst sayılar; yine de a'nın karesini *aa* diye yazıyordu. Üç kitabın ikincisi eğrileri ikiye ayırdı: bir denklemin tam olarak betimlediği \"geometrik\" eğriler ve sarmal gibi, geometrinin dışında bıraktığı \"mekanik\" eğriler. Ayrıca bir eğriye herhangi bir noktada dik doğruyu, ondan da teğeti çizmenin bir yöntemini verdi. Üçüncü kitap denklemleri kendi başına ele aldı: bütün terimleri bir tarafa topla ve sıfıra eşitle, kökleri say, artı ve eksi işaretlerinin dizilişinden en fazla kaç pozitif kök olabileceğini oku (bu hâlâ Descartes'ın işaret kuralı diye anılır). Pozitif köklere \"doğru\", negatif köklere \"yanlış\" dedi ve iki türün de bazen yalnızca \"sanal\" olduğunu ekledi: denklemin vaat ettiği kadar kök hayal edilebilir, ama bazılarına karşılık gelen hiçbir nicelik yoktur. Bu sözcük matematikte kaldı.\n\n![Birinci kitaptan bir sayfa: a ve b harfleri doğruları, ab onların çarpımını, küçük üst sayılar kuvvetleri gösterir.](https://upload.wikimedia.org/wikipedia/commons/6/6d/Page9-Descartes_La_G%C3%A9om%C3%A9trie.jpg \"Descartes · Public domain · https://commons.wikimedia.org/wiki/File:Page9-Descartes_La_Géométrie.jpg\")\n\n### Yalnız değildi\n\nToulouse parlamentosunda avukat ve meclis üyesi olan, matematiği boş zamanlarında yapan Pierre de Fermat aynı fikre bağımsız olarak ulaştı. Kısa *Düzlem ve Katı Geometrik Yerlere Giriş*'i, 1629'a kadar ulaştığı sonuçlara dayanarak, 1636'ya gelindiğinde Parisli matematikçiler arasında elyazması olarak dolaşıyordu; ama ancak 1679'da, ölümünden sonra basıldı. İkisi işe zıt uçlardan girdi: Fermat genellikle bir denklemden başlayıp onun hangi eğriyi çizdiğini sordu, Descartes bir eğriden başlayıp denklemini aradı. 1638'de Mersenne aracılığıyla, mektuplarla, Fermat'nın teğet yöntemi üzerine tartıştılar. Descartes yönteme saldırdı, başka matematikçiler de katıldı; sonunda Descartes, Fermat bunu baştan böyle açıklasaydı hiç itiraz etmeyeceğini kabul etti.\n\n> [!NOTE]\n> Yaygın bir hikâyeye göre Descartes fikri yatağında yatarken, fayanslı tavanda yürüyen bir sineği izleyip onun yerini bir köşeden fayans sayarak nasıl anlatabileceğini düşünürken bulmuş. Bunun bilinen erken bir kaynağı yok; Britannica buna efsane diyor. Gerçek iz Pappos probleminden ve yıllarca süren mektuplardan geçer.\n\n### Neden zordu\n\nYunanların boyut kuralı basit bir alışkanlık değildi: geometriciler ispatlarını bu sayede dürüst tutuyordu ve Viète bile ona hâlâ uyuyordu. Onu bırakmak, sayılarla uzunlukları birbirinin yerine koyan keyfî bir birim uzunluk fikrini gerektiriyordu. Cebirsel gösterimin kendisi de yalnızca birkaç on yıllıktı ve semboller yazardan yazara değişiyordu.\n\nDescartes işi kolaylaştırmadı. Kitap kısadır, konudan konuya atlar, ispatları vermek yerine taslağını çizer. Kitabı, sonraki kuşakların kendisine yalnızca açıkladıkları için değil, \"onlara bulma zevkini bırakmak için\" bilerek dışarıda bıraktıkları için de minnet duyacağını umarak bitirdi. Pek az okur izleyebildi. Kitabı kurtaran Leidenli bir profesördü: Frans van Schooten, 1649'da onu yorumlarıyla Latinceye çevirdi, 1659–1661'de de öğrencilerinin, aralarında Johannes Hudde'nin eklemeleriyle iki katından uzun, iki ciltlik bir baskı yayımladı.\n\nDescartes'la bu tür problemler üzerinde çalışanlar arasında bir kadın da vardı. 1643'te Descartes, o sırada Hollanda Cumhuriyeti'nde sürgünde yaşayan Bohemyalı Prenses Elisabeth'e eski bir problemi, verilen üç çembere değen bir çember bulmayı sordu. Çözümü kayıp; Descartes'ın cevaplarından, problemi büyük olasılıkla Johan Stampioen'in ders kitabından öğrendiği cebirle, onunkinden farklı bir yoldan çözdüğünü ve Descartes'ın çözümün açıklığını övdüğünü biliyoruz.\n\n### Sonrası\n\nYeni yöntem geometriyi hesaba çevirdi. Bir eğri artık denklemi üzerinde çalışılarak incelenebiliyordu: iki eğrinin nerede buluştuğunu bulmak iki denklemi birlikte çözmek demekti, bir noktadaki teğet de denklemin o noktanın yakınındaki davranışına dair bir soru oldu. Kalkülüs tam bu sorudan doğdu. Isaac Newton, 1699'da yazdığı kendi notuna göre, Descartes'ın *Geometri*'sini 1664'ün ortasına kadar okumuştu ve o yıl Noel'den biraz önce onu van Schooten'in *Miscellanea*'sıyla birlikte satın aldı; kalkülüsteki ilk buluşları birkaç ay içinde geldi. Gottfried Wilhelm Leibniz de Kartezyen gelenekten öğrendi; 18. yüzyılda Leonhard Euler yöntemi sistemli biçimde üç boyuta, uzaydaki eğri yüzeylere taşıdı.\n\nBir ders kitabındaki her grafik, her harita ızgarası, bir köşeden sayılan piksellerden oluşan ekrandaki her görüntü bu kitabın genelleştirdiği alışkanlığı kullanır: nokta bir sayı çiftidir, şekil onları bağlayan bir kuraldır. Daha önce de adımlar atılmıştı: Apollonios'un referans doğruları, Hayyam'ın kesişen eğrileri, Nicole Oresme'nin 14. yüzyılda değişen nicelikler için çizdiği diyagramlar, Viète'in harfleri. Ama hiçbiri çeviriyi iki yönde birden işletmedi."
+    },
+    "ru": {
+      "title": "«Геометрия» Декарта: кривые становятся уравнениями",
+      "summary": "В 1637 году Рене Декарт показал, что любую точку можно задать двумя длинами, а кривую записать уравнением. Ферма пришёл к той же идее независимо; геометрия и алгебра стали одним инструментом.",
+      "why_it_matters": "Аналитическая геометрия позволила решать задачи о фигурах вычислением, а не чертежом, и дала алгебре наглядный образ. Из неё выросли графики в привычном нам виде и во многом анализ Ньютона и Лейбница.",
+      "if_you_were_there": "Окружность — это то, что чертят циркулем и обсуждают по чертежу. Мысль, что ту же окружность можно записать строкой букв и работать с ней, как с суммой, показалась бы вам смешением понятий.",
+      "place_name": "Лейден",
+      "status": "machine",
+      "body": "### Обстановка\n\nЛейден, июнь 1637 года. Из типографии Яна Мэра выходит книга на французском языке, на титульном листе которой нет имени автора: «Рассуждение о методе, чтобы хорошо направлять свой разум и отыскивать истину в науках». За ним следуют три очерка, которые должны показать метод в деле: о свете и линзах, о явлениях погоды и третий, названный просто «Геометрия». Автор — Рене Декарт, француз лет сорока, живущий в Республике Соединённых провинций с 1628 года. Четырьмя годами раньше, узнав, что Галилея осудили в Риме, он отложил свою книгу о мире. Теперь он проверял публику на чём-то более безопасном. Он писал по-французски, а не на латыни, обычном языке учёных, чтобы его могло прочесть больше людей.\n\nМатематика тогда шла двумя дорогами. Геометрия пришла от греков: доказательства Евклида и книга Аполлония о кривых, которые получаются при сечении конуса, — эллипсе, параболе и гиперболе. Она работала с чертежами, циркулем и линейкой. Алгебра пришла с другой стороны: её название происходит от книги аль-Хорезми, учёного из Хорезма в низовьях Амударьи, работавшего в Багдаде в IX веке. Около 1070 года в Самарканде Омар Хайям соединил две дороги в одном направлении: он классифицировал кубические уравнения и решил каждый их тип, находя точку пересечения двух конических кривых. Во Франции Франсуа Виет начал записывать буквами целые классы задач.\n\n### Что произошло\n\nИскрой стала старая головоломка. В конце 1631 года лейденский учёный Якоб Голиус, знаток арабского языка и математики, предложил Декарту задачу, записанную Паппом Александрийским в IV веке. Даны несколько прямых; найти все точки, расстояния от которых до этих прямых находятся в заданном соотношении. Греки знали, что для трёх или четырёх прямых ответ — коническое сечение; для большего числа прямых, как отмечал Папп, общего решения никто не нашёл. Декарт писал своему другу Марену Мерсенну, что потратил на неё пять или шесть недель.\n\nЕго приём состоял в том, чтобы перестать думать о чертеже и начать называть длины. Он взял одну из данных прямых за основу и описывал каждую точку двумя длинами: насколько далеко она вдоль этой прямой и насколько далеко от неё под заданным углом. Неизвестные длины он назвал x и y. Тогда каждое условие задачи становилось уравнением между x и y, и уравнение *было* кривой. Вид уравнения говорил о виде кривой: простейшие давали окружность и конические сечения, более сложные — новые кривые, для которых у греков не было даже названий. Он предложил метод для любого числа прямых, которого у Паппа не было, хотя подробно разобрал лишь простейшие случаи.\n\n![Первая страница «Геометрии», 1637: «Все задачи геометрии легко можно свести к таким терминам, что для их построения нужно затем знать лишь длину некоторых прямых линий».](https://upload.wikimedia.org/wikipedia/commons/0/0c/DescartesLaGeometrieIntroPage.jpg \"René Descartes · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DescartesLaGeometrieIntroPage.jpg\")\n\nПредставьте адрес в городе с прямоугольной сеткой улиц: двух чисел, номера улицы и номера проспекта, достаточно, чтобы найти любой перекрёсток, а правило, связывающее эти два числа («номер проспекта всегда вдвое больше номера улицы»), прочерчивает на карте путь. Сравнение ломается в двух местах. Два направления Декарта часто не были перпендикулярны, и полной сетки в книге нет; квадратную сетку с двумя осями, которую учебники называют «декартовой», добавили более поздние математики. А адрес — всего лишь ярлык, тогда как длины Декарта можно было складывать, умножать и делить, поэтому уравнение несло в себе все свойства кривой.\n\nЧтобы это заработало, ему пришлось изменить смысл умножения. Для греков произведение двух длин было площадью, а трёх — объёмом, поэтому уравнение не могло смешивать длину с площадью, как нельзя сложить метры с квадратными метрами. Декарт выбрал один отрезок за единицу и простым построением с параллельными прямыми показал, что произведение двух длин само можно начертить как длину. Теперь любая степень длины оставалась длиной, и все члены уравнения были одного рода.\n\n![Чертёж Декарта для умножения отрезков: если AB — единица, то, соединив A с C и проведя параллельно ей DE, получаем BE — произведение BD на BC.](https://upload.wikimedia.org/wikipedia/commons/d/dc/DescartesLaGeometriePg3LaMult.jpg \"René Descartes · Public domain · https://commons.wikimedia.org/wiki/File:DescartesLaGeometriePg3LaMult.jpg\")\n\nПопутно книга закрепила бо́льшую часть обозначений, которым учат и сегодня: буквы из конца алфавита (x, y, z) для неизвестных, буквы из начала (a, b, c) для известных величин и маленькие поднятые цифры для степеней, хотя квадрат a он всё ещё писал как *aa*. Вторая из трёх её книг разделила кривые на «геометрические», которые точно описываются уравнением, и «механические», вроде спирали, которые он исключил из геометрии. Она также дала способ провести к кривой в любой её точке перпендикуляр, а через него и касательную. Третья книга рассматривала уравнения сами по себе: перенести все члены в одну сторону и приравнять к нулю, сосчитать корни, по чередованию знаков плюс и минус определить, сколько положительных корней может быть самое большее (это до сих пор называют правилом знаков Декарта). Положительные корни он называл «истинными», отрицательные — «ложными» и добавлял, что и те и другие бывают иногда лишь «мнимыми»: вообразить их можно столько, сколько обещает уравнение, но некоторым из них не соответствует никакая величина. Это слово осталось в математике.\n\n![Страница первой книги: буквы a и b обозначают отрезки, ab — их произведение, маленькие поднятые цифры — степени.](https://upload.wikimedia.org/wikipedia/commons/6/6d/Page9-Descartes_La_G%C3%A9om%C3%A9trie.jpg \"Descartes · Public domain · https://commons.wikimedia.org/wiki/File:Page9-Descartes_La_Géométrie.jpg\")\n\n### Он был не один\n\nПьер Ферма, юрист и советник парламента Тулузы, занимавшийся математикой в свободное время, пришёл к той же идее независимо. Его короткое «Введение в теорию плоских и телесных мест», основанное на результатах, полученных им к 1629 году, к 1636 году ходило в рукописи среди парижских математиков, но было напечатано только в 1679 году, после его смерти. Они шли с противоположных концов: Ферма обычно начинал с уравнения и спрашивал, какую кривую оно задаёт, Декарт начинал с кривой и искал её уравнение. В 1638 году они спорили в письмах, через Мерсенна, о методе касательных Ферма. Декарт нападал на этот метод, к спору присоединились другие математики, и в конце концов он признал, что, если бы Ферма с самого начала объяснил его так, он бы вовсе не возражал.\n\n> [!NOTE]\n> Популярная история гласит, что Декарту пришла эта идея, когда он лежал в постели и смотрел на муху, ползущую по потолку из плиток, раздумывая, как описать её положение, считая плитки от угла. Раннего источника у неё не известно, а Британника называет её легендой. Настоящий след ведёт через задачу Паппа и годы переписки.\n\n### Почему это было трудно\n\nГреческое правило размерностей было не просто привычкой: так геометры сохраняли свои доказательства честными, и Виет всё ещё его соблюдал. Чтобы от него отказаться, нужна была идея произвольной единичной длины, которая делала числа и длины взаимозаменяемыми. Сама алгебраическая запись существовала лишь несколько десятилетий, и символы менялись от автора к автору.\n\nДекарт не облегчил дело. Книга короткая, перескакивает с темы на тему и набрасывает доказательства, вместо того чтобы их приводить. Он закончил её надеждой, что потомки будут благодарны ему не только за то, что он объяснил, но и за то, что он намеренно опустил, «чтобы оставить им удовольствие это открыть». Мало кто мог за ним уследить. Книгу спас лейденский профессор Франс ван Схотен: в 1649 году он перевёл её на латынь с комментариями, а в 1659–1661 годах выпустил двухтомное издание, более чем вдвое длиннее, с добавлениями своих учеников, среди них Иоганна Худде.\n\nСреди тех, кто решал такие задачи вместе с Декартом, была женщина. В 1643 году он предложил принцессе Елизавете Богемской, жившей тогда в изгнании в Республике Соединённых провинций, старую задачу: найти окружность, касающуюся трёх данных окружностей. Её решение утрачено; из ответов Декарта мы знаем, что она решила задачу алгеброй, вероятно усвоенной по учебнику Иоганна Стампиуна, иным путём, чем он, и что он хвалил ясность её решения.\n\n### Что это открыло\n\nНовый метод превратил геометрию в вычисление. Кривую теперь можно было изучать, работая с её уравнением: найти, где встречаются две кривые, значило решить два уравнения вместе, а касательная в точке стала вопросом о поведении уравнения вблизи этой точки. Именно с этого вопроса начался математический анализ. По собственной заметке Исаака Ньютона, написанной в 1699 году, к середине 1664 года он уже прочёл «Геометрию» Декарта, а незадолго до Рождества того же года купил её вместе с «Разными сочинениями» ван Схотена; его первые открытия в анализе последовали через несколько месяцев. Готфрид Вильгельм Лейбниц тоже учился у картезианской традиции, а в XVIII веке Леонард Эйлер систематически перенёс метод в три измерения, на кривые поверхности в пространстве.\n\nКаждый график в учебнике, каждая сетка на карте, каждое изображение на экране из пикселей, отсчитанных от угла, пользуются привычкой, которую эта книга сделала всеобщей: точка — это пара чисел, фигура — правило, их связывающее. Шаги делались и раньше: опорные линии Аполлония, пересекающиеся кривые Хайяма, диаграммы изменяющихся величин Николая Орема в XIV веке, буквы Виета. Но никто из них не заставил перевод работать в обе стороны."
+    },
+    "ky": {
+      "title": "Декарттын «Геометриясы»: ийри сызыктар теңдемеге айланат",
+      "summary": "1637-жылы Рене Декарт ар бир чекитти эки узундук менен атоого, ийри сызыкты теңдеме катары жазууга болорун көрсөттү. Ферма да бул идеяга өз алдынча келген; геометрия менен алгебра бир куралга айланды.",
+      "why_it_matters": "Аналитикалык геометрия фигуралар тууралуу маселелерди чийүү менен эмес, эсептөө менен чыгарууга мүмкүндүк берип, алгебрага көрүнүш берди. Биз билген графиктер андан өсүп чыккан, Ньютон менен Лейбництин анализи да көп жагынан ошондон келип чыккан.",
+      "if_you_were_there": "Айлана — циркуль менен чийилип, чиймелер аркылуу талкууланган нерсе. Ошол эле айлананы бир катар тамгалар менен жазып, аны кошуу амалындай иштетсе болот деген ой сизге түшүнүктөрдү аралаштыргандай сезилмек.",
+      "place_name": "Лейден",
+      "status": "machine",
+      "body": "### Көрүнүш\n\nЛейден, 1637-жылдын июну. Ян Мэрдин басмаканасынан титулдук бетинде автордун аты жок, француз тилинде жазылган китеп чыгат: «Акылды туура башкаруу жана илимде чындыкты издөө үчүн метод жөнүндө ой жүгүртүү». Анын артында методду иш жүзүндө көрсөтүүгө арналган үч очерк бар: бири жарык жана линзалар тууралуу, бири аба ырайы тууралуу, үчүнчүсү жөн гана «Геометрия» деп аталат. Автору — 1628-жылдан бери Нидерланд Республикасында жашап жүргөн, кырк жаштардагы француз Рене Декарт. Төрт жыл мурун Галилей Римде айыпталганын угуп, ал дүйнө тууралуу китебин жарыялабай койгон. Эми ал окурмандарды коопсузураак нерсе менен сынап жатты. Китепти көбүрөөк адам окусун деп, окумуштуулардын адаттагы тили латын тилинде эмес, француз тилинде жазды.\n\nАл кезде математика эки башка жол менен өнүгүп жаткан. Геометрия гректерден келген: Евклиддин далилдөөлөрү жана Аполлонийдин конусту кесүүдөн пайда болгон ийри сызыктар — эллипс, парабола жана гипербола — тууралуу китеби. Ал чиймелер, циркуль жана сызгыч менен иштечү. Алгебра башка тараптан келген: анын аты Амударыянын төмөнкү агымындагы Хорезмден чыгып, IX кылымда Багдадда иштеген аль-Хорезминин китебинен келип чыккан. Болжол менен 1070-жылы Самаркандда Омар Хайям эки жолду бир багытта бириктирген: ал куб теңдемелерди түрлөргө бөлүп, ар бир түрүн эки конустук ийри сызыктын кесилишкен чекитин табуу аркылуу чыгарган. Францияда болсо Франсуа Виет маселелердин бүтүн класстарын тамгалар менен жаза баштаган.\n\n### Эмне болду\n\nУчкун эски табышмактан чыкты. 1631-жылдын аягында лейдендик окумуштуу, араб тили жана математика боюнча адис Якоб Голиус Декартка IV кылымда Александриялык Папп жазып калтырган маселени чыгарып көрүүнү сунуштады. Бир нече түз сызык берилген; ошол сызыктарга чейинки аралыктары белгилүү бир катышта турган бардык чекиттерди табыш керек. Гректер үч же төрт сызык үчүн жооп конустук кесилиш экенин билишкен; андан көп сызык үчүн, Папп белгилегендей, жалпы чечимди эч ким тапкан эмес. Декарт досу Марен Мерсеннге бул маселеге беш-алты жума кеткенин жазган.\n\nАнын амалы — чиймени ойлогонду токтотуп, узундуктарга ат берүү болду. Берилген сызыктардын бирин негиз катары алып, ар бир чекитти эки узундук менен өлчөдү: ошол сызык боюнча канчалык алыс жана андан белгилүү бир бурч менен канчалык алыс. Белгисиз узундуктарды x жана y деп атады. Ошондо маселедеги ар бир шарт x менен y ортосундагы теңдемеге айланды, ал эми теңдеме ийри сызыктын *өзү* болуп калды. Теңдеменин түрү ийри сызыктын түрүн айтып турчу: эң жөнөкөйлөрү айлананы жана конустук кесилиштерди берсе, татаалыраактары гректер атын да койбогон жаңы ийри сызыктарды берди. Ал каалаган сандагы сызык үчүн ыкма сунуштады, Паппта мындай ыкма болгон эмес; бирок толук деталдары менен эң жөнөкөй учурларды гана карап чыкты.\n\n![«Геометриянын» биринчи бети, 1637: «Геометриянын бардык маселелерин оңой эле ушундай шартка келтирсе болот: аларды түзүү үчүн кийин айрым түз сызыктардын узундугун билүү гана жетиштүү».](https://upload.wikimedia.org/wikipedia/commons/0/0c/DescartesLaGeometrieIntroPage.jpg \"René Descartes · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DescartesLaGeometrieIntroPage.jpg\")\n\nКөчөлөрү тик бурчтуу тор сыяктуу жайгашкан шаардагы даректи элестетиңиз: эки сан, көчөнүн номери жана проспекттин номери, каалаган кесилишти табууга жетиштүү, ал эми ошол эки санды байланыштырган эреже («проспекттин номери дайыма көчөнүн номеринен эки эсе чоң») картада жол сызат. Бул салыштыруу эки жерде бузулат. Декарттын эки багыты көп учурда тик бурч түзгөн эмес, китепте толук тор жок; окуу китептери «декарттык» деп атаган эки октуу чарчы торду кийинки математиктер кошушкан. Анын үстүнө дарек жөн гана белги, ал эми Декарттын узундуктарын кошууга, көбөйтүүгө жана бөлүүгө болот эле, ошондуктан теңдеме ийри сызыктын бардык касиеттерин өзүндө алып жүргөн.\n\nМуну иштетүү үчүн ал көбөйтүүнүн маанисин өзгөртүүгө туура келди. Гректер үчүн эки узундукту көбөйтүү аянтты, үчөөнү көбөйтүү көлөмдү берчү; ошондуктан теңдеме узундукту аянт менен аралаштыра алчу эмес, метр менен чарчы метрди кошо албаганыңыздай. Декарт бир кесиндини бирдик катары тандап алып, параллель сызыктар менен жасалган жөнөкөй чийме аркылуу эки узундуктун көбөйтүндүсүн да узундук катары чийсе болорун көрсөттү. Эми узундуктун ар кандай даражасы узундук бойдон калды, теңдеменин бардык мүчөлөрү бир түрдө болду.\n\n![Декарттын кесиндилерди көбөйтүү чиймеси: AB бирдик болсо, A менен Cны туташтырып, ага параллель DE жүргүзгөндө BE — BD менен BCнын көбөйтүндүсү болот.](https://upload.wikimedia.org/wikipedia/commons/d/dc/DescartesLaGeometriePg3LaMult.jpg \"René Descartes · Public domain · https://commons.wikimedia.org/wiki/File:DescartesLaGeometriePg3LaMult.jpg\")\n\nОшону менен катар китеп бүгүн да окутулуп жаткан белгилердин көбүн бекемдеди: белгисиздер үчүн алфавиттин аягындагы тамгалар (x, y, z), белгилүү чоңдуктар үчүн башындагы тамгалар (a, b, c), даражалар үчүн кичине жогорку сандар; бирок a нын квадратын ал дагы эле *aa* деп жазчу. Анын үч китебинин экинчиси ийри сызыктарды экиге бөлдү: теңдеме так сүрөттөгөн «геометриялык» ийри сызыктар жана спираль сыяктуу, ал геометриядан чыгарып салган «механикалык» ийри сызыктар. Ошондой эле ийри сызыкка каалаган чекитинде перпендикуляр, андан жаныма жүргүзүүнүн ыкмасын берди. Үчүнчү китеп теңдемелерди өз алдынча карады: бардык мүчөлөрдү бир жакка өткөрүп, нөлгө барабарлоо, тамырларды саноо, плюс жана минус белгилеринин алмашуусу боюнча оң тамырлар эң көп дегенде канча болорун аныктоо (бул азыр да Декарттын белгилер эрежеси деп аталат). Оң тамырларды «чыныгы», терс тамырларды «жалган» деп атап, эки түрү тең кээде «элестүү» (мнимый) гана болорун кошумчалады: теңдеме убада кылгандай санда тамырларды элестетүүгө болот, бирок алардын айрымдарына эч кандай чоңдук туура келбейт. Бул сөз математикада калды.\n\n![Биринчи китептин бир бети: a жана b тамгалары кесиндилерди, ab алардын көбөйтүндүсүн, кичине жогорку сандар даражаларды билдирет.](https://upload.wikimedia.org/wikipedia/commons/6/6d/Page9-Descartes_La_G%C3%A9om%C3%A9trie.jpg \"Descartes · Public domain · https://commons.wikimedia.org/wiki/File:Page9-Descartes_La_Géométrie.jpg\")\n\n### Ал жалгыз болгон эмес\n\nТулуза парламентинин юристи жана кеңешчиси болуп, математика менен бош убактысында алектенген Пьер Ферма ошол эле идеяга өз алдынча келген. Анын 1629-жылга чейин алган жыйынтыктарына негизделген кыска «Тегиз жана мейкиндик орундарга киришүү» деген эмгеги 1636-жылы эле париждик математиктердин арасында кол жазма түрүндө тарап жүргөн, бирок ал өлгөндөн кийин, 1679-жылы гана басылып чыккан. Экөө ишке карама-каршы учтан киришкен: Ферма адатта теңдемеден баштап, ал кайсы ийри сызыкты берерин сурачу, Декарт ийри сызыктан баштап, анын теңдемесин издечү. 1638-жылы алар Мерсенн аркылуу каттар менен Ферманын жанымалар ыкмасы тууралуу талашышкан. Декарт ал ыкмага кол салган, талашка башка математиктер да кошулган, акыры Декарт, эгер Ферма аны башынан эле ушундай түшүндүргөндө, такыр каршы чыкпайт элем деп мойнуна алган.\n\n> [!NOTE]\n> Кеңири тараган аңгемеге караганда, Декарт бул идеяны төшөктө жатып, плиткалуу шыпта жөрмөлөгөн чымынды карап, анын ордун бурчтан плиткаларды санап кантип сүрөттөсө болорун ойлонуп жатканда тапкан имиш. Анын белгилүү эрте булагы жок, Британника аны уламыш деп атайт. Чыныгы из Папптын маселеси жана көп жылдык каттар аркылуу өтөт.\n\n### Эмне үчүн кыйын болду\n\nГректердин өлчөмдөр тууралуу эрежеси жөн эле адат болгон эмес: геометрлер ошонун аркасында далилдөөлөрүн так сакташкан, Виет да аны дагы эле карманган. Андан баш тартуу үчүн сандар менен узундуктарды бири-биринин ордуна коюуга мүмкүндүк берген, ыктыярдуу тандалган бирдик узундук идеясы керек болгон. Алгебралык белгилердин өзү бир нече он жылдык гана тарыхка ээ болчу, символдор автордон авторго өзгөрүп турчу.\n\nДекарт ишти жеңилдеткен жок. Китеп кыска, бир темадан экинчисине секирет, далилдөөлөрдү толук бербей, кыскача гана белгилейт. Ал китебин кийинки муундар ага түшүндүргөн нерселери үчүн гана эмес, «аларга ачуунун ырахатын калтыруу үчүн» атайын калтырып кеткен нерселери үчүн да ыраазы болот деген үмүт менен аяктаган. Аны аз эле окурман түшүнө алган. Китепти лейдендик профессор Франс ван Схотен сактап калды: 1649-жылы ал аны түшүндүрмөлөрү менен латын тилине которгон, 1659–1661-жылдары окуучуларынын, алардын ичинде Иоганн Худденин кошумчалары менен эки эседен ашык көлөмдөгү эки томдук басылышын чыгарган.\n\nДекарт менен мындай маселелердин үстүндө иштегендердин арасында бир аял да болгон. 1643-жылы Декарт ошол кезде Нидерланд Республикасында сүргүндө жашап жүргөн Богемиялык ханбийке Елизаветага эски маселени — берилген үч айланага тийип турган айлананы табууну сунуштаган. Анын чечими сакталган эмес; Декарттын жоопторунан анын маселени, кыязы, Иоганн Стампиундун окуу китебинен үйрөнгөн алгебра менен, Декарттыкынан башка жол менен чыгарганын жана Декарт чечимдин ачык-айкындыгын мактаганын билебиз.\n\n### Эмнеге жол ачты\n\nЖаңы ыкма геометрияны эсептөөгө айландырды. Эми ийри сызыкты анын теңдемеси менен иштөө аркылуу изилдөөгө мүмкүн болду: эки ийри сызык кайда кездешерин табуу эки теңдемени бирге чыгаруу дегенди билдирди, ал эми чекиттеги жаныма теңдеменин ошол чекиттин жанындагы абалы тууралуу суроого айланды. Математикалык анализ дал ушул суроодон башталган. Исаак Ньютондун 1699-жылы жазган өз эскертмесине караганда, ал 1664-жылдын ортосуна чейин Декарттын «Геометриясын» окуп бүткөн, ошол эле жылы Рождествого аз калганда аны ван Схотендин «Ар түрдүү эмгектери» менен кошо сатып алган; анын анализдеги алгачкы ачылыштары бир нече айдан кийин келген. Готфрид Вильгельм Лейбниц да декарттык салттан үйрөнгөн, ал эми XVIII кылымда Леонард Эйлер бул ыкманы системалуу түрдө үч өлчөмгө, мейкиндиктеги ийри беттерге көчүргөн.\n\nОкуу китебиндеги ар бир график, картадагы ар бир тор, бурчтан саналган пикселдерден турган экрандагы ар бир сүрөт ушул китеп жалпыга жайылткан адатты колдонот: чекит — бул эки сан, фигура — аларды байланыштырган эреже. Мындан мурун да кадамдар жасалган: Аполлонийдин таяныч сызыктары, Хайямдын кесилишкен ийри сызыктары, Николай Оремдин XIV кылымда өзгөрүүчү чоңдуктар үчүн чийген диаграммалары, Виеттин тамгалары. Бирок алардын бири да котормону эки тарапка тең иштеткен эмес."
+    }
+  }
+}
