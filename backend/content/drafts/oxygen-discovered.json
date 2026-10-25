@@ -1,0 +1,332 @@
+{
+  "slug": "oxygen-discovered",
+  "year": 1774,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 51.4286,
+  "lng": -2.0376,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Priestley_Joseph_pneumatic_trough.jpg",
+    "credit": "Joseph Priestley (1733-1804)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Priestley_Joseph_pneumatic_trough.jpg"
+  },
+  "disciplines": [
+    "chemistry"
+  ],
+  "people": [
+    {
+      "slug": "joseph-priestley",
+      "birth_year": 1733,
+      "death_year": 1804,
+      "role": "co-discoverer",
+      "name": {
+        "en": "Joseph Priestley",
+        "tr": "Joseph Priestley",
+        "ru": "Джозеф Пристли",
+        "ky": "Джозеф Пристли"
+      }
+    },
+    {
+      "slug": "carl-wilhelm-scheele",
+      "birth_year": 1742,
+      "death_year": 1786,
+      "role": "co-discoverer",
+      "name": {
+        "en": "Carl Wilhelm Scheele",
+        "tr": "Carl Wilhelm Scheele",
+        "ru": "Карл Вильгельм Шееле",
+        "ky": "Карл Вильгельм Шееле"
+      }
+    },
+    {
+      "slug": "antoine-lavoisier",
+      "birth_year": 1743,
+      "death_year": 1794,
+      "role": "successor",
+      "name": {
+        "en": "Antoine Lavoisier",
+        "tr": "Antoine Lavoisier",
+        "ru": "Антуан Лавуазье",
+        "ky": "Антуан Лавуазье"
+      }
+    },
+    {
+      "slug": "pierre-bayen",
+      "birth_year": 1725,
+      "death_year": 1798,
+      "role": "contemporary",
+      "name": {
+        "en": "Pierre Bayen",
+        "tr": "Pierre Bayen",
+        "ru": "Пьер Байен",
+        "ky": "Пьер Байен"
+      }
+    },
+    {
+      "slug": "torbern-bergman",
+      "birth_year": 1735,
+      "death_year": 1784,
+      "role": "contemporary",
+      "name": {
+        "en": "Torbern Bergman",
+        "tr": "Torbern Bergman",
+        "ru": "Торберн Бергман",
+        "ky": "Торберн Бергман"
+      }
+    },
+    {
+      "slug": "lord-shelburne",
+      "birth_year": 1737,
+      "death_year": 1805,
+      "role": "patron",
+      "name": {
+        "en": "Lord Shelburne",
+        "tr": "Lord Shelburne",
+        "ru": "лорд Шелберн",
+        "ky": "лорд Шелберн"
+      }
+    },
+    {
+      "slug": "michael-sendivogius",
+      "birth_year": 1566,
+      "death_year": 1636,
+      "role": "predecessor",
+      "name": {
+        "en": "Michael Sendivogius",
+        "tr": "Michał Sędziwój",
+        "ru": "Михаил Сендивогий",
+        "ky": "Михаил Сендивогий"
+      }
+    },
+    {
+      "slug": "john-mayow",
+      "birth_year": 1641,
+      "death_year": 1679,
+      "role": "predecessor",
+      "name": {
+        "en": "John Mayow",
+        "tr": "John Mayow",
+        "ru": "Джон Мейоу",
+        "ky": "Джон Мейоу"
+      }
+    },
+    {
+      "slug": "stephen-hales",
+      "birth_year": 1677,
+      "death_year": 1761,
+      "role": "predecessor",
+      "name": {
+        "en": "Stephen Hales",
+        "tr": "Stephen Hales",
+        "ru": "Стивен Хейлс",
+        "ky": "Стивен Хейлс"
+      }
+    },
+    {
+      "slug": "joseph-black",
+      "birth_year": 1728,
+      "death_year": 1799,
+      "role": "predecessor",
+      "name": {
+        "en": "Joseph Black",
+        "tr": "Joseph Black",
+        "ru": "Джозеф Блэк",
+        "ky": "Джозеф Блэк"
+      }
+    },
+    {
+      "slug": "henry-cavendish",
+      "birth_year": 1731,
+      "death_year": 1810,
+      "role": "predecessor",
+      "name": {
+        "en": "Henry Cavendish",
+        "tr": "Henry Cavendish",
+        "ru": "Генри Кавендиш",
+        "ky": "Генри Кавендиш"
+      }
+    },
+    {
+      "slug": "robert-boyle",
+      "birth_year": 1627,
+      "death_year": 1691,
+      "role": "predecessor",
+      "name": {
+        "en": "Robert Boyle",
+        "tr": "Robert Boyle",
+        "ru": "Роберт Бойль",
+        "ky": "Роберт Бойль"
+      }
+    },
+    {
+      "slug": "william-harvey",
+      "birth_year": 1578,
+      "death_year": 1657,
+      "role": "context",
+      "name": {
+        "en": "William Harvey",
+        "tr": "William Harvey",
+        "ru": "Уильям Гарвей",
+        "ky": "Уильям Гарвей"
+      }
+    },
+    {
+      "slug": "ibn-al-nafis",
+      "birth_year": 1213,
+      "death_year": 1288,
+      "role": "context",
+      "name": {
+        "en": "Ibn al-Nafis",
+        "tr": "İbnü'n-Nefis",
+        "ru": "Ибн ан-Нафис",
+        "ky": "Ибн ан-Нафис"
+      }
+    },
+    {
+      "slug": "pierre-simon-laplace",
+      "birth_year": 1749,
+      "death_year": 1827,
+      "role": "successor",
+      "name": {
+        "en": "Pierre-Simon Laplace",
+        "tr": "Pierre-Simon Laplace",
+        "ru": "Пьер-Симон Лаплас",
+        "ky": "Пьер-Симон Лаплас"
+      }
+    },
+    {
+      "slug": "jan-ingenhousz",
+      "birth_year": 1730,
+      "death_year": 1799,
+      "role": "successor",
+      "name": {
+        "en": "Jan Ingenhousz",
+        "tr": "Jan Ingenhousz",
+        "ru": "Ян Ингенхауз",
+        "ky": "Ян Ингенхауз"
+      }
+    },
+    {
+      "slug": "thomas-kuhn",
+      "birth_year": 1922,
+      "death_year": 1996,
+      "role": "context",
+      "name": {
+        "en": "Thomas Kuhn",
+        "tr": "Thomas Kuhn",
+        "ru": "Томас Кун",
+        "ky": "Томас Кун"
+      }
+    }
+  ],
+  "builds_on": [
+    "boyle-law"
+  ],
+  "sources": [
+    {
+      "title": "Oxygen, History of study — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Oxygen#History_of_study"
+    },
+    {
+      "title": "Carl Wilhelm Scheele — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele"
+    },
+    {
+      "title": "Joseph Priestley — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Priestley"
+    },
+    {
+      "title": "Experiments and Observations on Different Kinds of Air — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Experiments_and_Observations_on_Different_Kinds_of_Air"
+    },
+    {
+      "title": "Joseph Priestley — Science History Institute",
+      "kind": "other",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/joseph-priestley/"
+    },
+    {
+      "title": "J. Priestley, 'An Account of further Discoveries in Air', letter to Sir John Pringle, 15 March 1775, Philosophical Transactions 65 (transcription)",
+      "kind": "book",
+      "url": "https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-106209/"
+    },
+    {
+      "title": "J. Priestley, Experiments and Observations on Different Kinds of Air, vol. 2, section 3 (excerpt) — Internet Modern History Sourcebook, Fordham University",
+      "kind": "book",
+      "url": "https://sourcebooks.web.fordham.edu/mod/1776priestley.asp"
+    },
+    {
+      "title": "J. W. Severinghaus, 'Fire-air and dephlogistication: revisionisms of oxygen's discovery' (2003), summary",
+      "kind": "other",
+      "url": "https://www.general-anaesthesia.com/oxygen.htm"
+    },
+    {
+      "title": "Joseph Priestley and the Discovery of Oxygen — American Chemical Society National Historic Chemical Landmark",
+      "kind": "other",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html"
+    },
+    {
+      "title": "J. Priestley, Experiments and Observations on Different Kinds of Air, vol. 2, section III (1775) — Classic Chemistry, Le Moyne College",
+      "kind": "book",
+      "url": "https://web.lemoyne.edu/GIUNTA/Priestley.html"
+    },
+    {
+      "title": "Oxygen — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/oxygen"
+    },
+    {
+      "title": "Carl Wilhelm Scheele — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Carl-Wilhelm-Scheele"
+    }
+  ],
+  "research_note": "Researched 2026-10-25 against English Wikipedia (Oxygen, history of study; Carl Wilhelm Scheele; Joseph Priestley; Experiments and Observations on Different Kinds of Air), the Science History Institute biography of Priestley, Priestley's own texts (letter to Pringle dated 15 March 1775, Phil. Trans. 65; Experiments and Observations vol. 2, sec. III via Le Moyne College and the Fordham Sourcebook) and Severinghaus's 2003 summary. ACS landmark page and Britannica (oxygen, Scheele) are linked for the human only (403 to automated fetches).\nCONFIRMED: Priestley, 1 August 1774, Bowood House, burning lens (twelve inches) on mercurius calcinatus per se, candle \"with a remarkably vigorous flame\"; told Lavoisier and others in Paris, October 1774; letter of 15 March 1775 (\"five or six times better than common air\"; mouse \"at two different times, a whole hour\"). Scheele: Uppsala pharmacy from autumn 1770, Bergman's saltpetre complaint, same gas from saltpetre, manganese dioxide, mercuric oxide, silver carbonate; dated 1771-1772 (Wikipedia Oxygen; Scheele article says ca. 1771); \"fire air\", about a quarter of air; book to printer 1775, out 1777; letter to Lavoisier 30 September 1774 (Grimaux 1890; burning-glass recipe; unanswered). Lavoisier 1775 \"air itself entire\", 1777 oxygène. Kuhn 1962, Structure ch. VI.\nFLAGGED IN THE BODY: Sendivogius's 1604 \"food of life\" given with both readings (may have produced it / read cautiously); priority set out three ways in a NOTE box (Scheele first made, Priestley first published, Lavoisier first understood); year kept exact because 1774 is Priestley's dated experiment and Scheele's letter, with Scheele's 1771-1772 stated in the body.\nFIXED AFTER FACT-CHECK: (1) mouse: the book says the 8 March mouse lived \"a full half hour\", the Royal Society letter says \"a whole hour\" at two trials - body now gives both. (2) Priestley first took the gas for a kind of nitrous air, then for common air, before March 1775 - two stages now shown. (3) \"at a dinner\" removed: the October 1774 telling in Paris is sourced, the dinner setting is not. (4) Bayen softened to \"collected a gas too, without recognising it as a new kind of air\". (5) \"mint\" in the plate captions -> \"a plant\" (Commons does not identify the plant); the 1771 mint experiment stays in the text. (6) Boyle sentence added to justify builds_on boyle-law. (7) Coordinates moved to Bowood House (Historic England 51.4286, -2.0376). (8) Roles: Priestley co-discoverer, Ibn al-Nafis context (his work was unknown in Europe until the 20th century). (9) if_you_were_there and why_it_matters softened.\nREVIEWER SHOULD CHECK: \"peculiarly light and easy\" and \"Hitherto only two mice and myself have had the privilege of breathing it\" are widely quoted from vol. 2 but were not seen in the primary text with a page number. Scheele's \"second air that put flames out\" (his \"foul air\") rests on secondary accounts. Lavoisier-Laplace guinea-pig calorimeter (1782-83), Priestley's 1771 mint and Ingenhousz 1779 are standard but not separately sourced here. Medal: who commissioned it (Academy?) is not stated in the body. The Scheele book vignette is described from the image itself (furnace, glassware). Where Scheele's letter was found is disputed (copy in his papers vs Académie archive) - the body does not say.\nKYRGYZ: machine translation. Glossary terms used: аба, от, тажрыйба, зат ('check'), кислота ('check'), далилдөө ('check', as \"далилдөөгө аракет кылган\"), теория, элемент, ачылыш, байкоо, жарык, кылым, китеп. Not in the glossary, chosen by Claude: кычкылтек (oxygen, Kyrgyz school term; кислород mentioned once), суутек (hydrogen, водород in brackets), көмүр кычкыл газы (carbon dioxide, углекислый газ in brackets), сымаптын кызыл күйүндүсү (red calx of mercury), дат басуу (rusting), күйгүзүүчү линза/айнек (burning lens/glass), селитра, флогистону алынган аба (dephlogisticated air), расмий чиркөөгө баш ийбеген дин кызматчысы (dissenting minister), деңиз чочкосу (guinea pig), жалбыз (mint), Чёпинг (Köping, Russian form).",
+  "translations": {
+    "en": {
+      "title": "Priestley and Scheele isolate oxygen",
+      "summary": "In Sweden Carl Scheele made a gas that fed fire; in England Joseph Priestley made it too, in 1774. Both saw it clearly. Neither understood what they had found.",
+      "why_it_matters": "Oxygen was the piece that let chemistry see burning, rusting and breathing as one process; once it was in a jar, Lavoisier could finish replacing phlogiston with a chemistry of elements. Its story also shows that making a thing and understanding it can be two different discoveries.",
+      "if_you_were_there": "To most people, air was simply air. A candle in a closed jar went out and a mouse in it died, and the best explanation going was that the air had filled up with something called phlogiston.",
+      "place_name": "Bowood House",
+      "status": "machine",
+      "body": "![Priestley's own plate of his apparatus: a trough of liquid with upturned jars for catching gases, a mouse under a glass, and a plant in a jar of air.](https://upload.wikimedia.org/wikipedia/commons/b/b4/Priestley_Joseph_pneumatic_trough.jpg \"Joseph Priestley (1733-1804) · Public domain · https://commons.wikimedia.org/wiki/File:Priestley_Joseph_pneumatic_trough.jpg\")\n\n### The scene\n\nIn the 1770s most people still thought of air as one thing — the element air, as Aristotle had taught. Chemists were starting to doubt it. In the 1720s the English clergyman Stephen Hales had collected the \"airs\" that heated substances gave off, in jars turned upside down in a trough of water. In the 1750s the Scottish chemist Joseph Black showed that \"fixed air\", now called carbon dioxide, was a separate gas with properties of its own; in 1766 Henry Cavendish in London isolated \"inflammable air\", now called hydrogen. Air, it seemed, came in kinds.\n\nFire was explained by phlogiston. Anything that burns, the theory said, contains this substance and releases it into the air as it burns. A candle in a closed jar goes out because the air around it has soaked up all the phlogiston it can hold; a mouse in the same jar dies for the same reason. The theory had a neat answer for nearly everything.\n\nIn the 1660s Robert Boyle had shown with his air pump that both a flame and a living animal fail without air. People had also guessed that only part of the air keeps fire and life going. The Polish alchemist Michael Sendivogius wrote in 1604 of a \"food of life\" hidden in the air and linked it with saltpetre; some historians think he may even have produced the gas, others read his alchemical language more cautiously. In 1668 the English physician John Mayow argued that one part of the air, which he called \"nitro-aerial spirit\", feeds both flames and breathing. Neither of them got the gas into a jar where others could test it.\n\n### What happened\n\nThe first person known to have done so was a pharmacist's assistant in Uppsala, Sweden. Carl Wilhelm Scheele had been working in a pharmacy there since the autumn of 1770, and the professor of chemistry, Torbern Bergman, had complained that saltpetre bought from it behaved strangely. Following that puzzle, Scheele began heating one substance after another — saltpetre, the black mineral now called manganese dioxide, the red calx of mercury, silver carbonate — and kept getting the same gas, in which a candle burned with a dazzling flame. His work is usually dated to 1771–1772. He called it \"fire air\" and concluded that ordinary air is a mixture of two airs: fire air, about a quarter of the whole by his estimate (the true share is about a fifth), and a second air that put flames out.\n\n![A vignette of a laboratory furnace and glassware from Scheele's book on air and fire, written by 1775 and printed only in 1777.](https://upload.wikimedia.org/wikipedia/commons/e/e5/ScheeleRoyalSwdAcadChemObservatnsAir%26Fire.jpg \"Carl Wilhelm Scheele, Torbern Bergman · Public domain · https://commons.wikimedia.org/wiki/File:ScheeleRoyalSwdAcadChemObservatnsAir&Fire.jpg\")\n\nScheele did not hurry into print. His book, *Chemical Treatise on Air and Fire*, went to the printer in 1775 and did not appear until 1777. On 30 September 1774 he did write to Antoine Lavoisier in Paris, describing how to make the gas with a burning glass. Lavoisier never answered, and historians still argue over whether he took the letter in.\n\nMeanwhile, in England, Joseph Priestley — a dissenting minister who had spent years collecting \"airs\" — was working in a laboratory at Bowood House in Wiltshire, the estate of his patron Lord Shelburne. On 1 August 1774 he used a large burning lens to focus sunlight onto the red calx of mercury inside a closed vessel. A gas came off. He put a candle into it, and it burned, in his words, with \"a remarkably vigorous flame\". He did not know what to make of it. That autumn he travelled to Paris with Shelburne and, in October, described the experiment to Lavoisier and other French chemists.\n\nAt first Priestley took the gas for a variety of \"nitrous air\", a gas he already knew; back from Paris, he decided it was essentially common air. Only in March 1775, testing it more carefully, did he see how wrong both guesses were. On the 8th of that month he put a mouse into a small jar of it: in the same amount of common air a mouse would have lived about a quarter of an hour; this one, by his account in his book, lived a full half hour, and in the trials he reported to the Royal Society a week later, a whole hour. Then he breathed the gas himself. His chest, he wrote, felt \"peculiarly light and easy\" for some time afterwards, and he joked that it might one day become a luxury: \"Hitherto only two mice and myself have had the privilege of breathing it.\" His letter to the Royal Society, dated 15 March 1775, called it \"five or six times better than common air\". Unlike Scheele's, his account reached print at once.\n\nPriestley named the gas \"dephlogisticated air\", and inside his theory the name made perfect sense. Think of ordinary air as a sponge that is already half wet with phlogiston: hold it over a candle and it soon fills up, and the flame dies. Dephlogisticated air is the same sponge wrung completely dry, so it can soak up far more, and the candle burns longer and brighter. The picture breaks at its centre: there is no phlogiston and no sponge. The gas is not soaking anything up from the flame — it is itself being used up, combining with the burning fuel. A burning candle takes something out of the air; it does not put something in.\n\n### Why it was hard\n\nThe gas has no colour and no smell. In a jar it looks exactly like air. To catch it at all, Priestley relied on Hales's trick of collecting gases in upturned jars, and he made much use of mercury instead of water in the trough, so that gases which dissolve in water were not lost. In Paris, the pharmacist Pierre Bayen had heated the same red calx of mercury earlier in 1774 and collected a gas too, without recognising it as a new kind of air.\n\nBut the deeper difficulty was not catching the gas. It was knowing what it was. Scheele and Priestley were both skilled experimenters, and both described its behaviour accurately. Both explained it inside the phlogiston theory, and nothing in their results forced them out of it. Lavoisier, prompted by Priestley's account, repeated the experiment; in his first report, in the spring of 1775, he too took the gas for \"air itself, entire\", only purer. It took him until 1777 to conclude that it was a distinct part of the air, the part that combines with metals when they rust and with fuel when it burns. He renamed it *oxygène*, \"acid-maker\", on the mistaken belief that every acid contains it.\n\n> [!NOTE]\n> Who discovered oxygen? Scheele made it first, in 1771–1772, but published last, in 1777. Priestley made it in August 1774 and published first, in 1775. Lavoisier made it last, but was the first to understand what it was. In 1962 the historian Thomas Kuhn used exactly this case to argue that a discovery is often not a single moment but a process — and that the question \"who, and when?\" sometimes has no clean answer.\n\n### What it opened\n\nOxygen gave Lavoisier the piece he needed to replace phlogiston: burning, rusting, and breathing turned out to be one kind of event, something combining with oxygen. Within a few years he and Pierre-Simon Laplace were measuring the heat a guinea pig gave off and comparing it with burning charcoal, treating breathing as a slow fire inside the body. The old question of what the lungs do with air — Ibn al-Nafis in thirteenth-century Cairo had already described blood passing through the lungs, and William Harvey in 1628 had shown the blood goes round — now had the start of a chemical answer.\n\nThe plant in Priestley's plate points to another door. In 1771 he had found that a sprig of mint could \"restore\" air in which a candle had burned out; after oxygen, that result could be read as plants giving back what fire and breath take away. In 1779 the Dutch physician Jan Ingenhousz showed that plants do this only in light — an early step towards understanding photosynthesis, the process that keeps the air breathable.\n\nNeither discoverer lived happily with the new chemistry. Priestley defended phlogiston for the rest of his life. In 1791 a mob burned his house and laboratory in Birmingham, angered by his religious and political views; in 1794 he emigrated to Pennsylvania, where he died in 1804. Scheele moved to a pharmacy in the small Swedish town of Köping in 1775 and went on to discover or co-discover a remarkable list of substances, among them chlorine. He died in 1786, aged 43.\n\n![The silver medal struck in Scheele's memory in 1789, three years after his death. No portrait of him made from life is securely known; profiles like this one are the closest there is.](https://upload.wikimedia.org/wikipedia/commons/3/3c/Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman%2C_1789_%28obverse%29.jpg \"I G Wikman · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman,_1789_(obverse).jpg\")\n"
+    },
+    "tr": {
+      "title": "Priestley ve Scheele oksijeni ayırdı",
+      "summary": "İsveç'te Carl Scheele ateşi besleyen bir gaz elde etti; İngiltere'de Joseph Priestley de 1774'te aynı gazı buldu. İkisi de onu açıkça gördü. Hiçbiri ne bulduğunu anlamadı.",
+      "why_it_matters": "Oksijen, kimyanın yanmayı, paslanmayı ve solunumu tek bir süreç olarak görmesini sağlayan parçaydı; gaz bir kavanoza girdikten sonra Lavoisier flojistonun yerine elementlerin kimyasını koymayı tamamlayabildi. Hikâyesi, bir şeyi elde etmekle onu anlamanın iki ayrı keşif olabileceğini de gösteriyor.",
+      "if_you_were_there": "Çoğu insan için hava sadece havaydı. Kapalı bir kavanozdaki mum söner, içindeki fare ölürdü; bilinen en iyi açıklama, havanın flojiston denen bir şeyle dolduğuydu.",
+      "place_name": "Bowood House",
+      "body": "![Priestley'nin kendi aygıtlarını gösteren levha: gaz toplamak için ters çevrilmiş kavanozların durduğu bir tekne, cam altında bir fare ve bir kavanoz havada duran bir bitki.](https://upload.wikimedia.org/wikipedia/commons/b/b4/Priestley_Joseph_pneumatic_trough.jpg \"Joseph Priestley (1733-1804) · Public domain · https://commons.wikimedia.org/wiki/File:Priestley_Joseph_pneumatic_trough.jpg\")\n\n### Sahne\n\n1770'lerde insanların çoğu havayı hâlâ tek bir şey sanıyordu: Aristoteles'in öğrettiği hava elementi. Kimyacılar bundan şüphe etmeye başlamıştı. 1720'lerde İngiliz din adamı Stephen Hales, ısıtılan maddelerden çıkan \"havaları\", su dolu bir teknede ters çevrilmiş kavanozlarda toplamıştı. 1750'lerde İskoç kimyacı Joseph Black, bugün karbondioksit denen \"sabit hava\"nın kendine özgü nitelikleri olan ayrı bir gaz olduğunu gösterdi; 1766'da Londra'da Henry Cavendish, bugün hidrojen denen \"yanıcı hava\"yı ayırdı. Anlaşılan hava türlü türlüydü.\n\nAteş flojistonla açıklanıyordu. Kurama göre yanan her şey bu maddeyi içerir ve yanarken onu havaya bırakır. Kapalı kavanozdaki mum söner, çünkü çevresindeki hava tutabileceği kadar flojistonu emmiştir; aynı kavanozdaki fare de aynı sebeple ölür. Kuramın neredeyse her şeye derli toplu bir cevabı vardı.\n\n1660'larda Robert Boyle hava pompasıyla hem alevin hem de canlı bir hayvanın havasız kalınca söndüğünü göstermişti. Ateşi ve hayatı sürdürenin havanın yalnızca bir parçası olduğu da daha önce tahmin edilmişti. Polonyalı simyacı Michael Sendivogius 1604'te havada saklı bir \"hayat gıdası\"ndan söz etmiş ve onu güherçileyle ilişkilendirmişti; bazı tarihçiler onun bu gazı belki elde ettiğini bile düşünüyor, başkaları simya dilini daha temkinli okuyor. 1668'de İngiliz hekim John Mayow, havanın \"nitro-hava ruhu\" dediği bir parçasının hem alevi hem solunumu beslediğini savundu. İkisi de gazı, başkalarının sınayabileceği bir kavanoza koyamadı.\n\n### Ne oldu\n\nBunu yaptığı bilinen ilk kişi, İsveç'in Uppsala kentinde bir eczacı kalfasıydı. Carl Wilhelm Scheele 1770 sonbaharından beri oradaki bir eczanede çalışıyordu ve kimya profesörü Torbern Bergman, bu eczaneden alınan güherçilenin tuhaf davrandığından yakınmıştı. Scheele bu bilmecenin peşinden gidip maddeleri birbiri ardına ısıtmaya başladı: güherçile, bugün mangan dioksit denen kara mineral, cıvanın kırmızı kalsı, gümüş karbonat. Her seferinde aynı gazı elde etti ve bu gazda mum göz kamaştırıcı bir alevle yandı. Çalışmaları genellikle 1771–1772'ye tarihlenir. Gaza \"ateş havası\" dedi ve sıradan havanın iki havanın karışımı olduğu sonucuna vardı: kendi tahminine göre bütünün dörtte biri kadar olan ateş havası (gerçek payı beşte bir kadardır) ve alevleri söndüren ikinci bir hava.\n\n![Scheele'nin hava ve ateş üzerine kitabından, laboratuvar fırını ve cam kaplarla bir süsleme; kitap 1775'te yazılmıştı, ancak 1777'de basıldı.](https://upload.wikimedia.org/wikipedia/commons/e/e5/ScheeleRoyalSwdAcadChemObservatnsAir%26Fire.jpg \"Carl Wilhelm Scheele, Torbern Bergman · Public domain · https://commons.wikimedia.org/wiki/File:ScheeleRoyalSwdAcadChemObservatnsAir&Fire.jpg\")\n\nScheele yayımlamakta acele etmedi. *Hava ve Ateş Üzerine Kimyasal İnceleme* adlı kitabı 1775'te matbaaya gitti ve ancak 1777'de çıktı. Yine de 30 Eylül 1774'te Paris'teki Antoine Lavoisier'ye yazıp gazın bir yakıcı camla nasıl elde edileceğini anlattı. Lavoisier hiç cevap vermedi; mektubu dikkate alıp almadığı tarihçiler arasında hâlâ tartışılıyor.\n\nBu arada İngiltere'de, yıllardır \"havalar\" toplayan muhalif bir papaz olan Joseph Priestley, hamisi Lord Shelburne'ün Wiltshire'daki malikânesi Bowood House'ta bir laboratuvarda çalışıyordu. 1 Ağustos 1774'te büyük bir yakıcı mercekle güneş ışığını kapalı bir kaptaki cıvanın kırmızı kalsına odakladı. Bir gaz çıktı. İçine bir mum koydu ve mum, kendi sözleriyle, \"dikkat çekecek kadar güçlü bir alevle\" yandı. Bunu neye yoracağını bilemedi. O sonbahar Shelburne'le Paris'e gitti ve ekimde deneyi Lavoisier'ye ve başka Fransız kimyacılara anlattı.\n\nPriestley önce gazı zaten bildiği \"nitröz hava\"nın bir çeşidi sandı; Paris'ten dönünce de onun esasen sıradan hava olduğuna karar verdi. Ancak Mart 1775'te gazı daha dikkatle sınayınca iki tahminin de ne kadar yanlış olduğunu gördü. O ayın 8'inde küçük bir kavanoz gazın içine bir fare koydu: aynı miktarda sıradan havada bir fare çeyrek saat kadar yaşardı; bu fare, kitabındaki anlatıma göre tam yarım saat yaşadı, bir hafta sonra Kraliyet Cemiyeti'ne bildirdiği denemelerde ise tam bir saat. Sonra gazı kendisi soludu. Göğsünün bir süre \"tuhaf biçimde hafif ve rahat\" kaldığını yazdı ve bir gün bir lüks olabileceğine dair şaka yaptı: \"Şimdiye dek onu solumak ayrıcalığına yalnızca iki fare ve ben eriştik.\" Kraliyet Cemiyeti'ne yazdığı 15 Mart 1775 tarihli mektupta gazı \"sıradan havadan beş altı kat daha iyi\" diye tanımladı. Scheele'ninkinin aksine onun anlatımı hemen basıldı.\n\nPriestley gaza \"flojistonu alınmış hava\" adını verdi ve kendi kuramının içinde bu ad gayet mantıklıydı. Sıradan havayı flojistonla yarı ıslanmış bir sünger gibi düşünün: bir mumun üstünde tutarsanız çabucak dolar ve alev söner. Flojistonu alınmış hava, aynı süngerin sonuna kadar sıkılıp kurutulmuş hâlidir; çok daha fazlasını emebilir, mum da daha uzun ve daha parlak yanar. Benzetme tam ortasından kırılır: ne flojiston vardır ne sünger. Gaz alevden hiçbir şey emmez; kendisi tükenir, yanan yakıtla birleşir. Yanan mum havaya bir şey katmaz, havadan bir şey alır.\n\n### Neden zordu\n\nGazın rengi de kokusu da yok. Kavanozda tıpkı hava gibi görünür. Onu yakalayabilmek için Priestley, Hales'in gazları ters kavanozlarda toplama yöntemine dayandı ve teknede su yerine sıkça cıva kullandı; böylece suda çözünen gazlar kaybolmadı. Paris'te eczacı Pierre Bayen de 1774'ün başlarında aynı kırmızı cıva kalsını ısıtıp bir gaz toplamış, ama onu yeni bir hava türü olarak tanımamıştı.\n\nAma asıl zorluk gazı yakalamak değildi. Ne olduğunu bilmekti. Scheele de Priestley de usta deneycilerdi ve ikisi de gazın davranışını doğru tarif etti. İkisi de onu flojiston kuramının içinde açıkladı ve sonuçlarındaki hiçbir şey onları bu kuramdan çıkmaya zorlamadı. Priestley'nin anlattıklarıyla harekete geçen Lavoisier deneyi tekrarladı; 1775 baharındaki ilk raporunda o da gazı yalnızca daha saf hâliyle \"havanın kendisi, bütünüyle\" sandı. Gazın havanın ayrı bir parçası olduğu sonucuna ancak 1777'de vardı: metaller paslanırken onlarla, yakıt yanarken onunla birleşen parça. Her asidin onu içerdiği yanlış inancıyla ona \"asit yapıcı\" anlamında *oxygène* adını verdi.\n\n> [!NOTE]\n> Oksijeni kim keşfetti? Scheele onu ilk elde eden oldu, 1771–1772'de, ama en son yayımladı, 1777'de. Priestley onu Ağustos 1774'te elde etti ve ilk yayımlayan oldu, 1775'te. Lavoisier onu en son elde etti, ama ne olduğunu ilk anlayan oydu. Tarihçi Thomas Kuhn 1962'de tam bu örneği kullanarak bir keşfin çoğu zaman tek bir an değil bir süreç olduğunu, \"kim ve ne zaman?\" sorusunun bazen temiz bir cevabı olmadığını savundu.\n\n### Sonrası\n\nOksijen, Lavoisier'ye flojistonun yerine koymak için ihtiyaç duyduğu parçayı verdi: yanma, paslanma ve solunum aynı türden bir olay çıktı, bir şeyin oksijenle birleşmesi. Birkaç yıl içinde Lavoisier ve Pierre-Simon Laplace bir kobayın yaydığı ısıyı ölçüp yanan odun kömürüyle karşılaştırıyor, solunumu vücudun içinde yavaş yanan bir ateş gibi ele alıyordu. Akciğerlerin havayla ne yaptığı eski bir soruydu: 13. yüzyılda Kahire'de İbnü'n-Nefis kanın akciğerlerden geçtiğini tarif etmişti, William Harvey de 1628'de kanın dolaştığını göstermişti. Şimdi bu sorunun kimyasal bir cevabının başlangıcı vardı.\n\nPriestley'nin levhasındaki bitki başka bir kapıyı gösteriyor. 1771'de bir nane dalının, içinde mum sönmüş havayı \"düzeltebildiğini\" bulmuştu; oksijenden sonra bu sonuç, bitkilerin ateşin ve nefesin aldığını geri verdiği şeklinde okunabildi. 1779'da Hollandalı hekim Jan Ingenhousz bitkilerin bunu yalnızca ışıkta yaptığını gösterdi: havayı solunabilir tutan süreç olan fotosentezi anlamaya doğru erken bir adım.\n\nİki kâşif de yeni kimyayla barışık yaşamadı. Priestley ömrünün sonuna dek flojistonu savundu. 1791'de dinî ve siyasi görüşlerine öfkelenen bir kalabalık Birmingham'daki evini ve laboratuvarını yaktı; 1794'te Pennsylvania'ya göç etti ve 1804'te orada öldü. Scheele 1775'te küçük İsveç kasabası Köping'deki bir eczaneye taşındı ve aralarında klorun da bulunduğu dikkat çekici sayıda maddeyi tek başına ya da başkalarıyla birlikte keşfetti. 1786'da, 43 yaşında öldü.\n\n![Scheele'nin anısına, ölümünden üç yıl sonra, 1789'da basılan gümüş madalya. Ondan canlı modelden yapılmış, kesinliği bilinen bir portre yok; bunun gibi profiller elimizdeki en yakın şey.](https://upload.wikimedia.org/wikipedia/commons/3/3c/Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman%2C_1789_%28obverse%29.jpg \"I G Wikman · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman,_1789_(obverse).jpg\")\n",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Пристли и Шееле получают кислород",
+      "summary": "В Швеции Карл Шееле получил газ, питающий огонь; в Англии в 1774 году его получил и Джозеф Пристли. Оба ясно видели этот газ. Ни один не понял, что нашёл.",
+      "why_it_matters": "Кислород стал тем звеном, которое позволило химии увидеть в горении, ржавлении и дыхании один процесс; когда газ оказался в банке, Лавуазье смог довести до конца замену флогистона химией элементов. Его история показывает и другое: получить вещество и понять его — порой два разных открытия.",
+      "if_you_were_there": "Для большинства людей воздух был просто воздухом. Свеча в закрытой банке гасла, мышь в ней погибала, и лучшим объяснением было то, что воздух переполнился чем-то под названием флогистон.",
+      "place_name": "Боувуд-хаус",
+      "body": "![Таблица самого Пристли с его приборами: ванна с перевёрнутыми банками для собирания газов, мышь под стеклянным колпаком и растение в банке с воздухом.](https://upload.wikimedia.org/wikipedia/commons/b/b4/Priestley_Joseph_pneumatic_trough.jpg \"Joseph Priestley (1733-1804) · Public domain · https://commons.wikimedia.org/wiki/File:Priestley_Joseph_pneumatic_trough.jpg\")\n\n### Обстановка\n\nВ 1770-х годах большинство людей всё ещё считали воздух чем-то единым — стихией воздуха, как учил Аристотель. Химики начинали в этом сомневаться. В 1720-х английский священник Стивен Хейлс собирал «воздухи», которые выделяли нагретые вещества, в банки, перевёрнутые вверх дном в ванне с водой. В 1750-х шотландский химик Джозеф Блэк показал, что «связанный воздух», который теперь называют углекислым газом, — отдельный газ со своими свойствами; в 1766 году Генри Кавендиш в Лондоне выделил «горючий воздух», теперь называемый водородом. Выходило, что воздух бывает разных родов.\n\nОгонь объясняли флогистоном. Всё, что горит, утверждала теория, содержит это вещество и при горении отдаёт его воздуху. Свеча в закрытой банке гаснет, потому что окружающий воздух впитал столько флогистона, сколько может удержать; мышь в той же банке гибнет по той же причине. У теории был складный ответ почти на всё.\n\nВ 1660-х Роберт Бойль показал с помощью воздушного насоса, что без воздуха гаснет и пламя, и жизнь животного. Догадка о том, что огонь и жизнь поддерживает лишь часть воздуха, тоже высказывалась раньше. Польский алхимик Михаил Сендивогий в 1604 году писал о скрытой в воздухе «пище жизни» и связывал её с селитрой; некоторые историки думают, что он, возможно, даже получал этот газ, другие читают его алхимический язык осторожнее. В 1668 году английский врач Джон Мейоу утверждал, что одна часть воздуха, которую он называл «селитряно-воздушным духом», питает и пламя, и дыхание. Ни один из них не поместил газ в банку, где его могли бы проверить другие.\n\n### Что произошло\n\nПервым, кто, насколько известно, это сделал, был помощник аптекаря в шведском городе Уппсала. Карл Вильгельм Шееле работал в тамошней аптеке с осени 1770 года, и профессор химии Торберн Бергман жаловался, что купленная в ней селитра ведёт себя странно. Распутывая эту загадку, Шееле начал нагревать одно вещество за другим — селитру, чёрный минерал, который теперь называют диоксидом марганца, красную окалину ртути, карбонат серебра — и всякий раз получал один и тот же газ, в котором свеча горела ослепительным пламенем. Его работу обычно датируют 1771–1772 годами. Он назвал газ «огненным воздухом» и заключил, что обычный воздух — смесь двух воздухов: огненного, примерно четверть целого по его оценке (на самом деле около пятой части), и второго, который гасил пламя.\n\n![Виньетка с лабораторной печью и стеклянной посудой из книги Шееле о воздухе и огне, написанной к 1775 году и напечатанной только в 1777-м.](https://upload.wikimedia.org/wikipedia/commons/e/e5/ScheeleRoyalSwdAcadChemObservatnsAir%26Fire.jpg \"Carl Wilhelm Scheele, Torbern Bergman · Public domain · https://commons.wikimedia.org/wiki/File:ScheeleRoyalSwdAcadChemObservatnsAir&Fire.jpg\")\n\nШееле не спешил с публикацией. Его книга «Химический трактат о воздухе и огне» ушла в типографию в 1775 году и вышла только в 1777-м. Однако 30 сентября 1774 года он написал Антуану Лавуазье в Париж и описал, как получить газ с помощью зажигательного стекла. Лавуазье так и не ответил, и историки до сих пор спорят, принял ли он письмо во внимание.\n\nТем временем в Англии Джозеф Пристли — священник-диссентер, который годами собирал «воздухи», — работал в лаборатории в Боувуд-хаусе в Уилтшире, поместье своего покровителя лорда Шелберна. 1 августа 1774 года он большой зажигательной линзой сфокусировал солнечный свет на красной окалине ртути в закрытом сосуде. Выделился газ. Пристли внёс в него свечу, и она горела, по его словам, «замечательно сильным пламенем». Он не знал, что об этом думать. Той осенью он поехал с Шелберном в Париж и в октябре рассказал об опыте Лавуазье и другим французским химикам.\n\nСначала Пристли принял газ за разновидность «селитряного воздуха», уже знакомого ему газа; вернувшись из Парижа, он решил, что это, в сущности, обычный воздух. Лишь в марте 1775 года, проверив газ внимательнее, он понял, насколько ошибочны были обе догадки. 8-го числа того месяца он поместил мышь в небольшую банку с этим газом: в таком же количестве обычного воздуха мышь прожила бы около четверти часа; эта, по рассказу в его книге, прожила целых полчаса, а в опытах, о которых он неделей позже сообщил Королевскому обществу, — целый час. Потом он подышал газом сам. Грудь, писал он, ещё некоторое время ощущала «особенную лёгкость и свободу», и пошутил, что когда-нибудь этот газ может стать предметом роскоши: «До сих пор привилегию дышать им имели лишь две мыши и я». В письме Королевскому обществу от 15 марта 1775 года он назвал газ «в пять или шесть раз лучше обычного воздуха». В отличие от рассказа Шееле, его отчёт сразу попал в печать.\n\nПристли назвал газ «дефлогистированным воздухом», и внутри его теории это имя было вполне логичным. Представьте обычный воздух как губку, уже наполовину пропитанную флогистоном: подержите её над свечой — она быстро насытится, и пламя погаснет. Дефлогистированный воздух — та же губка, выжатая досуха; она может впитать гораздо больше, и свеча горит дольше и ярче. Сравнение ломается в самой середине: нет ни флогистона, ни губки. Газ ничего не впитывает из пламени — он сам расходуется, соединяясь с горящим топливом. Горящая свеча не добавляет что-то в воздух, а забирает что-то из него.\n\n### Почему это было трудно\n\nУ газа нет ни цвета, ни запаха. В банке он выглядит точно как воздух. Чтобы вообще его поймать, Пристли опирался на приём Хейлса — собирать газы в перевёрнутые банки — и часто заливал в ванну ртуть вместо воды, чтобы не терять газы, растворимые в воде. В Париже аптекарь Пьер Байен ещё в начале 1774 года нагревал ту же красную окалину ртути и тоже собрал газ, но не распознал в нём новый род воздуха.\n\nНо главная трудность была не в том, чтобы поймать газ. Нужно было понять, что это такое. Шееле и Пристли были искусными экспериментаторами, и оба точно описали поведение газа. Оба объясняли его в рамках теории флогистона, и ничто в их результатах не вынуждало их из неё выйти. Лавуазье, получив толчок от рассказа Пристли, повторил опыт; в первом докладе, весной 1775 года, он тоже принял газ за «сам воздух, целиком», только более чистый. Лишь к 1777 году он пришёл к выводу, что это отдельная часть воздуха — та, что соединяется с металлами, когда они ржавеют, и с топливом, когда оно горит. Он переименовал газ в *oxygène*, «рождающий кислоту», ошибочно полагая, что он входит в состав каждой кислоты; отсюда и русское слово «кислород».\n\n> [!NOTE]\n> Кто открыл кислород? Шееле получил его первым, в 1771–1772 годах, но опубликовал последним, в 1777-м. Пристли получил его в августе 1774 года и опубликовал первым, в 1775-м. Лавуазье получил его последним, но первым понял, что это такое. В 1962 году историк Томас Кун использовал именно этот случай, чтобы показать: открытие часто не мгновение, а процесс, и на вопрос «кто и когда?» иногда нет чистого ответа.\n\n### Что это открыло\n\nКислород дал Лавуазье недостающее звено, чтобы заменить флогистон: горение, ржавление и дыхание оказались событиями одного рода — соединением чего-то с кислородом. Через несколько лет он и Пьер-Симон Лаплас измеряли тепло, выделяемое морской свинкой, и сравнивали его с горящим древесным углём, рассматривая дыхание как медленный огонь внутри тела. Вопрос о том, что лёгкие делают с воздухом, был старым: в XIII веке в Каире Ибн ан-Нафис описал прохождение крови через лёгкие, а Уильям Гарвей в 1628 году показал, что кровь движется по кругу. Теперь у этого вопроса появилось начало химического ответа.\n\nРастение на таблице Пристли указывает на другую дверь. В 1771 году он обнаружил, что веточка мяты может «исправить» воздух, в котором догорела свеча; после открытия кислорода этот результат можно было прочесть так: растения возвращают то, что забирают огонь и дыхание. В 1779 году голландский врач Ян Ингенхауз показал, что растения делают это только на свету, — ранний шаг к пониманию фотосинтеза, процесса, который сохраняет воздух пригодным для дыхания.\n\nНи один из двух первооткрывателей не ужился с новой химией. Пристли защищал флогистон до конца жизни. В 1791 году толпа, возмущённая его религиозными и политическими взглядами, сожгла его дом и лабораторию в Бирмингеме; в 1794 году он эмигрировал в Пенсильванию, где и умер в 1804-м. Шееле в 1775 году перебрался в аптеку в маленьком шведском городке Чёпинг и открыл — сам или вместе с другими — поразительный ряд веществ, среди них хлор. Он умер в 1786 году в 43 года.\n\n![Серебряная медаль в память о Шееле, отчеканенная в 1789 году, через три года после его смерти. Достоверного прижизненного портрета Шееле не известно; профили вроде этого — самое близкое, что у нас есть.](https://upload.wikimedia.org/wikipedia/commons/3/3c/Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman%2C_1789_%28obverse%29.jpg \"I G Wikman · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman,_1789_(obverse).jpg\")\n",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Пристли менен Шееле кычкылтекти бөлүп алышты",
+      "summary": "Швецияда Карл Шееле отту күчөткөн газ алды; Англияда Джозеф Пристли да 1774-жылы аны алды. Экөө тең аны ачык көрүштү. Бирок эмнени тапканын экөө тең түшүнгөн жок.",
+      "why_it_matters": "Кычкылтек химияга күйүүнү, дат басууну жана дем алууну бир эле процесс катары көрүүгө мүмкүндүк берген бөлүк болду; газ банкага түшкөндөн кийин Лавуазье флогистонду элементтер химиясы менен алмаштырып бүтө алды. Бул окуя бир затты алуу менен аны түшүнүү эки башка ачылыш болушу мүмкүн экенин да көрсөтөт.",
+      "if_you_were_there": "Көпчүлүк үчүн аба жөн гана аба эле. Жабык банкадагы шам өчүп, андагы чычкан өлчү, ал эми эң жакшы түшүндүрмө — аба флогистон деген бир нерсеге толуп калды деген эле.",
+      "place_name": "Боувуд-хаус",
+      "body": "![Пристлинин өз приборлору тартылган барак: газ чогултуу үчүн оозу ылдый каратылган банкалар турган ванна, айнек капкак астындагы чычкан жана аба толгон банкадагы өсүмдүк.](https://upload.wikimedia.org/wikipedia/commons/b/b4/Priestley_Joseph_pneumatic_trough.jpg \"Joseph Priestley (1733-1804) · Public domain · https://commons.wikimedia.org/wiki/File:Priestley_Joseph_pneumatic_trough.jpg\")\n\n### Көрүнүш\n\n1770-жылдары адамдардын көбү абаны дагы эле бир гана нерсе деп ойлошчу — Аристотель үйрөткөндөй, аба деген бир негиз. Химиктер буга шектене башташкан. 1720-жылдары англиялык дин кызматчысы Стивен Хейлс ысытылган заттардан чыккан «абаларды» суу толтурулган ваннада оозу ылдый каратылган банкаларга чогулткан. 1750-жылдары шотландиялык химик Джозеф Блэк азыр көмүр кычкыл газы (углекислый газ) деп аталган «байланышкан аба» өз касиеттери бар өзүнчө газ экенин көрсөткөн; 1766-жылы Лондондо Генри Кавендиш азыр суутек (водород) деп аталган «күйүүчү абаны» бөлүп алган. Демек, аба ар түрдүү болот экен.\n\nОтту флогистон менен түшүндүрүшчү. Теория боюнча, күйгөн нерсенин баары ушул затты камтыйт жана күйүп жатканда аны абага чыгарат. Жабык банкадагы шам өчөт, анткени айланасындагы аба кармай ала турган флогистондун баарын сиңирип алган; ошол эле банкадагы чычкан да ушул себептен өлөт. Теориянын дээрлик баарына ыңгайлуу жообу бар эле.\n\n1660-жылдары Роберт Бойль аба соргуч насос менен аба жок болсо жалын да, тирүү жаныбар да өчөрүн көрсөткөн. Отту жана жашоону абанын бир гана бөлүгү кармап турат деген божомол да мурун айтылган. Польшалык алхимик Михаил Сендивогий 1604-жылы абада жашырылган «жашоонун тамагы» жөнүндө жазып, аны селитра менен байланыштырган; айрым тарыхчылар ал бул газды алган да болушу мүмкүн деп ойлошот, башкалары анын алхимиялык тилин сак окушат. 1668-жылы англиялык дарыгер Джон Мейоу абанын «селитра-аба руху» деп атаган бир бөлүгү жалынды да, дем алууну да азыктандырат деп ырастаган. Алардын эч бири газды башкалар текшере ала турган банкага салган эмес.\n\n### Эмне болду\n\nБелгилүү болгондой, муну биринчи жасаган адам Швециянын Уппсала шаарындагы дарыкананын жардамчысы болгон. Карл Вильгельм Шееле 1770-жылдын күзүнөн бери ошол жердеги дарыканада иштеп жүргөн, ал эми химия профессору Торберн Бергман андан сатып алынган селитра таң калыштуу кылык көрсөтөт деп нааразы болгон. Ушул табышмактын артынан түшүп, Шееле заттарды бирин артынан бирин ысыта баштады — селитраны, азыр марганец диоксиди деп аталган кара минералды, сымаптын кызыл күйүндүсүн, күмүш карбонатын — жана ар бир жолу шам көз уялткан жалын менен күйгөн бир эле газды алды. Анын иши адатта 1771–1772-жылдарга таандык деп эсептелет. Ал газды «от абасы» деп атады жана кадимки аба эки абанын аралашмасы деген жыйынтыкка келди: өз эсебинде бүтүндүн төрттөн бирине жакын от абасы (чындыгында болжол менен бештен бири) жана жалынды өчүргөн экинчи аба.\n\n![Шееленин аба жана от жөнүндөгү китебинен лабораториялык меш жана айнек идиштер тартылган кооздук сүрөт; китеп 1775-жылга чейин жазылып, 1777-жылы гана басылган.](https://upload.wikimedia.org/wikipedia/commons/e/e5/ScheeleRoyalSwdAcadChemObservatnsAir%26Fire.jpg \"Carl Wilhelm Scheele, Torbern Bergman · Public domain · https://commons.wikimedia.org/wiki/File:ScheeleRoyalSwdAcadChemObservatnsAir&Fire.jpg\")\n\nШееле жарыялоого шашкан жок. Анын «Аба жана от жөнүндө химиялык трактат» деген китеби 1775-жылы басмаканага жөнөтүлүп, 1777-жылы гана чыкты. Ошентсе да 1774-жылдын 30-сентябрында ал Парижге Антуан Лавуазьеге кат жазып, газды күйгүзүүчү айнек менен кантип алууну сүрөттөп берген. Лавуазье эч качан жооп берген эмес, ал катты эске алганбы же жокпу — тарыхчылар дагы эле талашып келишет.\n\nОшол эле убакта Англияда жылдар бою «абаларды» чогултуп келген расмий чиркөөгө баш ийбеген дин кызматчысы Джозеф Пристли өзүнүн колдоочусу лорд Шелберндин Уилтширдеги Боувуд-хаус ээлигиндеги лабораторияда иштеп жүргөн. 1774-жылдын 1-августунда ал чоң күйгүзүүчү линза менен күн жарыгын жабык идиштеги сымаптын кызыл күйүндүсүнө чогултту. Газ бөлүнүп чыкты. Ал ага шам киргизди, шам анын сөзү менен айтканда «өзгөчө күчтүү жалын менен» күйдү. Мунун маанисин ал түшүнө алган жок. Ошол күзү ал Шелберн менен Парижге барып, октябрда тажрыйбасын Лавуазьеге жана башка француз химиктерине айтып берди.\n\nАдегенде Пристли газды мурун эле тааныш болгон «селитра абасынын» бир түрү деп ойлоду; Парижден кайтып келгенден кийин аны негизинен кадимки аба деп чечти. 1775-жылдын мартында гана газды кылдатыраак текшерип, эки божомолу тең канчалык жаңылыш экенин көрдү. Ошол айдын 8инде ал кичинекей банкадагы ушул газга чычкан киргизди: ошончо кадимки абада чычкан болжол менен чейрек саат жашамак; бул чычкан анын китебиндеги баяны боюнча толук жарым саат жашады, ал эми бир жумадан кийин Королдук коомго билдирген тажрыйбаларында — толук бир саат. Андан кийин ал газды өзү жутуп көрдү. Анын жазганына караганда, көкүрөгү бир топ убакыт бою «өзгөчө жеңил жана эркин» сезилген, ал тамашалап, бул газ качандыр бир кезде кымбат баалуу буюм болуп калышы мүмкүн деген: «Азырынча аны жутуу артыкчылыгы эки чычканга жана мага гана буюрду». Королдук коомго 1775-жылдын 15-мартындагы катында ал газды «кадимки абадан беш-алты эсе жакшы» деп атаган. Шееленикинен айырмаланып, анын баяны дароо басылып чыкты.\n\nПристли газды «флогистону алынган аба» деп атады, ал эми анын теориясынын ичинде бул аталыш толук маанилүү эле. Кадимки абаны флогистонго жарым-жартылай чыланган губка катары элестетиңиз: аны шамдын үстүнө кармасаңыз, ал тез толуп, жалын өчөт. Флогистону алынган аба — ошол эле губка, кургатылганча сыгылган; ал алда канча көбүрөөк сиңире алат, ошондуктан шам узагыраак жана жарыгыраак күйөт. Салыштыруу так ортосунан бузулат: флогистон да, губка да жок. Газ жалындан эч нерсе сиңирбейт — ал өзү сарпталып, күйүп жаткан отун менен кошулат. Күйүп жаткан шам абага бир нерсе кошпойт, тескерисинче, абадан бир нерсе алат.\n\n### Эмнеге оор болду\n\nГаздын түсү да, жыты да жок. Банкада ал так эле абадай көрүнөт. Аны жалпы эле кармай алуу үчүн Пристли Хейлстин газды оозу ылдый каратылган банкаларга чогултуу ыкмасына таянды жана ваннага көбүнчө суунун ордуна сымап куйду, ошондо сууда эрүүчү газдар жоголгон жок. Парижде дарыканачы Пьер Байен 1774-жылдын башында эле ошол эле сымаптын кызыл күйүндүсүн ысытып, газ чогулткан, бирок аны абанын жаңы түрү катары тааныган эмес.\n\nБирок негизги кыйынчылык газды кармоодо эмес эле. Анын эмне экенин билүү керек болчу. Шееле да, Пристли да чебер тажрыйбачылар болушкан жана экөө тең газдын кандай мүнөздө экенин так сүрөттөшкөн. Экөө тең аны флогистон теориясынын ичинде түшүндүрүшкөн, алардын натыйжаларындагы эч нерсе аларды бул теориядан чыгууга мажбурлаган эмес. Пристлинин баянынан түрткү алган Лавуазье тажрыйбаны кайталады; 1775-жылдын жазындагы биринчи баяндамасында ал да газды «абанын өзү, толугу менен», болгону тазараак деп эсептеген. Бул абанын өзүнчө бөлүгү — металлдар дат басканда алар менен, отун күйгөндө аны менен кошула турган бөлүгү — деген жыйынтыкка ал 1777-жылы гана келди. Ар бир кислотада ушул газ бар деген жаңылыш ишеним менен ал аны «кислота жаратуучу» деген маанидеги *oxygène* деп атады; орусча «кислород» жана кыргызча «кычкылтек» да ушундан келип чыккан.\n\n> [!NOTE]\n> Кычкылтекти ким ачкан? Шееле аны биринчи алган, 1771–1772-жылдары, бирок эң акыркы болуп жарыялаган, 1777-жылы. Пристли аны 1774-жылдын августунда алып, биринчи болуп жарыялаган, 1775-жылы. Лавуазье аны эң акыркы алган, бирок анын эмне экенин биринчи түшүнгөн. 1962-жылы тарыхчы Томас Кун дал ушул мисалды колдонуп, ачылыш көбүнчө бир көз ирмем эмес, процесс экенин, «ким жана качан?» деген суроонун кээде так жообу жок экенин далилдөөгө аракет кылган.\n\n### Эмнеге жол ачты\n\nКычкылтек Лавуазьеге флогистонду алмаштыруу үчүн жетишпеген бөлүктү берди: күйүү, дат басуу жана дем алуу бир эле түрдөгү окуя болуп чыкты — бир нерсенин кычкылтек менен кошулушу. Бир нече жылдын ичинде ал Пьер-Симон Лаплас экөө деңиз чочкосу бөлүп чыгарган жылуулукту өлчөп, аны күйүп жаткан жыгач көмүрү менен салыштырышкан, дем алууну дененин ичиндеги жай күйгөн от катары карашкан. Өпкө аба менен эмне кылат деген суроо эски эле: XIII кылымда Каирде Ибн ан-Нафис кан өпкө аркылуу өтөрүн сүрөттөгөн, ал эми Уильям Гарвей 1628-жылы кан айланып жүрөрүн көрсөткөн. Эми бул суроонун химиялык жообунун башталышы пайда болду.\n\nПристлинин барагындагы өсүмдүк дагы бир эшикти көрсөтөт. 1771-жылы ал жалбыздын бутагы ичинде шам өчүп калган абаны «оңдой» аларын байкаган; кычкылтек ачылгандан кийин бул натыйжаны өсүмдүктөр от менен дем алуу алган нерсени кайра берет деп окууга мүмкүн болду. 1779-жылы голландиялык дарыгер Ян Ингенхауз өсүмдүктөр муну жарыкта гана жасарын көрсөттү — абаны дем алууга жарактуу кармап турган процесс, фотосинтезди түшүнүүгө карай алгачкы кадам.\n\nЭки ачылыштын ээси тең жаңы химия менен жарашып жашаган эмес. Пристли өмүрүнүн акырына чейин флогистонду коргоп келди. 1791-жылы анын диний жана саясий көз караштарына ачууланган топ Бирмингемдеги үйүн жана лабораториясын өрттөп жиберди; 1794-жылы ал Пенсильванияга көчүп кетип, 1804-жылы ошол жерде каза болду. Шееле 1775-жылы Швециянын кичинекей Чёпинг шаарындагы дарыканага көчүп, өзү же башкалар менен бирге таң калыштуу көп заттарды ачты, алардын арасында хлор да бар. Ал 1786-жылы 43 жашында каза болду.\n\n![Шееленин урматына, ал каза болгондон үч жыл кийин, 1789-жылы чыгарылган күмүш медаль. Анын тирүү кезинде тартылган ишенимдүү портрети белгисиз; ушул сыяктуу профилдер бизде бар эң жакын сүрөт.](https://upload.wikimedia.org/wikipedia/commons/3/3c/Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman%2C_1789_%28obverse%29.jpg \"I G Wikman · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Medal_commemorating_Carl_Wilhelm_Scheele_by_I_G_Wikman,_1789_(obverse).jpg\")\n",
+      "status": "machine"
+    }
+  }
+}
