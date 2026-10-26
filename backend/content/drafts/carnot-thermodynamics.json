@@ -1,0 +1,322 @@
+{
+  "slug": "carnot-thermodynamics",
+  "year": 1824,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sadi_Carnot.jpeg",
+    "credit": "Louis-Léopold Boilly",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sadi_Carnot.jpeg"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "sadi-carnot",
+      "birth_year": 1796,
+      "death_year": 1832,
+      "role": "author",
+      "name": {
+        "en": "Sadi Carnot",
+        "tr": "Sadi Carnot",
+        "ru": "Сади Карно",
+        "ky": "Сади Карно"
+      }
+    },
+    {
+      "slug": "lazare-carnot",
+      "birth_year": 1753,
+      "death_year": 1823,
+      "role": "predecessor",
+      "name": {
+        "en": "Lazare Carnot",
+        "tr": "Lazare Carnot",
+        "ru": "Лазар Карно",
+        "ky": "Лазар Карно"
+      }
+    },
+    {
+      "slug": "hippolyte-carnot",
+      "birth_year": 1801,
+      "death_year": 1888,
+      "role": "transmitter",
+      "name": {
+        "en": "Hippolyte Carnot",
+        "tr": "Hippolyte Carnot",
+        "ru": "Ипполит Карно",
+        "ky": "Ипполит Карно"
+      }
+    },
+    {
+      "slug": "james-watt",
+      "birth_year": 1736,
+      "death_year": 1819,
+      "role": "predecessor",
+      "name": {
+        "en": "James Watt",
+        "tr": "James Watt",
+        "ru": "Джеймс Уатт",
+        "ky": "Джеймс Уатт"
+      }
+    },
+    {
+      "slug": "thomas-newcomen",
+      "birth_year": 1664,
+      "death_year": 1729,
+      "role": "predecessor",
+      "name": {
+        "en": "Thomas Newcomen",
+        "tr": "Thomas Newcomen",
+        "ru": "Томас Ньюкомен",
+        "ky": "Томас Ньюкомен"
+      }
+    },
+    {
+      "slug": "hero-of-alexandria",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Hero of Alexandria",
+        "tr": "İskenderiyeli Heron",
+        "ru": "Герон Александрийский",
+        "ky": "Александриялык Герон"
+      }
+    },
+    {
+      "slug": "taqi-al-din",
+      "birth_year": 1526,
+      "death_year": 1585,
+      "role": "predecessor",
+      "name": {
+        "en": "Taqi al-Din",
+        "tr": "Takiyüddin",
+        "ru": "Таки ад-Дин",
+        "ky": "Таки ад-Дин"
+      }
+    },
+    {
+      "slug": "ivan-polzunov",
+      "birth_year": 1728,
+      "death_year": 1766,
+      "role": "predecessor",
+      "name": {
+        "en": "Ivan Polzunov",
+        "tr": "Ivan Polzunov",
+        "ru": "Иван Ползунов",
+        "ky": "Иван Ползунов"
+      }
+    },
+    {
+      "slug": "antoine-lavoisier",
+      "birth_year": 1743,
+      "death_year": 1794,
+      "role": "context",
+      "name": {
+        "en": "Antoine Lavoisier",
+        "tr": "Antoine Lavoisier",
+        "ru": "Антуан Лавуазье",
+        "ky": "Антуан Лавуазье"
+      }
+    },
+    {
+      "slug": "count-rumford",
+      "birth_year": 1753,
+      "death_year": 1814,
+      "role": "context",
+      "name": {
+        "en": "Count Rumford",
+        "tr": "Kont Rumford",
+        "ru": "граф Румфорд",
+        "ky": "граф Румфорд"
+      }
+    },
+    {
+      "slug": "pierre-simon-girard",
+      "birth_year": 1765,
+      "death_year": 1836,
+      "role": "contemporary",
+      "name": {
+        "en": "Pierre Girard",
+        "tr": "Pierre Girard",
+        "ru": "Пьер Жирар",
+        "ky": "Пьер Жирар"
+      }
+    },
+    {
+      "slug": "emile-clapeyron",
+      "birth_year": 1799,
+      "death_year": 1864,
+      "role": "successor",
+      "name": {
+        "en": "Émile Clapeyron",
+        "tr": "Émile Clapeyron",
+        "ru": "Эмиль Клапейрон",
+        "ky": "Эмиль Клапейрон"
+      }
+    },
+    {
+      "slug": "william-thomson-kelvin",
+      "birth_year": 1824,
+      "death_year": 1907,
+      "role": "successor",
+      "name": {
+        "en": "William Thomson (Lord Kelvin)",
+        "tr": "William Thomson (Lord Kelvin)",
+        "ru": "Уильям Томсон (лорд Кельвин)",
+        "ky": "Уильям Томсон (лорд Кельвин)"
+      }
+    },
+    {
+      "slug": "rudolf-clausius",
+      "birth_year": 1822,
+      "death_year": 1888,
+      "role": "successor",
+      "name": {
+        "en": "Rudolf Clausius",
+        "tr": "Rudolf Clausius",
+        "ru": "Рудольф Клаузиус",
+        "ky": "Рудольф Клаузиус"
+      }
+    },
+    {
+      "slug": "james-prescott-joule",
+      "birth_year": 1818,
+      "death_year": 1889,
+      "role": "contemporary",
+      "name": {
+        "en": "James Joule",
+        "tr": "James Joule",
+        "ru": "Джеймс Джоуль",
+        "ky": "Джеймс Джоуль"
+      }
+    },
+    {
+      "slug": "julius-robert-mayer",
+      "birth_year": 1814,
+      "death_year": 1878,
+      "role": "contemporary",
+      "name": {
+        "en": "Julius Robert Mayer",
+        "tr": "Julius Robert Mayer",
+        "ru": "Юлиус Роберт Майер",
+        "ky": "Юлиус Роберт Майер"
+      }
+    },
+    {
+      "slug": "rudolf-diesel",
+      "birth_year": 1858,
+      "death_year": 1913,
+      "role": "successor",
+      "name": {
+        "en": "Rudolf Diesel",
+        "tr": "Rudolf Diesel",
+        "ru": "Рудольф Дизель",
+        "ky": "Рудольф Дизель"
+      }
+    }
+  ],
+  "builds_on": [
+    "lavoisier-conservation-of-mass"
+  ],
+  "sources": [
+    {
+      "title": "Nicolas Léonard Sadi Carnot — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nicolas_L%C3%A9onard_Sadi_Carnot"
+    },
+    {
+      "title": "Reflections on the Motive Power of Fire — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Reflections_on_the_Motive_Power_of_Fire"
+    },
+    {
+      "title": "J. J. O'Connor and E. F. Robertson, \"Nicolas Léonard Sadi Carnot\", MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Carnot_Sadi/"
+    },
+    {
+      "title": "Sadi Carnot, Reflections on the Motive Power of Heat, tr. R. H. Thurston (Wiley, 1890) — Project Gutenberg",
+      "kind": "book",
+      "url": "https://www.gutenberg.org/ebooks/78610"
+    },
+    {
+      "title": "Nicolas Léonard Sadi Carnot — Encyclopédie Larousse",
+      "kind": "encyclopedia",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Nicolas_L%C3%A9onard_Sadi_Carnot/111814"
+    },
+    {
+      "title": "Lazare Carnot — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lazare_Carnot"
+    },
+    {
+      "title": "Ivan Polzunov — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ivan_Polzunov"
+    },
+    {
+      "title": "Taqi ad-Din Muhammad ibn Ma'ruf — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Taqi_ad-Din_Muhammad_ibn_Ma%27ruf"
+    },
+    {
+      "title": "Entropy, History — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Entropy"
+    },
+    {
+      "title": "Sadi Carnot — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Sadi-Carnot-French-scientist"
+    }
+  ],
+  "research_note": "Researched 2026-10-26 against English Wikipedia (Nicolas Léonard Sadi Carnot; Reflections on the Motive Power of Fire; Lazare Carnot; Ivan Polzunov; Taqi ad-Din; Entropy; Second law of thermodynamics), MacTutor (12 June 1824, teachers Ampère/Poisson/Arago, 1819 leave, 1821 Magdeburg visit not used, Girard's report of 26 July 1824 and Revue encyclopédique, Clapeyron 1834, notes 1824-26 moving away from caloric, death in the cholera epidemic), Encyclopédie Larousse (118 pages at the author's expense, 600 copies), and Carnot's own text in Thurston's 1890 translation on Project Gutenberg (every quotation in the body is taken from it: 'still directed almost by chance', 'that colossal power', the waterfall passage and 'height of its fall', 'independent of the agents employed', 'We do not know', the Cornish engines giving one twentieth of 3920 units). Britannica linked for the human only.\nFLAGGED IN THE BODY: (1) the 600-copy print run is called 'the usual figure'; (2) the destruction of most papers by Hippolyte is attributed to 'some biographers' (Wikipedia only; MacTutor silent); (3) the date of Carnot's turn away from caloric is said to be unsettled (MacTutor 1824-26 vs Wikipedia spring 1832), in a NOTE box; (4) the one-twentieth figure is 'by his own reckoning' (3920 rests on Carnot's own rough caloric-based assumptions).\nFIXED AFTER FACT-CHECK (all four languages): (1) Taqi al-Din was in Egypt/Damascus in 1551, not Istanbul (arrived 1570): now 'the Ottoman scholar Taqi al-Din, then working in Egypt'; (2) 'eldest son' -> 'eldest surviving son' (an elder brother, also named Sadi, died in infancy); (3) 'half pay' -> 'reduced pay' (MacTutor half, Wikipedia two-thirds); (4) Hippolyte claim softened, see above; (5) title-page alt text translated in tr/ru/ky; (6) ky 'көлөмү' (reads as volume) -> 'өлчөмү'; (7) refrigerators 'work like' Carnot's engine run backwards (idealisation); (8) power-station sentence reworded.\nREVIEWER SHOULD CHECK: (1) precision 'exact' is for 1824; all sources agree (12 June per MacTutor). (2) Thomson's 1848 scale had no absolute zero; the body calls it 'the first step towards' today's kelvin scale, which came with his later revision (1851/1854). (3) builds_on is lavoisier-conservation-of-mass only, for caloric; weak link, the human may drop it. helmholtz-conservation-of-energy (extension queue) is a natural enables target later. (4) Carnot's later heat-work estimate (370 kg·m per kilocalorie vs 427 today) is summarised as 'not far from the modern figure'. (5) 'Rudolf Diesel drew on Carnot's principles' rests on Wikipedia; Diesel's 1893 book aimed at the Carnot cycle. (6) Cover is the 1813 Boilly portrait in École polytechnique uniform (File:Sadi_Carnot.jpeg, Commons date 1813); a near-duplicate file dated 1878 exists. (7) Polzunov's birthplace is inconsistent in Wikipedia; the body does not give it. (8) Kyrgyz terms not in the glossary, for a Kyrgyz reader to confirm: 'буу машинасы' (steam engine), 'жылуулук машинасы' (heat engine), 'кыймылдаткыч күч' (motive power), 'теплород' (caloric, Russian borrowing), 'туюк цикл' (closed cycle), 'шаркыратма' (waterfall), 'кулоонун бийиктиги' (height of fall), 'пайдалуу аракет коэффициенти' (efficiency), 'ой-толгоолор' (rendering of Réflexions), 'эритүү заводу' (smelting works). Glossary term marked 'check' that is used: 'зат' (substance, working substance).\nSTILL UNCONFIRMED: Polzunov's larger engine running 'about three months' rests on Wikipedia alone; Hero's dating 'first century' is the conventional one.",
+  "translations": {
+    "en": {
+      "title": "Carnot asks how much work heat can give",
+      "summary": "In 1824 Sadi Carnot, a French army engineer, asked whether steam engines have a limit. His answer, that it depends only on how hot and how cold, became the root of thermodynamics.",
+      "why_it_matters": "Carnot showed that no engine can turn heat into work beyond a limit set only by the temperatures it works between, whatever it burns and whatever it is built of. Rebuilt by Clausius and Thomson, the idea became the second law of thermodynamics, which still sets the ceiling for every power station and car engine.",
+      "if_you_were_there": "A thin booklet by an unknown army engineer appears in Paris: 118 pages on fire and engines, with almost no mathematics. One reviewer praises it, and then it drops out of sight for ten years.",
+      "place_name": "Paris",
+      "body": "### The scene\n\nBy 1824 steam engines pumped water out of mines, drove mills and were starting to move ships. Almost all of that had been developed in Britain, by practical men: Thomas Savery, Thomas Newcomen, James Watt, Richard Trevithick. They improved their engines by trial, and nobody could say how good an engine could ever get. Was there a ceiling? Would steam be beaten by hot air, or by some other vapour not yet tried?\n\nSadi Carnot, a 28-year-old French army engineer, wanted an answer. He was the eldest surviving son of Lazare Carnot, a mathematician and general of the Revolution who had himself written an essay on the theory of machines, and he had studied at the École polytechnique, where Ampère, Poisson and Arago were among his teachers. After Napoleon's fall his father went into exile, and Sadi, in an army career that was going nowhere, took leave on reduced pay in Paris. He was frank about why engines mattered. Take away England's steam engines, he wrote, and you take away her coal and iron, all her sources of wealth, \"that colossal power\".\n\nSteam itself was old. Hero of Alexandria described a spinning steam ball in the first century. In 1551 the Ottoman scholar Taqi al-Din, then working in Egypt, described a spit turned by steam blown onto the vanes of a wheel. In Barnaul, in the Altai, Ivan Polzunov designed a two-cylinder engine in 1763; a larger one he built for the local smelting works ran for about three months in 1766, after his death. What was missing everywhere, Britain included, was a theory: as Carnot put it, attempts to improve engines were \"still directed almost by chance\".\n\n### What happened\n\nIn June 1824 Carnot published, at his own expense, a booklet of 118 pages: *Réflexions sur la puissance motrice du feu* (Reflections on the motive power of fire). The usual figure for the print run is 600 copies. It was the only work he ever published, and it is written in plain language, with almost no mathematics.\n\n![Title page of the 1824 booklet: Réflexions sur la puissance motrice du feu, by S. Carnot, former student of the École polytechnique, Paris, Bachelier](https://upload.wikimedia.org/wikipedia/commons/c/ca/Carnot_title_page.png \"Sadi Carnot · CC0 · https://commons.wikimedia.org/wiki/File:Carnot_title_page.png\")\n\nHis first move was to forget the machine. Pistons, valves and boilers differ from engine to engine. What every heat engine shares is that heat passes from something hot, the furnace, to something cold, the condenser or the air, and on the way it produces motion. So Carnot imagined the best possible engine, built of nothing in particular. It has no friction and no leaks, and, most important, heat never flows directly between two bodies at different temperatures: such a flow, he argued, is a fall that does no work. It runs in a closed cycle, its working substance ending each round exactly as it started, so that nothing is hidden in the bookkeeping. And because every step is gentle, it can be run backwards: spend work on it, and it carries heat from the cold body back up to the hot one.\n\n![Figure 1 of the 1824 booklet: Carnot's sketch of air in a cylinder under a movable piston, the working substance of his imagined engine](https://upload.wikimedia.org/wikipedia/commons/c/c1/Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu%2C_1824_-_Fig._1.svg \"Sadi Carnot (1796-1832) [SVG drawing by ElioPrrl ] · Public domain · https://commons.wikimedia.org/wiki/File:Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu,_1824_-_Fig._1.svg\")\n\nThen came the argument. Suppose some other engine, working between the same hot and cold bodies, got more work out of the same heat. Let it drive Carnot's ideal engine backwards. The reversed engine puts all the heat back where it came from, and some work is left over. Repeat this forever and you have work from nothing, which every engineer knew was impossible. So no engine can beat the ideal one. And since the argument never mentions steam, it holds for any substance. In his words, the motive power of heat \"is independent of the agents employed to realize it; its quantity is fixed solely by the temperatures of the bodies\" between which the heat passes.\n\nCarnot gave the idea a picture of his own. The power of a waterfall depends on how much water falls and how far it drops; the power of heat, he wrote, depends on how much heat falls and on \"the height of its fall\", the difference in temperature. The picture breaks exactly where Carnot was wrong. Water reaches the bottom of the wheel in full, but heat does not: part of the heat that enters an engine is used up, turned into the work itself. Carnot, following the caloric theory, took heat to be a weightless fluid that is never used up, only moved.\n\nHe also measured the distance to the ceiling. By his own reckoning the best engines of the day, the great pumps that drained the tin and copper mines of Cornwall, turned only about a twentieth of the coal's theoretical motive power into work.\n\n### Why it was hard\n\nNo one knew what heat was. Most physicists, Carnot among them, followed Lavoisier, who had listed \"caloric\" among the chemical elements. A minority, after Count Rumford's observation in 1798 that boring cannon barrels made heat for as long as the boring went on, said heat was a kind of motion. Without a settled idea of heat and without an absolute scale of temperature, Carnot could show that the limit depends on temperature, and that a larger drop gives more work, but not by how much. \"We do not know,\" he wrote, whether heat falling from 100 to 50 degrees gives more or less work than the same heat falling from 50 to zero.\n\nThe booklet found almost no readers. Pierre Girard presented it to the Academy of Sciences in July 1824 and praised it in the *Revue encyclopédique*, but no one took it further. Carnot himself moved on from caloric. In notes written after the book he wrote that \"heat is simply motive power, or rather motion that has changed form\", and estimated how much work a given amount of heat is worth, not far from the modern figure. He never published them. He died in the cholera epidemic of August 1832, aged 36.\n\n> [!NOTE]\n> Much of what Carnot wrote after 1824 is lost; according to some biographers his brother Hippolyte, who kept his papers, destroyed most of them. What we know of his change of mind comes from the notes Hippolyte published in 1878, almost half a century after Sadi's death. When he gave up caloric is not settled: biographers date the notes anywhere from the mid-1820s to 1832.\n\n### What it opened\n\nÉmile Clapeyron, another graduate of the École polytechnique, rescued the booklet in 1834. He restated it in mathematics and drew the cycle as a closed loop on a chart of pressure against volume, the diagram students still learn. Through Clapeyron the idea reached William Thomson, later Lord Kelvin, in Glasgow, who in 1848 used Carnot's theory to propose a temperature scale that depends on no particular substance, the first step towards the absolute scale now measured in kelvins.\n\nThen came the clash. In the 1840s Julius Robert Mayer and James Joule argued that heat and work are interchangeable, so much of one for so much of the other. That contradicted caloric, and Thomson for a time could not see how Carnot and Joule could both be right. Rudolf Clausius showed in 1850 that they could. Keep Carnot's limit and drop the idea that heat is conserved: part of the heat becomes work, the rest flows down to the cold side, and the limit still depends only on the two temperatures. With the conservation of energy as the first law, this became the second law of thermodynamics. In 1865 Clausius named the quantity behind it \"entropy\".\n\n> [!THEORY]\n> With temperatures counted from absolute zero, the limit Carnot was after can be written $1 - T_\\text{cold} / T_\\text{hot}$: the largest share of the heat that any engine can turn into work. $T_\\text{hot}$ is the temperature at which the engine takes heat in, $T_\\text{cold}$ the one at which it gives heat off, both on the kelvin scale, where 0 °C is about 273. An engine working between boiling and freezing water can turn at most about 27 percent of its heat into work, however well it is built.\n\nThat ceiling still shapes engineering. Power stations heat their steam as far as their materials allow, to raise that ceiling. Refrigerators and heat pumps work like Carnot's engine run backwards, spending work to move heat from cold to hot. Rudolf Diesel drew on Carnot's principles in the 1890s when he designed the engine that bears his name. A booklet that almost nobody read for ten years is now counted the founding text of thermodynamics, and its author, who called it reflections, has his name on the cycle, the theorem and the efficiency limit.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Carnot ısının ne kadar iş verebileceğini soruyor",
+      "summary": "1824'te Fransız ordu mühendisi Sadi Carnot buhar makinelerinin bir sınırı olup olmadığını sordu. Sınırın yalnızca sıcak ile soğuğa bağlı olduğu yanıtı termodinamiğin kökü oldu.",
+      "why_it_matters": "Carnot hiçbir makinenin ısıyı, yalnızca arasında çalıştığı sıcaklıkların belirlediği bir sınırın ötesinde işe çeviremeyeceğini gösterdi; ne yaktığı ya da neyden yapıldığı fark etmez. Clausius ve Thomson'ın elinde yeniden kurulan bu fikir termodinamiğin ikinci yasası oldu ve bugün de her santralin ve her otomobil motorunun tavanını belirliyor.",
+      "if_you_were_there": "Paris'te adı duyulmamış bir ordu mühendisinin ince bir kitapçığı çıkıyor: ateş ve makineler üzerine 118 sayfa, neredeyse hiç matematik yok. Bir eleştirmen övüyor, sonra kitapçık on yıl boyunca gözden kayboluyor.",
+      "place_name": "Paris",
+      "body": "### Sahne\n\n1824'e gelindiğinde buhar makineleri madenlerden su pompalıyor, değirmenleri döndürüyor, gemileri yürütmeye başlıyordu. Bunların neredeyse hepsi Britanya'da, pratik insanların elinde gelişmişti: Thomas Savery, Thomas Newcomen, James Watt, Richard Trevithick. Makinelerini deneme yanılmayla iyileştiriyorlardı ve bir makinenin en fazla ne kadar iyi olabileceğini kimse söyleyemiyordu. Bir tavan var mıydı? Buharı sıcak hava ya da henüz denenmemiş başka bir buhar geçebilir miydi?\n\n28 yaşındaki Fransız ordu mühendisi Sadi Carnot bir yanıt istiyordu. Devrim'in generali ve matematikçi Lazare Carnot'nun hayatta kalan en büyük oğluydu; babası makinelerin kuramı üzerine bir deneme yazmıştı. Sadi, hocaları arasında Ampère, Poisson ve Arago'nun bulunduğu École polytechnique'te okumuştu. Napolyon'un düşüşünden sonra babası sürgüne gitti; hiçbir yere varmayan bir ordu kariyerindeki Sadi ise düşük maaşla izne çıkıp Paris'te yaşadı. Makinelerin neden önemli olduğunu açıkça söylüyordu: İngiltere'nin buhar makinelerini elinden alın, diye yazdı, kömürünü ve demirini, bütün zenginlik kaynaklarını, \"o devasa gücü\" de almış olursunuz.\n\nBuharın kendisi eskiydi. İskenderiyeli Heron birinci yüzyılda buharla dönen bir küre anlattı. 1551'de, o sırada Mısır'da çalışan Osmanlı bilgini Takiyüddin, bir çarkın kanatlarına üflenen buharla dönen bir şiş tarif etti. Altay'da, Barnaul'da Ivan Polzunov 1763'te iki silindirli bir makine tasarladı; yerel izabe işleri için yaptığı daha büyük makine 1766'da, onun ölümünden sonra, üç ay kadar çalıştı. Britanya dahil her yerde eksik olan bir kuramdı. Carnot'nun deyişiyle makineleri iyileştirme girişimleri \"hâlâ neredeyse rastlantıyla yönlendiriliyordu\".\n\n### Ne oldu\n\nHaziran 1824'te Carnot, masrafını kendisi karşılayarak 118 sayfalık bir kitapçık yayımladı: *Réflexions sur la puissance motrice du feu* (Ateşin hareket ettirici gücü üzerine düşünceler). Baskı sayısı için genellikle 600 nüsha denir. Hayatında yayımladığı tek eserdi; sade bir dille, neredeyse hiç matematik kullanmadan yazılmıştı.\n\n![1824 kitapçığının başlık sayfası: Réflexions sur la puissance motrice du feu, École polytechnique eski öğrencisi S. Carnot, Paris, Bachelier](https://upload.wikimedia.org/wikipedia/commons/c/ca/Carnot_title_page.png \"Sadi Carnot · CC0 · https://commons.wikimedia.org/wiki/File:Carnot_title_page.png\")\n\nİlk adımı makineyi unutmaktı. Pistonlar, valfler, kazanlar makineden makineye değişir. Her ısı makinesinin ortak yanı, ısının sıcak bir şeyden, ocaktan, soğuk bir şeye, yoğuşturucuya ya da havaya geçmesi ve yol boyunca hareket üretmesidir. Carnot bu yüzden belirli hiçbir şeyden yapılmamış, olabilecek en iyi makineyi düşündü. Sürtünmesi yok, sızıntısı yok; en önemlisi, ısı hiçbir zaman sıcaklıkları farklı iki cisim arasında doğrudan akmıyor, çünkü böyle bir akış, diyordu, iş yapmayan bir düşüştür. Makine kapalı bir döngüde çalışıyor: içindeki madde her turun sonunda başladığı hâle dönüyor ki hesapta hiçbir şey gizli kalmasın. Her adım yumuşak olduğu için makine geriye de çalıştırılabiliyor: ona iş harcarsanız ısıyı soğuk cisimden sıcak cisme geri taşıyor.\n\n![1824 kitapçığının 1. şekli: Carnot'nun hayalî makinesinin çalışan maddesi olan, hareketli bir pistonun altındaki silindirde hava](https://upload.wikimedia.org/wikipedia/commons/c/c1/Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu%2C_1824_-_Fig._1.svg \"Sadi Carnot (1796-1832) [SVG drawing by ElioPrrl ] · Public domain · https://commons.wikimedia.org/wiki/File:Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu,_1824_-_Fig._1.svg\")\n\nSonra asıl akıl yürütme geldi. Aynı sıcak ve soğuk cisimler arasında çalışan başka bir makine aynı ısıdan daha fazla iş çıkarsın. Bu makine, Carnot'nun ideal makinesini geriye doğru çalıştırsın. Geriye çalışan makine bütün ısıyı geldiği yere geri koyar ve elde biraz iş artar. Bunu sonsuza dek tekrarlayın: hiçten iş elde edersiniz, her mühendisin imkânsız bildiği şey. Demek ki hiçbir makine ideal makineyi geçemez. Akıl yürütmede buhardan hiç söz edilmediği için sonuç her madde için geçerlidir. Onun sözleriyle ısının hareket ettirici gücü \"onu gerçekleştirmek için kullanılan maddelerden bağımsızdır; miktarı yalnızca\" ısının arasında geçtiği \"cisimlerin sıcaklıklarıyla belirlenir\".\n\nCarnot fikre kendi benzetmesini de verdi. Bir şelalenin gücü ne kadar suyun ne kadar yükseklikten düştüğüne bağlıdır; ısının gücü de, diye yazdı, ne kadar ısının düştüğüne ve \"düşüşünün yüksekliğine\", yani sıcaklık farkına bağlıdır. Benzetme tam da Carnot'nun yanıldığı yerde bozulur. Su çarkın altına eksiksiz ulaşır, ısı ise ulaşmaz: makineye giren ısının bir kısmı harcanır, işin kendisine dönüşür. Kalorik kuramını izleyen Carnot ısıyı hiç tükenmeyen, yalnızca yer değiştiren ağırlıksız bir akışkan sanıyordu.\n\nTavana olan mesafeyi de ölçtü. Kendi hesabına göre zamanın en iyi makineleri, Cornwall'daki kalay ve bakır madenlerini boşaltan büyük pompalar, kömürün kuramsal hareket ettirici gücünün ancak yirmide birini işe çeviriyordu.\n\n### Neden zordu\n\nIsının ne olduğunu kimse bilmiyordu. Carnot da dahil çoğu fizikçi, \"kalorik\"i kimyasal elementler arasına koyan Lavoisier'yi izliyordu. Kont Rumford'un 1798'de top namlusu oyulurken oyma sürdükçe ısı çıktığını gözlemlemesinden sonra bir azınlık ısının bir tür hareket olduğunu söylüyordu. Isı hakkında oturmuş bir fikir ve mutlak bir sıcaklık ölçeği olmadan Carnot sınırın sıcaklığa bağlı olduğunu ve düşüş büyüdükçe işin arttığını gösterebildi, ama ne kadar arttığını gösteremedi. \"Bilmiyoruz,\" diye yazdı, 100 dereceden 50 dereceye düşen ısının, aynı ısının 50'den sıfıra düşmesinden daha fazla mı yoksa daha az mı iş verdiğini.\n\nKitapçık neredeyse hiç okur bulmadı. Pierre Girard onu Temmuz 1824'te Bilimler Akademisi'ne sundu ve *Revue encyclopédique*'te övdü, ama kimse fikri ileri taşımadı. Carnot kendisi kalorikten uzaklaştı. Kitaptan sonra tuttuğu notlarda \"ısı yalnızca hareket ettirici güçtür, ya da daha doğrusu biçim değiştirmiş harekettir\" diye yazdı ve belli bir miktar ısının ne kadar işe denk geldiğini, bugünkü değerden çok uzak olmayan bir sayıyla tahmin etti. Bunları hiç yayımlamadı. Ağustos 1832'deki kolera salgınında, 36 yaşında öldü.\n\n> [!NOTE]\n> Carnot'nun 1824'ten sonra yazdıklarının çoğu kayıp; bazı biyografi yazarlarına göre kâğıtlarını saklayan kardeşi Hippolyte bunların çoğunu yok etti. Fikir değişikliğini, Hippolyte'in 1878'de, Sadi'nin ölümünden neredeyse yarım yüzyıl sonra yayımladığı notlardan biliyoruz. Kaloriği ne zaman bıraktığı belli değil: biyografi yazarları notları 1820'lerin ortasından 1832'ye kadar farklı yıllara tarihliyor.\n\n### Sonrası\n\nBir başka École polytechnique mezunu Émile Clapeyron kitapçığı 1834'te kurtardı. Onu matematik diliyle yeniden yazdı ve döngüyü basınca karşı hacim grafiğinde kapalı bir halka olarak çizdi; öğrencilerin bugün öğrendiği diyagram budur. Clapeyron sayesinde fikir Glasgow'da, sonradan Lord Kelvin olacak William Thomson'a ulaştı. Thomson 1848'de Carnot'nun kuramıyla hiçbir maddeye bağlı olmayan bir sıcaklık ölçeği önerdi; bu, bugün kelvinle ölçülen mutlak ölçeğe doğru ilk adımdı.\n\nSonra çatışma geldi. 1840'larda Julius Robert Mayer ve James Joule, ısı ile işin birbirine dönüşebildiğini, birinin belli bir miktarının ötekinin belli bir miktarına denk olduğunu savundu. Bu kalorikle çelişiyordu ve Thomson bir süre Carnot ile Joule'ün nasıl birlikte haklı olabileceğini göremedi. Rudolf Clausius 1850'de olabileceklerini gösterdi. Carnot'nun sınırını koru, ısının korunduğu fikrini bırak: ısının bir kısmı işe dönüşür, geri kalanı soğuk tarafa akar ve sınır yine yalnızca iki sıcaklığa bağlıdır. Enerjinin korunumu birinci yasa olmak üzere, bu termodinamiğin ikinci yasası oldu. Clausius 1865'te bunun arkasındaki niceliğe \"entropi\" adını verdi.\n\n> [!THEORY]\n> Sıcaklıklar mutlak sıfırdan sayılırsa, Carnot'nun aradığı sınır $1 - T_\\text{soğuk} / T_\\text{sıcak}$ diye yazılabilir: herhangi bir makinenin ısıdan işe çevirebileceği en büyük pay. $T_\\text{sıcak}$ makinenin ısı aldığı, $T_\\text{soğuk}$ ısı verdiği sıcaklıktır; ikisi de 0 °C'nin yaklaşık 273 olduğu kelvin ölçeğinde. Kaynayan ve donan su arasında çalışan bir makine, ne kadar iyi yapılmış olursa olsun, ısısının en fazla yüzde 27 kadarını işe çevirebilir.\n\nO tavan mühendisliği hâlâ biçimlendiriyor. Santraller tavanı yükseltmek için buharlarını malzemelerinin izin verdiği kadar ısıtır. Buzdolapları ve ısı pompaları geriye çalıştırılan Carnot makinesi gibi çalışır: iş harcayarak ısıyı soğuktan sıcağa taşırlar. Rudolf Diesel 1890'larda kendi adını taşıyan motoru tasarlarken Carnot'nun ilkelerinden yararlandı. On yıl boyunca neredeyse kimsenin okumadığı bir kitapçık bugün termodinamiğin kurucu metni sayılıyor; ona \"düşünceler\" adını veren yazarının adı da döngüde, teoremde ve verim sınırında yaşıyor.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Карно спрашивает, сколько работы может дать теплота",
+      "summary": "В 1824 году французский военный инженер Сади Карно спросил, есть ли предел у паровых машин. Ответ — предел зависит лишь от горячего и холодного — стал корнем термодинамики.",
+      "why_it_matters": "Карно показал, что никакая машина не может превратить теплоту в работу сверх предела, который задают только температуры, между которыми она работает, что бы она ни сжигала и из чего бы ни была сделана. Перестроенная Клаузиусом и Томсоном, эта идея стала вторым началом термодинамики и до сих пор задаёт потолок для каждой электростанции и каждого автомобильного двигателя.",
+      "if_you_were_there": "В Париже выходит тонкая брошюра никому не известного военного инженера: 118 страниц об огне и машинах, почти без математики. Один рецензент её хвалит, а потом она на десять лет исчезает из виду.",
+      "place_name": "Париж",
+      "body": "### Обстановка\n\nК 1824 году паровые машины откачивали воду из шахт, вращали мельницы и начинали двигать суда. Почти всё это было развито в Британии практиками: Томасом Севери, Томасом Ньюкоменом, Джеймсом Уаттом, Ричардом Тревитиком. Они улучшали свои машины методом проб, и никто не мог сказать, насколько хорошей машина может стать вообще. Есть ли потолок? Может быть, пар уступит горячему воздуху или какому-то другому, ещё не опробованному пару?\n\nДвадцативосьмилетний французский военный инженер Сади Карно хотел получить ответ. Он был старшим из выживших сыновей Лазара Карно, математика и генерала Революции, который сам написал очерк о теории машин. Сади учился в Политехнической школе, где среди его преподавателей были Ампер, Пуассон и Араго. После падения Наполеона отец уехал в изгнание, а Сади, чья армейская карьера никуда не вела, взял отпуск на уменьшенном жалованье и жил в Париже. Он прямо говорил, почему машины важны: отнимите у Англии её паровые машины, писал он, и вы отнимете её уголь и железо, все источники её богатства, «эту колоссальную мощь».\n\nСам пар был известен давно. Герон Александрийский в I веке описал шар, который вращается паром. В 1551 году османский учёный Таки ад-Дин, работавший тогда в Египте, описал вертел, который вращает пар, направленный на лопатки колеса. В Барнауле, на Алтае, Иван Ползунов в 1763 году спроектировал двухцилиндровую машину; более крупная машина, построенная им для местного плавильного завода, проработала около трёх месяцев в 1766 году, уже после его смерти. Везде, включая Британию, не хватало теории: по словам Карно, попытки улучшить машины всё ещё направлялись «почти наугад».\n\n### Что произошло\n\nВ июне 1824 года Карно на собственные средства издал брошюру в 118 страниц: *Réflexions sur la puissance motrice du feu* («Размышления о движущей силе огня»). Тираж обычно называют в 600 экземпляров. Это была единственная работа, которую он опубликовал, и написана она простым языком, почти без математики.\n\n![Титульный лист брошюры 1824 года: Réflexions sur la puissance motrice du feu, С. Карно, бывший ученик Политехнической школы, Париж, Башелье](https://upload.wikimedia.org/wikipedia/commons/c/ca/Carnot_title_page.png \"Sadi Carnot · CC0 · https://commons.wikimedia.org/wiki/File:Carnot_title_page.png\")\n\nПервым его шагом было забыть о машине. Поршни, клапаны и котлы у всех машин разные. Общее у каждой тепловой машины одно: теплота переходит от горячего тела, топки, к холодному, конденсатору или воздуху, и по дороге производит движение. Поэтому Карно вообразил наилучшую возможную машину, сделанную ни из чего конкретного. В ней нет трения и утечек, а главное — теплота никогда не течёт напрямую между двумя телами с разной температурой: такое течение, утверждал он, — это падение, которое не совершает работы. Она работает замкнутым циклом: её рабочее тело в конце каждого круга возвращается точно в исходное состояние, чтобы в расчёте ничего не пряталось. И поскольку каждый шаг плавный, её можно пустить в обратную сторону: затратьте на неё работу, и она перенесёт теплоту от холодного тела обратно к горячему.\n\n![Рисунок 1 из брошюры 1824 года: набросок Карно — воздух в цилиндре под подвижным поршнем, рабочее тело его воображаемой машины](https://upload.wikimedia.org/wikipedia/commons/c/c1/Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu%2C_1824_-_Fig._1.svg \"Sadi Carnot (1796-1832) [SVG drawing by ElioPrrl ] · Public domain · https://commons.wikimedia.org/wiki/File:Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu,_1824_-_Fig._1.svg\")\n\nЗатем последовало рассуждение. Пусть какая-то другая машина, работающая между теми же горячим и холодным телами, получает из той же теплоты больше работы. Пусть она приводит в движение идеальную машину Карно в обратную сторону. Обращённая машина вернёт всю теплоту туда, откуда та пришла, и останется лишняя работа. Повторяйте это вечно — и получите работу из ничего, а это, как знал каждый инженер, невозможно. Значит, никакая машина не может превзойти идеальную. А поскольку в рассуждении нигде не упоминается пар, вывод верен для любого вещества. По его словам, движущая сила теплоты «не зависит от агентов, взятых для её развития; её количество определяется исключительно температурами тел», между которыми переходит теплота.\n\nКарно дал этой идее собственный образ. Сила водопада зависит от того, сколько воды падает и с какой высоты; сила теплоты, писал он, зависит от того, сколько теплоты падает, и от «высоты её падения», то есть разности температур. Сравнение ломается ровно там, где Карно ошибался. Вода доходит до низа колеса вся, а теплота — нет: часть теплоты, вошедшей в машину, расходуется, превращаясь в саму работу. Карно, следуя теории теплорода, считал теплоту невесомой жидкостью, которая никогда не расходуется, а только перемещается.\n\nОн измерил и расстояние до потолка. По его собственному расчёту, лучшие машины того времени, большие насосы, осушавшие оловянные и медные рудники Корнуолла, превращали в работу лишь около двадцатой доли теоретической движущей силы угля.\n\n### Почему это было трудно\n\nНикто не знал, что такое теплота. Большинство физиков, и Карно в их числе, следовали Лавуазье, который включил «теплород» в список химических элементов. Меньшинство, после наблюдения графа Румфорда в 1798 году, что при сверлении пушечных стволов теплота выделяется, пока длится сверление, говорило, что теплота — это вид движения. Без устоявшегося понятия о теплоте и без абсолютной шкалы температур Карно мог показать, что предел зависит от температуры и что большее падение даёт больше работы, но не мог показать насколько. «Мы не знаем», писал он, даёт ли теплота, падающая со 100 до 50 градусов, больше или меньше работы, чем та же теплота, падающая с 50 до нуля.\n\nУ брошюры почти не нашлось читателей. Пьер Жирар представил её Академии наук в июле 1824 года и похвалил в *Revue encyclopédique*, но никто не развил идею дальше. Сам Карно отошёл от теплорода. В заметках, написанных после книги, он записал, что «теплота — это не что иное, как движущая сила, или, скорее, движение, изменившее форму», и оценил, сколько работы стоит данное количество теплоты, получив число, недалёкое от современного. Он их так и не опубликовал. Он умер во время эпидемии холеры в августе 1832 года, в 36 лет.\n\n> [!NOTE]\n> Большая часть написанного Карно после 1824 года утрачена: по словам некоторых биографов, его брат Ипполит, хранивший бумаги, уничтожил большинство из них. О перемене во взглядах Сади мы знаем по заметкам, которые Ипполит опубликовал в 1878 году, почти через полвека после его смерти. Когда именно он отказался от теплорода, не установлено: биографы датируют заметки по-разному, от середины 1820-х до 1832 года.\n\n### Что это открыло\n\nЭмиль Клапейрон, ещё один выпускник Политехнической школы, спас брошюру в 1834 году. Он переписал её на языке математики и изобразил цикл замкнутой петлёй на графике давления в зависимости от объёма — эту диаграмму студенты учат до сих пор. Через Клапейрона идея дошла до Уильяма Томсона в Глазго, будущего лорда Кельвина, который в 1848 году на основе теории Карно предложил шкалу температур, не зависящую ни от какого вещества, — первый шаг к абсолютной шкале, которую сегодня измеряют в кельвинах.\n\nЗатем случилось столкновение. В 1840-х годах Юлиус Роберт Майер и Джеймс Джоуль утверждали, что теплота и работа превращаются друг в друга: столько-то одного на столько-то другого. Это противоречило теплороду, и Томсон какое-то время не видел, как Карно и Джоуль могут быть правы одновременно. Рудольф Клаузиус в 1850 году показал, что могут. Сохраните предел Карно и откажитесь от мысли, что теплота сохраняется: часть теплоты становится работой, остальная стекает к холодной стороне, а предел по-прежнему зависит только от двух температур. Вместе с законом сохранения энергии как первым началом это стало вторым началом термодинамики. В 1865 году Клаузиус назвал стоящую за ним величину «энтропией».\n\n> [!THEORY]\n> Если отсчитывать температуры от абсолютного нуля, предел, который искал Карно, можно записать как $1 - T_\\text{хол} / T_\\text{гор}$: наибольшая доля теплоты, которую любая машина может превратить в работу. $T_\\text{гор}$ — температура, при которой машина получает теплоту, $T_\\text{хол}$ — при которой отдаёт; обе по шкале Кельвина, где 0 °C — это около 273. Машина, работающая между кипящей и замерзающей водой, как бы хорошо она ни была построена, может превратить в работу не больше примерно 27 процентов своей теплоты.\n\nЭтот потолок до сих пор определяет инженерное дело. Электростанции нагревают пар настолько, насколько позволяют их материалы, чтобы поднять потолок. Холодильники и тепловые насосы работают как машина Карно, пущенная в обратную сторону: затрачивая работу, они переносят теплоту от холодного к горячему. Рудольф Дизель в 1890-х годах опирался на принципы Карно, проектируя двигатель, который носит его имя. Брошюру, которую десять лет почти никто не читал, сегодня считают основополагающим текстом термодинамики, а имя её автора, назвавшего её всего лишь размышлениями, носят цикл, теорема и предел коэффициента полезного действия.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Карно жылуулук канча иш бере алат деп сурайт",
+      "summary": "1824-жылы француз аскер инженери Сади Карно буу машиналарынын чеги барбы деп сураган. Чек ысык менен суукка гана көз каранды деген жообу термодинамиканын түпкү тамыры болгон.",
+      "why_it_matters": "Карно эч бир машина жылуулукту өзү иштеген температуралар гана аныктаган чектен ашык ишке айлантпай турганын көрсөткөн; эмнени күйгүзөрү же эмнеден жасалганы маанилүү эмес. Клаузиус менен Томсон кайра курган бул идея термодинамиканын экинчи мыйзамы болуп калды жана бүгүн да ар бир электр станциясынын жана ар бир унаа кыймылдаткычынын чегин аныктайт.",
+      "if_you_were_there": "Парижде эч ким тааныбаган аскер инженеринин жука китепчеси чыгат: от жана машиналар жөнүндө 118 бет, математика дээрлик жок. Бир сынчы аны мактайт, анан китепче он жыл бою көздөн кайым болот.",
+      "place_name": "Париж",
+      "body": "### Шарттар\n\n1824-жылга карата буу машиналары шахталардан сууну сордуруп, тегирмендерди айлантып, кемелерди жүргүзө баштаган. Мунун дээрлик баары Британияда, иш жүзүндөгү адамдардын колунда өнүккөн: Томас Севери, Томас Ньюкомен, Джеймс Уатт, Ричард Тревитик. Алар машиналарын сынап көрүү жолу менен жакшыртышкан, бирок машина эң көп дегенде канчалык жакшы боло аларын эч ким айта алган эмес. Чеги барбы? Бууну ысык аба же азырынча сыналбаган башка бир буу жеңип кетиши мүмкүнбү?\n\n28 жаштагы француз аскер инженери Сади Карно ушул суроого жооп издеген. Ал Революциянын генералы жана математик Лазар Карнонун тирүү калган уулдарынын улуусу болгон; атасы өзү машиналардын теориясы жөнүндө эссе жазган. Сади Политехникалык мектепте окуган, анын мугалимдеринин арасында Ампер, Пуассон жана Араго болгон. Наполеон кулагандан кийин атасы сүргүнгө кеткен, ал эми аскердик карьерасы эч жакка жылбаган Сади кыскартылган айлык менен өргүүгө чыгып, Парижде жашаган. Ал машиналар эмне үчүн маанилүү экенин ачык айткан: Англиянын буу машиналарын тартып алсаңыз, деп жазган ал, анын көмүрүн да, темирин да, бардык байлык булактарын да, «ошол зор кудуретин» да тартып аласыз.\n\nБуунун өзү эчак белгилүү болчу. Александриялык Герон биринчи кылымда буу менен айланган шарды сүрөттөгөн. 1551-жылы ошол кезде Египетте иштеген осмон окумуштуусу Таки ад-Дин дөңгөлөктүн калактарына үйлөнгөн буу айланткан шишти сүрөттөгөн. Алтайдагы Барнаулда Иван Ползунов 1763-жылы эки цилиндрлүү машинанын долбоорун түзгөн; ал жергиликтүү эритүү заводу үчүн курган чоңураак машина 1766-жылы, ал каза болгондон кийин, үч айдай иштеген. Британияны кошкондо бардык жерде жетишпеген нерсе теория болчу: Карнонун сөзү менен айтканда, машиналарды жакшыртуу аракеттери «дагы эле дээрлик кокусунан багытталып» жаткан.\n\n### Эмне болду\n\n1824-жылдын июнунда Карно өз каражатына 118 беттик китепче чыгарган: *Réflexions sur la puissance motrice du feu* («Оттун кыймылдаткыч күчү жөнүндө ой-толгоолор»). Нускасынын саны көбүнчө 600 деп айтылат. Бул ал өмүрүндө жарыялаган жалгыз эмгек болгон, жөнөкөй тил менен, математикасыз дээрлик жазылган.\n\n![1824-жылкы китепченин титулдук бети: Réflexions sur la puissance motrice du feu, Политехникалык мектептин мурдагы окуучусу С. Карно, Париж, Башелье](https://upload.wikimedia.org/wikipedia/commons/c/ca/Carnot_title_page.png \"Sadi Carnot · CC0 · https://commons.wikimedia.org/wiki/File:Carnot_title_page.png\")\n\nАнын биринчи кадамы машинаны унутуу болгон. Поршендер, клапандар, казандар ар бир машинада ар башка. Ар бир жылуулук машинасынын жалпы жери бирөө: жылуулук ысык нерседен, мештен, суук нерсеге, конденсаторго же абага өтөт жана жолдо кыймыл жаратат. Ошондуктан Карно эч бир белгилүү нерседен жасалбаган, мүмкүн болгон эң жакшы машинаны элестеткен. Анда сүрүлүү да, агып кетүү да жок; эң башкысы, жылуулук эч качан температуралары ар башка эки нерсенин ортосунда түз акпайт, анткени мындай агым, деген ал, иш жасабаган кулоо. Машина туюк цикл менен иштейт: анын ичиндеги зат ар бир айлампанын аягында так баштапкы абалына кайтат, эсепте эч нерсе жашырылып калбашы үчүн. Ар бир кадамы жай болгондуктан, аны тескери да иштетсе болот: ага иш жумшасаңыз, ал жылуулукту суук нерседен ысык нерсеге кайра ташыйт.\n\n![1824-жылкы китепченин 1-сүрөтү: Карнонун элестеткен машинасынын иштөөчү заты — жылма поршендин астындагы цилиндрдеги аба](https://upload.wikimedia.org/wikipedia/commons/c/c1/Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu%2C_1824_-_Fig._1.svg \"Sadi Carnot (1796-1832) [SVG drawing by ElioPrrl ] · Public domain · https://commons.wikimedia.org/wiki/File:Sadi_Carnot_-_Reflexions_sur_la_puissance_motrice_du_feu,_1824_-_Fig._1.svg\")\n\nАндан кийин негизги ой жүгүртүү келген. Ошол эле ысык жана суук нерселердин ортосунда иштеген башка бир машина ошол эле жылуулуктан көбүрөөк иш алат дейли. Ал Карнонун идеалдуу машинасын тескери айлантсын. Тескери иштеген машина бардык жылуулукту келген жерине кайтарат, ашып калган бир аз иш колдо калат. Муну түбөлүк кайталасаңыз, жоктон иш аласыз, ал эми бул мүмкүн эмес экенин ар бир инженер билген. Демек, эч бир машина идеалдуусунан ашып кете албайт. Ой жүгүртүүдө буу такыр эскерилбегендиктен, жыйынтык ар кандай зат үчүн туура. Анын сөзү менен айтканда, жылуулуктун кыймылдаткыч күчү «аны ишке ашыруу үчүн колдонулган заттардан көз каранды эмес; анын өлчөмү» жылуулук алардын ортосунда өткөн «нерселердин температуралары менен гана аныкталат».\n\nКарно бул идеяга өзүнүн салыштыруусун да берген. Шаркыратманын күчү канча суу кулаганына жана канча бийиктиктен кулаганына жараша болот; жылуулуктун күчү да, деп жазган ал, канча жылуулук кулаганына жана «анын кулоосунун бийиктигине», башкача айтканда, температуралардын айырмасына жараша болот. Салыштыруу так Карно жаңылган жерде бузулат. Суу дөңгөлөктүн түбүнө толук жетет, ал эми жылуулук жетпейт: машинага кирген жылуулуктун бир бөлүгү жумшалып, иштин өзүнө айланат. Теплород теориясын карманган Карно жылуулукту эч качан түгөнбөгөн, орду гана алмашкан салмаксыз суюктук деп эсептеген.\n\nАл чекке чейинки аралыкты да өлчөгөн. Өзүнүн эсеби боюнча, ошол кездеги эң мыкты машиналар, Корнуоллдогу калай жана жез кендеринен сууну сордурган чоң насостор, көмүрдүн теориялык кыймылдаткыч күчүнүн жыйырмадан бирин гана ишке айлантышкан.\n\n### Эмне үчүн кыйын болду\n\nЖылуулук деген эмне экенин эч ким билген эмес. Физиктердин көбү, алардын арасында Карно да, «теплородду» химиялык элементтердин тизмесине киргизген Лавуазьени ээрчишкен. 1798-жылы граф Румфорд замбиректин стволун көңдөйлөп бургулаганда бургулоо уланган сайын жылуулук чыга бергенин байкагандан кийин азчылык жылуулук кыймылдын бир түрү деп айтып жүргөн. Жылуулук жөнүндө бекем түшүнүк да, абсолюттук температура шкаласы да жок болгондуктан, Карно чек температурага көз каранды экенин жана кулоо чоңойгон сайын иш көбөйөрүн көрсөтө алган, бирок канчалык көбөйөрүн көрсөтө алган эмес. «Биз билбейбиз», деп жазган ал, 100 градустан 50 градуска кулаган жылуулук ошол эле жылуулуктун 50 градустан нөлгө кулашына караганда көбүрөөк же азыраак иш береби.\n\nКитепче дээрлик окурман тапкан эмес. Пьер Жирар аны 1824-жылдын июлунда Илимдер академиясына сунуштап, *Revue encyclopédique* журналында мактаган, бирок идеяны эч ким алдыга жылдырган эмес. Карно өзү теплороддон алыстаган. Китептен кийин жазган эскертмелеринде ал «жылуулук жөн гана кыймылдаткыч күч, тагыраак айтканда, формасын өзгөрткөн кыймыл» деп жазган жана белгилүү өлчөмдөгү жылуулук канча ишке барабар экенин азыркы мааниден анча алыс эмес сан менен баалаган. Ал аларды эч качан жарыялаган эмес. Ал 1832-жылдын августундагы холера эпидемиясында, 36 жашында каза болгон.\n\n> [!NOTE]\n> Карнонун 1824-жылдан кийин жазгандарынын көбү жоголгон: айрым биографтардын айтымында, анын кагаздарын сактаган бир тууганы Ипполит алардын көбүн жок кылган. Сади көз карашын өзгөрткөнүн биз Ипполит 1878-жылы, Сади каза болгондон дээрлик жарым кылым өткөндөн кийин жарыялаган эскертмелерден билебиз. Ал теплороддон качан баш тартканы аныкталган эмес: биографтар эскертмелерди 1820-жылдардын ортосунан 1832-жылга чейинки ар кандай жылдарга таандык кылышат.\n\n### Эмнеге жол ачты\n\nПолитехникалык мектептин дагы бир бүтүрүүчүсү Эмиль Клапейрон китепчени 1834-жылы унутулуудан сактап калган. Ал аны математиканын тили менен кайра жазып, циклди басым менен көлөмдүн графигинде туюк илмек катары тарткан; студенттер бул диаграмманы азыр да үйрөнүшөт. Клапейрон аркылуу идея Глазгодо кийин лорд Кельвин болгон Уильям Томсонго жеткен. Томсон 1848-жылы Карнонун теориясынын негизинде эч бир затка көз каранды болбогон температура шкаласын сунуштаган; бул бүгүн кельвин менен өлчөнгөн абсолюттук шкалага карай биринчи кадам болгон.\n\nАндан кийин кагылышуу болгон. 1840-жылдары Юлиус Роберт Майер менен Джеймс Джоуль жылуулук менен иш бири-бирине айлана аларын, биринин белгилүү өлчөмү экинчисинин белгилүү өлчөмүнө барабар экенин айтышкан. Бул теплородго карама-каршы келген, жана Томсон бир нече убакыт Карно менен Джоуль кантип экөө тең туура боло аларын көрө алган эмес. Рудольф Клаузиус 1850-жылы боло аларын көрсөткөн. Карнонун чегин сактап, жылуулук сакталат деген ойдон баш тартуу керек: жылуулуктун бир бөлүгү ишке айланат, калганы суук жакка агып өтөт, чек болсо мурдагыдай эле эки температурага гана көз каранды. Энергиянын сакталуу мыйзамы биринчи мыйзам болуп, бул термодинамиканын экинчи мыйзамы болуп калган. 1865-жылы Клаузиус анын артында турган чоңдукка «энтропия» деген ат берген.\n\n> [!THEORY]\n> Температураларды абсолюттук нөлдөн эсептесек, Карно издеген чекти $1 - T_\\text{суук} / T_\\text{ысык}$ деп жазууга болот: ар кандай машина жылуулуктан ишке айланта ала турган эң чоң үлүш. $T_\\text{ысык}$ — машина жылуулук алган температура, $T_\\text{суук}$ — жылуулук берген температура; экөө тең 0 °C болжол менен 273 болгон кельвин шкаласында. Кайнаган суу менен тоңгон суунун ортосунда иштеген машина, канчалык жакшы курулбасын, жылуулугунун болжол менен 27 пайызынан ашыгын ишке айланта албайт.\n\nБул чек инженерияны азыр да калыптандырат. Электр станциялары чекти көтөрүү үчүн бууну материалдары көтөрө алгандай ысык кылышат. Муздаткычтар жана жылуулук насостору тескери иштетилген Карно машинасындай иштейт: алар иш жумшап, жылуулукту суук жактан ысык жакка ташышат. Рудольф Дизель 1890-жылдары өз атын алып жүргөн кыймылдаткычты долбоорлогондо Карнонун принциптерине таянган. Он жыл бою дээрлик эч ким окубаган китепче бүгүн термодинамиканын негиз салуучу тексти деп эсептелет, ал эми аны жөн гана «ой-толгоолор» деп атаган авторунун аты цикл, теорема жана пайдалуу аракет коэффициентинин чеги менен жашап келет.",
+      "status": "machine"
+    }
+  }
+}
