@@ -1,0 +1,262 @@
+{
+  "slug": "hubble-other-galaxies",
+  "year": 1924,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 34.2258,
+  "lng": -118.0572,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/5/51/Snapshots_of_the_star_that_changed_the_Universe_%28opo1115d%29.jpg",
+    "credit": "Illustration Credit: NASA , ESA and Z. Levay ( STScI ). Credit: NASA , ESA and the Hubble Heritage Team ( STScI / AURA )",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Snapshots_of_the_star_that_changed_the_Universe_(opo1115d).jpg"
+  },
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "slug": "edwin-hubble",
+      "birth_year": 1889,
+      "death_year": 1953,
+      "role": "author",
+      "name": {
+        "en": "Edwin Hubble",
+        "tr": "Edwin Hubble",
+        "ru": "Эдвин Хаббл",
+        "ky": "Эдвин Хаббл"
+      }
+    },
+    {
+      "slug": "henrietta-swan-leavitt",
+      "birth_year": 1868,
+      "death_year": 1921,
+      "role": "predecessor",
+      "name": {
+        "en": "Henrietta Swan Leavitt",
+        "tr": "Henrietta Swan Leavitt",
+        "ru": "Генриетта Суон Ливитт",
+        "ky": "Генриетта Суон Ливитт"
+      }
+    },
+    {
+      "slug": "ernst-opik",
+      "birth_year": 1893,
+      "death_year": 1985,
+      "role": "contemporary",
+      "name": {
+        "en": "Ernst Öpik",
+        "tr": "Ernst Öpik",
+        "ru": "Эрнст Эпик",
+        "ky": "Эрнст Эпик"
+      }
+    },
+    {
+      "slug": "heber-curtis",
+      "birth_year": 1872,
+      "death_year": 1942,
+      "role": "predecessor",
+      "name": {
+        "en": "Heber Curtis",
+        "tr": "Heber Curtis",
+        "ru": "Гебер Кертис",
+        "ky": "Гебер Кертис"
+      }
+    },
+    {
+      "slug": "harlow-shapley",
+      "birth_year": 1885,
+      "death_year": 1972,
+      "role": "contemporary",
+      "name": {
+        "en": "Harlow Shapley",
+        "tr": "Harlow Shapley",
+        "ru": "Харлоу Шепли",
+        "ky": "Харлоу Шепли"
+      }
+    },
+    {
+      "slug": "abd-al-rahman-al-sufi",
+      "birth_year": 903,
+      "death_year": 986,
+      "role": "predecessor",
+      "name": {
+        "en": "Abd al-Rahman al-Sufi",
+        "tr": "Abdurrahman es-Sufi",
+        "ru": "Абд ар-Рахман ас-Суфи",
+        "ky": "Абд ар-Рахман ас-Суфи"
+      }
+    },
+    {
+      "slug": "immanuel-kant",
+      "birth_year": 1724,
+      "death_year": 1804,
+      "role": "predecessor",
+      "name": {
+        "en": "Immanuel Kant",
+        "tr": "Immanuel Kant",
+        "ru": "Иммануил Кант",
+        "ky": "Иммануил Кант"
+      }
+    },
+    {
+      "slug": "adriaan-van-maanen",
+      "birth_year": 1884,
+      "death_year": 1946,
+      "role": "contemporary",
+      "name": {
+        "en": "Adriaan van Maanen",
+        "tr": "Adriaan van Maanen",
+        "ru": "Адриан ван Маанен",
+        "ky": "Адриан ван Маанен"
+      }
+    },
+    {
+      "slug": "henry-norris-russell",
+      "birth_year": 1877,
+      "death_year": 1957,
+      "role": "transmitter",
+      "name": {
+        "en": "Henry Norris Russell",
+        "tr": "Henry Norris Russell",
+        "ru": "Генри Норрис Рассел",
+        "ky": "Генри Норрис Рассел"
+      }
+    },
+    {
+      "slug": "knut-lundmark",
+      "birth_year": 1889,
+      "death_year": 1958,
+      "role": "contemporary",
+      "name": {
+        "en": "Knut Lundmark",
+        "tr": "Knut Lundmark",
+        "ru": "Кнут Лундмарк",
+        "ky": "Кнут Лундмарк"
+      }
+    },
+    {
+      "slug": "vesto-slipher",
+      "birth_year": 1875,
+      "death_year": 1969,
+      "role": "successor",
+      "name": {
+        "en": "Vesto Slipher",
+        "tr": "Vesto Slipher",
+        "ru": "Весто Слайфер",
+        "ky": "Весто Слайфер"
+      }
+    },
+    {
+      "slug": "milton-humason",
+      "birth_year": 1891,
+      "death_year": 1972,
+      "role": "successor",
+      "name": {
+        "en": "Milton Humason",
+        "tr": "Milton Humason",
+        "ru": "Милтон Хьюмасон",
+        "ky": "Милтон Хьюмасон"
+      }
+    }
+  ],
+  "builds_on": [
+    "galileo-telescope"
+  ],
+  "sources": [
+    {
+      "title": "Edwin Hubble — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+    },
+    {
+      "title": "Great Debate (astronomy) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Debate_(astronomy)"
+    },
+    {
+      "title": "Andromeda Galaxy — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+    },
+    {
+      "title": "Ernst Öpik — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ernst_%C3%96pik"
+    },
+    {
+      "title": "J. J. O'Connor and E. F. Robertson, \"Ernst Julius Öpik\", MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Opik/"
+    },
+    {
+      "title": "Hubble Views the Star That Changed the Universe — NASA (2011)",
+      "kind": "other",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-views-the-star-that-changed-the-universe/"
+    },
+    {
+      "title": "Bonds between AAAS and Hubble span three decades — AAAS",
+      "kind": "other",
+      "url": "https://www.aaas.org/news/bonds-between-aaas-and-hubble-span-three-decades"
+    },
+    {
+      "title": "Lemuel Roscoe Cleveland — Scientist of the Day, Linda Hall Library",
+      "kind": "other",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/lemuel-roscoe-cleveland"
+    },
+    {
+      "title": "Henrietta Swan Leavitt — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+    },
+    {
+      "title": "Edwin Hubble — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Edwin-Hubble"
+    }
+  ],
+  "research_note": "Researched 2026-10-27 against English Wikipedia (Edwin Hubble; Great Debate (astronomy); Andromeda Galaxy; Ernst Öpik; Henrietta Swan Leavitt), MacTutor (Öpik: Tashkent April 1919 to 1921, Turkestan University, observatory; Tartu from 1 December 1921; Andromeda estimates 1921 and 1922 from rotation/mass), NASA's 2011 page on V1 (night of 5–6 October 1923, three \"N\" marks, \"VAR!\", 31.4-day period, about 1 million light-years, 12 Cepheids among 36 variables by end of 1924, letter with light curve to Shapley, the quote as \"reportedly\"), AAAS (joint AAAS/AAS meeting, New Year's Day 1925, Washington, Russell presented, Hubble mailed the paper, shared 1924 Thousand Dollar Prize with L. R. Cleveland), Linda Hall Library (500 dollars each, Cleveland's termite work). Britannica linked for the human only.\nYEAR: 1924, exact, as in top100. The Cepheid plate is October 1923, the letter to Shapley early 1924, the New York Times report 23 November 1924, the formal presentation 1 January 1925; the body gives all four dates so the 1924 anchor is explained.\nFLAGGED IN THE BODY: (1) Shapley's \"Here is the letter that has destroyed my universe\" is framed as a later recollection usually traced to Cecilia Payne; NASA says \"reportedly\"; not confirmed from her autobiography in this pass (it is in Cecilia Payne-Gaposchkin: An Autobiography and Other Recollections, ed. Haramundanis, per secondary sources). (2) Hubble's distance given as \"nearly a million light-years\": NASA says about 1 million; other accounts give 285 kpc (about 930,000 ly) in 1925 and 275 kpc in the 1929 paper. (3) al-Sufi's date \"around 964\".\nREVIEWER SHOULD CHECK: (1) The exact date of Hubble's letter to Shapley is often given as 19 February 1924; not confirmed here, so the body says \"early in 1924\". (2) Öpik's 1922 value of 450 kpc (about 1.5 million ly) is from Wikipedia (Öpik and Andromeda Galaxy articles); MacTutor gives no number. The body does NOT claim the Andromeda work was done in Tashkent, only that he had just been there. (3) \"Hubble did not rush ... van Maanen's turning spirals still pointed the other way\" is stated as the situation, not as Hubble's stated motive. (4) Lundmark 1926–27 and Hubble 1935 re-measuring van Maanen's rotations rests on a search summary of an arXiv history paper (Lundmark/van Maanen; not fetched in full). (5) Baade 1952 two Cepheid types, Hubble 1926 classification, \"hundreds of billions\" of galaxies: standard history, not individually re-sourced. (6) Ritchey and Curtis 1917 novae in spirals: Andromeda Galaxy article names Curtis 1917; Ritchey's role is standard history but not re-sourced here. (7) \"Island universes\": the body says the idea was \"later called\" that, since the phrase is attributed to Kant but was coined after him.\nPEOPLE: Hubble 'author'. Leavitt, Curtis, al-Sufi, Kant 'predecessor'. Öpik, Shapley, van Maanen, Lundmark 'contemporary'. Russell 'transmitter' (presented the paper). Slipher, Humason 'successor' (the 1929 velocity-distance work built on this). Cecilia Payne, George Ritchey, Lemuel Cleveland, Walter Baade, Galileo appear in prose only.\nCENTRAL ASIA: Öpik's two years in Tashkent (Turkestan University, observatory) are in the body; al-Sufi's \"little cloud\" with a figure from the Book of Fixed Stars.\nPLACE: Mount Wilson Observatory, observatory coordinates, exact.\nIMAGES (read via commons.mjs, values verbatim): cover and first figure File:Snapshots of the star that changed the Universe (opo1115d).jpg, CC BY 4.0, NASA/ESA/STScI (also used as a figure in hubble-expanding-universe). Figures: File:Book of the Fixed Stars Auv0175 andromeda.jpg, CC BY 4.0, credit line is only \"Abd al-Rahman al-Sufi\" — THIN: the photographer/holding library is not named in the credit, a human may want to check the Commons page; the drawing shows the constellation, and the caption says so, not the galaxy. File:Andromeda Galaxy (with h-alpha).jpg, Adam Evans, CC BY 2.0.\nANALOGY: identical streetlamps along a dark road; breaks because a bulb's power is printed on the box, while Leavitt's rule needed calibration and dust dims light unseen.\nBUILDS_ON: galileo-telescope (the Milky Way resolved into stars; telescope lineage). ENABLES: hubble-expanding-universe (that event should list this one in its builds_on).\nKYRGYZ: no glossary 'check' terms used. New terms not in the glossary, for a Kyrgyz reader: галактика, тумандуулук (nebula), Саманчынын жолу (Milky Way), цефеида, жаңы жылдыз (nova), топ жылдыз (constellation), жарык жылы (light-year), жарык ийри сызыгы (light curve), арал ааламдар (island universes), өзгөрмөлүү (variable), тилкелүү спиралдык (barred spiral), байкалуучу Аалам (observable universe), Туруктуу жылдыздар китеби (Book of Fixed Stars), Вилсон тоосундагы обсерватория (Mount Wilson Observatory, as in the sibling draft).\nFACT-CHECK (2026-10-27, fact-checker agent): all dated claims marked doğru (NASA, AAAS, Linda Hall, MacTutor, Wikipedia; NYT \"Hubbell\" also via arXiv:1801.09550; van Maanen refutation via AIP and Hubble 1935 ApJ 81, 334). Fixed in all four languages: (1) the 1929 sentence wrongly made Humason co-author and called it \"the first sign\" of expansion — now Hubble alone in 1929, with Slipher's and Humason's velocities, and Lemaître credited with arguing expansion in 1927; (2) \"overnight\" in why_it_matters -> \"in little more than a year\" (the process ran October 1923 to January 1925); (3) \"Shapley accepted\" -> \"cautious at first, came to accept\" (belirsiz: Shapley's reply of 27 February 1924 not read); (4) ru/ky no longer add that Shapley handed the letter to Payne; ky \"Ливитттин\" -> \"Ливиттин\". Fact-checker notes the AIP cosmology exhibit dates Hubble's letter 19 February 1924; the body keeps \"early in 1924\". Ritchey's 1917 nova is standard history, not separately sourced. SEPARATE TASK FOR THE HUMAN: hubble-expanding-universe should add hubble-other-galaxies to its builds_on (not changed in this run).",
+  "translations": {
+    "en": {
+      "title": "Hubble shows that Andromeda is another galaxy",
+      "summary": "In 1924 Edwin Hubble found a pulsing star in the Andromeda nebula. Henrietta Leavitt's rule turned it into a distance far beyond the Milky Way: ours was one galaxy among many.",
+      "body": "![Hubble's plate of the Andromeda nebula from October 1923, with the \"N\" crossed out and \"VAR!\" written beside the star, next to a modern Hubble Space Telescope image of the same star](https://upload.wikimedia.org/wikipedia/commons/5/51/Snapshots_of_the_star_that_changed_the_Universe_%28opo1115d%29.jpg \"Illustration Credit: NASA , ESA and Z. Levay ( STScI ). Credit: NASA , ESA and the Hubble Heritage Team ( STScI / AURA ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Snapshots_of_the_star_that_changed_the_Universe_(opo1115d).jpg\")\n\n### The scene\n\nIn 1920 nobody knew whether the universe held one galaxy or many. Through telescopes the sky was full of faint, fuzzy patches called nebulae, many of them shaped like spirals. The brightest of them, in the constellation Andromeda, can be seen with the naked eye on a dark night. Around 964 the Persian astronomer Abd al-Rahman al-Sufi recorded it in his *Book of Fixed Stars* as a \"little cloud\".\n\n![The constellation Andromeda in a copy of al-Sufi's Book of Fixed Stars made in 1009–1010](https://upload.wikimedia.org/wikipedia/commons/9/9f/Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg \"Abd al-Rahman al-Sufi · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg\")\n\nIn 1610 Galileo's telescope had shown that the pale band of the Milky Way is made of countless stars. In 1755 the German philosopher Immanuel Kant suggested that some nebulae might be star systems like our own, so far away that their stars blur into a glow — the idea later called \"island universes\". It was a guess: nobody could measure how far away a nebula was.\n\nOn 26 April 1920, in Washington, Harlow Shapley and Heber Curtis argued the question in public. Shapley had mapped the Milky Way as an enormous system about 300,000 light-years across, big enough, he thought, to contain the spirals too. Curtis held that the Milky Way was far smaller and the spirals were separate systems well outside it. Both had evidence. Curtis pointed to novae — stars that suddenly flare up — seen in spirals and far fainter than novae in our own galaxy, which made sense if the spirals were very distant. Shapley leaned on Adriaan van Maanen of Mount Wilson Observatory, who reported that he had measured spirals visibly turning on photographs taken years apart; a spiral turning that fast had to be close by. The meeting settled nothing.\n\n### What happened\n\nThe tool that settled it came from Henrietta Swan Leavitt at Harvard College Observatory, where women were employed as \"computers\" to examine photographic plates star by star. Studying pulsing stars called Cepheids, she found in 1912 that the slower a Cepheid pulses, the brighter it truly is. Time the pulse and you know the star's real brightness; compare that with how faint it looks and you have its distance. Shapley himself had used her rule to size up the Milky Way.\n\n> [!THEORY]\n> Imagine a dark road lined with lamps. If you know that every lamp is the same 100-watt bulb, the faint ones are simply farther away, and you can work out how far from how faint they look. A Cepheid is a lamp that announces its own wattage through the rhythm of its blinking. The analogy breaks here: a bulb's power is printed on the box, but Leavitt's rule had to be calibrated on nearby stars whose distances were themselves uncertain, and dust between the stars dims light in ways the rule cannot see — so every distance carried hidden errors.\n\nOn the night of 5–6 October 1923, Edwin Hubble photographed the Andromeda nebula with the 100-inch Hooker telescope on Mount Wilson in California, then the largest telescope in the world. He was looking for novae and marked three candidates with an \"N\". Comparing the plate with older ones in the observatory's collection, he found that one of them brightened and faded again and again. He crossed out the \"N\" and wrote \"VAR!\" — variable. Following it over the next months, he found that it pulsed every 31.4 days: a Cepheid.\n\nLeavitt's rule turned that rhythm into a distance of nearly a million light-years, several times Shapley's size for the whole Milky Way. Andromeda was not a cloud inside our galaxy. It was a galaxy of its own.\n\nEarly in 1924 Hubble wrote to Shapley, by then director of Harvard College Observatory, and sent the star's light curve. A story told years later, usually traced to Cecilia Payne, then a young astronomer at Harvard, has Shapley holding out the letter and saying: \"Here is the letter that has destroyed my universe.\" The words rest on that later recollection; on record, Shapley was cautious at first and came to accept the measurement.\n\nHubble did not rush. Van Maanen's turning spirals, measured at his own observatory, still pointed the other way. By the end of 1924 he had found a dozen Cepheids in Andromeda, and more in the Triangulum nebula. The public heard first: on 23 November 1924 the *New York Times* reported the result, spelling his name \"Hubbell\". The formal announcement came on 1 January 1925 at a joint meeting of the American Association for the Advancement of Science and the American Astronomical Society in Washington. Hubble stayed in California and mailed his paper; Henry Norris Russell of Princeton presented it. It shared that year's 1,000-dollar prize of the Association with Lemuel Cleveland's study of the microbes that live in termites' guts, 500 dollars each.\n\nHubble was not alone on this road. In 1917 George Ritchey and Heber Curtis had found novae in spirals and argued from their faintness for great distances. In 1922 the Estonian astronomer Ernst Öpik estimated Andromeda's distance a different way — from how fast it rotates and how much mass that speed implies — and got about 1.5 million light-years, closer to today's figure than Hubble's. Öpik had just spent two years, from 1919 to 1921, in Tashkent, where he chaired astronomy at the newly founded Turkestan University and worked to revive the city's observatory. His method rested on assumptions few astronomers trusted. A Cepheid was a measuring stick they already used every day, and that is why Hubble's star, not Öpik's calculation, ended the argument. Leavitt, whose rule made it possible, had died in 1921.\n\n### Why it was hard\n\nThe stars were at the edge of what any instrument could catch. Only the 100-inch telescope, completed in 1917, could record single Cepheids in Andromeda, and only on long photographic exposures compared plate by plate.\n\nThe evidence also conflicted, and the wrong side came from careful, respected work. Van Maanen's rotation measurements were later shown to be false: the Swedish astronomer Knut Lundmark re-measured the Triangulum nebula in 1926–27 and found no such motion, and Hubble did the same in 1935. Where van Maanen's error came from has never been clearly identified.\n\nEven the winning number was wrong. In 1952 Walter Baade showed that there are two kinds of Cepheid with different brightness rules, and the scale of the universe had to be roughly doubled. Andromeda is now placed about 2.5 million light-years away. The correction did not overturn Hubble's conclusion; it made the universe larger still.\n\n![The Andromeda Galaxy photographed in 2010](https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg \"Adam Evans · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg\")\n\n### What it opened\n\nThe spirals became galaxies, and the Milky Way became one galaxy among many. In 1926 Hubble sorted galaxies by shape into ellipticals, spirals and barred spirals, a scheme still taught today. With distances in hand, Hubble could set them against the speeds Vesto Slipher had been measuring since 1912, together with new ones from Milton Humason. In 1929 he showed that the farther a galaxy is, the faster it moves away. Georges Lemaître had already argued in 1927, from similar data, that the universe is expanding. Today's surveys put the number of galaxies in the observable universe in the hundreds of billions.",
+      "why_it_matters": "In little more than a year the universe became vastly bigger: the Milky Way was one galaxy among countless others. Distances to galaxies then made it possible, five years later, to find that the universe is expanding.",
+      "if_you_were_there": "In 1923 many astronomers thought the Milky Way might be the whole universe, and the fuzzy spiral in Andromeda a cloud of gas inside it.",
+      "place_name": "Mount Wilson Observatory",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Hubble, Andromeda'nın başka bir galaksi olduğunu gösteriyor",
+      "summary": "1924'te Edwin Hubble, Andromeda bulutsusunda nabız gibi atan bir yıldız buldu. Henrietta Leavitt'in kuralı onu Samanyolu'nun çok ötesinde gösterdi: galaksimiz birçoğundan biriydi.",
+      "body": "![Hubble'ın Ekim 1923 tarihli Andromeda bulutsusu levhası: \"N\" harfi çizilmiş, yıldızın yanına \"VAR!\" yazılmış; yanında aynı yıldızın Hubble Uzay Teleskobu ile çekilmiş güncel görüntüsü](https://upload.wikimedia.org/wikipedia/commons/5/51/Snapshots_of_the_star_that_changed_the_Universe_%28opo1115d%29.jpg \"Illustration Credit: NASA , ESA and Z. Levay ( STScI ). Credit: NASA , ESA and the Hubble Heritage Team ( STScI / AURA ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Snapshots_of_the_star_that_changed_the_Universe_(opo1115d).jpg\")\n\n### Sahne\n\n1920'de evrende tek bir galaksi mi yoksa çok sayıda galaksi mi olduğunu kimse bilmiyordu. Teleskopla bakınca gökyüzü bulutsu denen soluk, bulanık lekelerle doluydu ve bunların çoğu sarmal biçimliydi. En parlakları Andromeda takımyıldızındadır ve karanlık bir gecede çıplak gözle görülebilir. 964 dolaylarında İranlı gökbilimci Abdurrahman es-Sufi onu *Sabit Yıldızlar Kitabı*'nda \"küçük bulut\" diye kaydetmişti.\n\n![Sufi'nin Sabit Yıldızlar Kitabı'nın 1009–1010'da yapılmış bir kopyasında Andromeda takımyıldızı](https://upload.wikimedia.org/wikipedia/commons/9/9f/Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg \"Abd al-Rahman al-Sufi · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg\")\n\n1610'da Galileo'nun teleskobu, Samanyolu'nun soluk şeridinin sayısız yıldızdan oluştuğunu göstermişti. 1755'te Alman filozof Immanuel Kant, bazı bulutsuların bizimki gibi yıldız sistemleri olabileceğini, yıldızlarının bir parıltıya karışacak kadar uzakta durduğunu öne sürdü — bu fikre sonradan \"ada evrenler\" denecekti. Bu bir tahmindi: bir bulutsunun ne kadar uzakta olduğunu kimse ölçemiyordu.\n\n26 Nisan 1920'de Washington'da Harlow Shapley ile Heber Curtis bu soruyu herkesin önünde tartıştı. Shapley, Samanyolu'nu yaklaşık 300.000 ışık yılı genişliğinde dev bir sistem olarak haritalamıştı; ona göre bu, sarmalları da içine alacak kadar büyüktü. Curtis ise Samanyolu'nun çok daha küçük olduğunu, sarmalların onun epey dışında ayrı sistemler olduğunu savunuyordu. İkisinin de kanıtı vardı. Curtis, sarmallarda görülen novaları — birden parlayan yıldızları — gösterdi: bunlar kendi galaksimizdeki novalardan çok daha sönüktü ve sarmallar çok uzaksa bu anlaşılırdı. Shapley ise Mount Wilson Gözlemevi'nden Adriaan van Maanen'e dayanıyordu: van Maanen, yıllar arayla çekilmiş fotoğraflarda sarmalların gözle görülür biçimde döndüğünü ölçtüğünü bildirmişti; o kadar hızlı dönen bir sarmal yakında olmalıydı. Toplantı hiçbir şeyi çözmedi.\n\n### Ne oldu\n\nMeseleyi çözen araç, Harvard Koleji Gözlemevi'nde çalışan Henrietta Swan Leavitt'ten geldi. Orada kadınlar, fotoğraf levhalarını yıldız yıldız incelemek için \"hesapçı\" olarak çalıştırılıyordu. Leavitt, Sefeid denen nabız gibi atan yıldızları incelerken 1912'de şunu buldu: bir Sefeid ne kadar yavaş atıyorsa, gerçekte o kadar parlaktır. Atışın süresini ölçersen yıldızın gerçek parlaklığını bilirsin; bunu ne kadar sönük göründüğüyle karşılaştırırsan uzaklığını bulursun. Shapley de Samanyolu'nu ölçerken onun kuralını kullanmıştı.\n\n> [!THEORY]\n> Lambalarla dizili karanlık bir yol düşün. Her lambanın aynı 100 vatlık ampul olduğunu biliyorsan, sönük görünenler sadece daha uzaktadır ve ne kadar sönük göründüklerinden ne kadar uzak olduklarını hesaplayabilirsin. Sefeid, kaç vat olduğunu yanıp sönme ritmiyle kendisi söyleyen bir lambadır. Benzetme şurada bozulur: ampulün gücü kutusunun üstünde yazar, oysa Leavitt'in kuralı, uzaklıkları kendileri de belirsiz olan yakın yıldızlarla ayarlanmak zorundaydı; yıldızlar arasındaki toz da ışığı kuralın göremeyeceği biçimde kısar — bu yüzden her uzaklık gizli hatalar taşıyordu.\n\n5–6 Ekim 1923 gecesi Edwin Hubble, Kaliforniya'daki Mount Wilson'da, o zaman dünyanın en büyük teleskobu olan 100 inçlik Hooker teleskobuyla Andromeda bulutsusunu fotoğrafladı. Nova arıyordu ve üç adayı \"N\" harfiyle işaretledi. Levhayı gözlemevi arşivindeki eski levhalarla karşılaştırınca bunlardan birinin tekrar tekrar parlayıp söndüğünü gördü. \"N\"yi çizdi ve yanına \"VAR!\" yazdı — değişen yıldız. Sonraki aylarda onu izledi ve 31,4 günde bir attığını buldu: bir Sefeid.\n\nLeavitt'in kuralı bu ritmi bir milyon ışık yılına yakın bir uzaklığa çevirdi; bu, Shapley'nin bütün Samanyolu için verdiği boyutun birkaç katıydı. Andromeda, galaksimizin içinde bir bulut değildi. Kendi başına bir galaksiydi.\n\n1924'ün başında Hubble, artık Harvard Koleji Gözlemevi'nin müdürü olan Shapley'ye yazdı ve yıldızın ışık eğrisini gönderdi. Yıllar sonra anlatılan ve genellikle o sırada Harvard'da genç bir gökbilimci olan Cecilia Payne'e dayandırılan bir hikâyeye göre Shapley mektubu uzatıp şöyle demiş: \"İşte evrenimi yıkan mektup.\" Bu sözler o sonraki hatırlamaya dayanıyor; kayıtlara göre Shapley önce temkinli davrandı, sonra ölçümü kabul etti.\n\nHubble acele etmedi. Van Maanen'in kendi gözlemevinde ölçtüğü dönen sarmallar hâlâ tersini gösteriyordu. 1924'ün sonuna kadar Andromeda'da bir düzine Sefeid, Üçgen bulutsusunda da birkaç tane daha buldu. Haberi önce halk duydu: 23 Kasım 1924'te *New York Times* sonucu duyurdu ve adını \"Hubbell\" diye yanlış yazdı. Resmî duyuru 1 Ocak 1925'te Washington'da Amerikan Bilimin İlerlemesi Derneği ile Amerikan Astronomi Derneği'nin ortak toplantısında yapıldı. Hubble Kaliforniya'da kaldı ve makalesini postayla gönderdi; onu Princeton'dan Henry Norris Russell sundu. Makale, derneğin o yılki 1.000 dolarlık ödülünü Lemuel Cleveland'ın termitlerin bağırsağında yaşayan mikroplar üzerine çalışmasıyla paylaştı; ikisine 500'er dolar düştü.\n\nHubble bu yolda yalnız değildi. 1917'de George Ritchey ve Heber Curtis sarmallarda novalar bulmuş, sönüklüklerinden yola çıkarak büyük uzaklıkları savunmuştu. 1922'de Estonyalı gökbilimci Ernst Öpik, Andromeda'nın uzaklığını başka bir yoldan — ne kadar hızlı döndüğünden ve bu hızın ne kadar kütle gerektirdiğinden — hesapladı ve yaklaşık 1,5 milyon ışık yılı buldu; bu, bugünkü değere Hubble'ınkinden daha yakındı. Öpik, 1919'dan 1921'e iki yılı Taşkent'te geçirmişti: yeni kurulan Türkistan Üniversitesi'nde astronomi kürsüsünün başındaydı ve şehrin gözlemevini yeniden canlandırmaya çalıştı. Yöntemi, çok az gökbilimcinin güvendiği varsayımlara dayanıyordu. Sefeid ise onların her gün kullandığı bir ölçü çubuğuydu; tartışmayı Öpik'in hesabı değil de Hubble'ın yıldızı bu yüzden bitirdi. Kuralıyla bunu mümkün kılan Leavitt 1921'de ölmüştü.\n\n### Neden zordu\n\nBu yıldızlar her aletin yakalayabileceği sınırın kıyısındaydı. Andromeda'daki tek tek Sefeidleri yalnızca 1917'de tamamlanan 100 inçlik teleskop kaydedebiliyordu, o da ancak uzun fotoğraf pozlamalarıyla ve levhalar tek tek karşılaştırılarak.\n\nKanıtlar da çelişiyordu ve yanlış taraf özenli, saygın bir çalışmadan geliyordu. Van Maanen'in dönme ölçümlerinin yanlış olduğu sonradan gösterildi: İsveçli gökbilimci Knut Lundmark 1926–27'de Üçgen bulutsusunu yeniden ölçtü ve böyle bir hareket bulamadı; Hubble da 1935'te aynısını yaptı. Van Maanen'in hatasının nereden geldiği hiçbir zaman açıkça belirlenemedi.\n\nKazanan sayı bile yanlıştı. 1952'de Walter Baade, parlaklık kuralları farklı iki tür Sefeid olduğunu gösterdi ve evrenin ölçeğinin kabaca iki katına çıkarılması gerekti. Andromeda bugün yaklaşık 2,5 milyon ışık yılı uzağa yerleştiriliyor. Bu düzeltme Hubble'ın vardığı sonucu yıkmadı; evreni daha da büyüttü.\n\n![2010'da fotoğraflanmış Andromeda Galaksisi](https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg \"Adam Evans · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg\")\n\n### Sonrası\n\nSarmallar galaksi oldu, Samanyolu da birçok galaksiden biri. 1926'da Hubble galaksileri biçimlerine göre eliptik, sarmal ve çubuklu sarmal diye sınıflandırdı; bu düzen bugün hâlâ öğretiliyor. Elinde uzaklıklar olunca Hubble bunları Vesto Slipher'ın 1912'den beri ölçtüğü hızlarla ve Milton Humason'ın yeni ölçümleriyle karşılaştırabildi. 1929'da bir galaksi ne kadar uzaktaysa o kadar hızlı uzaklaştığını gösterdi. Georges Lemaître ise 1927'de benzer verilerden evrenin genişlediğini zaten savunmuştu. Bugünkü gözlemler, gözlemlenebilir evrendeki galaksi sayısını yüz milyarlarla ifade ediyor.",
+      "why_it_matters": "Bir yıldan biraz fazla bir sürede evren kat kat büyüdü: Samanyolu sayısız galaksiden biri oldu. Galaksilerin uzaklıkları, beş yıl sonra evrenin genişlediğini bulmayı mümkün kıldı.",
+      "if_you_were_there": "1923'te pek çok gökbilimci Samanyolu'nun bütün evren olabileceğini, Andromeda'daki bulanık sarmalın da onun içinde bir gaz bulutu olduğunu düşünüyordu.",
+      "place_name": "Mount Wilson Gözlemevi",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Хаббл показывает, что Андромеда — другая галактика",
+      "summary": "В 1924 году Эдвин Хаббл нашёл в туманности Андромеды пульсирующую звезду. Правило Генриетты Ливитт дало расстояние далеко за Млечным Путём: наша Галактика — одна из многих.",
+      "body": "![Фотопластинка Хаббла с туманностью Андромеды, октябрь 1923 года: буква «N» зачёркнута, рядом со звездой написано «VAR!»; рядом — современный снимок той же звезды телескопом «Хаббл»](https://upload.wikimedia.org/wikipedia/commons/5/51/Snapshots_of_the_star_that_changed_the_Universe_%28opo1115d%29.jpg \"Illustration Credit: NASA , ESA and Z. Levay ( STScI ). Credit: NASA , ESA and the Hubble Heritage Team ( STScI / AURA ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Snapshots_of_the_star_that_changed_the_Universe_(opo1115d).jpg\")\n\n### Обстановка\n\nВ 1920 году никто не знал, одна во Вселенной галактика или много. В телескопы небо было полно слабых размытых пятен — туманностей, и многие из них имели форму спирали. Самая яркая, в созвездии Андромеды, видна невооружённым глазом в тёмную ночь. Около 964 года персидский астроном Абд ар-Рахман ас-Суфи описал её в своей «Книге неподвижных звёзд» как «маленькое облачко».\n\n![Созвездие Андромеды в копии «Книги неподвижных звёзд» ас-Суфи, сделанной в 1009–1010 годах](https://upload.wikimedia.org/wikipedia/commons/9/9f/Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg \"Abd al-Rahman al-Sufi · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg\")\n\nВ 1610 году телескоп Галилея показал, что бледная полоса Млечного Пути состоит из бесчисленных звёзд. В 1755 году немецкий философ Иммануил Кант предположил, что некоторые туманности могут быть звёздными системами вроде нашей, настолько далёкими, что их звёзды сливаются в сияние, — позже эту идею назвали «островными вселенными». Это была догадка: измерить расстояние до туманности не мог никто.\n\n26 апреля 1920 года в Вашингтоне Харлоу Шепли и Гебер Кертис публично спорили об этом. Шепли нанёс на карту Млечный Путь как огромную систему поперечником около 300 000 световых лет — по его мнению, достаточно большую, чтобы вместить и спирали. Кертис считал, что Млечный Путь гораздо меньше, а спирали — отдельные системы далеко за его пределами. Доводы были у обоих. Кертис указывал на новые звёзды — внезапно вспыхивающие звёзды, — замеченные в спиралях: они были намного слабее новых в нашей Галактике, и это объяснялось, если спирали очень далеки. Шепли опирался на Адриана ван Маанена из обсерватории Маунт-Вилсон, который сообщал, что измерил заметное вращение спиралей на снимках, сделанных с разницей в годы; спираль, вращающаяся так быстро, должна быть близко. Спор ничего не решил.\n\n### Что произошло\n\nИнструмент, решивший спор, создала Генриетта Суон Ливитт в обсерватории Гарвардского колледжа, где женщин нанимали «вычислительницами» — изучать фотопластинки звезда за звездой. Исследуя пульсирующие звёзды — цефеиды, она в 1912 году обнаружила: чем медленнее пульсирует цефеида, тем ярче она на самом деле. Измерь период пульсации — и узнаешь истинную яркость звезды; сравни её с видимой — и получишь расстояние. Сам Шепли пользовался её правилом, измеряя Млечный Путь.\n\n> [!THEORY]\n> Представьте тёмную дорогу с фонарями. Если известно, что в каждом фонаре одинаковая лампа на 100 ватт, то тусклые просто дальше, и по тому, насколько тусклыми они кажутся, можно вычислить расстояние. Цефеида — фонарь, который сам сообщает свою мощность ритмом мигания. Здесь аналогия ломается: мощность лампы написана на коробке, а правило Ливитт приходилось калибровать по ближним звёздам, расстояния до которых сами были неточны, к тому же пыль между звёздами ослабляет свет так, что правило этого не видит, — поэтому каждое расстояние несло скрытые ошибки.\n\nВ ночь с 5 на 6 октября 1923 года Эдвин Хаббл сфотографировал туманность Андромеды 100-дюймовым телескопом Хукера на горе Маунт-Вилсон в Калифорнии, тогда крупнейшим в мире. Он искал новые звёзды и отметил трёх кандидатов буквой «N». Сравнив пластинку со старыми снимками из архива обсерватории, он увидел, что одна из них снова и снова то разгорается, то гаснет. Он зачеркнул «N» и написал «VAR!» — переменная. Наблюдая её следующие месяцы, он нашёл, что она пульсирует с периодом 31,4 суток: это была цефеида.\n\nПравило Ливитт превратило этот ритм в расстояние почти в миллион световых лет — в несколько раз больше, чем размер всего Млечного Пути по Шепли. Андромеда оказалась не облаком внутри нашей Галактики, а отдельной галактикой.\n\nВ начале 1924 года Хаббл написал Шепли, к тому времени директору обсерватории Гарвардского колледжа, и отправил ему кривую блеска звезды. По рассказу, записанному много лет спустя и обычно восходящему к Сесилии Пейн, тогда молодому астроному в Гарварде, Шепли протянул письмо со словами: «Вот письмо, которое разрушило мою Вселенную». Эти слова держатся на позднем воспоминании; по документам, Шепли сначала отнёсся к нему осторожно, а затем принял измерение.\n\nХаббл не торопился. Вращающиеся спирали ван Маанена, измеренные в его же обсерватории, всё ещё говорили обратное. К концу 1924 года он нашёл дюжину цефеид в Андромеде и ещё несколько в туманности Треугольника. Публика узнала первой: 23 ноября 1924 года газета *New York Times* сообщила о результате, написав его фамилию с ошибкой — «Hubbell». Официально работу представили 1 января 1925 года в Вашингтоне на совместном заседании Американской ассоциации содействия развитию науки и Американского астрономического общества. Хаббл остался в Калифорнии и прислал статью почтой; доложил её Генри Норрис Рассел из Принстона. Работа разделила премию ассоциации того года в 1000 долларов с исследованием Лемюэла Кливленда о микробах, живущих в кишечнике термитов, — по 500 долларов каждому.\n\nХаббл шёл этой дорогой не один. В 1917 году Джордж Ричи и Гебер Кертис нашли новые звёзды в спиралях и по их слабости отстаивали большие расстояния. В 1922 году эстонский астроном Эрнст Эпик оценил расстояние до Андромеды иначе — по скорости её вращения и массе, которую такая скорость подразумевает, — и получил около 1,5 миллиона световых лет, ближе к современному значению, чем у Хаббла. Перед этим Эпик два года, с 1919 по 1921-й, провёл в Ташкенте: возглавлял кафедру астрономии в только что основанном Туркестанском университете и восстанавливал городскую обсерваторию. Его метод опирался на допущения, которым мало кто из астрономов доверял. Цефеиды же были мерной линейкой, которой они пользовались каждый день, — поэтому спор закончила звезда Хаббла, а не расчёт Эпика. Ливитт, чьё правило всё это сделало возможным, умерла в 1921 году.\n\n### Почему это было трудно\n\nЭти звёзды были на пределе возможностей любого прибора. Отдельные цефеиды в Андромеде мог зарегистрировать только 100-дюймовый телескоп, достроенный в 1917 году, и то лишь на долгих фотографических экспозициях, сравнивая пластинку за пластинкой.\n\nДанные к тому же противоречили друг другу, и ошибочная сторона опиралась на тщательную работу уважаемого наблюдателя. Позже выяснилось, что измерения вращения у ван Маанена неверны: шведский астроном Кнут Лундмарк в 1926–1927 годах заново измерил туманность Треугольника и такого движения не нашёл, а в 1935 году то же сделал Хаббл. Откуда взялась ошибка ван Маанена, так и не удалось ясно установить.\n\nДаже победившее число было неверным. В 1952 году Вальтер Бааде показал, что существуют два типа цефеид с разными правилами яркости, и масштаб Вселенной пришлось увеличить примерно вдвое. Сегодня расстояние до Андромеды оценивают примерно в 2,5 миллиона световых лет. Поправка не опровергла вывод Хаббла — она сделала Вселенную ещё больше.\n\n![Галактика Андромеды на снимке 2010 года](https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg \"Adam Evans · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg\")\n\n### Что это открыло\n\nСпирали стали галактиками, а Млечный Путь — одной галактикой из многих. В 1926 году Хаббл разделил галактики по форме на эллиптические, спиральные и спиральные с перемычкой — эту схему преподают до сих пор. Имея расстояния, Хаббл смог сопоставить их со скоростями, которые Весто Слайфер измерял с 1912 года, и с новыми измерениями Милтона Хьюмасона. В 1929 году он показал: чем дальше галактика, тем быстрее она удаляется. Жорж Леметр ещё в 1927 году по похожим данным утверждал, что Вселенная расширяется. Современные обзоры оценивают число галактик в наблюдаемой Вселенной в сотни миллиардов.",
+      "why_it_matters": "Чуть больше чем за год Вселенная стала несравнимо больше: Млечный Путь оказался одной из бесчисленных галактик. Расстояния до галактик через пять лет позволили обнаружить, что Вселенная расширяется.",
+      "if_you_were_there": "В 1923 году многие астрономы считали, что Млечный Путь, возможно, и есть вся Вселенная, а размытая спираль в Андромеде — газовое облако внутри него.",
+      "place_name": "Обсерватория Маунт-Вилсон",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Хаббл Андромеда башка галактика экенин көрсөтөт",
+      "summary": "1924-жылы Эдвин Хаббл Андромеда тумандуулугунан согуп турган жылдыз тапкан. Ливиттин эрежеси аны Саманчынын жолунан алда канча алыс жайгаштырды: биздин галактика көптүн бири.",
+      "body": "![Хабблдын 1923-жылдын октябрындагы Андромеда тумандуулугунун пластинкасы: «N» тамгасы сызылып, жылдыздын жанына «VAR!» деп жазылган; жанында ошол эле жылдыздын «Хаббл» телескобу менен тартылган азыркы сүрөтү](https://upload.wikimedia.org/wikipedia/commons/5/51/Snapshots_of_the_star_that_changed_the_Universe_%28opo1115d%29.jpg \"Illustration Credit: NASA , ESA and Z. Levay ( STScI ). Credit: NASA , ESA and the Hubble Heritage Team ( STScI / AURA ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Snapshots_of_the_star_that_changed_the_Universe_(opo1115d).jpg\")\n\n### Окуянын алдында\n\n1920-жылы Ааламда бир эле галактика барбы же көппү, муну эч ким билген эмес. Телескоп менен караганда асман тумандуулук деп аталган күңүрт, бүдөмүк тактарга толуп турган, алардын көбү спираль формасында болгон. Алардын эң жарыгы Андромеда топ жылдызында жайгашкан, караңгы түнү аны жөнөкөй көз менен деле көрүүгө болот. Болжол менен 964-жылы перс астроному Абд ар-Рахман ас-Суфи аны өзүнүн *Туруктуу жылдыздар китебинде* «кичинекей булут» деп жазып калтырган.\n\n![Ас-Суфинин Туруктуу жылдыздар китебинин 1009–1010-жылдары жасалган көчүрмөсүндөгү Андромеда топ жылдызы](https://upload.wikimedia.org/wikipedia/commons/9/9f/Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg \"Abd al-Rahman al-Sufi · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Book_of_the_Fixed_Stars_Auv0175_andromeda.jpg\")\n\n1610-жылы Галилейдин телескобу Саманчынын жолунун агыш тилкеси сансыз жылдыздардан турарын көрсөткөн. 1755-жылы немис философу Иммануил Кант айрым тумандуулуктар биздикиндей жылдыз системалары болушу мүмкүн, алардын жылдыздары бир нурга аралашып кеткендей алыс турат деген ойду айткан. Кийин бул идея «арал ааламдар» деп аталып калган. Бирок бул болжолдоо гана эле: тумандуулукка чейинки аралыкты эч ким өлчөй алган эмес.\n\n1920-жылдын 26-апрелинде Вашингтондо Харлоу Шепли менен Гебер Кертис бул маселе боюнча эл алдында талашкан. Шепли Саманчынын жолун туурасы 300 000 жарык жылына жакын зор система катары картага түшүргөн; анын оюнча, ал спиралдарды да ичине батыра турган чоңдукта болгон. Кертис болсо Саманчынын жолу алда канча кичине, ал эми спиралдар андан алыс сыртта турган өзүнчө системалар деп эсептеген. Экөөнүн тең далили болгон. Кертис спиралдарда көрүнгөн жаңы жылдыздарды — капысынан жарк этип күйүп кеткен жылдыздарды — мисалга келтирген: алар биздин галактикадагы жаңы жылдыздардан алда канча күңүрт болгон, спиралдар өтө алыс болсо, муну түшүнсө болот. Шепли болсо Вилсон тоосундагы обсерваториянын кызматкери Адриан ван Маанендин ишине таянган. Ван Маанен бир нече жыл аралыгында тартылган сүрөттөрдө спиралдардын көзгө көрүнө тургандай айланганын өлчөдүм деп билдирген; ушунчалык тез айланган спираль жакын жерде болушу керек эле. Талаш эч нерсени чечкен эмес.\n\n### Эмне болду\n\nМаселени чечкен куралды Гарвард колледжинин обсерваториясында иштеген Генриетта Суон Ливитт жараткан. Ал жерде аялдар фотопластинкаларды жылдыз-жылдызы менен карап чыгуу үчүн «эсептөөчү» болуп жалданышкан. Цефеида деп аталган, жүрөк сыяктуу согуп турган жылдыздарды изилдеп жүрүп, Ливитт 1912-жылы мындай нерсени ачкан: цефеида канчалык жай сокса, чындыгында ошончолук жарык болот. Согуунун мезгилин өлчөсөңүз, жылдыздын чыныгы жарыктыгын билесиз; аны көрүнгөн жарыктыгы менен салыштырсаңыз, аралыгын табасыз. Шепли өзү да Саманчынын жолун өлчөөдө анын эрежесин колдонгон.\n\n> [!THEORY]\n> Чырактар тизилген караңгы жолду элестетип көрүңүз. Ар бир чырактын ичинде бирдей эле 100 ватттык лампа экенин билсеңиз, күңүрт көрүнгөндөрү жөн гана алысыраак турат, канчалык күңүрт көрүнгөнүнөн канчалык алыс экенин эсептеп чыгууга болот. Цефеида — өзүнүн кубаттуулугун күйүп-өчүү ыргагы менен өзү айтып турган чырак. Бул салыштыруу мында бузулат: лампанын кубаттуулугу кутусуна жазылып турат, ал эми Ливиттин эрежесин аралыгы өзү да так эмес жакынкы жылдыздар боюнча тууралоого туура келген. Анын үстүнө жылдыздардын ортосундагы чаң жарыкты эреже байкай албаган жол менен күңүрттөтөт — ошондуктан ар бир аралык жашыруун каталарды камтыган.\n\n1923-жылдын 5-октябрынан 6-октябрына караган түнү Эдвин Хаббл Калифорниядагы Вилсон тоосунда, ошол кездеги дүйнөдөгү эң чоң телескоп болгон 100 дюймдук Хукер телескобу менен Андромеда тумандуулугун сүрөткө тарткан. Ал жаңы жылдыздарды издеп жүргөн жана үч талапкерди «N» тамгасы менен белгилеген. Пластинканы обсерваториянын архивиндеги эски пластинкалар менен салыштырганда, алардын бири кайра-кайра жарыгы күчөп, кайра өчүп турганын көргөн. Ал «N» тамгасын сызып салып, жанына «VAR!» — өзгөрмөлүү — деп жазган. Кийинки айларда аны байкап, ал 31,4 күндө бир жолу согорун аныктаган: бул цефеида болчу.\n\nЛивиттин эрежеси бул ыргакты миллион жарык жылына жакын аралыкка айландырган. Бул Шеплинин бүт Саманчынын жолуна берген өлчөмүнөн бир нече эсе чоң болгон. Андромеда биздин галактиканын ичиндеги булут эмес экен. Ал өзүнчө бир галактика болчу.\n\n1924-жылдын башында Хаббл ошол кезде Гарвард колледжинин обсерваториясынын директору болуп калган Шеплиге кат жазып, жылдыздын жарык ийри сызыгын жиберген. Көп жылдардан кийин айтылган жана адатта ошол учурда Гарвардда жаш астроном болгон Сесилия Пейнге таандык кылынган окуя боюнча, Шепли катты сунуп: «Мына, менин Ааламымды талкалаган кат», — деген экен. Бул сөздөр ошол кийинки эскерүүгө гана таянат; документтер боюнча, Шепли адегенде этият мамиле кылып, кийин өлчөөнү кабыл алган.\n\nХаббл шашкан эмес. Ван Маанендин өзү иштеген обсерваторияда өлчөнгөн айланган спиралдары дагы эле тескерисин көрсөтүп турган. 1924-жылдын аягына чейин ал Андромедадан он эки цефеида, Үч бурчтук тумандуулугунан дагы бир нечесин тапкан. Жаңылыкты биринчи эл уккан: 1924-жылдын 23-ноябрында *New York Times* гезити натыйжа тууралуу жазып, анын фамилиясын «Hubbell» деп ката жазган. Расмий билдирүү 1925-жылдын 1-январында Вашингтондо Америка илимди өнүктүрүү ассоциациясы менен Америка астрономиялык коомунун биргелешкен жыйынында болгон. Хаббл Калифорнияда калып, макаласын почта аркылуу жиберген; аны Принстондон келген Генри Норрис Рассел окуп берген. Макала ассоциациянын ошол жылкы 1000 доллардык сыйлыгын Лемюэл Кливлендин термиттердин ичегисинде жашаган микробдор боюнча изилдөөсү менен бөлүшкөн — ар бирине 500 доллардан тийген.\n\nБул жолдо Хаббл жалгыз болгон эмес. 1917-жылы Джордж Ричи менен Гебер Кертис спиралдардан жаңы жылдыздарды таап, алардын күңүрттүгүнө карап чоң аралыктарды жактаган. 1922-жылы эстон астроному Эрнст Эпик Андромедага чейинки аралыкты башка жол менен — анын канчалык тез айланганына жана мындай ылдамдык канча массаны талап кыларына карап — эсептеп, болжол менен 1,5 миллион жарык жылы деген жыйынтыкка келген. Бул азыркы маанига Хабблдыкынан жакыныраак болгон. Эпик буга чейин, 1919-жылдан 1921-жылга чейин, эки жыл Ташкентте жашаган: жаңы ачылган Түркстан университетинде астрономия кафедрасын жетектеп, шаардын обсерваториясын кайра жандандырууга аракет кылган. Анын ыкмасы астрономдордун азы гана ишенген божомолдорго негизделген. Цефеида болсо алар күн сайын колдонгон өлчөө сызгычы эле — ошондуктан талашты Эпиктин эсеби эмес, Хабблдын жылдызы бүтүргөн. Эрежеси менен мунун баарын мүмкүн кылган Ливитт 1921-жылы дүйнөдөн кайткан.\n\n### Эмнеси кыйын болду\n\nБул жылдыздар ар кандай аспап кармай ала турган чектин так четинде турган. Андромедадагы өзүнчө цефеидаларды 1917-жылы курулуп бүткөн 100 дюймдук телескоп гана жаздыра алган, анда да узак фотографиялык экспозиция менен жана пластинкаларды бирден салыштыруу аркылуу гана.\n\nДалилдер да бири-бирине каршы келген, жана жаңылыш тарап кылдат, кадырлуу эмгекке таянган. Ван Маанендин айлануу боюнча өлчөөлөрү кийин туура эмес экени көрсөтүлгөн: швед астроному Кнут Лундмарк 1926–1927-жылдары Үч бурчтук тумандуулугун кайра өлчөп, мындай кыймылды тапкан эмес, 1935-жылы Хаббл да ошондой кылган. Ван Маанендин катасы кайдан чыкканы так аныкталбай калган.\n\nЖеңген сан да туура эмес болчу. 1952-жылы Вальтер Бааде цефеидалардын жарыктык эрежелери ар башка эки түрү бар экенин көрсөткөн, ошондо Ааламдын масштабын болжол менен эки эсе чоңойтууга туура келген. Бүгүн Андромеда болжол менен 2,5 миллион жарык жылы алыстыкта деп эсептелет. Бул оңдоо Хабблдын жыйынтыгын жокко чыгарган жок — Ааламды андан да чоң кылды.\n\n![2010-жылы тартылган Андромеда галактикасы](https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg \"Adam Evans · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg\")\n\n### Эмнеге жол ачты\n\nСпиралдар галактика болуп чыкты, Саманчынын жолу болсо көп галактикалардын бири болуп калды. 1926-жылы Хаббл галактикаларды формасына карап эллипстик, спиралдык жана тилкелүү спиралдык деп бөлгөн — бул тартип азыр да окутулат. Колунда аралыктар болгондо, Хаббл аларды Весто Слайфер 1912-жылдан бери өлчөп келген ылдамдыктар жана Милтон Хьюмасондун жаңы өлчөөлөрү менен салыштыра алган. 1929-жылы ал галактика канчалык алыс болсо, ошончолук тез алыстап баратканын көрсөткөн. Ал эми Жорж Леметр 1927-жылы эле ушуга окшош маалыматтардын негизинде Аалам кеңейип жатат деп айткан. Азыркы байкоолор байкалуучу Ааламдагы галактикалардын санын жүздөгөн миллиард деп баалайт.",
+      "why_it_matters": "Бир жылдан бир аз ашык убакытта Аалам алда канча чоңойду: Саманчынын жолу сансыз галактикалардын бири болуп калды. Галактикаларга чейинки аралыктар беш жылдан кийин Аалам кеңейип жатканын табууга мүмкүнчүлүк берди.",
+      "if_you_were_there": "1923-жылы көптөгөн астрономдор Саманчынын жолу бүт Аалам болушу мүмкүн, ал эми Андромедадагы бүдөмүк спираль анын ичиндеги газ булуту деп ойлошкон.",
+      "place_name": "Вилсон тоосундагы обсерватория",
+      "status": "machine"
+    }
+  }
+}
