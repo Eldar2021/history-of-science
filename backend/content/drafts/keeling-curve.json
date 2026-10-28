@@ -1,0 +1,243 @@
+{
+  "slug": "keeling-curve",
+  "year": 1958,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 19.5362,
+  "lng": -155.5763,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Keeling_Curve_full_record.png",
+    "credit": "Scrippsnews",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Keeling_Curve_full_record.png"
+  },
+  "disciplines": [
+    "earth"
+  ],
+  "people": [
+    {
+      "slug": "charles-david-keeling",
+      "birth_year": 1928,
+      "death_year": 2005,
+      "role": "author",
+      "name": {
+        "en": "Charles David Keeling",
+        "tr": "Charles David Keeling",
+        "ru": "Чарльз Дэвид Килинг",
+        "ky": "Чарльз Дэвид Килинг"
+      }
+    },
+    {
+      "slug": "roger-revelle",
+      "birth_year": 1909,
+      "death_year": 1991,
+      "role": "contemporary",
+      "name": {
+        "en": "Roger Revelle",
+        "tr": "Roger Revelle",
+        "ru": "Роджер Ревелл",
+        "ky": "Роджер Ревелл"
+      }
+    },
+    {
+      "slug": "hans-suess",
+      "birth_year": 1909,
+      "death_year": 1993,
+      "role": "contemporary",
+      "name": {
+        "en": "Hans Suess",
+        "tr": "Hans Suess",
+        "ru": "Ханс Зюсс",
+        "ky": "Ханс Зюсс"
+      }
+    },
+    {
+      "slug": "harry-wexler",
+      "birth_year": 1911,
+      "death_year": 1962,
+      "role": "contemporary",
+      "name": {
+        "en": "Harry Wexler",
+        "tr": "Harry Wexler",
+        "ru": "Гарри Уэкслер",
+        "ky": "Гарри Уэкслер"
+      }
+    },
+    {
+      "slug": "eunice-newton-foote",
+      "birth_year": 1819,
+      "death_year": 1888,
+      "role": "predecessor",
+      "name": {
+        "en": "Eunice Newton Foote",
+        "tr": "Eunice Newton Foote",
+        "ru": "Юнис Ньютон Фут",
+        "ky": "Юнис Ньютон Фут"
+      }
+    },
+    {
+      "slug": "john-tyndall",
+      "birth_year": 1820,
+      "death_year": 1893,
+      "role": "predecessor",
+      "name": {
+        "en": "John Tyndall",
+        "tr": "John Tyndall",
+        "ru": "Джон Тиндаль",
+        "ky": "Джон Тиндаль"
+      }
+    },
+    {
+      "slug": "svante-arrhenius",
+      "birth_year": 1859,
+      "death_year": 1927,
+      "role": "predecessor",
+      "name": {
+        "en": "Svante Arrhenius",
+        "tr": "Svante Arrhenius",
+        "ru": "Сванте Аррениус",
+        "ky": "Сванте Аррениус"
+      }
+    },
+    {
+      "slug": "guy-callendar",
+      "birth_year": 1898,
+      "death_year": 1964,
+      "role": "predecessor",
+      "name": {
+        "en": "Guy Callendar",
+        "tr": "Guy Callendar",
+        "ru": "Гай Каллендар",
+        "ky": "Гай Каллендар"
+      }
+    },
+    {
+      "slug": "mikhail-budyko",
+      "birth_year": 1920,
+      "death_year": 2001,
+      "role": "contemporary",
+      "name": {
+        "en": "Mikhail Budyko",
+        "tr": "Mihail Budıko",
+        "ru": "Михаил Будыко",
+        "ky": "Михаил Будыко"
+      }
+    },
+    {
+      "slug": "ralph-keeling",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Ralph Keeling",
+        "tr": "Ralph Keeling",
+        "ru": "Ральф Килинг",
+        "ky": "Ральф Килинг"
+      }
+    }
+  ],
+  "builds_on": [
+    "arrhenius-greenhouse-effect"
+  ],
+  "sources": [
+    {
+      "title": "Keeling Curve — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Keeling_Curve"
+    },
+    {
+      "title": "Charles David Keeling — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_David_Keeling"
+    },
+    {
+      "title": "Mauna Loa Observatory — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Mauna_Loa_Observatory"
+    },
+    {
+      "title": "Eunice Newton Foote — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eunice_Newton_Foote"
+    },
+    {
+      "title": "The History of the Keeling Curve — Scripps Institution of Oceanography, UC San Diego",
+      "kind": "other",
+      "url": "https://keelingcurve.ucsd.edu/?p=276"
+    },
+    {
+      "title": "Spencer Weart, \"The Carbon Dioxide Greenhouse Effect\", The Discovery of Global Warming — American Institute of Physics",
+      "kind": "other",
+      "url": "https://history.aip.org/climate/co2.htm"
+    },
+    {
+      "title": "Spencer Weart, \"Money for Keeling: Monitoring CO2 Levels\", The Discovery of Global Warming — American Institute of Physics",
+      "kind": "other",
+      "url": "https://history.aip.org/climate/Kfunds.htm"
+    },
+    {
+      "title": "Historic Keeling Curve observation interrupted by volcanic eruption — Scripps (2022)",
+      "kind": "other",
+      "url": "https://scripps.ucsd.edu/news/historic-keeling-curve-observation-interrupted-volcanic-eruption"
+    },
+    {
+      "title": "Annual Carbon Dioxide Peak Reaches 432 Parts per Million — UC San Diego Today (2026)",
+      "kind": "other",
+      "url": "https://today.ucsd.edu/story/annual-carbon-dioxide-peak-reaches-432-parts-per-million"
+    },
+    {
+      "title": "The Keeling Curve: Carbon Dioxide Measurements at Mauna Loa — American Chemical Society National Historic Chemical Landmark (2015)",
+      "kind": "other",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/keeling-curve.html"
+    },
+    {
+      "title": "Keeling Curve — Encyclopaedia Britannica (for the human reviewer)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/Keeling-Curve"
+    }
+  ],
+  "research_note": "Researched 2026-10-28 against English Wikipedia (Keeling Curve; Charles David Keeling; Mauna Loa Observatory; Eunice Newton Foote), Scripps \"History of the Keeling Curve\" (Caltech 1953 under Harrison Brown, precision manometer, Big Sur/Olympic Peninsula/Arizona, afternoon ~310 ppm; Revelle and Wexler 1956; four Applied Physics Corporation infrared analysers with Weather Bureau IGY funds; Mauna Loa March 1958, 313 ppm on the first day; peak May, minimum October 1958; 1960 Tellus paper), AIP/Weart \"The Carbon Dioxide Greenhouse Effect\" and \"Money for Keeling\" (Arrhenius 'perhaps three thousand years'; Callendar 1938 ~10%, engineer; Revelle-Suess 'large scale geophysical experiment'; 1960 report with two full Antarctic years; Antarctic monitoring abandoned; Budyko 1962; 1963 Conservation Foundation, 1965 PSAC), Scripps 2022 eruption news (1964 gap, 1984 gap 26 March-29 April), UC San Diego Today 2026 (May 2026 monthly 432.00 Scripps / 432.3 NOAA). ACS landmark page and APS News page returned 403; Britannica linked for the human only.\nYEAR: 1958, exact. APS News (via search snippet only) gives the first reading as 29 March 1958; the body says only \"March 1958\". A Keeling biography figure of 315 ppm is the 1958 annual mean, not the first-day value.\nFLAGGED IN THE BODY: (1) 1964 gap: Scripps attributes it to federal budget cuts, Weart to an instrument failure after NSF money rescued the 1963 cut; the body states both. (2) Foote's claim is phrased as she did (retrospective: if the air once held more of the gas, Earth would have been warmer). (3) Budyko 1962 kept to Weart's wording (exponential industrial growth, drastic warming within a century); the fact-checker suspects his mechanism was waste heat from energy use rather than CO2 - not confirmed, so the body names no mechanism.\nREVIEWER SHOULD CHECK: (1) Budyko's 1962 mechanism (CO2 vs waste heat) - if it was waste heat, consider saying so or dropping the sentence. (2) Calibration against reference gases is stated generally (\"carefully measured reference gases\"), not that Keeling calibrated them with his own manometer (not confirmed this pass). (3) Ralph Keeling birth_year left null: Wikipedia text says 1957, category says 1959. (4) \"about 200 ppm in ice ages\" is a rounding; glacial minima are ~180-190. (5) Ice-age figures and \"about a hundred stations\" from Wikipedia/Scripps, not primary data. (6) The cover chart runs 1958-2017 (Commons file dated 2017-05-05); caption says so; not opened visually.\nCUT AFTER FACT-CHECK: \"two discoveries a year\" demand (no source; replaced with NSF judging the work 'routine', per Wikipedia/Weart); \"American government reports in 1963 and 1965\" (1963 was the private Conservation Foundation); absolute phrasing in why_it_matters softened.\nPEOPLE: Keeling 'author'. Foote, Tyndall, Arrhenius, Callendar 'predecessor'. Revelle, Suess, Wexler, Budyko 'contemporary'. Ralph Keeling 'successor'. Joseph Henry, John Chin (figure caption only), Harrison Brown not named in prose/people.\nNON-WESTERN / WOMEN: Eunice Foote (1856, read by Joseph Henry, rediscovered 2011); Soviet climatologist Mikhail Budyko (Leningrad, 1962). No genuine Central Asian link found; none invented.\nPLACE: Mauna Loa Observatory, 19.5362, -155.5763, exact.\nIMAGES (read via commons.mjs, values verbatim): cover and figure File:Keeling Curve full record.png (Scrippsnews, CC BY-SA 4.0). Figures: File:Charles David Keeling and John Chin at Mauna Loa Observatory in 1997.jpg (John Miller (NOAA), public domain); File:Mauna Loa Observatory north flank of Mauna Loa.jpg (Brian Vasel/NOAA, public domain, date unknown). Foote's 1856 paper scan was free but its file name contains double quotes, which would break the Markdown caption, so not used.\nANALOGY: bathtub with tap (fuel) and drain (ocean + land plants take ~half); breaks because carbon flows both ways between air, sea and forests, and the yearly zigzag is the land side of that exchange.\nBUILDS_ON: arrhenius-greenhouse-effect (rank 92, not yet written; the link activates when it exists). Future ozone-hole / ipcc-founded events could build on this one.\nKYRGYZ: glossary 'check' term used: жанар тоо (volcano). далилдөө avoided. New terms not in the glossary: көмүр кычкыл газы (carbon dioxide), миллион бөлүккө ... бөлүк (parts per million), инфракызыл газ анализатору, Килинг ийри сызыгы (Keeling curve), фондук деңгээл (background level), эталон газдар (reference gases), көмүртек (carbon), кычкылтек (oxygen), агызгыч (drain), Эл аралык геофизикалык жыл (IGY), Аба ырайы бюросу (Weather Bureau).",
+  "translations": {
+    "en": {
+      "title": "Keeling begins measuring carbon dioxide on Mauna Loa",
+      "summary": "In 1958 Charles David Keeling began measuring carbon dioxide high on a Hawaiian volcano. His curve showed the planet breathing with the seasons and the air filling up year after year.",
+      "why_it_matters": "For the first time the carbon dioxide that people add to the air could be watched accumulating, month by month, in one long, carefully kept record. The Keeling curve turned a century-old idea about heat-trapping gases into a measured trend and became one of the foundations of modern climate science.",
+      "if_you_were_there": "In 1957 scientists knew that carbon dioxide traps heat, but not whether there was more of it in the air than before, and many assumed the ocean absorbed whatever people burned.",
+      "place_name": "Mauna Loa Observatory",
+      "status": "machine",
+      "body": "![Charles David Keeling, right, with John Chin at Mauna Loa Observatory in 1997](https://upload.wikimedia.org/wikipedia/commons/7/70/Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg \"John Miller (NOAA) · Public domain · https://commons.wikimedia.org/wiki/File:Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg\")\n\n### The scene\n\nBy the 1950s it had been known for a century that carbon dioxide traps heat. In 1856 the American experimenter Eunice Foote set glass jars of different gases in the sun and found that the jar of carbon dioxide grew hottest and stayed hot longest; she suggested that if the air had once held more of this gas, the Earth would have been warmer. Her paper was read at a scientific meeting by Joseph Henry, not by her, and was then forgotten until 2011. In 1859 John Tyndall in London, with far better instruments, showed that carbon dioxide and water vapour absorb the invisible heat rays that the ground gives off. In 1896 the Swedish chemist Svante Arrhenius calculated by hand how much the world's temperature would change if the amount of carbon dioxide went up or down.\n\nWhat nobody had was a trustworthy measurement. Arrhenius thought burning coal would take perhaps three thousand years to double the gas in the air. In 1938 the English engineer Guy Callendar gathered old readings and argued that carbon dioxide had already risen by about a tenth in a hundred years, but most meteorologists doubted it: the old numbers scattered wildly, because the air near cities, factories and forests changes from hour to hour. Many also assumed the ocean would swallow whatever people added.\n\n### What happened\n\nCharles David Keeling, a young chemist at the California Institute of Technology, came at the problem almost by accident. From 1953 he built a precise instrument to measure carbon dioxide and took it camping, sampling the air day and night at Big Sur on the California coast, then in rain forests and mountain forests further away. At night the air held more of the gas, breathed out by plants. But in the afternoon, when the wind mixed the lower air well, he kept finding nearly the same value, about 310 parts per million — 310 molecules of carbon dioxide in every million molecules of air — wherever he went. That steadiness was the discovery behind the discovery: far from cities, the air had a background level that could be measured.\n\nAt the Scripps Institution of Oceanography, Roger Revelle and Hans Suess were asking how much of the carbon from fuel the ocean really takes up. In 1957 they wrote that humanity was carrying out \"a large scale geophysical experiment\" on its own planet. Revelle brought Keeling to Scripps in 1956. Together with Harry Wexler of the United States Weather Bureau, they found money in the International Geophysical Year of 1957–58, a worldwide research campaign. Keeling bought four infrared gas analysers and planned stations as far as possible from anything that breathes or burns: Antarctica, and the Weather Bureau's new observatory high on Mauna Loa, a volcano on the island of Hawaii, opened in 1956 at about 3,400 metres.\n\n![Mauna Loa Observatory on the bare lava of the volcano's north flank](https://upload.wikimedia.org/wikipedia/commons/2/21/Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg \"Brian Vasel/NOAA · Public domain · https://commons.wikimedia.org/wiki/File:Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg\")\n\nThe analyser at Mauna Loa started work in March 1958. On its first day it read 313 parts per million. Over the following months the number rose to a peak in May and then fell until autumn, and in 1959 it did the same again. Keeling read it as the Northern Hemisphere's forests and fields drawing carbon dioxide out of the air while they grow in summer and giving it back when leaves fall and rot. In a single line of numbers, half a planet could be seen breathing.\n\nThe second pattern took longer to see. Each year's average sat a little above the last. In 1960, with only two full years of Antarctic data, Keeling reported that the background level was rising — at roughly the rate expected if the ocean was not swallowing most of what industry burned. Year after year the record became a zigzag climbing a slope: the line now known as the Keeling curve.\n\n> [!THEORY]\n> Think of a bathtub with the tap open and the drain partly open. Burning coal, oil and gas is the tap. The ocean and the land plants are the drain: together they take up roughly half of what we add. The water level keeps rising because the tap runs faster than the drain, and the Keeling curve is the gauge on the side of the tub. The analogy breaks because in a real tub water only flows one way; between the air, the sea and the forests carbon moves in both directions all the time, and the yearly zigzag is the land side of that exchange.\n\n![The Keeling curve: monthly carbon dioxide at Mauna Loa from 1958 to 2017, the seasonal zigzag climbing steadily](https://upload.wikimedia.org/wikipedia/commons/7/7b/Keeling_Curve_full_record.png \"Scrippsnews · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Keeling_Curve_full_record.png\")\n\n### Why it was hard\n\nThe hard part was not one measurement but the same careful measurement for decades. The instruments drifted, so they had to be checked again and again against carefully measured reference gases; a rise of one part per million a year is invisible unless every reading is trustworthy. Money was the other enemy. Funding ran short soon after the Geophysical Year: the continuous Antarctic measurements were abandoned in the 1960s, and in 1964 the Mauna Loa record has a gap of several months — Scripps blames federal budget cuts, while other histories point to an instrument failure. In 1984 an eruption of Mauna Loa cut the power and left a gap of about a month. The National Science Foundation stopped supporting the work in the early 1960s, judging it \"routine\" monitoring. The case for going on was simple: each day's air can be measured only once, and a missed year is lost for good.\n\nHe was not the only one worried. In 1962 the Soviet climatologist Mikhail Budyko of Leningrad calculated that the exponential growth of industrial civilisation could bring drastic warming within a century or so — a warning, like Callendar's, that few heeded at the time. Keeling's numbers reached a 1963 report of the Conservation Foundation, a private American organisation, and a 1965 panel of the President's Science Advisory Committee.\n\n### What it opened\n\nThe Keeling curve became one of the foundations of modern climate science. In the 1970s the National Oceanic and Atmospheric Administration began its own measurements, and today about a hundred stations around the world sample the air; Mauna Loa remains the longest continuous record. Air bubbles trapped in Antarctic ice later extended the line backwards: over the last 400,000 years carbon dioxide swung between about 200 parts per million in ice ages and about 280 in warm periods. On 9 May 2013 the daily average at Mauna Loa passed 400, and in May 2026 the monthly average reached about 432.\n\nKeeling ran the programme until his death in 2005 and received the National Medal of Science in 2002. His son Ralph Keeling continues it, and also measures the slow fall in the air's oxygen as fuel burns. When the 2022 eruption of Mauna Loa cut the observatory off, the measurements moved for months to neighbouring Maunakea so the line would not break."
+    },
+    "tr": {
+      "title": "Keeling, Mauna Loa'da karbondioksiti ölçmeye başlıyor",
+      "summary": "1958'de Charles David Keeling, Hawaii'deki bir yanardağın yükseklerinde karbondioksiti ölçmeye başladı. Eğrisi, gezegenin mevsimlerle nefes aldığını ve havanın yıldan yıla dolduğunu gösterdi.",
+      "why_it_matters": "İnsanların havaya kattığı karbondioksitin birikişi ilk kez ay ay, uzun ve özenle tutulmuş tek bir kayıtla izlenebildi. Keeling eğrisi, ısıyı tutan gazlar hakkındaki yüzyıllık bir fikri ölçülmüş bir eğilime çevirdi ve modern iklim biliminin temellerinden biri oldu.",
+      "if_you_were_there": "1957'de bilim insanları karbondioksitin ısıyı tuttuğunu biliyordu, ama havada eskisinden fazla olup olmadığını bilmiyordu; pek çoğu da insanların yaktığını okyanusun yuttuğunu varsayıyordu.",
+      "place_name": "Mauna Loa Gözlemevi",
+      "status": "machine",
+      "body": "![Charles David Keeling (sağda) ve John Chin, 1997'de Mauna Loa Gözlemevi'nde](https://upload.wikimedia.org/wikipedia/commons/7/70/Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg \"John Miller (NOAA) · Public domain · https://commons.wikimedia.org/wiki/File:Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg\")\n\n### Sahne\n\n1950'lere gelindiğinde karbondioksitin ısıyı tuttuğu bir asırdır biliniyordu. 1856'da Amerikalı deneyci Eunice Foote, farklı gazlarla dolu cam kavanozları güneşe koydu ve en çok karbondioksitli kavanozun ısındığını, en uzun da onun sıcak kaldığını gördü; hava bir zamanlar bu gazdan daha fazla içerdiyse Dünya'nın daha sıcak olmuş olacağını öne sürdü. Makalesini bir bilim toplantısında kendisi değil Joseph Henry okudu; ardından 2011'e kadar unutuldu. 1859'da Londra'da John Tyndall, çok daha iyi aletlerle, karbondioksit ile su buharının yerden yayılan görünmez ısı ışınlarını soğurduğunu gösterdi. 1896'da İsveçli kimyager Svante Arrhenius, havadaki karbondioksit artar ya da azalırsa dünyanın sıcaklığının ne kadar değişeceğini elle hesapladı.\n\nKimsenin elinde olmayan şey güvenilir bir ölçümdü. Arrhenius, kömür yakmanın havadaki gazı ikiye katlamasının belki üç bin yıl süreceğini düşünüyordu. 1938'de İngiliz mühendis Guy Callendar eski ölçümleri toplayıp karbondioksitin yüz yılda zaten onda bir kadar arttığını savundu, ama meteorologların çoğu buna inanmadı: eski sayılar birbirinden çok farklıydı, çünkü şehirlerin, fabrikaların ve ormanların yakınında hava saatten saate değişir. Pek çoğu da insanların eklediği her şeyi okyanusun yutacağını varsayıyordu.\n\n### Ne oldu\n\nKaliforniya Teknoloji Enstitüsü'nde genç bir kimyager olan Charles David Keeling bu soruna neredeyse tesadüfen geldi. 1953'ten itibaren karbondioksiti ölçmek için hassas bir alet yaptı ve onu kampa götürdü: Kaliforniya kıyısındaki Big Sur'da havadan gece gündüz örnek aldı, sonra daha uzaktaki yağmur ormanlarında ve dağ ormanlarında. Geceleri havada bu gazdan daha fazla vardı; bitkiler soluyordu. Ama öğleden sonra, rüzgâr alçak havayı iyice karıştırdığında, nereye giderse gitsin hemen hemen aynı değeri buluyordu: milyonda yaklaşık 310 parça, yani havanın her bir milyon molekülünde 310 karbondioksit molekülü. Keşfin ardındaki keşif bu istikrardı: şehirlerden uzakta havanın ölçülebilir bir temel düzeyi vardı.\n\nScripps Oşinografi Enstitüsü'nde Roger Revelle ile Hans Suess, yakıttan çıkan karbonun ne kadarını okyanusun gerçekten aldığını soruyordu. 1957'de insanlığın kendi gezegeni üzerinde \"büyük ölçekli bir jeofizik deney\" yürüttüğünü yazdılar. Revelle, Keeling'i 1956'da Scripps'e getirdi. Birleşik Devletler Hava Durumu Bürosu'ndan Harry Wexler ile birlikte, 1957–58 Uluslararası Jeofizik Yılı adlı dünya çapındaki araştırma seferberliğinde para buldular. Keeling dört kızılötesi gaz analizörü aldı ve istasyonları nefes alan ya da yanan her şeyden olabildiğince uzağa planladı: Antarktika'ya ve Hawaii adasındaki Mauna Loa yanardağının yükseklerinde, 1956'da yaklaşık 3.400 metrede açılan Hava Durumu Bürosu gözlemevine.\n\n![Mauna Loa Gözlemevi, yanardağın kuzey yamacındaki çıplak lavların üstünde](https://upload.wikimedia.org/wikipedia/commons/2/21/Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg \"Brian Vasel/NOAA · Public domain · https://commons.wikimedia.org/wiki/File:Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg\")\n\nMauna Loa'daki analizör Mart 1958'de çalışmaya başladı. İlk gün milyonda 313 parça okudu. Sonraki aylarda sayı mayısta bir tepeye çıktı, sonra sonbahara kadar düştü; 1959'da aynısı tekrarlandı. Keeling bunu Kuzey Yarımküre'nin orman ve tarlalarının yazın büyürken havadan karbondioksit çekmesi, yapraklar dökülüp çürüyünce de geri vermesi olarak okudu. Tek bir sayı dizisinde yarım bir gezegenin nefes alışı görülüyordu.\n\nİkinci desenin görülmesi daha uzun sürdü. Her yılın ortalaması bir öncekinin biraz üstündeydi. 1960'ta, elinde yalnızca iki tam yıllık Antarktika verisi varken, Keeling temel düzeyin yükseldiğini bildirdi; hem de okyanus sanayinin yaktığının çoğunu yutmuyorsa beklenecek hıza yakın bir hızla. Yıllar geçtikçe kayıt bir yokuşu tırmanan zikzağa dönüştü: bugün Keeling eğrisi denen çizgi.\n\n> [!THEORY]\n> Musluğu açık, gideri de yarı açık bir küvet düşünün. Kömür, petrol ve gaz yakmak musluktur. Okyanus ve karadaki bitkiler gider: birlikte eklediğimizin kabaca yarısını alırlar. Musluk giderden hızlı aktığı için su seviyesi yükselmeyi sürdürür; Keeling eğrisi küvetin yanındaki göstergedir. Benzetme şurada bozulur: gerçek bir küvette su tek yöne akar; hava, deniz ve ormanlar arasında ise karbon her an iki yöne de hareket eder, ve yıllık zikzak bu alışverişin kara tarafıdır.\n\n![Keeling eğrisi: Mauna Loa'da 1958'den 2017'ye aylık karbondioksit; mevsimlik zikzak durmadan tırmanıyor](https://upload.wikimedia.org/wikipedia/commons/7/7b/Keeling_Curve_full_record.png \"Scrippsnews · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Keeling_Curve_full_record.png\")\n\n### Neden zordu\n\nZor olan tek bir ölçüm değil, aynı titiz ölçümü onlarca yıl sürdürmekti. Aletler zamanla kayıyordu; bu yüzden içeriği özenle ölçülmüş referans gazlarla tekrar tekrar sınanmaları gerekiyordu. Yılda milyonda bir parçalık bir artış, her okuma güvenilir olmadıkça görünmez. Öbür düşman paraydı. Jeofizik Yılı'ndan kısa süre sonra kaynaklar daraldı: Antarktika'daki sürekli ölçümler 1960'larda bırakıldı, 1964'te Mauna Loa kaydında birkaç aylık bir boşluk var: Scripps bunu federal bütçe kesintilerine bağlıyor, başka tarihçeler ise bir alet arızasını gösteriyor. 1984'te Mauna Loa'nın bir patlaması elektriği kesti ve yaklaşık bir aylık boşluk bıraktı. Ulusal Bilim Vakfı 1960'ların başında işi \"rutin\" izleme sayarak desteğini kesti. Sürdürmenin gerekçesi basitti: her günün havası yalnızca bir kez ölçülebilir, kaçırılan bir yıl sonsuza dek kaybolur.\n\nEndişelenen tek kişi o değildi. 1962'de Leningradlı Sovyet klimatolog Mihail Budıko, sanayi uygarlığının üstel büyümesinin bir asır kadar içinde sert bir ısınma getirebileceğini hesapladı; Callendar'ınki gibi, o dönemde pek kulak verilmeyen bir uyarı. Keeling'in sayıları, özel bir Amerikan kuruluşu olan Conservation Foundation'ın 1963 raporuna ve 1965'te ABD Başkanı'nın Bilim Danışma Komitesi'nin bir paneline girdi.\n\n### Neyin kapısını açtı\n\nKeeling eğrisi modern iklim biliminin temellerinden biri oldu. 1970'lerde Ulusal Okyanus ve Atmosfer İdaresi kendi ölçümlerine başladı; bugün dünyada yüz kadar istasyon havadan örnek alıyor, en uzun kesintisiz kayıt hâlâ Mauna Loa'nınki. Antarktika buzunda hapsolmuş hava kabarcıkları çizgiyi sonra geriye doğru uzattı: son 400.000 yılda karbondioksit buzul çağlarında milyonda yaklaşık 200 ile sıcak dönemlerde yaklaşık 280 parça arasında gidip geldi. 9 Mayıs 2013'te Mauna Loa'da günlük ortalama 400'ü geçti; Mayıs 2026'da aylık ortalama 432 dolayına ulaştı.\n\nKeeling programı 2005'teki ölümüne kadar yürüttü ve 2002'de Ulusal Bilim Madalyası'nı aldı. Oğlu Ralph Keeling programı sürdürüyor; yakıt yandıkça havadaki oksijenin yavaşça azalmasını da ölçüyor. 2022'de Mauna Loa'nın patlaması gözlemevinin bağlantısını kesince, çizgi kopmasın diye ölçümler aylarca komşu Maunakea'ya taşındı."
+    },
+    "ru": {
+      "title": "Килинг начинает измерять углекислый газ на Мауна-Лоа",
+      "summary": "В 1958 году Чарльз Дэвид Килинг начал измерять углекислый газ высоко на гавайском вулкане. Его кривая показала, как планета дышит по сезонам, а воздух год за годом наполняется газом.",
+      "why_it_matters": "Впервые можно было следить, как углекислый газ, который люди добавляют в воздух, накапливается месяц за месяцем, — по одной долгой и тщательно ведущейся записи. Кривая Килинга превратила вековую идею о газах, удерживающих тепло, в измеренную тенденцию и стала одной из основ современной науки о климате.",
+      "if_you_were_there": "В 1957 году учёные знали, что углекислый газ удерживает тепло, но не знали, стало ли его в воздухе больше, чем раньше, а многие считали, что всё сожжённое людьми поглощает океан.",
+      "place_name": "Обсерватория Мауна-Лоа",
+      "status": "machine",
+      "body": "![Чарльз Дэвид Килинг (справа) и Джон Чин в обсерватории Мауна-Лоа в 1997 году](https://upload.wikimedia.org/wikipedia/commons/7/70/Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg \"John Miller (NOAA) · Public domain · https://commons.wikimedia.org/wiki/File:Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg\")\n\n### Обстановка\n\nК 1950-м годам уже целый век было известно, что углекислый газ удерживает тепло. В 1856 году американская исследовательница Юнис Фут выставила на солнце стеклянные сосуды с разными газами и увидела, что сосуд с углекислым газом нагревается сильнее всех и дольше всех остаётся тёплым; она предположила, что если когда-то в воздухе было больше этого газа, Земля была теплее. Её доклад на научном собрании прочитала не она, а Джозеф Генри, а затем о нём забыли до 2011 года. В 1859 году Джон Тиндаль в Лондоне с гораздо лучшими приборами показал, что углекислый газ и водяной пар поглощают невидимые тепловые лучи, которые испускает земля. В 1896 году шведский химик Сванте Аррениус вручную рассчитал, насколько изменится температура планеты, если углекислого газа в воздухе станет больше или меньше.\n\nНе было лишь одного — надёжного измерения. Аррениус считал, что сжиганию угля понадобится, возможно, три тысячи лет, чтобы удвоить содержание газа в воздухе. В 1938 году английский инженер Гай Каллендар собрал старые данные и доказывал, что за сто лет углекислого газа стало примерно на десятую часть больше, но большинство метеорологов в это не верило: старые числа сильно расходились, потому что воздух возле городов, заводов и лесов меняется от часа к часу. Многие к тому же полагали, что океан поглотит всё, что добавляют люди.\n\n### Что произошло\n\nЧарльз Дэвид Килинг, молодой химик Калифорнийского технологического института, пришёл к этой задаче почти случайно. С 1953 года он построил точный прибор для измерения углекислого газа и взял его в походы: брал пробы воздуха днём и ночью в Биг-Суре на калифорнийском побережье, потом в дождевых и горных лесах дальше от него. Ночью газа в воздухе было больше — его выдыхали растения. Но после полудня, когда ветер хорошо перемешивал нижний слой воздуха, он, куда бы ни приехал, находил почти одно и то же значение: около 310 частей на миллион, то есть 310 молекул углекислого газа на каждый миллион молекул воздуха. Это постоянство и было открытием за открытием: вдали от городов у воздуха есть фоновый уровень, который можно измерить.\n\nВ Океанографическом институте Скриппса Роджер Ревелл и Ханс Зюсс выясняли, сколько углерода из топлива на самом деле забирает океан. В 1957 году они написали, что человечество ставит над собственной планетой «крупномасштабный геофизический эксперимент». Ревелл привёл Килинга в Скриппс в 1956 году. Вместе с Гарри Уэкслером из Бюро погоды США они нашли деньги в рамках Международного геофизического года 1957–1958 — всемирной исследовательской кампании. Килинг купил четыре инфракрасных газоанализатора и задумал станции как можно дальше от всего, что дышит или горит: в Антарктиде и в новой обсерватории Бюро погоды высоко на Мауна-Лоа, вулкане на острове Гавайи, открытой в 1956 году на высоте около 3400 метров.\n\n![Обсерватория Мауна-Лоа на голой лаве северного склона вулкана](https://upload.wikimedia.org/wikipedia/commons/2/21/Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg \"Brian Vasel/NOAA · Public domain · https://commons.wikimedia.org/wiki/File:Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg\")\n\nАнализатор на Мауна-Лоа заработал в марте 1958 года. В первый же день он показал 313 частей на миллион. В следующие месяцы число росло до пика в мае, а потом падало до осени, и в 1959 году всё повторилось. Килинг понял это так: леса и поля Северного полушария летом, пока растут, вытягивают углекислый газ из воздуха, а когда листья опадают и гниют, возвращают его. В одной строке чисел было видно, как дышит половина планеты.\n\nВторой узор разглядеть было труднее. Среднее за каждый год оказывалось чуть выше прошлогоднего. В 1960 году, имея лишь два полных года антарктических данных, Килинг сообщил, что фоновый уровень растёт — примерно с той скоростью, какой следовало ждать, если океан не поглощает большую часть сожжённого промышленностью. Год за годом запись превращалась в зигзаг, ползущий вверх по склону: линию, которую теперь называют кривой Килинга.\n\n> [!THEORY]\n> Представьте ванну с открытым краном и наполовину открытым сливом. Сжигание угля, нефти и газа — это кран. Океан и растения на суше — слив: вместе они забирают примерно половину того, что мы добавляем. Вода продолжает прибывать, потому что кран льёт быстрее, чем уходит в слив, а кривая Килинга — это мерная шкала на стенке ванны. Сравнение хромает вот где: в настоящей ванне вода течёт только в одну сторону, а между воздухом, морем и лесами углерод всё время движется в обе стороны, и годовой зигзаг — это сухопутная часть этого обмена.\n\n![Кривая Килинга: среднемесячное содержание углекислого газа на Мауна-Лоа с 1958 по 2017 год; сезонный зигзаг неуклонно ползёт вверх](https://upload.wikimedia.org/wikipedia/commons/7/7b/Keeling_Curve_full_record.png \"Scrippsnews · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Keeling_Curve_full_record.png\")\n\n### Почему это было трудно\n\nТрудным было не одно измерение, а одно и то же тщательное измерение на протяжении десятилетий. Приборы со временем «уплывали», поэтому их приходилось снова и снова сверять с тщательно измеренными эталонными газами. Рост на одну часть на миллион в год не разглядеть, если каждому показанию нельзя доверять. Вторым врагом были деньги. Вскоре после Геофизического года финансирование иссякло: непрерывные измерения в Антарктиде в 1960-х пришлось бросить, а в записи Мауна-Лоа за 1964 год есть пробел в несколько месяцев: Скриппс объясняет его сокращением федерального бюджета, другие историки — поломкой прибора. В 1984 году извержение Мауна-Лоа оборвало электричество и оставило пробел примерно в месяц. Национальный научный фонд США в начале 1960-х перестал поддерживать работу, сочтя её «рутинным» мониторингом. Довод в пользу продолжения был прост: воздух каждого дня можно измерить лишь однажды, и пропущенный год потерян навсегда.\n\nТревожился не он один. В 1962 году ленинградский климатолог Михаил Будыко рассчитал, что экспоненциальный рост промышленной цивилизации может привести к резкому потеплению примерно за столетие, — предупреждение, которое, как и предупреждение Каллендара, тогда мало кто услышал. Числа Килинга попали в доклад частной американской организации Conservation Foundation 1963 года и в доклад группы Научно-консультативного комитета при президенте США 1965 года.\n\n### Что это открыло\n\nКривая Килинга стала одной из основ современной науки о климате. В 1970-х Национальное управление океанических и атмосферных исследований США начало собственные измерения, и сегодня пробы воздуха берут около сотни станций по всему миру; самая длинная непрерывная запись по-прежнему у Мауна-Лоа. Пузырьки воздуха, запертые в антарктическом льду, позже продлили линию в прошлое: за последние 400 000 лет углекислый газ колебался примерно между 200 частями на миллион в ледниковые эпохи и примерно 280 в тёплые периоды. 9 мая 2013 года среднесуточное значение на Мауна-Лоа превысило 400, а в мае 2026 года среднемесячное достигло примерно 432.\n\nКилинг руководил программой до своей смерти в 2005 году; в 2002 году он получил Национальную научную медаль США. Его сын Ральф Килинг продолжает программу и заодно измеряет, как медленно убывает кислород в воздухе по мере сжигания топлива. Когда извержение Мауна-Лоа в 2022 году отрезало обсерваторию, измерения на несколько месяцев перенесли на соседнюю Мауна-Кеа, чтобы линия не прервалась."
+    },
+    "ky": {
+      "title": "Килинг Мауна-Лоада көмүр кычкыл газын өлчөй баштайт",
+      "summary": "1958-жылы Чарльз Дэвид Килинг Гавайидеги жанар тоонун бийигинде көмүр кычкыл газын өлчөй баштаган. Анын ийри сызыгы планета мезгилге жараша дем аларын жана аба жыл сайын толуп жатканын көрсөттү.",
+      "why_it_matters": "Адамдар абага кошкон көмүр кычкыл газынын топтолушун биринчи жолу ай сайын, бир узак жана кылдат жүргүзүлгөн жазуу аркылуу көзөмөлдөөгө мүмкүн болгон. Килинг ийри сызыгы жылуулукту кармаган газдар жөнүндөгү кылымдык идеяны өлчөнгөн тенденцияга айлантып, климат жөнүндөгү заманбап илимдин негиздеринин бири болуп калды.",
+      "if_you_were_there": "1957-жылы окумуштуулар көмүр кычкыл газы жылуулукту кармарын билишкен, бирок абада ал мурункудан көбөйгөнүн билишкен эмес, көптөр адамдар жаккан нерсени океан жутат деп ойлошкон.",
+      "place_name": "Мауна-Лоа обсерваториясы",
+      "status": "machine",
+      "body": "![Чарльз Дэвид Килинг (оң жакта) жана Джон Чин 1997-жылы Мауна-Лоа обсерваториясында](https://upload.wikimedia.org/wikipedia/commons/7/70/Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg \"John Miller (NOAA) · Public domain · https://commons.wikimedia.org/wiki/File:Charles_David_Keeling_and_John_Chin_at_Mauna_Loa_Observatory_in_1997.jpg\")\n\n### Окуянын алкагы\n\n1950-жылдарга чейин көмүр кычкыл газы жылуулукту кармап турары бир кылымдан бери белгилүү болчу. 1856-жылы америкалык изилдөөчү Юнис Фут ар кандай газ толтурулган айнек идиштерди күнгө койгон. Көмүр кычкыл газы бар идиш баарынан катуу ысып, баарынан узак убакыт жылуу турганын байкаган. Качандыр бир кезде абада бул газ көбүрөөк болсо, Жер жылуураак болгон болушу керек деп божомолдогон. Анын баяндамасын илимий жыйында өзү эмес, Джозеф Генри окуп берген, андан кийин ал 2011-жылга чейин унутулуп калган. 1859-жылы Лондондо Джон Тиндаль алда канча жакшы приборлор менен көмүр кычкыл газы жана суу буусу жер бетинен чыккан көзгө көрүнбөгөн жылуулук нурларын сиңирерин көрсөткөн. 1896-жылы швед химиги Сванте Аррениус абадагы көмүр кычкыл газы көбөйсө же азайса, планетанын температурасы канчалык өзгөрөрүн кол менен эсептеп чыккан.\n\nЖетишпегени бир гана нерсе — ишенимдүү өлчөө эле. Аррениус көмүр жагуу абадагы газды эки эсе көбөйтүшү үчүн балким үч миң жыл керек болот деп ойлогон. 1938-жылы англиялык инженер Гай Каллендар эски өлчөөлөрдү чогултуп, жүз жылда көмүр кычкыл газы болжол менен ондон бирге көбөйдү деп ырастаган. Бирок метеорологдордун көбү ага ишенген эмес: эски сандар бири-биринен абдан айырмаланчу, анткени шаарлардын, заводдордун жана токойлордун жанында аба сааттан саатка өзгөрөт. Көптөр адамдар кошкон нерсенин баарын океан жутуп алат деп да эсептешкен.\n\n### Эмне болду\n\nКалифорния технологиялык институтунун жаш химиги Чарльз Дэвид Килинг бул маселеге дээрлик кокустан келген. 1953-жылдан баштап ал көмүр кычкыл газын өлчөөчү так прибор жасап, аны жортуулга алып чыккан: Калифорния жээгиндеги Биг-Сурда күнү-түнү абадан үлгү алган, андан кийин алысыраак жайгашкан нымдуу токойлордо жана тоо токойлорунда. Түн ичинде абада бул газ көбүрөөк болчу — аны өсүмдүктөр дем менен чыгарчу. Ал эми түштөн кийин, шамал абанын төмөнкү катмарын жакшы аралаштырганда, кайда барбасын дээрлик бирдей маанини таба берген: миллион бөлүккө болжол менен 310 бөлүк, башкача айтканда абанын ар бир миллион молекуласына 310 көмүр кычкыл газынын молекуласы туура келет. Ачылыштын артындагы ачылыш ушул туруктуулук болчу: шаарлардан алыста абанын өлчөөгө боло турган фондук деңгээли бар экен.\n\nСкриппс океанография институтунда Роджер Ревелл менен Ханс Зюсс отундан чыккан көмүртектин канчасын океан чындыгында сиңирерин изилдешкен. 1957-жылы алар адамзат өз планетасында «ири масштабдуу геофизикалык тажрыйба» жүргүзүп жатат деп жазышкан. Ревелл Килингди 1956-жылы Скриппске алып келген. АКШнын Аба ырайы бюросунан Гарри Уэкслер менен бирге алар 1957–1958-жылдардагы Эл аралык геофизикалык жылдан — дүйнөлүк изилдөө кампаниясынан — каражат табышкан. Килинг төрт инфракызыл газ анализаторун сатып алып, станцияларды дем алган же күйгөн нерселердин баарынан мүмкүн болушунча алыс жерге пландаган: Антарктидага жана Гавайи аралындагы Мауна-Лоа жанар тоосунун бийигинде 1956-жылы болжол менен 3400 метр бийиктикте ачылган Аба ырайы бюросунун жаңы обсерваториясына.\n\n![Жанар тоонун түндүк капталындагы жылаңач лавада турган Мауна-Лоа обсерваториясы](https://upload.wikimedia.org/wikipedia/commons/2/21/Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg \"Brian Vasel/NOAA · Public domain · https://commons.wikimedia.org/wiki/File:Mauna_Loa_Observatory_north_flank_of_Mauna_Loa.jpg\")\n\nМауна-Лоадагы анализатор 1958-жылдын мартында иштей баштаган. Биринчи эле күнү ал миллион бөлүккө 313 бөлүктү көрсөткөн. Кийинки айларда сан май айында эң жогорку чекке чейин көтөрүлүп, андан кийин күзгө чейин төмөндөгөн, 1959-жылы баары кайталанган. Килинг муну мындай түшүндүргөн: Түндүк жарым шардын токойлору жана талаалары жайында өсүп жатканда абадан көмүр кычкыл газын тартып алат, ал эми жалбырактар түшүп, чирип калганда аны кайра берет. Бир катар сандардан жарым планетанын дем алганы көрүнүп турган.\n\nЭкинчи көрүнүштү байкоо көбүрөөк убакытты талап кылган. Ар бир жылдын орточо мааниси мурунку жылдыкынан бир аз жогору болгон. 1960-жылы, колунда Антарктидадан болгону эки толук жылдык маалымат турганда, Килинг фондук деңгээл көтөрүлүп жатканын билдирген — эгер океан өнөр жай жаккан нерсенин көбүн жутпаса, күтүлө турган ылдамдыкка жакын. Жыл өткөн сайын жазуу бийиктикти көздөй өрмөлөгөн зигзагга айланган: азыр Килинг ийри сызыгы деп аталган сызык.\n\n> [!THEORY]\n> Крандары ачык, агызгычы жарымы ачык ваннаны элестетип көрүңүз. Көмүр, мунай жана газ жагуу — бул кран. Океан жана кургактыктагы өсүмдүктөр — агызгыч: экөө бирге биз кошкондун болжол менен жарымын алышат. Кран агызгычтан тезирээк аккандыктан, суунун деңгээли көтөрүлө берет, ал эми Килинг ийри сызыгы — ваннанын капталындагы көрсөткүч. Салыштыруу бул жерде бузулат: чыныгы ваннада суу бир гана тарапка агат, ал эми аба, деңиз жана токойлордун ортосунда көмүртек ар дайым эки тарапка тең кыймылдайт, жылдык зигзаг болсо ошол алмашуунун кургактык тарабы.\n\n![Килинг ийри сызыгы: 1958-жылдан 2017-жылга чейин Мауна-Лоадагы көмүр кычкыл газынын айлык мааниси; мезгилдик зигзаг токтобой өйдө жылат](https://upload.wikimedia.org/wikipedia/commons/7/7b/Keeling_Curve_full_record.png \"Scrippsnews · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Keeling_Curve_full_record.png\")\n\n### Эмне үчүн кыйын болгон\n\nКыйыны бир өлчөө эмес, ошол эле кылдат өлчөөнү ондогон жылдар бою улантуу болгон. Приборлор убакыт өткөн сайын тактыгын жоготчу, ошондуктан аларды курамы кылдат өлчөнгөн эталон газдар менен кайра-кайра салыштырып туруу керек болчу. Ар бир көрсөткүчкө ишенүүгө болбосо, жылына миллион бөлүккө бир бөлүк өсүүнү байкоо мүмкүн эмес. Экинчи душман акча эле. Геофизикалык жылдан көп өтпөй каржылоо азайган: Антарктидадагы үзгүлтүксүз өлчөөлөр 1960-жылдары токтотулган, 1964-жылы Мауна-Лоанын жазуусунда бир нече айлык боштук бар: Скриппс аны федералдык бюджеттин кыскарышы менен түшүндүрөт, башка тарыхчылар приборнун бузулушун көрсөтүшөт. 1984-жылы Мауна-Лоанын атылышы электрди үзүп, болжол менен бир айлык боштук калтырган. АКШнын Улуттук илим фонду 1960-жылдардын башында бул ишти «күнүмдүк» көзөмөл деп эсептеп, колдоосун токтоткон. Улантуунун жүйөсү жөнөкөй болчу: ар бир күндүн абасын бир гана жолу өлчөөгө болот, өткөрүп жиберилген жыл түбөлүккө жоголот.\n\nТынчсызданган жалгыз ал эмес болчу. 1962-жылы ленинграддык климатолог Михаил Будыко өнөр жай цивилизациясынын экспоненциалдык өсүшү болжол менен бир кылымдын ичинде кескин жылууланууга алып келиши мүмкүн деп эсептеген — Каллендардыкы сыяктуу эле, ал кезде дээрлик эч ким кулак салбаган эскертүү. Килингдин сандары жеке америкалык уюм Conservation Foundation'дун 1963-жылкы баяндамасына жана 1965-жылы АКШ президентинин алдындагы Илимий кеңеш берүүчү комитеттин тобунун баяндамасына кирген.\n\n### Эмнеге жол ачты\n\nКилинг ийри сызыгы климат жөнүндөгү заманбап илимдин негиздеринин бири болуп калды. 1970-жылдары АКШнын Улуттук океан жана атмосфера башкармалыгы өз өлчөөлөрүн баштаган, бүгүн дүйнө жүзүндөгү жүзгө жакын станция абадан үлгү алат; эң узак үзгүлтүксүз жазуу дагы эле Мауна-Лоага таандык. Антарктида музунда камалып калган аба көбүкчөлөрү кийин сызыкты өткөнгө карай узарткан: акыркы 400 000 жылда көмүр кычкыл газы муз доорлорунда миллион бөлүккө болжол менен 200 бөлүк менен жылуу мезгилдерде болжол менен 280 бөлүктүн ортосунда өзгөрүп турган. 2013-жылдын 9-майында Мауна-Лоадагы суткалык орточо маани 400дөн ашкан, ал эми 2026-жылдын майында айлык орточо маани болжол менен 432ге жеткен.\n\nКилинг программаны 2005-жылы көз жумганга чейин жетектеген, 2002-жылы АКШнын Улуттук илим медалын алган. Анын уулу Ральф Килинг программаны улантып жатат, ошондой эле отун күйгөн сайын абадагы кычкылтек акырындык менен азайып жатканын өлчөйт. 2022-жылы Мауна-Лоанын атылышы обсерваторияга жолду кесип салганда, сызык үзүлбөсүн деп өлчөөлөр бир нече айга коңшу Мауна-Кеага көчүрүлгөн."
+    }
+  }
+}
