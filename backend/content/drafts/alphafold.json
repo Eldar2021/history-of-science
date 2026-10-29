@@ -1,0 +1,307 @@
+{
+  "slug": "alphafold",
+  "year": 2020,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 51.5334,
+  "lng": -0.1259,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/2/23/AlphaFold_2.png",
+    "credit": "John Jumper et al",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AlphaFold_2.png"
+  },
+  "disciplines": [
+    "biology",
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "john-jumper",
+      "birth_year": 1985,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "John Jumper",
+        "tr": "John Jumper",
+        "ru": "Джон Джампер",
+        "ky": "Джон Джампер"
+      }
+    },
+    {
+      "slug": "demis-hassabis",
+      "birth_year": 1976,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Demis Hassabis",
+        "tr": "Demis Hassabis",
+        "ru": "Демис Хассабис",
+        "ky": "Демис Хассабис"
+      }
+    },
+    {
+      "slug": "christian-anfinsen",
+      "birth_year": 1916,
+      "death_year": 1995,
+      "role": "predecessor",
+      "name": {
+        "en": "Christian Anfinsen",
+        "tr": "Christian Anfinsen",
+        "ru": "Кристиан Анфинсен",
+        "ky": "Кристиан Анфинсен"
+      }
+    },
+    {
+      "slug": "cyrus-levinthal",
+      "birth_year": 1922,
+      "death_year": 1990,
+      "role": "predecessor",
+      "name": {
+        "en": "Cyrus Levinthal",
+        "tr": "Cyrus Levinthal",
+        "ru": "Сайрус Левинталь",
+        "ky": "Сайрус Левинталь"
+      }
+    },
+    {
+      "slug": "dorothy-hodgkin",
+      "birth_year": 1910,
+      "death_year": 1994,
+      "role": "predecessor",
+      "name": {
+        "en": "Dorothy Hodgkin",
+        "tr": "Dorothy Hodgkin",
+        "ru": "Дороти Ходжкин",
+        "ky": "Дороти Ходжкин"
+      }
+    },
+    {
+      "slug": "jane-richardson",
+      "birth_year": 1941,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Jane Richardson",
+        "tr": "Jane Richardson",
+        "ru": "Джейн Ричардсон",
+        "ky": "Джейн Ричардсон"
+      }
+    },
+    {
+      "slug": "john-moult",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "John Moult",
+        "tr": "John Moult",
+        "ru": "Джон Моулт",
+        "ky": "Джон Моулт"
+      }
+    },
+    {
+      "slug": "debora-marks",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Debora Marks",
+        "tr": "Debora Marks",
+        "ru": "Дебора Маркс",
+        "ky": "Дебора Маркс"
+      }
+    },
+    {
+      "slug": "jinbo-xu",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Jinbo Xu",
+        "tr": "Jinbo Xu",
+        "ru": "Цзиньбо Сюй",
+        "ky": "Цзиньбо Сюй"
+      }
+    },
+    {
+      "slug": "david-baker",
+      "birth_year": 1962,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "David Baker",
+        "tr": "David Baker",
+        "ru": "Дэвид Бейкер",
+        "ky": "Дэвид Бейкер"
+      }
+    },
+    {
+      "slug": "minkyung-baek",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Minkyung Baek",
+        "tr": "Minkyung Baek",
+        "ru": "Мингён Пэк",
+        "ky": "Мингён Пэк"
+      }
+    },
+    {
+      "slug": "jianyi-yang",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Jianyi Yang",
+        "tr": "Jianyi Yang",
+        "ru": "Цзяньи Ян",
+        "ky": "Цзяньи Ян"
+      }
+    },
+    {
+      "slug": "martin-weigt",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Martin Weigt",
+        "tr": "Martin Weigt",
+        "ru": "Мартин Вейгт",
+        "ky": "Мартин Вейгт"
+      }
+    }
+  ],
+  "builds_on": [
+    "dna-double-helix",
+    "human-genome-project",
+    "roentgen-x-rays"
+  ],
+  "sources": [
+    {
+      "title": "AlphaFold — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/AlphaFold"
+    },
+    {
+      "title": "Levinthal's paradox — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Levinthal%27s_paradox"
+    },
+    {
+      "title": "Christian B. Anfinsen — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Christian_B._Anfinsen"
+    },
+    {
+      "title": "CASP — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/CASP"
+    },
+    {
+      "title": "Protein Data Bank — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Protein_Data_Bank"
+    },
+    {
+      "title": "Jumper et al., \"Highly accurate protein structure prediction with AlphaFold\", Nature 596 (2021)",
+      "kind": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8371605/"
+    },
+    {
+      "title": "Tunyasuvunakool et al., \"Highly accurate protein structure prediction for the human proteome\", Nature 596 (2021)",
+      "kind": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8387240/"
+    },
+    {
+      "title": "Marks et al., \"Protein 3D structure computed from evolutionary sequence variation\", PLoS ONE (2011)",
+      "kind": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3233603/"
+    },
+    {
+      "title": "Morcos et al., \"Direct-coupling analysis of residue coevolution captures native contacts across many protein families\", PNAS (2011)",
+      "kind": "other",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1111471108"
+    },
+    {
+      "title": "Wang, Xu et al., \"Analysis of deep learning methods for blind protein contact prediction in CASP12\", Proteins (2018)",
+      "kind": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28845538/"
+    },
+    {
+      "title": "\"AlphaFold: a solution to a 50-year-old grand challenge in biology\" — Google DeepMind (30 November 2020)",
+      "kind": "other",
+      "url": "https://deepmind.google/discover/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/"
+    },
+    {
+      "title": "\"AlphaFold reveals the structure of the protein universe\" — EMBL-EBI (28 July 2022)",
+      "kind": "other",
+      "url": "https://www.ebi.ac.uk/about/news/technology-and-innovation/alphafold-200-million/"
+    },
+    {
+      "title": "\"RoseTTAFold: accurate protein structure prediction accessible to all\" — Institute for Protein Design, University of Washington (2021)",
+      "kind": "other",
+      "url": "https://www.ipd.uw.edu/2021/07/rosettafold-accurate-protein-structure-prediction-accessible-to-all/"
+    },
+    {
+      "title": "Press release: The Nobel Prize in Chemistry 2024 — NobelPrize.org",
+      "kind": "other",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/"
+    },
+    {
+      "title": "John M. Jumper — Encyclopaedia Britannica (for the human reviewer)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/John-M-Jumper"
+    },
+    {
+      "title": "Google DeepMind — Encyclopaedia Britannica (for the human reviewer)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Google-DeepMind"
+    }
+  ],
+  "research_note": "Researched 2026-10-29 against English Wikipedia (AlphaFold; CASP; Levinthal's paradox; Christian B. Anfinsen; Protein Data Bank), Jumper et al. Nature 2021 (PMC: ~100,000 unique structures, months-to-years per structure, CASP14 backbone 0.96 A vs 2.8 A, carbon ~1.4 A, PDB cutoff 30 April 2018), Tunyasuvunakool et al. Nature 2021 (98.5% human proteome, 58% residues confident), Marks et al. PLoS ONE 2011, Xu group CASP12 contact paper, DeepMind blog 30 Nov 2020 (median 92.4, Moult ~90 informal threshold, ~170,000 PDB structures, 128 TPUv3 cores, Lupas 'close to a decade'), EMBL-EBI 28 July 2022 (>200 million, CC BY 4.0), UW IPD RoseTTAFold release, Nobel 2024 press release via secondary copies (nobelprize.org returns 403). Britannica linked (Jumper, Google DeepMind) for the human only; there is no dedicated Britannica AlphaFold article.\nYEAR: 2020, exact (CASP14 results announced 30 November 2020; the Nature paper is July 2021). Place: DeepMind, London (city precision).\nFACT-CHECKER (fixed): training time changed from 'a few weeks' (DeepMind blog) to 'about two weeks' (Nature paper: ~1 week + ~4 days fine-tuning); July 2021 database size changed from 365,000 to 'more than 350,000' (launch release ~350,000, later EBI/Wikipedia ~365,000); Martin Weigt's group added as independent 2011 co-originator of coevolution contact prediction; builds_on turing-computability replaced by roentgen-x-rays; ky summary softened to 'almost as accurate'; if_you_were_there year aligned to early 2020.\nFLAGGED IN THE BODY: 'solved' is contested — the NOTE box says single-chain structure prediction was largely answered while the folding mechanism is not, with limitations (disorder, multiple conformations, few homologues, point mutations). Moult quote 'in some sense the problem is solved' confirmed via secondary reports; Callaway's Nature news (Nov 2020) is the primary source but redirected to login — reviewer may check wording. Jinbo Xu phrased cautiously as 'among the best' at CASP12/13 contact prediction (their own papers say 'winning').\nREVIEWER CHECK: '200 million protein sequences' is the Nobel/UniProt figure (metagenomic sequences run into billions). Birth years for Moult, Marks, Xu, Baek, Yang, Weigt left null. Body figure 2 credit line is the long author list Commons gives verbatim. Kyrgyz terms with glossary confidence 'check' used: клетка (cell), түр (species).",
+  "translations": {
+    "en": {
+      "title": "AlphaFold 2 predicts the shapes of proteins",
+      "summary": "In 2020 DeepMind's AlphaFold 2 predicted protein shapes from their amino-acid sequence almost as accurately as experiments, largely answering a question biologists had chased for fifty years.",
+      "why_it_matters": "A protein's shape decides what it does, and measuring a single shape could take months or years. AlphaFold 2 made a reliable first guess possible in hours for almost any protein, and its free database of more than 200 million predicted structures changed where biological research starts.",
+      "if_you_were_there": "In early 2020 the shapes of about 100,000 different proteins were known from patient experiments, while some 200 million protein sequences waited with no shape at all.",
+      "place_name": "London",
+      "status": "machine",
+      "body": "### The scene\n\nAlmost everything a living cell does, a protein does: digesting food, carrying oxygen in the blood, copying DNA, fighting infection. Each protein is built as a chain of small building blocks called amino acids, twenty kinds of them, strung together in the order a gene spells out. Then the chain folds itself into a precise three-dimensional shape, and the shape does the work: an enzyme grips the molecule it acts on the way a key fits a lock.\n\n![Ribonuclease S, a form of the enzyme Anfinsen unfolded and refolded, drawn by hand in 1980 by Jane Richardson, who devised the ribbon drawings biologists still use to show protein shapes](https://upload.wikimedia.org/wikipedia/commons/2/21/RibonucleaseS_ribbon_drawing_scratchboard.png \"Dcrjsr · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:RibonucleaseS_ribbon_drawing_scratchboard.png\")\n\nIn 1961 the American biochemist Christian Anfinsen unfolded the enzyme ribonuclease in a test tube and saw it fold back into its working shape by itself. The lesson, which earned him a share of the 1972 Nobel Prize in Chemistry with Stanford Moore and William Stein, was that the order of the amino acids carries the instructions for the shape. In principle, then, the shape could be read from the sequence. In 1969 Cyrus Levinthal pointed out why that was hard: a chain can twist into so many shapes — he put it at roughly a one followed by three hundred zeros — that trying them one at a time would take longer than the age of the universe, yet real proteins fold in a fraction of a second.\n\nMeasuring shapes directly was slow. John Kendrew solved the first protein structure, myoglobin, in 1958 and Max Perutz followed with haemoglobin; Dorothy Hodgkin worked for more than thirty years before she solved insulin in 1969. The method meant growing a crystal of the protein and reading how it scatters X-rays, and a single structure could take months or years. From 1971 the Protein Data Bank gathered every solved structure into one open archive. By 2020 laboratories around the world had determined the shapes of about 100,000 different proteins, while gene sequencing had revealed some 200 million protein sequences whose shapes nobody knew.\n\n### The race\n\nIn 1994 John Moult and Krzysztof Fidelis started CASP, the Critical Assessment of protein Structure Prediction, a blind test held every two years. Organisers collect proteins whose shapes have just been measured but not yet published; teams send in predictions; then the predictions are scored against the real structures, on a scale up to 100. For two decades progress on the hardest targets was slow.\n\nTwo ideas changed that in the 2010s. The first came from evolution. If two amino acids touch inside a folded protein, a mutation in one is often matched by a change in the other, so comparing the same protein across thousands of species reveals which pairs sit close together. In 2011 Debora Marks, Chris Sander and their colleagues — and, independently, Martin Weigt's group — showed that these paired changes alone were enough to rebuild a protein's fold. The second idea was deep learning, computer programs called neural networks that learn patterns from large amounts of examples. Around 2016 Jinbo Xu's group in Chicago treated the map of which amino acids touch as a picture and trained such networks to draw it, and their method was among the best at predicting contacts in CASP12 and CASP13. DeepMind, a London artificial-intelligence company co-founded by Demis Hassabis and owned by Google since 2014, entered CASP13 in 2018 with the first AlphaFold and placed first; on the hardest targets its median score was 58.9, against 52.5 for the next team.\n\n### What happened\n\nFor CASP14 in 2020 a DeepMind team led by John Jumper built a new system, AlphaFold 2. It gave the best prediction for 88 of the 97 targets and reached a median score of 92.4. Moult regarded a score of around 90 as competitive with experimental measurement. Measured another way, the typical error in the position of the protein's backbone was 0.96 ångström — less than the width of a carbon atom, about 1.4 ångström — where the next-best method was off by 2.8. When the results were announced on 30 November 2020, Moult said that \"in some sense the problem is solved\". Andrei Lupas, one of the assessors, reported that an AlphaFold model had let his group solve a structure they had been stuck on for close to a decade.\n\nAlphaFold 2 learned from about 170,000 structures in the Protein Data Bank released before May 2018. Given a new sequence, it gathers related sequences from other organisms, passes information back and forth between that alignment and a map of which amino-acid pairs are likely to be close, then builds a three-dimensional model and refines it over and over.\n\n![AlphaFold's prediction of CASP14 target T1044, an RNA polymerase from a virus that infects bacteria, taking shape layer by layer inside the network](https://upload.wikimedia.org/wikipedia/commons/e/ee/T1044-alphafold3-layey-by-layer.gif \"Kathryn Tunyasuvunakool, Jonas Adler, Zachary Wu, Tim Green, Michal Zielinski, Augustin Žídek, Alex Bridgland, Andrew Cowie, Clemens Meyer, Agata Laydon, Sameer Velanka *, Gerard J Kleywegt *, Alex Bateman *, Richard Evans, Alexander Pritzel, Michael Figurnov, Olaf Ronneberger, Russ Bates, Simon A. A. Kohl, Anna Potapenko, Andrew J Ballard, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Ellen Clancy, David Reiman, Stig Petersen, Andrew Senior, Koray Kavukcuoglu, Ewan Birney *, Pushmeet Kohli, John Jumper, Demis Hassabis · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:T1044-alphafold3-layey-by-layer.gif\")\n\nIt is a little like guessing the finished figure of a paper origami from the list of its folds, after having studied 170,000 finished figures and their fold lists. The comparison breaks in an important place: AlphaFold never watches a protein fold. It predicts where the chain ends up, not the path it takes to get there, and a real protein is not a stiff paper figure but a shape that flexes and moves.\n\n### Why it was hard\n\nLevinthal's numbers ruled out brute force, and simulating the physics of every atom was far too slow and not accurate enough. What AlphaFold 2 needed had taken half a century to accumulate: Anfinsen's proof that the sequence holds the answer, the Protein Data Bank's decades of painstaking experiments, the evolutionary trick of reading contacts from related sequences, and neural networks large enough to combine them. The training itself ran on 128 specialised processor cores for about two weeks.\n\n> [!NOTE]\n> Was protein folding \"solved\"? AlphaFold 2 predicts the final shape of a single protein chain very well, but it does not explain how the chain folds. It is less reliable for parts of proteins that have no fixed shape, for proteins that switch between shapes, for unusual proteins with few relatives, and for small changes such as a single mutation. In its prediction of nearly every human protein, 58 percent of the amino acids were placed with confidence. Many researchers therefore say that one problem, predicting a single chain's structure, was largely answered, while the deeper question of folding remains open.\n\n### What it opened\n\nIn July 2021 DeepMind published the method in Nature and released its code. The same month David Baker's laboratory in Seattle published RoseTTAFold, an open program led by Minkyung Baek that came close to AlphaFold 2's accuracy; Baker's group had placed second at CASP14 with methods built on trRosetta, developed with Jianyi Yang. Also in July 2021, DeepMind and the European Bioinformatics Institute opened the AlphaFold Protein Structure Database with more than 350,000 predicted structures, covering 98.5 percent of human proteins. In July 2022 it grew to over 200 million — nearly every protein known to science — free for anyone to use.\n\nA laboratory without crystallography equipment could now start from a likely shape instead of a blank page. By 2024 more than two million people in 190 countries had used AlphaFold, for problems from antibiotic resistance to enzymes that break down plastic. Experiments did not become unnecessary: a prediction is a hypothesis to test, and the program could only learn because crystallographers had spent fifty years measuring structures by hand.\n\nIn 2024 Hassabis and Jumper shared half of the Nobel Prize in Chemistry \"for protein structure prediction\"; the other half went to David Baker \"for computational protein design\", for building new proteins that do not exist in nature. That same year AlphaFold 3, developed with DeepMind's sister company Isomorphic Labs, extended prediction to proteins bound to DNA, RNA and smaller molecules — the next question being not just what a protein looks like, but what it does with its neighbours."
+    },
+    "tr": {
+      "title": "AlphaFold 2 proteinlerin biçimini tahmin etti",
+      "summary": "2020'de DeepMind'ın AlphaFold 2'si proteinlerin biçimini amino asit dizilerinden neredeyse deneyler kadar isabetle tahmin etti; biyologların elli yıldır peşinde olduğu soruyu büyük ölçüde cevapladı.",
+      "why_it_matters": "Bir proteinin ne iş yaptığını biçimi belirler ve tek bir biçimi ölçmek aylar ya da yıllar alabiliyordu. AlphaFold 2 neredeyse her protein için güvenilir bir ilk tahmini saatler içinde mümkün kıldı; 200 milyonu aşkın tahmini yapı içeren ücretsiz veritabanı, biyolojik araştırmanın başlangıç noktasını değiştirdi.",
+      "if_you_were_there": "2020 başında sabırlı deneylerle yaklaşık 100.000 farklı proteinin biçimi biliniyordu; 200 milyon kadar protein dizisi ise hiçbir biçim olmadan bekliyordu.",
+      "place_name": "Londra",
+      "status": "machine",
+      "body": "### Sahne\n\nCanlı bir hücrenin yaptığı işlerin neredeyse hepsini proteinler yapar: besini sindirmek, kanda oksijen taşımak, DNA'yı kopyalamak, enfeksiyonla savaşmak. Her protein, amino asit denen küçük yapı taşlarından oluşan bir zincir olarak üretilir; yirmi çeşit amino asit, bir genin yazdığı sırayla dizilir. Sonra zincir kendi kendine kesin bir üç boyutlu biçime katlanır ve işi bu biçim görür: bir enzim üzerinde çalıştığı molekülü, anahtarın kilide oturması gibi kavrar.\n\n![Ribonükleaz S: Anfinsen'in açıp yeniden katlanmasını izlediği enzimin bir biçimi. Biyologların protein biçimlerini göstermek için bugün de kullandığı şerit çizimlerini geliştiren Jane Richardson'ın 1980'de elle yaptığı çizim](https://upload.wikimedia.org/wikipedia/commons/2/21/RibonucleaseS_ribbon_drawing_scratchboard.png \"Dcrjsr · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:RibonucleaseS_ribbon_drawing_scratchboard.png\")\n\n1961'de Amerikalı biyokimyacı Christian Anfinsen, ribonükleaz enzimini bir deney tüpünde açtı ve enzimin kendi kendine çalışan biçimine geri katlandığını gördü. Ona 1972 Nobel Kimya Ödülü'nü Stanford Moore ve William Stein ile paylaştıran ders şuydu: biçimin talimatı amino asitlerin sırasında yazılıdır. Demek ki ilke olarak biçim diziden okunabilirdi. 1969'da Cyrus Levinthal bunun neden zor olduğunu gösterdi: bir zincir o kadar çok biçime bükülebilir ki — kabaca 1'in ardından üç yüz sıfır gelen bir sayı diye hesapladı — bunları tek tek denemek evrenin yaşından uzun sürer; oysa gerçek proteinler saniyenin küçük bir kesrinde katlanır.\n\nBiçimleri doğrudan ölçmek yavaştı. İlk protein yapısını, miyoglobini, John Kendrew 1958'de çözdü; ardından Max Perutz hemoglobini çözdü. Dorothy Hodgkin insülini 1969'da çözene kadar otuz yılı aşkın uğraştı. Yöntem, proteinin kristalini büyütüp X-ışınlarını nasıl saçtığını okumaktı ve tek bir yapı aylar ya da yıllar alabiliyordu. 1971'den itibaren Protein Veri Bankası çözülen her yapıyı tek bir açık arşivde topladı. 2020'ye gelindiğinde dünyanın dört bir yanındaki laboratuvarlar yaklaşık 100.000 farklı proteinin biçimini belirlemişti; gen dizileme ise biçimini kimsenin bilmediği 200 milyon kadar protein dizisini ortaya çıkarmıştı.\n\n### Yarış\n\n1994'te John Moult ve Krzysztof Fidelis, iki yılda bir yapılan kör bir sınav olan CASP'ı (Protein Yapısı Tahmininin Eleştirel Değerlendirmesi) başlattı. Düzenleyiciler biçimi yeni ölçülmüş ama henüz yayımlanmamış proteinleri toplar; takımlar tahminlerini gönderir; sonra tahminler gerçek yapılarla karşılaştırılıp 100 üzerinden puanlanır. Yirmi yıl boyunca en zor hedeflerde ilerleme yavaş oldu.\n\n2010'larda iki fikir bunu değiştirdi. Birincisi evrimden geldi. Katlanmış bir proteinin içinde iki amino asit birbirine değiyorsa, birindeki mutasyona çoğu zaman ötekindeki bir değişiklik eşlik eder; bu yüzden aynı proteini binlerce türde karşılaştırmak hangi çiftlerin yan yana durduğunu ele verir. 2011'de Debora Marks, Chris Sander ve meslektaşları — ve onlardan bağımsız olarak Martin Weigt'in grubu — bu eşli değişikliklerin tek başına bir proteinin katlanışını yeniden kurmaya yettiğini gösterdi. İkinci fikir derin öğrenmeydi: çok sayıda örnekten kalıp öğrenen, sinir ağı denen bilgisayar programları. 2016 dolaylarında Jinbo Xu'nun Chicago'daki grubu, hangi amino asitlerin birbirine değdiğini gösteren haritayı bir resim gibi ele alıp böyle ağları onu çizmeye eğitti; yöntemleri CASP12 ve CASP13'te temas tahmininde en iyiler arasındaydı. Demis Hassabis'in kurucuları arasında olduğu, 2014'ten beri Google'a ait Londralı yapay zekâ şirketi DeepMind, 2018'de CASP13'e ilk AlphaFold ile katıldı ve birinci oldu; en zor hedeflerde medyan puanı 58,9'du, sonraki takımınki 52,5.\n\n### Ne oldu\n\n2020'deki CASP14 için John Jumper'ın yönettiği bir DeepMind ekibi yeni bir sistem kurdu: AlphaFold 2. Sistem 97 hedefin 88'inde en iyi tahmini verdi ve 92,4 medyan puana ulaştı. Moult, 90 dolayındaki bir puanı deneysel ölçümle yarışabilir sayıyordu. Başka bir ölçüyle, proteinin omurgasının konumundaki tipik hata 0,96 angströmdü — yaklaşık 1,4 angström olan bir karbon atomunun genişliğinden az — bir sonraki en iyi yöntem ise 2,8 angström sapıyordu. Sonuçlar 30 Kasım 2020'de açıklandığında Moult, \"bir anlamda sorun çözüldü\" dedi. Değerlendiricilerden Andrei Lupas, bir AlphaFold modelinin, grubunun neredeyse on yıldır takılıp kaldığı bir yapıyı çözmesini sağladığını bildirdi.\n\nAlphaFold 2, Protein Veri Bankası'nda Mayıs 2018'den önce yayımlanmış yaklaşık 170.000 yapıdan öğrendi. Yeni bir dizi verildiğinde başka canlılardan akraba dizileri toplar, bu hizalama ile hangi amino asit çiftlerinin yakın olabileceğini gösteren harita arasında bilgiyi ileri geri taşır, sonra üç boyutlu bir model kurup onu tekrar tekrar düzeltir.\n\n![AlphaFold'un CASP14 hedefi T1044 için tahmini: bakterileri enfekte eden bir virüsün RNA polimerazı, ağın içinde katman katman biçimleniyor](https://upload.wikimedia.org/wikipedia/commons/e/ee/T1044-alphafold3-layey-by-layer.gif \"Kathryn Tunyasuvunakool, Jonas Adler, Zachary Wu, Tim Green, Michal Zielinski, Augustin Žídek, Alex Bridgland, Andrew Cowie, Clemens Meyer, Agata Laydon, Sameer Velanka *, Gerard J Kleywegt *, Alex Bateman *, Richard Evans, Alexander Pritzel, Michael Figurnov, Olaf Ronneberger, Russ Bates, Simon A. A. Kohl, Anna Potapenko, Andrew J Ballard, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Ellen Clancy, David Reiman, Stig Petersen, Andrew Senior, Koray Kavukcuoglu, Ewan Birney *, Pushmeet Kohli, John Jumper, Demis Hassabis · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:T1044-alphafold3-layey-by-layer.gif\")\n\nBu biraz, 170.000 bitmiş origami figürünü ve kat listelerini inceledikten sonra, yalnızca kat listesine bakıp bitmiş figürü tahmin etmeye benzer. Benzetme önemli bir yerde bozulur: AlphaFold bir proteinin katlanışını hiç izlemez. Zincirin nereye varacağını tahmin eder, oraya hangi yoldan gittiğini değil; gerçek bir protein de sert bir kâğıt figür değil, esneyen ve hareket eden bir biçimdir.\n\n### Neden zordu\n\nLevinthal'in sayıları kaba kuvvetle denemeyi dışarıda bırakıyordu; her atomun fiziğini benzetimle hesaplamak ise hem çok yavaş hem yeterince isabetsizdi. AlphaFold 2'nin ihtiyaç duyduğu şeylerin birikmesi yarım yüzyıl sürmüştü: Anfinsen'in cevabın dizide olduğunu kanıtlaması, Protein Veri Bankası'nın on yıllarca süren titiz deneyleri, akraba dizilerden temas okuma hilesi ve bunları birleştirecek kadar büyük sinir ağları. Eğitimin kendisi 128 özel işlemci çekirdeği üzerinde yaklaşık iki hafta sürdü.\n\n> [!NOTE]\n> Protein katlanması \"çözüldü\" mü? AlphaFold 2 tek bir protein zincirinin son biçimini çok iyi tahmin eder, ama zincirin nasıl katlandığını açıklamaz. Sabit biçimi olmayan protein bölümlerinde, biçimler arasında geçiş yapan proteinlerde, az akrabası olan sıradışı proteinlerde ve tek bir mutasyon gibi küçük değişikliklerde daha az güvenilirdir. Neredeyse bütün insan proteinleri için yaptığı tahminde amino asitlerin yüzde 58'i güvenle yerleştirildi. Bu yüzden pek çok araştırmacı, tek zincirin yapısını tahmin etme sorununun büyük ölçüde cevaplandığını, katlanmanın daha derin sorusunun ise açık kaldığını söyler.\n\n### Ne kapı açtı\n\nTemmuz 2021'de DeepMind yöntemi Nature'da yayımladı ve kodunu açtı. Aynı ay David Baker'ın Seattle'daki laboratuvarı, Minkyung Baek'in önderliğinde geliştirilen ve AlphaFold 2'nin isabetine yaklaşan açık bir program olan RoseTTAFold'u yayımladı; Baker'ın grubu CASP14'te, Jianyi Yang ile birlikte geliştirilen trRosetta üzerine kurulu yöntemlerle ikinci olmuştu. Yine Temmuz 2021'de DeepMind ve Avrupa Biyoenformatik Enstitüsü, insan proteinlerinin yüzde 98,5'ini kapsayan, 350.000'i aşkın tahmini yapıyla AlphaFold Protein Yapısı Veritabanı'nı açtı. Temmuz 2022'de veritabanı 200 milyonu aştı — bilimin bildiği neredeyse her protein — ve herkesin ücretsiz kullanımına açık.\n\nKristalografi donanımı olmayan bir laboratuvar artık boş bir sayfa yerine olası bir biçimle işe başlayabiliyordu. 2024'e kadar 190 ülkede iki milyonu aşkın insan AlphaFold'u antibiyotik direncinden plastiği parçalayan enzimlere kadar uzanan sorunlarda kullanmıştı. Deneyler gereksizleşmedi: bir tahmin sınanacak bir hipotezdir ve program ancak kristalograflar elli yıl boyunca yapıları elle ölçtüğü için öğrenebildi.\n\n2024'te Hassabis ve Jumper, Nobel Kimya Ödülü'nün yarısını \"protein yapısı tahmini için\" paylaştı; öteki yarısı, doğada bulunmayan yeni proteinler kurduğu için David Baker'a \"hesaplamalı protein tasarımı için\" verildi. Aynı yıl DeepMind'ın kardeş şirketi Isomorphic Labs ile geliştirilen AlphaFold 3, tahmini DNA'ya, RNA'ya ve daha küçük moleküllere bağlanmış proteinlere genişletti: sıradaki soru yalnızca bir proteinin neye benzediği değil, komşularıyla ne yaptığı."
+    },
+    "ru": {
+      "title": "AlphaFold 2 предсказывает форму белков",
+      "summary": "В 2020 году AlphaFold 2 от DeepMind предсказала форму белков по их аминокислотной последовательности почти так же точно, как эксперимент, в основном ответив на вопрос, который биологи решали полвека.",
+      "why_it_matters": "Форма белка определяет, что он делает, а измерение одной формы могло занять месяцы или годы. AlphaFold 2 позволила за часы получить надёжную первую догадку почти для любого белка, а её бесплатная база из более чем 200 миллионов предсказанных структур изменила точку, с которой начинается биологическое исследование.",
+      "if_you_were_there": "В начале 2020 года кропотливыми экспериментами были установлены формы примерно 100 000 разных белков, а около 200 миллионов белковых последовательностей ждали без всякой формы.",
+      "place_name": "Лондон",
+      "status": "machine",
+      "body": "### Обстановка\n\nПочти всё, что делает живая клетка, делают белки: переваривают пищу, переносят кислород в крови, копируют ДНК, борются с инфекцией. Каждый белок собирается как цепочка из маленьких звеньев — аминокислот, двадцати видов, — выстроенных в том порядке, который записан в гене. Затем цепочка сама сворачивается в точную трёхмерную форму, и работу выполняет именно форма: фермент захватывает свою молекулу так, как ключ входит в замок.\n\n![Рибонуклеаза S — форма фермента, который Анфинсен разворачивал и снова сворачивал. Рисунок от руки 1980 года, автор — Джейн Ричардсон, придумавшая ленточные схемы, которыми биологи до сих пор изображают форму белков](https://upload.wikimedia.org/wikipedia/commons/2/21/RibonucleaseS_ribbon_drawing_scratchboard.png \"Dcrjsr · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:RibonucleaseS_ribbon_drawing_scratchboard.png\")\n\nВ 1961 году американский биохимик Кристиан Анфинсен развернул фермент рибонуклеазу в пробирке и увидел, что тот сам сворачивается обратно в рабочую форму. Вывод, за который он разделил Нобелевскую премию по химии 1972 года со Стэнфордом Муром и Уильямом Стайном, был таким: инструкция к форме записана в порядке аминокислот. Значит, в принципе форму можно прочитать по последовательности. В 1969 году Сайрус Левинталь показал, почему это трудно: цепочка может изогнуться таким числом способов — он оценил его примерно как единицу с тремястами нулями, — что перебор по одному занял бы больше времени, чем возраст Вселенной, а настоящие белки сворачиваются за доли секунды.\n\nИзмерять формы напрямую было долго. Первую структуру белка, миоглобина, Джон Кендрю расшифровал в 1958 году, за ним Макс Перуц — гемоглобин; Дороти Ходжкин работала больше тридцати лет, пока в 1969 году не расшифровала инсулин. Для этого белок нужно было вырастить в виде кристалла и прочитать, как он рассеивает рентгеновские лучи, и одна структура могла занять месяцы или годы. С 1971 года Банк данных белков собирал все расшифрованные структуры в один открытый архив. К 2020 году лаборатории всего мира определили формы примерно 100 000 разных белков, а чтение генов выявило около 200 миллионов белковых последовательностей, формы которых не знал никто.\n\n### Состязание\n\nВ 1994 году Джон Моулт и Кшиштоф Фиделис основали CASP — «Критическую оценку предсказания структуры белков», слепое испытание, которое проходит раз в два года. Организаторы собирают белки, чья форма только что измерена, но ещё не опубликована; команды присылают предсказания; затем их сравнивают с настоящими структурами и оценивают по шкале до 100. Двадцать лет на самых трудных задачах прогресс шёл медленно.\n\nВ 2010-х это изменили две идеи. Первая пришла из эволюции. Если две аминокислоты в свёрнутом белке касаются друг друга, мутация в одной часто сопровождается изменением в другой, поэтому сравнение одного и того же белка у тысяч видов показывает, какие пары находятся рядом. В 2011 году Дебора Маркс, Крис Сандер и их коллеги — а независимо от них группа Мартина Вейгта — показали, что одних этих парных изменений достаточно, чтобы восстановить укладку белка. Вторая идея — глубокое обучение: компьютерные программы, нейронные сети, которые учатся находить закономерности на огромном числе примеров. Около 2016 года группа Цзиньбо Сюя в Чикаго стала рассматривать карту контактов между аминокислотами как картинку и обучила такие сети её рисовать; их метод был среди лучших в предсказании контактов на CASP12 и CASP13. DeepMind — лондонская компания в области искусственного интеллекта, одним из основателей которой был Демис Хассабис, с 2014 года принадлежащая Google, — вышла на CASP13 в 2018 году с первой версией AlphaFold и заняла первое место; на самых трудных задачах её медианная оценка была 58,9 против 52,5 у следующей команды.\n\n### Что произошло\n\nК CASP14 в 2020 году команда DeepMind под руководством Джона Джампера построила новую систему — AlphaFold 2. Она дала лучшее предсказание для 88 из 97 задач и достигла медианной оценки 92,4. Моулт считал, что оценка около 90 сопоставима с экспериментальным измерением. Если измерить иначе, типичная ошибка в положении остова белка составила 0,96 ангстрема — меньше ширины атома углерода, около 1,4 ангстрема, — тогда как у следующего лучшего метода она была 2,8. Когда 30 ноября 2020 года объявили результаты, Моулт сказал, что «в некотором смысле задача решена». Андрей Лупас, один из экспертов-оценщиков, сообщил, что модель AlphaFold помогла его группе расшифровать структуру, над которой они бились почти десять лет.\n\nAlphaFold 2 училась примерно на 170 000 структур из Банка данных белков, опубликованных до мая 2018 года. Получив новую последовательность, она собирает родственные последовательности из других организмов, многократно передаёт информацию между этим выравниванием и картой вероятных близких пар аминокислот, затем строит трёхмерную модель и снова и снова её уточняет.\n\n![Предсказание AlphaFold для задачи CASP14 T1044 — РНК-полимеразы вируса, заражающего бактерии, — слой за слоем принимает форму внутри сети](https://upload.wikimedia.org/wikipedia/commons/e/ee/T1044-alphafold3-layey-by-layer.gif \"Kathryn Tunyasuvunakool, Jonas Adler, Zachary Wu, Tim Green, Michal Zielinski, Augustin Žídek, Alex Bridgland, Andrew Cowie, Clemens Meyer, Agata Laydon, Sameer Velanka *, Gerard J Kleywegt *, Alex Bateman *, Richard Evans, Alexander Pritzel, Michael Figurnov, Olaf Ronneberger, Russ Bates, Simon A. A. Kohl, Anna Potapenko, Andrew J Ballard, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Ellen Clancy, David Reiman, Stig Petersen, Andrew Senior, Koray Kavukcuoglu, Ewan Birney *, Pushmeet Kohli, John Jumper, Demis Hassabis · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:T1044-alphafold3-layey-by-layer.gif\")\n\nЭто немного похоже на то, как угадать готовую фигурку оригами по одному лишь списку сгибов, изучив перед этим 170 000 готовых фигурок вместе с их списками. Сравнение ломается в важном месте: AlphaFold никогда не наблюдает, как белок сворачивается. Она предсказывает, где цепочка окажется, а не путь, которым она туда приходит, и настоящий белок — не жёсткая бумажная фигурка, а форма, которая гнётся и движется.\n\n### Почему это было трудно\n\nЧисла Левинталя исключали простой перебор, а моделирование физики каждого атома было слишком медленным и недостаточно точным. То, что понадобилось AlphaFold 2, накапливалось полвека: доказательство Анфинсена, что ответ содержится в последовательности, десятилетия кропотливых экспериментов, собранных в Банке данных белков, эволюционный приём чтения контактов по родственным последовательностям и нейронные сети, достаточно большие, чтобы всё это соединить. Само обучение заняло около двух недель на 128 специализированных процессорных ядрах.\n\n> [!NOTE]\n> «Решена» ли задача сворачивания белка? AlphaFold 2 очень хорошо предсказывает итоговую форму одной белковой цепочки, но не объясняет, как цепочка сворачивается. Она менее надёжна для участков белков без постоянной формы, для белков, переключающихся между формами, для необычных белков с малым числом родственников и для небольших изменений вроде единичной мутации. В её предсказании почти всех белков человека уверенно были размещены 58 процентов аминокислот. Поэтому многие исследователи говорят, что одна задача — предсказание структуры отдельной цепочки — в основном решена, а более глубокий вопрос о сворачивании остаётся открытым.\n\n### Что это открыло\n\nВ июле 2021 года DeepMind опубликовала метод в Nature и открыла код. В том же месяце лаборатория Дэвида Бейкера в Сиэтле опубликовала RoseTTAFold — открытую программу, созданную под руководством Мингён Пэк и близкую по точности к AlphaFold 2; группа Бейкера заняла второе место на CASP14 с методами на основе trRosetta, разработанной вместе с Цзяньи Яном. Тоже в июле 2021 года DeepMind и Европейский институт биоинформатики открыли Базу данных структур белков AlphaFold — более 350 000 предсказанных структур, охватывающих 98,5 процента белков человека. В июле 2022 года она выросла до более чем 200 миллионов — почти всех известных науке белков — и доступна всем бесплатно.\n\nЛаборатория без оборудования для кристаллографии теперь могла начинать работу с вероятной формы, а не с чистого листа. К 2024 году AlphaFold воспользовались более двух миллионов человек в 190 странах — для задач от устойчивости к антибиотикам до ферментов, разлагающих пластик. Эксперименты не стали ненужными: предсказание — это гипотеза, которую нужно проверить, а программа смогла учиться только потому, что кристаллографы полвека вручную измеряли структуры.\n\nВ 2024 году Хассабис и Джампер разделили половину Нобелевской премии по химии «за предсказание структуры белков»; другая половина досталась Дэвиду Бейкеру «за вычислительный дизайн белков» — за создание новых белков, которых нет в природе. В том же году AlphaFold 3, разработанная вместе с родственной компанией Isomorphic Labs, распространила предсказание на белки, связанные с ДНК, РНК и малыми молекулами: следующий вопрос — не только как выглядит белок, но и что он делает со своими соседями."
+    },
+    "ky": {
+      "title": "AlphaFold 2 белоктордун формасын болжолдойт",
+      "summary": "2020-жылы DeepMindдын AlphaFold 2 программасы белоктордун формасын аминокислота ырааттуулугунан тажрыйбага дээрлик тете так болжолдоп, биологдор элүү жыл издеген суроого негизинен жооп берген.",
+      "why_it_matters": "Белоктун эмне кыларын анын формасы чечет, ал эми бир эле форманы өлчөөгө айлар же жылдар кетчү. AlphaFold 2 дээрлик ар бир белок үчүн ишенимдүү алгачкы болжолду бир нече саатта алууга мүмкүндүк берди, ал эми 200 миллиондон ашык болжолдонгон түзүлүштү камтыган акысыз базасы биологиялык изилдөө башталчу жерди өзгөрттү.",
+      "if_you_were_there": "2020-жылдын башында чыдамдуу тажрыйбалар аркылуу 100 000ге жакын ар башка белоктун формасы белгилүү болчу, ал эми 200 миллионго жакын белок ырааттуулугу формасыз күтүп турган.",
+      "place_name": "Лондон",
+      "status": "machine",
+      "body": "### Окуянын алкагы\n\nТирүү клетка аткарган иштердин дээрлик баарын белоктор аткарат: тамакты сиңирет, канда кычкылтек ташыйт, ДНКны көчүрөт, инфекция менен күрөшөт. Ар бир белок аминокислота деп аталган майда курулуш бөлүкчөлөрүнөн турган чынжыр катары жасалат: аминокислоталардын жыйырма түрү ген жазып койгон тартипте тизилет. Андан кийин чынжыр өзүнөн-өзү так үч өлчөмдүү формага бүктөлөт, ал эми ишти дал ушул форма аткарат: фермент өзү иштеген молекуланы ачкыч кулпуга кирген сыяктуу кармайт.\n\n![Рибонуклеаза S — Анфинсен ачып, кайра бүктөлүшүн байкаган ферменттин бир түрү. Биологдор белоктордун формасын көрсөтүү үчүн азыр да колдонгон тасма сүрөттөрдү ойлоп тапкан Джейн Ричардсон 1980-жылы кол менен тарткан](https://upload.wikimedia.org/wikipedia/commons/2/21/RibonucleaseS_ribbon_drawing_scratchboard.png \"Dcrjsr · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:RibonucleaseS_ribbon_drawing_scratchboard.png\")\n\n1961-жылы америкалык биохимик Кристиан Анфинсен рибонуклеаза ферментин пробиркада ачып жиберип, анын өзүнөн-өзү кайра иштөөчү формасына бүктөлгөнүн көргөн. Ага 1972-жылы Стэнфорд Мур жана Уильям Стайн менен бирге химия боюнча Нобель сыйлыгын алып берген сабак мындай болгон: форманын нускамасы аминокислоталардын тартибинде жазылып турат. Демек, негизинен форманы ырааттуулуктан окуса болот. 1969-жылы Сайрус Левинталь мунун эмне үчүн кыйын экенин көрсөткөн: чынжыр ушунчалык көп формага ийиле алат — ал болжол менен бирдин артынан үч жүз нөл турган сан деп эсептеген — аларды бирден сынап көрүү Ааламдын жашынан да узак убакытты алмак. Ал эми чыныгы белоктор секунданын кичинекей бөлүгүндө бүктөлөт.\n\nФормаларды түз өлчөө жай жүргөн. Биринчи белоктун түзүлүшүн — миоглобинди — Джон Кендрю 1958-жылы аныктаган, андан кийин Макс Перуц гемоглобинди аныктаган. Дороти Ходжкин инсулинди 1969-жылы аныктаганга чейин отуз жылдан ашык иштеген. Бул ыкма боюнча белоктон кристалл өстүрүп, анын рентген нурларын кантип чачыратканын окуш керек болчу, бир эле түзүлүшкө айлар же жылдар кетчү. 1971-жылдан тартып Белок маалыматтар банкы аныкталган ар бир түзүлүштү бир ачык архивге чогултуп келген. 2020-жылга чейин дүйнө жүзүндөгү лабораториялар 100 000ге жакын ар башка белоктун формасын аныкташкан, ал эми гендерди окуу формасын эч ким билбеген 200 миллионго жакын белок ырааттуулугун ачып берген.\n\n### Жарыш\n\n1994-жылы Джон Моулт жана Кшиштоф Фиделис CASPты — «Белок түзүлүшүн алдын ала айтууну сындап баалоону» — эки жылда бир өтүүчү сокур сынакты негиздешкен. Уюштуруучулар формасы жаңы эле өлчөнгөн, бирок али жарыяланбаган белокторду чогултушат; командалар болжолдорун жиберишет; андан кийин болжолдор чыныгы түзүлүштөр менен салыштырылып, 100гө чейинки шкала менен бааланат. Жыйырма жыл бою эң кыйын тапшырмаларда алдыга жылуу жай болгон.\n\n2010-жылдары муну эки идея өзгөрткөн. Биринчиси эволюциядан келген. Бүктөлгөн белоктун ичинде эки аминокислота бири-бирине тийип турса, бириндеги мутацияга көп учурда экинчисиндеги өзгөрүү коштолот. Ошондуктан бир эле белокту миңдеген түрлөрдө салыштырсаңыз, кайсы жуптар жанаша турганы билинет. 2011-жылы Дебора Маркс, Крис Сандер жана алардын кесиптештери — алардан көз карандысыз Мартин Вейгттин тобу да — ушул жуп өзгөрүүлөрдүн өзү эле белоктун бүктөлүшүн кайра куруп чыгууга жетиштүү экенин көрсөтүшкөн. Экинчи идея — терең үйрөнүү: көп мисалдардан мыйзам ченемдүүлүктөрдү үйрөнгөн, нейрон тармактары деп аталган компьютердик программалар. 2016-жылга жакын Цзиньбо Сюйдун Чикагодогу тобу кайсы аминокислоталар бири-бирине тийерин көрсөткөн картаны сүрөт катары карап, ушундай тармактарды аны тартууга үйрөтүшкөн; алардын ыкмасы CASP12 жана CASP13 сынактарында байланыштарды болжолдоодо эң мыктылардын катарында болгон. Негиздөөчүлөрүнүн бири Демис Хассабис болгон, 2014-жылдан бери Googleга таандык Лондондогу жасалма интеллект компаниясы DeepMind 2018-жылы CASP13кө биринчи AlphaFold менен катышып, биринчи орунду алган; эң кыйын тапшырмаларда анын медиандык баасы 58,9 болгон, кийинки командада 52,5.\n\n### Эмне болду\n\n2020-жылдагы CASP14 үчүн Джон Джампер жетектеген DeepMind командасы жаңы система курган — AlphaFold 2. Ал 97 тапшырманын 88инде эң жакшы болжолду берип, 92,4 медиандык баага жеткен. Моулт 90го жакын бааны тажрыйбалык өлчөө менен теңтайлаша ала турган деп эсептеген. Башкача өлчөсөк, белоктун негизги чынжырынын ордундагы кадимки ката 0,96 ангстрем болгон — көмүртек атомунун туурасынан, болжол менен 1,4 ангстремден, аз — ал эми андан кийинки эң мыкты ыкма 2,8 ангстремге жаңылган. Жыйынтыктар 2020-жылдын 30-ноябрында жарыяланганда Моулт «кандайдыр бир мааниде маселе чечилди» деген. Баалоочулардын бири Андрей Лупас AlphaFold модели анын тобуна дээрлик он жыл бою чече албай жүргөн түзүлүштү аныктоого жардам бергенин билдирген.\n\nAlphaFold 2 Белок маалыматтар банкында 2018-жылдын майына чейин жарыяланган 170 000ге жакын түзүлүштөн үйрөнгөн. Ага жаңы ырааттуулук берилгенде, ал башка организмдерден тектеш ырааттуулуктарды чогултат, ошол тизмек менен кайсы аминокислота жуптары жакын болушу мүмкүн экенин көрсөткөн картанын ортосунда маалыматты ары-бери өткөрөт, андан кийин үч өлчөмдүү модель куруп, аны кайра-кайра тактайт.\n\n![AlphaFoldдун CASP14 тапшырмасы T1044 үчүн болжолу: бактерияларды жуктурган вирустун РНК-полимеразасы тармактын ичинде катмар-катмар менен формага келип жатат](https://upload.wikimedia.org/wikipedia/commons/e/ee/T1044-alphafold3-layey-by-layer.gif \"Kathryn Tunyasuvunakool, Jonas Adler, Zachary Wu, Tim Green, Michal Zielinski, Augustin Žídek, Alex Bridgland, Andrew Cowie, Clemens Meyer, Agata Laydon, Sameer Velanka *, Gerard J Kleywegt *, Alex Bateman *, Richard Evans, Alexander Pritzel, Michael Figurnov, Olaf Ronneberger, Russ Bates, Simon A. A. Kohl, Anna Potapenko, Andrew J Ballard, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Ellen Clancy, David Reiman, Stig Petersen, Andrew Senior, Koray Kavukcuoglu, Ewan Birney *, Pushmeet Kohli, John Jumper, Demis Hassabis · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:T1044-alphafold3-layey-by-layer.gif\")\n\nБул бир аз 170 000 даяр оригами фигурасын жана алардын бүктөө тизмелерин үйрөнгөндөн кийин, бүктөө тизмесине гана карап даяр фигураны табууга окшош. Салыштыруу маанилүү жерде бузулат: AlphaFold белоктун бүктөлүшүн эч качан көрбөйт. Ал чынжыр кайда барып токтоорун болжолдойт, ал жакка кайсы жол менен барарын эмес. Анын үстүнө чыныгы белок катуу кагаз фигура эмес, ийилип, кыймылдап турган форма.\n\n### Эмне үчүн кыйын болгон\n\nЛевинталдын сандары жөн эле сынап чыгууну жокко чыгарган, ал эми ар бир атомдун физикасын моделдөө өтө жай жана жетишерлик так эмес болчу. AlphaFold 2гө керек болгон нерселер жарым кылым бою топтолгон: жооп ырааттуулукта экенин Анфинсендин көрсөтүшү, Белок маалыматтар банкына чогулган ондогон жылдык кылдат тажрыйбалар, тектеш ырааттуулуктардан байланыштарды окуу ыкмасы жана мунун баарын бириктире ала турган чоң нейрон тармактары. Үйрөтүүнүн өзү 128 атайын процессор өзөгүндө болжол менен эки жума уланган.\n\n> [!NOTE]\n> Белоктун бүктөлүү маселеси «чечилдиби»? AlphaFold 2 бир белок чынжырынын акыркы формасын абдан жакшы болжолдойт, бирок чынжырдын кантип бүктөлөрүн түшүндүрбөйт. Туруктуу формасы жок белок бөлүктөрүндө, бир формадан экинчисине өтүп турган белоктордо, тектештери аз адаттан тыш белоктордо жана бир мутация сыяктуу кичине өзгөрүүлөрдө ал азыраак ишенимдүү. Адамдын дээрлик бардык белокторун болжолдогондо аминокислоталардын 58 пайызы ишенимдүү жайгаштырылган. Ошондуктан көп изилдөөчүлөр бир маселе — бир чынжырдын түзүлүшүн болжолдоо — негизинен чечилди, ал эми бүктөлүүнүн тереңирээк суроосу ачык бойдон калды дешет.\n\n### Эмнеге жол ачты\n\n2021-жылдын июлунда DeepMind ыкманы Nature журналына жарыялап, кодун ачык берген. Ошол эле айда Дэвид Бейкердин Сиэтлдеги лабораториясы Мингён Пэк жетектеп иштеп чыккан, тактыгы боюнча AlphaFold 2гө жакындаган ачык программа RoseTTAFoldду жарыялаган; Бейкердин тобу CASP14тө Цзяньи Ян менен бирге иштелип чыккан trRosetta негизиндеги ыкмалар менен экинчи орунду алган. Дагы 2021-жылдын июлунда DeepMind жана Европа биоинформатика институту адамдын белокторунун 98,5 пайызын камтыган, 350 000ден ашык болжолдонгон түзүлүшү бар AlphaFold белок түзүлүштөрүнүн маалымат базасын ачышкан. 2022-жылдын июлунда база 200 миллиондон ашкан — илимге белгилүү дээрлик ар бир белок — жана аны ар ким акысыз колдоно алат.\n\nКристаллография жабдуусу жок лаборатория эми таза барактан эмес, болжолдуу формадан иш баштай алган. 2024-жылга чейин 190 өлкөдө эки миллиондон ашык адам AlphaFoldду антибиотиктерге туруктуулуктан баштап пластикти ажыратуучу ферменттерге чейинки маселелерде колдонушкан. Тажрыйбалар керексиз болуп калган жок: болжол — текшериле турган гипотеза, ал эми программа кристаллографтар элүү жыл бою түзүлүштөрдү кол менен өлчөгөндүктөн гана үйрөнө алган.\n\n2024-жылы Хассабис менен Джампер химия боюнча Нобель сыйлыгынын жарымын «белок түзүлүшүн болжолдогону үчүн» бөлүшкөн; экинчи жарымы табиятта жок жаңы белокторду курганы үчүн Дэвид Бейкерге «белокторду эсептөө аркылуу долбоорлогону үчүн» берилген. Ошол эле жылы DeepMindдын тектеш компаниясы Isomorphic Labs менен бирге иштелип чыккан AlphaFold 3 болжолдоону ДНКга, РНКга жана майда молекулаларга байланган белокторго чейин кеңейткен: кийинки суроо — белок кандай көрүнөөрү гана эмес, коңшулары менен эмне кылаары."
+    }
+  }
+}
