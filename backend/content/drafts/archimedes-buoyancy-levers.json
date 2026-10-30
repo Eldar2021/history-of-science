@@ -1,0 +1,305 @@
+{
+  "slug": "archimedes-buoyancy-levers",
+  "year": -250,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 37.0755,
+  "lng": 15.2866,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg",
+    "credit": "Domenico Fetti",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg"
+  },
+  "disciplines": [
+    "physics",
+    "mathematics"
+  ],
+  "people": [
+    {
+      "slug": "archimedes",
+      "birth_year": -287,
+      "death_year": -212,
+      "role": "author",
+      "name": {
+        "en": "Archimedes",
+        "tr": "Arşimet",
+        "ru": "Архимед",
+        "ky": "Архимед"
+      }
+    },
+    {
+      "slug": "hiero-ii",
+      "birth_year": null,
+      "death_year": -215,
+      "role": "context",
+      "name": {
+        "en": "Hiero II of Syracuse",
+        "tr": "Siraküzalı II. Hieron",
+        "ru": "Гиерон II Сиракузский",
+        "ky": "Сиракузалык Гиерон II"
+      }
+    },
+    {
+      "slug": "conon-of-samos",
+      "birth_year": null,
+      "death_year": null,
+      "role": "context",
+      "name": {
+        "en": "Conon of Samos",
+        "tr": "Samoslu Konon",
+        "ru": "Конон Самосский",
+        "ky": "Самостук Конон"
+      }
+    },
+    {
+      "slug": "eratosthenes",
+      "birth_year": -276,
+      "death_year": -194,
+      "role": "context",
+      "name": {
+        "en": "Eratosthenes",
+        "tr": "Eratosthenes",
+        "ru": "Эратосфен",
+        "ky": "Эратосфен"
+      }
+    },
+    {
+      "slug": "euclid",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Euclid",
+        "tr": "Öklid",
+        "ru": "Евклид",
+        "ky": "Евклид"
+      }
+    },
+    {
+      "slug": "eudoxus-of-cnidus",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Eudoxus of Cnidus",
+        "tr": "Knidoslu Eudoksos",
+        "ru": "Евдокс Книдский",
+        "ky": "Книдтик Евдокс"
+      }
+    },
+    {
+      "slug": "vitruvius",
+      "birth_year": null,
+      "death_year": null,
+      "role": "transmitter",
+      "name": {
+        "en": "Vitruvius",
+        "tr": "Vitruvius",
+        "ru": "Витрувий",
+        "ky": "Витрувий"
+      }
+    },
+    {
+      "slug": "pappus-of-alexandria",
+      "birth_year": null,
+      "death_year": null,
+      "role": "transmitter",
+      "name": {
+        "en": "Pappus of Alexandria",
+        "tr": "İskenderiyeli Pappos",
+        "ru": "Папп Александрийский",
+        "ky": "Александриялык Папп"
+      }
+    },
+    {
+      "slug": "hypatia",
+      "birth_year": null,
+      "death_year": 415,
+      "role": "successor",
+      "name": {
+        "en": "Hypatia",
+        "tr": "Hypatia",
+        "ru": "Гипатия",
+        "ky": "Гипатия"
+      }
+    },
+    {
+      "slug": "al-biruni",
+      "birth_year": 973,
+      "death_year": 1048,
+      "role": "successor",
+      "name": {
+        "en": "Al-Biruni",
+        "tr": "El-Biruni",
+        "ru": "Аль-Бируни",
+        "ky": "Аль-Бируни"
+      }
+    },
+    {
+      "slug": "al-khazini",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Al-Khazini",
+        "tr": "El-Hazini",
+        "ru": "Аль-Хазини",
+        "ky": "Аль-Хазини"
+      }
+    },
+    {
+      "slug": "william-of-moerbeke",
+      "birth_year": null,
+      "death_year": null,
+      "role": "transmitter",
+      "name": {
+        "en": "William of Moerbeke",
+        "tr": "Moerbekeli Willem",
+        "ru": "Вильгельм из Мербеке",
+        "ky": "Мербекелик Виллем"
+      }
+    },
+    {
+      "slug": "johan-ludvig-heiberg",
+      "birth_year": 1854,
+      "death_year": 1928,
+      "role": "transmitter",
+      "name": {
+        "en": "Johan Ludvig Heiberg",
+        "tr": "Johan Ludvig Heiberg",
+        "ru": "Йохан Людвиг Гейберг",
+        "ky": "Йохан Людвиг Гейберг"
+      }
+    },
+    {
+      "slug": "simon-stevin",
+      "birth_year": 1548,
+      "death_year": 1620,
+      "role": "successor",
+      "name": {
+        "en": "Simon Stevin",
+        "tr": "Simon Stevin",
+        "ru": "Симон Стевин",
+        "ky": "Симон Стевин"
+      }
+    },
+    {
+      "slug": "galileo-galilei",
+      "birth_year": 1564,
+      "death_year": 1642,
+      "role": "successor",
+      "name": {
+        "en": "Galileo Galilei",
+        "tr": "Galileo Galilei",
+        "ru": "Галилео Галилей",
+        "ky": "Галилео Галилей"
+      }
+    }
+  ],
+  "builds_on": [
+    "euclid-elements",
+    "aristotle-lyceum"
+  ],
+  "sources": [
+    {
+      "title": "Archimedes — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/"
+    },
+    {
+      "title": "Archimedes — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Archimedes"
+    },
+    {
+      "title": "On Floating Bodies — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/On_Floating_Bodies"
+    },
+    {
+      "title": "Archimedes Palimpsest — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Archimedes_Palimpsest"
+    },
+    {
+      "title": "The Golden Crown (Vitruvius's account and the size of the effect) — Chris Rorres, Archimedes pages, New York University",
+      "kind": "other",
+      "url": "https://www.math.nyu.edu/~crorres/Archimedes/Crown/CrownIntro.html"
+    },
+    {
+      "title": "Galileo, La Bilancetta (1586), English translation — Chris Rorres, Archimedes pages, New York University",
+      "kind": "book",
+      "url": "https://math.nyu.edu/Archimedes/Crown/bilancetta.html"
+    },
+    {
+      "title": "Boltz, Renn, Schemmel: Mechanics in the Mohist Canon and Its European Counterpart (Max Planck Institute for the History of Science, preprint 241, 2003)",
+      "kind": "book",
+      "url": "https://www.mpiwg-berlin.mpg.de/sites/default/files/migrated/p241.pdf"
+    },
+    {
+      "title": "Hydrometer — Wikipedia (Synesius's letter to Hypatia)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hydrometer"
+    },
+    {
+      "title": "Al-Khazini — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Khazini"
+    },
+    {
+      "title": "Accuracy transmitted through the ages (al-Biruni's pyknometer) — Chemistry World",
+      "kind": "other",
+      "url": "https://www.chemistryworld.com/opinion/al-birunis-pyknometer/4021873.article"
+    },
+    {
+      "title": "Archimedes — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Archimedes"
+    }
+  ],
+  "research_note": "Checked 2026-10-30 against MacTutor (Archimedes), English Wikipedia (Archimedes, On Floating Bodies, Archimedes Palimpsest, Hydrometer, Al-Khazini), Chris Rorres's Archimedes pages at NYU (Vitruvius's crown account, the size-of-effect calculation, Galileo's La Bilancetta), the Boltz/Renn/Schemmel MPIWG preprint on the Mohist Canon, and Chemistry World on al-Biruni's specific-gravity vessel. Britannica linked for the human reviewer only.\nYEAR: no source dates On the Equilibrium of Planes or On Floating Bodies. -250 circa is a point in Archimedes's working life (born c. 287 BCE per Tzetzes's 75 years, died 212 BCE); the body says the years are unrecorded.\nFLAGGED IN THE BODY: Eureka/bath story rests on Vitruvius (about two centuries later, no source named) and is in a NOTE box; Galileo's balance method is labelled a reconstruction. \"Give me a place to stand\" (Pappus), ship-hauling (Plutarch), war machines, manner of death (Plutarch gives several versions) and burning mirrors (much later writers) are in a WARNING box as legend. Hypatia is not credited with inventing the hydrometer; the Synesius letter only shows she could have one made. Mohist Canon closeness to a general lever law is stated as debated.\nPREDECESSORS / NON-WESTERN: Mechanical Problems from Aristotle's school (authorship uncertain, sometimes attributed to Archytas; not named in body), Eudoxus, Euclid, Democritus (cone volume, via The Method), Mohist Canon (China), al-Biruni (born in Khwarazm), al-Khazini (Merv, 1121), Hypatia.\nREVIEWER SHOULD CHECK: (1) the Fetti cover: Commons file is titled Archimedes, but Dresden catalogues it as \"Portrait of a Scholar\"; the caption says the identification is uncertain. (2) Moerbeke's Latin On Floating Bodies is given only as \"13th century\" (1269 is commonly cited, not confirmed here). (3) \"Several of his books open as letters\" to Conon/Dositheus/Eratosthenes, and the father Phidias being mentioned in Archimedes's own book (The Sand Reckoner) rest on standard accounts. (4) Hiero II's death year -215 and Hypatia's death 415 entered from standard dates; other birth/death years left null where sources give none. (5) The palimpsest leaf image (Walters Museum, CC BY 3.0) does not say which Archimedes work is on that page, so the caption does not name one.\nFIXED AFTER FACT-CHECK: (1) Conon had died before the letter-prefaced books; the letters are now to Dositheus or Eratosthenes, Conon's death mentioned. (2) Summary and body no longer say \"for the first time\": the Arabic On the Balance attributed to Euclid (disputed author/date) is mentioned, and Archimedes's proof is \"the earliest complete one that survives\". (3) \"Earliest known study of stability\" softened to \"earliest surviving\". (4) Plutarch's ship: the ship had been hauled ashore by many men, Archimedes drew it toward him with pulleys (not \"across dry land\"). (5) Al-Khazini's book: its survey of balances begins with one credited to Archimedes (the book itself opens with specific gravity theory); \"worked in Merv\" rather than asserting where the book was written. (6) Euclid and Eudoxus birth/death years set to null (sources give only estimates; MacTutor and Wikipedia disagree for Eudoxus). NOTE: other drafts carry -325/-265 and -390/-337 for these two people; whichever loads last wins.\nUNCONFIRMED BY THE FACT-CHECKER (kept, softened where possible): Book I proposition on heavier-than-fluid bodies (Heath's translation, not checked online); proof structure Prop. 6 commensurable / Prop. 7 incommensurable (Heath, from memory); al-Biruni's water-collecting vessel (Chemistry World paywall beyond intro; consistent with general accounts); Mohist preprint text not read, so \"historians still debate\" rests on the search summary; Synesius letter \"around 400 CE\" (letters generally dated 395-413).",
+  "translations": {
+    "en": {
+      "title": "Archimedes: the lever and floating bodies become mathematics",
+      "summary": "In Syracuse in the 3rd century BCE, Archimedes proved why a lever balances and why things float. His are the earliest surviving proofs of rules about weight made the way geometry is proved.",
+      "why_it_matters": "Archimedes showed that the physical world could be handled like geometry: state a few clear assumptions, then prove what follows. His laws of the lever and of buoyancy are still taught almost as he wrote them, and the method behind them became the model for mathematical physics.",
+      "if_you_were_there": "Builders and merchants had used levers and balances for centuries, and everyone knew that some things float and others sink. Nobody could tell you exactly how much, or prove it.",
+      "place_name": "Syracuse",
+      "body": "![Domenico Fetti painted this scholar around 1620, more than eighteen centuries after Archimedes died; the Dresden gallery that owns it is not sure it is meant to be him. No portrait from his lifetime survives.](https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg \"Domenico Fetti · Public domain · https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg\")\n\n### The scene\n\nSyracuse, on the east coast of Sicily, in the 3rd century BCE: a rich Greek city ruled by King Hiero II, squeezed between the two great powers of the western Mediterranean, Rome and Carthage. Archimedes was born there around 287 BCE. Even that date is a calculation: a Byzantine writer of the 12th century, John Tzetzes, says he lived 75 years, and he died in 212 BCE. His father, Phidias, was an astronomer; Archimedes mentions him in one of his own books.\n\nMuch of the best mathematics of the time was being done in Alexandria, in Egypt, where Euclid had recently gathered Greek geometry into the *Elements*. Archimedes probably spent time there. What is certain is that he stayed in touch with mathematicians there: his friend Conon of Samos, whose death he mentions in one of his prefaces, Conon's pupil Dositheus, and Eratosthenes, the man who measured the size of the Earth. Several of his books open as letters to Dositheus or Eratosthenes.\n\nThe lever and the balance were not new. Every builder, sailor and market trader used them. A book of *Mechanical Problems* written in Aristotle's school a generation or two earlier had asked why a small force at the end of a long bar can lift a large weight, and had answered with the circles that the two ends of the bar sweep out. In China, around the same period, a few brief passages in the Mohist Canon discuss balance beams and the effect of weight at different distances. Historians still debate how close the Mohists came to a general rule. A short treatise *On the Balance*, which survives in Arabic under Euclid's name, does try to prove the lever rule, but its author and date are disputed. Archimedes' proof is the earliest complete one that survives.\n\n### What happened\n\nAt some point in his working life, in years no source records, Archimedes wrote two short treatises that changed what it meant to explain a physical fact.\n\nThe first, *On the Equilibrium of Planes*, treats weights the way Euclid treated triangles. It begins with a handful of postulates so plain they are hard to deny, such as: equal weights at equal distances balance, and if one of them is made heavier, the beam tips toward it. From there, step by step, it proves the law of the lever: two weights balance when their distances from the pivot are in inverse proportion to the weights. A weight twice as heavy needs to sit half as far out. Archimedes proved this first for weights whose ratio can be written with whole numbers, and then, separately, for those whose ratio cannot, the same difficulty that Eudoxus had solved for geometry. The rest of the book uses the law to find the centre of gravity, the balance point, of triangles and other flat shapes.\n\nThink of a seesaw. A small child sitting at the very end can balance a grown-up sitting close to the middle, and Archimedes' law says exactly how far out the child must sit. The comparison breaks where his mathematics starts: a real seesaw has a plank that weighs something and bends, while Archimedes' beam weighs nothing and never bends. He was reasoning about an ideal object, and that choice is what made a proof possible.\n\n![“Give me a place to stand”: an engraving from *Mechanics Magazine*, London, 1824. The line itself comes from writers who lived centuries after Archimedes.](https://upload.wikimedia.org/wikipedia/commons/5/51/Archimedes_lever_%28Small%29.jpg \"Mechanics Magazine · Public domain · https://commons.wikimedia.org/wiki/File:Archimedes_lever_(Small).jpg\")\n\nThe second treatise, *On Floating Bodies*, does the same for water. Archimedes starts from one assumption about how fluids behave: any part of a fluid that is pushed harder than its neighbour gives way. He shows first that the surface of still water must be part of a sphere centred on the centre of the Earth. Then come the results now called Archimedes' principle. A solid lighter than the fluid sinks until the fluid it pushes aside weighs as much as the whole solid. A solid heavier than the fluid sinks to the bottom, but inside the fluid it weighs less, by exactly the weight of the fluid it pushes aside. The second book goes much further, working out when a floating body shaped like a rounded bowl stays upright and when it tips over: the earliest surviving mathematical study of stability, the question every ship designer has to answer.\n\n> [!NOTE]\n> The famous bath story, in which Archimedes notices the water rising as he gets in, solves King Hiero's problem of a gold wreath suspected of containing silver, and runs naked through the streets shouting \"Eureka!\" (\"I have found it!\"), comes from the Roman architect Vitruvius, writing about two hundred years later and naming no source. In Vitruvius's version, Archimedes compares how much water the wreath and an equal weight of pure gold make overflow. Modern calculations show why this is doubtful: for a plausible wreath and vessel, the difference in water level is less than half a millimetre. In 1586 the young Galileo argued that Archimedes would more likely have hung the wreath and the gold from a balance and lowered both into water; the lighter-in-water side shows the fake. That method uses both of his laws at once. It may be closer to what Archimedes did, but it is also a reconstruction: no account from his own time survives.\n\n### Why it was hard\n\nNobody needed Archimedes to make a lever work. The difficulty lay elsewhere: in deciding that everyday experience with weights could be turned into a deductive science at all. That meant throwing away almost everything about a real lever, its material, its thickness, the friction at the pivot, and keeping only weights, distances and a line. It meant finding postulates simple enough that nobody would argue with them, yet strong enough to prove something new. And it meant borrowing the most delicate tools of Greek geometry, including Eudoxus's method for ratios that cannot be written as fractions, and applying them to weights instead of lengths.\n\nHis other work shows how far that habit of mind went. In a letter to Eratosthenes known as *The Method*, Archimedes explained that he often found results in geometry by imagining shapes cut into thin slices and hung from a balance, and only afterwards proved them in the strict way. There he credits Democritus with first stating, without proof, that a cone is a third of the cylinder around it, and Eudoxus with first proving it. Physics was helping geometry, and geometry was proving physics.\n\n> [!WARNING]\n> Much of what is told about Archimedes the man is legend. \"Give me a place to stand and I will move the Earth\" is quoted by Pappus of Alexandria, who wrote around five hundred years later. Plutarch, around 100 CE, tells how, to show Hiero what a small force could do, Archimedes used a system of pulleys to draw toward him, smoothly and by himself, a fully loaded ship that many men had hauled onto land. Plutarch also describes the machines Archimedes is said to have built to defend Syracuse against Rome, and his death when the city fell in 212 BCE, killed by a Roman soldier. Plutarch himself gives several different versions of that death. The burning mirrors that supposedly set Roman ships on fire appear only in much later writers.\n\n### What it opened\n\nThe treatises almost did not survive. *On Floating Bodies* reached medieval Europe through a Latin translation by William of Moerbeke in the 13th century. Its only known copy in Archimedes' Greek sits in a single manuscript: copied in Constantinople around 950, scraped and written over as a prayer book in 1229, recognised by the Danish scholar Johan Ludvig Heiberg in 1906, and read again with multispectral imaging between 1999 and 2008. The same manuscript holds the only copy of *The Method*.\n\n![An unfolded leaf of the Archimedes Palimpsest. A 10th-century copy of Archimedes was scraped clean in 1229 and written over as a prayer book; the older text still shows faintly beneath.](https://upload.wikimedia.org/wikipedia/commons/1/1b/ArPalimTypPage.jpg \"The Walters Museum · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:ArPalimTypPage.jpg\")\n\nThe principle of floating bodies became a tool for measuring. Around 400 CE Synesius of Cyrene wrote to his teacher, the Alexandrian mathematician Hypatia, asking her to have a hydrometer made for him, a weighted tube that floats deeper or shallower depending on how dense a liquid is. The instrument is often credited to Hypatia herself, but the letter only shows that she knew how to have one made. In the 11th century al-Biruni, born in Khwarazm south of the Aral Sea, measured how heavy different metals and gemstones are for their size, using a vessel that caught the water each one pushed aside. In 1121 al-Khazini, who worked in Merv, in today's Turkmenistan, described these methods and his own refined balance for weighing in water and in air in his *Book of the Balance of Wisdom*, whose survey of balances begins with one credited to Archimedes.\n\nIn Europe, Simon Stevin and Galileo took up the lever and the floating body again in the 1580s, and from there the line runs to Newton's mechanics. The law of the lever still explains scissors, cranes and the bones of your arm. The law of buoyancy still decides how much cargo a ship can carry and why a steel hull floats. The larger legacy is the method: pick an ideal version of a physical thing, state your assumptions, and prove. Mathematical physics has worked that way ever since.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Arşimet: kaldıraç ve yüzen cisimler matematiğe dönüşüyor",
+      "summary": "MÖ 3. yüzyılda Siraküza'da Arşimet kaldıracın neden dengede durduğunu ve cisimlerin neden yüzdüğünü kanıtladı. Ağırlık kurallarının geometri gibi kanıtlandığı, günümüze ulaşan en eski kanıtlar onun.",
+      "why_it_matters": "Arşimet fiziksel dünyanın geometri gibi ele alınabileceğini gösterdi: birkaç açık varsayım koy, ardından ne çıktığını kanıtla. Kaldıraç ve kaldırma kuvveti yasaları bugün hâlâ neredeyse onun yazdığı gibi öğretiliyor; arkalarındaki yöntem de matematiksel fiziğin örneği oldu.",
+      "if_you_were_there": "Ustalar ve tüccarlar yüzyıllardır kaldıraç ve terazi kullanıyordu; bazı şeylerin yüzüp bazılarının battığını herkes biliyordu. Ama kimse bunun tam olarak ne kadar olduğunu söyleyemiyor, kanıtlayamıyordu.",
+      "place_name": "Siraküza",
+      "body": "![Domenico Fetti bu bilgini 1620 civarında, Arşimet'in ölümünden on sekiz yüzyılı aşkın süre sonra resmetti; tabloya sahip Dresden galerisi onun Arşimet olduğundan emin değil. Kendi yaşamından kalma bir portresi yok.](https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg \"Domenico Fetti · Public domain · https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg\")\n\n### Sahne\n\nMÖ 3. yüzyılda Sicilya'nın doğu kıyısındaki Siraküza: Kral II. Hieron'un yönettiği, Batı Akdeniz'in iki büyük gücü Roma ile Kartaca arasında sıkışmış zengin bir Yunan kenti. Arşimet burada MÖ 287 civarında doğdu. Bu tarih bile bir hesaptır: 12. yüzyılda yaşamış Bizanslı yazar Ioannes Tzetzes onun 75 yıl yaşadığını söyler, ölümü ise MÖ 212'dir. Babası Phidias bir gökbilimciydi; Arşimet kendi kitaplarından birinde ondan söz eder.\n\nDönemin en iyi matematiğinin önemli bir kısmı Mısır'daki İskenderiye'de yapılıyordu; Öklid kısa süre önce Yunan geometrisini orada *Elemanlar*'da toplamıştı. Arşimet muhtemelen bir süre orada bulundu. Kesin olan, oradaki matematikçilerle bağını koruduğudur: önsözlerinden birinde ölümünü andığı dostu Samoslu Konon, Konon'un öğrencisi Dositheos ve Dünya'nın büyüklüğünü ölçen Eratosthenes. Kitaplarının birkaçı Dositheos'a ya da Eratosthenes'e yazılmış mektup olarak açılır.\n\nKaldıraç ve terazi yeni değildi. Her usta, denizci ve pazarcı onları kullanıyordu. Aristoteles'in okulunda bir iki kuşak önce yazılmış *Mekanik Problemler* adlı bir kitap, uzun bir çubuğun ucundaki küçük bir kuvvetin büyük bir yükü neden kaldırabildiğini sormuş, cevabı da çubuğun iki ucunun çizdiği çemberlerde aramıştı. Aynı dönemlerde Çin'de, Mohist Kanon'daki birkaç kısa pasaj terazi kollarını ve ağırlığın farklı uzaklıklardaki etkisini tartışır. Mohistlerin genel bir kurala ne kadar yaklaştığını tarihçiler hâlâ tartışıyor. Arapçada Öklid adıyla korunan kısa bir *Terazi Üzerine* incelemesi kaldıraç kuralını kanıtlamaya çalışır, ama yazarı ve tarihi tartışmalıdır. Günümüze tam olarak ulaşan en eski kanıt Arşimet'inkidir.\n\n### Ne oldu\n\nÇalışma hayatının bir noktasında, hiçbir kaynağın kaydetmediği yıllarda, Arşimet fiziksel bir olguyu açıklamanın ne demek olduğunu değiştiren iki kısa inceleme yazdı.\n\nBirincisi, *Düzlemlerin Dengesi Üzerine*, ağırlıkları Öklid'in üçgenleri ele aldığı gibi ele alır. İnkâr etmesi zor, çok yalın birkaç postülatla başlar; örneğin: eşit uzaklıktaki eşit ağırlıklar dengede durur, biri ağırlaştırılırsa kol ona doğru eğilir. Oradan adım adım kaldıraç yasasını kanıtlar: iki ağırlık, dayanak noktasına uzaklıkları ağırlıklarıyla ters orantılı olduğunda dengede durur. İki kat ağır bir yük yarı uzaklıkta durmalıdır. Arşimet bunu önce oranı tam sayılarla yazılabilen ağırlıklar için, sonra ayrıca oranı yazılamayanlar için kanıtladı; bu, Eudoksos'un geometride çözdüğü güçlüğün aynısıdır. Kitabın geri kalanı bu yasayla üçgenlerin ve başka düz şekillerin ağırlık merkezini, yani denge noktasını bulur.\n\nBir tahterevalli düşünün. En uca oturan küçük bir çocuk, ortaya yakın oturan bir yetişkini dengeleyebilir; Arşimet'in yasası çocuğun tam olarak ne kadar uzağa oturması gerektiğini söyler. Benzetme onun matematiğinin başladığı yerde bozulur: gerçek tahterevallinin tahtası bir şey tartar ve eğilir, Arşimet'in kolu ise hiçbir şey tartmaz ve asla eğilmez. O ideal bir nesne üzerine akıl yürütüyordu; kanıtı mümkün kılan da bu seçimdi.\n\n![“Bana bir dayanak noktası verin”: *Mechanics Magazine* dergisinden bir gravür, Londra, 1824. Sözün kendisi Arşimet'ten yüzyıllar sonra yaşamış yazarlardan geliyor.](https://upload.wikimedia.org/wikipedia/commons/5/51/Archimedes_lever_%28Small%29.jpg \"Mechanics Magazine · Public domain · https://commons.wikimedia.org/wiki/File:Archimedes_lever_(Small).jpg\")\n\nİkinci inceleme, *Yüzen Cisimler Üzerine*, aynı şeyi su için yapar. Arşimet sıvıların davranışına ilişkin tek bir varsayımla başlar: sıvının komşusundan daha fazla itilen her parçası yol verir. Önce durgun su yüzeyinin, merkezi Dünya'nın merkezi olan bir kürenin parçası olması gerektiğini gösterir. Sonra bugün Arşimet ilkesi denen sonuçlar gelir. Sıvıdan hafif bir katı, kenara ittiği sıvı tüm katı kadar tartana dek batar. Sıvıdan ağır bir katı dibe batar, ama sıvının içinde tam da kenara ittiği sıvının ağırlığı kadar hafifler. İkinci kitap çok daha ileri gider: yuvarlak bir kâse biçimindeki yüzen bir cismin ne zaman dik durduğunu, ne zaman devrildiğini hesaplar. Bu, dengenin günümüze ulaşan en eski matematiksel incelemesidir; her gemi tasarımcısının cevaplaması gereken soru.\n\n> [!NOTE]\n> Ünlü banyo hikâyesi, yani Arşimet'in suya girerken suyun yükseldiğini fark edip Kral Hieron'un içine gümüş katıldığından şüphelenilen altın çelenk sorununu çözdüğü ve sokaklarda çıplak koşarak \"Evreka!\" (\"Buldum!\") diye bağırdığı hikâye, Romalı mimar Vitruvius'tan gelir; Vitruvius bunu yaklaşık iki yüz yıl sonra ve hiçbir kaynak göstermeden yazdı. Onun anlatımında Arşimet, çelenkle aynı ağırlıktaki saf altının ne kadar su taşırdığını karşılaştırır. Modern hesaplar bunun neden şüpheli olduğunu gösteriyor: makul bir çelenk ve kap için su seviyesindeki fark yarım milimetreden azdır. 1586'da genç Galileo, Arşimet'in büyük olasılıkla çelengi ve altını bir teraziye asıp ikisini birlikte suya indirdiğini savundu; suda hafifleyen taraf sahteyi ele verir. Bu yöntem onun iki yasasını aynı anda kullanır. Arşimet'in yaptığına daha yakın olabilir, ama bu da bir yeniden kurgudur: onun zamanından kalma hiçbir anlatım yok.\n\n### Neden zordu\n\nKaldıracı çalıştırmak için kimsenin Arşimet'e ihtiyacı yoktu. Güçlük başka yerdeydi: ağırlıklarla ilgili gündelik deneyimin tümdengelimli bir bilime dönüştürülebileceğine karar vermekte. Bu, gerçek bir kaldıraçla ilgili neredeyse her şeyi, malzemesini, kalınlığını, dayanak noktasındaki sürtünmeyi atıp yalnızca ağırlıkları, uzaklıkları ve bir çizgiyi tutmak demekti. Kimsenin itiraz etmeyeceği kadar yalın, ama yeni bir şey kanıtlayacak kadar güçlü postülatlar bulmak demekti. Ve Yunan geometrisinin en ince araçlarını, kesirle yazılamayan oranlar için Eudoksos'un yöntemi de dahil, ödünç alıp uzunluklar yerine ağırlıklara uygulamak demekti.\n\nDiğer çalışmaları bu düşünme alışkanlığının ne kadar ileri gittiğini gösterir. *Yöntem* olarak bilinen, Eratosthenes'e yazdığı bir mektupta Arşimet, geometrideki sonuçları çoğu zaman şekilleri ince dilimlere kesip bir teraziye astığını hayal ederek bulduğunu, ancak sonra katı biçimde kanıtladığını anlattı. Orada koninin çevresindeki silindirin üçte biri olduğunu kanıtsız ilk söyleyen olarak Demokritos'u, ilk kanıtlayan olarak Eudoksos'u anar. Fizik geometriye yardım ediyor, geometri fiziği kanıtlıyordu.\n\n> [!WARNING]\n> İnsan olarak Arşimet hakkında anlatılanların çoğu efsanedir. \"Bana bir dayanak noktası verin, Dünya'yı yerinden oynatayım\" sözünü, yaklaşık beş yüz yıl sonra yazan İskenderiyeli Pappos aktarır. MS 100 civarında Plutarkhos, Arşimet'in küçük bir kuvvetin neler yapabileceğini Hieron'a göstermek için, pek çok adamın karaya çektiği tam yüklü bir gemiyi bir makara düzeneğiyle tek başına, düzgünce kendine doğru çektiğini anlatır. Plutarkhos ayrıca Arşimet'in Siraküza'yı Roma'ya karşı savunmak için yaptığı söylenen makineleri ve kent MÖ 212'de düştüğünde bir Romalı asker tarafından öldürülüşünü anlatır. Plutarkhos bu ölümün birkaç farklı versiyonunu kendisi verir. Roma gemilerini tutuşturduğu söylenen yakıcı aynalar ise yalnızca çok daha sonraki yazarlarda geçer.\n\n### Sonrası\n\nBu incelemeler neredeyse hiç günümüze ulaşmayacaktı. *Yüzen Cisimler Üzerine* Orta Çağ Avrupa'sına 13. yüzyılda Moerbekeli Willem'in Latince çevirisiyle ulaştı. Arşimet'in Yunancasıyla bilinen tek kopyası tek bir elyazmasındadır: 950 civarında Konstantinopolis'te kopyalandı, 1229'da kazınıp üzerine dua kitabı yazıldı, 1906'da Danimarkalı bilgin Johan Ludvig Heiberg tarafından tanındı ve 1999-2008 arasında çok bantlı görüntülemeyle yeniden okundu. *Yöntem*'in tek kopyası da aynı elyazmasındadır.\n\n![Arşimet Palimpsesti'nden açılmış bir yaprak. Arşimet'in 10. yüzyıldan kalma bir kopyası 1229'da kazınıp üzerine dua kitabı yazıldı; eski metin altında hâlâ soluk biçimde görünüyor.](https://upload.wikimedia.org/wikipedia/commons/1/1b/ArPalimTypPage.jpg \"The Walters Museum · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:ArPalimTypPage.jpg\")\n\nYüzen cisimler ilkesi bir ölçüm aracına dönüştü. MS 400 civarında Kireneli Synesios, hocası İskenderiyeli matematikçi Hypatia'ya yazıp kendisi için bir hidrometre yaptırmasını istedi: bir sıvının yoğunluğuna göre daha derine ya da daha sığa batan, ağırlıklı bir tüp. Alet çoğu zaman Hypatia'nın icadı sayılır, ama mektup yalnızca onun böyle bir aleti yaptırmayı bildiğini gösterir. 11. yüzyılda Aral Gölü'nün güneyindeki Harezm'de doğan El-Biruni, farklı metallerin ve değerli taşların hacimlerine göre ne kadar ağır olduğunu, her birinin kenara ittiği suyu toplayan bir kapla ölçtü. 1121'de, bugünkü Türkmenistan'daki Merv'de çalışan El-Hazini, bu yöntemleri ve suda ve havada tartmak için geliştirdiği kendi inceltilmiş terazisini *Hikmet Terazisi Kitabı*'nda anlattı; kitabın teraziler incelemesi Arşimet'e atfedilen bir teraziyle başlar.\n\nAvrupa'da Simon Stevin ve Galileo 1580'lerde kaldıraca ve yüzen cisme yeniden döndü; çizgi oradan Newton'un mekaniğine uzanır. Kaldıraç yasası bugün hâlâ makası, vinci ve kolunuzdaki kemikleri açıklar. Kaldırma kuvveti yasası bir geminin ne kadar yük taşıyabileceğine ve çelik bir gövdenin neden yüzdüğüne hâlâ karar verir. Daha büyük miras ise yöntemdir: fiziksel bir şeyin ideal bir versiyonunu seç, varsayımlarını söyle ve kanıtla. Matematiksel fizik o zamandan beri böyle çalışıyor.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Архимед: рычаг и плавающие тела становятся математикой",
+      "summary": "В III веке до н. э. в Сиракузах Архимед доказал, почему рычаг уравновешен и почему тела плавают. Это самые ранние дошедшие до нас доказательства законов о весе в духе геометрии.",
+      "why_it_matters": "Архимед показал, что с физическим миром можно обращаться как с геометрией: сформулировать несколько ясных допущений и доказать, что из них следует. Законы рычага и плавания до сих пор преподают почти так, как он их записал, а метод, стоящий за ними, стал образцом для математической физики.",
+      "if_you_were_there": "Строители и торговцы веками пользовались рычагами и весами, и все знали, что одни вещи плавают, а другие тонут. Но никто не мог сказать, насколько именно, и тем более доказать это.",
+      "place_name": "Сиракузы",
+      "body": "![Доменико Фетти написал этого учёного около 1620 года, более чем через восемнадцать веков после смерти Архимеда; дрезденская галерея, которой принадлежит картина, не уверена, что это он. Прижизненных портретов Архимеда не сохранилось.](https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg \"Domenico Fetti · Public domain · https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg\")\n\n### Сцена\n\nСиракузы на восточном побережье Сицилии, III век до н. э.: богатый греческий город под властью царя Гиерона II, зажатый между двумя великими державами западного Средиземноморья, Римом и Карфагеном. Архимед родился здесь около 287 года до н. э. Даже эта дата — расчёт: византийский писатель XII века Иоанн Цец сообщает, что Архимед прожил 75 лет, а умер он в 212 году до н. э. Его отец Фидий был астрономом; Архимед упоминает его в одной из своих книг.\n\nЗначительная часть лучшей математики того времени делалась в Александрии, в Египте, где Евклид незадолго до этого собрал греческую геометрию в «Начала». Архимед, вероятно, какое-то время жил там. Точно известно, что он поддерживал связь с тамошними математиками: это его друг Конон Самосский, о смерти которого он упоминает в одном из предисловий, ученик Конона Досифей и Эратосфен, измеривший размеры Земли. Несколько его книг начинаются как письма к Досифею или Эратосфену.\n\nРычаг и весы не были новостью. Ими пользовался каждый строитель, моряк и рыночный торговец. Книга «Механические проблемы», написанная в школе Аристотеля поколением-двумя раньше, спрашивала, почему малая сила на конце длинного шеста поднимает большой груз, и отвечала, рассуждая об окружностях, которые описывают два конца шеста. В Китае примерно в ту же эпоху несколько кратких отрывков моистского канона обсуждают коромысло весов и действие груза на разных расстояниях. Историки до сих пор спорят, насколько близко моисты подошли к общему правилу. Короткий трактат «О весах», сохранившийся на арабском под именем Евклида, пытается доказать правило рычага, но его автор и время написания спорны. Доказательство Архимеда — самое раннее из сохранившихся полностью.\n\n### Что произошло\n\nВ какой-то момент своей жизни, в годы, которые не отмечает ни один источник, Архимед написал два коротких трактата, изменивших само понятие того, что значит объяснить физический факт.\n\nПервый, «О равновесии плоских фигур», обращается с грузами так, как Евклид обращался с треугольниками. Он начинается с нескольких постулатов, настолько простых, что их трудно отрицать, например: равные грузы на равных расстояниях уравновешены, а если один из них сделать тяжелее, коромысло наклонится в его сторону. Отсюда шаг за шагом он доказывает закон рычага: два груза уравновешены, когда их расстояния от точки опоры обратно пропорциональны их весам. Груз вдвое тяжелее должен висеть вдвое ближе. Архимед доказал это сначала для грузов, отношение которых записывается целыми числами, а затем отдельно — для тех, чьё отношение так не записать; это та же трудность, которую Евдокс решил для геометрии. Остальная часть книги с помощью этого закона находит центр тяжести, точку равновесия, треугольников и других плоских фигур.\n\nПредставьте себе качели-балансир. Маленький ребёнок на самом краю может уравновесить взрослого, сидящего близко к середине, и закон Архимеда говорит, насколько именно далеко должен сесть ребёнок. Сравнение ломается там, где начинается его математика: у настоящих качелей доска сама что-то весит и прогибается, а коромысло Архимеда ничего не весит и никогда не гнётся. Он рассуждал об идеальном предмете, и именно этот выбор сделал доказательство возможным.\n\n![«Дайте мне точку опоры»: гравюра из журнала *Mechanics Magazine*, Лондон, 1824 год. Сама фраза пришла от авторов, живших спустя века после Архимеда.](https://upload.wikimedia.org/wikipedia/commons/5/51/Archimedes_lever_%28Small%29.jpg \"Mechanics Magazine · Public domain · https://commons.wikimedia.org/wiki/File:Archimedes_lever_(Small).jpg\")\n\nВторой трактат, «О плавающих телах», делает то же самое для воды. Архимед исходит из одного допущения о поведении жидкости: любая её часть, на которую давят сильнее, чем на соседнюю, уступает. Сначала он показывает, что поверхность спокойной воды должна быть частью шара с центром в центре Земли. Затем следуют результаты, которые теперь называют законом Архимеда. Тело легче жидкости погружается, пока вытесненная им жидкость не будет весить столько же, сколько всё тело. Тело тяжелее жидкости опускается на дно, но в жидкости оно становится легче ровно на вес вытесненной жидкости. Вторая книга идёт гораздо дальше: она выясняет, когда плавающее тело в форме округлой чаши держится прямо, а когда опрокидывается. Это самое раннее сохранившееся математическое исследование устойчивости — вопроса, на который должен ответить каждый конструктор кораблей.\n\n> [!NOTE]\n> Знаменитая история с ванной — о том, как Архимед, садясь в воду, заметил, что её уровень поднимается, решил задачу царя Гиерона о золотом венке, в который будто бы подмешали серебро, и бежал голым по улицам с криком «Эврика!» («Нашёл!»), — восходит к римскому архитектору Витрувию, писавшему примерно двести лет спустя и не называвшему источника. У Витрувия Архимед сравнивает, сколько воды выливается через край от венка и от такого же по весу куска чистого золота. Современные расчёты показывают, почему это сомнительно: для правдоподобного венка и сосуда разница в уровне воды меньше половины миллиметра. В 1586 году молодой Галилей утверждал, что Архимед скорее подвесил бы венок и золото к весам и опустил оба в воду: сторона, которая в воде становится легче, выдаёт подделку. Этот способ использует оба его закона сразу. Возможно, он ближе к тому, что сделал Архимед, но это тоже реконструкция: ни одного рассказа его времени не сохранилось.\n\n### Почему это было трудно\n\nЧтобы рычаг работал, Архимед был не нужен. Трудность была в другом: в решении, что повседневный опыт обращения с грузами вообще можно превратить в дедуктивную науку. Для этого нужно было отбросить почти всё, что есть в настоящем рычаге, — материал, толщину, трение в опоре — и оставить только грузы, расстояния и линию. Нужно было найти постулаты настолько простые, чтобы с ними никто не спорил, и при этом достаточно сильные, чтобы доказать нечто новое. И нужно было взять самые тонкие инструменты греческой геометрии, включая метод Евдокса для отношений, которые нельзя записать дробью, и применить их к весам вместо длин.\n\nДругие его работы показывают, как далеко зашла эта привычка мысли. В письме к Эратосфену, известном как «Метод», Архимед объяснял, что часто находил геометрические результаты, мысленно разрезая фигуры на тонкие слои и подвешивая их к весам, и лишь потом доказывал их строго. Там же он отмечает, что Демокрит первым высказал без доказательства, что конус составляет треть описанного вокруг него цилиндра, а Евдокс первым это доказал. Физика помогала геометрии, а геометрия доказывала физику.\n\n> [!WARNING]\n> Многое из того, что рассказывают об Архимеде как о человеке, — легенды. Фразу «Дайте мне точку опоры, и я сдвину Землю» приводит Папп Александрийский, писавший примерно пятьсот лет спустя. Плутарх около 100 года н. э. рассказывает, как Архимед, чтобы показать Гиерону, на что способна малая сила, с помощью системы блоков в одиночку плавно притянул к себе полностью гружёный корабль, который многие люди перед тем вытащили на берег. Плутарх же описывает машины, которые Архимед будто бы построил для защиты Сиракуз от Рима, и его гибель от руки римского солдата при падении города в 212 году до н. э. Сам Плутарх приводит несколько разных версий этой смерти. Зажигательные зеркала, якобы поджигавшие римские корабли, появляются лишь у гораздо более поздних авторов.\n\n### Что это открыло\n\nТрактаты едва не пропали. «О плавающих телах» попал в средневековую Европу в латинском переводе Вильгельма из Мербеке в XIII веке. Единственная известная копия на греческом языке Архимеда находится в одной рукописи: её переписали в Константинополе около 950 года, в 1229 году соскоблили и записали поверх молитвенник, в 1906 году её опознал датский учёный Йохан Людвиг Гейберг, а в 1999–2008 годах её заново прочитали с помощью мультиспектральной съёмки. В той же рукописи — единственная копия «Метода».\n\n![Развёрнутый лист Палимпсеста Архимеда. Копию трудов Архимеда X века в 1229 году соскоблили и переписали поверх неё молитвенник; старый текст до сих пор слабо проступает снизу.](https://upload.wikimedia.org/wikipedia/commons/1/1b/ArPalimTypPage.jpg \"The Walters Museum · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:ArPalimTypPage.jpg\")\n\nЗакон плавания стал инструментом измерения. Около 400 года н. э. Синезий Киренский написал своей наставнице, александрийскому математику Гипатии, с просьбой заказать для него гидрометр — утяжелённую трубку, которая погружается глубже или мельче в зависимости от плотности жидкости. Прибор часто приписывают самой Гипатии, но письмо показывает лишь то, что она знала, как его изготовить. В XI веке аль-Бируни, родившийся в Хорезме к югу от Аральского моря, измерял, насколько тяжелы разные металлы и драгоценные камни для своего объёма, с помощью сосуда, собиравшего вытесненную каждым из них воду. В 1121 году аль-Хазини, работавший в Мерве, на территории нынешнего Туркменистана, описал эти методы и свои усовершенствованные весы для взвешивания в воде и в воздухе в «Книге весов мудрости»; её обзор весов открывается весами, приписываемыми Архимеду.\n\nВ Европе Симон Стевин и Галилей вернулись к рычагу и плавающему телу в 1580-х годах, и оттуда линия тянется к механике Ньютона. Закон рычага по-прежнему объясняет ножницы, подъёмные краны и кости вашей руки. Закон плавания по-прежнему определяет, сколько груза может взять корабль и почему стальной корпус держится на воде. Но главное наследие — метод: выбери идеальную версию физической вещи, сформулируй допущения и докажи. Математическая физика с тех пор так и работает.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Архимед: рычаг жана калкыган нерселер математикага айланат",
+      "summary": "Б.з.ч. III кылымда Сиракузада Архимед рычаг эмне үчүн тең салмакта турарын жана нерселер эмне үчүн калкыйрын далилдеген. Салмак эрежелеринин геометриядай далилдениши бизге жеткен эң алгачкысы ушул.",
+      "why_it_matters": "Архимед физикалык дүйнөнү геометрия сыяктуу кароого болорун көрсөткөн: бир нече ачык божомолду айтып, андан эмне келип чыгарын далилде. Рычагдын жана калкуунун мыйзамдары азыр да дээрлик ал жазгандай окутулат, ал эми алардын артындагы ыкма математикалык физика үчүн үлгү болуп калган.",
+      "if_you_were_there": "Устачылар менен соодагерлер кылымдар бою рычаг жана тараза колдонуп келишкен, бир нерселер калкып, башкалары чөгөрүн баары билчү. Бирок анын так канчалык экенин эч ким айта алчу эмес, далилдей алчу эмес.",
+      "place_name": "Сиракуза",
+      "body": "![Доменико Фетти бул окумуштууну болжол менен 1620-жылы, Архимед өлгөндөн он сегиз кылымдан ашык убакыт өткөндө тарткан; сүрөт сакталган Дрездендеги галерея анын Архимед экенине толук ишенбейт. Архимеддин тирүү кезинен калган портрети жок.](https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg \"Domenico Fetti · Public domain · https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg\")\n\n### Көрүнүш\n\nБ.з.ч. III кылым, Сицилиянын чыгыш жээгиндеги Сиракуза. Бул — падыша Гиерон II башкарган, батыш Жер Ортолук деңиздин эки улуу державасы Рим менен Карфагендин ортосунда кысылып калган бай грек шаары. Архимед ушул жерде болжол менен б.з.ч. 287-жылы төрөлгөн. Бул датанын өзү да эсептөөгө негизделет: XII кылымда жашаган византиялык жазуучу Иоанн Цец Архимед 75 жыл жашаган дейт, ал эми ал б.з.ч. 212-жылы каза болгон. Анын атасы Фидий астроном болгон; Архимед өзүнүн бир китебинде аны эскерет.\n\nОшол мезгилдеги эң мыкты математиканын көбү Египеттеги Александрияда жасалчу; Евклид грек геометриясын жакында эле ошол жерде «Негиздер» деген китепке чогулткан. Архимед, балким, бир убак ал жакта жашагандыр. Так белгилүү нерсе — ал ошол жердеги математиктер менен байланышын үзгөн эмес: алар бир баш сөзүндө өлүмүн эскерген досу Самостук Конон, Конондун окуучусу Досифей жана Жердин чоңдугун өлчөгөн Эратосфен. Анын бир нече китеби Досифейге же Эратосфенге жазылган кат катары башталат.\n\nРычаг менен тараза жаңы нерсе эмес эле. Ар бир куруучу, деңизчи жана базардагы соодагер аларды колдончу. Аристотелдин мектебинде бир-эки муун мурун жазылган «Механикалык маселелер» деген китеп узун таяктын учундагы кичинекей күч эмне үчүн оор жүктү көтөрө аларын сураган жана жоопту таяктын эки учу сызган айланалардан издеген. Кытайда да болжол менен ошол доордо моисттик канондогу бир нече кыска үзүндү тараза жыгачын жана жүктүн ар кандай аралыкта кандай таасир этерин талкуулайт. Моисттер жалпы эрежеге канчалык жакындаганы тууралуу тарыхчылар азыр да талашып келишет. Араб тилинде Евклиддин аты менен сакталган «Тараза жөнүндө» деген кыска трактат рычагдын эрежесин далилдөөгө аракет кылат, бирок анын автору жана жазылган убактысы талаштуу. Бизге толук жеткен эң алгачкы далил — Архимеддики.\n\n### Эмне болду\n\nАрхимед өмүрүнүн бир мезгилинде — кайсы жылдары экенин эч бир булак жазбайт — физикалык фактыны түшүндүрүү деген эмне экенин өзгөрткөн эки кыска трактат жазган.\n\nБиринчиси, «Тегиз фигуралардын тең салмактуулугу жөнүндө», жүктөргө Евклид үч бурчтуктарга кандай мамиле кылса, ошондой мамиле кылат. Ал четке кагуу кыйын болгон бир нече жөнөкөй постулат менен башталат, мисалы: бирдей аралыктагы бирдей жүктөр тең салмакта турат, эгер алардын бирин оорлотсо, тараза ошол тарапка ыктайт. Ушундан баштап ал кадам сайын рычагдын мыйзамын далилдейт: эки жүк таяныч чекиттен алыстыктары алардын салмагына тескери пропорциялуу болгондо тең салмакта турат. Эки эсе оор жүк эки эсе жакын турушу керек. Архимед муну адегенде катышын бүтүн сандар менен жазууга мүмкүн болгон жүктөр үчүн, андан кийин өзүнчө — катышын антип жазууга мүмкүн болбогондор үчүн далилдеген; бул Евдокс геометрияда чечкен кыйынчылыктын дал өзү. Китептин калган бөлүгү бул мыйзам аркылуу үч бурчтуктардын жана башка жалпак фигуралардын оордук борборун, башкача айтканда тең салмак чекитин табат.\n\nСелкинчекти элестетиңиз. Эң четине отурган кичинекей бала ортого жакын отурган чоң кишини тең салмакта кармай алат, ал эми Архимеддин мыйзамы баланын так канчалык алыс отурушу керектигин айтат. Салыштыруу анын математикасы башталган жерден бузулат: чыныгы селкинчектин тактайы өзү да оор жана ийилет, ал эми Архимеддин таразасынын жыгачы эч нерсе тартпайт жана эч качан ийилбейт. Ал идеалдуу нерсе жөнүндө ой жүгүрткөн, далилдөөнү мүмкүн кылган да ушул тандоо.\n\n![«Мага таяныч чекит бергиле»: *Mechanics Magazine* журналынан алынган гравюра, Лондон, 1824-жыл. Бул сөздүн өзү Архимедден кылымдар өткөндөн кийин жашаган авторлордон келген.](https://upload.wikimedia.org/wikipedia/commons/5/51/Archimedes_lever_%28Small%29.jpg \"Mechanics Magazine · Public domain · https://commons.wikimedia.org/wiki/File:Archimedes_lever_(Small).jpg\")\n\nЭкинчи трактат, «Калкыган нерселер жөнүндө», ошол эле ишти суу үчүн жасайт. Архимед суюктуктун кандай аракеттенери тууралуу бир гана божомолдон баштайт: суюктуктун коңшусуна караганда катуураак басылган ар бир бөлүгү жол берет. Адегенде ал тынч суунун бети борбору Жердин борборунда жайгашкан шардын бир бөлүгү болушу керектигин көрсөтөт. Андан кийин азыр Архимед мыйзамы деп аталган жыйынтыктар келет. Суюктуктан жеңил катуу нерсе өзү сүрүп чыгарган суюктук бүт нерсенин салмагындай болгонго чейин чөгөт. Суюктуктан оор катуу нерсе түбүнө чейин чөгөт, бирок суюктуктун ичинде ал так өзү сүрүп чыгарган суюктуктун салмагындай жеңилдейт. Экинчи китеп андан да ары кетет: тегерек табак формасындагы калкыган нерсе качан тик турарын, качан оодарыларын эсептейт. Бул туруктуулуктун бизге жеткен эң алгачкы математикалык изилдөөсү — ар бир кеме куруучу жооп бериши керек болгон суроо.\n\n> [!NOTE]\n> Белгилүү ванна окуясы — Архимед сууга киргенде суунун көтөрүлгөнүн байкап, ичине күмүш кошулган деп шектелген алтын таажы тууралуу падыша Гиерондун маселесин чечип, көчөлөрдө жылаңач «Эврика!» («Таптым!») деп кыйкырып чуркаган окуя — римдик архитектор Витрувийден келет. Витрувий аны болжол менен эки жүз жыл өткөндөн кийин жазган жана эч кандай булакты атаган эмес. Анын баяны боюнча Архимед таажы жана ага салмагы бирдей таза алтын канча сууну ташытарын салыштырат. Азыркы эсептөөлөр мунун эмне үчүн шектүү экенин көрсөтөт: ишенимдүү таажы жана идиш үчүн суунун деңгээлиндеги айырма жарым миллиметрден аз. 1586-жылы жаш Галилео Галилей Архимед, сыягы, таажы менен алтынды таразага илип, экөөн тең сууга түшүргөн болушу керек деп айткан: сууда жеңилдеген тарап жасалмасын ачыкка чыгарат. Бул ыкма анын эки мыйзамын тең бир убакта колдонот. Ал Архимед чындап жасаган нерсеге жакыныраак болушу мүмкүн, бирок бул да кайра калыбына келтирүү гана: анын заманынан бир да баян сакталган эмес.\n\n### Эмне үчүн кыйын болду\n\nРычагды иштетүү үчүн эч кимге Архимед керек эмес болчу. Кыйынчылык башка жерде эле: жүктөр менен күнүмдүк тажрыйбаны таптакыр дедуктивдүү илимге айлантууга болот деп чечүүдө. Бул чыныгы рычагдын дээрлик бардык касиетин — материалын, калыңдыгын, таяныч чекиттеги сүрүлүүнү — таштап, жүктөрдү, аралыктарды жана бир сызыкты гана калтыруу дегенди билдирчү. Эч ким талашпагыдай жөнөкөй, бирок жаңы нерсени далилдей алгыдай күчтүү постулаттарды табуу дегенди билдирчү. Жана грек геометриясынын эң назик куралдарын, анын ичинде бөлчөк менен жазууга мүмкүн болбогон катыштар үчүн Евдокстун ыкмасын, алып, узундуктардын ордуна салмактарга колдонуу дегенди билдирчү.\n\nАнын башка эмгектери бул ой жүгүртүү адаты канчалык алыс кеткенин көрсөтөт. «Ыкма» деген ат менен белгилүү, Эратосфенге жазылган катында Архимед геометриядагы жыйынтыктарды көбүнчө фигураларды ичке катмарларга кесип, таразага илгенин элестетип таап, кийин гана так далилдегенин түшүндүргөн. Ошол эле жерде ал конус анын айланасындагы цилиндрдин үчтөн бири экенин далилсиз биринчи айткан адам катары Демокритти, биринчи далилдеген адам катары Евдоксту атайт. Физика геометрияга жардам берип, геометрия физиканы далилдеп жаткан.\n\n> [!WARNING]\n> Архимед адам катары тууралуу айтылгандардын көбү — уламыш. «Мага таяныч чекит бергиле, мен Жерди ордунан жылдырам» деген сөздү болжол менен беш жүз жыл өткөндөн кийин жазган Александриялык Папп келтирет. Плутарх б.з. 100-жылдарында Архимед кичинекей күч эмне кыла аларын Гиеронго көрсөтүү үчүн, көп адамдар жээкке сүйрөп чыгарган толук жүктөлгөн кемени блоктор системасы менен жалгыз өзү акырын өзүнө тартканын баяндайт. Плутарх ошондой эле Архимед Сиракузаны Римден коргоо үчүн курган деген машиналарды жана шаар б.з.ч. 212-жылы кулаганда анын римдик жоокердин колунан каза болгонун сүрөттөйт. Плутархтын өзү бул өлүмдүн бир нече ар башка вариантын келтирет. Рим кемелерин өрттөгөн делген күйгүзүүчү күзгүлөр болсо алда канча кийинки авторлордо гана кездешет.\n\n### Эмнеге жол ачты\n\nБул трактаттар дээрлик жоголуп кете жаздаган. «Калкыган нерселер жөнүндө» орто кылымдагы Европага XIII кылымда Мербекелик Виллемдин латынча котормосу аркылуу жеткен. Анын Архимеддин грек тилиндеги белгилүү жалгыз көчүрмөсү бир гана кол жазмада сакталган: ал болжол менен 950-жылы Константинополдо көчүрүлгөн, 1229-жылы кырылып, үстүнө дуба китеби жазылган, 1906-жылы даниялык окумуштуу Йохан Людвиг Гейберг аны таанып калган, 1999–2008-жылдары мультиспектралдык сүрөткө тартуу аркылуу кайра окулган. «Ыкманын» жалгыз көчүрмөсү да ошол эле кол жазмада.\n\n![Архимед палимпсестинин ачылган бир барагы. Архимеддин эмгектеринин X кылымдагы көчүрмөсү 1229-жылы кырылып, үстүнө дуба китеби жазылган; эски текст астынан азыр да бүдөмүк көрүнүп турат.](https://upload.wikimedia.org/wikipedia/commons/1/1b/ArPalimTypPage.jpg \"The Walters Museum · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:ArPalimTypPage.jpg\")\n\nКалкуу мыйзамы өлчөө куралына айланган. Болжол менен б.з. 400-жылы Киренелик Синезий өзүнүн устаты, александриялык математик Гипатияга кат жазып, ага гидрометр жасатып берүүсүн суранган: суюктуктун тыгыздыгына жараша тереңирээк же тайызыраак чөгүүчү салмактуу түтүкчө. Бул шайманды көп учурда Гипатиянын өзү ойлоп тапкан деп эсептешет, бирок кат анын мындай шайманды жасатууну билгенин гана көрсөтөт. XI кылымда Арал деңизинин түштүгүндөгү Хорезмде төрөлгөн Аль-Бируни ар кандай металлдар жана асыл таштар өз көлөмүнө карата канчалык оор экенин ар бири сүрүп чыгарган сууну чогулткан идиш менен өлчөгөн. 1121-жылы азыркы Түркмөнстандагы Мервде иштеген Аль-Хазини бул ыкмаларды жана сууда да, абада да таразага тартуу үчүн өзү өркүндөткөн таразасын «Акылмандык таразасы жөнүндө китепте» сүрөттөгөн; китептеги таразаларды карап чыгуу Архимедге таандык делген таразадан башталат.\n\nЕвропада Симон Стевин жана Галилео Галилей 1580-жылдары рычагга жана калкыган нерсеге кайрылышкан, ал жерден жол Ньютондун механикасына чейин созулат. Рычагдын мыйзамы азыр да кайчыны, көтөргүч кранды жана колуңуздагы сөөктөрдү түшүндүрөт. Калкуу мыйзамы кеме канча жүк көтөрө аларын жана болот корпус эмне үчүн сууда калкып турарын азыр да аныктайт. Бирок эң чоң мурас — ыкма: физикалык нерсенин идеалдуу түрүн танда, божомолдоруңду айт жана далилде. Математикалык физика ошондон бери ушундай иштейт.",
+      "status": "machine"
+    }
+  }
+}
