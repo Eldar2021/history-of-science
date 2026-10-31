@@ -1,0 +1,245 @@
+{
+  "slug": "leeuwenhoek-microbes",
+  "year": 1676,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 52.0116,
+  "lng": 4.3571,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+    "credit": "Jan Verkolje",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg"
+  },
+  "disciplines": [
+    "biology"
+  ],
+  "people": [
+    {
+      "slug": "antoni-van-leeuwenhoek",
+      "birth_year": 1632,
+      "death_year": 1723,
+      "role": "author",
+      "name": {
+        "en": "Antoni van Leeuwenhoek",
+        "tr": "Antoni van Leeuwenhoek",
+        "ru": "Антони ван Левенгук",
+        "ky": "Антони ван Левенгук"
+      }
+    },
+    {
+      "slug": "henry-oldenburg",
+      "birth_year": null,
+      "death_year": 1677,
+      "role": "collaborator",
+      "name": {
+        "en": "Henry Oldenburg",
+        "tr": "Henry Oldenburg",
+        "ru": "Генри Ольденбург",
+        "ky": "Генри Ольденбург"
+      }
+    },
+    {
+      "slug": "reinier-de-graaf",
+      "birth_year": 1641,
+      "death_year": 1673,
+      "role": "contemporary",
+      "name": {
+        "en": "Reinier de Graaf",
+        "tr": "Reinier de Graaf",
+        "ru": "Ренье де Грааф",
+        "ky": "Ренье де Грааф"
+      }
+    },
+    {
+      "slug": "robert-hooke",
+      "birth_year": 1635,
+      "death_year": 1703,
+      "role": "predecessor",
+      "name": {
+        "en": "Robert Hooke",
+        "tr": "Robert Hooke",
+        "ru": "Роберт Гук",
+        "ky": "Роберт Гук"
+      }
+    },
+    {
+      "slug": "ibn-al-haytham",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Ibn al-Haytham",
+        "tr": "İbnü'l-Heysem",
+        "ru": "Ибн аль-Хайсам",
+        "ky": "Ибн аль-Хайсам"
+      }
+    },
+    {
+      "slug": "girolamo-fracastoro",
+      "birth_year": null,
+      "death_year": 1553,
+      "role": "predecessor",
+      "name": {
+        "en": "Girolamo Fracastoro",
+        "tr": "Girolamo Fracastoro",
+        "ru": "Джироламо Фракасторо",
+        "ky": "Джироламо Фракасторо"
+      }
+    },
+    {
+      "slug": "christiaan-huygens",
+      "birth_year": 1629,
+      "death_year": 1695,
+      "role": "contemporary",
+      "name": {
+        "en": "Christiaan Huygens",
+        "tr": "Christiaan Huygens",
+        "ru": "Христиан Гюйгенс",
+        "ky": "Христиан Гюйгенс"
+      }
+    },
+    {
+      "slug": "nehemiah-grew",
+      "birth_year": 1641,
+      "death_year": 1712,
+      "role": "contemporary",
+      "name": {
+        "en": "Nehemiah Grew",
+        "tr": "Nehemiah Grew",
+        "ru": "Неемия Грю",
+        "ky": "Неемия Грю"
+      }
+    },
+    {
+      "slug": "louis-pasteur",
+      "birth_year": 1822,
+      "death_year": 1895,
+      "role": "successor",
+      "name": {
+        "en": "Louis Pasteur",
+        "tr": "Louis Pasteur",
+        "ru": "Луи Пастер",
+        "ky": "Луи Пастер"
+      }
+    },
+    {
+      "slug": "robert-koch",
+      "birth_year": 1843,
+      "death_year": 1910,
+      "role": "successor",
+      "name": {
+        "en": "Robert Koch",
+        "tr": "Robert Koch",
+        "ru": "Роберт Кох",
+        "ky": "Роберт Кох"
+      }
+    },
+    {
+      "slug": "johan-ham",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Johan Ham",
+        "tr": "Johan Ham",
+        "ru": "Йохан Хам",
+        "ky": "Йохан Хам"
+      }
+    }
+  ],
+  "builds_on": [
+    "ibn-al-haytham-optics"
+  ],
+  "sources": [
+    {
+      "title": "Antonie van Leeuwenhoek — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+    },
+    {
+      "title": "N. Lane, 'The unseen world: reflections on Leeuwenhoek (1677) \"Concerning little animals\"', Philosophical Transactions of the Royal Society B 370, 2015",
+      "kind": "article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360124/"
+    },
+    {
+      "title": "Antony van Leeuwenhoek (1632-1723) — University of California Museum of Paleontology",
+      "kind": "other",
+      "url": "https://ucmp.berkeley.edu/history/leeuwenhoek.html"
+    },
+    {
+      "title": "Lens on Leeuwenhoek (D. Anderson): Royal Society meetings of November 1677, Hooke's attempts",
+      "kind": "other",
+      "url": "https://lensonleeuwenhoek.net/node/5341"
+    },
+    {
+      "title": "Lens on Leeuwenhoek: Hooke's letter to Leeuwenhoek on the pepper-water observations",
+      "kind": "other",
+      "url": "https://www.lensonleeuwenhoek.net/node/9916"
+    },
+    {
+      "title": "A. van Leeuwenhoek, 'Observations ... concerning little animals by him observed in rain-, well-, sea- and snow-water ...', Philosophical Transactions 12 (1677): 821–831",
+      "kind": "paper",
+      "url": "https://doi.org/10.1098/rstl.1677.0003"
+    },
+    {
+      "title": "Lens on Leeuwenhoek: the eight witnesses of 1677",
+      "kind": "other",
+      "url": "https://lensonleeuwenhoek.net/node/6909"
+    },
+    {
+      "title": "Magnifying glass (history, Ibn al-Haytham) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Magnifying_glass"
+    },
+    {
+      "title": "Antonie van Leeuwenhoek — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Antonie-van-Leeuwenhoek"
+    }
+  ],
+  "research_note": "Researched 2026-10-31 against English Wikipedia (Antonie van Leeuwenhoek; Magnifying glass), N. Lane 2015 in Phil. Trans. R. Soc. B (PMC4360124: letter of 9 Oct 1676, waters examined, 'upwards of 1 000 000' and 'eight times as many', 100 smallest shorter than a coarse sand grain, eight signed testimonies incl. Lutheran minister, notary, barrister; Grew failed; Huygens sceptical; Hooke succeeded on third attempt in 1677; Hooke preferred compound microscopes; Linnaeus lumped microbes into one genus; Brian Ford 1981), UCMP Berkeley (Sept 1674 lake water, 1683 teeth bacteria, compound microscopes 20-30x, 1676 Vermeer trustee), and Lens on Leeuwenhoek (Royal Society meetings 11 and 18 Nov 1677: testimonials read, Hooke fails with pump water, then pepper water). The publication itself is confirmed via Crossref: Phil. Trans. 12 (1677) 821-831, doi 10.1098/rstl.1677.0003. Britannica is linked for the human only.\nYEAR: 1676 = date of the letter (exact). First sighting of 'little animals' was Sept 1674 (lake water), rain water 1675; both are said in the body.\nFLAGGED IN BODY: Hooke's successful demonstration is dated 25 November 1677 (New Style, as in Delft) = 15 November Old Style in English records; the body explains the ten-day calendar gap. One Lens on Leeuwenhoek page prints 1678, apparently a slip. 'Most likely bacteria' is an identification by later readers from the sizes, not Leeuwenhoek's own claim; the body says so. Hooke's Micrographia as inspiration and the 1667/68 London visit are hedged ('most likely', 'perhaps').\nREVIEWER SHOULD CHECK: (1) the witnesses: Wikipedia calls Alexander Petrie minister of the English Reformed Church in Delft, Lens on Leeuwenhoek (node/6909) calls him minister of the Scottish church in Rotterdam; Lens on Leeuwenhoek also lists J. Boogert (lawyer and notary), a physician (Poitevin) and Robert Gordon as a medical student. The body now says only 'clergymen, a Delft lawyer who was also a notary, a physician and a medical student'. The fact-checker read node/6909; I did not open it myself. (2) Microscope counts: Wikipedia says >500 lenses, at least 25 microscopes, 9 survive, best ~275x; UCMP says 'over 500 microscopes'; body says 'hundreds of lenses and at least twenty-five microscopes'. (3) The 2021 neutron-tomography result and 'a method Hooke had already described' rest on Wikipedia alone. (4) Ibn al-Haytham: Wikipedia's claim that he described a magnifying convex lens is tagged 'verify source', so the body only says his Book of Optics studied how light bends and shaped European optics in Latin translation. (5) The 1683 figure is a manuscript text page (the drawings are on another leaf); the caption says the letters B-F refer to the drawings. Its Commons author line is only the Wellcome URLs (CC BY 4.0, Wellcome Collection).\n\nFIXED AFTER FACT-CHECK (all four languages): (1) witnesses re-described as above (the 'English church in Delft' minister and separate notary/lawyer were wrong or contested). (2) Huygens's doubt moved before the letter: it is in a letter of 30 Jan 1675 (Lane). (3) 'sources disagree about the day' replaced by the Old/New Style explanation. (4) Sperm 1677: medical student Johan Ham who brought the sample now named (Ham is not in Lane; general record, Wikipedia 'Johan Ham'). (5) Closing 'first to put that hidden crowd on paper' softened to 'first described ... in such detail' (Hooke drew moulds in 1665). (6) if_you_were_there: an unsourced Amsterdam population comparison removed; now 'more than a million'. (7) Figure caption names Dobell's 1932 book as the reproduction; the letters B-F are visible in the manuscript text itself (checked by eye). (8) Linnaeus: 'a century later ... single group' -> 'in the 18th century ... a single genus, Chaos' (Lane). Also: compound microscope 'by 1600' -> 'in the early 1600s'; 'trained no successor' -> 'refused to teach his methods'; de Graaf's role -> contemporary; ky summary 'балким' -> 'ыктымал'.\nKYRGYZ: glossary terms used: микроб, бактерия, микроскоп, линза, байкоо, тажрыйба, далил, оору, суу (high); клетка (used once, as 'бир клеткалуу') is marked 'check'. 'уруу' for genus (Chaos) is not in the glossary - my guess, needs a teacher's check.",
+  "translations": {
+    "en": {
+      "title": "Leeuwenhoek finds living creatures in a drop of water",
+      "summary": "A Delft cloth merchant with home-made lenses wrote to London that a drop of water teems with tiny swimming animals. Among them, most likely, were bacteria.",
+      "why_it_matters": "Leeuwenhoek showed that the world is full of living things too small to see, in water, in food and in our own mouths. Microbiology, and later the proof that some of these creatures cause disease, began from his letters.",
+      "if_you_were_there": "Water is water: clear, clean, empty. A shopkeeper in Delft says that one drop of pepper water holds more than a million living creatures.",
+      "place_name": "Delft",
+      "body": "### The scene\n\nDelft in the 1670s was a town of about 24,000 people in the Dutch Republic, a country of merchants, canals and printing presses. Antoni van Leeuwenhoek was born there in 1632. At sixteen he was apprenticed to a cloth dealer in Amsterdam; back home he opened a shop selling linen, yarn and ribbon, and later held city posts, among them chamberlain at the City Hall and land surveyor. He had no university education and read no Latin, the language of learned Europe. In 1676, the year of this story, he was also named trustee of the estate of the painter Johannes Vermeer, who had been baptised in Delft four days before him.\n\nMagnifying glass was old knowledge. Around 1021 Ibn al-Haytham, working in Cairo, wrote the *Book of Optics*, a long study of how light travels and bends; translated into Latin, it shaped European optics for centuries. In the early 1600s craftsmen in the Netherlands and Italy were combining two lenses into compound microscopes, which magnified about twenty to thirty times. In 1665 the English experimenter Robert Hooke published *Micrographia*, a book of large engravings of a flea, a louse and a slice of cork. Leeuwenhoek most likely saw it, perhaps on a visit to London in 1667 or 1668, and it probably started him off.\n\n### What happened\n\nLeeuwenhoek did not copy the compound microscope. He made something simpler and, in his hands, better: a single tiny bead of glass set into a hole between two small brass plates. The thing to be looked at sat on a pin in front of the lens, moved by screws; he held the plate right up to his eye and looked toward the light. He made hundreds of lenses and at least twenty-five microscopes. Of the nine that survive, the best magnifies about 270 times. How he made his finest lenses he kept to himself: he wrote that there were things about it \"which I only keep for myself\". A neutron scan of one surviving microscope in 2021 found a lens made from melted glass thread, a method Hooke had already described.\n\n![A modern replica of a Leeuwenhoek microscope: a brass plate the size of a thumb with a tiny lens in the hole near the top. The specimen sits on the pin in front of the lens, and the screws move it closer or further.](https://upload.wikimedia.org/wikipedia/commons/d/de/Leeuwenhoek_Microscope.png \"Jeroen Rouwkema · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png\")\n\nIn 1673 the Delft physician Reinier de Graaf wrote to the Royal Society in London that this shopkeeper's lenses \"far surpass those which we have hitherto seen\". The Society printed Leeuwenhoek's first letter, on mould, bees and lice. In September 1674 he described water from a lake near Delft, the Berkelse Mere: green spiral threads and, among them, little moving creatures that he took to be animals. In 1675 he found more in rain water that had stood in a pot.\n\nThen, on 9 October 1676, he sent Henry Oldenburg, the Secretary of the Royal Society, a long letter on the \"little animals\" in rain water, well water, sea water and water in which he had steeped pepper. He wrote in his everyday Dutch, and described them with care: how they moved, what shape they were, how they changed as the water stood. He had no unit for such sizes, so he used comparisons. He wrote that a hundred of the smallest, laid end to end, would not reach the length of a grain of coarse sand. And he counted: in one drop of pepper water he reported \"upwards of 1 000 000 living creatures\", adding that he \"might with truth have put the number at eight times as many\". Oldenburg had the letter translated, and an English extract appeared in the Society's journal, the *Philosophical Transactions*, in 1677.\n\nModern readers, comparing his descriptions with living species, recognise single-celled organisms such as *Vorticella*, which stands on a stalk and pulls itself in like a spring. The smallest creatures in the letter were too small for him to make out their shape. From their size, historians think they were probably bacteria.\n\nThink of a pond seen from a passing aircraft: flat, still, apparently empty. Come down to the bank and it is full of swimmers. The analogy breaks in one place: anyone looking at a pond expects there might be fish, but in 1676 nobody had any reason to suspect that a clear drop of water held anything alive at all.\n\n### Why it was hard\n\nThe letter caused excitement and doubt in London. Nobody else had lenses like his, and he would not explain how to make them. Even before this letter, in 1675, Christiaan Huygens, the leading Dutch scientist of the day, had asked how much his reports were believed in London. The botanist Nehemiah Grew tried and saw nothing.\n\nLeeuwenhoek's answer was to send witnesses. Eight respectable men signed statements that they had seen the creatures through his lenses, among them clergymen, a Delft lawyer who was also a notary, a physician and a medical student. The Royal Society heard the testimonials on 11 November 1677. That same evening Robert Hooke tried to show the animals in pump water, and failed. A week later he tried pepper water with an improved microscope and saw only floating specks of pepper. On 25 November, on his third attempt, he succeeded, and the members saw them for themselves. (These are the dates of the calendar used in Delft; England still kept the old calendar, ten days behind, so English records give 15 November.)\n\nThe Royal Society elected Leeuwenhoek a Fellow in February 1680. He never travelled to London to attend a meeting, but he went on writing: about 190 letters to the Society by his death in 1723, and around 560 letters in all.\n\n> [!NOTE]\n> Leeuwenhoek did not connect his little animals with disease. The idea that illness might spread through tiny invisible \"seeds\" was older: the Italian physician Girolamo Fracastoro had argued it in 1546, without being able to see any. The two ideas met only in the 1860s and 1870s, when Louis Pasteur and Robert Koch showed that particular microbes cause particular diseases.\n\n### What it opened\n\nThe same lenses kept finding new things. In 1677, after a medical student, Johan Ham, brought him a sample, he described sperm cells. In a letter of 17 September 1683 he looked at the white matter scraped from between his own teeth, mixed it with water, and described several kinds of tiny living rods and spheres, some darting \"as a pike does through the water\". This time he included drawings, and they are generally recognised as the first pictures of bacteria.\n\n![A page of Leeuwenhoek's own handwritten letter of 17 September 1683, in Dutch, describing the creatures in the matter from his teeth. The letters B to F refer to the drawings that went with the letter. The printed caption at the foot was added when Clifford Dobell reproduced the page in his 1932 book.](https://upload.wikimedia.org/wikipedia/commons/0/05/Leeuwenhoek%27s_description_of_bacteria_in_the_mouth%2C_1683_Wellcome_L0010936.jpg \"https://wellcomeimages.org/indexplus/obf_images/03/c6/39b9296d5da52610608561a27575.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0010936.html Wellcome Collection gallery (2018-03-30): https://wellcomecollection.org/works/d3s9gakf CC-BY-4.0 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek's_description_of_bacteria_in_the_mouth,_1683_Wellcome_L0010936.jpg\")\n\nYet microscopy almost stopped where he left it. Hooke preferred compound microscopes, which were easier to use, and they became the standard tool even though for a long time they showed less. Leeuwenhoek refused to teach his methods. In the 18th century Carl Linnaeus put the microscopic creatures into a single genus, which he called *Chaos*, as if they were one kind of thing. Some modern scientists even doubted that a single lens could have shown bacteria, until in 1981 the microscopist Brian Ford examined specimens Leeuwenhoek had sent to London and showed how much his lenses could reveal.\n\nMicrobiology, the science of these creatures, took shape only in the 19th century, with better microscopes, Pasteur's experiments and Koch's methods. But the question it asks begins with this letter. Today we know that microbes live in every drop of sea water, in every handful of soil, and on and inside every human body. It was a cloth merchant counting creatures in pepper water who first described that hidden crowd in such detail.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Leeuwenhoek bir damla suda canlılar buldu",
+      "summary": "Delftli bir kumaş tüccarı, kendi yaptığı merceklerle bir damla suyun minicik yüzen hayvanlarla dolu olduğunu Londra'ya yazdı. Aralarında büyük ihtimalle bakteriler de vardı.",
+      "why_it_matters": "Leeuwenhoek dünyanın suda, yiyecekte, kendi ağzımızda bile görülemeyecek kadar küçük canlılarla dolu olduğunu gösterdi. Mikrobiyoloji ve sonradan bu canlıların bir kısmının hastalık yaptığının kanıtı onun mektuplarından başladı.",
+      "if_you_were_there": "Su sudur: berrak, temiz, boş. Delft'te bir dükkân sahibi, bir damla biberli suda bir milyondan fazla canlı olduğunu söylüyor.",
+      "place_name": "Delft",
+      "body": "### Sahne\n\n1670'lerde Delft, Hollanda Cumhuriyeti'nde yaklaşık 24.000 kişilik bir kasabaydı; tüccarların, kanalların ve matbaaların ülkesi. Antoni van Leeuwenhoek 1632'de burada doğdu. On altı yaşında Amsterdam'da bir kumaş tüccarının yanına çırak verildi; memleketine dönünce keten, iplik ve kurdele satan bir dükkân açtı, sonra belediye binasında kâhyalık ve kadastro ölçümcülüğü gibi şehir görevleri üstlendi. Üniversite görmemişti, bilginler Avrupası'nın dili Latinceyi okumazdı. Bu hikâyenin yılı olan 1676'da, kendisinden dört gün önce Delft'te vaftiz edilmiş ressam Johannes Vermeer'in terekesine de kayyum atandı.\n\nBüyüteç eski bir bilgiydi. 1021 dolaylarında Kahire'de çalışan İbnü'l-Heysem, ışığın nasıl yol aldığını ve kırıldığını inceleyen uzun bir eser, *Kitâbü'l-Menâzır*'ı (Optik Kitabı) yazdı; Latinceye çevrilen kitap Avrupa optiğini yüzyıllarca biçimlendirdi. 1600'lerin başında Hollanda'da ve İtalya'da zanaatkârlar iki merceği birleştirip yaklaşık yirmi-otuz kat büyüten bileşik mikroskoplar yapıyordu. 1665'te İngiliz deneyci Robert Hooke bir pirenin, bir bitin ve bir mantar diliminin büyük gravürlerini içeren *Micrographia*'yı yayımladı. Leeuwenhoek bu kitabı büyük ihtimalle, belki 1667 ya da 1668'deki bir Londra ziyaretinde gördü; onu bu işe muhtemelen bu kitap başlattı.\n\n### Ne oldu\n\nLeeuwenhoek bileşik mikroskobu kopyalamadı. Daha basit ve onun elinde daha iyi bir şey yaptı: iki küçük pirinç levha arasındaki deliğe oturtulmuş tek bir minik cam boncuk. İncelenecek şey merceğin önündeki bir iğnenin ucunda durur, vidalarla oynatılırdı; levhayı gözüne dayar, ışığa doğru bakardı. Yüzlerce mercek ve en az yirmi beş mikroskop yaptı. Bugüne kalan dokuz mikroskobun en iyisi yaklaşık 270 kat büyütür. En iyi merceklerini nasıl yaptığını sakladı: bu işte \"yalnızca kendime sakladığım\" şeyler olduğunu yazdı. 2021'de kalan mikroskoplardan birinin nötron taraması, eritilmiş cam iplikten yapılmış bir mercek buldu; bu yöntemi Hooke daha önce tarif etmişti.\n\n![Bir Leeuwenhoek mikroskobunun modern kopyası: başparmak büyüklüğünde bir pirinç levha, üst taraftaki delikte minicik bir mercek. Örnek merceğin önündeki iğnede durur, vidalar onu yaklaştırıp uzaklaştırır.](https://upload.wikimedia.org/wikipedia/commons/d/de/Leeuwenhoek_Microscope.png \"Jeroen Rouwkema · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png\")\n\n1673'te Delftli hekim Reinier de Graaf, Londra'daki Kraliyet Derneği'ne bu dükkâncının merceklerinin \"şimdiye kadar gördüklerimizi çok aştığını\" yazdı. Dernek Leeuwenhoek'in küf, arı ve bit üzerine ilk mektubunu yayımladı. Eylül 1674'te Delft yakınındaki Berkelse Mere gölünün suyunu anlattı: yeşil sarmal iplikler ve aralarında, hayvan sandığı küçük kıpırdayan yaratıklar. 1675'te bir kapta bekleyen yağmur suyunda daha fazlasını buldu.\n\nSonra, 9 Ekim 1676'da, Kraliyet Derneği'nin sekreteri Henry Oldenburg'a yağmur suyundaki, kuyu suyundaki, deniz suyundaki ve içinde biber bekletilmiş sudaki \"küçük hayvanlar\" üzerine uzun bir mektup gönderdi. Gündelik Felemenkçesiyle yazdı ve onları dikkatle anlattı: nasıl hareket ettiklerini, biçimlerini, su bekledikçe nasıl değiştiklerini. Böyle boyutlar için bir birimi yoktu, karşılaştırma kullandı. En küçüklerinden yüz tanesinin uç uca dizilse bile iri bir kum tanesinin boyuna ulaşmayacağını yazdı. Ve saydı: bir damla biberli suda \"1.000.000'dan fazla canlı\" olduğunu bildirdi, \"gerçekte bunun sekiz katı da diyebilirdim\" diye ekledi. Oldenburg mektubu çevirtti; İngilizce bir özeti 1677'de derneğin dergisi *Philosophical Transactions*'ta çıktı.\n\nBugünün okuru onun tariflerini yaşayan türlerle karşılaştırınca, bir sapın ucunda durup yay gibi kendini geri çeken *Vorticella* gibi tek hücreli canlıları tanıyor. Mektuptaki en küçük yaratıklar onun biçimlerini seçemeyeceği kadar küçüktü. Tarihçiler boyutlarına bakarak bunların muhtemelen bakteri olduğunu düşünüyor.\n\nGeçen bir uçaktan görülen bir gölet düşün: düz, durgun, boş görünür. Kıyıya inince yüzen canlılarla dolu olduğunu görürsün. Benzetme bir yerde bozulur: bir gölete bakan herkes içinde balık olabileceğini bilir; ama 1676'da kimsenin berrak bir su damlasında canlı bir şey olabileceğinden şüphelenmesi için hiçbir sebep yoktu.\n\n### Neden zordu\n\nMektup Londra'da hem heyecan hem şüphe uyandırdı. Kimsede onunkiler gibi mercek yoktu ve o, nasıl yapıldıklarını anlatmıyordu. Daha bu mektuptan önce, 1675'te, dönemin önde gelen Hollandalı bilim insanı Christiaan Huygens onun raporlarına Londra'da ne kadar inanıldığını sormuştu. Botanikçi Nehemiah Grew denedi ve hiçbir şey göremedi.\n\nLeeuwenhoek'in cevabı tanık göndermek oldu. Saygın sekiz kişi yaratıkları onun mercekleriyle gördüklerini imzalı belgelerle bildirdi; aralarında din adamları, aynı zamanda noter olan Delftli bir avukat, bir hekim ve bir tıp öğrencisi vardı. Kraliyet Derneği tanıklıkları 11 Kasım 1677'de dinledi. Aynı akşam Robert Hooke hayvanları tulumba suyunda göstermeye çalıştı ve başaramadı. Bir hafta sonra geliştirilmiş bir mikroskopla biberli suyu denedi ve yalnızca yüzen biber kırıntıları gördü. 25 Kasım'da, üçüncü denemesinde başardı ve üyeler onları kendi gözleriyle gördü. (Bu tarihler Delft'te kullanılan takvime göredir; İngiltere hâlâ on gün geriden gelen eski takvimi kullanıyordu, bu yüzden İngiliz kayıtlarında 15 Kasım yazar.)\n\nKraliyet Derneği Leeuwenhoek'i Şubat 1680'de üye seçti. Toplantılara katılmak için Londra'ya hiç gitmedi ama yazmayı sürdürdü: 1723'teki ölümüne kadar derneğe yaklaşık 190, toplamda 560 kadar mektup.\n\n> [!NOTE]\n> Leeuwenhoek küçük hayvanlarını hastalıkla ilişkilendirmedi. Hastalığın gözle görülmeyen minik \"tohumlar\"la yayılabileceği fikri daha eskiydi: İtalyan hekim Girolamo Fracastoro bunu 1546'da, hiçbirini göremeden savunmuştu. İki fikir ancak 1860'lar ve 1870'lerde, Louis Pasteur ve Robert Koch belirli mikropların belirli hastalıklara yol açtığını gösterdiğinde buluştu.\n\n### Sonrası\n\nAynı mercekler yeni şeyler bulmayı sürdürdü. 1677'de, tıp öğrencisi Johan Ham ona bir örnek getirdikten sonra, sperm hücrelerini tarif etti. 17 Eylül 1683 tarihli bir mektupta kendi dişlerinin arasından kazıdığı beyaz maddeye baktı, onu suyla karıştırdı ve birkaç türden minik canlı çubuk ve küreyi anlattı; bazıları \"suda bir turna balığı gibi\" fırlıyordu. Bu kez çizimler de ekledi; bunlar genellikle bakterilerin ilk resimleri kabul edilir.\n\n![Leeuwenhoek'in 17 Eylül 1683 tarihli, kendi el yazısıyla Felemenkçe mektubundan bir sayfa: dişlerinden aldığı maddedeki yaratıkları anlatıyor. B'den F'ye harfler mektupla giden çizimlere işaret eder. Alttaki basılı açıklama, Clifford Dobell sayfayı 1932'deki kitabında yeniden bastığında eklendi.](https://upload.wikimedia.org/wikipedia/commons/0/05/Leeuwenhoek%27s_description_of_bacteria_in_the_mouth%2C_1683_Wellcome_L0010936.jpg \"https://wellcomeimages.org/indexplus/obf_images/03/c6/39b9296d5da52610608561a27575.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0010936.html Wellcome Collection gallery (2018-03-30): https://wellcomecollection.org/works/d3s9gakf CC-BY-4.0 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek's_description_of_bacteria_in_the_mouth,_1683_Wellcome_L0010936.jpg\")\n\nYine de mikroskopi neredeyse onun bıraktığı yerde durdu. Hooke kullanımı daha kolay olan bileşik mikroskopları tercih ediyordu; uzun süre daha az gösterseler de standart araç onlar oldu. Leeuwenhoek yöntemlerini öğretmeyi reddetti. 18. yüzyılda Carl Linnaeus mikroskobik canlıları *Chaos* adını verdiği tek bir cinse koydu, sanki hepsi tek tür bir şeymiş gibi. Bazı modern bilim insanları tek bir merceğin bakteri gösterebileceğinden bile şüphe etti; ta ki 1981'de mikroskopçu Brian Ford, Leeuwenhoek'in Londra'ya gönderdiği örnekleri inceleyip merceklerinin neler gösterebildiğini ortaya koyana kadar.\n\nBu canlıların bilimi olan mikrobiyoloji ancak 19. yüzyılda, daha iyi mikroskoplarla, Pasteur'ün deneyleri ve Koch'un yöntemleriyle biçimlendi. Ama sorduğu soru bu mektupla başlar. Bugün mikropların her damla deniz suyunda, her avuç toprakta, her insan bedeninin içinde ve üstünde yaşadığını biliyoruz. Bu gizli kalabalığı ilk kez bu kadar ayrıntıyla anlatan, biberli sudaki yaratıkları sayan bir kumaş tüccarıydı.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Левенгук находит живых существ в капле воды",
+      "summary": "Торговец сукном из Делфта с самодельными линзами написал в Лондон, что капля воды кишит крошечными плавающими зверьками. Среди них, скорее всего, были бактерии.",
+      "why_it_matters": "Левенгук показал, что мир полон живых существ, слишком мелких для глаза: в воде, в пище, в нашем собственном рту. С его писем начались микробиология, а позже и доказательство того, что некоторые из этих существ вызывают болезни.",
+      "if_you_were_there": "Вода есть вода: прозрачная, чистая, пустая. А лавочник из Делфта утверждает, что в одной капле перечной воды больше миллиона живых существ.",
+      "place_name": "Делфт",
+      "body": "### Сцена\n\nДелфт в 1670-х годах был городом примерно на 24 000 жителей в Республике Соединённых провинций — стране купцов, каналов и типографий. Антони ван Левенгук родился здесь в 1632 году. В шестнадцать лет его отдали в ученики к торговцу тканями в Амстердаме; вернувшись домой, он открыл лавку, где продавал полотно, пряжу и ленты, а позже занимал городские должности, в том числе служителя ратуши и землемера. Университета он не кончал и не читал на латыни — языке учёной Европы. В 1676 году, когда происходит наша история, его также назначили попечителем наследства художника Яна Вермеера, крещённого в Делфте на четыре дня раньше него.\n\nУвеличительное стекло было давним знанием. Около 1021 года Ибн аль-Хайсам, работавший в Каире, написал «Книгу оптики» — большое исследование того, как свет распространяется и преломляется; переведённая на латынь, она веками определяла европейскую оптику. В начале XVII века мастера в Нидерландах и Италии соединяли две линзы в составные микроскопы, увеличивавшие примерно в двадцать–тридцать раз. В 1665 году английский экспериментатор Роберт Гук издал «Микрографию» — книгу с большими гравюрами блохи, вши и среза пробки. Левенгук, скорее всего, видел её, возможно, во время поездки в Лондон в 1667 или 1668 году, и, вероятно, именно она его подтолкнула.\n\n### Что произошло\n\nЛевенгук не стал копировать составной микроскоп. Он сделал нечто более простое и в его руках более сильное: одну крошечную стеклянную бусинку, вставленную в отверстие между двумя латунными пластинками. Предмет наблюдения сидел на игле перед линзой и двигался винтами; пластинку подносили вплотную к глазу и смотрели на свет. Он изготовил сотни линз и не меньше двадцати пяти микроскопов. Из девяти сохранившихся лучший увеличивает примерно в 270 раз. Как он делал свои лучшие линзы, он держал в тайне: писал, что есть вещи, «которые я храню только для себя». В 2021 году нейтронное сканирование одного из сохранившихся микроскопов показало линзу из расплавленной стеклянной нити — способ, который ранее описывал Гук.\n\n![Современная копия микроскопа Левенгука: латунная пластинка размером с большой палец, в отверстии наверху — крошечная линза. Образец сидит на игле перед линзой, винты приближают и отодвигают его.](https://upload.wikimedia.org/wikipedia/commons/d/de/Leeuwenhoek_Microscope.png \"Jeroen Rouwkema · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png\")\n\nВ 1673 году делфтский врач Ренье де Грааф написал в Лондонское королевское общество, что линзы этого лавочника «далеко превосходят всё, что мы видели до сих пор». Общество напечатало первое письмо Левенгука — о плесени, пчёлах и вшах. В сентябре 1674 года он описал воду из озера Беркелсе-Мер под Делфтом: зелёные спиральные нити и между ними маленьких движущихся существ, которых он счёл животными. В 1675 году он нашёл ещё больше в дождевой воде, постоявшей в горшке.\n\nА 9 октября 1676 года он отправил секретарю Королевского общества Генри Ольденбургу длинное письмо о «маленьких зверьках» в дождевой, колодезной и морской воде и в воде, где настаивался перец. Он писал на своём разговорном нидерландском и описывал их тщательно: как они двигаются, какой они формы, как меняются, пока вода стоит. Единиц для таких размеров у него не было, и он пользовался сравнениями. Он писал, что сотня самых мелких, уложенных друг за другом, не достанет до длины крупной песчинки. И он считал: в одной капле перечной воды, сообщал он, «свыше 1 000 000 живых существ», и добавлял, что «мог бы по правде назвать число в восемь раз большее». Ольденбург заказал перевод, и английская выдержка вышла в журнале общества *Philosophical Transactions* в 1677 году.\n\nСовременные читатели, сравнивая его описания с живыми видами, узнают одноклеточных — например, *Vorticella* (сувойку), которая сидит на стебельке и сжимается, как пружина. Самые мелкие существа из письма были слишком малы, чтобы он мог разглядеть их форму. По размеру историки считают, что это, вероятно, были бактерии.\n\nПредставьте пруд, увиденный из пролетающего самолёта: плоский, неподвижный, как будто пустой. Спуститесь на берег — и он полон пловцов. Сравнение ломается в одном месте: всякий, кто смотрит на пруд, допускает, что там есть рыба, а в 1676 году ни у кого не было ни малейшей причины подозревать, что в прозрачной капле воды вообще что-то живёт.\n\n### Почему это было трудно\n\nПисьмо вызвало в Лондоне и волнение, и недоверие. Ни у кого не было таких линз, как у него, а объяснять, как их делать, он не хотел. Ещё до этого письма, в 1675 году, Христиан Гюйгенс, крупнейший голландский учёный того времени, спрашивал, насколько в Лондоне верят его сообщениям. Ботаник Неемия Грю попробовал и ничего не увидел.\n\nОтветом Левенгука стали свидетели. Восемь уважаемых людей подписали заявления, что видели существ через его линзы, среди них священники, делфтский юрист, бывший также нотариусом, врач и студент-медик. Королевское общество заслушало эти свидетельства 11 ноября 1677 года. В тот же вечер Роберт Гук пытался показать зверьков в воде из насоса — и не смог. Через неделю он взял перечную воду и улучшенный микроскоп и увидел лишь плавающие крупинки перца. 25 ноября, с третьей попытки, у него получилось, и члены общества увидели их своими глазами. (Это даты по календарю, принятому в Делфте; Англия ещё жила по старому календарю, отстававшему на десять дней, поэтому в английских записях стоит 15 ноября.)\n\nВ феврале 1680 года Королевское общество избрало Левенгука своим членом. На заседания в Лондон он так и не приехал, но продолжал писать: к смерти в 1723 году — около 190 писем обществу и около 560 писем в целом.\n\n> [!NOTE]\n> Левенгук не связывал своих зверьков с болезнями. Мысль о том, что болезнь может передаваться крошечными невидимыми «семенами», была старше: итальянский врач Джироламо Фракасторо отстаивал её в 1546 году, не видя ни одного из них. Две идеи встретились только в 1860–1870-х годах, когда Луи Пастер и Роберт Кох показали, что определённые микробы вызывают определённые болезни.\n\n### Что это открыло\n\nТе же линзы продолжали находить новое. В 1677 году, после того как студент-медик Йохан Хам принёс ему образец, он описал сперматозоиды. В письме от 17 сентября 1683 года он рассмотрел белый налёт, соскобленный с собственных зубов, смешал его с водой и описал несколько видов крошечных живых палочек и шариков; некоторые носились, «как щука в воде». На этот раз он приложил рисунки, и их обычно признают первыми изображениями бактерий.\n\n![Страница собственноручного письма Левенгука от 17 сентября 1683 года на нидерландском: он описывает существ в налёте со своих зубов. Буквы от B до F отсылают к рисункам, приложенным к письму. Печатная подпись внизу добавлена, когда Клиффорд Добелл воспроизвёл страницу в своей книге 1932 года.](https://upload.wikimedia.org/wikipedia/commons/0/05/Leeuwenhoek%27s_description_of_bacteria_in_the_mouth%2C_1683_Wellcome_L0010936.jpg \"https://wellcomeimages.org/indexplus/obf_images/03/c6/39b9296d5da52610608561a27575.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0010936.html Wellcome Collection gallery (2018-03-30): https://wellcomecollection.org/works/d3s9gakf CC-BY-4.0 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek's_description_of_bacteria_in_the_mouth,_1683_Wellcome_L0010936.jpg\")\n\nИ всё же микроскопия почти остановилась там, где он её оставил. Гук предпочитал составные микроскопы, которыми было проще пользоваться, и стандартом стали они, хотя долгое время показывали меньше. Учить своим методам Левенгук отказывался. В XVIII веке Карл Линней свёл микроскопических существ в один род, названный им *Chaos*, будто это один вид вещей. Некоторые современные учёные даже сомневались, что одна линза могла показать бактерии, пока в 1981 году микроскопист Брайан Форд не изучил образцы, присланные Левенгуком в Лондон, и не показал, на что были способны его линзы.\n\nМикробиология, наука об этих существах, сложилась только в XIX веке — с лучшими микроскопами, опытами Пастера и методами Коха. Но её вопрос начинается с этого письма. Сегодня мы знаем, что микробы живут в каждой капле морской воды и в каждой горсти почвы, а также на каждом человеческом теле и внутри него. Впервые так подробно описал эту скрытую толпу торговец сукном, считавший существ в перечной воде.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Левенгук бир тамчы сууда тирүү жандыктарды тапты",
+      "summary": "Делфттик кездеме сатуучу өзү жасаган линзалар менен бир тамчы суу майда сүзүп жүргөн жаныбарларга толо экенин Лондонго жазды. Алардын арасында, ыктымал, бактериялар да болгон.",
+      "why_it_matters": "Левенгук дүйнө көзгө көрүнбөгөндөй майда тирүү жандыктарга толо экенин көрсөттү: сууда, тамакта, өзүбүздүн оозубузда. Микробиология, кийин бул жандыктардын айрымдары оору козгоорунун далили анын каттарынан башталган.",
+      "if_you_were_there": "Суу деген суу: тунук, таза, бош. А Делфттеги бир дүкөнчү бир тамчы калемпир суусунда миллиондон ашык тирүү жандык бар дейт.",
+      "place_name": "Делфт",
+      "body": "### Көрүнүш\n\n1670-жылдары Делфт Голландия республикасындагы 24 000дей калкы бар шаар эле. Бул соодагерлердин, каналдардын жана басмаканалардын өлкөсү болчу. Антони ван Левенгук ушул жерде 1632-жылы туулган. Он алты жашында аны Амстердамдагы кездеме сатуучуга шакиртке беришкен. Үйүнө кайтып келип, зыгыр кездеме, жип жана тасма саткан дүкөн ачкан. Кийин шаардык кызматтарда иштеген, алардын арасында шаар башкармалыгынын кызматчысы жана жер өлчөөчү болгон. Университетте окуган эмес, илимпоздор Европасынын тили болгон латынча окуй алчу эмес. Бул окуя болгон 1676-жылы ал Делфтте андан төрт күн мурун чөмүлдүрүлгөн сүрөтчү Ян Вермеердин мурасына камкорчу болуп да дайындалган.\n\nЧоңойтуучу айнек эски билим эле. Болжол менен 1021-жылы Каирде иштеген Ибн аль-Хайсам «Оптика китебин» жазган. Бул жарык кантип тарап, кантип сынарын изилдеген чоң эмгек болчу. Латынчага которулган китеп Европанын оптикасын кылымдар бою калыптандырган. XVII кылымдын башында Нидерландия менен Италиянын усталары эки линзаны бириктирип, болжол менен жыйырма-отуз эсе чоңойткон татаал микроскопторду жасап жатышкан. 1665-жылы англиялык изилдөөчү Роберт Гук «Микрография» китебин чыгарган. Анда бүргөнүн, биттин жана тыгын кесиндисинин чоң гравюралары бар эле. Левенгук аны, сыягы, 1667 же 1668-жылы Лондонго барганда көргөн жана, балким, ушул китеп аны бул ишке түрткөн.\n\n### Эмне болду\n\nЛевенгук татаал микроскопту көчүргөн жок. Ал жөнөкөйүрөөк, бирок өз колунда күчтүүрөөк нерсе жасады: эки кичинекей жез пластинканын ортосундагы тешикке орнотулган бир кичинекей айнек мончок. Каралуучу нерсе линзанын алдындагы ийненин учунда турчу жана бурамалар менен жылдырылчу. Пластинканы көзгө такап, жарыкты карай карашчу. Ал жүздөгөн линза жана жок дегенде жыйырма беш микроскоп жасаган. Сакталып калган тогузунун эң жакшысы болжол менен 270 эсе чоңойтот. Эң мыкты линзаларын кантип жасаганын ал жашырган: бул иште «өзүмө гана сактаган» нерселер бар деп жазган. 2021-жылы сакталып калган микроскоптордун бирин нейтрон менен текшерүү эритилген айнек жиптен жасалган линзаны көрсөттү. Бул ыкманы мурда Гук сүрөттөп жазган.\n\n![Левенгук микроскобунун азыркы көчүрмөсү: бармактай жез пластинка, жогору жактагы тешикте кичинекей линза. Үлгү линзанын алдындагы ийнеде турат, бурамалар аны жакындатып же алыстатат.](https://upload.wikimedia.org/wikipedia/commons/d/de/Leeuwenhoek_Microscope.png \"Jeroen Rouwkema · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png\")\n\n1673-жылы делфттик дарыгер Ренье де Грааф Лондондогу Королдук коомго бул дүкөнчүнүн линзалары «биз буга чейин көргөндөрдүн баарынан алда канча жогору» деп жазган. Коом Левенгуктун көк, аары жана бит жөнүндөгү биринчи катын жарыялаган. 1674-жылдын сентябрында ал Делфттин жанындагы Беркелсе-Мер көлүнүн суусун сүрөттөгөн: жашыл спираль жиптер жана алардын арасында ал жаныбар деп эсептеген кыймылдаган майда жандыктар. 1675-жылы ал идиште турган жамгыр суусунан андан да көбүн тапкан.\n\nАнан 1676-жылдын 9-октябрында ал Королдук коомдун катчысы Генри Ольденбургга жамгыр суусундагы, кудук суусундагы, деңиз суусундагы жана калемпир чыланган суудагы «кичинекей жаныбарлар» тууралуу узун кат жөнөттү. Ал күндөлүк нидерланд тилинде жазып, аларды кылдат сүрөттөдү: кантип кыймылдашат, формасы кандай, суу турган сайын кантип өзгөрөт. Мындай өлчөмдөр үчүн анда бирдик жок болчу, ошондуктан салыштырууларды колдонду. Эң майдаларынын жүзүн катары менен тизсе да, бир ири кум бүртүгүнүн узундугуна жетпейт деп жазды. Жана санады: бир тамчы калемпир суусунда «1 000 000дон ашык тирүү жандык» бар экенин билдирип, «чындыгында мындан сегиз эсе көп десем да болмок» деп кошумчалады. Ольденбург катты которткон, анын англисче үзүндүсү 1677-жылы коомдун *Philosophical Transactions* журналында чыккан.\n\nАзыркы окурмандар анын сүрөттөмөлөрүн тирүү түрлөр менен салыштырып, бир клеткалуу жандыктарды таанышат. Мисалы, сабакчанын учунда туруп, пружинадай жыйрылып калчу *Vorticella* (сувойка). Каттагы эң майда жандыктар анын формасын ажырата албагандай кичинекей болчу. Тарыхчылар алардын өлчөмүнө карап, булар, балким, бактериялар болгон деп эсептешет.\n\nУчуп бара жаткан учактан көрүнгөн көлмөнү элестетиңиз: жалпак, тынч, бош сыяктуу. Жээкке түшсөңүз, ал сүзүп жүргөн жандыктарга толо. Бул салыштыруу бир жерде бузулат: көлмөнү караган ар бир адам анда балык болушу мүмкүн экенин билет, ал эми 1676-жылы тунук суу тамчысында тирүү бир нерсе бар деп шектенүүгө эч кимдин эч кандай себеби жок эле.\n\n### Эмнеге оор болду\n\nКат Лондондо кызыгууну да, күмөндү да жаратты. Эч кимде аныкындай линзалар жок болчу, ал болсо аларды кантип жасаганын түшүндүргүсү келген жок. Бул каттан мурун эле, 1675-жылы, ошол кездеги эң белгилүү голландиялык окумуштуу Христиан Гюйгенс Лондондо анын билдирүүлөрүнө канчалык ишенишерин сураган. Ботаник Неемия Грю аракет кылып, эч нерсе көргөн жок.\n\nЛевенгуктун жообу күбөлөр болду. Сегиз кадыр-барктуу адам жандыктарды анын линзалары аркылуу көргөнүн кол коюлган билдирүүлөр менен тастыкташты. Алардын арасында дин кызматчылары, нотариус да болгон делфттик юрист, дарыгер жана медицина студенти бар эле. Королдук коом бул күбөлүктөрдү 1677-жылдын 11-ноябрында угуп чыкты. Ошол эле кечте Роберт Гук жаныбарларды насостун суусунда көрсөтүүгө аракет кылып, ийгиликке жеткен жок. Бир жумадан кийин ал жакшыртылган микроскоп менен калемпир суусун сынап, калкып жүргөн калемпир бүртүктөрүн гана көрдү. 25-ноябрда, үчүнчү аракетинде ал ийгиликке жетти, коомдун мүчөлөрү аларды өз көзү менен көрүштү. (Бул даталар Делфтте колдонулган календарь боюнча. Англия ал кезде он күн артта калган эски календарь менен жашачу, ошондуктан англис жазууларында 15-ноябрь деп турат.)\n\n1680-жылдын февралында Королдук коом Левенгукту мүчөлүккө шайлады. Ал жыйындарга катышуу үчүн Лондонго эч качан барган эмес, бирок жаза берген: 1723-жылы каза болгонго чейин коомго 190дой, жалпысынан 560тай кат.\n\n> [!NOTE]\n> Левенгук өзүнүн кичинекей жаныбарларын оору менен байланыштырган эмес. Оору көзгө көрүнбөгөн майда «уруктар» аркылуу жугушу мүмкүн деген ой эскирээк болчу: италиялык дарыгер Джироламо Фракасторо аны 1546-жылы, бирин да көрө албай туруп айткан. Эки ой 1860–1870-жылдары гана, Луи Пастер менен Роберт Кох белгилүү микробдор белгилүү ооруларды козгоорун көрсөткөндө кошулган.\n\n### Эмнеге жол ачты\n\nОшол эле линзалар жаңы нерселерди таба берди. 1677-жылы медицина студенти Йохан Хам ага үлгү алып келгенден кийин, ал сперматозоиддерди сүрөттөдү. 1683-жылдын 17-сентябрындагы катында ал өз тиштеринин арасынан кырып алган ак затты карап, аны суу менен аралаштырып, бир нече түрдөгү кичинекей тирүү таякчаларды жана тоголокторду сүрөттөдү. Алардын айрымдары «суудагы чортондой» атылып жүрчү. Бул жолу ал сүрөттөрдү да тиркеди, аларды адатта бактериялардын алгачкы сүрөттөрү деп эсептешет.\n\n![Левенгуктун 1683-жылдын 17-сентябрындагы өз колу менен нидерланд тилинде жазылган катынын бир барагы: ал тиштеринен алган заттагы жандыктарды сүрөттөйт. B ден F ке чейинки тамгалар кат менен кошо жөнөтүлгөн сүрөттөргө шилтеме. Төмөнкү басма жазуу Клиффорд Добелл бул баракты 1932-жылкы китебинде кайра басканда кошулган.](https://upload.wikimedia.org/wikipedia/commons/0/05/Leeuwenhoek%27s_description_of_bacteria_in_the_mouth%2C_1683_Wellcome_L0010936.jpg \"https://wellcomeimages.org/indexplus/obf_images/03/c6/39b9296d5da52610608561a27575.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0010936.html Wellcome Collection gallery (2018-03-30): https://wellcomecollection.org/works/d3s9gakf CC-BY-4.0 · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Leeuwenhoek's_description_of_bacteria_in_the_mouth,_1683_Wellcome_L0010936.jpg\")\n\nОшентсе да микроскопия ал калтырган жерде дээрлик токтоп калды. Гук колдонууга оңой татаал микроскопторду жактырчу, узак убакыт азыраак көрсөтсө да, стандарттык курал ошолор болуп калды. Левенгук өз ыкмаларын үйрөтүүдөн баш тарткан. XVIII кылымда Карл Линней микроскоптук жандыктарды өзү *Chaos* деп атаган бир урууга бириктирди, алар бир эле түрдөгү нерсе сыяктуу. Айрым азыркы окумуштуулар бир линза бактерияны көрсөтө алганына да шектенишкен. 1981-жылы микроскопист Брайан Форд Левенгук Лондонго жөнөткөн үлгүлөрдү изилдеп, анын линзалары эмнелерди көрсөтө аларын далилдегенге чейин ушундай болгон.\n\nБул жандыктар жөнүндөгү илим, микробиология, XIX кылымда гана, жакшыраак микроскоптор, Пастердин тажрыйбалары жана Кохтун ыкмалары менен калыптанган. Бирок анын суроосу ушул каттан башталат. Бүгүн биз микробдор деңиз суусунун ар бир тамчысында, топурактын ар бир ууучунда, ар бир адамдын денесинде жана ичинде жашаарын билебиз. Бул жашыруун топту биринчи жолу ушунчалык так сүрөттөгөн адам калемпир суусундагы жандыктарды санаган кездеме сатуучу болгон.",
+      "status": "machine"
+    }
+  }
+}
