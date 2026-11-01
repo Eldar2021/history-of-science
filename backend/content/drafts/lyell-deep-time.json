@@ -1,0 +1,292 @@
+{
+  "slug": "lyell-deep-time",
+  "year": 1830,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 51.5074,
+  "lng": -0.1278,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sir_Charles_Lyell_-_Geologist_MET_DP142452.jpg",
+    "credit": "David Octavius Hill / Robert Adamson / Hill & Adamson",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sir_Charles_Lyell_-_Geologist_MET_DP142452.jpg"
+  },
+  "disciplines": [
+    "earth"
+  ],
+  "people": [
+    {
+      "slug": "charles-lyell",
+      "birth_year": 1797,
+      "death_year": 1875,
+      "role": "author",
+      "name": {
+        "en": "Charles Lyell",
+        "tr": "Charles Lyell",
+        "ru": "Чарльз Лайель",
+        "ky": "Чарльз Лайель"
+      }
+    },
+    {
+      "slug": "mary-horner-lyell",
+      "birth_year": 1808,
+      "death_year": 1873,
+      "role": "collaborator",
+      "name": {
+        "en": "Mary Horner Lyell",
+        "tr": "Mary Horner Lyell",
+        "ru": "Мэри Хорнер Лайель",
+        "ky": "Мэри Хорнер Лайель"
+      }
+    },
+    {
+      "slug": "roderick-murchison",
+      "birth_year": 1792,
+      "death_year": 1871,
+      "role": "collaborator",
+      "name": {
+        "en": "Roderick Murchison",
+        "tr": "Roderick Murchison",
+        "ru": "Родерик Мурчисон",
+        "ky": "Родерик Мурчисон"
+      }
+    },
+    {
+      "slug": "james-hutton",
+      "birth_year": 1726,
+      "death_year": 1797,
+      "role": "predecessor",
+      "name": {
+        "en": "James Hutton",
+        "tr": "James Hutton",
+        "ru": "Джеймс Хаттон",
+        "ky": "Джеймс Хаттон"
+      }
+    },
+    {
+      "slug": "john-playfair",
+      "birth_year": 1748,
+      "death_year": 1819,
+      "role": "predecessor",
+      "name": {
+        "en": "John Playfair",
+        "tr": "John Playfair",
+        "ru": "Джон Плейфэр",
+        "ky": "Джон Плейфэр"
+      }
+    },
+    {
+      "slug": "ibn-sina",
+      "birth_year": 980,
+      "death_year": 1037,
+      "role": "predecessor",
+      "name": {
+        "en": "Ibn Sina",
+        "tr": "İbn Sina",
+        "ru": "Ибн Сина",
+        "ky": "Ибн Сина"
+      }
+    },
+    {
+      "slug": "al-biruni",
+      "birth_year": 973,
+      "death_year": 1048,
+      "role": "predecessor",
+      "name": {
+        "en": "Al-Biruni",
+        "tr": "El-Biruni",
+        "ru": "Аль-Бируни",
+        "ky": "Аль-Бируни"
+      }
+    },
+    {
+      "slug": "shen-kuo",
+      "birth_year": 1031,
+      "death_year": 1095,
+      "role": "predecessor",
+      "name": {
+        "en": "Shen Kuo",
+        "tr": "Shen Kuo",
+        "ru": "Шэнь Ко",
+        "ky": "Шэнь Ко"
+      }
+    },
+    {
+      "slug": "georges-cuvier",
+      "birth_year": 1769,
+      "death_year": 1832,
+      "role": "rival",
+      "name": {
+        "en": "Georges Cuvier",
+        "tr": "Georges Cuvier",
+        "ru": "Жорж Кювье",
+        "ky": "Жорж Кювье"
+      }
+    },
+    {
+      "slug": "gerard-paul-deshayes",
+      "birth_year": 1795,
+      "death_year": 1875,
+      "role": "collaborator",
+      "name": {
+        "en": "Gérard-Paul Deshayes",
+        "tr": "Gérard-Paul Deshayes",
+        "ru": "Жерар Поль Дезе",
+        "ky": "Жерар Поль Дезе"
+      }
+    },
+    {
+      "slug": "william-whewell",
+      "birth_year": 1794,
+      "death_year": 1866,
+      "role": "contemporary",
+      "name": {
+        "en": "William Whewell",
+        "tr": "William Whewell",
+        "ru": "Уильям Уэвелл",
+        "ky": "Уильям Уэвелл"
+      }
+    },
+    {
+      "slug": "charles-darwin",
+      "birth_year": 1809,
+      "death_year": 1882,
+      "role": "successor",
+      "name": {
+        "en": "Charles Darwin",
+        "tr": "Charles Darwin",
+        "ru": "Чарльз Дарвин",
+        "ky": "Чарльз Дарвин"
+      }
+    },
+    {
+      "slug": "william-thomson-kelvin",
+      "birth_year": 1824,
+      "death_year": 1907,
+      "role": "rival",
+      "name": {
+        "en": "William Thomson (Lord Kelvin)",
+        "tr": "William Thomson (Lord Kelvin)",
+        "ru": "Уильям Томсон (лорд Кельвин)",
+        "ky": "Уильям Томсон (лорд Кельвин)"
+      }
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "Principles of Geology — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Principles_of_Geology"
+    },
+    {
+      "title": "Charles Lyell — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Lyell"
+    },
+    {
+      "title": "W. B. Ashworth Jr., 'Charles Lyell', Scientist of the Day — Linda Hall Library",
+      "kind": "other",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/charles-lyell"
+    },
+    {
+      "title": "About Sir Charles Lyell — University of Edinburgh, Heritage Collections",
+      "kind": "other",
+      "url": "https://library.ed.ac.uk/heritage-collections/collections-and-search/archives/sir-charles-lyell-collection/about-sir-charles-lyell"
+    },
+    {
+      "title": "Uniformitarianism — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Uniformitarianism"
+    },
+    {
+      "title": "History of geology — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_geology"
+    },
+    {
+      "title": "Macellum of Pozzuoli — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Macellum_of_Pozzuoli"
+    },
+    {
+      "title": "W. B. Ashworth Jr., 'Gérard-Paul Deshayes', Scientist of the Day — Linda Hall Library",
+      "kind": "other",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/gerard-paul-deshayes/"
+    },
+    {
+      "title": "Darwin to Leonard Horner, 29 August 1844 — Darwin Correspondence Project, letter 771",
+      "kind": "other",
+      "url": "https://www.darwinproject.ac.uk/view/letters/DCP-LETT-771"
+    },
+    {
+      "title": "James Hutton — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/James_Hutton"
+    },
+    {
+      "title": "Mary Horner Lyell — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Mary_Horner_Lyell"
+    },
+    {
+      "title": "Age of Earth — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Age_of_Earth"
+    },
+    {
+      "title": "J. van Wyhe (ed.), G. Chancellor, 'Charles Lyell's Principles of Geology' — Darwin Online",
+      "kind": "other",
+      "url": "https://darwin-online.org.uk/EditorialIntroductions/Chancellor_LyellsPrinciplesOfGeology.html"
+    },
+    {
+      "title": "Sir Charles Lyell, Baronet — Britannica",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Sir-Charles-Lyell-Baronet"
+    }
+  ],
+  "research_note": "Researched 2026-11-01 against English Wikipedia (Principles of Geology; Charles Lyell; Uniformitarianism; History of geology; Macellum of Pozzuoli; Mary Horner Lyell; Age of Earth; James Hutton; Siccar Point; Shen Kuo; Avicenna; Gérard Paul Deshayes), Linda Hall Library Scientist of the Day (Lyell: 'most geologists of Lyell's day were catastrophists', Serapis frontispiece, columns gold-stamped on later covers, 11 editions in his lifetime; Deshayes: dating Tertiary rocks by share of living species, names suggested by Whewell), and University of Edinburgh Heritage Collections (bestseller, 'millions of years', married Mary Horner 1832). Britannica and Darwin Online returned 403 to automated fetch; both are linked for the human only.\nYEAR: 1830 = volume 1 (exact; all sources agree). The month is contested (Wikipedia's edition list says January 1830; other accounts say mid-1830), so the body gives no month.\nFLAGGED IN BODY: 'the present is the key to the past' is introduced as a later summary, not Lyell's words (often credited to Geikie). The Pozzuoli 'Temple of Serapis' is explained in a NOTE as a Roman market (macellum). The candle analogy says where it breaks (rates are not constant; catastrophes happen). Lyell's errors (steady-state Earth, resistance to evolution until the 10th edition 1867-68, indefinitely long age) are in 'Why it was hard'.\nFIXED AFTER FACT-CHECK (all four languages): (1) Murchison turned back in northern Italy; Lyell went on alone to Naples and Sicily (Vesuvius, Etna) - per Lyell's 1833 preface as read by the fact-checker. The 1828-29 trip now gives only a 'suspicion' of sorting strata by living species; the counts are credited to Gérard-Paul Deshayes and the names Eocene/Miocene/Pliocene to Whewell's suggestion. (2) 'Revised eleven times' -> 'eleven editions appeared in his lifetime'. (3) Dropped 'most influential geology book in English of its century' (Linda Hall's 'surely' was too soft to carry it). (4) Mary Horner Lyell: 'studied her own collection of land snails from the Canary Islands' (1854), not field work there. (5) Gould box softened: 1965 paper and 1987 book (Time's Arrow); the four-way split is clearest in 1987. (6) Darwin's 'half out of Lyell's brain' dated to his letter to Leonard Horner of 29 Aug 1844 (Darwin Correspondence Project DCP-LETT-771, found by the fact-checker; I did not open it). (7) Anthropocene: 'a forerunner of', not 'ancestor of'. (8) ru summary grammar; ky Darwin name now full.\nREVIEWER SHOULD CHECK: (1) Ibn Sina's mountain passage is a paraphrase of the Toulmin & Goodfield (1965) translation quoted on Wikipedia 'Avicenna'; the book itself was not seen. (2) Al-Biruni 'the land of India had once been a sea' rests on Wikipedia History of geology plus the Sachau translation quoted on todayinsci (fact-checker). (3) Whewell coined both terms in Quarterly Review 47, 1832 (per Wikipedia via fact-checker); the body says only 'reviewing the book'. (4) 'Darwin found Kelvin's figures far too short' rests on Wikipedia Age of Earth citing Origin 1872 p. 286. (5) Asteroid that ended the dinosaurs and ice-age megafloods are given as modern examples without a dedicated source here (Missoula floods are in Wikipedia Uniformitarianism). (6) Cover is the Hill & Adamson calotype (1843-47, MET, CC0): later than 1830, but the man himself. (7) Kyrgyz terms marked 'check' in glossary.ky.json that are used: жанар тоо (volcano), түр (species), далилдөө (to prove/argue, used as далилдеген). Not in the glossary at all: казылма калдыктар / казылма кабыкчалар (fossils), табигый тандалуу (natural selection), катастрофисттер, униформизм, тоо тек / тек (rock).",
+  "translations": {
+    "en": {
+      "title": "Lyell: the Earth is old and changes slowly",
+      "summary": "Lyell's Principles of Geology argued that rain, rivers, earthquakes and volcanoes, working as they do today over vast stretches of time, are enough to explain the rocks.",
+      "why_it_matters": "Lyell made deep time and slow, observable causes the working method of geology. His book gave Darwin the time natural selection needed, and geologists still read the past first through processes they can watch today.",
+      "if_you_were_there": "Geologists agree the Earth is old, but they picture its past as floods and upheavals greater than anything seen. A former lawyer says the rain, the rivers and a slowly rising coast are enough.",
+      "place_name": "London",
+      "body": "### The scene\n\nBy 1830 most geologists already agreed that the Earth was far older than human history. What they argued about was how that long past had worked. Rock layers held seashells high on mountains and the bones of animals that lived nowhere any more. In Paris, Georges Cuvier, the leading anatomist of the age, explained the vanished animals of the rocks around Paris with sudden \"revolutions of the earth\": floods and upheavals far more violent than anything anyone had seen. Most geologists of the day thought this way. They would later be called catastrophists.\n\nThe opposite idea was older than it looked. In the early eleventh century Ibn Sina, born near Bukhara, wrote in his *Book of Healing* that mountains are raised by upheavals of the ground or carved out by water cutting new valleys through soft and hard layers, and that such changes need a long period of time. His contemporary al-Biruni, from Khwarazm, suggested that the land of India had once been a sea. In Song China, Shen Kuo saw sea fossils in the Taihang Mountains, hundreds of miles from the ocean, and reasoned that the land had been built up from silt.\n\nIn Edinburgh in 1785 James Hutton argued that rain, rivers and the sea slowly wear land away, that the debris becomes new rock on the sea floor, and that heat from below lifts it again, in a cycle with no visible start. In 1788 he went along the Berwickshire coast with John Playfair and James Hall and found, at Siccar Point, upright layers of grey rock worn flat and buried under sloping red sandstone: one old world, eroded, with a younger one laid on top. \"We find no vestige of a beginning, no prospect of an end,\" Hutton wrote. In 1802 Playfair restated the theory in a clearer book of his own.\n\n![Siccar Point on the Scottish coast today. The lower layers stand almost upright; above them, across a worn surface, lie gently sloping beds of red sandstone. Hutton read the join between them as a long gap in time.](https://upload.wikimedia.org/wikipedia/commons/1/16/Hutton%27s_unconformity_at_Siccar_Point%2C_Scotland.jpg \"PawełS · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Hutton's_unconformity_at_Siccar_Point,_Scotland.jpg\")\n\n### What happened\n\nCharles Lyell was born in 1797 at Kinnordy in Scotland. At Oxford he heard William Buckland lecture on geology; he then trained as a lawyer in London, but his eyesight was weak, and by 1827 he had given up law for rocks. From May 1828 to February 1829 he travelled with the geologist Roderick Murchison through the old volcanoes of the Auvergne in France and on into northern Italy. There Murchison turned back, and Lyell went on alone to Naples and Sicily. He studied Vesuvius and Etna and came to see volcanoes as mountains built up slowly, flow upon flow, and he began to suspect that younger rock layers could be sorted by how many of their fossil shells belonged to species still alive.\n\nIn 1830 the London publisher John Murray brought out the first volume of Lyell's *Principles of Geology*. Its subtitle was the whole programme: \"an attempt to explain the former changes of the Earth's surface by reference to causes now in operation\". Two more volumes followed by 1833. Lyell collected earthquakes that had lifted coastlines, rivers that had built deltas, volcanoes that grow flow by flow, and argued that ordinary causes like these, given enough time, could explain everything in the rocks. Calling on floods and upheavals that nobody had ever seen was, in his view, both unnecessary and unsound. His approach was later summed up in the phrase \"the present is the key to the past\".\n\n![The frontispiece of Principles of Geology: three Roman columns at Pozzuoli near Naples, with a dark band of holes partway up their shafts.](https://upload.wikimedia.org/wikipedia/commons/9/9e/Charles_Lyell_-_Pillars_of_Pozzuoli.jpg \"Charles Lyell · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Lyell_-_Pillars_of_Pozzuoli.jpg\")\n\nThe picture at the front of the book made the argument without words. Three marble columns stand at Pozzuoli, near Naples, and partway up each is a band of holes bored by date mussels, shellfish that live only in the sea. So the columns had stood under the sea, and had come up again, still standing. The ground beneath a building can sink and rise slowly enough to leave it upright. Lyell used this as the emblem of his book, and in later editions the columns were stamped in gold on the cover.\n\n> [!NOTE]\n> Lyell called the ruin the Temple of Serapis, as everyone did then, because a statue of that god was found there in the eighteenth century. Today it is identified as a Roman market hall, a *macellum*. The ground there is still moving: it stands in a volcanic area that slowly sinks and then rises again.\n\nLyell's method works like judging how long a candle has been burning by measuring how fast it burns now and how much of it is gone. Here the comparison breaks: a candle burns at a steady rate, and the Earth does not always. A great flood or an asteroid impact can do in a day what rain does in ages, and Lyell played such events down.\n\nThe philosopher William Whewell, reviewing the book, gave the two camps their names: \"uniformitarianism\" for Lyell's view and \"catastrophism\" for the other. In Paris the shell expert Gérard-Paul Deshayes compared his large collection of fossil shells with living ones and showed Lyell how to date young rocks by the share of species still alive. Using those counts, Lyell divided the younger rocks in the third volume, in 1833, into Eocene, Miocene and Pliocene, names Whewell suggested to him. Geologists still use them.\n\n> [!THEORY]\n> \"Uniformity\" in Lyell's book meant several things at once: the same laws of nature then as now; the same kinds of causes; the same rates; and an Earth without overall direction. Stephen Jay Gould argued, first in 1965 and at length in 1987, that the first two are simply how science works, while the last two are claims about the Earth which, taken strictly, are false, and that Lyell had mixed them together.\n\n### Why it was hard\n\nLyell's idea needed an enormous amount of time, and in 1830 nobody could measure it. He went further than the evidence: he pictured the Earth as having no beginning that geology could see and no overall direction, climates and living things moving in long cycles. In 1862 William Thomson, later Lord Kelvin, calculated from how fast the Earth must be cooling that it was between 20 and 400 million years old. Many geologists disputed his figures, and Darwin found them far too short for evolution, but a better clock came only with radioactivity: in 1911 Arthur Holmes dated a rock from Ceylon at about 1.6 billion years, and in 1956 Clair Patterson, using meteorites, arrived at about 4.55 billion years, close to the figure accepted today.\n\nThe same steady-state picture made Lyell resist evolution. In the second volume he rejected Jean-Baptiste Lamarck's idea that species change into one another, and he held that position through nine editions. Only in the tenth, in 1867 and 1868, did he give evolution a lukewarm acceptance.\n\nHe did not work alone. In 1832 he married Mary Horner, a conchologist and geologist, the eldest daughter of the geologist Leonard Horner. She went with him into the field, sketched outcrops and sections, catalogued their collections, learned Spanish and Swedish on top of her French and German to deal with foreign colleagues, and wrote for him when his eyesight failed. In 1854 she studied her own collection of land snails from the Canary Islands. Darwin called her \"a monument of patience\". Historians believe she contributed much to her husband's work, but it was never printed under her name.\n\n### What it opened\n\nJust before HMS Beagle sailed in December 1831, its captain, Robert FitzRoy, gave the 22-year-old naturalist Charles Darwin the first volume of Lyell's book. The second volume reached him in South America. Darwin read rising coasts and volcanic islands through Lyell's eyes and came home a convinced follower; the two became lifelong friends. Lyell's slow, deep time was exactly what Darwin's theory of natural selection would need. In 1844 Darwin wrote that he always felt as if his books came half out of Lyell's brain. In 1858 it was Lyell, with the botanist Joseph Hooker, who arranged for Darwin's and Alfred Russel Wallace's papers on natural selection to be presented together.\n\n*Principles of Geology* became a bestseller. Eleven editions appeared in Lyell's lifetime, each revised, and he died in 1875 while working on the twelfth. He also gave the time of human history its own name in the rocks, the \"Recent\", a forerunner of today's debate about an Anthropocene.\n\nGeologists today keep Lyell's method and drop his dogma. They explain the past first by causes they can watch today, but they also accept that slow change is broken now and then by sudden catastrophes: giant floods at the end of ice ages, the asteroid that ended the age of the dinosaurs. Slow time, with the occasional catastrophe in it, is the Earth's history as it is now told.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Lyell: Dünya yaşlı ve yavaş değişiyor",
+      "summary": "Lyell'in Jeolojinin İlkeleri, bugünkü gibi işleyen yağmur, nehir, deprem ve yanardağların, uçsuz bucaksız bir zaman içinde kayaları açıklamaya yettiğini savundu.",
+      "why_it_matters": "Lyell derin zamanı ve gözlenebilen yavaş nedenleri jeolojinin çalışma yöntemi yaptı. Kitabı Darwin'e doğal seçilimin ihtiyaç duyduğu zamanı verdi; jeologlar geçmişi hâlâ önce bugün izleyebildikleri süreçlerle okuyor.",
+      "if_you_were_there": "Jeologlar Dünya'nın yaşlı olduğunda hemfikir, ama geçmişini görülmemiş sellerle ve altüst oluşlarla hayal ediyorlar. Eski bir avukat ise yağmurun, nehirlerin ve yavaşça yükselen bir kıyının yettiğini söylüyor.",
+      "place_name": "Londra",
+      "body": "### Sahne\n\n1830'a gelindiğinde jeologların çoğu, Dünya'nın insanlık tarihinden çok daha yaşlı olduğunda zaten anlaşıyordu. Tartıştıkları şey, o uzun geçmişin nasıl işlediğiydi. Kaya katmanları dağların tepesinde deniz kabukları ve artık hiçbir yerde yaşamayan hayvanların kemiklerini saklıyordu. Paris'te çağın önde gelen anatomisti Georges Cuvier, Paris çevresindeki kayalardan kaybolan hayvanları ani \"yeryüzü devrimleri\"yle açıklıyordu: kimsenin görmediği kadar şiddetli seller ve altüst oluşlar. Dönemin jeologlarının çoğu böyle düşünüyordu. Sonradan onlara felaketçiler denecekti.\n\nKarşıt fikir göründüğünden eskiydi. On birinci yüzyılın başında Buhara yakınlarında doğan İbn Sina, *Şifa Kitabı*'nda dağların ya yerin kabarmasıyla yükseldiğini ya da yumuşak ve sert katmanlar arasından kendine yeni yol açan suyun vadileri oymasıyla biçimlendiğini, bu değişimlerin de uzun bir zaman istediğini yazdı. Çağdaşı, Harezmli El-Biruni, Hindistan topraklarının bir zamanlar deniz olduğunu öne sürdü. Song Çini'nde Shen Kuo, okyanustan yüzlerce mil uzaktaki Taihang Dağları'nda deniz fosilleri gördü ve karanın alüvyonla yükseldiği sonucuna vardı.\n\n1785'te Edinburgh'da James Hutton; yağmurun, nehirlerin ve denizin karayı yavaş yavaş aşındırdığını, döküntünün deniz dibinde yeni kayaya dönüştüğünü ve aşağıdan gelen ısının onu yeniden yükselttiğini, bunun da görünür bir başlangıcı olmayan bir döngü olduğunu savundu. 1788'de John Playfair ve James Hall ile Berwickshire kıyısı boyunca gitti ve Siccar Point'te dimdik duran gri kaya katmanlarının düzleşene kadar aşınıp üstlerinin eğimli kırmızı kumtaşıyla örtüldüğünü buldu: aşınmış eski bir dünya ve üstüne serilmiş daha genç bir dünya. Hutton, \"Bir başlangıcın izini, bir sonun ihtimalini bulamıyoruz\" diye yazdı. 1802'de Playfair kuramı kendi kitabında daha anlaşılır biçimde yeniden anlattı.\n\n![Bugün İskoç kıyısındaki Siccar Point. Alttaki katmanlar neredeyse dik duruyor; üstlerinde, aşınmış bir yüzeyin ardından hafif eğimli kırmızı kumtaşı tabakaları uzanıyor. Hutton ikisi arasındaki eki zamanda uzun bir boşluk olarak okudu.](https://upload.wikimedia.org/wikipedia/commons/1/16/Hutton%27s_unconformity_at_Siccar_Point%2C_Scotland.jpg \"PawełS · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Hutton's_unconformity_at_Siccar_Point,_Scotland.jpg\")\n\n### Ne oldu\n\nCharles Lyell 1797'de İskoçya'da Kinnordy'de doğdu. Oxford'da William Buckland'ın jeoloji derslerini dinledi; ardından Londra'da hukuk okudu, ama gözleri zayıftı ve 1827'ye gelindiğinde hukuku bırakıp kayalara dönmüştü. Mayıs 1828'den Şubat 1829'a kadar jeolog Roderick Murchison ile Fransa'da Auvergne'in eski yanardağları arasında, oradan da kuzey İtalya'ya gezdi. Orada Murchison geri döndü, Lyell ise tek başına Napoli'ye ve Sicilya'ya devam etti. Vezüv'ü ve Etna'yı inceledi; yanardağları akıntı üstüne akıntıyla yavaş yavaş yükselen dağlar olarak görmeye başladı ve genç kaya katmanlarının, içlerindeki fosil kabukların ne kadarının hâlâ yaşayan türlere ait olduğuna göre sıralanabileceğinden şüphelenmeye başladı.\n\n1830'da Londralı yayıncı John Murray, Lyell'in *Jeolojinin İlkeleri* (*Principles of Geology*) kitabının ilk cildini çıkardı. Alt başlığı bütün programı söylüyordu: \"Yeryüzünün geçmişteki değişimlerini bugün de işleyen nedenlerle açıklama denemesi\". İki cilt daha 1833'e kadar geldi. Lyell kıyıları yükselten depremleri, delta kuran nehirleri, akıntı akıntı büyüyen yanardağları topladı ve bu sıradan nedenlerin, yeterince zaman verilirse, kayalardaki her şeyi açıklayabileceğini savundu. Kimsenin görmediği sellere ve altüst oluşlara başvurmak ona göre hem gereksiz hem de yanlış bir yöntemdi. Yaklaşımı sonradan \"Bugün, geçmişin anahtarıdır\" sözüyle özetlendi.\n\n![Jeolojinin İlkeleri'nin ön resmi: Napoli yakınlarındaki Pozzuoli'de üç Roma sütunu; gövdelerinin ortalarında koyu bir delik şeridi.](https://upload.wikimedia.org/wikipedia/commons/9/9e/Charles_Lyell_-_Pillars_of_Pozzuoli.jpg \"Charles Lyell · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Lyell_-_Pillars_of_Pozzuoli.jpg\")\n\nKitabın başındaki resim savı sözsüz anlatıyordu. Napoli yakınlarındaki Pozzuoli'de üç mermer sütun duruyor ve her birinin ortalarında, yalnızca denizde yaşayan hurma midyelerinin oyduğu bir delik şeridi var. Demek ki sütunlar denizin altında kalmış, sonra yine ayakta olarak yukarı çıkmıştı. Bir yapının altındaki zemin, onu devirmeden batacak ve yükselecek kadar yavaş hareket edebilir. Lyell bu resmi kitabının simgesi yaptı; sonraki baskılarda sütunlar kapağa altın yaldızla basıldı.\n\n> [!NOTE]\n> Lyell, o dönemde herkes gibi, harabeye Serapis Tapınağı diyordu; çünkü on sekizinci yüzyılda orada bu tanrının bir heykeli bulunmuştu. Bugün bir Roma çarşı binası, bir *macellum* olduğu biliniyor. Oradaki zemin hâlâ hareket ediyor: bina, yavaşça çöküp sonra yeniden yükselen volkanik bir bölgede duruyor.\n\nLyell'in yöntemi, bir mumun ne kadar zamandır yandığını, şimdi ne hızla eridiğini ve ne kadarının gittiğini ölçerek bulmaya benzer. Benzetme şurada bozulur: mum sabit bir hızla yanar, Dünya ise her zaman öyle değildir. Büyük bir sel ya da bir asteroit çarpması, yağmurun çağlar boyunca yaptığını bir günde yapabilir; Lyell bu tür olayları küçümsedi.\n\nFilozof William Whewell kitap üzerine yazdığı değerlendirmede iki kampa adlarını verdi: Lyell'in görüşüne \"tekdüzecilik\" (uniformitarianism), ötekine \"felaketçilik\" (catastrophism). Paris'te kabuk uzmanı Gérard-Paul Deshayes geniş fosil kabuk koleksiyonunu yaşayanlarla karşılaştırdı ve Lyell'e genç kayaları hâlâ yaşayan türlerin payına göre tarihlendirmeyi gösterdi. Lyell bu sayımlarla 1833'teki üçüncü ciltte genç kayaları Eosen, Miyosen ve Pliyosen diye böldü; adları ona Whewell önermişti. Jeologlar bu adları hâlâ kullanıyor.\n\n> [!THEORY]\n> Lyell'in kitabında \"tekdüzelik\" aynı anda birkaç şey demekti: o zaman da bugünkü doğa yasaları; aynı türden nedenler; aynı hızlar; ve genel bir yönü olmayan bir Dünya. Stephen Jay Gould önce 1965'te, ayrıntılı olarak da 1987'de, ilk ikisinin bilimin işleyişinin ta kendisi olduğunu, son ikisinin ise Dünya hakkında, harfiyen alındığında yanlış olan iddialar olduğunu ve Lyell'in bunları birbirine kattığını savundu.\n\n### Neden zordu\n\nLyell'in fikri muazzam bir zaman istiyordu ve 1830'da kimse bunu ölçemiyordu. O, kanıtın ötesine de geçti: Dünya'yı jeolojinin görebileceği bir başlangıcı ve genel bir yönü olmayan, iklimlerin ve canlıların uzun döngülerle gidip geldiği bir yer olarak düşündü. 1862'de, sonradan Lord Kelvin olacak William Thomson, Dünya'nın ne hızla soğuması gerektiğinden yola çıkarak yaşını 20 ile 400 milyon yıl arasında hesapladı. Pek çok jeolog bu rakamlara itiraz etti, Darwin de onları evrim için fazlasıyla kısa buldu; ama daha iyi bir saat ancak radyoaktiviteyle geldi: 1911'de Arthur Holmes Seylan'dan bir kayayı yaklaşık 1,6 milyar yıl olarak tarihlendirdi, 1956'da Clair Patterson göktaşlarını kullanarak bugün kabul edilen değere yakın, yaklaşık 4,55 milyar yıla ulaştı.\n\nAynı durağan Dünya resmi Lyell'i evrime karşı da direnmeye itti. İkinci ciltte Jean-Baptiste Lamarck'ın türlerin birbirine dönüştüğü fikrini reddetti ve bu tutumunu dokuz baskı boyunca korudu. Evrimi ancak 1867 ve 1868'deki onuncu baskıda, isteksiz bir şekilde kabul etti.\n\nTek başına çalışmadı. 1832'de jeolog Leonard Horner'ın en büyük kızı, konkolog (kabuk bilimci) ve jeolog Mary Horner ile evlendi. Mary onunla arazi gezilerine çıktı, kaya yüzlerini ve kesitleri çizdi, koleksiyonlarını katalogladı, yabancı meslektaşlarla anlaşmak için Fransızca ve Almancasının üstüne İspanyolca ve İsveççe öğrendi, Lyell'in gözleri iyice zayıflayınca onun yerine yazdı. 1854'te Kanarya Adaları'ndan gelen kendi kara salyangozu koleksiyonunu inceledi. Darwin onu \"bir sabır anıtı\" diye andı. Tarihçiler onun kocasının işine büyük katkı yaptığını düşünüyor, ama bu katkı hiçbir zaman onun adıyla basılmadı.\n\n### Sonrası\n\nHMS Beagle Aralık 1831'de yola çıkmadan hemen önce kaptanı Robert FitzRoy, 22 yaşındaki doğa bilimci Charles Darwin'e Lyell'in kitabının ilk cildini verdi. İkinci cilt ona Güney Amerika'da ulaştı. Darwin yükselen kıyıları ve volkanik adaları Lyell'in gözüyle okudu ve eve kararlı bir takipçi olarak döndü; ikisi ömür boyu dost oldular. Lyell'in yavaş ve derin zamanı, Darwin'in doğal seçilim kuramının tam da ihtiyaç duyacağı şeydi. Darwin 1844'te, kitaplarının hep yarısının Lyell'in beyninden çıktığını hissettiğini yazdı. 1858'de Darwin'in ve Alfred Russel Wallace'ın doğal seçilim üzerine yazılarının birlikte sunulmasını botanikçi Joseph Hooker ile birlikte ayarlayan da Lyell oldu.\n\n*Jeolojinin İlkeleri* çok satan bir kitap oldu. Lyell'in sağlığında her biri gözden geçirilmiş on bir baskısı çıktı; Lyell 1875'te on ikincisi üzerinde çalışırken öldü. İnsanlık tarihinin zamanına kayalarda ayrı bir ad da verdi, \"Yakın Dönem\" (Recent); bugünkü Antroposen tartışmasının öncülerinden biri budur.\n\nBugünün jeologları Lyell'in yöntemini korur, dogmasını bırakır. Geçmişi önce bugün izleyebildikleri nedenlerle açıklarlar, ama yavaş değişimin ara sıra ani felaketlerle bölündüğünü de kabul ederler: buzul çağlarının sonundaki dev seller, dinozorlar çağını bitiren asteroit. İçinde ara sıra bir felaket de olan yavaş zaman: Dünya'nın tarihi bugün böyle anlatılıyor.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Лайель: Земля стара и меняется медленно",
+      "summary": "«Основы геологии» Лайеля доказывали: дождь, реки, землетрясения и вулканы, действуя как сегодня на протяжении огромного времени, объясняют горные породы.",
+      "why_it_matters": "Лайель сделал глубокое время и медленные наблюдаемые причины рабочим методом геологии. Его книга дала Дарвину время, нужное естественному отбору, а геологи до сих пор читают прошлое прежде всего через процессы, которые видят сегодня.",
+      "if_you_were_there": "Геологи согласны, что Земля стара, но представляют её прошлое как потопы и перевороты, невиданные по силе. Бывший юрист говорит: хватит дождя, рек и медленно поднимающегося берега.",
+      "place_name": "Лондон",
+      "body": "### Обстановка\n\nК 1830 году большинство геологов уже соглашались, что Земля намного старше человеческой истории. Спорили о другом: как это долгое прошлое было устроено. В слоях горных пород находили морские раковины высоко в горах и кости животных, которые больше нигде не жили. В Париже Жорж Кювье, ведущий анатом своего времени, объяснял исчезнувших животных из пород вокруг Парижа внезапными «переворотами земного шара»: потопами и потрясениями, куда более яростными, чем всё, что видели люди. Так думало большинство геологов той эпохи. Позже их назовут катастрофистами.\n\nПротивоположная идея была старше, чем казалось. В начале XI века Ибн Сина, родившийся под Бухарой, писал в «Книге исцеления», что горы поднимаются от вздыманий земли или вырезаются водой, которая прокладывает себе новый путь сквозь мягкие и твёрдые слои, и что на такие перемены нужно долгое время. Его современник аль-Бируни из Хорезма предполагал, что земля Индии когда-то была морем. В Китае эпохи Сун Шэнь Ко увидел морские окаменелости в горах Тайханшань, за сотни миль от океана, и заключил, что суша наросла из речного ила.\n\nВ 1785 году в Эдинбурге Джеймс Хаттон утверждал, что дождь, реки и море медленно размывают сушу, обломки на морском дне превращаются в новую породу, а жар из глубины снова её поднимает — и у этого круговорота не видно начала. В 1788 году он прошёл вдоль берега Беруикшира с Джоном Плейфэром и Джеймсом Холлом и у мыса Сиккар-Пойнт нашёл стоящие торчком слои серой породы, стёртые до ровной поверхности и накрытые наклонными пластами красного песчаника: один старый мир, разрушенный, и поверх него — более молодой. «Мы не находим ни следа начала, ни видимости конца», — написал Хаттон. В 1802 году Плейфэр изложил его теорию заново, в более ясной книге.\n\n![Мыс Сиккар-Пойнт на шотландском побережье сегодня. Нижние слои стоят почти вертикально; над ними, за стёртой поверхностью, лежат пологие пласты красного песчаника. Хаттон прочёл границу между ними как долгий перерыв во времени.](https://upload.wikimedia.org/wikipedia/commons/1/16/Hutton%27s_unconformity_at_Siccar_Point%2C_Scotland.jpg \"PawełS · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Hutton's_unconformity_at_Siccar_Point,_Scotland.jpg\")\n\n### Что произошло\n\nЧарльз Лайель родился в 1797 году в Киннорди, в Шотландии. В Оксфорде он слушал лекции Уильяма Бакленда по геологии, затем учился на юриста в Лондоне, но у него было слабое зрение, и к 1827 году он оставил право ради камней. С мая 1828 по февраль 1829 года он путешествовал с геологом Родериком Мурчисоном по древним вулканам Оверни во Франции и дальше по северной Италии. Там Мурчисон повернул назад, а Лайель один отправился в Неаполь и на Сицилию. Он изучал Везувий и Этну и стал видеть в вулканах горы, которые растут медленно, поток за потоком. У него также появилась догадка, что молодые слои можно упорядочить по тому, какая доля ископаемых раковин в них принадлежит ещё живущим видам.\n\nВ 1830 году лондонский издатель Джон Мюррей выпустил первый том «Основ геологии» Лайеля. Подзаголовок излагал всю программу: «попытка объяснить прежние изменения земной поверхности причинами, действующими ныне». Ещё два тома вышли к 1833 году. Лайель собрал землетрясения, поднимавшие побережья, реки, строившие дельты, вулканы, растущие поток за потоком, и доказывал, что такие обычные причины при достаточном времени объясняют всё, что есть в породах. Призывать на помощь потопы и перевороты, которых никто никогда не видел, было, по его мнению, и ненужно, и методологически неверно. Позже его подход свели к формуле «настоящее — ключ к прошлому».\n\n![Фронтиспис «Основ геологии»: три римские колонны в Поццуоли близ Неаполя, на середине их стволов — тёмная полоса отверстий.](https://upload.wikimedia.org/wikipedia/commons/9/9e/Charles_Lyell_-_Pillars_of_Pozzuoli.jpg \"Charles Lyell · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Lyell_-_Pillars_of_Pozzuoli.jpg\")\n\nКартинка в начале книги излагала довод без слов. В Поццуоли, под Неаполем, стоят три мраморные колонны, и на середине каждой — полоса отверстий, просверленных морскими финиками — моллюсками, которые живут только в море. Значит, колонны побывали под водой и снова вышли наверх, так и не упав. Земля под зданием может опускаться и подниматься достаточно медленно, чтобы оно осталось стоять. Лайель сделал это изображение эмблемой книги, а в поздних изданиях колонны тиснили золотом на обложке.\n\n> [!NOTE]\n> Лайель, как и все тогда, называл руины храмом Сераписа, потому что в XVIII веке там нашли статую этого бога. Сегодня известно, что это римский рынок, *macellum*. Земля там движется до сих пор: здание стоит в вулканическом районе, который медленно опускается, а потом снова поднимается.\n\nМетод Лайеля похож на то, как определить, давно ли горит свеча, измерив, с какой скоростью она тает сейчас и сколько от неё уже убыло. Здесь сравнение ломается: свеча горит с постоянной скоростью, а Земля — не всегда. Большой потоп или падение астероида могут за день сделать то, на что дождю нужны века, а Лайель такие события преуменьшал.\n\nФилософ Уильям Уэвелл в рецензии на книгу дал двум лагерям имена: «униформизм» для взгляда Лайеля и «катастрофизм» для противоположного. В Париже знаток раковин Жерар Поль Дезе сравнивал свою большую коллекцию ископаемых раковин с современными и показал Лайелю, как датировать молодые породы по доле ещё живущих видов. По этим подсчётам Лайель в третьем томе, в 1833 году, разделил молодые породы на эоцен, миоцен и плиоцен; эти названия ему предложил Уэвелл. Геологи пользуются ими до сих пор.\n\n> [!THEORY]\n> «Единообразие» в книге Лайеля означало сразу несколько вещей: те же законы природы, что и сейчас; те же виды причин; те же скорости; и Землю без общего направления развития. Стивен Джей Гулд доказывал — сначала в 1965 году, подробно в 1987-м, — что первые два пункта — просто то, как работает наука, а последние два — утверждения о Земле, которые, если понимать их строго, ложны, и что Лайель смешал их в одно.\n\n### Почему это было трудно\n\nИдее Лайеля требовалось огромное время, а в 1830 году его никто не умел измерить. Он и сам зашёл дальше фактов: представлял Землю без видимого для геологии начала и без общего направления, где климат и живые существа ходят по долгим кругам. В 1862 году Уильям Томсон, будущий лорд Кельвин, исходя из того, как быстро должна остывать Земля, вычислил её возраст: от 20 до 400 миллионов лет. Многие геологи оспаривали эти цифры, а Дарвину их казалось слишком мало для эволюции, но более точные часы появились только с открытием радиоактивности: в 1911 году Артур Холмс датировал породу с Цейлона примерно 1,6 миллиарда лет, а в 1956 году Клэр Паттерсон по метеоритам получил около 4,55 миллиарда лет — близко к принятому сегодня значению.\n\nТа же картина неизменной Земли заставляла Лайеля сопротивляться эволюции. Во втором томе он отверг идею Жана Батиста Ламарка о превращении одних видов в другие и держался этой позиции девять изданий подряд. Лишь в десятом, в 1867–1868 годах, он вяло признал эволюцию.\n\nОн работал не один. В 1832 году он женился на Мэри Хорнер, конхиологе и геологе, старшей дочери геолога Леонарда Хорнера. Она ездила с ним в экспедиции, зарисовывала обнажения пород и разрезы, составляла каталоги коллекций, к своему французскому и немецкому выучила испанский и шведский, чтобы объясняться с иностранными коллегами, и писала за мужа, когда у него отказывало зрение. В 1854 году она изучала собственную коллекцию наземных улиток с Канарских островов. Дарвин назвал её «памятником терпению». Историки считают, что её вклад в работу мужа был большим, но под её именем он так и не был напечатан.\n\n### Что это открыло\n\nПеред самым отплытием «Бигля» в декабре 1831 года капитан Роберт Фицрой подарил 22-летнему натуралисту Чарльзу Дарвину первый том книги Лайеля. Второй том догнал его в Южной Америке. Дарвин читал поднимающиеся берега и вулканические острова глазами Лайеля и вернулся домой его убеждённым сторонником; они стали друзьями на всю жизнь. Медленное глубокое время Лайеля было именно тем, что понадобится теории естественного отбора Дарвина. В 1844 году Дарвин писал, что ему всегда казалось, будто его книги наполовину вышли из головы Лайеля. В 1858 году именно Лайель вместе с ботаником Джозефом Гукером устроил так, чтобы работы Дарвина и Альфреда Рассела Уоллеса о естественном отборе были представлены вместе.\n\n«Основы геологии» стали бестселлером. При жизни Лайеля вышло одиннадцать изданий, каждое переработанное, и он умер в 1875 году, работая над двенадцатым. Он также дал времени человеческой истории отдельное имя в породах — «современная эпоха» (Recent); это один из предшественников нынешнего спора об антропоцене.\n\nСегодняшние геологи сохраняют метод Лайеля и отбрасывают его догму. Они объясняют прошлое прежде всего причинами, которые можно наблюдать сейчас, но признают, что медленные изменения время от времени прерываются внезапными катастрофами: гигантскими потопами в конце ледниковых периодов, астероидом, закончившим эпоху динозавров. Медленное время, в котором иногда случаются катастрофы, — так историю Земли рассказывают сегодня.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Лайель: Жер эски жана акырын өзгөрөт",
+      "summary": "Лайелдин «Геологиянын негиздери» азыркыдай иштеген жамгыр, дарыя, жер титирөө жана жанар тоолор эбегейсиз узак убакытта тектерди түшүндүрүүгө жетиштүү экенин далилдеген.",
+      "why_it_matters": "Лайель терең убакытты жана байкалуучу жай себептерди геологиянын иш ыкмасы кылган. Анын китеби Дарвинге табигый тандалууга керектүү убакытты берген, геологдор өткөндү азыр да эң оболу бүгүн байкай турган процесстер аркылуу окушат.",
+      "if_you_were_there": "Геологдор Жер эски экенине макул, бирок анын өткөнүн эч ким көрбөгөн суу каптоолор жана төңкөрүштөр катары элестетишет. Мурунку юрист болсо жамгыр, дарыялар жана акырын көтөрүлүп жаткан жээк жетиштүү дейт.",
+      "place_name": "Лондон",
+      "body": "### Көрүнүш\n\n1830-жылга чейин геологдордун көбү Жер адамзат тарыхынан алда канча эски экенине макул болуп калышкан. Алар башка нерсе тууралуу талашышкан: ошол узак өткөн кантип жүргөн? Тоо тектеринин катмарларында бийик тоолордун башында деңиз кабыкчалары жана азыр эч жерде жашабаган жаныбарлардын сөөктөрү жатчу. Парижде доордун алдыңкы анатому Жорж Кювье Париждин айланасындагы тектерден жоголгон жаныбарларды күтүлбөгөн «жер шарынын төңкөрүштөрү» менен түшүндүргөн: адамдар көргөн нерселердин баарынан алда канча катаал суу каптоолор жана силкинүүлөр. Ошол доордун геологдорунун көбү ушундай ойлогон. Кийин аларды катастрофисттер деп аташат.\n\nКарама-каршы ой көрүнгөндөн эскирээк эле. XI кылымдын башында Бухаранын жанында туулган Ибн Сина «Айыктыруу китебинде» тоолор жердин көтөрүлүшүнөн бийиктейт же жумшак жана катуу катмарлардын арасынан өзүнө жаңы жол салган суу өрөөндөрдү оюп чыгат, мындай өзгөрүүлөргө узак убакыт керек деп жазган. Анын замандашы, Хорезмден чыккан Аль-Бируни Индиянын жери качандыр бир кезде деңиз болгон деген божомолду айткан. Сун доорундагы Кытайда Шэнь Ко океандан жүздөгөн миль алыстагы Тайхан тоолорунда деңиз жандыктарынын казылма калдыктарын көрүп, кургактык дарыя ылайынан топтолуп пайда болгон деген жыйынтыкка келген.\n\n1785-жылы Эдинбургда Джеймс Хаттон мындай деп далилдеген: жамгыр, дарыялар жана деңиз кургактыкты акырындык менен жешет, сыныктар деңиздин түбүндө жаңы текке айланат, ал эми тереңден чыккан ысык аны кайра көтөрөт, жана бул айлампанын көрүнгөн башталышы жок. 1788-жылы ал Джон Плейфэр жана Джеймс Холл менен Беруикшир жээгин бойлой барып, Сиккар-Пойнт тумшугунда тик турган боз тек катмарларын тапкан: алар тегиз болгуча жешилип, үстүнөн жантайыңкы кызыл кумдуктун катмарлары менен жабылган. Бул бир эски, жешилген дүйнө жана анын үстүнө төшөлгөн жашыраак дүйнө эле. Хаттон: «Биз башталыштын изин да, аяктын белгисин да таппайбыз», — деп жазган. 1802-жылы Плейфэр бул теорияны өз китебинде түшүнүктүүрөөк кылып кайра баяндаган.\n\n![Шотландия жээгиндеги Сиккар-Пойнт бүгүн. Төмөнкү катмарлар дээрлик тик турат; алардын үстүндө, жешилген беттин ары жагында, жантайыңкы кызыл кумдук катмарлары жатат. Хаттон экөөнүн ортосундагы чекти убакыттагы узак тыныгуу катары окуган.](https://upload.wikimedia.org/wikipedia/commons/1/16/Hutton%27s_unconformity_at_Siccar_Point%2C_Scotland.jpg \"PawełS · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Hutton's_unconformity_at_Siccar_Point,_Scotland.jpg\")\n\n### Эмне болду\n\nЧарльз Лайель 1797-жылы Шотландиядагы Киннорди деген жерде туулган. Оксфордо ал Уильям Баклендин геология боюнча лекцияларын уккан. Андан кийин Лондондо юристликке окуган, бирок көзү начар болгон, ошондуктан 1827-жылга чейин укук ишин таштап, таштарга өткөн. 1828-жылдын майынан 1829-жылдын февралына чейин ал геолог Родерик Мурчисон менен Франциядагы Овернь аймагынын байыркы жанар тоолорун аралап, андан ары түндүк Италияга барган. Ал жерден Мурчисон кайра кайткан, ал эми Лайель Неаполго жана Сицилияга жалгыз уланткан. Ал Везувий менен Этнаны изилдеп, жанар тоолорду лава агымы үстүнө агым түшүп, акырындап өскөн тоолор катары көрө баштаган. Ошондой эле жаш тек катмарларын алардагы казылма кабыкчалардын канчасы азыр да жашап жаткан түрлөргө таандык экенине жараша иреттесе болот деген ойго келе баштаган.\n\n1830-жылы лондондук басмачы Джон Мюррей Лайелдин «Геологиянын негиздери» китебинин биринчи томун чыгарган. Анын кошумча аталышы бүт программаны айтып турган: «жер бетинин мурунку өзгөрүүлөрүн азыр да иштеп жаткан себептер аркылуу түшүндүрүү аракети». Дагы эки том 1833-жылга чейин чыккан. Лайель жээктерди көтөргөн жер титирөөлөрдү, дельта курган дарыяларды, агым артынан агым менен өскөн жанар тоолорду чогултуп, мындай кадимки себептер жетиштүү убакыт берилсе тектердеги бардык нерсени түшүндүрө аларын далилдеген. Эч ким көрбөгөн суу каптоолорго жана төңкөрүштөргө кайрылуу анын оюнча керексиз да, ыкма катары туура эмес да болгон. Кийин анын мамилеси «азыркы — өткөндүн ачкычы» деген сөз менен кыскача айтылып калган.\n\n![«Геологиянын негиздери» китебинин алдыңкы сүрөтү: Неаполдун жанындагы Поццуолидеги үч рим мамысы, алардын ортосунда кара түстөгү тешиктердин тилкеси.](https://upload.wikimedia.org/wikipedia/commons/9/9e/Charles_Lyell_-_Pillars_of_Pozzuoli.jpg \"Charles Lyell · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Lyell_-_Pillars_of_Pozzuoli.jpg\")\n\nКитептин башындагы сүрөт далилди сөзсүз эле айтып берген. Неаполдун жанындагы Поццуолиде үч мрамор мамы турат, ар биринин ортосунда деңизде гана жашаган моллюскалар тешкен тешиктердин тилкеси бар. Демек, мамылар деңиздин астында калып, кайра жогору чыккан, бирок жыгылган эмес. Имараттын астындагы жер аны кулатпай турган акырындык менен чөгүп, кайра көтөрүлө алат. Лайель бул сүрөттү китебинин белгиси кылган, кийинки басылыштарда мамылар мукабага алтын менен басылган.\n\n> [!NOTE]\n> Лайель ал кездеги бардык адамдардай эле урандыны Серапис храмы деп атаган, анткени XVIII кылымда ал жерден ушул кудайдын айкели табылган. Бүгүн бул рим базар имараты, *macellum* экени белгилүү. Ал жердеги жер азыр да кыймылдап турат: имарат акырын чөгүп, анан кайра көтөрүлүп турган вулкандык аймакта жайгашкан.\n\nЛайелдин ыкмасы шамдын канчадан бери күйүп жатканын анын азыр кандай ылдамдыкта эрип жатканын жана канчасы азайганын өлчөп табууга окшош. Салыштыруу бул жерде бузулат: шам бир калыпта күйөт, ал эми Жер дайыма эле андай эмес. Чоң суу каптоо же астероиддин урунушу жамгыр кылымдар бою кылган ишти бир күндө кыла алат, ал эми Лайель мындай окуяларды кичирейтип көрсөткөн.\n\nКитепке сын-пикир жазган философ Уильям Уэвелл эки тарапка ат койгон: Лайелдин көз карашына «униформизм», каршы көз карашка «катастрофизм». Парижде кабыкчалар боюнча адис Жерар Поль Дезе казылма кабыкчалардан турган чоң коллекциясын азыркылар менен салыштырып, Лайелге жаш тектердин жашын азыр да жашап жаткан түрлөрдүн үлүшү боюнча аныктоону көрсөткөн. Ушул эсептөөлөргө таянып, Лайель 1833-жылы үчүнчү томдо жаш тектерди эоцен, миоцен жана плиоцен деп бөлгөн; бул аттарды ага Уэвелл сунуштаган. Геологдор аларды азыр да колдонушат.\n\n> [!THEORY]\n> Лайелдин китебиндеги «бир калыптуулук» бир эле учурда бир нече нерсени билдирген: табият мыйзамдары ал кезде да азыркыдай; себептердин түрү да ошол эле; ылдамдыктар да ошол эле; жана Жердин жалпы багыты жок. Стивен Джей Гулд адегенде 1965-жылы, кеңири түрдө 1987-жылы алгачкы экөө илимдин иштөө ыкмасы гана экенин, ал эми акыркы экөө Жер тууралуу так түшүнгөндө туура эмес ырастоолор экенин, Лайель аларды аралаштырып жибергенин айткан.\n\n### Эмне үчүн кыйын болду\n\nЛайелдин идеясына эбегейсиз көп убакыт керек болчу, ал эми 1830-жылы аны эч ким өлчөй алган эмес. Ал өзү да далилдерден ашып кеткен: Жерди геология көрө ала турган башталышы жок, жалпы багыты жок, климат менен тирүү жандыктар узак айлампалар менен кайталанып турган дүйнө катары элестеткен. 1862-жылы кийин лорд Кельвин болгон Уильям Томсон Жер канчалык тез муздашы керек экенинен улам анын жашын 20 миллиондон 400 миллион жылга чейин деп эсептеген. Көп геологдор бул сандарга макул болгон эмес, Дарвинге болсо алар эволюция үчүн өтө аз сезилген. Бирок так саат радиоактивдүүлүк ачылгандан кийин гана пайда болгон: 1911-жылы Артур Холмс Цейлондон алынган тектин жашын болжол менен 1,6 миллиард жыл деп аныктаган, 1956-жылы Клэр Паттерсон метеориттердин жардамы менен болжол менен 4,55 миллиард жылга жеткен. Бул бүгүн кабыл алынган сандан алыс эмес.\n\nӨзгөрбөгөн Жер тууралуу ошол эле түшүнүк Лайелди эволюцияга каршы турууга түрткөн. Экинчи томдо ал Жан-Батист Ламарктын бир түрлөр башка түрлөргө айланат деген идеясын четке каккан жана бул позициясын тогуз басылыш бою сактаган. 1867–1868-жылдардагы онунчу басылышта гана эволюцияны жарым-жартылай, ынтаасыз кабыл алган.\n\nАл жалгыз иштеген эмес. 1832-жылы ал геолог Леонард Хорнердин тун кызы, конхиолог (моллюскалардын кабыкчаларын изилдөөчү) жана геолог Мэри Хорнерге үйлөнгөн. Мэри аны менен талаа сапарларына чыккан, тектердин ачылган жерлерин жана кесиндилерин сүрөткө тарткан, коллекцияларын каталогго киргизген, чет элдик кесиптештер менен сүйлөшүү үчүн француз жана немис тилдеринен тышкары испан жана швед тилдерин үйрөнгөн, Лайелдин көзү начарлаганда анын ордуна жазган. 1854-жылы ал Канар аралдарынан алынган кургактык үлүлдөрүнүн өз коллекциясын изилдеген. Дарвин аны «сабырдын эстелиги» деп атаган. Тарыхчылар анын жолдошунун ишине кошкон салымы чоң болгон деп эсептешет, бирок ал эч качан анын аты менен басылган эмес.\n\n### Эмнеге жол ачты\n\n«Бигль» кемеси 1831-жылдын декабрында сапарга чыгардан бир аз мурун анын капитаны Роберт Фицрой 22 жаштагы табият изилдөөчү Чарльз Дарвинге Лайелдин китебинин биринчи томун берген. Экинчи том ага Түштүк Америкада жеткен. Дарвин көтөрүлүп жаткан жээктерди жана вулкандык аралдарды Лайелдин көзү менен окуп, үйүнө анын ишенимдүү жолдоочусу болуп кайткан; экөө өмүр бою дос болуп калышкан. Лайелдин жай жана терең убактысы Дарвиндин табигый тандалуу теориясына дал ушундай керек болчу. 1844-жылы Дарвин өз китептери дайыма жарымы Лайелдин мээсинен чыккандай сезилерин жазган. 1858-жылы Дарвиндин жана Альфред Рассел Уоллестин табигый тандалуу тууралуу эмгектерин чогуу сунуштоону ботаник Джозеф Хукер менен бирге уюштурган да Лайель болгон.\n\n«Геологиянын негиздери» эң көп сатылган китепке айланган. Лайель тирүү кезинде анын он бир басылышы чыккан, ар бири кайра иштелип чыккан. Ал 1875-жылы он экинчи басылыштын үстүндө иштеп жатканда каза болгон. Ал ошондой эле тектерде адамзат тарыхынын убактысына өзүнчө ат берген: «Акыркы мезгил» (Recent). Бул бүгүнкү антропоцен тууралуу талаштын алгачкы белгилеринин бири.\n\nАзыркы геологдор Лайелдин ыкмасын сактап, анын катуу ишенимин четке кагышат. Алар өткөндү эң оболу бүгүн байкай турган себептер менен түшүндүрүшөт, бирок жай өзгөрүү анда-санда күтүлбөгөн катастрофалар менен бузулуп турарын да моюнга алышат: муз доорлорунун аягындагы алп суу каптоолор, динозаврлардын доорун бүтүргөн астероид. Ичинде анда-санда катастрофа да болгон жай убакыт — Жердин тарыхы бүгүн ушундай айтылат.",
+      "status": "machine"
+    }
+  }
+}
