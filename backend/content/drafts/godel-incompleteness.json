@@ -1,0 +1,292 @@
+{
+  "slug": "godel-incompleteness",
+  "year": 1931,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 48.2082,
+  "lng": 16.3738,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg",
+    "credit": "Unknown author Unknown author",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Young_Kurt_Gödel_as_a_student_in_1925.jpg"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "slug": "kurt-godel",
+      "birth_year": 1906,
+      "death_year": 1978,
+      "role": "author",
+      "name": {
+        "en": "Kurt Gödel",
+        "tr": "Kurt Gödel",
+        "ru": "Курт Гёдель",
+        "ky": "Курт Гёдель"
+      }
+    },
+    {
+      "slug": "david-hilbert",
+      "birth_year": 1862,
+      "death_year": 1943,
+      "role": "predecessor",
+      "name": {
+        "en": "David Hilbert",
+        "tr": "David Hilbert",
+        "ru": "Давид Гильберт",
+        "ky": "Давид Гильберт"
+      }
+    },
+    {
+      "slug": "bertrand-russell",
+      "birth_year": 1872,
+      "death_year": 1970,
+      "role": "predecessor",
+      "name": {
+        "en": "Bertrand Russell",
+        "tr": "Bertrand Russell",
+        "ru": "Бертран Рассел",
+        "ky": "Бертран Рассел"
+      }
+    },
+    {
+      "slug": "alfred-north-whitehead",
+      "birth_year": 1861,
+      "death_year": 1947,
+      "role": "predecessor",
+      "name": {
+        "en": "Alfred North Whitehead",
+        "tr": "Alfred North Whitehead",
+        "ru": "Альфред Норт Уайтхед",
+        "ky": "Альфред Норт Уайтхед"
+      }
+    },
+    {
+      "slug": "nasir-al-din-al-tusi",
+      "birth_year": 1201,
+      "death_year": 1274,
+      "role": "predecessor",
+      "name": {
+        "en": "Nasir al-Din al-Tusi",
+        "tr": "Nasîrüddin Tûsî",
+        "ru": "Насир ад-Дин ат-Туси",
+        "ky": "Насир ад-Дин ат-Туси"
+      }
+    },
+    {
+      "slug": "hans-hahn",
+      "birth_year": 1879,
+      "death_year": 1934,
+      "role": "patron",
+      "name": {
+        "en": "Hans Hahn",
+        "tr": "Hans Hahn",
+        "ru": "Ханс Хан",
+        "ky": "Ханс Хан"
+      }
+    },
+    {
+      "slug": "john-von-neumann",
+      "birth_year": 1903,
+      "death_year": 1957,
+      "role": "contemporary",
+      "name": {
+        "en": "John von Neumann",
+        "tr": "John von Neumann",
+        "ru": "Джон фон Нейман",
+        "ky": "Джон фон Нейман"
+      }
+    },
+    {
+      "slug": "emil-post",
+      "birth_year": 1897,
+      "death_year": 1954,
+      "role": "contemporary",
+      "name": {
+        "en": "Emil Post",
+        "tr": "Emil Post",
+        "ru": "Эмиль Пост",
+        "ky": "Эмиль Пост"
+      }
+    },
+    {
+      "slug": "rozsa-peter",
+      "birth_year": 1905,
+      "death_year": 1977,
+      "role": "successor",
+      "name": {
+        "en": "Rózsa Péter",
+        "tr": "Rózsa Péter",
+        "ru": "Рожа Петер",
+        "ky": "Рожа Петер"
+      }
+    },
+    {
+      "slug": "j-barkley-rosser",
+      "birth_year": 1907,
+      "death_year": 1989,
+      "role": "successor",
+      "name": {
+        "en": "J. Barkley Rosser",
+        "tr": "J. Barkley Rosser",
+        "ru": "Джон Баркли Россер",
+        "ky": "Джон Баркли Россер"
+      }
+    },
+    {
+      "slug": "gerhard-gentzen",
+      "birth_year": 1909,
+      "death_year": 1945,
+      "role": "successor",
+      "name": {
+        "en": "Gerhard Gentzen",
+        "tr": "Gerhard Gentzen",
+        "ru": "Герхард Генцен",
+        "ky": "Герхард Генцен"
+      }
+    },
+    {
+      "slug": "alan-turing",
+      "birth_year": 1912,
+      "death_year": 1954,
+      "role": "successor",
+      "name": {
+        "en": "Alan Turing",
+        "tr": "Alan Turing",
+        "ru": "Алан Тьюринг",
+        "ky": "Алан Тьюринг"
+      }
+    },
+    {
+      "slug": "alonzo-church",
+      "birth_year": 1903,
+      "death_year": 1995,
+      "role": "successor",
+      "name": {
+        "en": "Alonzo Church",
+        "tr": "Alonzo Church",
+        "ru": "Алонзо Чёрч",
+        "ky": "Алонзо Чёрч"
+      }
+    },
+    {
+      "slug": "alfred-tarski",
+      "birth_year": 1901,
+      "death_year": 1983,
+      "role": "contemporary",
+      "name": {
+        "en": "Alfred Tarski",
+        "tr": "Alfred Tarski",
+        "ru": "Альфред Тарский",
+        "ky": "Альфред Тарский"
+      }
+    },
+    {
+      "slug": "mojzesz-presburger",
+      "birth_year": 1904,
+      "death_year": 1943,
+      "role": "contemporary",
+      "name": {
+        "en": "Mojżesz Presburger",
+        "tr": "Mojżesz Presburger",
+        "ru": "Мойжеш Пресбургер",
+        "ky": "Мойжеш Пресбургер"
+      }
+    }
+  ],
+  "builds_on": [
+    "euclid-elements"
+  ],
+  "sources": [
+    {
+      "title": "Kurt Gödel — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Kurt-Godel"
+    },
+    {
+      "title": "Gödel's Incompleteness Theorems — Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/"
+    },
+    {
+      "title": "Kurt Gödel — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/"
+    },
+    {
+      "title": "Gödel's incompleteness theorems — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+    },
+    {
+      "title": "Rózsa Péter — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Peter/"
+    },
+    {
+      "title": "Emil Leon Post — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Emil_Leon_Post"
+    },
+    {
+      "title": "Presburger arithmetic — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Presburger_arithmetic"
+    },
+    {
+      "title": "Liar paradox in early Islamic tradition — Wikipedia (citing Alwishah & Sanson, 'The Early Arabic Liar', Vivarium 47, 2009)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Liar_paradox_in_early_Islamic_tradition"
+    },
+    {
+      "title": "K. Gödel, Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I, Monatshefte für Mathematik und Physik 38 (1931), 173–198",
+      "kind": "article",
+      "url": "https://doi.org/10.1007/BF01700692"
+    }
+  ],
+  "research_note": "Researched 2026-11-02 against SEP 'Gödel's Incompleteness Theorems', MacTutor (Gödel; Rózsa Péter), English Wikipedia (Gödel's incompleteness theorems, History section; Emil Leon Post; Presburger arithmetic; Liar paradox in early Islamic tradition, citing Alwishah & Sanson, Vivarium 2009) and the paper's DOI record (Monatshefte 38, 1931, 173-198). Britannica linked for the human only (blocked to automated fetch).\nYEAR: 1931 exact = publication (all sources agree). The 1930 announcement (Carnap 26 Aug; Königsberg round table 7 Sept; manuscript received 17 Nov; von Neumann letter 20 Nov) is told in the body. Place: Vienna, where the work was done.\nFLAGGED IN BODY: the barcode analogy says where it breaks; the WARNING box limits what the theorems say (formal systems with enough arithmetic only; Presburger's complete addition-only system; claims about minds and God contested); Tusi's priority is attributed to Alwishah & Sanson with 'as far as we know'; Post's near-miss and his 1938 postcard; Zermelo and Finsler objections; second theorem only sketched, first full proof Hilbert-Bernays 1939; Rosser 1936.\nFIXED AFTER FACT-CHECK (all four languages): Post placed at Princeton as a postdoctoral fellow, not New York; part II 'never needed' softened to 'quick acceptance was one reason'; von Neumann 'at the round table' rather than 'in the audience'; Hilbert's programme now credits Bernays and Ackermann, and his 1929 belief is tied to Ackermann's proof; Bernays credited as main author of the 1939 volume; truth of the Gödel sentence now conditional on consistency and 'seen from outside the system'; 'nobody had thought' -> 'a new idea'; 'seed of computer science' -> 'one of the seeds of the theory of computation'; Turing's universal machine 'rests on the same idea' (an interpretation, not a quote); 'those who mattered' -> 'leading logicians'; if_you_were_there now 'Hilbert and his followers' (intuitionists such as Brouwer and Weyl did not share the hope); al-Khwarizmi removed from builds_on; Post role 'contemporary' not 'rival'; ru/ky summaries now include the second theorem.\nREVIEWER SHOULD CHECK: (1) Was von Neumann a speaker at the Königsberg round table? The fact-checker says so from memory (Dawson 1984); the body says only 'was at the round table'. (2) Presburger's death year is 'around 1943' (probably killed in the Holocaust); people.death_year is 1943. (3) Post's 1921 near-miss rests on Wikipedia alone; Urquhart's 'Emil Post' (Handbook of the History of Logic, vol. 5) would be a second source. (4) PM *54.43 caption follows the Commons file description. (5) Tusi's dates 1201-1274 are standard but not from a fetched page in this run. (6) Russian name of Rózsa Péter: the fact-checker suggests 'Роза Петер'; the draft keeps 'Рожа Петер' to match the existing people row from turing-computability (shared slug) - decide once for both. (7) Cover credit is 'Unknown author Unknown author' verbatim from the Commons API (a doubled field); the photo dates from 1924-27, before the theorem. (8) Kyrgyz: 'далилдөө' (to prove, glossary 'check') is used throughout; 'чексиз' appears for 'infinite' (glossary has чексиздик as 'check'). Not in the glossary: карама-каршылыксыздык (consistency), толук эместик (incompleteness), формалдуу система, калпычы парадоксу (liar paradox), штрих-код, рекурсивдүү функциялар, топтомдор теориясы (set theory), Вена ийрими (Vienna Circle).",
+  "translations": {
+    "en": {
+      "title": "Gödel: the limits of proof",
+      "summary": "In 1931 Kurt Gödel proved that any consistent system of rules strong enough for arithmetic contains statements it can neither prove nor disprove, and cannot prove its own consistency.",
+      "body": "### The scene\n\nAround 1900, contradictions turned up at the very base of mathematics. The best known, found by Bertrand Russell, showed that the innocent-looking idea of \"the collection of all collections that do not contain themselves\" leads to nonsense. Logicians answered by writing mathematics down as *formal systems*: a fixed alphabet of symbols, a short list of starting statements called axioms, and rules for producing new lines from old ones — rules so mechanical that checking a proof needs no insight at all, only patience. The most ambitious attempt was *Principia Mathematica* by Alfred North Whitehead and Russell, published in three volumes between 1910 and 1913.\n\n![Proposition 54.43 of Principia Mathematica, a line of dense logical symbols with the remark that 1 + 1 = 2 follows from it once arithmetical addition has been defined](https://upload.wikimedia.org/wikipedia/commons/d/d7/Principia_Mathematica_54-43.png \"Whitehead and Russell · Public domain · https://commons.wikimedia.org/wiki/File:Principia_Mathematica_54-43.png\")\n\nIn the 1920s the German mathematician David Hilbert, in Göttingen, working with Paul Bernays and Wilhelm Ackermann, set out the programme that would make this safe for good. Write mathematics as a formal system, then prove — using only simple reasoning about finite strings of symbols that nobody could doubt — that the system can never produce a contradiction. Behind it lay a hope that a good enough system would also be *complete*: every statement in its language could be either proved or disproved. In 1929, after a consistency proof by his student Ackermann, Hilbert believed that the consistency of arithmetic had already been demonstrated.\n\nIn Vienna that same year Kurt Gödel, a 23-year-old from Brünn (today Brno, in Czechia), finished a doctoral thesis under Hans Hahn that seemed to push in Hilbert's direction. It proved that the basic rules of logic are complete in their own sense: anything that follows logically from a set of axioms can be reached by a formal proof. Gödel had also sat in on the discussions of the Vienna Circle, the group of philosophers around Moritz Schlick who wanted all knowledge built on logic and experience.\n\n### What happened\n\nFor his next piece of work Gödel tried to help Hilbert's programme along, by proving the consistency of the mathematics of real numbers with the help of arithmetic. He found the opposite of what he was looking for. On 26 August 1930 he told Rudolf Carnap and two other members of the Circle in Vienna. On 7 September, at a conference in Königsberg on the foundations of the exact sciences, he mentioned it in a passing remark during a round-table discussion. The next day, in the same city, Hilbert closed his retirement address with: \"We must know. We will know.\" John von Neumann, who was at the round table, understood at once and took Gödel aside afterwards.\n\nThe journal *Monatshefte für Mathematik und Physik* received the manuscript on 17 November 1930. Three days later von Neumann wrote to Gödel that he had drawn a second consequence from the method; Gödel had already found it himself and included it. The paper appeared in volume 38 in 1931 under the title \"On formally undecidable propositions of *Principia Mathematica* and related systems I\". The \"I\" promised a second part that was never written; the quick acceptance of the first was one reason, and Gödel soon turned to other problems.\n\nThe key move was to make arithmetic talk about itself. Gödel gave every symbol of the system a number, and then gave every formula — a string of symbols — a number computed from the numbers of its symbols by a fixed rule. A proof is a list of formulas, so it gets a number too. With this coding, a sentence about the system, such as \"this list of formulas is a correct proof of that formula\", turns into a statement about whole numbers that can be checked by calculation.\n\nThink of a shop where every product has a barcode, and the barcode is worked out from the product's own ingredients. A statement about barcodes is then, indirectly, a statement about products. The comparison breaks in one place: shop barcodes are arbitrary labels someone assigns, while Gödel's numbers are calculated from the formula itself, which is exactly why ordinary arithmetic can inspect grammar and proofs without leaving arithmetic.\n\nThen Gödel built a sentence that says, in effect, \"the sentence with number *g* cannot be proved in this system\" — where *g* turns out to be the number of that very sentence. If the system could prove it, it could also check that proof's number by plain calculation and prove that the sentence *is* provable — contradicting itself. So if the system is consistent, the sentence cannot be proved; and, under a slightly stronger assumption Gödel needed, it cannot be disproved either. So, if the system is consistent, what the sentence says about the ordinary whole numbers is true — a truth seen from outside the system, not proved inside it.\n\n> [!THEORY]\n> **The two incompleteness theorems, in plain words.** *First:* any consistent formal system that can do a certain amount of ordinary arithmetic contains statements in its own language that it can neither prove nor disprove. *Second:* such a system cannot prove its own consistency. Both are about provability *inside a particular system*. A statement unprovable in one system can be provable in a stronger one — which then has undecidable statements of its own.\n\n> [!NOTE]\n> Gödel pointed out in his own introduction that the idea is a cousin of the liar paradox, \"this sentence is false\", already discussed by the Greek philosopher Eubulides in the fourth century BCE. In the thirteenth century Nasir al-Din al-Tusi, a scholar from Tus in Khorasan, argued that the liar sentence is neither true nor false because it refers only to itself; historians of logic Ahmed Alwishah and David Sanson write that, as far as we know, he was the first to describe it as a paradox of self-reference. Gödel's sentence swaps \"false\" for \"not provable\". \"False\" cannot be expressed inside arithmetic; \"not provable\" can — so instead of a paradox, he got a theorem.\n\n### Why it was hard\n\nTreating arithmetic as a language that could describe its own sentences was a new idea. The coding only works because Whitehead, Russell and Hilbert's school had already made \"proof\" a precise, mechanical notion; and Gödel still needed a long chain of definitions, each built from the one before, to show that \"is a proof of\" is a relation between numbers of the ordinary, calculable kind.\n\nAcceptance was quick among leading logicians, but not universal. In 1931 Ernst Zermelo claimed there was an essential gap in the argument; Gödel answered in a ten-page letter showing that Zermelo had assumed truth could be defined inside the system, and Zermelo published his criticism anyway. Paul Finsler wrote to claim priority for a 1926 paper; Gödel judged it deeply flawed. Emil Post, then a postdoctoral fellow at Princeton, had come very close to the same result around 1921 but did not publish, believing he needed a complete analysis first. In 1938 he wrote to Gödel: \"I would have discovered Gödel's theorem in 1921 — if I had been Gödel.\"\n\nThe proof itself was also left slightly unfinished. Gödel only sketched the second theorem; the first full published proof came in 1939, in the second volume of Hilbert and Bernays' *Foundations of Mathematics*, written largely by Bernays. And the extra assumption in the first theorem was removed in 1936 by J. Barkley Rosser, which put the result in essentially its modern form.\n\n### What it opened\n\n![David Hilbert's grave in Göttingen, a stone carved with the words \"Wir müssen wissen. Wir werden wissen.\"](https://upload.wikimedia.org/wikipedia/commons/f/f5/Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg \"Julian Herzog ( Website ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg\")\n\nHilbert's programme could not be carried out as he had planned it: no system strong enough for arithmetic can certify its own safety. The work went on in another form. In 1936 Gerhard Gentzen proved arithmetic consistent by reasoning that reaches beyond arithmetic itself. Hilbert's words \"We must know. We will know.\" are on his gravestone in Göttingen.\n\nGödel's coding — a rule, a formula, a whole procedure written as a number — turned out to be one of the seeds of the theory of computation. Rózsa Péter in Budapest, urged by her friend László Kalmár to study Gödel's work, found her own proofs of his results and went on to become one of the founders of the theory of recursive functions, the precise study of what can be calculated step by step. In 1936 Alonzo Church and Alan Turing used the same kind of self-reference to show that some questions cannot be settled by any mechanical method at all; Turing's universal machine, which reads another machine's description as data, rests on the same idea as Gödel's coding. Alfred Tarski, independently of Gödel, showed that truth in arithmetic cannot be defined inside arithmetic.\n\nUndecidable statements were later found where mathematicians actually work. Gödel showed in 1940 that the continuum hypothesis — a question about the sizes of infinite sets — cannot be disproved from the standard axioms of set theory, and in 1963 Paul Cohen showed it cannot be proved from them either. In 1977 Jeff Paris and Leo Harrington found a natural statement about combinations that is true but unprovable in ordinary arithmetic.\n\n> [!WARNING]\n> The theorems are often stretched far beyond what they say. They do not show that mathematics is broken or that truth is a matter of opinion, and they apply only to formal systems that contain enough arithmetic. Simpler systems can be complete: in 1929 Mojżesz Presburger, a student in Warsaw, gave a system for the arithmetic of addition alone in which every statement can be decided. Arguments that the theorems prove something about human minds or about God remain contested.\n\nGödel moved to the Institute for Advanced Study in Princeton, where he became a close friend of Albert Einstein, and became a United States citizen in 1948. He died in Princeton on 14 January 1978, after refusing food in the conviction that he was being poisoned.",
+      "why_it_matters": "Gödel showed that proof inside a fixed system of rules can never capture everything, and that no such system can vouch for its own safety. His trick of writing formulas and proofs as numbers became, five years later, the starting point for Church's and Turing's theory of computation.",
+      "if_you_were_there": "Hilbert and his followers expect that all of mathematics will soon rest on a single set of rules, shown free of contradiction once and for all. A quiet 24-year-old from Vienna mentions, almost in passing, that this cannot be done.",
+      "place_name": "Vienna"
+    },
+    "tr": {
+      "title": "Gödel: ispatın sınırları",
+      "summary": "Kurt Gödel 1931'de aritmetiğe yetecek kadar güçlü her tutarlı kurallar sisteminin ne kanıtlayabildiği ne de çürütebildiği önermeler içerdiğini ve kendi tutarlılığını kanıtlayamadığını gösterdi.",
+      "body": "### Sahne\n\n1900 civarında matematiğin tam temelinde çelişkiler ortaya çıktı. En bilineni Bertrand Russell'ınkiydi: masum görünen \"kendini içermeyen bütün toplulukların topluluğu\" fikri saçmalığa varıyordu. Mantıkçılar buna matematiği *biçimsel sistemler* olarak yazarak karşılık verdi: sabit bir sembol alfabesi, aksiyom denen kısa bir başlangıç önermeleri listesi ve eski satırlardan yeni satırlar üreten kurallar. Kurallar o kadar mekanikti ki bir ispatı denetlemek hiçbir sezgi istemiyordu, yalnızca sabır. En iddialı girişim, Alfred North Whitehead ile Russell'ın 1910-1913 arasında üç cilt hâlinde yayımlanan *Principia Mathematica*'sıydı.\n\n![Principia Mathematica'nın 54.43 numaralı önermesi: yoğun mantık sembollerinden bir satır ve aritmetik toplama tanımlanınca 1 + 1 = 2'nin bundan çıktığı notu](https://upload.wikimedia.org/wikipedia/commons/d/d7/Principia_Mathematica_54-43.png \"Whitehead and Russell · Public domain · https://commons.wikimedia.org/wiki/File:Principia_Mathematica_54-43.png\")\n\n1920'lerde Göttingen'deki Alman matematikçi David Hilbert, Paul Bernays ve Wilhelm Ackermann ile birlikte, bunu kalıcı olarak güvenceye alacak programı ortaya koydu: matematiği biçimsel bir sistem olarak yaz, sonra yalnızca sonlu sembol dizileri hakkında kimsenin kuşku duyamayacağı basit akıl yürütmelerle sistemin asla çelişki üretmeyeceğini kanıtla. Arkasında bir umut da vardı: yeterince iyi bir sistem *tam* da olacaktı, yani dilindeki her önerme ya kanıtlanabilecek ya da çürütülebilecekti. 1929'da, öğrencisi Ackermann'ın bir tutarlılık ispatından sonra Hilbert, aritmetiğin tutarlılığının zaten gösterildiğine inanıyordu.\n\nAynı yıl Viyana'da, Brünn'lü (bugün Çekya'daki Brno) 23 yaşındaki Kurt Gödel, Hans Hahn'ın yönetiminde Hilbert'in yönüne doğru iter görünen bir doktora tezini bitirdi. Tez, mantığın temel kurallarının kendi anlamında tam olduğunu kanıtlıyordu: bir aksiyom kümesinden mantıksal olarak çıkan her şeye biçimsel bir ispatla ulaşılabilir. Gödel, bütün bilgiyi mantık ve deneyim üstüne kurmak isteyen, Moritz Schlick çevresindeki filozoflar topluluğu Viyana Çevresi'nin tartışmalarına da katılmıştı.\n\n### Ne oldu\n\nGödel bir sonraki çalışmasında Hilbert'in programına yardım etmek istedi: gerçel sayılar matematiğinin tutarlılığını aritmetiğin yardımıyla kanıtlamaya çalıştı. Aradığının tam tersini buldu. 26 Ağustos 1930'da Viyana'da bunu Rudolf Carnap'a ve Çevre'nin iki üyesine anlattı. 7 Eylül'de Königsberg'de kesin bilimlerin temelleri üzerine bir konferansta, bir yuvarlak masa tartışmasında geçerken söyledi. Ertesi gün aynı şehirde Hilbert emeklilik konuşmasını şu sözlerle bitirdi: \"Bilmeliyiz. Bileceğiz.\" Yuvarlak masada bulunan John von Neumann hemen anladı ve sonra Gödel'i bir kenara çekti.\n\n*Monatshefte für Mathematik und Physik* dergisi makaleyi 17 Kasım 1930'da aldı. Üç gün sonra von Neumann, Gödel'e yöntemden ikinci bir sonuç çıkardığını yazdı; Gödel bunu zaten kendisi bulmuş ve makaleye koymuştu. Makale 1931'de 38. ciltte \"*Principia Mathematica* ve ilgili sistemlerin biçimsel olarak karar verilemez önermeleri üzerine I\" başlığıyla çıktı. Başlıktaki \"I\", hiç yazılmayan ikinci bir bölüm vaat ediyordu; ilkinin çabuk kabul görmesi sebeplerden biriydi, Gödel de kısa süre sonra başka sorunlara yöneldi.\n\nKilit hamle, aritmetiğe kendisi hakkında konuşturmaktı. Gödel sistemin her sembolüne bir sayı verdi; sonra her formüle, yani her sembol dizisine, sembollerinin sayılarından sabit bir kuralla hesaplanan bir sayı verdi. İspat bir formül listesidir, o yüzden onun da bir sayısı olur. Bu kodlamayla sistem hakkında bir cümle, örneğin \"bu formül listesi şu formülün doğru bir ispatıdır\", hesapla denetlenebilen bir tam sayılar önermesine dönüşür.\n\nHer ürünün bir barkodu olduğu ve barkodun ürünün kendi içeriğinden hesaplandığı bir dükkân düşünün. O zaman barkodlar hakkındaki bir önerme, dolaylı olarak ürünler hakkında bir önermedir. Benzetme bir yerde bozulur: dükkân barkodları birinin keyfî olarak verdiği etiketlerdir, Gödel'in sayıları ise formülün kendisinden hesaplanır. Sıradan aritmetiğin, aritmetikten çıkmadan dilbilgisini ve ispatları inceleyebilmesinin sebebi tam da budur.\n\nSonra Gödel aslında şunu söyleyen bir cümle kurdu: \"*g* numaralı cümle bu sistemde kanıtlanamaz\" — ve *g*'nin tam da bu cümlenin kendi numarası olduğu ortaya çıkar. Sistem onu kanıtlayabilseydi, o ispatın numarasını düz hesapla da denetleyip cümlenin kanıtlanabilir *olduğunu* kanıtlardı; kendisiyle çelişirdi. Demek ki sistem tutarlıysa cümle kanıtlanamaz; Gödel'in ihtiyaç duyduğu biraz daha güçlü bir varsayımla çürütülemez de. Demek ki sistem tutarlıysa, cümlenin sıradan tam sayılar hakkında söylediği doğrudur — sistemin içinde kanıtlanmış değil, dışarıdan görülen bir doğruluk.\n\n> [!THEORY]\n> **İki eksiklik teoremi, sade dille.** *Birinci:* sıradan aritmetiğin belli bir kısmını yapabilen her tutarlı biçimsel sistem, kendi dilinde ne kanıtlayabildiği ne de çürütebildiği önermeler içerir. *İkinci:* böyle bir sistem kendi tutarlılığını kanıtlayamaz. İkisi de *belirli bir sistemin içinde* kanıtlanabilirlikle ilgilidir. Bir sistemde kanıtlanamayan bir önerme daha güçlü bir sistemde kanıtlanabilir; ama o sistemin de kendi karar verilemez önermeleri olur.\n\n> [!NOTE]\n> Gödel kendi girişinde fikrin, MÖ 4. yüzyılda Yunan filozof Eubulides'in de tartıştığı yalancı paradoksunun (\"bu cümle yanlıştır\") akrabası olduğunu belirtti. 13. yüzyılda Horasan'daki Tus'tan bir bilgin olan Nasîrüddin Tûsî, yalancı cümlesinin yalnızca kendine gönderme yaptığı için ne doğru ne yanlış olduğunu savundu; mantık tarihçileri Ahmed Alwishah ve David Sanson, bildiğimiz kadarıyla onu bir öz-gönderme paradoksu olarak tarif eden ilk kişinin o olduğunu yazar. Gödel'in cümlesi \"yanlış\" yerine \"kanıtlanamaz\" koyar. \"Yanlış\" aritmetiğin içinde ifade edilemez, \"kanıtlanamaz\" edilebilir — bu yüzden bir paradoks yerine bir teorem elde etti.\n\n### Neden zordu\n\nAritmetiği kendi cümlelerini tarif edebilen bir dil olarak ele almak yeni bir fikirdi. Kodlama ancak Whitehead, Russell ve Hilbert okulu \"ispat\"ı kesin, mekanik bir kavram hâline getirmiş olduğu için işler. Gödel'in yine de \"şunun ispatıdır\" ilişkisinin sıradan, hesaplanabilir türden bir sayılar ilişkisi olduğunu göstermek için her biri bir öncekinden kurulan uzun bir tanımlar zincirine ihtiyacı vardı.\n\nÖnde gelen mantıkçılar arasında kabul çabuk geldi ama herkes ikna olmadı. 1931'de Ernst Zermelo kanıtta temel bir boşluk olduğunu ileri sürdü; Gödel on sayfalık bir mektupla Zermelo'nun doğruluğun sistemin içinde tanımlanabileceğini varsaydığını gösterdi, Zermelo eleştirisini yine de yayımladı. Paul Finsler 1926 tarihli bir makalesi için öncelik iddia etti; Gödel makaleyi derinden kusurlu buldu. O sırada Princeton'da doktora sonrası araştırmacı olan Emil Post 1921 dolaylarında aynı sonuca çok yaklaşmış ama önce eksiksiz bir çözümleme gerektiğine inandığı için yayımlamamıştı. 1938'de Gödel'e şöyle yazdı: \"Gödel'in teoremini 1921'de bulurdum — Gödel olsaydım.\"\n\nKanıtın kendisi de biraz yarım kalmıştı. Gödel ikinci teoremi yalnızca ana hatlarıyla verdi; ilk tam yayımlanmış kanıt 1939'da Hilbert ile Bernays'in, büyük ölçüde Bernays'in yazdığı *Matematiğin Temelleri*'nin ikinci cildinde geldi. Birinci teoremdeki ek varsayımı ise 1936'da J. Barkley Rosser kaldırdı ve sonuç aşağı yukarı bugünkü biçimini aldı.\n\n### Ne kapı açtı\n\n![David Hilbert'in Göttingen'deki mezarı: üzerine \"Wir müssen wissen. Wir werden wissen.\" sözleri oyulmuş taş](https://upload.wikimedia.org/wikipedia/commons/f/f5/Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg \"Julian Herzog ( Website ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg\")\n\nHilbert'in programı onun planladığı gibi yürütülemezdi: aritmetiğe yetecek kadar güçlü hiçbir sistem kendi güvenliğini onaylayamaz. Çalışma başka bir biçimde sürdü. 1936'da Gerhard Gentzen aritmetiğin tutarlılığını aritmetiğin ötesine uzanan bir akıl yürütmeyle kanıtladı. Hilbert'in \"Bilmeliyiz. Bileceğiz.\" sözleri Göttingen'deki mezar taşında yazılıdır.\n\nGödel'in kodlaması — bir kuralı, bir formülü, koca bir yöntemi bir sayı olarak yazmak — hesaplama kuramının tohumlarından biri çıktı. Budapeşte'de Rózsa Péter, arkadaşı László Kalmár'ın ısrarıyla Gödel'in çalışmasını incelerken onun sonuçlarına kendi ispatlarını buldu ve adım adım hesaplanabilen şeylerin kesin incelemesi olan özyinelemeli fonksiyonlar kuramının kurucularından biri oldu. 1936'da Alonzo Church ve Alan Turing aynı türden öz-göndermeyle bazı soruların hiçbir mekanik yöntemle çözülemeyeceğini gösterdi; başka bir makinenin tarifini veri olarak okuyan Turing'in evrensel makinesi, Gödel'in kodlamasıyla aynı fikre dayanır. Alfred Tarski de Gödel'den bağımsız olarak aritmetikteki doğruluğun aritmetiğin içinde tanımlanamayacağını gösterdi.\n\nKarar verilemez önermeler daha sonra matematikçilerin gerçekten çalıştığı yerlerde de bulundu. Gödel 1940'ta süreklilik hipotezinin — sonsuz kümelerin büyüklükleri hakkında bir sorunun — küme kuramının standart aksiyomlarından çürütülemeyeceğini gösterdi; 1963'te Paul Cohen ondan kanıtlanamayacağını da gösterdi. 1977'de Jeff Paris ve Leo Harrington, kombinasyonlar hakkında doğal görünen, doğru ama sıradan aritmetikte kanıtlanamayan bir önerme buldu.\n\n> [!WARNING]\n> Teoremler sık sık söylediklerinin çok ötesine çekiştirilir. Matematiğin bozuk olduğunu ya da doğruluğun bir görüş meselesi olduğunu göstermezler ve yalnızca yeterince aritmetik içeren biçimsel sistemlere uygulanırlar. Daha basit sistemler tam olabilir: 1929'da Varşova'da bir öğrenci olan Mojżesz Presburger, yalnızca toplama aritmetiği için her önermenin karara bağlanabildiği bir sistem verdi. Teoremlerin insan zihni ya da Tanrı hakkında bir şey kanıtladığı yönündeki iddialar tartışmalı olmaya devam ediyor.\n\nGödel Princeton'daki İleri Araştırmalar Enstitüsü'ne geçti, orada Albert Einstein'ın yakın dostu oldu ve 1948’de Amerika Birleşik Devletleri vatandaşı oldu. 14 Ocak 1978'de, zehirlendiğine inanarak yemek yemeyi reddettikten sonra Princeton'da öldü.",
+      "why_it_matters": "Gödel, sabit bir kurallar sisteminin içindeki ispatın her şeyi yakalayamayacağını ve böyle bir sistemin kendi güvenliğine kefil olamayacağını gösterdi. Formülleri ve ispatları sayı olarak yazma hilesi, beş yıl sonra Church ile Turing'in hesaplama kuramının çıkış noktası oldu.",
+      "if_you_were_there": "Hilbert ve izleyicileri, bütün matematiğin yakında tek bir kurallar kümesine dayanacağını ve bunun çelişkisiz olduğunun kesin olarak gösterileceğini bekliyor. Viyana'dan sessiz, 24 yaşında bir genç, neredeyse geçerken, bunun yapılamayacağını söylüyor.",
+      "place_name": "Viyana",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Гёдель: пределы доказательства",
+      "summary": "В 1931 году Курт Гёдель доказал: непротиворечивая система правил, достаточная для арифметики, содержит утверждения, которые не доказать и не опровергнуть, и не докажет свою непротиворечивость.",
+      "body": "### Обстановка\n\nОколо 1900 года в самом основании математики обнаружились противоречия. Самое известное нашёл Бертран Рассел: невинная на вид идея «совокупности всех совокупностей, которые не содержат самих себя» ведёт к бессмыслице. Логики ответили тем, что стали записывать математику в виде *формальных систем*: фиксированный алфавит символов, короткий список исходных утверждений — аксиом — и правила, по которым из старых строк получаются новые. Правила настолько механические, что для проверки доказательства не нужна никакая догадка, только терпение. Самой амбициозной попыткой стали «*Principia Mathematica*» Альфреда Норта Уайтхеда и Рассела, вышедшие в трёх томах в 1910–1913 годах.\n\n![Предложение 54.43 из Principia Mathematica: строка плотных логических символов и примечание, что из неё следует 1 + 1 = 2, как только определено арифметическое сложение](https://upload.wikimedia.org/wikipedia/commons/d/d7/Principia_Mathematica_54-43.png \"Whitehead and Russell · Public domain · https://commons.wikimedia.org/wiki/File:Principia_Mathematica_54-43.png\")\n\nВ 1920-е годы немецкий математик Давид Гильберт в Гёттингене вместе с Паулем Бернайсом и Вильгельмом Аккерманом изложил программу, которая должна была обезопасить всё это навсегда: записать математику как формальную систему, а затем доказать — одними лишь простыми рассуждениями о конечных цепочках символов, в которых никто не может усомниться, — что система никогда не приведёт к противоречию. За этим стояла и надежда, что достаточно хорошая система будет *полной*: любое утверждение на её языке можно будет либо доказать, либо опровергнуть. В 1929 году, после доказательства непротиворечивости, предложенного его учеником Аккерманом, Гильберт считал, что непротиворечивость арифметики уже показана.\n\nВ том же году в Вене 23-летний Курт Гёдель, уроженец Брюнна (сегодня Брно в Чехии), закончил под руководством Ханса Хана диссертацию, которая, казалось, работала на Гильберта. В ней доказывалось, что основные правила логики полны в своём смысле: всё, что логически следует из набора аксиом, можно получить формальным доказательством. Гёдель бывал и на обсуждениях Венского кружка — группы философов вокруг Морица Шлика, которые хотели построить всё знание на логике и опыте.\n\n### Что произошло\n\nВ следующей работе Гёдель хотел помочь программе Гильберта: доказать непротиворечивость математики действительных чисел с помощью арифметики. Он нашёл противоположное тому, что искал. 26 августа 1930 года он рассказал об этом в Вене Рудольфу Карнапу и ещё двум членам кружка. 7 сентября на конференции в Кёнигсберге, посвящённой основаниям точных наук, он упомянул результат мимоходом во время круглого стола. На следующий день в том же городе Гильберт закончил свою прощальную речь словами: «Мы должны знать. Мы будем знать». Джон фон Нейман, участвовавший в круглом столе, сразу всё понял и потом отвёл Гёделя в сторону.\n\nЖурнал «*Monatshefte für Mathematik und Physik*» получил рукопись 17 ноября 1930 года. Через три дня фон Нейман написал Гёделю, что вывел из метода второе следствие; Гёдель уже нашёл его сам и включил в статью. Статья вышла в 38-м томе в 1931 году под названием «О формально неразрешимых предложениях *Principia Mathematica* и родственных систем I». Цифра «I» обещала вторую часть, которая так и не была написана; одной из причин стало то, что первую приняли быстро, и вскоре Гёдель занялся другими задачами.\n\nГлавный ход состоял в том, чтобы заставить арифметику говорить о самой себе. Гёдель дал каждому символу системы номер, а затем каждой формуле — цепочке символов — номер, вычисляемый из номеров её символов по фиксированному правилу. Доказательство — это список формул, поэтому номер получает и оно. При таком кодировании фраза о системе, например «этот список формул — правильное доказательство вон той формулы», превращается в утверждение о целых числах, которое проверяется вычислением.\n\nПредставьте магазин, где у каждого товара есть штрихкод, причём штрихкод вычисляется из состава самого товара. Тогда утверждение о штрихкодах — это, косвенно, утверждение о товарах. Сравнение ломается в одном месте: штрихкоды в магазине — произвольные метки, которые кто-то присвоил, а номера Гёделя вычисляются из самой формулы. Именно поэтому обычная арифметика может проверять грамматику и доказательства, не выходя за пределы арифметики.\n\nЗатем Гёдель построил предложение, которое по сути говорит: «предложение с номером *g* недоказуемо в этой системе», — и оказывается, что *g* и есть номер этого самого предложения. Если бы система могла его доказать, она могла бы простым вычислением проверить номер этого доказательства и доказать, что предложение *доказуемо*, — то есть противоречила бы себе. Значит, если система непротиворечива, предложение недоказуемо; а при чуть более сильном предположении, которое понадобилось Гёделю, его нельзя и опровергнуть. Значит, если система непротиворечива, то, что предложение утверждает об обычных целых числах, верно — это истина, видимая извне системы, а не доказанная внутри неё.\n\n> [!THEORY]\n> **Две теоремы о неполноте простыми словами.** *Первая:* любая непротиворечивая формальная система, способная выполнять определённый объём обычной арифметики, содержит утверждения на своём языке, которые она не может ни доказать, ни опровергнуть. *Вторая:* такая система не может доказать собственную непротиворечивость. Обе говорят о доказуемости *внутри определённой системы*. Утверждение, недоказуемое в одной системе, может быть доказуемо в более сильной — но у той будут свои неразрешимые утверждения.\n\n> [!NOTE]\n> Гёдель сам указал во введении, что его идея — родственница парадокса лжеца («это предложение ложно»), который обсуждал ещё греческий философ Евбулид в IV веке до нашей эры. В XIII веке Насир ад-Дин ат-Туси, учёный из Туса в Хорасане, утверждал, что фраза лжеца ни истинна, ни ложна, потому что ссылается только на саму себя; историки логики Ахмед Альвишах и Дэвид Сэнсон пишут, что, насколько известно, он первым описал её как парадокс самоссылки. Предложение Гёделя заменяет «ложно» на «недоказуемо». «Ложно» нельзя выразить внутри арифметики, а «недоказуемо» можно — поэтому вместо парадокса получилась теорема.\n\n### Почему это было трудно\n\nСмотреть на арифметику как на язык, способный описывать собственные предложения, было новой идеей. Кодирование работает только потому, что Уайтхед, Рассел и школа Гильберта уже сделали «доказательство» точным механическим понятием; и всё же Гёделю понадобилась длинная цепочка определений, каждое из которых строится на предыдущем, чтобы показать, что отношение «является доказательством» — это отношение между числами обычного, вычислимого рода.\n\nВедущие логики признали результат быстро, но признали не все. В 1931 году Эрнст Цермело заявил, что в рассуждении есть существенный пробел; Гёдель ответил десятистраничным письмом, показав, что Цермело предполагал, будто истину можно определить внутри системы, — Цермело всё равно опубликовал свою критику. Пауль Финслер написал, претендуя на приоритет из-за своей статьи 1926 года; Гёдель счёл её глубоко ошибочной. Эмиль Пост, тогда постдокторант в Принстоне, около 1921 года очень близко подошёл к тому же результату, но не опубликовал его, считая, что сначала нужен полный анализ. В 1938 году он написал Гёделю: «Я открыл бы теорему Гёделя в 1921 году — если бы был Гёделем».\n\nСамо доказательство тоже осталось немного незаконченным. Вторую теорему Гёдель лишь набросал; первое полное опубликованное доказательство появилось в 1939 году во втором томе «Оснований математики» Гильберта и Бернайса, написанном в основном Бернайсом. А дополнительное предположение в первой теореме в 1936 году убрал Джон Баркли Россер, и результат принял почти современный вид.\n\n### Что это открыло\n\n![Могила Давида Гильберта в Гёттингене: камень с высеченными словами «Wir müssen wissen. Wir werden wissen.»](https://upload.wikimedia.org/wikipedia/commons/f/f5/Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg \"Julian Herzog ( Website ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg\")\n\nПрограмму Гильберта нельзя было выполнить так, как он её задумал: ни одна система, достаточно сильная для арифметики, не может удостоверить собственную надёжность. Работа продолжилась в другой форме. В 1936 году Герхард Генцен доказал непротиворечивость арифметики рассуждением, выходящим за пределы самой арифметики. Слова Гильберта «Мы должны знать. Мы будем знать» высечены на его надгробии в Гёттингене.\n\nКодирование Гёделя — запись правила, формулы, целой процедуры в виде числа — оказалось одним из зёрен теории вычислений. Рожа Петер в Будапеште по настоянию своего друга Ласло Кальмара взялась за работу Гёделя, нашла собственные доказательства его результатов и стала одним из основателей теории рекурсивных функций — точного учения о том, что можно вычислить шаг за шагом. В 1936 году Алонзо Чёрч и Алан Тьюринг с помощью той же самоссылки показали, что некоторые вопросы не решаются никаким механическим методом; универсальная машина Тьюринга, читающая описание другой машины как данные, опирается на ту же идею, что и кодирование Гёделя. Альфред Тарский независимо от Гёделя показал, что истинность в арифметике нельзя определить внутри арифметики.\n\nПозже неразрешимые утверждения нашлись и там, где математики действительно работают. В 1940 году Гёдель показал, что континуум-гипотезу — вопрос о размерах бесконечных множеств — нельзя опровергнуть из стандартных аксиом теории множеств, а в 1963 году Пол Коэн показал, что её нельзя из них и доказать. В 1977 году Джефф Парис и Лео Харрингтон нашли естественное утверждение о комбинациях, истинное, но недоказуемое в обычной арифметике.\n\n> [!WARNING]\n> Теоремы часто растягивают далеко за пределы того, что в них сказано. Они не показывают, что математика сломана или что истина — дело мнения, и относятся только к формальным системам, содержащим достаточно арифметики. Более простые системы могут быть полными: в 1929 году Мойжеш Пресбургер, студент в Варшаве, построил систему для арифметики одного лишь сложения, в которой разрешимо каждое утверждение. Доводы о том, что теоремы что-то доказывают о человеческом разуме или о Боге, остаются спорными.\n\nГёдель перебрался в Институт перспективных исследований в Принстоне, где стал близким другом Альберта Эйнштейна, а в 1948 году получил американское гражданство. Он умер в Принстоне 14 января 1978 года, отказываясь от еды в убеждении, что его хотят отравить.",
+      "why_it_matters": "Гёдель показал, что доказательство внутри фиксированной системы правил никогда не охватит всего и что такая система не может поручиться за собственную надёжность. Его приём — записывать формулы и доказательства числами — через пять лет стал отправной точкой теории вычислений Чёрча и Тьюринга.",
+      "if_you_were_there": "Гильберт и его последователи ждут, что вся математика скоро будет опираться на один набор правил, раз и навсегда очищенный от противоречий. Тихий 24-летний молодой человек из Вены почти мимоходом замечает, что это невозможно.",
+      "place_name": "Вена",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Гёдель: далилдөөнүн чеги",
+      "summary": "1931-жылы Курт Гёдель арифметикага жетиштүү карама-каршылыксыз эрежелер системасы кээ бир ырастоолорду далилдей да, жокко чыгара да албасын жана өз карама-каршылыксыздыгын далилдей албасын көрсөттү.",
+      "body": "### Көрүнүш\n\n1900-жылдардын тегерегинде математиканын нак пайдубалынан карама-каршылыктар чыкты. Эң белгилүүсүн Бертран Рассел тапкан: «өзүн камтыбаган бардык топтомдордун топтому» деген зыянсыздай көрүнгөн ой маанисиздикке алып барат. Логиктер буга жооп катары математиканы *формалдуу системалар* түрүндө жаза башташты: белгилердин туруктуу алфавити, аксиома деп аталган баштапкы ырастоолордун кыска тизмеси жана эски саптардан жаңы саптарды чыгаруучу эрежелер. Эрежелер ушунчалык механикалык болгондуктан, далилдөөнү текшерүү үчүн эч кандай зирек ой керек эмес, сабыр гана жетиштүү. Эң чоң аракет — Альфред Норт Уайтхед менен Расселдин 1910–1913-жылдары үч том болуп чыккан *Principia Mathematica* эмгеги.\n\n![Principia Mathematica китебиндеги 54.43-сүйлөм: логикалык белгилерден турган жыш сап жана арифметикалык кошуу аныкталгандан кийин андан 1 + 1 = 2 келип чыгары тууралуу эскертүү](https://upload.wikimedia.org/wikipedia/commons/d/d7/Principia_Mathematica_54-43.png \"Whitehead and Russell · Public domain · https://commons.wikimedia.org/wiki/File:Principia_Mathematica_54-43.png\")\n\n1920-жылдары Гёттингендеги немис математиги Давид Гильберт Пауль Бернайс жана Вильгельм Аккерман менен бирге мунун баарын биротоло коопсуз кыла турган программаны сунуштады. Анын ою мындай эле: математиканы формалдуу система катары жазып, андан кийин эч ким шек санай албаган, белгилердин чектүү тизмектери тууралуу жөнөкөй ой жүгүртүү менен гана ал система эч качан карама-каршылыкка келбей турганын далилдөө. Анын артында дагы бир үмүт бар эле: жетиштүү жакшы система *толук* да болот, башкача айтканда, анын тилиндеги ар бир ырастоону же далилдөөгө, же жокко чыгарууга мүмкүн болот. 1929-жылы шакирти Аккермандын карама-каршылыксыздык тууралуу далилдөөсүнөн кийин Гильберт арифметиканын карама-каршылыксыздыгы мурунтан эле көрсөтүлгөн деп эсептеген.\n\nОшол эле жылы Венада Брюнндан (азыркы Чехиядагы Брно) чыккан 23 жаштагы Курт Гёдель Ханс Хандын жетекчилиги астында Гильберттин багытын колдогондой көрүнгөн докторлук диссертациясын бүтүрдү. Ал логиканын негизги эрежелери өз маанисинде толук экенин далилдеген: аксиомалар топтомунан логикалык түрдө келип чыккан нерсенин баарына формалдуу далилдөө аркылуу жетүүгө болот. Гёдель ошондой эле Мориц Шликтин тегерегиндеги, бардык билимди логикага жана тажрыйбага негиздегиси келген философтор тобу — Вена ийриминин талкууларына катышып жүргөн.\n\n### Эмне болду\n\nКийинки эмгегинде Гёдель Гильберттин программасына жардам бергиси келип, чыныгы сандар математикасынын карама-каршылыксыздыгын арифметиканын жардамы менен далилдөөгө аракет кылды. Бирок издегенинин тескерисин тапты. 1930-жылдын 26-августунда ал бул тууралуу Венада Рудольф Карнапка жана ийримдин дагы эки мүчөсүнө айтып берди. 7-сентябрда Кёнигсбергде так илимдердин негиздери боюнча өткөн конференцияда, тегерек стол учурунда аны жөн эле сөз арасында айтып өттү. Эртеси ошол эле шаарда Гильберт пенсияга чыгуу алдындагы баяндамасын «Биз билишибиз керек. Биз билебиз» деген сөздөр менен аяктады. Тегерек столго катышкан Джон фон Нейман дароо түшүнүп, андан кийин Гёделди четке чакырып сүйлөштү.\n\n*Monatshefte für Mathematik und Physik* журналы кол жазманы 1930-жылдын 17-ноябрында алды. Үч күндөн кийин фон Нейман Гёделге бул ыкмадан экинчи бир натыйжа чыгарганын жазды; Гёдель аны өзү мурун эле таап, макалага киргизип койгон. Макала 1931-жылы 38-томдо «*Principia Mathematica* жана ага жакын системалардагы формалдуу түрдө чечилбей турган сүйлөмдөр жөнүндө I» деген аталыш менен чыкты. Аталыштагы «I» экинчи бөлүктү убада кылган, бирок ал эч качан жазылган эмес; биринчисинин тез кабыл алынышы себептердин бири болгон, ал эми Гёдель көп өтпөй башка маселелерге өттү.\n\nНегизги кадам — арифметиканы өзү жөнүндө сүйлөтүү болду. Гёдель системанын ар бир белгисине бир сан берди, андан кийин ар бир формулага, башкача айтканда белгилердин ар бир тизмегине, анын белгилеринин сандарынан туруктуу эреже менен эсептелген сан берди. Далилдөө — формулалардын тизмеси, ошондуктан анын да өз саны болот. Ушундай коддоо менен система жөнүндөгү сүйлөм, мисалы «формулалардын бул тизмеси тигил формуланын туура далилдөөсү», эсептөө менен текшерилүүчү бүтүн сандар тууралуу ырастоого айланат.\n\nАр бир товардын штрих-коду бар, ал эми штрих-код товардын өз курамынан эсептелип чыккан дүкөндү элестетиңиз. Анда штрих-коддор тууралуу ырастоо кыйыр түрдө товарлар тууралуу ырастоо болуп калат. Салыштыруу бир жерде бузулат: дүкөндөгү штрих-коддор кимдир бирөө каалагандай берген белгилер, ал эми Гёделдин сандары формуланын өзүнөн эсептелет. Кадимки арифметика арифметикадан чыкпастан грамматиканы жана далилдөөлөрдү текшере алганынын себеби дал ушунда.\n\nАндан кийин Гёдель маңызы боюнча «*g* номерлүү сүйлөм бул системада далилденбейт» дей турган сүйлөмдү түздү — жана *g* дал ошол сүйлөмдүн өз номери болуп чыгат. Эгер система аны далилдей алса, анда ал ошол далилдөөнүн номерин жөнөкөй эсептөө менен текшерип, сүйлөм далилдене *турганын* да далилдей алмак, башкача айтканда өзүнө өзү каршы чыкмак. Демек, система карама-каршылыксыз болсо, сүйлөм далилденбейт; ал эми Гёделге керек болгон бир аз күчтүүрөөк божомол менен аны жокко да чыгарууга болбойт. Демек, система карама-каршылыксыз болсо, сүйлөмдүн кадимки бүтүн сандар тууралуу айткан нерсеси туура — бул системанын ичинде далилденген эмес, сыртынан көрүнгөн чындык.\n\n> [!THEORY]\n> **Толук эместик тууралуу эки теорема, жөнөкөй тил менен.** *Биринчиси:* кадимки арифметиканын белгилүү бир бөлүгүн аткара алган ар кандай карама-каршылыксыз формалдуу система өз тилинде далилдей да, жокко чыгара да албаган ырастоолорду камтыйт. *Экинчиси:* мындай система өзүнүн карама-каршылыксыздыгын далилдей албайт. Экөө тең *белгилүү бир системанын ичиндеги* далилденүү жөнүндө. Бир системада далилденбеген ырастоо күчтүүрөөк системада далилдениши мүмкүн — бирок ал системанын да өзүнүн чечилбеген ырастоолору болот.\n\n> [!NOTE]\n> Гёдель өзүнүн киришүүсүндө бул ой «бул сүйлөм жалган» деген калпычы парадоксуна тектеш экенин белгилеген; аны биздин заманга чейинки IV кылымда эле грек философу Евбулид талкуулаган. XIII кылымда Хорасандагы Тус шаарынан чыккан окумуштуу Насир ад-Дин ат-Туси калпычынын сүйлөмү өзүн гана көрсөткөндүктөн туура да, жалган да эмес деп айткан; логиканын тарыхчылары Ахмед Альвишах менен Дэвид Сэнсон биздин билишибизче аны өзүнө шилтеме кылуу парадоксу катары биринчи сыпаттаган ушул киши болгонун жазышат. Гёделдин сүйлөмү «жалган» деген сөздү «далилденбейт» деген сөз менен алмаштырат. «Жалганды» арифметиканын ичинде туюнтууга болбойт, ал эми «далилденбейтти» болот — ошондуктан парадокстун ордуна теорема келип чыкты.\n\n### Эмнеге кыйын болду\n\nАрифметиканы өз сүйлөмдөрүн сүрөттөй ала турган тил катары кароо жаңы ой болчу. Коддоо Уайтхед, Рассел жана Гильберттин мектеби «далилдөөнү» так, механикалык түшүнүккө айландырып койгондуктан гана иштейт. Ошого карабастан Гёделге «тигинин далилдөөсү болуп саналат» деген байланыш кадимки, эсептелүүчү түрдөгү сандар ортосундагы байланыш экенин көрсөтүү үчүн ар бири мурункусуна таянган узун аныктамалар тизмеги керек болду.\n\nАлдыңкы логиктер жыйынтыкты тез кабыл алышты, бирок баары эле эмес. 1931-жылы Эрнст Цермело далилдөөдө олуттуу боштук бар деп ырастады; Гёдель он беттик кат менен Цермело чындыкты системанын ичинде аныктоого болот деп божомолдогонун көрсөттү, бирок Цермело сынын баары бир жарыялады. Пауль Финслер 1926-жылкы макаласы үчүн артыкчылыкты талап кылып кат жазды; Гёдель ал макаланы терең катачылыктуу деп тапты. Ал кезде Принстондо докторантурадан кийинки изилдөөчү болгон Эмиль Пост болжол менен 1921-жылы ушул эле натыйжага абдан жакын келген, бирок адегенде толук талдоо керек деп эсептегендиктен аны жарыялаган эмес. 1938-жылы ал Гёделге: «Гёделдин теоремасын 1921-жылы ачмакмын — эгер Гёдель болсом», — деп жазган.\n\nДалилдөөнүн өзү да бир аз бүтпөй калган. Экинчи теореманы Гёдель жалпы жонунан гана көрсөткөн; биринчи толук жарыяланган далилдөө 1939-жылы Гильберт менен Бернайстын «Математиканын негиздери» китебинин негизинен Бернайс жазган экинчи томунда чыккан. Биринчи теоремадагы кошумча божомолду болсо 1936-жылы Джон Баркли Россер алып салды, ошондо натыйжа дээрлик азыркы түрүнө келди.\n\n### Эмнеге жол ачты\n\n![Давид Гильберттин Гёттингендеги мүрзөсү: «Wir müssen wissen. Wir werden wissen.» деген сөздөр оюлган таш](https://upload.wikimedia.org/wikipedia/commons/f/f5/Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg \"Julian Herzog ( Website ) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Grave_of_David_Hilbert_at_Stadtfriedhof_G%C3%B6ttingen_2017.jpg\")\n\nГильберттин программасын ал ойлогондой ишке ашыруу мүмкүн эмес болуп калды: арифметикага жетиштүү күчтүү бир да система өзүнүн ишенимдүүлүгүн өзү тастыктай албайт. Иш башка түрдө уланды. 1936-жылы Герхард Генцен арифметиканын карама-каршылыксыздыгын арифметиканын өзүнөн чыгып кеткен ой жүгүртүү менен далилдеди. Гильберттин «Биз билишибиз керек. Биз билебиз» деген сөздөрү Гёттингендеги мүрзө ташында жазылуу.\n\nГёделдин коддоосу — эрежени, формуланы, бүтүндөй бир ыкманы сан катары жазуу — эсептөө теориясынын үрөндөрүнүн бири болуп чыкты. Будапешттеги Рожа Петер досу Ласло Кальмардын үндөөсү менен Гёделдин эмгегин изилдеп, анын натыйжаларына өзүнүн далилдөөлөрүн тапты жана кадам-кадам менен эмнени эсептөөгө боло турганын так изилдеген рекурсивдүү функциялар теориясынын негиздөөчүлөрүнүн бири болду. 1936-жылы Алонзо Чёрч менен Алан Тьюринг ошол эле өзүнө шилтеме кылуу аркылуу кээ бир суроолорду эч кандай механикалык ыкма менен чечүүгө болбой турганын көрсөтүштү; башка машинанын сыпаттамасын маалымат катары окуган Тьюрингдин универсалдуу машинасы Гёделдин коддоосу менен бир эле ойго таянат. Альфред Тарский Гёделден көз карандысыз түрдө арифметикадагы чындыкты арифметиканын ичинде аныктоого болбой турганын көрсөттү.\n\nКийин чечилбеген ырастоолор математиктер чындап иштеген жерлерден да табылды. 1940-жылы Гёдель континуум-гипотезаны — чексиз топтомдордун чоңдугу тууралуу суроону — топтомдор теориясынын стандарттуу аксиомаларынан жокко чыгарууга болбой турганын көрсөттү, ал эми 1963-жылы Пол Коэн аны алардан далилдөөгө да болбой турганын көрсөттү. 1977-жылы Джефф Парис менен Лео Харрингтон айкалыштар тууралуу табигый көрүнгөн, туура, бирок кадимки арифметикада далилденбеген ырастоону табышты.\n\n> [!WARNING]\n> Бул теоремаларды көп учурда алар айткандан алда канча ашыра түшүндүрүшөт. Алар математика бузук экенин же чындык жөн гана пикир экенин көрсөтпөйт жана жетиштүү арифметиканы камтыган формалдуу системаларга гана тиешелүү. Жөнөкөйүрөөк системалар толук боло алат: 1929-жылы Варшавадагы студент Мойжеш Пресбургер кошуу амалы гана бар арифметика үчүн ар бир ырастоону чечүүгө боло турган система берген. Теоремалар адамдын акыл-эси же Кудай тууралуу бир нерсени далилдейт деген пикирлер талаштуу бойдон калууда.\n\nГёдель Принстондогу Алдыңкы изилдөөлөр институтуна көчүп барып, ал жерде Альберт Эйнштейндин жакын досу болду, ал эми 1948-жылы Америка Кошмо Штаттарынын жараны болду. Ал өзүн ууландырышат деп ишенип, тамак жегенден баш тартып, 1978-жылдын 14-январында Принстондо каза болгон.",
+      "why_it_matters": "Гёдель туруктуу эрежелер системасынын ичиндеги далилдөө баарын камтый албай турганын жана мындай система өзүнүн ишенимдүүлүгүнө өзү кепил боло албасын көрсөттү. Формулаларды жана далилдөөлөрдү сан менен жазуу ыкмасы беш жылдан кийин Чёрч менен Тьюрингдин эсептөө теориясынын башталышы болду.",
+      "if_you_were_there": "Гильберт жана анын жолдоочулары жакында бүт математика бир гана эрежелер топтомуна таянат жана анда карама-каршылык жок экени биротоло көрсөтүлөт деп күтүп жатышат. Венадан келген 24 жаштагы унчукпаган жигит муну жасоого мүмкүн эмес экенин дээрлик жөн эле айта салат.",
+      "place_name": "Вена",
+      "status": "machine"
+    }
+  }
+}
