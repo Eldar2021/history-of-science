@@ -1,0 +1,267 @@
+{
+  "slug": "laser",
+  "year": 1960,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 34.045,
+  "lng": -118.693,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/7/7d/5_Maiman_Laser_Components.jpg",
+    "credit": "Guy Immega",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg"
+  },
+  "disciplines": [
+    "physics",
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "theodore-maiman",
+      "birth_year": 1927,
+      "death_year": 2007,
+      "role": "author",
+      "name": {
+        "en": "Theodore Maiman",
+        "tr": "Theodore Maiman",
+        "ru": "Теодор Мейман",
+        "ky": "Теодор Мейман"
+      }
+    },
+    {
+      "slug": "irnee-dhaenens",
+      "birth_year": null,
+      "death_year": 2007,
+      "role": "collaborator",
+      "name": {
+        "en": "Irnee D'Haenens",
+        "tr": "Irnee D'Haenens",
+        "ru": "Ирни Д’Аненс",
+        "ky": "Ирни Д’Аненс"
+      }
+    },
+    {
+      "slug": "charles-townes",
+      "birth_year": 1915,
+      "death_year": 2015,
+      "role": "predecessor",
+      "name": {
+        "en": "Charles Townes",
+        "tr": "Charles Townes",
+        "ru": "Чарлз Таунс",
+        "ky": "Чарлз Таунс"
+      }
+    },
+    {
+      "slug": "arthur-schawlow",
+      "birth_year": 1921,
+      "death_year": 1999,
+      "role": "predecessor",
+      "name": {
+        "en": "Arthur Schawlow",
+        "tr": "Arthur Schawlow",
+        "ru": "Артур Шавлов",
+        "ky": "Артур Шавлов"
+      }
+    },
+    {
+      "slug": "gordon-gould",
+      "birth_year": 1920,
+      "death_year": 2005,
+      "role": "rival",
+      "name": {
+        "en": "Gordon Gould",
+        "tr": "Gordon Gould",
+        "ru": "Гордон Гулд",
+        "ky": "Гордон Гулд"
+      }
+    },
+    {
+      "slug": "nikolay-basov",
+      "birth_year": 1922,
+      "death_year": 2001,
+      "role": "predecessor",
+      "name": {
+        "en": "Nikolay Basov",
+        "tr": "Nikolay Basov",
+        "ru": "Николай Басов",
+        "ky": "Николай Басов"
+      }
+    },
+    {
+      "slug": "alexander-prokhorov",
+      "birth_year": 1916,
+      "death_year": 2002,
+      "role": "predecessor",
+      "name": {
+        "en": "Alexander Prokhorov",
+        "tr": "Aleksandr Prohorov",
+        "ru": "Александр Прохоров",
+        "ky": "Александр Прохоров"
+      }
+    },
+    {
+      "slug": "valentin-fabrikant",
+      "birth_year": 1907,
+      "death_year": 1991,
+      "role": "predecessor",
+      "name": {
+        "en": "Valentin Fabrikant",
+        "tr": "Valentin Fabrikant",
+        "ru": "Валентин Фабрикант",
+        "ky": "Валентин Фабрикант"
+      }
+    },
+    {
+      "slug": "albert-einstein",
+      "birth_year": 1879,
+      "death_year": 1955,
+      "role": "predecessor",
+      "name": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein",
+        "ru": "Альберт Эйнштейн",
+        "ky": "Альберт Эйнштейн"
+      }
+    },
+    {
+      "slug": "ali-javan",
+      "birth_year": 1926,
+      "death_year": 2016,
+      "role": "successor",
+      "name": {
+        "en": "Ali Javan",
+        "tr": "Ali Javan",
+        "ru": "Али Джаван",
+        "ky": "Али Джаван"
+      }
+    },
+    {
+      "slug": "zhores-alferov",
+      "birth_year": 1930,
+      "death_year": 2019,
+      "role": "successor",
+      "name": {
+        "en": "Zhores Alferov",
+        "tr": "Jores Alferov",
+        "ru": "Жорес Алфёров",
+        "ky": "Жорес Алфёров"
+      }
+    }
+  ],
+  "builds_on": [
+    "planck-quantum",
+    "quantum-mechanics"
+  ],
+  "sources": [
+    {
+      "title": "Laser — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/technology/laser"
+    },
+    {
+      "title": "Laser (History section) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Laser"
+    },
+    {
+      "title": "Theodore Maiman — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Theodore_Maiman"
+    },
+    {
+      "title": "Gordon Gould — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gordon_Gould"
+    },
+    {
+      "title": "Nikolay Basov — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nikolay_Basov"
+    },
+    {
+      "title": "Valentin Fabrikant — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Valentin_Fabrikant"
+    },
+    {
+      "title": "Ali Javan — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ali_Javan"
+    },
+    {
+      "title": "And then there was light — Physics World (Jeff Hecht, 50th anniversary of the laser)",
+      "kind": "article",
+      "url": "https://physicsworld.com/a/and-then-there-was-light/"
+    },
+    {
+      "title": "May 16, 1960: Maiman Builds First Working Laser — APS News, This Month in Physics History",
+      "kind": "article",
+      "url": "https://www.aps.org/apsnews/2010/05/physics-history"
+    },
+    {
+      "title": "HRL designated Physics Historic Site by the APS (press release, 2010)",
+      "kind": "article",
+      "url": "https://www.hrl.com/hrlDocs/pressreleases/2010/prsRls_100413.html"
+    },
+    {
+      "title": "Irnee D'Haenens dies; assisted in making first laser — Laser Focus World",
+      "kind": "article",
+      "url": "https://www.laserfocusworld.com/home/article/16545957/irnee-dhaenens-dies-assisted-in-making-first-laser"
+    },
+    {
+      "title": "T. H. Maiman, \"Stimulated Optical Radiation in Ruby\", Nature 187, 493–494 (6 August 1960)",
+      "kind": "paper",
+      "url": "https://www.nature.com/articles/187493a0"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1964 — NobelPrize.org",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/physics/1964/summary/"
+    }
+  ],
+  "research_note": "Drafted 2026-11-03 by the pipeline. Sources read: English Wikipedia (Laser history; Theodore Maiman; Gordon Gould; Nikolay Basov; Valentin Fabrikant; Ali Javan), Physics World 'And then there was light' (Jeff Hecht), HRL's 2010 APS Historic Site press release, Laser Focus World's D'Haenens obituary. APS News and NobelPrize.org returned 403 to automated fetch and Britannica blocks automation: all three are linked for the human reviewer, the two-source threshold is met by the others. Images: licences read from the Commons API via commons.mjs (cover CC0 Guy Immega, original Maiman laser components; diagram public domain US Gov; Townes with first maser public domain Dan Rubin). 'Maiman with the first laser.jpg' was skipped: author line 'Unknown author'.\nCONFIRMED: 16 May 1960, Hughes Research Laboratories, Malibu (Wikipedia, HRL release, APS plaque text, Physics World); ruby rod about 1 x 2 cm inside a spiral flash lamp, silvered ends, lasing above about 950 V (Physics World); Wieder's ~1% fluorescence efficiency and Maiman's remeasurement 'closer to 75%' (Physics World); Schawlow's September 1959 public statement that pink ruby could not work (Physics World); PRL (Goudsmit) rejection, Nature 6 August 1960 'Stimulated Optical Radiation in Ruby' (Wikipedia, Physics World); 7 July 1960 press conference, 'death ray' headline (Wikipedia, Physics World); Gould's November 1957 notebook, notarized, first recorded use of LASER, patent fight with first major patent 1977 and first big enforcement win 1987 (Wikipedia); Schawlow–Townes patent granted 1960; Basov and Prokhorov 1952 presentation / 1954 publication and 1955 three-level proposal; Javan, Bennett, Herriott first gas laser (He–Ne, continuous) on 12 December 1960 (Physics World date); Hall 1962 GaAs semiconductor laser; Alferov and Hayashi–Panish 1970 room-temperature continuous diode lasers; 1964 Nobel citation.\nFLAGGED IN BODY: the ruby efficiency figure is given as 'around 75 percent in the most widely repeated account' (one SPIE account says later measurements gave close to 100%); the PRL 'just another maser paper' wording is introduced as 'by one account'; the 'solution looking for a problem' joke is attributed to D'Haenens with a note that the wording varies (Laser Focus World vs Hecht's 'in need of a problem'); Fabrikant's proposal is dated 'around 1939–1940' because sources split between his 1939 dissertation and 1940 publication — Wikipedia's article on him gives no exact year.\nFACT-CHECKER (2026-11-03): maser date softened to 1953–54; semiconductor laser credited to several US groups in 1962 (Hall, Nathan at IBM, Quist at Lincoln, Holonyak), not Hall alone; Lunokhod reflectors added beside Apollo; LIGO superlative 'most sensitive instrument ever built' removed; Townes photo caption softened from 'the first maser' to 'an early maser' because Commons dates it June 1958 while its source is reportedly a June 1955 magazine cover; Nobel citation is quoted in its opening clause only (the full citation continues '...which has led to the construction of oscillators and amplifiers based on the maser-laser principle'). REVIEWER SHOULD CHECK: Irnee D'Haenens's birth year (death 2007 per the Laser Focus World obituary, aged 73, so born 1933 or 1934; left null); the maser date (Wikipedia's Laser article says 1953, most accounts say first operation 1953–54 and publication 1954; body says 1954); that the Commons cover shows parts of an original Maiman laser (the file description says 'Components of original ruby laser'); Kyrgyz terms coined for this event (see report).",
+  "translations": {
+    "en": {
+      "title": "Maiman fires the first laser",
+      "summary": "In May 1960 a fingertip-sized ruby rod inside a flash lamp gave out the first laser light: one colour, one direction, all in step. Einstein had predicted the effect 43 years earlier.",
+      "why_it_matters": "Ordinary light scatters; the laser made light that stays narrow, pure in colour and controllable. That one property now carries the internet through glass fibres, reads barcodes, cuts metal, repairs eyes and measures the universe, down to gravitational waves.",
+      "if_you_were_there": "In 1960 many physicists had written ruby off, and even the people who built the first laser joked that it was a solution looking for a problem.",
+      "place_name": "Malibu, California",
+      "body": "![Components of one of Theodore Maiman's original ruby lasers: the ruby rod, the spiral flash lamp and the polished metal housing](https://upload.wikimedia.org/wikipedia/commons/7/7d/5_Maiman_Laser_Components.jpg \"Guy Immega · CC0 · https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg\")\n\n### The scene\n\nEvery lamp before 1960 made light the same way: heat something, or excite a gas, and let each atom throw off its light whenever it liked, in any direction, at slightly different colours. The result is bright but disorderly, and it spreads out the moment it leaves the bulb.\n\nThe idea for a different kind of light was more than forty years old. In 1917 Albert Einstein, working out how atoms trade energy with light, concluded that there must be a third process besides absorbing and emitting light on their own. An atom that is already holding extra energy can be nudged by a passing particle of light into releasing its own — and the new light leaves as a copy of the old: same colour, same direction, in step. He called it stimulated emission. In 1928 Rudolf Ladenburg in Berlin found indirect signs of it, and around 1939–1940 the Soviet physicist Valentin Fabrikant in Moscow argued that if more atoms could be held in the excited state than in the calm one, a material would amplify light instead of absorbing it. That condition, called population inversion, is the whole trick, and it is unnatural: left alone, matter always keeps most of its atoms calm.\n\nThe first device to pull it off worked with microwaves, not light. In 1953–54 at Columbia University, Charles Townes, James Gordon and Herbert Zeiger ran the maser, an amplifier built on excited ammonia molecules. In Moscow, at the Lebedev Physical Institute, Nikolay Basov and Alexander Prokhorov had worked out the same principle independently, presented it in 1952 and published it in 1954, and in 1955 they proposed the method later lasers would rely on: using three energy levels, so that atoms can be pumped up and piled into a waiting state.\n\n![Charles Townes with an early maser, the microwave amplifier that came before the laser](https://upload.wikimedia.org/wikipedia/commons/9/92/Charles_Townes_and_first_maser.jpg \"Dan Rubin · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Townes_and_first_maser.jpg\")\n\n### What happened\n\nIn 1958 Townes and Arthur Schawlow published a plan for an \"optical maser\": the same amplification, but for visible or infrared light, with two mirrors facing each other so that light runs back and forth through the material and grows on every pass. In November 1957 Gordon Gould, then a graduate student at Columbia, had written down a similar scheme in a notebook, coining the word LASER (light amplification by stimulated emission of radiation), and had the pages notarized. A race followed. Bell Labs had several teams on it, and so did IBM, RCA, Westinghouse, General Electric, MIT's Lincoln Laboratory and Gould's new employer, the company TRG.\n\nThe winner was a smaller effort at Hughes Research Laboratories in Malibu, California. Theodore Maiman, a physicist who had already built a compact ruby maser, chose synthetic ruby — aluminium oxide with a trace of chromium — although the experts had written it off. In 1959 Irwin Wieder, a scientist Maiman himself had trained, reported that ruby turned only about 1 percent of the light it absorbed into fluorescence, and Schawlow said publicly that pink ruby could not work as a laser. Maiman measured again and found the figure far higher, around 75 percent in the most widely repeated account.\n\nHis design was small enough to hold in one hand. A ruby rod about one by two centimetres, its ends coated with silver to act as mirrors, sat inside a spiral flash lamp, the most powerful kind then available. On 16 May 1960, with his assistant Irnee D'Haenens, Maiman raised the voltage on the lamp. Above about 950 volts the light coming out of the ruby changed: a sharp burst of deep red, all one colour, far brighter than the ruby's ordinary glow. That was the first laser.\n\n![Diagram of the original ruby laser: a ruby rod with mirrored ends inside a coiled flash lamp](https://upload.wikimedia.org/wikipedia/commons/4/44/Diagram_of_the_original_ruby_laser%2C_annotated.png \"US Gov · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_of_the_original_ruby_laser,_annotated.png\")\n\nA useful picture: ordinary light is a crowd in a square, everyone talking at once; laser light is a choir holding one note together. The comparison breaks in one place: in a choir every singer is separate and chooses to follow the others, while in a laser each new wave of light is created by the one passing by, as an exact copy.\n\n### Why it was hard\n\nThe theory had been settled for decades; the obstacle was matter. Population inversion has to be forced against nature, which takes a burst of energy bigger than most light sources could deliver, a material that holds its excited atoms long enough, and mirrors aligned closely enough that light keeps building instead of leaking away. Maiman's ruby only worked in pulses, because the flash lamp could not keep up the push continuously.\n\nRecognition was not smooth either. Physical Review Letters turned his short paper down — by one account as \"just another maser paper\" — and the result appeared instead in Nature on 6 August 1960. Hughes had already announced the device at a press conference on 7 July, and one newspaper headline called it a science-fiction death ray. A joke attributed to D'Haenens, quoted in slightly different words, stuck for years: the laser was \"a solution looking for a problem\". The question of who invented it lasted even longer. Schawlow and Townes received the main patent in 1960; Gould fought for close to thirty years and won his first major patents only in 1977 and his first big infringement case in 1987.\n\n### What it opened\n\nThe others followed within months. On 12 December 1960 at Bell Labs, Ali Javan, an Iranian-born physicist, with William Bennett and Donald Herriott, ran the first gas laser, a mixture of helium and neon that shone continuously instead of in flashes. In 1962 several American groups, among them Robert Hall's at General Electric, made lasers from semiconductor chips within weeks of one another, and Basov's group in Moscow built one soon after; around 1970 Zhores Alferov in Leningrad, and independently Izuo Hayashi and Morton Panish at Bell Labs, made such chips run continuously at room temperature. That tiny form is the one most people own.\n\nIn 1964 Townes, Basov and Prokhorov shared the Nobel Prize in Physics \"for fundamental work in the field of quantum electronics\". Maiman, who built the first working laser, did not receive one.\n\nThe \"solution\" found its problems. Laser light reads supermarket barcodes and music discs, carries most of the world's internet traffic through glass fibres, cuts steel, reshapes the cornea in eye surgery, and measures the distance to the Moon by bouncing off reflectors left there by the Apollo astronauts and the Soviet Lunokhod rovers. In 2015 two giant laser interferometers in the United States picked up gravitational waves.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Maiman ilk lazeri çalıştırdı",
+      "summary": "Mayıs 1960'ta flaş lambası içindeki parmak ucu kadar bir yakut çubuk ilk lazer ışığını verdi: tek renk, tek yön, aynı adımda. Einstein bu etkiyi 43 yıl önce öngörmüştü.",
+      "why_it_matters": "Sıradan ışık dağılır; lazer dar kalan, rengi saf ve denetlenebilir bir ışık yaptı. Bugün bu tek özellik interneti cam liflerden taşıyor, barkod okuyor, metal kesiyor, göz onarıyor ve evreni ölçüyor, kütleçekim dalgalarına kadar.",
+      "if_you_were_there": "1960'ta pek çok fizikçi yakutu gözden çıkarmıştı; ilk lazeri yapanlar bile onun sorun arayan bir çözüm olduğunu söyleyip şaka yapıyordu.",
+      "place_name": "Malibu, Kaliforniya",
+      "body": "![Theodore Maiman'ın özgün yakut lazerlerinden birinin parçaları: yakut çubuk, sarmal flaş lambası ve parlatılmış metal gövde](https://upload.wikimedia.org/wikipedia/commons/7/7d/5_Maiman_Laser_Components.jpg \"Guy Immega · CC0 · https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg\")\n\n### Sahne\n\n1960'tan önceki her lamba ışığı aynı yoldan üretiyordu: bir şeyi ısıt ya da bir gazı uyar, sonra her atom ışığını ne zaman isterse, hangi yöne isterse, biraz farklı renklerde saçsın. Sonuç parlak ama dağınıktır; ampulden çıktığı anda yayılır.\n\nBaşka türlü bir ışık fikri kırk yıldan eskiydi. 1917'de Albert Einstein, atomların ışıkla enerji alışverişini hesaplarken, ışığı kendiliğinden soğurmak ve yaymak dışında üçüncü bir süreç olması gerektiği sonucuna vardı. Fazla enerji taşıyan bir atom, yanından geçen bir ışık parçacığının dürtmesiyle kendi enerjisini bırakabilir — ve yeni ışık eskisinin kopyası olarak çıkar: aynı renk, aynı yön, aynı adımda. Einstein buna uyarılmış yayılım dedi. 1928'de Berlin'de Rudolf Ladenburg bunun dolaylı izlerini buldu; 1939–1940 civarında Moskova'da Sovyet fizikçi Valentin Fabrikant, eğer uyarılmış durumda sakin durumdakinden daha çok atom tutulabilirse maddenin ışığı soğurmak yerine güçlendireceğini savundu. Nüfus terslenmesi denen bu koşul işin bütün sırrıdır ve doğaya aykırıdır: kendi hâline bırakılan madde atomlarının çoğunu hep sakin tutar.\n\nBunu ilk başaran aygıt ışıkla değil mikrodalgalarla çalıştı. 1953–54'te Columbia Üniversitesi'nde Charles Townes, James Gordon ve Herbert Zeiger, uyarılmış amonyak molekülleri üzerine kurulu bir yükselteç olan maseri çalıştırdı. Moskova'da, Lebedev Fizik Enstitüsü'nde Nikolay Basov ile Aleksandr Prohorov aynı ilkeyi bağımsız olarak geliştirmiş, 1952'de sunup 1954'te yayımlamışlardı; 1955'te de sonraki lazerlerin dayanacağı yöntemi önerdiler: üç enerji düzeyi kullanmak, böylece atomları yukarı pompalayıp bekleyen bir durumda biriktirmek.\n\n![Lazerden önce gelen mikrodalga yükselteci, erken bir maserle Charles Townes](https://upload.wikimedia.org/wikipedia/commons/9/92/Charles_Townes_and_first_maser.jpg \"Dan Rubin · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Townes_and_first_maser.jpg\")\n\n### Ne oldu\n\n1958'de Townes ve Arthur Schawlow bir \"optik maser\" planı yayımladılar: aynı güçlendirme, ama görünür ya da kızılötesi ışık için; karşılıklı iki ayna, ışık madde içinde gidip gelsin ve her geçişte büyüsün diye. Columbia'da doktora öğrencisi olan Gordon Gould ise Kasım 1957'de benzer bir düzeneği defterine yazmış, LASER sözcüğünü (uyarılmış ışınım yayılımıyla ışık güçlendirme) ilk kez kullanmış ve sayfaları noterde onaylatmıştı. Ardından bir yarış başladı. Bell Labs'in birkaç ekibi vardı; IBM, RCA, Westinghouse, General Electric, MIT'nin Lincoln Laboratuvarı ve Gould'un yeni işvereni TRG şirketi de yarıştaydı.\n\nKazanan, Kaliforniya'nın Malibu kentindeki Hughes Araştırma Laboratuvarları'nda daha küçük bir çalışma oldu. Daha önce küçük bir yakut maser yapmış olan fizikçi Theodore Maiman, uzmanların gözden çıkardığı sentetik yakutu — içinde eser miktarda krom bulunan alüminyum oksit — seçti. 1959'da Maiman'ın kendi yetiştirdiği Irwin Wieder, yakutun soğurduğu ışığın yalnızca yüzde 1 kadarını floresan ışığa çevirdiğini bildirmişti; Schawlow da pembe yakutun lazer olamayacağını açıkça söylemişti. Maiman yeniden ölçtü ve oranı çok daha yüksek buldu; en sık aktarılan anlatıma göre yüzde 75 civarında.\n\nDüzeneği tek elde tutulacak kadar küçüktü. Uçları ayna olsun diye gümüşle kaplanmış, yaklaşık bir santimetreye iki santimetrelik bir yakut çubuk, o zaman bulunabilen en güçlü tür olan sarmal bir flaş lambasının içine yerleştirilmişti. 16 Mayıs 1960'ta Maiman, asistanı Irnee D'Haenens ile birlikte lambanın gerilimini yükseltti. Yaklaşık 950 voltun üstünde yakuttan çıkan ışık değişti: tek renkli, yakutun sıradan parıltısından çok daha parlak, keskin bir koyu kırmızı patlama. Bu ilk lazerdi.\n\n![Özgün yakut lazerin şeması: sarmal bir flaş lambasının içinde uçları aynalı bir yakut çubuk](https://upload.wikimedia.org/wikipedia/commons/4/44/Diagram_of_the_original_ruby_laser%2C_annotated.png \"US Gov · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_of_the_original_ruby_laser,_annotated.png\")\n\nKullanışlı bir benzetme: sıradan ışık, herkesin aynı anda konuştuğu bir meydan kalabalığıdır; lazer ışığı ise tek bir notayı birlikte tutan bir korodur. Benzetme bir yerde bozulur: korodaki her şarkıcı ayrı biridir ve ötekilere uymayı kendisi seçer; lazerde ise her yeni ışık dalgası yanından geçen dalga tarafından, onun tıpatıp kopyası olarak yaratılır.\n\n### Neden zordu\n\nKuram on yıllardır hazırdı; engel maddeydi. Nüfus terslenmesi doğaya karşı zorla kurulur. Bunun için çoğu ışık kaynağının veremeyeceği büyüklükte bir enerji patlaması, uyarılmış atomlarını yeterince uzun tutan bir madde ve ışık sızıp kaybolmak yerine büyümeye devam etsin diye çok hassas hizalanmış aynalar gerekir. Maiman'ın yakutu yalnızca darbeler hâlinde çalıştı, çünkü flaş lambası itişi kesintisiz sürdüremiyordu.\n\nTanınması da kolay olmadı. Physical Review Letters onun kısa makalesini geri çevirdi — bir anlatıma göre \"bir maser makalesi daha\" diyerek — ve sonuç bunun yerine 6 Ağustos 1960'ta Nature'da yayımlandı. Hughes aygıtı 7 Temmuz'da bir basın toplantısıyla duyurmuştu bile; bir gazete manşeti onu bilimkurgu ölüm ışını diye andı. D'Haenens'e atfedilen ve biraz farklı sözcüklerle aktarılan bir şaka yıllarca dilde kaldı: lazer \"sorun arayan bir çözüm\"dü. Kimin icat ettiği sorusu daha da uzun sürdü. Ana patenti 1960'ta Schawlow ve Townes aldı; Gould otuz yıla yakın mücadele etti, ilk büyük patentlerini ancak 1977'de, ilk büyük ihlal davasını 1987'de kazandı.\n\n### Sonrası\n\nÖtekiler aylar içinde geldi. 12 Aralık 1960'ta Bell Labs'te İran doğumlu fizikçi Ali Javan, William Bennett ve Donald Herriott ile birlikte ilk gaz lazerini çalıştırdı: flaşlar hâlinde değil, kesintisiz ışıyan bir helyum-neon karışımı. 1962'de aralarında General Electric'ten Robert Hall'un ekibinin de bulunduğu birkaç Amerikan grubu, birkaç hafta arayla yarı iletken yongalardan lazer yaptı; Basov'un Moskova'daki ekibi de kısa süre sonra bir tane kurdu; 1970 civarında Leningrad'da Jores Alferov, bağımsız olarak da Bell Labs'te Izuo Hayashi ve Morton Panish bu yongaları oda sıcaklığında kesintisiz çalıştırmayı başardı. Çoğu insanın elindeki lazer bu küçük biçimdir.\n\n1964'te Townes, Basov ve Prohorov Nobel Fizik Ödülü'nü \"kuantum elektroniği alanındaki temel çalışmaları için\" paylaştı. İlk çalışan lazeri yapan Maiman bu ödülü almadı.\n\n\"Çözüm\" sorunlarını buldu. Lazer ışığı market barkodlarını ve müzik disklerini okur, dünyadaki internet trafiğinin çoğunu cam liflerden taşır, çelik keser, göz ameliyatında korneayı yeniden biçimlendirir ve Apollo astronotlarının ve Sovyet Lunohod araçlarının bıraktığı yansıtıcılardan sekerek Ay'a uzaklığı ölçer. 2015'te ABD'deki iki dev lazer interferometresi kütleçekim dalgalarını yakaladı.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Мейман запустил первый лазер",
+      "summary": "В мае 1960 года рубиновый стержень размером с кончик пальца внутри лампы-вспышки дал первый лазерный свет: один цвет, одно направление, всё в такт. Эйнштейн предсказал это за 43 года.",
+      "why_it_matters": "Обычный свет рассеивается; лазер дал свет узкий, чистого цвета и управляемый. Сегодня это одно свойство несёт интернет по стеклянным волокнам, читает штрихкоды, режет металл, лечит глаза и измеряет Вселенную — вплоть до гравитационных волн.",
+      "if_you_were_there": "В 1960 году многие физики списали рубин со счетов, и даже создатели первого лазера шутили, что это решение, которое ищет задачу.",
+      "place_name": "Малибу, Калифорния",
+      "body": "![Детали одного из первых рубиновых лазеров Теодора Меймана: рубиновый стержень, спиральная лампа-вспышка и полированный металлический корпус](https://upload.wikimedia.org/wikipedia/commons/7/7d/5_Maiman_Laser_Components.jpg \"Guy Immega · CC0 · https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg\")\n\n### Обстановка\n\nДо 1960 года любая лампа делала свет одним и тем же способом: нагреть что-нибудь или возбудить газ — и пусть каждый атом испускает свет когда захочет, куда захочет и чуть-чуть другого цвета. Получается ярко, но беспорядочно, и такой свет расходится, едва покинув колбу.\n\nИдее другого света было больше сорока лет. В 1917 году Альберт Эйнштейн, разбираясь в том, как атомы обмениваются энергией со светом, пришёл к выводу, что кроме самопроизвольного поглощения и излучения должен существовать третий процесс. Атом, уже несущий лишнюю энергию, может под толчком пролетающей частицы света отдать свою — и новый свет выходит копией старого: того же цвета, в том же направлении, в такт. Эйнштейн назвал это вынужденным излучением. В 1928 году Рудольф Ладенбург в Берлине нашёл его косвенные следы, а около 1939–1940 годов советский физик Валентин Фабрикант в Москве показал: если удержать в возбуждённом состоянии больше атомов, чем в спокойном, вещество будет не поглощать свет, а усиливать его. Это условие, инверсия населённостей, и есть весь секрет — и оно противоестественно: предоставленное самому себе, вещество всегда держит большинство атомов в спокойном состоянии.\n\nПервое устройство, которому это удалось, работало не со светом, а с микроволнами. В 1953–1954 годах в Колумбийском университете Чарлз Таунс, Джеймс Гордон и Герберт Цейгер запустили мазер — усилитель на возбуждённых молекулах аммиака. В Москве, в Физическом институте имени Лебедева, Николай Басов и Александр Прохоров независимо разработали тот же принцип, доложили его в 1952 году и опубликовали в 1954-м, а в 1955 году предложили метод, на котором потом держались лазеры: три уровня энергии, чтобы атомы можно было «накачать» вверх и накопить в ждущем состоянии.\n\n![Чарлз Таунс с одним из первых мазеров — микроволновым усилителем, предшественником лазера](https://upload.wikimedia.org/wikipedia/commons/9/92/Charles_Townes_and_first_maser.jpg \"Dan Rubin · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Townes_and_first_maser.jpg\")\n\n### Что произошло\n\nВ 1958 году Таунс и Артур Шавлов опубликовали план «оптического мазера»: то же усиление, но для видимого или инфракрасного света, с двумя зеркалами друг напротив друга, чтобы свет ходил туда-обратно сквозь вещество и рос с каждым проходом. Ещё в ноябре 1957 года Гордон Гулд, аспирант Колумбийского университета, записал похожую схему в тетрадь, впервые употребив слово LASER (усиление света вынужденным излучением), и заверил страницы у нотариуса. Началась гонка. У Bell Labs было несколько групп; участвовали также IBM, RCA, Westinghouse, General Electric, Линкольновская лаборатория MIT и новый работодатель Гулда — компания TRG.\n\nПобедила небольшая группа в исследовательских лабораториях Hughes в Малибу, Калифорния. Теодор Мейман, физик, уже построивший компактный рубиновый мазер, выбрал синтетический рубин — оксид алюминия с примесью хрома, — хотя специалисты его списали. В 1959 году Ирвин Видер, учёный, которого Мейман сам когда-то обучал, сообщил, что рубин превращает во флуоресценцию лишь около 1 процента поглощённого света, а Шавлов публично заявил, что розовый рубин не может работать как лазер. Мейман измерил заново и получил гораздо больше — около 75 процентов, по наиболее часто приводимым данным.\n\nЕго прибор помещался в ладони. Рубиновый стержень примерно сантиметр на два, торцы которого были покрыты серебром и служили зеркалами, стоял внутри спиральной лампы-вспышки — самой мощной из доступных тогда. 16 мая 1960 года Мейман вместе со своим ассистентом Ирни Д’Аненсом поднял напряжение на лампе. Выше примерно 950 вольт свет из рубина изменился: резкая вспышка тёмно-красного света одного цвета, гораздо ярче обычного свечения рубина. Это был первый лазер.\n\n![Схема первого рубинового лазера: рубиновый стержень с зеркальными торцами внутри спиральной лампы-вспышки](https://upload.wikimedia.org/wikipedia/commons/4/44/Diagram_of_the_original_ruby_laser%2C_annotated.png \"US Gov · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_of_the_original_ruby_laser,_annotated.png\")\n\nУдобный образ: обычный свет — это толпа на площади, где все говорят разом; лазерный свет — хор, который держит одну ноту. Сравнение ломается в одном месте: в хоре каждый певец отдельный человек и сам решает подстроиться под остальных, а в лазере каждую новую волну света создаёт проходящая мимо волна — как точную копию себя.\n\n### Почему это было трудно\n\nТеория была готова десятилетиями; препятствием было вещество. Инверсию населённостей приходится создавать вопреки природе. Для этого нужны вспышка энергии мощнее, чем могли дать большинство источников света, вещество, которое достаточно долго удерживает возбуждённые атомы, и зеркала, выставленные так точно, чтобы свет нарастал, а не утекал. Рубин Меймана работал только импульсами: лампа-вспышка не могла давать накачку непрерывно.\n\nПризнание тоже пришло не сразу. Physical Review Letters отклонил его короткую статью — по одному рассказу, как «ещё одну статью о мазерах», — и результат вышел 6 августа 1960 года в Nature. Hughes объявила о приборе ещё 7 июля на пресс-конференции, и одна газета назвала его фантастическим «лучом смерти». Шутка, приписываемая Д’Аненсу и пересказываемая в слегка разных словах, прижилась на годы: лазер — это «решение, которое ищет задачу». Спор о том, кто его изобрёл, длился ещё дольше. Главный патент в 1960 году получили Шавлов и Таунс; Гулд боролся почти тридцать лет и выиграл первые крупные патенты лишь в 1977 году, а первое большое дело о нарушении патента — в 1987-м.\n\n### Что это открыло\n\nОстальные появились за считанные месяцы. 12 декабря 1960 года в Bell Labs уроженец Ирана Али Джаван вместе с Уильямом Беннеттом и Дональдом Эрриоттом запустил первый газовый лазер — на смеси гелия и неона, светивший не вспышками, а непрерывно. В 1962 году несколько американских групп, среди них группа Роберта Холла в General Electric, с разницей в несколько недель сделали лазеры из полупроводниковых кристаллов; вскоре такой же построила группа Басова в Москве; около 1970 года Жорес Алфёров в Ленинграде и независимо от него Идзуо Хаяси и Мортон Паниш в Bell Labs заставили такие кристаллы работать непрерывно при комнатной температуре. Именно эта крошечная форма лазера есть сегодня почти у каждого.\n\nВ 1964 году Таунс, Басов и Прохоров разделили Нобелевскую премию по физике «за фундаментальные работы в области квантовой электроники». Мейман, построивший первый работающий лазер, её не получил.\n\n«Решение» нашло свои задачи. Лазерный свет читает штрихкоды в магазинах и музыкальные диски, несёт большую часть мирового интернет-трафика по стеклянным волокнам, режет сталь, исправляет форму роговицы в глазной хирургии и измеряет расстояние до Луны, отражаясь от отражателей, оставленных астронавтами «Аполлона» и советскими луноходами. В 2015 году два огромных лазерных интерферометра в США уловили гравитационные волны.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Мейман биринчи лазерди иштетти",
+      "summary": "1960-жылдын майында жарк этме лампанын ичиндеги манжанын учундай рубин таякча биринчи лазер жарыгын берди: бир түс, бир багыт, бир ыргак. Эйнштейн муну 43 жыл мурун алдын ала айткан.",
+      "why_it_matters": "Кадимки жарык чачырап кетет; лазер ичке, түсү таза жана башкарылуучу жарыкты берди. Бүгүн ушул бир касиет интернетти айнек жипчелер аркылуу ташыйт, штрих-код окуйт, металл кесет, көздү дарылайт жана ааламды гравитациялык толкундарга чейин өлчөйт.",
+      "if_you_were_there": "1960-жылы көп физиктер рубинди четке кагышкан, ал тургай биринчи лазерди курган адамдар да аны маселе издеген чечим деп тамашалашчу.",
+      "place_name": "Малибу, Калифорния",
+      "body": "![Теодор Меймандын алгачкы рубин лазерлеринин биринин бөлүктөрү: рубин таякча, спираль түрүндөгү жарк этме лампа жана жылтыратылган металл корпус](https://upload.wikimedia.org/wikipedia/commons/7/7d/5_Maiman_Laser_Components.jpg \"Guy Immega · CC0 · https://commons.wikimedia.org/wiki/File:5_Maiman_Laser_Components.jpg\")\n\n### Окуя болгон жер жана маал\n\n1960-жылга чейин ар бир лампа жарыкты бир эле жол менен чыгарчу: бир нерсени ысытып же газды козгоп, андан кийин ар бир атом өз жарыгын каалаган убакта, каалаган тарапка, бир аз башка түстө чачат. Натыйжада жарык ачык, бирок башаламан болот жана лампадан чыгары менен жайылып кетет.\n\nБашка түрдөгү жарык жөнүндөгү идея кырк жылдан ашык убакыт мурун эле пайда болгон. 1917-жылы Альберт Эйнштейн атомдор жарык менен энергия кантип алмашаарын эсептеп жатып, жарыкты өзүнөн өзү жутуу жана чыгаруудан тышкары үчүнчү бир процесс болушу керек деген жыйынтыкка келген. Ашыкча энергиясы бар атом жанынан өтүп бара жаткан жарык бөлүкчөсүнүн түрткүсү менен өз энергиясын бошотушу мүмкүн — жаңы жарык эскисинин көчүрмөсү болуп чыгат: ошол эле түс, ошол эле багыт, бир ыргакта. Эйнштейн муну мажбурлап чыгаруу деп атаган. 1928-жылы Берлинде Рудольф Ладенбург анын кыйыр издерин тапкан, ал эми болжол менен 1939–1940-жылдары Москвада совет физиги Валентин Фабрикант мындай пикирди айткан: эгер козголгон абалда тынч абалдагыга караганда көбүрөөк атом кармалып турса, зат жарыкты жутпай, тескерисинче, күчөтөт. Калктын инверсиясы деп аталган бул шарт — бүт сырдын өзү, жана ал табиятка каршы: өз алдынча калган зат атомдорунун көпчүлүгүн дайыма тынч абалда кармайт.\n\nМуну биринчи ишке ашырган түзүлүш жарык менен эмес, микротолкундар менен иштеген. 1953–1954-жылдары Колумбия университетинде Чарлз Таунс, Джеймс Гордон жана Герберт Цейгер мазерди — козголгон аммиак молекулаларына негизделген күчөткүчтү — иштетишкен. Москвада, Лебедев атындагы Физика институтунда Николай Басов менен Александр Прохоров ошол эле принципти өз алдынча иштеп чыгып, 1952-жылы баяндап, 1954-жылы жарыялашкан. 1955-жылы алар кийинки лазерлер таянчу ыкманы сунушташкан: үч энергия деңгээлин колдонуу, ошентип атомдорду жогору «сордуруп», күтүп турган абалга топтоо.\n\n![Лазерден мурун пайда болгон микротолкун күчөткүчү — алгачкы мазерлердин бири менен Чарлз Таунс](https://upload.wikimedia.org/wikipedia/commons/9/92/Charles_Townes_and_first_maser.jpg \"Dan Rubin · Public domain · https://commons.wikimedia.org/wiki/File:Charles_Townes_and_first_maser.jpg\")\n\n### Эмне болду\n\n1958-жылы Таунс менен Артур Шавлов «оптикалык мазердин» планын жарыялашкан: ошол эле күчөтүү, бирок көзгө көрүнгөн же инфракызыл жарык үчүн. Бири-бирине караган эки күзгү жарыкты заттын ичинде ары-бери жүргүзүп, ар бир өткөн сайын күчөтүп турат. Андан мурда, 1957-жылдын ноябрында, Колумбия университетинин аспиранты Гордон Гулд окшош схеманы дептерине жазып, LASER сөзүн (мажбурлап чыгаруу аркылуу жарыкты күчөтүү) биринчи жолу колдонгон жана барактарды нотариуска күбөлөндүргөн. Жарыш башталды. Bell Labs-тын бир нече тобу бар эле; IBM, RCA, Westinghouse, General Electric, MIT-тин Линкольн лабораториясы жана Гулддун жаңы иш берүүчүсү TRG компаниясы да катышкан.\n\nЖарышта Калифорниянын Малибу шаарындагы Hughes изилдөө лабораторияларындагы чакан топ жеңип чыкты. Мурда эле кичинекей рубин мазер курган физик Теодор Мейман адистер четке каккан синтетикалык рубинди — бир аз хром кошулган алюминий оксидин — тандаган. 1959-жылы Мейман өзү үйрөткөн окумуштуу Ирвин Видер рубин жуткан жарыгынын болгону 1 пайызын гана флуоресценцияга айлантат деп билдирген, ал эми Шавлов кызгылт рубин лазер боло албайт деп ачык айткан. Мейман кайра өлчөп, бул көрсөткүчтү бир топ жогору тапкан — эң көп айтылган маалымат боюнча, болжол менен 75 пайыз.\n\nАнын түзүлүшү бир колго батчу. Учтары күзгү болсун деп күмүш менен капталган, болжол менен бир сантиметрге эки сантиметр болгон рубин таякча ошол кездеги эң кубаттуу спираль түрүндөгү жарк этме лампанын ичине коюлган. 1960-жылдын 16-майында Мейман жардамчысы Ирни Д’Аненс менен бирге лампанын чыңалуусун көтөргөн. Болжол менен 950 вольттон жогору рубинден чыккан жарык өзгөргөн: бир түстөгү, рубиндин кадимки жаркыроосунан алда канча ачык, кескин кочкул кызыл жарк. Бул биринчи лазер эле.\n\n![Алгачкы рубин лазердин схемасы: оролгон жарк этме лампанын ичиндеги учтары күзгүлүү рубин таякча](https://upload.wikimedia.org/wikipedia/commons/4/44/Diagram_of_the_original_ruby_laser%2C_annotated.png \"US Gov · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_of_the_original_ruby_laser,_annotated.png\")\n\nЫңгайлуу салыштыруу: кадимки жарык — баары бир убакта сүйлөп жаткан аянттагы эл; лазер жарыгы — бир нотаны бирге кармап турган хор. Салыштыруу бир жерде бузулат: хордогу ар бир ырчы өзүнчө адам жана башкаларга ылайыкташууну өзү тандайт, ал эми лазерде ар бир жаңы жарык толкунун жанынан өтүп бара жаткан толкун так өзүнүн көчүрмөсү катары жаратат.\n\n### Эмне үчүн кыйын болду\n\nТеория ондогон жылдар бою даяр болчу; тоскоол зат болгон. Калктын инверсиясын табиятка каршы күч менен түзүүгө туура келет. Ал үчүн көпчүлүк жарык булактары бере албаган кубаттуу энергия жаркылдоосу, козголгон атомдорун жетиштүү узак кармай алган зат жана жарык агып кетпей, күчөй бериши үчүн абдан так коюлган күзгүлөр керек. Меймандын рубини импульс менен гана иштеген, анткени жарк этме лампа сордурууну үзгүлтүксүз бере алган эмес.\n\nТаануу да оңой болгон жок. Physical Review Letters анын кыска макаласын четке каккан — бир маалымат боюнча, «мазер жөнүндөгү дагы бир макала» деп — жана натыйжа 1960-жылдын 6-августунда Nature журналында жарык көргөн. Hughes түзүлүштү 7-июлда эле пресс-конференцияда жарыялаган, бир гезит аны фантастикалык «өлүм нуру» деп атаган. Д’Аненске таандык кылынган жана бир аз башкача сөздөр менен айтылган тамаша көп жылдар бою унутулган жок: лазер — «маселе издеген чечим». Аны ким ойлоп тапкан деген талаш андан да узакка созулган. Негизги патентти 1960-жылы Шавлов менен Таунс алышкан; Гулд отуз жылга жакын күрөшүп, алгачкы ири патенттерин 1977-жылы гана, патентти бузуу боюнча биринчи чоң сот ишин 1987-жылы утуп алган.\n\n### Эмнеге жол ачты\n\nБашкалары бир нече айдын ичинде пайда болду. 1960-жылдын 12-декабрында Bell Labs-та Иранда төрөлгөн физик Али Джаван Уильям Беннетт жана Дональд Эрриотт менен бирге биринчи газ лазерин иштеткен: жарк этип эмес, үзгүлтүксүз жанган гелий менен неондун аралашмасы. 1962-жылы бир нече америкалык топ, алардын ичинде General Electric-теги Роберт Холлдун тобу, бир нече жуманын ичинде жарым өткөргүч кристаллдардан лазер жасашкан; көп өтпөй Москвада Басовдун тобу да ушундайды курган; болжол менен 1970-жылы Ленинградда Жорес Алфёров, андан көз карандысыз Bell Labs-та Идзуо Хаяси менен Мортон Паниш мындай кристаллдарды бөлмө температурасында үзгүлтүксүз иштетүүгө жетишкен. Көпчүлүк адамдардын колундагы лазер дал ушул кичинекей түрү.\n\n1964-жылы Таунс, Басов жана Прохоров «кванттык электроника тармагындагы негизги иштери үчүн» физика боюнча Нобель сыйлыгын бөлүшкөн. Биринчи иштеген лазерди курган Мейман бул сыйлыкты алган эмес.\n\n«Чечим» өз маселелерин тапты. Лазер нуру дүкөндөрдөгү штрих-коддорду жана музыкалык дисктерди окуйт, дүйнөлүк интернет трафигинин көбүн айнек жипчелер аркылуу ташыйт, болот кесет, көз операциясында көздүн мөлтүр челинин формасын оңдойт жана «Аполлон» астронавттары жана совет луноходдору калтырган чагылдыргычтардан кайтып, Айга чейинки аралыкты өлчөйт. 2015-жылы АКШдагы эки зор лазер интерферометри гравитациялык толкундарды кармаган.",
+      "status": "machine"
+    }
+  }
+}
