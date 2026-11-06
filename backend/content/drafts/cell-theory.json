@@ -1,0 +1,246 @@
+{
+  "slug": "cell-theory",
+  "year": 1838,
+  "year_end": 1839,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 52.52,
+  "lng": 13.405,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Dr._Th._Schwann%2C_Mikroskopische..._Wellcome_L0023903.jpg",
+    "credit": "https://wellcomeimages.org/indexplus/obf_images/0b/2a/ea6e007fe1563eba2f5b5d18200a.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0023903.html Wellcome Collection gallery (2018-03-29): https://wellcomecollection.org/works/q66yqxbs CC-BY-4.0",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dr._Th._Schwann,_Mikroskopische..._Wellcome_L0023903.jpg"
+  },
+  "disciplines": [
+    "biology",
+    "medicine"
+  ],
+  "people": [
+    {
+      "slug": "matthias-jakob-schleiden",
+      "birth_year": 1804,
+      "death_year": 1881,
+      "role": "author",
+      "name": {
+        "en": "Matthias Jakob Schleiden",
+        "tr": "Matthias Jakob Schleiden",
+        "ru": "Маттиас Якоб Шлейден",
+        "ky": "Маттиас Якоб Шлейден"
+      }
+    },
+    {
+      "slug": "theodor-schwann",
+      "birth_year": 1810,
+      "death_year": 1882,
+      "role": "author",
+      "name": {
+        "en": "Theodor Schwann",
+        "tr": "Theodor Schwann",
+        "ru": "Теодор Шванн",
+        "ky": "Теодор Шванн"
+      }
+    },
+    {
+      "slug": "johannes-muller",
+      "birth_year": 1801,
+      "death_year": 1858,
+      "role": "context",
+      "name": {
+        "en": "Johannes Müller",
+        "tr": "Johannes Müller",
+        "ru": "Иоганнес Мюллер",
+        "ky": "Иоганнес Мюллер"
+      }
+    },
+    {
+      "slug": "robert-hooke",
+      "birth_year": 1635,
+      "death_year": 1703,
+      "role": "predecessor",
+      "name": {
+        "en": "Robert Hooke",
+        "tr": "Robert Hooke",
+        "ru": "Роберт Гук",
+        "ky": "Роберт Гук"
+      }
+    },
+    {
+      "slug": "robert-brown",
+      "birth_year": 1773,
+      "death_year": 1858,
+      "role": "predecessor",
+      "name": {
+        "en": "Robert Brown",
+        "tr": "Robert Brown",
+        "ru": "Роберт Броун",
+        "ky": "Роберт Броун"
+      }
+    },
+    {
+      "slug": "henri-dutrochet",
+      "birth_year": 1776,
+      "death_year": 1847,
+      "role": "predecessor",
+      "name": {
+        "en": "Henri Dutrochet",
+        "tr": "Henri Dutrochet",
+        "ru": "Анри Дютроше",
+        "ky": "Анри Дютроше"
+      }
+    },
+    {
+      "slug": "barthelemy-dumortier",
+      "birth_year": 1797,
+      "death_year": 1878,
+      "role": "predecessor",
+      "name": {
+        "en": "Barthélemy Dumortier",
+        "tr": "Barthélemy Dumortier",
+        "ru": "Бартелеми Дюмортье",
+        "ky": "Бартелеми Дюмортье"
+      }
+    },
+    {
+      "slug": "francois-vincent-raspail",
+      "birth_year": 1794,
+      "death_year": 1878,
+      "role": "predecessor",
+      "name": {
+        "en": "François-Vincent Raspail",
+        "tr": "François-Vincent Raspail",
+        "ru": "Франсуа-Венсан Распай",
+        "ky": "Франсуа-Венсан Распай"
+      }
+    },
+    {
+      "slug": "robert-remak",
+      "birth_year": 1815,
+      "death_year": 1865,
+      "role": "successor",
+      "name": {
+        "en": "Robert Remak",
+        "tr": "Robert Remak",
+        "ru": "Роберт Ремак",
+        "ky": "Роберт Ремак"
+      }
+    },
+    {
+      "slug": "rudolf-virchow",
+      "birth_year": 1821,
+      "death_year": 1902,
+      "role": "successor",
+      "name": {
+        "en": "Rudolf Virchow",
+        "tr": "Rudolf Virchow",
+        "ru": "Рудольф Вирхов",
+        "ky": "Рудольф Вирхов"
+      }
+    },
+    {
+      "slug": "albert-kolliker",
+      "birth_year": 1817,
+      "death_year": 1905,
+      "role": "successor",
+      "name": {
+        "en": "Albert Kölliker",
+        "tr": "Albert Kölliker",
+        "ru": "Альберт Кёлликер",
+        "ky": "Альберт Кёлликер"
+      }
+    }
+  ],
+  "builds_on": [
+    "leeuwenhoek-microbes"
+  ],
+  "sources": [
+    {
+      "title": "Cell theory — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Cell_theory"
+    },
+    {
+      "title": "Theodor Schwann — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Theodor_Schwann"
+    },
+    {
+      "title": "Matthias Jacob Schleiden (1804–1881) — The Embryo Project Encyclopedia, Arizona State University",
+      "kind": "encyclopedia",
+      "url": "https://embryo.asu.edu/pages/matthias-jacob-schleiden-1804-1881"
+    },
+    {
+      "title": "P. Mazzarello, 'A unifying concept: the history of cell theory', Nature Cell Biology 1 (1999): E13–E15",
+      "kind": "article",
+      "url": "https://doi.org/10.1038/8964"
+    },
+    {
+      "title": "G. Aubert, 'Theodor Schwann', Université catholique de Louvain (history of medicine pages)",
+      "kind": "other",
+      "url": "https://sites.uclouvain.be/md-histoire/schwann/schwannGA.pdf"
+    },
+    {
+      "title": "'Sketch of Theodor Schwann', Popular Science Monthly 37 (June 1890), with Schwann's own account of the conversation with Schleiden — Wikisource",
+      "kind": "other",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_37/June_1890/Sketch_of_Theodor_Schwann"
+    },
+    {
+      "title": "Robert Remak — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Remak"
+    },
+    {
+      "title": "W. Mendelson, 'Matthias Schleiden and the Genesis of Cell Theory', British Society for the History of Medicine, 2024",
+      "kind": "other",
+      "url": "https://bshm.org.uk/matthias-schleiden-and-the-genesis-of-cell-theory/"
+    },
+    {
+      "title": "Cell theory — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/cell-theory"
+    }
+  ],
+  "research_note": "Checked 2026-11-06 against English Wikipedia (Cell theory; Theodor Schwann; Robert Remak; Dumortier; Raspail), the Embryo Project Encyclopedia (Schleiden), Mazzarello 1999 (Nature Cell Biology), G. Aubert (UCLouvain, Schwann), the 1890 Popular Science Monthly sketch quoting Schwann's own account, and Mendelson (BSHM 2024). Britannica linked for the human reviewer only. Verified adversarially by the fact-checker agent before loading.\nFIXED AFTER FACT-CHECK: (1) Dropped 'Rudolphi and Link 1804 showed separate walls' (Wikipedia only; Sachs' History of Botany says Link and Rudolphi held opposite views, and Moldenhawer 1812 separated cells). (2) Dutrochet: removed the quoted phrase (a translation that varies between sources), paraphrased. (3) NOTE box: removed 'Dumortier stated the idea before Schleiden, who did not credit him' (single ambiguous Wikipedia sentence); Raspail softened to 'similar views in the same years'. (4) Neuron: 'came to be accepted' (Golgi never accepted it). (5) Book title: 'Structure and Growth'. (6) ky: тирүү ачыткы; tr: 'yönettiği dergi'.\nFLAGGED IN THE BODY: the dinner anecdote rests on Schwann's own recollection told decades later; sources date it 1837 or 1838. Where and when Schwann told it (the 1878 Liege jubilee is often assumed) was not confirmed, so the body does not say. Year 1838 exact with year_end 1839: Schleiden's paper 1838, Schwann's book 1839.\nREVIEWER SHOULD CHECK: pepsin year (1835 per Aubert, 1836 per Wikipedia) is written as 'mid-1830s'. Virchow's aphorism is dated 1855 by most sources (Schwann's Wikipedia page says 1857). 'Cytoblastema' as Schwann's own name for the fluid is medium confidence. Leeuwenhoek is credited with red blood cells; Mazzarello notes Swammerdam saw them earlier. The Virchow-plagiarised-Remak view is attributed to 'some historians' (Weindling, Silver). Non-Western contributors: none found for this event, none invented. Kyrgyz term клетка is glossary 'check'.\nIMAGES: cover = Tab. III of the 1839 Mikroskopische Untersuchungen (Wellcome, CC BY 4.0). Body: Schleiden and Schwann lithographs by Rudolph Hoffmann (public domain; the Schleiden file's date field is garbled, so no year is given in its caption), and the 1847 Sydenham Society plate signed 'Th. Schwann del.' (Library of Congress, public domain). All licences read from Commons via commons.mjs. The Wellcome credit line is the raw Commons string (URLs rather than an author name).",
+  "translations": {
+    "en": {
+      "title": "Schleiden and Schwann: every living thing is made of cells",
+      "summary": "In Berlin, a botanist and a physiologist argued that plants and animals are built from the same unit, the cell. They were wrong about how cells form; the unit held.",
+      "why_it_matters": "Cell theory gave biology a common unit: a leaf, a muscle and an egg became variations on one thing. Medicine followed once disease came to be seen as cells going wrong.",
+      "if_you_were_there": "Microscopes have just become sharper, and people keep seeing little chambers in plants and small round bodies in animal tissue. Nobody has yet shown that they are the same thing.",
+      "place_name": "Berlin",
+      "body": "### The scene\n\nThe word \"cell\" was already 170 years old. In 1665 Robert Hooke looked at a thin slice of cork through his microscope and saw rows of small empty boxes, which he named after the Latin *cella*, a small room. He was looking at dead walls and did not think of them as anything alive. A decade later Antoni van Leeuwenhoek described single-celled creatures swimming in water, as well as red blood cells and sperm cells.\n\nIn the early 19th century botanists kept coming back to these chambers. In 1824 the French physiologist Henri Dutrochet described the cell as the basic element of every organized living body, plant or animal. In 1831 the Scottish botanist Robert Brown, studying orchid leaves, described a small dense spot inside each cell and called it the nucleus. In the early 1830s the Belgian botanist Barthélemy Dumortier watched cells of a simple water alga divide in two. And in the 1830s achromatic microscopes came into use: their lenses no longer blurred the image with coloured fringes, so fine detail inside tissues could finally be seen.\n\nMany people had seen cells. What nobody had shown was that they were the same kind of thing everywhere: in a bean, in a frog, in a person.\n\n### What happened\n\nTwo young men in Berlin had the pieces. Matthias Jakob Schleiden, born in Hamburg in 1804, had trained in law; after his practice failed and a period of deep depression, he turned to botany and in 1835 came to Berlin to study plants under the microscope. Theodor Schwann, born in Neuss in 1810, was assistant to the physiologist Johannes Müller at the University of Berlin. In the mid-1830s Schwann had already isolated pepsin, the digestive substance of the stomach, and argued that fermentation needs living yeast.\n\n![Matthias Jakob Schleiden, the botanist who argued in 1838 that every part of a plant is made of cells. A lithograph by Rudolph Hoffmann.](https://upload.wikimedia.org/wikipedia/commons/7/78/Matthias_Jakob_Schleiden_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Matthias_Jakob_Schleiden_Litho.jpg\")\n\nIn 1838 Schleiden published \"Contributions to Phytogenesis\" (*Beiträge zur Phytogenesis*) in the journal Müller edited. His claim: every part of a plant is made of cells or of what cells produce, and a plant grows by making new cells. He gave Brown's nucleus a central place and called it the cytoblast, the \"cell germ\".\n\nHow the botanist's idea reached the physiologist is told by Schwann himself, in a recollection from much later in his life. He was dining with Schleiden, who spoke of the important part the nucleus plays in the development of plant cells. Schwann \"at once recollected\" having seen a similar structure in cells of the notochord, the flexible rod that runs along the back of an embryo. The two went to the anatomy theatre together, and Schleiden agreed that the nuclei looked like those he knew in plants. Sources place the dinner in 1837 or 1838; the story rests on Schwann's memory, told decades later, not on a record made at the time.\n\n![Theodor Schwann, who carried Schleiden's idea from plants to animals. A lithograph by Rudolph Hoffmann, 1857.](https://upload.wikimedia.org/wikipedia/commons/a/a5/Theodor_Schwann_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Theodor_Schwann_Litho.jpg\")\n\nSchwann then went through animal tissue after tissue, among them cartilage, the notochord, eggs, nerves and muscle, looking for the same unit. In 1839 he published his book, *Microscopical Researches into the Accordance in the Structure and Growth of Animals and Plants*, with four plates of his own drawings. His conclusion was that \"the elementary parts of all tissues are formed of cells\", and that there is \"one universal principle of development\" for all of them: the formation of cells.\n\n![A plate from the 1847 English translation of Schwann's book, signed 'Th. Schwann del.', meaning drawn by Schwann. Animal and plant cells are set side by side to show that they are built and formed alike; in many of them the round nucleus, Schwann's landmark, can be seen.](https://upload.wikimedia.org/wikipedia/commons/8/81/Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin%29_-_Th._Schwann%2C_del_LCCN92516963.jpg \"Schwann, Theodor, 1810-1882, artist · Public domain · https://commons.wikimedia.org/wiki/File:Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin)_-_Th._Schwann,_del_LCCN92516963.jpg\")\n\nThink of buildings made of bricks: a hut and a cathedral look nothing alike, yet both come down to the same unit. The analogy breaks at the most important point: a brick is laid by a builder from outside, while a cell is alive, and, as was shown only later, comes from another cell.\n\n### Why it was hard\n\nPlant cells are easy to see because they have stiff walls. Most animal cells do not, and under a microscope of the 1830s their edges are faint. Schwann had to use the nucleus as his landmark, and in tissues such as nerve and muscle it was hard to say where one cell ended and the next began. While studying nerves he described the cells that wrap around nerve fibres; they are still called Schwann cells.\n\nThe deeper problem was that both men got the origin of cells wrong. Schleiden thought a new cell formed somewhat like a crystal: first a nucleus condensed out of a shapeless fluid, then a wall grew around it like a bubble. Schwann accepted this \"free cell formation\" and extended it to animals, naming the fluid the cytoblastema. It was close to the old idea of spontaneous generation, moved inside the body. Dumortier's dividing algae pointed the other way, but it took more than another decade to settle the question.\n\n> [!NOTE]\n> The idea that living things are built from cells was not entirely new in 1838. Dutrochet had argued it for plants and animals in 1824, and the French chemist François-Vincent Raspail put forward similar views in the same years. What Schleiden and Schwann added was one general statement for both plants and animals, backed by a systematic survey of tissues.\n\n### What it opened\n\nThe correction came from Robert Remak, a physician in Berlin who, because he was Jewish, was repeatedly denied a full professorship. In 1852 he published observations showing that animal cells multiply by dividing, and said plainly that Schleiden and Schwann were wrong about how cells arise. In 1855 Rudolf Virchow summed it up in three Latin words, *omnis cellula e cellula*: every cell comes from a cell. Virchow did not credit Remak, and some historians have argued that he took the idea from him. Through the work of Remak, Virchow and Albert Kölliker, free cell formation was abandoned in the 1850s.\n\nVirchow then carried the theory into medicine. In his *Cellular Pathology* he treated disease as a change in the body's cells, whatever its cause. That view guided medicine until molecular explanations took over in the 20th century.\n\nOne tissue seemed to resist the rule: the nervous system, whose fibres appeared to fuse into one continuous net. Only from the late 1880s, with Camillo Golgi's staining method and the work of Wilhelm His, August Forel and Santiago Ramón y Cajal, did the nerve cell, the neuron, come to be accepted as a separate cell like any other.\n\nSchwann left Berlin in 1839 for the chair of anatomy at the Catholic University of Louvain in Belgium, moved to Liège in 1848, and published little more research. Schleiden became professor of botany at Jena and in 1863 moved to the University of Dorpat, today Tartu in Estonia, then part of the Russian Empire. In 1878, when Liège celebrated Schwann's forty years of teaching, 263 scientists, among them Charles Darwin and Rudolf Virchow, sent signed portraits for an album dedicated \"to the creator of the cell theory\".\n\nThe three sentences now found in school textbooks join their work with what came after: all living things are made of cells; the cell is the basic unit of life; every cell comes from a cell. The first two belong to Schleiden and Schwann. The third belongs to Remak and Virchow.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Schleiden ve Schwann: her canlı hücrelerden yapılmıştır",
+      "summary": "Berlin'de bir botanikçi ile bir fizyolog, bitkilerin ve hayvanların aynı birimden, hücreden kurulduğunu savundu. Hücrenin nasıl oluştuğunda yanıldılar; birim ayakta kaldı.",
+      "why_it_matters": "Hücre kuramı biyolojiye ortak bir birim verdi: bir yaprak, bir kas ve bir yumurta aynı şeyin farklı biçimleri oldu. Hastalık da hücrelerin bozulması olarak görülünce tıp bu yolu izledi.",
+      "if_you_were_there": "Mikroskoplar yeni keskinleşti; herkes bitkilerde küçük odacıklar, hayvan dokusunda küçük yuvarlak cisimler görüyor. Bunların aynı şey olduğunu henüz kimse göstermedi.",
+      "place_name": "Berlin",
+      "body": "### Sahne\n\n\"Hücre\" sözcüğü o sırada zaten 170 yaşındaydı. 1665'te Robert Hooke mikroskobuyla ince bir mantar dilimine baktı ve sıra sıra küçük boş kutucuklar gördü; onlara Latincede küçük oda anlamına gelen *cella*'dan ad verdi. Baktığı şey ölü duvarlardı ve onları canlı bir şey olarak düşünmedi. On yıl sonra Antoni van Leeuwenhoek suda yüzen tek hücreli canlıları, kırmızı kan hücrelerini ve sperm hücrelerini anlattı.\n\n19. yüzyılın başında botanikçiler bu odacıklara dönüp durdu. 1824'te Fransız fizyolog Henri Dutrochet hücreyi, bitki olsun hayvan olsun, örgütlü her canlı bedenin temel öğesi olarak tarif etti. 1831'de İskoç botanikçi Robert Brown, orkide yapraklarını incelerken her hücrenin içinde küçük, yoğun bir benek tarif etti ve ona çekirdek adını verdi. 1830'ların başında Belçikalı botanikçi Barthélemy Dumortier basit bir su yosununun hücrelerinin ikiye bölündüğünü izledi. Ve 1830'larda akromatik mikroskoplar kullanılmaya başladı: mercekleri görüntüyü artık renkli saçaklarla bulanıklaştırmıyordu, dokuların içindeki ince ayrıntı nihayet görülebiliyordu.\n\nHücreyi görmüş çok kişi vardı. Kimsenin göstermediği şey, bunların her yerde aynı türden şey olduğuydu: bir fasulyede, bir kurbağada, bir insanda.\n\n### Ne oldu\n\nParçalar Berlin'deki iki genç adamın elindeydi. 1804'te Hamburg'da doğan Matthias Jakob Schleiden hukuk okumuştu; avukatlık bürosu batıp ağır bir depresyon dönemi geçirdikten sonra botaniğe yöneldi ve 1835'te bitkileri mikroskop altında incelemek için Berlin'e geldi. 1810'da Neuss'ta doğan Theodor Schwann, Berlin Üniversitesi'nde fizyolog Johannes Müller'in asistanıydı. Schwann 1830'ların ortasında midenin sindirim maddesi pepsini ayırmış, mayalanmanın canlı maya gerektirdiğini savunmuştu.\n\n![1838'de bir bitkinin her parçasının hücrelerden yapıldığını savunan botanikçi Matthias Jakob Schleiden. Rudolph Hoffmann'ın taş baskısı.](https://upload.wikimedia.org/wikipedia/commons/7/78/Matthias_Jakob_Schleiden_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Matthias_Jakob_Schleiden_Litho.jpg\")\n\nSchleiden 1838'de, Müller'in yönettiği dergide \"Bitki Oluşumuna Katkılar\" (*Beiträge zur Phytogenesis*) makalesini çıkardı. İddiası şuydu: bir bitkinin her parçası hücrelerden ya da hücrelerin ürettiği şeylerden yapılmıştır ve bitki yeni hücreler yaparak büyür. Brown'ın çekirdeğine merkezi bir yer verdi ve ona sitoblast, yani \"hücre tohumu\" dedi.\n\nBotanikçinin fikrinin fizyoloğa nasıl ulaştığını Schwann'ın kendisi, hayatının çok daha ileri bir döneminde yaptığı bir anlatımda aktarır. Schleiden'le yemek yiyordu; Schleiden çekirdeğin bitki hücrelerinin gelişiminde oynadığı önemli rolden söz etti. Schwann, embriyonun sırtı boyunca uzanan esnek çubuk olan notokordun hücrelerinde benzer bir yapı gördüğünü \"hemen hatırladı\". İkisi birlikte anatomi salonuna gitti ve Schleiden çekirdeklerin bitkilerde bildiklerine benzediğini kabul etti. Kaynaklar bu yemeği 1837'ye ya da 1838'e yerleştiriyor; hikâye o sırada tutulmuş bir kayda değil, Schwann'ın onlarca yıl sonra anlattığı anıya dayanıyor.\n\n![Schleiden'in fikrini bitkilerden hayvanlara taşıyan Theodor Schwann. Rudolph Hoffmann'ın taş baskısı, 1857.](https://upload.wikimedia.org/wikipedia/commons/a/a5/Theodor_Schwann_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Theodor_Schwann_Litho.jpg\")\n\nSchwann bundan sonra hayvan dokularını tek tek taradı: kıkırdak, notokord, yumurtalar, sinirler, kaslar ve daha fazlası; hep aynı birimi aradı. 1839'da kendi çizdiği dört levhayla kitabını yayımladı: *Hayvanların ve Bitkilerin Yapısında ve Büyümesinde Uyum Üzerine Mikroskobik Araştırmalar*. Vardığı sonuç, \"bütün dokuların temel parçalarının hücrelerden oluştuğu\" ve hepsi için \"tek bir evrensel gelişme ilkesi\" bulunduğuydu: hücre oluşumu.\n\n![Schwann'ın kitabının 1847 İngilizce çevirisinden bir levha; altındaki 'Th. Schwann del.' imzası, çizimin Schwann'a ait olduğunu söyler. Hayvan ve bitki hücreleri, aynı biçimde kurulup oluştuklarını göstermek için yan yana konmuş; birçoğunda Schwann'ın yol işareti olan yuvarlak çekirdek görülüyor.](https://upload.wikimedia.org/wikipedia/commons/8/81/Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin%29_-_Th._Schwann%2C_del_LCCN92516963.jpg \"Schwann, Theodor, 1810-1882, artist · Public domain · https://commons.wikimedia.org/wiki/File:Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin)_-_Th._Schwann,_del_LCCN92516963.jpg\")\n\nTuğladan yapılmış binaları düşün: bir kulübe ile bir katedral hiç benzemez, ama ikisi de aynı birime iner. Benzetme en önemli yerde bozulur: tuğlayı dışarıdan bir usta koyar, oysa hücre canlıdır ve, ancak sonradan gösterildiği gibi, başka bir hücreden doğar.\n\n### Neden zordu\n\nBitki hücrelerini görmek kolaydır, çünkü sert duvarları vardır. Hayvan hücrelerinin çoğunda böyle bir duvar yoktur ve 1830'ların mikroskobunda kenarları silik görünür. Schwann çekirdeği yol işareti olarak kullanmak zorundaydı; sinir ve kas gibi dokularda bir hücrenin nerede bitip ötekinin nerede başladığını söylemek zordu. Sinirleri incelerken sinir liflerini saran hücreleri tarif etti; bunlara bugün hâlâ Schwann hücreleri deniyor.\n\nDaha derin sorun, ikisinin de hücrelerin kökeninde yanılmasıydı. Schleiden yeni bir hücrenin bir kristal gibi oluştuğunu düşünüyordu: önce biçimsiz bir sıvıdan bir çekirdek yoğunlaşıyor, sonra çevresinde bir kabarcık gibi duvar büyüyordu. Schwann bu \"serbest hücre oluşumu\"nu kabul edip hayvanlara genişletti ve o sıvıya sitoblastema adını verdi. Bu, kendiliğinden oluşum yolundaki eski fikrin vücudun içine taşınmış hâline yakındı. Dumortier'nin bölünen yosunları başka yönü gösteriyordu, ama sorunun çözülmesi on yıldan uzun sürdü.\n\n> [!NOTE]\n> Canlıların hücrelerden kurulduğu fikri 1838'de tümüyle yeni değildi. Dutrochet 1824'te bunu bitkiler ve hayvanlar için savunmuştu; Fransız kimyacı François-Vincent Raspail de aynı yıllarda benzer görüşler ileri sürdü. Schleiden ile Schwann'ın kattığı şey, bitkiler ve hayvanlar için tek bir genel ifade ve onu destekleyen dokuların sistemli bir taramasıydı.\n\n### Sonrası\n\nDüzeltme, Yahudi olduğu için tam profesörlüğü defalarca engellenen Berlinli hekim Robert Remak'tan geldi. Remak 1852'de hayvan hücrelerinin bölünerek çoğaldığını gösteren gözlemlerini yayımladı ve Schleiden ile Schwann'ın hücrelerin nasıl doğduğu konusunda yanıldığını açıkça söyledi. 1855'te Rudolf Virchow bunu üç Latince sözcükle özetledi: *omnis cellula e cellula*, her hücre bir hücreden gelir. Virchow Remak'ı anmadı ve bazı tarihçiler fikri ondan aldığını ileri sürdü. Remak, Virchow ve Albert Kölliker'in çalışmalarıyla serbest hücre oluşumu 1850'lerde bırakıldı.\n\nVirchow sonra kuramı tıbba taşıdı. *Hücresel Patoloji*'sinde hastalığı, nedeni ne olursa olsun, vücudun hücrelerindeki bir değişiklik olarak ele aldı. Bu bakış, 20. yüzyılda moleküler açıklamalar öne geçene kadar tıbba yön verdi.\n\nBir doku kurala direnir gibiydi: lifleri tek, kesintisiz bir ağda birleşiyormuş gibi görünen sinir sistemi. Ancak 1880'lerin sonundan itibaren, Camillo Golgi'nin boyama yöntemi ve Wilhelm His, August Forel ile Santiago Ramón y Cajal'ın çalışmalarıyla sinir hücresi, yani nöron, yavaş yavaş öteki hücreler gibi ayrı bir hücre olarak kabul görmeye başladı.\n\nSchwann 1839'da Berlin'den ayrılıp Belçika'daki Louvain Katolik Üniversitesi'nde anatomi kürsüsüne geçti, 1848'de Liège'e taşındı ve ondan sonra pek az araştırma yayımladı. Schleiden Jena'da botanik profesörü oldu ve 1863'te, bugün Estonya'daki Tartu olan, o zaman Rus İmparatorluğu'na bağlı Dorpat Üniversitesi'ne geçti. 1878'de Liège, Schwann'ın kırk yıllık hocalığını kutladığında, aralarında Charles Darwin ve Rudolf Virchow'un da bulunduğu 263 bilim insanı, \"hücre kuramının yaratıcısına\" adanmış bir albüm için imzalı portrelerini gönderdi.\n\nBugün okul kitaplarında yer alan üç cümle onların işini sonrasıyla birleştirir: bütün canlılar hücrelerden yapılmıştır; hücre yaşamın temel birimidir; her hücre bir hücreden gelir. İlk ikisi Schleiden ile Schwann'ındır. Üçüncüsü Remak ile Virchow'un.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Шлейден и Шванн: всё живое состоит из клеток",
+      "summary": "В Берлине ботаник и физиолог доказывали, что растения и животные построены из одной единицы — клетки. Как клетки возникают, они поняли неверно; сама единица устояла.",
+      "why_it_matters": "Клеточная теория дала биологии общую единицу: лист, мышца и яйцо стали вариантами одного и того же. Медицина пошла следом, когда болезнь стали видеть как поломку клеток.",
+      "if_you_were_there": "Микроскопы только что стали резче, и все видят в растениях маленькие камеры, а в тканях животных — мелкие круглые тельца. Что это одно и то же, ещё никто не показал.",
+      "place_name": "Берлин",
+      "body": "### Сцена\n\nСлову «клетка» к тому времени было уже 170 лет. В 1665 году Роберт Гук посмотрел в микроскоп на тонкий срез пробки и увидел ряды маленьких пустых ячеек; он назвал их по латинскому *cella* — «комнатка». Он видел мёртвые стенки и не думал о них как о чём-то живом. Десятилетие спустя Антони ван Левенгук описал одноклеточных существ, плавающих в воде, а также красные кровяные клетки и сперматозоиды.\n\nВ начале XIX века ботаники снова и снова возвращались к этим камерам. В 1824 году французский физиолог Анри Дютроше описал клетку как основной элемент всякого организованного живого тела, растительного или животного. В 1831 году шотландский ботаник Роберт Броун, изучая листья орхидей, описал маленькое плотное пятно внутри каждой клетки и назвал его ядром. В начале 1830-х годов бельгийский ботаник Бартелеми Дюмортье наблюдал, как клетки простой водоросли делятся надвое. А в 1830-е годы вошли в употребление ахроматические микроскопы: их линзы больше не размывали изображение цветной каймой, и тонкие детали внутри тканей наконец стали видны.\n\nКлетки видели многие. Никто не показал, что это везде одно и то же: в бобе, в лягушке, в человеке.\n\n### Что произошло\n\nВсе части были у двух молодых людей в Берлине. Маттиас Якоб Шлейден, родившийся в Гамбурге в 1804 году, учился на юриста; после того как его адвокатская практика не удалась и он пережил тяжёлую депрессию, он обратился к ботанике и в 1835 году приехал в Берлин изучать растения под микроскопом. Теодор Шванн, родившийся в Нойсе в 1810 году, был ассистентом физиолога Иоганнеса Мюллера в Берлинском университете. В середине 1830-х годов Шванн уже выделил пепсин, пищеварительное вещество желудка, и доказывал, что для брожения нужны живые дрожжи.\n\n![Маттиас Якоб Шлейден, ботаник, который в 1838 году утверждал, что каждая часть растения состоит из клеток. Литография Рудольфа Гофмана.](https://upload.wikimedia.org/wikipedia/commons/7/78/Matthias_Jakob_Schleiden_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Matthias_Jakob_Schleiden_Litho.jpg\")\n\nВ 1838 году Шлейден опубликовал статью «Материалы к фитогенезу» (*Beiträge zur Phytogenesis*) в журнале, который издавал Мюллер. Его утверждение: каждая часть растения состоит из клеток или из того, что клетки производят, и растение растёт, создавая новые клетки. Ядру Броуна он отвёл центральное место и назвал его цитобластом, «зародышем клетки».\n\nКак идея ботаника дошла до физиолога, рассказал сам Шванн, вспоминая об этом много лет спустя. Он обедал со Шлейденом, и тот говорил о важной роли ядра в развитии растительных клеток. Шванн «тотчас вспомнил», что видел похожее образование в клетках хорды — гибкого стержня, который тянется вдоль спины зародыша. Они вместе пошли в анатомический театр, и Шлейден согласился, что ядра похожи на те, что он знал у растений. Источники относят этот обед к 1837 или 1838 году; история держится на памяти Шванна, рассказанной десятилетия спустя, а не на записи того времени.\n\n![Теодор Шванн, перенёсший идею Шлейдена с растений на животных. Литография Рудольфа Гофмана, 1857 год.](https://upload.wikimedia.org/wikipedia/commons/a/a5/Theodor_Schwann_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Theodor_Schwann_Litho.jpg\")\n\nЗатем Шванн перебрал одну животную ткань за другой — среди них хрящ, хорду, яйца, нервы и мышцы, — ища ту же единицу. В 1839 году он выпустил книгу «Микроскопические исследования о соответствии в структуре и росте животных и растений» с четырьмя таблицами собственных рисунков. Его вывод: «элементарные части всех тканей образованы клетками», и для всех них существует «один всеобщий принцип развития» — образование клеток.\n\n![Таблица из английского перевода книги Шванна 1847 года с подписью «Th. Schwann del.», то есть «рисовал Шванн». Клетки животных и растений помещены рядом, чтобы показать, что они устроены и образуются одинаково; во многих видно круглое ядро — главный ориентир Шванна.](https://upload.wikimedia.org/wikipedia/commons/8/81/Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin%29_-_Th._Schwann%2C_del_LCCN92516963.jpg \"Schwann, Theodor, 1810-1882, artist · Public domain · https://commons.wikimedia.org/wiki/File:Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin)_-_Th._Schwann,_del_LCCN92516963.jpg\")\n\nПредставьте здания из кирпича: хижина и собор совсем не похожи, но оба сводятся к одной единице. Сравнение ломается в самом важном месте: кирпич кладёт строитель снаружи, а клетка живая и, как показали только позже, происходит от другой клетки.\n\n### Почему это было трудно\n\nРастительные клетки увидеть легко: у них жёсткие стенки. У большинства животных клеток таких стенок нет, и в микроскоп 1830-х годов их края едва различимы. Шванну приходилось ориентироваться по ядру, а в таких тканях, как нерв и мышца, трудно было сказать, где кончается одна клетка и начинается другая. Изучая нервы, он описал клетки, которые обёртывают нервные волокна; их до сих пор называют шванновскими клетками.\n\nБолее глубокая проблема была в том, что оба ошиблись в происхождении клеток. Шлейден считал, что новая клетка образуется отчасти как кристалл: сначала из бесформенной жидкости сгущается ядро, потом вокруг него, как пузырь, нарастает стенка. Шванн принял это «свободное образование клеток» и распространил его на животных, назвав жидкость цитобластемой. Это было близко к старой идее самозарождения, только перенесённой внутрь тела. Делящиеся водоросли Дюмортье указывали в другую сторону, но вопрос решился лишь больше чем через десять лет.\n\n> [!NOTE]\n> Мысль о том, что живое построено из клеток, не была в 1838 году совсем новой. Дютроше отстаивал её для растений и животных в 1824 году, а французский химик Франсуа-Венсан Распай в те же годы высказывал похожие взгляды. Шлейден и Шванн добавили одно общее утверждение для растений и животных, подкреплённое систематическим обзором тканей.\n\n### Что это открыло\n\nПоправку внёс Роберт Ремак, берлинский врач, которому из-за того, что он был евреем, раз за разом отказывали в полной профессуре. В 1852 году он опубликовал наблюдения, показывающие, что животные клетки размножаются делением, и прямо написал, что Шлейден и Шванн ошибались в том, как возникают клетки. В 1855 году Рудольф Вирхов выразил это тремя латинскими словами: *omnis cellula e cellula* — всякая клетка от клетки. Вирхов не сослался на Ремака, и некоторые историки утверждают, что он взял эту мысль у него. Благодаря работам Ремака, Вирхова и Альберта Кёлликера от свободного образования клеток в 1850-е годы отказались.\n\nЗатем Вирхов перенёс теорию в медицину. В своей «Целлюлярной патологии» он рассматривал болезнь как изменение клеток тела, какова бы ни была её причина. Этот взгляд направлял медицину, пока в XX веке на первый план не вышли молекулярные объяснения.\n\nОдна ткань будто бы не подчинялась правилу: нервная система, волокна которой, казалось, сливаются в одну непрерывную сеть. Только с конца 1880-х годов, благодаря методу окраски Камилло Гольджи и работам Вильгельма Гиса, Огюста Фореля и Сантьяго Рамон-и-Кахаля, нервную клетку — нейрон — постепенно стали признавать отдельной клеткой, как и любую другую.\n\nШванн в 1839 году уехал из Берлина на кафедру анатомии Католического университета в Лувене (Бельгия), в 1848 году перешёл в Льеж и больше почти не публиковал исследований. Шлейден стал профессором ботаники в Йене, а в 1863 году перешёл в Дерптский университет — сегодня это Тарту в Эстонии, тогда Российская империя. В 1878 году, когда Льеж отмечал сорок лет преподавания Шванна, 263 учёных, среди них Чарльз Дарвин и Рудольф Вирхов, прислали подписанные портреты для альбома, посвящённого «создателю клеточной теории».\n\nТри положения из сегодняшних школьных учебников соединяют их работу с тем, что было потом: всё живое состоит из клеток; клетка — основная единица жизни; всякая клетка происходит от клетки. Первые два принадлежат Шлейдену и Шванну. Третье — Ремаку и Вирхову.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Шлейден жана Шванн: бардык тирүү жандыктар клеткалардан турат",
+      "summary": "Берлинде бир ботаник менен бир физиолог өсүмдүктөр да, жаныбарлар да бир бирдиктен, клеткадан курулат деп далилдешкен. Клетка кантип пайда болорун туура эмес түшүнүшкөн; бирдик өзү калган.",
+      "why_it_matters": "Клетка теориясы биологияга жалпы бирдик берди: жалбырак, булчуң жана жумуртка бир эле нерсенин ар кандай түрү болуп калды. Ооруну клеткалардын бузулушу катары көрө баштаганда медицина да ушул жолго түштү.",
+      "if_you_were_there": "Микроскоптор жаңы эле тагыраак болуп калды, баары өсүмдүктөрдө кичинекей уячаларды, жаныбарлардын денесинде майда тоголок нерселерди көрүп жатат. Булар бир эле нерсе экенин азырынча эч ким көрсөткөн жок.",
+      "place_name": "Берлин",
+      "body": "### Көрүнүш\n\n«Клетка» деген сөз ал кезде 170 жашта болчу. 1665-жылы Роберт Гук микроскоп менен тыгындын жука кесиндисин карап, катар-катар тизилген кичинекей бош кутучаларды көргөн. Аларга латынча «кичинекей бөлмө» дегенди билдирген *cella* сөзүнөн ат берген. Ал көргөн нерсе өлүк дубалдар эле, аларды тирүү нерсе деп ойлогон эмес. Он жылдан кийин Антони ван Левенгук сууда сүзүп жүргөн бир клеткалуу жандыктарды, кандын кызыл клеткаларын жана сперма клеткаларын сүрөттөгөн.\n\nXIX кылымдын башында ботаниктер бул уячаларга кайра-кайра кайрылышкан. 1824-жылы француз физиологу Анри Дютроше клетканы өсүмдүк болобу, жаныбар болобу, ар бир түзүлгөн тирүү дененин негизги элементи катары сүрөттөгөн. 1831-жылы шотландиялык ботаник Роберт Броун орхидеянын жалбырактарын изилдеп жатып, ар бир клетканын ичиндеги кичинекей жыш тактаны сүрөттөп, аны ядро деп атаган. 1830-жылдардын башында бельгиялык ботаник Бартелеми Дюмортье жөнөкөй суу балырынын клеткалары экиге бөлүнгөнүн байкаган. Ал эми 1830-жылдары ахроматтык микроскоптор колдонула баштаган: алардын линзалары сүрөттү түстүү чет менен бүдөмүктөтпөй калды, ошондуктан денедеги майда түзүлүштөр акыры көрүнө баштады.\n\nКлетканы көргөндөр көп эле. Бирок алар бардык жерде, буурчакта да, бакада да, адамда да бир эле нерсе экенин эч ким көрсөткөн эмес.\n\n### Эмне болду\n\nБөлүктөрдүн баары Берлиндеги эки жигиттин колунда эле. 1804-жылы Гамбургда туулган Маттиас Якоб Шлейден юристликке окуган. Адвокаттык иши ийгиликсиз болуп, оор депрессияны башынан өткөргөндөн кийин ботаникага бурулуп, 1835-жылы өсүмдүктөрдү микроскоп менен изилдөө үчүн Берлинге келген. 1810-жылы Нойсс шаарында туулган Теодор Шванн Берлин университетинде физиолог Иоганнес Мюллердин жардамчысы болчу. 1830-жылдардын ортосунда Шванн ашказандын тамак сиңирүүчү заты пепсинди бөлүп алган жана тирүү ачыткы болбосо ачуу процесси жүрбөйт деп далилдеген.\n\n![Маттиас Якоб Шлейден, 1838-жылы өсүмдүктүн ар бир бөлүгү клеткалардан турат деп айткан ботаник. Рудольф Гофмандын литографиясы.](https://upload.wikimedia.org/wikipedia/commons/7/78/Matthias_Jakob_Schleiden_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Matthias_Jakob_Schleiden_Litho.jpg\")\n\n1838-жылы Шлейден Мюллер чыгарган журналга «Фитогенезге карата материалдар» (*Beiträge zur Phytogenesis*) деген макаласын жарыялаган. Анын ою мындай эле: өсүмдүктүн ар бир бөлүгү клеткалардан же клеткалар чыгарган нерселерден турат, өсүмдүк жаңы клеткаларды жаратуу менен өсөт. Броундун ядросуна ал борбордук орун берип, аны цитобласт, башкача айтканда «клетканын уругу» деп атаган.\n\nБотаниктин идеясы физиологго кантип жеткенин Шванн өзү, өмүрүнүн кийинки жылдарында эскерип айтып берген. Ал Шлейден менен тамактанып отурган, Шлейден ядронун өсүмдүк клеткаларынын өнүгүшүндөгү маанилүү ролу жөнүндө сүйлөгөн. Шванн түйүлдүктүн аркасын бойлой созулган ийилчээк таякча, хорданын клеткаларында ушуга окшош түзүлүштү көргөнүн «ошол замат эстеген». Экөө чогуу анатомия залына барышкан, Шлейден ядролор өзү өсүмдүктөрдөн билген ядролорго окшош экенин моюнга алган. Булактар бул тамакты 1837 же 1838-жылга таандык кылат. Окуя ошол кезде жазылган жазууга эмес, Шванн ондогон жылдардан кийин айтып берген эскерүүгө таянат.\n\n![Шлейдендин идеясын өсүмдүктөрдөн жаныбарларга көчүргөн Теодор Шванн. Рудольф Гофмандын литографиясы, 1857-жыл.](https://upload.wikimedia.org/wikipedia/commons/a/a5/Theodor_Schwann_Litho.jpg \"Rudolph Hoffmann · Public domain · https://commons.wikimedia.org/wiki/File:Theodor_Schwann_Litho.jpg\")\n\nАндан кийин Шванн ошол эле бирдикти издеп, жаныбарлардын денесинин бир бөлүгүн артынан экинчисин карап чыккан: кемирчек, хорда, жумурткалар, нервдер, булчуңдар жана башкалар. 1839-жылы өзү тарткан төрт таблицасы менен «Жаныбарлар менен өсүмдүктөрдүн түзүлүшүндөгү жана өсүшүндөгү шайкештик жөнүндө микроскоптук изилдөөлөр» деген китебин чыгарган. Анын жыйынтыгы: «бардык ткандардын элементардык бөлүктөрү клеткалардан түзүлгөн», алардын баарына «бир жалпы өнүгүү принциби» бар, ал — клеткалардын пайда болушу.\n\n![Шванндын китебинин 1847-жылкы англисче котормосунан алынган таблица. Астындагы «Th. Schwann del.» деген жазуу аны Шванн тартканын билдирет. Жаныбар жана өсүмдүк клеткалары бирдей түзүлүп, бирдей пайда болорун көрсөтүү үчүн катар коюлган; көбүндө Шванндын негизги белгиси болгон тоголок ядро көрүнүп турат.](https://upload.wikimedia.org/wikipedia/commons/8/81/Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin%29_-_Th._Schwann%2C_del_LCCN92516963.jpg \"Schwann, Theodor, 1810-1882, artist · Public domain · https://commons.wikimedia.org/wiki/File:Animal_and_plant_cells_drawn_to_show_their_similar_nature_and_origin)_-_Th._Schwann,_del_LCCN92516963.jpg\")\n\nКыштан салынган имараттарды элестетиңиз: алачык менен чоң чиркөө такыр окшошпойт, бирок экөө тең бир эле бирдикке барып такалат. Салыштыруу эң маанилүү жерде бузулат: кышты сырттан куруучу коёт, ал эми клетка тирүү, жана кийин гана көрсөтүлгөндөй, башка клеткадан пайда болот.\n\n### Эмнеге оор болду\n\nӨсүмдүк клеткаларын көрүү оңой, анткени алардын катуу дубалдары бар. Жаныбарлардын клеткаларынын көбүндө мындай дубал жок, 1830-жылдардын микроскобунда алардын чеги араң көрүнөт. Шванн ядрону белги катары колдонууга аргасыз болгон, ал эми нерв, булчуң сыяктуу ткандарда бир клетка кайда бүтүп, экинчиси кайда башталарын айтуу кыйын эле. Нервдерди изилдеп жатып, ал нерв жипчелерин ороп турган клеткаларды сүрөттөгөн; аларды азыр да Шванн клеткалары деп аташат.\n\nНегизги көйгөй экөө тең клеткалардын келип чыгышы жагынан жаңылганында эле. Шлейден жаңы клетка кристаллга окшоп пайда болот деп ойлогон: адегенде формасыз суюктуктан ядро коюуланат, анан анын айланасында көбүк сыяктуу дубал өсөт. Шванн бул «клеткалардын эркин пайда болушун» кабыл алып, аны жаныбарларга да жайылткан, ал суюктукту цитобластема деп атаган. Бул өзүнөн-өзү пайда болуу жөнүндөгү эски идеяга жакын эле, болгону дененин ичине көчүрүлгөн. Дюмортьенин бөлүнүп жаткан балырлары башка тарапты көрсөтүп турган, бирок маселе он жылдан ашык убакыттан кийин гана чечилген.\n\n> [!NOTE]\n> Тирүү жандыктар клеткалардан курулат деген ой 1838-жылы таптакыр жаңы эмес эле. Дютроше аны 1824-жылы өсүмдүктөр жана жаныбарлар үчүн айткан, ал эми француз химиги Франсуа-Венсан Распай ошол эле жылдары ушуга окшош көз караштарды билдирген. Шлейден менен Шванндын кошкон салымы — өсүмдүктөр менен жаныбарлар үчүн бир жалпы жыйынтык жана аны бекемдеген ткандарды системалуу карап чыгуу.\n\n### Эмнеге жол ачты\n\nКата берлиндик дарыгер Роберт Ремак тарабынан оңдолгон. Ал жөөт болгондуктан, ага толук профессор наамы кайра-кайра берилген эмес. 1852-жылы ал жаныбарлардын клеткалары бөлүнүү аркылуу көбөйөрүн көрсөткөн байкоолорун жарыялап, Шлейден менен Шванн клеткалардын кантип пайда болорун туура эмес түшүнгөнүн ачык жазган. 1855-жылы Рудольф Вирхов муну үч латын сөзү менен кыскача айткан: *omnis cellula e cellula*, ар бир клетка клеткадан пайда болот. Вирхов Ремакка шилтеме берген эмес, айрым тарыхчылар ал бул идеяны Ремактан алган деп эсептешет. Ремактын, Вирховдун жана Альберт Кёлликердин эмгектеринин аркасында 1850-жылдары клеткалардын эркин пайда болушу жөнүндөгү ойдон баш тартылган.\n\nАндан кийин Вирхов теорияны медицинага алып келген. «Целлюлярдык патология» деген эмгегинде ал ооруну, анын себеби кандай болбосун, дененин клеткаларындагы өзгөрүү катары караган. Бул көз караш XX кылымда молекулалык түшүндүрмөлөр алдыга чыкканга чейин медицинага жол көрсөтүп келген.\n\nБир ткань эрежеге баш ийбегендей сезилген: жипчелери бир үзгүлтүксүз торго кошулуп кеткендей көрүнгөн нерв системасы. 1880-жылдардын аягынан баштап гана, Камилло Гольджинин боёо ыкмасы жана Вильгельм Гис, Огюст Форель жана Сантьяго Рамон-и-Кахалдын эмгектери аркылуу нерв клеткасы, башкача айтканда нейрон, акырындап башка клеткалар сыяктуу эле өзүнчө клетка катары тааныла баштаган.\n\nШванн 1839-жылы Берлинден кетип, Бельгиядагы Лувен католик университетинин анатомия кафедрасына өткөн, 1848-жылы Льежге көчүп, андан кийин дээрлик изилдөө жарыялаган эмес. Шлейден Йенада ботаника профессору болуп, 1863-жылы Дерпт университетине өткөн. Бул шаар азыр Эстониядагы Тарту, ал кезде Россия империясынын курамында болчу. 1878-жылы Льеж Шванндын кырк жылдык окутуучулук ишин майрамдаганда, алардын арасында Чарлз Дарвин менен Рудольф Вирхов да бар 263 окумуштуу «клетка теориясын жаратуучуга» арналган альбом үчүн кол коюлган сүрөттөрүн жөнөтүшкөн.\n\nБүгүнкү мектеп китептериндеги үч жобо алардын эмгегин андан кийинки ачылыштар менен бириктирет: бардык тирүү жандыктар клеткалардан турат; клетка — жашоонун негизги бирдиги; ар бир клетка клеткадан пайда болот. Алгачкы экөө Шлейден менен Шваннга таандык. Үчүнчүсү — Ремак менен Вирховго.",
+      "status": "machine"
+    }
+  }
+}
