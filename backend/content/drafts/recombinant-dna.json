@@ -1,0 +1,290 @@
+{
+  "slug": "recombinant-dna",
+  "year": 1973,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "region",
+  "lat": 37.6,
+  "lng": -122.35,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Stanley_Norman_Cohen%27s_Genetic_Engineering_Laboratory%2C_1973_-_NMAH.jpg",
+    "credit": "Ryan Somma",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stanley_Norman_Cohen's_Genetic_Engineering_Laboratory,_1973_-_NMAH.jpg"
+  },
+  "disciplines": [
+    "biology",
+    "medicine"
+  ],
+  "people": [
+    {
+      "slug": "stanley-norman-cohen",
+      "birth_year": 1935,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Stanley N. Cohen",
+        "tr": "Stanley N. Cohen",
+        "ru": "Стэнли Коэн",
+        "ky": "Стэнли Коэн"
+      }
+    },
+    {
+      "slug": "herbert-boyer",
+      "birth_year": 1936,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Herbert Boyer",
+        "tr": "Herbert Boyer",
+        "ru": "Герберт Бойер",
+        "ky": "Герберт Бойер"
+      }
+    },
+    {
+      "slug": "annie-chang",
+      "birth_year": null,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Annie C. Y. Chang",
+        "tr": "Annie C. Y. Chang",
+        "ru": "Энни Чан",
+        "ky": "Энни Чан"
+      }
+    },
+    {
+      "slug": "robert-helling",
+      "birth_year": null,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Robert Helling",
+        "tr": "Robert Helling",
+        "ru": "Роберт Хеллинг",
+        "ky": "Роберт Хеллинг"
+      }
+    },
+    {
+      "slug": "paul-berg",
+      "birth_year": 1926,
+      "death_year": 2023,
+      "role": "predecessor",
+      "name": {
+        "en": "Paul Berg",
+        "tr": "Paul Berg",
+        "ru": "Пол Берг",
+        "ky": "Пол Берг"
+      }
+    },
+    {
+      "slug": "janet-mertz",
+      "birth_year": 1949,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Janet Mertz",
+        "tr": "Janet Mertz",
+        "ru": "Джанет Мерц",
+        "ky": "Джанет Мерц"
+      }
+    },
+    {
+      "slug": "peter-lobban",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Peter Lobban",
+        "tr": "Peter Lobban",
+        "ru": "Питер Лоббан",
+        "ky": "Питер Лоббан"
+      }
+    },
+    {
+      "slug": "tsutomu-watanabe",
+      "birth_year": null,
+      "death_year": null,
+      "role": "context",
+      "name": {
+        "en": "Tsutomu Watanabe",
+        "tr": "Tsutomu Watanabe",
+        "ru": "Цутому Ватанабэ",
+        "ky": "Цутому Ватанабэ"
+      }
+    },
+    {
+      "slug": "akiko-higa",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Akiko Higa",
+        "tr": "Akiko Higa",
+        "ru": "Акико Хига",
+        "ky": "Акико Хига"
+      }
+    },
+    {
+      "slug": "robert-pollack",
+      "birth_year": 1940,
+      "death_year": null,
+      "role": "context",
+      "name": {
+        "en": "Robert Pollack",
+        "tr": "Robert Pollack",
+        "ru": "Роберт Поллак",
+        "ky": "Роберт Поллак"
+      }
+    },
+    {
+      "slug": "maxine-singer",
+      "birth_year": 1931,
+      "death_year": 2024,
+      "role": "context",
+      "name": {
+        "en": "Maxine Singer",
+        "tr": "Maxine Singer",
+        "ru": "Максин Сингер",
+        "ky": "Максин Сингер"
+      }
+    },
+    {
+      "slug": "john-morrow",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "John Morrow",
+        "tr": "John Morrow",
+        "ru": "Джон Морроу",
+        "ky": "Джон Морроу"
+      }
+    },
+    {
+      "slug": "keiichi-itakura",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Keiichi Itakura",
+        "tr": "Keiichi Itakura",
+        "ru": "Кэйити Итакура",
+        "ky": "Кэйити Итакура"
+      }
+    }
+  ],
+  "builds_on": [
+    "dna-double-helix"
+  ],
+  "sources": [
+    {
+      "title": "Recombinant DNA — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Recombinant_DNA"
+    },
+    {
+      "title": "Janet Mertz — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Janet_Mertz"
+    },
+    {
+      "title": "Herbert W. Boyer and Stanley N. Cohen — Science History Institute",
+      "kind": "other",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/herbert-w-boyer-and-stanley-n-cohen/"
+    },
+    {
+      "title": "S. N. Cohen, 'DNA cloning: A personal view after 40 years', PNAS 110 (2013): 15521–15529",
+      "kind": "article",
+      "url": "https://doi.org/10.1073/pnas.1313397110"
+    },
+    {
+      "title": "S. N. Cohen, A. C. Y. Chang, H. W. Boyer, R. B. Helling, 'Construction of biologically functional bacterial plasmids in vitro', PNAS 70 (1973): 3240–3244",
+      "kind": "article",
+      "url": "https://doi.org/10.1073/pnas.70.11.3240"
+    },
+    {
+      "title": "J. F. Morrow et al., 'Replication and transcription of eukaryotic DNA in Escherichia coli', PNAS 71 (1974): 1743–1747",
+      "kind": "article",
+      "url": "https://doi.org/10.1073/pnas.71.5.1743"
+    },
+    {
+      "title": "'Stanley N. Cohen: transforming molecular biology' — Lasker Foundation",
+      "kind": "other",
+      "url": "https://laskerfoundation.org/stanley-n-cohen-transforming-molecular-biology/"
+    },
+    {
+      "title": "Recombinant DNA Technologies and Researchers' Responsibilities, 1973–1980 — Paul Berg Papers, NLM Profiles in Science",
+      "kind": "other",
+      "url": "https://profiles.nlm.nih.gov/spotlight/cd/feature/dna"
+    },
+    {
+      "title": "Maxine Frank Singer (1931–2024) — The Embryo Project Encyclopedia, Arizona State University",
+      "kind": "encyclopedia",
+      "url": "https://embryo.asu.edu/pages/maxine-frank-singer-1931-2024"
+    },
+    {
+      "title": "Asilomar Conference (1975) — The Embryo Project Encyclopedia, Arizona State University",
+      "kind": "encyclopedia",
+      "url": "https://embryo.asu.edu/pages/asilomar-conference-1975"
+    },
+    {
+      "title": "P. Berg et al., 'Potential biohazards of recombinant DNA molecules', Science 185 (1974): 303",
+      "kind": "article",
+      "url": "https://doi.org/10.1126/science.185.4148.303"
+    },
+    {
+      "title": "T. Watanabe, 'Infective heredity of multiple drug resistance in bacteria', Bacteriological Reviews 27 (1963): 87–115",
+      "kind": "article",
+      "url": "https://doi.org/10.1128/br.27.1.87-115.1963"
+    },
+    {
+      "title": "Recombinant DNA — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/recombinant-DNA-technology"
+    }
+  ],
+  "research_note": "Checked 2026-11-07 against English Wikipedia (Recombinant DNA; Janet Mertz; R-factor), the Science History Institute profile of Boyer and Cohen, S. N. Cohen's own retrospective 'DNA cloning: A personal view after 40 years' (PNAS 2013), the Lasker Foundation profile of Cohen, the 1973 and 1974 PNAS papers (bibliographic records and abstracts), Watanabe's 1963 review, and NLM Profiles (Berg papers). Britannica linked for the human reviewer only. Verified adversarially by the fact-checker agent before translation; all four languages follow the corrected English.\nFIXED AFTER FACT-CHECK: (1) Division of labour: sources do not say which lab did the cutting and joining; body now says Boyer's lab supplied EcoRI and analysed the DNA, Cohen's lab purified plasmids, transformed and selected, Chang carried material. (2) 1971 transformation credited to Leslie Hsu, helped by Annie Chang (Cohen 2013). (3) NOTE box: removed a claim attributed to Berg that could not be found; Cohen's view rephrased to 'later argued the feared dangers had not appeared'. (4) Japanese discovery of transferable resistance now names the Ochiai and Akiba groups (surnames only; first names not confirmed). (5) Arthur Riggs added beside Itakura; somatostatin 'a hormone also made in the human body'. (6) if_you_were_there corrected: genes had already been moved between bacteria (transformation, transduction, conjugation), so the claim is now 'any organism you choose'. (7) why_it_matters 'grew from this work' instead of 'all start here'. (8) Patents: a family; 'the first was granted in 1980', 'expired in 1997' (Cohen 2013: 461 licensees). (9) Cover described as a museum exhibit, not a 1973 photograph.\nFLAGGED IN THE BODY: the Waikiki delicatessen and napkins anecdote rests on the participants' later recollections (Cohen 2013, Lasker) and is introduced as such.\nREVIEWER SHOULD CHECK: Robert Pollack taught the 1971 Cold Spring Harbor course (fact-checker, from Wikipedia). EcoRI first isolated by Robert Yoshimori (Cohen 2013, Wikipedia; the year varies 1968/1970 between sources, so none is given). 'Well over a hundred' at Asilomar (sources: about 140 people in total). Dieter Söll's first name rests on the Science 1973 letter citation. Singer-Söll letter Science 181:1114 (1973), Berg letter Science 185:303 (1974) and patent US 4,237,224 are cited from the fact-checker's report, not opened by me. NLM Profiles pages load via JavaScript and returned empty to automated fetches; a human should open them. Leslie Hsu's gender is unknown; the Russian text uses a neutral construction. No enables field exists in the contract; human-genome-project and crispr-cas9 should link back to this event via their own builds_on.\nKYRGYZ 'check' TERMS USED: клетка (cell), түр (species/kind, used as 'түрдөгү'), ойлоп тапкыч (inventor, related to 'ойлоп табуу'). 'тажрыйба' used for experiment (high).\nIMAGES: cover = Ryan Somma's photograph of the Science in American Life exhibit at the Smithsonian NMAH showing equipment from Cohen's 1973 lab (CC BY-SA 2.0). Body: Paul Berg 1980 (public domain as an NIH work; author unknown; Commons warns to confirm federal authorship — thin author line), Herbert Boyer 2009 (Jane Gitschier, CC BY 2.5), Stanley Cohen 2016 (Otha deWayne Howse, CC BY-SA 3.0). All licences read from Commons via commons.mjs. A 1977 Boyer photo marked CC0 by an uploader was rejected as implausible.",
+  "translations": {
+    "en": {
+      "title": "Recombinant DNA: genes from different sources are joined and copied in bacteria",
+      "summary": "Two labs in California cut DNA from different sources, joined it, and got bacteria to copy it. Genes could now be moved between organisms, and scientists paused to ask whether they should.",
+      "why_it_matters": "It turned genes into something that could be cut out, moved and multiplied. Human insulin from bacteria, much of modern biology and the debate over the risks of the new power grew from this work.",
+      "if_you_were_there": "You know that genes are made of DNA, but you cannot pick out a gene from any organism you choose and make a bacterium copy it. Nobody can yet.",
+      "place_name": "San Francisco Bay Area",
+      "body": "### The scene\n\nBy the early 1970s biologists could read a little of life's chemistry but could not yet edit it. They knew genes were stretches of DNA, and they had learned a great deal about one bacterium, *Escherichia coli*, which lives in the human gut and grows fast in a dish. What they could not do was take one particular gene out of one organism and put it into another, where it would be copied and used.\n\nSome of the tools already existed, found by people asking quite different questions. Bacteria carry, besides their main chromosome, small rings of DNA called plasmids, which can pass from cell to cell. Plasmids alarmed doctors because they could carry resistance to antibiotics. That transferable resistance was first recognised in Japan around 1959–1960, when research groups there, among them those of Ochiai and of Akiba, saw resistance passing between the dysentery bacterium *Shigella* and *E. coli*; Tsutomu Watanabe of Keio University in Tokyo became a leading student of these \"R factors\". At Stanford, the physician Stanley Cohen studied the same kind of plasmid.\n\nA second tool came from the way bacteria defend themselves against viruses. They make restriction enzymes, proteins that cut DNA only where a particular short sequence of letters appears. Werner Arber, Hamilton Smith and Daniel Nathans did much of the work that made these enzymes understood and usable; they shared the 1978 Nobel Prize in Physiology or Medicine for it. At the University of California, San Francisco, Herbert Boyer's laboratory worked on one such enzyme from *E. coli*, called EcoRI; it had first been isolated there by Robert Yoshimori, a graduate student working with Boyer and Daisy Roulland-Dussoix.\n\nThe third tool was a way to get DNA into *E. coli* at all. In 1970 Morton Mandel and Akiko Higa showed that bacteria soaked in a calcium chloride solution would take up DNA from a virus. Building on that, Leslie Hsu, a first-year medical student training in Cohen's laboratory, helped by the research technician Annie Chang, had by late 1971 got purified plasmids into *E. coli*, where the plasmids went on copying themselves.\n\n### Someone got there first, and stopped\n\nThe first molecules joining DNA from two different sources were made at Stanford, in Paul Berg's laboratory. In 1972 David Jackson, Robert Symons and Berg reported that they had attached DNA from SV40, a virus that can cause tumours in rodents, to DNA from a virus that infects bacteria. The graduate student Peter Lobban, in Dale Kaiser's laboratory in the same department, had been developing the same idea independently.\n\n![Paul Berg in 1980, the year he received a share of the Nobel Prize in Chemistry for his work on nucleic acids, especially recombinant DNA.](https://upload.wikimedia.org/wikipedia/commons/8/88/Paul_Berg_in_1980.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Paul_Berg_in_1980.jpg\")\n\nThe natural next step was to put such a molecule into *E. coli* and let the bacteria multiply it. Janet Mertz, Berg's graduate student, described a plan along these lines at a course at Cold Spring Harbor Laboratory in the summer of 1971. Robert Pollack, a cell biologist who taught the course, objected: *E. coli* lives in people, and SV40 carries genes that can cause cancer in animals. Berg agreed not to clone these molecules. In 1972 Mertz and Ronald Davis found something that would make the next step much easier: the ends that EcoRI leaves when it cuts DNA are \"sticky\", so any two pieces cut by it can be joined.\n\n### What happened\n\nIn mid-November 1972 Cohen helped organise a meeting on plasmids at the University of Hawaii in Honolulu, a joint United States–Japan conference that he co-organised with Donald Helinski and Tsutomu Watanabe. Boyer spoke there about EcoRI. Late one evening, as Cohen tells it in his own later account, he and Boyer and a few colleagues ended up at a delicatessen near Waikiki Beach and sketched out a joint experiment on paper napkins. The story is the participants' own memory, not a record from the time, but its outline is consistent across their accounts.\n\n![Herbert Boyer in 2009. His laboratory at the University of California, San Francisco supplied the EcoRI enzyme that cut the DNA.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Herb_Boyer.jpg \"Jane Gitschier · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Herb_Boyer.jpg\")\n\nThe plan divided the work between two laboratories about fifty kilometres apart. Boyer's laboratory supplied the EcoRI enzyme and analysed the DNA; Cohen's group at Stanford purified the plasmids, put the DNA into bacteria and picked out the ones that carried it. Annie Chang, who lived in San Francisco, carried material back and forth between the two. Robert Helling, a professor from the University of Michigan spending a sabbatical in Boyer's laboratory, joined the work.\n\nThey started early in 1973. The key plasmid, pSC101, carried a gene for resistance to the antibiotic tetracycline, and EcoRI cut it at only one place, so it could be opened without losing its ability to copy itself. Into that opening the team put a piece of another plasmid that carried resistance to a second antibiotic, kanamycin. Then they let bacteria take up the new rings and grew them in the presence of the antibiotics. Only bacteria carrying a working joined plasmid survived, and their offspring inherited it. By March 1973 they knew it worked. The paper, \"Construction of biologically functional bacterial plasmids in vitro\", by Cohen, Chang, Boyer and Helling, appeared in the *Proceedings of the National Academy of Sciences* in November 1973.\n\nThink of EcoRI as a cutter that leaves the same jigsaw-shaped edge wherever it cuts: any two pieces it has cut will fit together, whatever they came from. The analogy breaks in two places. Jigsaw pieces fit only their own neighbours, while these ends fit any other end the enzyme made. And a jigsaw does nothing once it is assembled; a joined plasmid only counts if a living cell accepts it, copies it and uses its genes.\n\n### Why it was hard\n\nEach piece had come separately, and only together did they make a method. Cutting DNA at a chosen place needed restriction enzymes; joining the pieces needed the sticky ends and an enzyme to seal them; getting DNA into cells needed the calcium trick; and keeping it there needed a plasmid that could copy itself inside the cell. A plasmid that the enzyme cut at only one point, so that it stayed whole and alive after opening, was the piece that tied it together.\n\nThe bigger question was whether genes from an entirely different kind of organism would work in bacteria at all. The team answered it within months. Chang and Cohen moved genes from a plasmid of *Staphylococcus*, a different bacterium, into *E. coli*. Then John Morrow, Berg's student, worked with Chang and the others to put DNA from the African clawed frog, *Xenopus laevis*, into *E. coli*. The bacteria copied the frog DNA and made RNA from it. That work was done in the autumn of 1973 and published in 1974; it is often called the first cloning of an animal gene.\n\n![Stanley Cohen in 2016. His Stanford laboratory supplied the plasmids and put the joined DNA into bacteria.](https://upload.wikimedia.org/wikipedia/commons/7/70/Stanley_Norman_Cohen_DSC_2027.jpg \"Otha deWayne Howse · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Stanley_Norman_Cohen_DSC_2027.jpg\")\n\n### Scientists stop to ask\n\nBoyer described the unpublished results in June 1973 at the Gordon Research Conference on Nucleic Acids in New Hampton, New Hampshire. Its co-chairs, Maxine Singer and Dieter Söll, then sent a letter to the National Academy of Sciences, published in *Science*, warning that such hybrid molecules might turn out to be hazardous. The Academy asked Berg to look into it, and in July 1974 a group he led published an open letter asking scientists to put some kinds of experiments on hold until the risks were understood. Cohen and Boyer were among its signers.\n\nIn February 1975 well over a hundred scientists, together with lawyers and journalists, met at the Asilomar conference centre in California to decide which experiments needed which precautions. The United States National Institutes of Health issued formal rules in 1976. It was one of the rare times researchers paused their own field over a risk nobody had yet seen.\n\n> [!NOTE]\n> The pause is remembered as a moratorium, but the letter asked to hold off only a few kinds of experiments; most work went on. Some critics at the time felt scientists were writing their own rules. Others, Cohen among them, later argued that the feared dangers had not appeared and that the benefits were real.\n\n### What it opened\n\nIn 1976 Boyer and the venture capitalist Robert Swanson founded Genentech, one of the first companies built on the new method. In 1977 Boyer's group, with Keiichi Itakura and Arthur Riggs at the City of Hope medical centre, got bacteria to make somatostatin, a hormone also made in the human body. The next target was insulin, which people with diabetes had until then received from the pancreases of cattle and pigs. Human insulin made by bacteria, sold by Eli Lilly, was approved in the United States in 1982, the first medicine of this kind to reach the market.\n\nStanford and the University of California filed a patent on the method in 1974; the first was granted in 1980 and named only Cohen and Boyer as inventors. Cohen's first reaction to the idea of a patent was negative. By the time the patents expired in 1997, hundreds of companies had taken licences to use the method. The patent did not name Chang, Helling or the earlier contributors whose work the method relied on.\n\nIn 1980 Berg received half of the Nobel Prize in Chemistry; Cohen and Boyer did not receive one. Since then cutting and joining DNA has become routine: it is how hormones, vaccines and many diagnostic tests are made, how the pieces of the human genome were copied so they could be read, and part of the ground on which later tools for editing genes were built.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Rekombinant DNA: farklı kaynaklardan genler birleştirilip bakteride kopyalandı",
+      "summary": "Kaliforniya'daki iki laboratuvar farklı kaynaklardan DNA'yı kesip birleştirdi ve bakterilere kopyalattı. Genler canlılar arasında taşınabilir oldu; bilim insanları da durup bunun riskini sordu.",
+      "why_it_matters": "Genleri kesilip çıkarılabilen, taşınabilen ve çoğaltılabilen bir şeye dönüştürdü. Bakteriye üretilen insan insülini, modern biyolojinin büyük kısmı ve bu yeni gücün riskleri üzerine tartışma bu çalışmadan doğdu.",
+      "if_you_were_there": "Genlerin DNA'dan yapıldığını biliyorsunuz, ama istediğiniz bir canlıdan bir geni seçip bir bakteriye kopyalatamıyorsunuz. Henüz kimse yapamıyor.",
+      "place_name": "San Francisco Körfez Bölgesi",
+      "body": "### Sahne\n\n1970'lerin başında biyologlar yaşamın kimyasının bir kısmını okuyabiliyor, ama henüz düzenleyemiyordu. Genlerin DNA parçaları olduğunu biliyorlardı ve insan bağırsağında yaşayan, kapta hızla çoğalan bir bakteri, *Escherichia coli* hakkında çok şey öğrenmişlerdi. Yapamadıkları şuydu: belirli bir geni bir canlıdan alıp başka bir canlıya koymak, orada kopyalanmasını ve kullanılmasını sağlamak.\n\nAraçların bir kısmı zaten vardı; bambaşka sorular soran insanlar bulmuştu onları. Bakteriler ana kromozomlarının yanında, hücreden hücreye geçebilen küçük DNA halkaları taşır: plazmitler. Plazmitler hekimleri kaygılandırıyordu, çünkü antibiyotiklere direnç taşıyabiliyorlardı. Bu aktarılabilir direnç ilk kez 1959–1960 dolaylarında Japonya'da fark edildi: oradaki araştırma grupları, aralarında Ochiai'nin ve Akiba'nın grupları, direncin dizanteri bakterisi *Shigella* ile *E. coli* arasında geçtiğini gördü. Tokyo'daki Keio Üniversitesi'nden Tsutomu Watanabe bu \"R faktörleri\"nin önde gelen araştırmacılarından biri oldu. Stanford'da hekim Stanley Cohen de aynı tür plazmitleri inceliyordu.\n\nİkinci araç, bakterilerin virüslere karşı kendilerini savunma biçiminden geldi. Bakteriler kısıtlama enzimleri üretir: DNA'yı yalnızca belirli kısa bir harf dizisinin bulunduğu yerden kesen proteinler. Werner Arber, Hamilton Smith ve Daniel Nathans bu enzimlerin anlaşılmasını ve kullanılabilmesini sağlayan çalışmaların büyük kısmını yaptı; bunun için 1978 Nobel Fizyoloji veya Tıp Ödülü'nü paylaştılar. Kaliforniya Üniversitesi San Francisco'da Herbert Boyer'in laboratuvarı *E. coli*'den gelen böyle bir enzim, EcoRI üzerinde çalışıyordu; enzimi orada ilk kez Boyer ve Daisy Roulland-Dussoix ile çalışan doktora öğrencisi Robert Yoshimori ayırmıştı.\n\nÜçüncü araç, DNA'yı *E. coli*'nin içine sokmanın bir yoluydu. 1970'te Morton Mandel ve Akiko Higa, kalsiyum klorür çözeltisinde bekletilen bakterilerin bir virüsün DNA'sını içine aldığını gösterdi. Bunun üzerine, Cohen'in laboratuvarında eğitim gören birinci sınıf tıp öğrencisi Leslie Hsu, araştırma teknisyeni Annie Chang'in yardımıyla, 1971'in sonuna doğru saflaştırılmış plazmitleri *E. coli*'ye soktu; plazmitler orada kendilerini kopyalamayı sürdürdü.\n\n### Biri önce oraya vardı ve durdu\n\nİki farklı kaynaktan gelen DNA'yı birleştiren ilk moleküller Stanford'da, Paul Berg'in laboratuvarında yapıldı. 1972'de David Jackson, Robert Symons ve Berg, kemirgenlerde tümöre yol açabilen bir virüs olan SV40'ın DNA'sını bakterileri enfekte eden bir virüsün DNA'sına bağladıklarını bildirdi. Aynı bölümde, Dale Kaiser'in laboratuvarındaki doktora öğrencisi Peter Lobban da aynı fikri bağımsız olarak geliştiriyordu.\n\n![Paul Berg 1980'de; o yıl nükleik asitler, özellikle rekombinant DNA üzerine çalışmaları için Nobel Kimya Ödülü'nün bir payını aldı.](https://upload.wikimedia.org/wikipedia/commons/8/88/Paul_Berg_in_1980.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Paul_Berg_in_1980.jpg\")\n\nDoğal bir sonraki adım, böyle bir molekülü *E. coli*'ye koyup bakterilerin onu çoğaltmasına izin vermekti. Berg'in doktora öğrencisi Janet Mertz, 1971 yazında Cold Spring Harbor Laboratuvarı'ndaki bir kursta bu yönde bir plan anlattı. Kursta ders veren hücre biyoloğu Robert Pollack itiraz etti: *E. coli* insanların içinde yaşar, SV40 ise hayvanlarda kansere yol açabilen genler taşır. Berg bu molekülleri klonlamamayı kabul etti. 1972'de Mertz ve Ronald Davis bir sonraki adımı çok kolaylaştıracak bir şey buldu: EcoRI'nin DNA'yı keserken bıraktığı uçlar \"yapışkan\"dır, yani onunla kesilmiş herhangi iki parça birleştirilebilir.\n\n### Ne oldu\n\n1972 Kasımı'nın ortasında Cohen, Honolulu'daki Hawaii Üniversitesi'nde plazmitler üzerine bir toplantı düzenledi; Donald Helinski ve Tsutomu Watanabe ile birlikte düzenledikleri ortak bir Amerika–Japonya konferansıydı bu. Boyer orada EcoRI'yi anlattı. Cohen'in sonradan yazdığı anlatıma göre bir akşam geç saatte o, Boyer ve birkaç meslektaşı Waikiki plajı yakınındaki bir şarküteride buldular kendilerini ve kâğıt peçetelere ortak bir deneyin taslağını çizdiler. Hikâye katılanların kendi hatırasıdır, o günden kalma bir kayıt değil; ama ana hatları anlatımlarında tutarlıdır.\n\n![Herbert Boyer 2009'da. Kaliforniya Üniversitesi San Francisco'daki laboratuvarı DNA'yı kesen EcoRI enzimini sağladı.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Herb_Boyer.jpg \"Jane Gitschier · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Herb_Boyer.jpg\")\n\nPlan, işi birbirinden elli kilometre kadar uzak iki laboratuvar arasında bölüyordu. Boyer'in laboratuvarı EcoRI enzimini sağladı ve DNA'yı inceledi; Stanford'daki Cohen'in grubu plazmitleri saflaştırdı, DNA'yı bakterilere soktu ve onu taşıyanları ayıkladı. San Francisco'da oturan Annie Chang malzemeyi iki laboratuvar arasında taşıdı. Michigan Üniversitesi'nden, akademik iznini Boyer'in laboratuvarında geçiren profesör Robert Helling de işe katıldı.\n\n1973'ün başında başladılar. Ana plazmit pSC101, tetrasiklin antibiyotiğine direnç geni taşıyordu ve EcoRI onu yalnızca bir yerden kesiyordu; böylece kendini kopyalama yeteneğini kaybetmeden açılabiliyordu. Ekip bu açıklığa, ikinci bir antibiyotiğe, kanamisine direnç taşıyan başka bir plazmitin bir parçasını yerleştirdi. Sonra bakterilerin yeni halkaları içine almasını sağlayıp onları antibiyotiklerin bulunduğu ortamda büyüttüler. Yalnızca çalışan birleşik plazmidi taşıyan bakteriler hayatta kaldı ve yavruları onu miras aldı. 1973 Martı'na gelindiğinde işe yaradığını biliyorlardı. Cohen, Chang, Boyer ve Helling'in \"Biyolojik olarak işlevsel bakteri plazmitlerinin laboratuvarda kurulması\" (*Construction of biologically functional bacterial plasmids in vitro*) başlıklı makalesi Kasım 1973'te *Proceedings of the National Academy of Sciences* dergisinde çıktı.\n\nEcoRI'yi, nereden keserse kessin aynı yapboz biçimli kenarı bırakan bir kesici gibi düşünün: kestiği herhangi iki parça, nereden gelmiş olursa olsun, birbirine oturur. Benzetme iki yerde bozulur. Yapboz parçaları yalnızca kendi komşularına oturur, bu uçlar ise enzimin açtığı başka herhangi bir uca oturur. Üstelik yapboz tamamlandığında hiçbir şey yapmaz; birleşik bir plazmit ancak canlı bir hücre onu kabul eder, kopyalar ve genlerini kullanırsa bir anlam taşır.\n\n### Neden zordu\n\nParçaların her biri ayrı ayrı gelmişti ve ancak bir araya geldiklerinde bir yöntem oldular. DNA'yı seçilen yerden kesmek kısıtlama enzimlerini; parçaları birleştirmek yapışkan uçları ve onları mühürleyen bir enzimi; DNA'yı hücreye sokmak kalsiyum hilesini; orada tutmak ise hücrenin içinde kendini kopyalayabilen bir plazmidi gerektiriyordu. Enzimin yalnızca bir noktadan kestiği, açıldıktan sonra da bütün ve canlı kalan bir plazmit, hepsini birbirine bağlayan parça oldu.\n\nDaha büyük soru, bambaşka türden bir canlının genlerinin bakteride çalışıp çalışmayacağıydı. Ekip bunu birkaç ay içinde yanıtladı. Chang ve Cohen, başka bir bakteri olan *Staphylococcus*'un bir plazmidindeki genleri *E. coli*'ye taşıdı. Ardından Berg'in öğrencisi John Morrow, Chang ve diğerleriyle birlikte Afrika pençeli kurbağası *Xenopus laevis*'in DNA'sını *E. coli*'ye koydu. Bakteriler kurbağa DNA'sını kopyaladı ve ondan RNA üretti. Bu çalışma 1973 sonbaharında yapıldı ve 1974'te yayımlandı; çoğu zaman bir hayvan geninin ilk klonlanması olarak anılır.\n\n![Stanley Cohen 2016'da. Stanford'daki laboratuvarı plazmitleri sağladı ve birleştirilmiş DNA'yı bakterilere soktu.](https://upload.wikimedia.org/wikipedia/commons/7/70/Stanley_Norman_Cohen_DSC_2027.jpg \"Otha deWayne Howse · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Stanley_Norman_Cohen_DSC_2027.jpg\")\n\n### Bilim insanları durup soruyor\n\nBoyer, henüz yayımlanmamış sonuçları Haziran 1973'te New Hampshire'ın New Hampton kasabasındaki Nükleik Asitler Gordon Araştırma Konferansı'nda anlattı. Konferansın eş başkanları Maxine Singer ve Dieter Söll ardından Ulusal Bilimler Akademisi'ne bir mektup gönderdi; *Science*'ta yayımlanan mektup, bu tür melez moleküllerin tehlikeli çıkabileceği uyarısını yapıyordu. Akademi Berg'den konuyu incelemesini istedi ve Temmuz 1974'te onun başkanlığındaki bir grup, riskler anlaşılana kadar bazı deney türlerinin askıya alınmasını isteyen açık bir mektup yayımladı. Cohen ve Boyer de imzacılar arasındaydı.\n\nŞubat 1975'te yüzü aşkın bilim insanı, hukukçular ve gazetecilerle birlikte Kaliforniya'daki Asilomar konferans merkezinde toplanarak hangi deneyin hangi önlemleri gerektirdiğine karar vermeye çalıştı. ABD Ulusal Sağlık Enstitüleri resmî kuralları 1976'da yayımladı. Araştırmacıların henüz kimsenin görmediği bir risk yüzünden kendi alanlarını durdurduğu ender anlardan biriydi bu.\n\n> [!NOTE]\n> Bu duraklama bir moratoryum olarak hatırlanır, ama mektup yalnızca birkaç deney türünün ertelenmesini istiyordu; çalışmaların çoğu sürdü. O dönemin bazı eleştirmenleri, bilim insanlarının kendi kurallarını kendilerinin yazdığını düşündü. Aralarında Cohen'in de bulunduğu başkaları ise sonradan, korkulan tehlikelerin ortaya çıkmadığını ve yararların gerçek olduğunu savundu.\n\n### Ne kapı açtı\n\n1976'da Boyer ve girişim sermayedarı Robert Swanson, yeni yöntem üzerine kurulan ilk şirketlerden biri olan Genentech'i kurdu. 1977'de Boyer'in grubu, City of Hope tıp merkezinden Keiichi Itakura ve Arthur Riggs ile birlikte, bakterilere insan vücudunda da üretilen bir hormon olan somatostatini ürettirdi. Sıradaki hedef insülindi; diyabetli insanlar o güne dek insülini sığır ve domuz pankreasından alıyordu. Bakterilere ürettirilen ve Eli Lilly'nin sattığı insan insülini 1982'de ABD'de onaylandı; piyasaya çıkan bu türden ilk ilaç oldu.\n\nStanford ve Kaliforniya Üniversitesi 1974'te yöntem için patent başvurusu yaptı; ilk patent 1980'de verildi ve mucit olarak yalnızca Cohen ile Boyer'i adlandırdı. Cohen'in patent fikrine ilk tepkisi olumsuzdu. Patentlerin süresi 1997'de dolduğunda yüzlerce şirket yöntemi kullanmak için lisans almıştı. Patent Chang'i, Helling'i ya da yöntemin dayandığı önceki katkıların sahiplerini anmıyordu.\n\n1980'de Berg, Nobel Kimya Ödülü'nün yarısını aldı; Cohen ve Boyer Nobel almadı. O günden bu yana DNA'yı kesip birleştirmek sıradan bir iş oldu: hormonlar, aşılar ve birçok tanı testi böyle üretilir, insan genomunun parçaları okunabilmek için böyle kopyalandı, gen düzenlemenin sonraki araçları da kısmen bu zeminin üstüne kuruldu.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Рекомбинантная ДНК: гены из разных источников соединили и размножили в бактериях",
+      "summary": "Две лаборатории в Калифорнии разрезали ДНК из разных источников, соединили её и заставили бактерии её копировать. Гены стало можно переносить между организмами, и учёные задумались о риске.",
+      "why_it_matters": "Гены превратились в то, что можно вырезать, перенести и размножить. Человеческий инсулин из бактерий, большая часть современной биологии и спор о рисках новой силы выросли из этой работы.",
+      "if_you_were_there": "Вы знаете, что гены состоят из ДНК, но не можете выбрать ген из любого организма и заставить бактерию его копировать. Пока этого не может никто.",
+      "place_name": "Область залива Сан-Франциско",
+      "body": "### Обстановка\n\nК началу 1970-х годов биологи умели прочитать кое-что в химии жизни, но ещё не умели её править. Они знали, что гены — это участки ДНК, и многое узнали об одной бактерии, *Escherichia coli*, которая живёт в кишечнике человека и быстро растёт в чашке. Чего они не могли, так это взять определённый ген из одного организма и перенести его в другой, где его бы копировали и использовали.\n\nЧасть инструментов уже существовала: их нашли люди, задававшие совсем другие вопросы. Кроме основной хромосомы, бактерии несут маленькие кольца ДНК — плазмиды, которые могут переходить из клетки в клетку. Плазмиды тревожили врачей, потому что могли переносить устойчивость к антибиотикам. Такую передаваемую устойчивость впервые заметили в Японии около 1959–1960 годов: тамошние исследовательские группы, среди них группы Отиаи и Акибы, увидели, что устойчивость переходит от дизентерийной бактерии *Shigella* к *E. coli*. Цутому Ватанабэ из Университета Кэйо в Токио стал одним из ведущих исследователей этих «R-факторов». В Стэнфорде такие же плазмиды изучал врач Стэнли Коэн.\n\nВторой инструмент дал способ, которым бактерии защищаются от вирусов. Они вырабатывают ферменты рестрикции — белки, которые режут ДНК только там, где встречается определённая короткая последовательность букв. Вернер Арбер, Хамилтон Смит и Даниел Натанс сделали значительную часть работы, благодаря которой эти ферменты стали понятны и пригодны к делу; за это они разделили Нобелевскую премию по физиологии и медицине 1978 года. В Калифорнийском университете в Сан-Франциско лаборатория Герберта Бойера работала с одним таким ферментом из *E. coli*, EcoRI; впервые его выделил там аспирант Роберт Ёсимори, работавший с Бойером и Дэйзи Руллан-Дюссуа.\n\nТретий инструмент — способ вообще ввести ДНК в *E. coli*. В 1970 году Мортон Мандел и Акико Хига показали, что бактерии, выдержанные в растворе хлорида кальция, поглощают ДНК вируса. Опираясь на это, к концу 1971 года в лаборатории Коэна ввели очищенные плазмиды в *E. coli*, где они продолжали копировать себя. Этим занимались Лесли Сюй (тогда на первом курсе медицинской школы, на стажировке у Коэна) и помогавшая в работе лаборантка Энни Чан.\n\n### Кто-то оказался там первым — и остановился\n\nПервые молекулы, соединившие ДНК из двух разных источников, были получены в Стэнфорде, в лаборатории Пола Берга. В 1972 году Дэвид Джексон, Роберт Саймонс и Берг сообщили, что присоединили ДНК вируса SV40, способного вызывать опухоли у грызунов, к ДНК вируса, заражающего бактерии. Аспирант Питер Лоббан из лаборатории Дейла Кайзера на той же кафедре независимо развивал ту же идею.\n\n![Пол Берг в 1980 году — в тот год он получил долю Нобелевской премии по химии за работы о нуклеиновых кислотах, особенно о рекомбинантной ДНК.](https://upload.wikimedia.org/wikipedia/commons/8/88/Paul_Berg_in_1980.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Paul_Berg_in_1980.jpg\")\n\nЕстественным следующим шагом было ввести такую молекулу в *E. coli* и дать бактериям её размножить. Аспирантка Берга Джанет Мерц рассказала о подобном плане летом 1971 года на курсе в Колд-Спринг-Харборской лаборатории. Преподававший на курсе клеточный биолог Роберт Поллак возразил: *E. coli* живёт в людях, а SV40 несёт гены, способные вызывать рак у животных. Берг согласился не клонировать эти молекулы. В 1972 году Мерц и Рональд Дэвис нашли то, что сильно облегчило следующий шаг: концы, которые EcoRI оставляет при разрезании ДНК, «липкие», поэтому любые два разрезанных им куска можно соединить.\n\n### Что произошло\n\nВ середине ноября 1972 года Коэн участвовал в организации встречи по плазмидам в Гавайском университете в Гонолулу — совместной американо-японской конференции, которую он организовал вместе с Дональдом Хелински и Цутому Ватанабэ. Бойер рассказывал там об EcoRI. Как пишет сам Коэн в позднейших воспоминаниях, однажды поздно вечером он, Бойер и несколько коллег оказались в закусочной недалеко от пляжа Вайкики и набросали на бумажных салфетках план совместного опыта. Эта история — память самих участников, а не запись того времени, но в общих чертах их рассказы сходятся.\n\n![Герберт Бойер в 2009 году. Его лаборатория в Калифорнийском университете в Сан-Франциско поставляла фермент EcoRI, который резал ДНК.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Herb_Boyer.jpg \"Jane Gitschier · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Herb_Boyer.jpg\")\n\nПлан делил работу между двумя лабораториями примерно в пятидесяти километрах друг от друга. Лаборатория Бойера поставляла фермент EcoRI и анализировала ДНК; группа Коэна в Стэнфорде очищала плазмиды, вводила ДНК в бактерии и отбирала те, что её несли. Энни Чан, жившая в Сан-Франциско, возила материалы между лабораториями. К работе присоединился Роберт Хеллинг, профессор Мичиганского университета, проводивший творческий отпуск в лаборатории Бойера.\n\nНачали в начале 1973 года. Главная плазмида, pSC101, несла ген устойчивости к антибиотику тетрациклину, а EcoRI разрезал её только в одном месте, так что её можно было раскрыть, не лишив способности копировать себя. В этот разрыв группа вставила кусок другой плазмиды, несущий устойчивость ко второму антибиотику — канамицину. Затем дали бактериям поглотить новые кольца и вырастили их в присутствии антибиотиков. Выжили только бактерии с работающей соединённой плазмидой, и их потомство унаследовало её. К марту 1973 года стало ясно, что метод работает. Статья Коэна, Чан, Бойера и Хеллинга «Конструирование биологически функциональных бактериальных плазмид in vitro» вышла в журнале *Proceedings of the National Academy of Sciences* в ноябре 1973 года.\n\nПредставьте EcoRI как резак, который где бы ни резал, оставляет один и тот же край в форме детали пазла: любые два куска, разрезанные им, подойдут друг к другу, откуда бы они ни были. Сравнение ломается в двух местах. Детали пазла подходят только к своим соседям, а эти концы — к любому другому концу, оставленному ферментом. И собранный пазл ничего не делает; соединённая плазмида имеет смысл, только если живая клетка её примет, скопирует и станет пользоваться её генами.\n\n### Почему это было трудно\n\nКаждая часть пришла отдельно, и только вместе они стали методом. Чтобы разрезать ДНК в выбранном месте, нужны были ферменты рестрикции; чтобы соединить куски — липкие концы и фермент, который их сшивает; чтобы ввести ДНК в клетки — кальциевый приём; а чтобы удержать её там — плазмида, способная копировать себя внутри клетки. Плазмида, которую фермент разрезал лишь в одной точке, так что после раскрытия она оставалась целой и живой, и связала всё воедино.\n\nБолее важный вопрос — будут ли вообще работать в бактериях гены совсем другого организма. Группа ответила на него за несколько месяцев. Чан и Коэн перенесли в *E. coli* гены с плазмиды другой бактерии, *Staphylococcus*. Затем Джон Морроу, ученик Берга, вместе с Чан и остальными ввёл в *E. coli* ДНК африканской шпорцевой лягушки *Xenopus laevis*. Бактерии копировали лягушачью ДНК и синтезировали по ней РНК. Эта работа была сделана осенью 1973 года и опубликована в 1974-м; её часто называют первым клонированием гена животного.\n\n![Стэнли Коэн в 2016 году. Его стэнфордская лаборатория поставляла плазмиды и вводила соединённую ДНК в бактерии.](https://upload.wikimedia.org/wikipedia/commons/7/70/Stanley_Norman_Cohen_DSC_2027.jpg \"Otha deWayne Howse · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Stanley_Norman_Cohen_DSC_2027.jpg\")\n\n### Учёные останавливаются, чтобы спросить\n\nНеопубликованные результаты Бойер изложил в июне 1973 года на Гордоновской конференции по нуклеиновым кислотам в Нью-Хэмптоне, штат Нью-Гэмпшир. Сопредседатели конференции Максин Сингер и Дитер Зёлль затем направили письмо в Национальную академию наук; опубликованное в *Science*, оно предупреждало, что такие гибридные молекулы могут оказаться опасными. Академия попросила Берга изучить вопрос, и в июле 1974 года группа под его руководством опубликовала открытое письмо с просьбой отложить некоторые виды опытов, пока риски не станут понятны. Коэн и Бойер были среди подписавших.\n\nВ феврале 1975 года больше сотни учёных вместе с юристами и журналистами собрались в конференц-центре Асиломар в Калифорнии, чтобы решить, какие опыты требуют каких мер предосторожности. Национальные институты здравоохранения США выпустили официальные правила в 1976 году. Это был один из редких случаев, когда исследователи сами приостановили свою область из-за риска, которого никто ещё не видел.\n\n> [!NOTE]\n> Эту паузу вспоминают как мораторий, но письмо просило отложить лишь несколько видов опытов; большая часть работы продолжалась. Некоторые критики того времени считали, что учёные сами пишут себе правила. Другие, среди них Коэн, позже утверждали, что опасения не подтвердились, а польза оказалась реальной.\n\n### Что это открыло\n\nВ 1976 году Бойер и венчурный инвестор Роберт Свонсон основали Genentech — одну из первых компаний, построенных на новом методе. В 1977 году группа Бойера вместе с Кэйити Итакурой и Артуром Риггсом из медицинского центра City of Hope заставила бактерии производить соматостатин — гормон, который вырабатывается и в организме человека. Следующей целью стал инсулин, который люди с диабетом до тех пор получали из поджелудочных желёз коров и свиней. Человеческий инсулин, произведённый бактериями и продававшийся компанией Eli Lilly, был одобрен в США в 1982 году — первое лекарство такого рода на рынке.\n\nСтэнфорд и Калифорнийский университет подали заявку на патент на метод в 1974 году; первый патент выдали в 1980 году, и изобретателями в нём названы только Коэн и Бойер. Сначала Коэн отнёсся к идее патента отрицательно. Когда в 1997 году срок патентов истёк, лицензии на метод взяли сотни компаний. В патенте не были названы ни Чан, ни Хеллинг, ни авторы более ранних работ, на которых держался метод.\n\nВ 1980 году Берг получил половину Нобелевской премии по химии; Коэн и Бойер Нобелевской премии не получили. С тех пор резать и соединять ДНК стало обычным делом: так производят гормоны, вакцины и многие диагностические тесты, так копировали куски генома человека, чтобы их можно было прочитать, и отчасти на этой основе построены более поздние инструменты редактирования генов.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Рекомбинанттык ДНК: ар кайсы булактан алынган гендер бириктирилип, бактерияда көчүрүлдү",
+      "summary": "Калифорниядагы эки лаборатория ар кайсы булактан алынган ДНКны кесип, бириктирип, бактерияларга көчүрттү. Гендер организмдер аралык көчө турган болду, окумуштуулар тобокелдикти ойлонушту.",
+      "why_it_matters": "Гендер кесип алууга, көчүрүүгө жана көбөйтүүгө боло турган нерсеге айланды. Бактерия өндүргөн адам инсулини, азыркы биологиянын көп бөлүгү жана бул жаңы күчтүн тобокелдиктери тууралуу талаш ушул иштен өсүп чыккан.",
+      "if_you_were_there": "Сиз гендер ДНКдан турарын билесиз, бирок каалаган организмден генди тандап алып, аны бактерияга көчүртө албайсыз. Азырынча муну эч ким кыла албайт.",
+      "place_name": "Сан-Франциско булуңунун аймагы",
+      "body": "### Көрүнүш\n\n1970-жылдардын башында биологдор тиричиликтин химиясынан бир аз окуй алышчу, бирок аны оңдоп-түзөй алышчу эмес. Гендер ДНКнын бөлүктөрү экенин билишкен жана адамдын ичегисинде жашап, идиште тез көбөйгөн бир бактерия, *Escherichia coli* жөнүндө көп нерсе үйрөнүшкөн. Алардын колунан келбеген нерсе мына ушул эле: белгилүү бир генди бир организмден алып, башка организмге салуу, ал жерде ал көчүрүлүп, колдонула тургандай кылуу.\n\nКуралдардын бир бөлүгү буга чейин эле бар болчу. Аларды такыр башка суроолорду берген адамдар тапкан. Бактериялар негизги хромосомасынан тышкары клеткадан клеткага өтө алган кичинекей ДНК шакекчелерин алып жүрөт, алар плазмида деп аталат. Плазмидалар дарыгерлерди тынчсыздандырган, анткени алар антибиотиктерге туруктуулукту ташый алышкан. Мындай берилүүчү туруктуулукту биринчи жолу болжол менен 1959–1960-жылдары Японияда байкашкан: ал жердеги изилдөө топтору, алардын ичинде Отиаи менен Акибанын топтору, туруктуулук ич өткөк бактериясы *Shigella* менен *E. coli* ортосунда өтөрүн көрүшкөн. Токиодогу Кэйо университетинен Цутому Ватанабэ бул «R-факторлорду» изилдегендердин алдыңкыларынан болуп калган. Стэнфорддо дарыгер Стэнли Коэн ушундай эле плазмидаларды изилдеген.\n\nЭкинчи курал бактериялардын вирустардан коргонуу ыкмасынан келген. Бактериялар рестрикция ферменттерин чыгарат: булар ДНКны белгилүү бир кыска тамгалар катары турган жерден гана кескен белоктор. Вернер Арбер, Гамильтон Смит жана Даниел Натанс бул ферменттерди түшүнүүгө жана колдонууга мүмкүн кылган иштин көп бөлүгүн аткарышкан. Бул үчүн алар 1978-жылы физиология же медицина боюнча Нобель сыйлыгын бөлүшкөн. Сан-Францискодогу Калифорния университетинде Герберт Бойердин лабораториясы *E. coli*ден алынган ушундай ферменттердин бири, EcoRI менен иштеген. Аны ал жерде биринчи жолу Бойер жана Дэйзи Руллан-Дюссуа менен иштеген аспирант Роберт Ёсимори бөлүп алган.\n\nҮчүнчү курал ДНКны *E. coli*нин ичине киргизүүнүн жолу болгон. 1970-жылы Мортон Мандел менен Акико Хига кальций хлоридинин эритмесинде кармалган бактериялар вирустун ДНКсын сиңирип аларын көрсөтүшкөн. Ушуга таянып, 1971-жылдын аягына карата Коэндин лабораториясында тазаланган плазмидаларды *E. coli*ге киргизишкен, алар ал жерде өздөрүн көчүрүүнү улантышкан. Бул ишти медициналык мектептин биринчи курсунда окуп, Коэндин лабораториясында машыгып жүргөн Лесли Сюй лаборант Энни Чандын жардамы менен аткарган.\n\n### Кимдир бирөө биринчи жеткен жана токтогон\n\nЭки башка булактан алынган ДНКны бириктирген алгачкы молекулалар Стэнфорддо, Пол Бергдин лабораториясында жасалган. 1972-жылы Дэвид Джексон, Роберт Саймонс жана Берг кемирүүчүлөрдө шишик пайда кыла алган SV40 вирусунун ДНКсын бактерияларды жуктуруучу вирустун ДНКсына бириктиргенин билдиришкен. Ошол эле бөлүмдө Дейл Кайзердин лабораториясындагы аспирант Питер Лоббан да ушул эле идеяны өз алдынча иштеп чыгып жаткан.\n\n![Пол Берг 1980-жылы. Ошол жылы ал нуклеин кислоталары, өзгөчө рекомбинанттык ДНК боюнча иштери үчүн химия боюнча Нобель сыйлыгынын бир үлүшүн алган.](https://upload.wikimedia.org/wikipedia/commons/8/88/Paul_Berg_in_1980.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Paul_Berg_in_1980.jpg\")\n\nКийинки табигый кадам мындай молекуланы *E. coli*ге салып, бактериялар аны көбөйтүшүнө жол берүү болчу. Бергдин аспиранты Джанет Мерц 1971-жылдын жайында Колд-Спринг-Харбор лабораториясындагы бир курста ушундай планын айтып берген. Ошол курста сабак берген клетка биологу Роберт Поллак каршы чыккан: *E. coli* адамдардын ичинде жашайт, ал эми SV40 жаныбарларда рак пайда кыла алган гендерди алып жүрөт. Берг бул молекулаларды клондобоого макул болгон. 1972-жылы Мерц менен Рональд Дэвис кийинки кадамды бир топ жеңилдеткен нерсени табышкан: EcoRI ДНКны кескенде калтырган учтар «жабышкак» болот, ошондуктан ал кескен каалаган эки бөлүктү бириктирүүгө болот.\n\n### Эмне болду\n\n1972-жылдын ноябрь айынын ортосунда Коэн Гонолулудагы Гавай университетинде плазмидалар боюнча жолугушууну уюштурууга катышкан. Бул ал Дональд Хелински жана Цутому Ватанабэ менен бирге уюштурган АКШ менен Япониянын биргелешкен конференциясы эле. Бойер ал жерде EcoRI жөнүндө баяндама жасаган. Коэндин кийин жазган эскерүүсү боюнча, бир күнү кечки маалда ал, Бойер жана бир нече кесиптеши Вайкики пляжына жакын кичинекей бир ашканага кирип, кагаз салфеткаларга биргелешкен тажрыйбанын планын чийип алышкан. Бул окуя ошол кездеги жазуу эмес, катышкандардын өз эскерүүсү, бирок негизги жагынан алардын айткандары дал келет.\n\n![Герберт Бойер 2009-жылы. Анын Сан-Францискодогу Калифорния университетиндеги лабораториясы ДНКны кескен EcoRI ферментин берип турган.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Herb_Boyer.jpg \"Jane Gitschier · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Herb_Boyer.jpg\")\n\nПлан ишти бири-биринен элүү чакырымдай алыстыктагы эки лабораторияга бөлгөн. Бойердин лабораториясы EcoRI ферментин берип, ДНКны талдаган. Стэнфорддогу Коэндин тобу плазмидаларды тазалап, ДНКны бактерияларга киргизип, аны алып жүргөндөрүн тандап алган. Сан-Францискодо жашаган Энни Чан материалдарды эки лабораториянын ортосунда ташып турган. Мичиган университетинен келип, илимий өргүүсүн Бойердин лабораториясында өткөрүп жаткан профессор Роберт Хеллинг да ишке кошулган.\n\nИш 1973-жылдын башында башталган. Негизги плазмида pSC101 тетрациклин антибиотигине туруктуулук генин алып жүргөн, ал эми EcoRI аны бир гана жерден кескен. Ошондуктан аны өзүн көчүрүү жөндөмүн жоготпостон ачууга мүмкүн болгон. Топ ошол ачылган жерге экинчи антибиотик канамицинге туруктуулукту алып жүргөн башка плазмиданын бир бөлүгүн салган. Андан кийин бактерияларга жаңы шакекчелерди сиңиртип, аларды антибиотиктер бар чөйрөдө өстүрүшкөн. Иштеген бириккен плазмиданы алып жүргөн бактериялар гана аман калган, алардын урпактары аны тукумунан алган. 1973-жылдын мартына карата ыкма иштей турганы белгилүү болгон. Коэн, Чан, Бойер жана Хеллингдин «Биологиялык жактан иштеген бактерия плазмидаларын лабораторияда куруу» (*Construction of biologically functional bacterial plasmids in vitro*) деген макаласы 1973-жылдын ноябрында *Proceedings of the National Academy of Sciences* журналында чыккан.\n\nEcoRIни кайсы жерден кеспесин бирдей пазл формасындагы кырды калтырган кескич катары элестетиңиз: ал кескен каалаган эки бөлүк, кайдан алынганына карабай, бири-бирине туура келет. Салыштыруу эки жерден бузулат. Пазлдын бөлүктөрү өз коңшуларына гана туура келет, ал эми бул учтар фермент ачкан каалаган башка учка туура келет. Анын үстүнө, чогултулган пазл эч нерсе кылбайт, бириккен плазмида болсо тирүү клетка аны кабыл алып, көчүрүп, гендерин колдонгондо гана маанилүү болот.\n\n### Эмне үчүн кыйын болгон\n\nАр бир бөлүк өзүнчө келген, алар бир жерге чогулганда гана ыкма пайда болгон. ДНКны тандалган жерден кесүү үчүн рестрикция ферменттери, бөлүктөрдү бириктирүү үчүн жабышкак учтар жана аларды бекиткен фермент, ДНКны клеткага киргизүү үчүн кальций ыкмасы, ал эми аны ошол жерде сактоо үчүн клетканын ичинде өзүн көчүрө алган плазмида керек болгон. Фермент бир гана жерден кескен, ачылгандан кийин да бүтүн жана тирүү калган плазмида баарын бириктирген бөлүк болуп калган.\n\nЧоңураак суроо такыр башка түрдөгү организмдин гендери бактерияда иштей береби деген суроо эле. Топ буга бир нече айдын ичинде жооп берген. Чан менен Коэн башка бир бактерия *Staphylococcus*тун плазмидасындагы гендерди *E. coli*ге көчүрүшкөн. Андан соң Бергдин шакирти Джон Морроу Чан жана башкалар менен бирге африкалык тырмактуу бака *Xenopus laevis*тин ДНКсын *E. coli*ге салган. Бактериялар бака ДНКсын көчүрүп, андан РНК жасаган. Бул иш 1973-жылдын күзүндө аткарылып, 1974-жылы жарыяланган. Аны көбүнчө жаныбар генинин биринчи клондолушу деп аташат.\n\n![Стэнли Коэн 2016-жылы. Анын Стэнфорддогу лабораториясы плазмидаларды берип, бириккен ДНКны бактерияларга киргизген.](https://upload.wikimedia.org/wikipedia/commons/7/70/Stanley_Norman_Cohen_DSC_2027.jpg \"Otha deWayne Howse · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Stanley_Norman_Cohen_DSC_2027.jpg\")\n\n### Окумуштуулар токтоп, суроо беришет\n\nБойер жарыялана элек жыйынтыктарды 1973-жылдын июнунда Нью-Гэмпшир штатындагы Нью-Хэмптон шаарында өткөн нуклеин кислоталары боюнча Гордон илимий конференциясында айтып берген. Конференциянын тең төрагалары Максин Сингер менен Дитер Зёлль андан кийин Улуттук илимдер академиясына кат жөнөтүшкөн. *Science* журналында жарыяланган бул кат мындай гибрид молекулалар коркунучтуу болуп чыгышы мүмкүн экенин эскерткен. Академия Бергден маселени изилдеп чыгууну суранган, ал эми 1974-жылдын июлунда ал жетектеген топ тобокелдиктер түшүнүктүү болгонго чейин тажрыйбалардын айрым түрлөрүн токтото турууну сураган ачык кат жарыялаган. Коэн менен Бойер да ага кол койгондордун арасында болгон.\n\n1975-жылдын февралында жүздөн ашык окумуштуу юристтер жана журналисттер менен бирге Калифорниядагы Асиломар конференция борборуна чогулуп, кайсы тажрыйба кандай сак чараларды талап кыларын чечүүгө аракет кылышкан. АКШнын Улуттук саламаттык институттары расмий эрежелерди 1976-жылы чыгарган. Изилдөөчүлөр али эч ким көрө элек тобокелдиктен улам өз тармагын өздөрү токтоткон сейрек учурлардын бири ушул болгон.\n\n> [!NOTE]\n> Бул тыныгууну мораторий катары эстешет, бирок кат тажрыйбалардын бир нече түрүн гана кийинкиге калтырууну сураган, иштин көбү уланган. Ошол кездеги айрым сынчылар окумуштуулар эрежелерди өздөрүнө өздөрү жазып жатат деп эсептешкен. Башкалар, алардын арасында Коэн да, кийин коркуп күткөн коркунучтар пайда болгон жок, пайдасы болсо чыныгы болду деп ырасташкан.\n\n### Бул эмнеге жол ачты\n\n1976-жылы Бойер менен венчурдук инвестор Роберт Свонсон жаңы ыкмага негизделген алгачкы компаниялардын бири Genentechти негиздешкен. 1977-жылы Бойердин тобу City of Hope медициналык борборунан Кэйити Итакура жана Артур Риггс менен бирге бактерияларга адамдын денесинде да иштелип чыккан гормон соматостатинди өндүртүшкөн. Кийинки максат инсулин болгон: кант диабети менен ооругандар ага чейин инсулинди уйлардын жана чочколордун уйку безинен алышчу. Бактериялар өндүргөн жана Eli Lilly компаниясы саткан адам инсулини 1982-жылы АКШда уруксат алган. Бул рынокко чыккан ушундай түрдөгү биринчи дары болгон.\n\nСтэнфорд жана Калифорния университети 1974-жылы ыкмага патент алууга арыз беришкен. Биринчи патент 1980-жылы берилип, анда ойлоп тапкычтар катары Коэн менен Бойер гана аталган. Коэн адегенде патент идеясына терс караган. Патенттердин мөөнөтү 1997-жылы бүткөндө ыкманы колдонууга жүздөгөн компания лицензия алган болчу. Патентте Чан да, Хеллинг да, ыкма таянган мурунку иштердин авторлору да аталган эмес.\n\n1980-жылы Берг химия боюнча Нобель сыйлыгынын жарымын алган. Коэн менен Бойер Нобель сыйлыгын алышкан эмес. Ошондон бери ДНКны кесип, бириктирүү кадимки ишке айланды: гормондор, вакциналар жана көптөгөн диагностикалык тесттер ушундай жол менен жасалат, адам геномунун бөлүктөрү да окуу үчүн ушундай жол менен көчүрүлгөн, гендерди оңдоонун кийинки куралдары да жарым-жартылай ушул негизде курулган.",
+      "status": "machine"
+    }
+  }
+}
