@@ -1,0 +1,347 @@
+{
+  "slug": "ptolemy-almagest",
+  "year": 150,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 31.2001,
+  "lng": 29.9187,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/7/78/Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg",
+    "credit": "Almagest Master",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Almageste_de_Ptolémée_-_BNF_Lat16200_f1.jpg"
+  },
+  "disciplines": [
+    "astronomy",
+    "mathematics"
+  ],
+  "people": [
+    {
+      "slug": "ptolemy",
+      "birth_year": 100,
+      "death_year": 170,
+      "role": "author",
+      "name": {
+        "en": "Ptolemy",
+        "tr": "Batlamyus",
+        "ru": "Птолемей",
+        "ky": "Птолемей"
+      }
+    },
+    {
+      "slug": "hipparchus",
+      "birth_year": -190,
+      "death_year": -120,
+      "role": "predecessor",
+      "name": {
+        "en": "Hipparchus",
+        "tr": "Hipparkos",
+        "ru": "Гиппарх",
+        "ky": "Гиппарх"
+      }
+    },
+    {
+      "slug": "apollonius-of-perga",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Apollonius of Perga",
+        "tr": "Pergeli Apollonios",
+        "ru": "Аполлоний Пергский",
+        "ky": "Пергалык Аполлоний"
+      }
+    },
+    {
+      "slug": "aristarchus-of-samos",
+      "birth_year": -310,
+      "death_year": -230,
+      "role": "context",
+      "name": {
+        "en": "Aristarchus of Samos",
+        "tr": "Samoslu Aristarkos",
+        "ru": "Аристарх Самосский",
+        "ky": "Самостук Аристарх"
+      }
+    },
+    {
+      "slug": "hypatia",
+      "birth_year": null,
+      "death_year": 415,
+      "role": "editor",
+      "name": {
+        "en": "Hypatia",
+        "tr": "Hypatia",
+        "ru": "Гипатия",
+        "ky": "Гипатия"
+      }
+    },
+    {
+      "slug": "theon-of-alexandria",
+      "birth_year": null,
+      "death_year": null,
+      "role": "transmitter",
+      "name": {
+        "en": "Theon of Alexandria",
+        "tr": "İskenderiyeli Theon",
+        "ru": "Теон Александрийский",
+        "ky": "Александриялык Теон"
+      }
+    },
+    {
+      "slug": "al-hajjaj-ibn-yusuf",
+      "birth_year": null,
+      "death_year": null,
+      "role": "translator",
+      "name": {
+        "en": "al-Hajjaj ibn Yusuf",
+        "tr": "Haccac bin Yusuf",
+        "ru": "аль-Хаджжадж ибн Юсуф",
+        "ky": "аль-Хажжаж ибн Юсуф"
+      }
+    },
+    {
+      "slug": "ishaq-ibn-hunayn",
+      "birth_year": null,
+      "death_year": 910,
+      "role": "translator",
+      "name": {
+        "en": "Ishaq ibn Hunayn",
+        "tr": "İshak bin Huneyn",
+        "ru": "Исхак ибн Хунайн",
+        "ky": "Исхак ибн Хунайн"
+      }
+    },
+    {
+      "slug": "thabit-ibn-qurra",
+      "birth_year": null,
+      "death_year": 901,
+      "role": "transmitter",
+      "name": {
+        "en": "Thabit ibn Qurra",
+        "tr": "Sabit bin Kurra",
+        "ru": "Сабит ибн Курра",
+        "ky": "Сабит ибн Курра"
+      }
+    },
+    {
+      "slug": "al-farghani",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Al-Farghani",
+        "tr": "El-Fergani",
+        "ru": "аль-Фаргани",
+        "ky": "Аль-Фергани"
+      }
+    },
+    {
+      "slug": "abd-al-rahman-al-sufi",
+      "birth_year": 903,
+      "death_year": 986,
+      "role": "successor",
+      "name": {
+        "en": "Abd al-Rahman al-Sufi",
+        "tr": "Abdurrahman es-Sufi",
+        "ru": "Абд ар-Рахман ас-Суфи",
+        "ky": "Абд ар-Рахман ас-Суфи"
+      }
+    },
+    {
+      "slug": "ibn-al-haytham",
+      "birth_year": null,
+      "death_year": null,
+      "role": "rival",
+      "name": {
+        "en": "Ibn al-Haytham",
+        "tr": "İbnü'l-Heysem",
+        "ru": "Ибн аль-Хайсам",
+        "ky": "Ибн аль-Хайсам"
+      }
+    },
+    {
+      "slug": "nasir-al-din-al-tusi",
+      "birth_year": 1201,
+      "death_year": 1274,
+      "role": "successor",
+      "name": {
+        "en": "Nasir al-Din al-Tusi",
+        "tr": "Nasîrüddin Tûsî",
+        "ru": "Насир ад-Дин ат-Туси",
+        "ky": "Насир ад-Дин ат-Туси"
+      }
+    },
+    {
+      "slug": "ibn-al-shatir",
+      "birth_year": 1304,
+      "death_year": 1375,
+      "role": "successor",
+      "name": {
+        "en": "Ibn al-Shatir",
+        "tr": "İbn eş-Şatır",
+        "ru": "Ибн аш-Шатир",
+        "ky": "Ибн аш-Шатир"
+      }
+    },
+    {
+      "slug": "ulugh-beg",
+      "birth_year": 1394,
+      "death_year": 1449,
+      "role": "successor",
+      "name": {
+        "en": "Ulugh Beg",
+        "tr": "Uluğ Bey",
+        "ru": "Улугбек",
+        "ky": "Улукбек"
+      }
+    },
+    {
+      "slug": "gerard-of-cremona",
+      "birth_year": 1114,
+      "death_year": 1187,
+      "role": "translator",
+      "name": {
+        "en": "Gerard of Cremona",
+        "tr": "Cremonalı Gerard",
+        "ru": "Герард Кремонский",
+        "ky": "Кремондук Герард"
+      }
+    },
+    {
+      "slug": "nicolaus-copernicus",
+      "birth_year": 1473,
+      "death_year": 1543,
+      "role": "successor",
+      "name": {
+        "en": "Nicolaus Copernicus",
+        "tr": "Nikolaus Kopernik",
+        "ru": "Николай Коперник",
+        "ky": "Николай Коперник"
+      }
+    },
+    {
+      "slug": "johannes-kepler",
+      "birth_year": 1571,
+      "death_year": 1630,
+      "role": "successor",
+      "name": {
+        "en": "Johannes Kepler",
+        "tr": "Johannes Kepler",
+        "ru": "Иоганн Кеплер",
+        "ky": "Иоганн Кеплер"
+      }
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum",
+    "euclid-elements",
+    "hipparchus-star-catalogue"
+  ],
+  "sources": [
+    {
+      "title": "Claudius Ptolemy — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ptolemy/"
+    },
+    {
+      "title": "Almagest — Wikipedia (title, structure, Canopic inscription, star catalogue, translations, the Newton fraud debate)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Almagest"
+    },
+    {
+      "title": "G. J. Toomer (translator), Ptolemy's Almagest (Duckworth, 1984; Princeton University Press reprint, 1998) — the standard English translation, for the reviewer",
+      "kind": "book",
+      "url": null
+    },
+    {
+      "title": "Ptolemy — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ptolemy"
+    },
+    {
+      "title": "Deferent and epicycle — Wikipedia (accuracy; the 'epicycles on epicycles' myth)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Deferent_and_epicycle"
+    },
+    {
+      "title": "Arabic translations of Ptolemy's Almagest — Qatar Digital Library",
+      "kind": "article",
+      "url": "https://www.qdl.qa/en/arabic-translations-ptolemys-almagest"
+    },
+    {
+      "title": "Al-Farghani — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Farghani"
+    },
+    {
+      "title": "Ibn al-Shatir — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Shatir"
+    },
+    {
+      "title": "Tusi couple — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Tusi_couple"
+    },
+    {
+      "title": "Hypatia — Wikipedia (Theon's commentary on Almagest Book III)",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hypatia"
+    },
+    {
+      "title": "Shukuk ala Batlamyus — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Shukuk-ala-Batlamyus"
+    },
+    {
+      "title": "Ptolemaic system — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Ptolemaic-system"
+    }
+  ],
+  "research_note": "Checked 2026-11-10 against MacTutor (Ptolemy biography), English Wikipedia (Almagest; Ptolemy; Deferent and epicycle; Equant; Tusi couple; Ibn al-Shatir; Al-Farghani; Hypatia; Abd al-Rahman al-Sufi) and the Qatar Digital Library page on the Arabic translations. Britannica (Ptolemaic system; Shukuk ala Batlamyus) is linked for the human reviewer only (automated fetch blocked). Toomer's translation is listed as the book source, not fetched. Verified adversarially by the fact-checker agent before translation and loading.\nFIXED AFTER FACT-CHECK: (1) 'Copernicus called the equant monstrous' removed: the 'monster' image in his preface is about the Ptolemaic system as a whole; body now says he objected that the equant broke uniform circular motion (Commentariolus). (2) Babylonian arithmetic astronomy acknowledged: 'no one had a single system that gave numbers' became 'no surviving work had a single geometric system'; if_you_were_there and why_it_matters rewritten the same way ('oldest surviving complete geometric model'). (3) 'Epicycles on epicycles' NOTE narrowed to medieval tables computed from Ptolemy's models; the extra circles of Ibn al-Shatir and Copernicus explained (to remove the equant). (4) Analogy break softened: in the Almagest the circles are computing geometry, but the Planetary Hypotheses did imagine real nested shells; 'Earth overtakes the outer planets' replaced by 'the Earth and the planet circle the Sun at different speeds'. (5) al-Sufi: he re-observed brightnesses and moved positions forward to his own date, not 'checked the list against the sky'. (6) 'Roman first name' corrected to 'Roman family name, Claudius'. (7) 'four centuries' -> 'some five centuries'; 'for weeks' -> 'weeks or months'; Hipparchus 'about half a century later'. (8) al-Hajjaj: 'earliest that survives complete' (fragments of earlier versions are known); Tusi couple 'first described in 1247' (for latitudes), later used in place of the equant; Kepler 1609 'circles began to go' (Astronomia nova is about Mars). (9) Image captions: Tusi diagram is a manuscript copy (Vat. ar. 319), not 'al-Tusi's own sketch'; cover painter shows Ptolemy 'enthroned', not 'crowned'.\nFLAGGED IN THE BODY: year 150 circa (date not recorded; Canopic inscription 146/147 shows earlier models); the R. Newton fraud charge and the 25 Sept 132 equinox (WARNING box), with Gingerich/Goldstein's rejection; how much of the star catalogue is Hipparchus' is unsettled; the 'eighty circles' legend (NOTE box); how Copernicus learned of Ibn al-Shatir's devices is unknown; Dante's debt to al-Farghani 'seems to'.\nREVIEWER SHOULD CHECK: first/last dated observations (26 March 127, 2 February 141) rest on MacTutor; the fact-checker suggests Toomer's introduction as a second source. The al-Hajjaj date 827-828 rests on a manuscript colophon (QDL); McGill's BEA entry says when and for whom he translated is unknown. Canopic inscription: Wikipedia Ptolemy says 146-147, Wikipedia Almagest says 147 or 148; body uses 146 or 147. Ptolemy's life dates vary (MacTutor 85-165, Wikipedia about 100-170); people entry uses 100/170. The THEORY box follows Toomer I.7 ('neither clouds nor other flying or thrown objects'); 'grants it might be simpler' paraphrases Ptolemy's 'this simpler conjecture'. 'Hypatia may have worked on more of the book' rests on Alan Cameron via Wikipedia. Ishaq ibn Hunayn death 910 and Hipparchus -190/-120 are approximate. Copernicus 'at least as accurate, not more' rests on Wikipedia (Deferent and epicycle). The builds_on target hipparchus-star-catalogue is only in extension-queue.json and does not link yet; copernicus-heliocentrism and kepler-elliptical-orbits are natural forward links (the contract has no 'enables' field).\nIMAGES: cover = BnF Latin 16200 f.1, 'Almagest Master', Public domain, dated 1213 on Commons. Figures: Ptolemaic three-centres diagram (Joerg-ks, CC BY-SA 4.0); Arabic Almagest pages, Bodleian MS. Pococke 369 (CC BY 4.0) — the commons.mjs credit line reads 'Ptolemy' and is used verbatim as the pipeline requires, but the fact-checker reports Commons' attribution requirement as 'Bodleian Libraries, University of Oxford'; the caption text names the Bodleian, the reviewer should decide whether to change the credit line; Tusi couple diagram (credit 'Nasir al-Din al-Tusi', Public domain), a later manuscript copy (Vat. ar. 319). All licences read from the Commons API via commons.mjs.\nLEFT OUT / NON-WESTERN: Babylonian predictive tables and eclipse records; Hypatia; al-Hajjaj, Sergius son of Elias, Ishaq ibn Hunayn, Thabit ibn Qurra; al-Farghani (Fergana Valley, Central Asia); al-Sufi; Ulugh Beg (Samarkand); Ibn al-Haytham; al-Tusi; Ibn al-Shatir. Mu'ayyad al-Din al-'Urdi and Qutb al-Din al-Shirazi (Maragha) are not named to keep the chain short. Indian astronomy's relation to Greek epicycle models is not discussed (contested, not researched in this run).\nKYRGYZ: machine translation. Glossary terms used: Жер, Күн, Ай, жылдыз, планета, асман, байкоо, өлчөө, эсептөө, сан, бурч, геометрия, модель, ката, теория, физика, кылым, жыл, китеп, кол жазма, китепкана, котормо, окумуштуу, кыймыл, ылдамдык, жарык, Птолемей, Коперник, Кеплер, Александрия, Багдад, Самарканд, Улукбек. 'check' terms used: айлана (circle; used throughout for Ptolemy's circles), тутулуу (тутулуулар, тутулуу жазуулары), Ибн аль-Хайсам, Улукбек. Not in the glossary, chosen by Claude: эпицикл, деферент, эквант (Russian borrowings), хорда, жылдыз топтому (constellation), илмек (loop), артка жылуу (retrograde motion), күзгү күн менен түндүн теңелиши (autumn equinox), жылдызнаама (horoscope/astrology), асман телосу (celestial body), түшүндүрмө (commentary), Туси жубу (Tusi couple), Чолпон (Венера). Proper nouns follow the Russian forms (Пергалык Аполлоний, Родостук Гиппарх, Самостук Аристарх, Теон, Гипатия, аль-Хажжаж ибн Юсуф, Исхак ибн Хунайн, Сабит ибн Курра, Аль-Фергани, Абд ар-Рахман ас-Суфи, Насир ад-Дин ат-Туси, Ибн аш-Шатир, Кремондук Герард, Каноп, Толедо, Дамаск).",
+  "translations": {
+    "en": {
+      "title": "Ptolemy's Almagest: the Earth-centred sky that worked",
+      "summary": "In Alexandria around 150, Ptolemy built a book of circles that predicted where Sun, Moon and planets would be. It put the Earth at the centre and still worked for 1,400 years.",
+      "why_it_matters": "The Almagest is the oldest surviving complete geometric model of the whole sky that gives numbers for every body, and for some fourteen centuries astronomy in Alexandria, Baghdad, Samarkand and Europe started from it. Its wrong centre and its equant were exactly what later astronomers, from Ibn al-Haytham to Copernicus, set out to fix.",
+      "if_you_were_there": "Five lights in the sky wander, stall and run backwards. Babylonian tables can predict them, but no one can draw why. A book of circles lets you both see it and work it out.",
+      "place_name": "Alexandria",
+      "status": "machine",
+      "body": "![First page of a Latin copy of the Almagest, dated around 1213 (Paris, Bibliothèque nationale de France, Latin 16200). The painter shows Ptolemy as a king enthroned: medieval readers often confused the astronomer with the Ptolemies who had once ruled Egypt.](https://upload.wikimedia.org/wikipedia/commons/7/78/Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg \"Almagest Master · Public domain · https://commons.wikimedia.org/wiki/File:Almageste_de_Ptolémée_-_BNF_Lat16200_f1.jpg\")\n\n### The scene\n\nLook at the night sky for a few months and most of it behaves. The stars turn together, like dots painted on one great sphere. Five lights do not: Mercury, Venus, Mars, Jupiter and Saturn drift against the stars, speed up, slow down, and from time to time stop and run backwards for weeks or months before turning forward again. Babylonian scribes had already learned to predict these movements with long arithmetic tables, without any picture of why they happened. Greek astronomers had spent some five centuries looking for that picture: a geometry of circles that would produce the wandering.\n\nBy the second century the tools were in place. Apollonius of Perga, around 200 BCE, had shown that a point riding a small circle whose centre rides a larger circle can trace loops. Hipparchus of Rhodes, about half a century later, had built working models of the Sun and the Moon, compiled a star catalogue and discovered that the whole sky slowly shifts over centuries. Babylonian eclipse records went back to the eighth century BCE, and Ptolemy would use them. What no surviving work had produced was a single geometric system that took the Sun, the Moon, the stars and all five planets and gave numbers for each.\n\nClaudius Ptolemy, a Greek-speaking astronomer of Roman Egypt, did. Almost nothing is known of his life. His Roman family name, Claudius, suggests Roman citizenship; everything he observed, he observed from Alexandria. The first observation of his own that can be dated exactly is from 26 March 127, the last from 2 February 141.\n\n### What happened\n\nHis book was called *Mathēmatikē Syntaxis*, the \"Mathematical Compilation\". Later readers called it the great, then the greatest, compilation; in Arabic \"the greatest\" became *al-majisṭī*, and Latin turned that into *Almagest*, the name it still carries.\n\nThe book has thirteen parts. It opens with the reasons for a round Earth resting at the centre of a round heaven, and with a table of chords, the geometry needed to turn angles into lengths. Then it works through the Sun, the Moon and eclipses. Two books hold a catalogue of more than a thousand stars in 48 constellations, each with its position and brightness, the oldest such full list that survives. The last five books take the planets one by one.\n\nEvery planet gets the same kind of machine. It rides a small circle, the epicycle; the centre of that circle travels around a larger one, the deferent. The deferent is not centred on the Earth but slightly off it. Ptolemy's own addition was the equant, an empty point on the far side of the deferent's centre from the Earth: seen from there, and only from there, the epicycle's centre moves at a steady speed. Hipparchus had not managed to make the planets work. The equant is what let Ptolemy do it.\n\n![A Ptolemaic planet. The Earth, the centre of the deferent and the equant lie on one line; the planet rides its epicycle, and the epicycle's centre moves steadily as seen from the equant. The loop near the Earth is the backward run seen in the sky.](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg \"Joerg-ks · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg\")\n\nPicture a fairground ride where each seat spins on its own small turntable while the big arm carries it around. Watched from the middle, a rider usually moves forward, but whenever the small spin runs against the big one, the rider seems to stop and slide back. That is a planet's backward run. The picture breaks at the hardware: a fairground ride has an arm and a motor. In the *Almagest* the circles are geometry for computing; in a later book Ptolemy did imagine them as real nested shells, but nothing in his sky pushed them around. And the real loop has a different cause: the Earth and the planet both circle the Sun, at different speeds, and the backward run is what one sees when one passes the other.\n\nThe date of the book is not recorded. Around 146 or 147 Ptolemy set up an inscription at Canopus, near Alexandria, listing his models, and those models are earlier versions of the ones in the *Almagest*. So the book was finished around 150 or a little later, and the year on this timeline is approximate.\n\n> [!THEORY]\n> Ptolemy did not ignore the idea of a moving Earth. In the first book he discusses a turning Earth and grants that it might make the sky simpler to describe, then rejects it on physical grounds: he argues that a spinning ground would leave behind the clouds and anything flying or thrown into the air. Aristarchus of Samos had put the Sun at the centre four centuries earlier. Ptolemy's case was the standard physics of his time, not a refusal to think.\n\n### Why it was hard\n\nEverything had to be measured with the naked eye, using rings and graduated arcs, and then fitted with geometry done by hand. Some of the numbers were inherited, with their errors. Ptolemy took Hipparchus' length of the year, which is a few minutes too long, and that small error spread through his other figures.\n\n> [!WARNING]\n> In 1977 the physicist Robert Newton accused Ptolemy of fabricating observations, calling him \"the most successful fraud in the history of science\". One example: an autumn equinox Ptolemy reports for 25 September 132 came out more than a day late, and matches what Hipparchus' figures predicted rather than what the sky did. Most historians, Owen Gingerich and Bernard Goldstein among them, reject the charge of fraud while agreeing that some numbers look computed rather than observed. How much of the star catalogue is Ptolemy's own and how much is Hipparchus' revised is still argued.\n\n> [!NOTE]\n> Popular histories say Ptolemy's system grew into \"epicycles on epicycles\", some eighty circles. Historians who have checked the medieval tables computed from Ptolemy's models report no piling of epicycles on epicycles to fit the sky, and the figure of eighty appears to date from 1898. The later extra circles of Ibn al-Shāṭir and Copernicus were added to get rid of the equant, not to patch errors. The system was complicated, but not in the way the legend says.\n\nThe machine worked. It predicted positions well enough for calendars, eclipses and horoscopes, and when Copernicus replaced it his system was at least as accurate, not more.\n\n### What it opened\n\nThe *Almagest* became the textbook of astronomy in three civilisations. In Alexandria, Theon wrote a commentary on it in the fourth century. The title of his commentary on Book Three says the edition was revised by \"my daughter Hypatia, the philosopher\"; scholars now read this as Hypatia revising the text of Ptolemy itself, and some think she worked on more of the book than that one part.\n\nIn Baghdad the book was translated into Arabic in the ninth century. The earliest version that survives complete is dated 827–828 and was made by al-Ḥajjāj ibn Yūsuf with the help of a Greek speaker, Sergius son of Elias. A second translation by Isḥāq ibn Ḥunayn, revised by Thābit ibn Qurra, became the standard one.\n\n![Pages from an Arabic copy of the Almagest with astronomical tables, dated 1397. Bodleian Libraries, University of Oxford, MS. Pococke 369.](https://upload.wikimedia.org/wikipedia/commons/2/26/Bodleian_Library_Pococke369_roll332_frame38.jpg \"Ptolemy · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Bodleian_Library_Pococke369_roll332_frame38.jpg\")\n\nOne of the most read guides to it came from Central Asia. Al-Farghānī, whose name ties him to the Fergana Valley, wrote in Baghdad a short summary of the *Almagest* with corrected values. Translated into Latin in 1135, it taught Ptolemy's astronomy to European readers for centuries; Dante's picture of the heavens seems to come from it. In 964 al-Ṣūfī reworked Ptolemy's star list: he observed the brightnesses again, moved the positions forward to his own century and set the Arabic star names beside the Greek ones. Ulugh Beg's observers in Samarkand measured the stars afresh in the fifteenth century.\n\nThe Arabic readers also argued with the book. In the eleventh century Ibn al-Haytham wrote *Doubts on Ptolemy*: the equant, he objected, meant a solid sphere turning steadily around a point that is not its centre, which no real body could do. In 1247, in his reworking of the *Almagest*, Naṣīr al-Dīn al-Ṭūsī first described a pair of rolling circles, now called the Tusi couple, that turns circular motion into motion along a line; he and later astronomers went on to use it in place of the equant. In fourteenth-century Damascus Ibn al-Shāṭir built Earth-centred models with no equant at all.\n\n![The Tusi couple in a manuscript of al-Tusi's work (Vatican Library, Vat. ar. 319): a small circle rolling inside a circle twice its size moves a point back and forth along a straight line.](https://upload.wikimedia.org/wikipedia/commons/3/33/Tusi_couple.jpg \"Nasir al-Din al-Tusi · Public domain · https://commons.wikimedia.org/wiki/File:Tusi_couple.jpg\")\n\nIn Toledo, Gerard of Cremona put the Arabic text into Latin, finishing in 1175. Copernicus had objected that the equant broke the rule of uniform circular motion; when he moved the Sun to the centre in 1543, he removed it with devices mathematically identical to Ibn al-Shāṭir's. How he came to know them is still unknown. Only in 1609, when Kepler gave Mars an ellipse, did the circles begin to go, and over the following decades the book Ptolemy finished around 150 stopped being the place where astronomy began."
+    },
+    "tr": {
+      "title": "Batlamyus'un Almagest'i: işe yarayan yer merkezli gökyüzü",
+      "summary": "Batlamyus 150 civarında İskenderiye'de Güneş'in, Ay'ın ve gezegenlerin yerini önceden hesaplayan bir çemberler kitabı kurdu. Dünya'yı merkeze koydu ve 1.400 yıl işe yaradı.",
+      "why_it_matters": "Almagest, her gök cismi için sayı veren, gökyüzünün tamamına ait günümüze ulaşan en eski bütünlüklü geometrik model; on dört yüzyıl boyunca İskenderiye'de, Bağdat'ta, Semerkant'ta ve Avrupa'da astronomi ondan başladı. Yanlış merkezi ve ekuantı, İbnü'l-Heysem'den Kopernik'e sonraki astronomların düzeltmeye giriştiği şeyin ta kendisiydi.",
+      "if_you_were_there": "Gökyüzünde beş ışık dolaşıyor, duraklıyor, geri gidiyor. Babil tabloları onları öngörebiliyor ama nedenini kimse çizemiyor. Bir çemberler kitabı hem görmeni hem hesaplamanı sağlıyor.",
+      "place_name": "İskenderiye",
+      "status": "machine",
+      "body": "![Almagest'in yaklaşık 1213 yılına tarihlenen bir Latince kopyasının ilk sayfası (Paris, Fransa Ulusal Kütüphanesi, Latin 16200). Ressam Batlamyus'u tahtında oturan bir kral olarak çizmiş: Orta Çağ okurları astronomu, bir zamanlar Mısır'ı yöneten Ptolemaios hanedanıyla sık sık karıştırırdı.](https://upload.wikimedia.org/wikipedia/commons/7/78/Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg \"Almagest Master · Public domain · https://commons.wikimedia.org/wiki/File:Almageste_de_Ptolémée_-_BNF_Lat16200_f1.jpg\")\n\n### Sahne\n\nGece gökyüzünü birkaç ay izleyin; çoğu düzenli davranır. Yıldızlar, tek bir dev küreye boyanmış noktalar gibi birlikte döner. Beş ışık öyle yapmaz: Merkür, Venüs, Mars, Jüpiter ve Satürn yıldızların arasında kayar, hızlanır, yavaşlar, zaman zaman durup haftalarca ya da aylarca geri gider, sonra yeniden ileri döner. Babil kâtipleri bu hareketleri uzun aritmetik tablolarla önceden hesaplamayı çoktan öğrenmişti, ama neden böyle olduğuna dair bir resimleri yoktu. Yunan astronomlar yaklaşık beş yüzyıldır o resmi arıyordu: bu dolaşmayı üretecek bir çemberler geometrisi.\n\nİkinci yüzyıla gelindiğinde araçlar hazırdı. Pergeli Apollonios MÖ 200 civarında, merkezi büyük bir çember üzerinde dolaşan küçük bir çemberin üstündeki noktanın ilmekler çizebileceğini göstermişti. Rodoslu Hipparkos yaklaşık yarım yüzyıl sonra Güneş'in ve Ay'ın çalışan modellerini kurmuş, bir yıldız kataloğu derlemiş ve bütün gökyüzünün yüzyıllar içinde yavaşça kaydığını bulmuştu. Babil tutulma kayıtları MÖ sekizinci yüzyıla kadar iniyordu ve Batlamyus onları kullanacaktı. Günümüze ulaşan hiçbir eserin yapmadığı şey, Güneş'i, Ay'ı, yıldızları ve beş gezegenin hepsini tek bir geometrik sistemde toplayıp her biri için sayı vermekti.\n\nRoma Mısırı'nda Yunanca yazan bir astronom olan Klaudios Batlamyus bunu yaptı. Hayatı hakkında neredeyse hiçbir şey bilinmiyor. Romalı aile adı Klaudios, Roma vatandaşı olduğunu düşündürüyor; gözlemlerinin hepsini İskenderiye'den yaptı. Kendisine ait, tarihi tam olarak belirlenebilen ilk gözlem 26 Mart 127'den, sonuncusu 2 Şubat 141'den.\n\n### Ne oldu\n\nKitabın adı *Mathēmatikē Syntaxis*, yani \"Matematiksel Derleme\"ydi. Sonraki okurlar ona büyük, sonra en büyük derleme dedi; Arapçada \"en büyük\" *el-mecistî* oldu, Latince bunu *Almagest*'e çevirdi. Kitap bugün de bu adı taşıyor.\n\nKitap on üç bölümden oluşur. Önce, yuvarlak bir göğün merkezinde duran yuvarlak bir Dünya'nın gerekçeleriyle ve açıları uzunluklara çevirmek için gereken geometri olan bir kirişler tablosuyla açılır. Sonra Güneş'i, Ay'ı ve tutulmaları işler. İki bölüm, 48 takımyıldızdaki binden fazla yıldızı konumu ve parlaklığıyla veren bir katalog taşır; bu, günümüze ulaşan en eski tam liste. Son beş bölüm gezegenleri tek tek ele alır.\n\nHer gezegene aynı türden bir makine verilir. Gezegen küçük bir çember, yani episikl üzerinde döner; o çemberin merkezi daha büyük bir çember, yani taşıyıcı çember (deferent) boyunca ilerler. Taşıyıcı çemberin merkezi Dünya değildir, ondan biraz kaymıştır. Batlamyus'un kendi eklemesi ekuanttı: taşıyıcı çemberin merkezine göre Dünya'nın tam karşı tarafında duran boş bir nokta. Oradan, ve yalnızca oradan bakıldığında, episiklin merkezi sabit hızla ilerler. Hipparkos gezegenleri çalıştıramamıştı. Batlamyus'un bunu yapmasını sağlayan ekuanttı.\n\n![Batlamyus'a göre bir gezegen. Dünya, taşıyıcı çemberin merkezi ve ekuant aynı doğru üzerindedir; gezegen episiklinde döner, episiklin merkezi ise ekuanttan bakıldığında sabit hızla ilerler. Dünya'ya yakın ilmek, gökyüzünde görülen geri gidiştir.](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg \"Joerg-ks · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg\")\n\nBir lunapark aletini düşünün: her koltuk kendi küçük döner tablası üzerinde dönerken büyük kol onu çevrede gezdiriyor. Ortadan bakıldığında binici çoğunlukla ileri gider, ama küçük dönüş büyüğüne ters düştüğü her an durup geri kayıyor gibi görünür. Gezegenin geri gidişi budur. Benzetme donanımda bozulur: lunapark aletinin bir kolu ve bir motoru vardır. *Almagest*'te çemberler hesap için kurulmuş geometridir; Batlamyus daha sonraki bir kitabında onları gerçek, iç içe kabuklar olarak hayal etti, ama onun göğünde onları iten bir şey yoktu. Gerçek ilmeğin nedeni de başkadır: Dünya da gezegen de Güneş'in çevresinde farklı hızlarla dolanır ve geri gidiş, birinin ötekini geçtiği sırada görülen şeydir.\n\nKitabın tarihi kayıtlı değil. Batlamyus 146 ya da 147 civarında İskenderiye yakınındaki Kanopos'a modellerini sıralayan bir yazıt diktirdi ve o modeller *Almagest*'tekilerin daha eski hâlleri. Demek ki kitap 150 civarında ya da biraz sonra bitti; bu zaman şeridindeki yıl yaklaşıktır.\n\n> [!THEORY]\n> Batlamyus hareket eden bir Dünya fikrini görmezden gelmedi. Birinci bölümde dönen bir Dünya'yı tartışır ve gökyüzünü anlatmayı belki daha basit kılacağını kabul eder, sonra fiziksel gerekçelerle reddeder: dönen bir yer, bulutları, uçan ve havaya atılan her şeyi geride bırakırdı, der. Samoslu Aristarkos dört yüzyıl önce Güneş'i merkeze koymuştu. Batlamyus'un savunduğu, kendi zamanının yerleşik fiziğiydi; düşünmeyi reddetmek değil.\n\n### Neden zordu\n\nHer şey çıplak gözle, halkalar ve derecelendirilmiş yaylarla ölçülmek, sonra elle yapılan geometriyle oturtulmak zorundaydı. Sayıların bir kısmı hatalarıyla birlikte devralınmıştı. Batlamyus yılın uzunluğunu Hipparkos'tan aldı; bu değer birkaç dakika fazlaydı ve bu küçük hata diğer rakamlarına yayıldı.\n\n> [!WARNING]\n> 1977'de fizikçi Robert Newton, Batlamyus'u gözlem uydurmakla suçladı ve onu \"bilim tarihinin en başarılı sahtekârı\" diye niteledi. Bir örnek: Batlamyus'un 25 Eylül 132 için bildirdiği sonbahar ekinoksu bir günden fazla geç çıkıyor; gökyüzünün yaptığına değil, Hipparkos'un rakamlarının öngördüğüne uyuyor. Aralarında Owen Gingerich ve Bernard Goldstein'ın da bulunduğu tarihçilerin çoğu sahtekârlık suçlamasını reddediyor, ama bazı sayıların gözlenmiş değil hesaplanmış göründüğünü kabul ediyor. Yıldız kataloğunun ne kadarının Batlamyus'un kendi işi, ne kadarının Hipparkos'unkinin gözden geçirilmiş hâli olduğu hâlâ tartışılıyor.\n\n> [!NOTE]\n> Popüler tarihler, Batlamyus'un sisteminin \"episikller üstüne episikller\"e, seksen kadar çembere dönüştüğünü anlatır. Batlamyus'un modellerinden hesaplanmış Orta Çağ tablolarını inceleyen tarihçiler, gökyüzüne uydurmak için üst üste yığılmış episikllere rastlamadıklarını bildiriyor; seksen rakamı da 1898'den kalma görünüyor. İbn eş-Şatır'ın ve Kopernik'in sonradan eklediği küçük çemberler hata yamamak için değil, ekuantı ortadan kaldırmak içindi. Sistem karmaşıktı, ama efsanenin anlattığı biçimde değil.\n\nMakine çalıştı. Takvimler, tutulmalar ve burç hesapları için konumları yeterince iyi öngördü; Kopernik onun yerine kendi sistemini koyduğunda, yeni sistem en az onun kadar isabetliydi, daha fazla değil.\n\n### Neyin kapısını açtı\n\n*Almagest* üç uygarlıkta astronominin ders kitabı oldu. İskenderiye'de Theon dördüncü yüzyılda ona bir şerh yazdı. Üçüncü bölüme yazdığı şerhin başlığı, metnin \"kızım filozof Hypatia\" tarafından gözden geçirildiğini söyler; bugün akademisyenler bunu Hypatia'nın Batlamyus'un metnini düzeltmesi olarak okuyor, bazıları da onun kitabın bu tek bölümünden fazlası üzerinde çalıştığını düşünüyor.\n\nBağdat'ta kitap dokuzuncu yüzyılda Arapçaya çevrildi. Bütünüyle günümüze ulaşan en eski çeviri 827–828 yılına tarihleniyor; onu Haccac bin Yusuf, Yunanca bilen Elias oğlu Sergius'un yardımıyla yaptı. İshak bin Huneyn'in yaptığı ve Sabit bin Kurra'nın gözden geçirdiği ikinci çeviri standart metin oldu.\n\n![Almagest'in, astronomi tablolarıyla birlikte, 1397 tarihli bir Arapça kopyasından sayfalar. Oxford Üniversitesi Bodleian Kütüphaneleri, MS. Pococke 369.](https://upload.wikimedia.org/wikipedia/commons/2/26/Bodleian_Library_Pococke369_roll332_frame38.jpg \"Ptolemy · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Bodleian_Library_Pococke369_roll332_frame38.jpg\")\n\nEn çok okunan rehberlerinden biri Orta Asya'dan geldi. Adı onu Fergana Vadisi'ne bağlayan El-Fergani, Bağdat'ta *Almagest*'in düzeltilmiş değerlerle kısa bir özetini yazdı. 1135'te Latinceye çevrilen bu özet, yüzyıllar boyunca Avrupalı okurlara Batlamyus astronomisini öğretti; Dante'nin göklerin resmi de büyük olasılıkla ondan geliyor. 964'te Abdurrahman es-Sufi Batlamyus'un yıldız listesini elden geçirdi: parlaklıkları yeniden gözledi, konumları kendi yüzyılına taşıdı ve Arapça yıldız adlarını Yunanca olanların yanına koydu. Uluğ Bey'in gözlemcileri on beşinci yüzyılda Semerkant'ta yıldızları baştan ölçtü.\n\nArapça okurlar kitapla tartıştı da. On birinci yüzyılda İbnü'l-Heysem *Batlamyus Üzerine Şüpheler*'i yazdı: ekuant, diye itiraz etti, katı bir kürenin kendi merkezi olmayan bir nokta çevresinde düzgün dönmesi demekti ve hiçbir gerçek cisim bunu yapamazdı. 1247'de Nasîrüddin Tûsî, *Almagest*'i yeniden ele aldığı eserinde, bugün Tusi çifti denen ve dairesel hareketi bir doğru boyunca harekete çeviren iç içe yuvarlanan iki çemberi ilk kez tarif etti; kendisi ve sonraki astronomlar onu ekuantın yerine kullanmaya başladı. On dördüncü yüzyılda Şam'da İbn eş-Şatır, hiç ekuant içermeyen yermerkezli modeller kurdu.\n\n![Tusi'nin eserinin bir el yazmasında Tusi çifti (Vatikan Kütüphanesi, Vat. ar. 319): iki katı büyüklükteki bir çemberin içinde yuvarlanan küçük çember, bir noktayı düz bir çizgi boyunca ileri geri götürür.](https://upload.wikimedia.org/wikipedia/commons/3/33/Tusi_couple.jpg \"Nasir al-Din al-Tusi · Public domain · https://commons.wikimedia.org/wiki/File:Tusi_couple.jpg\")\n\nToledo'da Cremonalı Gerard Arapça metni Latinceye aktardı ve 1175'te bitirdi. Kopernik, ekuantın düzgün dairesel hareket kuralını bozduğuna itiraz etmişti; 1543'te Güneş'i merkeze koyduğunda onu, İbn eş-Şatır'ınkilerle matematik olarak aynı araçlarla kaldırdı. Bu araçları nasıl öğrendiği hâlâ bilinmiyor. Çemberler ancak 1609'da, Kepler Mars'a bir elips verdiğinde gitmeye başladı ve sonraki on yıllarda Batlamyus'un 150 civarında bitirdiği kitap astronominin başladığı yer olmaktan çıktı."
+    },
+    "ru": {
+      "title": "«Альмагест» Птолемея: геоцентрическое небо, которое работало",
+      "summary": "Около 150 года в Александрии Птолемей построил книгу кругов, предсказывавшую положение Солнца, Луны и планет. Она ставила Землю в центр и всё же работала 1400 лет.",
+      "why_it_matters": "«Альмагест» — древнейшая дошедшая до нас полная геометрическая модель всего неба, дающая числа для каждого светила; около четырнадцати веков астрономия в Александрии, Багдаде, Самарканде и Европе начиналась с него. Его неверный центр и эквант были именно тем, что позднейшие астрономы, от Ибн аль-Хайсама до Коперника, взялись исправлять.",
+      "if_you_were_there": "Пять огней на небе блуждают, замирают и идут назад. Вавилонские таблицы умеют их предсказывать, но никто не может нарисовать почему. Книга кругов позволяет и увидеть это, и рассчитать.",
+      "place_name": "Александрия",
+      "status": "machine",
+      "body": "![Первая страница латинского списка «Альмагеста», датируемого примерно 1213 годом (Париж, Национальная библиотека Франции, Latin 16200). Художник изобразил Птолемея царём на троне: средневековые читатели часто путали астронома с Птолемеями, когда-то правившими Египтом.](https://upload.wikimedia.org/wikipedia/commons/7/78/Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg \"Almagest Master · Public domain · https://commons.wikimedia.org/wiki/File:Almageste_de_Ptolémée_-_BNF_Lat16200_f1.jpg\")\n\n### Обстановка\n\nПонаблюдайте за ночным небом несколько месяцев, и большая его часть ведёт себя послушно. Звёзды вращаются вместе, как точки, нарисованные на одной огромной сфере. Пять огней ведут себя иначе: Меркурий, Венера, Марс, Юпитер и Сатурн смещаются среди звёзд, ускоряются, замедляются, время от времени останавливаются и неделями или месяцами движутся назад, а потом снова поворачивают вперёд. Вавилонские писцы уже умели предсказывать эти движения с помощью длинных арифметических таблиц, но не имели картины того, почему так происходит. Греческие астрономы около пяти веков искали эту картину: геометрию кругов, которая порождала бы такие блуждания.\n\nКо II веку инструменты были готовы. Аполлоний Пергский около 200 года до н. э. показал, что точка на малом круге, центр которого движется по большому кругу, может описывать петли. Гиппарх Родосский примерно полвека спустя построил работающие модели Солнца и Луны, составил звёздный каталог и обнаружил, что всё небо медленно смещается на протяжении веков. Вавилонские записи о затмениях уходили в VIII век до н. э., и Птолемей ими воспользуется. Чего не сделала ни одна дошедшая до нас работа, так это единой геометрической системы, которая охватывала бы Солнце, Луну, звёзды и все пять планет и давала бы числа для каждого из них.\n\nЭто сделал Клавдий Птолемей, грекоязычный астроном римского Египта. О его жизни почти ничего не известно. Римское родовое имя Клавдий указывает на римское гражданство; все свои наблюдения он вёл из Александрии. Первое его собственное наблюдение, которое можно точно датировать, относится к 26 марта 127 года, последнее — к 2 февраля 141 года.\n\n### Что произошло\n\nКнига называлась *Mathēmatikē Syntaxis*, «Математическое собрание». Позднейшие читатели называли её великим, а затем величайшим собранием; по-арабски «величайшее» стало *аль-маджисти*, а латынь превратила это в *Almagest* — «Альмагест», как книгу называют до сих пор.\n\nВ книге тринадцать частей. Она открывается доводами в пользу круглой Земли, покоящейся в центре круглого неба, и таблицей хорд — геометрией, нужной, чтобы переводить углы в длины. Затем разбираются Солнце, Луна и затмения. Две книги занимает каталог более чем тысячи звёзд в 48 созвездиях, с положением и яркостью каждой; это древнейший дошедший до нас полный список такого рода. Последние пять книг рассматривают планеты одну за другой.\n\nКаждая планета получает одинаковый механизм. Она движется по малому кругу — эпициклу; центр этого круга обходит больший круг — деферент. Центр деферента не совпадает с Землёй, а немного смещён. Собственным добавлением Птолемея был эквант — пустая точка по другую сторону от центра деферента, чем Земля: если смотреть оттуда, и только оттуда, центр эпицикла движется с постоянной скоростью. Гиппарху не удалось заставить модели планет работать. Птолемею это позволил сделать именно эквант.\n\n![Планета по Птолемею. Земля, центр деферента и эквант лежат на одной прямой; планета движется по эпициклу, а центр эпицикла движется равномерно, если смотреть из экванта. Петля вблизи Земли — это попятное движение, видимое на небе.](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg \"Joerg-ks · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg\")\n\nПредставьте аттракцион, где каждое сиденье вращается на собственной маленькой платформе, а большая стрела несёт его по кругу. Если смотреть из центра, пассажир обычно движется вперёд, но всякий раз, когда малое вращение идёт против большого, кажется, что он останавливается и скользит назад. Это и есть попятное движение планеты. Сравнение ломается на устройстве: у аттракциона есть стрела и мотор. В «Альмагесте» круги — это геометрия для расчётов; в более поздней книге Птолемей действительно представлял их как настоящие вложенные оболочки, но в его небе ничто их не толкало. И у настоящей петли другая причина: и Земля, и планета обращаются вокруг Солнца с разной скоростью, а попятное движение — это то, что видно, когда одна обгоняет другую.\n\nДата книги не записана. Около 146 или 147 года Птолемей поставил в Канопе, близ Александрии, надпись с перечнем своих моделей, и эти модели — более ранние версии тех, что в «Альмагесте». Значит, книга была закончена около 150 года или немного позже, и год на этой шкале времени приблизителен.\n\n> [!THEORY]\n> Птолемей не обходил стороной идею движущейся Земли. В первой книге он обсуждает вращающуюся Землю и допускает, что она, возможно, сделала бы описание неба проще, а затем отвергает её по физическим причинам: вращающаяся земля, утверждает он, оставляла бы позади облака и всё летящее и брошенное в воздух. Аристарх Самосский поместил Солнце в центр за четыре века до него. Птолемей отстаивал общепринятую физику своего времени, а не отказывался думать.\n\n### Почему это было трудно\n\nВсё приходилось измерять невооружённым глазом, с помощью колец и размеченных дуг, а затем подгонять геометрией, выполненной вручную. Часть чисел была унаследована вместе с их ошибками. Птолемей взял у Гиппарха длину года, которая на несколько минут больше настоящей, и эта маленькая ошибка разошлась по другим его величинам.\n\n> [!WARNING]\n> В 1977 году физик Роберт Ньютон обвинил Птолемея в подделке наблюдений и назвал его «самым успешным обманщиком в истории науки». Один пример: осеннее равноденствие, которое Птолемей сообщает для 25 сентября 132 года, оказывается запоздавшим более чем на сутки и совпадает с тем, что предсказывали числа Гиппарха, а не с тем, что происходило на небе. Большинство историков, среди них Оуэн Джинджерич и Бернард Голдстейн, отвергают обвинение в обмане, соглашаясь, что некоторые числа выглядят вычисленными, а не наблюдёнными. Сколько в звёздном каталоге собственной работы Птолемея и сколько — переработанного каталога Гиппарха, спорят до сих пор.\n\n> [!NOTE]\n> Популярные истории рассказывают, что система Птолемея разрослась в «эпициклы на эпициклах», примерно до восьмидесяти кругов. Историки, проверявшие средневековые таблицы, рассчитанные по моделям Птолемея, сообщают, что не нашли нагромождения эпициклов для подгонки под небо, а число восемьдесят, по-видимому, появилось в 1898 году. Дополнительные круги, которые позже ввели Ибн аш-Шатир и Коперник, были нужны, чтобы избавиться от экванта, а не чтобы латать ошибки. Система была сложной, но не так, как утверждает легенда.\n\nМеханизм работал. Он предсказывал положения достаточно хорошо для календарей, затмений и гороскопов, и когда Коперник заменил его своей системой, новая оказалась по меньшей мере столь же точной, но не точнее.\n\n### Что это открыло\n\n«Альмагест» стал учебником астрономии в трёх цивилизациях. В Александрии Теон написал к нему комментарий в IV веке. Заглавие его комментария к третьей книге говорит, что издание проверено «моей дочерью, философом Гипатией»; сегодня учёные читают это так, что Гипатия выправила сам текст Птолемея, а некоторые считают, что она работала не только над этой одной книгой.\n\nВ Багдаде книгу перевели на арабский в IX веке. Самый ранний перевод, дошедший полностью, датирован 827–828 годами; его сделал аль-Хаджжадж ибн Юсуф с помощью грекоязычного Сергия, сына Ильи. Второй перевод, выполненный Исхаком ибн Хунайном и выправленный Сабитом ибн Куррой, стал стандартным.\n\n![Страницы арабского списка «Альмагеста» с астрономическими таблицами, датированного 1397 годом. Бодлианские библиотеки Оксфордского университета, MS. Pococke 369.](https://upload.wikimedia.org/wikipedia/commons/2/26/Bodleian_Library_Pococke369_roll332_frame38.jpg \"Ptolemy · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Bodleian_Library_Pococke369_roll332_frame38.jpg\")\n\nОдно из самых читаемых пособий по нему пришло из Средней Азии. Аль-Фаргани, чьё имя связывает его с Ферганской долиной, написал в Багдаде краткое изложение «Альмагеста» с исправленными значениями. Переведённое на латынь в 1135 году, оно веками учило европейских читателей астрономии Птолемея; картина небес у Данте, по-видимому, восходит к нему. В 964 году ас-Суфи переработал звёздный список Птолемея: заново оценил яркости, перенёс положения на своё столетие и поставил арабские названия звёзд рядом с греческими. Наблюдатели Улугбека в Самарканде в XV веке заново измерили звёзды.\n\nАрабские читатели и спорили с книгой. В XI веке Ибн аль-Хайсам написал «Сомнения относительно Птолемея»: эквант, возражал он, означает, что твёрдая сфера равномерно вращается вокруг точки, которая не является её центром, а ни одно реальное тело так не может. В 1247 году в своей переработке «Альмагеста» Насир ад-Дин ат-Туси впервые описал пару катящихся кругов, теперь называемую парой Туси, которая превращает круговое движение в движение по прямой; он и позднейшие астрономы стали применять её вместо экванта. В XIV веке в Дамаске Ибн аш-Шатир построил геоцентрические модели вовсе без экванта.\n\n![Пара Туси в рукописи сочинения ат-Туси (Ватиканская библиотека, Vat. ar. 319): малый круг, катящийся внутри круга вдвое большего размера, движет точку взад и вперёд по прямой.](https://upload.wikimedia.org/wikipedia/commons/3/33/Tusi_couple.jpg \"Nasir al-Din al-Tusi · Public domain · https://commons.wikimedia.org/wiki/File:Tusi_couple.jpg\")\n\nВ Толедо Герард Кремонский перевёл арабский текст на латынь и закончил работу в 1175 году. Коперник возражал, что эквант нарушает правило равномерного кругового движения; поместив в 1543 году Солнце в центр, он убрал эквант с помощью приёмов, математически тождественных приёмам Ибн аш-Шатира. Как он о них узнал, до сих пор неизвестно. Только в 1609 году, когда Кеплер дал Марсу эллипс, круги начали уходить, и в следующие десятилетия книга, которую Птолемей закончил около 150 года, перестала быть местом, с которого начиналась астрономия."
+    },
+    "ky": {
+      "title": "Птолемейдин «Альмагести»: иштеген, Жер борбордогу асман",
+      "summary": "Болжол менен 150-жылы Александрияда Птолемей Күндүн, Айдын жана планеталардын ордун алдын ала эсептеген айланалар китебин түзгөн. Ал Жерди борборго койгон, бирок 1400 жыл иштеген.",
+      "why_it_matters": "«Альмагест» — ар бир асман телосу үчүн сан берген, бүт асмандын бизге жеткен эң байыркы толук геометриялык модели; он төрт кылымга жакын Александрияда, Багдадда, Самаркандда жана Европада астрономия андан башталган. Анын туура эмес борбору жана экванты дал Ибн аль-Хайсамдан Коперникке чейинки кийинки астрономдор оңдоого киришкен нерсе болгон.",
+      "if_you_were_there": "Асманда беш жарык адашып, токтоп, артка жылат. Вавилон таблицалары аларды алдын ала айта алат, бирок эмне үчүн экенин эч ким тарта албайт. Айланалар китеби муну көрүүгө да, эсептөөгө да мүмкүндүк берет.",
+      "place_name": "Александрия",
+      "status": "machine",
+      "body": "![«Альмагесттин» болжол менен 1213-жылга таандык латынча көчүрмөсүнүн биринчи барагы (Париж, Франциянын Улуттук китепканасы, Latin 16200). Сүрөтчү Птолемейди тактыда отурган падыша кылып тарткан: орто кылымдагы окурмандар астрономду качандыр бир кезде Египетти башкарган Птолемейлер менен көп чаташтырышчу.](https://upload.wikimedia.org/wikipedia/commons/7/78/Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg \"Almagest Master · Public domain · https://commons.wikimedia.org/wiki/File:Almageste_de_Ptolémée_-_BNF_Lat16200_f1.jpg\")\n\n### Көрүнүш\n\nТүнкү асманды бир нече ай байкап көрсөңүз, анын көбү тартиптүү кыймылдайт. Жылдыздар бир чоң шарга тартылган чекиттердей бирге айланат. Беш жарык андай эмес: Меркурий, Чолпон (Венера), Марс, Юпитер жана Сатурн жылдыздардын арасында жылып, ылдамдап, жайлап, кээде токтоп, бир нече жума же ай артка жылат да, кайра алдыга бурулат. Вавилон катчылары бул кыймылдарды узун арифметикалык таблицалар менен алдын ала эсептегенди эчак үйрөнүшкөн, бирок эмне үчүн мындай болорун түшүндүргөн сүрөттөрү болгон эмес. Грек астрономдору ошол сүрөттү беш кылымга жакын издешкен: мындай адашып жүрүүнү пайда кыла турган айланалардын геометриясын.\n\nII кылымга келгенде куралдар даяр болчу. Пергалык Аполлоний болжол менен б.з.ч. 200-жылы, борбору чоң айлана боюнча жылган кичине айлананын үстүндөгү чекит илмектерди тарта аларын көрсөткөн. Родостук Гиппарх андан жарым кылымдай кийин Күн менен Айдын иштеген моделдерин түзүп, жылдыз каталогун чогултуп, бүт асман кылымдар бою акырындык менен жылып турарын тапкан. Вавилондун тутулуу жазуулары б.з.ч. VIII кылымга чейин барчу, Птолемей кийин аларды пайдаланат. Бизге жеткен эч бир эмгек жасай элек нерсе — Күндү, Айды, жылдыздарды жана беш планетанын баарын бир геометриялык системага бириктирип, ар бири үчүн сан берүү эле.\n\nМуну Рим Египтиндеги грек тилинде жазган астроном Клавдий Птолемей жасаган. Анын өмүрү тууралуу дээрлик эч нерсе белгилүү эмес. Римдик уруу аты Клавдий анын Рим жараны болгонун көрсөтөт; бардык байкоолорун ал Александриядан жүргүзгөн. Анын өзүнүн так даталана турган биринчи байкоосу 127-жылдын 26-мартына, акыркысы 141-жылдын 2-февралына таандык.\n\n### Эмне болду\n\nКитептин аты *Mathēmatikē Syntaxis*, башкача айтканда «Математикалык жыйнак» болгон. Кийинки окурмандар аны улуу, андан соң эң улуу жыйнак деп аташкан; араб тилинде «эң улуу» *аль-маджисти* болуп, латын тили аны *Almagest* — «Альмагест» кылып өзгөрткөн. Китеп ушул күнгө чейин ушул атты алып жүрөт.\n\nКитеп он үч бөлүктөн турат. Ал тегерек асмандын борборунда кыймылсыз турган тегерек Жердин далилдери жана хордалар таблицасы — бурчтарды узундуктарга айландыруу үчүн керектүү геометрия менен ачылат. Андан кийин Күн, Ай жана тутулуулар каралат. Эки китеп 48 жылдыз топтомундагы миңден ашык жылдыздын ар биринин ордун жана жарыктыгын берген каталогду камтыйт; бул бизге жеткен ушундай толук тизмелердин эң байыркысы. Акыркы беш китеп планеталарды бирден карайт.\n\nАр бир планетага бирдей механизм берилет. Ал кичине айлана — эпицикл боюнча айланат; ал айлананын борбору чоңураак айлана — деферент боюнча жылат. Деференттин борбору Жер менен дал келбейт, андан бир аз четтеп турат. Птолемейдин өзүнүн кошкону эквант болгон: деференттин борборуна салыштырмалуу Жерге карама-каршы тарапта турган бош чекит. Ошол жерден, жана ошол жерден гана караганда, эпициклдин борбору туруктуу ылдамдык менен жылат. Гиппарх планеталардын моделдерин иштете алган эмес. Птолемейге муну эквант мүмкүн кылган.\n\n![Птолемей боюнча планета. Жер, деференттин борбору жана эквант бир түз сызыкта жатат; планета эпицикл боюнча айланат, ал эми эпициклдин борбору экванттан караганда бир калыпта жылат. Жерге жакын илмек — асманда көрүнгөн артка жылуу.](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg \"Joerg-ks · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ptolemaic_deferent_and_epicycle_taking_into_account_the_three_centres.svg\")\n\nАр бир орундук өзүнүн кичине айлануучу тегерегинде айланып, чоң колу аны айланта алып жүргөн аттракционду элестетиңиз. Ортодон караганда минип отурган адам көбүнчө алдыга жылат, бирок кичине айлануу чоңуна каршы келген сайын ал токтоп, артка тайгаланып жаткандай көрүнөт. Планетанын артка жылуусу дал ушул. Салыштыруу түзүлүштө бузулат: аттракциондун колу жана мотору бар. «Альмагестте» айланалар эсептөө үчүн курулган геометрия; кийинки бир китебинде Птолемей аларды чыныгы, бири-биринин ичине салынган кабыктар катары элестеткен, бирок анын асманында аларды түрткөн эч нерсе болгон эмес. Чыныгы илмектин себеби да башка: Жер да, планета да Күндү ар башка ылдамдыкта айланат, ал эми артка жылуу — бири экинчисин озуп өткөндө көрүнгөн нерсе.\n\nКитептин датасы жазылып калган эмес. Болжол менен 146 же 147-жылы Птолемей Александриянын жанындагы Канопто өз моделдеринин тизмеси жазылган жазуу орноткон, ал моделдер «Альмагесттегилердин» мурунку варианттары. Демек, китеп болжол менен 150-жылы же андан бир аз кийин бүткөн, бул убакыт тилкесиндеги жыл болжолдуу.\n\n> [!THEORY]\n> Птолемей кыймылдаган Жер идеясын көз жаздымда калтырган эмес. Биринчи китепте ал айланган Жерди талкуулап, ал асманды сүрөттөөнү балким жөнөкөйлөтөрүн мойнуна алат, андан соң аны физикалык себептер менен четке кагат: айланган жер булуттарды, учкан жана абага ыргытылган бардык нерсени артта калтырмак, дейт ал. Самостук Аристарх андан төрт кылым мурун Күндү борборго койгон. Птолемей коргогону өз доорунун жалпы кабыл алынган физикасы болгон, ойлонуудан баш тартуу эмес.\n\n### Эмне үчүн кыйын болду\n\nБаарын жөнөкөй көз менен, шакекчелер жана бөлүктөргө бөлүнгөн жаалар менен өлчөп, андан соң кол менен жасалган геометрия аркылуу ылайыктоо керек болгон. Сандардын бир бөлүгү каталары менен кошо мураска калган. Птолемей жылдын узундугун Гиппархтан алган, ал бир нече мүнөткө узун болчу, жана бул кичине ката анын башка сандарына да тараган.\n\n> [!WARNING]\n> 1977-жылы физик Роберт Ньютон Птолемейди байкоолорду ойдон чыгарган деп айыптап, аны «илим тарыхындагы эң ийгиликтүү алдамчы» деп атаган. Бир мисал: Птолемей 132-жылдын 25-сентябрына көрсөткөн күзгү күн менен түндүн теңелиши бир суткадан ашык кечигип чыгат жана асмандагы чыныгы окуяга эмес, Гиппархтын сандары алдын ала айткан нерсеге дал келет. Тарыхчылардын көбү, алардын арасында Оуэн Джинджерич жана Бернард Голдстейн, алдамчылык айыбын четке кагышат, бирок кээ бир сандар байкалган эмес, эсептелген сыяктуу көрүнөрүн макулдашат. Жылдыз каталогунун канчасы Птолемейдин өз эмгеги, канчасы Гиппархтын каталогунун кайра каралган варианты экени азыр да талаштуу.\n\n> [!NOTE]\n> Популярдуу тарыхтарда Птолемейдин системасы «эпициклдердин үстүндөгү эпициклдерге», сексенге жакын айланага айланып кеткен деп айтылат. Птолемейдин моделдери боюнча эсептелген орто кылымдык таблицаларды текшерген тарыхчылар асманга ылайыкташ үчүн бири-биринин үстүнө үйүлгөн эпициклдерди таппаганын билдиришет, ал эми сексен деген сан 1898-жылы пайда болгон окшойт. Кийин Ибн аш-Шатир менен Коперник кошкон кошумча айланалар каталарды жамаш үчүн эмес, эквантты жоюу үчүн болгон. Система татаал болчу, бирок уламыш айткандай эмес.\n\nМеханизм иштеген. Ал календарлар, тутулуулар жана жылдызнаама үчүн жетиштүү деңгээлде орундарды алдын ала айткан, жана Коперник аны өз системасы менен алмаштырганда, жаңысы андан кеминде кем эмес так болгон, бирок тагыраак эмес.\n\n### Эмнеге жол ачты\n\n«Альмагест» үч цивилизацияда астрономиянын окуу китеби болуп калган. Александрияда Теон IV кылымда ага түшүндүрмө жазган. Анын үчүнчү китепке жазган түшүндүрмөсүнүн аталышында басылма «менин кызым, философ Гипатия» тарабынан текшерилгени айтылат; бүгүн окумуштуулар муну Гипатия Птолемейдин текстин өзүн оңдогон деп окушат, айрымдары ал ушул бир бөлүктөн көбүрөөк иштеген деп эсептешет.\n\nБагдадда китеп IX кылымда араб тилине которулган. Толук бойдон бизге жеткен эң алгачкы котормо 827–828-жылдарга таандык; аны аль-Хажжаж ибн Юсуф грек тилин билген Илиянын уулу Сергийдин жардамы менен жасаган. Исхак ибн Хунайндын Сабит ибн Курра оңдоп чыккан экинчи котормосу негизги текст болуп калган.\n\n![«Альмагесттин» 1397-жылга таандык, астрономиялык таблицалары бар араб көчүрмөсүнүн барактары. Оксфорд университетинин Бодлеан китепканалары, MS. Pococke 369.](https://upload.wikimedia.org/wikipedia/commons/2/26/Bodleian_Library_Pococke369_roll332_frame38.jpg \"Ptolemy · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Bodleian_Library_Pococke369_roll332_frame38.jpg\")\n\nАга арналган эң көп окулган колдонмолордун бири Орто Азиядан чыккан. Аты аны Фергана өрөөнү менен байланыштырган Аль-Фергани Багдадда «Альмагесттин» оңдолгон маанилер менен кыскача баяндамасын жазган. 1135-жылы латын тилине которулган бул эмгек кылымдар бою европалык окурмандарга Птолемейдин астрономиясын үйрөткөн; Дантенин асман тууралуу түшүнүгү ушундан келип чыккан окшойт. 964-жылы Абд ар-Рахман ас-Суфи Птолемейдин жылдыз тизмесин кайра иштеп чыккан: жарыктыктарды кайра байкап, орундарды өз кылымына жылдырып, араб жылдыз аттарын грек аттарынын жанына койгон. XV кылымда Улукбектин байкоочулары Самаркандда жылдыздарды жаңыдан өлчөшкөн.\n\nАраб окурмандары китеп менен талашышкан да. XI кылымда Ибн аль-Хайсам «Птолемей жөнүндөгү шектенүүлөрдү» жазган: эквант, деп каршы чыккан ал, катуу шар өзүнүн борбору болбогон чекиттин айланасында бир калыпта айланат дегенди билдирет, ал эми эч бир чыныгы нерсе мындай кыла албайт. 1247-жылы «Альмагестти» кайра иштеп чыккан эмгегинде Насир ад-Дин ат-Туси азыр Туси жубу деп аталган, тегерек кыймылды түз сызык боюнча кыймылга айландырган, бири-биринин ичинде тоголонгон эки айлананы биринчи жолу сүрөттөгөн; ал өзү жана кийинки астрономдор аны эквант ордуна колдоно башташкан. XIV кылымда Дамаскта Ибн аш-Шатир такыр эквантсыз, Жерди борборго койгон моделдерди түзгөн.\n\n![Ат-Тусинин эмгегинин кол жазмасындагы Туси жубу (Ватикан китепканасы, Vat. ar. 319): өзүнөн эки эсе чоң айлананын ичинде тоголонгон кичине айлана чекитти түз сызык боюнча ары-бери жылдырат.](https://upload.wikimedia.org/wikipedia/commons/3/33/Tusi_couple.jpg \"Nasir al-Din al-Tusi · Public domain · https://commons.wikimedia.org/wiki/File:Tusi_couple.jpg\")\n\nТоледодо Кремондук Герард араб текстин латын тилине которуп, 1175-жылы бүтүргөн. Коперник эквант бир калыптагы тегерек кыймыл эрежесин бузат деп каршы чыккан; 1543-жылы Күндү борборго койгондо, ал эквантты Ибн аш-Шатирдикине математикалык жактан бирдей ыкмалар менен алып салган. Ал бул ыкмаларды кантип билгени азыр да белгисиз. Айланалар 1609-жылы гана, Кеплер Марска эллипс бергенде кете баштаган, жана кийинки он жылдыктарда Птолемей болжол менен 150-жылы бүтүргөн китеп астрономия башталган жер болбой калган."
+    }
+  }
+}
