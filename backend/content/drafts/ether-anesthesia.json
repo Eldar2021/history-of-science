@@ -1,0 +1,236 @@
+{
+  "slug": "ether-anesthesia",
+  "year": 1846,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 42.3632,
+  "lng": -71.0686,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Southworth_%26_Hawes_-_First_etherized_operation_%28re-enactment%29.jpg",
+    "credit": "Southworth & Hawes",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Southworth_&_Hawes_-_First_etherized_operation_(re-enactment).jpg"
+  },
+  "disciplines": [
+    "medicine"
+  ],
+  "people": [
+    {
+      "slug": "william-morton",
+      "birth_year": 1819,
+      "death_year": 1868,
+      "role": "author",
+      "name": {
+        "en": "William Morton",
+        "tr": "William Morton",
+        "ru": "Уильям Мортон",
+        "ky": "Уильям Мортон"
+      }
+    },
+    {
+      "slug": "john-collins-warren",
+      "birth_year": 1778,
+      "death_year": 1856,
+      "role": "collaborator",
+      "name": {
+        "en": "John Collins Warren",
+        "tr": "John Collins Warren",
+        "ru": "Джон Коллинз Уоррен",
+        "ky": "Жон Коллинз Уоррен"
+      }
+    },
+    {
+      "slug": "edward-gilbert-abbott",
+      "birth_year": 1825,
+      "death_year": 1855,
+      "role": "subject",
+      "name": {
+        "en": "Edward Gilbert Abbott",
+        "tr": "Edward Gilbert Abbott",
+        "ru": "Эдвард Гилберт Эбботт",
+        "ky": "Эдвард Гилберт Эбботт"
+      }
+    },
+    {
+      "slug": "henry-jacob-bigelow",
+      "birth_year": 1818,
+      "death_year": 1890,
+      "role": "collaborator",
+      "name": {
+        "en": "Henry Jacob Bigelow",
+        "tr": "Henry Jacob Bigelow",
+        "ru": "Генри Джейкоб Бигелоу",
+        "ky": "Генри Жейкоб Бигелоу"
+      }
+    },
+    {
+      "slug": "crawford-long",
+      "birth_year": 1815,
+      "death_year": 1878,
+      "role": "predecessor",
+      "name": {
+        "en": "Crawford Long",
+        "tr": "Crawford Long",
+        "ru": "Кроуфорд Лонг",
+        "ky": "Кроуфорд Лонг"
+      }
+    },
+    {
+      "slug": "horace-wells",
+      "birth_year": 1815,
+      "death_year": 1848,
+      "role": "predecessor",
+      "name": {
+        "en": "Horace Wells",
+        "tr": "Horace Wells",
+        "ru": "Хорас Уэллс",
+        "ky": "Хорас Уэллс"
+      }
+    },
+    {
+      "slug": "charles-thomas-jackson",
+      "birth_year": 1805,
+      "death_year": 1880,
+      "role": "rival",
+      "name": {
+        "en": "Charles Jackson",
+        "tr": "Charles Jackson",
+        "ru": "Чарльз Джексон",
+        "ky": "Чарльз Жексон"
+      }
+    },
+    {
+      "slug": "hanaoka-seishu",
+      "birth_year": 1760,
+      "death_year": 1835,
+      "role": "predecessor",
+      "name": {
+        "en": "Hanaoka Seishū",
+        "tr": "Hanaoka Seişu",
+        "ru": "Ханаока Сэйсю",
+        "ky": "Ханаока Сэйсю"
+      }
+    },
+    {
+      "slug": "nikolay-pirogov",
+      "birth_year": 1810,
+      "death_year": 1881,
+      "role": "successor",
+      "name": {
+        "en": "Nikolay Pirogov",
+        "tr": "Nikolay Pirogov",
+        "ru": "Николай Пирогов",
+        "ky": "Николай Пирогов"
+      }
+    },
+    {
+      "slug": "oliver-wendell-holmes-sr",
+      "birth_year": 1809,
+      "death_year": 1894,
+      "role": "contributor",
+      "name": {
+        "en": "Oliver Wendell Holmes",
+        "tr": "Oliver Wendell Holmes",
+        "ru": "Оливер Уэнделл Холмс",
+        "ky": "Оливер Уэнделл Холмс"
+      }
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "William T. G. Morton — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/William_T._G._Morton"
+    },
+    {
+      "title": "History of general anesthesia — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_general_anesthesia"
+    },
+    {
+      "title": "Hanaoka Seishū — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hanaoka_Seish%C5%AB"
+    },
+    {
+      "title": "Edward Gilbert Abbott — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_Gilbert_Abbott"
+    },
+    {
+      "title": "Nikolay Pirogov — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nikolay_Pirogov"
+    },
+    {
+      "title": "William Thomas Green Morton — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/William-Thomas-Green-Morton"
+    },
+    {
+      "title": "Paul G. Firth, \"Ether Day Revisited: The Surgical Records of Edward Gilbert Abbott\", Annals of Surgery Open (2022)",
+      "kind": "paper",
+      "url": "https://doaj.org/article/8caabdf85f46425d8c27578ce5c7f026"
+    },
+    {
+      "title": "The operating room where anesthesia was first demonstrated — Smithsonian Magazine",
+      "kind": "article",
+      "url": "https://www.smithsonianmag.com/science-nature/operating-room-where-anesthesia-first-demonstrated-now-landmark-men-claimed-credit-much-misery-180988842/"
+    },
+    {
+      "title": "What November may bring: the first 37 days of surgical anesthesia — Hektoen International",
+      "kind": "article",
+      "url": "https://hekint.org/what-november-may-bring-the-first-37-days-of-surgical-anesthesia/"
+    },
+    {
+      "title": "Early ether anaesthesia in the Russian Empire (Riga, Moscow, Pirogov) — Leiden University Scholarly Publications",
+      "kind": "paper",
+      "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3307637/view"
+    }
+  ],
+  "research_note": "Checked 2026-11-10 against English Wikipedia (William T. G. Morton; History of general anesthesia; Hanaoka Seishū; Edward Gilbert Abbott; Nikolay Pirogov), Smithsonian Magazine on the Ether Dome, Hektoen International's 'first 37 days of surgical anesthesia' (Bigelow 18 Nov 1846, Holmes letter 21 Nov 1846, patent 12 Nov 1846), Paul Firth's 2022 Annals of Surgery Open paper on Abbott's records (read via search abstract; DOAJ page returned 403 to the fact-checker), and a Leiden University paper on early ether anaesthesia in the Russian Empire. Britannica's Morton biography is linked for human review only (automated fetch blocked). YEAR: 1846 exact, undisputed; the DAY 16 October 1846 is undisputed. PRIORITY: the body deliberately refuses lone-hero framing: Crawford Long (30 March 1842, published 1849), Horace Wells (nitrous oxide, Dec 1844; failed demonstration Jan 1845), Charles Jackson (co-holder of the Letheon patent, claimed credit), and Hanaoka Seishū (13 October 1804, Kan Aiya, tsūsensan; wife lost her sight; >150 breast cancer operations; hidden by sakoku) are all in the body, with a NOTE box explaining that Boston gets the date for publicity and publication, not for being first. LEGEND vs RECORD: Warren's 'Gentlemen, this is no humbug' is introduced as 'according to the traditional account' (its origin is doubted, Haridas 2016 in Anesthesiology per Wikipedia's Abbott page); Abbott's 'as if my neck had been scratched' as 'is reported to have said'; Jackson's advice to use ether as 'reportedly'. Firth 2022 is used to say the day itself was imperfect (incomplete anaesthesia, unsuccessful ligation of a lymphovascular malformation). FACT-CHECK (fact-checker agent, 2026-11-10) found no blocking error; fixes applied in all four languages: (1) the 'leg off in under half a minute' figure is a popular legend (Liston stories) -> softened to 'the fastest became famous for taking off a leg in a few minutes'; (2) 'MGH performed 17 operations under anaesthesia in the following year' rested on Smithsonian alone and conflicts with a 2022 study of MGH records (Andrew et al., not opened) -> sentence removed; (3) '200 million operations a year' outdated (Weiser 2016 estimates ~313 million, not opened) -> 'hundreds of millions'; (4) Wells's January 1845 demonstration was to Warren's Harvard medical students, not clearly in the MGH theatre -> rephrased; (5) builds_on ibn-sina-canon removed as historically weak (Ibn Sina is still mentioned in the scene as the opium/mandrake/henbane tradition; the checker called this correct but did not open the Canon itself — reviewer may wish to confirm); (6) 'deep in debt' -> 'bankrupt' (Smithsonian: 'died bankrupt and broken'); (7) Hanaoka 'recreate' -> 'match' Hua Tuo's lost mafeisan; Jackson named as patent co-holder; Cordus 'around 1540'. NOT INDEPENDENTLY CONFIRMED by a second source this run: Pirogov's 1847 book (Leiden paper gives a first monograph on 17 May 1847) and his Caucasus field operations under anaesthesia in 1847 (Wikipedia lead, tagged as disputed; body says 'is credited with'); Russian dates (Riga Jan 1847, Inozemtsev Moscow 7 Feb 1847) may be Julian calendar but stay in the same months either way. IMAGES via commons.mjs, values verbatim: cover File:Southworth_&_Hawes_-_First_etherized_operation_(re-enactment).jpg (Southworth & Hawes, 1847, public domain; captioned as a re-enactment). Figures: Morton-type ether inhaler at the National Museum of American History (Daderot, CC0; the museum label dates it c. 1846, so the caption says 'of the kind Morton used'); page from Hanaoka Seishū's Surgical Casebook (credit 'Hanaoka Seishu', public domain; reviewer may check that the image is from his school's casebook rather than his own hand). Rejected: Ether Dome Daguerreotype No. 1 (credit is the uploader, not the photographer); Wellcome excision illustration (credit field is a URL string). TRANSLITERATION / KYRGYZ: names follow the Russian tradition (Уильям Мортон, Жон Коллинз Уоррен, Кроуфорд Лонг, Хорас Уэллс, Чарльз Жексон, Ханаока Сэйсю, Хуа То, Кан Аи); none is in glossary.ky.json. Glossary terms used: оору, дары, дарылоо, кан, дене. Not in glossary, model's own choices to confirm: наркоз / анестезия (Russian borrowings), эфир, мең дубана (henbane), мандрагора, дурман (datura), апийим (opium), күлдүргүч газ ('laughing gas'), азот кычкылы (nitrous oxide), ингалятор, тубаса кемтик (congenital malformation), Эфир куполу. Turkish: 'Hanaoka Seişu' is a Turkish-orthography rendering; 'diazot monoksit' for nitrous oxide. No glossary entry marked 'check' was used.",
+  "translations": {
+    "en": {
+      "title": "Ether anaesthesia: surgery without pain",
+      "summary": "In Boston in 1846, a patient breathed ether and slept while a surgeon cut his neck. Painless surgery had been done before; this public showing is what spread it worldwide.",
+      "why_it_matters": "Before anaesthesia, surgery had to be fast and shallow because the patient was awake. Once pain could be switched off, surgeons could work slowly and deep inside the body, and operating became something hundreds of millions of people survive every year.",
+      "if_you_were_there": "You are strapped to a chair with people holding your arms, and the surgeon's best gift is speed. Then a stranger hands you a glass globe and asks you to breathe.",
+      "place_name": "Boston",
+      "body": "![A re-enactment of the first operation under ether, photographed in the operating theatre of Massachusetts General Hospital in 1847 by the Boston studio Southworth & Hawes. No photograph exists of the day itself, 16 October 1846.](https://upload.wikimedia.org/wikipedia/commons/4/4b/Southworth_%26_Hawes_-_First_etherized_operation_%28re-enactment%29.jpg \"Southworth & Hawes · Public domain · https://commons.wikimedia.org/wiki/File:Southworth_&_Hawes_-_First_etherized_operation_(re-enactment).jpg\")\n\n### The scene\n\nBefore the 1840s, an operation was something a patient endured awake. Assistants held the person down; alcohol or opium took the edge off but did not take the pain away. Surgeons were judged by speed, and the fastest became famous for taking off a leg in a few minutes. Speed was mercy, but it also meant that only the quickest operations were possible: a surgeon could not work slowly inside the chest or the belly on a patient who was screaming and fighting.\n\nThe means to change this had been sitting on chemists' shelves for a long time. Diethyl ether, a volatile liquid made by distilling alcohol with sulphuric acid, was described by Valerius Cordus around 1540. In 1800 the English chemist Humphry Davy wrote that nitrous oxide, the gas he called \"laughing gas\", seemed able to dull pain and might be useful in surgery. Nobody followed it up for decades. Medical books, from Ibn Sina's Canon of Medicine onwards, had recommended opium, mandrake and henbane for pain, but none of these could reliably put a person fully under and then bring them safely back.\n\n### What happened\n\nOn 16 October 1846, in the operating theatre of Massachusetts General Hospital in Boston, a dentist named William Morton held a glass inhaler to the face of a patient, Edward Gilbert Abbott. When Abbott had sunk into sleep, the surgeon John Collins Warren cut into a growth on his neck. Abbott did not struggle. Afterwards he is reported to have said that it felt as if his neck had been scratched. According to the traditional account, Warren turned to the doctors in the gallery and said: \"Gentlemen, this is no humbug.\"\n\n![An ether inhaler of the kind William Morton used from 1846: a glass globe holding a sponge soaked in ether, with a mouthpiece. National Museum of American History, Washington.](https://upload.wikimedia.org/wikipedia/commons/9/95/Ether_inhaler%2C_c._1846%2C_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG \"Daderot · CC0 · https://commons.wikimedia.org/wiki/File:Ether_inhaler,_c._1846,_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG\")\n\nThe day was less perfect than the legend. In 2022 the anaesthetist Paul Firth went back to Abbott's surviving hospital notes and concluded that the anaesthesia was incomplete and that the operation itself, an attempt to tie off a malformation of the blood and lymph vessels, did not succeed. What mattered was something else: a patient had been cut in front of witnesses at a leading hospital without the familiar struggle, and those witnesses wrote it down. The surgeon Henry Jacob Bigelow published an account in the Boston Medical and Surgical Journal on 18 November 1846. Three days later the physician Oliver Wendell Holmes suggested, in a letter to Morton, an old Greek word for the new state: anaesthesia, \"without sensation\".\n\nAn analogy: ether worked like a dimmer on a lamp. Turn it down far enough and the room goes dark; the pain signals still travel through the body, but no one is awake to receive them. The analogy breaks in one important place: a dimmer can be turned up again whenever you like, while ether turned down too far stops breathing, and no one in 1846 knew where that point was or why the drug worked at all.\n\n### Not the first, and not alone\n\nMorton was not the first person to use ether for surgery. In Georgia, the country doctor Crawford Long gave ether to a patient named James Venable on 30 March 1842 and removed a tumour from his neck without pain. Long used it again over the following years but did not publish until 1849, after Boston had already made the news.\n\nMorton had learned the idea of painless dentistry from his former partner, the Hartford dentist Horace Wells. In December 1844 Wells had a tooth of his own pulled under nitrous oxide and felt nothing. In January 1845 he tried to show this to John Collins Warren's medical students in Boston; the patient cried out, the audience laughed, and Wells was dismissed as a fraud. Morton then turned to ether, reportedly on advice from the chemist Charles Jackson, and on 30 September 1846 pulled a tooth from a patient named Eben Frost without pain.\n\nFurther away, and earlier still, Japan had already done it. On 13 October 1804, in the Kii province, the surgeon Hanaoka Seishū removed part of a breast from a woman with cancer, Kan Aiya, after giving her a drink he called tsūsensan, a mixture of plants led by datura. He had worked for some twenty years to match an anaesthetic draught attributed to the Chinese physician Hua Tuo, whose own recipe had been lost. His wife was among those who tested it, and she lost her sight. Hanaoka went on to perform more than 150 breast cancer operations, but Japan's policy of isolation kept the world from learning of them until after general anaesthesia had been found again in the West.\n\n![A page from the surgical casebook of Hanaoka Seishū, who operated on patients put to sleep with his tsūsensan draught from 1804, four decades before Boston.](https://upload.wikimedia.org/wikipedia/commons/d/d2/Image_from_%22Surgical_Casebook%22_by_Hanaoka_Seishu.jpg \"Hanaoka Seishu · Public domain · https://commons.wikimedia.org/wiki/File:Image_from_\\\"Surgical_Casebook\\\"_by_Hanaoka_Seishu.jpg\")\n\n> [!NOTE]\n> Why does Boston, and not Georgia or Kii, get the date? Not because it was first, but because it was public and written up. Long worked alone and kept quiet; Hanaoka's country was closed. The 1846 demonstration took place in a large teaching hospital, in front of doctors, and was in print within five weeks. From there the news crossed the Atlantic.\n\n### Why it was so hard\n\nEther had been known for three hundred years. The gap was not chemistry but belief, risk and trust. Many doctors and patients took pain to be an unavoidable part of surgery. A drug strong enough to block it was also strong enough to kill, and there was no way to measure the dose except by watching the patient. Wells's public failure had made the whole idea look like a stage trick.\n\nThe discoverers also made it harder. At first Morton tried to keep secret what the liquid was, called it \"Letheon\" after Lethe, the river of forgetting in Greek myth, and took out a patent on it together with Jackson. The medical community condemned the patent, and it was never enforced. Morton, Jackson and Wells then spent years fighting over who deserved the credit. Wells died by suicide in 1848. Morton asked the United States Congress for a reward several times and failed each time; he died bankrupt in 1868.\n\n### What it opened\n\nThe news travelled fast. In December 1846 Robert Liston amputated a leg under ether in London. In the Russian Empire, ether was used in Riga in January 1847 and by the surgeon Fyodor Inozemtsev in Moscow in February. Nikolay Pirogov tested it on himself and on patients, published a book on it in 1847, and the same year took it to the Russian army in the Caucasus, where he is credited with some of the first operations under anaesthesia in the field. In Edinburgh, James Young Simpson introduced chloroform in 1847, and in 1853 John Snow gave it to Queen Victoria during childbirth, which made pain relief in labour respectable.\n\n> [!WARNING]\n> Painless did not yet mean safe. Surgeons could now operate slowly and go deeper, but they still did not wash their hands or their instruments, and many patients who survived the knife died of infection afterwards. That began to change only with the work of Ignaz Semmelweis from 1847 and of Louis Pasteur and Joseph Lister in the decades after.\n\nToday hundreds of millions of operations are carried out around the world every year, almost all of them on patients who will remember nothing of the cut. The room where it happened, now called the Ether Dome, is still there, and 16 October is marked as World Anaesthesia Day.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Eter anestezisi: acısız ameliyat",
+      "summary": "1846'da Boston'da bir hasta eter soludu ve cerrah boynunu keserken uyudu. Acısız ameliyat daha önce de yapılmıştı; onu dünyaya yayan bu açık gösteri oldu.",
+      "why_it_matters": "Anesteziden önce hasta uyanık olduğu için ameliyat hızlı ve yüzeysel olmak zorundaydı. Acı kapatılabilir hale gelince cerrahlar bedenin derinlerinde yavaşça çalışabildi ve ameliyat, her yıl yüz milyonlarca insanın atlattığı bir şey oldu.",
+      "if_you_were_there": "Bir sandalyeye bağlısınız, kollarınızı insanlar tutuyor ve cerrahın size verebileceği en iyi şey hız. Sonra bir yabancı elinize cam bir küre verip nefes almanızı istiyor.",
+      "place_name": "Boston",
+      "body": "![Eter altındaki ilk ameliyatın yeniden canlandırılması: Bostonlu Southworth & Hawes stüdyosu 1847'de Massachusetts General Hospital'ın ameliyathanesinde çekti. 16 Ekim 1846 gününün kendisine ait bir fotoğraf yok.](https://upload.wikimedia.org/wikipedia/commons/4/4b/Southworth_%26_Hawes_-_First_etherized_operation_%28re-enactment%29.jpg \"Southworth & Hawes · Public domain · https://commons.wikimedia.org/wiki/File:Southworth_&_Hawes_-_First_etherized_operation_(re-enactment).jpg\")\n\n### Sahne\n\n1840'lardan önce ameliyat, hastanın uyanık katlandığı bir şeydi. Yardımcılar hastayı tutardı; alkol ya da afyon acıyı biraz köreltir ama yok etmezdi. Cerrahlar hızlarıyla tartılırdı; en hızlıları bir bacağı birkaç dakikada kesmeleriyle ün yaptı. Hız merhametti, ama aynı zamanda yalnızca en kısa ameliyatların yapılabilmesi demekti: çığlık atan ve çırpınan bir hastanın göğsünde ya da karnında yavaş çalışmak mümkün değildi.\n\nBunu değiştirecek madde uzun zamandır kimyacıların rafında duruyordu. Alkolün sülfürik asitle damıtılmasıyla elde edilen uçucu bir sıvı olan dietil eteri Valerius Cordus 1540 dolaylarında tarif etmişti. 1800'de İngiliz kimyacı Humphry Davy, \"güldürücü gaz\" adını verdiği diazot monoksitin acıyı köreltir göründüğünü ve cerrahide işe yarayabileceğini yazdı. Onlarca yıl kimse bunun peşine düşmedi. İbn Sina'nın Tıp Kanunu'ndan başlayarak tıp kitapları acıya karşı afyon, adamotu ve banotu önermişti; ama bunların hiçbiri bir insanı güvenilir biçimde tamamen uyutup sonra sağ salim geri getiremiyordu.\n\n### Ne oldu\n\n16 Ekim 1846'da Boston'daki Massachusetts General Hospital'ın ameliyathanesinde William Morton adlı bir diş hekimi, hasta Edward Gilbert Abbott'un yüzüne cam bir solutma aygıtı tuttu. Abbott uykuya dalınca cerrah John Collins Warren boynundaki bir şişliği kesti. Abbott çırpınmadı. Sonradan boynunun sanki kaşınmış gibi geldiğini söylediği aktarılır. Geleneksel anlatıya göre Warren galerideki hekimlere dönüp \"Beyler, bu bir kandırmaca değil\" dedi.\n\n![William Morton'ın 1846'dan itibaren kullandığı türden bir eter solutma aygıtı: içinde etere batırılmış bir sünger bulunan cam bir küre ve bir ağızlık. Ulusal Amerikan Tarihi Müzesi, Washington.](https://upload.wikimedia.org/wikipedia/commons/9/95/Ether_inhaler%2C_c._1846%2C_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG \"Daderot · CC0 · https://commons.wikimedia.org/wiki/File:Ether_inhaler,_c._1846,_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG\")\n\nGün, efsanenin anlattığı kadar kusursuz değildi. 2022'de anestezi uzmanı Paul Firth, Abbott'un hastanede korunmuş kayıtlarına geri döndü ve anestezinin eksik kaldığı, ameliyatın kendisinin de (kan ve lenf damarlarındaki bir doğuştan bozukluğu bağlama girişimi) başarılı olmadığı sonucuna vardı. Önemli olan başka bir şeydi: önde gelen bir hastanede, tanıkların önünde, alışılmış boğuşma olmadan bir hasta kesilmişti ve tanıklar bunu yazıya geçirdi. Cerrah Henry Jacob Bigelow olayın anlatısını 18 Kasım 1846'da Boston Medical and Surgical Journal'da yayımladı. Üç gün sonra hekim Oliver Wendell Holmes, Morton'a yazdığı bir mektupta bu yeni durum için eski bir Yunanca sözcük önerdi: anestezi, \"duyusuzluk\".\n\nBir benzetme: eter, bir lambanın ışık ayarı düğmesi gibi çalıştı. Yeterince kısarsanız oda kararır; acı sinyalleri bedende yine dolaşır, ama onları karşılayacak uyanık kimse yoktur. Benzetme önemli bir yerde bozulur: ışık ayarı istediğiniz an yeniden açılabilir, oysa fazla kısılan eter solunumu durdurur ve 1846'da kimse o sınırın nerede olduğunu, hatta ilacın neden işe yaradığını bilmiyordu.\n\n### İlk değil, yalnız da değil\n\nMorton ameliyatta eteri kullanan ilk kişi değildi. Georgia'da taşra hekimi Crawford Long, 30 Mart 1842'de James Venable adlı bir hastaya eter verdi ve boynundaki bir tümörü acısız çıkardı. Long sonraki yıllarda da kullandı ama bulgularını ancak 1849'da, Boston çoktan haber olduktan sonra yayımladı.\n\nMorton acısız diş tedavisi fikrini eski ortağı, Hartfordlu diş hekimi Horace Wells'ten öğrenmişti. Aralık 1844'te Wells kendi dişini diazot monoksit altında çektirdi ve hiçbir şey hissetmedi. Ocak 1845'te bunu Boston'da John Collins Warren'ın tıp öğrencilerine göstermeye çalıştı; hasta bağırdı, salon güldü ve Wells sahtekâr diye bir kenara itildi. Morton bunun üzerine etere yöneldi, aktarıldığına göre kimyacı Charles Jackson'ın önerisiyle, ve 30 Eylül 1846'da Eben Frost adlı bir hastanın dişini acısız çekti.\n\nDaha uzakta ve daha da önce Japonya bunu çoktan başarmıştı. 13 Ekim 1804'te Kii eyaletinde cerrah Hanaoka Seişu, kanser hastası Kan Aiya'ya tsūsensan adını verdiği, başını tatulanın çektiği bir bitki karışımını içirdikten sonra göğsünün bir kısmını aldı. Hanaoka yaklaşık yirmi yıl boyunca, tarifi kaybolmuş Çinli hekim Hua Tuo'ya atfedilen bir uyuşturucu içkiye denk bir karışım bulmaya çalışmıştı. Onu deneyenler arasında karısı da vardı ve karısı görme yetisini kaybetti. Hanaoka 150'den fazla meme kanseri ameliyatı yaptı, ama Japonya'nın kapalılık siyaseti dünyanın bunu öğrenmesini, genel anestezi Batı'da yeniden bulunana dek engelledi.\n\n![Hanaoka Seişu'nun cerrahi vaka defterinden bir sayfa. Hanaoka, Boston'dan kırk yıl önce, 1804'ten itibaren tsūsensan içkisiyle uyutulmuş hastaları ameliyat etti.](https://upload.wikimedia.org/wikipedia/commons/d/d2/Image_from_%22Surgical_Casebook%22_by_Hanaoka_Seishu.jpg \"Hanaoka Seishu · Public domain · https://commons.wikimedia.org/wiki/File:Image_from_\\\"Surgical_Casebook\\\"_by_Hanaoka_Seishu.jpg\")\n\n> [!NOTE]\n> Tarihi neden Georgia ya da Kii değil de Boston alıyor? İlk olduğu için değil, herkesin önünde yapılıp yazıya geçirildiği için. Long tek başına çalıştı ve sustu; Hanaoka'nın ülkesi kapalıydı. 1846 gösterisi büyük bir eğitim hastanesinde, hekimlerin önünde yapıldı ve beş hafta içinde basıldı. Haber oradan Atlantik'i aştı.\n\n### Neden bu kadar zordu\n\nEter üç yüz yıldır biliniyordu. Eksik olan kimya değil; inanç, risk ve güvendi. Pek çok hekim ve hasta acıyı ameliyatın kaçınılmaz bir parçası sayıyordu. Acıyı kesecek kadar güçlü bir ilaç öldürecek kadar da güçlüydü ve dozu ölçmenin hastayı izlemekten başka yolu yoktu. Wells'in herkesin önündeki başarısızlığı da bütün fikri bir sahne numarası gibi göstermişti.\n\nBulanlar da işi zorlaştırdı. Morton başta sıvının ne olduğunu gizli tutmaya çalıştı, ona Yunan mitolojisindeki unutuş ırmağı Lethe'den esinle \"Letheon\" adını verdi ve Jackson'la birlikte patent aldı. Tıp dünyası patenti kınadı ve patent hiçbir zaman uygulanmadı. Ardından Morton, Jackson ve Wells yıllarca övgünün kime ait olduğu konusunda çekiştiler. Wells 1848'de intihar etti. Morton birkaç kez ABD Kongresi'nden ödül istedi ve her seferinde başarısız oldu; 1868'de iflas etmiş olarak öldü.\n\n### Ne açtı\n\nHaber hızla yayıldı. Aralık 1846'da Robert Liston Londra'da eter altında bir bacak kesti. Rus İmparatorluğu'nda eter Ocak 1847'de Riga'da, Şubat'ta Moskova'da cerrah Fyodor İnozemtsev tarafından kullanıldı. Nikolay Pirogov eteri önce kendinde ve hastalarında denedi, 1847'de onun üzerine bir kitap yayımladı ve aynı yıl Kafkasya'daki Rus ordusuna götürdü; sahrada anestezi altında yapılan ilk ameliyatlardan bazıları ona atfedilir. Edinburgh'da James Young Simpson 1847'de kloroformu kullanmaya başladı; 1853'te John Snow onu doğum sırasında Kraliçe Victoria'ya verdi ve bu, doğumda acı dindirmeyi saygın hale getirdi.\n\n> [!WARNING]\n> Acısız olmak henüz güvenli olmak demek değildi. Cerrahlar artık yavaş ve derine çalışabiliyordu, ama ellerini ve aletlerini hâlâ yıkamıyorlardı; bıçaktan kurtulan pek çok hasta sonra enfeksiyondan öldü. Bu ancak 1847'den itibaren Ignaz Semmelweis'ın, ardından gelen on yıllarda da Louis Pasteur ile Joseph Lister'ın çalışmalarıyla değişmeye başladı.\n\nBugün dünyada her yıl yüz milyonlarca ameliyat yapılıyor ve bunların neredeyse hepsinde hasta kesiden hiçbir şey hatırlamıyor. Olayın yaşandığı oda, bugünkü adıyla Ether Dome, hâlâ yerinde; 16 Ekim de Dünya Anestezi Günü olarak anılıyor.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Эфирный наркоз: хирургия без боли",
+      "summary": "В 1846 году в Бостоне пациент вдохнул эфир и спал, пока хирург оперировал ему шею. Безболезненные операции были и раньше; по миру их разнёс именно этот публичный показ.",
+      "why_it_matters": "До наркоза операция должна была быть быстрой и неглубокой, потому что пациент был в сознании. Когда боль научились выключать, хирурги смогли работать медленно и глубоко внутри тела, и операцию стали переживать сотни миллионов людей в год.",
+      "if_you_were_there": "Вас привязали к креслу, руки держат чужие люди, и лучшее, что может дать хирург, это скорость. Потом незнакомец подаёт вам стеклянный шар и просит дышать.",
+      "place_name": "Бостон",
+      "body": "![Повторная постановка первой операции под эфиром, снятая в 1847 году бостонской студией Southworth & Hawes в операционном зале Массачусетской больницы общего профиля. Фотографии самого дня, 16 октября 1846 года, не существует.](https://upload.wikimedia.org/wikipedia/commons/4/4b/Southworth_%26_Hawes_-_First_etherized_operation_%28re-enactment%29.jpg \"Southworth & Hawes · Public domain · https://commons.wikimedia.org/wiki/File:Southworth_&_Hawes_-_First_etherized_operation_(re-enactment).jpg\")\n\n### Сцена\n\nДо 1840-х годов операцию пациент переносил в сознании. Помощники держали его; алкоголь или опий притупляли боль, но не снимали её. Хирургов ценили за скорость, и самые быстрые прославились тем, что отнимали ногу за несколько минут. Скорость была милосердием, но она же означала, что возможны только самые быстрые операции: нельзя медленно работать в груди или животе человека, который кричит и вырывается.\n\nСредство, способное это изменить, давно стояло на полках химиков. Диэтиловый эфир, летучую жидкость, которую получают перегонкой спирта с серной кислотой, описал Валерий Кордус около 1540 года. В 1800 году английский химик Гемфри Дэви написал, что закись азота, которую он назвал «веселящим газом», по-видимому, притупляет боль и могла бы пригодиться в хирургии. Десятилетиями никто этим не занялся. Медицинские книги, начиная с «Канона врачебной науки» Ибн Сины, советовали от боли опий, мандрагору и белену, но ни одно из этих средств не могло надёжно погрузить человека в полное беспамятство и благополучно вернуть его обратно.\n\n### Что произошло\n\n16 октября 1846 года в операционном зале Массачусетской больницы общего профиля в Бостоне зубной врач Уильям Мортон поднёс стеклянный ингалятор к лицу пациента Эдварда Гилберта Эбботта. Когда Эбботт погрузился в сон, хирург Джон Коллинз Уоррен рассёк опухоль у него на шее. Эбботт не сопротивлялся. Потом, как сообщается, он сказал, что ощущение было такое, будто ему поцарапали шею. Согласно традиционному рассказу, Уоррен повернулся к врачам на галерее и сказал: «Джентльмены, это не надувательство».\n\n![Эфирный ингалятор того типа, которым Уильям Мортон пользовался с 1846 года: стеклянный шар с губкой, пропитанной эфиром, и мундштук. Национальный музей американской истории, Вашингтон.](https://upload.wikimedia.org/wikipedia/commons/9/95/Ether_inhaler%2C_c._1846%2C_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG \"Daderot · CC0 · https://commons.wikimedia.org/wiki/File:Ether_inhaler,_c._1846,_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG\")\n\nНа деле день был не так безупречен, как легенда. В 2022 году анестезиолог Пол Фёрт вернулся к сохранившимся больничным записям Эбботта и пришёл к выводу, что наркоз был неполным, а сама операция, попытка перевязать врождённый порок кровеносных и лимфатических сосудов, не удалась. Важно было другое: в ведущей больнице, при свидетелях, человека оперировали без привычной борьбы, и свидетели это записали. Хирург Генри Джейкоб Бигелоу опубликовал отчёт в Boston Medical and Surgical Journal 18 ноября 1846 года. Через три дня врач Оливер Уэнделл Холмс в письме Мортону предложил для нового состояния старое греческое слово: анестезия, «без ощущения».\n\nСравнение: эфир действовал как регулятор яркости лампы. Убавьте достаточно, и в комнате станет темно; сигналы боли по-прежнему бегут по телу, но принять их некому. Сравнение ломается в важном месте: регулятор можно повернуть обратно когда угодно, а эфир, убавленный слишком сильно, останавливает дыхание, и в 1846 году никто не знал, где эта граница и почему вещество вообще действует.\n\n### Не первый и не один\n\nМортон не был первым, кто применил эфир при операции. В Джорджии сельский врач Кроуфорд Лонг 30 марта 1842 года дал эфир пациенту Джеймсу Венейблу и без боли удалил опухоль у него на шее. Лонг применял эфир и в следующие годы, но опубликовал результаты лишь в 1849 году, когда о Бостоне уже писали газеты.\n\nСаму идею безболезненного лечения зубов Мортон взял у бывшего компаньона, зубного врача из Хартфорда Хораса Уэллса. В декабре 1844 года Уэллсу удалили его собственный зуб под закисью азота, и он ничего не почувствовал. В январе 1845 года он попытался показать это студентам-медикам Джона Коллинза Уоррена в Бостоне; пациент закричал, зал рассмеялся, и Уэллса сочли обманщиком. Тогда Мортон обратился к эфиру, по имеющимся сведениям по совету химика Чарльза Джексона, и 30 сентября 1846 года без боли удалил зуб пациенту Эбену Фросту.\n\nДальше и ещё раньше это уже удалось в Японии. 13 октября 1804 года в провинции Кии хирург Ханаока Сэйсю удалил часть груди больной раком женщине, Кан Аи, напоив её отваром, который назвал цусэнсан: смесью растений, главным из которых был дурман. Около двадцати лет он пытался создать средство, равное обезболивающему питью,, приписываемое китайскому врачу Хуа То, чей рецепт был утрачен. Среди тех, кто испытывал средство, была его жена, и она потеряла зрение. Ханаока провёл больше 150 операций по поводу рака груди, но политика самоизоляции Японии не дала миру узнать о них, пока общий наркоз не был заново найден на Западе.\n\n![Страница из хирургического журнала Ханаоки Сэйсю, который с 1804 года, за четыре десятилетия до Бостона, оперировал пациентов, усыплённых отваром цусэнсан.](https://upload.wikimedia.org/wikipedia/commons/d/d2/Image_from_%22Surgical_Casebook%22_by_Hanaoka_Seishu.jpg \"Hanaoka Seishu · Public domain · https://commons.wikimedia.org/wiki/File:Image_from_\\\"Surgical_Casebook\\\"_by_Hanaoka_Seishu.jpg\")\n\n> [!NOTE]\n> Почему дата принадлежит Бостону, а не Джорджии или Кии? Не потому, что он был первым, а потому, что всё произошло публично и было описано. Лонг работал в одиночку и молчал; страна Ханаоки была закрыта. Демонстрация 1846 года прошла в большой учебной больнице, перед врачами, и через пять недель была в печати. Оттуда новость пересекла Атлантику.\n\n### Почему это было так трудно\n\nЭфир знали триста лет. Не хватало не химии, а веры, готовности рискнуть и доверия. Многие врачи и пациенты считали боль неизбежной частью хирургии. Средство, достаточно сильное, чтобы её снять, было достаточно сильным и чтобы убить, а измерить дозу можно было только наблюдая за пациентом. Публичная неудача Уэллса к тому же сделала саму идею похожей на фокус.\n\nСами открыватели тоже всё усложнили. Сначала Мортон пытался скрыть, что это за жидкость, назвал её «Летеон», по Лете, реке забвения в греческих мифах, и вместе с Джексоном взял на неё патент. Медицинское сообщество патент осудило, и он так и не применялся. Затем Мортон, Джексон и Уэллс годами спорили, кому принадлежит заслуга. Уэллс покончил с собой в 1848 году. Мортон несколько раз просил награды у Конгресса США и каждый раз получал отказ; он умер банкротом в 1868 году.\n\n### Что это открыло\n\nНовость распространилась быстро. В декабре 1846 года Роберт Листон в Лондоне ампутировал ногу под эфиром. В Российской империи эфир применили в Риге в январе 1847 года, а в феврале в Москве его использовал хирург Фёдор Иноземцев. Николай Пирогов испытал эфир на себе и на больных, в 1847 году выпустил о нём книгу и в том же году повёз его в русскую армию на Кавказ; ему приписывают одни из первых операций под наркозом в полевых условиях. В Эдинбурге Джеймс Янг Симпсон в 1847 году ввёл хлороформ, а в 1853 году Джон Сноу дал его королеве Виктории при родах, и обезболивание родов стало приличным делом.\n\n> [!WARNING]\n> Безболезненно ещё не значило безопасно. Хирурги теперь могли работать медленно и проникать глубже, но по-прежнему не мыли ни рук, ни инструментов, и многие пациенты, пережившие нож, потом умирали от заражения. Это начало меняться только с работами Игнаца Земмельвейса с 1847 года, а в следующие десятилетия Луи Пастера и Джозефа Листера.\n\nСегодня в мире ежегодно делают сотни миллионов операций, и почти никто из пациентов не помнит разреза. Зал, где всё произошло, теперь называется Эфирный купол (Ether Dome) и сохранился до сих пор, а 16 октября отмечают как Всемирный день анестезиолога.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Эфир наркозу: оорутпаган операция",
+      "summary": "1846-жылы Бостондо бейтап эфир менен дем алып, хирург моюнун кесип жатканда уктап жаткан. Оорутпаган операция мурда да болгон; аны дүйнөгө жайган ушул ачык көрсөтүү болду.",
+      "why_it_matters": "Наркозго чейин бейтап ойгоо болгондуктан операция тез жана тайыз болушу керек эле. Ооруну өчүрүү мүмкүн болгондо хирургдар дененин тереңинде шашпай иштей алышты, жана операциядан жыл сайын жүздөгөн миллион адам аман чыгат.",
+      "if_you_were_there": "Сиз отургучка байланып турасыз, колуңузду башкалар кармап турат, хирургдун берер эң жакшы белеги ылдамдык. Анан бейтааныш адам колуңузга айнек шар берип, дем алыңыз дейт.",
+      "place_name": "Бостон",
+      "body": "![Эфир менен жасалган биринчи операциянын кайра көрсөтүлүшү: аны 1847-жылы Бостондогу Southworth & Hawes студиясы Массачусетс жалпы ооруканасынын операция залында тарткан. 1846-жылдын 16-октябрындагы күндүн өзүнүн сүрөтү жок.](https://upload.wikimedia.org/wikipedia/commons/4/4b/Southworth_%26_Hawes_-_First_etherized_operation_%28re-enactment%29.jpg \"Southworth & Hawes · Public domain · https://commons.wikimedia.org/wiki/File:Southworth_&_Hawes_-_First_etherized_operation_(re-enactment).jpg\")\n\n### Окуя кайда, кандай шартта\n\n1840-жылдарга чейин бейтап операцияны ойгоо абалында көтөрчү. Жардамчылар аны кармап турушчу; арак же апийим ооруну бир аз басаңдатчу, бирок жок кылчу эмес. Хирургдарды ылдамдыгы боюнча баалашчу: эң ылдамдары бутту бир нече мүнөттө кесип алганы менен атагы чыккан. Ылдамдык боорукердик эле, бирок ошол эле учурда эң кыска операцияларды гана жасоого мүмкүн экенин билдирчү: кыйкырып, тыпырчылап жаткан адамдын көкүрөгүндө же ичинде шашпай иштөөгө болчу эмес.\n\nМуну өзгөртө турган зат химиктердин текчесинде көптөн бери турган. Спиртти күкүрт кислотасы менен айдап алынуучу, тез бууланган суюктук болгон диэтил эфирин болжол менен 1540-жылы Валерий Кордус сүрөттөп жазган. 1800-жылы англиялык химик Гемфри Дэви өзү «күлдүргүч газ» деп атаган азот кычкылы ооруну басаңдатчудай көрүнөрүн жана хирургияда пайдалуу болушу мүмкүн экенин жазган. Ондогон жылдар бою муну эч ким улантпаган. Ибн Синанын «Медицина илиминин канонунан» баштап медицина китептери ооруга каршы апийимди, мандрагораны жана мең дубананы сунуштап келген, бирок алардын бири да адамды толук уктатып, андан кийин аман-эсен ойготууга ишенимдүү жарабаган.\n\n### Эмне болду\n\n1846-жылдын 16-октябрында Бостондогу Массачусетс жалпы ооруканасынын операция залында Уильям Мортон аттуу тиш доктуру Эдвард Гилберт Эбботт аттуу бейтаптын бетине айнек ингаляторду тосуп турду. Эбботт уйкуга кеткенде хирург Жон Коллинз Уоррен анын моюнундагы шишикти кести. Эбботт тыпырчылаган жок. Кийин ал моюнумду бирөө тырмап койгондой сезилди деп айткан деп айтылат. Салттуу баянга караганда, Уоррен галереядагы дарыгерлерге бурулуп: «Мырзалар, бул алдамчылык эмес», — деген.\n\n![Уильям Мортон 1846-жылдан тартып колдонгон түрдөгү эфир ингалятору: ичинде эфирге малынган губка бар айнек шар жана ооздук. Америка тарыхынын улуттук музейи, Вашингтон.](https://upload.wikimedia.org/wikipedia/commons/9/95/Ether_inhaler%2C_c._1846%2C_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG \"Daderot · CC0 · https://commons.wikimedia.org/wiki/File:Ether_inhaler,_c._1846,_developed_by_William_T._G._Morton_-_National_Museum_of_American_History_-_DSC06167.JPG\")\n\nЧындыгында ал күн уламыштагыдай кемчиликсиз болгон эмес. 2022-жылы анестезиолог Пол Фёрт Эбботттун ооруканада сакталып калган жазууларын кайра карап чыгып, наркоз толук болбогон, ал эми операциянын өзү, кан жана лимфа тамырларынын тубаса кемтигин байлап салуу аракети, ийгиликсиз аяктаган деген жыйынтыкка келген. Маанилүүсү башка нерсе эле: алдыңкы ооруканада, күбөлөрдүн көз алдында адам адаттагыдай алышпастан операция кылынды, жана күбөлөр муну жазып алышты. Хирург Генри Жейкоб Бигелоу 1846-жылдын 18-ноябрында Boston Medical and Surgical Journal журналына баяндама жарыялаган. Үч күндөн кийин дарыгер Оливер Уэнделл Холмс Мортонго жазган катында бул жаңы абал үчүн байыркы грек сөзүн сунуштаган: анестезия, «сезимсиздик».\n\nСалыштыруу: эфир чырактын жарыгын көбөйтүп-азайтуучу баскычтай иштеген. Жетишерлик азайтсаңыз бөлмө караңгы болот; оору белгилери денеде мурдагыдай эле жүрө берет, бирок аларды кабыл алган ойгоо эч ким жок. Салыштыруу маанилүү жерде бузулат: баскычты каалаган убакта кайра бурса болот, ал эми ашыкча азайтылган эфир дем алууну токтотот, жана 1846-жылы ал чек кайда экенин, дары эмне үчүн таасир этерин да эч ким билген эмес.\n\n### Биринчи эмес, жалгыз да эмес\n\nМортон эфирди операцияда колдонгон биринчи адам болгон эмес. Жоржия штатында айыл доктуру Кроуфорд Лонг 1842-жылдын 30-мартында Жеймс Венейбл аттуу бейтапка эфир берип, анын моюнундагы шишикти оорутпай алып салган. Лонг кийинки жылдары да колдонгон, бирок жыйынтыктарын 1849-жылы гана, Бостон тууралуу кабар тараганда жарыялаган.\n\nТишти оорутпай дарылоо идеясын Мортон мурдагы шериги, Хартфорддук тиш доктуру Хорас Уэллстен алган. 1844-жылдын декабрында Уэллс өз тишин азот кычкылы менен суургузуп, эч нерсе сезген эмес. 1845-жылдын январында ал муну Бостондо Жон Коллинз Уоррендин медицина студенттерине көрсөтүүгө аракет кылган; бейтап кыйкырып жиберген, зал күлгөн, Уэллсти алдамчы деп эсептешкен. Андан кийин Мортон эфирге кайрылган, айтылгандарга караганда химик Чарльз Жексондун кеңеши менен, жана 1846-жылдын 30-сентябрында Эбен Фрост аттуу бейтаптын тишин оорутпай суурган.\n\nАлысыраакта жана андан да мурда Японияда бул буга чейин эле ишке ашкан. 1804-жылдын 13-октябрында Кии провинциясында хирург Ханаока Сэйсю рак оорусуна чалдыккан аял Кан Аиге өзү цусэнсан деп атаган, негизин дурман түзгөн өсүмдүк аралашмасын ичирип, анын төшүнүн бир бөлүгүн алып салган. Ал жыйырма жылга жакын убакыт бою рецепти жоголгон кытай дарыгери Хуа Того таандык деп эсептелген ооруну басуучу суусундукка тең келген аралашманы табууга аракет кылган. Аны сынагандардын арасында аялы да болгон, жана аялы көрбөй калган. Ханаока төш рагы боюнча 150дөн ашык операция жасаган, бирок Япониянын өзүн дүйнөдөн бөлүп алуу саясаты Батышта жалпы наркоз кайрадан табылганга чейин дүйнөнүн бул тууралуу билишине жол берген эмес.\n\n![Ханаока Сэйсюнун хирургиялык жазуу дептеринен бир барак. Ал Бостондон кырк жыл мурда, 1804-жылдан тартып цусэнсан суусундугу менен уктатылган бейтаптарга операция жасаган.](https://upload.wikimedia.org/wikipedia/commons/d/d2/Image_from_%22Surgical_Casebook%22_by_Hanaoka_Seishu.jpg \"Hanaoka Seishu · Public domain · https://commons.wikimedia.org/wiki/File:Image_from_\\\"Surgical_Casebook\\\"_by_Hanaoka_Seishu.jpg\")\n\n> [!NOTE]\n> Эмне үчүн бул датаны Жоржия же Кии эмес, Бостон алат? Биринчи болгону үчүн эмес, эл алдында жасалып, жазылып калганы үчүн. Лонг жалгыз иштеп, унчукпай койгон; Ханаоканын өлкөсү жабык болгон. 1846-жылдагы көрсөтүү чоң окутуучу ооруканада, дарыгерлердин көз алдында өтүп, беш жуманын ичинде басылып чыккан. Ошол жерден кабар Атлантиканы кесип өткөн.\n\n### Эмне үчүн мынчалык кыйын болду\n\nЭфир үч жүз жылдан бери белгилүү болчу. Жетишпегени химия эмес, ишеним, тобокелге баруу жана ынаным эле. Көп дарыгерлер жана бейтаптар ооруну хирургиянын кутулгус бөлүгү деп эсептешкен. Ооруну баса турган күчтүү дары адамды өлтүрө турганчалык да күчтүү болгон, ал эми дозаны бейтапты байкап туруудан башка ченөөгө мүмкүн эмес эле. Уэллстин эл алдындагы ийгиликсиздиги бүт идеяны сахнадагы көз боемочулукка окшотуп койгон.\n\nАчкандардын өздөрү да ишти татаалдатышкан. Башында Мортон суюктуктун эмне экенин жашырууга аракет кылып, аны грек уламыштарындагы унутуу дарыясы Летанын атынан «Летеон» деп атаган жана Жексон экөө ага патент алышкан. Медицина коомчулугу патентти айыптаган, жана ал эч качан колдонулган эмес. Андан кийин Мортон, Жексон жана Уэллс эмгек кимге таандык деп жылдар бою талашышкан. Уэллс 1848-жылы өз жанын кыйган. Мортон АКШ Конгрессинен бир нече жолу сыйлык сураган жана ар бир жолу баш тартуу алган; ал 1868-жылы банкрот болуп өлгөн.\n\n### Эмнеге жол ачты\n\nКабар тез тараган. 1846-жылдын декабрында Роберт Листон Лондондо эфир менен бутту кесип алган. Россия империясында эфир 1847-жылдын январында Ригада колдонулган, ал эми февралда аны Москвада хирург Фёдор Иноземцев колдонгон. Николай Пирогов эфирди өзүнө жана бейтаптарга сынап көрүп, 1847-жылы ал тууралуу китеп чыгарган жана ошол эле жылы аны Кавказдагы орус армиясына алып барган; талаа шартында наркоз менен жасалган алгачкы операциялардын айрымдары ага таандык деп эсептелет. Эдинбургда Жеймс Янг Симпсон 1847-жылы хлороформду колдоно баштаган, ал эми 1853-жылы Жон Сноу аны төрөт учурунда Королева Викторияга берген, жана ушундан кийин төрөттө ооруну басуу кадыр-барктуу иш болуп калган.\n\n> [!WARNING]\n> Оорутпаганы азырынча коопсуз дегенди билдирген эмес. Хирургдар эми шашпай жана тереңирээк иштей алышкан, бирок колун да, аспаптарын да дагы эле жуушкан эмес, жана бычактан аман калган көп бейтаптар кийин инфекциядан өлүшкөн. Бул 1847-жылдан баштап Игнац Земмельвейстин, андан кийинки ондогон жылдарда Луи Пастер менен Жозеф Листердин эмгектери аркылуу гана өзгөрө баштаган.\n\nБүгүн дүйнөдө жыл сайын жүздөгөн миллион операция жасалат, жана алардын дээрлик баарында бейтап кесилгенин эч эстебейт. Окуя болгон зал, азыр Эфир куполу (Ether Dome) деп аталат, ушул күнгө чейин сакталып турат, ал эми 16-октябрь Дүйнөлүк анестезия күнү катары белгиленет.",
+      "status": "machine"
+    }
+  }
+}
