@@ -1,0 +1,320 @@
+{
+  "slug": "pcr",
+  "year": 1983,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 37.8313,
+  "lng": -122.2852,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Thermal_cycler_for_PCR.jpg",
+    "credit": "Juan Carlos Fonseca Mata",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thermal_cycler_for_PCR.jpg"
+  },
+  "disciplines": [
+    "biology",
+    "medicine",
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "kary-mullis",
+      "birth_year": 1944,
+      "death_year": 2019,
+      "role": "author",
+      "name": {
+        "en": "Kary Mullis",
+        "tr": "Kary Mullis",
+        "ru": "Кэри Муллис",
+        "ky": "Кэри Муллис"
+      }
+    },
+    {
+      "slug": "randall-saiki",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Randall Saiki",
+        "tr": "Randall Saiki",
+        "ru": "Рэндалл Сайки",
+        "ky": "Рэндалл Сайки"
+      }
+    },
+    {
+      "slug": "stephen-scharf",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Stephen Scharf",
+        "tr": "Stephen Scharf",
+        "ru": "Стивен Шарф",
+        "ky": "Стивен Шарф"
+      }
+    },
+    {
+      "slug": "fred-faloona",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Fred Faloona",
+        "tr": "Fred Faloona",
+        "ru": "Фред Фалуна",
+        "ky": "Фред Фалуна"
+      }
+    },
+    {
+      "slug": "henry-erlich",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Henry Erlich",
+        "tr": "Henry Erlich",
+        "ru": "Генри Эрлих",
+        "ky": "Генри Эрлих"
+      }
+    },
+    {
+      "slug": "norman-arnheim",
+      "birth_year": null,
+      "death_year": null,
+      "role": "collaborator",
+      "name": {
+        "en": "Norman Arnheim",
+        "tr": "Norman Arnheim",
+        "ru": "Норман Арнхейм",
+        "ky": "Норман Арнхейм"
+      }
+    },
+    {
+      "slug": "thomas-white",
+      "birth_year": null,
+      "death_year": null,
+      "role": "director",
+      "name": {
+        "en": "Thomas White",
+        "tr": "Thomas White",
+        "ru": "Томас Уайт",
+        "ky": "Томас Уайт"
+      }
+    },
+    {
+      "slug": "shirley-kwok",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contributor",
+      "name": {
+        "en": "Shirley Kwok",
+        "tr": "Shirley Kwok",
+        "ru": "Ширли Квок",
+        "ky": "Ширли Квок"
+      }
+    },
+    {
+      "slug": "robert-watson-cetus",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contributor",
+      "name": {
+        "en": "Robert Watson",
+        "tr": "Robert Watson",
+        "ru": "Роберт Уотсон",
+        "ky": "Роберт Уотсон"
+      }
+    },
+    {
+      "slug": "susanne-stoffel",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contributor",
+      "name": {
+        "en": "Susanne Stoffel",
+        "tr": "Susanne Stoffel",
+        "ru": "Сюзанна Штоффель",
+        "ky": "Сюзанна Штоффель"
+      }
+    },
+    {
+      "slug": "david-gelfand",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contributor",
+      "name": {
+        "en": "David Gelfand",
+        "tr": "David Gelfand",
+        "ru": "Дэвид Гелфанд",
+        "ky": "Дэвид Гелфанд"
+      }
+    },
+    {
+      "slug": "har-gobind-khorana",
+      "birth_year": 1922,
+      "death_year": 2011,
+      "role": "predecessor",
+      "name": {
+        "en": "Har Gobind Khorana",
+        "tr": "Har Gobind Khorana",
+        "ru": "Хар Гобинд Корана",
+        "ky": "Хар Гобинд Корана"
+      }
+    },
+    {
+      "slug": "kjell-kleppe",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Kjell Kleppe",
+        "tr": "Kjell Kleppe",
+        "ru": "Шелль Клеппе",
+        "ky": "Шелль Клеппе"
+      }
+    },
+    {
+      "slug": "thomas-brock",
+      "birth_year": 1926,
+      "death_year": 2021,
+      "role": "predecessor",
+      "name": {
+        "en": "Thomas Brock",
+        "tr": "Thomas Brock",
+        "ru": "Томас Брок",
+        "ky": "Томас Брок"
+      }
+    },
+    {
+      "slug": "hudson-freeze",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Hudson Freeze",
+        "tr": "Hudson Freeze",
+        "ru": "Хадсон Фриз",
+        "ky": "Хадсон Фриз"
+      }
+    },
+    {
+      "slug": "alice-chien",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Alice Chien",
+        "tr": "Alice Chien",
+        "ru": "Элис Чиэн",
+        "ky": "Элис Чиэн"
+      }
+    },
+    {
+      "slug": "michael-smith-chemist",
+      "birth_year": 1932,
+      "death_year": 2000,
+      "role": "contemporary",
+      "name": {
+        "en": "Michael Smith",
+        "tr": "Michael Smith",
+        "ru": "Майкл Смит",
+        "ky": "Майкл Смит"
+      }
+    }
+  ],
+  "builds_on": [
+    "dna-double-helix",
+    "recombinant-dna"
+  ],
+  "sources": [
+    {
+      "title": "Polymerase chain reaction — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction"
+    },
+    {
+      "title": "History of polymerase chain reaction — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_polymerase_chain_reaction"
+    },
+    {
+      "title": "Kary Mullis — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kary_Mullis"
+    },
+    {
+      "title": "Taq polymerase — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Taq_polymerase"
+    },
+    {
+      "title": "Polymerase Chain Reaction (PCR) — The Embryo Project Encyclopedia, Arizona State University",
+      "kind": "encyclopedia",
+      "url": "https://embryo.asu.edu/pages/polymerase-chain-reaction-pcr"
+    },
+    {
+      "title": "The eccentric scientist behind the gold-standard COVID-19 test — National Geographic",
+      "kind": "article",
+      "url": "https://www.nationalgeographic.com/science/article/the-eccentric-scientist-behind-the-gold-standard-covid-19-pcr-test"
+    },
+    {
+      "title": "Thomas D. Brock — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_D._Brock"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 1993 — NobelPrize.org",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1993/summary/"
+    },
+    {
+      "title": "Polymerase chain reaction — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/polymerase-chain-reaction"
+    }
+  ],
+  "research_note": "Checked 2026-11-11 against English Wikipedia (Polymerase chain reaction; History of polymerase chain reaction; Kary Mullis; Taq polymerase; Thomas D. Brock), the Embryo Project Encyclopedia (Arizona State University) page on PCR, and National Geographic's profile of Mullis (which draws on Paul Rabinow's 'Making PCR', 1996, not opened). Britannica linked for human review only (fetch blocked); NobelPrize.org returned 403 to automated fetches, linked for the reviewer. YEAR: 1983 exact for the idea (undisputed). LEGEND vs RECORD: the Mendocino night drive rests only on Mullis's own account (Scientific American 1990, Nobel lecture) and is presented as his memory; the 16 December 1983 first positive result is also framed as 'by his own account', with colleagues unconvinced and a clear signal only in November 1984 (History of PCR, Wikipedia). PRIORITY: no lone-hero framing. Body names Kleppe/Khorana 1971 (proposal only, no results shown), the Cetus team (Scharf, Faloona, Saiki, Erlich, Arnheim, White, Kwok, Watson), Freeze & Brock (1966 sample, 1969 description), Alice Chien with Edgar and Trela (1976, University of Cincinnati), Stoffel & Gelfand (Taq at Cetus, fall 1985), Saiki et al. 1988 Science. NOTE box covers the credit dispute, DuPont suit (1991 jury upheld Cetus patents; settled Dec 1991 per BioWorld), $10,000 bonus, sale to Roche in 1991 for 'some 300 million dollars' (Wikipedia Taq page says $330 million; Mullis page and NatGeo say $300 million). Mullis's HIV/AIDS and climate denial stated in one closing paragraph (Wikipedia, NatGeo). FACT-CHECK (fact-checker agent, 2026-11-11): verdict publishable with fixes, all applied in four languages: (1) Kleppe 1971 'described repeated copying' -> 'proposed', no results shown; (2) 16 Dec 1983 framed as Mullis's account + Nov 1984 clear signal added; (3) 'mind-numbingly tedious' is NatGeo's phrase, not a Kwok quote -> attributed to 'one account'; (4) Watson's pipetting robot moved before Taq (it came in the manual-cycling period) and softened to 'an early step toward'; (5) DuPont outcome added; (6) 'most COVID-19 tests' -> 'the standard laboratory test'; (7) 'a drop of blood holds only a few copies' -> 'far too little to detect'; (8) 'had to grow in bacteria' -> 'usually'; summary 'every' -> 'almost every'; (9) Gene Machine caption follows Commons description ('constant-temperature baths, robotic mechanism'). Also: Science rejection of the Mullis paper dropped (only NatGeo, likely from Mullis's memoir); Nature rejection kept (two sources); paper credited to Mullis and Faloona. REVIEWER SHOULD CHECK: Watson robot rests on NatGeo alone; Khorana's 1968 Nobel was in Physiology or Medicine (shared with Holley and Nirenberg); birth years for most Cetus people unknown and left null. IMAGES via commons.mjs, values verbatim: cover File:Thermal_cycler_for_PCR.jpg (Juan Carlos Fonseca Mata, CC BY-SA 4.0, a modern thermal cycler); figures File:Polymerase_chain_reaction.svg (Enzoklop, CC BY-SA 3.0) and File:Primitive_PCR_machine_for_scrap.JPG (Agesworth, CC BY-SA 3.0; Innovonics 'Gene Machine', no date claimed). Rejected: File:Thermus_aquaticus.JPG (author 'Unknown author', thin provenance); File:Kary_Mullis.jpg is free (Dona Mapston, CC BY-SA 3.0) but only 255x399, not used. KYRGYZ: glossary terms used: илим, окумуштуу, изилдөө, тажрыйба, далил, ген, бактерия, кан, оору, молекула, китепкана, клетка (marked 'check'), тукум куума ('heredity' glossary has тукум куучулук, marked 'check'; used adjective form тукум куума оорулар). Model's own choices to confirm: айлампа (cycle), көчүрмө / көчүрүү (copy), чынжыр (DNA strand), праймер, полимераза, кыстарма (bookmark), орок клеткалуу анемия (sickle cell anaemia), козгогуч (pathogen), сүртмө (swab), калыстар тобу (jury), аталыкты аныктоо (paternity testing), дозалоочу робот. Names follow Russian transliteration (Кэри Муллис, Хар Гобинд Корана, Шелль Клеппе, Элис Чиэн, Жон Трела in ky). Turkish/Russian: 'Alice Chien' rendered Элис Чиэн — reviewer may prefer Чэнь/Чиен.",
+  "translations": {
+    "en": {
+      "title": "PCR: a machine for copying DNA",
+      "summary": "In 1983 Kary Mullis at Cetus in California thought of a way to copy one stretch of DNA again and again, doubling it each cycle. A team made it a tool almost every biology lab uses.",
+      "why_it_matters": "Before PCR, a gene usually had to be grown in bacteria before it could be studied. Afterwards a few molecules from a hair, a bone or a swab were enough, which is why PCR sits behind forensic DNA, genetic testing, ancient DNA and the standard COVID-19 test.",
+      "if_you_were_there": "You have a drop of blood and want to know whether one gene in it carries a mutation. There is far too little of that gene in the drop to detect, and getting more usually means weeks of work with bacteria.",
+      "place_name": "Emeryville",
+      "body": "### The scene\n\nBy the early 1980s biologists knew what DNA looked like and had learned to cut it, join it and put it into bacteria. But one problem sat underneath almost everything they wanted to do: there was never enough of it. A single gene is a tiny stretch inside billions of DNA letters, and a drop of blood or a hair holds far too little of it to detect directly. To study a gene, a laboratory usually had to grow it in bacteria for days or weeks.\n\nOne company that lived on DNA was Cetus Corporation in Emeryville, California, an early biotechnology firm. Among other things it made short synthetic strands of DNA for researchers. The chemist Kary Mullis ran its DNA synthesis laboratory.\n\nThe basic parts of an answer were already known. Cells copy their DNA with an enzyme, DNA polymerase, which needs a short starting strand, a primer, to begin from. In 1971 Kjell Kleppe and colleagues in the laboratory of Har Gobind Khorana at the University of Wisconsin described copying a short piece of DNA with a primer and polymerase, and proposed that two primers and repeated rounds could multiply it; they did not show results for that. Khorana, born in British India in what is now Pakistan, had shared the 1968 Nobel Prize in Physiology or Medicine for work on reading the genetic code. The proposal drew little attention at the time.\n\n### What happened\n\nIn 1983, by his own account, Mullis was driving at night from the Bay Area to his cabin in Mendocino County when the idea came together. He told the story himself, in a 1990 article in Scientific American and in his Nobel lecture; there is no other witness to the moment, so it is his memory, not a record.\n\nThe idea was simple to say. Take two primers, one for each strand of the DNA, placed so that they face each other across the stretch you want. Heat the DNA so its two strands come apart. Cool it, and the primers stick to their places. Let the polymerase build a new strand from each primer. Now there are two copies where there was one. Repeat, and there are four, then eight. Each new copy can be copied in the next round, so the number doubles every cycle.\n\n![The three steps of one PCR cycle: the DNA strands are separated by heat, primers attach, and the polymerase extends them. Every cycle doubles the target stretch.](https://upload.wikimedia.org/wikipedia/commons/9/96/Polymerase_chain_reaction.svg \"Enzoklop · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction.svg\")\n\nDoubling is what makes it powerful. Under ideal conditions, thirty cycles turn one piece of DNA into about a billion copies, enough to see and to read.\n\n> [!THEORY]\n> Why doubling grows so fast: after $n$ cycles one starting molecule can become $2^n$ copies, where $n$ is the number of cycles. Ten cycles give about a thousand, twenty about a million, thirty about a billion. In a real tube the reaction is never perfect and slows down as its ingredients run out.\n\nAn analogy: imagine a library with millions of books, where you want just one sentence. You put one bookmark where the sentence starts and one where it ends, and you have a copier that copies only what lies between the bookmarks. Every copy can itself be copied, so after a short time the room is full of that one sentence. The analogy breaks in one important way: a copier copies a page at once, but the polymerase builds each new strand letter by letter and sometimes puts in the wrong letter.\n\n### Why it was hard\n\nAn idea is not a method. By his own account Mullis saw a first positive result on 16 December 1983, but colleagues were not convinced: they questioned his controls and whether the result would repeat. A clear signal came only in November 1984. Cetus put more people on it. Stephen Scharf, Fred Faloona and Randall Saiki produced the replicable data that convinced the company, working with Henry Erlich and Norman Arnheim; Mullis's manager Thomas White moved him onto the project full time. Mullis presented a poster at a Cetus scientific meeting in June 1984, and the company filed its patent in March 1985.\n\nThe first paper using the method was not Mullis's. In December 1985 Saiki and colleagues, Mullis among them, described in Science how PCR could help diagnose sickle cell anaemia from a person's DNA. The detailed paper by Mullis and Faloona was turned down by Nature and appeared in 1987 in Methods in Enzymology.\n\nThe early reaction was also painfully slow to run. The polymerase the team used at first was destroyed by the heat that separated the strands, so fresh enzyme had to be added by hand after every cycle, and samples were moved between water baths at different temperatures. Shirley Kwok, who used PCR to study HIV, cycled samples by hand, work one account calls mind-numbingly tedious. A Cetus technician, Robert Watson, adapted a small in-house pipetting robot to do the cycling, an early step toward the machines now found in almost every biology laboratory.\n\nThe fix came from a hot spring. In 1966 Hudson Freeze, then an undergraduate working with the microbiologist Thomas Brock, sampled Mushroom Spring in Yellowstone National Park; in 1969 the two described a bacterium living there, *Thermus aquaticus*. In 1976 Alice Chien, a student at the University of Cincinnati, with David Edgar and John Trela, purified its DNA polymerase, an enzyme that survives near-boiling water. At Cetus, Susanne Stoffel and David Gelfand isolated this \"Taq\" polymerase for PCR, and Saiki and colleagues described the heat-resistant version in Science in 1988. Now the enzyme could stay in the tube for the whole run, and a machine only had to change the temperature.\n\n![An early PCR machine, the \"Gene Machine\" made by Innovonics, with three constant-temperature baths and a robotic mechanism that moves the samples between them.](https://upload.wikimedia.org/wikipedia/commons/2/2f/Primitive_PCR_machine_for_scrap.JPG \"Agesworth · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Primitive_PCR_machine_for_scrap.JPG\")\n\n> [!NOTE]\n> Who invented PCR is still argued over. Mullis had the idea of the two facing primers and the doubling chain reaction, and the 1993 Nobel Prize in Chemistry went to him, shared with Michael Smith, who was honoured for a different method. But the Khorana group had proposed repeated primer-based copying twelve years earlier, the Cetus team turned the idea into a method that worked, and the heat-resistant enzyme came from the work of Freeze and Brock, of Chien and her colleagues, and of Stoffel and Gelfand at Cetus. DuPont went to court against the Cetus patents, pointing to the Khorana group's papers; in 1991 a jury upheld the patents. Cetus paid Mullis a 10,000-dollar bonus, and in 1991 sold the rights to Roche for some 300 million dollars.\n\n### What it opened\n\nPCR became one of the basic tools of biology. It made it possible to read a gene from a single hair or a drop of blood, which changed criminal investigations and paternity testing. It lets doctors detect infections by finding a germ's genetic material directly, and test for inherited conditions. It made it possible to read DNA from ancient bones, and it fed the projects that read whole genomes. In 2020 the PCR test became an everyday word around the world, including in Kyrgyzstan, because the standard laboratory test for the COVID-19 virus amplified its genetic material this way.\n\nMullis himself became a controversial figure. Later in life he publicly questioned whether HIV causes AIDS and rejected the evidence for human-caused climate change, positions that scientists in those fields reject. The method does not depend on its inventor's opinions; it works the same in every laboratory that runs it.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "PCR: DNA'yı kopyalayan bir makine",
+      "summary": "1983'te Kaliforniya'daki Cetus'ta Kary Mullis, bir DNA parçasını her döngüde ikiye katlayarak tekrar tekrar kopyalamayı düşündü. Bir ekip bunu neredeyse her laboratuvarın aracı yaptı.",
+      "why_it_matters": "PCR'dan önce bir geni incelemek için onu genellikle önce bakterilerde çoğaltmak gerekiyordu. Sonra bir saç telinden, bir kemikten ya da bir sürüntüden birkaç molekül yetti; adli DNA, genetik testler, antik DNA ve standart COVID-19 testi bu yüzden PCR'a dayanır.",
+      "if_you_were_there": "Elinizde bir damla kan var ve içindeki bir genin mutasyon taşıyıp taşımadığını bilmek istiyorsunuz. Damlada o genden saptanamayacak kadar az var; daha fazlasını elde etmek genellikle bakterilerle haftalarca uğraşmak demek.",
+      "place_name": "Emeryville",
+      "body": "### Sahne\n\n1980'lerin başında biyologlar DNA'nın neye benzediğini biliyor, onu kesmeyi, eklemeyi ve bakterilere yerleştirmeyi öğrenmişlerdi. Ama yapmak istedikleri hemen her şeyin altında tek bir sorun yatıyordu: DNA hiçbir zaman yeterli değildi. Tek bir gen, milyarlarca DNA harfi içinde minicik bir parçadır ve bir damla kanda ya da bir saç telinde ondan, doğrudan saptanamayacak kadar az bulunur. Bir geni incelemek için laboratuvar onu genellikle günlerce, haftalarca bakterilerde çoğaltmak zorundaydı.\n\nDNA üzerine iş yapan şirketlerden biri, Kaliforniya'nın Emeryville kentindeki Cetus Corporation'dı; ilk biyoteknoloji şirketlerinden biri. Başka işlerin yanında araştırmacılar için kısa, yapay DNA zincirleri üretiyordu. Kimyager Kary Mullis şirketin DNA sentezi laboratuvarını yönetiyordu.\n\nCevabın temel parçaları zaten biliniyordu. Hücreler DNA'larını DNA polimeraz adlı bir enzimle kopyalar; bu enzimin başlayabilmesi için kısa bir başlangıç zincirine, primere ihtiyacı vardır. 1971'de Wisconsin Üniversitesi'nde Har Gobind Khorana'nın laboratuvarında Kjell Kleppe ve arkadaşları, kısa bir DNA parçasının bir primer ve polimerazla kopyalanmasını anlattılar ve iki primer ile tekrarlanan turların onu çoğaltabileceğini önerdiler; bunun için sonuç göstermediler. Bugünkü Pakistan topraklarında, Britanya Hindistanı'nda doğan Khorana, genetik kodun okunması üzerine çalışmalarıyla 1968 Nobel Fizyoloji veya Tıp Ödülü'nü paylaşmıştı. Öneri o zaman pek ilgi görmedi.\n\n### Ne oldu\n\n1983'te, kendi anlatımına göre, Mullis gece vakti Körfez Bölgesi'nden Mendocino County'deki kulübesine arabayla giderken fikir kafasında birleşti. Hikâyeyi kendisi anlattı: 1990'da Scientific American'daki bir yazıda ve Nobel konuşmasında. O ânın başka tanığı yok; yani bu bir kayıt değil, onun hatırası.\n\nFikri söylemek kolaydı. İki primer alın, DNA'nın her zinciri için bir tane, istediğiniz parçanın iki ucundan birbirine bakacak biçimde yerleştirilmiş. DNA'yı ısıtın, iki zinciri ayrılsın. Soğutun, primerler yerlerine yapışsın. Polimeraz her primerden yeni bir zincir örsün. Artık bir kopya yerine iki kopya var. Tekrarlayın: dört, sonra sekiz. Her yeni kopya bir sonraki turda kopyalanabildiği için sayı her döngüde ikiye katlanır.\n\n![Bir PCR döngüsünün üç adımı: DNA zincirleri ısıyla ayrılır, primerler tutunur ve polimeraz onları uzatır. Her döngü hedef parçayı ikiye katlar.](https://upload.wikimedia.org/wikipedia/commons/9/96/Polymerase_chain_reaction.svg \"Enzoklop · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction.svg\")\n\nGücü ikiye katlanmadan gelir. İdeal koşullarda otuz döngü, tek bir DNA parçasını yaklaşık bir milyar kopyaya çevirir; görülecek ve okunacak kadar.\n\n> [!THEORY]\n> İkiye katlanma neden bu kadar hızlı büyür: $n$ döngüden sonra tek bir başlangıç molekülü $2^n$ kopyaya dönüşebilir; burada $n$ döngü sayısıdır. On döngü yaklaşık bin, yirmi döngü yaklaşık bir milyon, otuz döngü yaklaşık bir milyar kopya verir. Gerçek bir tüpte tepkime hiçbir zaman kusursuz değildir ve malzemeler tükendikçe yavaşlar.\n\nBir benzetme: milyonlarca kitabı olan bir kütüphane düşünün ve siz yalnızca tek bir cümleyi istiyorsunuz. Cümlenin başladığı yere bir ayraç, bittiği yere bir ayraç koyuyorsunuz; elinizde de yalnızca iki ayraç arasını kopyalayan bir fotokopi makinesi var. Her kopya da kopyalanabildiği için kısa sürede oda o tek cümleyle dolar. Benzetme önemli bir yerde bozulur: fotokopi makinesi bir sayfayı tek seferde kopyalar, polimeraz ise her yeni zinciri harf harf örer ve bazen yanlış harf koyar.\n\n### Neden zordu\n\nFikir, yöntem demek değildir. Kendi anlatımına göre Mullis ilk olumlu sonucu 16 Aralık 1983'te gördü, ama meslektaşları ikna olmadı: kontrollerini ve sonucun tekrarlanıp tekrarlanmayacağını sorguladılar. Açık bir sinyal ancak Kasım 1984'te geldi. Cetus işe daha fazla insan koydu. Stephen Scharf, Fred Faloona ve Randall Saiki, Henry Erlich ve Norman Arnheim ile birlikte çalışarak şirketi ikna eden tekrarlanabilir verileri üretti; Mullis'in yöneticisi Thomas White onu tam zamanlı olarak projeye verdi. Mullis Haziran 1984'te bir Cetus bilim toplantısında poster sundu, şirket de Mart 1985'te patent başvurusu yaptı.\n\nYöntemi kullanan ilk makale Mullis'in değildi. Aralık 1985'te Saiki ve arkadaşları, aralarında Mullis de olmak üzere, Science dergisinde PCR'ın orak hücre anemisini bir insanın DNA'sından teşhis etmeye nasıl yardım edebileceğini anlattılar. Mullis ile Faloona'nın ayrıntılı makalesi Nature tarafından reddedildi ve 1987'de Methods in Enzymology'de çıktı.\n\nİlk tepkimeyi yürütmek de çok yavaştı. Ekibin başta kullandığı polimeraz, zincirleri ayıran ısıda bozuluyordu; bu yüzden her döngüden sonra elle taze enzim eklemek gerekiyordu ve örnekler farklı sıcaklıklardaki su banyoları arasında taşınıyordu. PCR'ı HIV'i incelemek için kullanan Shirley Kwok örnekleri elle döngüden geçiriyordu; bir anlatım bu işi akıl uyuşturacak kadar sıkıcı diye niteler. Cetus teknisyeni Robert Watson, şirketteki küçük bir pipetleme robotunu döngüleri yapacak biçimde uyarladı; bugün neredeyse her biyoloji laboratuvarında bulunan makinelere doğru erken bir adım.\n\nÇözüm bir sıcak su kaynağından geldi. 1966'da mikrobiyolog Thomas Brock ile çalışan lisans öğrencisi Hudson Freeze, Yellowstone Ulusal Parkı'ndaki Mushroom Spring'den örnek aldı; 1969'da ikisi orada yaşayan bir bakteriyi, *Thermus aquaticus*'u tanımladı. 1976'da Cincinnati Üniversitesi'nde öğrenci olan Alice Chien, David Edgar ve John Trela ile birlikte bu bakterinin DNA polimerazını saflaştırdı: kaynama noktasına yakın suda bile ayakta kalan bir enzim. Cetus'ta Susanne Stoffel ve David Gelfand bu \"Taq\" polimerazı PCR için ayırdı, Saiki ve arkadaşları da ısıya dayanıklı yöntemi 1988'de Science'ta anlattı. Artık enzim bütün süre boyunca tüpte kalabiliyordu; bir makinenin yalnızca sıcaklığı değiştirmesi yetiyordu.\n\n![Erken bir PCR makinesi: Innovonics yapımı \"Gene Machine\". Sabit sıcaklıkta üç banyosu ve örnekleri aralarında taşıyan robotik bir düzeneği var.](https://upload.wikimedia.org/wikipedia/commons/2/2f/Primitive_PCR_machine_for_scrap.JPG \"Agesworth · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Primitive_PCR_machine_for_scrap.JPG\")\n\n> [!NOTE]\n> PCR'ı kimin bulduğu hâlâ tartışılıyor. Birbirine bakan iki primer ve ikiye katlanan zincirleme tepkime fikri Mullis'indi; 1993 Nobel Kimya Ödülü de ona verildi, başka bir yöntem için ödüllendirilen Michael Smith ile paylaşılarak. Ama Khorana'nın grubu primerle tekrarlanan kopyalamayı on iki yıl önce önermişti, fikri çalışan bir yönteme Cetus ekibi çevirdi, ısıya dayanıklı enzim de Freeze ile Brock'un, Chien ile arkadaşlarının ve Cetus'ta Stoffel ile Gelfand'ın çalışmasından geldi. DuPont, Khorana grubunun makalelerini öne sürerek Cetus patentlerine karşı dava açtı; 1991'de bir jüri patentleri geçerli buldu. Cetus Mullis'e 10.000 dolar ikramiye verdi ve 1991'de hakları Roche'a yaklaşık 300 milyon dolara sattı.\n\n### Ne açtı\n\nPCR biyolojinin temel araçlarından biri oldu. Tek bir saç telinden ya da bir damla kandan bir geni okumayı mümkün kıldı; bu da cinayet soruşturmalarını ve babalık testlerini değiştirdi. Doktorların bir mikrobun genetik malzemesini doğrudan bularak enfeksiyonları saptamasını ve kalıtsal hastalıkları test etmesini sağlıyor. Antik kemiklerden DNA okumayı mümkün kıldı ve bütün genomları okuyan projeleri besledi. 2020'de PCR testi, Kırgızistan da dahil, bütün dünyada gündelik bir söz oldu; çünkü COVID-19 virüsü için standart laboratuvar testi virüsün genetik malzemesini bu yolla çoğaltıyordu.\n\nMullis'in kendisi tartışmalı bir figür oldu. Hayatının ilerleyen yıllarında HIV'in AIDS'e yol açıp açmadığını açıkça sorguladı ve iklim değişikliğinin insan kaynaklı olduğuna dair kanıtları reddetti; bu alanlardaki bilim insanları bu görüşleri kabul etmiyor. Yöntem mucidinin görüşlerine bağlı değil; onu çalıştıran her laboratuvarda aynı biçimde çalışıyor.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "ПЦР: машина для копирования ДНК",
+      "summary": "В 1983 году Кэри Муллис в калифорнийской Cetus придумал, как копировать один участок ДНК снова и снова, удваивая его в каждом цикле. Команда сделала из идеи инструмент почти любой лаборатории.",
+      "why_it_matters": "До ПЦР ген обычно приходилось сначала размножить в бактериях, чтобы его изучить. После хватало нескольких молекул из волоса, кости или мазка — поэтому на ПЦР держатся криминалистика ДНК, генетические тесты, древняя ДНК и стандартный тест на COVID-19.",
+      "if_you_were_there": "У вас капля крови, и вы хотите узнать, есть ли мутация в одном гене. Этого гена в капле слишком мало, чтобы его обнаружить, а чтобы получить больше, обычно нужны недели работы с бактериями.",
+      "place_name": "Эмеривилл",
+      "body": "### Обстановка\n\nК началу 1980-х биологи знали, как выглядит ДНК, и научились её резать, сшивать и вводить в бактерии. Но почти под всем, что они хотели сделать, лежала одна проблема: ДНК всегда было мало. Отдельный ген — крошечный участок среди миллиардов «букв» ДНК, и в капле крови или в волосе его слишком мало, чтобы обнаружить напрямую. Чтобы изучить ген, лаборатории обычно приходилось днями и неделями размножать его в бактериях.\n\nОдной из компаний, которые жили работой с ДНК, была Cetus Corporation в Эмеривилле, Калифорния, — одна из первых биотехнологических фирм. Среди прочего она делала для исследователей короткие синтетические цепочки ДНК. Лабораторией синтеза ДНК там руководил химик Кэри Муллис.\n\nОсновные детали ответа уже были известны. Клетки копируют свою ДНК ферментом — ДНК-полимеразой, которой для начала работы нужна короткая стартовая цепочка, праймер. В 1971 году Шелль Клеппе и коллеги в лаборатории Хара Гобинда Кораны в Висконсинском университете описали копирование короткого участка ДНК с помощью праймера и полимеразы и предположили, что два праймера и повторяющиеся циклы могли бы его размножить; результатов для этого они не показали. Корана, родившийся в Британской Индии, на территории нынешнего Пакистана, разделил Нобелевскую премию по физиологии или медицине 1968 года за работы по расшифровке генетического кода. Предложение тогда почти не заметили.\n\n### Что произошло\n\nВ 1983 году, по его собственному рассказу, Муллис ночью ехал на машине из района залива Сан-Франциско в свой домик в округе Мендосино, когда идея сложилась целиком. Эту историю он рассказал сам — в статье в Scientific American в 1990 году и в нобелевской лекции. Других свидетелей этого момента нет, так что это его воспоминание, а не документ.\n\nСаму идею легко пересказать. Возьмите два праймера, по одному на каждую цепь ДНК, и расположите их так, чтобы они смотрели друг на друга с двух концов нужного участка. Нагрейте ДНК, чтобы её цепи разошлись. Охладите — и праймеры сядут на свои места. Пусть полимераза достроит от каждого праймера новую цепь. Теперь вместо одной копии две. Повторите — будет четыре, потом восемь. Каждую новую копию можно скопировать в следующем цикле, поэтому число копий удваивается с каждым циклом.\n\n![Три шага одного цикла ПЦР: цепи ДНК разделяются нагревом, праймеры присоединяются, полимераза их удлиняет. Каждый цикл удваивает нужный участок.](https://upload.wikimedia.org/wikipedia/commons/9/96/Polymerase_chain_reaction.svg \"Enzoklop · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction.svg\")\n\nСила метода — в удвоении. В идеальных условиях тридцать циклов превращают один фрагмент ДНК примерно в миллиард копий — этого достаточно, чтобы его увидеть и прочитать.\n\n> [!THEORY]\n> Почему удвоение растёт так быстро: после $n$ циклов одна исходная молекула может превратиться в $2^n$ копий, где $n$ — число циклов. Десять циклов дают около тысячи, двадцать — около миллиона, тридцать — около миллиарда. В настоящей пробирке реакция никогда не идёт идеально и замедляется, когда кончаются компоненты.\n\nСравнение: представьте библиотеку с миллионами книг, а вам нужна всего одна фраза. Вы кладёте одну закладку туда, где фраза начинается, и другую — где она кончается, а копировальный аппарат копирует только то, что лежит между закладками. Каждую копию тоже можно скопировать, и скоро вся комната заполнена этой одной фразой. Сравнение хромает в одном важном месте: копир копирует страницу целиком за раз, а полимераза строит каждую новую цепь буква за буквой и иногда вставляет не ту букву.\n\n### Почему это было трудно\n\nИдея — ещё не метод. По собственному рассказу Муллиса, первый положительный результат он увидел 16 декабря 1983 года, но коллег это не убедило: они сомневались в его контрольных опытах и в том, что результат повторится. Ясный сигнал появился только в ноябре 1984 года. Cetus подключила к работе больше людей. Стивен Шарф, Фред Фалуна и Рэндалл Сайки вместе с Генри Эрлихом и Норманом Арнхеймом получили воспроизводимые данные, которые убедили компанию; руководитель Муллиса Томас Уайт перевёл его на этот проект полностью. В июне 1984 года Муллис представил постер на научной встрече Cetus, а в марте 1985 года компания подала заявку на патент.\n\nПервая статья с использованием метода была не муллисовской. В декабре 1985 года Сайки и коллеги, среди которых был и Муллис, описали в журнале Science, как ПЦР помогает диагностировать серповидноклеточную анемию по ДНК человека. Подробную статью Муллиса и Фалуны отклонил Nature, и она вышла в 1987 году в Methods in Enzymology.\n\nК тому же ранняя реакция шла мучительно медленно. Полимераза, которой команда пользовалась вначале, разрушалась от нагрева, разделявшего цепи, поэтому после каждого цикла свежий фермент приходилось добавлять вручную, а пробы переносили между водяными банями с разной температурой. Ширли Квок, применявшая ПЦР для изучения ВИЧ, прогоняла пробы через циклы вручную; в одном рассказе эта работа названа отупляюще скучной. Техник Cetus Роберт Уотсон приспособил небольшого лабораторного робота-дозатора для смены циклов — ранний шаг к приборам, которые теперь стоят почти в каждой биологической лаборатории.\n\nРешение пришло из горячего источника. В 1966 году Хадсон Фриз, тогда студент, работавший с микробиологом Томасом Броком, взял пробу в источнике Mushroom Spring в Йеллоустонском национальном парке; в 1969 году они вдвоём описали живущую там бактерию *Thermus aquaticus*. В 1976 году Элис Чиэн, студентка Университета Цинциннати, вместе с Дэвидом Эдгаром и Джоном Трелой выделила в чистом виде её ДНК-полимеразу — фермент, который выдерживает почти кипящую воду. В Cetus Сюзанна Штоффель и Дэвид Гелфанд выделили эту «Taq»-полимеразу для ПЦР, а Сайки и коллеги описали термостойкий вариант метода в Science в 1988 году. Теперь фермент мог оставаться в пробирке на всё время реакции, а прибору оставалось только менять температуру.\n\n![Ранний прибор для ПЦР — «Gene Machine» фирмы Innovonics: три бани с постоянной температурой и роботизированный механизм, переносящий пробы между ними.](https://upload.wikimedia.org/wikipedia/commons/2/2f/Primitive_PCR_machine_for_scrap.JPG \"Agesworth · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Primitive_PCR_machine_for_scrap.JPG\")\n\n> [!NOTE]\n> Кто изобрёл ПЦР, спорят до сих пор. Идея двух встречных праймеров и удваивающейся цепной реакции принадлежала Муллису, и Нобелевская премия по химии 1993 года досталась ему — вместе с Майклом Смитом, которого наградили за другой метод. Но группа Кораны предложила повторное копирование с праймерами на двенадцать лет раньше, рабочим методом идею сделала команда Cetus, а термостойкий фермент появился благодаря работе Фриза и Брока, Чиэн и её коллег, Штоффель и Гелфанда в Cetus. Компания DuPont оспорила патенты Cetus в суде, ссылаясь на статьи группы Кораны; в 1991 году присяжные признали патенты действительными. Cetus выплатила Муллису премию в 10 000 долларов, а в 1991 году продала права компании Roche примерно за 300 миллионов долларов.\n\n### Что это открыло\n\nПЦР стала одним из базовых инструментов биологии. Она позволила прочитать ген по одному волосу или капле крови, и это изменило уголовные расследования и установление отцовства. Она позволяет врачам находить инфекции, напрямую обнаруживая генетический материал возбудителя, и проверять наследственные болезни. Она позволила читать ДНК из древних костей и питала проекты, читавшие целые геномы. В 2020 году «ПЦР-тест» стал обиходным словом во всём мире, в том числе в Кыргызстане, потому что стандартный лабораторный тест на вирус COVID-19 размножал его генетический материал именно так.\n\nСам Муллис стал противоречивой фигурой. В поздние годы он публично сомневался, что ВИЧ вызывает СПИД, и отвергал доказательства того, что изменение климата вызвано человеком; учёные в этих областях эти взгляды отвергают. Метод не зависит от взглядов своего изобретателя: он одинаково работает в каждой лаборатории, где его запускают.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "ПЦР: ДНКны көчүргөн машина",
+      "summary": "1983-жылы Калифорниядагы Cetus компаниясында Кэри Муллис ДНКнын бир бөлүгүн ар бир айлампада эки эсе көбөйтүп көчүрүүнү ойлоп тапкан. Команда аны дээрлик ар бир лабораториянын куралы кылды.",
+      "why_it_matters": "ПЦРге чейин генди изилдөө үчүн аны көбүнчө адегенде бактерияларда көбөйтүү керек болчу. Андан кийин бир тал чачтан, сөөктөн же сүртмөдөн алынган бир нече молекула жетиштүү болуп калды. Ошондуктан криминалистикалык ДНК, генетикалык тесттер, байыркы ДНК жана стандарттуу COVID-19 тести ПЦРге таянат.",
+      "if_you_were_there": "Колуңузда бир тамчы кан бар жана андагы бир гендин мутациясы бар-жогун билгиңиз келет. Тамчыда ал ген аныктоого мүмкүн болбогондой аз, ал эми көбүрөөк алуу үчүн көбүнчө бактериялар менен бир нече жума иштөө керек.",
+      "place_name": "Эмеривилл",
+      "body": "### Көрүнүш\n\n1980-жылдардын башында биологдор ДНК кандай көрүнөрүн билишчү жана аны кесүүнү, улоону, бактерияларга салууну үйрөнүшкөн. Бирок алар кылгысы келген дээрлик бардык иштин түбүндө бир көйгөй жаткан: ДНК эч качан жетишчү эмес. Бир ген — ДНКнын миллиарддаган «тамгаларынын» арасындагы кичинекей гана бөлүк. Бир тамчы канда же бир тал чачта ал түз эле аныктоого мүмкүн болбогондой аз болот. Бир генди изилдөө үчүн лаборатория аны көбүнчө бир нече күн же жума бою бактерияларда көбөйтүүгө аргасыз болчу.\n\nДНК менен иштеген компаниялардын бири Калифорниянын Эмеривилл шаарындагы Cetus Corporation болгон — алгачкы биотехнология фирмаларынын бири. Ал башка иштер менен катар изилдөөчүлөр үчүн кыска жасалма ДНК чынжырларын чыгарчу. Анын ДНК синтези лабораториясын химик Кэри Муллис жетектеген.\n\nЖооптун негизги бөлүктөрү мурдатан эле белгилүү болчу. Клеткалар өз ДНКсын ДНК-полимераза деген фермент менен көчүрөт. Бул фермент иштей баштоо үчүн кыска баштапкы чынжырга — праймерге муктаж. 1971-жылы Висконсин университетинде Хар Гобинд Корананын лабораториясында Шелль Клеппе жана анын кесиптештери кыска ДНК бөлүгүн праймер жана полимераза менен көчүрүүнү сүрөттөшкөн. Алар эки праймер жана кайталанган айлампалар аны көбөйтө алат деп сунушташкан, бирок буга жыйынтык көрсөтүшкөн эмес. Британ Индиясында, азыркы Пакистандын аймагында төрөлгөн Корана генетикалык кодду окуу боюнча иштери үчүн 1968-жылкы физиология же медицина боюнча Нобель сыйлыгын бөлүшкөн. Ал кезде бул сунушка анча көңүл бурулган эмес.\n\n### Эмне болду\n\n1983-жылы, өзүнүн айтуусу боюнча, Муллис түнкүсүн Сан-Франциско булуңунун аймагынан Мендосино округундагы үйчөсүнө машина менен баратканда идея анын башында толук түзүлгөн. Бул окуяны ал өзү айтып берген: 1990-жылы Scientific American журналындагы макаласында жана Нобель лекциясында. Ал учурдун башка күбөсү жок, андыктан бул документ эмес, анын эскерүүсү.\n\nИдеяны айтуу оңой. Эки праймер алыңыз: ДНКнын ар бир чынжыры үчүн бирден, керектүү бөлүктүн эки четинен бири-бирин карап тургандай кылып. ДНКны ысытыңыз — анын эки чынжыры ажырайт. Муздатыңыз — праймерлер өз ордуна жабышат. Полимераза ар бир праймерден жаңы чынжыр курсун. Эми бир көчүрмөнүн ордуна экөө бар. Кайталаңыз — төртөө, андан кийин сегизөө болот. Ар бир жаңы көчүрмө кийинки айлампада өзү да көчүрүлө алгандыктан, алардын саны ар бир айлампада эки эсе көбөйөт.\n\n![ПЦРдин бир айлампасынын үч кадамы: ДНК чынжырлары ысык менен ажырайт, праймерлер жабышат, полимераза аларды узартат. Ар бир айлампа керектүү бөлүктү эки эсе көбөйтөт.](https://upload.wikimedia.org/wikipedia/commons/9/96/Polymerase_chain_reaction.svg \"Enzoklop · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction.svg\")\n\nЫкманын күчү — эки эсе көбөйүүдө. Идеалдуу шарттарда отуз айлампа бир ДНК бөлүгүн болжол менен бир миллиард көчүрмөгө айлантат — аны көрүүгө жана окууга жетиштүү.\n\n> [!THEORY]\n> Эки эсе көбөйүү эмне үчүн мынчалык тез өсөт: $n$ айлампадан кийин бир баштапкы молекула $2^n$ көчүрмөгө айлана алат, мында $n$ — айлампалардын саны. Он айлампа болжол менен миң, жыйырма айлампа болжол менен миллион, отуз айлампа болжол менен миллиард көчүрмө берет. Чыныгы пробиркада реакция эч качан кемчиликсиз жүрбөйт жана анын компоненттери түгөнгөн сайын жайлайт.\n\nСалыштыруу: миллиондогон китеби бар китепкананы элестетиңиз, ал эми сизге бир гана сүйлөм керек. Сүйлөм башталган жерге бир кыстарма, бүткөн жерге экинчи кыстарма коёсуз. Колуңузда эки кыстарманын ортосундагыны гана көчүргөн көчүрүүчү аппарат бар. Ар бир көчүрмөнү да көчүрүүгө болгондуктан, бир аздан кийин бөлмө ошол бир сүйлөм менен толот. Салыштыруу бир маанилүү жерде бузулат: көчүрүүчү аппарат баракты бир заматта көчүрөт, ал эми полимераза ар бир жаңы чынжырды тамгама-тамга курат жана кээде туура эмес тамганы коюп алат.\n\n### Эмне үчүн кыйын болду\n\nИдея — али ыкма эмес. Муллистин өзүнүн айтуусу боюнча, ал биринчи оң жыйынтыкты 1983-жылдын 16-декабрында көргөн, бирок кесиптештери ынанган жок: алар анын текшерүү тажрыйбаларына жана жыйынтык кайталанарына шек санашкан. Ачык белги 1984-жылдын ноябрында гана пайда болгон. Cetus бул ишке көбүрөөк адам койгон. Стивен Шарф, Фред Фалуна жана Рэндалл Сайки Генри Эрлих жана Норман Арнхейм менен бирге иштеп, компанияны ынандырган кайталануучу маалыматтарды алышкан. Муллистин жетекчиси Томас Уайт аны толугу менен ушул долбоорго которгон. 1984-жылдын июнунда Муллис Cetus илимий жыйынында постер көрсөткөн, ал эми 1985-жылдын мартында компания патентке арыз берген.\n\nЫкманы колдонгон биринчи макала Муллистики болгон эмес. 1985-жылдын декабрында Сайки жана кесиптештери, алардын арасында Муллис да бар, Science журналында ПЦР адамдын ДНКсы боюнча орок клеткалуу анемияны аныктоого кантип жардам берерин сүрөттөшкөн. Муллис менен Фалунанын толук макаласын Nature журналы кабыл алган эмес, ал 1987-жылы Methods in Enzymology басылмасында чыккан.\n\nМындан тышкары, алгачкы реакцияны жүргүзүү өтө жай болчу. Команда башында колдонгон полимераза чынжырларды ажыраткан ысыктан бузулчу. Ошондуктан ар бир айлампадан кийин жаңы ферментти кол менен кошууга туура келчү, ал эми үлгүлөрдү ар кандай температурадагы суу ванналарынын ортосунда которуп турушчу. ПЦРди ВИЧти изилдөө үчүн колдонгон Ширли Квок үлгүлөрдү айлампалардан кол менен өткөргөн; бир баяндоодо бул иш акылды талыткан тажатма жумуш деп аталат. Cetus компаниясынын техниги Роберт Уотсон айлампаларды алмаштыруу үчүн кичинекей лабораториялык дозалоочу роботту ылайыкташтырган. Бул азыр дээрлик ар бир биология лабораториясында турган аппараттарды көздөй жасалган алгачкы кадам болгон.\n\nЧечим ысык булактан келген. 1966-жылы микробиолог Томас Брок менен иштеген студент Хадсон Фриз Йеллоустон улуттук паркындагы Mushroom Spring булагынан үлгү алган. 1969-жылы экөө ошол жерде жашаган *Thermus aquaticus* бактериясын сүрөттөшкөн. 1976-жылы Цинциннати университетинин студенти Элис Чиэн Дэвид Эдгар жана Жон Трела менен бирге анын ДНК-полимеразасын таза түрүндө бөлүп алган — кайнап турган сууга жакын ысыкка да чыдаган фермент. Cetus компаниясында Сюзанна Штоффель жана Дэвид Гелфанд бул «Taq» полимеразасын ПЦР үчүн бөлүп алышкан, ал эми Сайки жана кесиптештери ысыкка чыдамдуу вариантты 1988-жылы Science журналында сүрөттөшкөн. Эми фермент реакциянын бүт убактысында пробиркада кала алчу, ал эми аппаратка температураны гана өзгөртүү калган.\n\n![Алгачкы ПЦР аппараттарынын бири — Innovonics фирмасынын «Gene Machine» аппараты: туруктуу температурадагы үч ванна жана үлгүлөрдү алардын ортосунда которгон роботтук механизм.](https://upload.wikimedia.org/wikipedia/commons/2/2f/Primitive_PCR_machine_for_scrap.JPG \"Agesworth · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Primitive_PCR_machine_for_scrap.JPG\")\n\n> [!NOTE]\n> ПЦРди ким ойлоп тапкандыгы тууралуу талаш азыр да уланууда. Бири-бирин караган эки праймер жана эки эсе көбөйгөн чынжыр реакциясы идеясы Муллиске таандык болгон. 1993-жылкы химия боюнча Нобель сыйлыгы да ага берилген — башка ыкма үчүн сыйланган Майкл Смит менен бөлүшүлүп. Бирок Корананын тобу праймер менен кайталанып көчүрүүнү он эки жыл мурда сунуштаган. Идеяны иштеген ыкмага Cetus командасы айландырган. Ысыкка чыдамдуу фермент болсо Фриз менен Броктун, Чиэн менен анын кесиптештеринин, ошондой эле Cetus компаниясындагы Штоффель менен Гелфанддын эмгеги аркылуу келген. DuPont компаниясы Корананын тобунун макалаларына таянып, Cetus патенттерине каршы сотко кайрылган. 1991-жылы калыстар тобу патенттерди жарактуу деп тапкан. Cetus Муллиске 10 000 доллар сыйакы төлөгөн, ал эми 1991-жылы укуктарды Roche компаниясына болжол менен 300 миллион долларга саткан.\n\n### Эмнеге жол ачты\n\nПЦР биологиянын негизги куралдарынын бирине айланган. Ал бир тал чачтан же бир тамчы кандан генди окууга мүмкүндүк берип, кылмыштарды тергөөнү жана аталыкты аныктоону өзгөрткөн. Ал дарыгерлерге оорунун козгогучунун генетикалык материалын түз табуу аркылуу инфекцияларды аныктоого жана тукум куума ооруларды текшерүүгө жардам берет. Ал байыркы сөөктөрдөн ДНКны окууга шарт түзгөн жана толук геномдорду окуган долбоорлорго негиз болгон. 2020-жылы «ПЦР-тест» бүт дүйнөдө, анын ичинде Кыргызстанда да, күнүмдүк сөзгө айланган, анткени COVID-19 вирусуна карата стандарттуу лабораториялык тест анын генетикалык материалын дал ушул жол менен көбөйтчү.\n\nМуллистин өзү талаштуу инсан болуп калган. Өмүрүнүн кийинки жылдарында ал ВИЧ СПИДди козгойт дегенге ачык шек келтирген жана климаттын өзгөрүшү адамдан улам болуп жатканы тууралуу далилдерди четке каккан. Бул тармактардагы окумуштуулар мындай көз караштарды кабыл алышпайт. Ыкма аны ойлоп тапкан адамдын көз караштарынан көз каранды эмес: ал аны колдонгон ар бир лабораторияда бирдей иштейт.",
+      "status": "machine"
+    }
+  }
+}
