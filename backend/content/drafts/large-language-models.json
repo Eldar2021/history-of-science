@@ -1,0 +1,413 @@
+{
+  "slug": "large-language-models",
+  "year": 2022,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 37.7749,
+  "lng": -122.4194,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png",
+    "credit": "Yuening Jia",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The-Transformer-model-architecture.png"
+  },
+  "disciplines": [
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "long-ouyang",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Long Ouyang",
+        "tr": "Long Ouyang",
+        "ru": "Лонг Оуян",
+        "ky": "Лонг Оуян"
+      }
+    },
+    {
+      "slug": "ashish-vaswani",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Ashish Vaswani",
+        "tr": "Ashish Vaswani",
+        "ru": "Ашиш Васвани",
+        "ky": "Ашиш Васвани"
+      }
+    },
+    {
+      "slug": "niki-parmar",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Niki Parmar",
+        "tr": "Niki Parmar",
+        "ru": "Ники Пармар",
+        "ky": "Ники Пармар"
+      }
+    },
+    {
+      "slug": "noam-shazeer",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Noam Shazeer",
+        "tr": "Noam Shazeer",
+        "ru": "Ноам Шазир",
+        "ky": "Ноам Шазир"
+      }
+    },
+    {
+      "slug": "tom-b-brown",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Tom B. Brown",
+        "tr": "Tom B. Brown",
+        "ru": "Том Браун",
+        "ky": "Том Браун"
+      }
+    },
+    {
+      "slug": "andrey-markov",
+      "birth_year": 1856,
+      "death_year": 1922,
+      "role": "predecessor",
+      "name": {
+        "en": "Andrey Markov",
+        "tr": "Andrey Markov",
+        "ru": "Андрей Марков",
+        "ky": "Андрей Марков"
+      }
+    },
+    {
+      "slug": "claude-shannon",
+      "birth_year": 1916,
+      "death_year": 2001,
+      "role": "predecessor",
+      "name": {
+        "en": "Claude Shannon",
+        "tr": "Claude Shannon",
+        "ru": "Клод Шеннон",
+        "ky": "Клод Шеннон"
+      }
+    },
+    {
+      "slug": "joseph-weizenbaum",
+      "birth_year": 1923,
+      "death_year": 2008,
+      "role": "predecessor",
+      "name": {
+        "en": "Joseph Weizenbaum",
+        "tr": "Joseph Weizenbaum",
+        "ru": "Джозеф Вейценбаум",
+        "ky": "Джозеф Вейценбаум"
+      }
+    },
+    {
+      "slug": "yoshua-bengio",
+      "birth_year": 1964,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Yoshua Bengio",
+        "tr": "Yoshua Bengio",
+        "ru": "Йошуа Бенжио",
+        "ky": "Йошуа Бенжио"
+      }
+    },
+    {
+      "slug": "dzmitry-bahdanau",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Dzmitry Bahdanau",
+        "tr": "Dzmitry Bahdanau",
+        "ru": "Дмитрий Богданов",
+        "ky": "Дмитрий Богданов"
+      }
+    },
+    {
+      "slug": "tomas-mikolov",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Tomáš Mikolov",
+        "tr": "Tomáš Mikolov",
+        "ru": "Томаш Миколов",
+        "ky": "Томаш Миколов"
+      }
+    },
+    {
+      "slug": "fei-fei-li",
+      "birth_year": 1976,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Fei-Fei Li",
+        "tr": "Fei-Fei Li",
+        "ru": "Фэй-Фэй Ли",
+        "ky": "Фэй-Фэй Ли"
+      }
+    },
+    {
+      "slug": "geoffrey-hinton",
+      "birth_year": 1947,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Geoffrey Hinton",
+        "tr": "Geoffrey Hinton",
+        "ru": "Джеффри Хинтон",
+        "ky": "Джеффри Хинтон"
+      }
+    },
+    {
+      "slug": "alex-krizhevsky",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Alex Krizhevsky",
+        "tr": "Alex Krizhevsky",
+        "ru": "Алекс Крижевский",
+        "ky": "Алекс Крижевский"
+      }
+    },
+    {
+      "slug": "kyunghyun-cho",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Kyunghyun Cho",
+        "tr": "Kyunghyun Cho",
+        "ru": "Кёнхён Чо",
+        "ky": "Кёнхён Чо"
+      }
+    },
+    {
+      "slug": "paul-christiano",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Paul Christiano",
+        "tr": "Paul Christiano",
+        "ru": "Пол Кристиано",
+        "ky": "Пол Кристиано"
+      }
+    },
+    {
+      "slug": "angelina-mcmillan-major",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Angelina McMillan-Major",
+        "tr": "Angelina McMillan-Major",
+        "ru": "Анджелина Макмиллан-Мейджор",
+        "ky": "Анджелина Макмиллан-Мейджор"
+      }
+    },
+    {
+      "slug": "ilya-sutskever",
+      "birth_year": null,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Ilya Sutskever",
+        "tr": "Ilya Sutskever",
+        "ru": "Илья Суцкевер",
+        "ky": "Илья Суцкевер"
+      }
+    },
+    {
+      "slug": "emily-m-bender",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Emily M. Bender",
+        "tr": "Emily M. Bender",
+        "ru": "Эмили Бендер",
+        "ky": "Эмили Бендер"
+      }
+    },
+    {
+      "slug": "timnit-gebru",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Timnit Gebru",
+        "tr": "Timnit Gebru",
+        "ru": "Тимнит Гебру",
+        "ky": "Тимнит Гебру"
+      }
+    },
+    {
+      "slug": "margaret-mitchell",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Margaret Mitchell",
+        "tr": "Margaret Mitchell",
+        "ru": "Маргарет Митчелл",
+        "ky": "Маргарет Митчелл"
+      }
+    }
+  ],
+  "builds_on": [
+    "shannon-information-theory",
+    "turing-computability",
+    "world-wide-web",
+    "microprocessor"
+  ],
+  "sources": [
+    {
+      "title": "Large language model — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "title": "ChatGPT — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT"
+    },
+    {
+      "title": "ELIZA — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/ELIZA"
+    },
+    {
+      "title": "Andrey Markov — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Andrey_Markov"
+    },
+    {
+      "title": "Stochastic parrot — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stochastic_parrot"
+    },
+    {
+      "title": "ImageNet — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/ImageNet"
+    },
+    {
+      "title": "Vaswani et al., \"Attention Is All You Need\", arXiv:1706.03762 (2017)",
+      "kind": "article",
+      "url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "title": "Brown et al., \"Language Models are Few-Shot Learners\", arXiv:2005.14165 (2020)",
+      "kind": "article",
+      "url": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+      "title": "Ouyang et al., \"Training language models to follow instructions with human feedback\", arXiv:2203.02155 (2022)",
+      "kind": "article",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "title": "Bengio, Ducharme, Vincent, Jauvin, \"A Neural Probabilistic Language Model\", JMLR 3 (2003)",
+      "kind": "article",
+      "url": "https://www.jmlr.org/papers/v3/bengio03a.html"
+    },
+    {
+      "title": "Shannon, \"Prediction and Entropy of Printed English\", Bell System Technical Journal 30 (1951)",
+      "kind": "article",
+      "url": "https://www.nokia.com/bell-labs/publications-and-media/publications/prediction-and-entropy-of-printed-english/"
+    },
+    {
+      "title": "Petrov, La Malfa, Torr, Bibi, \"Language Model Tokenizers Introduce Unfairness Between Languages\", NeurIPS 2023",
+      "kind": "article",
+      "url": "https://arxiv.org/abs/2305.15425"
+    },
+    {
+      "title": "\"Introducing ChatGPT\" — OpenAI (30 November 2022)",
+      "kind": "other",
+      "url": "https://openai.com/index/chatgpt/"
+    },
+    {
+      "title": "\"ChatGPT sets record for fastest-growing user base - analyst note\" — Reuters via Inquirer (2 February 2023)",
+      "kind": "other",
+      "url": "https://business.inquirer.net/384799/chatgpt-sets-record-for-fastest-growing-user-base-analyst-note"
+    },
+    {
+      "title": "\"ChatGPT sets record for fastest-growing user base\" — Reuters via GNA (February 2023)",
+      "kind": "other",
+      "url": "https://gna.org.gh/2023/02/chatgpt-sets-record-for-fastest-growing-user-base/"
+    },
+    {
+      "title": "Hayes, \"First Links in the Markov Chain\", American Scientist (2013)",
+      "kind": "article",
+      "url": "https://www.americanscientist.org/article/first-links-in-the-markov-chain"
+    },
+    {
+      "title": "Algorithm — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Algorithm"
+    },
+    {
+      "title": "ChatGPT — Encyclopaedia Britannica (for the human reviewer)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/technology/ChatGPT"
+    }
+  ],
+  "research_note": "Researched 2026-11-12 against English Wikipedia (Large language model; ChatGPT; ELIZA; Andrey Markov; Stochastic parrot; ImageNet; Algorithm), arXiv abstracts (Vaswani et al. 2017: eight authors, 3.5 days on eight GPUs; Brown et al. 2020: 175B parameters, 31 authors, few-shot; Ouyang et al. 2022: 1.3B InstructGPT preferred over 175B GPT-3), JMLR (Bengio et al. 2003), Shannon 1951 BSTJ abstract, Petrov et al. NeurIPS 2023 (up to 15x token-length differences), Reuters on the UBS note (copies via Inquirer and GNA). openai.com and Britannica return 403: the \"sibling model to InstructGPT\" / \"same methods as InstructGPT\" / GPT-3.5 wording of OpenAI's 30 Nov 2022 announcement was confirmed only via search-result copies; Britannica (ChatGPT) linked for the human only.\nYEAR: 2022, exact (ChatGPT released 30 November 2022). Place: OpenAI, San Francisco (city precision).\nFACT-CHECKER (fixed in all four languages): Shannon did not \"open\" the 1948 paper with English (now \"in the paper ... described\"); \"Algoritmi\" etymology corrected to \"Dixit Algoritmi\" = \"thus spoke al-Khwarizmi\", Algoritmi being the Latin form of his name; Gebru's departure now gives both versions (Google: resignation accepted; Gebru: fired); UBS figure now \"outside estimate, not published by OpenAI\" and \"fastest-growing ... at the time\" (Threads passed it in 2023); Markov \"first application to real data\"; RLHF origin credited to Christiano et al. 2017 (OpenAI + DeepMind) before Ouyang 2022; ImageNet now credits Princeton colleagues and paid online labellers; GPT training data now \"ever larger collections of books and web pages\" (GPT-1 was books only); word2vec phrasing corrected (Bengio 2003 already learned word similarity); \"eight researchers working at Google\" (per the fact-checker, Gomez was at the University of Toronto and Polosukhin had left Google; from memory, reviewer may check the paper footnote); \"useless without the other two\" softened; Nobel chemistry names Hassabis and Jumper; summary \"to the public\" (ChatGPT was not officially offered in e.g. Russia, China); why_it_matters \"within two months\". al-khwarizmi-algebra removed from builds_on (link is etymology only; NOTE box kept). Krizhevsky, Cho, Christiano, McMillan-Major added to people; Ouyang changed from author to predecessor (ChatGPT has no single author).\nREVIEWER CHECK: \"The problem [hallucination] has been reduced since 2022 but not solved\" is a general characterisation without a single citation. The Oxford affiliation of Petrov et al. and the claim that the 15x comparison is against English rest on the paper body / project site, not the abstract. Birth years left null for living researchers whose years are not well documented (Vaswani, Parmar, Shazeer, Brown, Ouyang, Bahdanau, Mikolov, Sutskever, Krizhevsky, Cho, Christiano, Bender, Gebru, Mitchell, McMillan-Major). Two body figures (Markov portrait, ELIZA screenshot) carry the Commons credit \"Unknown author Unknown author\" verbatim as the commons script printed it; the duplication is Commons metadata, not a typo of ours. Kyrgyz: \"ойлоп табуулар\" (invention, glossary 'check') used in the Nobel citation; \"тоту куштар\" for \"parrots\" and \"көңүл буруу\" for \"attention\" are my choices, not in the glossary.",
+  "translations": {
+    "en": {
+      "title": "ChatGPT brings large language models to the public",
+      "summary": "In November 2022 OpenAI opened ChatGPT to the public: a program trained to guess the next word of a text, then tuned with human feedback, answering requests in fluent language.",
+      "why_it_matters": "Until then, getting a computer to do something mostly meant learning its menus or a programming language; within two months ChatGPT let tens of millions of people ask in ordinary words. It also made a hard question an everyday one: how far to trust a fluent answer that nobody has checked.",
+      "if_you_were_there": "In autumn 2022 a phone assistant could set a timer or read out the weather. A program that would write an essay, explain a proof or fix a piece of code from a plain request was something few people outside laboratories and a small circle of programmers had tried.",
+      "place_name": "San Francisco",
+      "status": "machine",
+      "body": "![The Transformer, the network design published in 2017 by eight researchers working at Google that the GPT models and most later language models are built on: text enters at the bottom and passes through stacked layers of attention](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png \"Yuening Jia · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:The-Transformer-model-architecture.png\")\n\n### The scene\n\nOn 30 November 2022 the San Francisco company OpenAI put a free page on the web called ChatGPT and described it as a \"research preview\". You typed a question or a request in ordinary words, and it answered in fluent paragraphs: an essay, a poem, an explanation of a theorem, a piece of program code. Within five days a million people had signed up. By January 2023, according to an estimate by analysts at the bank UBS based on web traffic data from Similarweb, about 100 million people a month were using it; The figure was an outside estimate, not one published by OpenAI, and the analysts called it the fastest-growing consumer application on record at the time.\n\nThe program behind it was a large language model: a computer program trained on an enormous amount of text to do one thing, guess which piece of text comes next. That idea was more than a century old.\n\n![Andrey Markov, the Russian mathematician who in 1913 counted vowels and consonants in Pushkin's \"Eugene Onegin\"](https://upload.wikimedia.org/wikipedia/commons/7/70/AAMarkov.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:AAMarkov.jpg\")\n\nIn 1913 the Russian mathematician Andrey Markov took the first 20,000 letters of Alexander Pushkin's novel in verse \"Eugene Onegin\", marked each one as a vowel or a consonant, and counted how often a vowel followed a vowel and how often a consonant followed one. He was treating a text as a chain in which each link depends on the one before it; this is regarded as the first application to real data of what are now called Markov chains, a basic tool of mathematics. In 1948, in the paper that founded information theory, Claude Shannon of Bell Labs described English the same way, as letters that depend statistically on the letters before them. In 1951 he measured how predictable English is by asking people to guess a text one letter at a time.\n\n### What happened\n\nGuessing the next word well turned out to require a great deal. Between Markov's counts and ChatGPT there were three big steps.\n\nThe first was letting the guesser learn. In 2003 Yoshua Bengio and his colleagues in Montreal published a neural network, a program made of many simple adjustable connections, that learned to predict the next word and, along the way, learned which words behave alike. In 2013 Tomáš Mikolov's team at Google showed with word2vec that such word positions could be learned cheaply from billions of words, and that directions among them carry meaning, so that the meanings of words could be handled as positions. Neural networks became practical on a large scale after 2012, when Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton trained one on graphics chips, built for video games, and won the ImageNet image-recognition challenge by a wide margin. ImageNet itself was a collection of millions of labelled photographs that Fei-Fei Li began in 2006 and built with colleagues at Princeton and thousands of paid online workers who labelled the images; the aim was to give programs far more examples to learn from.\n\nThe second step was a better design. Older language networks read a sentence one word at a time and forgot the beginning of a long one. In 2014 Dzmitry Bahdanau, Kyunghyun Cho and Yoshua Bengio added \"attention\", which let a translation program look back at whichever words of the original it needed. In June 2017 eight researchers working at Google, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser and Illia Polosukhin, published \"Attention Is All You Need\". Their design, the Transformer, was built from attention alone and looked at all the words of a passage at once. It was made for translation and beat the best systems of the day after three and a half days of training on eight graphics chips. Because it worked in parallel it could be made far larger than anything before it.\n\nThe third step was size. OpenAI's GPT models, the letters stand for \"generative pre-trained transformer\", were Transformers trained to predict the next piece of text in ever larger collections of books and web pages. GPT-1 appeared in 2018, in the same year as Google's BERT; GPT-2 followed in 2019, and OpenAI at first held back the full model for fear of misuse. GPT-3, described in May 2020 by Tom Brown and thirty co-authors, had 175 billion adjustable numbers, called parameters, and could do tasks it had never been specially trained for, translation, arithmetic with three-digit numbers, answering questions, when shown a few examples in the request itself.\n\n> [!THEORY]\n> A language model does not see words but tokens: pieces of text, often a whole short word, often part of a longer one. Training means showing it a stretch of real text, letting it guess the next token, and nudging all its parameters slightly toward the right answer, billions upon billions of times. Nobody writes rules of grammar or facts into it. Whatever it knows about grammar or facts it has picked up only because knowing them helps it guess.\n\nA model trained this way continues a text; it does not necessarily do what it is asked. Ask it a question and it might add more questions. The missing piece was a method of learning from human preferences, developed at OpenAI and DeepMind from 2017 by Paul Christiano and colleagues. In March 2022 Long Ouyang and colleagues at OpenAI applied it to GPT-3. People wrote example answers and ranked the model's own answers from better to worse, and the model was then trained further with reinforcement learning from human feedback to give the kind of answer people preferred. In their tests people preferred the answers of a model with 1.3 billion parameters tuned this way to those of the untuned GPT-3, which was more than a hundred times larger. ChatGPT was, in OpenAI's words, a \"sibling model\" of that one, built on its GPT-3.5 series and trained with the same method on conversations.\n\nA way to picture it: a large language model is like someone who has read a vast library and is playing an endless game of \"finish the sentence\". The comparison breaks in one place: a reader remembers where they read something and can tell whether it was true, while the model keeps no record of its sources and has no built-in check on truth. It produces what sounds likely.\n\n### Why it was hard\n\nThe hard part was never the idea of predicting the next word; it was that doing it well needs three things at once. It needs a design that can use a whole passage, which the Transformer supplied in 2017. It needs an enormous amount of text, which only existed once the web had been filling up for a quarter of a century. And it needs computing power on a scale that only became available with graphics chips and the data centres of large companies. None of the three was enough on its own.\n\nThe fluency itself was a trap that had been seen before. Between 1964 and 1967 Joseph Weizenbaum at the Massachusetts Institute of Technology wrote ELIZA, a program that imitated a psychotherapist by turning a person's own sentences back into questions. It understood nothing. Yet in his 1976 book \"Computer Power and Human Reason\" Weizenbaum wrote that his secretary asked him to leave the room so that she could talk to it in private, and he was alarmed at how quickly ordinary people credited a simple program with understanding. The habit is now called the ELIZA effect.\n\n![A conversation with ELIZA: the program answers by turning the user's own words into questions](https://upload.wikimedia.org/wikipedia/commons/7/79/ELIZA_conversation.png \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png\")\n\n> [!WARNING]\n> Large language models can state things that are false in the same confident tone as things that are true, and can invent quotations, figures and references that do not exist. This is usually called \"hallucination\". It follows from the way they are built: they are trained to produce likely text, not checked text. The problem has been reduced since 2022 but not solved.\n\nSome researchers had warned before ChatGPT appeared. In 2020 the linguist Emily Bender, the computer scientists Timnit Gebru and Margaret Mitchell, and Angelina McMillan-Major wrote \"On the Dangers of Stochastic Parrots\", published in March 2021. It argued that ever larger models cost a great deal of energy and money, absorb the biases of the text they are trained on, and produce language without any connection to meaning, so that readers mistake fluency for understanding. At the end of 2020 Google, where Gebru co-led the team studying the ethics of artificial intelligence, asked her to withdraw the paper or remove the Google authors' names; she refused and set conditions; Google said it was accepting her resignation, while Gebru said she had been fired. Her departure set off protests from Google's own employees.\n\nNor do these models treat all languages alike. A 2023 study by Aleksandar Petrov and colleagues at Oxford found that the same text, translated into different languages, can be cut into up to fifteen times more tokens in some languages than in English. Longer means slower, more expensive and less text the model can hold in view at once. Models are trained on what exists online, and languages with less written text there get less from them.\n\n> [!NOTE]\n> Every program in this story is a sequence of exact steps, an algorithm. The word comes from the name of Muhammad ibn Musa al-Khwarizmi, the ninth-century scholar from Khwarazm in Central Asia, whose book on calculating with Hindu-Arabic numerals reached Europe in a Latin translation that opens \"Dixit Algoritmi\", \"thus spoke al-Khwarizmi\"; Algoritmi was the Latin form of his name.\n\n### What it opened\n\nChatGPT made the language model an everyday tool. Within months other companies released their own chat systems, students and teachers argued about homework, programmers began writing code with a model at their side, and lawmakers began writing rules for artificial intelligence. Questions that had seemed theoretical, about copyright in the texts models are trained on, about the electricity they use, about how far to trust an answer that no one has checked, became practical ones.\n\nScience recognised the roots. In 2024 the Nobel Prize in Physics went to John Hopfield and Geoffrey Hinton \"for foundational discoveries and inventions that enable machine learning with artificial neural networks\", and half of the Nobel Prize in Chemistry went to Demis Hassabis and John Jumper for AlphaFold, another neural network. Whether a system trained only to predict text can be said to understand it is still argued over by researchers, and the answer may depend on what one means by understanding."
+    },
+    "tr": {
+      "title": "ChatGPT büyük dil modellerini herkese açtı",
+      "summary": "Kasım 2022'de OpenAI, ChatGPT'yi kamuya açtı: bir metnin sıradaki sözcüğünü tahmin etmek üzere eğitilip insan geri bildirimiyle ayarlanan bir program, isteklere akıcı bir dille cevap verdi.",
+      "why_it_matters": "O zamana kadar bir bilgisayara iş yaptırmak çoğunlukla menülerini ya da bir programlama dilini öğrenmek demekti; ChatGPT iki ay içinde on milyonlarca insanın sıradan sözcüklerle sormasını sağladı. Zor bir soruyu da gündelik hale getirdi: kimsenin denetlemediği akıcı bir cevaba ne kadar güvenilir?",
+      "if_you_were_there": "2022 sonbaharında bir telefon asistanı zamanlayıcı kurabilir ya da hava durumunu okuyabilirdi. Sade bir istekle deneme yazan, bir ispatı açıklayan ya da bir kod parçasını düzelten bir programı laboratuvarlar ve küçük bir programcı çevresi dışında pek az kişi denemişti.",
+      "place_name": "San Francisco",
+      "status": "machine",
+      "body": "![Google'da çalışan sekiz araştırmacının 2017'de yayımladığı Transformer ağ tasarımı; GPT modelleri ve sonraki dil modellerinin çoğu bunun üstüne kurulu: metin alttan girer ve üst üste dizilmiş dikkat katmanlarından geçer](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png \"Yuening Jia · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:The-Transformer-model-architecture.png\")\n\n### Sahne\n\n30 Kasım 2022'de San Francisco'daki OpenAI şirketi, ChatGPT adında ücretsiz bir sayfayı internete açtı ve buna \"araştırma önizlemesi\" dedi. Sıradan sözcüklerle bir soru ya da istek yazıyordunuz, o da akıcı paragraflarla cevap veriyordu: bir deneme, bir şiir, bir teoremin açıklaması, bir parça program kodu. Beş gün içinde bir milyon kişi kaydoldu. İsviçre bankası UBS'in analistlerinin, Similarweb'in internet trafiği verilerine dayanan tahminine göre Ocak 2023'te ayda yaklaşık 100 milyon kişi onu kullanıyordu. Bu sayı OpenAI'ın yayımladığı bir rakam değil, dışarıdan bir tahmindi; analistler ChatGPT'yi o güne kadar kaydedilmiş en hızlı büyüyen tüketici uygulaması olarak nitelendirdi.\n\nArkasındaki program büyük bir dil modeliydi: devasa miktarda metinle eğitilmiş ve tek bir iş için yapılmış bir bilgisayar programı, metinde sırada hangi parçanın geleceğini tahmin etmek. Bu fikir yüz yıldan eskiydi.\n\n![Andrey Markov: 1913'te Puşkin'in \"Yevgeni Onegin\"indeki ünlüleri ve ünsüzleri sayan Rus matematikçi](https://upload.wikimedia.org/wikipedia/commons/7/70/AAMarkov.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:AAMarkov.jpg\")\n\n1913'te Rus matematikçi Andrey Markov, Aleksandr Puşkin'in manzum romanı \"Yevgeni Onegin\"in ilk 20.000 harfini aldı, her birini ünlü ya da ünsüz diye işaretledi ve bir ünlünün ardından ne sıklıkla ünlü, ne sıklıkla ünsüz geldiğini saydı. Metni, her halkası bir öncekine bağlı bir zincir gibi ele alıyordu; bu, bugün Markov zincirleri denen ve matematiğin temel araçlarından biri olan yöntemin gerçek veriye ilk uygulanışı sayılır. 1948'de Bell Labs'tan Claude Shannon, bilgi kuramını kuran makalesinde İngilizceyi aynı biçimde, harfleri kendinden öncekilere istatistiksel olarak bağlı bir dizi olarak tarif etti. 1951'de İngilizcenin ne kadar tahmin edilebilir olduğunu, insanlara bir metni harf harf tahmin ettirerek ölçtü.\n\n### Ne oldu\n\nSıradaki sözcüğü iyi tahmin etmenin çok şey gerektirdiği ortaya çıktı. Markov'un saymasından ChatGPT'ye üç büyük adım vardı.\n\nİlki, tahmin edenin öğrenebilmesiydi. 2003'te Yoshua Bengio ve Montreal'deki meslektaşları, çok sayıda basit ve ayarlanabilir bağlantıdan oluşan bir program, yani bir sinir ağı yayımladılar; ağ sıradaki sözcüğü tahmin etmeyi öğrenirken hangi sözcüklerin birbirine benzer davrandığını da öğreniyordu. 2013'te Tomáš Mikolov'un Google'daki ekibi word2vec ile sözcüklerin bu tür konumlarının milyarlarca sözcükten ucuzca öğrenilebildiğini ve konumlar arasındaki yönlerin anlam taşıdığını gösterdi; böylece sözcüklerin anlamları birer konum gibi işlenebildi. Sinir ağları büyük ölçekte 2012'den sonra pratik hale geldi: Alex Krizhevsky, Ilya Sutskever ve Geoffrey Hinton bir ağı video oyunları için yapılmış grafik çiplerinde eğitip ImageNet görüntü tanıma yarışmasını büyük farkla kazandılar. ImageNet'in kendisi, Fei-Fei Li'nin 2006'da başlattığı ve Princeton'daki meslektaşları ile görüntüleri etiketleyen binlerce ücretli çevrimiçi çalışanla kurduğu, milyonlarca etiketli fotoğraftan oluşan bir koleksiyondu; amaç programlara öğrenecekleri çok daha fazla örnek vermekti.\n\nİkinci adım daha iyi bir tasarımdı. Eski dil ağları bir cümleyi sözcük sözcük okuyor, uzun bir cümlenin başını unutuyordu. 2014'te Dzmitry Bahdanau, Kyunghyun Cho ve Yoshua Bengio \"dikkat\" mekanizmasını eklediler; çeviri programı böylece aslındaki hangi sözcüğe ihtiyacı varsa ona geri bakabiliyordu. Haziran 2017'de Google'da çalışan sekiz araştırmacı, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser ve Illia Polosukhin, \"Attention Is All You Need\" (Tek ihtiyacınız dikkat) makalesini yayımladılar. Tasarımları Transformer yalnızca dikkatten kuruluydu ve bir parçadaki bütün sözcüklere aynı anda bakıyordu. Çeviri için yapılmıştı ve sekiz grafik çipinde üç buçuk günlük eğitimden sonra dönemin en iyi sistemlerini geçti. Paralel çalıştığı için kendinden öncekilerden çok daha büyük yapılabiliyordu.\n\nÜçüncü adım büyüklüktü. OpenAI'ın GPT modelleri, harfler \"üretici, önceden eğitilmiş transformer\" anlamına gelir, giderek büyüyen kitap ve web sayfası koleksiyonları üzerinde sıradaki metin parçasını tahmin etmek üzere eğitilmiş Transformer'lardı. GPT-1 2018'de, Google'ın BERT modeliyle aynı yıl çıktı; GPT-2 2019'da geldi ve OpenAI kötüye kullanım korkusuyla tam modeli önce yayımlamadı. Mayıs 2020'de Tom Brown ve otuz ortak yazarın tanıttığı GPT-3, parametre denen 175 milyar ayarlanabilir sayıya sahipti ve isteğin içinde birkaç örnek gösterildiğinde özel olarak eğitilmediği işleri yapabiliyordu: çeviri, üç basamaklı sayılarla aritmetik, soru cevaplama.\n\n> [!THEORY]\n> Bir dil modeli sözcükleri değil, token denen parçaları görür: çoğu zaman kısa bir sözcüğün tamamı, çoğu zaman uzun bir sözcüğün bir parçası. Eğitim, modele gerçek bir metin parçası gösterip sıradaki tokeni tahmin ettirmek ve bütün parametrelerini doğru cevaba doğru biraz kaydırmaktır; bu milyarlarca kez tekrarlanır. Kimse içine dilbilgisi kuralı ya da bilgi yazmaz. Dilbilgisi ya da olgular hakkında ne biliyorsa, onları bilmek tahmin etmesine yardım ettiği için öğrenmiştir.\n\nBu şekilde eğitilmiş bir model metni sürdürür; kendisinden isteneni yapmak zorunda değildir. Ona bir soru sorarsanız ardına başka sorular ekleyebilir. Eksik parça, OpenAI ve DeepMind'da 2017'den itibaren Paul Christiano ve meslektaşlarının geliştirdiği, insan tercihlerinden öğrenme yöntemiydi. Mart 2022'de OpenAI'dan Long Ouyang ve meslektaşları bunu GPT-3'e uyguladılar. İnsanlar örnek cevaplar yazdı ve modelin kendi cevaplarını iyiden kötüye sıraladı; model sonra insan geri bildirimiyle pekiştirmeli öğrenme yöntemiyle, insanların tercih ettiği türden cevaplar verecek şekilde yeniden eğitildi. Denemelerinde insanlar, bu şekilde ayarlanmış 1,3 milyar parametreli bir modelin cevaplarını, ondan yüz kattan daha büyük olan ayarlanmamış GPT-3'ünkülere tercih etti. ChatGPT, OpenAI'ın sözleriyle bu modelin \"kardeş modeli\"ydi: GPT-3.5 serisi üzerine kurulmuş ve aynı yöntemle konuşmalar üzerinde eğitilmişti.\n\nŞöyle düşünün: büyük bir dil modeli, devasa bir kütüphaneyi okumuş ve bitmeyen bir \"cümleyi tamamla\" oyunu oynayan biri gibidir. Benzetme bir yerde bozulur: okuyan bir insan bir şeyi nerede okuduğunu hatırlar ve doğru olup olmadığını ayırt edebilir; model ise kaynaklarının kaydını tutmaz ve içinde doğruluğu denetleyen bir mekanizma yoktur. Olası görünen şeyi üretir.\n\n### Neden zordu\n\nZor olan hiçbir zaman sıradaki sözcüğü tahmin etme fikri değildi; zorluk, bunu iyi yapmanın aynı anda üç şey gerektirmesiydi. Bütün bir metin parçasını kullanabilen bir tasarım gerekiyordu; onu 2017'de Transformer sağladı. Devasa miktarda metin gerekiyordu; bu ancak internet çeyrek yüzyıl boyunca dolduktan sonra vardı. Ve ancak grafik çipleri ve büyük şirketlerin veri merkezleriyle ulaşılabilen ölçekte hesaplama gücü gerekiyordu. Üçünden hiçbiri tek başına yetmiyordu.\n\nAkıcılığın kendisi ise daha önce de görülmüş bir tuzaktı. 1964 ile 1967 arasında Massachusetts Teknoloji Enstitüsü'nde Joseph Weizenbaum, insanın kendi cümlelerini soruya çevirerek bir psikoterapisti taklit eden ELIZA programını yazdı. Program hiçbir şey anlamıyordu. Yine de Weizenbaum 1976'daki \"Computer Power and Human Reason\" (Bilgisayarın gücü ve insan aklı) kitabında, sekreterinin onunla baş başa konuşabilmek için kendisinden odadan çıkmasını istediğini yazdı; sıradan insanların basit bir programa ne kadar çabuk anlayış atfettiğini görünce kaygılanmıştı. Bu alışkanlığa bugün ELIZA etkisi deniyor.\n\n![ELIZA ile bir konuşma: program, kullanıcının kendi sözcüklerini soruya çevirerek cevap veriyor](https://upload.wikimedia.org/wikipedia/commons/7/79/ELIZA_conversation.png \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png\")\n\n> [!WARNING]\n> Büyük dil modelleri yanlış şeyleri doğru şeylerle aynı kendinden emin tonla söyleyebilir; var olmayan alıntılar, sayılar ve kaynaklar uydurabilir. Buna genellikle \"halüsinasyon\" denir. Bu, yapılış biçimlerinden kaynaklanır: olası metin üretmek üzere eğitilirler, denetlenmiş metin üretmek üzere değil. Sorun 2022'den beri azaldı ama çözülmedi.\n\nBazı araştırmacılar ChatGPT ortaya çıkmadan önce uyarmıştı. 2020'de dilbilimci Emily Bender, bilgisayar bilimciler Timnit Gebru ve Margaret Mitchell ile Angelina McMillan-Major, Mart 2021'de yayımlanan \"On the Dangers of Stochastic Parrots\" (Stokastik papağanların tehlikeleri üzerine) makalesini yazdılar. Makale, giderek büyüyen modellerin çok enerji ve para tükettiğini, eğitildikleri metinlerin önyargılarını içlerine çektiğini ve anlamla hiçbir bağı olmayan bir dil ürettiğini, böylece okuyucuların akıcılığı anlayış sandığını savunuyordu. 2020'nin sonunda, Gebru'nun yapay zekâ etiği ekibinin eş liderlerinden biri olduğu Google ondan makaleyi geri çekmesini ya da Google çalışanlarının adlarını kaldırmasını istedi; Gebru reddetti ve koşullar öne sürdü; Google istifasını kabul ettiğini söyledi, Gebru ise kovulduğunu söyledi. Ayrılışı Google'ın kendi çalışanları arasında protestolara yol açtı.\n\nBu modeller bütün dillere de eşit davranmaz. Aleksandar Petrov ve Oxford'daki meslektaşlarının 2023'teki bir çalışması, farklı dillere çevrilmiş aynı metnin bazı dillerde İngilizceye göre on beş kata kadar daha fazla tokene bölünebildiğini buldu. Daha uzun demek daha yavaş, daha pahalı ve modelin aynı anda görebildiği daha az metin demektir. Modeller internette var olanla eğitilir ve orada daha az yazılı metni olan diller onlardan daha az pay alır.\n\n> [!NOTE]\n> Bu hikâyedeki her program kesin adımlardan oluşan bir dizidir, yani bir algoritma. Sözcük, Orta Asya'daki Harezm'den gelen 9. yüzyıl bilgini Muhammed bin Musa el-Harezmi'nin adından gelir; Hint-Arap rakamlarıyla hesap üzerine kitabı Avrupa'ya \"Dixit Algoritmi\", yani \"böyle dedi el-Harezmi\" diye açılan Latince bir çeviriyle ulaştı; Algoritmi, adının Latince biçimiydi.\n\n### Ne açtı\n\nChatGPT dil modelini gündelik bir araç yaptı. Birkaç ay içinde başka şirketler kendi sohbet sistemlerini çıkardı, öğrenciler ve öğretmenler ödevleri tartışmaya başladı, programcılar yanlarında bir modelle kod yazmaya başladı, yasa koyucular yapay zekâ için kurallar yazmaya koyuldu. Kuramsal görünen sorular, modellerin eğitildiği metinlerin telif hakkı, harcadıkları elektrik, kimsenin denetlemediği bir cevaba ne kadar güvenileceği, pratik sorular haline geldi.\n\nBilim kökleri tanıdı. 2024 Nobel Fizik Ödülü, \"yapay sinir ağlarıyla makine öğrenmesini mümkün kılan temel keşif ve buluşlar için\" John Hopfield ile Geoffrey Hinton'a verildi; Nobel Kimya Ödülü'nün yarısı da yine bir sinir ağı olan AlphaFold için Demis Hassabis ile John Jumper'a gitti. Yalnızca metin tahmin etmek üzere eğitilmiş bir sistemin o metni anladığının söylenip söylenemeyeceği araştırmacılar arasında hâlâ tartışılıyor; cevap belki de anlamaktan ne kastedildiğine bağlı."
+    },
+    "ru": {
+      "title": "ChatGPT открывает большие языковые модели для всех",
+      "summary": "В ноябре 2022 года OpenAI открыла ChatGPT для публики: программа, обученная угадывать следующее слово текста и настроенная по отзывам людей, стала отвечать на просьбы связной речью.",
+      "why_it_matters": "До этого заставить компьютер что-то сделать обычно значило выучить его меню или язык программирования; за два месяца ChatGPT позволила десяткам миллионов людей просить обычными словами. Она же сделала повседневным трудный вопрос: насколько можно доверять гладкому ответу, который никто не проверял.",
+      "if_you_were_there": "Осенью 2022 года голосовой помощник в телефоне мог поставить таймер или прочитать прогноз погоды. Программу, которая по простой просьбе пишет сочинение, объясняет доказательство или исправляет кусок кода, мало кто пробовал за пределами лабораторий и узкого круга программистов.",
+      "place_name": "Сан-Франциско",
+      "status": "machine",
+      "body": "![Трансформер — архитектура нейросети, опубликованная в 2017 году восемью исследователями, работавшими в Google; на ней построены модели GPT и большинство последующих языковых моделей: текст входит снизу и проходит через уложенные друг на друга слои внимания](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png \"Yuening Jia · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:The-Transformer-model-architecture.png\")\n\n### Обстановка\n\n30 ноября 2022 года сан-францисская компания OpenAI открыла в интернете бесплатную страницу под названием ChatGPT и назвала её «исследовательской предварительной версией». Вы писали вопрос или просьбу обычными словами, а она отвечала связными абзацами: сочинение, стихотворение, объяснение теоремы, кусок программного кода. За пять дней зарегистрировался миллион человек. По оценке аналитиков банка UBS, основанной на данных о веб-трафике компании Similarweb, в январе 2023 года ею пользовались около 100 миллионов человек в месяц. Это была внешняя оценка, а не цифра, опубликованная OpenAI, и аналитики назвали ChatGPT самым быстрорастущим потребительским приложением из известных на тот момент.\n\nЗа ним стояла большая языковая модель: компьютерная программа, обученная на огромном количестве текста делать одно-единственное — угадывать, какой кусок текста будет следующим. Этой идее было больше ста лет.\n\n![Андрей Марков — русский математик, который в 1913 году подсчитал гласные и согласные в пушкинском «Евгении Онегине»](https://upload.wikimedia.org/wikipedia/commons/7/70/AAMarkov.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:AAMarkov.jpg\")\n\nВ 1913 году русский математик Андрей Марков взял первые 20 000 букв романа в стихах Александра Пушкина «Евгений Онегин», пометил каждую как гласную или согласную и подсчитал, как часто за гласной идёт гласная, а как часто — согласная. Он рассматривал текст как цепь, в которой каждое звено зависит от предыдущего; это считается первым применением к реальным данным того, что теперь называют цепями Маркова, — одного из базовых инструментов математики. В 1948 году в статье, положившей начало теории информации, Клод Шеннон из Bell Labs описал английский язык так же: как последовательности букв, статистически зависящих от предыдущих. В 1951 году он измерил, насколько предсказуем английский текст, предлагая людям угадывать его буква за буквой.\n\n### Что произошло\n\nОказалось, что хорошо угадывать следующее слово — задача очень непростая. Между подсчётами Маркова и ChatGPT было три больших шага.\n\nПервый — научить угадывающего учиться. В 2003 году Йошуа Бенжио и его коллеги в Монреале опубликовали нейронную сеть — программу из множества простых настраиваемых связей, — которая училась предсказывать следующее слово и попутно узнавала, какие слова ведут себя похоже. В 2013 году команда Томаша Миколова в Google с помощью word2vec показала, что такие положения слов можно дёшево выучить по миллиардам слов и что направления между ними несут смысл, так что со значениями слов можно работать как с положениями в пространстве. В большом масштабе нейросети стали практичными после 2012 года, когда Алекс Крижевский, Илья Суцкевер и Джеффри Хинтон обучили сеть на графических чипах, созданных для видеоигр, и с большим отрывом выиграли конкурс по распознаванию изображений ImageNet. Сам ImageNet был собранием миллионов размеченных фотографий, которое Фэй-Фэй Ли начала в 2006 году и создала вместе с коллегами в Принстоне и тысячами платных онлайн-работников, размечавших снимки; цель была дать программам гораздо больше примеров для обучения.\n\nВторой шаг — лучшая архитектура. Прежние языковые сети читали предложение по одному слову и забывали начало длинной фразы. В 2014 году Дмитрий Богданов, Кёнхён Чо и Йошуа Бенжио добавили «внимание», которое позволяло программе-переводчику оглядываться на те слова оригинала, которые ей были нужны. В июне 2017 года восемь исследователей, работавших в Google, — Ашиш Васвани, Ноам Шазир, Ники Пармар, Якоб Ушкорайт, Ллион Джонс, Эйдан Гомес, Лукаш Кайзер и Илья Полосухин — опубликовали статью «Attention Is All You Need» («Внимание — это всё, что вам нужно»). Их архитектура, трансформер, была построена только на внимании и смотрела на все слова фрагмента сразу. Она создавалась для перевода и после трёх с половиной дней обучения на восьми графических чипах превзошла лучшие системы того времени. Поскольку она работала параллельно, её можно было сделать гораздо больше, чем всё, что было до неё.\n\nТретий шаг — размер. Модели GPT компании OpenAI (буквы означают «генеративный предобученный трансформер») были трансформерами, обученными предсказывать следующий кусок текста на всё более крупных собраниях книг и веб-страниц. GPT-1 появилась в 2018 году, в один год с BERT от Google; GPT-2 вышла в 2019 году, и OpenAI сначала не выпускала полную модель, опасаясь злоупотреблений. У GPT-3, описанной в мае 2020 года Томом Брауном и тридцатью соавторами, было 175 миллиардов настраиваемых чисел — параметров, — и она могла выполнять задачи, которым её специально не учили: перевод, арифметику с трёхзначными числами, ответы на вопросы, — если в самом запросе ей показывали несколько примеров.\n\n> [!THEORY]\n> Языковая модель видит не слова, а токены — куски текста: часто целое короткое слово, часто часть длинного. Обучение — это показать модели отрывок настоящего текста, дать ей угадать следующий токен и чуть-чуть сдвинуть все её параметры в сторону правильного ответа, и так миллиарды и миллиарды раз. Никто не вписывает в неё правила грамматики или факты. Всё, что она знает о грамматике или фактах, она усвоила только потому, что это помогает угадывать.\n\nОбученная так модель продолжает текст, но не обязательно делает то, о чём её просят. Задайте ей вопрос — и она может дописать к нему новые вопросы. Недостающей частью был метод обучения на предпочтениях людей, который с 2017 года развивали в OpenAI и DeepMind Пол Кристиано и его коллеги. В марте 2022 года Лонг Оуян и его коллеги из OpenAI применили его к GPT-3. Люди писали образцы ответов и ранжировали ответы самой модели от лучших к худшим, а затем модель дообучали методом обучения с подкреплением на основе отзывов людей, чтобы она давала такие ответы, какие люди предпочитают. В их испытаниях люди предпочитали ответы настроенной так модели с 1,3 миллиарда параметров ответам ненастроенной GPT-3, которая была больше её в сто с лишним раз. ChatGPT, по словам OpenAI, была «родственной моделью» этой: построенной на серии GPT-3.5 и обученной тем же методом на диалогах.\n\nМожно представить это так: большая языковая модель похожа на человека, прочитавшего огромную библиотеку и играющего в бесконечную игру «закончи фразу». Сравнение ломается в одном месте: читатель помнит, где он что-то прочитал, и может отличить правду от неправды, а модель не хранит записи о своих источниках и не имеет встроенной проверки истинности. Она выдаёт то, что звучит правдоподобно.\n\n### Почему это было трудно\n\nТрудной никогда не была сама идея предсказывать следующее слово; трудность в том, что для хорошего предсказания нужны сразу три вещи. Нужна архитектура, способная использовать весь фрагмент целиком, — её в 2017 году дал трансформер. Нужно огромное количество текста — а оно появилось только после того, как интернет четверть века наполнялся. И нужна вычислительная мощность такого масштаба, который стал доступен только с графическими чипами и центрами обработки данных крупных компаний. Ни одной из трёх по отдельности было недостаточно.\n\nСама связность речи была ловушкой, которую уже видели раньше. Между 1964 и 1967 годами Джозеф Вейценбаум в Массачусетском технологическом институте написал ELIZA — программу, которая изображала психотерапевта, превращая собственные фразы человека в вопросы. Она ничего не понимала. И всё же в своей книге 1976 года «Возможности вычислительных машин и человеческий разум» Вейценбаум написал, что его секретарь попросила его выйти из комнаты, чтобы поговорить с программой наедине, и его встревожило, как быстро обычные люди приписывали простой программе понимание. Эту привычку теперь называют эффектом ELIZA.\n\n![Разговор с ELIZA: программа отвечает, превращая собственные слова пользователя в вопросы](https://upload.wikimedia.org/wikipedia/commons/7/79/ELIZA_conversation.png \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png\")\n\n> [!WARNING]\n> Большие языковые модели могут сообщать ложное тем же уверенным тоном, что и истинное, и выдумывать несуществующие цитаты, цифры и ссылки. Обычно это называют «галлюцинациями». Это следует из того, как они устроены: их учат порождать вероятный текст, а не проверенный. С 2022 года проблему удалось уменьшить, но не решить.\n\nНекоторые исследователи предупреждали ещё до появления ChatGPT. В 2020 году лингвист Эмили Бендер, специалисты по информатике Тимнит Гебру и Маргарет Митчелл и Анджелина Макмиллан-Мейджор написали статью «On the Dangers of Stochastic Parrots» («Об опасностях стохастических попугаев»), опубликованную в марте 2021 года. В ней говорилось, что всё более крупные модели требуют много энергии и денег, впитывают предубеждения текстов, на которых обучены, и производят язык без всякой связи со смыслом, так что читатели принимают гладкость речи за понимание. В конце 2020 года Google, где Гебру была одним из руководителей группы по этике искусственного интеллекта, попросила её отозвать статью или убрать из неё имена сотрудников Google; она отказалась и выдвинула условия; Google заявила, что принимает её отставку, а сама Гебру сказала, что её уволили. Её уход вызвал протесты среди сотрудников самой Google.\n\nК тому же эти модели обращаются с языками неодинаково. Исследование Александара Петрова и его коллег из Оксфорда 2023 года показало, что один и тот же текст, переведённый на разные языки, в некоторых языках может разбиваться на токены до пятнадцати раз дробнее, чем в английском. Длиннее — значит медленнее, дороже и меньше текста, который модель может удержать в поле зрения одновременно. Модели обучаются на том, что есть в интернете, и языки, на которых там меньше письменных текстов, получают от них меньше.\n\n> [!NOTE]\n> Каждая программа в этой истории — последовательность точных шагов, то есть алгоритм. Слово происходит от имени Мухаммада ибн Мусы аль-Хорезми, учёного IX века из Хорезма в Центральной Азии, чья книга о счёте индийско-арабскими цифрами дошла до Европы в латинском переводе, который начинается словами «Dixit Algoritmi» — «так сказал аль-Хорезми»; Algoritmi — латинская форма его имени.\n\n### Что это открыло\n\nChatGPT сделала языковую модель повседневным инструментом. За несколько месяцев другие компании выпустили собственные чат-системы, ученики и учителя заспорили о домашних заданиях, программисты начали писать код вместе с моделью, а законодатели взялись писать правила для искусственного интеллекта. Вопросы, казавшиеся теоретическими, — об авторском праве на тексты, на которых обучаются модели, об электричестве, которое они потребляют, о том, насколько можно доверять ответу, который никто не проверял, — стали практическими.\n\nНаука признала корни. Нобелевская премия по физике 2024 года была присуждена Джону Хопфилду и Джеффри Хинтону «за фундаментальные открытия и изобретения, которые делают возможным машинное обучение с помощью искусственных нейронных сетей», а половина Нобелевской премии по химии досталась Демису Хассабису и Джону Джамперу за AlphaFold — тоже нейросеть. Можно ли сказать, что система, обученная только предсказывать текст, этот текст понимает, исследователи спорят до сих пор, и ответ, возможно, зависит от того, что называть пониманием."
+    },
+    "ky": {
+      "title": "ChatGPT чоң тил моделдерин баарына ачты",
+      "summary": "2022-жылдын ноябрында OpenAI ChatGPT'ни коомчулукка ачты: тексттин кийинки сөзүн болжолдоого үйрөтүлүп, адамдардын пикири менен жөндөлгөн программа өтүнүчтөргө жатык тилде жооп бере баштады.",
+      "why_it_matters": "Ага чейин компьютерге бир иш жасатуу көбүнчө анын менюларын же программалоо тилин үйрөнүүнү билдирчү; ChatGPT эки айдын ичинде ондогон миллион адамга кадимки сөздөр менен суроого мүмкүндүк берди. Ал оор суроону да күнүмдүк кылды: эч ким текшербеген жатык жоопко канчалык ишенүүгө болот?",
+      "if_you_were_there": "2022-жылдын күзүндө телефондогу жардамчы таймер коюп же аба ырайын окуп бере алчу. Жөнөкөй өтүнүч боюнча дилбаян жазган, математикалык далилди түшүндүргөн же коддун бир бөлүгүн оңдогон программаны лабораториялардан жана программисттердин тар чөйрөсүнөн тышкары аз эле адам сынап көргөн.",
+      "place_name": "Сан-Франциско",
+      "status": "machine",
+      "body": "![Трансформер — Google'да иштеген сегиз изилдөөчү 2017-жылы жарыялаган нейрон тармагынын түзүлүшү; GPT моделдери жана андан кийинки тил моделдеринин көбү ушуга негизделген: текст астынан кирип, бири-биринин үстүнө тизилген көңүл буруу катмарларынан өтөт](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png \"Yuening Jia · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:The-Transformer-model-architecture.png\")\n\n### Көрүнүш\n\n2022-жылдын 30-ноябрында Сан-Франциско шаарындагы OpenAI компаниясы интернетте ChatGPT деген акысыз баракчаны ачып, аны «изилдөөнүн алдын ала нускасы» деп атады. Сиз кадимки сөздөр менен суроо же өтүнүч жазасыз, ал болсо жатык абзацтар менен жооп берет: дилбаян, ыр, теореманын түшүндүрмөсү, программанын коду. Беш күндүн ичинде бир миллион адам катталды. UBS банкынын аналитиктери Similarweb компаниясынын интернет трафиги боюнча маалыматтарына таянып чыгарган баалоосу боюнча, 2023-жылдын январында аны айына болжол менен 100 миллион адам колдонгон. Бул сан OpenAI жарыялаган сан эмес, сырттан берилген баа болчу; аналитиктер ChatGPT'ни ошол убакка чейин катталгандардын ичинен эң тез өскөн керектөөчү тиркеме деп аташкан.\n\nАнын артында чоң тил модели турган: зор көлөмдөгү текстке үйрөтүлгөн жана бир гана ишти — тексттин кийинки бөлүгү эмне болорун болжолдоону — аткарган компьютердик программа. Бул идея жүз жылдан ашык мурун пайда болгон.\n\n![Андрей Марков — 1913-жылы Пушкиндин «Евгений Онегин» чыгармасындагы үндүү жана үнсүз тамгаларды санаган орус математиги](https://upload.wikimedia.org/wikipedia/commons/7/70/AAMarkov.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:AAMarkov.jpg\")\n\n1913-жылы орус математиги Андрей Марков Александр Пушкиндин «Евгений Онегин» ыр түрүндөгү романынын алгачкы 20 000 тамгасын алып, ар бирин үндүү же үнсүз деп белгилеген жана үндүүдөн кийин канча жолу үндүү, канча жолу үнсүз келерин санаган. Ал текстти ар бир шакеги мурункусуна көз каранды болгон чынжыр катары караган; бул азыр Марков чынжырлары деп аталган, математиканын негизги куралдарынын биринин чыныгы маалыматтарга алгачкы колдонулушу деп эсептелет. 1948-жылы Bell Labs лабораториясынан Клод Шеннон маалымат теориясын негиздеген макаласында англис тилин ушундай эле жол менен — ар бир тамгасы өзүнөн мурунку тамгаларга статистикалык жактан көз каранды болгон катар катары — сүрөттөгөн. 1951-жылы ал англис тексти канчалык алдын ала айтууга боло турганын адамдарга текстти тамгама-тамга таптырып көрүү менен өлчөгөн.\n\n### Эмне болду\n\nКийинки сөздү жакшы таап айтуу абдан көп нерсени талап кылары белгилүү болду. Марковдун эсептөөлөрү менен ChatGPT'нин ортосунда үч чоң кадам бар.\n\nБиринчиси — болжолдогон программанын үйрөнө алышы. 2003-жылы Йошуа Бенжио жана анын Монреалдагы кесиптештери нейрон тармагын — көптөгөн жөнөкөй, жөндөлүүчү байланыштардан турган программаны — жарыялашкан. Ал кийинки сөздү болжолдоону үйрөнүп жатып, кайсы сөздөр бири-бирине окшош колдонуларын да үйрөнгөн. 2013-жылы Томаш Миколовдун Google'дагы командасы word2vec аркылуу сөздөрдүн мындай орундарын миллиарддаган сөздөн арзан үйрөнүүгө боло турганын жана алардын ортосундагы багыттар маани ташырын көрсөткөн; ошентип сөздөрдүн маанилери мейкиндиктеги орундар сыяктуу иштетиле баштаган. Нейрон тармактары чоң масштабда 2012-жылдан кийин колдонууга ыңгайлуу болду: Алекс Крижевский, Илья Суцкевер жана Джеффри Хинтон видео оюндар үчүн жасалган графикалык микросхемаларда тармакты үйрөтүп, ImageNet сүрөт таануу сынагын чоң айырма менен утуп алышкан. ImageNet'тин өзү белгиленген миллиондогон сүрөттөрдүн жыйнагы болчу: аны Фэй-Фэй Ли 2006-жылы баштап, Принстондогу кесиптештери жана сүрөттөрдү белгилеген миңдеген акы төлөнүүчү онлайн кызматкерлер менен бирге түзгөн; максаты программаларга үйрөнүү үчүн алда канча көп мисал берүү болгон.\n\nЭкинчи кадам — жакшыраак түзүлүш. Мурунку тил тармактары сүйлөмдү бир-бир сөздөн окуп, узун сүйлөмдүн башын унутуп калчу. 2014-жылы Дмитрий Богданов, Кёнхён Чо жана Йошуа Бенжио «көңүл буруу» механизмин кошушкан: ал которуучу программага түп нускадагы керектүү сөздөргө кайра карап алууга мүмкүндүк берген. 2017-жылдын июнунда Google'да иштеген сегиз изилдөөчү — Ашиш Васвани, Ноам Шазир, Ники Пармар, Якоб Ушкорайт, Ллион Джонс, Эйдан Гомес, Лукаш Кайзер жана Илья Полосухин — «Attention Is All You Need» («Сизге көңүл буруу гана керек») деген макаланы жарыялашкан. Алардын түзүлүшү — трансформер — бир гана көңүл буруудан курулган жана тексттин бир бөлүгүндөгү бардык сөздөрдү бир убакта караган. Ал котормо үчүн жасалган жана сегиз графикалык микросхемада үч жарым күн үйрөтүлгөндөн кийин ошол кездеги эң мыкты системалардан ашып кеткен. Параллелдүү иштегендиктен, аны мурункулардын баарынан алда канча чоңураак кылууга мүмкүн болгон.\n\nҮчүнчү кадам — көлөм. OpenAI'дын GPT моделдери (тамгалар «генеративдүү, алдын ала үйрөтүлгөн трансформер» дегенди билдирет) барган сайын чоңойгон китептер жана веб-баракчалар жыйнагында тексттин кийинки бөлүгүн болжолдоого үйрөтүлгөн трансформерлер болчу. GPT-1 2018-жылы, Google'дун BERT модели менен бир жылы чыккан; GPT-2 2019-жылы келген, жана OpenAI кыянаттык менен колдонулуп калуудан коркуп, толук моделди адегенде жарыялаган эмес. 2020-жылдын май айында Том Браун жана анын отуз авторлошу сүрөттөгөн GPT-3'тө параметр деп аталган 175 миллиард жөндөлүүчү сан бар эле. Суроонун өзүндө бир нече мисал көрсөтүлсө, ал атайын үйрөтүлбөгөн иштерди аткара алган: котормо, үч орундуу сандар менен арифметика, суроолорго жооп берүү.\n\n> [!THEORY]\n> Тил модели сөздөрдү эмес, токендерди көрөт: тексттин бөлүктөрүн, көбүнчө кыска сөздүн бүтүнүн, көбүнчө узун сөздүн бир бөлүгүн. Үйрөтүү — моделге чыныгы тексттин бир бөлүгүн көрсөтүп, кийинки токенди таптырып, анын бардык параметрлерин туура жоопту көздөй бир аз жылдыруу, жана муну миллиарддаган жолу кайталоо. Анын ичине эч ким грамматиканын эрежелерин же фактыларды жазбайт. Грамматика же фактылар жөнүндө эмнени билсе, аларды билүү болжолдоого жардам бергени үчүн гана үйрөнгөн.\n\nУшундай үйрөтүлгөн модель текстти улантат, бирок андан суралган нерсени сөзсүз аткарбайт. Ага суроо берсеңиз, ал анын артынан дагы суроолорду кошуп коюшу мүмкүн. Жетишпеген бөлүк — адамдардын тандоосунан үйрөнүү ыкмасы болчу: аны 2017-жылдан тартып OpenAI жана DeepMind'да Пол Кристиано жана анын кесиптештери иштеп чыгышкан. 2022-жылдын мартында OpenAI'дан Лонг Оуян жана анын кесиптештери аны GPT-3'кө колдонушкан. Адамдар үлгү жоопторду жазып, моделдин өз жоопторун жакшысынан жаманына карай иреттешкен; андан кийин модель адамдардын пикирине негизделген бекемдөө аркылуу үйрөнүү ыкмасы менен адамдар жактырган жоопторду бере тургандай кошумча үйрөтүлгөн. Алардын сыноолорунда адамдар ушундай жөндөлгөн 1,3 миллиард параметрлүү моделдин жоопторун андан жүз эседен ашык чоң болгон, жөндөлбөгөн GPT-3'түн жоопторунан артык көрүшкөн. OpenAI'дын сөзү менен айтканда, ChatGPT ошол моделдин «тууган модели» болчу: GPT-3.5 сериясына негизделген жана ошол эле ыкма менен маектерде үйрөтүлгөн.\n\nМуну мындай элестетүүгө болот: чоң тил модели зор китепкананы окуп чыгып, «сүйлөмдү аягына чыгар» деген бүтпөс оюнду ойноп жаткан адамга окшош. Салыштыруу бир жерде бузулат: окурман бир нерсени кайдан окуганын эстейт жана анын чын же жалган экенин ажырата алат, ал эми модель өз булактарын жазып сактабайт жана анын ичинде чындыкты текшерүүчү эч нерсе жок. Ал ыктымалдуу угулган нерсени чыгарат.\n\n### Эмне үчүн кыйын болду\n\nКыйынчылык эч качан кийинки сөздү болжолдоо идеясында болгон эмес; кыйынчылык муну жакшы аткаруу үчүн бир эле учурда үч нерсе керек болгондугунда. Тексттин бүтүн бөлүгүн колдоно алган түзүлүш керек болчу — аны 2017-жылы трансформер берди. Зор көлөмдөгү текст керек болчу — ал интернет чейрек кылым бою толгондон кийин гана пайда болду. Жана графикалык микросхемалар менен ири компаниялардын маалымат борборлору пайда болгондо гана жеткиликтүү болгон масштабдагы эсептөө кубаттуулугу керек болчу. Үчөөнүн бири да өзүнчө жетиштүү болгон эмес.\n\nЖатык сүйлөөнүн өзү мурда эле көрүлгөн тузак болчу. 1964–1967-жылдары Массачусетс технологиялык институтунда Джозеф Вейценбаум адамдын өз сүйлөмдөрүн суроого айландырып, психотерапевтти туурай турган ELIZA программасын жазган. Ал эч нерсени түшүнгөн эмес. Ошого карабастан Вейценбаум 1976-жылкы «Computer Power and Human Reason» («Компьютердин күчү жана адамдын акылы») китебинде анын катчысы программа менен жалгыз сүйлөшүү үчүн андан бөлмөдөн чыгып турууну суранганын жазган; жөнөкөй адамдар жөнөкөй программага түшүнүктү канчалык тез ыйгарып жиберерин көрүп, ал тынчсызданган. Бул адат азыр ELIZA эффекти деп аталат.\n\n![ELIZA менен маек: программа колдонуучунун өз сөздөрүн суроого айландырып жооп берет](https://upload.wikimedia.org/wikipedia/commons/7/79/ELIZA_conversation.png \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png\")\n\n> [!WARNING]\n> Чоң тил моделдери жалган нерселерди да чындык сыяктуу эле ишенимдүү үн менен айтып, жок цитаталарды, сандарды жана шилтемелерди ойлоп чыгара алат. Муну көбүнчө «галлюцинация» деп аташат. Бул алардын түзүлүшүнөн келип чыгат: алар текшерилген эмес, ыктымалдуу текстти чыгарууга үйрөтүлөт. 2022-жылдан бери бул көйгөй азайды, бирок чечилген жок.\n\nАйрым изилдөөчүлөр ChatGPT пайда боло электе эле эскертишкен. 2020-жылы тил илимпозу Эмили Бендер, информатика боюнча адистер Тимнит Гебру жана Маргарет Митчелл, ошондой эле Анджелина Макмиллан-Мейджор 2021-жылдын мартында жарык көргөн «On the Dangers of Stochastic Parrots» («Стохастикалык тоту куштардын коркунучтары жөнүндө») макаласын жазышкан. Анда барган сайын чоңойгон моделдер көп энергия жана акча талап кылары, алар үйрөтүлгөн тексттердин бир жактуу көз караштарын сиңирип алары жана маани менен эч кандай байланышы жок тилди чыгарары, ошондуктан окурмандар жатык сүйлөөнү түшүнүү деп ойлоп калары айтылган. 2020-жылдын аягында Гебру жасалма интеллекттин этикасы боюнча топту жетектегендердин бири болгон Google андан макаланы кайтарып алууну же андагы Google кызматкерлеринин аттарын алып салууну талап кылган; ал баш тартып, шарттарын койгон; Google анын кызматтан кетүүсүн кабыл алганын билдирген, ал эми Гебрунун өзү аны жумуштан бошотушканын айткан. Анын кетиши Google'дун өз кызматкерлеринин нааразычылыгын жараткан.\n\nМындан тышкары, бул моделдер бардык тилдерге бирдей мамиле кылбайт. Александар Петров жана анын Оксфорддогу кесиптештеринин 2023-жылкы изилдөөсү ар башка тилдерге которулган бир эле текст айрым тилдерде англис тилине караганда он беш эсеге чейин көп токенге бөлүнүшү мүмкүн экенин көрсөткөн. Узунураак болсо — жайыраак, кымбатыраак, жана модель бир убакта көз алдында кармай алган текст азыраак дегенди билдирет. Моделдер интернетте бар нерседе үйрөтүлөт, ошондуктан ал жерде жазма тексттери азыраак тилдер алардан азыраак пайда алат.\n\n> [!NOTE]\n> Бул окуядагы ар бир программа так кадамдардын ырааты, башкача айтканда алгоритм. Бул сөз IX кылымда Борбор Азиядагы Хорезмден чыккан окумуштуу Мухаммед ибн Муса ал-Хорезминин атынан келип чыккан: анын индиялык-арабдык цифралар менен эсептөө жөнүндөгү китеби Европага «Dixit Algoritmi» — «ал-Хорезми мындай деген» деген сөздөр менен башталган латын котормосу аркылуу жеткен; Algoritmi анын атынын латынча түрү болчу.\n\n### Эмнеге жол ачты\n\nChatGPT тил моделин күнүмдүк куралга айлантты. Бир нече айдын ичинде башка компаниялар өз маек системаларын чыгарышты, окуучулар менен мугалимдер үй тапшырмалары тууралуу талашып башташты, программисттер код жазууда модельди жанына алып иштей башташты, мыйзам чыгаруучулар жасалма интеллект үчүн эрежелерди жаза башташты. Теориялык болуп көрүнгөн суроолор — моделдер үйрөтүлгөн тексттердин автордук укугу, алар жеген электр энергиясы, эч ким текшербеген жоопко канчалык ишенүүгө болору — практикалык суроолорго айланды.\n\nИлим бул тамырларды таныды. 2024-жылкы физика боюнча Нобель сыйлыгы Джон Хопфилд менен Джеффри Хинтонго «жасалма нейрон тармактары менен машиналык үйрөнүүнү мүмкүн кылган негизги ачылыштар жана ойлоп табуулар үчүн» берилди, ал эми химия боюнча Нобель сыйлыгынын жарымы дагы бир нейрон тармагы болгон AlphaFold үчүн Демис Хассабис менен Джон Джамперге ыйгарылды. Текстти болжолдоого гана үйрөтүлгөн система ошол текстти түшүнөт деп айтууга болобу — изилдөөчүлөр муну азыр да талашып келишет, жана жооп, балким, түшүнүү деп эмнени айтарыбызга жараша болот."
+    }
+  }
+}
