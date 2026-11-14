@@ -1,0 +1,226 @@
+{
+  "slug": "semmelweis-handwashing",
+  "year": 1847,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 48.2166,
+  "lng": 16.3527,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Semmelweis_Ign%C3%A1c_1857_Canzi_%C3%81gost.jpg",
+    "credit": "Auguste Alexis Canzi",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Semmelweis_Ignác_1857_Canzi_Ágost.jpg"
+  },
+  "disciplines": [
+    "medicine"
+  ],
+  "people": [
+    {
+      "slug": "ignaz-semmelweis",
+      "birth_year": 1818,
+      "death_year": 1865,
+      "role": "author",
+      "name": {
+        "en": "Ignaz Semmelweis",
+        "tr": "Ignaz Semmelweis",
+        "ru": "Игнац Земмельвейс",
+        "ky": "Игнац Земмельвейс"
+      }
+    },
+    {
+      "slug": "jakob-kolletschka",
+      "birth_year": 1803,
+      "death_year": 1847,
+      "role": "contributor",
+      "name": {
+        "en": "Jakob Kolletschka",
+        "tr": "Jakob Kolletschka",
+        "ru": "Якоб Коллечка",
+        "ky": "Якоб Коллечка"
+      }
+    },
+    {
+      "slug": "ferdinand-von-hebra",
+      "birth_year": 1816,
+      "death_year": 1880,
+      "role": "collaborator",
+      "name": {
+        "en": "Ferdinand von Hebra",
+        "tr": "Ferdinand von Hebra",
+        "ru": "Фердинанд фон Гебра",
+        "ky": "Фердинанд фон Гебра"
+      }
+    },
+    {
+      "slug": "josef-skoda",
+      "birth_year": 1805,
+      "death_year": 1881,
+      "role": "collaborator",
+      "name": {
+        "en": "Josef Škoda",
+        "tr": "Josef Škoda",
+        "ru": "Йозеф Шкода",
+        "ky": "Йозеф Шкода"
+      }
+    },
+    {
+      "slug": "alexander-gordon-physician",
+      "birth_year": 1752,
+      "death_year": 1799,
+      "role": "predecessor",
+      "name": {
+        "en": "Alexander Gordon",
+        "tr": "Alexander Gordon",
+        "ru": "Александр Гордон",
+        "ky": "Александр Гордон"
+      }
+    },
+    {
+      "slug": "thomas-watson-physician",
+      "birth_year": 1792,
+      "death_year": 1882,
+      "role": "predecessor",
+      "name": {
+        "en": "Thomas Watson",
+        "tr": "Thomas Watson",
+        "ru": "Томас Уотсон",
+        "ky": "Томас Уотсон"
+      }
+    },
+    {
+      "slug": "oliver-wendell-holmes-sr",
+      "birth_year": 1809,
+      "death_year": 1894,
+      "role": "predecessor",
+      "name": {
+        "en": "Oliver Wendell Holmes",
+        "tr": "Oliver Wendell Holmes",
+        "ru": "Оливер Уэнделл Холмс",
+        "ky": "Оливер Уэнделл Холмс"
+      }
+    },
+    {
+      "slug": "rudolf-virchow",
+      "birth_year": 1821,
+      "death_year": 1902,
+      "role": "rival",
+      "name": {
+        "en": "Rudolf Virchow",
+        "tr": "Rudolf Virchow",
+        "ru": "Рудольф Вирхов",
+        "ky": "Рудольф Вирхов"
+      }
+    },
+    {
+      "slug": "louis-pasteur",
+      "birth_year": 1822,
+      "death_year": 1895,
+      "role": "successor",
+      "name": {
+        "en": "Louis Pasteur",
+        "tr": "Louis Pasteur",
+        "ru": "Луи Пастер",
+        "ky": "Луи Пастер"
+      }
+    },
+    {
+      "slug": "joseph-lister",
+      "birth_year": 1827,
+      "death_year": 1912,
+      "role": "successor",
+      "name": {
+        "en": "Joseph Lister",
+        "tr": "Joseph Lister",
+        "ru": "Джозеф Листер",
+        "ky": "Жозеф Листер"
+      }
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "Ignaz Semmelweis — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+    },
+    {
+      "title": "Postpartum infections (history) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Postpartum_infections"
+    },
+    {
+      "title": "Alexander Gordon (physician) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Gordon_(physician)"
+    },
+    {
+      "title": "Jakob Kolletschka — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jakob_Kolletschka"
+    },
+    {
+      "title": "Ignaz Semmelweis — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Ignaz-Semmelweis"
+    },
+    {
+      "title": "Ravel V, Pandiyan C, Chandran K, \"Ignaz Philipp Semmelweis (1818–1865) – a public health visionary and champion of hand hygiene\", GMS Hygiene and Infection Control 20 (2025) Doc79",
+      "kind": "paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720402/"
+    },
+    {
+      "title": "Paul S et al., \"Pioneering Hand Hygiene: Ignaz Semmelweis and the Fight Against Puerperal Fever\", Cureus 16 (2024) e71689",
+      "kind": "paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11568873/"
+    },
+    {
+      "title": "Joseph Lister's antisepsis system (first carbolic case, August 1865; Lancet papers 1867) — PMC",
+      "kind": "paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3744349"
+    }
+  ],
+  "research_note": "Checked 2026-11-14 against English Wikipedia (Ignaz Semmelweis; Postpartum infections; Alexander Gordon (physician); Jakob Kolletschka), Ravel et al. 2025 in GMS Hygiene and Infection Control (PMC12720402: 1846/1847/1848 clinic figures, rejected hypotheses incl. birthing position and priest's bell, Hebra Dec 1847/Apr 1848, Škoda speaking for him), Paul et al. 2024 in Cureus (moderate-quality review; used only for corroboration), and a PMC paper on Lister's first carbolic case. Britannica linked for human review only (automated fetch blocked). YEAR: 1847 exact, undisputed (handwashing order mid-May 1847; Kolletschka died 13 March 1847). FIGURES: April 1847 18.3%, June 2.2, July 1.2, August 1.9 (Wikipedia); 1848 First Clinic 45/3556 = 1.27%, Second 43/3219 = 1.33% (GMS 2025); 1846 11.4% vs 2.7–2.8% rendered as 'about one in nine' vs 'fewer than one in thirty'; Saint Rochus 1851–55 8 deaths in 933 births (0.85%). PRIORITY / NO LONE HERO: Alexander Gordon 1795, Thomas Watson 1842 (chlorine washing, from Wikipedia 'Postpartum infections' only — reviewer may want a second source), Holmes 1843 all in the body; the women of Vienna (street births) and the midwives' clinic are the control that made the finding visible; Hebra and Škoda spread it. A NOTE box says the two-clinic comparison was not a planned trial and cannot by itself prove cause. FACT-CHECK (fact-checker agent, 2026-11-14), fixes applied in all four languages: (1) Lister: began carbolic antisepsis in 1865 (first case James Greenlees, August 1865), published 1867 — the draft had 'began in 1867'; (2) cover caption: Canzi's 1857 portrait is a watercolour by a painter/photographer, not a lithograph; (3) 'chlorine removed the smell that soap left behind' — soap comparison not in any opened source, reduced to 'worked best at removing the smell' (Wikipedia); (4) overcrowding was ruled out because the Second Clinic was more crowded, not because of shared air — rephrased; (5) Pasteur timing: 'within a few years of his death' -> 'in the same years'. UNCERTAIN / FOR REVIEWER: 'admitted on alternate days' is a simplification (24-hour alternation; First Clinic reportedly took 4 days a week per Semmelweis's own account); Semmelweis also spoke himself at the Vienna Medical Society in May 1850 (not mentioned); the cause of his mental illness and whether the beating caused the fatal wound are uncertain and the body says so. Four of the sources are Wikipedia; a strong independent book (K. Codell Carter's 1983 translation of Semmelweis's Etiology, or Loudon) was not opened. builds_on left empty: no existing slug is a real predecessor (Holmes appears only as a person in ether-anesthesia). IMAGES via commons.mjs, values verbatim: cover File:Semmelweis_Ignác_1857_Canzi_Ágost.jpg (Auguste Alexis Canzi, public domain). Figures: File:Yearly_mortality_rates_1841-1846_two_clinics.svg (Eroica, CC0; a modern chart of Semmelweis's published data — the author line is a Commons username); File:Ignaz_Semmelweis_1861_Etiology_front_page.jpg (credit 'Ignaz Philipp Semmelweis', public domain; Commons gives no date field, the book is 1861). Rejected: File:Ignaz_Semmelweis_1860.jpg (credit line 'After Jenő Doby's engravig' is thin/misspelt); File:Alexander_Gordon_MD.jpg (2019 photo by a user, unclear subject). KYRGYZ: glossary terms used (high): оору, дене, анатомия, микроб, бактерия, далил, теория, вакцина, байкоо, ачылыш, идея, китеп, университет, аба. Glossary entries marked 'check' that ARE used: зат ('чирий баштаган зат', decaying matter) and кислота ('карбол кислотасы', carbolic acid). Not in glossary, model's own choices to confirm: төрөт ысытмасы (childbed fever), акушерка, оорукана, өлүк жаруу (autopsy/dissection), хлордуу акиташ (chlorinated lime), инфекция, сезгенүү (inflammation), ириңдеген жара (infected wound), карбол кислотасы, психиатриялык оорукана, «Земмельвейс рефлекси». Names follow the Russian tradition (Земмельвейс, Коллечка, Гебра, Шкода, Жозеф Листер). TURKISH: 'lohusa humması' for childbed fever, 'kireç kaymağı (klorlu kireç)' for chlorinated lime.",
+  "translations": {
+    "en": {
+      "title": "Semmelweis: washing hands saves mothers",
+      "summary": "In Vienna in 1847, Ignaz Semmelweis had doctors wash their hands in chlorine before touching mothers, and deaths from childbed fever fell sharply. Medicine took decades to accept why.",
+      "why_it_matters": "It was among the first hard evidence that doctors' own hands could carry deadly disease, and that a cheap habit could stop it. Years before germs were understood, the numbers already pointed the way to modern infection control.",
+      "if_you_were_there": "You are about to give birth in Vienna and you know which ward to fear. Some women in your position would rather have the baby in the street.",
+      "place_name": "Vienna",
+      "body": "![Ignaz Semmelweis in 1857, ten years after the handwashing order in Vienna. Watercolour portrait by the painter Auguste Canzi.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Semmelweis_Ign%C3%A1c_1857_Canzi_%C3%81gost.jpg \"Auguste Alexis Canzi · Public domain · https://commons.wikimedia.org/wiki/File:Semmelweis_Ignác_1857_Canzi_Ágost.jpg\")\n\n### The scene\n\nIn the 1840s the Vienna General Hospital ran one of the largest maternity wards in Europe, split into two clinics. Women were admitted to them on alternate days. The First Clinic taught medical students, who came to the delivery room from their anatomy lessons on the dead. The Second Clinic trained midwives, who did no dissections.\n\nBoth clinics lost mothers to childbed fever, an infection that could set in within days of giving birth and kill in a few more. But the First Clinic lost far more. In 1846 about one woman in nine admitted there died, against fewer than one in thirty in the Second. The women of Vienna knew this. Some begged not to be taken to the First Clinic, and some gave birth in the street on the way, so that they would be admitted after the birth. Ignaz Semmelweis, a 28-year-old Hungarian who became assistant in the First Clinic in July 1846, noticed something odd: the women who gave birth in the street rarely caught the fever.\n\n![Yearly death rates from childbed fever in the two Vienna maternity clinics, 1841–1846, from the figures Semmelweis later published. The First Clinic, staffed by doctors and students, is far above the Second, staffed by midwives.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Yearly_mortality_rates_1841-1846_two_clinics.svg \"Eroica · CC0 · https://commons.wikimedia.org/wiki/File:Yearly_mortality_rates_1841-1846_two_clinics.svg\")\n\n### What happened\n\nSemmelweis worked through the explanations on offer and tested the ones he could. He had women in the First Clinic give birth lying on their side, as in the Second. He had the priest, whose bell was said to terrify the dying, change his route. Neither changed the death rate. Overcrowding could not explain it either, since the Second Clinic was even more crowded, and the weather was the same for both clinics under one roof.\n\nThe answer came from a death that was not a mother's. On 13 March 1847 his colleague Jakob Kolletschka, a professor of forensic medicine, died after a student's knife pricked his finger during a post-mortem. Kolletschka's own autopsy showed the same inflammations Semmelweis saw in women dying of childbed fever. Semmelweis drew the conclusion: something from the corpses, which he called \"cadaverous particles\", was getting into the wound, and the doctors and students were carrying the same thing on their hands from the dissecting room to the women in labour. The midwives did not dissect, and that was the difference between the two clinics.\n\nIn mid-May 1847 he ordered everyone in the First Clinic to wash their hands in a solution of chlorinated lime before examining a patient. He chose chlorine because it worked best at removing the smell of the dissecting room. In April the death rate had been 18.3 per cent. In June it was 2.2, in July 1.2, in August 1.9. Over 1848 the First Clinic lost about 1.3 per cent of its mothers, the same as the midwives' clinic. Later he widened the rule: decaying matter from living patients, not only from corpses, could carry the disease too.\n\nAn analogy: it is like a cook who cuts raw chicken and then, without washing, slices bread for a salad. The bread looks clean and the danger moves unseen. The analogy breaks where history matters most: today's cook knows the danger is bacteria, while Semmelweis had no idea what his \"particles\" were. He had a rule that worked and no theory of why it worked.\n\n### Not the first to see it\n\nOthers had come close. In 1795 the Scottish doctor Alexander Gordon wrote in his treatise on an epidemic in Aberdeen that midwives and doctors carried childbed fever from one woman to the next; he admitted he had carried it himself, and he urged attendants to wash and to fumigate their clothes. In 1842 the London physician Thomas Watson recommended washing in chlorine and changing clothes between patients. In 1843 the American physician Oliver Wendell Holmes argued in an essay that the fever was spread by those who attended births, and was ridiculed for it. What Semmelweis added was the comparison: two clinics in one building, thousands of births a year, and a change on a single date followed by a fall in the numbers.\n\n> [!NOTE]\n> The two-clinic comparison was not a planned trial: the clinics differed in more than handwashing, so the numbers alone cannot prove the cause. But the size and speed of the fall, and the fact that the midwives' rate did not change, made his case far stronger than any single doctor's impression.\n\n### Why it was so hard\n\nMedicine in 1847 had no germs to point to. Most doctors explained childbed fever by an imbalance of the body's fluids, by bad air, or as a set of different illnesses with different causes; one leading Vienna textbook later listed some thirty causes and put cadaverous infection near the bottom. A rule saying that one invisible cause, carried by the doctors themselves, was killing the patients went against both the theory and the pride of the profession.\n\nSemmelweis also made it hard for himself. For more than ten years he hardly published. His results reached the world through others: the dermatologist Ferdinand von Hebra announced them in his journal in December 1847 and April 1848, comparing the discovery to Jenner's vaccine, and the physician Josef Škoda spoke for him in Vienna. Secondhand reports reduced his idea to \"corpses cause fever\", which critics could easily dismiss. His contract was not renewed in 1849, and in 1850 he left Vienna for Pest. At the city's Saint Rochus Hospital, and later as professor of obstetrics at the University of Pest from 1855, he brought deaths down below one per cent again.\n\nHis book on the cause and prevention of childbed fever finally appeared in 1861. It was long, angry and poorly received, and he followed it with open letters calling his opponents murderers. The influential pathologist Rudolf Virchow was among those who remained unconvinced.\n\n![Title page of Semmelweis's 1861 book \"The Etiology, Concept and Prophylaxis of Childbed Fever\", published fourteen years after the handwashing order.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Ignaz_Semmelweis_1861_Etiology_front_page.jpg \"Ignaz Philipp Semmelweis · Public domain · https://commons.wikimedia.org/wiki/File:Ignaz_Semmelweis_1861_Etiology_front_page.jpg\")\n\nThe end was bleak. In July 1865, as his behaviour became more erratic, colleagues had him committed to an asylum in Vienna. He was beaten by the guards there and died on 13 August 1865 of an infected wound, possibly from that beating. What his illness was is still uncertain.\n\n### What it opened\n\nIn the same years, the work of Louis Pasteur on microbes began to give a reason why washing worked. In 1865 the British surgeon Joseph Lister, building on Pasteur, began cleaning wounds and instruments with carbolic acid, and he published his results in 1867. Infection control in hospitals grew from these lines of work. Semmelweis's contribution to them was the evidence that a simple, cheap habit, applied by everyone every time, could change who lived and who died. His name is now used for a bias as well: the \"Semmelweis reflex\", the habit of rejecting new evidence because it does not fit what everyone already believes. Handwashing between patients remains a basic rule of hospital care.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Semmelweis: el yıkamak anneleri kurtarır",
+      "summary": "1847'de Viyana'da Ignaz Semmelweis hekimlere annelere dokunmadan önce ellerini klorla yıkattı ve lohusa hummasından ölümler sert düştü. Tıbbın nedenini kabul etmesi on yıllar sürdü.",
+      "why_it_matters": "Hekimlerin kendi ellerinin ölümcül hastalık taşıyabileceğine ve ucuz bir alışkanlığın bunu durdurabileceğine dair ilk sağlam kanıtlardan biriydi. Mikroplar anlaşılmadan yıllar önce rakamlar modern enfeksiyon kontrolünün yolunu gösteriyordu.",
+      "if_you_were_there": "Viyana'da doğum yapmak üzeresiniz ve hangi koğuştan korkmanız gerektiğini biliyorsunuz. Sizin durumunuzdaki bazı kadınlar bebeği sokakta doğurmayı tercih ediyor.",
+      "place_name": "Viyana",
+      "body": "![Ignaz Semmelweis 1857'de, Viyana'daki el yıkama talimatından on yıl sonra. Ressam Auguste Canzi'nin suluboya portresi.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Semmelweis_Ign%C3%A1c_1857_Canzi_%C3%81gost.jpg \"Auguste Alexis Canzi · Public domain · https://commons.wikimedia.org/wiki/File:Semmelweis_Ignác_1857_Canzi_Ágost.jpg\")\n\n### Sahne\n\n1840'larda Viyana Genel Hastanesi, Avrupa'nın en büyük doğumhanelerinden birini işletiyordu ve doğumhane iki kliniğe ayrılmıştı. Kadınlar bu kliniklere gün aşırı kabul ediliyordu. Birinci Klinik tıp öğrencilerini yetiştiriyordu; öğrenciler doğum odasına kadavralar üzerindeki anatomi derslerinden geliyordu. İkinci Klinik ebe yetiştiriyordu ve ebeler kadavra kesmiyordu.\n\nİki klinik de annelerini lohusa hummasına kaptırıyordu: doğumdan birkaç gün sonra başlayıp birkaç gün içinde öldürebilen bir enfeksiyon. Ama Birinci Klinik çok daha fazlasını kaybediyordu. 1846'da oraya yatan her dokuz kadından yaklaşık biri öldü; İkinci Klinik'te bu oran otuzda birin altındaydı. Viyanalı kadınlar bunu biliyordu. Kimisi Birinci Klinik'e götürülmemek için yalvarıyor, kimisi doğumdan sonra kabul edilmek için yolda, sokakta doğuruyordu. Temmuz 1846'da Birinci Klinik'e asistan olan 28 yaşındaki Macar hekim Ignaz Semmelweis tuhaf bir şey fark etti: sokakta doğuran kadınlar hummaya nadiren yakalanıyordu.\n\n![Viyana'daki iki doğum kliniğinde lohusa hummasından yıllık ölüm oranları, 1841–1846; Semmelweis'ın sonradan yayımladığı rakamlardan. Hekim ve öğrencilerin çalıştığı Birinci Klinik, ebelerin çalıştığı İkinci Klinik'in çok üstünde.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Yearly_mortality_rates_1841-1846_two_clinics.svg \"Eroica · CC0 · https://commons.wikimedia.org/wiki/File:Yearly_mortality_rates_1841-1846_two_clinics.svg\")\n\n### Ne oldu\n\nSemmelweis ortadaki açıklamaları tek tek ele aldı ve sınayabildiklerini sınadı. Birinci Klinik'teki kadınları, İkinci'deki gibi yan yatarak doğurttu. Zilinin can çekişenleri korkuttuğu söylenen rahibin güzergâhını değiştirtti. İkisi de ölüm oranını değiştirmedi. Kalabalık da bunu açıklayamazdı, çünkü İkinci Klinik daha da kalabalıktı; aynı çatı altındaki iki klinik için hava koşulları da aynıydı.\n\nCevap, bir annenin olmayan bir ölümden geldi. 13 Mart 1847'de meslektaşı, adli tıp profesörü Jakob Kolletschka, bir otopside bir öğrencinin bıçağı parmağını çizdikten sonra öldü. Kolletschka'nın otopsisi, Semmelweis'ın lohusa hummasından ölen kadınlarda gördüğü iltihapların aynısını gösterdi. Semmelweis sonucu çıkardı: kadavralardan gelen bir şey, onun deyişiyle \"kadavra parçacıkları\", yaraya giriyordu ve hekimlerle öğrenciler aynı şeyi elleriyle teşrih salonundan doğum yapan kadınlara taşıyordu. Ebeler kadavra kesmiyordu; iki klinik arasındaki fark buydu.\n\nMayıs 1847'nin ortasında Birinci Klinik'teki herkesin hastaya dokunmadan önce ellerini kireç kaymağı (klorlu kireç) çözeltisinde yıkamasını emretti. Kloru seçti, çünkü teşrih salonu kokusunu en iyi o gideriyordu. Nisanda ölüm oranı yüzde 18,3'tü. Haziranda 2,2, temmuzda 1,2, ağustosta 1,9 oldu. 1848 boyunca Birinci Klinik annelerinin yaklaşık yüzde 1,3'ünü kaybetti: ebelerin kliniğiyle aynı. Sonra kuralı genişletti: hastalığı yalnızca kadavralardan değil, yaşayan hastalardan gelen çürüyen madde de taşıyabilirdi.\n\nBir benzetme: çiğ tavuk doğrayıp elini yıkamadan salata için ekmek dilimleyen bir aşçı düşünün. Ekmek temiz görünür, tehlike görünmeden yer değiştirir. Benzetme, tarihin en çok önemsediği yerde bozulur: bugünün aşçısı tehlikenin bakteri olduğunu bilir; Semmelweis ise \"parçacıklarının\" ne olduğunu hiç bilmiyordu. Elinde işe yarayan bir kural vardı ama neden işe yaradığını açıklayan bir teori yoktu.\n\n### Bunu ilk gören o değildi\n\nBaşkaları da yaklaşmıştı. 1795'te İskoç hekim Alexander Gordon, Aberdeen'deki bir salgın üzerine yazdığı incelemede lohusa hummasını ebelerin ve hekimlerin bir kadından ötekine taşıdığını yazdı; kendisinin de taşıdığını kabul etti ve doğuma bakanların yıkanmasını, giysilerini tütsülemesini istedi. 1842'de Londralı hekim Thomas Watson, hastalar arasında klorla yıkanmayı ve giysi değiştirmeyi önerdi. 1843'te Amerikalı hekim Oliver Wendell Holmes bir denemesinde hummayı doğuma bakanların yaydığını savundu ve bu yüzden alay konusu oldu. Semmelweis'ın eklediği şey karşılaştırmaydı: aynı binada iki klinik, yılda binlerce doğum ve tek bir tarihte yapılan değişikliğin ardından rakamlardaki düşüş.\n\n> [!NOTE]\n> İki klinik karşılaştırması planlanmış bir deney değildi: klinikler el yıkamadan başka şeylerde de farklıydı, bu yüzden rakamlar tek başına nedeni kanıtlayamaz. Ama düşüşün büyüklüğü ve hızı, ebelerin oranının da değişmemesi, onun savını tek bir hekimin izleniminden çok daha güçlü kılıyordu.\n\n### Neden bu kadar zordu\n\n1847'de tıbbın gösterebileceği bir mikrop yoktu. Hekimlerin çoğu lohusa hummasını vücut sıvılarının dengesizliğiyle, kötü havayla ya da farklı nedenleri olan farklı hastalıkların toplamı olarak açıklıyordu; Viyana'nın önde gelen bir ders kitabı sonradan otuz kadar neden saydı ve kadavra bulaşmasını listenin sonlarına koydu. Hastaları tek bir görünmez nedenin öldürdüğünü, üstelik bunu hekimlerin kendilerinin taşıdığını söyleyen bir kural hem teoriye hem de mesleğin gururuna ters düşüyordu.\n\nSemmelweis işi kendisi için de zorlaştırdı. On yılı aşkın süre neredeyse hiç yayın yapmadı. Sonuçları dünyaya başkaları aracılığıyla ulaştı: dermatolog Ferdinand von Hebra bunları Aralık 1847 ve Nisan 1848'de dergisinde duyurdu ve buluşu Jenner'in aşısına benzetti; hekim Josef Škoda da Viyana'da onun adına konuştu. İkinci elden aktarımlar fikrini \"kadavralar humma yapar\"a indirdi ve eleştirmenler bunu kolayca reddetti. Görev süresi 1849'da uzatılmadı ve 1850'de Viyana'dan Peşte'ye gitti. Şehrin Aziz Rokus Hastanesi'nde, sonra 1855'ten itibaren Peşte Üniversitesi'nde doğum profesörü olarak ölümleri yeniden yüzde birin altına indirdi.\n\nLohusa hummasının nedeni ve önlenmesi üzerine kitabı sonunda 1861'de çıktı. Uzun ve öfkeliydi, kötü karşılandı; ardından muhaliflerini katil diye nitelediği açık mektuplar yazdı. Etkili patolog Rudolf Virchow da ikna olmayanlar arasındaydı.\n\n![Semmelweis'ın 1861 tarihli \"Lohusa Hummasının Etiyolojisi, Kavramı ve Önlenmesi\" kitabının başlık sayfası; el yıkama talimatından on dört yıl sonra yayımlandı.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Ignaz_Semmelweis_1861_Etiology_front_page.jpg \"Ignaz Philipp Semmelweis · Public domain · https://commons.wikimedia.org/wiki/File:Ignaz_Semmelweis_1861_Etiology_front_page.jpg\")\n\nSonu karanlıktı. Temmuz 1865'te davranışları giderek tutarsızlaşınca meslektaşları onu Viyana'da bir akıl hastanesine yatırdı. Orada gardiyanlar onu dövdü ve 13 Ağustos 1865'te, belki de bu dayaktan kalan, iltihaplanmış bir yaradan öldü. Hastalığının ne olduğu bugün de belirsiz.\n\n### Neyin kapısını açtı\n\nAynı yıllarda Louis Pasteur'ün mikroplar üzerine çalışmaları yıkamanın neden işe yaradığına bir gerekçe vermeye başladı. 1865'te İngiliz cerrah Joseph Lister, Pasteur'den yola çıkarak yaraları ve aletleri karbolik asitle temizlemeye başladı ve sonuçlarını 1867'de yayımladı. Hastanelerde enfeksiyon kontrolü bu çalışma hatlarından büyüdü. Semmelweis'ın bunlara katkısı, basit ve ucuz bir alışkanlığın, herkes tarafından her seferinde uygulandığında kimin yaşayıp kimin öleceğini değiştirebildiğinin kanıtıydı. Adı artık bir önyargı için de kullanılıyor: \"Semmelweis refleksi\", yeni bir kanıtı herkesin zaten inandığına uymadığı için reddetme alışkanlığı. Hastalar arasında el yıkamak bugün de hastane bakımının temel kuralı.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Земмельвейс: мытьё рук спасает матерей",
+      "summary": "В 1847 году в Вене Игнац Земмельвейс заставил врачей мыть руки хлором перед осмотром рожениц, и смертность от родильной горячки резко упала. Объяснение медицина принимала десятилетиями.",
+      "why_it_matters": "Это одно из первых твёрдых доказательств того, что руки самих врачей могут переносить смертельную болезнь, а дешёвая привычка может её остановить. За годы до понимания микробов цифры уже указывали путь к современной борьбе с инфекциями.",
+      "if_you_were_there": "Вам предстоит рожать в Вене, и вы знаете, какой палаты бояться. Некоторые женщины в вашем положении предпочитают родить прямо на улице.",
+      "place_name": "Вена",
+      "body": "![Игнац Земмельвейс в 1857 году, через десять лет после приказа о мытье рук в Вене. Акварельный портрет работы художника Огюста Канци.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Semmelweis_Ign%C3%A1c_1857_Canzi_%C3%81gost.jpg \"Auguste Alexis Canzi · Public domain · https://commons.wikimedia.org/wiki/File:Semmelweis_Ignác_1857_Canzi_Ágost.jpg\")\n\n### Обстановка\n\nВ 1840-х годах Венская городская больница содержала одно из крупнейших родильных отделений Европы, разделённое на две клиники. Женщин принимали в них через день. В Первой клинике учились студенты-медики, которые приходили в родильный зал прямо с занятий по анатомии на трупах. Во Второй клинике готовили акушерок, а они вскрытий не делали.\n\nОбе клиники теряли матерей от родильной горячки — инфекции, которая могла начаться через несколько дней после родов и убить ещё за несколько. Но Первая клиника теряла гораздо больше. В 1846 году там умерла примерно каждая девятая поступившая женщина, а во Второй — меньше одной из тридцати. Жительницы Вены это знали. Одни умоляли не везти их в Первую клинику, другие рожали прямо на улице по дороге, чтобы попасть в больницу уже после родов. Игнац Земмельвейс, 28-летний венгр, ставший ассистентом Первой клиники в июле 1846 года, заметил странность: женщины, родившие на улице, горячкой болели редко.\n\n![Годовая смертность от родильной горячки в двух венских родильных клиниках, 1841–1846, по данным, которые Земмельвейс позже опубликовал. Первая клиника, где работали врачи и студенты, намного выше Второй, где работали акушерки.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Yearly_mortality_rates_1841-1846_two_clinics.svg \"Eroica · CC0 · https://commons.wikimedia.org/wiki/File:Yearly_mortality_rates_1841-1846_two_clinics.svg\")\n\n### Что произошло\n\nЗеммельвейс перебрал существовавшие объяснения и проверил те, что мог. Он велел женщинам в Первой клинике рожать лёжа на боку, как во Второй. Он попросил священника, чей колокольчик якобы пугал умирающих, изменить свой путь. Ни то ни другое смертность не изменило. Теснота тоже ничего не объясняла: во Второй клинике было ещё теснее, а погода для двух клиник под одной крышей была одинаковой.\n\nОтвет пришёл со смертью, которая не была смертью матери. 13 марта 1847 года умер его коллега, профессор судебной медицины Якоб Коллечка: на вскрытии студент случайно уколол ему палец ножом. Вскрытие самого Коллечки показало те же воспаления, что Земмельвейс видел у женщин, умерших от родильной горячки. Земмельвейс сделал вывод: что-то из трупов, он назвал это «трупными частицами», попадало в рану, и врачи со студентами переносили то же самое на руках из прозекторской к роженицам. Акушерки трупов не вскрывали — в этом и было различие двух клиник.\n\nВ середине мая 1847 года он приказал всем в Первой клинике мыть руки раствором хлорной извести перед осмотром пациентки. Он выбрал хлор, потому что тот лучше всего убирал запах прозекторской. В апреле смертность составляла 18,3 процента. В июне — 2,2, в июле — 1,2, в августе — 1,9. За 1848 год Первая клиника потеряла около 1,3 процента матерей, столько же, сколько клиника акушерок. Позже он расширил правило: болезнь могло переносить и разлагающееся вещество от живых больных, а не только от трупов.\n\nСравнение: представьте повара, который режет сырую курицу, а потом, не вымыв рук, нарезает хлеб для салата. Хлеб выглядит чистым, а опасность незаметно переходит на него. Сравнение ломается там, где для истории важнее всего: сегодняшний повар знает, что опасность — это бактерии, а Земмельвейс понятия не имел, что такое его «частицы». У него было правило, которое работало, но не было теории, объяснявшей, почему.\n\n### Не первый, кто это увидел\n\nДругие подходили близко. В 1795 году шотландский врач Александр Гордон в трактате об эпидемии в Абердине написал, что акушерки и врачи переносят родильную горячку от одной женщины к другой; он признал, что переносил её и сам, и призывал тех, кто принимает роды, мыться и окуривать одежду. В 1842 году лондонский врач Томас Уотсон советовал мыть руки хлором и менять одежду между пациентами. В 1843 году американский врач Оливер Уэнделл Холмс в очерке доказывал, что горячку разносят те, кто принимает роды, и был за это осмеян. Земмельвейс добавил сравнение: две клиники в одном здании, тысячи родов в год и одна перемена в определённый день, после которой цифры упали.\n\n> [!NOTE]\n> Сравнение двух клиник не было спланированным испытанием: клиники отличались не только мытьём рук, поэтому одни цифры не доказывают причину. Но размер и скорость падения, а также то, что смертность у акушерок не изменилась, делали его довод гораздо сильнее впечатления отдельного врача.\n\n### Почему это было так трудно\n\nВ 1847 году медицина не могла указать ни на какие микробы. Большинство врачей объясняли родильную горячку нарушением равновесия жидкостей тела, дурным воздухом или считали её набором разных болезней с разными причинами; один ведущий венский учебник позже перечислил около тридцати причин и поставил трупное заражение почти в самый конец. Правило, согласно которому пациенток убивает одна невидимая причина, да ещё переносимая самими врачами, шло против и теории, и гордости профессии.\n\nЗеммельвейс и сам себе мешал. Больше десяти лет он почти ничего не публиковал. Его результаты доходили до мира через других: дерматолог Фердинанд фон Гебра объявил о них в своём журнале в декабре 1847 и апреле 1848 года, сравнив открытие с вакциной Дженнера, а врач Йозеф Шкода выступал за него в Вене. Пересказы сводили его идею к формуле «трупы вызывают горячку», которую критикам было легко отвергнуть. В 1849 году его должность не продлили, а в 1850 году он уехал из Вены в Пешт. В городской больнице Святого Роха, а с 1855 года как профессор акушерства Пештского университета он снова снизил смертность ниже одного процента.\n\nЕго книга о причине и предупреждении родильной горячки вышла наконец в 1861 году. Она была длинной и гневной и была плохо принята; за ней последовали открытые письма, в которых он называл противников убийцами. Влиятельный патолог Рудольф Вирхов был среди тех, кого он так и не убедил.\n\n![Титульный лист книги Земмельвейса «Этиология, сущность и профилактика родильной горячки» 1861 года, вышедшей через четырнадцать лет после приказа о мытье рук.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Ignaz_Semmelweis_1861_Etiology_front_page.jpg \"Ignaz Philipp Semmelweis · Public domain · https://commons.wikimedia.org/wiki/File:Ignaz_Semmelweis_1861_Etiology_front_page.jpg\")\n\nКонец был мрачным. В июле 1865 года, когда его поведение становилось всё более странным, коллеги поместили его в психиатрическую лечебницу в Вене. Там его избили надзиратели, и 13 августа 1865 года он умер от заражённой раны, возможно, полученной при этом избиении. Чем именно он болел, до сих пор неясно.\n\n### Что это открыло\n\nВ те же годы работы Луи Пастера о микробах начали объяснять, почему мытьё помогает. В 1865 году британский хирург Джозеф Листер, опираясь на Пастера, начал обрабатывать раны и инструменты карболовой кислотой и в 1867 году опубликовал результаты. Из этих направлений выросла борьба с инфекциями в больницах. Вклад Земмельвейса — доказательство того, что простая и дешёвая привычка, если её соблюдают все и каждый раз, может решить, кто выживет, а кто умрёт. Его имя теперь носит и одно когнитивное искажение: «рефлекс Земмельвейса» — привычка отвергать новые данные, потому что они не вписываются в то, во что все уже верят. Мытьё рук между пациентами и сегодня остаётся основным правилом больничного ухода.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Земмельвейс: кол жуу энелерди сактайт",
+      "summary": "1847-жылы Венада Игнац Земмельвейс дарыгерлерге энелерди кароодон мурун колун хлор менен жуудурду, төрөт ысытмасынан өлүм кескин азайды. Медицина себебин ондогон жылдар бою кабыл алган жок.",
+      "why_it_matters": "Бул дарыгерлердин өз колдору өлүмгө алып келчү ооруну ташый аларынын жана арзан адат аны токтото аларынын алгачкы бекем далилдеринин бири болгон. Микробдор түшүнүлгөнгө чейин эле сандар азыркы инфекцияга каршы күрөшкө жол көрсөткөн.",
+      "if_you_were_there": "Сиз Венада төрөй турган болдуңуз жана кайсы палатадан коркуу керектигин билесиз. Сиздин абалыңыздагы кээ бир аялдар баланы көчөдө төрөгөндү артык көрүшөт.",
+      "place_name": "Вена",
+      "body": "![Игнац Земмельвейс 1857-жылы, Венада кол жуу буйругунан он жыл өткөндө. Сүрөтчү Огюст Канцинин акварель портрети.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Semmelweis_Ign%C3%A1c_1857_Canzi_%C3%81gost.jpg \"Auguste Alexis Canzi · Public domain · https://commons.wikimedia.org/wiki/File:Semmelweis_Ignác_1857_Canzi_Ágost.jpg\")\n\n### Окуя болгон жер\n\n1840-жылдары Венанын жалпы ооруканасында Европадагы эң чоң төрөт бөлүмдөрүнүн бири иштеп, ал эки клиникага бөлүнгөн эле. Аялдар аларга кезек менен, бир күн бирине, бир күн экинчисине кабыл алынчу. Биринчи клиникада медицина студенттери окушчу; алар төрөт бөлмөсүнө өлүктөрдүн үстүндөгү анатомия сабагынан түз келишчү. Экинчи клиникада акушеркалар даярдалчу, алар өлүк жарышчу эмес.\n\nЭки клиника тең энелерди төрөт ысытмасынан жоготчу. Бул төрөттөн бир нече күн кийин башталып, дагы бир нече күндө өлтүрүп коюшу мүмкүн болгон инфекция эле. Бирок Биринчи клиника алда канча көп жоготчу. 1846-жылы ал жакка жаткан болжол менен ар бир тогузунчу аял каза болгон, ал эми Экинчи клиникада бул отуздан бирге да жеткен эмес. Венанын аялдары муну билишчү. Кээ бирөөлөрү Биринчи клиникага жибербөөнү жалынып суранышчу, кээ бирөөлөрү ооруканага төрөгөндөн кийин кабыл алынуу үчүн жолдо, көчөдө төрөшчү. 1846-жылдын июлунда Биринчи клиникага ассистент болуп келген 28 жаштагы венгр Игнац Земмельвейс таң калыштуу нерсени байкады: көчөдө төрөгөн аялдар ысытмага сейрек чалдыгышчу.\n\n![1841–1846-жылдары Венанын эки төрөт клиникасында төрөт ысытмасынан жылдык өлүм көрсөткүчү, Земмельвейс кийин жарыялаган сандар боюнча. Дарыгерлер менен студенттер иштеген Биринчи клиника акушеркалар иштеген Экинчи клиникадан алда канча жогору.](https://upload.wikimedia.org/wikipedia/commons/c/c0/Yearly_mortality_rates_1841-1846_two_clinics.svg \"Eroica · CC0 · https://commons.wikimedia.org/wiki/File:Yearly_mortality_rates_1841-1846_two_clinics.svg\")\n\n### Эмне болду\n\nЗеммельвейс ошол кездеги түшүндүрмөлөрдү бирден карап чыгып, текшере алгандарын текшерди. Биринчи клиникадагы аялдарды Экинчидегидей капталынан жатып төрөтүүнү буйрук кылды. Коңгуроосу жан берип жаткандарды коркутат деп айтылган дин кызматчыдан башка жол менен жүрүүнү суранды. Экөө тең өлүмдү азайткан жок. Ыгы-жыгы да муну түшүндүрө алчу эмес, анткени Экинчи клиника андан да толгон болчу; бир чатыр астындагы эки клиника үчүн аба ырайы да бирдей эле.\n\nЖооп эненин эмес, башка бирөөнүн өлүмүнөн келди. 1847-жылдын 13-мартында анын кесиптеши, сот медицинасынын профессору Якоб Коллечка өлүктү жарып жатканда студенттин бычагы манжасын тилип алгандан кийин каза болду. Коллечканын өз сөөгүн жарганда Земмельвейс төрөт ысытмасынан өлгөн аялдардан көргөн сезгенүүлөрдүн дал өзү чыкты. Земмельвейс мындай корутунду чыгарды: өлүктөрдөн чыккан бир нерсе, аны өзү «өлүк бөлүкчөлөрү» деп атаган, жарага кирет, ал эми дарыгерлер менен студенттер ошол эле нерсени колдору менен өлүк жаруучу бөлмөдөн төрөп жаткан аялдарга ташып жүрүшөт. Акушеркалар өлүк жарышчу эмес, эки клиниканын айырмасы ушунда эле.\n\n1847-жылдын май айынын ортосунда ал Биринчи клиникадагы бардык адамга бейтапты кароодон мурун колун хлордуу акиташтын эритмесинде жуууну буйрук кылды. Хлорду тандады, анткени өлүк жаруучу бөлмөнүн жытын эң жакшы ушул кетирчү. Апрелде өлүм 18,3 пайыз болгон. Июнда 2,2, июлда 1,2, августта 1,9 болду. 1848-жылы Биринчи клиника энелердин болжол менен 1,3 пайызын жоготту, акушеркалардын клиникасындай эле. Кийин ал эрежени кеңейтти: ооруну өлүктөн гана эмес, тирүү бейтаптардан чыккан чирий баштаган зат да жуктурушу мүмкүн.\n\nСалыштырып көрөлү: чийки тоокту туурап, колун жубай туруп салатка нан кесип жаткан ашпозчуну элестетиңиз. Нан таза көрүнөт, ал эми коркунуч көзгө көрүнбөй ага өтөт. Салыштыруу тарых үчүн эң маанилүү жерде бузулат: бүгүнкү ашпозчу коркунуч бактерия экенин билет, ал эми Земмельвейс өзүнүн «бөлүкчөлөрү» эмне экенин такыр билчү эмес. Анын колунда иштеген эреже бар болчу, бирок эмне үчүн иштээрин түшүндүргөн теория жок эле.\n\n### Муну биринчи көргөн ал эмес\n\nБашкалар да жакындап калышкан. 1795-жылы шотландиялык дарыгер Александр Гордон Абердиндеги жугуштуу оору тууралуу эмгегинде төрөт ысытмасын акушеркалар менен дарыгерлер бир аялдан экинчисине ташып жүрөрүн жазган; өзү да ташыганын мойнуна алып, төрөт кабыл алгандарды жуунууга жана кийимдерин түтөтүп тазалоого чакырган. 1842-жылы лондондук дарыгер Томас Уотсон бейтаптардын ортосунда колду хлор менен жууп, кийимди алмаштырууну сунуштаган. 1843-жылы америкалык дарыгер Оливер Уэнделл Холмс бир макаласында ысытманы төрөт кабыл алгандар таратат деп далилдеп, ушул үчүн шылдыңга калган. Земмельвейс кошкон нерсе салыштыруу болду: бир имараттагы эки клиника, жылына миңдеген төрөт жана бир күндө киргизилген өзгөрүүдөн кийин сандардын төмөндөшү.\n\n> [!NOTE]\n> Эки клиниканы салыштыруу алдын ала пландалган сыноо болгон эмес: клиникалар кол жуудан башка нерселер менен да айырмаланган, ошондуктан сандардын өзү гана себепке толук далил боло албайт. Бирок төмөндөөнүн көлөмү менен ылдамдыгы, акушеркалардагы көрсөткүч өзгөрбөгөнү анын пикирин бир дарыгердин жөн гана байкоосунан алда канча күчтүү кылган.\n\n### Эмне үчүн мынчалык оор болду\n\n1847-жылы медицина эч кандай микробду көрсөтө алчу эмес. Дарыгерлердин көбү төрөт ысытмасын дене суюктуктарынын тең салмагы бузулушу, жаман аба менен түшүндүрүшчү же аны ар башка себептен болгон ар башка оорулардын жыйындысы деп эсептешчү; Венанын алдыңкы окуу китептеринин бири кийин отузга жакын себепти санап, өлүктөн жугууну тизменин аягына жакын койгон. Бейтаптарды бир гана көзгө көрүнбөгөн себеп өлтүрөт, аны дагы дарыгерлердин өздөрү ташыйт деген эреже теорияга да, кесиптин намысына да каршы келчү.\n\nЗеммельвейс өзүнө да тоскоол болду. Он жылдан ашык убакыт дээрлик эч нерсе жарыялаган жок. Анын жыйынтыктары дүйнөгө башкалар аркылуу жетти: дерматолог Фердинанд фон Гебра аларды 1847-жылдын декабрында жана 1848-жылдын апрелинде өз журналында жарыялап, ачылышты Женнердин вакцинасы менен салыштырган, дарыгер Йозеф Шкода болсо Венада анын атынан сүйлөгөн. Башкалардын айтып бериши анын идеясын «өлүктөр ысытма жаратат» дегенге чейин кыскартып, сынчылар аны оңой эле четке кагышты. 1849-жылы анын кызмат мөөнөтү узартылган жок, 1850-жылы ал Венадан Пештке кетти. Шаардагы Ыйык Рох ооруканасында, кийин 1855-жылдан тартып Пешт университетинин акушерлик профессору катары ал өлүмдү кайрадан бир пайыздан төмөн түшүрдү.\n\nТөрөт ысытмасынын себеби жана алдын алуу тууралуу китеби акыры 1861-жылы чыкты. Ал узун, ачууга толгон китеп болуп, начар кабыл алынды; андан кийин ал каршылаштарын киши өлтүргүчтөр деп атаган ачык каттарды жазды. Таасирдүү патолог Рудольф Вирхов да ишенбей калгандардын арасында болгон.\n\n![Земмельвейстин 1861-жылкы «Төрөт ысытмасынын этиологиясы, түшүнүгү жана алдын алуу» китебинин титулдук барагы; кол жуу буйругунан он төрт жыл өткөндө чыккан.](https://upload.wikimedia.org/wikipedia/commons/0/0a/Ignaz_Semmelweis_1861_Etiology_front_page.jpg \"Ignaz Philipp Semmelweis · Public domain · https://commons.wikimedia.org/wiki/File:Ignaz_Semmelweis_1861_Etiology_front_page.jpg\")\n\nАнын акыры караңгы болду. 1865-жылдын июлунда жүрүм-туруму барган сайын түшүнүксүз боло баштаганда, кесиптештери аны Венадагы психиатриялык ооруканага жаткырышты. Ал жерде күзөтчүлөр аны сабашты, жана 1865-жылдын 13-августунда ал, балким, ошол сабоодон калган, ириңдеген жарадан каза болду. Анын эмне менен ооруганы азыр да белгисиз.\n\n### Эмнеге жол ачты\n\nОшол эле жылдары Луи Пастердин микробдор боюнча иштери жуунун эмне үчүн жардам берерин түшүндүрө баштады. 1865-жылы британиялык хирург Жозеф Листер Пастердин иштерине таянып, жараларды жана куралдарды карбол кислотасы менен тазалай баштады жана 1867-жылы жыйынтыктарын жарыялады. Ооруканалардагы инфекцияга каршы күрөш ушул иштерден өсүп чыкты. Земмельвейстин буга кошкон салымы — жөнөкөй жана арзан адат ар бир адам тарабынан ар бир жолу аткарылса, ким тирүү калып, ким өлөрүн өзгөртө аларынын далили. Азыр анын аты бир ой жүгүртүү катасына да берилген: «Земмельвейс рефлекси», башкача айтканда, жаңы далилди баары мурдатан ишенген нерсеге туура келбегени үчүн четке кагуу адаты. Бейтаптардын ортосунда кол жуу бүгүн да оорукана кароосунун негизги эрежеси бойдон калууда.",
+      "status": "machine"
+    }
+  }
+}
