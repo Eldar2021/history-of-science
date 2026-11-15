@@ -1,0 +1,316 @@
+{
+  "slug": "ozone-hole",
+  "year": 1985,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "region",
+  "lat": -75.58,
+  "lng": -26.65,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg",
+    "credit": "NASA",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg"
+  },
+  "disciplines": [
+    "earth"
+  ],
+  "people": [
+    {
+      "slug": "joseph-farman",
+      "birth_year": 1930,
+      "death_year": 2013,
+      "role": "author",
+      "name": {
+        "en": "Joseph Farman",
+        "tr": "Joseph Farman",
+        "ru": "Джозеф Фарман",
+        "ky": "Джозеф Фарман"
+      }
+    },
+    {
+      "slug": "brian-gardiner",
+      "birth_year": null,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Brian Gardiner",
+        "tr": "Brian Gardiner",
+        "ru": "Брайан Гардинер",
+        "ky": "Брайан Гардинер"
+      }
+    },
+    {
+      "slug": "jonathan-shanklin",
+      "birth_year": 1953,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Jonathan Shanklin",
+        "tr": "Jonathan Shanklin",
+        "ru": "Джонатан Шанклин",
+        "ky": "Джонатан Шанклин"
+      }
+    },
+    {
+      "slug": "shigeru-chubachi",
+      "birth_year": null,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Shigeru Chubachi",
+        "tr": "Shigeru Chubachi",
+        "ru": "Сигэру Тюбати",
+        "ky": "Сигэру Тюбати"
+      }
+    },
+    {
+      "slug": "mario-molina",
+      "birth_year": 1943,
+      "death_year": 2020,
+      "role": "predecessor",
+      "name": {
+        "en": "Mario Molina",
+        "tr": "Mario Molina",
+        "ru": "Марио Молина",
+        "ky": "Марио Молина"
+      }
+    },
+    {
+      "slug": "sherwood-rowland",
+      "birth_year": 1927,
+      "death_year": 2012,
+      "role": "predecessor",
+      "name": {
+        "en": "Sherwood Rowland",
+        "tr": "Sherwood Rowland",
+        "ru": "Шервуд Роуленд",
+        "ky": "Шервуд Роуленд"
+      }
+    },
+    {
+      "slug": "paul-crutzen",
+      "birth_year": 1933,
+      "death_year": 2021,
+      "role": "predecessor",
+      "name": {
+        "en": "Paul Crutzen",
+        "tr": "Paul Crutzen",
+        "ru": "Пауль Крутцен",
+        "ky": "Пауль Крутцен"
+      }
+    },
+    {
+      "slug": "james-lovelock",
+      "birth_year": 1919,
+      "death_year": 2022,
+      "role": "predecessor",
+      "name": {
+        "en": "James Lovelock",
+        "tr": "James Lovelock",
+        "ru": "Джеймс Лавлок",
+        "ky": "Джеймс Лавлок"
+      }
+    },
+    {
+      "slug": "thomas-midgley",
+      "birth_year": 1889,
+      "death_year": 1944,
+      "role": "predecessor",
+      "name": {
+        "en": "Thomas Midgley",
+        "tr": "Thomas Midgley",
+        "ru": "Томас Мидгли",
+        "ky": "Томас Мидгли"
+      }
+    },
+    {
+      "slug": "gordon-dobson",
+      "birth_year": 1889,
+      "death_year": 1976,
+      "role": "predecessor",
+      "name": {
+        "en": "Gordon Dobson",
+        "tr": "Gordon Dobson",
+        "ru": "Гордон Добсон",
+        "ky": "Гордон Добсон"
+      }
+    },
+    {
+      "slug": "charles-fabry",
+      "birth_year": 1867,
+      "death_year": 1945,
+      "role": "predecessor",
+      "name": {
+        "en": "Charles Fabry",
+        "tr": "Charles Fabry",
+        "ru": "Шарль Фабри",
+        "ky": "Шарль Фабри"
+      }
+    },
+    {
+      "slug": "henri-buisson",
+      "birth_year": 1873,
+      "death_year": 1944,
+      "role": "predecessor",
+      "name": {
+        "en": "Henri Buisson",
+        "tr": "Henri Buisson",
+        "ru": "Анри Бюиссон",
+        "ky": "Анри Бюиссон"
+      }
+    },
+    {
+      "slug": "susan-solomon",
+      "birth_year": 1956,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Susan Solomon",
+        "tr": "Susan Solomon",
+        "ru": "Сьюзан Соломон",
+        "ky": "Сьюзан Соломон"
+      }
+    },
+    {
+      "slug": "luisa-tan-molina",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "Luisa Tan Molina",
+        "tr": "Luisa Tan Molina",
+        "ru": "Луиса Тан Молина",
+        "ky": "Луиса Тан Молина"
+      }
+    },
+    {
+      "slug": "james-g-anderson",
+      "birth_year": null,
+      "death_year": null,
+      "role": "successor",
+      "name": {
+        "en": "James Anderson",
+        "tr": "James Anderson",
+        "ru": "Джеймс Андерсон",
+        "ky": "Джеймс Андерсон"
+      }
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "Ozone depletion — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ozone_depletion"
+    },
+    {
+      "title": "Montreal Protocol — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Montreal_Protocol"
+    },
+    {
+      "title": "Joseph Farman — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Farman"
+    },
+    {
+      "title": "Susan Solomon — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Susan_Solomon"
+    },
+    {
+      "title": "Ozone layer — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ozone_layer"
+    },
+    {
+      "title": "Farman, Gardiner and Shanklin, \"Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction\", Nature 315, 207–210 (1985)",
+      "kind": "paper",
+      "url": "https://doi.org/10.1038/315207a0"
+    },
+    {
+      "title": "The story behind the discovery of the ozone hole — UK Research and Innovation (NERC)",
+      "kind": "other",
+      "url": "https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/nerc/the-story-behind-the-discovery-of-the-ozone-hole/"
+    },
+    {
+      "title": "Antarctic ozone hole history — NASA Ozone Watch",
+      "kind": "other",
+      "url": "https://ozonewatch.gsfc.nasa.gov/facts/history_SH.html"
+    },
+    {
+      "title": "Gavin Schmidt, \"What did NASA know? and when did they know it?\" — RealClimate (2017)",
+      "kind": "other",
+      "url": "https://www.realclimate.org/index.php/archives/2017/12/what-did-nasa-know-and-when-did-they-know-it"
+    },
+    {
+      "title": "Bob Ward, \"UK Government Cuts to Science Funding Threaten the British Antarctic Survey\" (quotes Jonathan Shanklin) — HuffPost UK (2012)",
+      "kind": "article",
+      "url": "https://www.huffingtonpost.co.uk/entry/science-funding-cuts-british-antarctic-survey_b_1931681"
+    },
+    {
+      "title": "Airborne Antarctic Ozone Experiment overview — NOAA Chemical Sciences Laboratory",
+      "kind": "other",
+      "url": "https://csl.noaa.gov/projects/aaoe/overview.html"
+    },
+    {
+      "title": "Chubachi, \"Preliminary result of ozone observations at Syowa Station\", Memoirs of the National Institute of Polar Research 34 (1984)",
+      "kind": "paper",
+      "url": "https://nipr.repo.nii.ac.jp/records/1666"
+    },
+    {
+      "title": "Montreal Protocol status of ratification — United Nations Treaty Collection",
+      "kind": "other",
+      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-2-a&chapter=27&clang=_en"
+    },
+    {
+      "title": "Ozone depletion — Encyclopaedia Britannica (for the human reviewer)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/ozone-depletion"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "The ozone hole is found over Antarctica",
+      "summary": "In 1985 British scientists reported that spring ozone over Antarctica had fallen by about a third. Two years later the world agreed to cut the chemicals that caused it.",
+      "why_it_matters": "The ozone hole showed that ordinary chemicals made in factories could change the whole planet's atmosphere within a few decades. The Montreal Protocol that followed became the first treaty joined by every country, and it is the clearest case so far of the world acting on a scientific warning in time.",
+      "if_you_were_there": "In 1984 refrigerators and spray cans everywhere still used gases thought harmless to people, and the theory that they might harm the ozone layer predicted only a slow, distant thinning.",
+      "place_name": "Halley Research Station",
+      "body": "![Total ozone over the Southern Hemisphere in 1998, mapped from a NASA satellite; the blue and purple area over Antarctica is the ozone hole](https://upload.wikimedia.org/wikipedia/commons/b/b6/Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg \"NASA · Public domain · https://commons.wikimedia.org/wiki/File:Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg\")\n\n### The scene\n\nBetween about 15 and 35 kilometres above the ground lies a thin spread of ozone, a form of oxygen whose molecules have three atoms instead of two. It absorbs most of the Sun's harsher ultraviolet light, the kind that burns skin, damages eyes and harms plants and plankton. The layer was found in 1913 by the French physicists Charles Fabry and Henri Buisson. It is astonishingly thin: if all the ozone above your head were brought down to the pressure of the air at sea level, it would make a layer about three millimetres thick.\n\nIn the 1920s the British physicist Gordon Dobson built an instrument that measures that layer from the ground by comparing two wavelengths of ultraviolet sunlight, one that ozone swallows and one that it lets through. The unit for the amount of ozone overhead still bears his name. When Britain set up a research station at Halley Bay on an Antarctic ice shelf for the International Geophysical Year of 1957–58, a Dobson instrument went with it, and its readings were taken every year after that, meant to help test ideas about how the air of the stratosphere circulates, not to watch for long-term change.\n\nMeanwhile a new family of chemicals had spread around the world. Around 1930 the American engineer Thomas Midgley and his colleagues introduced chlorofluorocarbons as a safe gas for refrigerators: they did not burn, were not poisonous and hardly reacted with anything. Later they filled spray cans, foam plastics and air conditioners. Their stability looked like their best feature. In the early 1970s the British scientist James Lovelock found that nearly all the chlorofluorocarbons ever made were still in the air.\n\nIn 1974 Mario Molina, a young Mexican-born chemist, and Sherwood Rowland at the University of California, Irvine, asked where those molecules finally go. Their answer, in the journal Nature: they drift up into the stratosphere, where hard ultraviolet light breaks them apart and frees chlorine, and each chlorine atom can then destroy ozone molecules one after another without being used up. The Dutch chemist Paul Crutzen had shown in 1970 that nitrogen compounds can do something similar. Industry fought the idea, but in the late 1970s the United States, Sweden and Norway banned most spray cans that used the gases, and Canada began to cut them. The damage everyone expected was a slow, gradual thinning spread over the whole globe, not a sudden collapse in one place.\n\n### What happened\n\nAt Halley, the October readings began to fall from the late 1970s. October is spring in Antarctica, when the Sun returns after the polar night. Jonathan Shanklin, who had joined the British Antarctic Survey in 1977 to check and correct the Dobson data, noticed that the spring values were lower than in earlier years. His department head Joe Farman at first suspected the ageing instrument, then thought the dip might be a one-off. A newer instrument showed the same thing, and the losses came back every spring. With Brian Gardiner, a meteorologist in the same group, they went through the record until they were sure the fall was real. By 1984 the springtime ozone over Halley was only about two-thirds of what it had been in earlier decades.\n\n![A Dobson spectrophotometer of the kind used at Halley, here on the roof of the Lindenberg meteorological observatory in Germany](https://upload.wikimedia.org/wikipedia/commons/7/7f/Dobson071.jpg \"André Knöfel · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Dobson071.jpg\")\n\nOn 16 May 1985 Farman, Gardiner and Shanklin published the result in Nature under the title \"Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction\". They set their falling ozone beside the rising amount of chlorofluorocarbons in the air and suggested a chemical link. The chemistry they proposed turned out to be incomplete, but the measurement held.\n\nThey were not the only ones looking. Shigeru Chubachi, a Japanese meteorologist who spent 1982 at Japan's Syowa station on the other side of the continent, had recorded unusually low ozone there in September and October 1982. He presented it at an international ozone symposium in Greece in September 1984, and it was published in Japan that December, but its meaning was not recognised until the British paper appeared.\n\n> [!NOTE]\n> A popular story says NASA's satellite missed the hole because its software threw away the low readings as errors. The record is more tangled. The Total Ozone Mapping Spectrometer, flying since 1978, did flag values below a threshold as suspect, and the October 1983 data showed a sudden jump in such flags. NASA scientists noticed and began checking, but a ground station at the South Pole reported normal values, which made the satellite look wrong. By the time they were ready to present, the British paper was out. Once the satellite data were reprocessed, the hole showed up over the whole continent in every spring back to the late 1970s.\n\nSatellite maps soon showed the true shape: not a local oddity over one station, but a region of thinned ozone as wide as Antarctica itself, opening each September and closing by early summer. The press called it the ozone hole. It is not truly empty; at its worst most of the ozone at certain heights disappears, and the total overhead falls far below normal.\n\n> [!THEORY]\n> Think of the ozone layer as a coat of sunscreen around the planet, and of each chlorine atom as a tiny eraser that rubs out ozone molecule after molecule and is never worn down itself. The analogy breaks because sunscreen is put on once and slowly wears off, whereas ozone is made and destroyed by sunlight all the time; the layer is a balance between the two, and chlorine tips that balance towards destruction.\n\n### Why it was hard\n\nThe first puzzle was why the loss was so large and so sudden in one place, when the 1974 theory predicted a slow, even thinning everywhere. Chlorine in the stratosphere is mostly locked up in harmless \"reservoir\" molecules. In 1986 Susan Solomon, a 30-year-old chemist at the United States National Oceanic and Atmospheric Administration, and her colleagues proposed the missing step: in the Antarctic winter the stratosphere becomes cold enough, below about minus 78 degrees Celsius, for thin polar stratospheric clouds to form, and on the surfaces of the cloud particles the reservoir molecules react and release active chlorine. When sunlight returns in spring, that chlorine destroys ozone very fast.\n\n![Susan Solomon, who proposed in 1986 that polar stratospheric clouds unlock chlorine over Antarctica and then led expeditions to test it](https://upload.wikimedia.org/wikipedia/commons/8/80/Susan_Solomon-Desk_With_Globe.jpg \"noaa · Public domain · https://commons.wikimedia.org/wiki/File:Susan_Solomon-Desk_With_Globe.jpg\")\n\nSolomon led the National Ozone Expedition to the American McMurdo station in 1986, where the team found far more chlorine-bearing compounds than expected. Mario Molina and the chemist Luisa Tan Molina then worked out a chain of reactions by which chlorine monoxide could destroy ozone quickly even in the weak spring light. Other researchers argued at first that the hole came from changes in air circulation or from the Sun's activity, and those ideas had to be tested and ruled out.\n\nThe decisive test came in August and September 1987. A NASA high-altitude research plane, the ER-2, flew from Punta Arenas in Chile into the cold air over Antarctica carrying an instrument built by James Anderson's group at Harvard University. As the plane crossed into the region of low ozone, chlorine monoxide rose to hundreds of times its normal level while ozone fell; on the flight of 16 September the two curves were mirror images of each other. Scientists called it the smoking gun.\n\n### What it opened\n\nDiplomacy had started even before the hole was known. In March 1985 twenty countries signed the Vienna Convention, which promised cooperation but set no cuts. On 16 September 1987 the Montreal Protocol was signed. It froze the use of the main chlorofluorocarbons and set out to halve them by 1999; it came into force on 1 January 1989. As the science grew firmer it was tightened again and again, in London in 1990 and Copenhagen in 1992, and the rich countries ended production of the main chlorofluorocarbons by 1996. A fund paid for poorer countries to switch to other chemicals. The Soviet Union signed at the end of 1987. After independence the Central Asian states joined one by one: Uzbekistan and Turkmenistan in 1993, Tajikistan and Kazakhstan in 1998, and Kyrgyzstan in 2000.\n\nThe Montreal Protocol became the first treaty in the history of the United Nations to be joined by every country. In 1995 Paul Crutzen, Mario Molina and Sherwood Rowland shared the Nobel Prize in Chemistry; Molina was the first Mexican-born scientist to win it. Because chlorofluorocarbons are also powerful greenhouse gases, the treaty slowed global warming as well, and the 2016 Kigali Amendment extended it to a family of replacement gases that harm the climate.\n\nThe atmosphere heals slowly, because the old molecules last for decades. The ozone hole still opens every spring, and some years it is very large. But the chlorine in the stratosphere has been slowly falling since around the year 2000, and the United Nations scientific assessment of 2022 expects the ozone over Antarctica to return to its 1980 level around 2066. The discovery came from a measurement that had been made patiently for almost thirty years and had at one point been considered for cuts to save money.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Antarktika üzerinde ozon deliği bulundu",
+      "summary": "1985'te İngiliz bilim insanları Antarktika üzerindeki ilkbahar ozonunun yaklaşık üçte bir azaldığını bildirdi. İki yıl sonra dünya buna yol açan kimyasalları azaltmayı kabul etti.",
+      "why_it_matters": "Ozon deliği, fabrikalarda üretilen sıradan kimyasalların birkaç on yıl içinde bütün gezegenin atmosferini değiştirebileceğini gösterdi. Ardından gelen Montreal Protokolü bütün ülkelerin katıldığı ilk antlaşma oldu; dünyanın bilimsel bir uyarıya zamanında yanıt verdiği bugüne dek en açık örnek.",
+      "if_you_were_there": "1984'te her yerde buzdolapları ve sprey kutuları hâlâ insanlara zararsız sanılan gazlar kullanıyordu; bu gazların ozon tabakasına zarar verebileceğini söyleyen kuram ise yalnızca yavaş, uzak bir incelme bekliyordu.",
+      "place_name": "Halley Araştırma İstasyonu",
+      "body": "![1998'de bir NASA uydusuyla haritalanan Güney Yarımküre'nin toplam ozonu; Antarktika üzerindeki mavi ve mor alan ozon deliği](https://upload.wikimedia.org/wikipedia/commons/b/b6/Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg \"NASA · Public domain · https://commons.wikimedia.org/wiki/File:Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg\")\n\n### Sahne\n\nYerden yaklaşık 15 ile 35 kilometre yukarıda ince bir ozon tabakası uzanır. Ozon, molekülleri iki yerine üç atomdan oluşan bir oksijen biçimidir. Güneş'in sert morötesi ışığının büyük bölümünü, yani deriyi yakan, gözlere zarar veren, bitkileri ve planktonu hırpalayan ışığı soğurur. Tabakayı 1913'te Fransız fizikçiler Charles Fabry ve Henri Buisson buldu. Şaşırtıcı derecede incedir: başınızın üstündeki bütün ozon deniz seviyesindeki hava basıncına indirilse, yaklaşık üç milimetre kalınlığında bir katman oluştururdu.\n\n1920'lerde İngiliz fizikçi Gordon Dobson bu tabakayı yerden ölçen bir alet yaptı. Alet, morötesi güneş ışığının iki dalga boyunu karşılaştırır: birini ozon yutar, ötekini geçirir. Tepedeki ozon miktarının birimi bugün hâlâ onun adını taşır. Britanya 1957–58 Uluslararası Jeofizik Yılı için Antarktika'da bir buz sahanlığı üzerinde, Halley Körfezi'nde bir araştırma istasyonu kurduğunda, yanında bir Dobson aleti de götürdü. Ölçümler o günden sonra her yıl alındı; amaç uzun vadeli değişimi izlemek değil, stratosferdeki havanın nasıl dolaştığına dair fikirleri sınamaktı.\n\nBu arada yeni bir kimyasal ailesi dünyaya yayılmıştı. 1930 dolaylarında Amerikalı mühendis Thomas Midgley ve meslektaşları kloroflorokarbonları buzdolapları için güvenli bir gaz olarak sundu: yanmıyor, zehirli değil ve neredeyse hiçbir şeyle tepkimeye girmiyorlardı. Sonra sprey kutularını, köpük plastikleri ve klimaları doldurdular. Bu kararlılık en iyi özellikleri gibi görünüyordu. 1970'lerin başında İngiliz bilim insanı James Lovelock, o güne dek üretilmiş kloroflorokarbonların neredeyse tamamının hâlâ havada olduğunu buldu.\n\n1974'te Meksika doğumlu genç kimyacı Mario Molina ile Sherwood Rowland, Kaliforniya Üniversitesi Irvine'de, bu moleküllerin sonunda nereye gittiğini sordu. Nature dergisindeki cevapları şuydu: moleküller stratosfere yükselir, orada sert morötesi ışık onları parçalayıp klor açığa çıkarır ve her klor atomu kendisi tükenmeden ozon moleküllerini birbiri ardına yok edebilir. Hollandalı kimyacı Paul Crutzen 1970'te azot bileşiklerinin de benzer bir şey yapabildiğini göstermişti. Sanayi bu fikre karşı savaştı, ama 1970'lerin sonunda Amerika Birleşik Devletleri, İsveç ve Norveç bu gazları kullanan sprey kutularının çoğunu yasakladı, Kanada da kullanımı azaltmaya başladı. Herkesin beklediği zarar, bütün dünyaya yayılan yavaş, kademeli bir incelmeydi; tek bir yerde ani bir çöküş değil.\n\n### Ne oldu\n\nHalley'de ekim ölçümleri 1970'lerin sonundan itibaren düşmeye başladı. Ekim, Antarktika'da kutup gecesinden sonra Güneş'in geri döndüğü ilkbahardır. 1977'de Dobson verilerini denetleyip düzeltmek için Britanya Antarktika Araştırmaları'na katılan Jonathan Shanklin, ilkbahar değerlerinin önceki yıllardan düşük olduğunu fark etti. Bölüm şefi Joe Farman önce yaşlanan aletten şüphelendi, sonra düşüşün bir defaya mahsus olabileceğini düşündü. Daha yeni bir alet de aynı şeyi gösterdi ve kayıp her ilkbahar geri geldi. Aynı gruptan meteorolog Brian Gardiner ile birlikte, düşüşün gerçek olduğundan emin olana dek kaydı baştan sona incelediler. 1984'e gelindiğinde Halley üzerindeki ilkbahar ozonu, önceki on yıllardakinin yalnızca üçte ikisi kadardı.\n\n![Halley'de kullanılan türden bir Dobson spektrofotometresi, burada Almanya'daki Lindenberg meteoroloji gözlemevinin çatısında](https://upload.wikimedia.org/wikipedia/commons/7/7f/Dobson071.jpg \"André Knöfel · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Dobson071.jpg\")\n\n16 Mayıs 1985'te Farman, Gardiner ve Shanklin sonucu Nature'da \"Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction\" (Antarktika'da toplam ozondaki büyük kayıplar mevsimsel bir klor-azot etkileşimini ortaya koyuyor) başlığıyla yayımladı. Azalan ozonu havadaki artan kloroflorokarbon miktarının yanına koydular ve kimyasal bir bağ önerdiler. Önerdikleri kimya eksik çıktı, ama ölçüm ayakta kaldı.\n\nBakan yalnızca onlar değildi. 1982'yi kıtanın öbür yanındaki Japon Syowa istasyonunda geçiren Japon meteorolog Shigeru Chubachi, Eylül ve Ekim 1982'de orada alışılmadık derecede düşük ozon kaydetmişti. Bunu Eylül 1984'te Yunanistan'daki uluslararası bir ozon sempozyumunda sundu ve aynı yılın aralık ayında Japonya'da yayımlandı; ama anlamı ancak İngiliz makalesi çıkınca anlaşıldı.\n\n> [!NOTE]\n> Yaygın bir hikâyeye göre NASA'nın uydusu deliği kaçırdı, çünkü yazılımı düşük değerleri hata diye çöpe attı. Kayıtlar daha karışık. 1978'den beri uçan Toplam Ozon Haritalama Spektrometresi belli bir eşiğin altındaki değerleri gerçekten şüpheli diye işaretliyordu ve Ekim 1983 verilerinde bu işaretler birden arttı. NASA bilim insanları bunu fark edip incelemeye başladı, ama Güney Kutbu'ndaki bir yer istasyonu normal değerler bildirdi ve bu, uyduyu hatalı gösterdi. Sunuma hazır olduklarında İngiliz makalesi çıkmıştı. Uydu verileri yeniden işlenince delik, 1970'lerin sonuna kadar her ilkbaharda bütün kıtanın üzerinde göründü.\n\nUydu haritaları kısa sürede gerçek biçimi gösterdi: tek bir istasyonun üzerindeki yerel bir tuhaflık değil, Antarktika'nın kendisi kadar geniş, her eylülde açılıp yaz başında kapanan, ozonu incelmiş bir bölge. Basın buna ozon deliği dedi. Gerçekten boş değildir; en kötü anında belli yüksekliklerdeki ozonun çoğu kaybolur ve tepedeki toplam miktar normalin çok altına düşer.\n\n> [!THEORY]\n> Ozon tabakasını gezegenin çevresine sürülmüş bir güneş kremi, her klor atomunu da ozon moleküllerini birbiri ardına silen ama kendisi hiç aşınmayan minik bir silgi gibi düşünün. Benzetme şurada bozulur: güneş kremi bir kez sürülür ve yavaş yavaş aşınır; ozon ise güneş ışığıyla sürekli hem yapılır hem yıkılır. Tabaka bu ikisi arasındaki bir dengedir ve klor bu dengeyi yıkım yönüne kaydırır.\n\n### Neden zordu\n\nİlk bilmece, 1974 kuramı her yerde yavaş ve eşit bir incelme beklerken kaybın neden tek bir yerde bu kadar büyük ve ani olduğuydu. Stratosferdeki klor çoğunlukla zararsız \"rezervuar\" moleküllerine kilitlidir. 1986'da Amerika Birleşik Devletleri Ulusal Okyanus ve Atmosfer İdaresi'nde çalışan 30 yaşındaki kimyacı Susan Solomon ve meslektaşları eksik adımı önerdi: Antarktika kışında stratosfer, yaklaşık eksi 78 santigrat derecenin altına inecek kadar soğur ve ince kutup stratosfer bulutları oluşur; bu bulut parçacıklarının yüzeylerinde rezervuar molekülleri tepkimeye girer ve etkin klor açığa çıkar. İlkbaharda güneş ışığı dönünce bu klor ozonu çok hızlı yok eder.\n\n![1986'da kutup stratosfer bulutlarının Antarktika üzerinde kloru serbest bıraktığını öneren, sonra bunu sınamak için seferlere öncülük eden Susan Solomon](https://upload.wikimedia.org/wikipedia/commons/8/80/Susan_Solomon-Desk_With_Globe.jpg \"noaa · Public domain · https://commons.wikimedia.org/wiki/File:Susan_Solomon-Desk_With_Globe.jpg\")\n\nSolomon 1986'da Amerikan McMurdo istasyonuna giden Ulusal Ozon Seferi'ne önderlik etti; ekip orada beklenenden çok daha fazla klor taşıyan bileşik buldu. Ardından Mario Molina ve kimyacı Luisa Tan Molina, klor monoksitin zayıf ilkbahar ışığında bile ozonu hızla yok edebildiği bir tepkime zincirini çözdü. Başka araştırmacılar başta deliğin hava dolaşımındaki değişimlerden ya da Güneş'in etkinliğinden kaynaklandığını savundu; bu fikirlerin de sınanıp elenmesi gerekti.\n\nBelirleyici sınav Ağustos ve Eylül 1987'de geldi. NASA'nın yüksek irtifa araştırma uçağı ER-2, Şili'deki Punta Arenas'tan Antarktika üzerindeki soğuk havaya, Harvard Üniversitesi'nden James Anderson'ın grubunun yaptığı bir aleti taşıyarak uçtu. Uçak düşük ozon bölgesine girerken klor monoksit normal düzeyinin yüzlerce katına çıktı, ozon ise düştü; 16 Eylül uçuşunda iki eğri birbirinin ayna görüntüsüydü. Bilim insanları buna \"dumanı tüten silah\" dedi.\n\n### Ne açtı\n\nDiplomasi delik bilinmeden önce başlamıştı. Mart 1985'te yirmi ülke, iş birliği vaat eden ama hiçbir kesinti koymayan Viyana Sözleşmesi'ni imzaladı. 16 Eylül 1987'de Montreal Protokolü imzalandı. Protokol başlıca kloroflorokarbonların kullanımını dondurdu ve 1999'a kadar yarıya indirmeyi hedefledi; 1 Ocak 1989'da yürürlüğe girdi. Bilim sağlamlaştıkça tekrar tekrar sıkılaştırıldı, 1990'da Londra'da ve 1992'de Kopenhag'da; zengin ülkeler başlıca kloroflorokarbonların üretimini 1996'ya kadar bitirdi. Bir fon, yoksul ülkelerin başka kimyasallara geçişini karşıladı. Sovyetler Birliği 1987'nin sonunda imzaladı. Bağımsızlıktan sonra Orta Asya devletleri birer birer katıldı: Özbekistan ve Türkmenistan 1993'te, Tacikistan ve Kazakistan 1998'de, Kırgızistan 2000'de.\n\nMontreal Protokolü, Birleşmiş Milletler tarihinde bütün ülkelerin katıldığı ilk antlaşma oldu. 1995'te Paul Crutzen, Mario Molina ve Sherwood Rowland Nobel Kimya Ödülü'nü paylaştı; Molina bu ödülü kazanan ilk Meksika doğumlu bilim insanıydı. Kloroflorokarbonlar aynı zamanda güçlü sera gazları olduğu için antlaşma küresel ısınmayı da yavaşlattı; 2016 Kigali Değişikliği onu iklime zarar veren bir yedek gaz ailesini de kapsayacak biçimde genişletti.\n\nAtmosfer yavaş iyileşir, çünkü eski moleküller onlarca yıl yaşar. Ozon deliği hâlâ her ilkbaharda açılıyor ve bazı yıllarda çok büyük oluyor. Ama stratosferdeki klor 2000 dolaylarından beri yavaşça azalıyor ve Birleşmiş Milletler'in 2022 bilimsel değerlendirmesi, Antarktika üzerindeki ozonun 2066 dolaylarında 1980 düzeyine döneceğini bekliyor. Keşif, neredeyse otuz yıl sabırla sürdürülmüş ve bir ara tasarruf için kesilmesi düşünülmüş bir ölçümden geldi.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Над Антарктидой обнаружена озоновая дыра",
+      "summary": "В 1985 году британские учёные сообщили, что весеннего озона над Антарктидой стало примерно на треть меньше. Через два года мир договорился сократить вызвавшие это вещества.",
+      "why_it_matters": "Озоновая дыра показала, что обычные вещества с заводов способны за несколько десятилетий изменить атмосферу всей планеты. Последовавший за этим Монреальский протокол стал первым договором, к которому присоединились все страны, и пока это самый ясный пример того, как мир вовремя отозвался на предупреждение науки.",
+      "if_you_were_there": "В 1984 году холодильники и аэрозольные баллончики повсюду ещё работали на газах, которые считались безвредными для людей, а теория, предупреждавшая об угрозе озоновому слою, предсказывала лишь медленное, далёкое истончение.",
+      "place_name": "Станция Халли",
+      "body": "![Общее содержание озона над Южным полушарием в 1998 году по данным спутника НАСА; синяя и фиолетовая область над Антарктидой — озоновая дыра](https://upload.wikimedia.org/wikipedia/commons/b/b6/Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg \"NASA · Public domain · https://commons.wikimedia.org/wiki/File:Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg\")\n\n### Обстановка\n\nПримерно в 15–35 километрах над землёй тянется тонкий слой озона — формы кислорода, молекулы которой состоят из трёх атомов, а не из двух. Он поглощает бо́льшую часть жёсткого ультрафиолета Солнца — того, что обжигает кожу, повреждает глаза и вредит растениям и планктону. Слой открыли в 1913 году французские физики Шарль Фабри и Анри Бюиссон. Он поразительно тонок: если бы весь озон над вашей головой сжать до давления воздуха на уровне моря, получился бы слой толщиной около трёх миллиметров.\n\nВ 1920-х годах британский физик Гордон Добсон построил прибор, который измеряет этот слой с земли, сравнивая две длины волны ультрафиолетового солнечного света: одну озон поглощает, другую пропускает. Единица количества озона над головой до сих пор носит его имя. Когда Великобритания к Международному геофизическому году 1957–1958 годов основала исследовательскую станцию в заливе Халли на шельфовом леднике Антарктиды, туда отправился и прибор Добсона. С тех пор измерения проводились каждый год — чтобы проверять представления о том, как движется воздух в стратосфере, а не чтобы следить за долгосрочными переменами.\n\nТем временем по миру распространилось новое семейство веществ. Около 1930 года американский инженер Томас Мидгли и его коллеги предложили хлорфторуглероды как безопасный газ для холодильников: они не горели, не были ядовиты и почти ни с чем не реагировали. Потом ими стали заполнять аэрозольные баллончики, пенопласты и кондиционеры. Их устойчивость казалась главным достоинством. В начале 1970-х годов британский учёный Джеймс Лавлок обнаружил, что почти все когда-либо произведённые хлорфторуглероды всё ещё находятся в воздухе.\n\nВ 1974 году молодой химик мексиканского происхождения Марио Молина и Шервуд Роуленд из Калифорнийского университета в Ирвайне задались вопросом, куда эти молекулы в конце концов деваются. Их ответ в журнале Nature: они поднимаются в стратосферу, где жёсткий ультрафиолет разбивает их и освобождает хлор, и каждый атом хлора может затем разрушать молекулы озона одну за другой, сам не расходуясь. Нидерландский химик Пауль Крутцен в 1970 году показал, что нечто похожее могут делать соединения азота. Промышленность боролась с этой идеей, но в конце 1970-х годов Соединённые Штаты, Швеция и Норвегия запретили бо́льшую часть баллончиков с этими газами, а Канада начала сокращать их применение. Все ожидали медленного, постепенного истончения слоя по всей планете, а не внезапного обвала в одном месте.\n\n### Что произошло\n\nНа станции Халли октябрьские значения начали падать с конца 1970-х годов. Октябрь в Антарктиде — весна, когда после полярной ночи возвращается Солнце. Джонатан Шанклин, пришедший в Британскую антарктическую службу в 1977 году проверять и исправлять данные прибора Добсона, заметил, что весенние значения ниже, чем в прежние годы. Его начальник Джо Фарман сначала заподозрил стареющий прибор, затем решил, что провал может быть случайным. Более новый прибор показал то же самое, и потери возвращались каждую весну. Вместе с Брайаном Гардинером, метеорологом из той же группы, они перебрали запись, пока не убедились, что падение настоящее. К 1984 году весеннего озона над Халли было лишь около двух третей от прежних десятилетий.\n\n![Спектрофотометр Добсона того же типа, что работал на Халли, здесь — на крыше метеорологической обсерватории Линденберг в Германии](https://upload.wikimedia.org/wikipedia/commons/7/7f/Dobson071.jpg \"André Knöfel · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Dobson071.jpg\")\n\n16 мая 1985 года Фарман, Гардинер и Шанклин опубликовали результат в Nature под заголовком «Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction» («Большие потери общего озона в Антарктиде указывают на сезонное взаимодействие хлора и азота»). Они сопоставили падение озона с ростом количества хлорфторуглеродов в воздухе и предположили химическую связь. Предложенная ими химия оказалась неполной, но измерение устояло.\n\nСмотрели не только они. Японский метеоролог Сигэру Тюбати, проведший 1982 год на японской станции Сёва на другой стороне континента, зарегистрировал там необычно низкий озон в сентябре и октябре 1982 года. Он доложил об этом в сентябре 1984 года на международном озоновом симпозиуме в Греции, и в декабре того же года работа вышла в Японии, но её значение поняли только после появления британской статьи.\n\n> [!NOTE]\n> Популярная история гласит, что спутник НАСА пропустил дыру, потому что программа выбрасывала низкие значения как ошибки. На деле всё запутаннее. Спектрометр для картирования общего озона, летавший с 1978 года, действительно помечал значения ниже определённого порога как сомнительные, и в данных за октябрь 1983 года таких пометок резко прибавилось. Учёные НАСА это заметили и начали проверку, но наземная станция на Южном полюсе сообщала нормальные значения, и из-за этого ошибочным казался спутник. Когда они были готовы выступить, британская статья уже вышла. После повторной обработки спутниковых данных дыра проявилась над всем континентом каждую весну вплоть до конца 1970-х годов.\n\nСпутниковые карты вскоре показали истинную форму: не местную странность над одной станцией, а область истончённого озона шириной с саму Антарктиду, которая открывается каждый сентябрь и закрывается к началу лета. Пресса назвала её озоновой дырой. По-настоящему пустой она не бывает: в худшие моменты исчезает бо́льшая часть озона на определённых высотах, и общее количество над головой падает намного ниже нормы.\n\n> [!THEORY]\n> Представьте озоновый слой как солнцезащитный крем, нанесённый на всю планету, а каждый атом хлора — как крошечный ластик, который стирает молекулу озона за молекулой и сам при этом не стирается. Аналогия ломается вот где: крем наносят один раз, и он постепенно стирается, а озон всё время и создаётся, и разрушается солнечным светом; слой — это равновесие между ними, и хлор сдвигает это равновесие в сторону разрушения.\n\n### Почему это было трудно\n\nПервая загадка: почему потеря так велика и так внезапна в одном месте, если теория 1974 года предсказывала медленное равномерное истончение повсюду. Хлор в стратосфере в основном заперт в безвредных «резервуарных» молекулах. В 1986 году 30-летний химик Национального управления океанических и атмосферных исследований Соединённых Штатов Сьюзан Соломон с коллегами предложила недостающий шаг: антарктической зимой стратосфера остывает настолько — ниже примерно минус 78 градусов Цельсия, — что образуются тонкие полярные стратосферные облака, и на поверхности их частиц резервуарные молекулы реагируют и освобождают активный хлор. Когда весной возвращается солнечный свет, этот хлор очень быстро разрушает озон.\n\n![Сьюзан Соломон, которая в 1986 году предположила, что полярные стратосферные облака освобождают хлор над Антарктидой, а затем возглавила экспедиции для проверки этой идеи](https://upload.wikimedia.org/wikipedia/commons/8/80/Susan_Solomon-Desk_With_Globe.jpg \"noaa · Public domain · https://commons.wikimedia.org/wiki/File:Susan_Solomon-Desk_With_Globe.jpg\")\n\nВ 1986 году Соломон возглавила Национальную озоновую экспедицию на американскую станцию Мак-Мердо, где команда нашла гораздо больше хлорсодержащих соединений, чем ожидалось. Затем Марио Молина и химик Луиса Тан Молина описали цепочку реакций, в которой монооксид хлора быстро разрушает озон даже при слабом весеннем свете. Другие исследователи поначалу считали, что дыра вызвана изменениями циркуляции воздуха или активностью Солнца, и эти идеи тоже нужно было проверить и отбросить.\n\nРешающая проверка пришлась на август и сентябрь 1987 года. Высотный исследовательский самолёт НАСА ER-2 летал из Пунта-Аренаса в Чили в холодный воздух над Антарктидой с прибором, построенным группой Джеймса Андерсона из Гарвардского университета. Когда самолёт входил в область низкого озона, монооксид хлора поднимался в сотни раз выше нормы, а озон падал; в полёте 16 сентября две кривые были зеркальным отражением друг друга. Учёные назвали это «дымящимся пистолетом».\n\n### Что это открыло\n\nДипломатия началась ещё до того, как о дыре узнали. В марте 1985 года двадцать стран подписали Венскую конвенцию, которая обещала сотрудничество, но не вводила никаких сокращений. 16 сентября 1987 года был подписан Монреальский протокол. Он заморозил использование основных хлорфторуглеродов и наметил сократить его вдвое к 1999 году; в силу он вступил 1 января 1989 года. По мере того как наука становилась твёрже, его ужесточали снова и снова — в Лондоне в 1990 году и в Копенгагене в 1992-м, — и богатые страны прекратили производство основных хлорфторуглеродов к 1996 году. Специальный фонд оплачивал переход бедных стран на другие вещества. Советский Союз подписал протокол в конце 1987 года. После обретения независимости к нему одно за другим присоединились государства Центральной Азии: Узбекистан и Туркменистан в 1993 году, Таджикистан и Казахстан в 1998-м, Кыргызстан в 2000-м.\n\nМонреальский протокол стал первым в истории Организации Объединённых Наций договором, к которому присоединились все страны. В 1995 году Пауль Крутцен, Марио Молина и Шервуд Роуленд разделили Нобелевскую премию по химии; Молина стал первым уроженцем Мексики, получившим её. Поскольку хлорфторуглероды ещё и сильные парниковые газы, договор замедлил и глобальное потепление, а Кигалийская поправка 2016 года распространила его на семейство газов-заменителей, вредящих климату.\n\nАтмосфера заживает медленно, потому что старые молекулы живут десятилетиями. Озоновая дыра по-прежнему открывается каждую весну, и в некоторые годы она очень велика. Но хлора в стратосфере примерно с 2000 года медленно становится меньше, и научная оценка Организации Объединённых Наций 2022 года ожидает, что озон над Антарктидой вернётся к уровню 1980 года около 2066 года. Открытие выросло из измерения, которое терпеливо вели почти тридцать лет и которое одно время собирались сократить ради экономии.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Антарктиданын үстүндө озон тешиги табылды",
+      "summary": "1985-жылы британ окумуштуулары Антарктиданын үстүндөгү жазгы озон болжол менен үчтөн бирге азайганын билдиришкен. Эки жылдан кийин дүйнө ага себеп болгон заттарды кыскартууга макул болгон.",
+      "why_it_matters": "Озон тешиги заводдордо чыгарылган кадимки химиялык заттар бир нече он жылдын ичинде бүт планетанын атмосферасын өзгөртө аларын көрсөттү. Андан кийинки Монреаль протоколу бардык өлкөлөр кошулган биринчи келишим болуп калды. Бул — дүйнө илимдин эскертүүсүнө өз убагында жооп берген азырынча эң ачык мисал.",
+      "if_you_were_there": "1984-жылы бардык жерде муздаткычтар менен аэрозолдук баллончиктер адамдарга зыянсыз деп эсептелген газдарды колдонуп келген, ал газдар озон катмарына зыян келтириши мүмкүн деген теория болсо жай, алыскы жукарууну гана күткөн.",
+      "place_name": "Халли станциясы",
+      "body": "![1998-жылы НАСАнын спутниги аркылуу түзүлгөн Түштүк жарым шардагы озондун жалпы картасы; Антарктиданын үстүндөгү көк жана кызгылт көк аймак — озон тешиги](https://upload.wikimedia.org/wikipedia/commons/b/b6/Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg \"NASA · Public domain · https://commons.wikimedia.org/wiki/File:Hole_in_the_Ozone_Layer_Over_Antarctica_-_GPN-2002-000117.jpg\")\n\n### Окуянын алкагы\n\nЖерден болжол менен 15–35 километр бийиктикте озондун жука катмары жатат. Озон — кычкылтектин бир түрү, анын молекуласы эки эмес, үч атомдон турат. Ал Күндүн катуу ультракызгылт көк нурларынын көбүн сиңирип алат: терини күйгүзгөн, көздү бузган, өсүмдүктөргө жана планктонго зыян келтирген нурларды. Бул катмарды 1913-жылы француз физиктери Шарль Фабри менен Анри Бюиссон ачышкан. Ал таң калыштуу жука: эгер башыңыздын үстүндөгү бардык озонду деңиз деңгээлиндеги абанын басымына чейин кысса, калыңдыгы болжол менен үч миллиметр болгон катмар гана калмак.\n\n1920-жылдары британ физиги Гордон Добсон бул катмарды жерден туруп өлчөгөн прибор жасаган. Прибор ультракызгылт көк күн жарыгынын эки толкун узундугун салыштырат: бирин озон сиңирет, экинчисин өткөрөт. Баштын үстүндөгү озондун көлөмүн өлчөгөн бирдик азыр да анын атын алып жүрөт. 1957–1958-жылдардагы Эл аралык геофизикалык жылга карата Британия Антарктидадагы муз шельфинин үстүндө, Халли булуңунда изилдөө станциясын ачканда, ал жакка Добсондун прибору да жөнөтүлгөн. Ошондон бери өлчөө жыл сайын жүргүзүлүп келген. Максат узак мөөнөттүү өзгөрүүнү байкоо эмес, стратосферадагы аба кантип айланарын түшүндүргөн ойлорду текшерүү болчу.\n\nОшол аралыкта дүйнөгө жаңы химиялык заттардын үй-бүлөсү тараган. 1930-жылдардын тегерегинде америкалык инженер Томас Мидгли жана анын кесиптештери хлорфторкөмүртектерди муздаткычтар үчүн коопсуз газ катары сунушташкан: алар күйбөйт, уулуу эмес жана дээрлик эч нерсе менен реакцияга кирбейт. Кийин алар аэрозолдук баллончиктерге, көбүк пластмассаларга жана кондиционерлерге толтурула баштаган. Алардын туруктуулугу эң жакшы касиети болуп көрүнгөн. 1970-жылдардын башында британ окумуштуусу Джеймс Лавлок ошого чейин чыгарылган хлорфторкөмүртектердин дээрлик баары дагы эле абада экенин аныктаган.\n\n1974-жылы Калифорния университетинде (Ирвайн) Мексикада туулган жаш химик Марио Молина менен Шервуд Роуленд бул молекулалар акыры кайда барат деген суроону коюшкан. Алардын Nature журналындагы жообу мындай болгон: молекулалар стратосферага көтөрүлөт, ал жерде катуу ультракызгылт көк нурлар аларды ажыратып, хлорду бөлүп чыгарат, ар бир хлор атому өзү түгөнбөстөн озон молекулаларын биринен сала бирин жок кыла алат. Нидерланддык химик Пауль Крутцен 1970-жылы азот кошулмалары да ушуга окшош иш кыла аларын көрсөткөн. Өнөр жай бул идеяга каршы күрөшкөн, бирок 1970-жылдардын аягында Америка Кошмо Штаттары, Швеция жана Норвегия бул газдар колдонулган баллончиктердин көбүнө тыюу салган, Канада болсо аларды кыскарта баштаган. Баары күткөн зыян — бүт планетага жайылган жай, акырындык менен жукаруу эле, бир жерде капыстан кулоо эмес.\n\n### Эмне болду\n\nХаллиде октябрдагы көрсөткүчтөр 1970-жылдардын аягынан тартып төмөндөй баштаган. Октябрь Антарктидада жаз мезгили: уюл түнүнөн кийин Күн кайра чыгат. 1977-жылы Добсон приборунун маалыматтарын текшерип, оңдоо үчүн Британиянын Антарктика кызматына келген Джонатан Шанклин жазгы көрсөткүчтөр мурдагы жылдардагыдан төмөн экенин байкаган. Анын жетекчиси Джо Фарман адегенде эскирип калган приборго шектенген, кийин бул төмөндөө бир жолку көрүнүш болушу мүмкүн деп ойлогон. Жаңыраак прибор да ошону көрсөткөн, жоготуу жыл сайын жазында кайталанган. Ошол эле топтогу метеоролог Брайан Гардинер менен бирге алар төмөндөө чыныгы экенине ынанганга чейин бүт жазууну кайра карап чыгышкан. 1984-жылга карата Халлинин үстүндөгү жазгы озон мурунку он жылдыктардагынын болжол менен үчтөн экисин гана түзгөн.\n\n![Халлиде колдонулган түрдөгү Добсон спектрофотометри, бул жерде Германиядагы Линденберг метеорологиялык обсерваториясынын чатырында](https://upload.wikimedia.org/wikipedia/commons/7/7f/Dobson071.jpg \"André Knöfel · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Dobson071.jpg\")\n\n1985-жылдын 16-майында Фарман, Гардинер жана Шанклин жыйынтыкты Nature журналында «Large losses of total ozone in Antarctica reveal seasonal ClOx/NOx interaction» («Антарктидадагы жалпы озондун чоң жоготуулары хлор менен азоттун мезгилдик өз ара аракетин көрсөтөт») деген аталыш менен жарыялашкан. Алар азайып бараткан озонду абадагы көбөйүп бараткан хлорфторкөмүртектердин көлөмү менен салыштырып, химиялык байланыш бар деп божомолдошкон. Алар сунуш кылган химия толук эмес болуп чыкты, бирок өлчөө өз күчүндө калды.\n\nБайкап жүргөндөр алар гана эмес эле. 1982-жылды континенттин аркы четиндеги Япониянын Сёва станциясында өткөргөн япон метеорологу Сигэру Тюбати 1982-жылдын сентябрь жана октябрь айларында ал жерде адаттан тыш төмөн озонду каттаган. Ал муну 1984-жылдын сентябрында Грециядагы эл аралык озон симпозиумунда баяндаган, ошол эле жылдын декабрында иши Японияда жарык көргөн, бирок анын маанисин британ макаласы чыккандан кийин гана түшүнүшкөн.\n\n> [!NOTE]\n> Кеңири тараган аңгемеге караганда, НАСАнын спутниги тешикти байкабай калган, анткени программасы төмөн көрсөткүчтөрдү ката деп ыргытып салган. Чындыгында иш татаалыраак болгон. 1978-жылдан бери учуп жүргөн Жалпы озонду картага түшүрүүчү спектрометр белгилүү бир чектен төмөн көрсөткүчтөрдү шектүү деп белгилеп турган, 1983-жылдын октябрындагы маалыматтарда мындай белгилер капыстан көбөйгөн. НАСАнын окумуштуулары муну байкап, текшере башташкан, бирок Түштүк уюлдагы жер үстүндөгү станция кадимки көрсөткүчтөрдү билдирип, ката спутникте окшоп калган. Алар баяндамага даяр болгондо британ макаласы чыгып калган. Спутниктин маалыматтары кайра иштетилгенде тешик 1970-жылдардын аягына чейин ар бир жазда бүт континенттин үстүндө көрүнгөн.\n\nКөп өтпөй спутниктин карталары чыныгы көрүнүштү көрсөттү: бир станциянын үстүндөгү жергиликтүү кызыктай көрүнүш эмес, Антарктиданын өзүндөй кенен, ар бир сентябрда ачылып, жайдын башында жабылган, озону жукарган аймак. Басма сөз муну озон тешиги деп атады. Ал чындап бош эмес: эң начар учурда белгилүү бийиктиктердеги озондун көбү жоголот, баштын үстүндөгү жалпы көлөм нормадан алда канча төмөн түшөт.\n\n> [!THEORY]\n> Озон катмарын планетаны курчап сүртүлгөн күндөн коргоочу крем катары, ар бир хлор атомун болсо озон молекулаларын биринен сала бирин өчүргөн, бирок өзү такыр жешилбеген кичинекей өчүргүч катары элестетиңиз. Салыштыруу бул жерде бузулат: крем бир жолу сүртүлүп, акырындап кетет, ал эми озонду күн жарыгы тынымсыз жаратып да, бузуп да турат. Катмар — ушул экөөнүн ортосундагы тең салмактуулук, хлор бул тең салмактуулукту бузулуу тарапка оодарат.\n\n### Эмнеге оор болду\n\nБиринчи табышмак: 1974-жылдагы теория бардык жерде жай, бирдей жукарууну алдын ала айтып турганда, жоготуу эмне үчүн бир жерде ушунчалык чоң жана капыстан болду? Стратосферадагы хлор негизинен зыянсыз «резервуар» молекулаларында камалып турат. 1986-жылы Америка Кошмо Штаттарынын Улуттук океан жана атмосфера башкармалыгында иштеген 30 жаштагы химик Сьюзан Соломон кесиптештери менен бирге жетишпеген кадамды сунуш кылган: Антарктиданын кышында стратосфера болжол менен минус 78 градус Цельсийден төмөн муздайт, ошондо жука уюлдук стратосфералык булуттар пайда болот, ал булуттардын бөлүкчөлөрүнүн бетинде резервуар молекулалары реакцияга кирип, активдүү хлорду бөлүп чыгарат. Жазында күн жарыгы кайтып келгенде бул хлор озонду абдан тез жок кылат.\n\n![1986-жылы уюлдук стратосфералык булуттар Антарктиданын үстүндө хлорду бошотот деп божомолдоп, кийин муну текшерүү үчүн экспедицияларды жетектеген Сьюзан Соломон](https://upload.wikimedia.org/wikipedia/commons/8/80/Susan_Solomon-Desk_With_Globe.jpg \"noaa · Public domain · https://commons.wikimedia.org/wiki/File:Susan_Solomon-Desk_With_Globe.jpg\")\n\n1986-жылы Соломон Американын Мак-Мердо станциясына барган Улуттук озон экспедициясын жетектеген, ал жерден команда хлору бар кошулмаларды күтүлгөндөн алда канча көп тапкан. Андан кийин Марио Молина жана химик Луиса Тан Молина хлор монооксиди жазгы алсыз жарыкта деле озонду тез жок кыла турган реакциялардын чынжырын иштеп чыгышкан. Башка изилдөөчүлөр адегенде тешик абанын айлануусундагы өзгөрүүлөрдөн же Күндүн активдүүлүгүнөн келип чыгат деп ырасташкан, бул ойлорду да текшерип, четке кагуу керек болгон.\n\nЧечүүчү текшерүү 1987-жылдын август жана сентябрь айларында болгон. НАСАнын бийиктикте учуучу изилдөө учагы ER-2 Чилидеги Пунта-Аренастан Антарктиданын үстүндөгү муздак абага учуп, Гарвард университетиндеги Джеймс Андерсондун тобу жасаган приборду алып жүргөн. Учак озону аз аймакка киргенде хлор монооксиди кадимки деңгээлинен жүздөгөн эсе көбөйүп, озон азайган; 16-сентябрдагы учууда эки ийри сызык бири-биринин күзгүдөгү чагылышындай болгон. Окумуштуулар муну «түтүнү чыгып турган мылтык» деп аташкан, башкача айтканда, күнөөнү ачык көрсөткөн далил.\n\n### Эмнеге жол ачты\n\nДипломатия тешик белгилүү боло электе эле башталган. 1985-жылдын мартында жыйырма өлкө кызматташууну убада кылган, бирок эч кандай кыскартууну белгилебеген Вена конвенциясына кол коюшкан. 1987-жылдын 16-сентябрында Монреаль протоколуна кол коюлган. Ал негизги хлорфторкөмүртектерди колдонууну ошол деңгээлде токтотуп, 1999-жылга чейин эки эсе азайтууну көздөгөн; 1989-жылдын 1-январында күчүнө кирген. Илим бекемделген сайын протокол кайра-кайра катуулатылган — 1990-жылы Лондондо жана 1992-жылы Копенгагенде, бай өлкөлөр негизги хлорфторкөмүртектерди өндүрүүнү 1996-жылга чейин токтоткон. Атайын фонд кедей өлкөлөрдүн башка заттарга өтүшүн каржылаган. Советтер Союзу 1987-жылдын аягында кол койгон. Көз карандысыздыктан кийин Борбордук Азия мамлекеттери бирин-серин кошулган: Өзбекстан жана Түркмөнстан 1993-жылы, Тажикстан жана Казакстан 1998-жылы, Кыргызстан 2000-жылы.\n\nМонреаль протоколу Бириккен Улуттар Уюмунун тарыхында бардык өлкөлөр кошулган биринчи келишим болуп калды. 1995-жылы Пауль Крутцен, Марио Молина жана Шервуд Роуленд химия боюнча Нобель сыйлыгын бөлүшкөн; Молина аны алган Мексикада туулган биринчи окумуштуу болгон. Хлорфторкөмүртектер ошондой эле күчтүү парник газдары болгондуктан, келишим глобалдык жылууну да жайлаткан, ал эми 2016-жылдагы Кигали түзөтүүсү аны климатка зыян келтирген алмаштыруучу газдардын үй-бүлөсүнө да жайылткан.\n\nАтмосфера жай айыгат, анткени эски молекулалар ондогон жылдар бою жашайт. Озон тешиги азыр да ар бир жазда ачылат, кээ бир жылдары абдан чоң болот. Бирок стратосферадагы хлор болжол менен 2000-жылдан бери акырындап азайып жатат, Бириккен Улуттар Уюмунун 2022-жылдагы илимий баалоосу Антарктиданын үстүндөгү озон болжол менен 2066-жылы 1980-жылдагы деңгээлине кайтат деп күтөт. Бул ачылыш дээрлик отуз жыл бою чыдамдуулук менен жүргүзүлгөн жана бир кезде үнөмдөө үчүн кыскартылышы мүмкүн болгон өлчөөдөн чыккан.",
+      "status": "machine"
+    }
+  },
+  "research_note": "Researched 2026-11-15 against English Wikipedia (Ozone depletion; Ozone layer; Montreal Protocol; Joseph Farman; Susan Solomon), UKRI/NERC \"The story behind the discovery of the ozone hole\" (Shanklin joined BAS 1977 to check/correct Dobson data; spring ozone over Halley about two-thirds of earlier decades by 1984), NASA Ozone Watch history (Halley 1956, Dobson from 1957, NOZE 1986, AAOE 1987 from Punta Arenas, \"smoking gun\", Molina and Molina ClO), RealClimate/Schmidt 2017 (TOMS QC flag below 180 DU, October 1983 rise in flags noticed and investigated, South Pole ground station ~300 DU), NOAA CSL AAOE overview and C&EN 1988 (ClO ~500x normal; anticorrelation by 16 September), UN Treaty Collection (USSR/Russian Federation signature 29 Dec 1987; Uzbekistan 18 May 1993, Turkmenistan 18 Nov 1993, Tajikistan 7 Jan 1998, Kazakhstan 26 Aug 1998, Kyrgyzstan 31 May 2000), WMO 828 timeline and Halkidiki proceedings (Chubachi, Syowa, October 1982 low ozone reported at Halkidiki 3-7 Sept 1984), HuffPost UK 2012 (Shanklin: Halley ozone monitoring \"in the frame to be cut\" in early-1980s reviews). Britannica linked for the human only.\nYEAR: 1985, exact (Nature 315, 207-210, 16 May 1985). Montreal Protocol 16 Sept 1987 is described in the body, not used as the event year.\nFLAGGED IN THE BODY: (1) NASA \"software threw the data away\" story told as popular account vs record (RealClimate reading of Bhartia/McPeters statements). (2) Chubachi's earlier Syowa observation (non-Western co-discovery; little noticed at the time). (3) Farman's proposed chemistry incomplete; Solomon et al. 1986 heterogeneous chemistry supplied the missing step.\nFACT-CHECK FIXES: summary \"phase out\" -> \"cut\" (1987 text froze and halved; phase-out came in London 1990); 1978 spray bans softened to \"late 1970s, US, Sweden, Norway; Canada began to cut\"; Gardiner's role made general (his specific quality-control role not sourced); \"nearly cut\" -> \"considered for cuts\" with HuffPost source added; \"ice particles\" -> \"cloud particles\" (type I PSCs are not ice); \"mirror images\" tied to the 16 September 1987 flight; if_you_were_there \"perfectly safe\" -> \"harmless to people\"; Gardiner birth_year null (1945 unconfirmed); builds_on keeling-curve dropped (no historical dependency); Argentine Islands \"smaller fall\" sentence cut (not confirmable without the paywalled paper).\nREVIEWER SHOULD CHECK: (1) \"A newer instrument showed the same thing\" rests on Lawrence Hall of Science/EBSCO (new instrument at Halley in late 1982), not on BAS directly. (2) Chubachi: \"September and October 1982\" - WMO says October 1982; Chubachi's daily data cover both. December 1984 publication date of Memoirs NIPR Special Issue 34 not opened (server 503). Chubachi birth year unknown, null. (3) Halley measurement purpose (\"test ideas about how stratospheric air circulates\") from a UKRI/BAS summary via search, only loosely sourced. (4) Solomon \"30-year-old\": born 19 Jan 1956, paper June 1986 - correct but optional. (5) James Anderson birth year left null (slug james-g-anderson). (6) \"Two-thirds\"/\"about a third\" follows UKRI; other accounts give ~40% for mid-October minima 1975-1984.\nPEOPLE: Farman, Gardiner, Shanklin 'author'; Chubachi 'contemporary'; Molina, Rowland, Crutzen, Lovelock, Midgley, Dobson, Fabry, Buisson 'predecessor'; Solomon, Luisa Tan Molina, James Anderson 'successor'.\nNON-WESTERN / WOMEN: Shigeru Chubachi (Japan, Syowa); Mario Molina (Mexico-born, first Mexican-born chemistry Nobel); Susan Solomon and Luisa Tan Molina. CENTRAL ASIA: accession years of the five Central Asian states to the Montreal Protocol (UN Treaty Collection); no scientific Central Asian contribution found, none invented.\nPLACE: Halley Research Station, region precision (-75.58, -26.65, approximate position of the original Halley Bay station; the station has been rebuilt and moved on the ice shelf).\nIMAGES (via commons.mjs, values verbatim): cover and figure File:Hole in the Ozone Layer Over Antarctica - GPN-2002-000117.jpg (NASA, public domain, 1998-10-01). Figures: File:Dobson071.jpg (André Knöfel, CC BY-SA 3.0; Dobson D071 at Lindenberg, not the Halley instrument - caption says so); File:Susan Solomon-Desk With Globe.jpg (credit line reads just \"noaa\", public domain, 2004 - thin author line).\nANALOGY: sunscreen coat + chlorine as an eraser that never wears down; breaks because ozone is continually made and destroyed by sunlight, the layer is a balance.\nKYRGYZ: glossary 'check' terms used: кошулма (compound), зат (substance, in химиялык заттар). New terms not in glossary: озон катмары, ультракызгылт көк нурлар, хлорфторкөмүртектер, стратосфера, уюлдук стратосфералык булуттар, хлор монооксиди, муз шельфи, аэрозолдук баллончик, муздаткыч, парник газдары, Монреаль протоколу, Вена конвенциясы, Кигали түзөтүүсү, «түтүнү чыгып турган мылтык» (smoking gun)."
+}
