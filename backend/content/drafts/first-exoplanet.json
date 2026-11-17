@@ -1,0 +1,230 @@
+{
+  "slug": "first-exoplanet",
+  "year": 1995,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 43.9317,
+  "lng": 5.7133,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg",
+    "credit": "ESO/M. Kornmesser/Nick Risinger (skysurvey.org)",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg"
+  },
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "slug": "michel-mayor",
+      "birth_year": 1942,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Michel Mayor",
+        "tr": "Michel Mayor",
+        "ru": "Мишель Майор",
+        "ky": "Мишель Майор"
+      }
+    },
+    {
+      "slug": "didier-queloz",
+      "birth_year": 1966,
+      "death_year": null,
+      "role": "author",
+      "name": {
+        "en": "Didier Queloz",
+        "tr": "Didier Queloz",
+        "ru": "Дидье Кело",
+        "ky": "Дидье Кело"
+      }
+    },
+    {
+      "slug": "otto-struve",
+      "birth_year": 1897,
+      "death_year": 1963,
+      "role": "predecessor",
+      "name": {
+        "en": "Otto Struve",
+        "tr": "Otto Struve",
+        "ru": "Отто Струве",
+        "ky": "Отто Струве"
+      }
+    },
+    {
+      "slug": "aleksander-wolszczan",
+      "birth_year": 1946,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Aleksander Wolszczan",
+        "tr": "Aleksander Wolszczan",
+        "ru": "Александр Вольщан",
+        "ky": "Александр Вольщан"
+      }
+    },
+    {
+      "slug": "dale-frail",
+      "birth_year": 1961,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Dale Frail",
+        "tr": "Dale Frail",
+        "ru": "Дейл Фрейл",
+        "ky": "Дейл Фрейл"
+      }
+    },
+    {
+      "slug": "gordon-walker",
+      "birth_year": 1936,
+      "death_year": null,
+      "role": "predecessor",
+      "name": {
+        "en": "Gordon Walker",
+        "tr": "Gordon Walker",
+        "ru": "Гордон Уокер",
+        "ky": "Гордон Уокер"
+      }
+    },
+    {
+      "slug": "geoffrey-marcy",
+      "birth_year": 1954,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "Geoffrey Marcy",
+        "tr": "Geoffrey Marcy",
+        "ru": "Джеффри Марси",
+        "ky": "Джеффри Марси"
+      }
+    },
+    {
+      "slug": "r-paul-butler",
+      "birth_year": 1960,
+      "death_year": null,
+      "role": "contemporary",
+      "name": {
+        "en": "R. Paul Butler",
+        "tr": "R. Paul Butler",
+        "ru": "Пол Батлер",
+        "ky": "Пол Батлер"
+      }
+    }
+  ],
+  "builds_on": [
+    "newton-principia",
+    "kepler-elliptical-orbits"
+  ],
+  "sources": [
+    {
+      "title": "51 Pegasi b — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/place/51-Pegasi-b-planet"
+    },
+    {
+      "title": "51 Pegasi b — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/51_Pegasi_b"
+    },
+    {
+      "title": "Exoplanet (history of detection) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Exoplanet"
+    },
+    {
+      "title": "ELODIE spectrograph — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/ELODIE_spectrograph"
+    },
+    {
+      "title": "Didier Queloz — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Didier_Queloz"
+    },
+    {
+      "title": "HD 114762 b — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/HD_114762_b"
+    },
+    {
+      "title": "IAU Circular 6251 (1995): 51 Pegasi, announcement in Florence and Lick confirmation",
+      "kind": "article",
+      "url": "https://tamkin3.eps.harvard.edu/iauc/06200/06251.html"
+    },
+    {
+      "title": "Gamma Cephei Ab — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gamma_Cephei_Ab"
+    },
+    {
+      "title": "M. Mayor & D. Queloz, 'A Jupiter-mass companion to a solar-type star', Nature 378, 355–359 (1995)",
+      "kind": "paper",
+      "url": "https://www.nature.com/articles/378355a0"
+    },
+    {
+      "title": "D. F. Gray, 'A planetary companion for 51 Pegasi implied by absence of pulsations in the stellar spectra', Nature 391 (1998)",
+      "kind": "paper",
+      "url": "https://www.nature.com/articles/34365"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2019 — popular information (linked for human review; fetch blocked)",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/physics/2019/popular-information/"
+    },
+    {
+      "title": "University of Geneva, '30 years ago' (51 Pegasi b anniversary; linked for human review; fetch blocked)",
+      "kind": "article",
+      "url": "https://www.unige.ch/sciences/astro/en/news/il-y-tout-juste-30-ans"
+    },
+    {
+      "title": "List of proper names of exoplanets — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_proper_names_of_exoplanets"
+    }
+  ],
+  "research_note": "Drafted 2026-11-17 by the nightly pipeline. Threshold met without Britannica (linked for human review; URL /place/51-Pegasi-b-planet taken from search results, not fetched): English Wikipedia (51 Pegasi b, Exoplanet, ELODIE spectrograph, Didier Queloz, HD 114762 b, Gamma Cephei Ab, proper names of exoplanets) and IAU Circular 6251. Nobel and University of Geneva pages blocked automated fetch (403) and are linked for the reviewer. CONFIRMED: announcement 6 October 1995 at the Ninth Cambridge Workshop on Cool Stars, Florence (IAUC 6251); Nature 378, 355-359, November 1995; ELODIE first light 1993 on the OHP 1.93 m telescope, Baranne optics, OHP/Geneva/Marseille; 142-star survey from April 1994, 51 Peg from September 1994; P = 4.23 d, minimum mass 0.47 Jupiter, a = 0.052 au (about 8 million km), about 50 light-years; Lick confirmation mid-October 1995; Struve 1952 (close-in giants, Doppler and eclipses); Wolszczan & Frail 1992; Gray 1997/1998 Nature reversal; Nobel 2019 split with Peebles; IAU 2015 Dimidium/Helvetios; NameExoWorlds 2019 WASP-52 Anadolu/Göktürk and HD 152581 Mahsati. FLAGGED IN BODY: 'first' is qualified in a NOTE box (pulsar planets 1992 came first; Gamma Cephei hinted 1988, withdrawn 1992, confirmed 2003). Minimum mass vs true mass explained where the analogy breaks. FACT-CHECKER (2026-11-17) and what was done: ELODIE precision 7 -> about 13 m/s (survey value in the 1995 Nature paper; 7 m/s is the best case), analogy speed changed to a car in town; orbit 7 -> about 8 million km; Gamma Cephei withdrawal in 1992 added, 2003 confirmation by another team; Mayor named as co-author of Latham 1989; HD 114762 b now 'most likely a small star'; pulsar planets 'a few times Earth's mass' not 'Earth-sized'; Gray described as at the University of Western Ontario (he was American-born), not 'Canadian'; Barnard's Star refutation dated 1973; Struve's paper 'largely overlooked'; if_you_were_there 'almost every astronomer'; Butler birth year 1960; Gray 1998 link moved to nature.com. REVIEWER SHOULD CHECK (not independently confirmed this run): Marcy & Butler January 1996 announcement of 70 Vir and 47 UMa and the 'not yet fully analysed data' framing; Lin, Bodenheimer & Richardson 1996 migration; 1999 HD 209458 transit by two teams (Charbonneau et al., Henry et al.); 'more than 6,000 confirmed by late 2026' (Wikipedia gives 6,464); Britannica URL. Kyrgyz: no glossary 'check' terms used (тастыктоо used for 'confirm', not in glossary); star names 70 Virginis / 47 Ursae Majoris left in Latin; 'нурдук ылдамдык' (radial velocity) and 'муздак жылдыздар' are Claude's renderings.",
+  "translations": {
+    "en": {
+      "title": "The first planet around a Sun-like star",
+      "summary": "Measuring a star's tiny back-and-forth wobble, Michel Mayor and Didier Queloz found a giant planet circling 51 Pegasi every four days: the first around a star like the Sun.",
+      "why_it_matters": "It showed that ordinary stars like the Sun have planets, and that planetary systems can look nothing like ours. The discovery turned the search for other worlds into a field that has since confirmed more than 6,000 of them.",
+      "if_you_were_there": "Almost every astronomer suspected other suns had planets, but no one had found one. The Solar System was the only planetary system anyone knew, and the textbooks assumed every other would look like it.",
+      "place_name": "Haute-Provence Observatory, France",
+      "body": "### The scene\n\nBy the early 1990s almost every astronomer believed that other stars had planets. Nobody could show one. A planet is tiny and dark next to its star, which outshines it millions or billions of times, so no telescope of the day could see one directly. The history of the search was also a history of embarrassment: for decades Peter van de Kamp of Swarthmore College reported planets around Barnard's Star, a nearby red dwarf, and in 1973 other astronomers showed that the \"wobble\" he measured came from his own telescope.\n\nThere had been near-misses. In 1988 the Canadian astronomers Bruce Campbell, Gordon Walker and Stephenson Yang reported a hint of a giant planet around the star Gamma Cephei, but they were cautious, withdrew the claim in 1992, and the planet was confirmed by another team only in 2003. In 1989 David Latham's team, which included Michel Mayor, found an object at least eleven times heavier than Jupiter around the star HD 114762; it was too heavy to be safely called a planet, and later measurements by the Gaia spacecraft showed it is most likely a small star. In 1992 the radio astronomers Aleksander Wolszczan and Dale Frail found real planets, a few times as massive as Earth, circling a pulsar: the spinning core left behind when a star explodes. Those were the first confirmed planets outside the Solar System, but they orbit a dead star. The question that mattered most was still open: did ordinary stars like the Sun have planets?\n\n### What happened\n\nThe method that answered it had been suggested in 1952 by Otto Struve, an astronomer born in Kharkiv into a family that had run the Pulkovo Observatory near Saint Petersburg, and who later worked in the United States. A star does not sit perfectly still while a planet orbits it. Both circle their common centre of gravity, so the star makes a small loop of its own. When the star moves toward us its light is squeezed slightly bluer; when it moves away the light is stretched slightly redder. This is the Doppler effect, the same thing that changes the pitch of a siren as an ambulance passes. Struve also pointed out, more than forty years early, that a giant planet might orbit very close to its star, where its pull would be easiest to detect. His short paper was then largely overlooked for decades.\n\n![How the radial velocity method works: a star and its planet circle a common centre, and the star's light shifts toward blue and red as it moves toward and away from us](https://upload.wikimedia.org/wikipedia/commons/2/2e/The_radial_velocity_method_%28artist%27s_impression%29.jpg \"European Southern Observatory · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:The_radial_velocity_method_(artist's_impression).jpg\")\n\nAn analogy: picture an athlete throwing the hammer. As the heavy ball swings round, the thrower cannot stand still; their body circles too, in a much smaller loop. Watching only the thrower, you could tell how fast the ball is going round and roughly how heavy it is, without ever seeing the ball. The analogy breaks in one place: we watch a star only along our line of sight, so if its orbit is tilted to us, part of the motion is hidden. That is why the method gives a planet's minimum mass, not its true mass.\n\nIn Geneva, Michel Mayor had spent years building instruments to measure the speeds of stars. With colleagues at the Haute-Provence Observatory in southern France and at Marseille, where André Baranne designed the optics, his group built a new spectrograph called ELODIE. It saw first light in 1993 on the observatory's 1.93-metre telescope and could measure a star's speed toward or away from us to within about 13 metres per second, roughly the speed of a car driving through town. In 1994 Mayor and his doctoral student Didier Queloz began watching 142 stars. They started on 51 Pegasi, a Sun-like star about 50 light-years away in the constellation Pegasus, in September 1994.\n\n![The 1.93-metre telescope at the Haute-Provence Observatory, where the ELODIE spectrograph recorded the wobble of 51 Pegasi](https://upload.wikimedia.org/wikipedia/commons/f/f4/T193_in_observations.jpg \"José Rodrigues · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:T193_in_observations.jpg\")\n\nThe star was rocking back and forth every 4.23 days. If a planet was doing it, the planet had at least half the mass of Jupiter and circled about 8 million kilometres from its star, much closer than Mercury is to the Sun. A year on it lasted four days. The team had to wait for 51 Pegasi to come back into the night sky in the summer of 1995 to check that the rhythm had held. It had. On 6 October 1995, at a workshop on cool stars in Florence, Mayor and Queloz announced a planet around a Sun-like star. Their paper, \"A Jupiter-mass companion to a solar-type star,\" appeared in *Nature* that November.\n\nWithin days the American astronomers Geoffrey Marcy and Paul Butler observed 51 Pegasi from the Lick Observatory in California and saw the same 4.2-day signal.\n\n### Why it was hard\n\nThe measurement was only part of the difficulty. The bigger obstacle was expectation. The Solar System was the only example anyone had, and in it the giant planets lie far from the Sun: Jupiter takes almost twelve years to go around once. Theory said giant planets should form only in the cold outer parts of a young planetary system, so the searches were designed to catch slow wobbles lasting years. A Jupiter-sized planet racing around its star in four days was something few people had thought to look for. Marcy and Butler had years of their own measurements that they had not yet fully analysed; after 51 Pegasi they went through them and, in January 1996, announced two more planets, around the stars 70 Virginis and 47 Ursae Majoris.\n\nDoubt did not end with the confirmation. In 1997 David Gray of the University of Western Ontario in Canada argued in *Nature* that the star itself might be pulsating, swelling and shrinking, which could imitate a planet's pull. Better measurements by several teams found no such pulsation, and in 1998 Gray published a second paper agreeing that a planet was the best explanation. Meanwhile theorists, among them Douglas Lin and his colleagues in 1996, worked out how a giant planet born far out could spiral inward to such a close orbit. A whole new kind of world, the \"hot Jupiter,\" had to be added to the textbooks.\n\n> [!NOTE]\n> 51 Pegasi b was the first planet found around a Sun-like star, not the first planet found outside the Solar System. That title belongs to the pulsar planets of Wolszczan and Frail (1992), and Gamma Cephei's planet, hinted at in 1988, was confirmed only later. Which of these counts as \"the first\" depends on how the question is asked.\n\n### What it opened\n\nThe discovery turned the search for other worlds from a fringe hope into a working field. In 1999 two teams saw a planet pass in front of its star, HD 209458, dimming it slightly: the first exoplanet transit, a second way to find planets that Struve had also proposed. Space telescopes built to watch for such dimming, Kepler from 2009 and TESS from 2018, found planets by the thousand. By late 2026 more than 6,000 exoplanets had been confirmed, many of them in systems that look nothing like our own.\n\n![Michel Mayor and Didier Queloz at the European Southern Observatory's La Silla site in Chile, 2012](https://upload.wikimedia.org/wikipedia/commons/c/c7/Didier_Queloz_and_Michel_Mayor_at_La_Silla_%286812451755%29.jpg \"L. Weinstein/Ciel et Espace Photos · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Didier_Queloz_and_Michel_Mayor_at_La_Silla_(6812451755).jpg\")\n\nIn 2019 Mayor and Queloz shared half of the Nobel Prize in Physics for the discovery; the other half went to James Peebles for his work on the history of the universe. The planet now has a name, too. In 2015 the International Astronomical Union named it Dimidium, Latin for \"half,\" after its mass, and its star Helvetios, after the Latin name for the Swiss. In 2019 the union let more than a hundred countries name a star and planet of their own: Turkey chose Anadolu and Göktürk for the star WASP-52 and its planet, and Azerbaijan named the star HD 152581 Mahsati, after the twelfth-century poet of Ganja.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Güneş benzeri bir yıldızın çevresinde ilk gezegen",
+      "summary": "Michel Mayor ve Didier Queloz, bir yıldızın küçücük yalpalamasını ölçerek 51 Pegasi'yi dört günde dolanan dev bir gezegen buldu: Güneş gibi bir yıldızın çevresindeki ilk gezegen.",
+      "why_it_matters": "Güneş gibi sıradan yıldızların gezegenleri olduğunu ve gezegen sistemlerinin bizimkine hiç benzemeyebileceğini gösterdi. Keşif, başka dünyaları aramayı bugüne dek 6.000'den fazlasını doğrulamış bir alana dönüştürdü.",
+      "if_you_were_there": "Neredeyse her gökbilimci başka güneşlerin de gezegenleri olduğundan şüpheleniyordu, ama kimse bir tane bulamamıştı. Bilinen tek gezegen sistemi Güneş Sistemi'ydi ve ders kitapları diğerlerinin de ona benzeyeceğini varsayıyordu.",
+      "place_name": "Haute-Provence Gözlemevi, Fransa",
+      "body": "### Sahne\n\n1990'ların başında neredeyse bütün gökbilimciler başka yıldızların da gezegenleri olduğuna inanıyordu. Ama kimse bir tane gösteremiyordu. Gezegen, yıldızının yanında küçük ve karanlıktır; yıldız onu milyonlarca, hatta milyarlarca kat parlaklıkla bastırır, bu yüzden dönemin hiçbir teleskobu bir gezegeni doğrudan göremiyordu. Arayışın tarihi aynı zamanda bir mahcubiyet tarihiydi: Swarthmore Koleji'nden Peter van de Kamp onlarca yıl boyunca yakındaki kırmızı cüce Barnard Yıldızı'nın çevresinde gezegenler olduğunu bildirdi; 1973'te başka gökbilimciler, ölçtüğü \"yalpalamanın\" kendi teleskobundan kaynaklandığını gösterdi.\n\nKıl payı kaçırılan adaylar da vardı. 1988'de Kanadalı gökbilimciler Bruce Campbell, Gordon Walker ve Stephenson Yang, Gamma Cephei yıldızının çevresinde dev bir gezegen olabileceğine dair bir iz bildirdiler; ama temkinliydiler, iddiayı 1992'de geri çektiler ve gezegen ancak 2003'te başka bir ekip tarafından doğrulandı. 1989'da Michel Mayor'un da içinde bulunduğu David Latham ekibi HD 114762 yıldızının çevresinde Jüpiter'den en az on bir kat ağır bir cisim buldu; gönül rahatlığıyla gezegen denemeyecek kadar ağırdı ve Gaia uzay aracının sonraki ölçümleri onun büyük olasılıkla küçük bir yıldız olduğunu gösterdi. 1992'de radyo gökbilimciler Aleksander Wolszczan ve Dale Frail gerçek gezegenler buldu: Dünya'dan birkaç kat ağır, bir pulsarın, yani patlayan bir yıldızdan geriye kalan dönen çekirdeğin çevresinde. Bunlar Güneş Sistemi dışında doğrulanan ilk gezegenlerdi, ama ölü bir yıldızın çevresinde dolanıyorlardı. En önemli soru hâlâ açıktı: Güneş gibi sıradan yıldızların gezegenleri var mıydı?\n\n### Ne oldu\n\nSoruyu cevaplayacak yöntemi 1952'de Otto Struve önermişti. Struve, Harkov'da, Saint Petersburg yakınındaki Pulkovo Gözlemevi'ni yönetmiş bir ailede doğmuş, sonra Amerika Birleşik Devletleri'nde çalışmış bir gökbilimciydi. Bir gezegen dolanırken yıldız kıpırdamadan durmaz. İkisi de ortak ağırlık merkezlerinin çevresinde döner; yani yıldız da kendi küçük halkasını çizer. Yıldız bize doğru geldiğinde ışığı biraz maviye sıkışır, uzaklaştığında biraz kırmızıya uzar. Bu Doppler etkisidir: geçen bir ambulansın sireninin sesini değiştiren olgunun aynısı. Struve, kırk yıldan fazla önceden, dev bir gezegenin yıldızına çok yakın dolanabileceğini de söylemişti; çekimi en kolay orada fark edilirdi. Kısa makalesi sonra onlarca yıl büyük ölçüde gözden kaçtı.\n\n![Dikine hız yönteminin işleyişi: yıldız ve gezegeni ortak bir merkezin çevresinde döner, yıldız bize yaklaşıp uzaklaştıkça ışığı maviye ve kırmızıya kayar](https://upload.wikimedia.org/wikipedia/commons/2/2e/The_radial_velocity_method_%28artist%27s_impression%29.jpg \"European Southern Observatory · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:The_radial_velocity_method_(artist's_impression).jpg\")\n\nBir benzetme: çekiç atan bir atleti düşün. Ağır gülle dönerken atlet yerinde duramaz; bedeni de çok daha küçük bir halka çizer. Yalnızca atlete bakarak, gülleyi hiç görmeden onun ne hızla döndüğünü ve kabaca ne kadar ağır olduğunu söyleyebilirsin. Benzetme bir yerde bozulur: yıldızı yalnızca bakış doğrultumuz boyunca izleriz; yörüngesi bize göre eğikse hareketin bir kısmı gizli kalır. Bu yüzden yöntem gezegenin gerçek kütlesini değil, en az kütlesini verir.\n\nCenevre'de Michel Mayor yıllarını yıldızların hızını ölçen aygıtlar yapmaya vermişti. Grubu, güney Fransa'daki Haute-Provence Gözlemevi'nden ve optiğini André Baranne'ın tasarladığı Marsilya'dan meslektaşlarıyla birlikte ELODIE adlı yeni bir tayfçeker kurdu. Aygıt 1993'te gözlemevinin 1,93 metrelik teleskobunda ilk ışığını aldı ve bir yıldızın bize yaklaşma ya da uzaklaşma hızını saniyede yaklaşık 13 metre duyarlılıkla ölçebiliyordu; bu, şehir içinde giden bir arabanın hızı kadardır. 1994'te Mayor ve doktora öğrencisi Didier Queloz 142 yıldızı izlemeye başladı. Pegasus takımyıldızında, yaklaşık 50 ışık yılı uzaktaki Güneş benzeri 51 Pegasi'yi Eylül 1994'te izlemeye aldılar.\n\n![Haute-Provence Gözlemevi'nin 1,93 metrelik teleskobu; ELODIE tayfçekeri 51 Pegasi'nin yalpalamasını burada kaydetti](https://upload.wikimedia.org/wikipedia/commons/f/f4/T193_in_observations.jpg \"José Rodrigues · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:T193_in_observations.jpg\")\n\nYıldız her 4,23 günde bir ileri geri sallanıyordu. Bunu bir gezegen yapıyorsa, gezegenin kütlesi en az Jüpiter'in yarısı kadardı ve yıldızından yaklaşık 8 milyon kilometre uzakta dolanıyordu; Merkür'ün Güneş'e uzaklığından çok daha yakında. Orada bir yıl dört gün sürüyordu. Ekip, ritmin sürüp sürmediğini görmek için 51 Pegasi'nin 1995 yazında gece gökyüzüne geri dönmesini beklemek zorundaydı. Ritim sürüyordu. 6 Ekim 1995'te Floransa'daki soğuk yıldızlar çalıştayında Mayor ve Queloz, Güneş benzeri bir yıldızın çevresinde bir gezegen bulduklarını duyurdu. \"Güneş türü bir yıldızın Jüpiter kütleli bir eşlikçisi\" başlıklı makaleleri aynı yılın kasımında *Nature* dergisinde çıktı.\n\nBirkaç gün içinde Amerikalı gökbilimciler Geoffrey Marcy ve Paul Butler, Kaliforniya'daki Lick Gözlemevi'nden 51 Pegasi'yi gözledi ve aynı 4,2 günlük sinyali gördü.\n\n### Neden zordu\n\nÖlçüm zorluğun yalnızca bir parçasıydı. Asıl engel beklentiydi. Elde tek örnek Güneş Sistemi'ydi ve orada dev gezegenler Güneş'ten uzaktadır: Jüpiter bir turunu neredeyse on iki yılda tamamlar. Kurama göre dev gezegenler yalnızca genç bir gezegen sisteminin soğuk dış bölgelerinde oluşabilirdi; bu yüzden aramalar yıllar süren yavaş yalpalamaları yakalamak üzere tasarlanmıştı. Yıldızının çevresinde dört günde dolanan Jüpiter büyüklüğünde bir gezegen, pek az kişinin aramayı düşündüğü bir şeydi. Marcy ve Butler'ın henüz tam çözümlemedikleri yıllık ölçümleri vardı; 51 Pegasi'den sonra bunları elden geçirdiler ve Ocak 1996'da 70 Virginis ve 47 Ursae Majoris yıldızlarının çevresinde iki gezegen daha duyurdular.\n\nKuşku doğrulamayla bitmedi. 1997'de Kanada'daki Western Ontario Üniversitesi'nden David Gray *Nature*'da yıldızın kendisinin titreşiyor, yani şişip büzülüyor olabileceğini, bunun da bir gezegenin çekimini taklit edebileceğini savundu. Birkaç ekibin daha iyi ölçümleri böyle bir titreşim bulmadı ve 1998'de Gray, en iyi açıklamanın bir gezegen olduğunu kabul eden ikinci bir makale yayımladı. Bu arada kuramcılar, aralarında 1996'da Douglas Lin ve meslektaşları, uzakta doğan dev bir gezegenin nasıl bu kadar yakın bir yörüngeye doğru içeri kayabileceğini hesapladılar. Ders kitaplarına yepyeni bir dünya türü eklenmek zorundaydı: \"sıcak Jüpiter\".\n\n> [!NOTE]\n> 51 Pegasi b, Güneş benzeri bir yıldızın çevresinde bulunan ilk gezegendir; Güneş Sistemi dışında bulunan ilk gezegen değildir. O unvan Wolszczan ile Frail'in pulsar gezegenlerinindir (1992); Gamma Cephei'nin 1988'de izi sezilen gezegeni ise ancak sonra doğrulandı. Hangisinin \"ilk\" sayılacağı, sorunun nasıl sorulduğuna bağlıdır.\n\n### Açtığı kapı\n\nKeşif, başka dünyaları aramayı uçta bir umut olmaktan çıkarıp gerçek bir araştırma alanına dönüştürdü. 1999'da iki ekip, bir gezegenin HD 209458 yıldızının önünden geçip onu hafifçe karartışını gördü: ilk ötegezegen geçişi, Struve'nin de önerdiği ikinci bir gezegen bulma yolu. Bu kararmaları izlemek için yapılan uzay teleskopları, 2009'dan itibaren Kepler ve 2018'den itibaren TESS, binlerce gezegen buldu. 2026'nın sonlarına gelindiğinde 6.000'den fazla ötegezegen doğrulanmıştı; çoğu bizimkine hiç benzemeyen sistemlerde.\n\n![Michel Mayor ve Didier Queloz, Avrupa Güney Gözlemevi'nin Şili'deki La Silla tesisinde, 2012](https://upload.wikimedia.org/wikipedia/commons/c/c7/Didier_Queloz_and_Michel_Mayor_at_La_Silla_%286812451755%29.jpg \"L. Weinstein/Ciel et Espace Photos · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Didier_Queloz_and_Michel_Mayor_at_La_Silla_(6812451755).jpg\")\n\n2019'da Mayor ve Queloz bu keşif için Nobel Fizik Ödülü'nün yarısını paylaştı; diğer yarısı evrenin tarihi üzerine çalışmaları için James Peebles'a verildi. Gezegenin artık bir adı da var. 2015'te Uluslararası Astronomi Birliği ona, kütlesinden ötürü Latince \"yarım\" anlamına gelen Dimidium adını, yıldızına da İsviçrelilerin Latince adından Helvetios adını verdi. 2019'da birlik yüzden fazla ülkenin kendi yıldızını ve gezegenini adlandırmasına izin verdi: Türkiye WASP-52 yıldızı ve gezegeni için Anadolu ve Göktürk adlarını seçti, Azerbaycan da HD 152581 yıldızına, 12. yüzyılda Gence'de yaşamış şair Mehseti Gencevi'nin anısına Mahsati adını verdi.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Первая планета у звезды, похожей на Солнце",
+      "summary": "Измерив крошечное покачивание звезды, Мишель Майор и Дидье Кело нашли у 51 Пегаса планету-гигант с периодом четыре дня — первую у звезды, похожей на Солнце.",
+      "why_it_matters": "Открытие показало, что у обычных звёзд вроде Солнца есть планеты и что планетные системы могут быть совсем не похожи на нашу. Поиск других миров стал наукой, которая с тех пор подтвердила более 6000 экзопланет.",
+      "if_you_were_there": "Почти каждый астроном подозревал, что у других солнц есть планеты, но ни одной ещё не нашли. Солнечная система была единственной известной планетной системой, и учебники считали, что все остальные похожи на неё.",
+      "place_name": "Обсерватория Верхнего Прованса, Франция",
+      "body": "### Обстановка\n\nК началу 1990-х почти все астрономы верили, что у других звёзд есть планеты. Показать хотя бы одну не мог никто. Рядом со своей звездой планета крошечная и тёмная: звезда ярче её в миллионы и миллиарды раз, поэтому ни один телескоп того времени не мог увидеть планету напрямую. История поисков была ещё и историей конфузов: Питер ван де Камп из Суортмор-колледжа десятилетиями сообщал о планетах у Звезды Барнарда, близкого красного карлика, а в 1973 году другие астрономы показали, что измеренное им «покачивание» давал его собственный телескоп.\n\nБыли и почти-открытия. В 1988 году канадские астрономы Брюс Кэмпбелл, Гордон Уокер и Стивенсон Янг сообщили о намёке на планету-гигант у звезды Гамма Цефея, но держались осторожно, в 1992 году отозвали заявку, и планету подтвердила другая группа только в 2003 году. В 1989 году группа Дэвида Латама, в которую входил и Мишель Майор, нашла у звезды HD 114762 объект как минимум в одиннадцать раз тяжелее Юпитера; он был слишком массивным, чтобы уверенно назвать его планетой, и позднейшие измерения космического аппарата Gaia показали, что это, скорее всего, маленькая звезда. В 1992 году радиоастрономы Александр Вольщан и Дейл Фрейл нашли настоящие планеты, в несколько раз массивнее Земли, у пульсара, то есть у вращающегося ядра, оставшегося после взрыва звезды. Это были первые подтверждённые планеты за пределами Солнечной системы, но они обращаются вокруг мёртвой звезды. Самый важный вопрос оставался открытым: есть ли планеты у обычных звёзд, похожих на Солнце?\n\n### Что произошло\n\nМетод, который дал ответ, предложил ещё в 1952 году Отто Струве. Он родился в Харькове, в семье, которая руководила Пулковской обсерваторией под Санкт-Петербургом, а позже работал в США. Пока вокруг звезды обращается планета, звезда не стоит на месте. Обе кружат вокруг общего центра тяжести, так что и звезда описывает свою маленькую петлю. Когда звезда движется к нам, её свет немного сжимается в сторону синего, когда удаляется, немного растягивается в сторону красного. Это эффект Доплера, тот же, что меняет тон сирены проезжающей скорой помощи. Струве более чем за сорок лет до открытия заметил и другое: планета-гигант может обращаться совсем близко к звезде, и там её притяжение заметить легче всего. Его короткая статья потом на десятилетия была почти забыта.\n\n![Как работает метод лучевых скоростей: звезда и планета обращаются вокруг общего центра, и свет звезды смещается к синему и красному, когда она приближается к нам и удаляется](https://upload.wikimedia.org/wikipedia/commons/2/2e/The_radial_velocity_method_%28artist%27s_impression%29.jpg \"European Southern Observatory · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:The_radial_velocity_method_(artist's_impression).jpg\")\n\nСравнение: представьте метателя молота. Пока тяжёлое ядро летит по кругу, спортсмен не может стоять неподвижно: его тело тоже описывает круг, только гораздо меньший. Глядя на одного спортсмена и ни разу не увидев ядро, можно понять, как быстро оно вращается и примерно сколько весит. В одном месте сравнение не работает: звезду мы видим только вдоль луча зрения, и если её орбита наклонена к нам, часть движения скрыта. Поэтому метод даёт не настоящую массу планеты, а её нижнюю границу.\n\nВ Женеве Мишель Майор годами строил приборы для измерения скоростей звёзд. Вместе с коллегами из обсерватории Верхнего Прованса на юге Франции и из Марселя, где оптику спроектировал Андре Баранн, его группа построила новый спектрограф ELODIE. Он получил первый свет в 1993 году на 1,93-метровом телескопе обсерватории и мог измерять скорость звезды к нам или от нас с точностью около 13 метров в секунду — примерно скорость машины, едущей по городу. В 1994 году Майор и его аспирант Дидье Кело начали наблюдать 142 звезды. За 51 Пегаса, похожей на Солнце звездой в созвездии Пегаса примерно в 50 световых годах от нас, они начали следить в сентябре 1994 года.\n\n![1,93-метровый телескоп обсерватории Верхнего Прованса, на котором спектрограф ELODIE записал покачивание 51 Пегаса](https://upload.wikimedia.org/wikipedia/commons/f/f4/T193_in_observations.jpg \"José Rodrigues · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:T193_in_observations.jpg\")\n\nЗвезда раскачивалась туда и обратно каждые 4,23 дня. Если это делала планета, то её масса была не меньше половины массы Юпитера, а обращалась она примерно в 8 миллионах километров от звезды, гораздо ближе, чем Меркурий к Солнцу. Год там длился четыре дня. Чтобы проверить, сохранился ли ритм, группе пришлось ждать, пока 51 Пегаса летом 1995 года снова появится на ночном небе. Ритм сохранился. 6 октября 1995 года на семинаре по холодным звёздам во Флоренции Майор и Кело объявили о планете у звезды солнечного типа. Их статья «Компаньон массы Юпитера у звезды солнечного типа» вышла в *Nature* в ноябре того же года.\n\nЧерез несколько дней американские астрономы Джеффри Марси и Пол Батлер пронаблюдали 51 Пегаса в Ликской обсерватории в Калифорнии и увидели тот же 4,2-дневный сигнал.\n\n### Почему это было трудно\n\nИзмерение было лишь частью трудности. Главным препятствием были ожидания. Единственным примером была Солнечная система, а в ней планеты-гиганты далеко от Солнца: Юпитер делает один оборот почти за двенадцать лет. Теория говорила, что планеты-гиганты рождаются только в холодных внешних областях молодой планетной системы, поэтому поиски строились так, чтобы ловить медленные покачивания длиной в годы. Планету размером с Юпитер, которая облетает звезду за четыре дня, мало кто додумался искать. У Марси и Батлера были многолетние собственные измерения, ещё не до конца обработанные; после 51 Пегаса они их пересмотрели и в январе 1996 года объявили ещё о двух планетах, у звёзд 70 Девы и 47 Большой Медведицы.\n\nПодтверждение не положило конец сомнениям. В 1997 году Дэвид Грей из Университета Западного Онтарио в Канаде доказывал в *Nature*, что пульсировать, то есть раздуваться и сжиматься, может сама звезда, и это способно имитировать притяжение планеты. Более точные измерения нескольких групп таких пульсаций не нашли, и в 1998 году Грей опубликовал вторую статью, где согласился, что планета — лучшее объяснение. Тем временем теоретики, среди них Дуглас Лин с коллегами в 1996 году, рассчитали, как планета-гигант, родившаяся далеко, может по спирали уйти внутрь на такую близкую орбиту. В учебники пришлось добавить совершенно новый тип миров — «горячие юпитеры».\n\n> [!NOTE]\n> 51 Пегаса b — первая планета, найденная у звезды, похожей на Солнце, а не первая планета за пределами Солнечной системы. Это звание принадлежит пульсарным планетам Вольщана и Фрейла (1992), а планету Гаммы Цефея, на которую намекали в 1988 году, подтвердили только позже. Что считать «первым», зависит от того, как поставлен вопрос.\n\n### Что это открыло\n\nОткрытие превратило поиск других миров из смелой надежды в рабочую область науки. В 1999 году две группы увидели, как планета проходит перед своей звездой HD 209458 и чуть её затемняет: первый транзит экзопланеты, второй способ искать планеты, который тоже предлагал Струве. Космические телескопы, построенные, чтобы следить за такими затемнениями, Kepler с 2009 года и TESS с 2018 года, нашли планеты тысячами. К концу 2026 года было подтверждено более 6000 экзопланет, многие — в системах, совсем не похожих на нашу.\n\n![Мишель Майор и Дидье Кело в обсерватории Ла-Силья Европейской южной обсерватории в Чили, 2012 год](https://upload.wikimedia.org/wikipedia/commons/c/c7/Didier_Queloz_and_Michel_Mayor_at_La_Silla_%286812451755%29.jpg \"L. Weinstein/Ciel et Espace Photos · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Didier_Queloz_and_Michel_Mayor_at_La_Silla_(6812451755).jpg\")\n\nВ 2019 году Майор и Кело разделили половину Нобелевской премии по физике за это открытие; вторая половина досталась Джеймсу Пиблсу за работы об истории Вселенной. У планеты теперь есть и имя. В 2015 году Международный астрономический союз назвал её Димидий (Dimidium), по-латыни «половина», из-за её массы, а звезду — Гельветиос (Helvetios), по латинскому названию швейцарцев. В 2019 году союз позволил более чем ста странам назвать свою звезду и планету: Турция выбрала имена Anadolu и Göktürk для звезды WASP-52 и её планеты, а Азербайджан назвал звезду HD 152581 Mahsati в честь поэтессы XII века Мехсети Гянджеви.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Күнгө окшош жылдыздын айланасындагы алгачкы планета",
+      "summary": "Мишель Майор менен Дидье Кело жылдыздын кичинекей солкулдоосун өлчөп, 51 Пегасты төрт күндө айланган алп планетаны табышкан: Күнгө окшош жылдыздын алгачкы планетасы.",
+      "why_it_matters": "Бул ачылыш Күн сыяктуу жөнөкөй жылдыздардын планеталары бар экенин жана планета системалары биздикине такыр окшобошу мүмкүн экенин көрсөткөн. Башка дүйнөлөрдү издөө ошондон бери 6000ден ашык экзопланетаны тастыктаган илим тармагына айланган.",
+      "if_you_were_there": "Дээрлик ар бир астроном башка күндөрдүн да планеталары бар деп ойлочу, бирок бирөөнү да эч ким таба элек эле. Белгилүү болгон жалгыз планета системасы Күн системасы болчу, окуу китептери башкалары да ага окшош деп эсептешчү.",
+      "place_name": "Жогорку Прованс обсерваториясы, Франция",
+      "body": "### Көрүнүш\n\n1990-жылдардын башында дээрлик бардык астрономдор башка жылдыздардын да планеталары бар деп ишенишчү. Бирок бир да планетаны эч ким көрсөтө алган эмес. Планета өз жылдызынын жанында кичинекей жана караңгы: жылдыз андан миллиондогон, ал тургай миллиарддаган эсе жарык, ошондуктан ошол кездеги бир да телескоп планетаны түз көрө алчу эмес. Издөөнүн тарыхы уят болгон окуялардын да тарыхы эле: Суортмор колледжинен Питер ван де Камп ондогон жылдар бою жакынкы кызыл карлик Барнард жылдызынын айланасында планеталар бар деп жарыялап келген, ал эми 1973-жылы башка астрономдор ал өлчөгөн «солкулдоо» анын өз телескобунан келгенин көрсөтүшкөн.\n\nТабылууга аз калган учурлар да болгон. 1988-жылы канадалык астрономдор Брюс Кэмпбелл, Гордон Уокер жана Стивенсон Янг Гамма Цефей жылдызынын айланасында алп планета болушу мүмкүн экенин билдиришкен, бирок алар этият болушкан, 1992-жылы бул билдирүүсүнөн баш тартышкан, планетаны болсо башка топ 2003-жылы гана тастыктаган. 1989-жылы Мишель Майор да катышкан Дэвид Латамдын тобу HD 114762 жылдызынын айланасынан Юпитерден кеминде он бир эсе оор нерсени тапкан. Аны ишенимдүү түрдө планета деп атоо үчүн ал өтө оор эле, кийин Gaia космос аппаратынын өлчөөлөрү анын кичинекей жылдыз болушу мүмкүн экенин көрсөткөн. 1992-жылы радиоастрономдор Александр Вольщан менен Дейл Фрейл чыныгы планеталарды табышкан: Жерден бир нече эсе оор, пульсардын, башкача айтканда, жарылган жылдыздан калган айланып турган өзөктүн айланасында. Булар Күн системасынан тышкары тастыкталган алгачкы планеталар болчу, бирок алар өлгөн жылдызды айланат. Эң маанилүү суроо ачык бойдон калган: Күнгө окшош жөнөкөй жылдыздардын планеталары барбы?\n\n### Эмне болду\n\nЖоопту берген ыкманы 1952-жылы эле Отто Струве сунуштаган. Ал Харьковдо, Санкт-Петербургдун жанындагы Пулково обсерваториясын жетектеген үй-бүлөдө туулуп, кийин Америка Кошмо Штаттарында иштеген астроном болгон. Айланасында планета айланып жүргөндө жылдыз кыймылсыз турбайт. Экөө тең жалпы оордук борборун айланышат, демек жылдыз да өзүнүн кичинекей айлампасын сызат. Жылдыз бизди көздөй жылганда анын жарыгы бир аз көк тарапка кысылат, бизден алыстаганда бир аз кызыл тарапка созулат. Бул Доплер эффекти: жанынан өтүп бара жаткан тез жардам машинасынын сиренасынын үнүн өзгөрткөн көрүнүштүн дал өзү. Струве кырк жылдан ашык мурда дагы бир нерсени айткан: алп планета өз жылдызына абдан жакын айланышы мүмкүн, анын тартылуусун ошол жерде байкоо эң оңой. Анын кыска макаласы кийин ондогон жылдар бою дээрлик унутулуп калган.\n\n![Нурдук ылдамдык ыкмасы кантип иштейт: жылдыз жана анын планетасы жалпы борборду айланат, жылдыз бизге жакындап жана алыстаганда анын жарыгы көк жана кызыл тарапка жылат](https://upload.wikimedia.org/wikipedia/commons/2/2e/The_radial_velocity_method_%28artist%27s_impression%29.jpg \"European Southern Observatory · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:The_radial_velocity_method_(artist's_impression).jpg\")\n\nБир салыштыруу: балка ыргыткан спортчуну элестетип көрүңүз. Оор ядро айланып жатканда спортчу ордунда тура албайт, анын денеси да алда канча кичинекей айлампа сызат. Ядрону такыр көрбөй туруп, жалгыз спортчуну карап эле анын канчалык тез айланып жатканын жана болжол менен канча оор экенин айтса болот. Салыштыруу бир жерде туура келбейт: жылдызды биз көз карашыбыздын багыты боюнча гана көрөбүз, эгер анын орбитасы бизге карата кыйгач болсо, кыймылдын бир бөлүгү жашырын калат. Ошондуктан бул ыкма планетанын чыныгы массасын эмес, эң аз массасын берет.\n\nЖеневада Мишель Майор көп жылдар бою жылдыздардын ылдамдыгын өлчөөчү приборлорду жасаган. Анын тобу Франциянын түштүгүндөгү Жогорку Прованс обсерваториясынан жана оптикасын Андре Баранн долбоорлогон Марселден келген кесиптештери менен бирге ELODIE деген жаңы спектрографты курушкан. Ал 1993-жылы обсерваториянын 1,93 метрлик телескобунда алгачкы жарыгын алган жана жылдыздын бизди көздөй же бизден алыс жылган ылдамдыгын секундасына болжол менен 13 метрге чейинки тактык менен өлчөй алган, бул шаар ичинде бараткан машинанын ылдамдыгындай. 1994-жылы Майор жана анын аспиранты Дидье Кело 142 жылдызды байкай башташкан. Пегас топ жылдызындагы, бизден болжол менен 50 жарык жылы алыстыктагы Күнгө окшош 51 Пегас жылдызын алар 1994-жылдын сентябрында байкай башташкан.\n\n![Жогорку Прованс обсерваториясынын 1,93 метрлик телескобу: ELODIE спектрографы 51 Пегастын солкулдоосун ушул жерде жазып алган](https://upload.wikimedia.org/wikipedia/commons/f/f4/T193_in_observations.jpg \"José Rodrigues · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:T193_in_observations.jpg\")\n\nЖылдыз ар бир 4,23 күндө ары-бери солкулдап турган. Эгер муну планета жасап жатса, анын массасы Юпитердин жарымынан кем эмес болуп, ал жылдызынан болжол менен 8 миллион километр алыстыкта айланат, Меркурийдин Күнгө болгон аралыгынан алда канча жакын. Ал жакта бир жыл төрт күнгө созулат. Ыргак сакталганын текшерүү үчүн топ 1995-жылдын жайында 51 Пегас түнкү асманга кайра чыкканга чейин күтүүгө аргасыз болгон. Ыргак сакталган. 1995-жылдын 6-октябрында Флоренциядагы муздак жылдыздар боюнча семинарда Майор жана Кело Күнгө окшош жылдыздын айланасында планета бар экенин жарыялашкан. Алардын «Күн тибиндеги жылдыздын Юпитер массасындагы шериги» деген макаласы ошол эле жылдын ноябрында *Nature* журналына чыккан.\n\nБир нече күндөн кийин америкалык астрономдор Джеффри Марси жана Пол Батлер Калифорниядагы Лик обсерваториясынан 51 Пегасты байкап, ошол эле 4,2 күндүк сигналды көрүшкөн.\n\n### Эмне үчүн оор болгон\n\nӨлчөө кыйынчылыктын бир гана бөлүгү болчу. Негизги тоскоол күтүүлөр эле. Колдо болгон жалгыз мисал Күн системасы болчу, анда алп планеталар Күндөн алыс жайгашкан: Юпитер бир жолу айланып чыгышы үчүн дээрлик он эки жыл керек. Теория боюнча алп планеталар жаш планета системасынын суук сырткы бөлүктөрүндө гана пайда болот, ошондуктан издөөлөр жылдарга созулган жай солкулдоолорду кармоого ылайыкталган. Жылдызын төрт күндө айланып чыккан Юпитердей планетаны издөө аз эле адамдын оюна келген. Марси менен Батлердин көп жылдык өз өлчөөлөрү бар эле, аларды толук талдай элек болушкан; 51 Пегастан кийин аларды кайра карап чыгып, 1996-жылдын январында 70 Virginis жана 47 Ursae Majoris жылдыздарынын айланасында дагы эки планетаны жарыялашкан.\n\nТастыктоодон кийин да шектенүү токтогон эмес. 1997-жылы Канададагы Батыш Онтарио университетинен Дэвид Грей *Nature* журналында жылдыздын өзү пульсациялап, башкача айтканда, көөп жана кичирейип жатышы мүмкүн, бул планетанын тартылуусун туурашы мүмкүн деп ырастаган. Бир нече топтун тагыраак өлчөөлөрү мындай пульсацияны тапкан эмес, жана 1998-жылы Грей эң жакшы түшүндүрмө планета экенине макул болгон экинчи макаласын жарыялаган. Ошол эле учурда теоретиктер, алардын ичинде 1996-жылы Дуглас Лин жана анын кесиптештери, алыста жаралган алп планета кантип ушундай жакын орбитага ичкери жылып келиши мүмкүн экенин эсептеп чыгышкан. Окуу китептерине таптакыр жаңы дүйнө түрүн кошууга туура келген: «ысык юпитерлер».\n\n> [!NOTE]\n> 51 Пегас b Күнгө окшош жылдыздын айланасынан табылган алгачкы планета, Күн системасынан тышкары табылган алгачкы планета эмес. Ал наам Вольщан менен Фрейлдин пульсар планеталарына таандык (1992), ал эми 1988-жылы белгиси байкалган Гамма Цефейдин планетасы кийинчерээк гана тастыкталган. Кайсынысын «биринчи» деп эсептөө суроонун кантип коюлганына жараша болот.\n\n### Эмнеге жол ачты\n\nБул ачылыш башка дүйнөлөрдү издөөнү чет жактагы үмүттөн чыныгы илим тармагына айландырган. 1999-жылы эки топ планетанын HD 209458 жылдызынын алдынан өтүп, аны бир аз күңүртөткөнүн көрүшкөн: бул экзопланетанын алгачкы транзити, планета табуунун Струве да сунуштаган экинчи жолу. Мындай күңүртөнүүнү байкоо үчүн курулган космостук телескоптор, 2009-жылдан Kepler жана 2018-жылдан TESS, миңдеген планеталарды табышкан. 2026-жылдын аягына карата 6000ден ашык экзопланета тастыкталган, алардын көбү биздин системага такыр окшобогон системаларда.\n\n![Мишель Майор жана Дидье Кело Европалык түштүк обсерваториясынын Чилидеги Ла-Силья станциясында, 2012-жыл](https://upload.wikimedia.org/wikipedia/commons/c/c7/Didier_Queloz_and_Michel_Mayor_at_La_Silla_%286812451755%29.jpg \"L. Weinstein/Ciel et Espace Photos · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Didier_Queloz_and_Michel_Mayor_at_La_Silla_(6812451755).jpg\")\n\n2019-жылы Майор менен Кело бул ачылыш үчүн физика боюнча Нобель сыйлыгынын жарымын бөлүшкөн, экинчи жарымы Ааламдын тарыхы боюнча иштери үчүн Джеймс Пиблске берилген. Эми планетанын аты да бар. 2015-жылы Эл аралык астрономиялык союз ага массасына байланыштуу латынча «жарым» дегенди билдирген Dimidium деген атты, ал эми жылдызына швейцариялыктардын латынча аталышынан Helvetios деген атты берген. 2019-жылы союз жүздөн ашык өлкөгө өз жылдызын жана планетасын атоого уруксат берген: Түркия WASP-52 жылдызы жана анын планетасы үчүн Anadolu жана Göktürk деген аттарды тандаган, ал эми Азербайжан HD 152581 жылдызын XII кылымда Гянджада жашаган акын Мехсети Гянджевинин урматына Mahsati деп атаган.",
+      "status": "machine"
+    }
+  }
+}
