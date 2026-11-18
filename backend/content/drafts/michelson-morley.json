@@ -1,0 +1,272 @@
+{
+  "slug": "michelson-morley",
+  "year": 1887,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 41.5045,
+  "lng": -81.6085,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Michelson_morley_experiment_1887.jpg",
+    "credit": "Case Western Reserve University",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Michelson_morley_experiment_1887.jpg"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "albert-a-michelson",
+      "birth_year": 1852,
+      "death_year": 1931,
+      "role": "author",
+      "name": {
+        "en": "Albert A. Michelson",
+        "tr": "Albert A. Michelson",
+        "ru": "Альберт Майкельсон",
+        "ky": "Альберт Майкельсон"
+      }
+    },
+    {
+      "slug": "edward-w-morley",
+      "birth_year": 1838,
+      "death_year": 1923,
+      "role": "author",
+      "name": {
+        "en": "Edward W. Morley",
+        "tr": "Edward W. Morley",
+        "ru": "Эдвард Морли",
+        "ky": "Эдвард Морли"
+      }
+    },
+    {
+      "slug": "james-clerk-maxwell",
+      "birth_year": 1831,
+      "death_year": 1879,
+      "role": "predecessor",
+      "name": {
+        "en": "James Clerk Maxwell",
+        "tr": "James Clerk Maxwell",
+        "ru": "Джеймс Клерк Максвелл",
+        "ky": "Джеймс Клерк Максвелл"
+      }
+    },
+    {
+      "slug": "hermann-von-helmholtz",
+      "birth_year": 1821,
+      "death_year": 1894,
+      "role": "predecessor",
+      "name": {
+        "en": "Hermann von Helmholtz",
+        "tr": "Hermann von Helmholtz",
+        "ru": "Герман фон Гельмгольц",
+        "ky": "Герман фон Гельмгольц"
+      }
+    },
+    {
+      "slug": "alfred-potier",
+      "birth_year": 1840,
+      "death_year": 1905,
+      "role": "contemporary",
+      "name": {
+        "en": "Alfred Potier",
+        "tr": "Alfred Potier",
+        "ru": "Альфред Потье",
+        "ky": "Альфред Потье"
+      }
+    },
+    {
+      "slug": "hendrik-lorentz",
+      "birth_year": 1853,
+      "death_year": 1928,
+      "role": "contemporary",
+      "name": {
+        "en": "Hendrik Lorentz",
+        "tr": "Hendrik Lorentz",
+        "ru": "Хендрик Лоренц",
+        "ky": "Хендрик Лоренц"
+      }
+    },
+    {
+      "slug": "george-francis-fitzgerald",
+      "birth_year": 1851,
+      "death_year": 1901,
+      "role": "contemporary",
+      "name": {
+        "en": "George Francis FitzGerald",
+        "tr": "George Francis FitzGerald",
+        "ru": "Джордж Фрэнсис Фицджеральд",
+        "ky": "Джордж Фрэнсис Фицджеральд"
+      }
+    },
+    {
+      "slug": "george-gabriel-stokes",
+      "birth_year": 1819,
+      "death_year": 1903,
+      "role": "predecessor",
+      "name": {
+        "en": "George Gabriel Stokes",
+        "tr": "George Gabriel Stokes",
+        "ru": "Джордж Габриель Стокс",
+        "ky": "Джордж Габриель Стокс"
+      }
+    },
+    {
+      "slug": "joseph-larmor",
+      "birth_year": 1857,
+      "death_year": 1942,
+      "role": "successor",
+      "name": {
+        "en": "Joseph Larmor",
+        "tr": "Joseph Larmor",
+        "ru": "Джозеф Лармор",
+        "ky": "Джозеф Лармор"
+      }
+    },
+    {
+      "slug": "henri-poincare",
+      "birth_year": 1854,
+      "death_year": 1912,
+      "role": "successor",
+      "name": {
+        "en": "Henri Poincaré",
+        "tr": "Henri Poincaré",
+        "ru": "Анри Пуанкаре",
+        "ky": "Анри Пуанкаре"
+      }
+    },
+    {
+      "slug": "albert-einstein",
+      "birth_year": 1879,
+      "death_year": 1955,
+      "role": "successor",
+      "name": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein",
+        "ru": "Альберт Эйнштейн",
+        "ky": "Альберт Эйнштейн"
+      }
+    },
+    {
+      "slug": "dayton-miller",
+      "birth_year": 1866,
+      "death_year": 1941,
+      "role": "successor",
+      "name": {
+        "en": "Dayton Miller",
+        "tr": "Dayton Miller",
+        "ru": "Дейтон Миллер",
+        "ky": "Дейтон Миллер"
+      }
+    }
+  ],
+  "builds_on": [
+    "maxwell-electromagnetic-light"
+  ],
+  "sources": [
+    {
+      "title": "Michelson–Morley experiment — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/Michelson-Morley-experiment"
+    },
+    {
+      "title": "Michelson–Morley experiment — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment"
+    },
+    {
+      "title": "A. A. Michelson, \"The Relative Motion of the Earth and the Luminiferous Ether\", American Journal of Science 22 (1881) — Wikisource",
+      "kind": "paper",
+      "url": "https://en.wikisource.org/wiki/The_Relative_Motion_of_the_Earth_and_the_Luminiferous_Ether"
+    },
+    {
+      "title": "A. A. Michelson and E. W. Morley, \"On the Relative Motion of the Earth and the Luminiferous Ether\", American Journal of Science 34 (1887) 333–345 — Wikisource",
+      "kind": "paper",
+      "url": "https://en.wikisource.org/wiki/On_the_Relative_Motion_of_the_Earth_and_the_Luminiferous_Ether"
+    },
+    {
+      "title": "Albert Abraham Michelson — Complete Dictionary of Scientific Biography, Encyclopedia.com",
+      "kind": "encyclopedia",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/albert-abraham-michelson"
+    },
+    {
+      "title": "Michelson–Morley Experiment — Encyclopedia of Cleveland History, Case Western Reserve University",
+      "kind": "article",
+      "url": "https://case.edu/ech/articles/m/michelson-morley-experiment"
+    },
+    {
+      "title": "This Month in Physics History: November 1887 — APS News (linked for human review; fetch blocked)",
+      "kind": "article",
+      "url": "https://www.aps.org/apsnews/2007/11/november-1887-michelson-uminiferous-ether"
+    },
+    {
+      "title": "Edward W. Morley and the Atomic Weight of Oxygen — American Chemical Society, National Historic Chemical Landmark",
+      "kind": "article",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/atomicweightofoxygen.html"
+    },
+    {
+      "title": "The Michelson–Morley Experiment, the Luminiferous Ether, and Precision Measurement — Science and Its Times, Encyclopedia.com",
+      "kind": "encyclopedia",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/michelson-morley-experiment-luminiferous-ether-and-precision-measurement"
+    },
+    {
+      "title": "Edward W. Morley — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_W._Morley"
+    },
+    {
+      "title": "LIGO's Interferometer — Caltech LIGO Laboratory",
+      "kind": "article",
+      "url": "https://www.ligo.caltech.edu/page/ligos-ifo"
+    },
+    {
+      "title": "Albert A. Michelson — Biographical, NobelPrize.org (linked for human review; fetch blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.nobelprize.org/prizes/physics/1907/michelson/biographical/"
+    }
+  ],
+  "research_note": "Drafted 2026-11-18 by the nightly pipeline. Threshold met without Britannica, APS News and NobelPrize.org (403, linked for human review): English Wikipedia (Michelson–Morley experiment, Edward W. Morley), the 1881 and 1887 papers on Wikisource, the Dictionary of Scientific Biography and Science and Its Times on Encyclopedia.com, Encyclopedia of Cleveland History (CWRU), Caltech LIGO. YEAR: 1887 exact; observations April–July 1887, published November 1887, no source disagrees. CONFIRMED (against the 1887 paper text): ~11 m path, ~10x the 1881 path, sandstone ~1.5 m square and 0.3 m thick on a wooden float in a cast-iron mercury trough, one turn per six minutes, sixteen marks, noon runs 8/9/11 July and evening runs 8/9/12 July, expected 0.4 fringe, observed certainly <1/20 and probably <1/40, 'probably less than one-sixth ... certainly less than one-fourth' of orbital velocity; Potier (winter 1881) then Lorentz found the 1881 expected effect halved; promise to repeat at three-month intervals. Adelbert Dormitory basement (CWRU encyclopedia). Bell money for 1881 apparatus (DSB: Bell's credit with Schmidt & Haensch; another source: Volta Fund on Bell's advice) - body says only 'with money from Bell'. Berlin vibration -> Potsdam observatory cellar (1881 paper). FitzGerald 1889, Lorentz 1892; Larmor 1897/Lorentz 1904/Poincaré 1905. Morley & Miller 1902-04 null; Miller Mount Wilson 1921/1925-26 positive, Shankland et al. 1955 and Roberts 2006 re-analyses. Michelson Nobel 1907, first American in a science (Roosevelt's 1906 Peace prize is why 'in a science' matters). Morley 1895 oxygen atomic weight. LIGO Michelson interferometers, 4 km arms; first detection 14 Sep 2015. FLAGGED IN BODY: Einstein's debt to the experiment disputed (stated as such). Seasonal repeats: body says they 'do not seem to have followed through' - only one indirect source (Invention & Technology) says they stopped after summer 1887; REVIEWER SHOULD CHECK against Swenson, The Ethereal Aether, or similar. FACT-CHECKER (2026-11-18) and what was done: (1) observation dates were run together -> split noon 8/9/11, evening 8/9/12 in all four languages; (2) 'same campus' -> 'neighbouring campus' (Case School and Western Reserve were separate institutions side by side); (3) Maxwell timing -> '1878 and again in a letter of 1879'; (4) seasonal series softened (belirsiz); (5) 'one of the most repeated in physics' (unsourced superlative) -> 'repeated many times over the following decades'; (6) Miller re-analysis -> 1955 and 2006; (7) Stokes and Larmor added to people; 1881 paper added to sources. NOT DONE: fact-checker suggested licence 'Public domain (US)' for the cover - the Commons page notes it may not be PD outside the US; the commons.mjs value 'Public domain' is kept verbatim per the pipeline rule, reviewer should decide. The cover is a drawing of the apparatus credited by Commons to 'Case Western Reserve University' with source cellularuniverse.org - the author line is thin. The Case encyclopedia credits Morley with designing the floating mount; not added (single source). KYRGYZ: no glossary 'check' terms used (далилдөө, теңдеме, ойлоп табуу, зат avoided except 'зат' in the scene paragraph: 'кыймылсыз бир зат' = substance, glossary 'check'). New terms not in glossary: интерферометр, эфир, сымап (mercury), тилке (fringe), ийин (interferometer arm), жамаачы (patch), Лоренцтин өзгөртүүлөрү (Lorentz transformations), атайын салыштырмалуулук теориясы.",
+  "translations": {
+    "en": {
+      "title": "Michelson and Morley look for the ether and find nothing",
+      "summary": "In a Cleveland basement, Albert Michelson and Edward Morley built an instrument sensitive enough to catch Earth moving through the ether. It found almost nothing.",
+      "why_it_matters": "The experiment was meant to measure the ether and instead left it with nothing to do. Explaining that silence led Lorentz, FitzGerald and Poincaré to shrinking lengths and altered time, and in 1905 Einstein built special relativity on a world with no ether at all.",
+      "if_you_were_there": "Nearly every physicist you knew was sure that space was filled with an invisible ether, and that Earth was rushing through it at about 30 kilometres a second. The only question was how to feel the wind.",
+      "place_name": "Cleveland, Ohio, United States",
+      "body": "### The scene\n\nIn the 1880s physicists were sure that light was a wave, and almost all of them were sure that a wave has to be a wave in something. Sound moves through air, ripples move across water. Light crosses the empty space between the Sun and Earth, so space could not really be empty: it had to be filled with an invisible, motionless substance they called the luminiferous ether, the \"light-carrying ether.\" James Clerk Maxwell's theory of 1865 showed that light is an electromagnetic wave, and Maxwell too pictured that wave as a disturbance travelling through the ether.\n\nIf the ether stood still while Earth moved through it, circling the Sun at about 30 kilometres per second, then a laboratory on Earth should feel an \"ether wind,\" the way a cyclist feels a breeze on a windless day. Light sent along that wind and against it should take slightly different times. The trouble was the size of the effect. Light is about ten thousand times faster than Earth, and when a beam goes out and comes back, most of the difference cancels: what remains is about one part in a hundred million. Maxwell judged, in 1878 and again in a letter of 1879, the year he died, that an effect so small was probably beyond any measurement made on Earth.\n\nAlbert Abraham Michelson thought it could be done. Born in 1852 in Strzelno, then in Prussia and now in Poland, he had come to the United States as a small child, trained at the United States Naval Academy, and made his name by measuring the speed of light. In 1880 and 1881, while studying in Europe, he built a new instrument for the ether question in Berlin, in Hermann von Helmholtz's institute, with money from Alexander Graham Bell. Vibrations in the city disturbed it so badly that he moved it to the basement of the astrophysical observatory in Potsdam. He saw no ether wind. But the instrument was barely sensitive enough, and the French physicist Alfred Potier and then the Dutch physicist Hendrik Lorentz showed that Michelson had miscalculated: the effect he should have expected was only half as large as he thought, too close to the noise to convince anyone.\n\n### What happened\n\nMichelson's instrument, now called an interferometer, splits one beam of light into two with a half-silvered mirror. The two halves travel along arms at right angles, bounce off mirrors at the far ends, and come back together. When they meet, the waves overlap: where crest meets crest the light brightens, where crest meets trough it darkens, and the eye sees a pattern of light and dark stripes called fringes. If one beam takes even slightly longer than the other, the stripes slide sideways. The instrument turns a tiny difference in travel time into a visible shift of a pattern.\n\n![Diagram of the Michelson–Morley interferometer: a light source, a half-silvered mirror that splits the beam, two arms at right angles with mirrors, and the observer where the beams recombine](https://upload.wikimedia.org/wikipedia/commons/0/06/Michelson-Morley_experiment_%28en%29.svg \"Benjamin D. Esham ( bdesham ) · Public domain · https://commons.wikimedia.org/wiki/File:Michelson-Morley_experiment_(en).svg\")\n\nA comparison helps. Picture two swimmers, equally fast, in a river. One swims a fixed distance upstream and back; the other swims the same distance straight across the current and back. Work it through and the swimmer who goes across always wins, by a small margin that depends on how fast the river flows. The two beams were the swimmers, the ether wind was the current, and the fringes were the finish line. The comparison breaks in two places: a swimmer can feel the water, while nobody had ever felt the ether, and, as it turned out, light does not add and subtract speeds the way a swimmer does.\n\nBy 1887 Michelson was professor of physics at the Case School of Applied Science in Cleveland, Ohio, and he had a partner on the neighbouring campus: Edward Morley, a chemist at Western Reserve University and an experimenter known for exacting measurements. Together they built a far larger instrument in the basement of a Western Reserve dormitory. Mirrors bounced each beam back and forth several times, so the light travelled about 11 metres along each arm, roughly ten times the path of 1881. Everything stood on a sandstone slab about one and a half metres square, resting on a wooden float in a ring-shaped trough of mercury. The mercury damped vibrations and let the whole apparatus be turned slowly and smoothly, about once every six minutes, while the fringes were read at sixteen marks around the circle. The turning was the point: as an arm swung from facing the wind to lying across it, the stripes should have drifted back and forth.\n\nThe work ran in several stretches between April and July 1887; the observations they published were taken around noon on 8, 9 and 11 July and around six in the evening on 8, 9 and 12 July. Their calculation said the fringes should shift by about four-tenths of a stripe. What they saw was certainly less than a twentieth of that and probably less than a fortieth, small enough to be ordinary error. If there was any relative motion of Earth and ether at all, they wrote in the *American Journal of Science* that November, it was probably less than a sixth of Earth's orbital speed and certainly less than a quarter.\n\n### Why it was hard\n\nThe size of the effect was only part of the problem. A small change of temperature could stretch one arm more than the ether wind was expected to; footsteps or a passing cart could shake the fringes away. Hence the stone, the mercury, the basement and the slow turning. And even a clean result proved less than it seemed: an experiment that finds nothing can always be blamed on something hidden.\n\nMichelson and Morley did not read their result as a revolution. They read it as a disappointment. Their paper promised to repeat the measurements every three months, so that Earth's motion around the Sun would point the apparatus through the ether in different directions over the year, but they do not seem to have followed through with that seasonal series, and Michelson turned to other precision work. One way out, going back to an older idea of George Stokes, was that Earth drags the nearby ether along with it, so that a basement laboratory would feel no wind.\n\nThe answer that lasted was stranger. In 1889 the Irish physicist George FitzGerald, and independently in 1892 Lorentz, proposed that anything moving through the ether is shortened along its direction of motion by exactly the amount needed to hide the effect. It looked like a patch cut to fit the hole, and at first it was one. But over the next fifteen years Lorentz, Joseph Larmor and Henri Poincaré built it into a full set of rules, now called the Lorentz transformations, in which both lengths and the passage of time depend on motion.\n\n> [!THEORY]\n> In 1905 Albert Einstein derived the same rules from two starting points: the laws of physics are the same for everyone moving steadily, and the speed of light in empty space is the same for every observer. In this special theory of relativity there is no ether wind to find, because nothing plays the role of a motionless background against which something could be \"truly at rest.\" How much the Michelson–Morley result itself guided Einstein is disputed: his own later recollections differ, and historians still argue about it.\n\n### What it opened\n\nThe experiment that found nothing was repeated many times over the following decades. Morley and Dayton Miller ran it again in 1902–1904 with the same result. In the 1920s Miller reported a small positive signal from Mount Wilson in California; other experimenters could not reproduce it, and later re-analyses, in 1955 and 2006, traced it to temperature effects or found that it did not stand out from the noise of his data. Modern versions with lasers and ultra-stable optical cavities find that light's speed is the same in every direction to better than one part in a hundred million billion.\n\nIn 1907 Michelson became the first American to receive a Nobel Prize in a science, awarded for his precision optical instruments and the measurements made with them, not for the ether experiment as such. Morley went on to publish, in 1895, a measurement of the atomic weight of oxygen more precise than any before it. And the instrument outlived the question it was built for. The LIGO detectors that first caught gravitational waves in 2015 are Michelson interferometers with arms four kilometres long, using the same trick of comparing two beams of light to sense a change in length far smaller than an atom.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Michelson ve Morley esiri aradı, hiçbir şey bulamadı",
+      "summary": "Albert Michelson ve Edward Morley, Cleveland'da bir bodrumda Dünya'nın esir içindeki hareketini yakalayacak kadar duyarlı bir alet kurdu. Alet neredeyse hiçbir şey göstermedi.",
+      "why_it_matters": "Deney esiri ölçmek için yapıldı, sonunda esire yapacak bir iş bırakmadı. Bu sessizliği açıklama çabası Lorentz, FitzGerald ve Poincaré'yi kısalan uzunluklara ve değişen zamana götürdü; Einstein 1905'te özel göreliliği hiç esir olmayan bir dünya üzerine kurdu.",
+      "if_you_were_there": "Tanıdığın fizikçilerin neredeyse hepsi uzayın görünmez bir esirle dolu olduğundan ve Dünya'nın onun içinden saniyede yaklaşık 30 kilometre hızla geçtiğinden emindi. Tek soru, o rüzgârın nasıl hissedileceğiydi.",
+      "place_name": "Cleveland, Ohio, Amerika Birleşik Devletleri",
+      "body": "### Sahne\n\n1880'lerde fizikçiler ışığın bir dalga olduğundan emindi; neredeyse hepsi de bir dalganın mutlaka bir şeyin içinde dalgalandığından emindi. Ses havada ilerler, halkalar suyun yüzeyinde yayılır. Işık Güneş ile Dünya arasındaki boşluğu aşıyordu; öyleyse uzay gerçekten boş olamazdı: görünmez, kıpırdamayan bir maddeyle dolu olmalıydı. Buna ışık taşıyan esir, \"lüminifer esir\" dediler. James Clerk Maxwell'in 1865 tarihli kuramı ışığın elektromanyetik bir dalga olduğunu göstermişti ve Maxwell de bu dalgayı esirde ilerleyen bir titreşim olarak düşünüyordu.\n\nEsir dururken Dünya onun içinden geçiyorsa, Güneş'in çevresinde saniyede yaklaşık 30 kilometre hızla dönerken, Dünya'daki bir laboratuvar bir \"esir rüzgârı\" hissetmeliydi; tıpkı rüzgârsız bir günde bisikletlinin yüzüne çarpan esinti gibi. Bu rüzgârla aynı yöne ve ona karşı gönderilen ışık biraz farklı sürelerde yol almalıydı. Sorun etkinin büyüklüğündeydi. Işık Dünya'dan yaklaşık on bin kat hızlıdır ve bir ışın gidip geri döndüğünde farkın büyük kısmı birbirini götürür: geriye kalan yaklaşık yüz milyonda birlik bir farktır. Maxwell, 1878'de ve öldüğü yıl olan 1879'da yazdığı bir mektupta yeniden, bu kadar küçük bir etkinin Dünya üzerinde yapılacak herhangi bir ölçümün muhtemelen ötesinde olduğunu düşünüyordu.\n\nAlbert Abraham Michelson bunun yapılabileceğini düşündü. 1852'de o zaman Prusya'da, bugün Polonya'da olan Strzelno'da doğmuş, küçük bir çocukken ailesiyle Amerika Birleşik Devletleri'ne gelmiş, ABD Deniz Harp Okulu'nda yetişmiş ve ışık hızını ölçerek tanınmıştı. 1880 ve 1881'de Avrupa'da öğrenimini sürdürürken, esir sorusu için yeni bir aleti Berlin'de, Hermann von Helmholtz'un enstitüsünde, Alexander Graham Bell'in verdiği parayla kurdu. Şehirdeki titreşimler aleti öyle bozdu ki onu Potsdam'daki astrofizik gözlemevinin bodrumuna taşıdı. Esir rüzgârı göremedi. Ama alet ancak sınırda yeterince duyarlıydı; Fransız fizikçi Alfred Potier, ardından Hollandalı fizikçi Hendrik Lorentz, Michelson'ın hesabında hata olduğunu gösterdi: beklemesi gereken etki sandığının yalnızca yarısıydı, kimseyi ikna edemeyecek kadar gürültüye yakındı.\n\n### Ne oldu\n\nMichelson'ın bugün interferometre denen aleti, bir ışık demetini yarı gümüşlenmiş bir aynayla ikiye böler. İki yarı birbirine dik kollar boyunca ilerler, uçlardaki aynalardan yansır ve yeniden birleşir. Karşılaştıklarında dalgalar üst üste biner: tepe tepeyle buluştuğu yerde ışık parlar, tepe çukurla buluştuğu yerde kararır ve göz, saçak denen açık-koyu çizgilerden bir desen görür. Demetlerden biri ötekinden azıcık bile uzun sürse çizgiler yana kayar. Alet, yolculuk süresindeki minicik bir farkı bir desenin gözle görülür kaymasına çevirir.\n\n![Michelson–Morley interferometresinin şeması: ışık kaynağı, demeti bölen yarı gümüşlenmiş ayna, uçlarında aynalar olan birbirine dik iki kol ve demetlerin yeniden birleştiği yerde gözlemci](https://upload.wikimedia.org/wikipedia/commons/0/06/Michelson-Morley_experiment_%28en%29.svg \"Benjamin D. Esham ( bdesham ) · Public domain · https://commons.wikimedia.org/wiki/File:Michelson-Morley_experiment_(en).svg\")\n\nBir karşılaştırma işe yarar. Bir nehirde eşit hızda iki yüzücü düşünün. Biri belli bir mesafeyi akıntıya karşı gidip geri döner; öteki aynı mesafeyi akıntıyı dik keserek gidip döner. Hesabı yaparsanız karşıya yüzen her zaman kazanır, farkı da nehrin ne kadar hızlı aktığına bağlıdır. İki ışın demeti yüzücülerdi, esir rüzgârı akıntıydı, saçaklar da bitiş çizgisiydi. Karşılaştırma iki yerde bozulur: yüzücü suyu hisseder, oysa esiri kimse hissetmemişti; üstelik sonradan anlaşıldı ki ışık, hızları bir yüzücü gibi toplayıp çıkarmaz.\n\n1887'de Michelson Cleveland, Ohio'daki Case Uygulamalı Bilimler Okulu'nda fizik profesörüydü ve hemen yanındaki yerleşkede bir ortağı vardı: Western Reserve Üniversitesi'nde kimyager olan, titiz ölçümleriyle tanınan Edward Morley. Birlikte, Western Reserve'deki bir öğrenci yurdunun bodrumunda çok daha büyük bir alet kurdular. Aynalar her demeti birkaç kez ileri geri yansıttığı için ışık her kol boyunca yaklaşık 11 metre yol alıyordu, 1881'dekinin aşağı yukarı on katı. Her şey yaklaşık bir buçuk metre karelik bir kumtaşı levhanın üstündeydi; levha, halka biçimli bir cıva oluğunda yüzen tahta bir şamandıraya oturuyordu. Cıva titreşimleri söndürüyor ve bütün düzeneğin yavaşça, pürüzsüzce, yaklaşık altı dakikada bir tur döndürülmesini sağlıyordu; saçaklar çember üzerindeki on altı işarette okunuyordu. İşin özü dönüşteydi: bir kol rüzgâra bakmaktan rüzgârı dik kesmeye geçerken çizgiler ileri geri kaymalıydı.\n\nÇalışma Nisan ile Temmuz 1887 arasında birkaç dönem halinde sürdü; yayımladıkları gözlemler 8, 9 ve 11 Temmuz'da öğle saatlerinde, 8, 9 ve 12 Temmuz'da akşam altı sularında alındı. Hesaplarına göre saçaklar bir çizginin yaklaşık onda dördü kadar kaymalıydı. Gördükleri kayma bunun kesinlikle yirmide birinden az, muhtemelen kırkta birinden azdı; sıradan ölçüm hatası sayılacak kadar küçük. O kasım *American Journal of Science* dergisinde, Dünya ile esir arasında herhangi bir göreli hareket varsa bunun muhtemelen Dünya'nın yörünge hızının altıda birinden, kesinlikle de dörtte birinden az olduğunu yazdılar.\n\n### Neden zordu\n\nEtkinin küçüklüğü sorunun yalnızca bir parçasıydı. Sıcaklıktaki küçük bir değişim bir kolu, esir rüzgârından beklenenden daha çok uzatabilirdi; ayak sesleri ya da geçen bir araba saçakları dağıtabilirdi. Taş, cıva, bodrum ve yavaş dönüş bundandı. Üstelik temiz bir sonuç bile göründüğünden azını kanıtlıyordu: hiçbir şey bulmayan bir deneyin sonucu her zaman gizli bir şeye yüklenebilir.\n\nMichelson ve Morley sonuçlarını bir devrim olarak okumadılar. Bir hayal kırıklığı olarak okudular. Makaleleri ölçümleri üç ayda bir tekrarlamayı vaat ediyordu; böylece Dünya'nın Güneş çevresindeki hareketi aleti yıl boyunca esirin içinde farklı yönlere çevirecekti. Ama bu mevsimlik diziyi sürdürmemiş görünüyorlar ve Michelson başka hassas ölçümlere yöneldi. Bir çıkış yolu, George Stokes'un daha eski bir fikrine dayanıyordu: Dünya yakınındaki esiri de beraberinde sürüklüyor olabilirdi, o zaman bodrumdaki bir laboratuvar hiç rüzgâr hissetmezdi.\n\nKalıcı olan cevap daha tuhaftı. 1889'da İrlandalı fizikçi George FitzGerald, 1892'de de ondan bağımsız olarak Lorentz, esirin içinde hareket eden her şeyin hareket yönünde, etkiyi tam gizleyecek kadar kısaldığını öne sürdü. Bu, deliğe göre kesilmiş bir yamaya benziyordu ve başta gerçekten öyleydi. Ama sonraki on beş yılda Lorentz, Joseph Larmor ve Henri Poincaré onu bugün Lorentz dönüşümleri denen eksiksiz bir kurallar takımına dönüştürdü: bu kurallarda hem uzunluklar hem de zamanın akışı harekete bağlıdır.\n\n> [!THEORY]\n> Albert Einstein 1905'te aynı kuralları iki başlangıç noktasından türetti: fizik yasaları düzgün hareket eden herkes için aynıdır ve boşlukta ışık hızı her gözlemci için aynıdır. Bu özel görelilik kuramında bulunacak bir esir rüzgârı yoktur, çünkü bir şeyin \"gerçekten durduğunu\" söyleyebileceğimiz kıpırdamayan bir arka plan rolünü oynayan hiçbir şey yoktur. Michelson–Morley sonucunun Einstein'ı ne kadar yönlendirdiği tartışmalıdır: Einstein'ın sonraki yıllardaki anlatımları birbirini tutmaz ve tarihçiler bunu hâlâ tartışır.\n\n### Ne kapı açtı\n\nHiçbir şey bulmayan deney sonraki on yıllar boyunca defalarca tekrarlandı. Morley ve Dayton Miller 1902–1904'te deneyi yeniden yaptı, sonuç aynıydı. 1920'lerde Miller, Kaliforniya'daki Mount Wilson'dan küçük bir pozitif sinyal bildirdi; başka deneyciler bunu tekrarlayamadı 1955 ve 2006'daki yeniden çözümlemeler ise sinyali sıcaklık etkilerine bağladı ya da verilerinin gürültüsünden ayrışmadığını buldu. Lazerli ve son derece kararlı optik kovuklarla yapılan modern sürümler, ışık hızının her yönde aynı olduğunu yüz milyon milyarda birden daha iyi bir duyarlılıkla gösteriyor.\n\nMichelson 1907'de bir bilim dalında Nobel Ödülü alan ilk Amerikalı oldu; ödül esir deneyinin kendisi için değil, hassas optik aletleri ve onlarla yapılan ölçümler için verildi. Morley 1895'te oksijenin atom ağırlığını kendisinden öncekilerin hepsinden daha hassas biçimde ölçtüğü sonucu yayımladı. Alet ise kurulduğu sorudan daha uzun yaşadı. 2015'te kütleçekim dalgalarını ilk kez yakalayan LIGO dedektörleri, kolları dört kilometre uzunluğunda Michelson interferometreleridir ve bir atomdan çok daha küçük bir uzunluk değişimini sezmek için aynı yöntemi, iki ışık demetini karşılaştırmayı kullanır.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Майкельсон и Морли искали эфир и ничего не нашли",
+      "summary": "В подвале в Кливленде Альберт Майкельсон и Эдвард Морли построили прибор, способный заметить движение Земли сквозь эфир. Он почти ничего не показал.",
+      "why_it_matters": "Опыт задумывали, чтобы измерить эфир, а в итоге эфиру нечего стало объяснять. Попытки объяснить это молчание привели Лоренца, Фицджеральда и Пуанкаре к сокращению длин и изменению хода времени, а в 1905 году Эйнштейн построил специальную теорию относительности в мире вовсе без эфира.",
+      "if_you_were_there": "Почти все знакомые вам физики были уверены, что пространство заполнено невидимым эфиром и что Земля несётся сквозь него со скоростью около 30 километров в секунду. Вопрос был лишь в том, как почувствовать этот ветер.",
+      "place_name": "Кливленд, Огайо, США",
+      "body": "### Обстановка\n\nВ 1880-х годах физики были уверены, что свет — это волна, и почти все были уверены, что волна обязательно колеблется в чём-то. Звук бежит по воздуху, рябь — по воде. Свет пересекает пустоту между Солнцем и Землёй, значит, пространство не может быть по-настоящему пустым: оно должно быть заполнено невидимым неподвижным веществом, которое назвали светоносным эфиром. Теория Джеймса Клерка Максвелла 1865 года показала, что свет — это электромагнитная волна, и Максвелл тоже представлял эту волну как возмущение, бегущее по эфиру.\n\nЕсли эфир неподвижен, а Земля движется сквозь него, облетая Солнце со скоростью около 30 километров в секунду, то лаборатория на Земле должна ощущать «эфирный ветер» — так велосипедист чувствует встречный ветерок в безветренный день. Свет, посланный по ветру и против него, должен проходить путь за чуть разное время. Беда была в величине эффекта. Свет примерно в десять тысяч раз быстрее Земли, а когда луч уходит и возвращается, большая часть разницы взаимно гасится: остаётся примерно одна стомиллионная. Максвелл в 1878 году и ещё раз в письме 1879 года, года своей смерти, писал, что столь малый эффект, вероятно, недоступен никакому измерению на Земле.\n\nАльберт Абрахам Майкельсон считал, что это возможно. Он родился в 1852 году в Стшельно, тогда в Пруссии, ныне в Польше, ребёнком приехал с семьёй в США, учился в Военно-морской академии США и прославился измерениями скорости света. В 1880–1881 годах, продолжая учёбу в Европе, он построил новый прибор для проверки эфира в Берлине, в институте Германа фон Гельмгольца, на деньги Александра Грейама Белла. Городские вибрации мешали так сильно, что он перенёс прибор в подвал астрофизической обсерватории в Потсдаме. Эфирного ветра он не увидел. Но чувствительности прибора едва хватало, а французский физик Альфред Потье, затем нидерландский физик Хендрик Лоренц показали, что Майкельсон ошибся в расчёте: ожидаемый эффект был вдвое меньше, чем он думал, и слишком близок к шуму, чтобы кого-то убедить.\n\n### Что произошло\n\nПрибор Майкельсона, который теперь называют интерферометром, делит один световой луч на два с помощью полупрозрачного посеребрённого зеркала. Половины идут по двум взаимно перпендикулярным плечам, отражаются от зеркал на концах и снова сходятся. При встрече волны накладываются: где гребень встречает гребень, свет ярче, где гребень встречает впадину — темнее, и глаз видит узор из светлых и тёмных полос, интерференционных полос. Если один луч идёт хоть немного дольше другого, полосы сдвигаются вбок. Прибор превращает крошечную разницу во времени пути в заметный сдвиг узора.\n\n![Схема интерферометра Майкельсона–Морли: источник света, полупрозрачное зеркало, делящее луч, два перпендикулярных плеча с зеркалами и наблюдатель там, где лучи снова сходятся](https://upload.wikimedia.org/wikipedia/commons/0/06/Michelson-Morley_experiment_%28en%29.svg \"Benjamin D. Esham ( bdesham ) · Public domain · https://commons.wikimedia.org/wiki/File:Michelson-Morley_experiment_(en).svg\")\n\nПоможет сравнение. Представьте двух одинаково быстрых пловцов в реке. Один проплывает определённое расстояние против течения и обратно, другой — такое же расстояние поперёк течения и обратно. Если всё посчитать, поперёк плывущий всегда выигрывает, с небольшим отрывом, который зависит от скорости реки. Два луча были пловцами, эфирный ветер — течением, а полосы — финишной чертой. Сравнение ломается в двух местах: пловец чувствует воду, а эфир не чувствовал никто; к тому же, как выяснилось, свет не складывает и не вычитает скорости так, как пловец.\n\nК 1887 году Майкельсон был профессором физики в Школе прикладных наук Кейса в Кливленде, штат Огайо, и у него был партнёр в соседнем кампусе — Эдвард Морли, химик из Университета Вестерн-Резерв, известный своими скрупулёзными измерениями. Вместе они построили гораздо больший прибор в подвале студенческого общежития Вестерн-Резерв. Зеркала гоняли каждый луч туда и обратно несколько раз, так что свет проходил вдоль каждого плеча около 11 метров, примерно в десять раз больше, чем в 1881 году. Всё стояло на плите из песчаника около полутора метров в поперечнике, лежавшей на деревянном поплавке в кольцевом жёлобе со ртутью. Ртуть гасила вибрации и позволяла медленно и плавно поворачивать всю установку, примерно один оборот за шесть минут, а полосы отсчитывали у шестнадцати отметок по кругу. В повороте и был весь смысл: когда плечо разворачивалось от положения «навстречу ветру» к положению «поперёк ветра», полосы должны были смещаться туда и обратно.\n\nРабота шла несколькими заходами с апреля по июль 1887 года; опубликованные наблюдения сделаны около полудня 8, 9 и 11 июля и около шести вечера 8, 9 и 12 июля. По расчёту полосы должны были сместиться примерно на четыре десятых полосы. Увиденный сдвиг был наверняка меньше двадцатой доли этого и, вероятно, меньше сороковой — настолько мал, что укладывался в обычную погрешность. Если какое-то относительное движение Земли и эфира вообще есть, написали они в ноябре в *American Journal of Science*, то оно, вероятно, меньше шестой части орбитальной скорости Земли и наверняка меньше четверти.\n\n### Почему это было трудно\n\nМалость эффекта была лишь частью задачи. Небольшое изменение температуры могло удлинить одно плечо сильнее, чем ожидаемый эфирный ветер; шаги или проезжающая телега могли смазать полосы. Отсюда камень, ртуть, подвал и медленное вращение. И даже чистый результат доказывал меньше, чем казалось: опыт, который ничего не нашёл, всегда можно списать на что-то скрытое.\n\nМайкельсон и Морли не увидели в своём результате революции. Они увидели в нём разочарование. В статье они обещали повторять измерения каждые три месяца, чтобы движение Земли вокруг Солнца поворачивало прибор относительно эфира в разные стороны в течение года, но эту сезонную серию, судя по всему, так и не провели, и Майкельсон занялся другими точными измерениями. Один из выходов восходил к более старой идее Джорджа Стокса: Земля, возможно, увлекает ближайший эфир за собой, и тогда подвальная лаборатория ветра не почувствует.\n\nОтвет, который остался, оказался более странным. В 1889 году ирландский физик Джордж Фицджеральд, а в 1892 году независимо от него Лоренц предположили, что всё, что движется сквозь эфир, сокращается вдоль направления движения ровно настолько, чтобы скрыть эффект. Это походило на заплатку, вырезанную по размеру дыры, и поначалу так и было. Но за следующие пятнадцать лет Лоренц, Джозеф Лармор и Анри Пуанкаре превратили её в полный набор правил, сегодня называемых преобразованиями Лоренца, в которых от движения зависят и длины, и ход времени.\n\n> [!THEORY]\n> В 1905 году Альберт Эйнштейн вывел те же правила из двух исходных положений: законы физики одинаковы для всех, кто движется равномерно, а скорость света в пустоте одинакова для любого наблюдателя. В этой специальной теории относительности искать эфирный ветер незачем: ничто не играет роль неподвижного фона, относительно которого что-то могло бы «по-настоящему покоиться». Насколько сам результат Майкельсона–Морли повлиял на Эйнштейна, спорно: его поздние воспоминания расходятся, и историки спорят об этом до сих пор.\n\n### Что это открыло\n\nОпыт, который ничего не нашёл, повторяли много раз в следующие десятилетия. Морли и Дейтон Миллер повторили его в 1902–1904 годах с тем же результатом. В 1920-х Миллер сообщил о небольшом положительном сигнале с горы Маунт-Вилсон в Калифорнии; другие экспериментаторы не смогли его воспроизвести, а повторные анализы 1955 и 2006 годов связали сигнал с температурными эффектами или показали, что он не выделяется на фоне шума его данных. Современные версии с лазерами и сверхстабильными оптическими резонаторами показывают, что скорость света одинакова во всех направлениях с точностью лучше одной части на сто миллионов миллиардов.\n\nВ 1907 году Майкельсон стал первым американцем, получившим Нобелевскую премию по естественной науке, — за точные оптические приборы и выполненные с их помощью измерения, а не за опыт с эфиром как таковой. Морли в 1895 году опубликовал измерение атомного веса кислорода, более точное, чем все предыдущие. А прибор пережил вопрос, ради которого был построен. Детекторы LIGO, впервые поймавшие гравитационные волны в 2015 году, — это интерферометры Майкельсона с плечами длиной четыре километра; они используют тот же приём, сравнение двух световых лучей, чтобы уловить изменение длины, гораздо меньшее атома.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Майкельсон менен Морли эфирди издеп, эч нерсе табышкан жок",
+      "summary": "Альберт Майкельсон менен Эдвард Морли Кливленддеги жертөлөдө Жердин эфир аркылуу кыймылын байкай ала турган прибор курушкан. Прибор дээрлик эч нерсе көрсөткөн жок.",
+      "why_it_matters": "Тажрыйба эфирди өлчөө үчүн жасалган, бирок акырында эфирге аткара турган эч кандай иш калтырган жок. Бул унчукпоону түшүндүрүү аракети Лоренцти, Фицджеральдды жана Пуанкарени кыскарган узундуктарга жана өзгөргөн убакытка алып келген, ал эми 1905-жылы Эйнштейн атайын салыштырмалуулук теориясын эфири такыр жок дүйнөгө негиздеген.",
+      "if_you_were_there": "Сиз билген физиктердин дээрлик баары мейкиндик көзгө көрүнбөгөн эфир менен толгон, ал эми Жер анын ичинен секундасына болжол менен 30 километр ылдамдык менен учуп баратат деп ишенишчү. Жалгыз суроо ошол шамалды кантип сезүү керек экендигинде болчу.",
+      "place_name": "Кливленд, Огайо, АКШ",
+      "body": "### Көрүнүш\n\n1880-жылдары физиктер жарык толкун экенине ишенишчү, жана алардын дээрлик баары толкун сөзсүз бир нерсенин ичинде термелет деп эсептешчү. Үн аба аркылуу тарайт, ирмелүүлөр суунун бетинде жайылат. Жарык Күн менен Жердин ортосундагы боштукту басып өтөт, демек мейкиндик чындап бош боло албайт: ал көзгө көрүнбөгөн, кыймылсыз бир зат менен толгон болушу керек. Аны жарык алып жүрүүчү эфир деп аташкан. Джеймс Клерк Максвеллдин 1865-жылкы теориясы жарык электромагниттик толкун экенин көрсөткөн, жана Максвелл да бул толкунду эфир аркылуу жылган термелүү катары элестеткен.\n\nЭгер эфир кыймылсыз турса, ал эми Жер Күндү секундасына болжол менен 30 километр ылдамдык менен айланып, анын ичинен өтүп жатса, Жердеги лаборатория «эфир шамалын» сезиши керек эле, шамалсыз күнү велосипедчи бетине тийген желди сезгендей. Ошол шамалдын багытында жана ага каршы жиберилген жарык жолду бир аз башка убакытта басып өтүшү керек болчу. Кыйынчылык таасирдин чоңдугунда эле. Жарык Жерден болжол менен он миң эсе ылдам, ал эми нур барып кайра келгенде айырмачылыктын көбү бири-бирин жокко чыгарат: калганы жүз миллиондон бир бөлүгүнө жакын. Максвелл 1878-жылы жана дүйнөдөн кайткан жылы, 1879-жылы, жазган катында кайрадан мынчалык кичине таасирди Жерде эч кандай өлчөө менен байкоо мүмкүн эмес болсо керек деп эсептеген.\n\nАльберт Абрахам Майкельсон муну жасоого болот деп ойлогон. Ал 1852-жылы ошол кезде Пруссияга, азыр Польшага караштуу Стшельно шаарында төрөлүп, кичинекей кезинде үй-бүлөсү менен Америка Кошмо Штаттарына келген, АКШнын Деңиз академиясында окуп, жарыктын ылдамдыгын өлчөө менен таанылган. 1880–1881-жылдары Европада окуп жүргөндө, эфир маселеси үчүн жаңы приборду Берлинде, Герман фон Гельмгольцтун институтунда, Александр Грейам Беллдин акчасына курган. Шаардагы титирөөлөр ага ушунчалык тоскоол болгондуктан, ал приборду Потсдамдагы астрофизикалык обсерваториянын жертөлөсүнө көчүргөн. Эфир шамалын байкаган эмес. Бирок прибордун сезгичтиги араң жетчү, ал эми француз физиги Альфред Потье, андан кийин нидерланддык физик Хендрик Лоренц Майкельсон эсептөөдө ката кетиргенин көрсөтүшкөн: ал күтүшү керек болгон таасир ал ойлогондон эки эсе кичине болчу, эч кимди ынандыра албагыдай ызы-чууга жакын эле.\n\n### Эмне болду\n\nМайкельсондун азыр интерферометр деп аталган прибору бир жарык нурун жарым-жартылай күмүштөлгөн күзгү менен экиге бөлөт. Эки жарымы бири-бирине перпендикуляр эки ийин боюнча жылып, учтарындагы күзгүлөрдөн чагылып, кайра кошулат. Жолукканда толкундар бири-биринин үстүнө түшөт: чоку чокуга туш келген жерде жарык күчөйт, чоку чуңкурга туш келген жерде күңүрттөнөт, жана көз ачык-күңүрт тилкелерден турган оймо-чийме көрөт. Нурлардын бири экинчисинен бир аз эле узак жүрсө, тилкелер капталга жылат. Прибор жол жүрүү убактысындагы өтө кичине айырманы оймо-чиймедеги көзгө көрүнгөн жылышка айландырат.\n\n![Майкельсон–Морли интерферометринин схемасы: жарык булагы, нурду бөлгөн жарым-жартылай күмүштөлгөн күзгү, учтарында күзгүлөрү бар бири-бирине перпендикуляр эки ийин жана нурлар кайра кошулган жердеги байкоочу](https://upload.wikimedia.org/wikipedia/commons/0/06/Michelson-Morley_experiment_%28en%29.svg \"Benjamin D. Esham ( bdesham ) · Public domain · https://commons.wikimedia.org/wiki/File:Michelson-Morley_experiment_(en).svg\")\n\nБул жерде салыштыруу жардам берет. Дарыяда бирдей ылдам сүзгөн эки сүзүүчүнү элестетиңиз. Бири белгилүү аралыкты агымга каршы сүзүп барып кайтат, экинчиси ошол эле аралыкты агымды туурасынан кесип барып кайтат. Эсептеп көрсөңүз, туурасынан сүзгөнү ар дайым утат, ал эми айырма дарыянын канчалык тез акканынан көз каранды. Эки нур сүзүүчүлөр, эфир шамалы агым, тилкелер болсо мара сызыгы болгон. Салыштыруу эки жерде бузулат: сүзүүчү сууну сезет, ал эми эфирди эч ким сезген эмес; андан тышкары, кийин белгилүү болгондой, жарык ылдамдыктарды сүзүүчүдөй кошуп-кемитпейт.\n\n1887-жылы Майкельсон Огайо штатынын Кливленд шаарындагы Кейс колдонмо илимдер мектебинде физика профессору болгон, жана коңшу кампуста анын шериги бар эле: Вестерн-Резерв университетинин химиги, так өлчөөлөрү менен белгилүү Эдвард Морли. Экөө Вестерн-Резервдеги студенттер жатаканасынын жертөлөсүндө алда канча чоң прибор курушкан. Күзгүлөр ар бир нурду бир нече жолу ары-бери чагылтып, жарык ар бир ийин боюнча болжол менен 11 метр жол басчу, 1881-жылдагыдан он эсеге жакын көп. Баары туурасы болжол менен бир жарым метр келген кумдук таш плитанын үстүндө турган; плита шакек сымал сымап толтурулган арыкта калкып турган жыгач калкыгычка коюлган. Сымап титирөөлөрдү басаңдатып, бүт түзүлүштү жай жана бир калыпта, болжол менен алты мүнөттө бир жолу айлантууга мүмкүндүк берген, ал эми тилкелер тегерек боюнча он алты белгиде окулган. Айлантуунун өзү негизги маселе болчу: ийин шамалга каршы абалдан шамалды туурасынан кескен абалга бурулганда, тилкелер ары-бери жылышы керек эле.\n\nИш 1887-жылдын апрелинен июлуна чейин бир нече мезгил менен жүргөн; алар жарыялаган байкоолор 8, 9 жана 11-июлда түш маалында, 8, 9 жана 12-июлда кечки саат алтыларда жүргүзүлгөн. Эсептөө боюнча тилкелер бир тилкенин болжол менен ондон төрт бөлүгүнө жылышы керек эле. Алар көргөн жылыш андан жыйырма эсе аз экени шексиз, кырк эсе аз болушу ыктымал болчу: кадимки өлчөө катасына сыйгыдай кичине. Ошол жылдын ноябрында *American Journal of Science* журналында алар, эгер Жер менен эфирдин ортосунда кандайдыр бир салыштырмалуу кыймыл бар болсо, ал Жердин орбиталык ылдамдыгынын алтыдан биринен аз болсо керек, ал эми төрттөн биринен аз экени шексиз деп жазышкан.\n\n### Эмнеге кыйын болгон\n\nТаасирдин кичинелиги маселенин бир гана бөлүгү болчу. Температуранын бир аз өзгөрүшү бир ийинди эфир шамалынан күтүлгөндөн да көбүрөөк узартып жибериши мүмкүн эле; кадам үнү же өтүп бара жаткан араба тилкелерди бузуп салышы мүмкүн болчу. Таш, сымап, жертөлө жана жай айлантуу ушундан улам болгон. Анын үстүнө, таза натыйжа да көрүнгөндөн азыраак нерсени көрсөтчү: эч нерсе таппаган тажрыйбанын натыйжасын ар дайым жашыруун бир нерсеге шылтоолоого болот.\n\nМайкельсон менен Морли өз натыйжасын революция катары кабыл алышкан эмес. Алар аны көңүл калуу катары кабыл алышкан. Макалада алар өлчөөлөрдү ар үч айда кайталоону убада кылышкан, Жердин Күндү айланган кыймылы приборду жыл бою эфирге карата ар башка багытка бурсун деп. Бирок бул мезгилдик серияны аягына чыгарышпаган окшойт, жана Майкельсон башка так өлчөөлөргө өткөн. Бир чечим Джордж Стокстун мурдагы идеясына негизделген: балким Жер жанындагы эфирди өзү менен кошо сүйрөп жүрөт, анда жертөлөдөгү лаборатория эч кандай шамал сезбейт.\n\nУзакка калган жооп андан да таң калыштуу болгон. 1889-жылы ирландиялык физик Джордж Фицджеральд, ал эми 1892-жылы андан көз карандысыз Лоренц эфир аркылуу кыймылдаган ар бир нерсе кыймыл багыты боюнча таасирди так жашыргыдай өлчөмдө кыскарат деп болжошкан. Бул тешикке ылайыкталып кесилген жамаачыга окшош эле, жана башында чындап ошондой болгон. Бирок кийинки он беш жылда Лоренц, Джозеф Лармор жана Анри Пуанкаре аны бүгүн Лоренцтин өзгөртүүлөрү деп аталган толук эрежелер топтомуна айландырышкан: бул эрежелерде узундуктар да, убакыттын агымы да кыймылдан көз каранды.\n\n> [!THEORY]\n> 1905-жылы Альберт Эйнштейн ошол эле эрежелерди эки баштапкы жободон чыгарган: физиканын мыйзамдары бир калыпта кыймылдаган ар бир адам үчүн бирдей, ал эми боштуктагы жарыктын ылдамдыгы ар бир байкоочу үчүн бирдей. Бул атайын салыштырмалуулук теориясында издей турган эфир шамалы жок, анткени бир нерсе «чындап кыймылсыз турат» деп айтууга мүмкүн болгон кыймылсыз фондун ролун эч нерсе ойнобойт. Майкельсон–Морлинин натыйжасы Эйнштейнге канчалык таасир эткени талаштуу: анын кийинки эскерүүлөрү бири-бирине дал келбейт, тарыхчылар бул тууралуу азыр да талашып келишет.\n\n### Эмнеге жол ачты\n\nЭч нерсе таппаган тажрыйба кийинки он жылдыктарда көп жолу кайталанган. Морли менен Дейтон Миллер аны 1902–1904-жылдары кайра жүргүзүп, ошол эле натыйжа алышкан. 1920-жылдары Миллер Калифорниядагы Маунт-Вилсон тоосунан кичинекей оң сигнал тапканын билдирген; башка изилдөөчүлөр аны кайталай алышкан эмес, ал эми 1955 жана 2006-жылдардагы кайра талдоолор бул сигналды температуранын таасирине байлашкан же анын маалыматтарындагы ызы-чуудан айырмаланбай турганын көрсөтүшкөн. Лазерлер жана өтө туруктуу оптикалык резонаторлор менен жүргүзүлгөн заманбап нускалар жарыктын ылдамдыгы бардык багытта бирдей экенин жүз миллион миллиарддан бир бөлүктөн да жакшыраак тактык менен көрсөтүүдө.\n\n1907-жылы Майкельсон табигый илимдер боюнча Нобель сыйлыгын алган биринчи америкалык болгон; сыйлык эфир тажрыйбасынын өзү үчүн эмес, анын так оптикалык приборлору жана алардын жардамы менен жүргүзүлгөн өлчөөлөр үчүн берилген. Морли 1895-жылы кычкылтектин атомдук салмагын мурунку бардык өлчөөлөрдөн тагыраак аныктаган натыйжасын жарыялаган. Ал эми прибор өзү курулган суроодон узак жашаган. 2015-жылы гравитациялык толкундарды биринчи жолу кармаган LIGO детекторлору ийиндеринин узундугу төрт километр болгон Майкельсон интерферометрлери, жана алар атомдон алда канча кичине узундук өзгөрүүсүн сезүү үчүн ошол эле ыкманы, эки жарык нурун салыштырууну колдонушат.",
+      "status": "machine"
+    }
+  }
+}
