@@ -1,0 +1,415 @@
+{
+  "slug": "dark-energy",
+  "year": 1998,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 37.8716,
+  "lng": -122.2727,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/0/00/Supernova_1994D_in_Galaxy_NGC_4526_%281999-19-813%29.jpg",
+    "credit": "NASA, ESA, The Hubble Key Project Team, and The High-Z Supernova Search Team",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Supernova_1994D_in_Galaxy_NGC_4526_(1999-19-813).jpg"
+  },
+  "disciplines": [
+    "astronomy",
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "saul-perlmutter",
+      "birth_year": 1959,
+      "role": "author",
+      "name": {
+        "en": "Saul Perlmutter",
+        "tr": "Saul Perlmutter",
+        "ru": "Сол Перлмуттер",
+        "ky": "Сол Перлмуттер"
+      }
+    },
+    {
+      "slug": "brian-schmidt",
+      "birth_year": 1967,
+      "role": "author",
+      "name": {
+        "en": "Brian P. Schmidt",
+        "tr": "Brian P. Schmidt",
+        "ru": "Брайан Шмидт",
+        "ky": "Брайан Шмидт"
+      }
+    },
+    {
+      "slug": "adam-riess",
+      "birth_year": 1969,
+      "role": "author",
+      "name": {
+        "en": "Adam G. Riess",
+        "tr": "Adam G. Riess",
+        "ru": "Адам Рисс",
+        "ky": "Адам Рисс"
+      }
+    },
+    {
+      "slug": "nicholas-suntzeff",
+      "role": "collaborator",
+      "name": {
+        "en": "Nicholas B. Suntzeff",
+        "tr": "Nicholas B. Suntzeff",
+        "ru": "Николас Сунцефф",
+        "ky": "Николас Сунцефф"
+      }
+    },
+    {
+      "slug": "carl-pennypacker",
+      "role": "collaborator",
+      "name": {
+        "en": "Carl Pennypacker",
+        "tr": "Carl Pennypacker",
+        "ru": "Карл Пеннипакер",
+        "ky": "Карл Пеннипакер"
+      }
+    },
+    {
+      "slug": "gerson-goldhaber",
+      "role": "collaborator",
+      "name": {
+        "en": "Gerson Goldhaber",
+        "tr": "Gerson Goldhaber",
+        "ru": "Герсон Гольдхабер",
+        "ky": "Герсон Гольдхабер"
+      }
+    },
+    {
+      "slug": "mark-phillips",
+      "role": "predecessor",
+      "name": {
+        "en": "Mark M. Phillips",
+        "tr": "Mark M. Phillips",
+        "ru": "Марк Филлипс",
+        "ky": "Марк Филлипс"
+      }
+    },
+    {
+      "slug": "mario-hamuy",
+      "role": "predecessor",
+      "name": {
+        "en": "Mario Hamuy",
+        "tr": "Mario Hamuy",
+        "ru": "Марио Амуй",
+        "ky": "Марио Амуй"
+      }
+    },
+    {
+      "slug": "jose-maza",
+      "role": "predecessor",
+      "name": {
+        "en": "José Maza",
+        "tr": "José Maza",
+        "ru": "Хосе Маса",
+        "ky": "Хосе Маса"
+      }
+    },
+    {
+      "slug": "albert-einstein",
+      "birth_year": 1879,
+      "death_year": 1955,
+      "role": "predecessor",
+      "name": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein",
+        "ru": "Альберт Эйнштейн",
+        "ky": "Альберт Эйнштейн"
+      }
+    },
+    {
+      "slug": "alexander-friedmann",
+      "birth_year": 1888,
+      "death_year": 1925,
+      "role": "predecessor",
+      "name": {
+        "en": "Alexander Friedmann",
+        "tr": "Aleksandr Fridman",
+        "ru": "Александр Фридман",
+        "ky": "Александр Фридман"
+      }
+    },
+    {
+      "slug": "edwin-hubble",
+      "birth_year": 1889,
+      "death_year": 1953,
+      "role": "predecessor",
+      "name": {
+        "en": "Edwin Hubble",
+        "tr": "Edwin Hubble",
+        "ru": "Эдвин Хаббл",
+        "ky": "Эдвин Хаббл"
+      }
+    },
+    {
+      "slug": "erast-gliner",
+      "role": "predecessor",
+      "name": {
+        "en": "Erast Gliner",
+        "tr": "Erast Gliner",
+        "ru": "Эраст Глинер",
+        "ky": "Эраст Глинер"
+      }
+    },
+    {
+      "slug": "yakov-zeldovich",
+      "birth_year": 1914,
+      "death_year": 1987,
+      "role": "predecessor",
+      "name": {
+        "en": "Yakov Zeldovich",
+        "tr": "Yakov Zeldoviç",
+        "ru": "Яков Зельдович",
+        "ky": "Яков Зельдович"
+      }
+    },
+    {
+      "slug": "michael-turner",
+      "role": "contemporary",
+      "name": {
+        "en": "Michael S. Turner",
+        "tr": "Michael S. Turner",
+        "ru": "Майкл Тёрнер",
+        "ky": "Майкл Тёрнер"
+      }
+    },
+    {
+      "slug": "georges-lemaitre",
+      "role": "predecessor",
+      "name": {
+        "en": "Georges Lemaître",
+        "tr": "Georges Lemaître",
+        "ru": "Жорж Леметр",
+        "ky": "Жорж Леметр"
+      },
+      "birth_year": 1894,
+      "death_year": 1966
+    },
+    {
+      "slug": "vesto-slipher",
+      "role": "predecessor",
+      "name": {
+        "en": "Vesto Slipher",
+        "tr": "Vesto Slipher",
+        "ru": "Весто Слайфер",
+        "ky": "Весто Слайфер"
+      },
+      "birth_year": 1875,
+      "death_year": 1969
+    },
+    {
+      "slug": "yury-pskovskii",
+      "role": "predecessor",
+      "name": {
+        "en": "Yury Pskovskii",
+        "tr": "Yuri Pskovski",
+        "ru": "Юрий Псковский",
+        "ky": "Юрий Псковский"
+      }
+    },
+    {
+      "slug": "bert-rust",
+      "role": "predecessor",
+      "name": {
+        "en": "Bert Rust",
+        "tr": "Bert Rust",
+        "ru": "Берт Раст",
+        "ky": "Берт Раст"
+      }
+    },
+    {
+      "slug": "alex-filippenko",
+      "role": "collaborator",
+      "name": {
+        "en": "Alex Filippenko",
+        "tr": "Alex Filippenko",
+        "ru": "Алекс Филиппенко",
+        "ky": "Алекс Филиппенко"
+      }
+    },
+    {
+      "slug": "george-efstathiou",
+      "role": "contemporary",
+      "name": {
+        "en": "George Efstathiou",
+        "tr": "George Efstathiou",
+        "ru": "Джордж Эфстатиу",
+        "ky": "Джордж Эфстатиу"
+      }
+    },
+    {
+      "slug": "lawrence-krauss",
+      "role": "contemporary",
+      "name": {
+        "en": "Lawrence Krauss",
+        "tr": "Lawrence Krauss",
+        "ru": "Лоуренс Краусс",
+        "ky": "Лоуренс Краусс"
+      }
+    },
+    {
+      "slug": "jeremiah-ostriker",
+      "role": "contemporary",
+      "name": {
+        "en": "Jeremiah Ostriker",
+        "tr": "Jeremiah Ostriker",
+        "ru": "Джеремайя Острайкер",
+        "ky": "Джеремайя Острайкер"
+      }
+    },
+    {
+      "slug": "paul-steinhardt",
+      "role": "contemporary",
+      "name": {
+        "en": "Paul Steinhardt",
+        "tr": "Paul Steinhardt",
+        "ru": "Пол Стейнхардт",
+        "ky": "Пол Стейнхардт"
+      }
+    }
+  ],
+  "builds_on": [
+    "general-relativity",
+    "hubble-expanding-universe"
+  ],
+  "sources": [
+    {
+      "title": "Dark energy — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/science/dark-energy"
+    },
+    {
+      "title": "Dark energy — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dark_energy"
+    },
+    {
+      "title": "Accelerating expansion of the universe — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe"
+    },
+    {
+      "title": "Cosmological constant — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Cosmological_constant"
+    },
+    {
+      "title": "High-Z Supernova Search Team — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/High-Z_Supernova_Search_Team"
+    },
+    {
+      "title": "Supernova Cosmology Project — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Supernova_Cosmology_Project"
+    },
+    {
+      "title": "A. G. Riess et al., \"Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant\", The Astronomical Journal 116 (1998) 1009–1038 — arXiv:astro-ph/9805201",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/astro-ph/9805201"
+    },
+    {
+      "title": "S. Perlmutter et al., \"Measurements of Omega and Lambda from 42 High-Redshift Supernovae\", The Astrophysical Journal 517 (1999) 565–586 — arXiv:astro-ph/9812133",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/astro-ph/9812133"
+    },
+    {
+      "title": "M. Hamuy et al., \"The key role of the Calán/Tololo project in the discovery of the accelerating Universe\" (2011) — arXiv:1110.1958",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/1110.1958"
+    },
+    {
+      "title": "G. Goldhaber, \"The Acceleration of the Expansion of the Universe: A Brief Early History of the Supernova Cosmology Project (SCP)\" (2009) — arXiv:0907.3526",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/0907.3526"
+    },
+    {
+      "title": "H. Kragh, \"Preludes to dark energy: Zero-point energy and vacuum speculations\" (2011) — arXiv:1111.4623",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/1111.4623"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2011 — Popular information, NobelPrize.org (linked for human review; fetch blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.nobelprize.org/prizes/physics/2011/popular-information/"
+    },
+    {
+      "title": "Discoverers of the Hubble expansion's acceleration share Nobel Physics Prize — Physics Today (2011)",
+      "kind": "article",
+      "url": "https://physicstoday.aip.org/news/discoverers-of-the-hubble-expansions-acceleration-share-nobel-physics-prize"
+    },
+    {
+      "title": "Investigating the legend of Einstein's 'biggest blunder' — Physics Today",
+      "kind": "article",
+      "url": "https://physicstoday.aip.org/opinion/investigating-the-legend-of-einsteins-biggest-blunder"
+    },
+    {
+      "title": "Phillips relationship — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Phillips_relationship"
+    },
+    {
+      "title": "D. G. Yakovlev and A. D. Kaminker, \"Nearly Forgotten Cosmological Concept of E. B. Gliner\" (2023) — arXiv:2301.13150",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2301.13150"
+    },
+    {
+      "title": "L. M. Krauss and M. S. Turner, \"The cosmological constant is back\" (1995) — arXiv:astro-ph/9504003",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/astro-ph/9504003"
+    },
+    {
+      "title": "Distant supernovae (SCP search technique) — Berkeley Lab Science Articles Archive",
+      "kind": "article",
+      "url": "https://www2.lbl.gov/Science-Articles/Archive/supernovas-distant.html"
+    }
+  ],
+  "research_note": "Drafted 2026-11-19 by the nightly pipeline. Threshold met without Britannica and NobelPrize.org (403, linked for human review): English Wikipedia (Dark energy, Accelerating expansion, Cosmological constant, High-Z team, Supernova Cosmology Project), the Riess 1998 and Perlmutter 1999 papers on arXiv, Hamuy 2011 on Calán/Tololo, Goldhaber 2009 SCP history, Kragh 2011 on vacuum-energy preludes. YEAR: 1998 exact (SCP presentation January 1998 AAS; Riess et al. submitted 15 May 1998; SCP 42-supernova paper submitted 8 December 1998, published 1999). PLACE: Berkeley chosen because the SCP was at LBNL and Riess was a Miller Fellow at UC Berkeley; the High-Z team was managed from Mount Stromlo (Australia) and observed mainly from Chile - reviewer may prefer another point. CONFIRMED: Einstein 1917, Friedmann 1922, Hubble 1929, Einstein drops the constant 1931; 'biggest blunder' traced to Gamow, disputed (Livio) - FLAGGED in body as late recollection. Gliner 1965, Zeldovich 1967-68 vacuum energy, ~120 orders of magnitude mismatch. Phillips 1993 relation; Calán/Tololo start 1989 or 1990 (sources disagree - body says 'around 1989-1990'). High-Z founded 1994 by Schmidt and Suntzeff, ~20 astronomers, Blanco telescope for discovery, Keck/ESO spectra, Hubble follow-up. Riess abstract: 10 new SNe, 16 high-z + 34 nearby, 10-15% farther. Turner coined 'dark energy' 1998. Science Breakthrough of the Year 1998. BOOMERanG/MAXIMA 2000, 2dF 2001, Planck ~68%. DESI March 2025 evolving-dark-energy evidence at 2.8-4.2 sigma - body calls it hints, not a discovery. Nobel 2011 half Perlmutter, half Schmidt+Riess. REVIEWER SHOULD CHECK: 'supernovae on demand' technique details (new-moon timing, ~3 weeks) rest on Wikipedia SCP page and LBNL summaries; birth years of Suntzeff, Pennypacker, Goldhaber, Phillips, Hamuy, Maza, Gliner, Turner left blank. FACT-CHECKER (2026-11-19): no false facts; fixes applied in all four languages: (1) 'everyone expected slowing' softened to 'most', with Efstathiou et al. 1990, Krauss & Turner 1995, Ostriker & Steinhardt 1995 named as the minority arguing for a non-zero constant; if_you_were_there softened likewise; (2) Lemaître 1927 and Slipher added beside Hubble; (3) Pskovskii (Soviet, 1970s) and Rust credited as first to notice the decline-rate relation, Phillips 1993 confirmed it and dedicated the paper to Pskovskii; (4) SCP member countries -> 'across Europe, Australia and Chile' (Portugal was missing); (5) Blanco telescope used by both teams, not High-Z alone; (6) unsourced 'Chilean survey recognised in other prizes' (belirsiz) replaced by Gruber 2007 and Breakthrough 2015 to the two teams; (7) builds_on cosmic-microwave-background removed (CMB confirmation came after 1998); (8) Filippenko (on both author lists) added; sources added. Nuance kept out of body: Zeldovich's own estimate of the mismatch was smaller; the '120 orders' figure is the later Planck-scale version, body says 'often put at'. KYRGYZ: glossary 'check' terms used: теңдеме (equation), зат (matter), далилдерин келтирген (argued, from далил). New terms not in glossary: сверхновая жылдыз (Russian borrowing kept per rule), ак эргежээл жылдыз (white dwarf), караңгы энергия, кызылга жылуу (redshift), космологиялык туруктуу, кеңейүү (expansion), ылдамдоо (acceleration).",
+  "translations": {
+    "en": {
+      "title": "Two teams find the universe's expansion is speeding up",
+      "summary": "Two rival teams measured distant exploding stars expecting a slowing universe. The stars were too faint: the expansion is speeding up, pushed by something now called dark energy.",
+      "why_it_matters": "It overturned the one thing everyone expected about cosmic expansion, that gravity slows it. Dark energy now appears to make up about two thirds of the universe, and explaining it is one of the largest open problems in physics.",
+      "if_you_were_there": "Almost every astronomer you knew expected the universe's expansion to be slowing down; the argument was about how quickly. Einstein's old cosmological constant was a textbook footnote, though a few theorists had begun to argue it was back.",
+      "place_name": "Berkeley, California, United States",
+      "body": "### The scene\n\nIn 1917 Albert Einstein added an extra term to his new theory of gravity. Left alone, his equations described a universe that could not stay still: gravity would pull everything together. Einstein, like almost everyone then, assumed the universe was static, so he added a \"cosmological constant\", a steady push built into space itself that would balance the pull. In 1922 Alexander Friedmann in Petrograd showed that the equations also allowed universes that grow, In 1927 Georges Lemaître in Belgium argued that ours is in fact growing, and in 1929 Edwin Hubble's measurements of galaxies, built on Vesto Slipher's earlier measurements of their redness, showed it. By 1931 Einstein had dropped the extra term. A later story has him calling it his \"biggest blunder\", but that phrase comes to us through George Gamow's recollection decades afterwards, and historians still argue about whether Einstein ever said it.\n\nFor most of the next sixty years the constant was treated as zero. Not by everyone: in 1965 the Leningrad physicist Erast Gliner proposed that empty space could carry its own energy and push outwards, and in 1967–1968 Yakov Zeldovich in Moscow linked Einstein's constant to the energy of the quantum vacuum. Zeldovich also saw the trouble in this. Quantum theory, taken at face value, predicts a vacuum energy so vast that the universe should have blown itself apart at once. That mismatch, often put at around 120 powers of ten, is still unsolved.\n\nSo in the 1990s most astronomers asked a modest question. They expected the expansion to be slowing down, braked by the gravity of all the matter in the universe, and wanted to know how fast it was slowing and whether it would one day stop. A few theorists disagreed: George Efstathiou and colleagues in 1990, and Lawrence Krauss with Michael Turner and Jeremiah Ostriker with Paul Steinhardt in 1995, argued that the measurements of galaxies fitted better if Einstein's constant came back. They were a minority, and nobody had direct evidence.\n\n### What happened\n\nTo measure that, you need distances to galaxies billions of light years away, and you need to compare them with how much the universe has stretched since their light left. Stretching is the easy part: the light arrives redder, and the redness can be measured. Distance is the hard part.\n\nThe tool was a kind of exploding star called a Type Ia supernova: a white dwarf that blows itself apart and, for a few weeks, can outshine its whole galaxy. These explosions are nearly, but not exactly, alike in brightness. The Soviet astronomer Yury Pskovskii, and independently the American Bert Rust, had noticed in the 1970s that the brighter ones fade more slowly. In 1993 Mark Phillips, working in Chile, confirmed this with better data and turned it into a correction; he dedicated the paper to Pskovskii. Measure how fast one fades and you know how bright it really was; compare that with how bright it looks and you have its distance. The nearby supernovae that made this calibration possible came from the Calán/Tololo survey, started around 1989–1990 by the Chilean astronomers Mario Hamuy and José Maza with Phillips and Nicholas Suntzeff. Both teams that would make the discovery leaned on its nearby supernovae.\n\n![Supernova 1994D, the bright point at lower left, beside its host galaxy NGC 4526, seen by the Hubble Space Telescope](https://upload.wikimedia.org/wikipedia/commons/0/00/Supernova_1994D_in_Galaxy_NGC_4526_%281999-19-813%29.jpg \"NASA, ESA, The Hubble Key Project Team, and The High-Z Supernova Search Team · Public domain · https://commons.wikimedia.org/wiki/File:Supernova_1994D_in_Galaxy_NGC_4526_(1999-19-813).jpg\")\n\nThis is a nearby Type Ia supernova, not one of the distant ones from 1998. At its peak a single exploding star rivals the light of the galaxy around it, which is what makes it visible across most of the universe.\n\nTwo groups raced each other. The Supernova Cosmology Project, at Lawrence Berkeley National Laboratory in California, grew out of the work of Saul Perlmutter and Carl Pennypacker; Gerson Goldhaber joined early, and later astronomers from across Europe, Australia and Chile. The High-Z Supernova Search Team was formed in 1994 by Brian Schmidt and Nicholas Suntzeff and was run from Mount Stromlo Observatory in Australia, with about twenty astronomers in the United States, Europe, Australia and Chile. The Berkeley astronomer Alex Filippenko worked with both groups in turn.\n\nBoth teams found that the distant supernovae were too faint. They were farther away than a slowing universe allowed. In January 1998 the Berkeley group presented this at a meeting of the American Astronomical Society. On 15 May 1998 the High-Z team, in a paper led by Adam Riess, then a young researcher at Berkeley, submitted the claim outright: its distant supernovae were roughly 10 to 15 percent farther than expected, and the expansion was speeding up. The Berkeley team's full analysis of 42 distant supernovae followed in December 1998 and reached the same conclusion. That year the cosmologist Michael Turner gave the unknown cause a name, \"dark energy\", and the journal *Science* called the result the breakthrough of the year.\n\n> [!THEORY]\n> Throw a ball straight up and you expect it to slow down, because the Earth pulls it back. Now imagine watching it rise and finding that it is climbing faster every second. You would conclude that something you cannot see is pushing it. That is what the supernovae showed for the whole universe. The analogy breaks in an important way: galaxies are not flying through space like a ball through the air. Space itself is stretching between them, and the \"push\" is not a force applied from outside but something that seems to belong to space itself.\n\n### Why it was hard\n\nA supernova cannot be booked in advance; nobody knows where the next one will go off, and it fades within weeks. The Berkeley group's key trick, working by 1994, was to photograph thousands of distant galaxies just after one new moon, photograph them again about three weeks later, and compare the images by computer. That turned up a batch of fresh explosions at a known time, so that follow-up time on the largest telescopes could be reserved before anything had been found. Both teams did much of their searching with the 4-metre Víctor M. Blanco telescope at Cerro Tololo in Chile. Spectra from the Keck telescopes in Hawaii and the European Southern Observatory confirmed each candidate's type and redshift, and the Hubble Space Telescope followed the faintest.\n\n![The Víctor M. Blanco 4-metre telescope at the Cerro Tololo Inter-American Observatory in Chile](https://upload.wikimedia.org/wikipedia/commons/1/13/V%C3%ADctor_M_Blanco_4-meter_Telescope_%2812-0329-12Dhr-CC%29.jpg \"DOE/FNAL/DECam/R. Hahn/CTIO/NOIRLab/NSF/AURA · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Víctor_M_Blanco_4-meter_Telescope_(12-0329-12Dhr-CC).jpg\")\n\nThe deeper difficulty was doubt. A supernova can look dimmer for dull reasons: dust in its galaxy, or stars in the early universe exploding slightly differently. Both teams tested these explanations and could not make the effect go away. What made the result convincing was not either paper alone but that two rival groups, with different supernovae and different methods, arrived at the same surprising answer within the same year.\n\n### What it opened\n\nOther evidence soon pointed the same way. Measurements of the cosmic microwave background by the balloon experiments BOOMERanG and MAXIMA around 2000 showed that the universe has the total density at which space is flat, while galaxy surveys such as 2dF in 2001 found that all matter, ordinary and dark together, makes up only about a third of that. Something invisible and evenly spread had to make up the rest. Today's best estimates put dark energy at about 68 percent of everything in the universe.\n\nWhat dark energy is, nobody knows. It may be Einstein's constant after all, a fixed energy of empty space. It may be something that changes over time; in 2025 the Dark Energy Spectroscopic Instrument reported hints that it is slowly weakening, a result still short of a confirmed discovery. The 2011 Nobel Prize in Physics went half to Perlmutter and half jointly to Schmidt and Riess, while the two teams as a whole, fifty-odd authors on the two papers, shared the 2007 Gruber Cosmology Prize and the 2015 Breakthrough Prize. The discovery left physics with an awkward fact: most of the universe is made of something we can name but cannot explain.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "İki ekip evrenin genişlemesinin hızlandığını buldu",
+      "summary": "İki rakip ekip, yavaşlayan bir evren bekleyerek uzak patlayan yıldızları ölçtü. Yıldızlar fazla sönüktü: genişleme hızlanıyor; onu bugün karanlık enerji denen bir şey itiyor.",
+      "why_it_matters": "Kozmik genişleme hakkında herkesin beklediği tek şeyi, kütleçekimin onu yavaşlattığını tersine çevirdi. Karanlık enerji bugün evrenin yaklaşık üçte ikisini oluşturuyor gibi görünüyor ve onu açıklamak fiziğin en büyük açık sorunlarından biri.",
+      "if_you_were_there": "Tanıdığın gökbilimcilerin neredeyse hepsi evrenin genişlemesinin yavaşladığını bekliyordu; tartışma ne kadar hızlı yavaşladığı üzerineydi. Einstein'ın eski kozmolojik sabiti bir ders kitabı dipnotuydu, gerçi birkaç kuramcı onun geri döndüğünü savunmaya başlamıştı.",
+      "place_name": "Berkeley, Kaliforniya, ABD",
+      "body": "### Sahne\n\n1917'de Albert Einstein yeni kütleçekim kuramına fazladan bir terim ekledi. Denklemleri kendi hâline bırakıldığında yerinde duramayan bir evren tarif ediyordu: kütleçekim her şeyi birbirine doğru çekecekti. Einstein, o zamanki neredeyse herkes gibi, evrenin durağan olduğunu varsayıyordu; bu yüzden bir \"kozmolojik sabit\" ekledi: uzayın kendisine yerleşmiş, çekimi dengeleyen sabit bir itiş. 1922'de Aleksandr Fridman Petrograd'da aynı denklemlerin büyüyen evrenlere de izin verdiğini gösterdi; 1927'de Belçika'da Georges Lemaître bizim evrenimizin gerçekten büyüdüğünü savundu; 1929'da Edwin Hubble'ın, Vesto Slipher'ın galaksilerin kızarmasına dair daha önceki ölçümlerine dayanan galaksi ölçümleri bunu gösterdi. 1931'e gelindiğinde Einstein fazladan terimi bırakmıştı. Sonraki bir hikâyeye göre onu \"en büyük hatam\" diye anmış; ama bu söz bize George Gamow'un onlarca yıl sonraki anlatımıyla ulaşıyor ve tarihçiler Einstein'ın bunu gerçekten söyleyip söylemediğini hâlâ tartışıyor.\n\nSonraki altmış yılın çoğunda sabit sıfır kabul edildi. Herkes tarafından değil: 1965'te Leningradlı fizikçi Erast Gliner boş uzayın kendi enerjisini taşıyıp dışarı doğru itebileceğini öne sürdü; 1967–1968'de Moskova'da Yakov Zeldoviç Einstein'ın sabitini kuantum boşluğunun enerjisine bağladı. Zeldoviç bunun içindeki sorunu da gördü. Kuantum kuramı olduğu gibi alınırsa boşluk enerjisini o kadar büyük öngörüyor ki evrenin bir anda parçalanıp dağılması gerekirdi. Çoğu zaman yaklaşık 120 onluk basamak diye ifade edilen bu uyumsuzluk bugün hâlâ çözülmüş değil.\n\nBu yüzden 1990'larda gökbilimcilerin çoğu mütevazı bir soru soruyordu. Genişlemenin evrendeki bütün maddenin kütleçekimiyle frenlenip yavaşladığını bekliyor, ne kadar hızlı yavaşladığını ve bir gün durup durmayacağını öğrenmek istiyorlardı. Birkaç kuramcı aynı fikirde değildi: 1990'da George Efstathiou ve arkadaşları, 1995'te de Lawrence Krauss ile Michael Turner ve Jeremiah Ostriker ile Paul Steinhardt, galaksi ölçümlerinin Einstein'ın sabiti geri gelirse daha iyi uyduğunu savundu. Azınlıktaydılar ve kimsenin doğrudan kanıtı yoktu.\n\n### Ne oldu\n\nBunu ölçmek için milyarlarca ışık yılı uzaktaki galaksilerin uzaklığını bilmek ve bunu, ışıkları yola çıktığından beri evrenin ne kadar gerildiğiyle karşılaştırmak gerekir. Gerilme işin kolay kısmı: ışık daha kırmızı gelir ve bu kızarma ölçülebilir. Uzaklık ise zor kısım.\n\nAraç, Ia tipi süpernova denen bir patlayan yıldız türüydü: kendini parçalayan ve birkaç hafta boyunca bütün galaksisinden daha parlak görünebilen bir beyaz cüce. Bu patlamaların parlaklığı neredeyse aynıdır ama tam olarak değil. Sovyet gökbilimci Yuri Pskovski ve ondan bağımsız olarak Amerikalı Bert Rust, 1970'lerde daha parlak olanların daha yavaş söndüğünü fark etmişti. 1993'te Şili'de çalışan Mark Phillips bunu daha iyi verilerle doğruladı ve bir düzeltmeye dönüştürdü; makalesini Pskovski'ye adadı. Birinin ne kadar hızlı söndüğünü ölçersen gerçekte ne kadar parlak olduğunu bilirsin; bunu ne kadar parlak göründüğüyle karşılaştırırsan uzaklığını bulursun. Bu ayarı mümkün kılan yakın süpernovalar Calán/Tololo taramasından geldi; taramayı 1989–1990 civarında Şilili gökbilimciler Mario Hamuy ve José Maza, Phillips ve Nicholas Suntzeff ile başlatmıştı. Keşfi yapacak iki ekip de bu taramanın yakın süpernovalarına dayandı.\n\n![Süpernova 1994D, sol altta parlak nokta, ev sahibi galaksisi NGC 4526'nın yanında; Hubble Uzay Teleskobu görüntüsü](https://upload.wikimedia.org/wikipedia/commons/0/00/Supernova_1994D_in_Galaxy_NGC_4526_%281999-19-813%29.jpg \"NASA, ESA, The Hubble Key Project Team, and The High-Z Supernova Search Team · Public domain · https://commons.wikimedia.org/wiki/File:Supernova_1994D_in_Galaxy_NGC_4526_(1999-19-813).jpg\")\n\nBu, 1998'deki uzak süpernovalardan biri değil, yakın bir Ia tipi süpernova. En parlak anında tek bir patlayan yıldız çevresindeki galaksinin ışığıyla yarışır; evrenin büyük kısmının öbür ucundan görülebilmesini sağlayan da budur.\n\nİki grup birbiriyle yarıştı. Kaliforniya'daki Lawrence Berkeley Ulusal Laboratuvarı'nda Süpernova Kozmoloji Projesi, Saul Perlmutter ile Carl Pennypacker'ın çalışmasından doğdu; ona erken dönemde Gerson Goldhaber, daha sonra da Avrupa'nın dört bir yanından, Avustralya'dan ve Şili'den gökbilimciler katıldı. Yüksek-Z Süpernova Arama Ekibi ise 1994'te Brian Schmidt ve Nicholas Suntzeff tarafından kuruldu ve Avustralya'daki Mount Stromlo Gözlemevi'nden yönetildi; ABD, Avrupa, Avustralya ve Şili'den yirmi kadar gökbilimci içeriyordu. Berkeleyli gökbilimci Alex Filippenko sırayla iki grupla da çalıştı.\n\nİki ekip de uzak süpernovaların fazla sönük olduğunu buldu. Yavaşlayan bir evrenin izin verdiğinden daha uzaktaydılar. Ocak 1998'de Berkeley grubu bunu Amerikan Astronomi Derneği'nin bir toplantısında sundu. 15 Mayıs 1998'de Yüksek-Z ekibi, o sırada Berkeley'de genç bir araştırmacı olan Adam Riess'in başını çektiği bir makaleyle iddiayı açıkça gönderdi: uzak süpernovalar beklenenden kabaca yüzde 10–15 daha uzaktaydı ve genişleme hızlanıyordu. Berkeley ekibinin 42 uzak süpernovanın tam çözümlemesi Aralık 1998'de geldi ve aynı sonuca vardı. O yıl kozmolog Michael Turner bilinmeyen nedene bir ad verdi: \"karanlık enerji\". *Science* dergisi de sonucu yılın atılımı seçti.\n\n> [!THEORY]\n> Bir topu dosdoğru yukarı atarsan yavaşlamasını beklersin, çünkü Dünya onu geri çeker. Şimdi yükselişini izlediğini ve her saniye daha hızlı tırmandığını gördüğünü düşün. Göremediğin bir şeyin onu ittiği sonucuna varırdın. Süpernovaların bütün evren için gösterdiği buydu. Benzetme önemli bir yerde bozulur: galaksiler, havadaki bir top gibi uzayın içinden uçmuyor. Aralarındaki uzayın kendisi geriliyor ve \"itiş\" dışarıdan uygulanan bir kuvvet değil, uzayın kendisine ait gibi görünen bir şey.\n\n### Neden zordu\n\nBir süpernova önceden ayarlanamaz; bir sonrakinin nerede patlayacağını kimse bilmez ve birkaç hafta içinde söner. Berkeley grubunun 1994'te işler hâle getirdiği temel hile, binlerce uzak galaksiyi bir yeni aydan hemen sonra fotoğraflamak, yaklaşık üç hafta sonra yeniden fotoğraflamak ve görüntüleri bilgisayarla karşılaştırmaktı. Böylece bilinen bir zamanda bir yığın taze patlama ortaya çıkıyor, en büyük teleskoplardaki takip zamanı daha hiçbir şey bulunmadan ayrılabiliyordu. İki ekip de aramalarının büyük kısmını Şili'de Cerro Tololo'daki 4 metrelik Víctor M. Blanco teleskobuyla yaptı. Hawaii'deki Keck teleskoplarından ve Avrupa Güney Gözlemevi'nden alınan tayflar her adayın türünü ve kırmızıya kaymasını doğruladı; en sönüklerini Hubble Uzay Teleskobu izledi.\n\n![Şili'deki Cerro Tololo Amerikalar Arası Gözlemevi'nde 4 metrelik Víctor M. Blanco teleskobu](https://upload.wikimedia.org/wikipedia/commons/1/13/V%C3%ADctor_M_Blanco_4-meter_Telescope_%2812-0329-12Dhr-CC%29.jpg \"DOE/FNAL/DECam/R. Hahn/CTIO/NOIRLab/NSF/AURA · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Víctor_M_Blanco_4-meter_Telescope_(12-0329-12Dhr-CC).jpg\")\n\nDaha derindeki zorluk şüpheydi. Bir süpernova sıkıcı nedenlerle de sönük görünebilir: galaksisindeki toz ya da erken evrendeki yıldızların biraz farklı patlaması. İki ekip de bu açıklamaları sınadı ve etkiyi ortadan kaldıramadı. Sonucu inandırıcı kılan tek bir makale değil, farklı süpernovalar ve farklı yöntemlerle çalışan iki rakip grubun aynı yıl içinde aynı şaşırtıcı cevaba varmasıydı.\n\n### Ne kapı açtı\n\nBaşka kanıtlar da kısa sürede aynı yönü gösterdi. 2000 civarında BOOMERanG ve MAXIMA balon deneylerinin kozmik mikrodalga arka plan ölçümleri evrenin, uzayın düz olduğu toplam yoğunluğa sahip olduğunu gösterdi; 2001'de 2dF gibi galaksi taramaları ise sıradan ve karanlık bütün maddenin bunun yalnızca üçte biri kadarını oluşturduğunu buldu. Geri kalanını görünmez ve her yere eşit dağılmış bir şey tamamlamalıydı. Bugünkü en iyi tahminler karanlık enerjiyi evrendeki her şeyin yaklaşık yüzde 68'i olarak veriyor.\n\nKaranlık enerjinin ne olduğunu kimse bilmiyor. Sonunda Einstein'ın sabiti, yani boş uzayın sabit bir enerjisi çıkabilir. Zamanla değişen bir şey de olabilir; 2025'te Karanlık Enerji Tayfsal Aleti onun yavaş yavaş zayıfladığına dair ipuçları bildirdi, ama bu sonuç henüz doğrulanmış bir keşif değil. 2011 Nobel Fizik Ödülü'nün yarısı Perlmutter'a, diğer yarısı birlikte Schmidt ve Riess'e verildi; iki makalenin elli küsur yazarıyla ekiplerin tamamı ise 2007 Gruber Kozmoloji Ödülü'nü ve 2015 Breakthrough Ödülü'nü paylaştı. Keşif fiziğe rahatsız edici bir olgu bıraktı: evrenin büyük kısmı adını koyabildiğimiz ama açıklayamadığımız bir şeyden oluşuyor.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Две команды обнаружили, что расширение Вселенной ускоряется",
+      "summary": "Две соперничающие команды измеряли далёкие взрывающиеся звёзды, ожидая замедления. Звёзды оказались слишком тусклыми: расширение ускоряется, его толкает то, что теперь зовут тёмной энергией.",
+      "why_it_matters": "Открытие опрокинуло то единственное, чего все ждали от космического расширения: что тяготение его замедляет. Тёмная энергия, по-видимому, составляет около двух третей Вселенной, и объяснить её — одна из крупнейших открытых задач физики.",
+      "if_you_were_there": "Почти все знакомые вам астрономы ожидали, что расширение Вселенной замедляется; спорили о том, насколько быстро. Старая космологическая постоянная Эйнштейна была сноской в учебниках, хотя несколько теоретиков уже начали утверждать, что она вернулась.",
+      "place_name": "Беркли, Калифорния, США",
+      "body": "### Обстановка\n\nВ 1917 году Альберт Эйнштейн добавил в свою новую теорию тяготения лишнее слагаемое. Сами по себе его уравнения описывали Вселенную, которая не может стоять на месте: тяготение стянуло бы всё вместе. Эйнштейн, как почти все тогда, считал Вселенную неизменной и поэтому ввёл «космологическую постоянную» — постоянное расталкивание, встроенное в само пространство и уравновешивающее притяжение. В 1922 году Александр Фридман в Петрограде показал, что те же уравнения допускают и растущие вселенные, В 1927 году Жорж Леметр в Бельгии доказывал, что наша Вселенная действительно растёт, а в 1929 году это показали измерения галактик Эдвина Хаббла, опиравшиеся на более ранние измерения их покраснения Весто Слайфером. К 1931 году Эйнштейн от лишнего слагаемого отказался. Есть более поздняя история, будто он назвал его «своей самой большой ошибкой», но эти слова дошли до нас через воспоминания Георгия Гамова спустя десятилетия, и историки до сих пор спорят, говорил ли их Эйнштейн.\n\nБольшую часть следующих шестидесяти лет постоянную считали равной нулю. Но не все: в 1965 году ленинградский физик Эраст Глинер предположил, что пустое пространство может обладать собственной энергией и расталкивать, а в 1967–1968 годах Яков Зельдович в Москве связал постоянную Эйнштейна с энергией квантового вакуума. Зельдович увидел и проблему. Квантовая теория, если понимать её буквально, предсказывает энергию вакуума настолько огромную, что Вселенная должна была бы мгновенно разлететься. Это расхождение, которое часто оценивают примерно в 120 порядков, не решено до сих пор.\n\nПоэтому в 1990-х большинство астрономов задавали скромный вопрос. Они ожидали, что расширение замедляется, тормозимое тяготением всего вещества во Вселенной, и хотели узнать, насколько быстро оно замедляется и остановится ли когда-нибудь. Несколько теоретиков были не согласны: Джордж Эфстатиу с коллегами в 1990 году, а в 1995 году Лоуренс Краусс с Майклом Тёрнером и Джеремайя Острайкер с Полом Стейнхардтом утверждали, что измерения галактик лучше сходятся, если вернуть постоянную Эйнштейна. Они были в меньшинстве, и прямых данных ни у кого не было.\n\n### Что произошло\n\nЧтобы это измерить, нужны расстояния до галактик в миллиардах световых лет, и их надо сравнить с тем, насколько растянулась Вселенная с тех пор, как вышел их свет. Растяжение — лёгкая часть: свет приходит покрасневшим, и покраснение можно измерить. Расстояние — трудная.\n\nИнструментом стал особый вид взрывающихся звёзд — сверхновые типа Ia: белый карлик разрывает себя и на несколько недель может затмить всю свою галактику. Эти взрывы почти, но не совсем одинаковы по яркости. Ещё в 1970-х советский астроном Юрий Псковский и независимо американец Берт Раст заметили, что более яркие гаснут медленнее. В 1993 году Марк Филлипс, работавший в Чили, подтвердил это на лучших данных и превратил в поправку; свою статью он посвятил Псковскому. Измерьте, как быстро гаснет сверхновая, — и узнаете, насколько она ярка на самом деле; сравните с тем, насколько ярко она выглядит, — и получите расстояние. Близкие сверхновые, на которых держалась эта калибровка, дал обзор Калан/Тололо, начатый около 1989–1990 годов чилийскими астрономами Марио Амуем и Хосе Масой вместе с Филлипсом и Николасом Сунцеффом. Обе команды, сделавшие открытие, опирались на его близкие сверхновые.\n\n![Сверхновая 1994D — яркая точка слева внизу — рядом со своей галактикой NGC 4526, снимок космического телескопа «Хаббл»](https://upload.wikimedia.org/wikipedia/commons/0/00/Supernova_1994D_in_Galaxy_NGC_4526_%281999-19-813%29.jpg \"NASA, ESA, The Hubble Key Project Team, and The High-Z Supernova Search Team · Public domain · https://commons.wikimedia.org/wiki/File:Supernova_1994D_in_Galaxy_NGC_4526_(1999-19-813).jpg\")\n\nЭто близкая сверхновая типа Ia, а не одна из далёких 1998 года. В максимуме одна взорвавшаяся звезда соперничает со светом всей галактики вокруг неё — поэтому такие вспышки видны почти через всю Вселенную.\n\nДве группы соревновались. Проект космологии сверхновых в Национальной лаборатории имени Лоуренса в Беркли (Калифорния) вырос из работы Сола Перлмуттера и Карла Пеннипакера; рано к нему присоединился Герсон Гольдхабер, а позже астрономы из разных стран Европы, из Австралии и Чили. Команду поиска сверхновых с большим красным смещением (High-Z) в 1994 году основали Брайан Шмидт и Николас Сунцефф; ею руководили из обсерватории Маунт-Стромло в Австралии, а входили в неё около двадцати астрономов из США, Европы, Австралии и Чили. Астроном из Беркли Алекс Филиппенко поочерёдно работал в обеих группах.\n\nОбе команды обнаружили, что далёкие сверхновые слишком тусклые. Они были дальше, чем позволяла замедляющаяся Вселенная. В январе 1998 года группа из Беркли представила это на собрании Американского астрономического общества. 15 мая 1998 года команда High-Z в статье, которую возглавил Адам Рисс, тогда молодой исследователь в Беркли, отправила вывод прямо: далёкие сверхновые оказались примерно на 10–15 процентов дальше ожидаемого, и расширение ускоряется. Полный анализ 42 далёких сверхновых от команды из Беркли вышел в декабре 1998 года и пришёл к тому же. В том же году космолог Майкл Тёрнер дал неизвестной причине имя — «тёмная энергия», а журнал *Science* назвал результат прорывом года.\n\n> [!THEORY]\n> Подбросьте мяч вертикально вверх, и вы ждёте, что он замедлится: Земля тянет его обратно. А теперь представьте, что вы смотрите, как он поднимается, и видите, что с каждой секундой он летит быстрее. Вы решили бы, что его толкает что-то невидимое. Именно это сверхновые показали для всей Вселенной. Сравнение ломается в важном месте: галактики не летят сквозь пространство, как мяч сквозь воздух. Растягивается само пространство между ними, и «толчок» — не сила, приложенная извне, а что-то, что, похоже, принадлежит самому пространству.\n\n### Почему это было трудно\n\nСверхновую нельзя заказать заранее: никто не знает, где вспыхнет следующая, а гаснет она за недели. Главный приём группы из Беркли, заработавший к 1994 году, состоял в том, чтобы сфотографировать тысячи далёких галактик сразу после новолуния, снова снять их примерно через три недели и сравнить снимки на компьютере. Так в известное время находилась целая партия свежих вспышек, и время на крупнейших телескопах для наблюдения можно было забронировать ещё до того, как что-то найдено. Обе команды вели большую часть поисков на 4-метровом телескопе имени Виктора Бланко на Серро-Тололо в Чили. Спектры с телескопов Кек на Гавайях и Европейской южной обсерватории подтверждали тип и красное смещение каждого кандидата, а самые тусклые вёл космический телескоп «Хаббл».\n\n![4-метровый телескоп имени Виктора Бланко в Межамериканской обсерватории Серро-Тололо, Чили](https://upload.wikimedia.org/wikipedia/commons/1/13/V%C3%ADctor_M_Blanco_4-meter_Telescope_%2812-0329-12Dhr-CC%29.jpg \"DOE/FNAL/DECam/R. Hahn/CTIO/NOIRLab/NSF/AURA · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Víctor_M_Blanco_4-meter_Telescope_(12-0329-12Dhr-CC).jpg\")\n\nБолее глубокой трудностью было сомнение. Сверхновая может казаться тусклее по скучным причинам: пыль в её галактике или то, что звёзды в ранней Вселенной взрывались чуть иначе. Обе команды проверяли эти объяснения и не смогли убрать эффект. Убедительным результат сделала не одна статья, а то, что две соперничающие группы с разными сверхновыми и разными методами пришли к одному и тому же неожиданному ответу в один и тот же год.\n\n### Что это открыло\n\nВскоре в ту же сторону указали и другие данные. Около 2000 года измерения реликтового излучения в аэростатных экспериментах BOOMERanG и MAXIMA показали, что полная плотность Вселенной такова, при которой пространство плоское, а обзоры галактик, например 2dF в 2001 году, нашли, что всё вещество, обычное и тёмное вместе, составляет лишь около трети этой плотности. Остальное должно было приходиться на что-то невидимое и равномерно разлитое. Сегодня лучшие оценки дают тёмной энергии около 68 процентов всего во Вселенной.\n\nЧто такое тёмная энергия, никто не знает. Возможно, это всё-таки постоянная Эйнштейна — неизменная энергия пустого пространства. Возможно, нечто меняющееся со временем: в 2025 году проект «Спектроскопический инструмент тёмной энергии» сообщил о намёках на то, что она медленно ослабевает, но это пока не подтверждённое открытие. Нобелевская премия по физике 2011 года досталась наполовину Перлмуттеру и наполовину — совместно Шмидту и Риссу, а команды целиком, полсотни с лишним авторов двух статей, разделили премию Грубера по космологии 2007 года и премию «Прорыв» 2015 года. Открытие оставило физике неудобный факт: большая часть Вселенной состоит из того, что мы можем назвать, но не можем объяснить.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Эки топ ааламдын кеңейиши ылдамдап жатканын аныкташкан",
+      "summary": "Эки атаандаш топ аалам жайлап жатат деп күтүп, алыскы жарылган жылдыздарды өлчөшкөн. Жылдыздар өтө күңүрт чыккан: кеңейүү ылдамдап жатат, аны азыр караңгы энергия деп аталган нерсе түртөт.",
+      "why_it_matters": "Ачылыш космостук кеңейүү жөнүндө баары күткөн жалгыз нерсени, тартылуу аны жайлатат дегенди, оодарып салган. Караңгы энергия ааламдын болжол менен үчтөн экисин түзөт окшойт, жана аны түшүндүрүү физикадагы эң чоң чечиле элек маселелердин бири.",
+      "if_you_were_there": "Сиз билген астрономдордун дээрлик баары ааламдын кеңейиши жайлап жатат деп күтүшчү; талаш анын канчалык тез жайлап жатканы тууралуу болчу. Эйнштейндин эски космологиялык туруктуусу окуу китебиндеги шилтеме гана эле, бирок бир нече теоретик ал кайра кайтты деп ырастай башташкан.",
+      "place_name": "Беркли, Калифорния, АКШ",
+      "body": "### Көрүнүш\n\n1917-жылы Альберт Эйнштейн өзүнүн жаңы тартылуу теориясына кошумча бир мүчө киргизген. Анын теңдемелери өз алдынча калтырылганда бир орунда тура албаган ааламды сүрөттөчү: тартылуу баарын бири-бирине тартып, чогултуп салмак. Эйнштейн ошол кездеги дээрлик бардык адамдар сыяктуу эле ааламды кыймылсыз деп эсептеген, ошондуктан «космологиялык туруктуу» деген чоңдукту кошкон: тартылууну тең салмакта кармап турган, мейкиндиктин өзүнө орнотулган туруктуу түртүү. 1922-жылы Александр Фридман Петроградда ошол эле теңдемелер чоңоюп бара жаткан ааламдарга да жол берерин көрсөткөн, 1927-жылы Бельгияда Жорж Леметр биздин аалам чындап эле чоңоюп жатат деп далилдерин келтирген, ал эми 1929-жылы Эдвин Хабблдын галактикаларды өлчөөлөрү, Весто Слайфердин алардын кызаруусун мурдагы өлчөөлөрүнө таянып, муну көрсөткөн. 1931-жылга карата Эйнштейн кошумча мүчөдөн баш тарткан. Кийинки бир окуяга караганда, ал аны «эң чоң катам» деп атаган имиш, бирок бул сөз бизге Георгий Гамовдун ондогон жылдардан кийинки эскерүүсү аркылуу гана жеткен, жана Эйнштейн аны чындап айтканбы же жокпу, тарыхчылар азыр да талашып келишет.\n\nКийинки алтымыш жылдын көбүндө бул туруктуу нөлгө барабар деп эсептелген. Бирок баары эле эмес: 1965-жылы ленинграддык физик Эраст Глинер бош мейкиндиктин өз энергиясы болуп, сыртты карай түртө алат деген ойду айткан, ал эми 1967–1968-жылдары Москвада Яков Зельдович Эйнштейндин туруктуусун кванттык вакуумдун энергиясы менен байланыштырган. Зельдович мындагы көйгөйдү да көргөн. Кванттык теорияны түз мааниде алсак, ал вакуумдун энергиясын ушунчалык зор деп божомолдойт, аалам ошол замат чачырап кетмек. Көбүнчө ондун болжол менен 120-даражасына жеткен айырма деп айтылган бул дал келбестик азыркыга чейин чечиле элек.\n\nОшондуктан 1990-жылдары астрономдордун көбү жөнөкөй суроо беришкен. Алар кеңейүү ааламдагы бардык заттын тартылуусу менен тормоздолуп, жайлап жатат деп күтүшүп, анын канчалык тез жайлап жатканын жана качандыр бир күнү токтой турган-турбасын билгиси келишкен. Бир нече теоретик башкача ойлогон: 1990-жылы Джордж Эфстатиу жана анын кесиптештери, 1995-жылы Лоуренс Краусс менен Майкл Тёрнер, ошондой эле Джеремайя Острайкер менен Пол Стейнхардт Эйнштейндин туруктуусу кайра кайтарылса, галактикаларды өлчөөлөр жакшыраак дал келет деп ырасташкан. Алар азчылык болушкан, жана эч кимде түз далил болгон эмес.\n\n### Эмне болду\n\nМуну өлчөө үчүн миллиарддаган жарык жылы алыстагы галактикаларга чейинки аралыкты билүү керек, жана аны ал галактикалардын жарыгы чыккандан бери аалам канчалык созулганы менен салыштыруу керек. Созулуу — оңой бөлүгү: жарык кызарып келет, ал кызарууну өлчөөгө болот. Аралык — кыйын бөлүгү.\n\nКурал катары жарылган жылдыздын бир түрү — Ia тибиндеги сверхновая колдонулган: өзүн-өзү талкалап, бир нече жума бою бүт галактикасынан да жаркыраак көрүнө алган ак эргежээл жылдыз. Бул жарылуулардын жарыктыгы дээрлик бирдей, бирок так бирдей эмес. Советтик астроном Юрий Псковский жана андан көз карандысыз америкалык Берт Раст 1970-жылдары эле жаркырагыраактары жайыраак өчөрүн байкашкан. 1993-жылы Чилиде иштеген Марк Филлипс муну такыраак маалыматтар менен тастыктап, оңдоо ыкмасына айлантып, макаласын Псковскийге арнаган. Бирөөнүн канчалык тез өчкөнүн өлчөсөңүз, ал чындыгында канчалык жарык экенин билесиз; аны канчалык жарык көрүнгөнү менен салыштырсаңыз, аралыгын табасыз. Бул ченемди түзүүгө мүмкүндүк берген жакынкы сверхновая жылдыздар Калан/Тололо изилдөөсүнөн келген. Аны болжол менен 1989–1990-жылдары чилилик астрономдор Марио Амуй менен Хосе Маса, Филлипс жана Николас Сунцефф менен бирге баштаган. Ачылышты жасай турган эки топ тең ошол изилдөөнүн жакынкы сверхновая жылдыздарына таянган.\n\n![1994D сверхновая жылдызы, төмөн жактагы сол бурчтагы жаркыраган чекит, өз галактикасы NGC 4526нын жанында; Хаббл космостук телескобунун сүрөтү](https://upload.wikimedia.org/wikipedia/commons/0/00/Supernova_1994D_in_Galaxy_NGC_4526_%281999-19-813%29.jpg \"NASA, ESA, The Hubble Key Project Team, and The High-Z Supernova Search Team · Public domain · https://commons.wikimedia.org/wiki/File:Supernova_1994D_in_Galaxy_NGC_4526_(1999-19-813).jpg\")\n\nБул 1998-жылдагы алыскы сверхновая жылдыздардын бири эмес, жакынкы Ia тибиндеги сверхновая. Эң жаркыраган учурунда жалгыз жарылган жылдыз айланасындагы бүт галактиканын жарыгы менен теңтайлашат, ошондуктан аны ааламдын көпчүлүк бөлүгү аркылуу көрүүгө болот.\n\nЭки топ бири-бири менен жарышкан. Калифорниядагы Лоуренс атындагы Беркли улуттук лабораториясындагы Сверхновая жылдыздар космологиясы долбоору Сол Перлмуттер менен Карл Пеннипакердин ишинен өсүп чыккан; ага эрте эле Герсон Гольдхабер, кийин Европанын ар кайсы өлкөлөрүнөн, Австралиядан жана Чилиден астрономдор кошулган. Чоң кызылга жылуудагы сверхновая жылдыздарды издөө тобун (High-Z) 1994-жылы Брайан Шмидт менен Николас Сунцефф түзүшкөн; ал Австралиядагы Маунт-Стромло обсерваториясынан башкарылып, АКШ, Европа, Австралия жана Чилиден жыйырмага жакын астрономду бириктирген. Берклилик астроном Алекс Филиппенко эки топто тең кезеги менен иштеген.\n\nЭки топ тең алыскы сверхновая жылдыздар өтө күңүрт экенин аныкташкан. Алар жайлап бара жаткан аалам уруксат бергенден алысыраак жайгашкан. 1998-жылдын январында Беркли тобу муну Америка астрономиялык коомунун жыйынында көрсөткөн. 1998-жылдын 15-майында High-Z тобу ошол кезде Берклиде жаш изилдөөчү болгон Адам Рисс жетектеген макалада тыянакты ачык жөнөткөн: алыскы сверхновая жылдыздар күтүлгөндөн болжол менен 10–15 пайыз алысыраак болуп чыккан, демек кеңейүү ылдамдап жатат. Беркли тобунун 42 алыскы сверхновая жылдыздын толук талдоосу 1998-жылдын декабрында чыгып, ошол эле тыянакка келген. Ошол жылы космолог Майкл Тёрнер белгисиз себепке ат койгон: «караңгы энергия», ал эми *Science* журналы бул жыйынтыкты жылдын ачылышы деп атаган.\n\n> [!THEORY]\n> Топту түз өйдө ыргытсаңыз, ал жайлайт деп күтөсүз, анткени Жер аны кайра тартат. Эми анын көтөрүлүшүн карап отуруп, ал ар бир секунд сайын тезирээк учуп баратканын көрдүңүз дейли. Сиз аны көзгө көрүнбөгөн бир нерсе түртүп жатат деген тыянакка келмексиз. Сверхновая жылдыздар бүт аалам үчүн дал ушуну көрсөткөн. Салыштыруу маанилүү жерде бузулат: галактикалар аба аркылуу учкан топ сыяктуу мейкиндиктин ичинде учуп жүрүшкөн жок. Алардын ортосундагы мейкиндиктин өзү созулуп жатат, ал эми «түртүү» сырттан берилген күч эмес, мейкиндиктин өзүнө таандык нерсе окшойт.\n\n### Эмне үчүн кыйын болгон\n\nСверхновая жылдызды алдын ала буйрутма кылууга болбойт: кийинкиси кайда жарыларын эч ким билбейт, анан ал бир нече жумада өчүп калат. Беркли тобунун 1994-жылга карата иштей баштаган негизги амалы мындай болгон: миңдеген алыскы галактиканы жаңы айдан кийин дароо сүрөткө тартып, болжол менен үч жумадан кийин кайра тартып, сүрөттөрдү компьютер менен салыштыруу. Ошентип белгилүү убакта бир топ жаңы жарылуу табылып, эң чоң телескоптордогу кийинки байкоо убактысын эч нерсе табыла электе эле ээлеп коюуга мүмкүн болгон. Эки топ тең издөөлөрүнүн көбүн Чилидеги Серро-Тололодогу 4 метрлик Виктор Бланко телескобу менен жүргүзүшкөн. Гавайидеги Кек телескопторунан жана Европанын түштүк обсерваториясынан алынган спектрлер ар бир талапкердин түрүн жана кызылга жылуусун тастыктаган, ал эми эң күңүрттөрүн Хаббл космостук телескобу байкаган.\n\n![Чилидеги Серро-Тололо Америка аралык обсерваториясындагы 4 метрлик Виктор Бланко телескобу](https://upload.wikimedia.org/wikipedia/commons/1/13/V%C3%ADctor_M_Blanco_4-meter_Telescope_%2812-0329-12Dhr-CC%29.jpg \"DOE/FNAL/DECam/R. Hahn/CTIO/NOIRLab/NSF/AURA · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Víctor_M_Blanco_4-meter_Telescope_(12-0329-12Dhr-CC).jpg\")\n\nТереңирээк кыйынчылык — шек болгон. Сверхновая жөнөкөй себептерден да күңүрт көрүнүшү мүмкүн: анын галактикасындагы чаң, же алгачкы ааламдагы жылдыздардын бир аз башкача жарылышы. Эки топ тең бул түшүндүрмөлөрдү текшерип, таасирди жок кыла алышкан эмес. Жыйынтыкты ишенимдүү кылган бир макала эмес, ар башка сверхновая жылдыздар жана ар башка ыкмалар менен иштеген эки атаандаш топтун бир эле жылы бир эле күтүлбөгөн жоопко келиши болгон.\n\n### Эмнеге жол ачты\n\nКөп өтпөй башка далилдер да ошол эле тарапты көрсөткөн. 2000-жылдын тегерегинде BOOMERanG жана MAXIMA аэростат тажрыйбаларынын космостук микротолкундуу фондун өлчөөлөрү ааламдын жалпы тыгыздыгы мейкиндик жалпак боло турган деңгээлде экенин көрсөткөн, ал эми 2001-жылы 2dF сыяктуу галактика изилдөөлөрү бардык заттын, кадимки жана караңгы заттын чогуу алганда, анын үчтөн бирин гана түзөрүн тапкан. Калганын көзгө көрүнбөгөн жана бирдей таралган бир нерсе толуктап турушу керек болчу. Азыркы эң так баалоолор боюнча караңгы энергия ааламдагы бардык нерсенин болжол менен 68 пайызын түзөт.\n\nКараңгы энергия эмне экенин эч ким билбейт. Акыры ал Эйнштейндин туруктуусу, башкача айтканда бош мейкиндиктин туруктуу энергиясы болуп чыгышы мүмкүн. Убакыт өткөн сайын өзгөрүүчү бир нерсе болушу да мүмкүн: 2025-жылы «Караңгы энергиянын спектроскопиялык аспабы» долбоору анын акырындык менен алсырап жатканы тууралуу белгилерди билдирген, бирок бул азырынча тастыкталган ачылыш эмес. 2011-жылдагы физика боюнча Нобель сыйлыгынын жарымы Перлмуттерге, калган жарымы Шмидт менен Рисске бирге берилген, ал эми эки макаланын элүүдөн ашык автору — топтор толугу менен — 2007-жылдагы Грубердин космология сыйлыгын жана 2015-жылдагы Breakthrough сыйлыгын бөлүшкөн. Ачылыш физикага ыңгайсыз бир фактыны калтырган: ааламдын басымдуу бөлүгү биз атын атай алган, бирок түшүндүрө албаган нерседен турат.",
+      "status": "machine"
+    }
+  }
+}
