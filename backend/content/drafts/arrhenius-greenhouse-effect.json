@@ -1,0 +1,256 @@
+{
+  "slug": "arrhenius-greenhouse-effect",
+  "year": 1896,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 59.3293,
+  "lng": 18.0686,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/9/92/Svante_Arrhenius_01.jpg",
+    "credit": "Verlag von Wilhelm Engelmann Leipzig - Photogravure Meisenbach Riffarth & Co. Leipzig.",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Svante_Arrhenius_01.jpg"
+  },
+  "disciplines": [
+    "earth",
+    "chemistry"
+  ],
+  "people": [
+    {
+      "slug": "svante-arrhenius",
+      "role": "author",
+      "name": {
+        "en": "Svante Arrhenius",
+        "tr": "Svante Arrhenius",
+        "ru": "Сванте Аррениус",
+        "ky": "Сванте Аррениус"
+      },
+      "birth_year": 1859,
+      "death_year": 1927
+    },
+    {
+      "slug": "arvid-hogbom",
+      "role": "collaborator",
+      "name": {
+        "en": "Arvid Högbom",
+        "tr": "Arvid Högbom",
+        "ru": "Арвид Хёгбом",
+        "ky": "Арвид Хёгбом"
+      },
+      "birth_year": 1857,
+      "death_year": 1940
+    },
+    {
+      "slug": "joseph-fourier",
+      "role": "predecessor",
+      "name": {
+        "en": "Joseph Fourier",
+        "tr": "Joseph Fourier",
+        "ru": "Жозеф Фурье",
+        "ky": "Жозеф Фурье"
+      },
+      "birth_year": 1768,
+      "death_year": 1830
+    },
+    {
+      "slug": "claude-pouillet",
+      "role": "predecessor",
+      "name": {
+        "en": "Claude Pouillet",
+        "tr": "Claude Pouillet",
+        "ru": "Клод Пуйе",
+        "ky": "Клод Пуйе"
+      },
+      "birth_year": 1790,
+      "death_year": 1868
+    },
+    {
+      "slug": "eunice-foote",
+      "role": "predecessor",
+      "name": {
+        "en": "Eunice Foote",
+        "tr": "Eunice Foote",
+        "ru": "Юнис Фут",
+        "ky": "Юнис Фут"
+      },
+      "birth_year": 1819,
+      "death_year": 1888
+    },
+    {
+      "slug": "john-tyndall",
+      "role": "predecessor",
+      "name": {
+        "en": "John Tyndall",
+        "tr": "John Tyndall",
+        "ru": "Джон Тиндаль",
+        "ky": "Джон Тиндаль"
+      },
+      "birth_year": 1820,
+      "death_year": 1893
+    },
+    {
+      "slug": "samuel-langley",
+      "role": "predecessor",
+      "name": {
+        "en": "Samuel Langley",
+        "tr": "Samuel Langley",
+        "ru": "Сэмюэл Лэнгли",
+        "ky": "Сэмюэл Ленгли"
+      },
+      "birth_year": 1834,
+      "death_year": 1906
+    },
+    {
+      "slug": "frank-washington-very",
+      "role": "predecessor",
+      "name": {
+        "en": "Frank Washington Very",
+        "tr": "Frank Washington Very",
+        "ru": "Фрэнк Вашингтон Вери",
+        "ky": "Фрэнк Вашингтон Вери"
+      },
+      "birth_year": 1852,
+      "death_year": 1927
+    },
+    {
+      "slug": "james-croll",
+      "role": "predecessor",
+      "name": {
+        "en": "James Croll",
+        "tr": "James Croll",
+        "ru": "Джеймс Кролл",
+        "ky": "Джеймс Кролл"
+      },
+      "birth_year": 1821,
+      "death_year": 1890
+    },
+    {
+      "slug": "knut-angstrom",
+      "role": "contemporary",
+      "name": {
+        "en": "Knut Ångström",
+        "tr": "Knut Ångström",
+        "ru": "Кнут Ангстрём",
+        "ky": "Кнут Ангстрём"
+      },
+      "birth_year": 1857,
+      "death_year": 1910
+    },
+    {
+      "slug": "nils-ekholm",
+      "role": "contemporary",
+      "name": {
+        "en": "Nils Ekholm",
+        "tr": "Nils Ekholm",
+        "ru": "Нильс Экхольм",
+        "ky": "Нильс Экхольм"
+      },
+      "birth_year": 1848,
+      "death_year": 1923
+    },
+    {
+      "slug": "guy-callendar",
+      "role": "successor",
+      "name": {
+        "en": "Guy Callendar",
+        "tr": "Guy Callendar",
+        "ru": "Гай Каллендар",
+        "ky": "Гай Каллендар"
+      },
+      "birth_year": 1898,
+      "death_year": 1964
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "Svante Arrhenius — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Svante-Arrhenius"
+    },
+    {
+      "title": "Svante Arrhenius — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+    },
+    {
+      "title": "History of climate change science — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_climate_change_science"
+    },
+    {
+      "title": "Spencer Weart, The Discovery of Global Warming: The Carbon Dioxide Greenhouse Effect — American Institute of Physics",
+      "kind": "book",
+      "url": "https://history.aip.org/climate/co2.htm"
+    },
+    {
+      "title": "Future Calculations: The first climate change believer — Science History Institute, Distillations",
+      "kind": "article",
+      "url": "https://www.sciencehistory.org/stories/magazine/future-calculations/"
+    },
+    {
+      "title": "Letter from Svante Arrhenius to Georg Bredig, 3 January 1896 — Science History Institute Digital Collections",
+      "kind": "other",
+      "url": "https://digital.sciencehistory.org/works/34t5i0z"
+    },
+    {
+      "title": "S. Arrhenius, \"On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground\", Philosophical Magazine, series 5, vol. 41 (April 1896), 237–276 (scan)",
+      "kind": "paper",
+      "url": "https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Greenhouse-effect/Arrhenius/2-Arrhenius-1896.pdf"
+    },
+    {
+      "title": "E. Crawford, \"Arrhenius' 1896 Model of the Greenhouse Effect in Context\", Ambio 26 (1997) (scan)",
+      "kind": "paper",
+      "url": "https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Greenhouse-effect/Arrhenius/3-optional-Crawford-1997.pdf"
+    },
+    {
+      "title": "IPCC AR6 Working Group I, Summary for Policymakers (2021)",
+      "kind": "other",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"
+    }
+  ],
+  "research_note": "Drafted 2026-11-20 by the nightly pipeline. Threshold met without Britannica (403, linked for human review): English Wikipedia (Svante Arrhenius; History of climate change science), Spencer Weart's AIP history (Discovery of Global Warming, CO2 greenhouse chapter), Science History Institute 'Future Calculations' article, Arrhenius's letter to Bredig (3 Jan 1896, SHI digital collection). The 1896 paper and Crawford 1997 are linked as scans; their text could not be read automatically (image-only PDFs) - the reviewer may want to confirm details against them.\nYEAR: 1896 exact (finished and delivered to the Royal Swedish Academy of Sciences 11 Dec 1895 per the Bredig letter; published German by the Academy 1896 and English in Phil. Mag. April 1896). PLACE: Stockholm (Stockholms hogskola).\nCONFIRMED: Langley & Very lunar infrared data from Allegheny; calculations for every tenth parallel and every season; K values 0.67, 1.5, 2, 2.5, 3; water-vapour and snow feedback; no clouds/convection; halving -> 4-5 C in Europe, doubling -> 5-6 C (Weart, Wikipedia); geometric/arithmetic rule; Hogbom's lecture at Stockholm Physical Society and his estimate that coal emissions roughly matched natural sources, ~1/1000 of atmospheric CO2; ~3000 years to double; Angstrom/Koch c.1900 and Arrhenius's reply; Ekholm 1901 'greenhouse'; Worlds in the Making 1906/1908, ~4 C per doubling, 'more equable and better climates' quote; Callendar 1938; Nobel 1903.\nFLAGGED IN BODY: the divorce-as-refuge story is presented as one popular history's suggestion (SHI), not fact. Sofia Rudbeck marriage 1894-1896 from Wikipedia. Crawford's Dec 1894 - Jan 1896 dating is from a search snippet of her Ambio article, not read in full.\nIMAGE: 1902 Selma Morning Times clipping read directly from the scan (name misspelled 'Svend', 'baked in a temperature close to the boiling point', 'few cycles of 10,000 years').\nREVIEWER SHOULD CHECK: IPCC AR6 figure (likely 2.5-4 C, best 3 C) cited from memory of AR6 SPM, URL given; 'about half as much again' over 280 ppm assumes ~420-430 ppm today (keeling-curve draft says ~432 in May 2026). Ekholm's exact 1901 wording ('hot-house'?) not seen first-hand. Pouillet birth/death years and Very's years from general knowledge.\nNON-WESTERN: no Central Asian or non-Western contributor found for this event; body names Foote (woman, forgotten). BUILDS_ON empty: no direct predecessor event in the list (Tyndall/Fourier not in top100). keeling-curve already builds on this slug.\nKYRGYZ: glossary 'check' term used: жанар тоо (volcano). New terms not in glossary: көмүр кычкыл газы (CO2, as in keeling-curve), суу буусу (water vapour), муз доору (ice age), күнөскана / парниктик эффект (greenhouse / greenhouse effect), кеңдик сызыгы (line of latitude), сиңирүү (absorb), климаттын сезгичтиги (climate sensitivity), көмүр кычкылы (carbonic acid).\n\nFACT-CHECKER (2026-11-20): no false facts. Applied in all four languages: (1) latitude range 'far north to far south' -> '70 N to 60 S' (Crawford summary); (2) 'first scientific work' -> 'first known'; (3) IPCC comparison now points to the 1906 popular book, since Arrhenius's German paper of the same year reportedly gave a lower doubling figure (~1.6-2.1 C, BELIRSIZ, not added to body). Kept with sources: 'Hogbom doubted it would ever happen' and Arrhenius's 'sharp' reply (both in Weart: 'Hogbom doubted it would ever reach that level', 'sharply criticized'). Could not confirm (belirsiz): K values 0.67-3 (paper scan unreadable; consistent with Crawford's 'five CO2 levels'); Ekholm's exact 1901 word.",
+  "translations": {
+    "en": {
+      "title": "Arrhenius calculates that carbon dioxide warms the Earth",
+      "summary": "In 1896 Svante Arrhenius worked out with pencil and paper how strongly carbon dioxide sets the Earth's temperature. A colleague's sums on coal made it the first link to human warming.",
+      "why_it_matters": "Arrhenius turned the old idea that some gases trap heat into a number: how many degrees for how much carbon dioxide. That question is still at the centre of climate science, and his paper was the first to bring the burning of coal into it.",
+      "if_you_were_there": "In 1895 nobody knew why ice sheets had once covered Scandinavia, and hardly anyone imagined that smoke from chimneys could change the temperature of the whole planet.",
+      "place_name": "Stockholm",
+      "body": "### The scene\n\nIn the Sweden of the 1890s the great puzzle was ice. Scratched bedrock and boulders carried far from home showed that thick ice sheets had once covered all of Scandinavia, and then melted away. Why the ice came and went, nobody knew. The Scottish self-taught scientist James Croll blamed slow changes in the Earth's orbit; others looked to the air.\n\nThe idea that air keeps the planet warm was already old. In the 1820s the French mathematician Joseph Fourier reasoned that the Earth is warmer than a bare rock at the same distance from the Sun would be, and that the atmosphere must be the reason. In 1838 Claude Pouillet guessed that water vapour and carbon dioxide were the gases doing it. In 1856 the American experimenter Eunice Foote set glass tubes of different gases in the sun and found that carbon dioxide warmed the most; she suggested that an atmosphere with more of it would make the Earth hotter. Her short paper was read at a scientific meeting by Joseph Henry, not by her, and was then forgotten for more than 150 years. In 1859 John Tyndall in London, with far better instruments, showed that water vapour and carbon dioxide absorb the invisible heat rays that the ground gives off. What no one had done was put a number on it: how many degrees for how much gas?\n\nSvante Arrhenius was a chemist at Stockholm University College, known for a bold theory of how salts split into charged particles in water, the work that would bring him the Nobel Prize in Chemistry in 1903. In the early 1890s the Stockholm Physical Society, a circle of local scientists, kept returning to the ice ages. His colleague, the geologist Arvid Högbom, lectured there on what adds carbon dioxide to the air and what takes it away: volcanoes, the weathering of rock, the ocean, living things. That lecture set Arrhenius to work.\n\n![Svante Arrhenius](https://upload.wikimedia.org/wikipedia/commons/9/92/Svante_Arrhenius_01.jpg \"Verlag von Wilhelm Engelmann Leipzig - Photogravure Meisenbach Riffarth & Co. Leipzig. · Public domain · https://commons.wikimedia.org/wiki/File:Svante_Arrhenius_01.jpg\")\n\n### What happened\n\nArrhenius needed to know how much heat the air swallows. No laboratory had measured that for a whole atmosphere, so he borrowed from the sky. At the Allegheny Observatory in Pittsburgh, Samuel Langley and Frank Washington Very had measured the invisible heat coming from the Moon. When the Moon stands low, its heat crosses a longer path of air than when it stands high, so comparing the two shows how much the air absorbs on the way. From these readings Arrhenius separated, as best he could, the share taken by water vapour and the share taken by carbon dioxide.\n\nThen came the long part. For every tenth line of latitude, from 70 degrees north to 60 degrees south, and for every season, he calculated how the temperature would change if the carbon dioxide in the air were cut to two thirds of its present amount, or raised to one and a half, two, two and a half or three times as much. He let warmer air hold more water vapour, which traps more heat in turn, and he let cooling bring more snow, which reflects sunlight away. He did it all with pencil and paper. The historian Elisabeth Crawford dated the project from December 1894 to January 1896. His brief marriage to his former student Sofia Rudbeck was breaking up in the same months, and one popular history suggests the tedious arithmetic was a refuge; that is a guess about his mood, not a record of it.\n\nOn 11 December 1895, as he wrote to a friend a few weeks later, he finished just in time to hand the work to the Royal Swedish Academy of Sciences at its meeting that day. It was printed in German by the Academy and in English in April 1896 in the Philosophical Magazine of London, under the title \"On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground\". Carbonic acid was the old name for carbon dioxide.\n\nHis answer to the ice-age question was yes: halving the carbon dioxide would cool Europe by some four to five degrees Celsius, enough for the ice to return. The same tables ran the other way. Doubling it would warm the Earth by about five to six degrees. And he noticed a rule that still holds: each time the amount of gas is multiplied by the same factor, the temperature rises by roughly the same step, so the second doubling adds about as much as the first.\n\n> [!THEORY]\n> The gases work a little like the glass of a greenhouse: sunlight passes through, but the heat the warm ground sends back out is partly held in. The Swedish meteorologist Nils Ekholm used this comparison in 1901, and \"greenhouse effect\" stuck. The analogy breaks because a real greenhouse stays warm mainly because its glass stops the warm air from rising and blowing away; the atmosphere has no lid, and its gases warm the planet by absorbing heat rays and sending part of them back down.\n\nThe paper also carried Högbom's arithmetic. He had estimated that the coal burned in the world each year added roughly as much carbon dioxide to the air as natural sources did, though only about a thousandth of what the air already held. That made it the first known scientific work to link the burning of coal with a warming of the whole planet. Neither man was alarmed: at the burning rate of the 1890s, Arrhenius reckoned, doubling the gas would take perhaps three thousand years, and Högbom doubted it would ever happen.\n\n### Why it was hard\n\nThere were no computers and almost no good data. Langley's Moon readings had been made for another purpose, and Arrhenius's figures for how strongly carbon dioxide absorbs were rough. He left out clouds, and he left out the way warm air rises and carries heat upward. Today his paper is read less as an accurate measurement than as the first demonstration, worked through number by number, that more carbon dioxide means a warmer planet if everything else stays the same.\n\nThe idea was soon pushed aside. Around 1900 the Swedish physicist Knut Ångström had an assistant, Herr J. Koch, shine heat rays through a tube of carbon dioxide; reducing the gas barely changed how much got through. Ångström concluded that the air already held more than enough carbon dioxide to absorb all it could, so adding more would do nothing. Arrhenius answered with a sharp reply, but most scientists sided with Ångström. The reasoning was wrong, as later physics showed: what matters is the thin upper air, where heat finally escapes to space, and there extra gas still makes a difference. But the mistake held the field for decades.\n\nArrhenius himself kept refining the numbers. In his popular book of 1906, translated into English in 1908 as Worlds in the Making, he lowered the warming for a doubling to about four degrees, and because coal burning was growing fast he now expected a noticeable change within centuries rather than millennia. He welcomed it. Coming from a cold country, he wrote that more carbon dioxide might bring \"more equable and better climates\", richer harvests for a growing population, and perhaps a shield against the next ice age.\n\nNewspapers got the story wrong in the opposite direction. In 1902 an Alabama paper, misspelling his name, told its readers that the Swedish professor predicted the Earth would be \"baked in a temperature close to the boiling point\" by burning coal, which is not what he wrote.\n\n![A 1902 Alabama newspaper item garbling Arrhenius's idea about coal and warming](https://upload.wikimedia.org/wikipedia/commons/9/9c/19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg \"The Selma Morning Times (1902 newspaper in Alabama, US) · Public domain · https://commons.wikimedia.org/wiki/File:19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg\")\n\n### What it opened\n\nThe question Arrhenius asked — how much warmer for twice the carbon dioxide — is still at the centre of climate science; it is now called climate sensitivity. In 1938 the English engineer Guy Callendar revived the idea with old temperature records and old measurements of the air, and most meteorologists still doubted him. From 1958 Charles David Keeling's careful measurements on Mauna Loa showed the gas rising year after year, and the 1896 paper began to look like a forecast.\n\nModern answers are lower than his first one. The Intergovernmental Panel on Climate Change put the likely warming for a doubling at about two and a half to four degrees in 2021, with three as the best estimate, close to the figure in Arrhenius's popular book of 1906. Before industry, the air held about 280 molecules of carbon dioxide in every million; today it holds about half as much again.\n\n![Arvid Högbom, the geologist whose carbon accounting gave the paper its human dimension](https://upload.wikimedia.org/wikipedia/commons/c/cb/Arvid_H%C3%B6gbom.jpg \"Carl Wilhelmson · Public domain · https://commons.wikimedia.org/wiki/File:Arvid_Högbom.jpg\")",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Arrhenius karbondioksitin Dünya'yı ısıttığını hesaplıyor",
+      "summary": "1896'da Svante Arrhenius, karbondioksitin Dünya'nın sıcaklığını ne kadar belirlediğini kâğıt kalemle hesapladı. Bir meslektaşının kömür hesabı onu insan kaynaklı ısınmaya bağladı.",
+      "why_it_matters": "Arrhenius, bazı gazların ısıyı tuttuğu yolundaki eski fikri bir sayıya çevirdi: ne kadar karbondioksit, kaç derece. Bu soru hâlâ iklim biliminin merkezinde ve kömür yakmayı bu soruya ilk katan onun makalesiydi.",
+      "if_you_were_there": "1895'te buz tabakalarının bir zamanlar İskandinavya'yı neden örttüğünü kimse bilmiyordu; bacalardan çıkan dumanın bütün gezegenin sıcaklığını değiştirebileceğini de neredeyse kimse düşünmüyordu.",
+      "place_name": "Stockholm",
+      "body": "### Sahne\n\n1890'ların İsveç'inde büyük bilmece buzdu. Çizik çizik kayalar ve yuvasından çok uzağa taşınmış iri taşlar, bir zamanlar bütün İskandinavya'yı kalın buz tabakalarının örttüğünü, sonra da bu buzun eriyip gittiğini gösteriyordu. Buzun neden gelip gittiğini kimse bilmiyordu. İskoç kendi kendini yetiştirmiş bilim insanı James Croll suçu Dünya'nın yörüngesindeki yavaş değişikliklerde arıyordu; başkaları ise havaya bakıyordu.\n\nHavanın gezegeni sıcak tuttuğu fikri zaten eskiydi. 1820'lerde Fransız matematikçi Joseph Fourier, Dünya'nın Güneş'ten aynı uzaklıktaki çıplak bir kayadan daha sıcak olduğunu ve bunun sebebinin atmosfer olması gerektiğini akıl yürüterek göstermişti. 1838'de Claude Pouillet bu işi yapan gazların su buharı ve karbondioksit olduğunu tahmin etti. 1856'da Amerikalı deneyci Eunice Foote içinde farklı gazlar bulunan cam tüpleri güneşe koydu ve en çok karbondioksitin ısındığını buldu; bu gazdan daha fazla içeren bir atmosferin Dünya'yı daha sıcak yapacağını öne sürdü. Kısa makalesini bir bilim toplantısında kendisi değil Joseph Henry okudu; sonra makale 150 yılı aşkın bir süre unutuldu. 1859'da Londra'da John Tyndall çok daha iyi aletlerle su buharının ve karbondioksitin, toprağın yaydığı görünmez ısı ışınlarını soğurduğunu gösterdi. Ama henüz kimse işin hesabını yapmamıştı: ne kadar gaz, kaç derece?\n\nSvante Arrhenius, Stockholm Yüksekokulu'nda bir kimyacıydı. Tuzların suda elektrik yüklü parçacıklara nasıl ayrıldığına dair cesur kuramıyla tanınıyordu; bu çalışma ona 1903'te Nobel Kimya Ödülü'nü getirecekti. 1890'ların başında, şehrin bilim insanlarından oluşan Stockholm Fizik Derneği tekrar tekrar buz çağlarına dönüyordu. Meslektaşı jeolog Arvid Högbom orada havaya karbondioksit katan ve havadan onu çeken şeyler üzerine bir konferans verdi: yanardağlar, kayaların aşınması, okyanus, canlılar. Bu konferans Arrhenius'u işe koyuldurdu.\n\n![Svante Arrhenius](https://upload.wikimedia.org/wikipedia/commons/9/92/Svante_Arrhenius_01.jpg \"Verlag von Wilhelm Engelmann Leipzig - Photogravure Meisenbach Riffarth & Co. Leipzig. · Public domain · https://commons.wikimedia.org/wiki/File:Svante_Arrhenius_01.jpg\")\n\n### Ne oldu\n\nArrhenius'un havanın ne kadar ısı yuttuğunu bilmesi gerekiyordu. Bunu bütün bir atmosfer için ölçmüş bir laboratuvar yoktu; o da gökyüzünden ödünç aldı. Pittsburgh'deki Allegheny Gözlemevi'nde Samuel Langley ile Frank Washington Very, Ay'dan gelen görünmez ısıyı ölçmüştü. Ay alçaktayken ışığı, yüksekteyken olduğundan daha uzun bir hava yolunu aşar; ikisini karşılaştırmak havanın yolda ne kadar soğurduğunu gösterir. Arrhenius bu ölçümlerden, elinden geldiğince, su buharının payını ve karbondioksitin payını birbirinden ayırdı.\n\nSonra uzun kısım geldi. 70 derece kuzeyden 60 derece güneye kadar her onuncu enlem çizgisi için ve her mevsim için, havadaki karbondioksit bugünkünün üçte ikisine inse ya da bir buçuk, iki, iki buçuk veya üç katına çıksa sıcaklığın nasıl değişeceğini hesapladı. Isınan havanın daha çok su buharı tutmasını, bunun da daha çok ısı hapsetmesini hesaba kattı; soğumanın daha çok kar getirmesini, karın da güneş ışığını geri yansıtmasını. Hepsini kâğıt kalemle yaptı. Tarihçi Elisabeth Crawford projeyi Aralık 1894 ile Ocak 1896 arasına tarihlendirir. Eski öğrencisi Sofia Rudbeck ile kısa evliliği aynı aylarda dağılıyordu ve popüler bir tarih yazısı, sıkıcı hesapların bir sığınak olduğunu öne sürer; bu onun ruh hâli hakkında bir tahmindir, bir kayıt değil.\n\nBirkaç hafta sonra bir dostuna yazdığına göre, 11 Aralık 1895'te işi tam zamanında bitirip o günkü toplantısında İsveç Kraliyet Bilimler Akademisi'ne teslim etti. Çalışma Akademi tarafından Almanca, Nisan 1896'da da Londra'daki Philosophical Magazine'de İngilizce olarak \"Havadaki Karbonik Asidin Yer Sıcaklığına Etkisi Üzerine\" başlığıyla basıldı. Karbonik asit, karbondioksitin eski adıydı.\n\nBuz çağı sorusuna cevabı evetti: karbondioksitin yarıya inmesi Avrupa'yı yaklaşık dört-beş santigrat derece soğutur, buzun geri gelmesine yeterdi. Aynı tablolar öbür yöne de işliyordu. Gazın iki katına çıkması Dünya'yı yaklaşık beş-altı derece ısıtırdı. Hâlâ geçerli olan bir kuralı da fark etti: gaz miktarı her seferinde aynı oranda katlandığında sıcaklık kabaca aynı basamak kadar artar; yani ikinci katlanma da birincisi kadar ısı ekler.\n\n> [!THEORY]\n> Bu gazlar biraz bir seranın camı gibi çalışır: güneş ışığı içeri girer, ama ısınan toprağın geri yolladığı ısının bir kısmı içeride tutulur. İsveçli meteorolog Nils Ekholm 1901'de bu benzetmeyi kullandı ve \"sera etkisi\" adı kaldı. Benzetme şurada bozulur: gerçek bir sera, esas olarak camı ısınan havanın yükselip gitmesini engellediği için sıcak kalır; atmosferin kapağı yoktur, gazları ise ısı ışınlarını soğurup bir kısmını aşağı geri göndererek gezegeni ısıtır.\n\nMakalede Högbom'un hesabı da vardı. Högbom, dünyada her yıl yakılan kömürün havaya kabaca doğal kaynaklar kadar karbondioksit kattığını hesaplamıştı; gerçi bu, havada zaten bulunanın ancak binde biri kadardı. Böylece bu makale, kömür yakmayı bütün gezegenin ısınmasıyla ilişkilendiren bilinen ilk bilimsel çalışma oldu. İki adam da telaşa kapılmadı: Arrhenius'un hesabına göre 1890'ların yakma hızıyla gazın iki katına çıkması belki üç bin yıl sürerdi; Högbom ise bunun hiç gerçekleşmeyeceğinden şüpheliydi.\n\n### Neden zordu\n\nBilgisayar yoktu, iyi veri de neredeyse yoktu. Langley'nin Ay ölçümleri başka bir amaçla yapılmıştı ve Arrhenius'un karbondioksitin ne kadar güçlü soğurduğuna dair rakamları kabaydı. Bulutları hesaba katmadı; sıcak havanın yükselip ısıyı yukarı taşımasını da katmadı. Bugün makalesi kesin bir ölçümden çok, başka her şey aynı kalırsa daha fazla karbondioksitin daha sıcak bir gezegen demek olduğunun rakam rakam işlenmiş ilk gösterimi olarak okunur.\n\nFikir kısa sürede kenara itildi. 1900 civarında İsveçli fizikçi Knut Ångström, asistanı Herr J. Koch'a karbondioksitle dolu bir tüpten ısı ışınları geçirtti; gazı azaltmak geçen ışın miktarını pek değiştirmedi. Ångström, havada soğurabileceği her şeyi soğuracak kadar karbondioksit zaten bulunduğu, dolayısıyla daha fazlasının bir şey değiştirmeyeceği sonucuna vardı. Arrhenius sert bir cevap yazdı, ama bilim insanlarının çoğu Ångström'ün tarafını tuttu. Sonraki fizik bu akıl yürütmenin yanlış olduğunu gösterdi: önemli olan, ısının sonunda uzaya kaçtığı ince üst havadır ve orada fazladan gaz hâlâ fark yaratır. Ama bu hata on yıllarca alanı tuttu.\n\nArrhenius rakamları düzeltmeyi sürdürdü. 1906'da yazdığı, 1908'de İngilizceye Worlds in the Making (\"Oluşum hâlindeki dünyalar\") adıyla çevrilen popüler kitabında iki kat için ısınmayı yaklaşık dört dereceye indirdi; kömür yakımı hızla arttığı için artık fark edilir bir değişikliği binlerce değil yüzlerce yıl içinde bekliyordu. Bunu hoş karşıladı. Soğuk bir ülkeden gelen biri olarak, daha fazla karbondioksitin \"daha ılımlı ve daha iyi iklimler\", büyüyen nüfus için daha bol hasat ve belki bir sonraki buz çağına karşı bir kalkan getirebileceğini yazdı.\n\nGazeteler hikâyeyi tam ters yönde çarpıttı. 1902'de Alabama'da bir gazete, adını da yanlış yazarak, okurlarına İsveçli profesörün kömür yakılması yüzünden Dünya'nın \"kaynama noktasına yakın bir sıcaklıkta pişeceğini\" öngördüğünü anlattı; oysa onun yazdığı bu değildi.\n\n![1902'de Alabama'da bir gazetenin Arrhenius'un kömür ve ısınma fikrini çarpıtan haberi](https://upload.wikimedia.org/wikipedia/commons/9/9c/19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg \"The Selma Morning Times (1902 newspaper in Alabama, US) · Public domain · https://commons.wikimedia.org/wiki/File:19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg\")\n\n### Sonrası\n\nArrhenius'un sorduğu soru — karbondioksit iki katına çıkarsa ne kadar ısınır — hâlâ iklim biliminin merkezinde; bugün buna iklim duyarlılığı deniyor. 1938'de İngiliz mühendis Guy Callendar eski sıcaklık kayıtları ve eski hava ölçümleriyle fikri yeniden canlandırdı; meteorologların çoğu yine de ona şüpheyle baktı. 1958'den itibaren Charles David Keeling'in Mauna Loa'daki özenli ölçümleri gazın yıldan yıla arttığını gösterdi ve 1896 makalesi bir öngörü gibi görünmeye başladı.\n\nBugünkü cevaplar onun ilk cevabından düşük. Hükümetlerarası İklim Değişikliği Paneli 2021'de iki kat için olası ısınmayı yaklaşık iki buçuk ile dört derece arasında, en iyi tahmini üç derece olarak verdi; bu, Arrhenius'un 1906 tarihli popüler kitabındaki rakama yakın. Sanayiden önce havanın her bir milyon molekülünde yaklaşık 280 karbondioksit molekülü vardı; bugün bunun yaklaşık bir buçuk katı var.\n\n![Makaleye insan boyutunu katan karbon hesabının sahibi jeolog Arvid Högbom](https://upload.wikimedia.org/wikipedia/commons/c/cb/Arvid_H%C3%B6gbom.jpg \"Carl Wilhelmson · Public domain · https://commons.wikimedia.org/wiki/File:Arvid_Högbom.jpg\")",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Аррениус рассчитывает, что углекислый газ нагревает Землю",
+      "summary": "В 1896 году Сванте Аррениус карандашом на бумаге рассчитал, насколько углекислый газ определяет температуру Земли. Подсчёты коллеги об угле впервые связали это с людьми.",
+      "why_it_matters": "Аррениус превратил старую мысль о том, что некоторые газы удерживают тепло, в число: сколько градусов за сколько углекислого газа. Этот вопрос и сегодня в центре науки о климате, и его статья первой включила в него сжигание угля.",
+      "if_you_were_there": "В 1895 году никто не знал, почему когда-то Скандинавию покрывали ледяные щиты, и почти никто не думал, что дым из труб может изменить температуру всей планеты.",
+      "place_name": "Стокгольм",
+      "body": "### Обстановка\n\nВ Швеции 1890-х годов главной загадкой был лёд. Исцарапанные скалы и валуны, унесённые далеко от родных мест, показывали, что когда-то всю Скандинавию покрывали толстые ледяные щиты, а потом они растаяли. Почему лёд приходил и уходил, никто не знал. Шотландский учёный-самоучка Джеймс Кролл винил медленные изменения земной орбиты; другие искали причину в воздухе.\n\nМысль о том, что воздух согревает планету, была уже не новой. В 1820-х годах французский математик Жозеф Фурье рассудил, что Земля теплее, чем была бы голая скала на том же расстоянии от Солнца, и что причина — атмосфера. В 1838 году Клод Пуйе предположил, что это делают водяной пар и углекислый газ. В 1856 году американская исследовательница Юнис Фут выставила на солнце стеклянные трубки с разными газами и обнаружила, что сильнее всего нагревается углекислый газ; она предположила, что атмосфера, в которой его больше, сделала бы Землю теплее. Её короткую статью на научном собрании зачитал Джозеф Генри, а не она сама, и потом о ней забыли больше чем на 150 лет. В 1859 году Джон Тиндаль в Лондоне с гораздо лучшими приборами показал, что водяной пар и углекислый газ поглощают невидимые тепловые лучи, которые испускает земля. Но никто ещё не перевёл это в числа: сколько градусов за сколько газа?\n\nСванте Аррениус был химиком в Стокгольмской высшей школе и прославился смелой теорией о том, как соли в воде распадаются на заряженные частицы; за эту работу он в 1903 году получит Нобелевскую премию по химии. В начале 1890-х Стокгольмское физическое общество, кружок местных учёных, снова и снова возвращалось к ледниковым периодам. Его коллега, геолог Арвид Хёгбом, прочёл там доклад о том, что добавляет углекислый газ в воздух и что его забирает: вулканы, выветривание горных пород, океан, живые организмы. Этот доклад и усадил Аррениуса за работу.\n\n![Svante Arrhenius](https://upload.wikimedia.org/wikipedia/commons/9/92/Svante_Arrhenius_01.jpg \"Verlag von Wilhelm Engelmann Leipzig - Photogravure Meisenbach Riffarth & Co. Leipzig. · Public domain · https://commons.wikimedia.org/wiki/File:Svante_Arrhenius_01.jpg\")\n\n### Что произошло\n\nАррениусу нужно было знать, сколько тепла поглощает воздух. Ни одна лаборатория не измеряла этого для всей толщи атмосферы, и он взял данные с неба. В Аллеганской обсерватории в Питтсбурге Сэмюэл Лэнгли и Фрэнк Вашингтон Вери измеряли невидимое тепло, идущее от Луны. Когда Луна стоит низко, её тепло проходит через более толстый слой воздуха, чем когда она высоко, и сравнение показывает, сколько воздух поглощает по пути. Из этих измерений Аррениус, насколько мог, отделил долю водяного пара от доли углекислого газа.\n\nПотом началась долгая часть. Для каждой десятой параллели, от 70 градусов северной до 60 градусов южной широты, и для каждого времени года он рассчитал, как изменится температура, если углекислого газа в воздухе станет две трети нынешнего или в полтора, два, два с половиной или три раза больше. Он учёл, что тёплый воздух держит больше водяного пара, который в свою очередь задерживает больше тепла, а похолодание приносит больше снега, который отражает солнечный свет. Всё это он сделал карандашом на бумаге. Историк Элизабет Кроуфорд датирует работу периодом с декабря 1894 по январь 1896 года. В те же месяцы распадался его короткий брак с бывшей ученицей Софией Рудбек, и один популярный очерк предполагает, что утомительные расчёты были для него убежищем; это догадка о его настроении, а не документ.\n\nКак он написал другу несколько недель спустя, 11 декабря 1895 года он закончил работу как раз вовремя, чтобы передать её Шведской королевской академии наук на её заседании в тот день. Академия напечатала её по-немецки, а в апреле 1896 года она вышла по-английски в лондонском Philosophical Magazine под названием «О влиянии угольной кислоты в воздухе на температуру земной поверхности». Угольной кислотой тогда называли углекислый газ.\n\nНа вопрос о ледниковых периодах он ответил «да»: если углекислого газа станет вдвое меньше, Европа остынет примерно на четыре-пять градусов Цельсия — достаточно, чтобы лёд вернулся. Те же таблицы работали и в обратную сторону: удвоение газа нагрело бы Землю примерно на пять-шесть градусов. И он заметил правило, которое верно до сих пор: каждый раз, когда количество газа умножается в одно и то же число раз, температура растёт примерно на одну и ту же ступень, так что второе удвоение добавляет примерно столько же, сколько первое.\n\n> [!THEORY]\n> Эти газы работают немного как стекло теплицы: солнечный свет проходит внутрь, а часть тепла, которое отдаёт нагретая земля, задерживается. Шведский метеоролог Нильс Экхольм использовал это сравнение в 1901 году, и название «парниковый эффект» прижилось. Аналогия ломается вот где: настоящая теплица остаётся тёплой в основном потому, что стекло не даёт тёплому воздуху подняться и улететь; у атмосферы нет крышки, а её газы греют планету, поглощая тепловые лучи и отправляя часть их обратно вниз.\n\nВ статье были и расчёты Хёгбома. Он оценил, что уголь, сжигаемый в мире за год, добавляет в воздух примерно столько же углекислого газа, сколько природные источники, хотя это лишь около тысячной доли того, что в воздухе уже есть. Так эта статья стала первой известной научной работой, связавшей сжигание угля с потеплением всей планеты. Ни один из двоих не тревожился: при темпах сжигания 1890-х годов, по расчёту Аррениуса, удвоение заняло бы, возможно, три тысячи лет, а Хёгбом сомневался, что оно вообще когда-нибудь произойдёт.\n\n### Почему это было трудно\n\nКомпьютеров не было, хороших данных почти тоже. Лунные измерения Лэнгли делались для другой цели, и оценки Аррениуса того, насколько сильно поглощает углекислый газ, были грубыми. Он не учёл облака и не учёл того, что тёплый воздух поднимается и уносит тепло вверх. Сегодня его статью читают не как точное измерение, а как первое, просчитанное число за числом, доказательство того, что больше углекислого газа при прочих равных означает более тёплую планету.\n\nВскоре идею отодвинули в сторону. Около 1900 года шведский физик Кнут Ангстрём поручил ассистенту, герру Й. Коху, пропустить тепловые лучи через трубку с углекислым газом; уменьшение количества газа почти не изменило, сколько лучей проходит. Ангстрём заключил, что в воздухе уже столько углекислого газа, что он поглощает всё, что может, и добавка ничего не изменит. Аррениус ответил резкой статьёй, но большинство учёных встали на сторону Ангстрёма. Более поздняя физика показала, что рассуждение было ошибочным: важен тонкий верхний слой воздуха, откуда тепло в конце концов уходит в космос, и там лишний газ всё ещё имеет значение. Но эта ошибка держалась десятилетиями.\n\nСам Аррениус продолжал уточнять числа. В популярной книге 1906 года, переведённой на английский в 1908 году как Worlds in the Making («Образование миров»), он снизил потепление при удвоении примерно до четырёх градусов, а поскольку сжигание угля быстро росло, теперь ожидал заметной перемены за века, а не тысячелетия. Он её приветствовал. Выходец из холодной страны, он писал, что больше углекислого газа может принести «более ровный и лучший климат», богатые урожаи для растущего населения и, возможно, защиту от следующего ледникового периода.\n\nГазеты исказили историю в противоположную сторону. В 1902 году газета в Алабаме, переврав его имя, сообщила читателям, что шведский профессор предсказывает: из-за сжигания угля Земля «запечётся при температуре, близкой к точке кипения». Он этого не писал.\n\n![Заметка 1902 года в газете из Алабамы, исказившая идею Аррениуса об угле и потеплении](https://upload.wikimedia.org/wikipedia/commons/9/9c/19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg \"The Selma Morning Times (1902 newspaper in Alabama, US) · Public domain · https://commons.wikimedia.org/wiki/File:19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg\")\n\n### Что это открыло\n\nВопрос, который задал Аррениус, — насколько потеплеет при удвоении углекислого газа, — по-прежнему в центре науки о климате; сегодня это называют чувствительностью климата. В 1938 году английский инженер Гай Каллендар возродил идею, опираясь на старые записи температуры и старые измерения воздуха, но большинство метеорологов всё ещё сомневались. С 1958 года тщательные измерения Чарльза Дэвида Килинга на Мауна-Лоа показали, что газа становится больше год от года, и статья 1896 года стала выглядеть как прогноз.\n\nСовременные ответы ниже его первого. Межправительственная группа экспертов по изменению климата в 2021 году оценила вероятное потепление при удвоении примерно в два с половиной — четыре градуса, с наилучшей оценкой в три градуса, — близко к числу из популярной книги Аррениуса 1906 года. До промышленной эпохи в каждом миллионе молекул воздуха было около 280 молекул углекислого газа; сегодня — примерно в полтора раза больше.\n\n![Арвид Хёгбом — геолог, чей подсчёт углерода придал статье человеческое измерение](https://upload.wikimedia.org/wikipedia/commons/c/cb/Arvid_H%C3%B6gbom.jpg \"Carl Wilhelmson · Public domain · https://commons.wikimedia.org/wiki/File:Arvid_Högbom.jpg\")",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Аррениус көмүр кычкыл газы Жерди жылытарын эсептейт",
+      "summary": "1896-жылы Сванте Аррениус көмүр кычкыл газы Жердин температурасын канчалык аныктарын карандаш менен эсептеген. Кесиптешинин көмүр эсеби аны адамдын таасирине байланыштырган.",
+      "why_it_matters": "Аррениус айрым газдар жылуулукту кармайт деген эски идеяны санга айландырган: канча көмүр кычкыл газы болсо, канча градус. Бул суроо азыр да климат илиминин борборунда турат, ага көмүр жагууну биринчи кошкон анын макаласы болгон.",
+      "if_you_were_there": "1895-жылы Скандинавияны качандыр бир кезде муз катмарлары эмне үчүн каптаганын эч ким билген эмес, морлордон чыккан түтүн бүт планетанын температурасын өзгөртө аларын дээрлик эч ким ойлогон эмес.",
+      "place_name": "Стокгольм",
+      "body": "### Окуянын алкагы\n\n1890-жылдардагы Швецияда эң чоң табышмак муз болчу. Тырмалган аска беттери жана өз жеринен алыска ташылып кеткен чоң таштар качандыр бир кезде бүт Скандинавияны калың муз катмары каптап турганын, андан кийин ал муз эрип кеткенин көрсөтүп турган. Муз эмне үчүн келип, эмне үчүн кеткенин эч ким билген эмес. Өз алдынча билим алган шотландиялык окумуштуу Джеймс Кролл мунун себебин Жердин орбитасынын жай өзгөрүүлөрүнөн издеген; башкалар абага көз салышкан.\n\nАба планетаны жылуу кармап турат деген идея ал кезде эле эски болчу. 1820-жылдары француз математиги Жозеф Фурье Жер Күндөн ушундай эле аралыкта турган жылаңач аскага караганда жылуураак экенин, мунун себеби атмосфера болушу керек экенин ой жүгүртүү аркылуу көрсөткөн. 1838-жылы Клод Пуйе бул ишти суу буусу жана көмүр кычкыл газы аткарат деп божомолдогон. 1856-жылы америкалык изилдөөчү Юнис Фут ар кандай газ толтурулган айнек түтүктөрдү күнгө коюп, баарынан көмүр кычкыл газы көбүрөөк ысыганын байкаган; бул газ көбүрөөк болгон атмосфера Жерди ысыгыраак кылмак деп божомолдогон. Анын кыска макаласын илимий жыйында өзү эмес, Джозеф Генри окуп берген, андан кийин ал 150 жылдан ашык убакыт унутулуп калган. 1859-жылы Лондондо Джон Тиндаль алда канча жакшы приборлор менен суу буусу жана көмүр кычкыл газы жер бетинен чыккан көзгө көрүнбөгөн жылуулук нурларын сиңирерин көрсөткөн. Бирок муну азырынча эч ким санга айландыра элек болчу: канча газ болсо, канча градус?\n\nСванте Аррениус Стокгольм жогорку мектебинде химик болуп иштеген. Ал туздар сууда электр заряддуу бөлүкчөлөргө кантип ажырай турганы жөнүндөгү тайманбас теориясы менен белгилүү болчу; ушул эмгеги үчүн ал 1903-жылы химия боюнча Нобель сыйлыгын алмак. 1890-жылдардын башында шаардын окумуштууларынан турган Стокгольм физика коому кайра-кайра муз доорлоруна кайрылып турган. Анын кесиптеши, геолог Арвид Хёгбом ошол жерде абага көмүр кычкыл газын эмне кошорун жана аны абадан эмне алып кетерин айтып баяндама жасаган: жанар тоолор, тоо тектеринин бузулушу, океан, тирүү организмдер. Ушул баяндама Аррениусту ишке киришүүгө түрткөн.\n\n![Svante Arrhenius](https://upload.wikimedia.org/wikipedia/commons/9/92/Svante_Arrhenius_01.jpg \"Verlag von Wilhelm Engelmann Leipzig - Photogravure Meisenbach Riffarth & Co. Leipzig. · Public domain · https://commons.wikimedia.org/wiki/File:Svante_Arrhenius_01.jpg\")\n\n### Эмне болду\n\nАррениуска аба канча жылуулук жутарын билүү керек болчу. Бүтүндөй атмосфера үчүн муну өлчөгөн бир да лаборатория жок эле, ошондуктан ал маалыматты асмандан алган. Питтсбургдагы Аллегени обсерваториясында Сэмюэл Ленгли менен Фрэнк Вашингтон Вери Айдан келген көзгө көрүнбөгөн жылуулукту өлчөшкөн. Ай төмөн турганда анын жылуулугу бийик турганына караганда абанын узунураак жолун басып өтөт; экөөнү салыштыруу аба жолдо канчасын сиңирерин көрсөтөт. Аррениус ушул өлчөөлөрдөн суу буусунун үлүшүн жана көмүр кычкыл газынын үлүшүн колунан келишинче бири-биринен ажыраткан.\n\nАндан кийин узак бөлүгү башталган. Түндүк кеңдиктин 70 градусунан түштүк кеңдиктин 60 градусуна чейин ар бир онунчу кеңдик сызыгы үчүн жана жылдын ар бир мезгили үчүн ал абадагы көмүр кычкыл газы азыркынын үчтөн экисине чейин азайса же бир жарым, эки, эки жарым, үч эсе көбөйсө, температура кандай өзгөрөрүн эсептеген. Жылыган аба көбүрөөк суу буусун кармай турганын, ал эми суу буусу өз кезегинде көбүрөөк жылуулук кармай турганын эске алган; муздоо көбүрөөк кар алып келерин, кар болсо күн нурун кайра чагылдырарын да эске алган. Мунун баарын ал карандаш жана кагаз менен жасаган. Тарыхчы Элизабет Кроуфорд бул долбоорду 1894-жылдын декабрынан 1896-жылдын январына чейинки убакытка таандык кылат. Ошол эле айларда анын мурунку окуучусу София Рудбек менен кыска никеси бузулуп жаткан. Бир популярдуу тарыхый макала тажатма эсептөөлөр ага баш калкалоочу жай болгон деп божомолдойт; бул анын маанайы жөнүндөгү божомол гана, жазылып калган далил эмес.\n\nБир нече жумадан кийин досуна жазгандай, 1895-жылдын 11-декабрында ал ишин дал убагында бүтүрүп, Швеция Королдук илимдер академиясына ошол күнкү жыйынында тапшырган. Академия бул эмгекти немисче басып чыгарган, ал эми 1896-жылдын апрелинде ал Лондондогу Philosophical Magazine журналында англисче «Абадагы көмүр кычкылынын жер бетинин температурасына тийгизген таасири жөнүндө» деген ат менен жарык көргөн. Көмүр кычкылы деп ал кезде көмүр кычкыл газын аташкан.\n\nМуз доору жөнүндөгү суроого анын жообу «ооба» болгон: көмүр кычкыл газы эки эсе азайса, Европа болжол менен төрт-беш градус Цельсийге муздайт, бул муздун кайтып келиши үчүн жетиштүү. Ошол эле таблицалар тескери тарапка да иштеген: газ эки эсе көбөйсө, Жер болжол менен беш-алты градуска жылыйт. Ал азыр да туура болгон бир эрежени байкаган: газдын көлөмү ар бир жолу бирдей эсеге көбөйгөндө, температура болжол менен бирдей тепкичке көтөрүлөт, демек экинчи эки эсе көбөйүү да биринчиси сыяктуу эле жылуулук кошот.\n\n> [!THEORY]\n> Бул газдар бир аз күнөскананын айнегиндей иштейт: күн нуру ичине өтөт, бирок жылыган жер кайра чыгарган жылуулуктун бир бөлүгү ичинде кармалып калат. Швед метеорологу Нильс Экхольм бул салыштырууну 1901-жылы колдонгон, ошондон бери «парниктик эффект» деген ат калып калган. Салыштыруу бул жерде бузулат: чыныгы күнөскана негизинен анын айнеги жылуу абанын көтөрүлүп, учуп кетишине жол бербегендиктен жылуу турат; атмосферанын капкагы жок, ал эми анын газдары жылуулук нурларын сиңирип, алардын бир бөлүгүн кайра төмөн жиберүү менен планетаны жылытат.\n\nМакалада Хёгбомдун эсептөөлөрү да болгон. Ал дүйнөдө жыл сайын жагылган көмүр абага табигый булактар кошкондой эле болжолдуу көлөмдө көмүр кычкыл газын кошот деп эсептеген, бирок бул абада буга чейин бар болгон газдын болжол менен миңден бири гана эле. Ошентип бул макала көмүр жагууну бүт планетанын жылышы менен байланыштырган белгилүү болгон биринчи илимий эмгек болуп калды. Экөө тең тынчсызданган эмес: Аррениустун эсеби боюнча, 1890-жылдардагы жагуу ылдамдыгында газдын эки эсе көбөйүшү балким үч миң жылга созулмак, ал эми Хёгбом мунун качан болсо да болорунан күмөн санаган.\n\n### Эмне үчүн кыйын болду\n\nКомпьютер жок болчу, жакшы маалымат да дээрлик жок эле. Ленглинин Ай боюнча өлчөөлөрү башка максат үчүн жасалган, ал эми көмүр кычкыл газы канчалык күчтүү сиңирет деген Аррениустун сандары болжолдуу гана болчу. Ал булуттарды эсепке алган эмес, жылуу аба көтөрүлүп, жылуулукту өйдө алып кетерин да эсепке алган эмес. Бүгүн анын макаласын так өлчөө катары эмес, калган баары өзгөрүүсүз калса, көмүр кычкыл газы көбөйгөндө планета жылыйт дегенди сан-санына чейин эсептеп көрсөткөн биринчи далил катары окушат.\n\nКөп өтпөй бул идея четке түртүлгөн. Болжол менен 1900-жылы швед физиги Кнут Ангстрём жардамчысы Херр Й. Кохко көмүр кычкыл газы толтурулган түтүк аркылуу жылуулук нурларын өткөрткөн; газды азайтуу канча нур өтөрүн дээрлик өзгөрткөн эмес. Ангстрём абада сиңире ала турган нурдун баарын сиңирүүгө жетиштүү көмүр кычкыл газы буга чейин эле бар, ошондуктан аны кошуу эч нерсени өзгөртпөйт деген жыйынтыкка келген. Аррениус курч жооп жазган, бирок окумуштуулардын көбү Ангстрёмдун тарабын алган. Кийинки физика бул ой жүгүртүү туура эмес экенин көрсөткөн: эң маанилүүсү жылуулук акыры космоско чыгып кеткен абанын жука жогорку катмары, ал жерде кошумча газ дагы эле таасир этет. Бирок бул ката ондогон жылдар бою үстөмдүк кылган.\n\nАррениус өзү сандарды тактай берген. 1906-жылы жазылып, 1908-жылы англис тилине Worlds in the Making («Пайда болуп жаткан дүйнөлөр») деген ат менен которулган популярдуу китебинде ал эки эсе көбөйгөндөгү жылууну болжол менен төрт градуска чейин төмөндөткөн; көмүр жагуу тез өсүп жаткандыктан, байкала турган өзгөрүүнү эми миң жылдыктарда эмес, кылымдарда күткөн. Ал муну жакшылык катары кабыл алган. Суук өлкөдөн чыккан адам катары ал көмүр кычкыл газы көбөйсө «бир калыптагы жана жакшыраак климат», өсүп жаткан калк үчүн мол түшүм жана балким кийинки муз доорунан коргоо алып келиши мүмкүн деп жазган.\n\nГезиттер бул окуяны тескери тарапка бурмалашкан. 1902-жылы Алабамадагы бир гезит анын атын да туура эмес жазып, окурмандарына швед профессору көмүр жагуунун айынан Жер «кайноо чекитине жакын температурада бышат» деп алдын ала айтып жатат деп кабарлаган. Ал мындай деп жазган эмес.\n\n![1902-жылы Алабамадагы гезиттин Аррениустун көмүр жана жылуу жөнүндөгү идеясын бурмалаган кабары](https://upload.wikimedia.org/wikipedia/commons/9/9c/19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg \"The Selma Morning Times (1902 newspaper in Alabama, US) · Public domain · https://commons.wikimedia.org/wiki/File:19021015_Hint_to_Coal_Consumers_-_Svante_Arrhenius_-_The_Selma_Morning_Times_-_Global_warming.jpg\")\n\n### Эмнеге жол ачты\n\nАррениус койгон суроо — көмүр кычкыл газы эки эсе көбөйсө, канча жылыйт — азыр да климат илиминин борборунда турат; бүгүн муну климаттын сезгичтиги деп аташат. 1938-жылы англиялык инженер Гай Каллендар эски температура жазууларына жана абанын эски өлчөөлөрүнө таянып бул идеяны кайра жандандырган, бирок метеорологдордун көбү ага дагы эле ишенген эмес. 1958-жылдан баштап Чарльз Дэвид Килингдин Мауна-Лоадагы кылдат өлчөөлөрү газ жылдан жылга көбөйүп жатканын көрсөткөн, ошондо 1896-жылдагы макала алдын ала айтылган божомолдой көрүнө баштаган.\n\nАзыркы жооптор анын биринчи жообунан төмөн. Климаттын өзгөрүшү боюнча өкмөттөр аралык эксперттер тобу 2021-жылы эки эсе көбөйгөндөгү ыктымалдуу жылууну болжол менен эки жарым менен төрт градустун ортосунда, эң ыктымалдуусун үч градус деп баалаган; бул Аррениустун 1906-жылкы популярдуу китебиндеги санга жакын. Өнөр жайга чейин абанын ар бир миллион молекуласына болжол менен 280 көмүр кычкыл газынын молекуласы туура келчү; бүгүн мындан болжол менен бир жарым эсе көп.\n\n![Макалага адамдык өлчөм кошкон көмүртек эсебинин ээси, геолог Арвид Хёгбом](https://upload.wikimedia.org/wikipedia/commons/c/cb/Arvid_H%C3%B6gbom.jpg \"Carl Wilhelmson · Public domain · https://commons.wikimedia.org/wiki/File:Arvid_Högbom.jpg\")",
+      "status": "machine"
+    }
+  }
+}
