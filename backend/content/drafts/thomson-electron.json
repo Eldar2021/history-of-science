@@ -1,0 +1,375 @@
+{
+  "slug": "thomson-electron",
+  "year": 1897,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 52.2053,
+  "lng": 0.1218,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/b/b3/J_J_Thomsons_cathode_ray_tube_with_magnet_coils%2C_1897._%289663807404%29.jpg",
+    "credit": "Science Museum London / Science and Society Picture Library",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:J_J_Thomsons_cathode_ray_tube_with_magnet_coils,_1897._(9663807404).jpg"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "jj-thomson",
+      "role": "author",
+      "name": {
+        "en": "J.J. Thomson",
+        "tr": "J.J. Thomson",
+        "ru": "Дж. Дж. Томсон",
+        "ky": "Дж. Дж. Томсон"
+      },
+      "birth_year": 1856,
+      "death_year": 1940
+    },
+    {
+      "slug": "george-johnstone-stoney",
+      "role": "predecessor",
+      "name": {
+        "en": "George Johnstone Stoney",
+        "tr": "George Johnstone Stoney",
+        "ru": "Джордж Джонстон Стони",
+        "ky": "Джордж Джонстон Стони"
+      },
+      "birth_year": 1826,
+      "death_year": 1911
+    },
+    {
+      "slug": "julius-plucker",
+      "role": "predecessor",
+      "name": {
+        "en": "Julius Plücker",
+        "tr": "Julius Plücker",
+        "ru": "Юлиус Плюккер",
+        "ky": "Юлиус Плюккер"
+      },
+      "birth_year": 1801,
+      "death_year": 1868
+    },
+    {
+      "slug": "johann-hittorf",
+      "role": "predecessor",
+      "name": {
+        "en": "Johann Wilhelm Hittorf",
+        "tr": "Johann Wilhelm Hittorf",
+        "ru": "Иоганн Вильгельм Гитторф",
+        "ky": "Иоганн Вильгельм Гитторф"
+      },
+      "birth_year": 1824,
+      "death_year": 1914
+    },
+    {
+      "slug": "eugen-goldstein",
+      "role": "predecessor",
+      "name": {
+        "en": "Eugen Goldstein",
+        "tr": "Eugen Goldstein",
+        "ru": "Ойген Гольдштейн",
+        "ky": "Ойген Гольдштейн"
+      },
+      "birth_year": 1850,
+      "death_year": 1930
+    },
+    {
+      "slug": "william-crookes",
+      "role": "predecessor",
+      "name": {
+        "en": "William Crookes",
+        "tr": "William Crookes",
+        "ru": "Уильям Крукс",
+        "ky": "Уильям Крукс"
+      },
+      "birth_year": 1832,
+      "death_year": 1919
+    },
+    {
+      "slug": "arthur-schuster",
+      "role": "predecessor",
+      "name": {
+        "en": "Arthur Schuster",
+        "tr": "Arthur Schuster",
+        "ru": "Артур Шустер",
+        "ky": "Артур Шустер"
+      },
+      "birth_year": 1851,
+      "death_year": 1934
+    },
+    {
+      "slug": "heinrich-hertz",
+      "role": "predecessor",
+      "name": {
+        "en": "Heinrich Hertz",
+        "tr": "Heinrich Hertz",
+        "ru": "Генрих Герц",
+        "ky": "Генрих Герц"
+      },
+      "birth_year": 1857,
+      "death_year": 1894
+    },
+    {
+      "slug": "jean-perrin",
+      "role": "predecessor",
+      "name": {
+        "en": "Jean Perrin",
+        "tr": "Jean Perrin",
+        "ru": "Жан Перрен",
+        "ky": "Жан Перрен"
+      },
+      "birth_year": 1870,
+      "death_year": 1942
+    },
+    {
+      "slug": "philipp-lenard",
+      "role": "predecessor",
+      "name": {
+        "en": "Philipp Lenard",
+        "tr": "Philipp Lenard",
+        "ru": "Филипп Ленард",
+        "ky": "Филипп Ленард"
+      },
+      "birth_year": 1862,
+      "death_year": 1947
+    },
+    {
+      "slug": "emil-wiechert",
+      "role": "contemporary",
+      "name": {
+        "en": "Emil Wiechert",
+        "tr": "Emil Wiechert",
+        "ru": "Эмиль Вихерт",
+        "ky": "Эмиль Вихерт"
+      },
+      "birth_year": 1861,
+      "death_year": 1928
+    },
+    {
+      "slug": "walter-kaufmann",
+      "role": "contemporary",
+      "name": {
+        "en": "Walter Kaufmann",
+        "tr": "Walter Kaufmann",
+        "ru": "Вальтер Кауфман",
+        "ky": "Вальтер Кауфман"
+      },
+      "birth_year": 1871,
+      "death_year": 1947
+    },
+    {
+      "slug": "pieter-zeeman",
+      "role": "contemporary",
+      "name": {
+        "en": "Pieter Zeeman",
+        "tr": "Pieter Zeeman",
+        "ru": "Питер Зееман",
+        "ky": "Питер Зееман"
+      },
+      "birth_year": 1865,
+      "death_year": 1943
+    },
+    {
+      "slug": "hendrik-lorentz",
+      "role": "contemporary",
+      "name": {
+        "en": "Hendrik Lorentz",
+        "tr": "Hendrik Lorentz",
+        "ru": "Хендрик Лоренц",
+        "ky": "Хендрик Лоренц"
+      },
+      "birth_year": 1853,
+      "death_year": 1928
+    },
+    {
+      "slug": "john-townsend",
+      "role": "collaborator",
+      "name": {
+        "en": "John Sealy Townsend",
+        "tr": "John Sealy Townsend",
+        "ru": "Джон Сили Таунсенд",
+        "ky": "Джон Сили Таунсенд"
+      },
+      "birth_year": 1868,
+      "death_year": 1957
+    },
+    {
+      "slug": "henri-becquerel",
+      "role": "successor",
+      "name": {
+        "en": "Henri Becquerel",
+        "tr": "Henri Becquerel",
+        "ru": "Анри Беккерель",
+        "ky": "Анри Беккерель"
+      },
+      "birth_year": 1852,
+      "death_year": 1908
+    },
+    {
+      "slug": "hantaro-nagaoka",
+      "role": "successor",
+      "name": {
+        "en": "Hantaro Nagaoka",
+        "tr": "Hantaro Nagaoka",
+        "ru": "Хантаро Нагаока",
+        "ky": "Хантаро Нагаока"
+      },
+      "birth_year": 1865,
+      "death_year": 1950
+    },
+    {
+      "slug": "ernest-rutherford",
+      "role": "successor",
+      "name": {
+        "en": "Ernest Rutherford",
+        "tr": "Ernest Rutherford",
+        "ru": "Эрнест Резерфорд",
+        "ky": "Эрнест Резерфорд"
+      },
+      "birth_year": 1871,
+      "death_year": 1937
+    },
+    {
+      "slug": "robert-millikan",
+      "role": "successor",
+      "name": {
+        "en": "Robert Millikan",
+        "tr": "Robert Millikan",
+        "ru": "Роберт Милликен",
+        "ky": "Роберт Милликен"
+      },
+      "birth_year": 1868,
+      "death_year": 1953
+    },
+    {
+      "slug": "harvey-fletcher",
+      "role": "successor",
+      "name": {
+        "en": "Harvey Fletcher",
+        "tr": "Harvey Fletcher",
+        "ru": "Харви Флетчер",
+        "ky": "Харви Флетчер"
+      },
+      "birth_year": 1884,
+      "death_year": 1981
+    },
+    {
+      "slug": "george-paget-thomson",
+      "role": "successor",
+      "name": {
+        "en": "George Paget Thomson",
+        "tr": "George Paget Thomson",
+        "ru": "Джордж Паджет Томсон",
+        "ky": "Джордж Паджет Томсон"
+      },
+      "birth_year": 1892,
+      "death_year": 1975
+    }
+  ],
+  "builds_on": [
+    "dalton-atomic-theory"
+  ],
+  "sources": [
+    {
+      "title": "J. J. Thomson — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/J-J-Thomson"
+    },
+    {
+      "title": "J. J. Thomson — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/J._J._Thomson"
+    },
+    {
+      "title": "Electron (History section) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Electron"
+    },
+    {
+      "title": "The Discovery of the Electron — American Institute of Physics, Center for History of Physics (online exhibit)",
+      "kind": "other",
+      "url": "https://history.aip.org/exhibits/electron/jjhome.htm"
+    },
+    {
+      "title": "J. J. Thomson, \"Cathode Rays\", Royal Institution Friday evening discourse, 30 April 1897 (PDF hosted by Universitat de Barcelona; not read automatically)",
+      "kind": "paper",
+      "url": "https://www.ub.edu/hcub/hfq/sites/default/files/Cathode%20Rays_april_royal_institution.pdf"
+    },
+    {
+      "title": "J. J. Thomson, Nobel Lecture \"Carriers of negative electricity\" (1906), annotated by Carmen Giunta, Le Moyne College",
+      "kind": "paper",
+      "url": "https://web.lemoyne.edu/GIUNTA/ea/THOMSONann.HTML"
+    },
+    {
+      "title": "This Month in Physics History: Discovery of the electron — APS News, October 2000",
+      "kind": "article",
+      "url": "https://www.aps.org/apsnews/2000/10/discovery-of-the-electron"
+    },
+    {
+      "title": "Hantaro Nagaoka — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hantaro_Nagaoka"
+    },
+    {
+      "title": "George Paget Thomson — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/George_Paget_Thomson"
+    },
+    {
+      "title": "Discovery of the electron, Recollections and Reflections excerpt — ChemTeam",
+      "kind": "other",
+      "url": "https://www.chemteam.info/AtomicStructure/Disc-of-Electron-Intro.html"
+    },
+    {
+      "title": "Cathode ray — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Cathode_ray"
+    }
+  ],
+  "research_note": "Drafted 2026-11-21 by the nightly pipeline. Threshold met without Britannica (403, linked for human review): English Wikipedia (J. J. Thomson; Electron, history section; Cathode ray), AIP Center for History of Physics online exhibit 'The Discovery of the Electron' (jjrays, jj1897, jjelectr pages), Giunta's annotated 1906 Nobel lecture (Le Moyne). APS News Oct 2000 returned 403; the Royal Institution discourse PDF (Barcelona) was not read automatically.\nYEAR: 1897 exact (RI discourse 30 April 1897; Phil. Mag. 'Cathode Rays', series 5 vol. 44, pp. 293-316, October 1897 issue, written as 'that autumn'). PLACE: Cambridge, Cavendish Laboratory (lecture itself in London, named in body).\nCONFIRMED: off-axis collector, better vacuum -> electric deflection, mass/charge >1000x smaller than hydrogen ion, 'matter in a new state', 'corpuscles' (AIP, Wikipedia); Stoney 1874/1891; Hittorf 1869, Goldstein 1876, Crookes, Schuster 1890 dismissed, Perrin 1895, Wiechert Jan 1897, Kaufmann 1897 not accepting particles (Giunta annotation); Becquerel 1900 beta rays; Millikan-Fletcher 1909; plum pudding 1904; Nagaoka 1904 Saturnian model; G.P. Thomson & Davisson 1937.\nFLAGGED IN BODY: 'pulling their legs' presented as Thomson's own recollection ~40 years later (Recollections and Reflections, 1936, p. 341 per ChemTeam/APS; the physicist is unnamed).\nREVIEWER SHOULD CHECK: Hertz's 1883 date (standard, not seen in the two fetched sources); Zeeman 1896 / Lorentz e/m estimate 'of the same size' (search snippets only); Plücker softened to 'late 1850s' (Wikipedia gives 1858/59); claim that Thomson's 1897 result held for different cathode metals (in the 1897 paper per fact-checker; Wikipedia dates metal-independence to 1899); 'Many physicists in Germany ... waves; Crookes and Schuster ... particles' is the standard account, Crookes/Schuster not confirmed in a second source.\nNON-WESTERN: Hantaro Nagaoka (Tokyo, 1904) named as a successor. No woman found among the 1897 contributors; Harvey Fletcher named as Millikan's under-credited student.\nIMAGES: cover = Science Museum tube with magnet coils (CC BY-SA 2.0). Figures: Thomson's 1897 diagram (PD); portrait 'Portrait of Joseph John Thomson.jpg', PD but author line is only 'Unknown author' - reviewer may swap it. Rejected 'J. J. Thomson with his cathode-ray tube.jpg' (credit is a website URL, modern composite).\nBUILDS_ON: dalton-atomic-theory. roentgen-x-rays dropped on fact-checker advice (not mentioned in body).\nKYRGYZ: glossary 'check' term used: зат (matter: 'жаңы абалдагы зат', 'бардык заттын'). New terms not in glossary: катод нурлары (as in roentgen draft), бөлүкчө (particle), заряд, шоокум (beam), суутек (hydrogen), толкун (wave), эфир, корпускула, «мейиз кошулган пудинг» (plum pudding), шылдыңдап жатат (for 'pulling their legs').\nFACT-CHECKER (2026-11-21): no false core facts. Applied in all four languages: (1) H. A. Wilson removed from the 1897-1899 charge measurement (his own cloud measurement was 1903) and from people; now 'Townsend, then Thomson himself'; (2) 'by about 1914' removed (sources disagree: ~1914 Wikipedia, 'about twenty years' Cambridge physics) -> 'the name won in the end'; (3) Plücker 'In 1859' -> 'late 1850s'; (4) Le Moyne source retitled as the 1906 Nobel lecture; (5) TR summary 'bin kattan fazla'. BELIRSIZ kept as soft wording: off-axis cup detail (from Wikipedia, not seen in AIP), Zeeman/Lorentz.",
+  "translations": {
+    "en": {
+      "title": "J.J. Thomson finds a particle smaller than the atom",
+      "summary": "In 1897 J.J. Thomson argued that cathode rays are streams of particles over a thousand times lighter than the lightest atom. The atom, long thought uncuttable, had parts.",
+      "why_it_matters": "The electron was the first particle found inside the atom, and it showed that atoms have parts. Every later picture of the atom, and all of electronics, starts from it.",
+      "if_you_were_there": "In 1896 the atom was the smallest thing most scientists believed in, and no one knew what electricity was made of, or what the green glow in an emptied glass tube really was.",
+      "place_name": "Cambridge",
+      "body": "### The scene\n\nIn the 1890s physics had a glowing puzzle. Seal two metal plates into a glass tube, pump out most of the air and connect the plates to a strong electric source, and something streams from the negative plate, the cathode. You cannot see the stream itself, but where it strikes the glass, the glass shines green. In the late 1850s Julius Plücker in Bonn noticed that a magnet could move this glow. Ten years later Johann Hittorf showed that an object placed in the path cast a sharp shadow, so something was travelling in straight lines. In 1876 Eugen Goldstein gave it a name: cathode rays.\n\nWhat the rays were, nobody could agree on, and the quarrel ran for more than twenty years. Many physicists in Germany, Heinrich Hertz among them, thought they were a kind of wave, a disturbance in the ether, the invisible medium that light was believed to travel through. In 1883 Hertz passed the rays between two electrically charged plates and saw no bending at all, which is not what charged particles should do. In Britain William Crookes and Arthur Schuster thought the rays were streams of charged particles. In 1895 Jean Perrin in Paris caught the rays in a metal cup and found that they carried negative electricity. Philipp Lenard let the rays out of the tube through a thin aluminium window and found that they travelled further through air than anything the size of an atom should.\n\nThere was also an older thread. In 1874 the Irish physicist George Johnstone Stoney, studying how electric current splits chemicals in solution, argued that electricity must come in a smallest fixed portion, and in 1891 he proposed a name for that portion: electron. It was a name for an amount of charge, not for a particle anyone had found.\n\nJoseph John Thomson, known as J.J., had led the Cavendish Laboratory at Cambridge since 1884. He had spent years studying how electricity passes through gases, and he was certain that this was where the secret of electricity would be found.\n\n![J.J. Thomson's cathode-ray tube with its magnet coils, 1897, in the Science Museum, London](https://upload.wikimedia.org/wikipedia/commons/b/b3/J_J_Thomsons_cathode_ray_tube_with_magnet_coils%2C_1897._%289663807404%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:J_J_Thomsons_cathode_ray_tube_with_magnet_coils,_1897._(9663807404).jpg\")\n\n### What happened\n\nIn 1897 Thomson attacked the question from several sides at once. First he repeated Perrin's experiment with a twist. He put the collecting cup off to the side, out of the rays' path. The cup picked up negative charge only when a magnet bent the rays into it. The charge and the rays went to the same place together: they could not be separated, so they were one and the same thing.\n\nThen he went back to Hertz's failed experiment. Thomson suspected that the traces of gas left in Hertz's tube had been turned into a conductor by the rays themselves, and that this conducting gas had shielded the rays from the electric plates. So he pumped his tube out far more thoroughly. Now the rays did bend between the plates, towards the positive one, exactly as negatively charged particles should.\n\nThe third step was to measure. Thomson bent the beam with a magnet, then with electric plates, and balanced one push against the other. The way the two bendings compare gives the speed of the particles and the ratio between their charge and their mass. Whatever metal he used for the cathode and whatever gas was left in the tube, the answer came out the same. And it was startling: the mass for each unit of charge was more than a thousand times smaller than for a charged hydrogen atom, the lightest thing then known.\n\n> [!THEORY]\n> Thomson could not weigh a single particle or measure its charge directly. The bending of the beam only gives the ratio of the two: how much charge the particle carries for each gram of its mass. A tiny mass, or a huge charge, would give the same ratio. That is why he still had to argue his way to the conclusion that the particles were small, and why the charge had to be measured separately afterwards.\n\nThink of a stream of balls flying past you too fast to see, pushed sideways by a gust of wind. A ping-pong ball swerves much more than a golf ball, so from how far the stream swerves you can tell something about what it is made of. The comparison breaks in one place: wind pushes on how big a ball is, while the magnet and the plates push on its electric charge, so Thomson learned not the mass alone but only the mass for each unit of charge.\n\nThomson announced his idea in a Friday evening lecture at the Royal Institution in London on 30 April 1897, before all the measurements were finished, and set out the full case in a long paper, \"Cathode Rays\", in the Philosophical Magazine that autumn. Cathode rays, he said, were \"matter in a new state\": streams of particles far smaller than atoms, which he called corpuscles. Because they came out the same from every material, he suggested they were a piece of every atom. Years later, in his memoirs, Thomson recalled that a distinguished physicist who had been in the audience told him he had thought Thomson was \"pulling their legs\". That story comes only from Thomson's own recollection, written almost four decades on.\n\n![Diagram of Thomson's tube from his 1897 paper: the rays leave the cathode, pass through slits and between two plates, and strike the far end of the glass](https://upload.wikimedia.org/wikipedia/commons/4/44/JJ_Thomson_Cathode_Ray_Tube_1.png \"JJ Thomson · Public domain · https://commons.wikimedia.org/wiki/File:JJ_Thomson_Cathode_Ray_Tube_1.png\")\n\n### Why it was hard\n\nThomson was not alone, and he was not first with the number. In January 1897 Emil Wiechert in Königsberg had measured a mass-to-charge ratio more than a thousand times smaller than that of the smallest charged atom. In Berlin, Walter Kaufmann measured the ratio very precisely in the same year. In the Netherlands, Pieter Zeeman had seen in 1896 that a magnet splits the light given off by a flame, and Hendrik Lorentz explained it with tiny charged particles vibrating inside atoms; their estimate of the ratio was of the same size as the cathode-ray one. Schuster had made a rough estimate as early as 1890, but his value seemed so absurd that it was set aside. What set Thomson apart was the step he took with the numbers: he said openly that these were real particles, smaller than atoms and part of all matter. Kaufmann, with excellent data, did not believe the particle picture.\n\nThat step went against nearly a century of chemistry. Since John Dalton, most chemists had treated the atom as the smallest unit of matter, the end of the line. Saying that something came out of atoms meant atoms had parts. The experiments were hard too. A tube with too much gas left in it hid the effect, as it had for Hertz, and the glass pumps of the time made a good vacuum a matter of patience and skill.\n\nThe charge itself still had to be found, so that the mass could be worked out from the ratio. Between 1897 and 1899 John Townsend, one of Thomson's students, and then Thomson himself estimated it by counting how many tiny water droplets formed around charged particles in a cloud. The numbers were rough but showed that the corpuscle carried about the same charge as a hydrogen ion, so it really was about a thousand times lighter. In 1909 Robert Millikan in Chicago, working with his graduate student Harvey Fletcher, measured the charge far more precisely by floating tiny charged oil drops between electric plates.\n\n![J.J. Thomson](https://upload.wikimedia.org/wikipedia/commons/9/98/Portrait_of_Joseph_John_Thomson.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Portrait_of_Joseph_John_Thomson.jpg\")\n\n### What it opened\n\nOther rays soon turned out to be the same particle. In 1900 Henri Becquerel showed that the beta rays given off by radium had the same mass-to-charge ratio as cathode rays. Thomson kept calling his particles corpuscles and resisted Stoney's word for years, but the name won in the end: the corpuscle became the electron.\n\nIf atoms contained electrons, the next question was how they were arranged. In 1904 Thomson pictured the atom as a sphere of positive charge with electrons set inside it, later nicknamed the \"plum pudding\". In the same year the Japanese physicist Hantaro Nagaoka in Tokyo proposed a different picture: a heavy positive centre circled by electrons, like Saturn and its rings. In 1911 Ernest Rutherford, Thomson's former student, showed that the atom does have a tiny heavy nucleus.\n\nThomson received the Nobel Prize in Physics in 1906 for his work on how electricity passes through gases. In 1937 his son George Paget Thomson shared the same prize with Clinton Davisson for showing that electrons can also behave like waves. It is often said that the father won it for showing the electron is a particle and the son for showing it is a wave, and both were right.\n\nRadio valves, television screens, the transistor and every computer chip work by steering electrons. All of it starts with a glow on the end of a glass tube that many physicists had taken for a wave.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "J.J. Thomson atomdan küçük bir parçacık buluyor",
+      "summary": "1897'de J.J. Thomson, katot ışınlarının en hafif atomdan bin kattan fazla hafif parçacıklardan oluştuğunu savundu. Bölünmez sanılan atomun parçaları vardı.",
+      "why_it_matters": "Elektron, atomun içinde bulunan ilk parçacıktı ve atomların parçaları olduğunu gösterdi. Atomun sonraki bütün resimleri ve bütün elektronik bununla başlar.",
+      "if_you_were_there": "1896'da atom, bilim insanlarının çoğunun inandığı en küçük şeydi; elektriğin neyden yapıldığını, havası boşaltılmış bir cam tüpteki yeşil ışıltının aslında ne olduğunu kimse bilmiyordu.",
+      "place_name": "Cambridge",
+      "body": "### Sahne\n\n1890'larda fiziğin parlayan bir bilmecesi vardı. Bir cam tüpün içine iki metal levha yerleştirin, havanın çoğunu boşaltın ve levhaları güçlü bir elektrik kaynağına bağlayın: eksi levhadan, yani katottan bir şey akar. Akışın kendisi görünmez, ama çarptığı yerde cam yeşil yeşil parlar. 1850'lerin sonunda Bonn'da Julius Plücker bu ışıltının bir mıknatısla kaydırılabildiğini fark etti. On yıl sonra Johann Hittorf, yola konan bir cismin keskin bir gölge düşürdüğünü gösterdi; demek ki bir şey düz çizgiler hâlinde ilerliyordu. 1876'da Eugen Goldstein ona bir ad verdi: katot ışınları.\n\nIşınların ne olduğu konusunda kimse anlaşamadı ve tartışma yirmi yılı aşkın sürdü. Almanya'daki birçok fizikçi, aralarında Heinrich Hertz de vardı, bunların bir tür dalga olduğunu düşünüyordu: ışığın içinde yol aldığına inanılan görünmez ortamda, esirde bir titreşim. 1883'te Hertz ışınları elektrik yüklü iki levhanın arasından geçirdi ve hiçbir sapma görmedi; yüklü parçacıkların böyle davranmaması gerekirdi. İngiltere'de William Crookes ve Arthur Schuster ışınların yüklü parçacık akımı olduğunu düşünüyordu. 1895'te Paris'te Jean Perrin ışınları metal bir kapta topladı ve eksi elektrik taşıdıklarını buldu. Philipp Lenard ışınları tüpün dışına ince bir alüminyum pencereden çıkardı ve havada, atom büyüklüğündeki bir şeyin gidebileceğinden daha uzağa gittiklerini gördü.\n\nDaha eski bir iz de vardı. 1874'te İrlandalı fizikçi George Johnstone Stoney, elektrik akımının çözeltideki kimyasalları nasıl ayrıştırdığını incelerken elektriğin en küçük, sabit bir parça hâlinde gelmesi gerektiğini savundu; 1891'de bu parçaya bir ad önerdi: elektron. Bu, bir yük miktarının adıydı; henüz kimsenin bulduğu bir parçacığın değil.\n\nHerkesin J.J. diye bildiği Joseph John Thomson, 1884'ten beri Cambridge'deki Cavendish Laboratuvarı'nı yönetiyordu. Elektriğin gazlardan nasıl geçtiğini yıllardır inceliyordu ve elektriğin sırrının tam da burada çözüleceğinden emindi.\n\n![J.J. Thomson'ın mıknatıs bobinli katot ışını tüpü, 1897, Londra Bilim Müzesi](https://upload.wikimedia.org/wikipedia/commons/b/b3/J_J_Thomsons_cathode_ray_tube_with_magnet_coils%2C_1897._%289663807404%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:J_J_Thomsons_cathode_ray_tube_with_magnet_coils,_1897._(9663807404).jpg\")\n\n### Ne oldu\n\n1897'de Thomson soruya aynı anda birkaç yönden saldırdı. Önce Perrin'in deneyini bir farkla tekrarladı. Toplama kabını ışınların yolundan çıkarıp yana koydu. Kap ancak bir mıknatıs ışınları ona doğru büktüğünde eksi yük topladı. Yük ve ışınlar hep birlikte aynı yere gidiyordu: ayrılamıyorlardı, demek ki aynı şeydiler.\n\nSonra Hertz'in başarısız deneyine döndü. Thomson, Hertz'in tüpünde kalan gaz izlerinin ışınların kendisi tarafından iletkene dönüştürüldüğünden ve bu iletken gazın ışınları elektrikli levhalardan koruduğundan şüphelendi. Bu yüzden tüpünü çok daha iyi boşalttı. Şimdi ışınlar levhaların arasında gerçekten büküldü; tam da eksi yüklü parçacıkların yapması gerektiği gibi, artı levhaya doğru.\n\nÜçüncü adım ölçmekti. Thomson demeti önce bir mıknatısla, sonra elektrikli levhalarla büktü ve iki itişi birbirine karşı dengeledi. İki bükülmenin birbirine oranı, parçacıkların hızını ve yükleriyle kütleleri arasındaki oranı verir. Katot için hangi metali kullanırsa kullansın, tüpte hangi gaz kalırsa kalsın, sonuç aynı çıktı. Ve şaşırtıcıydı: her birim yük başına düşen kütle, o zaman bilinen en hafif şey olan yüklü hidrojen atomununkinden bin kattan fazla küçüktü.\n\n> [!THEORY]\n> Thomson tek bir parçacığı tartamıyor, yükünü de doğrudan ölçemiyordu. Demetin bükülmesi yalnızca ikisinin oranını verir: parçacığın her gram kütlesi başına ne kadar yük taşıdığını. Çok küçük bir kütle de, çok büyük bir yük de aynı oranı verebilirdi. Bu yüzden parçacıkların küçük olduğu sonucuna hâlâ akıl yürüterek varması gerekiyordu; yükün de sonradan ayrıca ölçülmesi gerekti.\n\nGörülemeyecek kadar hızlı yanınızdan geçen bir top akımı düşünün; bir rüzgâr onları yana itiyor. Bir pinpon topu bir golf topundan çok daha fazla savrulur; akımın ne kadar savrulduğundan neyden yapıldığına dair bir şey anlarsınız. Benzetme bir yerde bozulur: rüzgâr topun büyüklüğüne iter, mıknatıs ve levhalar ise elektrik yüküne; bu yüzden Thomson kütlenin kendisini değil, yalnızca birim yük başına kütleyi öğrendi.\n\nThomson fikrini 30 Nisan 1897'de Londra'daki Kraliyet Enstitüsü'nde bir cuma akşamı konferansında, ölçümlerin hepsi bitmeden duyurdu; bütün kanıtları da o sonbahar Philosophical Magazine'de çıkan \"Cathode Rays\" (Katot Işınları) adlı uzun makalesinde ortaya koydu. Katot ışınları, dedi, \"yeni bir hâlde madde\"ydi: atomlardan çok daha küçük parçacıkların akımı; bunlara \"korpüskül\" (cisimcik) adını verdi. Her malzemeden aynı çıktıkları için her atomun bir parçası olduklarını ileri sürdü. Yıllar sonra anılarında Thomson, dinleyiciler arasında bulunan tanınmış bir fizikçinin ona, Thomson'ın kendileriyle \"dalga geçtiğini\" (İngilizcesiyle \"pulling their legs\") sandığını söylediğini anlattı. Bu hikâye yalnızca Thomson'ın, neredeyse kırk yıl sonra yazdığı kendi anısına dayanıyor.\n\n![Thomson'ın 1897 makalesindeki tüp çizimi: ışınlar katottan çıkar, yarıklardan ve iki levhanın arasından geçer, camın öbür ucuna çarpar](https://upload.wikimedia.org/wikipedia/commons/4/44/JJ_Thomson_Cathode_Ray_Tube_1.png \"JJ Thomson · Public domain · https://commons.wikimedia.org/wiki/File:JJ_Thomson_Cathode_Ray_Tube_1.png\")\n\n### Neden zordu\n\nThomson yalnız değildi ve sayıyı ilk bulan da o değildi. Ocak 1897'de Königsberg'de Emil Wiechert, en küçük yüklü atomunkinden bin kattan fazla küçük bir kütle-yük oranı ölçmüştü. Berlin'de Walter Kaufmann aynı yıl oranı çok hassas biçimde ölçtü. Hollanda'da Pieter Zeeman 1896'da bir mıknatısın alevin saçtığı ışığı ayrıştırdığını görmüştü; Hendrik Lorentz bunu atomların içinde titreşen minik yüklü parçacıklarla açıkladı ve onların oran tahmini katot ışınlarınınkiyle aynı büyüklükteydi. Schuster daha 1890'da kaba bir tahmin yapmıştı, ama değeri o kadar saçma göründü ki bir kenara bırakıldı. Thomson'ı ayıran, sayılarla attığı adımdı: bunların gerçek parçacıklar olduğunu, atomlardan küçük ve bütün maddenin parçası olduklarını açıkça söyledi. Mükemmel verileri olan Kaufmann ise parçacık fikrine inanmadı.\n\nBu adım neredeyse bir asırlık kimyaya ters düşüyordu. John Dalton'dan beri kimyacıların çoğu atomu maddenin en küçük birimi, yolun sonu sayıyordu. Atomlardan bir şey çıktığını söylemek, atomların parçaları olduğunu söylemekti. Deneyler de zordu. İçinde fazla gaz kalan bir tüp, Hertz'de olduğu gibi etkiyi gizliyordu; dönemin cam pompalarıyla iyi bir boşluk elde etmek sabır ve beceri işiydi.\n\nOranlardan kütleyi hesaplayabilmek için yükün kendisinin de bulunması gerekiyordu. 1897 ile 1899 arasında önce Thomson'ın öğrencisi John Townsend, sonra Thomson'ın kendisi, yüklü parçacıkların çevresinde bir bulutta kaç minik su damlası oluştuğunu sayarak yükü tahmin etti. Sayılar kabaydı ama cisimciğin bir hidrojen iyonuyla aşağı yukarı aynı yükü taşıdığını gösterdi; demek ki gerçekten bin kat kadar daha hafifti. 1909'da Chicago'da Robert Millikan, yüksek lisans öğrencisi Harvey Fletcher ile birlikte, elektrikli levhalar arasında minik yüklü yağ damlalarını havada tutarak yükü çok daha hassas ölçtü.\n\n![J.J. Thomson](https://upload.wikimedia.org/wikipedia/commons/9/98/Portrait_of_Joseph_John_Thomson.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Portrait_of_Joseph_John_Thomson.jpg\")\n\n### Sonrası\n\nBaşka ışınların da aynı parçacık olduğu kısa sürede anlaşıldı. 1900'de Henri Becquerel, radyumun saçtığı beta ışınlarının kütle-yük oranının katot ışınlarınınkiyle aynı olduğunu gösterdi. Thomson parçacıklarına uzun süre \"korpüskül\" demeyi sürdürdü ve Stoney'nin sözcüğüne yıllarca direndi; ama sonunda ad kazandı: cisimcik elektron oldu.\n\nAtomların içinde elektron varsa, sıradaki soru nasıl dizildikleriydi. 1904'te Thomson atomu, içine elektronların yerleştirildiği artı yüklü bir küre olarak düşündü; buna sonradan \"üzümlü puding\" denecekti. Aynı yıl Tokyo'da Japon fizikçi Hantaro Nagaoka başka bir tablo önerdi: Satürn ve halkaları gibi, çevresinde elektronların döndüğü ağır, artı yüklü bir merkez. 1911'de Thomson'ın eski öğrencisi Ernest Rutherford atomun gerçekten de minik ve ağır bir çekirdeği olduğunu gösterdi.\n\nThomson 1906 Nobel Fizik Ödülü'nü elektriğin gazlardan nasıl geçtiğine dair çalışmaları için aldı. 1937'de oğlu George Paget Thomson aynı ödülü, elektronların dalga gibi de davranabildiğini gösterdiği için Clinton Davisson ile paylaştı. Sık sık söylenir: baba ödülü elektronun parçacık olduğunu, oğul ise dalga olduğunu gösterdiği için aldı; ve ikisi de haklıydı.\n\nRadyo lambaları, televizyon ekranları, transistör ve her bilgisayar çipi elektronları yönlendirerek çalışır. Hepsi, birçok fizikçinin dalga sandığı, bir cam tüpün ucundaki ışıltıyla başlar.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Дж. Дж. Томсон находит частицу меньше атома",
+      "summary": "В 1897 году Дж. Дж. Томсон доказывал, что катодные лучи — это потоки частиц в тысячу с лишним раз легче самого лёгкого атома. У неделимого атома оказались части.",
+      "why_it_matters": "Электрон стал первой частицей, найденной внутри атома, и показал, что у атомов есть части. С него начинаются все последующие модели атома и вся электроника.",
+      "if_you_were_there": "В 1896 году атом был самым маленьким, во что верило большинство учёных, и никто не знал, из чего состоит электричество и что на самом деле за зелёное свечение в откачанной стеклянной трубке.",
+      "place_name": "Кембридж",
+      "body": "### Обстановка\n\nВ 1890-х годах у физики была светящаяся загадка. Если впаять в стеклянную трубку две металлические пластины, выкачать почти весь воздух и подключить пластины к сильному источнику электричества, то от отрицательной пластины, катода, что-то начинает течь. Сам поток не виден, но там, где он ударяет в стекло, стекло светится зелёным. В конце 1850-х годов Юлиус Плюккер в Бонне заметил, что это свечение можно сдвинуть магнитом. Десять лет спустя Иоганн Гитторф показал, что предмет, поставленный на пути, отбрасывает резкую тень, — значит, что-то движется по прямым линиям. В 1876 году Ойген Гольдштейн дал этому имя: катодные лучи.\n\nО том, что это за лучи, договориться не могли, и спор длился больше двадцати лет. Многие физики в Германии, и среди них Генрих Герц, считали их чем-то вроде волны — колебанием в эфире, невидимой среде, в которой, как тогда думали, распространяется свет. В 1883 году Герц пропустил лучи между двумя заряженными пластинами и не увидел никакого отклонения, а заряженные частицы так себя вести не должны. В Британии Уильям Крукс и Артур Шустер считали лучи потоками заряженных частиц. В 1895 году Жан Перрен в Париже поймал лучи в металлический стаканчик и обнаружил, что они несут отрицательное электричество. Филипп Ленард выпустил лучи из трубки через тонкое алюминиевое окошко и увидел, что в воздухе они проходят дальше, чем могло бы пройти что-либо размером с атом.\n\nБыла и более старая нить. В 1874 году ирландский физик Джордж Джонстон Стони, изучая, как электрический ток разлагает вещества в растворе, утверждал, что электричество должно состоять из наименьших одинаковых порций, а в 1891 году предложил для такой порции название: электрон. Это было название количества заряда, а не частицы, которую кто-то нашёл.\n\nДжозеф Джон Томсон, которого все звали Дж. Дж., с 1884 года руководил Кавендишской лабораторией в Кембридже. Он годами изучал, как электричество проходит через газы, и был уверен, что именно здесь откроется тайна электричества.\n\n![Катодная трубка Дж. Дж. Томсона с магнитными катушками, 1897 год, Музей науки в Лондоне](https://upload.wikimedia.org/wikipedia/commons/b/b3/J_J_Thomsons_cathode_ray_tube_with_magnet_coils%2C_1897._%289663807404%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:J_J_Thomsons_cathode_ray_tube_with_magnet_coils,_1897._(9663807404).jpg\")\n\n### Что произошло\n\nВ 1897 году Томсон взялся за вопрос сразу с нескольких сторон. Сначала он повторил опыт Перрена с одним изменением: поставил стаканчик-приёмник в стороне, вне пути лучей. Стаканчик набирал отрицательный заряд только тогда, когда магнит загибал лучи прямо в него. Заряд и лучи всегда попадали в одно место вместе: разделить их не удавалось, значит, это было одно и то же.\n\nПотом он вернулся к неудачному опыту Герца. Томсон заподозрил, что остатки газа в трубке Герца сами лучи превращали в проводник и этот проводящий газ заслонял лучи от заряженных пластин. Поэтому он откачал свою трубку гораздо тщательнее. Теперь лучи между пластинами действительно отклонялись — к положительной, именно так, как должны вести себя отрицательно заряженные частицы.\n\nТретьим шагом было измерение. Томсон отклонял пучок сначала магнитом, затем заряженными пластинами и уравновешивал одно воздействие другим. Сравнение двух отклонений даёт скорость частиц и отношение их заряда к массе. Из какого бы металла ни был катод и какой бы газ ни оставался в трубке, ответ выходил одинаковым. И он поражал: масса, приходящаяся на единицу заряда, оказалась более чем в тысячу раз меньше, чем у заряженного атома водорода, самого лёгкого из известных тогда тел.\n\n> [!THEORY]\n> Томсон не мог взвесить отдельную частицу или прямо измерить её заряд. Отклонение пучка даёт только их отношение: сколько заряда приходится на каждый грамм массы частицы. Крошечная масса или огромный заряд дали бы одно и то же отношение. Поэтому к выводу о том, что частицы малы, ему ещё приходилось приходить рассуждением, а заряд позже пришлось измерять отдельно.\n\nПредставьте поток мячей, которые пролетают мимо вас слишком быстро, чтобы их разглядеть, а порыв ветра сносит их вбок. Мячик для настольного тенниса сносит гораздо сильнее, чем мяч для гольфа, так что по тому, насколько отклоняется поток, можно кое-что понять о том, из чего он состоит. Сравнение ломается в одном месте: ветер давит в зависимости от размера мяча, а магнит и пластины — в зависимости от электрического заряда, поэтому Томсон узнал не саму массу, а только массу на единицу заряда.\n\nТомсон объявил о своей идее на пятничной вечерней лекции в Королевском институте в Лондоне 30 апреля 1897 года, ещё до того, как были закончены все измерения, а полностью изложил доводы осенью того же года в большой статье «Катодные лучи» в журнале Philosophical Magazine. Катодные лучи, сказал он, — это «вещество в новом состоянии»: потоки частиц, гораздо меньших, чем атомы; он назвал их корпускулами. Поскольку они одинаковы для любого материала, он предположил, что они входят в состав каждого атома. Много лет спустя в своих воспоминаниях Томсон рассказывал, что известный физик, бывший среди слушателей, признался ему, что решил, будто Томсон их «разыгрывает» (по-английски pulling their legs). Эта история известна только из собственных воспоминаний Томсона, написанных почти через сорок лет.\n\n![Схема трубки Томсона из его статьи 1897 года: лучи выходят из катода, проходят через щели и между двумя пластинами и ударяют в дальний конец стекла](https://upload.wikimedia.org/wikipedia/commons/4/44/JJ_Thomson_Cathode_Ray_Tube_1.png \"JJ Thomson · Public domain · https://commons.wikimedia.org/wiki/File:JJ_Thomson_Cathode_Ray_Tube_1.png\")\n\n### Почему это было трудно\n\nТомсон был не один и не первым получил это число. В январе 1897 года Эмиль Вихерт в Кёнигсберге измерил отношение массы к заряду, более чем в тысячу раз меньшее, чем у самого лёгкого заряженного атома. В Берлине Вальтер Кауфман в том же году очень точно измерил это отношение. В Нидерландах Питер Зееман в 1896 году увидел, что магнит расщепляет свет пламени, а Хендрик Лоренц объяснил это крошечными заряженными частицами, колеблющимися внутри атомов; их оценка отношения оказалась того же порядка, что и для катодных лучей. Шустер сделал грубую оценку ещё в 1890 году, но его значение показалось настолько нелепым, что его отложили. Томсона отличал шаг, который он сделал с этими числами: он прямо сказал, что это настоящие частицы, меньше атомов и входящие в состав всего вещества. Кауфман же, имея отличные данные, в частицы не поверил.\n\nЭтот шаг шёл против почти столетней химии. Со времён Джона Дальтона большинство химиков считали атом наименьшей единицей вещества, концом пути. Сказать, что из атомов что-то выходит, значило сказать, что у атомов есть части. Трудными были и сами опыты. Трубка, в которой оставалось слишком много газа, скрывала эффект, как это случилось у Герца, а со стеклянными насосами того времени хороший вакуум был делом терпения и мастерства.\n\nЧтобы по отношению вычислить массу, нужно было найти и сам заряд. Между 1897 и 1899 годами сначала ученик Томсона Джон Таунсенд, а затем и сам Томсон оценили его, подсчитывая, сколько мельчайших капелек воды образуется вокруг заряженных частиц в облаке. Числа были грубыми, но показали, что корпускула несёт примерно такой же заряд, как ион водорода, а значит, действительно примерно в тысячу раз легче. В 1909 году Роберт Милликен в Чикаго вместе со своим аспирантом Харви Флетчером измерил заряд гораздо точнее, удерживая крошечные заряженные капли масла между заряженными пластинами.\n\n![Дж. Дж. Томсон](https://upload.wikimedia.org/wikipedia/commons/9/98/Portrait_of_Joseph_John_Thomson.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Portrait_of_Joseph_John_Thomson.jpg\")\n\n### Что это открыло\n\nСкоро выяснилось, что и другие лучи состоят из той же частицы. В 1900 году Анри Беккерель показал, что у бета-лучей радия такое же отношение массы к заряду, как у катодных лучей. Томсон ещё долго называл свои частицы корпускулами и годами сопротивлялся слову Стони, но в конце концов название победило: корпускула стала электроном.\n\nЕсли в атомах есть электроны, следующий вопрос — как они расположены. В 1904 году Томсон представил атом шаром положительного заряда с электронами внутри; позже эту модель прозвали «пудингом с изюмом». В том же году японский физик Хантаро Нагаока в Токио предложил другую картину: тяжёлый положительный центр, вокруг которого обращаются электроны, как кольца вокруг Сатурна. В 1911 году бывший ученик Томсона Эрнест Резерфорд показал, что у атома действительно есть крошечное тяжёлое ядро.\n\nТомсон получил Нобелевскую премию по физике 1906 года за работы о том, как электричество проходит через газы. В 1937 году его сын Джордж Паджет Томсон разделил ту же премию с Клинтоном Дэвиссоном за то, что показал: электроны могут вести себя и как волны. Часто говорят, что отец получил премию за то, что показал, что электрон — частица, а сын — за то, что показал, что он волна; и оба были правы.\n\nРадиолампы, телевизионные экраны, транзистор и любой компьютерный чип работают, управляя электронами. Всё это начинается со свечения на конце стеклянной трубки, которое многие физики принимали за волну.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Дж. Дж. Томсон атомдон кичине бөлүкчөнү табат",
+      "summary": "1897-жылы Дж. Дж. Томсон катод нурлары эң жеңил атомдон миң эседен ашык жеңил бөлүкчөлөрдүн агымы деп далилдеген. Бөлүнбөйт деп эсептелген атомдун бөлүктөрү бар экен.",
+      "why_it_matters": "Электрон атомдун ичинен табылган биринчи бөлүкчө болгон жана атомдордун бөлүктөрү бар экенин көрсөткөн. Атомдун кийинки бардык моделдери жана бүт электроника ушундан башталат.",
+      "if_you_were_there": "1896-жылы атом окумуштуулардын көбү ишенген эң кичине нерсе болчу; электр эмнеден турарын, абасы сордурулган айнек түтүктөгү жашыл жаркыроо чындыгында эмне экенин эч ким билген эмес.",
+      "place_name": "Кембридж",
+      "body": "### Окуянын алкагы\n\n1890-жылдары физиканын жаркыраган бир табышмагы бар болчу. Айнек түтүккө эки металл пластинаны ширетип, абанын дээрлик баарын сордуруп чыгарып, пластиналарды күчтүү электр булагына туташтырсаңыз, терс пластинадан, башкача айтканда катоддон, бир нерсе агып чыгат. Агымдын өзү көрүнбөйт, бирок ал айнекке тийген жерде айнек жашыл болуп жаркырайт. 1850-жылдардын аягында Бонндо Юлиус Плюккер бул жарыкты магнит менен жылдырууга болорун байкаган. Он жылдан кийин Иоганн Гитторф жолго коюлган буюм так көлөкө түшүрөрүн көрсөткөн: демек, бир нерсе түз сызык боюнча учуп жаткан. 1876-жылы Ойген Гольдштейн ага ат койгон: катод нурлары.\n\nБул нурлар эмне экенине эч ким макулдаша алган эмес, талаш жыйырма жылдан ашык уланган. Германиядагы көп физиктер, алардын арасында Генрих Герц да, аларды толкундун бир түрү деп эсептешкен: жарык ичи менен тарайт деп ишенилген көзгө көрүнбөгөн чөйрөдөгү, эфирдеги термелүү. 1883-жылы Герц нурларды электр заряддуу эки пластинанын ортосунан өткөрүп, эч кандай бурулууну көргөн эмес, ал эми заряддуу бөлүкчөлөр антип жүрбөшү керек эле. Британияда Уильям Крукс менен Артур Шустер нурлар заряддуу бөлүкчөлөрдүн агымы деп ойлошкон. 1895-жылы Парижде Жан Перрен нурларды металл идишке кармап, алар терс электр алып жүрөрүн тапкан. Филипп Ленард нурларды түтүктөн жука алюминий терезе аркылуу сыртка чыгарып, алар абада атомдун өлчөмүндөгү нерсе бара ала турган аралыктан алысыраак барарын көргөн.\n\nМындан эскирээк дагы бир жип бар эле. 1874-жылы ирландиялык физик Джордж Джонстон Стони электр тогу эритмедеги заттарды кантип ажыратарын изилдеп жатып, электр эң кичине, бирдей үлүштөр менен келиши керек деп ырастаган, 1891-жылы ал үлүшкө ат сунуштаган: электрон. Бул заряддын өлчөмүнүн аты болчу, кимдир бирөө тапкан бөлүкчөнүн аты эмес.\n\nБаары Дж. Дж. деп тааныган Джозеф Джон Томсон 1884-жылдан бери Кембридждеги Кавендиш лабораториясын жетектеп келген. Ал электр газдар аркылуу кантип өтөрүн жылдар бою изилдеген жана электрдин сыры дал ушул жерден ачыларына ишенген.\n\n![Дж. Дж. Томсондун магнит түрмөктөрү бар катод түтүгү, 1897-жыл, Лондондогу Илим музейи](https://upload.wikimedia.org/wikipedia/commons/b/b3/J_J_Thomsons_cathode_ray_tube_with_magnet_coils%2C_1897._%289663807404%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:J_J_Thomsons_cathode_ray_tube_with_magnet_coils,_1897._(9663807404).jpg\")\n\n### Эмне болду\n\n1897-жылы Томсон маселени бир эле учурда бир нече тараптан изилдей баштаган. Адегенде ал Перрендин тажрыйбасын бир өзгөртүү менен кайталаган: кармоочу идишти нурлардын жолунан четке койгон. Идиш магнит нурларды ага карай бурганда гана терс заряд чогулткан. Заряд менен нурлар ар дайым бир жерге чогуу барышкан: аларды ажыратуу мүмкүн эмес болгон, демек, бул бир эле нерсе болчу.\n\nАндан кийин ал Герцтин ийгиликсиз тажрыйбасына кайтып келген. Томсон Герцтин түтүгүндө калган газдын калдыктарын нурлардын өздөрү өткөргүчкө айлантып, ошол өткөргүч газ нурларды заряддуу пластиналардан тосуп калган деп шектенген. Ошондуктан ал өз түтүгүн алда канча кылдат сордурган. Эми нурлар пластиналардын ортосунда чын эле бурулган: терс заряддуу бөлүкчөлөр кандай кылышы керек болсо, так ошондой, оң пластинаны карай.\n\nҮчүнчү кадам өлчөө болчу. Томсон шоокумду адегенде магнит менен, андан кийин заряддуу пластиналар менен бурган жана бир таасирди экинчиси менен теңдештирген. Эки бурулууну салыштыруу бөлүкчөлөрдүн ылдамдыгын жана алардын заряды менен массасынын катышын берет. Катод кайсы металлдан болбосун, түтүктө кайсы газ калбасын, жооп бирдей чыккан. Жана ал таң калыштуу болгон: заряддын ар бир бирдигине туура келген масса ошол кезде белгилүү болгон эң жеңил нерседен, заряддуу суутек атомунукунан миң эседен ашык кичине болуп чыккан.\n\n> [!THEORY]\n> Томсон бир бөлүкчөнү таразага тарта да, анын зарядын түз өлчөй да алган эмес. Шоокумдун бурулушу экөөнүн катышын гана берет: бөлүкчө массасынын ар бир грамына канча заряд туура келерин. Абдан кичине масса да, абдан чоң заряд да бирдей катыш бериши мүмкүн эле. Ошондуктан бөлүкчөлөр кичине деген жыйынтыкка ал дагы эле ой жүгүртүү аркылуу келиши керек болгон, ал эми зарядды кийин өзүнчө өлчөөгө туура келген.\n\nКөз менен көрүү мүмкүн болбогондой ылдам жаныңыздан учуп өтүп жаткан топтордун агымын элестетиңиз, аларды шамал капталга түртүп жатат. Стол тенниси тобу гольф тобуна караганда алда канча көп четтейт, ошондуктан агым канчалык четтегенине карап, ал эмнеден турарын бир аз биле аласыз. Салыштыруу бир жерде бузулат: шамал топтун чоңдугуна жараша түртөт, ал эми магнит менен пластиналар анын электр зарядына жараша таасир этет, ошондуктан Томсон массанын өзүн эмес, заряддын бирдигине туура келген массаны гана билген.\n\nТомсон өз идеясын 1897-жылдын 30-апрелинде Лондондогу Королдук институтта жума күнкү кечки лекцияда, бардык өлчөөлөр бүтө электе эле жарыялаган, ал эми бардык далилдерин ошол эле жылдын күзүндө Philosophical Magazine журналына чыккан «Катод нурлары» деген узун макаласында баяндаган. Катод нурлары, деген ал, «жаңы абалдагы зат»: атомдордон алда канча кичине бөлүкчөлөрдүн агымы, ал аларды корпускулалар деп атаган. Алар ар кандай материалдан бирдей чыккандыктан, ал бул бөлүкчөлөр ар бир атомдун бир бөлүгү деп божомолдогон. Көп жылдан кийин эскерүүлөрүндө Томсон угуучулардын арасында болгон белгилүү бир физик ага Томсон аларды «шылдыңдап жатат» (англисче pulling their legs) деп ойлогонун айтканын жазган. Бул окуя Томсондун кырк жылга жакын убакыт өткөндөн кийин жазылган өз эскерүүсүнөн гана белгилүү.\n\n![Томсондун 1897-жылкы макаласындагы түтүктүн чиймеси: нурлар катоддон чыгып, жылчыктар аркылуу жана эки пластинанын ортосунан өтүп, айнектин аркы учуна тийет](https://upload.wikimedia.org/wikipedia/commons/4/44/JJ_Thomson_Cathode_Ray_Tube_1.png \"JJ Thomson · Public domain · https://commons.wikimedia.org/wiki/File:JJ_Thomson_Cathode_Ray_Tube_1.png\")\n\n### Эмне үчүн кыйын болду\n\nТомсон жалгыз болгон эмес жана бул санды биринчи болуп алган да ал эмес. 1897-жылдын январында Кёнигсбергде Эмиль Вихерт эң кичине заряддуу атомдукунан миң эседен ашык кичине масса менен заряддын катышын өлчөгөн. Берлинде Вальтер Кауфман ошол эле жылы бул катышты абдан так өлчөгөн. Нидерландыда Питер Зееман 1896-жылы магнит жалындын жарыгын ажыратарын көргөн, ал эми Хендрик Лоренц муну атомдордун ичинде термелген кичинекей заряддуу бөлүкчөлөр менен түшүндүргөн; алардын катышка берген баасы катод нурлардыкы менен бирдей чоңдукта болгон. Шустер 1890-жылы эле болжолдуу баа берген, бирок анын мааниси ушунчалык акылга сыйбас көрүнгөндүктөн, четке кагылган. Томсонду башкалардан айырмалаган нерсе — ал сандар менен жасаган кадам: ал булар чыныгы бөлүкчөлөр, атомдон кичине жана бардык заттын бир бөлүгү экенин ачык айткан. Ал эми эң сонун маалыматтары бар Кауфман бөлүкчөлөргө ишенген эмес.\n\nБул кадам дээрлик бир кылымдык химияга каршы келген. Джон Дальтондон бери химиктердин көбү атомду заттын эң кичине бирдиги, жолдун аягы деп эсептешкен. Атомдордон бир нерсе чыгат деп айтуу — атомдордун бөлүктөрү бар деп айтуу болчу. Тажрыйбалардын өзү да оор болгон. Ичинде газ өтө көп калган түтүк Герцте болгондой эффектти жашырып койгон, ал эми ошол кездеги айнек насостор менен жакшы вакуум алуу сабырдын жана чеберчиликтин иши болчу.\n\nКатыштан массаны эсептеп чыгуу үчүн заряддын өзүн да табуу керек болгон. 1897–1899-жылдары адегенде Томсондун шакирти Джон Таунсенд, андан кийин Томсондун өзү булуттагы заряддуу бөлүкчөлөрдүн айланасында канча майда суу тамчылары пайда болорун санап, зарядды болжолдуу эсептешкен. Сандар болжолдуу болгон, бирок корпускула суутек ионундай эле заряд алып жүрөрүн, демек, чын эле болжол менен миң эсе жеңил экенин көрсөткөн. 1909-жылы Чикагодо Роберт Милликен аспиранты Харви Флетчер менен бирге кичинекей заряддуу май тамчыларын заряддуу пластиналардын ортосунда абада кармап туруп, зарядды алда канча так өлчөгөн.\n\n![Дж. Дж. Томсон](https://upload.wikimedia.org/wikipedia/commons/9/98/Portrait_of_Joseph_John_Thomson.jpg \"Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Portrait_of_Joseph_John_Thomson.jpg\")\n\n### Эмнеге жол ачты\n\nКөп өтпөй башка нурлар да ошол эле бөлүкчөдөн турары аныкталган. 1900-жылы Анри Беккерель радий чыгарган бета нурларынын масса менен заряддын катышы катод нурларыныкындай экенин көрсөткөн. Томсон өз бөлүкчөлөрүн дагы көпкө чейин корпускулалар деп атап, Стонинин сөзүнө жылдар бою каршы турган, бирок акыры бул ат жеңип чыккан: корпускула электронго айланган.\n\nЭгер атомдордо электрондор болсо, кийинки суроо — алар кантип жайгашкан. 1904-жылы Томсон атомду ичинде электрондор жайгашкан оң заряддуу шар катары элестеткен; кийин бул моделди «мейиз кошулган пудинг» деп аташкан. Ошол эле жылы Токиодо жапон физиги Хантаро Нагаока башка сүрөттү сунуштаган: айланасында электрондор Сатурндун шакектериндей айланып жүргөн оор, оң заряддуу борбор. 1911-жылы Томсондун мурдагы шакирти Эрнест Резерфорд атомдун чын эле кичинекей, оор ядросу бар экенин көрсөткөн.\n\nТомсон 1906-жылы электр газдар аркылуу кантип өтөрү тууралуу иштери үчүн физика боюнча Нобель сыйлыгын алган. 1937-жылы анын уулу Джордж Паджет Томсон электрондор толкун сыяктуу да жүрө аларын көрсөткөнү үчүн ошол эле сыйлыкты Клинтон Дэвиссон менен бөлүшкөн. Көп айтышат: атасы электрон бөлүкчө экенин көрсөткөнү үчүн, уулу болсо анын толкун экенин көрсөткөнү үчүн сыйлык алган; экөө тең туура болчу.\n\nРадиолампалар, телевизордун экрандары, транзистор жана ар бир компьютердик чип электрондорду башкаруу менен иштейт. Мунун баары көп физиктер толкун деп ойлогон, айнек түтүктүн учундагы жаркыроодон башталат.",
+      "status": "machine"
+    }
+  }
+}
