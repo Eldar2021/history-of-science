@@ -1,0 +1,309 @@
+{
+  "slug": "curie-radium-polonium",
+  "year": 1898,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 4,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 48.8412,
+  "lng": 2.3474,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Pierre_Curie%2C_by_Marie_Curie%E2%80%94Illustrations_2.jpg",
+    "credit": "Marie Curie, Henri Manuel (1874-1947)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie—Illustrations_2.jpg"
+  },
+  "disciplines": [
+    "chemistry",
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "marie-curie",
+      "role": "author",
+      "name": {
+        "en": "Marie Curie",
+        "tr": "Marie Curie",
+        "ru": "Мария Кюри",
+        "ky": "Мария Кюри"
+      },
+      "birth_year": 1867,
+      "death_year": 1934
+    },
+    {
+      "slug": "pierre-curie",
+      "role": "author",
+      "name": {
+        "en": "Pierre Curie",
+        "tr": "Pierre Curie",
+        "ru": "Пьер Кюри",
+        "ky": "Пьер Кюри"
+      },
+      "birth_year": 1859,
+      "death_year": 1906
+    },
+    {
+      "slug": "gustave-bemont",
+      "role": "collaborator",
+      "name": {
+        "en": "Gustave Bémont",
+        "tr": "Gustave Bémont",
+        "ru": "Гюстав Бемон",
+        "ky": "Гюстав Бемон"
+      },
+      "birth_year": 1857,
+      "death_year": 1932
+    },
+    {
+      "slug": "eugene-demarcay",
+      "role": "collaborator",
+      "name": {
+        "en": "Eugène Demarçay",
+        "tr": "Eugène Demarçay",
+        "ru": "Эжен Демарсе",
+        "ky": "Эжен Демарсе"
+      },
+      "birth_year": 1852,
+      "death_year": 1903
+    },
+    {
+      "slug": "henri-becquerel",
+      "role": "predecessor",
+      "name": {
+        "en": "Henri Becquerel",
+        "tr": "Henri Becquerel",
+        "ru": "Анри Беккерель",
+        "ky": "Анри Беккерель"
+      },
+      "birth_year": 1852,
+      "death_year": 1908
+    },
+    {
+      "slug": "wilhelm-rontgen",
+      "role": "predecessor",
+      "name": {
+        "en": "Wilhelm Conrad Röntgen",
+        "tr": "Wilhelm Conrad Röntgen",
+        "ru": "Вильгельм Конрад Рентген",
+        "ky": "Вильгельм Конрад Рентген"
+      },
+      "birth_year": 1845,
+      "death_year": 1923
+    },
+    {
+      "slug": "jacques-curie",
+      "role": "predecessor",
+      "name": {
+        "en": "Jacques Curie",
+        "tr": "Jacques Curie",
+        "ru": "Жак Кюри",
+        "ky": "Жак Кюри"
+      },
+      "birth_year": 1855,
+      "death_year": 1941
+    },
+    {
+      "slug": "gerhard-carl-schmidt",
+      "role": "contemporary",
+      "name": {
+        "en": "Gerhard Carl Schmidt",
+        "tr": "Gerhard Carl Schmidt",
+        "ru": "Герхард Карл Шмидт",
+        "ky": "Герхард Карл Шмидт"
+      },
+      "birth_year": 1865,
+      "death_year": 1949
+    },
+    {
+      "slug": "eduard-suess",
+      "role": "contemporary",
+      "name": {
+        "en": "Eduard Suess",
+        "tr": "Eduard Suess",
+        "ru": "Эдуард Зюсс",
+        "ky": "Эдуард Зюсс"
+      },
+      "birth_year": 1831,
+      "death_year": 1914
+    },
+    {
+      "slug": "andre-louis-debierne",
+      "role": "successor",
+      "name": {
+        "en": "André-Louis Debierne",
+        "tr": "André-Louis Debierne",
+        "ru": "Андре-Луи Дебьерн",
+        "ky": "Андре-Луи Дебьерн"
+      },
+      "birth_year": 1874,
+      "death_year": 1949
+    },
+    {
+      "slug": "willy-marckwald",
+      "role": "successor",
+      "name": {
+        "en": "Willy Marckwald",
+        "tr": "Willy Marckwald",
+        "ru": "Вилли Марквальд",
+        "ky": "Вилли Марквальд"
+      },
+      "birth_year": 1864,
+      "death_year": 1942
+    },
+    {
+      "slug": "ernest-rutherford",
+      "role": "successor",
+      "name": {
+        "en": "Ernest Rutherford",
+        "tr": "Ernest Rutherford",
+        "ru": "Эрнест Резерфорд",
+        "ky": "Эрнест Резерфорд"
+      },
+      "birth_year": 1871,
+      "death_year": 1937
+    },
+    {
+      "slug": "frederick-soddy",
+      "role": "successor",
+      "name": {
+        "en": "Frederick Soddy",
+        "tr": "Frederick Soddy",
+        "ru": "Фредерик Содди",
+        "ky": "Фредерик Содди"
+      },
+      "birth_year": 1877,
+      "death_year": 1956
+    },
+    {
+      "slug": "irene-joliot-curie",
+      "role": "successor",
+      "name": {
+        "en": "Irène Joliot-Curie",
+        "tr": "Irène Joliot-Curie",
+        "ru": "Ирен Жолио-Кюри",
+        "ky": "Ирен Жолио-Кюри"
+      },
+      "birth_year": 1897,
+      "death_year": 1956
+    },
+    {
+      "slug": "vitaly-khlopin",
+      "role": "successor",
+      "name": {
+        "en": "Vitaly Khlopin",
+        "tr": "Vitaliy Hlopin",
+        "ru": "Виталий Хлопин",
+        "ky": "Виталий Хлопин"
+      },
+      "birth_year": 1890,
+      "death_year": 1950
+    }
+  ],
+  "builds_on": [
+    "roentgen-x-rays"
+  ],
+  "sources": [
+    {
+      "title": "Marie Curie — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Marie-Curie"
+    },
+    {
+      "title": "Marie Curie — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Marie_Curie"
+    },
+    {
+      "title": "Radium — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Radium"
+    },
+    {
+      "title": "Polonium — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Polonium"
+    },
+    {
+      "title": "Pierre Curie — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Curie"
+    },
+    {
+      "title": "Marie Curie and the Science of Radioactivity: Research Breakthroughs (1897-1904) — American Institute of Physics, Center for History of Physics (online exhibit)",
+      "kind": "other",
+      "url": "https://history.aip.org/exhibits/curie/resbr1.htm"
+    },
+    {
+      "title": "The Discovery of Polonium and Radium — AIP Center for History of Physics (online exhibit)",
+      "kind": "other",
+      "url": "https://history.aip.org/exhibits/curie/resbr2.htm"
+    },
+    {
+      "title": "P. Curie, M. Curie, G. Bémont, \"On a New, Strongly Radio-active Substance Contained in Pitchblende\", Comptes rendus 127 (26 December 1898), 1215-1217 — English translation, AIP",
+      "kind": "paper",
+      "url": "https://history.aip.org/exhibits/curie/discover.htm"
+    },
+    {
+      "title": "P. Curie and M. Curie, \"On a New Radioactive Substance Contained in Pitchblende\", Comptes rendus 127 (July 1898), 175-178 — translation, Carmen Giunta, Le Moyne College",
+      "kind": "paper",
+      "url": "https://web.lemoyne.edu/GIUNTA/curiespo.html"
+    },
+    {
+      "title": "Marie Sklodowska Curie — Science History Institute, scientific biographies",
+      "kind": "other",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+    },
+    {
+      "title": "Soviet uranium boosters (Tiuia-Muiun mine, Khlopin, State Radium Institute) — Physics Today",
+      "kind": "article",
+      "url": "https://physicstoday.aip.org/features/soviet-uranium-boosters"
+    },
+    {
+      "title": "Gerhard Carl Schmidt — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gerhard_Carl_Schmidt"
+    }
+  ],
+  "research_note": "Drafted 2026-11-22 by the nightly pipeline (rank 94 of 100). Threshold met without Britannica (403, linked for human review): English Wikipedia (Marie Curie; Pierre Curie; Radium; Polonium; Gerhard Carl Schmidt), AIP Center for History of Physics Curie exhibit (resbr1, resbr2, and the English translation of the 26 Dec 1898 note), Giunta's translation of the July 1898 note (Le Moyne), Science History Institute biography, Physics Today 'Soviet uranium boosters'.\nYEAR: 1898 exact (polonium note, Comptes rendus 127, 175-178, July 1898 — 18 July per fact-checker; radium note with Bémont, CR 127, 1215-1217, 26 Dec 1898). Radium Wikipedia gives 21 Dec as the lab date and 26 Dec as the announcement; body uses 26 Dec. PLACE: Paris, Municipal School of Industrial Physics and Chemistry (ESPCI), coordinates approximate (rue Vauquelin).\nCONFIRMED: Becquerel early 1896; electrometer/air conductivity method; pitchblende ~4x, chalcolite ~2x; April 1898 thorium, Schmidt earlier and independent; 14 April 1898 ~100 g sample; polonium bismuth-like ~400x; radium barium-like ~900x, Demarçay line, no line for polonium; 'apparent contradiction' with Carnot's principle (Dec note); 100 kg Joachimsthal residue via Suess from the Austrian government, later a tonne; shed = ex-dissecting room, 'miserable old shed'; Central Chemical Products company deal; >3 years, ~0.1 g radium chloride 1902; Nobel 1903 committee first meant Pierre + Becquerel, Mittag-Leffler; 1910 metal with Debierne; 1911 chemistry Nobel; Marckwald 1902/1905; half-life ~138 d; Tyuya-Muyun 1908, Khlopin end-1921, State Radium Institute Jan 1922, 17-20 g 1923-1936 (Physics Today).\nREVIEWER SHOULD CHECK: atomic weight 225 in 1902 (search snippets and fact-checker's general knowledge, no primary source fetched); 1903 date of Pierre Curie-Laborde heat measurement (CR 136, March 1903 per fact-checker, not fetched); Rutherford-Soddy transmutation and 1934 Joliot-Curie use of polonium alpha rays (standard, not fetched); 'committee first intended' vs 'first nomination named only' (nobelprize.org 403); Marie's 1934 death (Wikipedia: aplastic anaemia) written softly as 'a blood disease linked to her long exposure to radiation'. Khlopin's 1921 radium came from uranium material stored in Petrograd (Physics Today); body does not claim it came from Tyuya-Muyun ore.\nCENTRAL ASIA: Tyuya-Muyun mine (Fergana Valley edge, present-day Kyrgyzstan), Russia's first radioactive-minerals mine. Women: Marie Curie as co-author on equal footing, Irène Joliot-Curie, Radium Girls. Co-workers named: Bémont, Demarçay, Jacques Curie, Schmidt, Suess, Debierne, Marckwald, Laborde.\nIMAGES: cover 'Pierre Curie, by Marie Curie—Illustrations 2.jpg' (PD; credit 'Marie Curie, Henri Manuel (1874-1947)' — from her 1923 book; Manuel is the photographer of record, author line slightly thin). Figures: Science Museum quadrant electrometer (CC BY-SA 2.0); 'Illustrations 5.jpg' shed extraction (PD, credit only 'Marie Curie', book illustration — reviewer may want a fuller author line). Rejected Wellcome lab photos: credit field is a raw URL string.\nBUILDS_ON: roentgen-x-rays. mendeleev-periodic-table dropped (not mentioned in body). Suggestion: add curie-radium-polonium to rutherford-nucleus builds_on (that draft has none).\nKYRGYZ: glossary 'check' terms used: зат (matter/substance: 'активдүү зат'), кошулма (compound), далилдөө (далилденсе, далилдене элек). Name 'Мария Кюри' is in glossary as check. New terms not in glossary: радиоактивдүүлүк, уран чайыры (pitchblende), хальколит, висмут, барий, торий, спектр, электрометр, кварц, радий хлориди, атомдук салмак, сарай (shed), нурлануу (irradiation), циферблат.\nFACT-CHECKER (2026-11-22), applied in all four languages: (1) Bémont death 1937 -> 1932; (2) 'radioactivity' word moved from April to the July 1898 note's title, 'usually credited to Marie Curie'; (3) 100 kg came from the Austrian government via Suess, then a tonne more; (4) Bémont 'headed chemistry' -> 'a chemist at the school' (fr wiki: chef des travaux); (5) electrometer: piezoelectric quartz device used with Pierre's electrometer; (6) 'never isolated polonium' -> 'never obtained pure polonium'; Marckwald 'a few milligrams of a strongly active substance'; (7) 'burns on their hands' -> 'radium burns'; (8) KY 'анткени' softened to 'бир жагынан', 'далилдешкен' -> 'ойду айтышкан'.",
+  "translations": {
+    "en": {
+      "title": "Marie and Pierre Curie find polonium and radium",
+      "summary": "In 1898 Marie and Pierre Curie followed invisible rays through pitchblende ore to two new elements, polonium and radium. The rays came from inside the atom itself.",
+      "why_it_matters": "Radium and polonium showed that radioactivity comes from inside atoms, so atoms could change and hold great energy. Finding elements by measuring their rays founded radiochemistry.",
+      "if_you_were_there": "In 1897 atoms were thought to be unchangeable, and nobody knew why a lump of uranium salt kept giving off rays in a dark drawer, with nothing feeding it.",
+      "place_name": "Paris",
+      "body": "### The scene\n\nAt the end of 1895 Wilhelm Röntgen in Würzburg found X-rays, rays that passed through flesh and fogged photographic plates. A few months later, early in 1896, Henri Becquerel in Paris reported something stranger: salts of uranium fogged a wrapped photographic plate even in the dark, with no lamp, no sun and no electric tube to feed them. Becquerel's rays drew far less attention than Röntgen's, and most physicists soon moved on.\n\nMarie Skłodowska had come to Paris from Warsaw in 1891, from a Poland that was then divided between three empires and not a country of its own. By 1897 she had two degrees, was married to the physicist Pierre Curie, and needed a topic for a doctorate. She chose the neglected uranium rays, partly because there was little written about them yet and she could start experimenting at once. Her laboratory was a damp, crowded storeroom at the Paris Municipal School of Industrial Physics and Chemistry, where Pierre taught.\n\nHer tool came from the family. Around 1880 Pierre and his older brother Jacques had discovered that certain crystals, such as quartz, produce a tiny electric charge when they are squeezed. On this effect they built a quartz device that gives off a small, precisely known charge; together with Pierre's sensitive electrometer it could measure extremely weak electric currents. Instead of judging the rays by how dark a photographic plate turned, Marie measured how much the rays made the air conduct electricity. That gave her numbers, not impressions.\n\n![Quadrant electrometer built by Pierre Curie, 1880s, in the Science Museum, London](https://upload.wikimedia.org/wikipedia/commons/9/9d/Quadrant_electrometer_built_by_Pierre_Curie%2C_1880-1890._%289660571325%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Quadrant_electrometer_built_by_Pierre_Curie,_1880-1890._(9660571325).jpg\")\n\n### What happened\n\nHer measurements showed that the strength of the rays depended only on how much uranium a sample held. Wet or dry, powder or solid, mixed into one compound or another, it made no difference. From this she drew a bold idea: the rays were not the result of a chemical reaction between molecules, but a property of the uranium atom itself. In April 1898 she reported that thorium gave off the same kind of rays. Gerhard Carl Schmidt in Germany had published the same thorium result a little earlier, independently.\n\n> [!THEORY]\n> Saying that radioactivity is an \"atomic property\" was a bigger claim than it sounds. In 1898 the atom was supposed to be the smallest, unchangeable piece of an element, and chemistry happened between atoms, not inside them. If the rays came from the atom itself, then something was going on inside a thing that was supposed to have no inside.\n\nThen came the surprise that turned a thesis into a discovery. She tested minerals as well as pure compounds, and two uranium ores, pitchblende and chalcolite, were more active than pure uranium: pitchblende about four times, chalcolite about twice. If the activity belonged to uranium atoms, an ore could not beat pure uranium, unless it contained something else, something far more active, in amounts too small for any chemist to have noticed.\n\nAt this point Pierre put aside his own research on crystals and joined her. In mid-April 1898 they weighed out a first sample of pitchblende, about 100 grams, and began to take it apart. The method was new: dissolve the ore, split it chemically into fractions, measure every fraction with the electrometer, keep the active part and split it again. The radioactivity itself was the trail.\n\nIn July 1898 they reported a substance that followed bismuth in every chemical step, but was about 400 times more active than uranium. If it proved to be a new element, they wrote, it should be called polonium, after the country of one of the authors. The title of that note carried a new word, radio-active, usually credited to Marie Curie. Naming it after Poland was a way of putting a country that did not exist on the map of chemistry.\n\nOn 26 December 1898 a second note followed, this time signed with Gustave Bémont, a chemist at the school. A second active substance travelled with barium, and its activity had been pushed to about 900 times that of uranium. They proposed the name radium, from the Latin word for ray. Eugène Demarçay, a specialist in spectra, the pattern of light each element gives off in an electric spark, found a line in its spectrum that belonged to no known element. For polonium he had found no such line, and that gap would trouble polonium for years.\n\nImagine looking for a single phone in a warehouse full of identical boxes, with only its ringing to guide you. You split the boxes into two piles, listen to which pile rings louder, split that pile again, and so on. That is how the Curies hunted with their electrometer. The comparison breaks in two places: a ringing phone is still a phone you can pick up, while for chemists an element nobody could hold or weigh was not yet proven; and radioactive \"phones\" quietly disappear as they ring, which made polonium, half of which is gone in about 138 days, especially hard to catch.\n\n### Why it was hard\n\nHearing the ring was one thing. Chemists wanted the element itself, a pure sample whose atomic weight they could measure, and a tonne of pitchblende holds only about a seventh of a gram of radium. To get enough, the Curies needed tonnes of ore. Pitchblende came from the mines of Joachimsthal, in what was then Austria and is now Jáchymov in the Czech Republic. Through the Viennese geologist Eduard Suess, the Austrian government gave them first 100 kilograms of mine residues, from which the uranium had already been extracted but the radium and polonium had not, and later a tonne more.\n\nThere was no room for this in the storeroom. They moved into an abandoned shed across the school courtyard, a former dissecting room of the medical faculty, badly ventilated and not even watertight. Marie later called it a \"miserable old shed\". There she treated the ore batch by batch, separating radium from barium by crystallising the mixture over and over, each time a little richer in radium. A chemical company supplied materials and paid for helpers in return for a share of the radium salts. It took her more than three years. In 1902 she had about a tenth of a gram of radium chloride, pure enough to measure an atomic weight of about 225, close to today's value of 226.\n\n![The extraction of radium in the old shed where the first radium was obtained, from Marie Curie's book \"Pierre Curie\" (1923)](https://upload.wikimedia.org/wikipedia/commons/5/5d/Pierre_Curie%2C_by_Marie_Curie%E2%80%94Illustrations_5.jpg \"Marie Curie · Public domain · https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie—Illustrations_5.jpg\")\n\nRecognition came unevenly. In 1903, the year Marie defended her doctorate, the Nobel Prize in Physics went to Becquerel and to both Curies, but the committee had first intended to honour only Pierre and Becquerel. The mathematician Gösta Mittag-Leffler warned Pierre, Pierre insisted, and Marie's name was added. In 1906 Pierre was killed in a street accident in Paris. Marie carried on, and in 1910, with her colleague André-Louis Debierne, she produced radium as a pure metal. In 1911 she received a second Nobel Prize, in chemistry, for polonium and radium. Pure polonium she never obtained; a German chemist, Willy Marckwald, obtained a few milligrams of a strongly active substance in 1902 under another name, and only in 1905 was it shown to be the same element.\n\n> [!WARNING]\n> Nobody knew how dangerous these substances were. Both Curies suffered radium burns. Marie Curie died in 1934 of a blood disease linked to her long exposure to radiation. In the 1920s American factory workers who painted watch dials with radium paint, the \"Radium Girls\", fell ill and sued, and their case helped bring in protection rules for people who work with radiation.\n\n### What it opened\n\nThe Curies' December note had already pointed at the deepest puzzle: radium kept giving off energy with no visible source, which they called an apparent contradiction of the laws of heat. In 1903 Pierre and his student Albert Laborde showed that radium steadily releases heat. In Montreal, Ernest Rutherford and Frederick Soddy argued that radioactive atoms turn into atoms of other elements as they give off their rays. The atom was neither uncuttable nor unchanging, and the energy hidden inside it was enormous. Rays from radioactive substances then became tools for probing atoms, on the road to Rutherford's nucleus in 1911, and in 1934 Irène Joliot-Curie, Marie's daughter, and her husband Frédéric used polonium's rays to make radioactivity artificially.\n\nThe search for radium also reached Central Asia. In 1908 a company began mining Tyuya-Muyun, on the edge of the Fergana Valley in present-day Kyrgyzstan, the Russian Empire's first mine for radioactive minerals. At the end of 1921 in Petrograd the chemist Vitaly Khlopin extracted the first radium produced in the country, and in January 1922 the State Radium Institute was founded, with Vladimir Vernadsky as director and Khlopin as his deputy. Tyuya-Muyun's ore was poor, but between 1923 and 1936 it yielded roughly 17 to 20 grams of radium.\n\nRadium itself was soon used, and misused: in cancer treatment, in luminous paint, and in quack \"radium water\" and cosmetics. For decades the unit of radioactivity, the curie, was defined by the activity of one gram of radium. The lasting gift of 1898, though, was the method: a new element found not by its colour, smell or weight, but by measuring its rays, a way of working that founded radiochemistry.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Marie ve Pierre Curie polonyumu ve radyumu buluyor",
+      "summary": "1898'de Marie ve Pierre Curie görünmez ışınların izini pechblend cevherinde sürüp iki yeni elemente, polonyum ve radyuma ulaştı. Işınlar atomun kendi içinden geliyordu.",
+      "why_it_matters": "Radyum ve polonyum, radyoaktivitenin atomun içinden geldiğini gösterdi: atomlar değişebilir ve büyük enerji taşıyabilirdi. Elementleri ışınlarını ölçerek bulmak radyokimyayı kurdu.",
+      "if_you_were_there": "1897'de atomlar değişmez sayılıyordu ve karanlık bir çekmecedeki uranyum tuzunun, onu besleyen hiçbir şey yokken neden ışın yaymayı sürdürdüğünü kimse bilmiyordu.",
+      "place_name": "Paris",
+      "body": "### Sahne\n\n1895'in sonunda Würzburg'da Wilhelm Röntgen X ışınlarını buldu: ete işleyen ve fotoğraf plakalarını karartan ışınlar. Birkaç ay sonra, 1896'nın başında, Paris'te Henri Becquerel daha tuhaf bir şey bildirdi: uranyum tuzları, sarılı bir fotoğraf plakasını karanlıkta bile karartıyordu; ortada onları besleyen ne lamba ne güneş ne de elektrikli bir tüp vardı. Becquerel'in ışınları Röntgen'inkiler kadar ilgi görmedi ve fizikçilerin çoğu kısa sürede başka konulara geçti.\n\nMarie Skłodowska 1891'de Varşova'dan Paris'e gelmişti. Geldiği Polonya o sırada üç imparatorluk arasında bölünmüştü, kendi devleti yoktu. 1897'ye gelindiğinde iki diploması vardı, fizikçi Pierre Curie ile evliydi ve doktora için bir konu arıyordu. İhmal edilmiş uranyum ışınlarını seçti; biraz da bu konuda henüz pek az şey yazıldığı ve hemen deneye başlayabileceği için. Laboratuvarı, Pierre'in ders verdiği Paris Belediyesi Endüstriyel Fizik ve Kimya Okulu'nda nemli, dolu bir depo odasıydı.\n\nAleti aileden geldi. 1880 dolaylarında Pierre ile ağabeyi Jacques, kuvars gibi bazı kristallerin sıkıştırıldığında çok küçük bir elektrik yükü ürettiğini keşfetmişlerdi. Bu etkiyle küçük ve tam bilinen bir yük veren bir kuvars düzeneği kurdular; Pierre'in hassas elektrometresiyle birlikte son derece zayıf elektrik akımlarını ölçebiliyordu. Marie ışınları bir fotoğraf plakasının ne kadar karardığına bakarak değerlendirmek yerine, ışınların havayı ne kadar iletken yaptığını ölçtü. Bu ona izlenim değil, sayı verdi.\n\n![Pierre Curie'nin yaptığı kadranlı elektrometre, 1880'ler, Londra Bilim Müzesi](https://upload.wikimedia.org/wikipedia/commons/9/9d/Quadrant_electrometer_built_by_Pierre_Curie%2C_1880-1890._%289660571325%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Quadrant_electrometer_built_by_Pierre_Curie,_1880-1890._(9660571325).jpg\")\n\n### Ne oldu\n\nÖlçümleri, ışınların gücünün yalnızca bir örnekteki uranyum miktarına bağlı olduğunu gösterdi. Islak ya da kuru, toz ya da katı, şu bileşiğe ya da bu bileşiğe karışmış: fark etmiyordu. Buradan cesur bir fikre vardı: ışınlar moleküller arasındaki bir kimyasal tepkimenin sonucu değil, uranyum atomunun kendisinin bir özelliğiydi. Nisan 1898'de toryumun da aynı türden ışınlar yaydığını bildirdi. Almanya'da Gerhard Carl Schmidt aynı toryum sonucunu, ondan bağımsız olarak, biraz daha önce yayımlamıştı.\n\n> [!THEORY]\n> Radyoaktivitenin bir \"atom özelliği\" olduğunu söylemek, kulağa geldiğinden büyük bir iddiaydı. 1898'de atom, bir elementin en küçük ve değişmez parçası sayılıyordu; kimya atomların arasında olurdu, içinde değil. Işınlar atomun kendisinden geliyorsa, içi olmaması gereken bir şeyin içinde bir şeyler oluyordu.\n\nSonra bir tezi keşfe çeviren sürpriz geldi. Saf bileşiklerin yanında mineralleri de denedi ve iki uranyum cevheri, pechblend (uraninit) ile kalkolit, saf uranyumdan daha etkin çıktı: pechblend yaklaşık dört kat, kalkolit yaklaşık iki kat. Etkinlik uranyum atomlarına aitse, bir cevher saf uranyumu geçemezdi; meğer içinde başka bir şey, çok daha etkin bir şey, hiçbir kimyacının fark edemeyeceği kadar küçük miktarda bulunsun.\n\nBu noktada Pierre kendi kristal araştırmalarını bir kenara bırakıp ona katıldı. Nisan 1898'in ortasında ilk pechblend örneğini, yaklaşık 100 gramı tarttılar ve parçalamaya başladılar. Yöntem yeniydi: cevheri çöz, kimyasal olarak bölümlere ayır, her bölümü elektrometreyle ölç, etkin kısmı tut ve yeniden ayır. İz, radyoaktivitenin kendisiydi.\n\nTemmuz 1898'de, her kimyasal adımda bizmutla birlikte giden ama uranyumdan yaklaşık 400 kat daha etkin bir madde bildirdiler. Yeni bir element olduğu kanıtlanırsa, diye yazdılar, yazarlardan birinin ülkesinin adıyla polonyum denmeliydi. Bu notun başlığında yeni bir sözcük vardı: radyoaktif. Sözcük genellikle Marie Curie'ye atfedilir. Ona Polonya'nın adını vermek, var olmayan bir ülkeyi kimyanın haritasına koymanın bir yoluydu.\n\n26 Aralık 1898'de ikinci bir not geldi, bu kez okulun kimyacılarından Gustave Bémont'un da imzasıyla. İkinci etkin madde baryumla birlikte gidiyordu ve etkinliği uranyumunkinin yaklaşık 900 katına çıkarılmıştı. Ona Latincede \"ışın\" anlamına gelen sözcükten radyum adını önerdiler. Tayf uzmanı Eugène Demarçay, yani her elementin bir elektrik kıvılcımında verdiği ışık desenini inceleyen bilim insanı, onun tayfında bilinen hiçbir elemente ait olmayan bir çizgi buldu. Polonyumda böyle bir çizgi bulamamıştı ve bu boşluk polonyumun yakasını yıllarca bırakmayacaktı.\n\nAynı kutularla dolu bir depoda tek bir telefonu, yalnızca çalan sesinden yola çıkarak aradığınızı düşünün. Kutuları iki yığına ayırırsınız, hangisinin daha yüksek çaldığını dinlersiniz, o yığını yeniden ikiye ayırırsınız, böyle sürer. Curie'ler elektrometreleriyle tam böyle avlandı. Benzetme iki yerde bozulur: çalan telefon yine de elinize alabileceğiniz bir telefondur, oysa kimyacılar için kimsenin tutamadığı ve tartamadığı bir element henüz kanıtlanmış değildi; üstelik radyoaktif \"telefonlar\" çaldıkça sessizce yok olur. Yarısı yaklaşık 138 günde ortadan kalkan polonyumu yakalamayı özellikle bu zorlaştırdı.\n\n### Neden zordu\n\nSesi duymak bir şeydi. Kimyacılar elementin kendisini istiyordu: atom ağırlığı ölçülebilecek saf bir örnek. Oysa bir ton pechblend yalnızca yaklaşık yedide bir gram radyum içerir. Yeterince elde etmek için Curie'lerin tonlarca cevhere ihtiyacı vardı. Pechblend, o zaman Avusturya'ya bağlı olan, bugün Çek Cumhuriyeti'ndeki Jáchymov olan Joachimsthal madenlerinden geliyordu. Viyanalı jeolog Eduard Suess'in aracılığıyla Avusturya hükümeti onlara önce 100 kilogram maden artığı verdi; bunların uranyumu çıkarılmıştı ama radyumu ve polonyumu duruyordu. Sonra bir ton daha geldi.\n\nDepo odasında buna yer yoktu. Okulun avlusunun karşısındaki terk edilmiş bir barakaya taşındılar: tıp fakültesinin eski bir kadavra salonu, havasız ve su bile geçiren bir yer. Marie sonradan ona \"sefil eski baraka\" dedi. Orada cevheri parti parti işledi; radyumu baryumdan ayırmak için karışımı tekrar tekrar kristallendirdi, her seferinde radyumca biraz daha zengin. Bir kimya şirketi, radyum tuzlarından pay alma karşılığında malzeme verdi ve yardımcıların ücretini ödedi. Üç yıldan uzun sürdü. 1902'de elinde yaklaşık onda bir gram radyum klorür vardı; atom ağırlığını ölçmeye yetecek kadar saf: yaklaşık 225, bugünkü 226 değerine yakın.\n\n![İlk radyumun elde edildiği eski barakada radyum çıkarma işi, Marie Curie'nin \"Pierre Curie\" kitabından (1923)](https://upload.wikimedia.org/wikipedia/commons/5/5d/Pierre_Curie%2C_by_Marie_Curie%E2%80%94Illustrations_5.jpg \"Marie Curie · Public domain · https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie—Illustrations_5.jpg\")\n\nTakdir eşit gelmedi. Marie'nin doktorasını savunduğu 1903 yılında Nobel Fizik Ödülü Becquerel'e ve iki Curie'ye verildi; ama komite önce yalnızca Pierre ile Becquerel'i ödüllendirmeyi düşünmüştü. Matematikçi Gösta Mittag-Leffler Pierre'i uyardı, Pierre ısrar etti ve Marie'nin adı eklendi. 1906'da Pierre Paris'te bir sokak kazasında öldü. Marie çalışmayı sürdürdü ve 1910'da meslektaşı André-Louis Debierne ile radyumu saf metal olarak elde etti. 1911'de polonyum ve radyum için ikinci bir Nobel, bu kez kimya ödülü aldı. Saf polonyumu ise hiçbir zaman elde edemedi; Alman kimyacı Willy Marckwald 1902'de başka bir adla birkaç miligram güçlü etkin madde elde etti, bunun aynı element olduğu ancak 1905'te gösterildi.\n\n> [!WARNING]\n> Bu maddelerin ne kadar tehlikeli olduğunu kimse bilmiyordu. İki Curie'de de radyum yanıkları oldu. Marie Curie 1934'te, radyasyona uzun süre maruz kalmasıyla ilişkilendirilen bir kan hastalığından öldü. 1920'lerde saat kadranlarını radyumlu boyayla boyayan Amerikalı fabrika işçileri, \"Radyum Kızları\", hastalandı ve dava açtı; davaları, radyasyonla çalışanlar için koruma kurallarının gelmesine yardım etti.\n\n### Sonrası\n\nCurie'lerin aralık notu en derin bilmeceyi zaten göstermişti: radyum, görünür bir kaynağı olmadan enerji vermeyi sürdürüyordu; bunu ısı yasalarıyla görünüşte bir çelişki diye adlandırdılar. 1903'te Pierre ile öğrencisi Albert Laborde, radyumun durmadan ısı saldığını gösterdi. Montreal'de Ernest Rutherford ve Frederick Soddy, radyoaktif atomların ışın yayarken başka elementlerin atomlarına dönüştüğünü savundu. Atom ne bölünmezdi ne de değişmez; içinde saklı enerji muazzamdı. Radyoaktif maddelerin ışınları bundan sonra atomları yoklamanın aletleri oldu; bu yol 1911'de Rutherford'un çekirdeğine çıktı. 1934'te Marie'nin kızı Irène Joliot-Curie ve eşi Frédéric, polonyumun ışınlarını kullanarak radyoaktiviteyi yapay olarak ürettiler.\n\nRadyum arayışı Orta Asya'ya da ulaştı. 1908'de bir şirket, bugünkü Kırgızistan'da Fergana Vadisi'nin kenarındaki Tüya-Muyun'da maden çıkarmaya başladı: Rus İmparatorluğu'nun ilk radyoaktif mineral madeni. 1921'in sonunda Petrograd'da kimyacı Vitaliy Hlopin ülkede üretilen ilk radyumu elde etti ve Ocak 1922'de, müdürü Vladimir Vernadskiy, yardımcısı Hlopin olan Devlet Radyum Enstitüsü kuruldu. Tüya-Muyun'un cevheri fakirdi, ama 1923 ile 1936 arasında kabaca 17 ila 20 gram radyum verdi.\n\nRadyum kısa sürede kullanıldı, kötüye de kullanıldı: kanser tedavisinde, ışıklı boyalarda, şarlatanların \"radyumlu su\"larında ve kozmetiklerde. Onlarca yıl boyunca radyoaktivite birimi olan curie, bir gram radyumun etkinliğiyle tanımlandı. Yine de 1898'in kalıcı armağanı yöntemdi: yeni bir elementi rengiyle, kokusuyla ya da ağırlığıyla değil, ışınlarını ölçerek bulmak. Bu çalışma biçimi radyokimyayı kurdu.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Мария и Пьер Кюри открывают полоний и радий",
+      "summary": "В 1898 году Мария и Пьер Кюри прошли по следу невидимых лучей сквозь урановую руду к двум новым элементам, полонию и радию. Лучи шли из самого атома.",
+      "why_it_matters": "Радий и полоний показали, что радиоактивность идёт изнутри атома: атомы могут меняться и хранить огромную энергию. Поиск элементов по их лучам положил начало радиохимии.",
+      "if_you_were_there": "В 1897 году атомы считались неизменными, и никто не знал, почему кусок урановой соли в тёмном ящике всё испускает лучи, хотя его ничто не питает.",
+      "place_name": "Париж",
+      "body": "### Обстановка\n\nВ конце 1895 года Вильгельм Рентген в Вюрцбурге открыл икс-лучи: лучи, которые проходили сквозь тело и засвечивали фотопластинки. Через несколько месяцев, в начале 1896 года, Анри Беккерель в Париже сообщил о чём-то ещё более странном: соли урана засвечивали завёрнутую фотопластинку даже в темноте, хотя их не питали ни лампа, ни солнце, ни электрическая трубка. Лучи Беккереля привлекли гораздо меньше внимания, чем рентгеновские, и большинство физиков вскоре занялись другим.\n\nМария Склодовская приехала в Париж из Варшавы в 1891 году, из Польши, которая тогда была разделена между тремя империями и не имела своего государства. К 1897 году у неё было два диплома, она была замужем за физиком Пьером Кюри, и ей нужна была тема для докторской диссертации. Она выбрала забытые урановые лучи, отчасти потому, что о них ещё мало было написано и можно было сразу начать опыты. Её лабораторией стала сырая, тесная кладовая в Парижской муниципальной школе промышленной физики и химии, где преподавал Пьер.\n\nИнструмент нашёлся в семье. Около 1880 года Пьер и его старший брат Жак открыли, что некоторые кристаллы, например кварц, при сжатии дают крошечный электрический заряд. На этом эффекте они построили кварцевое устройство, дающее небольшой, точно известный заряд; вместе с чувствительным электрометром Пьера оно позволяло измерять чрезвычайно слабые токи. Мария оценивала лучи не по тому, насколько потемнела фотопластинка, а по тому, насколько они делают воздух проводником электричества. Это давало ей числа, а не впечатления.\n\n![Квадрантный электрометр, построенный Пьером Кюри, 1880-е годы, Музей науки в Лондоне](https://upload.wikimedia.org/wikipedia/commons/9/9d/Quadrant_electrometer_built_by_Pierre_Curie%2C_1880-1890._%289660571325%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Quadrant_electrometer_built_by_Pierre_Curie,_1880-1890._(9660571325).jpg\")\n\n### Что произошло\n\nИзмерения показали, что сила лучей зависит только от того, сколько урана в образце. Влажный или сухой, порошок или кусок, в одном соединении или в другом: разницы не было. Отсюда она сделала смелый вывод: лучи не результат химической реакции между молекулами, а свойство самого атома урана. В апреле 1898 года она сообщила, что торий испускает такие же лучи. Герхард Карл Шмидт в Германии независимо опубликовал тот же результат о тории немного раньше.\n\n> [!THEORY]\n> Сказать, что радиоактивность — «свойство атома», было куда более смелым утверждением, чем кажется. В 1898 году атом считался мельчайшей неизменной частицей элемента, а химия происходила между атомами, а не внутри них. Если лучи шли из самого атома, значит, что-то происходило внутри того, у чего не должно было быть «внутри».\n\nЗатем пришёл сюрприз, превративший диссертацию в открытие. Кроме чистых соединений она проверяла и минералы, и две урановые руды, урановая смолка и хальколит, оказались активнее чистого урана: смолка примерно в четыре раза, хальколит примерно в два. Если активность принадлежит атомам урана, руда не может превзойти чистый уран, разве что в ней есть что-то ещё, гораздо более активное, в количествах, слишком малых, чтобы химики это заметили.\n\nТогда Пьер отложил собственные исследования кристаллов и присоединился к ней. В середине апреля 1898 года они отвесили первый образец смолки, около 100 граммов, и начали его разбирать. Метод был новым: растворить руду, химически разделить её на фракции, измерить каждую электрометром, оставить активную часть и снова разделить. Следом служила сама радиоактивность.\n\nВ июле 1898 года они сообщили о веществе, которое на каждом химическом шаге шло вместе с висмутом, но было примерно в 400 раз активнее урана. Если подтвердится, что это новый элемент, писали они, его следует назвать полонием, по стране одного из авторов. В заголовке этой заметки стояло новое слово — «радиоактивный»; его обычно приписывают Марии Кюри. Назвать элемент в честь Польши значило поставить страну, которой не было на политической карте, на карту химии.\n\n26 декабря 1898 года последовала вторая заметка, на этот раз подписанная и Гюставом Бемоном, химиком той же школы. Второе активное вещество шло вместе с барием, а его активность удалось поднять примерно до 900 раз выше урановой. Они предложили название радий, от латинского слова «луч». Эжен Демарсе, специалист по спектрам, то есть по узору света, который каждый элемент даёт в электрической искре, нашёл в его спектре линию, не принадлежавшую ни одному известному элементу. У полония такой линии он не нашёл, и этот пробел преследовал полоний годами.\n\nПредставьте, что вы ищете один телефон на складе, полном одинаковых коробок, и подсказка у вас только одна — его звонок. Вы делите коробки на две кучи, слушаете, какая звонит громче, делите её снова, и так далее. Так Кюри охотились со своим электрометром. Сравнение ломается в двух местах: звонящий телефон всё же можно взять в руки, а для химиков элемент, который никто не мог подержать и взвесить, ещё не был доказан; к тому же радиоактивные «телефоны» тихо исчезают, пока звонят. Это особенно мешало поймать полоний, половина которого пропадает примерно за 138 дней.\n\n### Почему это было трудно\n\nУслышать звонок — одно. Химикам нужен был сам элемент, чистый образец, у которого можно измерить атомный вес, а в тонне урановой смолки всего около седьмой части грамма радия. Чтобы получить достаточно, Кюри нужны были тонны руды. Смолка шла с рудников Иоахимсталя, тогда в Австрии, а сегодня это Яхимов в Чехии. При посредничестве венского геолога Эдуарда Зюсса австрийское правительство передало им сначала 100 килограммов рудных отходов, из которых уран уже извлекли, а радий и полоний остались, а позже ещё тонну.\n\nВ кладовой для этого места не было. Они перебрались в заброшенный сарай через двор школы, бывший анатомический зал медицинского факультета, плохо проветриваемый и даже протекавший. Позже Мария называла его «жалким старым сараем». Там она перерабатывала руду партия за партией, отделяя радий от бария многократной кристаллизацией, каждый раз получая смесь чуть богаче радием. Химическая компания поставляла материалы и платила помощникам в обмен на долю радиевых солей. Работа заняла больше трёх лет. В 1902 году у неё было около десятой доли грамма хлорида радия, достаточно чистого, чтобы измерить атомный вес: около 225, близко к сегодняшнему значению 226.\n\n![Извлечение радия в старом сарае, где был получен первый радий, из книги Марии Кюри «Пьер Кюри» (1923)](https://upload.wikimedia.org/wikipedia/commons/5/5d/Pierre_Curie%2C_by_Marie_Curie%E2%80%94Illustrations_5.jpg \"Marie Curie · Public domain · https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie—Illustrations_5.jpg\")\n\nПризнание пришло неравно. В 1903 году, когда Мария защитила диссертацию, Нобелевская премия по физике досталась Беккерелю и обоим Кюри, но сначала комитет собирался наградить только Пьера и Беккереля. Математик Гёста Миттаг-Леффлер предупредил Пьера, Пьер настоял, и имя Марии добавили. В 1906 году Пьер погиб в уличной катастрофе в Париже. Мария продолжила работу и в 1910 году вместе с коллегой Андре-Луи Дебьерном получила радий в виде чистого металла. В 1911 году она получила вторую Нобелевскую премию, по химии, за полоний и радий. Чистого полония она так и не получила; немецкий химик Вилли Марквальд в 1902 году получил несколько миллиграммов сильно активного вещества под другим названием, и лишь в 1905 году было показано, что это тот же элемент.\n\n> [!WARNING]\n> Никто не знал, насколько опасны эти вещества. У обоих Кюри были радиевые ожоги. Мария Кюри умерла в 1934 году от болезни крови, которую связывают с её долгим облучением. В 1920-х годах американские работницы, раскрашивавшие циферблаты часов радиевой краской, «радиевые девушки», заболели и подали в суд; их дело помогло ввести правила защиты для людей, работающих с излучением.\n\n### Что это открыло\n\nДекабрьская заметка Кюри уже указывала на самую глубокую загадку: радий непрерывно выделял энергию без видимого источника, что они назвали кажущимся противоречием законам теплоты. В 1903 году Пьер и его ученик Альбер Лаборд показали, что радий постоянно выделяет тепло. В Монреале Эрнест Резерфорд и Фредерик Содди доказывали, что радиоактивные атомы, испуская лучи, превращаются в атомы других элементов. Атом оказался не неделимым и не неизменным, а скрытая в нём энергия огромной. Лучи радиоактивных веществ стали инструментом для исследования атомов, и этот путь привёл к ядру Резерфорда в 1911 году, а в 1934 году дочь Марии Ирен Жолио-Кюри и её муж Фредерик с помощью лучей полония получили искусственную радиоактивность.\n\nПоиски радия дошли и до Средней Азии. В 1908 году компания начала добычу на Тюя-Муюне, на краю Ферганской долины, на территории нынешнего Кыргызстана: это был первый в Российской империи рудник радиоактивных минералов. В конце 1921 года в Петрограде химик Виталий Хлопин получил первый отечественный радий, а в январе 1922 года был основан Государственный радиевый институт, директором которого стал Владимир Вернадский, а заместителем Хлопин. Руда Тюя-Муюна была бедной, но с 1923 по 1936 год дала примерно 17–20 граммов радия.\n\nРадий вскоре начали применять и злоупотреблять им: в лечении рака, в светящихся красках, в шарлатанской «радиевой воде» и косметике. Десятилетиями единица радиоактивности, кюри, определялась через активность одного грамма радия. Но главным наследием 1898 года стал метод: новый элемент нашли не по цвету, запаху или весу, а по измерению его лучей. Этот способ работы положил начало радиохимии.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Мария жана Пьер Кюри полоний менен радийди ачышат",
+      "summary": "1898-жылы Мария жана Пьер Кюри көзгө көрүнбөгөн нурлардын изи менен уран кенинен эки жаңы элементти, полоний менен радийди табышкан. Нурлар атомдун өзүнөн чыккан.",
+      "why_it_matters": "Радий менен полоний радиоактивдүүлүк атомдун ичинен чыгарын көрсөттү: атомдор өзгөрүп, зор энергия сакташы мүмкүн. Элементтерди нурларын өлчөп табуу радиохимиянын башталышы болду.",
+      "if_you_were_there": "1897-жылы атомдор өзгөрбөйт деп эсептелчү, жана караңгы суурмадагы уран тузу эч нерсе азыктандырбаса да эмне үчүн нур чыгара беретинин эч ким билген эмес.",
+      "place_name": "Париж",
+      "body": "### Көрүнүш\n\n1895-жылдын аягында Вюрцбургда Вильгельм Рентген икс нурларын ачкан: алар денеден өтүп, фотопластинкаларды караңгылатчу. Бир нече айдан кийин, 1896-жылдын башында, Парижде Анри Беккерель андан да кызык нерсе жөнүндө кабарлаган: уран туздары оролгон фотопластинканы караңгыда да караңгылатып жатты, ал эми аларды азыктандырган чырак да, күн да, электр түтүгү да жок болчу. Беккерелдин нурлары Рентгендикиндей көңүл бурдурган эмес, физиктердин көбү бат эле башка темаларга өтүп кеткен.\n\nМария Склодовская Парижге Варшавадан 1891-жылы келген. Ал келген Польша ошол кезде үч империянын ортосунда бөлүнүп, өз мамлекети жок эле. 1897-жылга чейин анын эки дипломы бар болчу, ал физик Пьер Кюриге турмушка чыккан жана докторлук иш үчүн тема издеп жүргөн. Ал көңүл сыртында калган уран нурларын тандаган; бир жагынан, алар жөнүндө азырынча аз жазылгандыктан, тажрыйбаны дароо баштаса болмок. Анын лабораториясы Пьер сабак берген Париждин өнөр жай физикасы жана химиясы шаардык мектебиндеги нымдуу, тыгыз кампа бөлмө болгон.\n\nАспап үй-бүлөдөн чыккан. Болжол менен 1880-жылы Пьер жана анын агасы Жак кварц сыяктуу айрым кристаллдар кысылганда өтө кичинекей электр заряды пайда болорун ачышкан. Ушул көрүнүштүн негизинде алар кичинекей, так белгилүү заряд берген кварц түзүлүшүн курушкан; Пьердин сезгич электрометри менен бирге ал өтө начар электр токторун өлчөй алчу. Мария нурларды фотопластинка канчалык караңгыланганы боюнча баалаган жок, нурлар абаны электрди канчалык өткөрө турган кылганын өлчөдү. Бул ага таасир эмес, сандарды берген.\n\n![Пьер Кюри курган квадранттык электрометр, 1880-жылдар, Лондондогу Илим музейи](https://upload.wikimedia.org/wikipedia/commons/9/9d/Quadrant_electrometer_built_by_Pierre_Curie%2C_1880-1890._%289660571325%29.jpg \"Science Museum London / Science and Society Picture Library · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Quadrant_electrometer_built_by_Pierre_Curie,_1880-1890._(9660571325).jpg\")\n\n### Эмне болду\n\nӨлчөөлөр нурлардын күчү үлгүдөгү урандын көлөмүнө гана көз каранды экенин көрсөткөн. Нымдуубу же кургакпы, порошокпу же катуу кесекпи, бир кошулмадабы же башкасындабы — айырма жок болчу. Мындан ал батыл ойго келген: нурлар молекулалардын ортосундагы химиялык реакциянын натыйжасы эмес, уран атомунун өзүнүн касиети. 1898-жылдын апрелинде ал торий да ушундай нурларды чыгарарын кабарлаган. Германияда Герхард Карл Шмидт торий жөнүндөгү ошол эле натыйжаны андан көз карандысыз, бир аз мурунураак жарыялаган.\n\n> [!THEORY]\n> Радиоактивдүүлүк «атомдун касиети» деп айтуу угулгандан алда канча чоң дооматы болгон. 1898-жылы атом элементтин эң кичине, өзгөрбөс бөлүгү деп эсептелчү, химия атомдордун ортосунда жүрөт, ичинде эмес. Эгер нурлар атомдун өзүнөн чыкса, анда ичи болбошу керек болгон нерсенин ичинде бир нерсе болуп жатат.\n\nАндан кийин диссертацияны ачылышка айланткан күтүлбөгөн нерсе болду. Ал таза кошулмалардан тышкары минералдарды да текшерген, жана эки уран кени, уран чайыры (настуран) менен хальколит, таза урандан активдүүрөөк чыккан: чайыр болжол менен төрт эсе, хальколит болжол менен эки эсе. Эгер активдүүлүк уран атомдоруна таандык болсо, кен таза урандан ашып кете албайт — анын ичинде башка бир нерсе, алда канча активдүү, бирок эч бир химик байкабагыдай аз өлчөмдө болбосо.\n\nУшул учурда Пьер кристаллдар боюнча өз изилдөөсүн токтотуп, ага кошулган. 1898-жылдын апрелинин ортосунда алар чайырдын биринчи үлгүсүн, болжол менен 100 граммды таразага тартып, аны ажырата башташкан. Ыкма жаңы болчу: кенди эритүү, химиялык жол менен бөлүктөргө бөлүү, ар бир бөлүктү электрометр менен өлчөө, активдүү бөлүгүн калтырып, кайра бөлүү. Изди радиоактивдүүлүктүн өзү көрсөткөн.\n\n1898-жылдын июлунда алар ар бир химиялык кадамда висмут менен бирге жүргөн, бирок урандан болжол менен 400 эсе активдүү зат жөнүндө кабарлашкан. Эгер бул жаңы элемент экени далилденсе, деп жазышкан, аны авторлордун биринин мекенинин атынан полоний деп атоо керек. Бул кабардын аталышында жаңы сөз бар эле: «радиоактивдүү». Бул сөз көбүнчө Мария Кюриге таандык деп эсептелет. Аны Польшанын атынан атоо — саясий картада жок өлкөнү химиянын картасына коюунун бир жолу болгон.\n\n1898-жылдын 26-декабрында экинчи кабар чыккан, бул жолу ошол эле мектептин химиги Гюстав Бемондун да колу менен. Экинчи активдүү зат барий менен бирге жүргөн, анын активдүүлүгү урандыкынан болжол менен 900 эсеге чейин көтөрүлгөн. Алар латынча «нур» дегенден радий деген атты сунушташкан. Спектрлер боюнча адис Эжен Демарсе, башкача айтканда ар бир элемент электр учкунунда берген жарык оймо-чиймесин изилдеген окумуштуу, анын спектринен эч бир белгилүү элементке таандык эмес сызыкты тапкан. Полонийден мындай сызык таппаган, жана бул боштук полонийди көп жылдар бою тынчсыздандырып келген.\n\nБирдей кутулар толгон кампадан бир гана телефонду анын шыңгырынан гана улам издеп жатканыңызды элестетиңиз. Кутуларды эки үймөккө бөлөсүз, кайсынысы катуураак шыңгырап жатканын угасыз, ошол үймөктү кайра экиге бөлөсүз, ушинтип уланат. Кюрилер электрометри менен дал ушундай издешкен. Салыштыруу эки жерден бузулат: шыңгыраган телефонду баары бир колго алса болот, ал эми химиктер үчүн эч ким кармай да, тараза менен тарта да албаган элемент азырынча далилдене элек болчу; анын үстүнө радиоактивдүү «телефондор» шыңгырап жатып акырындап жок болот. Жарымы болжол менен 138 күндө жок болуп кеткен полонийди кармоону ушул өзгөчө кыйындаткан.\n\n### Эмне үчүн кыйын болду\n\nШыңгырды угуу бир нерсе. Химиктерге элементтин өзү керек болчу: атомдук салмагын өлчөй турган таза үлгү. Ал эми бир тонна уран чайырында болгону болжол менен граммдын жетиден бир бөлүгүндөй радий бар. Жетиштүү алуу үчүн Кюрилерге тонналаган кен керек болгон. Чайыр ошол кезде Австрияга караган, азыр Чехиядагы Яхимов болгон Иоахимсталь кендеринен келген. Вена геологу Эдуард Зюсстун ортомчулугу менен Австрия өкмөтү аларга адегенде 100 килограмм кен калдыгын берген: андан уран буга чейин бөлүнүп алынган, бирок радий менен полоний калган. Кийинчерээк дагы бир тонна келген.\n\nКампа бөлмөдө буга орун жок эле. Алар мектептин короосунун аркы өйүзүндөгү ташталган сарайга көчүшкөн: медицина факультетинин мурдагы анатомиялык залы, желдетилбеген, суу да өткөргөн жай. Мария кийин аны «бечара эски сарай» деп атаган. Ал жерде ал кенди бөлүк-бөлүк иштетип, радийди барийден ажыратуу үчүн аралашманы кайра-кайра кристаллдаштырган, ар бир жолу радийге бир аз байыраак болуп. Бир химиялык компания радий туздарынын үлүшү үчүн материал берип, жардамчылардын эмгек акысын төлөгөн. Иш үч жылдан ашык созулган. 1902-жылы анын колунда болжол менен граммдын ондон бири радий хлориди бар эле, атомдук салмагын өлчөөгө жетишерлик таза: болжол менен 225, бүгүнкү 226 маанисине жакын.\n\n![Биринчи радий алынган эски сарайда радий бөлүп алуу, Мария Кюринин «Пьер Кюри» китебинен (1923)](https://upload.wikimedia.org/wikipedia/commons/5/5d/Pierre_Curie%2C_by_Marie_Curie%E2%80%94Illustrations_5.jpg \"Marie Curie · Public domain · https://commons.wikimedia.org/wiki/File:Pierre_Curie,_by_Marie_Curie—Illustrations_5.jpg\")\n\nТаануу бирдей келген эмес. Мария диссертациясын коргогон 1903-жылы физика боюнча Нобель сыйлыгы Беккерелге жана эки Кюриге берилген, бирок комитет адегенде Пьер менен Беккерелди гана сыйлоону ойлогон. Математик Гёста Миттаг-Леффлер Пьерге эскертип, Пьер талап кылган, жана Мариянын аты кошулган. 1906-жылы Пьер Парижде көчөдөгү кырсыктан каза болгон. Мария ишти улантып, 1910-жылы кесиптеши Андре-Луи Дебьерн менен радийди таза металл түрүндө алган. 1911-жылы ал полоний жана радий үчүн экинчи Нобель сыйлыгын, бул жолу химия боюнча алган. Таза полонийди ал эч качан ала алган эмес; немис химиги Вилли Марквальд 1902-жылы башка ат менен бир нече миллиграмм күчтүү активдүү зат алган, бул ошол эле элемент экени 1905-жылы гана көрсөтүлгөн.\n\n> [!WARNING]\n> Бул заттар канчалык коркунучтуу экенин эч ким билген эмес. Эки Кюри тең радийден күйүк алышкан. Мария Кюри 1934-жылы нурланууга узак убакыт дуушар болушу менен байланыштырылган кан оорусунан көз жумган. 1920-жылдары саат циферблаттарын радийлүү боёк менен боёгон америкалык жумушчу кыздар, «радий кыздары», ооруп, сотко кайрылышкан; алардын иши нурлануу менен иштегендерди коргоо эрежелеринин киришине жардам берген.\n\n### Эмнеге жол ачты\n\nКюрилердин декабрдагы кабары эң терең табышмакты буга чейин эле көрсөткөн: радий көрүнгөн булагы жок эле энергия чыгара берген, алар муну жылуулук мыйзамдарына сырттан караганда карама-каршы келүү деп аташкан. 1903-жылы Пьер жана анын шакирти Альбер Лаборд радий тынымсыз жылуулук бөлүп чыгарарын көрсөтүшкөн. Монреалда Эрнест Резерфорд менен Фредерик Содди радиоактивдүү атомдор нур чыгарып жатып башка элементтердин атомдоруна айланат деген ойду айтышкан. Атом бөлүнбөс да, өзгөрбөс да эмес болуп чыкты, анын ичинде жашырылган энергия зор эле. Радиоактивдүү заттардын нурлары атомдорду изилдөөнүн куралы болуп калды, бул жол 1911-жылы Резерфорддун ядросуна алып барган, ал эми 1934-жылы Мариянын кызы Ирен Жолио-Кюри жана анын жолдошу Фредерик полонийдин нурлары менен жасалма радиоактивдүүлүктү алышкан.\n\nРадийди издөө Борбордук Азияга да жеткен. 1908-жылы бир компания азыркы Кыргызстандын аймагында, Фергана өрөөнүнүн четиндеги Түя-Муюнда казып алууну баштаган: бул Россия империясындагы радиоактивдүү минералдардын биринчи кени болгон. 1921-жылдын аягында Петроградда химик Виталий Хлопин өлкөдө өндүрүлгөн биринчи радийди алган, ал эми 1922-жылдын январында Мамлекеттик радий институту негизделген: анын директору Владимир Вернадский, орун басары Хлопин болгон. Түя-Муюндун кени жарды болчу, бирок 1923-жылдан 1936-жылга чейин болжол менен 17–20 грамм радий берген.\n\nРадийди көп өтпөй колдоно башташкан, туура эмес колдонушкан да: рак ооруну дарылоодо, жаркыраган боёктордо, алдамчылардын «радий суусунда» жана косметикада. Ондогон жылдар бою радиоактивдүүлүктүн бирдиги кюри бир грамм радийдин активдүүлүгү аркылуу аныкталып келген. Бирок 1898-жылдын туруктуу белеги ыкма болгон: жаңы элементти түсү, жыты же салмагы боюнча эмес, нурларын өлчөө аркылуу табуу. Бул иштөө жолу радиохимиянын пайдубалын түптөгөн.",
+      "status": "machine"
+    }
+  }
+}
