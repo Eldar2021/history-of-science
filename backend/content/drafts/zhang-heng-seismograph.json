@@ -1,0 +1,225 @@
+{
+  "slug": "zhang-heng-seismograph",
+  "year": 132,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 34.72,
+  "lng": 112.62,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Antique_Chinese_seismograph.jpg",
+    "credit": "Cyborian",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Antique_Chinese_seismograph.jpg"
+  },
+  "disciplines": [
+    "earth",
+    "technology"
+  ],
+  "people": [
+    {
+      "slug": "zhang-heng",
+      "role": "author",
+      "name": {
+        "en": "Zhang Heng",
+        "tr": "Zhang Heng",
+        "ru": "Чжан Хэн",
+        "ky": "Чжан Хэн"
+      },
+      "birth_year": 78,
+      "death_year": 139
+    },
+    {
+      "slug": "fan-ye",
+      "role": "transmitter",
+      "name": {
+        "en": "Fan Ye",
+        "tr": "Fan Ye",
+        "ru": "Фань Е",
+        "ky": "Фань Е"
+      },
+      "birth_year": 398,
+      "death_year": 445
+    },
+    {
+      "slug": "akitsune-imamura",
+      "role": "successor",
+      "name": {
+        "en": "Akitsune Imamura",
+        "tr": "Akitsune Imamura",
+        "ru": "Акицунэ Имамура",
+        "ky": "Акицунэ Имамура"
+      },
+      "birth_year": 1870,
+      "death_year": 1948
+    },
+    {
+      "slug": "wang-zhenduo",
+      "role": "successor",
+      "name": {
+        "en": "Wang Zhenduo",
+        "tr": "Wang Zhenduo",
+        "ru": "Ван Чжэньдо",
+        "ky": "Ван Чжэньдо"
+      },
+      "birth_year": 1911,
+      "death_year": 1992
+    },
+    {
+      "slug": "feng-rui",
+      "role": "successor",
+      "name": {
+        "en": "Feng Rui",
+        "tr": "Feng Rui",
+        "ru": "Фэн Жуй",
+        "ky": "Фэн Жуй"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "jean-de-hautefeuille",
+      "role": "successor",
+      "name": {
+        "en": "Jean de Hautefeuille",
+        "tr": "Jean de Hautefeuille",
+        "ru": "Жан де Отфёй",
+        "ky": "Жан де Отфей"
+      },
+      "birth_year": 1647,
+      "death_year": 1724
+    },
+    {
+      "slug": "john-milne",
+      "role": "successor",
+      "name": {
+        "en": "John Milne",
+        "tr": "John Milne",
+        "ru": "Джон Милн",
+        "ky": "Джон Милн"
+      },
+      "birth_year": 1850,
+      "death_year": 1913
+    },
+    {
+      "slug": "james-alfred-ewing",
+      "role": "successor",
+      "name": {
+        "en": "James Alfred Ewing",
+        "tr": "James Alfred Ewing",
+        "ru": "Джеймс Альфред Юинг",
+        "ky": "Джеймс Альфред Юинг"
+      },
+      "birth_year": 1855,
+      "death_year": 1935
+    },
+    {
+      "slug": "thomas-gray-engineer",
+      "role": "successor",
+      "name": {
+        "en": "Thomas Gray",
+        "tr": "Thomas Gray",
+        "ru": "Томас Грей",
+        "ky": "Томас Грей"
+      },
+      "birth_year": 1850,
+      "death_year": 1908
+    }
+  ],
+  "builds_on": [],
+  "sources": [
+    {
+      "title": "Zhang Heng — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Zhang-Heng"
+    },
+    {
+      "title": "Zhang Heng — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Zhang_Heng"
+    },
+    {
+      "title": "Seismometer (History) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Seismometer"
+    },
+    {
+      "title": "Fan Ye, Book of the Later Han (Hou Hanshu), juan 59, biography of Zhang Heng — Chinese text, Wikisource",
+      "kind": "book",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷59"
+    },
+    {
+      "title": "Feng Rui and Yu Yanxiang, on the date of the Longxi earthquake recorded by Zhang Heng's seismoscope, Acta Seismologica Sinica 19 (2006) 704 — NASA ADS",
+      "kind": "paper",
+      "url": "https://ui.adsabs.harvard.edu/abs/2006AcSSn..19..704F/abstract"
+    },
+    {
+      "title": "The Paper (澎湃新闻): Wang Zhenduo's 1951 model and the Feng Rui team's reconstruction",
+      "kind": "article",
+      "url": "https://m.thepaper.cn/newsDetail_forward_2516240"
+    },
+    {
+      "title": "Central News Agency (Taiwan), 2018: textbook debate over the seismoscope",
+      "kind": "article",
+      "url": "https://www.cna.com.tw/news/acn/201810090175.aspx"
+    },
+    {
+      "title": "Huanqiu / Beijing Science and Technology News: the textbook debate over Wang Zhenduo's model",
+      "kind": "article",
+      "url": "https://m.huanqiu.com/article/9CaKrnKdrX7"
+    },
+    {
+      "title": "USGS ISC-GEM event page: 1911 Kemin earthquake, Kyrgyzstan",
+      "kind": "other",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/iscgem16958130"
+    },
+    {
+      "title": "Engadget, 'The ancient earthquake detector that puzzled modern historians' (2018)",
+      "kind": "article",
+      "url": "https://www.engadget.com/2018-09-28-backlog-zhang-heng-seismoscope.html"
+    }
+  ],
+  "research_note": "Drafted 2026-11-24 by the nightly pipeline (rank 95 of 100). YEAR: top100.json lists 78 circa, which is Zhang Heng's birth year; the event year is 132 exact (Hou Hanshu 59: 陽嘉元年，復造候風地動儀). Reviewer may want to correct top100.json. Threshold met without Britannica (403, linked): English Wikipedia (Zhang Heng; Seismometer), Hou Hanshu juan 59 Chinese text (Wikisource), Feng & Yu 2006 Acta Seismologica Sinica 19:704-719 (DOI 10.1007/s11589-006-0704-1), The Paper, CNA 2018, Huanqiu, USGS (Kemin). CONFIRMED: born 78 Xi'e/Nanyang, died 139; Chief Astronomer twice (years 115-120, 126-132 from Wikipedia only); jar 員徑八尺 (~1.85 m, body says 'roughly two metres'), domed lid, 8 dragons, toads, 都柱, 八道, 關/機; Longxi story with no year in the biography; 138 tradition vs Feng & Yu 2006 (13 Dec 134, Tianshui, M~7); Fan Ye 398-445; Imamura 1930s inverted pendulum (Commons figure from 『地震』 1938); Wang Zhenduo 1951 1:10 upright-rod model, display-only, criticised (Fu Chengyi); 2005 Feng Rui team with Henan Museum + China Earthquake Networks Center, hanging pendulum; later rebuild attempts (Xindu Fang, Lin Xiaogong, via Needham/Wikipedia); Hautefeuille 1703; Milne/Ewing/Gray 1880; Kemin 1911 M~8.0. FACT-CHECKER (2026-11-24), applied in all four languages: 'said it was useless' -> scholars puzzled at no sign of a quake (咸怪其無徵); removed 'many took Wang's model for an excavated object' (unsourced); removed 'responded to replayed records of real earthquakes' (only a weak secondary source; Huanqiu says it did not respond to the Yushu quake); 'court legend' -> some researchers doubt it existed or worked; Kemin -> strongest intra-continental quakes of the century; why_it_matters and closing no longer claim the order built China's earthquake record (records predate 132) — now 'records began to note direction'; 'lost records' -> 'survive only in fragments' (Dongguan Hanji); craftsmen line softened to 'probably'; 180-degree analogy caveat no longer claims reconstructions argue over it, now 'still not known'. REVIEWER SHOULD CHECK: Chief Astronomer year ranges (Wikipedia only); 'later Chinese sources mention attempts to build it again' (Needham via Wikipedia); Maragheh devices rest on one Wikipedia sentence (written as 'is reported'); 'Chinese records reach back more than two thousand years' (general knowledge, Qishan 780 BCE, no source in list); Thomas Gray slug thomas-gray-engineer, 1850-1908; Feng Rui birth/death unknown (null). IMAGES: cover 'Antique Chinese seismograph.jpg' (Cyborian, CC BY-SA 4.0) is a full-size MODERN REPLICA of the Wang-style model shown in Warsaw 2008 — the cover has no caption field, so the admin may want to say 'replica' wherever the cover is captioned. Figure: Imamura interior reconstruction (Seismological Society of Japan, Public domain, 1938). Rejected: 'Zhang Heng's seismoscope.jpg' (credit 'Pubblico dominio') and Wang Zhenduo PNG (credit 'WdW Review'): author lines too thin. BUILDS_ON: none (no earlier event in existing_slugs is a real predecessor). CENTRAL ASIA: Kemin 1911 earthquake, northern Kyrgyzstan; Maragheh (Persia). KYRGYZ: glossary 'check' term used: маятник (pendulum). Not used: далилдөө, зат. New terms not in glossary: сейсмоскоп, сейсмограф, ажыдаар, бака, шарча, илгич, рычаг, коло (bronze), армиллярдык шар, чабарман, уламыш, материк ичиндеги.",
+  "translations": {
+    "en": {
+      "title": "Zhang Heng's earthquake detector in Han China",
+      "summary": "In 132 the Han astronomer Zhang Heng showed the court a bronze jar ringed by eight dragons. When the ground shook, one dropped a ball, pointing toward the earthquake.",
+      "why_it_matters": "It is the earliest known instrument built to detect earthquakes and show their direction. After it, the court's earthquake records, already centuries old, began to note where each quake came from.",
+      "if_you_were_there": "In Luoyang an earthquake in a far province was a sign from Heaven about the emperor, and news of it travelled only as fast as a horse.",
+      "place_name": "Luoyang",
+      "body": "### The scene\n\nIn the second century the Eastern Han court sat at Luoyang, on the plain of the Yellow River, and ruled a country that shook often. The court chronicles record earthquake after earthquake in those decades, and they were read as more than natural disasters. In Han political thought, Heaven answered bad government with signs, and a tremor in a distant province could be a message about the emperor himself. Knowing quickly that the earth had moved, and where, was a matter of state.\n\nThe man who built an instrument for this was Zhang Heng, born in 78 in Nanyang. He was a poet whose long rhapsodies on the two capitals were still read centuries later, a mathematician, and twice the court's Chief Astronomer, from 115 to 120 and again from 126 to 132. He built a water-driven armillary sphere, a model of the sky turned slowly by a water clock, and wrote a cosmology in which the Moon shines with reflected sunlight. He did not begin from nothing: Chinese bronze casting, water clocks and court record keeping were centuries old, and the bronze itself was probably cast by craftsmen whose names were not kept.\n\n### What happened\n\nIn 132, the first year of the Yangjia reign, Zhang Heng presented the court with a new bronze instrument. The *Book of the Later Han* calls it an instrument for watching the winds and the movements of the earth. It was shaped like a large wine jar with a domed lid, about eight Han feet across, roughly two metres. Around the outside were eight dragons, one for each direction, each holding a bronze ball in its mouth. Beneath each dragon sat a toad with its mouth open. When the ground shook, one dragon let its ball fall into the toad below with a loud clang, and the other seven stayed shut. The attendant on watch heard the sound and read the direction from which dragon had dropped its ball.\n\nInside, the book says, there was a \"central column\" with eight channels around it and a system of catches and levers, all sealed so tightly that no joint showed. That is the whole technical description. No drawing survives, no piece of the instrument has been found, and the account was written by the historian Fan Ye in the fifth century, about three hundred years after the instrument was made, from earlier records that survive only in fragments.\n\nThe same account tells the story that made the instrument famous. One day a dragon dropped its ball, yet nobody in Luoyang had felt anything, and the scholars of the capital were puzzled that there was no sign of a quake. A few days later a courier arrived with news of an earthquake in Longxi, in present-day Gansu, several hundred kilometres to the west. After that, the book says, the court historians were ordered to record the direction each earthquake came from. The biography gives no year for this story. Modern seismologists have tried to match it with the earthquakes in the Han annals: one tradition links it to a quake in 138, while a 2006 study by Feng Rui and Yu Yanxiang argued for a quake near Tianshui at the end of 134.\n\n> [!NOTE]\n> Zhang Heng's instrument was a seismoscope, not a seismograph. A seismoscope only shows that the ground has moved, and here roughly in which direction. A seismograph draws a continuous record of the shaking over time, so that its strength and timing can be measured. Those did not exist until the nineteenth century.\n\nNobody knows exactly how the inside worked, but most reconstructions agree on the principle: a heavy weight that tends to stay still while the ground moves under it. Think of standing in a bus that brakes suddenly. Your feet go with the bus, your body keeps going, and you lurch. A heavy column inside the jar would \"lurch\" the same way and push open the catch on one side. The comparison breaks here: a bus jolts once, in one direction, but an earthquake shakes the ground back and forth, so a weight pushed one way is pushed straight back the other. Whether a first push could reliably point toward the quake, and how a single weight opened only one dragon, is still not known.\n\n![Interior reconstruction of Zhang Heng's instrument with an inverted pendulum, by the Japanese seismologist Akitsune Imamura](https://upload.wikimedia.org/wikipedia/commons/5/5b/Zhang_Heng%27s_seismometer_internal_reproduction_with_inverted_pendulum.png \"Seismological Society of Japan · Public domain · https://commons.wikimedia.org/wiki/File:Zhang_Heng's_seismometer_internal_reproduction_with_inverted_pendulum.png\")\n\n### Why it was hard\n\nThe difficulty is the one in that analogy. A weight that is too easily disturbed drops balls when someone slams a door; one that is too stiff misses a distant earthquake whose waves arrive as a faint sway. The device in the story did the hardest part: it noticed a tremor that no person in the city could feel. Whether any bronze mechanism of the second century could really do that reliably is exactly what modern readers doubt.\n\nFor the last century the instrument has been rebuilt more than it has been understood. In the 1930s Akitsune Imamura in Japan proposed an interior with an upright, inverted pendulum. In 1951 the Chinese museum scholar Wang Zhenduo made a scale model with an upright rod, and that model, copied on stamps, in museums and in school textbooks, became the image most people know. It was a display model and could not detect real earthquakes, and seismologists criticised its principle. In 2005 a team led by the seismologist Feng Rui, with the Henan Museum and China's earthquake network centre, built a new version with a hanging pendulum. It suggests that a workable design is possible. It does not show that this was Zhang Heng's design. Some researchers go further and doubt that the instrument existed, or that it ever worked as described.\n\n### What it opened\n\nThe instrument left no line of descendants. Later Chinese sources mention attempts to build it again, but the design was lost, and no Chinese seismoscope of the next thousand years is known in detail. In thirteenth-century Persia, the Maragheh observatory is reported to have had earthquake-detecting devices; whether they owed anything to Zhang Heng is not known. In Europe, Jean de Hautefeuille described a mercury seismoscope in 1703, and true recording seismographs arrived only in the nineteenth century; one of the first practical designs came in 1880 in Japan, from John Milne, James Alfred Ewing and Thomas Gray.\n\nWhat did last was a habit that was already old in China and that the court order sharpened: write down every earthquake, and from then on its direction too. China's long earthquake records, which reach back more than two thousand years, are now used by seismologists to estimate how often large quakes return. Central Asia sits on the same restless belt of mountains; the earthquake of 1911 near Kemin, in northern Kyrgyzstan, was one of the strongest earthquakes of the century inside a continent, and the instruments that watch the region today rest on the same principle Zhang Heng's bronze jar is thought to have used: a heavy mass that tries to stay still while the earth moves.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Han Çini'nde Zhang Heng'in deprem algılayıcısı",
+      "summary": "132'de Han astronomu Zhang Heng saraya sekiz ejderhalı bir bronz küp sundu. Yer sarsılınca ejderhalardan biri bir top düşürüp depremin yönünü gösteriyordu.",
+      "why_it_matters": "Depremleri algılamak ve yönlerini göstermek için yapıldığı bilinen en eski alettir. Ondan sonra sarayın zaten yüzyıllık deprem kayıtları her depremin hangi yönden geldiğini de not etmeye başladı.",
+      "if_you_were_there": "Luoyang'da uzak bir eyaletteki deprem, Gök'ün imparator hakkında verdiği bir işaretti ve haberi ancak bir atın koşabildiği hızla yol alırdı.",
+      "place_name": "Luoyang",
+      "body": "### Sahne\n\nİkinci yüzyılda Doğu Han sarayı Sarı Irmak ovasındaki Luoyang'daydı ve sık sık sarsılan bir ülkeyi yönetiyordu. Saray kayıtları o on yıllarda depremi depreme ekler ve bunlar yalnızca doğal felaket olarak okunmazdı. Han siyasi düşüncesinde Gök, kötü yönetime işaretlerle karşılık verirdi; uzak bir eyaletteki sarsıntı imparatorun kendisiyle ilgili bir mesaj olabilirdi. Yerin oynadığını ve nerede oynadığını çabucak bilmek bir devlet işiydi.\n\nBunun için bir alet yapan kişi, 78'de Nanyang'da doğan Zhang Heng'di. İki başkent üzerine uzun kasideleri yüzyıllar sonra hâlâ okunan bir şairdi, bir matematikçiydi ve iki kez sarayın Baş Astronomuydu: 115'ten 120'ye ve yeniden 126'dan 132'ye. Suyla çalışan bir armiller küre, yani bir su saatinin yavaşça döndürdüğü bir gök modeli yaptı ve Ay'ın Güneş'in yansıyan ışığıyla parladığını söyleyen bir evren tasarımı yazdı. Sıfırdan başlamadı: Çin'de bronz dökümü, su saatleri ve saray kayıtları yüzyıllardır vardı; bronzu da muhtemelen adları saklanmamış zanaatkârlar döktü.\n\n### Ne oldu\n\n132'de, Yangjia döneminin ilk yılında, Zhang Heng saraya yeni bir bronz alet sundu. *Sonraki Han Kitabı* ona rüzgârları ve yerin hareketlerini gözleyen alet der. Kubbeli kapaklı büyük bir şarap küpü biçimindeydi, çapı sekiz Han ayağı, yani kabaca iki metreydi. Dışında her yön için bir tane olmak üzere sekiz ejderha vardı ve her biri ağzında bir bronz top tutuyordu. Her ejderhanın altında ağzı açık bir kurbağa otururdu. Yer sarsıldığında ejderhalardan biri topunu alttaki kurbağanın ağzına bırakır, çın diye ses çıkardı; öteki yedisi kapalı kalırdı. Nöbetteki görevli sesi duyar, hangi ejderhanın topu bıraktığına bakıp yönü okurdu.\n\nKitaba göre içeride bir \"orta sütun\", onun çevresinde sekiz kanal ve bir mandal ve kaldıraç düzeni vardı; hepsi öyle sıkı kapatılmıştı ki hiçbir ek yeri görünmüyordu. Teknik betimlemenin tamamı budur. Hiçbir çizim kalmadı, aletin tek bir parçası bulunmadı; anlatıyı tarihçi Fan Ye beşinci yüzyılda, aletin yapılışından yaklaşık üç yüz yıl sonra, bugün yalnızca parçalar hâlinde kalmış eski kayıtlardan yazdı.\n\nAynı anlatı aleti ünlü yapan hikâyeyi de verir. Bir gün bir ejderha topunu bıraktı, oysa Luoyang'da kimse bir şey hissetmemişti ve başkentin bilginleri hiçbir deprem belirtisi olmamasına şaştı. Birkaç gün sonra bir ulak, batıda birkaç yüz kilometre ötede, bugünkü Gansu'daki Longxi'de bir deprem olduğu haberini getirdi. Kitaba göre bundan sonra saray tarihçilerine her depremin hangi yönden geldiğini kaydetmeleri buyruldu. Biyografi bu hikâye için bir yıl vermez. Modern sismologlar onu Han yıllıklarındaki depremlerle eşleştirmeye çalıştı: bir gelenek 138'deki bir depreme bağlar, Feng Rui ile Yu Yanxiang'ın 2006 tarihli bir çalışması ise 134 sonunda Tianshui yakınındaki bir depremi savundu.\n\n> [!NOTE]\n> Zhang Heng'in aleti bir sismograf değil, bir sismoskoptu. Sismoskop yalnızca yerin oynadığını, burada da kabaca hangi yönde oynadığını gösterir. Sismograf ise sarsıntının zaman içindeki sürekli kaydını çizer; böylece gücü ve zamanı ölçülebilir. Bunlar ancak on dokuzuncu yüzyılda ortaya çıktı.\n\nİçeriğin tam olarak nasıl çalıştığını kimse bilmiyor, ama yeniden yapımların çoğu ilkede birleşir: altındaki yer oynarken yerinde durmaya çalışan ağır bir kütle. Aniden fren yapan bir otobüste ayakta durduğunuzu düşünün. Ayaklarınız otobüsle gider, gövdeniz gitmeye devam eder ve sendelersiniz. Küpün içindeki ağır bir sütun da aynı biçimde \"sendeler\" ve bir yandaki mandalı iterdi. Benzetme burada bozulur: otobüs bir kez, tek yönde sarsılır, deprem ise yeri ileri geri sallar; bir yöne itilen kütle hemen öbür yöne geri itilir. İlk itişin depremin yönünü güvenilir biçimde gösterip gösteremeyeceği ve tek bir kütlenin nasıl yalnızca bir ejderhayı açtığı hâlâ bilinmiyor.\n\n![Zhang Heng'in aletinin ters sarkaçlı iç yeniden yapımı, Japon sismolog Akitsune Imamura](https://upload.wikimedia.org/wikipedia/commons/5/5b/Zhang_Heng%27s_seismometer_internal_reproduction_with_inverted_pendulum.png \"Seismological Society of Japan · Public domain · https://commons.wikimedia.org/wiki/File:Zhang_Heng's_seismometer_internal_reproduction_with_inverted_pendulum.png\")\n\n### Neden zordu\n\nZorluk o benzetmedeki zorluktur. Fazla kolay oynayan bir kütle biri kapıyı çarptığında top düşürür; fazla katı olanı ise dalgaları hafif bir salınım olarak gelen uzak bir depremi kaçırır. Hikâyedeki alet en zor olanı yaptı: şehirde hiç kimsenin hissetmediği bir sarsıntıyı fark etti. İkinci yüzyılın bir bronz düzeneğinin bunu gerçekten güvenilir biçimde yapıp yapamayacağı, bugünkü okurların tam da kuşkulandığı şeydir.\n\nSon yüzyılda alet anlaşıldığından çok yeniden yapıldı. 1930'larda Japonya'da Akitsune Imamura, dik duran bir ters sarkaçlı iç düzen önerdi. 1951'de Çinli müze araştırmacısı Wang Zhenduo dik bir çubukla çalışan ölçekli bir model yaptı; pullara, müzelere ve okul kitaplarına kopyalanan bu model çoğu insanın bildiği görüntü oldu. Bir sergi modeliydi, gerçek depremleri algılayamıyordu ve sismologlar ilkesini eleştirdi. 2005'te sismolog Feng Rui'nin yönettiği bir ekip, Henan Müzesi ve Çin'in deprem ağı merkeziyle birlikte asılı sarkaçlı yeni bir sürüm yaptı. Bu, çalışan bir tasarımın mümkün olabileceğini düşündürür. Bunun Zhang Heng'in tasarımı olduğunu göstermez. Bazı araştırmacılar daha da ileri gider ve aletin var olduğundan ya da anlatıldığı gibi çalıştığından kuşku duyar.\n\n### Sonrası\n\nAletin soyu sürmedi. Sonraki Çin kaynakları onu yeniden yapma girişimlerinden söz eder, ama tasarım kayboldu ve sonraki bin yılın hiçbir Çin sismoskobu ayrıntılı olarak bilinmiyor. On üçüncü yüzyıl İran'ında Merağa gözlemevinde deprem algılayan aletler olduğu bildirilir; bunların Zhang Heng'e bir şey borçlu olup olmadığı bilinmiyor. Avrupa'da Jean de Hautefeuille 1703'te cıvalı bir sismoskop betimledi; gerçek kayıt yapan sismograflar ise ancak on dokuzuncu yüzyılda geldi; ilk kullanışlı tasarımlardan biri 1880'de Japonya'da John Milne, James Alfred Ewing ve Thomas Gray'den çıktı.\n\nKalıcı olan, Çin'de zaten eski olan ve saray buyruğunun keskinleştirdiği bir alışkanlıktı: her depremi yaz, bundan sonra yönünü de. Çin'in iki bin yılı aşan uzun deprem kayıtları bugün sismologlarca büyük depremlerin ne sıklıkla döndüğünü tahmin etmek için kullanılıyor. Orta Asya da aynı huzursuz dağ kuşağının üzerindedir; kuzey Kırgızistan'da Kemin yakınındaki 1911 depremi yüzyılın kıta içindeki en güçlü depremlerinden biriydi. Bölgeyi bugün izleyen aletler de Zhang Heng'in bronz küpünün kullandığı düşünülen ilkeye dayanır: yer oynarken yerinde durmaya çalışan ağır bir kütle.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Прибор Чжан Хэна для обнаружения землетрясений в Ханьском Китае",
+      "summary": "В 132 году ханьский астроном Чжан Хэн показал двору бронзовый сосуд с восемью драконами. Когда земля дрожала, один ронял шарик, указывая на землетрясение.",
+      "why_it_matters": "Это самый ранний известный прибор, созданный, чтобы обнаруживать землетрясения и показывать их направление. После него придворные записи о землетрясениях, к тому времени уже многовековые, стали отмечать и то, откуда пришёл толчок.",
+      "if_you_were_there": "В Лояне землетрясение в далёкой провинции было знамением Неба об императоре, а весть о нём шла не быстрее скачущего коня.",
+      "place_name": "Лоян",
+      "body": "### Обстановка\n\nВо II веке двор Восточной Хань находился в Лояне, на равнине Хуанхэ, и правил страной, которую часто трясло. Придворные хроники тех десятилетий отмечают землетрясение за землетрясением, и их читали не только как стихийные бедствия. В ханьской политической мысли Небо отвечало на дурное правление знамениями, и толчок в далёкой провинции мог оказаться посланием о самом императоре. Быстро узнать, что земля сдвинулась, и где именно, было делом государственным.\n\nПрибор для этого построил Чжан Хэн, родившийся в 78 году в Наньяне. Он был поэтом, чьи длинные оды о двух столицах читали и спустя века, математиком и дважды главным придворным астрономом: с 115 по 120 год и снова с 126 по 132 год. Он построил армиллярную сферу с водяным приводом, модель неба, которую медленно вращали водяные часы, и написал космологию, в которой Луна светит отражённым солнечным светом. Начинал он не с нуля: бронзовое литьё, водяные часы и придворные записи существовали в Китае веками, а саму бронзу, вероятно, отливали ремесленники, чьи имена не сохранились.\n\n### Что произошло\n\nВ 132 году, в первый год девиза Янцзя, Чжан Хэн представил двору новый бронзовый прибор. «История Поздней Хань» называет его прибором для наблюдения ветров и движений земли. Он был похож на большой винный сосуд с куполообразной крышкой, около восьми ханьских чи в поперечнике, то есть примерно два метра. Снаружи располагались восемь драконов, по одному на каждое направление, и каждый держал во рту бронзовый шарик. Под каждым драконом сидела жаба с раскрытой пастью. Когда земля дрожала, один дракон ронял свой шарик в пасть жабы под ним с громким звоном, а остальные семь оставались закрытыми. Дежурный слышал звук и по тому, какой дракон уронил шарик, определял направление.\n\nВнутри, сообщает книга, был «центральный столб», вокруг него восемь каналов и система защёлок и рычагов, всё закрыто так плотно, что не было видно ни одного шва. Это всё техническое описание. Не сохранилось ни одного рисунка, не найдено ни одной детали прибора, а рассказ записал историк Фань Е в V веке, примерно через триста лет после создания прибора, по более ранним записям, сохранившимся теперь лишь во фрагментах.\n\nВ том же рассказе есть история, прославившая прибор. Однажды дракон уронил шарик, хотя в Лояне никто ничего не почувствовал, и учёные столицы недоумевали, что нет никаких признаков землетрясения. Через несколько дней прибыл гонец с вестью о землетрясении в Лунси, в нынешней провинции Ганьсу, в нескольких сотнях километров к западу. После этого, по словам книги, придворным историкам велели записывать, с какого направления пришло каждое землетрясение. Года этой истории биография не называет. Современные сейсмологи пытались сопоставить её с землетрясениями из ханьских летописей: одна традиция связывает её с толчком 138 года, а исследование Фэн Жуя и Юй Яньсяна 2006 года отстаивало землетрясение близ Тяньшуя в конце 134 года.\n\n> [!NOTE]\n> Прибор Чжан Хэна был сейсмоскопом, а не сейсмографом. Сейсмоскоп лишь показывает, что земля сдвинулась, а здесь ещё и примерно в какую сторону. Сейсмограф непрерывно записывает колебания во времени, так что можно измерить их силу и момент. Такие приборы появились только в XIX веке.\n\nКак именно было устроено нутро, никто не знает, но большинство реконструкций сходятся в принципе: тяжёлый груз, который стремится остаться на месте, пока земля под ним движется. Представьте, что вы стоите в автобусе, который резко тормозит. Ноги едут вместе с автобусом, тело продолжает движение, и вас качает. Тяжёлый столб внутри сосуда так же «качнулся» бы и толкнул защёлку с одной стороны. Здесь сравнение ломается: автобус дёргается один раз и в одну сторону, а землетрясение качает землю туда и обратно, и груз, толкнутый в одну сторону, тут же толкает обратно. Мог ли первый толчок надёжно указывать на землетрясение и как один груз открывал только одного дракона, до сих пор неизвестно.\n\n![Реконструкция внутреннего устройства прибора Чжан Хэна с обращённым маятником, японский сейсмолог Акицунэ Имамура](https://upload.wikimedia.org/wikipedia/commons/5/5b/Zhang_Heng%27s_seismometer_internal_reproduction_with_inverted_pendulum.png \"Seismological Society of Japan · Public domain · https://commons.wikimedia.org/wiki/File:Zhang_Heng's_seismometer_internal_reproduction_with_inverted_pendulum.png\")\n\n### Почему это было трудно\n\nТрудность та же, что в сравнении. Слишком подвижный груз уронит шарик, когда кто-то хлопнет дверью; слишком жёсткий пропустит далёкое землетрясение, волны которого доходят лёгким покачиванием. Прибор из рассказа сделал самое трудное: заметил толчок, которого не почувствовал ни один человек в городе. Мог ли бронзовый механизм II века надёжно делать это на самом деле, как раз и вызывает сомнения у современных читателей.\n\nЗа последнее столетие прибор больше восстанавливали, чем понимали. В 1930-х годах Акицунэ Имамура в Японии предложил внутреннее устройство с вертикальным обращённым маятником. В 1951 году китайский музейный исследователь Ван Чжэньдо сделал масштабную модель с вертикальным стержнем, и эта модель, повторённая на марках, в музеях и школьных учебниках, стала образом, который знает большинство. Это был выставочный макет, настоящих землетрясений он не улавливал, и сейсмологи критиковали его принцип. В 2005 году группа под руководством сейсмолога Фэн Жуя вместе с Музеем провинции Хэнань и центром сейсмической сети Китая построила новую версию с подвесным маятником. Это позволяет думать, что работающая конструкция возможна. Но не показывает, что это была конструкция Чжан Хэна. Некоторые исследователи идут дальше и сомневаются, что прибор существовал или работал так, как описано.\n\n### Что это открыло\n\nПотомков у прибора не осталось. Более поздние китайские источники упоминают попытки построить его заново, но конструкция была утрачена, и ни один китайский сейсмоскоп следующего тысячелетия подробно не известен. В Персии XIII века, в обсерватории Мараги, по сообщениям, были приборы для обнаружения землетрясений; обязаны ли они чем-то Чжан Хэну, неизвестно. В Европе Жан де Отфёй описал ртутный сейсмоскоп в 1703 году, а настоящие записывающие сейсмографы появились только в XIX веке; одну из первых практичных конструкций создали в 1880 году в Японии Джон Милн, Джеймс Альфред Юинг и Томас Грей.\n\nСохранилась привычка, в Китае уже старая, которую указ сделал точнее: записывать каждое землетрясение, а с тех пор и его направление. Долгие китайские записи о землетрясениях, уходящие вглубь более чем на две тысячи лет, сейсмологи используют сегодня, чтобы оценить, как часто повторяются сильные толчки. Центральная Азия лежит на том же беспокойном горном поясе; Кеминское землетрясение 1911 года на севере Кыргызстана было одним из сильнейших внутриконтинентальных землетрясений столетия. Приборы, которые следят за регионом сегодня, опираются на тот же принцип, что, как считается, использовал бронзовый сосуд Чжан Хэна: тяжёлая масса стремится остаться на месте, пока земля движется.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Хань Кытайындагы Чжан Хэндин жер титирөөнү сезүүчү аспабы",
+      "summary": "132-жылы Хань астроному Чжан Хэн ордого сегиз ажыдаары бар коло идишти көрсөткөн. Жер силкингенде бир ажыдаар шарча түшүрүп, жер титирөөнүн тарабын көрсөтчү.",
+      "why_it_matters": "Бул жер титирөөнү сезип, анын тарабын көрсөтүү үчүн жасалган эң байыркы белгилүү аспап. Андан кийин ордонун кылымдардан бери жүргүзүлгөн жер титирөө жазууларында ар бир силкинүү кайсы тараптан келгени да белгилене баштаган.",
+      "if_you_were_there": "Лоянда алыскы облустагы жер титирөө Асмандын император жөнүндө берген белгиси болчу, ал эми кабары аттын чабышынан тез жетчү эмес.",
+      "place_name": "Лоян",
+      "body": "### Көрүнүш\n\nII кылымда Чыгыш Хань ордосу Хуанхэ дарыясынын түздүгүндөгү Лоянда турган жана көп силкинген өлкөнү башкарчу. Ордонун ошол он жылдыктардагы жылнаамаларында жер титирөөлөр бири-биринин артынан жазылган, аларды жөн гана табигый кырсык катары окушкан эмес. Хань доорунун саясий ой-пикиринде Асман жаман башкарууга белгилер менен жооп берчү, алыскы облустагы силкинүү императордун өзү жөнүндөгү кабар болушу мүмкүн эле. Жер козголгонун жана так кайсы жерде козголгонун тез билүү мамлекеттик иш болчу.\n\nБул үчүн аспап жасаган адам 78-жылы Наньянда туулган Чжан Хэн болгон. Ал эки борбор шаар жөнүндөгү узун касидалары кылымдар өткөндөн кийин да окулган акын, математик жана эки жолу ордонун башкы астроному болгон: 115-жылдан 120-жылга чейин жана кайра 126-жылдан 132-жылга чейин. Ал суу менен айланган армиллярдык шар, башкача айтканда, суу сааты акырын айландырган асмандын моделин жасаган жана Ай Күндүн чагылган жарыгы менен жаркырайт деген ааламдын түзүлүшү жөнүндө эмгек жазган. Ал нөлдөн баштаган эмес: Кытайда коло куюу, суу сааттары жана ордодогу жазуулар кылымдар бою бар болчу, колону да, балким, аттары сакталбай калган усталар куюшкан.\n\n### Эмне болду\n\n132-жылы, Янцзя доорунун биринчи жылында, Чжан Хэн ордого жаңы коло аспапты тартуулаган. «Кийинки Хань китеби» аны шамалдарды жана жердин кыймылын байкоочу аспап деп атайт. Ал күмбөз сымал капкагы бар чоң шарап идишине окшош болгон, туурасы сегиз хань чи, башкача айтканда болжол менен эки метр. Сыртында ар бир тарапка бирден сегиз ажыдаар болгон, ар биринин оозунда коло шарча турган. Ар бир ажыдаардын астында оозун ачкан бака отурган. Жер силкингенде бир ажыдаар шарчасын астындагы баканын оозуна катуу шыңгыратып түшүрчү, калган жетөө жабык бойдон калчу. Кезметтеги кызматчы үндү угуп, кайсы ажыдаар шарчасын түшүргөнүнө карап тарапты аныктачу.\n\nКитепте айтылгандай, ичинде «ортоңку мамы», анын айланасында сегиз жол жана илгичтер менен рычагдардын системасы болгон, баары эч бир тигиши көрүнбөгөндөй тыгыз жабылган. Техникалык сүрөттөмөнүн баары ушул. Бир да чийме сакталган эмес, аспаптын бир да бөлүгү табылган эмес, ал эми бул баянды тарыхчы Фань Е V кылымда, аспап жасалгандан болжол менен үч жүз жыл өткөндөн кийин, азыр үзүндүлөр түрүндө гана сакталган мурунку жазуулардын негизинде жазган.\n\nОшол эле баянда аспапты атактуу кылган окуя бар. Бир күнү бир ажыдаар шарчасын түшүргөн, бирок Лоянда эч ким эч нерсени сезген эмес, борбордун окумуштуулары жер титирөөнүн эч бир белгиси жок экенине таң калышкан. Бир нече күндөн кийин чабарман келип, батышта бир нече жүз чакырым алыстагы, азыркы Ганьсу аймагындагы Лунсиде жер титирөө болгонун кабарлаган. Китеп боюнча, андан кийин ордонун тарыхчыларына ар бир жер титирөө кайсы тараптан келгенин жазып турууга буйрук берилген. Өмүр баянда бул окуянын жылы айтылбайт. Азыркы сейсмологдор аны Хань жылнаамаларындагы жер титирөөлөр менен салыштырууга аракет кылышкан: бир салт аны 138-жылдагы силкинүүгө байланыштырат, ал эми Фэн Жуй менен Юй Яньсяндын 2006-жылкы изилдөөсү 134-жылдын аягында Тяньшуйдун жанында болгон жер титирөөнү жактаган.\n\n> [!NOTE]\n> Чжан Хэндин аспабы сейсмограф эмес, сейсмоскоп болгон. Сейсмоскоп жер козголгонун гана, бул жерде болжол менен кайсы тарапка козголгонун да көрсөтөт. Сейсмограф болсо силкинүүнү убакыт ичинде үзгүлтүксүз жазып алат, ошондуктан анын күчүн жана убактысын өлчөөгө болот. Мындай аспаптар XIX кылымда гана пайда болгон.\n\nИчи так кандай иштегенин эч ким билбейт, бирок калыбына келтирүүлөрдүн көбү принцип боюнча бир пикирде: астындагы жер кыймылдаганда ордунда калууга умтулган оор жүк. Кескин токтогон автобуста турганыңызды элестетиңиз. Бутуңуз автобус менен кетет, денеңиз алдыга кете берет, жана сиз чайпаласыз. Идиштин ичиндеги оор мамы да ушундай «чайпалып», бир тараптагы илгичти түртмөк. Салыштыруу бул жерде бузулат: автобус бир жолу, бир тарапка силкинет, ал эми жер титирөө жерди ары-бери чайкайт, бир тарапка түртүлгөн жүк дароо кайра артка түртүлөт. Биринчи түртүү жер титирөөнүн тарабын ишенимдүү көрсөтө алганбы жана бир эле жүк кантип бир гана ажыдаарды ачканы дагы эле белгисиз.\n\n![Чжан Хэндин аспабынын ичин тескери маятник менен калыбына келтирүү, жапон сейсмологу Акицунэ Имамура](https://upload.wikimedia.org/wikipedia/commons/5/5b/Zhang_Heng%27s_seismometer_internal_reproduction_with_inverted_pendulum.png \"Seismological Society of Japan · Public domain · https://commons.wikimedia.org/wiki/File:Zhang_Heng's_seismometer_internal_reproduction_with_inverted_pendulum.png\")\n\n### Эмне үчүн кыйын болгон\n\nКыйынчылык ошол салыштыруудагыдай. Өтө оңой козголгон жүк кимдир бирөө эшикти катуу жапканда эле шарчаны түшүрөт, өтө катуу жүк болсо толкундары жеңил чайкалуу болуп жеткен алыскы жер титирөөнү өткөрүп жиберет. Баяндагы аспап эң кыйын ишти аткарган: шаардагы бир да адам сезбеген силкинүүнү байкаган. II кылымдын коло механизми муну чындап эле ишенимдүү жасай алганбы, азыркы окурмандардын дал ушуга шеги бар.\n\nАкыркы кылымда аспапты түшүнгөндөн көрө көбүрөөк калыбына келтиришкен. 1930-жылдары Японияда Акицунэ Имамура ичинде тик турган тескери маятниги бар түзүлүштү сунуштаган. 1951-жылы кытай музей изилдөөчүсү Ван Чжэньдо тик таякча менен иштеген масштабдуу модель жасаган, маркаларда, музейлерде жана мектеп китептеринде кайталанган ушул модель көпчүлүк билген сүрөткө айланган. Ал көргөзмө үчүн жасалган модель болчу, чыныгы жер титирөөлөрдү сезе алчу эмес, сейсмологдор анын принцибин сынга алышкан. 2005-жылы сейсмолог Фэн Жуй жетектеген топ Хэнань музейи жана Кытайдын сейсмикалык тармак борбору менен бирге илинген маятниги бар жаңы вариантты курган. Бул иштеген түзүлүш болушу мүмкүн деген ойго жетелейт. Бирок бул Чжан Хэндин долбоору болгонун көрсөтпөйт. Айрым изилдөөчүлөр андан да ары барып, аспап чындап болгонуна же баяндагыдай иштегенине шек санашат.\n\n### Эмнеге жол ачты\n\nАспаптын урпактары калган жок. Кийинки кытай булактарында аны кайра куруу аракеттери эскерилет, бирок долбоор жоголгон, жана кийинки миң жылдагы бир да кытай сейсмоскобу толук белгилүү эмес. XIII кылымдагы Персияда, Марага обсерваториясында, жер титирөөнү аныктоочу аспаптар болгону кабарланат; алар Чжан Хэнге бир нерсе менен милдеттүүбү, белгисиз. Европада Жан де Отфей 1703-жылы сымаптуу сейсмоскопту сүрөттөгөн, ал эми чыныгы жазып алуучу сейсмографтар XIX кылымда гана пайда болгон; алгачкы иштиктүү түзүлүштөрдүн бирин 1880-жылы Японияда Джон Милн, Джеймс Альфред Юинг жана Томас Грей жасашкан.\n\nКытайда мурдатан бар болгон, ордонун буйругу тактаган адат сакталып калды: ар бир жер титирөөнү жазуу, мындан ары анын тарабын да. Эки миң жылдан ашык убакытты камтыган кытайдын узун жер титирөө жазууларын бүгүн сейсмологдор күчтүү силкинүүлөр канчалык тез-тез кайталанарын баалоо үчүн колдонушат. Борбордук Азия да ошол эле тынчы жок тоо курунда жатат; Кыргызстандын түндүгүндөгү Кемин жер титирөөсү 1911-жылы кылымдагы материк ичиндеги эң күчтүү жер титирөөлөрдүн бири болгон. Бүгүн аймакты байкаган аспаптар да Чжан Хэндин коло идиши колдонгон деп эсептелген принципке таянат: жер кыймылдаганда ордунда калууга умтулган оор масса.",
+      "status": "machine"
+    }
+  }
+}
