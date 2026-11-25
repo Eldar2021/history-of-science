@@ -1,0 +1,235 @@
+{
+  "slug": "al-farabi-classification",
+  "year": 950,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 3,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "region",
+  "lat": 33.31,
+  "lng": 44.36,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Al-Farabi_Alpharabius_philosophus_%28titel_op_object%29_Liber_Chronicarum_%28serietitel%29%2C_RP-P-2016-49-86-16.jpg",
+    "credit": "Rijksmuseum",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Al-Farabi_Alpharabius_philosophus_(titel_op_object)_Liber_Chronicarum_(serietitel),_RP-P-2016-49-86-16.jpg"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "people": [
+    {
+      "slug": "al-farabi",
+      "role": "author",
+      "name": {
+        "en": "Al-Farabi",
+        "tr": "Farabi",
+        "ru": "Аль-Фараби",
+        "ky": "Аль-Фараби"
+      },
+      "birth_year": null,
+      "death_year": 950
+    },
+    {
+      "slug": "abu-bishr-matta",
+      "role": "predecessor",
+      "name": {
+        "en": "Abu Bishr Matta",
+        "tr": "Ebu Bişr Matta",
+        "ru": "Абу Бишр Матта",
+        "ky": "Абу Бишр Матта"
+      },
+      "birth_year": null,
+      "death_year": 940
+    },
+    {
+      "slug": "abu-said-al-sirafi",
+      "role": "context",
+      "name": {
+        "en": "Abu Sa'id al-Sirafi",
+        "tr": "Ebu Said es-Sirafi",
+        "ru": "Абу Саид ас-Сирафи",
+        "ky": "Абу Саид ас-Сирафи"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "al-kindi",
+      "role": "predecessor",
+      "name": {
+        "en": "Al-Kindi",
+        "tr": "El-Kindi",
+        "ru": "Аль-Кинди",
+        "ky": "Аль-Кинди"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "al-khwarizmi",
+      "role": "predecessor",
+      "name": {
+        "en": "Al-Khwarizmi",
+        "tr": "El-Harezmi",
+        "ru": "Аль-Хорезми",
+        "ky": "Аль-Хорезми"
+      },
+      "birth_year": 780,
+      "death_year": 850
+    },
+    {
+      "slug": "aristotle",
+      "role": "predecessor",
+      "name": {
+        "en": "Aristotle",
+        "tr": "Aristoteles",
+        "ru": "Аристотель",
+        "ky": "Аристотель"
+      },
+      "birth_year": -384,
+      "death_year": -322
+    },
+    {
+      "slug": "gerard-of-cremona",
+      "role": "translator",
+      "name": {
+        "en": "Gerard of Cremona",
+        "tr": "Cremonalı Gerard",
+        "ru": "Герард Кремонский",
+        "ky": "Кремондук Герард"
+      },
+      "birth_year": 1114,
+      "death_year": 1187
+    },
+    {
+      "slug": "dominicus-gundissalinus",
+      "role": "successor",
+      "name": {
+        "en": "Dominicus Gundissalinus",
+        "tr": "Dominicus Gundissalinus",
+        "ru": "Доминик Гундисальви",
+        "ky": "Доминик Гундисальви"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "ibn-sina",
+      "role": "successor",
+      "name": {
+        "en": "Ibn Sina",
+        "tr": "İbn Sina",
+        "ru": "Ибн Сина",
+        "ky": "Ибн Сина"
+      },
+      "birth_year": 980,
+      "death_year": 1037
+    },
+    {
+      "slug": "banu-musa",
+      "role": "context",
+      "name": {
+        "en": "Banu Musa",
+        "tr": "Benî Musa",
+        "ru": "Бану Муса",
+        "ky": "Бану Муса"
+      },
+      "birth_year": null,
+      "death_year": null
+    }
+  ],
+  "builds_on": [
+    "aristotle-lyceum",
+    "euclid-elements",
+    "al-khwarizmi-algebra"
+  ],
+  "sources": [
+    {
+      "title": "Al-Farabi — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/al-Farabi"
+    },
+    {
+      "title": "Ulrich Rudolph, 'al-Farabi' — Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/al-farabi/"
+    },
+    {
+      "title": "Al-Farabi — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Farabi"
+    },
+    {
+      "title": "Al-Farabi, Ihsa al-ulum, Arabic text (ed. Uthman Amin) — Arabic and Latin Glossary corpus, University of Würzburg",
+      "kind": "book",
+      "url": "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/text/Fara_Scien_ar.xhtml"
+    },
+    {
+      "title": "Liber Alfarabii de scientiis, translated by Gerard of Cremona in Toledo — Latin text, University of Würzburg corpus",
+      "kind": "book",
+      "url": "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/text/Fara_Scien_GC_la.index.xhtml"
+    },
+    {
+      "title": "Peter Adamson, 'al-Kindi' — Stanford Encyclopedia of Philosophy",
+      "kind": "encyclopedia",
+      "url": "https://plato.stanford.edu/entries/al-kindi/"
+    },
+    {
+      "title": "Abu Bishr Matta ibn Yunus — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Abu_Bishr_Matta_ibn_Yunus"
+    },
+    {
+      "title": "Dominicus Gundissalinus — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dominicus_Gundissalinus"
+    },
+    {
+      "title": "National Bank of Kazakhstan: the 1993 1-tenge note with the portrait of al-Farabi",
+      "kind": "other",
+      "url": "https://nationalbank.kz/en/news/banknoty/6787"
+    }
+  ],
+  "research_note": "Drafted 2026-11-25 by the nightly pipeline (rank 96 of 100). YEAR: the composition date of Ihsa al-ulum is unknown (SEP gives none); 950 circa is al-Farabi's death (Dec 950/Jan 951, AH 339) used as an upper bound, and the body says so. Threshold met without Britannica (linked): SEP al-Farabi (Rudolph), SEP al-Kindi, English Wikipedia (Al-Farabi, Abu Bishr Matta, Gundissalinus), the Arabic text of Ihsa al-ulum (ed. Amin) and Gerard's Latin text in the Würzburg Arabic-Latin corpus, National Bank of Kazakhstan. CONFIRMED FROM THE ARABIC: five-chapter plan; language science 'for every nation' (عند كل أمة); logic:reason :: grammar:language; scales/rulers/compasses; ilm al-hiyal list incl. architecture, surveying, astronomical and musical instruments, bows/weapons, optical instruments, mirrors (صنعة المرايا) and burning mirrors, wondrous vessels, and 'the science known to the people of our time as al-jabr wa al-muqabala'; the book's stated uses (know a science before entering, compare sciences, expose false claimants). Fiqh and kalam seen only in the plan of chapter 5, not its text. FACT-CHECKER (2026-11-25), applied in all four languages: Kazakhstan note is the 1-TENGE note of 1993 (National Bank), not 20 tenge; the Commons file 'Al-Farabi, 20 Tenge, Kazakhstan,1993.jpg' is a COIN per its own description and was removed from the body; NOTE box: 'own titles' -> title later given; Aristotle claim softened, Hero's mechanics and the Banu Musa Book of Ingenious Devices (~850, Baghdad) added; Ibn Sina 'born near Bukhara' (Afshana); 'wood, metal and stone' -> physical bodies (not in the Arabic); 'three choices were his own' -> 'stand out' (interpretation, not sourced); Turkic/Persian line now notes SEP/Rudolph 'recent research points to Persian' vs Gutas 'cannot be settled'; if_you_were_there softened. REVIEWER SHOULD CHECK: Banu Musa ~850 and Hero link are general knowledge, no source in the list; 'Greek division reached Baghdad via late-antique Alexandria and Syriac schools' is mainstream view, no direct sentence found; Ibn Sina Metaphysics anecdote rests on Wikipedia (his autobiography); 932 debate details from Wikipedia (Abu Bishr Matta); Gundissalinus dates left null (c. 1115-after 1190); al-Kindi years null (c. 800-c. 870); al-Farabi birth_year left null (c. 870) to match the existing person row. IMAGES: cover = Nuremberg Chronicle 1493 woodcut 'Alpharabius philosophus' (Rijksmuseum, CC0) — an imagined portrait; the body's last line says so. Figure: BnF lat. 9335 (13th c., Gerard of Cremona translations incl. De scientiis), Public domain, but the credit line returned by Commons is only a BnF URL (thin author line). Rejected: Mr.Nostalgic crop of the same woodcut (uploader as credit), the tenge coin image (not the banknote). BUILDS_ON: aristotle-lyceum, euclid-elements (the Arabic cites Euclid book X under numerical devices), al-khwarizmi-algebra. CENTRAL ASIA: birthplace candidates Otrar (Kazakhstan), Farab (Turkmenistan), Faryab (Afghanistan); Ibn Sina near Bukhara; Kazakh university and 1993 note. KYRGYZ: no glossary 'check' terms used (далилдөө and зат deliberately avoided). New terms not in glossary: шаймандар илими (science of devices, for ilm al-hiyal), амалдуу ыкмалар, күйгүзүүчү күзгү, дин таануу (theology/kalam), ислам укугу, жер өлчөө, классификация, мукаба (cover).",
+  "translations": {
+    "en": {
+      "title": "Al-Farabi maps every science",
+      "summary": "Around 950 al-Farabi set out every science known in Baghdad in one short book, from grammar and logic to algebra and machines, and showed how they fit together.",
+      "why_it_matters": "It put the Greek sciences and the newer Arabic ones, from grammar and law to algebra, into one ordered map. Translated into Latin in Toledo, it helped shape how Europe's scholars sorted their subjects.",
+      "if_you_were_there": "In Baghdad a student could meet a dozen sciences, and their teachers argued over which of them mattered most.",
+      "place_name": "Baghdad",
+      "body": "### The scene\n\nIn the early tenth century Baghdad was the place where Greek books became Arabic ones. For more than a hundred years translators, many of them Syriac-speaking Christians, had been turning Aristotle, Euclid, Ptolemy and Galen into Arabic, and new sciences had grown beside them: algebra, Islamic law, the theology called kalam, the grammar of Arabic. A student could now meet a dozen disciplines, each with its own teachers and its own claim to be the important one.\n\nNot everyone agreed they belonged together. In 932, before a vizier in Baghdad, the grammarian Abu Sa'id al-Sirafi debated the Christian logician Abu Bishr Matta and argued that Greek logic was of little use to people who spoke Arabic. The accounts of the debate come from al-Sirafi's side, and they have him winning.\n\nAbu Bishr Matta was one of al-Farabi's teachers. Al-Farabi was born around 870, probably in a place called Farab. Medieval writers did not agree where that was, and modern scholars name Otrar on the Syr Darya in today's Kazakhstan, a Farab in Turkmenistan, or Faryab in Afghanistan. They also disagree whether his family was Turkic or Persian; some recent research leans towards Persian, and others hold that the evidence cannot settle it. He spent most of his working life in Baghdad, moved to Syria in the 940s, and died in Damascus in 950 or 951.\n\n### What happened\n\nAl-Farabi wrote a short book called *Ihsa al-ulum*, the *Enumeration of the Sciences*. No one knows the year; it is placed here around 950, at the end of his life, by which time it existed. Its opening line states the plan: to count the well-known sciences one by one, say what each contains, and list its parts.\n\nHe did it in five chapters:\n\n| Chapter | What it covers |\n| ------- | -------------- |\n| 1 | The science of language: words, their rules, correct writing and reading, poetry |\n| 2 | Logic |\n| 3 | The mathematical sciences: number, geometry, optics, mathematical astronomy, music, weights, and the science of devices |\n| 4 | Natural science and divine science (metaphysics) |\n| 5 | Political science, together with Islamic law (fiqh) and theology (kalam) |\n\nThree choices in that table stand out. The language chapter is written for \"every nation\", with Arabic as the example, not Arabic alone. Logic gets its own chapter beside grammar, and al-Farabi says exactly how the two relate: logic is to reason and its thoughts what grammar is to language and its words. Its rules, he adds, work like scales, rulers and compasses, tools for catching what the senses or the mind may have got wrong. And law and theology, the two sciences most at home in Islam, are placed inside political science, next to philosophy rather than above it.\n\nThe most practical idea sits at the end of the mathematics chapter. Al-Farabi calls it *ilm al-hiyal*, the science of devices or ingenious methods. Geometry and arithmetic, he says, study lines and numbers in the mind; the science of devices is the skill of making what they prove real in physical bodies, where matter resists. Under it he puts architecture, surveying, astronomical and musical instruments, bows and weapons, instruments that help the eye see distant things, mirrors and burning mirrors, and wondrous vessels. Under it he also puts \"the science known to the people of our time as *al-jabr wa al-muqabala*\": the algebra that al-Khwarizmi had named about a century earlier in the same city.\n\n![Opening of a thirteenth-century Latin manuscript of Gerard of Cremona's translations, which includes al-Farabi's Enumeration of the Sciences](https://upload.wikimedia.org/wikipedia/commons/f/f2/Bnf_lat_9335.jpg \"http://classes.bnf.fr/idrisi/grand/5_13.htm · Public domain · https://commons.wikimedia.org/wiki/File:Bnf_lat_9335.jpg\")\n\nThe book is like the map at the gate of a large bazaar: it tells a newcomer which row sells what and how the rows connect, before anyone sells them anything. Al-Farabi says this is its use. A student can know what a science offers before entering it, compare the sciences to see which are more useful and more certain, and catch someone who claims to know a science but cannot list its parts. Where the analogy breaks: a bazaar map does not rank the stalls, and al-Farabi's map does. It puts the sciences in an order of study and of worth, and that order is a philosophical claim, not a neutral description.\n\n### Why it was hard\n\nThe pieces came from different worlds. The Greek division of philosophy reached Baghdad through the teachers of late-antique Alexandria and through Syriac schools, and it knew nothing of Arabic grammar, Islamic law or algebra. In the ninth century al-Kindi had written a survey of Aristotle's books, but a list of one author's works is not a map of every science a city practised. Al-Farabi had to decide where the new sciences went without either leaving them out or letting one of them swallow the rest. The 932 debate shows that people still argued about whether a Greek science belonged in an Arabic world at all.\n\n> [!NOTE]\n> The title later given to al-Farabi shows his debt to Aristotle: later writers called him \"the Second Teacher\", with Aristotle as the first. The classification itself, though, is not simply Aristotle's. Aristotle's own division had no separate science of devices and no place for Arabic grammar or Islamic law. The science of devices drew on later Greek mechanics, such as that of Hero of Alexandria, and on Baghdad's own engineers: the three Banu Musa brothers had written a *Book of Ingenious Devices* there around 850.\n\n### What it opened\n\nThe book travelled west. In twelfth-century Toledo it was put into Latin twice: Gerard of Cremona translated it, and Dominicus Gundissalinus reworked it and drew on it heavily in his *On the Division of Philosophy*, one of the texts that shaped how Latin scholars arranged their subjects. Gundissalinus's book is a compilation, though: it also draws on Boethius, Isidore of Seville and Ibn Sina, so al-Farabi was one strong voice among several.\n\nIn the East his influence passed through Ibn Sina, born near Bukhara around three decades after al-Farabi's death. Ibn Sina wrote in his autobiography that he read Aristotle's *Metaphysics* again and again without understanding it, until a small book by al-Farabi on the aims of that work made it clear. The story is Ibn Sina's own and the only account of it.\n\nIn Central Asia al-Farabi is remembered as a native son. Al-Farabi Kazakh National University in Almaty bears his name, and an imagined portrait of him was printed on the 1-tenge note of 1993, the year Kazakhstan introduced its currency.\n\nNo one knows what al-Farabi looked like. The portraits in old books are imagined too, including the 1493 woodcut from the Nuremberg Chronicle that serves as this page's cover.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Farabi bütün bilimlerin haritasını çıkarıyor",
+      "summary": "Farabi 950 dolaylarında Bağdat'ta bilinen bütün bilimleri, dilbilgisi ve mantıktan cebir ve düzeneklere kadar kısa bir kitapta sıraladı ve birbirine nasıl bağlandıklarını gösterdi.",
+      "why_it_matters": "Yunan bilimlerini ve dilbilgisinden hukuka, cebire kadar daha yeni Arap bilimlerini tek, düzenli bir haritaya koydu. Toledo'da Latinceye çevrilince Avrupa bilginlerinin konularını nasıl ayıracağını biçimlendirmeye yardım etti.",
+      "if_you_were_there": "Bağdat'ta bir öğrenci bir düzine bilimle karşılaşabilirdi; hocaları da hangisinin en önemli olduğunu tartışırdı.",
+      "place_name": "Bağdat",
+      "body": "### Sahne\n\nOnuncu yüzyılın başında Bağdat, Yunanca kitapların Arapçaya dönüştüğü yerdi. Yüz yılı aşkın bir süredir çevirmenler, çoğu Süryanice konuşan Hristiyanlar, Aristoteles'i, Öklid'i, Batlamyus'u ve Galenos'u Arapçaya aktarıyordu; yanlarında yeni bilimler de büyümüştü: cebir, İslam hukuku, kelam denen ilahiyat, Arap dilbilgisi. Bir öğrenci artık bir düzine disiplinle karşılaşabiliyordu; her birinin kendi hocaları vardı ve her biri asıl önemli olanın kendisi olduğunu söylüyordu.\n\nBunların bir arada durması gerektiğinde herkes hemfikir değildi. 932'de Bağdat'ta bir vezirin huzurunda dilbilgini Ebu Said es-Sirafi, Hristiyan mantıkçı Ebu Bişr Matta ile tartıştı ve Yunan mantığının Arapça konuşanlara pek bir yararı olmadığını savundu. Tartışmanın anlatıları es-Sirafi'nin tarafından gelir ve onu kazanan olarak gösterir.\n\nEbu Bişr Matta, Farabi'nin hocalarından biriydi. Farabi 870 dolaylarında, büyük olasılıkla Farab denen bir yerde doğdu. Ortaçağ yazarları bunun neresi olduğunda anlaşamadı; günümüz araştırmacıları bugünkü Kazakistan'da Seyhun (Sırderya) kıyısındaki Otrar'ı, Türkmenistan'daki bir Farab'ı ya da Afganistan'daki Faryab'ı anar. Ailesinin Türk mü Fars mı olduğu da tartışmalıdır; bazı yeni araştırmalar Fars kökenine eğilir, bazıları ise kanıtların bu soruyu çözmeye yetmediğini söyler. Çalışma hayatının çoğunu Bağdat'ta geçirdi, 940'larda Suriye'ye gitti ve 950 ya da 951'de Şam'da öldü.\n\n### Ne oldu\n\nFarabi *İhsâü'l-ulûm* yani *Bilimlerin Sayımı* adlı kısa bir kitap yazdı. Yılı bilinmiyor; burada, ömrünün sonu olan ve kitabın artık var olduğu 950 dolaylarına konuyor. İlk cümlesi planı söyler: bilinen bilimleri tek tek saymak, her birinin neyi kapsadığını söylemek ve parçalarını sıralamak.\n\nBunu beş bölümde yaptı:\n\n| Bölüm | Neyi kapsar |\n| ----- | ----------- |\n| 1 | Dil bilimi: sözcükler, kuralları, doğru yazma ve okuma, şiir |\n| 2 | Mantık |\n| 3 | Matematik bilimleri: sayı, geometri, optik, matematiksel astronomi, müzik, ağırlıklar ve düzenekler bilimi |\n| 4 | Doğa bilimi ve ilahi bilim (metafizik) |\n| 5 | Siyaset bilimi; onunla birlikte fıkıh (İslam hukuku) ve kelam (ilahiyat) |\n\nBu tablodaki üç tercih göze çarpar. Dil bölümü yalnızca Arapça için değil, \"her millet\" için yazılmıştır; Arapça örnek olarak kullanılır. Mantık dilbilgisinin yanında kendi bölümünü alır ve Farabi ikisinin ilişkisini tam olarak söyler: mantığın akla ve düşüncelere oranı, dilbilgisinin dile ve sözcüklere oranı gibidir. Mantığın kuralları, diye ekler, teraziler, cetveller ve pergeller gibi çalışır: duyuların ya da aklın yanılmış olabileceği yeri yakalayan aletlerdir. Ve İslam'a en çok ait iki bilim, hukuk ile kelam, siyaset biliminin içine, felsefenin üstüne değil yanına yerleştirilir.\n\nEn pratik fikir matematik bölümünün sonundadır. Farabi buna *ilmü'l-hiyel*, düzenekler ya da ustalıklı yöntemler bilimi der. Geometri ve aritmetik, der, çizgileri ve sayıları zihinde inceler; düzenekler bilimi ise onların kanıtladığını, maddenin direndiği gerçek cisimlerde var etme becerisidir. Altına mimarlığı, ölçmeyi, astronomi ve müzik aletlerini, yayları ve silahları, gözün uzaktakini görmesine yardım eden aletleri, aynaları ve yakıcı aynaları, şaşırtıcı kapları koyar. Altına bir de \"zamanımızın insanlarınca *cebir ve mukabele* diye bilinen bilimi\" koyar: El-Harezmi'nin yaklaşık bir yüzyıl önce aynı şehirde adını koyduğu cebiri.\n\n![Cremonalı Gerard'ın çevirilerini içeren, Farabi'nin Bilimlerin Sayımı'nı da barındıran 13. yüzyıl Latince elyazmasının açılışı](https://upload.wikimedia.org/wikipedia/commons/f/f2/Bnf_lat_9335.jpg \"http://classes.bnf.fr/idrisi/grand/5_13.htm · Public domain · https://commons.wikimedia.org/wiki/File:Bnf_lat_9335.jpg\")\n\nKitap büyük bir çarşının kapısındaki haritaya benzer: yeni gelene, kimse ona bir şey satmadan önce hangi sırada ne satıldığını ve sıraların birbirine nasıl bağlandığını söyler. Farabi kitabın işinin bu olduğunu söyler. Öğrenci bir bilime girmeden onun ne sunduğunu bilebilir, hangilerinin daha yararlı ve daha kesin olduğunu görmek için bilimleri karşılaştırabilir ve bir bilimi bildiğini söyleyip parçalarını sayamayanı yakalayabilir. Benzetmenin bozulduğu yer: çarşı haritası dükkânları sıralamaz, Farabi'nin haritası sıralar. Bilimleri bir öğrenim ve değer sırasına koyar; bu sıra tarafsız bir betimleme değil, felsefi bir iddiadır.\n\n### Neden zordu\n\nParçalar farklı dünyalardan geliyordu. Felsefenin Yunan bölümlemesi Bağdat'a geç antik çağ İskenderiye'sinin hocaları ve Süryani okulları üzerinden ulaşmıştı; Arap dilbilgisinden, İslam hukukundan ya da cebirden haberi yoktu. Dokuzuncu yüzyılda El-Kindi, Aristoteles'in kitaplarını tanıtan bir inceleme yazmıştı; ama tek bir yazarın eserlerinin listesi, bir şehrin uğraştığı bütün bilimlerin haritası değildir. Farabi yeni bilimlerin nereye gideceğine, onları dışarıda bırakmadan ve birinin ötekileri yutmasına izin vermeden karar vermek zorundaydı. 932 tartışması, bir Yunan biliminin Arap dünyasına ait olup olmadığının bile hâlâ tartışıldığını gösterir.\n\n> [!NOTE]\n> Farabi'ye verilen unvan Aristoteles'e borcunu gösterir: sonraki yazarlar ona Aristoteles'ten sonra \"Muallim-i Sânî\", yani İkinci Öğretmen dedi. Ama sınıflamanın kendisi yalnızca Aristoteles'in değildir. Aristoteles'in kendi bölümlemesinde ayrı bir düzenekler bilimi, Arap dilbilgisine ya da İslam hukukuna ayrılmış bir yer yoktu. Düzenekler bilimi, İskenderiyeli Heron'unki gibi sonraki Yunan mekaniğinden ve Bağdat'ın kendi mühendislerinden besleniyordu: üç Benî Musa kardeş orada 850 dolaylarında bir *Ustalıklı Düzenekler Kitabı* yazmıştı.\n\n### Sonrası\n\nKitap batıya yolculuk etti. On ikinci yüzyıl Toledo'sunda iki kez Latinceye aktarıldı: Cremonalı Gerard onu çevirdi, Dominicus Gundissalinus ise onu yeniden işledi ve Latin bilginlerin konularını nasıl düzenleyeceğini biçimlendiren metinlerden biri olan *Felsefenin Bölümlenmesi Üzerine* adlı eserinde ondan bolca yararlandı. Gundissalinus'un kitabı bir derlemedir yine de: Boethius'tan, Sevillalı İsidorus'tan ve İbn Sina'dan da beslenir; yani Farabi birkaç güçlü sesten biriydi.\n\nDoğuda etkisi, Farabi'nin ölümünden yaklaşık otuz yıl sonra Buhara yakınında doğan İbn Sina üzerinden geçti. İbn Sina otobiyografisinde, Aristoteles'in *Metafizik*'ini tekrar tekrar okuyup anlamadığını, ta ki Farabi'nin o eserin amaçları üzerine küçük bir kitabı onu açık edene kadar, yazar. Hikâye İbn Sina'nın kendisine aittir ve tek anlatısı odur.\n\nOrta Asya'da Farabi bu toprakların evladı olarak anılır. Almatı'daki El-Farabi Kazak Millî Üniversitesi onun adını taşır ve hayalî bir portresi, Kazakistan'ın kendi parasını çıkardığı 1993 yılının 1 tengelik banknotuna basıldı.\n\nFarabi'nin neye benzediğini kimse bilmiyor. Eski kitaplardaki portreler de hayal ürünüdür; bu sayfanın kapağındaki 1493 tarihli Nürnberg Kroniği gravürü de öyle.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Аль-Фараби составляет карту всех наук",
+      "summary": "Около 950 года аль-Фараби перечислил в небольшой книге все науки, известные в Багдаде, от грамматики и логики до алгебры и механизмов, и показал, как они связаны.",
+      "why_it_matters": "Книга поместила греческие науки и более новые арабские, от грамматики и права до алгебры, на одну упорядоченную карту. Переведённая в Толедо на латынь, она помогла европейским учёным упорядочить свои предметы.",
+      "if_you_were_there": "В Багдаде студент мог встретить дюжину наук, а их учителя спорили, какая из них важнее.",
+      "place_name": "Багдад",
+      "body": "### Обстановка\n\nВ начале X века Багдад был местом, где греческие книги становились арабскими. Больше ста лет переводчики, многие из них сироязычные христиане, переводили на арабский Аристотеля, Евклида, Птолемея и Галена, а рядом выросли новые науки: алгебра, исламское право, богословие под названием калам, грамматика арабского языка. Студент мог встретить теперь дюжину дисциплин, у каждой свои учителя и каждая уверена, что главная именно она.\n\nНе все соглашались, что им место рядом. В 932 году в Багдаде, перед везиром, грамматист Абу Саид ас-Сирафи спорил с христианским логиком Абу Бишром Маттой и доказывал, что греческая логика мало полезна тем, кто говорит по-арабски. Рассказы об этом споре дошли со стороны ас-Сирафи, и победителем в них выходит он.\n\nАбу Бишр Матта был одним из учителей аль-Фараби. Аль-Фараби родился около 870 года, вероятно, в местности под названием Фараб. Средневековые авторы не сходились в том, где она находилась, а современные исследователи называют Отрар на Сырдарье в нынешнем Казахстане, Фараб в Туркменистане или Фарьяб в Афганистане. Спорят и о том, была ли его семья тюркской или персидской: часть новых исследований склоняется к персидскому происхождению, другие считают, что данных для ответа недостаточно. Большую часть жизни он работал в Багдаде, в 940-х годах переехал в Сирию и умер в Дамаске в 950 или 951 году.\n\n### Что произошло\n\nАль-Фараби написал небольшую книгу «Ихса аль-улюм», «Перечисление наук». Год неизвестен; здесь она стоит около 950 года, в конце его жизни, когда книга уже существовала. Первая фраза излагает замысел: перечислить известные науки одну за другой, сказать, что содержит каждая, и назвать её части.\n\nОн сделал это в пяти главах:\n\n| Глава | О чём |\n| ----- | ----- |\n| 1 | Наука о языке: слова, их правила, правильное письмо и чтение, поэзия |\n| 2 | Логика |\n| 3 | Математические науки: число, геометрия, оптика, математическая астрономия, музыка, наука о тяжестях и наука об устройствах |\n| 4 | Наука о природе и божественная наука (метафизика) |\n| 5 | Гражданская (политическая) наука, а вместе с ней исламское право (фикх) и богословие (калам) |\n\nТри решения в этой таблице бросаются в глаза. Глава о языке написана для «каждого народа», а арабский служит примером, а не единственным предметом. Логика получает собственную главу рядом с грамматикой, и аль-Фараби точно говорит, как они связаны: логика относится к разуму и мыслям так же, как грамматика к языку и словам. Её правила, добавляет он, работают как весы, линейки и циркули: это инструменты, которые ловят то, в чём могли ошибиться чувства или ум. А право и богословие, две науки, наиболее укоренённые в исламе, помещены внутрь гражданской науки, рядом с философией, а не над ней.\n\nСамая практическая мысль стоит в конце математической главы. Аль-Фараби называет это «ильм аль-хиял», наукой об устройствах, или об искусных приёмах. Геометрия и арифметика, говорит он, изучают линии и числа в уме; наука об устройствах — это умение воплотить доказанное ими в реальных телах, где материя сопротивляется. К ней он относит зодчество, землемерие, астрономические и музыкальные инструменты, луки и оружие, приборы, помогающие глазу видеть далёкое, зеркала и зажигательные зеркала, удивительные сосуды. К ней же он относит «науку, известную людям нашего времени как *аль-джабр ва-ль-мукабала*»: алгебру, которую примерно за сто лет до того в том же городе назвал аль-Хорезми.\n\n![Начало латинской рукописи XIII века с переводами Герарда Кремонского, в которую входит «Перечисление наук» аль-Фараби](https://upload.wikimedia.org/wikipedia/commons/f/f2/Bnf_lat_9335.jpg \"http://classes.bnf.fr/idrisi/grand/5_13.htm · Public domain · https://commons.wikimedia.org/wiki/File:Bnf_lat_9335.jpg\")\n\nКнига похожа на план у ворот большого базара: она говорит новичку, в каком ряду что продают и как ряды связаны, прежде чем ему что-нибудь продадут. Аль-Фараби сам говорит, что в этом её польза. Ученик может узнать, что даёт наука, прежде чем за неё взяться, сравнить науки, чтобы увидеть, какие полезнее и достовернее, и разоблачить того, кто называет себя знатоком науки, но не может перечислить её части. Где сравнение ломается: план базара не ранжирует лавки, а план аль-Фараби ранжирует. Он ставит науки в порядок изучения и ценности, и этот порядок — философское утверждение, а не нейтральное описание.\n\n### Почему это было трудно\n\nЧасти пришли из разных миров. Греческое деление философии дошло до Багдада через учителей позднеантичной Александрии и сирийские школы, и оно ничего не знало об арабской грамматике, исламском праве или алгебре. В IX веке аль-Кинди написал обзор книг Аристотеля, но список трудов одного автора — ещё не карта всех наук, которыми занимался город. Аль-Фараби должен был решить, куда поставить новые науки, не выбросив их и не позволив одной поглотить остальные. Спор 932 года показывает, что люди всё ещё спорили, есть ли вообще место греческой науке в арабском мире.\n\n> [!NOTE]\n> Прозвище, данное аль-Фараби позже, показывает его долг Аристотелю: позднейшие авторы называли его «Вторым учителем», считая первым Аристотеля. Но сама классификация не просто аристотелевская. В собственном делении Аристотеля не было отдельной науки об устройствах и места для арабской грамматики или исламского права. Наука об устройствах опиралась на позднейшую греческую механику, например Герона Александрийского, и на собственных инженеров Багдада: три брата Бану Муса написали там около 850 года «Книгу хитроумных устройств».\n\n### Что это открыло\n\nКнига ушла на запад. В Толедо XII века её дважды переложили на латынь: Герард Кремонский перевёл её, а Доминик Гундисальви переработал и широко использовал в своём сочинении «О разделении философии», одном из текстов, определивших, как латинские учёные упорядочивали свои предметы. Впрочем, книга Гундисальви — компиляция: она опирается также на Боэция, Исидора Севильского и Ибн Сину, так что аль-Фараби был одним сильным голосом из нескольких.\n\nНа Востоке его влияние прошло через Ибн Сину, родившегося близ Бухары примерно через три десятилетия после смерти аль-Фараби. Ибн Сина писал в автобиографии, что читал «Метафизику» Аристотеля снова и снова, не понимая её, пока небольшая книга аль-Фараби о целях этого сочинения не сделала её ясной. История принадлежит самому Ибн Сине, и других рассказов о ней нет.\n\nВ Центральной Азии аль-Фараби помнят как земляка. Его имя носит Казахский национальный университет имени аль-Фараби в Алматы, а его воображаемый портрет был напечатан на банкноте в 1 тенге 1993 года — года, когда Казахстан ввёл собственную валюту.\n\nНикто не знает, как выглядел аль-Фараби. Портреты в старых книгах тоже придуманы, в том числе гравюра 1493 года из Нюрнбергской хроники на обложке этой страницы.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Аль-Фараби бардык илимдердин картасын түзөт",
+      "summary": "Болжол менен 950-жылы аль-Фараби Багдадда белгилүү бардык илимдерди, грамматика менен логикадан алгебра менен шаймандарга чейин, бир кичине китепке тизмелеп, алардын байланышын көрсөткөн.",
+      "why_it_matters": "Китеп грек илимдерин жана грамматикадан укукка, алгебрага чейинки жаңыраак араб илимдерин бир иреттүү картага жайгаштырган. Толедодо латын тилине которулуп, Европа окумуштуулары өз сабактарын кантип иреттешине таасир эткен.",
+      "if_you_were_there": "Багдадда студент ондон ашык илимге жолуга алчу, ал эми алардын устаттары кайсынысы маанилүүрөөк экенин талашчу.",
+      "place_name": "Багдад",
+      "body": "### Көрүнүш\n\nX кылымдын башында Багдад грек китептери араб тилине которулган жер болчу. Жүз жылдан ашык убакыт котормочулар, алардын көбү сирия тилинде сүйлөгөн христиандар, Аристотелди, Евклидди, Птолемейди жана Галенди араб тилине которуп келишкен. Алардын жанында жаңы илимдер да өскөн: алгебра, ислам укугу, калам деп аталган дин таануу, араб тилинин грамматикасы. Эми студент ондон ашык илимге жолуга алчу; ар биринин өз устаттары бар эле жана ар бири эң негизгиси өзү экенин айтчу.\n\nАлар бир жерде турушу керек экенине баары эле макул эмес болчу. 932-жылы Багдадда, вазирдин алдында грамматик Абу Саид ас-Сирафи христиан логиги Абу Бишр Матта менен талашып, грек логикасы араб тилинде сүйлөгөндөргө анча пайда бербейт деп ырастаган. Бул талаш тууралуу баяндар ас-Сирафинин тарабынан жеткен жана аларда ал жеңип чыгат.\n\nАбу Бишр Матта аль-Фарабинин устаттарынын бири болгон. Аль-Фараби болжол менен 870-жылы, кыязы, Фараб деген жерде туулган. Орто кылымдагы авторлор анын кайда экенине бир пикирге келишкен эмес; азыркы изилдөөчүлөр бүгүнкү Казакстандагы Сырдарыянын жээгиндеги Отрарды, Түркмөнстандагы Фарабды же Ооганстандагы Фарьябды аташат. Анын үй-бүлөсү түрк же перс болгонун да талашышат: айрым жаңы изилдөөлөр перс тегине ыктайт, башкалары болсо далилдер бул суроону чечүүгө жетишсиз дешет. Ал өмүрүнүн көбүн Багдадда иштеп өткөргөн, 940-жылдары Сирияга көчүп, 950 же 951-жылы Дамаскта көз жумган.\n\n### Эмне болду\n\nАль-Фараби «Ихса аль-улум», башкача айтканда «Илимдерди санап чыгуу» деген кичине китеп жазган. Жылы белгисиз; бул жерде ал өмүрүнүн аягына, китеп мурунтан бар болгон болжол менен 950-жылга коюлду. Китептин биринчи сүйлөмү максатты айтат: белгилүү илимдерди бирден санап чыгуу, ар бири эмнени камтыйт, айтуу жана анын бөлүктөрүн тизмелөө.\n\nАл муну беш бөлүмдө аткарган:\n\n| Бөлүм | Эмнени камтыйт |\n| ----- | -------------- |\n| 1 | Тил илими: сөздөр, алардын эрежелери, туура жазуу жана окуу, поэзия |\n| 2 | Логика |\n| 3 | Математикалык илимдер: сан, геометрия, оптика, математикалык астрономия, музыка, салмактар жана шаймандар илими |\n| 4 | Табият илими жана кудайлык илим (метафизика) |\n| 5 | Саясат илими, аны менен бирге ислам укугу (фикх) жана дин таануу (калам) |\n\nБул таблицадагы үч чечим көзгө урунат. Тил бөлүмү араб тили үчүн гана эмес, «ар бир эл» үчүн жазылган, араб тили болсо мисал катары колдонулат. Логика грамматиканын жанында өз бөлүмүн алат, ал эми аль-Фараби экөөнүн байланышын так айтат: логиканын акылга жана ойлорго болгон катышы грамматиканын тилге жана сөздөргө болгон катышындай. Анын эрежелери, дейт ал, тараза, сызгыч жана циркуль сыяктуу иштейт: булар сезимдер же акыл жаңылышы мүмкүн болгон жерди кармаган куралдар. Ал эми исламга эң жакын эки илим, укук менен калам, саясат илиминин ичине, философиянын үстүнө эмес, жанына коюлган.\n\nЭң практикалык ой математика бөлүмүнүн аягында турат. Аль-Фараби аны «ильм аль-хиял», шаймандар же амалдуу ыкмалар илими деп атайт. Геометрия менен арифметика, дейт ал, сызыктарды жана сандарды акылда изилдейт; шаймандар илими болсо алар далил менен көрсөткөн нерсени материал каршылык көрсөткөн чыныгы нерселерде ишке ашыруу чеберчилиги. Ага ал куруучулукту, жер өлчөөнү, астрономиялык жана музыкалык аспаптарды, жаа менен куралдарды, көзгө алыскы нерсени көрүүгө жардам берген аспаптарды, күзгүлөрдү жана күйгүзүүчү күзгүлөрдү, укмуштуу идиштерди кошот. Ага дагы «биздин замандын адамдарына *аль-жабр ва-ль-мукабала* деп белгилүү илимди» кошот: болжол менен жүз жыл мурун ошол эле шаарда аль-Хорезми ат койгон алгебраны.\n\n![Кремондук Герарддын котормолорун камтыган, аль-Фарабинин «Илимдерди санап чыгуу» китеби да кирген XIII кылымдагы латын кол жазмасынын башы](https://upload.wikimedia.org/wikipedia/commons/f/f2/Bnf_lat_9335.jpg \"http://classes.bnf.fr/idrisi/grand/5_13.htm · Public domain · https://commons.wikimedia.org/wiki/File:Bnf_lat_9335.jpg\")\n\nКитеп чоң базардын дарбазасындагы планга окшош: жаңы келген кишиге ага бир нерсе сатыла электе кайсы катарда эмне сатыларын жана катарлар бири-бири менен кантип байланышарын айтат. Аль-Фараби китептин пайдасы ушунда экенин өзү айтат. Окуучу бир илимге киришүүдөн мурун ал эмне берерин биле алат, кайсылары пайдалуураак жана ишенимдүүрөөк экенин көрүү үчүн илимдерди салыштыра алат жана илимди билем деп, бирок анын бөлүктөрүн санап бере албаган кишини ашкерелей алат. Салыштыруу кайда бузулат: базардын планы дүкөндөрдү даражалабайт, ал эми аль-Фарабинин планы даражалайт. Ал илимдерди окуу жана баалуулук тартибине коёт, бул тартип бейтарап сүрөттөө эмес, философиялык ырастоо.\n\n### Эмне үчүн кыйын болгон\n\nБөлүктөр ар башка дүйнөлөрдөн келген. Философиянын грек бөлүнүшү Багдадга кеч антик доордогу Александриянын устаттары жана сирия мектептери аркылуу жеткен, ал араб грамматикасы, ислам укугу же алгебра жөнүндө эч нерсе билчү эмес. IX кылымда аль-Кинди Аристотелдин китептерине сереп жазган, бирок бир автордун эмгектеринин тизмеси шаар алектенген бардык илимдердин картасы эмес. Аль-Фараби жаңы илимдерди кайда коюуну, аларды сыртта калтырбай жана бирине калгандарын жутуп алууга жол бербей чечиши керек болчу. 932-жылдагы талаш грек илиминин араб дүйнөсүндө орду барбы деген суроо да али талашылып жатканын көрсөтөт.\n\n> [!NOTE]\n> Аль-Фарабиге кийин берилген наам анын Аристотелге карыздар экенин көрсөтөт: кийинки авторлор аны Аристотелден кийинки «Экинчи мугалим» деп аташкан. Бирок классификациянын өзү жөн гана Аристотелдики эмес. Аристотелдин өз бөлүнүшүндө өзүнчө шаймандар илими да, араб грамматикасына же ислам укугуна орун да болгон эмес. Шаймандар илими Александриялык Герон сыяктуу кийинки грек механикасына жана Багдаддын өз инженерлерине таянган: үч бир тууган Бану Муса ал жерде болжол менен 850-жылы «Амалдуу шаймандар китебин» жазышкан.\n\n### Андан кийин эмне ачылды\n\nКитеп батышка жол тарткан. XII кылымдагы Толедодо ал латын тилине эки жолу которулган: Кремондук Герард аны которгон, ал эми Доминик Гундисальви аны кайра иштеп чыгып, латын окумуштуулары өз сабактарын кантип иреттешин аныктаган тексттердин бири болгон «Философиянын бөлүнүшү жөнүндө» деген эмгегинде андан кеңири пайдаланган. Ошентсе да Гундисальвинин китеби жыйнак: ал Боэцийге, Севильялык Исидорго жана Ибн Синага да таянат, демек аль-Фараби бир нече күчтүү үндүн бири болгон.\n\nЧыгышта анын таасири аль-Фараби көз жумгандан болжол менен отуз жыл өткөндөн кийин Бухаранын жанында туулган Ибн Сина аркылуу өткөн. Ибн Сина өз өмүр баянында мындай деп жазган: ал Аристотелдин «Метафизикасын» кайра-кайра окуса да түшүнгөн эмес, акыры аль-Фарабинин ал эмгектин максаттары жөнүндөгү кичине китеби аны ачып берген. Бул окуя Ибн Синанын өзүнүкү жана аны башка эч ким баяндабайт.\n\nБорбор Азияда аль-Фарабини ушул жердин уулу катары эскеришет. Алматыдагы аль-Фараби атындагы Казак улуттук университети анын атын алып жүрөт, ал эми анын элестетилген портрети Казакстан өз валютасын киргизген 1993-жылдагы 1 теңгелик банкнотко басылган.\n\nАль-Фарабинин кандай болгонун эч ким билбейт. Эски китептердеги портреттер да ойдон чыгарылган, анын ичинде ушул беттин мукабасындагы Нюрнберг хроникасынын 1493-жылдагы гравюрасы да.",
+      "status": "machine"
+    }
+  }
+}
