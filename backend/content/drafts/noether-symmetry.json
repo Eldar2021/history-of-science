@@ -1,0 +1,296 @@
+{
+  "slug": "noether-symmetry",
+  "year": 1918,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 51.5413,
+  "lng": 9.9158,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Noether.jpg",
+    "credit": "Unknown author Unknown author Publisher: Mathematical Association of America [3] , Brooklyn Museum [4] , Agnes Scott College [5] , [6]",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Noether.jpg"
+  },
+  "disciplines": [
+    "mathematics",
+    "physics"
+  ],
+  "people": [
+    {
+      "slug": "emmy-noether",
+      "role": "author",
+      "name": {
+        "en": "Emmy Noether",
+        "tr": "Emmy Noether",
+        "ru": "Эмми Нётер",
+        "ky": "Эмми Нётер"
+      },
+      "birth_year": 1882,
+      "death_year": 1935
+    },
+    {
+      "slug": "felix-klein",
+      "role": "patron",
+      "name": {
+        "en": "Felix Klein",
+        "tr": "Felix Klein",
+        "ru": "Феликс Клейн",
+        "ky": "Феликс Клейн"
+      },
+      "birth_year": 1849,
+      "death_year": 1925
+    },
+    {
+      "slug": "david-hilbert",
+      "role": "patron",
+      "name": {
+        "en": "David Hilbert",
+        "tr": "David Hilbert",
+        "ru": "Давид Гильберт",
+        "ky": "Давид Гильберт"
+      },
+      "birth_year": 1862,
+      "death_year": 1943
+    },
+    {
+      "slug": "albert-einstein",
+      "role": "context",
+      "name": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein",
+        "ru": "Альберт Эйнштейн",
+        "ky": "Альберт Эйнштейн"
+      },
+      "birth_year": 1879,
+      "death_year": 1955
+    },
+    {
+      "slug": "joseph-louis-lagrange",
+      "role": "predecessor",
+      "name": {
+        "en": "Joseph-Louis Lagrange",
+        "tr": "Joseph-Louis Lagrange",
+        "ru": "Жозеф Луи Лагранж",
+        "ky": "Жозеф Луи Лагранж"
+      },
+      "birth_year": 1736,
+      "death_year": 1813
+    },
+    {
+      "slug": "carl-gustav-jacobi",
+      "role": "predecessor",
+      "name": {
+        "en": "Carl Jacobi",
+        "tr": "Carl Jacobi",
+        "ru": "Карл Якоби",
+        "ky": "Карл Якоби"
+      },
+      "birth_year": 1804,
+      "death_year": 1851
+    },
+    {
+      "slug": "sophus-lie",
+      "role": "predecessor",
+      "name": {
+        "en": "Sophus Lie",
+        "tr": "Sophus Lie",
+        "ru": "Софус Ли",
+        "ky": "Софус Ли"
+      },
+      "birth_year": 1842,
+      "death_year": 1899
+    },
+    {
+      "slug": "gustav-herglotz",
+      "role": "predecessor",
+      "name": {
+        "en": "Gustav Herglotz",
+        "tr": "Gustav Herglotz",
+        "ru": "Густав Герглотц",
+        "ky": "Густав Герглотц"
+      },
+      "birth_year": 1881,
+      "death_year": 1953
+    },
+    {
+      "slug": "friedrich-engel",
+      "role": "predecessor",
+      "name": {
+        "en": "Friedrich Engel",
+        "tr": "Friedrich Engel",
+        "ru": "Фридрих Энгель",
+        "ky": "Фридрих Энгель"
+      },
+      "birth_year": 1861,
+      "death_year": 1941
+    },
+    {
+      "slug": "erich-bessel-hagen",
+      "role": "successor",
+      "name": {
+        "en": "Erich Bessel-Hagen",
+        "tr": "Erich Bessel-Hagen",
+        "ru": "Эрих Бессель-Хаген",
+        "ky": "Эрих Бессель-Хаген"
+      },
+      "birth_year": 1898,
+      "death_year": 1946
+    },
+    {
+      "slug": "nikolay-bogolyubov",
+      "role": "successor",
+      "name": {
+        "en": "Nikolay Bogolyubov",
+        "tr": "Nikolay Bogolyubov",
+        "ru": "Николай Боголюбов",
+        "ky": "Николай Боголюбов"
+      },
+      "birth_year": 1909,
+      "death_year": 1992
+    },
+    {
+      "slug": "dmitry-shirkov",
+      "role": "successor",
+      "name": {
+        "en": "Dmitry Shirkov",
+        "tr": "Dmitri Şirkov",
+        "ru": "Дмитрий Ширков",
+        "ky": "Дмитрий Ширков"
+      },
+      "birth_year": 1928,
+      "death_year": 2016
+    },
+    {
+      "slug": "pavel-alexandrov",
+      "role": "contemporary",
+      "name": {
+        "en": "Pavel Alexandrov",
+        "tr": "Pavel Aleksandrov",
+        "ru": "Павел Александров",
+        "ky": "Павел Александров"
+      },
+      "birth_year": 1896,
+      "death_year": 1982
+    },
+    {
+      "slug": "hermann-weyl",
+      "role": "contemporary",
+      "name": {
+        "en": "Hermann Weyl",
+        "tr": "Hermann Weyl",
+        "ru": "Герман Вейль",
+        "ky": "Герман Вейль"
+      },
+      "birth_year": 1885,
+      "death_year": 1955
+    },
+    {
+      "slug": "anna-pell-wheeler",
+      "role": "patron",
+      "name": {
+        "en": "Anna Johnson Pell Wheeler",
+        "tr": "Anna Johnson Pell Wheeler",
+        "ru": "Анна Джонсон Пелл Уилер",
+        "ky": "Анна Джонсон Пелл Уилер"
+      },
+      "birth_year": 1883,
+      "death_year": 1966
+    }
+  ],
+  "builds_on": [
+    "general-relativity",
+    "einstein-miracle-year",
+    "newton-principia"
+  ],
+  "sources": [
+    {
+      "title": "Emmy Noether — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Emmy-Noether"
+    },
+    {
+      "title": "Emmy Noether — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Emmy_Noether"
+    },
+    {
+      "title": "Noether's theorem — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Noether%27s_theorem"
+    },
+    {
+      "title": "Noether's second theorem — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Noether%27s_second_theorem"
+    },
+    {
+      "title": "J J O'Connor and E F Robertson, 'Emmy Amalie Noether' — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/"
+    },
+    {
+      "title": "Yvette Kosmann-Schwarzbach, 'The Noether theorems in context' (arXiv:2004.09254)",
+      "kind": "article",
+      "url": "https://arxiv.org/abs/2004.09254"
+    },
+    {
+      "title": "Nina Byers, 'The Life and Times of Emmy Noether: contributions of E. Noether to particle physics' (arXiv:hep-th/9411110)",
+      "kind": "article",
+      "url": "https://arxiv.org/abs/hep-th/9411110"
+    },
+    {
+      "title": "Albert Einstein, letter to the editor of The New York Times, 4 May 1935 — MacTutor",
+      "kind": "other",
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Noether_Emmy_Einstein/"
+    },
+    {
+      "title": "E. Noether, 'Invariante Variationsprobleme', Nachr. Ges. Wiss. Göttingen, Math.-Phys. Kl. 1918, 235–257 — EuDML",
+      "kind": "book",
+      "url": "http://eudml.org/doc/59024"
+    }
+  ],
+  "research_note": "Drafted 2026-11-26 by the nightly pipeline (rank 97 of 100). YEAR: 1918 exact — Klein presented Invariante Variationsprobleme to the Göttingen Society of Sciences on 26 July 1918; final version end of September (Kosmann-Schwarzbach). Sources: English Wikipedia (Emmy Noether, Noether's theorem, Noether's second theorem), MacTutor biography, Kosmann-Schwarzbach arXiv:2004.09254, Byers arXiv:hep-th/9411110, Einstein's NYT letter (MacTutor), the original paper (EuDML); Britannica linked only. FLAGGED IN BODY: 'not a bathhouse' line given as later retelling (exact words not preserved); Klein presented 'probably' because she was not a member (reason not stated in sources). FACT-CHECKER (2026-11-26), applied in all four languages: Einstein's May 1918 letter to Hilbert ('very interesting paper on invariant forms', 'old guard') predates the July paper and concerns an earlier Noether paper — moved to the scene and reworded; Weyl's relativity book: first edition silent, later editions a footnote (was 'did not mention it'); Bessel-Hagen was Klein's student, not Noether's; NYT letter: removed 'Siegmund-Schultze argued Weyl drafted it' (his 2007 article argues the opposite, Einstein wrote it at Weyl's request) — body now says only that Weyl's share is debated; why_it_matters 'spin' -> angular momentum; Klein and Hilbert roles collaborator -> patron. REVIEWER SHOULD CHECK: winter 1916-17 catalogue wording (Byers confirms 1916-19 announcements 'Professor Hilbert with the assistance of Frl. Dr. E. Noether'; exact semester entry from MacTutor); Bogolyubov-Shirkov Russian edition 1957 not in Byers (she cites the 1959 English edition as the first QFT text she found mentioning the theorem); Siegmund-Schultze 2007 read only in abstract by the checker; 'she later dismissed' her thesis (Wikipedia: she called it 'crap'). IMAGES: cover File:Noether.jpg, Public domain, but the Commons credit line is thin and messy ('Unknown author ... Publisher: MAA, Brooklyn Museum, Agnes Scott College'), used verbatim. Figures: table from her 1908 dissertation (credit 'en:Emmy Noether', Public domain) and first page of the 1918 paper (Public domain). Considered and not used: EmmyNoether MFO3096.jpg (CC BY-SA 2.0 de, Konrad Jacobs). NON-WESTERN/OTHERS: Moscow 1928-29 with Pavel Alexandrov; Bogolyubov and Shirkov (Moscow); student Chiungtze Tsen (China); Anna Pell Wheeler at Bryn Mawr. Predecessors Lagrange, Jacobi, Lie, Herglotz, Engel named — no lone-hero framing. KYRGYZ: no glossary 'check' terms used (далилдөө avoided; көрсөттү used). New terms not in glossary, need a teacher: симметрия, сакталуу мыйзамы (conservation law), сакталуучу чоңдук, эң аз аракет принциби (principle of least action), үзгүлтүксүз симметрия, импульс / импульс моменти, вариациялык эсептөө, «өздүк эмес» (improper), квалификациялык иш, үзгүлтүксүз өзгөртүү топтору (continuous transformation groups).",
+  "translations": {
+    "en": {
+      "title": "Emmy Noether links symmetry to conservation",
+      "summary": "In 1918 Emmy Noether proved that every continuous symmetry of a physical law comes with a quantity that never changes: energy from time, momentum from space.",
+      "why_it_matters": "It explained why energy, momentum and angular momentum are conserved: they follow from the sameness of nature's laws in time, space and direction. Modern particle physics is built on symmetries, and her theorems are how physicists turn them into laws.",
+      "if_you_were_there": "The woman who found it could not lecture under her own name; Felix Klein had to present her paper for her.",
+      "place_name": "Göttingen",
+      "body": "### The scene\n\nEmmy Noether was born in 1882 in Erlangen, a university town in Bavaria, the daughter of the mathematician Max Noether. Women could not then enrol at most German universities as ordinary students; she first sat in on lectures as a guest, and only when the rules changed could she enrol properly. She took her doctorate at Erlangen in 1907 with a thesis on invariants: quantities that stay the same when an algebraic expression is transformed. The thesis was a huge hand calculation, and she later dismissed it. For the next several years she worked at the Erlangen mathematics institute without pay or position.\n\n![A table from Emmy Noether's doctoral thesis, published in 1908: invariants of ternary biquadratic forms, worked out by hand](https://upload.wikimedia.org/wikipedia/commons/9/96/Emmy_Noether_-_Table_of_invariants_2.jpg \"en:Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Emmy_Noether_-_Table_of_invariants_2.jpg\")\n\nIn early 1915 David Hilbert and Felix Klein invited her to Göttingen, then the centre of the mathematical world. Hilbert was working on the same problem as Albert Einstein: a theory of gravity in which space and time themselves bend. The new theory raised an awkward question. In older physics, energy is never created or destroyed; in general relativity it was no longer clear what \"the total energy\" even meant. Hilbert and Klein needed an expert on invariants, and they asked Noether.\n\nThe university would not give her the right to teach. Historians and philologists on the faculty objected to a woman lecturer. Hilbert argued for her; the exact words he used have not been preserved, and the line most often quoted, that a university is not a bathhouse, comes from later retellings. Her courses were announced under his name: the catalogue for winter 1916–17 lists a mathematical physics seminar by \"Professor Hilbert, with the assistance of Dr E. Noether\".\n\nOutside the faculty her work was noticed. In May 1918, two months before the paper below was presented, Einstein wrote to Hilbert that he had received from Miss Noether \"a very interesting paper on invariant forms\", an earlier piece of hers, and added that the \"old guard\" at Göttingen could learn something from her.\n\n### What happened\n\nHer paper, *Invariante Variationsprobleme* (\"Invariant variation problems\"), was presented to the Göttingen Society of Sciences on 26 July 1918. Klein presented it, probably because she was not a member of the society. She prepared the final version at the end of September, and it was printed that year.\n\nThe paper contains two theorems. The first says: if a physical system is described by a principle of least action, a single quantity whose value nature makes as small (or stationary) as possible, then every continuous symmetry of that description comes with a quantity that is conserved. It also works the other way: every such conserved quantity points back to a symmetry. \"Continuous\" means a symmetry you can apply a little at a time, like shifting or turning, not a single flip like a mirror.\n\n> [!THEORY]\n> Three pairs that every physics student now learns from Noether's first theorem:\n>\n> | If the laws are the same… | …then this never changes |\n> | ------------------------- | ------------------------ |\n> | at every moment of time | energy |\n> | at every place in space | momentum |\n> | in every direction | angular momentum (the amount of spin) |\n\nThe second theorem deals with a bigger kind of symmetry, one that may be applied differently at every point of space and time. General relativity has exactly this freedom, because its laws look the same in any choice of coordinates. Noether showed that such a symmetry does not give new conservation laws in the usual sense; instead it forces fixed relations among the equations themselves. That was the answer to Hilbert's puzzle: in general relativity the energy law takes a different, \"improper\" form, and the reason is the size of the theory's symmetry.\n\nAn analogy: imagine a board game whose rules are exactly the same on Monday as on Friday. Noether's first theorem says that a game like that must have a score total that can never change, and it tells you how to find it. Where the analogy breaks: a board game is not described by a principle of least action, and the theorem only applies to systems that are. A swinging pendulum slowed by air resistance, for example, does not fit the theorem in this form, even though its rules do not change from day to day.\n\nIn 1919, with this paper as her qualifying thesis, Noether was finally granted the right to teach.\n\n### Why it was hard\n\nThe pieces were not new, but they had never been joined. Joseph-Louis Lagrange had linked some conservation laws to invariances around 1811, and Carl Jacobi surveyed the connection in lectures in 1842–43. Sophus Lie in Norway had built the mathematics of continuous transformation groups. In 1911 Gustav Herglotz and in 1916 Friedrich Engel had worked out the conserved quantities of particular theories, Einstein's special relativity and classical mechanics. Each of them had special cases. Noether gave the general rule, for any theory built on a principle of least action, and proved that it runs in both directions. She could do it because she was at home in two fields at once: the theory of invariants and Lie's groups on one side, the calculus of variations used by physicists on the other.\n\n### What it opened\n\nAt first, almost nothing. For decades the paper was rarely cited; the first edition of Hermann Weyl's influential book on relativity did not mention it, and later editions gave it only a footnote. Erich Bessel-Hagen, a young student of Klein's, extended the theorems in 1921, writing that he owed the idea to \"an oral communication by Miss Emmy Noether herself\". Physicists came back to it in the 1950s, when field theories began to be written in the language of least action. The physicist Nina Byers, who studied this history, found that one of the first quantum field theory textbooks to mention the theorem was by Nikolay Bogolyubov and Dmitry Shirkov in Moscow, published in Russian in 1957 and in English in 1959. Today it is part of the foundation of the Standard Model of particle physics, whose forces are described by symmetries of exactly the kind her second theorem treats.\n\nNoether herself had moved on. From the 1920s she rebuilt algebra around abstract structures, and that work is why mathematicians call her one of the founders of modern algebra. She spent the winter of 1928–29 at Moscow State University working with the topologist Pavel Alexandrov, and her students came from many countries, among them Chiungtze Tsen from China.\n\nIn April 1933 the Nazi government took away her right to teach because she was Jewish. She moved to the United States, to Bryn Mawr, a women's college in Pennsylvania, where the head of mathematics, Anna Johnson Pell Wheeler, welcomed her. She died there on 14 April 1935, after an operation. A letter in The New York Times, signed by Einstein, called her \"the most significant creative mathematical genius thus far produced since the higher education of women began\". Historians still debate how large a part Hermann Weyl had in writing it.\n\n![The first page of \"Invariante Variationsprobleme\", Göttingen, 1918](https://upload.wikimedia.org/wikipedia/commons/d/dd/Noether_theorem_1st_page.png \"Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Noether_theorem_1st_page.png\")",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Emmy Noether simetriyi korunuma bağladı",
+      "summary": "1918'de Emmy Noether, bir fizik yasasının her sürekli simetrisinin hiç değişmeyen bir nicelikle geldiğini kanıtladı: zamandan enerji, uzaydan momentum.",
+      "why_it_matters": "Enerjinin, momentumun ve açısal momentumun neden korunduğunu açıkladı: bunlar doğa yasalarının zamanda, uzayda ve yönde aynı kalmasından çıkar. Modern parçacık fiziği simetriler üzerine kurulu ve fizikçiler onları onun teoremleriyle yasaya çeviriyor.",
+      "if_you_were_there": "Bunu bulan kadın kendi adıyla ders veremiyordu; makalesini onun yerine Felix Klein sunmak zorundaydı.",
+      "place_name": "Göttingen",
+      "body": "### Sahne\n\nEmmy Noether 1882'de Bavyera'nın üniversite kenti Erlangen'de, matematikçi Max Noether'in kızı olarak doğdu. O yıllarda kadınlar Almanya'daki çoğu üniversiteye normal öğrenci olarak kaydolamıyordu; derslere önce misafir dinleyici olarak girdi, kurallar değişince ancak gerçekten kaydolabildi. 1907'de Erlangen'de doktorasını invariantlar üzerine yaptı: bir cebirsel ifade dönüştürüldüğünde değişmeden kalan nicelikler. Tez elle yapılmış devasa bir hesaptı ve Noether onu sonradan küçümsedi. Sonraki yıllarda Erlangen matematik enstitüsünde maaşsız ve kadrosuz çalıştı.\n\n![Emmy Noether'in 1908'de yayımlanan doktora tezinden bir tablo: üçlü dördüncü derece formların invariantları, elle hesaplanmış](https://upload.wikimedia.org/wikipedia/commons/9/96/Emmy_Noether_-_Table_of_invariants_2.jpg \"en:Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Emmy_Noether_-_Table_of_invariants_2.jpg\")\n\n1915'in başında David Hilbert ve Felix Klein onu, o zaman matematik dünyasının merkezi olan Göttingen'e davet etti. Hilbert, Albert Einstein'la aynı problem üzerinde çalışıyordu: uzayın ve zamanın kendisinin büküldüğü bir kütleçekim kuramı. Yeni kuram can sıkıcı bir soru doğurdu. Eski fizikte enerji ne yoktan var olur ne de yok olur; genel görelilikte ise \"toplam enerji\"nin ne demek olduğu bile artık belli değildi. Hilbert ve Klein'ın bir invariant uzmanına ihtiyacı vardı ve Noether'e başvurdular.\n\nÜniversite ona ders verme hakkı tanımadı. Fakültedeki tarihçiler ve filologlar bir kadın öğretim üyesine itiraz etti. Hilbert onu savundu; kullandığı sözcükler korunmadı, en sık alıntılanan \"üniversite hamam değil\" cümlesi sonraki anlatımlardan gelir. Dersleri onun adıyla duyuruldu: 1916-17 kışı katalogunda bir matematiksel fizik semineri \"Profesör Hilbert, Dr. E. Noether'in yardımıyla\" diye geçer.\n\nFakültenin dışında çalışmaları fark ediliyordu. Mayıs 1918'de, aşağıdaki makalenin sunulmasından iki ay önce, Einstein Hilbert'e Bayan Noether'den \"invariant formlar üzerine çok ilginç bir makale\" aldığını yazdı; bu onun daha önceki bir çalışmasıydı. Göttingen'in \"eski muhafızlarının\" ondan bir şeyler öğrenebileceğini de ekledi.\n\n### Ne oldu\n\nMakalesi *Invariante Variationsprobleme* (\"İnvariant varyasyon problemleri\") 26 Temmuz 1918'de Göttingen Bilimler Derneği'ne sunuldu. Sunan Klein'dı; büyük olasılıkla Noether derneğin üyesi olmadığı için. Son metni eylül sonunda hazırladı ve makale aynı yıl basıldı.\n\nMakalede iki teorem var. Birincisi şunu söyler: bir fiziksel sistem en küçük etki ilkesiyle, yani doğanın değerini olabildiğince küçük (ya da durağan) tuttuğu tek bir nicelikle tarif ediliyorsa, bu tarifin her sürekli simetrisi korunan bir nicelikle birlikte gelir. Tersi de geçerlidir: korunan her böyle nicelik bir simetriye işaret eder. \"Sürekli\", azar azar uygulanabilen simetri demektir, kaydırmak ya da döndürmek gibi; ayna gibi tek seferlik bir çevirme değil.\n\n> [!THEORY]\n> Bugün her fizik öğrencisinin Noether'in birinci teoreminden öğrendiği üç eş:\n>\n> | Yasalar aynıysa… | …şu hiç değişmez |\n> | ---------------- | ---------------- |\n> | zamanın her anında | enerji |\n> | uzayın her yerinde | momentum |\n> | her yönde | açısal momentum (dönme miktarı) |\n\nİkinci teorem daha büyük bir simetri türüyle ilgilenir: uzay ve zamanın her noktasında farklı uygulanabilen simetri. Genel görelilikte tam da bu serbestlik vardır, çünkü yasaları hangi koordinat seçilirse seçilsin aynı görünür. Noether böyle bir simetrinin olağan anlamda yeni korunum yasaları vermediğini, bunun yerine denklemlerin kendi arasında sabit bağıntılar dayattığını gösterdi. Hilbert'in bilmecesinin cevabı buydu: genel görelilikte enerji yasası farklı, \"uygunsuz\" (improper) bir biçim alır ve nedeni kuramın simetrisinin büyüklüğüdür.\n\nBir benzetme: kuralları pazartesi de cuma da tıpatıp aynı olan bir masa oyunu düşünün. Noether'in birinci teoremi, böyle bir oyunda asla değişmeyen bir puan toplamı olması gerektiğini söyler ve onu nasıl bulacağınızı da gösterir. Benzetmenin bozulduğu yer: masa oyunu en küçük etki ilkesiyle tarif edilmez, teorem ise yalnızca öyle tarif edilen sistemlere uygulanır. Örneğin hava direnciyle yavaşlayan bir sarkaç, kuralları günden güne değişmese de bu biçimiyle teoreme uymaz.\n\n1919'da, bu makaleyi yeterlik tezi olarak sunan Noether sonunda ders verme hakkını aldı.\n\n### Neden zordu\n\nParçalar yeni değildi ama hiç birleştirilmemişti. Joseph-Louis Lagrange 1811 dolaylarında bazı korunum yasalarını değişmezliklere bağlamıştı, Carl Jacobi de bu bağlantıyı 1842-43 derslerinde gözden geçirmişti. Norveçli Sophus Lie sürekli dönüşüm gruplarının matematiğini kurmuştu. 1911'de Gustav Herglotz ve 1916'da Friedrich Engel belirli kuramların, Einstein'ın özel göreliliğinin ve klasik mekaniğin korunan niceliklerini çıkarmıştı. Her birinin elinde özel durumlar vardı. Noether genel kuralı, en küçük etki ilkesine dayanan her kuram için verdi ve iki yönde de işlediğini kanıtladı. Bunu yapabildi, çünkü iki alanda birden evindeydi: bir yanda invariantlar kuramı ve Lie grupları, öbür yanda fizikçilerin kullandığı varyasyon hesabı.\n\n### Ne açtı\n\nÖnce, neredeyse hiçbir şey. Makale on yıllarca nadiren anıldı; Hermann Weyl'in görelilik üzerine etkili kitabının ilk baskısı ondan söz etmedi, sonraki baskılar da yalnızca bir dipnot ayırdı. Klein'ın genç öğrencisi Erich Bessel-Hagen 1921'de teoremleri genişletti ve fikri \"bizzat Bayan Emmy Noether'in sözlü bir aktarımına\" borçlu olduğunu yazdı. Fizikçiler ona 1950'lerde, alan kuramları en küçük etki dilinde yazılmaya başlayınca döndü. Bu tarihi inceleyen fizikçi Nina Byers, teoremi anan ilk kuantum alan kuramı ders kitaplarından birinin Moskova'da Nikolay Bogolyubov ve Dmitri Şirkov tarafından yazıldığını buldu: Rusçası 1957'de, İngilizcesi 1959'da çıktı. Bugün parçacık fiziğinin Standart Model'inin temelinde yer alır; bu modelin kuvvetleri tam da ikinci teoremin ele aldığı türden simetrilerle tarif edilir.\n\nNoether ise çoktan başka yere geçmişti. 1920'lerden itibaren cebiri soyut yapılar etrafında yeniden kurdu; matematikçilerin onu modern cebirin kurucularından biri saymasının nedeni bu çalışmadır. 1928-29 kışını Moskova Devlet Üniversitesi'nde topolog Pavel Aleksandrov'la çalışarak geçirdi; öğrencileri pek çok ülkeden geliyordu, aralarında Çinli Chiungtze Tsen de vardı.\n\nNisan 1933'te Nazi hükümeti Yahudi olduğu için ders verme hakkını elinden aldı. Amerika Birleşik Devletleri'ne, Pennsylvania'daki kadın koleji Bryn Mawr'a gitti; matematik bölümünün başkanı Anna Johnson Pell Wheeler onu karşıladı. Orada 14 Nisan 1935'te bir ameliyatın ardından öldü. The New York Times'ta Einstein imzasıyla çıkan bir mektup onu \"kadınların yükseköğrenimi başladığından bu yana yetişmiş en önemli yaratıcı matematik dehası\" diye andı. Mektubun yazılmasında Hermann Weyl'in payının ne kadar olduğu tarihçiler arasında hâlâ tartışılıyor.\n\n![“Invariante Variationsprobleme”nin ilk sayfası, Göttingen, 1918](https://upload.wikimedia.org/wikipedia/commons/d/dd/Noether_theorem_1st_page.png \"Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Noether_theorem_1st_page.png\")",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Эмми Нётер связала симметрию с сохранением",
+      "summary": "В 1918 году Эмми Нётер доказала, что каждой непрерывной симметрии физического закона соответствует неизменная величина: времени — энергия, пространству — импульс.",
+      "why_it_matters": "Она объяснила, почему сохраняются энергия, импульс и момент импульса: это следствие того, что законы природы одинаковы во времени, в пространстве и по направлениям. Современная физика частиц построена на симметриях, и её теоремы превращают их в законы.",
+      "if_you_were_there": "Женщина, которая это нашла, не могла читать лекции под своим именем; её статью за неё представил Феликс Клейн.",
+      "place_name": "Гёттинген",
+      "body": "### Обстановка\n\nЭмми Нётер родилась в 1882 году в Эрлангене, университетском городе Баварии, в семье математика Макса Нётера. Женщины тогда не могли поступить в большинство немецких университетов обычными студентками; сначала она посещала лекции как вольнослушательница и смогла по-настоящему записаться, только когда правила изменились. В 1907 году она защитила в Эрлангене диссертацию об инвариантах: величинах, которые остаются прежними, когда алгебраическое выражение преобразуют. Диссертация была огромным ручным вычислением, и позже Нётер отзывалась о ней пренебрежительно. Следующие несколько лет она работала в математическом институте Эрлангена без жалованья и без должности.\n\n![Таблица из докторской диссертации Эмми Нётер, опубликованной в 1908 году: инварианты тернарных биквадратичных форм, вычисленные вручную](https://upload.wikimedia.org/wikipedia/commons/9/96/Emmy_Noether_-_Table_of_invariants_2.jpg \"en:Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Emmy_Noether_-_Table_of_invariants_2.jpg\")\n\nВ начале 1915 года Давид Гильберт и Феликс Клейн пригласили её в Гёттинген, тогдашний центр математического мира. Гильберт работал над той же задачей, что и Альберт Эйнштейн: над теорией тяготения, в которой искривляются сами пространство и время. Новая теория поставила неудобный вопрос. В прежней физике энергия не возникает из ничего и не исчезает; в общей теории относительности стало неясно, что вообще значит «полная энергия». Гильберту и Клейну был нужен специалист по инвариантам, и они обратились к Нётер.\n\nУниверситет не давал ей права преподавать. Историки и филологи факультета возражали против женщины-преподавателя. Гильберт её защищал; его точные слова не сохранились, а чаще всего цитируемая фраза о том, что университет не баня, известна из более поздних пересказов. Её курсы объявлялись под его именем: в каталоге на зиму 1916–17 годов значится семинар по математической физике «профессора Гильберта при содействии д-ра Э. Нётер».\n\nЗа пределами факультета её работу замечали. В мае 1918 года, за два месяца до того, как была представлена статья, о которой речь ниже, Эйнштейн написал Гильберту, что получил от фройляйн Нётер «очень интересную работу об инвариантных формах», более раннюю её статью, и добавил, что «старая гвардия» в Гёттингене могла бы у неё кое-чему поучиться.\n\n### Что произошло\n\nЕё статью *Invariante Variationsprobleme* («Инвариантные вариационные задачи») представили Гёттингенскому научному обществу 26 июля 1918 года. Представил её Клейн, вероятно потому, что Нётер не была членом общества. Окончательный текст она подготовила в конце сентября, и в том же году статья вышла.\n\nВ статье две теоремы. Первая говорит: если физическая система описывается принципом наименьшего действия, то есть одной величиной, значение которой природа делает как можно меньшим (или стационарным), то каждой непрерывной симметрии этого описания соответствует сохраняющаяся величина. Верно и обратное: каждая такая сохраняющаяся величина указывает на симметрию. «Непрерывная» значит симметрия, которую можно применять понемногу, как сдвиг или поворот, а не разовое отражение, как в зеркале.\n\n> [!THEORY]\n> Три пары, которые сегодня каждый студент-физик узнаёт из первой теоремы Нётер:\n>\n> | Если законы одинаковы… | …то это не меняется никогда |\n> | ---------------------- | --------------------------- |\n> | в любой момент времени | энергия |\n> | в любом месте пространства | импульс |\n> | в любом направлении | момент импульса (мера вращения) |\n\nВторая теорема касается симметрии большего рода: такой, которую в каждой точке пространства и времени можно применять по-своему. В общей теории относительности есть именно такая свобода, потому что её законы выглядят одинаково в любых координатах. Нётер показала, что такая симметрия не даёт новых законов сохранения в обычном смысле, а вместо этого накладывает жёсткие связи между самими уравнениями. В этом и был ответ на загадку Гильберта: в общей теории относительности закон энергии принимает иную, «несобственную» форму, и причина в размахе симметрии теории.\n\nСравнение: представьте настольную игру, правила которой в понедельник точно такие же, как в пятницу. Первая теорема Нётер говорит, что в такой игре обязательно есть сумма очков, которая никогда не меняется, и объясняет, как её найти. Где сравнение ломается: настольная игра не описывается принципом наименьшего действия, а теорема применима только к системам, которые им описываются. Например, маятник, который тормозит сопротивление воздуха, в таком виде под теорему не подпадает, хотя его правила изо дня в день не меняются.\n\nВ 1919 году, представив эту статью как квалификационную работу, Нётер наконец получила право преподавать.\n\n### Почему это было трудно\n\nЧасти были не новы, но их никто не соединял. Жозеф Луи Лагранж около 1811 года связал некоторые законы сохранения с инвариантностью, Карл Якоби разбирал эту связь в лекциях 1842–43 годов. Норвежец Софус Ли построил математику непрерывных групп преобразований. В 1911 году Густав Герглотц, а в 1916-м Фридрих Энгель вывели сохраняющиеся величины отдельных теорий: специальной теории относительности Эйнштейна и классической механики. У каждого были частные случаи. Нётер дала общее правило для любой теории, построенной на принципе наименьшего действия, и доказала, что оно работает в обе стороны. Она смогла это сделать, потому что чувствовала себя дома сразу в двух областях: с одной стороны теория инвариантов и группы Ли, с другой вариационное исчисление, которым пользовались физики.\n\n### Что это открыло\n\nПоначалу почти ничего. Десятилетиями статью цитировали редко; первое издание влиятельной книги Германа Вейля о теории относительности её не упоминало, а в последующих ей досталась лишь сноска. Молодой ученик Клейна Эрих Бессель-Хаген в 1921 году обобщил теоремы и написал, что обязан этой идеей «устному сообщению самой фройляйн Эмми Нётер». Физики вернулись к ней в 1950-е, когда теории поля стали записывать на языке наименьшего действия. Физик Нина Байерс, изучавшая эту историю, нашла, что одним из первых учебников квантовой теории поля, где упоминается теорема, была книга Николая Боголюбова и Дмитрия Ширкова, написанная в Москве: по-русски она вышла в 1957 году, по-английски в 1959-м. Сегодня теорема лежит в основании Стандартной модели физики частиц, силы которой описываются симметриями именно того рода, о котором говорит вторая теорема.\n\nСама Нётер к тому времени ушла дальше. С 1920-х годов она перестроила алгебру вокруг абстрактных структур, и именно поэтому математики называют её одной из основательниц современной алгебры. Зиму 1928–29 годов она провела в Московском государственном университете, работая с топологом Павлом Александровым; её ученики приезжали из многих стран, среди них был Цзэн Цзюнчжи (Chiungtze Tsen) из Китая.\n\nВ апреле 1933 года нацистское правительство лишило её права преподавать, потому что она была еврейкой. Она уехала в США, в Брин-Мор, женский колледж в Пенсильвании, где её приняла заведующая кафедрой математики Анна Джонсон Пелл Уилер. Там она умерла 14 апреля 1935 года после операции. Письмо в The New York Times за подписью Эйнштейна назвало её «самым значительным творческим математическим гением, появившимся с тех пор, как началось высшее образование женщин». Историки до сих пор спорят, насколько велика в этом письме доля Германа Вейля.\n\n![Первая страница статьи «Invariante Variationsprobleme», Гёттинген, 1918](https://upload.wikimedia.org/wikipedia/commons/d/dd/Noether_theorem_1st_page.png \"Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Noether_theorem_1st_page.png\")",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Эмми Нётер симметрияны сакталуу менен байланыштырды",
+      "summary": "1918-жылы Эмми Нётер физикалык мыйзамдын ар бир үзгүлтүксүз симметриясына өзгөрбөс чоңдук туура келерин көрсөттү: убакыттан энергия, мейкиндиктен импульс.",
+      "why_it_matters": "Энергия, импульс жана импульс моменти эмне үчүн сакталарын түшүндүрдү: алар табият мыйзамдарынын убакытта, мейкиндикте жана багытта бирдей болушунан келип чыгат. Заманбап бөлүкчөлөр физикасы симметрияларга негизделген, аларды мыйзамга анын теоремалары айландырат.",
+      "if_you_were_there": "Муну тапкан аял өз аты менен лекция окуй алчу эмес; анын макаласын анын ордуна Феликс Клейн сунуштаган.",
+      "place_name": "Гёттинген",
+      "body": "### Көрүнүш\n\nЭмми Нётер 1882-жылы Бавариядагы Эрланген деген университеттик шаарда, математик Макс Нётердин үй-бүлөсүндө туулган. Ал кезде аялдар Германиянын көпчүлүк университеттерине кадимки студент катары кире алышчу эмес; ал адегенде лекцияларга конок угуучу катары катышып, эрежелер өзгөргөндө гана расмий түрдө окууга жазылган. 1907-жылы Эрлангенде инварианттар боюнча доктордук иш жактаган: инварианттар деп алгебралык туюнтма өзгөртүлгөндө да ошол бойдон калган чоңдуктарды айтышат. Диссертация кол менен жасалган эбегейсиз чоң эсептөө болчу, кийин Нётер аны жаман сөз менен эскерчү. Андан кийинки бир нече жыл ал Эрлангендин математика институтунда айлыксыз жана кызмат ордусуз иштеген.\n\n![Эмми Нётердин 1908-жылы жарык көргөн доктордук ишиндеги таблица: үч өзгөрмөлүү төртүнчү даражадагы формалардын инварианттары, кол менен эсептелген](https://upload.wikimedia.org/wikipedia/commons/9/96/Emmy_Noether_-_Table_of_invariants_2.jpg \"en:Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Emmy_Noether_-_Table_of_invariants_2.jpg\")\n\n1915-жылдын башында Давид Гильберт менен Феликс Клейн аны ошол кездеги математика дүйнөсүнүн борбору болгон Гёттингенге чакырышкан. Гильберт Альберт Эйнштейн менен бир эле маселенин үстүндө иштеп жаткан: мейкиндик менен убакыттын өзү ийилген тартылуу теориясы. Жаңы теория ыңгайсыз суроону жаратты. Мурунку физикада энергия жоктон пайда болбойт жана жок болуп кетпейт; жалпы салыштырмалуулук теориясында болсо «толук энергия» деген эмнени билдирери да түшүнүксүз болуп калды. Гильберт менен Клейнге инварианттар боюнча адис керек эле, ошондуктан алар Нётерге кайрылышкан.\n\nУниверситет ага сабак берүү укугун берген эмес. Факультеттеги тарыхчылар менен филологдор аял окутуучуга каршы чыгышкан. Гильберт аны коргогон; анын так сөздөрү сакталган эмес, эң көп келтирилген «университет мончо эмес» деген сөз кийинки баяндардан белгилүү. Анын курстары Гильберттин аты менен жарыяланчу: 1916–17-жылдардын кышкы каталогунда математикалык физика семинары «профессор Гильберт, доктор Э. Нётердин жардамы менен» деп жазылган.\n\nФакультеттен тышкары анын эмгектерин байкашкан. 1918-жылдын майында, төмөндө сөз боло турган макала сунушталардан эки ай мурун, Эйнштейн Гильбертке Нётер айымдан «инварианттуу формалар жөнүндө абдан кызыктуу эмгек» алганын жазган; бул анын мурунку макаласы болчу. Ал Гёттингендин «эски гвардиясы» андан бир нерсе үйрөнсө болот деп да кошумчалаган.\n\n### Эмне болду\n\nАнын *Invariante Variationsprobleme* («Инварианттуу вариациялык маселелер») аттуу макаласы 1918-жылдын 26-июлунда Гёттинген илимдер коомуна сунушталган. Аны Клейн сунуштаган, кыязы, Нётер коомдун мүчөсү болбогондуктан. Акыркы нускасын ал сентябрдын аягында даярдап, макала ошол эле жылы басылып чыккан.\n\nМакалада эки теорема бар. Биринчиси мындай дейт: эгерде физикалык система эң аз аракет принциби менен, башкача айтканда, табият маанисин мүмкүн болушунча кичине (же стационардык) кылган бир чоңдук менен сүрөттөлсө, анда ал сүрөттөөнүн ар бир үзгүлтүксүз симметриясына сакталуучу бир чоңдук туура келет. Тескерисинче да туура: ар бир ушундай сакталуучу чоңдук бир симметрияны көрсөтөт. «Үзгүлтүксүз» дегени аз-аздан колдонсо боло турган симметрия, мисалы, жылдыруу же буруу; күзгүдөгүдөй бир жолку оодаруу эмес.\n\n> [!THEORY]\n> Бүгүн ар бир физика студенти Нётердин биринчи теоремасынан үйрөнгөн үч жуп:\n>\n> | Мыйзамдар бирдей болсо… | …бул эч качан өзгөрбөйт |\n> | ----------------------- | ----------------------- |\n> | убакыттын ар бир учурунда | энергия |\n> | мейкиндиктин ар бир жеринде | импульс |\n> | ар бир багытта | импульс моменти (айлануунун өлчөмү) |\n\nЭкинчи теорема симметриянын мындан чоңураак түрүнө тиешелүү: мейкиндик менен убакыттын ар бир чекитинде башкача колдонулушу мүмкүн болгон симметрияга. Жалпы салыштырмалуулук теориясында так ушундай эркиндик бар, анткени анын мыйзамдары кандай координаталар тандалса да бирдей көрүнөт. Нётер мындай симметрия кадимки маанидеги жаңы сакталуу мыйзамдарын бербей турганын, анын ордуна теңдемелердин өздөрүнүн ортосунда катуу байланыштарды талап кыларын көрсөттү. Гильберттин табышмагынын жообу ушул эле: жалпы салыштырмалуулукта энергия мыйзамы башка, «өздүк эмес» деп аталган түргө ээ болот, мунун себеби теориянын симметриясынын кеңдигинде.\n\nСалыштыруу: эрежелери дүйшөмбүдө да, жумада да таптакыр бирдей болгон стол оюнун элестетиңиз. Нётердин биринчи теоремасы мындай оюнда эч качан өзгөрбөй турган упайлардын суммасы сөзсүз бар экенин айтат жана аны кантип табууну көрсөтөт. Салыштыруу кайсы жерде бузулат: стол оюну эң аз аракет принциби менен сүрөттөлбөйт, ал эми теорема ошондой сүрөттөлгөн системаларга гана колдонулат. Мисалы, абанын каршылыгынан жайлаган маятник, эрежелери күндөн күнгө өзгөрбөсө да, бул түрүндө теоремага туура келбейт.\n\n1919-жылы Нётер ушул макаланы квалификациялык иш катары тапшырып, акыры сабак берүү укугун алган.\n\n### Эмне үчүн оор болду\n\nБөлүктөрү жаңы эмес эле, бирок аларды эч ким бириктирген эмес. Жозеф Луи Лагранж болжол менен 1811-жылы айрым сакталуу мыйзамдарын инварианттуулук менен байланыштырган, Карл Якоби бул байланышты 1842–43-жылдардагы лекцияларында карап чыккан. Норвегиялык Софус Ли үзгүлтүксүз өзгөртүү топторунун математикасын түзгөн. 1911-жылы Густав Герглотц, 1916-жылы Фридрих Энгель айрым теориялардын, Эйнштейндин атайын салыштырмалуулук теориясынын жана классикалык механиканын сакталуучу чоңдуктарын чыгарышкан. Алардын ар биринде жеке учурлар гана бар эле. Нётер эң аз аракет принцибине негизделген ар кандай теория үчүн жалпы эрежени берип, ал эки тарапка тең иштей турганын көрсөттү. Ал муну жасай алды, анткени эки тармакты тең жакшы билчү: бир жагында инварианттар теориясы жана Ли топтору, экинчи жагында физиктер колдонгон вариациялык эсептөө.\n\n### Эмнеге жол ачты\n\nАдегенде дээрлик эч нерсеге. Ондогон жылдар бою макалага сейрек шилтеме берилген; Герман Вейлдин салыштырмалуулук тууралуу таасирдүү китебинин биринчи басылышы аны эскерген эмес, кийинки басылыштары ага бир гана шилтеме арнаган. Клейндин жаш шакирти Эрих Бессель-Хаген 1921-жылы теоремаларды кеңейтип, бул ойду «Эмми Нётер айымдын өзүнүн оозеки билдирүүсүнө» карыз экенин жазган. Физиктер ага 1950-жылдары, талаа теориялары эң аз аракет тилинде жазыла баштаганда кайтып келишкен. Бул тарыхты изилдеген физик Нина Байерс теореманы эскерген алгачкы кванттык талаа теориясы окуу китептеринин бири Москвада Николай Боголюбов менен Дмитрий Ширков жазган китеп экенин тапкан: ал орусча 1957-жылы, англисче 1959-жылы чыккан. Бүгүн теорема бөлүкчөлөр физикасынын Стандарттык моделинин пайдубалында турат; бул моделдин күчтөрү так экинчи теорема караган түрдөгү симметриялар менен сүрөттөлөт.\n\nНётер өзү болсо ага чейин эле башка тарапка өтүп кеткен. 1920-жылдардан баштап ал алгебраны абстракттуу түзүлүштөрдүн айланасында кайра курган, математиктер аны заманбап алгебранын негиздөөчүлөрүнүн бири деп аташы ушул эмгектин себеби. 1928–29-жылдардын кышын ал Москва мамлекеттик университетинде тополог Павел Александров менен иштеп өткөргөн; анын шакирттери көп өлкөлөрдөн келишкен, алардын арасында кытайлык Цзэн Цзюнчжи (Chiungtze Tsen) да болгон.\n\n1933-жылдын апрелинде нацисттик өкмөт ал еврей болгону үчүн анын сабак берүү укугун тартып алган. Ал Америка Кошмо Штаттарына, Пенсильваниядагы аялдар колледжи Брин-Морго көчүп барган, ал жерде аны математика бөлүмүнүн башчысы Анна Джонсон Пелл Уилер тосуп алган. Ал ошол жерде 1935-жылдын 14-апрелинде операциядан кийин көз жумган. The New York Times гезитинде Эйнштейндин колу коюлган кат аны «аялдардын жогорку билими башталгандан бери чыккан эң маанилүү чыгармачыл математикалык генийи» деп атаган. Бул катты жазууда Герман Вейлдин үлүшү канча болгону тарыхчылар арасында азыр да талаштуу.\n\n![«Invariante Variationsprobleme» макаласынын биринчи бети, Гёттинген, 1918](https://upload.wikimedia.org/wikipedia/commons/d/dd/Noether_theorem_1st_page.png \"Emmy Noether · Public domain · https://commons.wikimedia.org/wiki/File:Noether_theorem_1st_page.png\")",
+      "status": "machine"
+    }
+  }
+}
