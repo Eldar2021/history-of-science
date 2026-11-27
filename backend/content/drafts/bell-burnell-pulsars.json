@@ -1,0 +1,263 @@
+{
+  "slug": "bell-burnell-pulsars",
+  "year": 1967,
+  "year_end": null,
+  "precision": "exact",
+  "importance": 3,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "exact",
+  "lat": 52.1676,
+  "lng": 0.0367,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/8/88/Susan_Jocelyn_Bell_%28Burnell%29%2C_1967.jpg",
+    "credit": "Roger W Haworth",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Susan_Jocelyn_Bell_(Burnell),_1967.jpg"
+  },
+  "disciplines": [
+    "astronomy"
+  ],
+  "people": [
+    {
+      "slug": "jocelyn-bell-burnell",
+      "role": "author",
+      "name": {
+        "en": "Jocelyn Bell Burnell",
+        "tr": "Jocelyn Bell Burnell",
+        "ru": "Джоселин Белл Бернелл",
+        "ky": "Джоселин Белл Бернелл"
+      },
+      "birth_year": 1943,
+      "death_year": null
+    },
+    {
+      "slug": "antony-hewish",
+      "role": "author",
+      "name": {
+        "en": "Antony Hewish",
+        "tr": "Antony Hewish",
+        "ru": "Энтони Хьюиш",
+        "ky": "Энтони Хьюиш"
+      },
+      "birth_year": 1924,
+      "death_year": 2021
+    },
+    {
+      "slug": "john-pilkington",
+      "role": "collaborator",
+      "name": {
+        "en": "John Pilkington",
+        "tr": "John Pilkington",
+        "ru": "Джон Пилкингтон",
+        "ky": "Джон Пилкингтон"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "lev-landau",
+      "role": "predecessor",
+      "name": {
+        "en": "Lev Landau",
+        "tr": "Lev Landau",
+        "ru": "Лев Ландау",
+        "ky": "Лев Ландау"
+      },
+      "birth_year": 1908,
+      "death_year": 1968
+    },
+    {
+      "slug": "walter-baade",
+      "role": "predecessor",
+      "name": {
+        "en": "Walter Baade",
+        "tr": "Walter Baade",
+        "ru": "Вальтер Бааде",
+        "ky": "Вальтер Бааде"
+      },
+      "birth_year": 1893,
+      "death_year": 1960
+    },
+    {
+      "slug": "fritz-zwicky",
+      "role": "predecessor",
+      "name": {
+        "en": "Fritz Zwicky",
+        "tr": "Fritz Zwicky",
+        "ru": "Фриц Цвикки",
+        "ky": "Фриц Цвикки"
+      },
+      "birth_year": 1898,
+      "death_year": 1974
+    },
+    {
+      "slug": "franco-pacini",
+      "role": "predecessor",
+      "name": {
+        "en": "Franco Pacini",
+        "tr": "Franco Pacini",
+        "ru": "Франко Пачини",
+        "ky": "Франко Пачини"
+      },
+      "birth_year": 1939,
+      "death_year": 2012
+    },
+    {
+      "slug": "thomas-gold",
+      "role": "contemporary",
+      "name": {
+        "en": "Thomas Gold",
+        "tr": "Thomas Gold",
+        "ru": "Томас Голд",
+        "ky": "Томас Голд"
+      },
+      "birth_year": 1920,
+      "death_year": 2004
+    },
+    {
+      "slug": "martin-ryle",
+      "role": "context",
+      "name": {
+        "en": "Martin Ryle",
+        "tr": "Martin Ryle",
+        "ru": "Мартин Райл",
+        "ky": "Мартин Райл"
+      },
+      "birth_year": 1918,
+      "death_year": 1984
+    },
+    {
+      "slug": "fred-hoyle",
+      "role": "context",
+      "name": {
+        "en": "Fred Hoyle",
+        "tr": "Fred Hoyle",
+        "ru": "Фред Хойл",
+        "ky": "Фред Хойл"
+      },
+      "birth_year": 1915,
+      "death_year": 2001
+    },
+    {
+      "slug": "russell-hulse",
+      "role": "successor",
+      "name": {
+        "en": "Russell Hulse",
+        "tr": "Russell Hulse",
+        "ru": "Рассел Халс",
+        "ky": "Рассел Халс"
+      },
+      "birth_year": 1950,
+      "death_year": null
+    },
+    {
+      "slug": "joseph-taylor",
+      "role": "successor",
+      "name": {
+        "en": "Joseph Taylor",
+        "tr": "Joseph Taylor",
+        "ru": "Джозеф Тейлор",
+        "ky": "Джозеф Тейлор"
+      },
+      "birth_year": 1941,
+      "death_year": null
+    }
+  ],
+  "builds_on": [
+    "hertz-radio-waves",
+    "chadwick-neutron"
+  ],
+  "sources": [
+    {
+      "title": "Jocelyn Bell Burnell — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Jocelyn-Bell-Burnell"
+    },
+    {
+      "title": "Jocelyn Bell Burnell — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"
+    },
+    {
+      "title": "PSR B1919+21 — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/PSR_B1919%2B21"
+    },
+    {
+      "title": "Pulsar (history) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Pulsar"
+    },
+    {
+      "title": "SN 1054 — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/SN_1054"
+    },
+    {
+      "title": "S. J. Bell Burnell, 'Little Green Men, White Dwarfs or Pulsars?', Annals of the New York Academy of Sciences 302 (1977), reprinted in Cosmic Search 1 (1979)",
+      "kind": "article",
+      "url": "https://bigear.org/CSMO/HTML/CS01/cs01p16.htm"
+    },
+    {
+      "title": "NRAO, 'Tick Tock, Pulsating Star'",
+      "kind": "article",
+      "url": "https://public.nrao.edu/tick-tock-pulsating-star/"
+    },
+    {
+      "title": "A. Hewish, S. J. Bell, J. D. H. Pilkington, P. F. Scott, R. A. Collins, 'Observation of a Rapidly Pulsating Radio Source', Nature 217, 709–713 (1968)",
+      "kind": "paper",
+      "url": "https://www.nature.com/articles/217709a0"
+    },
+    {
+      "title": "D. G. Yakovlev, P. Haensel, G. Baym, C. Pethick, 'Lev Landau and the concept of neutron stars', Physics-Uspekhi 56, 289 (2013)",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/1210.0682"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1974 (linked for human review)",
+      "kind": "article",
+      "url": "https://www.nobelprize.org/prizes/physics/1974/summary/"
+    }
+  ],
+  "research_note": "Drafted 2026-11-27 by the nightly pipeline. Threshold met without Britannica (linked for human review, not fetched): English Wikipedia (Jocelyn Bell Burnell, PSR B1919+21, Pulsar, SN 1054), NRAO 'Tick Tock, Pulsating Star', and Bell Burnell's own 1977 account 'Little Green Men, White Dwarfs or Pulsars?' (Cosmic Search reprint). Nobel 1974 page and the Nature 1968 paper are linked but were not fetched. CONFIRMED: born 15 July 1943; array numbers (over 1,000 posts, over 2,000 dipoles, about 120 miles of wire and cable, 4.5 acres, two years, about four colleagues plus vacation students) and 96 ft of chart a day, all from Bell Burnell 1977; array working July 1967; 28 November 1967 fast recording, 1 1/3 s; Hewish's man-made hypothesis and the checks (Moon radar, satellites, metal building); Pilkington's dispersion; LGM-1; Hewish's planet-timing test; second source just before Christmas at 1.2 s, four by January; Nature 24 Feb 1968, five authors; Landau paper written 1931, published 1932 (Yakovlev et al. 2013); Baade & Zwicky 1934; Pacini, Nature 216, 567, November 1967; Gold 1968, independent of Pacini; SN 1054 Song records, 23 days in daylight, Japan, Ibn Butlan; Crab pulsar 1968 about 33 ms; Vela pulsar Molonglo 1968; Hulse-Taylor 1974; pulsar planets 1992; RAS/IOP/RSE presidencies (RSE first woman); 2018 Breakthrough Prize donated. FACT-CHECKER (2026-11-27) and what was done: Pacini 'months before' was wrong (November 1967) -> 'weeks before the pulses were resolved'; 'Gold's model' -> 'Pacini and Gold'; 'handful of students' -> 'about four colleagues and several vacation students'; 'early August, a few weeks in' -> 'August 1967, some weeks in' (Bell says six to eight weeks after the July start; the 6 August date in Wikipedia's Pulsar article was not independently confirmed); 'read every metre' -> 'analysed the charts by hand'; 20 km and teaspoon now stated as today's knowledge, not Baade-Zwicky's; Bell Burnell's view dated 1977, not 'at the time'; Ryle's citation now mentions aperture synthesis; 'radio astronomy barely twenty' -> 'thirty' (Jansky 1933); 'most astronomers doubted' removed; Russian 'Моланго' -> 'Молонгло'. REVIEWER SHOULD CHECK: exact Nobel 1974 wording for Ryle; that the 1968 Nature paper suggested white dwarf or neutron star oscillation (from memory, page not fetched); 'pulsar' coined by the press in 1968; 'more than 3,000 pulsars' (ATNF catalogue has about 3,700, not fetched); 'roughly two and a half football pitches' for 4.5 acres; title framing ('Bell Burnell finds pulsars') vs the team, which the body and NOTE box balance; the NASA diagram's Commons author line is only a URL (public domain per Commons). Kyrgyz: no glossary 'check' terms used (далилдөө avoided). Claude's renderings to check: 'супержаңы жылдыз' (supernova), 'ак эргежээл' (white dwarf), 'жымыңдоо' (scintillation), 'апертуралык синтез', 'Парус топ жылдызы' (Vela), 'жасалма жандоочтор' (satellites), 'Королдук астрономия коому'.",
+  "translations": {
+    "en": {
+      "title": "Jocelyn Bell Burnell finds pulsars",
+      "summary": "Reading radio charts by hand, Cambridge student Jocelyn Bell found a signal pulsing every 1.34 seconds: the first sign of neutron stars, the collapsed cores of dead stars.",
+      "why_it_matters": "Pulsars proved that neutron stars, predicted in the 1930s, are real. As nature's most precise clocks they later gave the first strong evidence for gravitational waves and revealed the first planets beyond the Solar System.",
+      "if_you_were_there": "Nobody had ever seen a neutron star; it was an idea on paper. Radio astronomy was barely thirty years old, and its data still arrived as ink lines on paper.",
+      "place_name": "Mullard Radio Astronomy Observatory, Cambridge, United Kingdom",
+      "body": "### The scene\n\nIn 1967 Jocelyn Bell, a 24-year-old physics graduate from Northern Ireland, was a research student at the University of Cambridge. Her supervisor, Antony Hewish, had designed a new kind of radio telescope to hunt for quasars: very distant, very bright objects that astronomers had only begun to find a few years earlier. The method used a trick of the Sun. The stream of particles the Sun blows out into space, the solar wind, makes small radio sources \"twinkle,\" much as air makes stars twinkle to the eye. Large sources hardly twinkle, so the twinkling tells you which sources are tiny and compact.\n\nThe telescope did not look like a dish. Bell, about four colleagues and several vacation students spent two years building it in a field outside Cambridge: in her own account, more than a thousand wooden posts with over 2,000 antennas strung between them, about 120 miles of wire and cable, the whole thing covering four and a half acres, about the size of two and a half football pitches. It began working in July 1967. Its output was not a picture but lines drawn in ink by pens on rolls of paper, about 96 feet (some 30 metres) of chart a day, and Bell analysed the charts by hand.\n\n![Remains of the Interplanetary Scintillation Array at the Mullard Radio Astronomy Observatory near Cambridge, photographed in 2014](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cmglee_Cambridge_MRAO_IPS_Array.jpg \"Cmglee · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Cmglee_Cambridge_MRAO_IPS_Array.jpg\")\n\n### What happened\n\nIn August 1967, some weeks into the survey, Bell noticed something on the charts that fitted neither a twinkling source nor the usual interference from cars and radio transmitters. She called it \"a bit of scruff.\" Going back through earlier rolls, she found it kept turning up from the same small patch of sky, and it kept time with the stars, not with the clock on the wall: it came back four minutes earlier each day, as the stars do. Something out among the stars was sending it.\n\nTo see it in detail she had to record that patch with a much faster chart. For weeks the signal was absent. On 28 November 1967 it came back, and as the paper ran under the pen she could see that it was a string of sharp pulses, one every 1⅓ seconds, regular enough to set a watch by. Hewish's first thought was that it was man-made. The team checked radar echoes from the Moon, satellites, a metal building nearby. John Pilkington measured how the pulses at different radio frequencies arrived slightly apart, the way light is spread into colours when it passes through glass, and from that delay worked out that the source lay far beyond the Solar System but inside our own galaxy.\n\n![Part of the chart recording of the first pulsar, now on display at Cambridge University Library](https://upload.wikimedia.org/wikipedia/commons/8/84/Chart_Showing_Radio_Signal_of_First_Identified_Pulsar%2C_crop_%26_rotate.jpg \"Billthom · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Chart_Showing_Radio_Signal_of_First_Identified_Pulsar,_crop_&_rotate.jpg\")\n\nHalf as a joke, the team labelled the source LGM-1, for \"little green men.\" Hewish measured the pulses for the tiny drift in timing that a planet orbiting another sun would produce, and found only the drift caused by Earth's own motion around the Sun. Just before Christmas, Bell found a second source in a different part of the sky, pulsing every 1.2 seconds; by January there were four. Four groups of aliens signalling on the same frequency in the same odd way made no sense: this was something in nature. The paper, \"Observation of a Rapidly Pulsating Radio Source,\" appeared in *Nature* on 24 February 1968, with five authors: Hewish, Bell, Pilkington, Scott and Collins. Within months the newspapers had given the objects a name: pulsars.\n\n### Why it was hard\n\nThe idea of what pulsars are had been waiting for more than thirty years. In a paper written in 1931, the Soviet physicist Lev Landau imagined stars so dense that their matter was packed like an atomic nucleus. In 1934 Walter Baade and Fritz Zwicky proposed that a supernova, the explosion of a dying star, could leave behind a \"neutron star\", a core made almost entirely of neutrons. Today we know such a star holds more mass than the Sun in a ball about 20 kilometres across, so dense that a teaspoon of it would weigh billions of tonnes. Few expected ever to see one: something that small should be far too faint. In November 1967, weeks before the pulses were resolved, the young Italian astrophysicist Franco Pacini suggested that a spinning, magnetized neutron star could pour energy into the gas around it.\n\nThe discovery paper itself suggested the pulses might come from a vibrating white dwarf or neutron star. In 1968 Thomas Gold, independently of Pacini, argued that the answer was rotation: a neutron star spinning once per pulse. An analogy: a lighthouse. The beam is always on, but a ship sees a flash only when it sweeps past. A neutron star's magnetic field funnels radio waves into beams from its magnetic poles, and if those poles are tilted from the spin axis, the beams sweep around the sky. The analogy breaks in one place: a lighthouse lamp is turned by a motor at steady speed, while a pulsar is the whole star turning, its spin powered by nothing but its own stored rotation, so it very slowly winds down.\n\n![How a pulsar works: beams of radio waves come out along the magnetic poles of a spinning neutron star and sweep around the sky](https://upload.wikimedia.org/wikipedia/commons/a/a1/Diagram_explaining_the_geometry_of_a_pulsar.jpg \"http://science.nasa.gov/newhome/headlines/mag_pix/pulsars.jpg · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_explaining_the_geometry_of_a_pulsar.jpg\")\n\nThe proof came from an old explosion. In 1054 astronomers of the Song dynasty in China recorded a \"guest star\" bright enough to see in daylight for 23 days; it was also noted in Japan and by the physician Ibn Butlan in the Arab world. Its remains are the Crab Nebula. In late 1968 astronomers found a pulsar at the centre of the Crab, flashing about 30 times a second, and Australian astronomers at Molonglo found another inside the remains of a supernova in the constellation Vela. Only a tiny, very dense star could spin that fast without tearing itself apart, and the supernova link matched Baade and Zwicky's prediction. The spinning neutron star of Pacini and Gold became the accepted explanation.\n\n### What it opened\n\nPulsars turned out to be some of the most precise clocks in nature. In 1974 Russell Hulse and Joseph Taylor found a pulsar orbiting another neutron star and showed, over the following years, that the pair was slowly spiralling together exactly as Einstein's general relativity predicted if they were giving off gravitational waves: the first strong evidence for those waves, decades before they were detected directly. In 1992 the first planets ever confirmed outside the Solar System were found circling a pulsar. Today more than 3,000 pulsars are known, and astronomers time them across the galaxy to listen for the faintest gravitational waves of all.\n\n> [!NOTE]\n> In 1974 the Nobel Prize in Physics went to Antony Hewish, for his decisive role in the discovery of pulsars, and to Martin Ryle for his work on radio telescopes, especially the technique called aperture synthesis. Jocelyn Bell Burnell was not included. Fred Hoyle and others protested in public. Bell Burnell herself said in 1977 that prizes should not normally go to research students, and decades later also said that being a student and a woman had lowered her standing. Hewish had designed the telescope and led the project; Bell had built much of it and first saw and chased the signal. Both views are still argued.\n\nBell Burnell went on to a long career in astronomy and became president of the Royal Astronomical Society, the Institute of Physics and the Royal Society of Edinburgh, the first woman to lead it. In 2018 she received the Special Breakthrough Prize in Fundamental Physics, worth three million dollars, and gave all of it to fund women, refugees and students from under-represented groups to train as physics researchers.",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Jocelyn Bell Burnell pulsarları buldu",
+      "summary": "Radyo grafiklerini elle okuyan Cambridge öğrencisi Jocelyn Bell, 1,34 saniyede bir vuran bir sinyal buldu: ölü yıldızların çökmüş çekirdekleri olan nötron yıldızlarının ilk izi.",
+      "why_it_matters": "Pulsarlar, 1930'larda öngörülen nötron yıldızlarının gerçek olduğunu kanıtladı. Doğanın en hassas saatleri olarak daha sonra kütleçekim dalgalarının ilk güçlü kanıtını verdiler ve Güneş Sistemi dışındaki ilk gezegenleri ortaya çıkardılar.",
+      "if_you_were_there": "Kimse bir nötron yıldızı görmemişti; kâğıt üzerinde bir fikirdi. Radyo astronomi ancak otuz yaşındaydı; verisi hâlâ kâğıda mürekkeple çizilen çizgiler olarak geliyordu.",
+      "place_name": "Mullard Radyo Astronomi Gözlemevi, Cambridge, Birleşik Krallık",
+      "body": "### Sahne\n\n1967'de Jocelyn Bell, Kuzey İrlanda'dan gelmiş 24 yaşında bir fizik mezunu, Cambridge Üniversitesi'nde araştırma öğrencisiydi. Danışmanı Antony Hewish, kuasarları aramak için yeni türde bir radyo teleskobu tasarlamıştı: gökbilimcilerin ancak birkaç yıl önce bulmaya başladığı, çok uzak ve çok parlak cisimler. Yöntem Güneş'in bir oyunundan yararlanıyordu. Güneş'in uzaya üflediği parçacık akışı, yani Güneş rüzgârı, küçük radyo kaynaklarını \"titreştirir\"; tıpkı havanın yıldızları göze titrek göstermesi gibi. Büyük kaynaklar pek titremez, bu yüzden titreme hangi kaynağın minicik ve sıkı olduğunu söyler.\n\nTeleskop bir çanağa benzemiyordu. Bell, dört kadar meslektaşı ve birkaç yaz stajyeri öğrenciyle birlikte Cambridge dışında bir tarlada onu iki yılda kurdu: Bell'in kendi anlatımıyla binden fazla tahta direk, aralarına gerilmiş 2.000'den fazla anten, yaklaşık 190 kilometre tel ve kablo; hepsi yaklaşık 1,8 hektar, iki buçuk futbol sahası kadar bir alanı kaplıyordu. Teleskop Temmuz 1967'de çalışmaya başladı. Çıktısı bir resim değil, kâğıt rulolarına kalemlerin mürekkeple çizdiği çizgilerdi: günde yaklaşık 30 metre grafik. Bell grafikleri elle inceledi.\n\n![Cambridge yakınındaki Mullard Radyo Astronomi Gözlemevi'nde Gezegenlerarası Sintilasyon Dizisi'nin kalıntıları, 2014](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cmglee_Cambridge_MRAO_IPS_Array.jpg \"Cmglee · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Cmglee_Cambridge_MRAO_IPS_Array.jpg\")\n\n### Ne oldu\n\nAğustos 1967'de, taramanın birkaç haftasında Bell grafiklerde ne titreyen bir kaynağa ne de arabalardan ve vericilerden gelen olağan parazite uyan bir şey fark etti. Ona \"biraz pislik\" (scruff) dedi. Eski rulolara döndüğünde bunun gökyüzünün hep aynı küçük bölgesinden geldiğini ve duvardaki saate değil yıldızlara ayak uydurduğunu gördü: yıldızlar gibi her gün dört dakika erken geliyordu. Onu gönderen şey yıldızların arasındaydı.\n\nAyrıntıyı görmek için o bölgeyi çok daha hızlı akan bir grafikle kaydetmesi gerekiyordu. Haftalarca sinyal yoktu. 28 Kasım 1967'de geri geldi ve kâğıt kalemin altından akarken Bell bunun keskin vuruşlardan oluşan bir dizi olduğunu gördü: her 1⅓ saniyede bir, saat ayarlanacak kadar düzenli. Hewish'in ilk düşüncesi bunun insan yapımı olduğuydu. Ekip Ay'dan dönen radar yankılarını, uyduları, yakındaki metal bir binayı tek tek eledi. John Pilkington farklı radyo frekanslarındaki vuruşların birbirinden biraz farklı zamanlarda geldiğini ölçtü (ışığın camdan geçerken renklere ayrılması gibi) ve bu gecikmeden kaynağın Güneş Sistemi'nin çok ötesinde ama kendi galaksimizin içinde olduğunu hesapladı.\n\n![İlk pulsarın grafik kaydından bir bölüm, bugün Cambridge Üniversitesi Kütüphanesi'nde sergileniyor](https://upload.wikimedia.org/wikipedia/commons/8/84/Chart_Showing_Radio_Signal_of_First_Identified_Pulsar%2C_crop_%26_rotate.jpg \"Billthom · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Chart_Showing_Radio_Signal_of_First_Identified_Pulsar,_crop_&_rotate.jpg\")\n\nEkip, yarı şaka, kaynağa \"küçük yeşil adamlar\"ın kısaltmasıyla LGM-1 adını verdi. Hewish vuruşlarda başka bir güneşin çevresinde dönen bir gezegenin yaratacağı küçük zamanlama kaymasını aradı; yalnızca Dünya'nın Güneş çevresindeki hareketinden gelen kaymayı buldu. Noel'den hemen önce Bell gökyüzünün başka bir yerinde, 1,2 saniyede bir vuran ikinci bir kaynak buldu; Ocak'a gelindiğinde dört kaynak vardı. Dört ayrı uzaylı topluluğunun aynı frekansta, aynı tuhaf biçimde sinyal göndermesi anlamsızdı: bu doğada bir şeydi. \"Hızla atım yapan bir radyo kaynağının gözlemi\" başlıklı makale 24 Şubat 1968'de *Nature*'da beş yazarla çıktı: Hewish, Bell, Pilkington, Scott ve Collins. Birkaç ay içinde gazeteler bu cisimlere bir ad vermişti: pulsar.\n\n### Neden zordu\n\nPulsarların ne olduğu fikri otuz yıldan uzun süredir bekliyordu. 1931'de yazdığı bir makalede Sovyet fizikçi Lev Landau, maddesi bir atom çekirdeği gibi sıkışmış, son derece yoğun yıldızlar düşünmüştü. 1934'te Walter Baade ve Fritz Zwicky, ölen bir yıldızın patlaması olan süpernovanın geride bir \"nötron yıldızı\" bırakabileceğini öne sürdü: neredeyse tamamen nötronlardan oluşan bir çekirdek. Bugün biliyoruz ki böyle bir yıldız Güneş'ten fazla kütleyi yaklaşık 20 kilometre çapında bir topa sığdırır; bir çay kaşığı milyarlarca ton çeker. Birini göreceğini bekleyen azdı; bu kadar küçük bir şey çok sönük olmalıydı. Kasım 1967'de, vuruşlar çözülmeden birkaç hafta önce, genç İtalyan astrofizikçi Franco Pacini dönen, mıknatıslı bir nötron yıldızının çevresindeki gaza enerji pompalayabileceğini önermişti.\n\nKeşif makalesinin kendisi vuruşların titreşen bir beyaz cüceden ya da nötron yıldızından gelebileceğini düşünüyordu. 1968'de Thomas Gold, Pacini'den bağımsız olarak, cevabın dönme olduğunu savundu: her vuruşta bir tur dönen bir nötron yıldızı. Bir benzetme: deniz feneri. Işık hep yanıktır, ama gemi parıltıyı yalnızca ışın üzerinden geçerken görür. Nötron yıldızının manyetik alanı radyo dalgalarını manyetik kutuplarından çıkan ışınlara toplar; bu kutuplar dönme ekseninden eğikse ışınlar gökyüzünü tarar. Benzetme bir yerde bozulur: fenerin lambasını sabit hızla bir motor döndürür, pulsar ise yıldızın kendisinin dönmesidir; dönüşünü yalnızca kendi birikmiş dönme enerjisi besler, bu yüzden çok yavaşça yavaşlar.\n\n![Pulsar nasıl çalışır: radyo dalgası ışınları dönen bir nötron yıldızının manyetik kutuplarından çıkar ve gökyüzünü tarar](https://upload.wikimedia.org/wikipedia/commons/a/a1/Diagram_explaining_the_geometry_of_a_pulsar.jpg \"http://science.nasa.gov/newhome/headlines/mag_pix/pulsars.jpg · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_explaining_the_geometry_of_a_pulsar.jpg\")\n\nKanıt eski bir patlamadan geldi. 1054'te Çin'de Song hanedanının gökbilimcileri, 23 gün boyunca gündüz bile görülen bir \"konuk yıldız\" kaydetti; Japonya'da ve Arap dünyasında hekim İbn Butlan tarafından da not edildi. Kalıntısı Yengeç Bulutsusu'dur. 1968'in sonlarında gökbilimciler Yengeç'in ortasında saniyede yaklaşık 30 kez parlayan bir pulsar buldu; Molonglo'daki Avustralyalı gökbilimciler de Yelken takımyıldızında bir süpernova kalıntısının içinde bir başkasını buldu. Bu kadar hızlı dönüp kendini parçalamayan şey ancak minicik ve çok yoğun bir yıldız olabilirdi, süpernova bağlantısı da Baade ile Zwicky'nin öngörüsüne uyuyordu. Pacini ile Gold'un dönen nötron yıldızı kabul gören açıklama oldu.\n\n### Açtığı kapı\n\nPulsarlar doğadaki en hassas saatlerden biri çıktı. 1974'te Russell Hulse ve Joseph Taylor başka bir nötron yıldızının çevresinde dönen bir pulsar buldu ve sonraki yıllarda ikilinin, kütleçekim dalgası yayıyorlarsa Einstein'ın genel göreliliğinin öngördüğü gibi tam olarak birbirine doğru yavaşça sarmallandığını gösterdi: bu dalgaların doğrudan algılanmasından on yıllar önce ilk güçlü kanıt. 1992'de Güneş Sistemi dışında doğrulanan ilk gezegenler bir pulsarın çevresinde bulundu. Bugün 3.000'den fazla pulsar biliniyor ve gökbilimciler en zayıf kütleçekim dalgalarını yakalamak için galaksi boyunca onların vuruşlarını ölçüyor.\n\n> [!NOTE]\n> 1974 Nobel Fizik Ödülü, pulsarların keşfindeki belirleyici rolü için Antony Hewish'e ve radyo teleskopları, özellikle açıklık sentezi denen teknik üzerine çalışmaları için Martin Ryle'a verildi. Jocelyn Bell Burnell dahil edilmedi. Fred Hoyle ve başkaları açıkça itiraz etti. Bell Burnell 1977'de ödüllerin normalde araştırma öğrencilerine verilmemesi gerektiğini söyledi; on yıllar sonra da hem öğrenci hem kadın olmanın konumunu zayıflattığını ekledi. Teleskobu Hewish tasarlamış ve projeyi yönetmişti; Bell büyük kısmını kurmuş, sinyali ilk görmüş ve peşine düşmüştü. İki görüş de hâlâ tartışılıyor.\n\nBell Burnell astronomide uzun bir kariyer yaptı; Kraliyet Astronomi Derneği'nin, Fizik Enstitüsü'nün ve Edinburgh Kraliyet Derneği'nin başkanı oldu, sonuncusunu yöneten ilk kadın olarak. 2018'de üç milyon dolarlık Temel Fizik Özel Breakthrough Ödülü'nü aldı ve tamamını kadınların, mültecilerin ve az temsil edilen gruplardan öğrencilerin fizik araştırmacısı olarak yetişmesine bağışladı.",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Джоселин Белл Бернелл открывает пульсары",
+      "summary": "Просматривая радиоленты вручную, кембриджская аспирантка Джоселин Белл нашла сигнал с импульсом каждые 1,34 секунды — первый след нейтронных звёзд, сжатых ядер погибших звёзд.",
+      "why_it_matters": "Пульсары доказали, что нейтронные звёзды, предсказанные в 1930-х годах, существуют. Как самые точные часы природы, они позже дали первое сильное свидетельство гравитационных волн и привели к первым планетам за пределами Солнечной системы.",
+      "if_you_were_there": "Нейтронную звезду не видел никто: она существовала только на бумаге. Радиоастрономии было едва тридцать лет, и её данные всё ещё приходили чернильными линиями на бумаге.",
+      "place_name": "Радиоастрономическая обсерватория Малларда, Кембридж, Великобритания",
+      "body": "### Обстановка\n\nВ 1967 году Джоселин Белл, 24-летняя выпускница-физик из Северной Ирландии, была аспиранткой Кембриджского университета. Её научный руководитель Энтони Хьюиш придумал новый радиотелескоп для поиска квазаров: очень далёких и очень ярких объектов, которые астрономы начали находить лишь за несколько лет до того. Метод опирался на фокус, который устраивает Солнце. Поток частиц, который Солнце выдувает в пространство, солнечный ветер, заставляет маленькие радиоисточники «мерцать», так же как воздух заставляет мерцать звёзды для глаза. Большие источники почти не мерцают, поэтому мерцание выдаёт, какой источник крошечный и компактный.\n\nТелескоп не был похож на тарелку. Белл, ещё около четырёх сотрудников и несколько студентов на каникулах два года строили его в поле под Кембриджем: по её собственному рассказу, больше тысячи деревянных столбов, между ними больше 2000 антенн, около 190 километров проводов и кабелей; всё это занимало около 1,8 гектара, примерно два с половиной футбольных поля. Телескоп заработал в июле 1967 года. Он выдавал не картинку, а линии, которые перья чернилами чертили на рулонах бумаги: около 30 метров ленты в день. Белл разбирала ленты вручную.\n\n![Остатки антенной решётки для наблюдения межпланетных мерцаний в Радиоастрономической обсерватории Малларда под Кембриджем, 2014 год](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cmglee_Cambridge_MRAO_IPS_Array.jpg \"Cmglee · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Cmglee_Cambridge_MRAO_IPS_Array.jpg\")\n\n### Что произошло\n\nВ августе 1967 года, через несколько недель после начала обзора, Белл заметила на лентах что-то, что не походило ни на мерцающий источник, ни на обычные помехи от машин и передатчиков. Она назвала это «помаркой» (scruff). Просмотрев старые рулоны, она увидела, что это появляется всё время из одного и того же маленького участка неба и идёт в ногу со звёздами, а не с часами на стене: каждый день возвращается на четыре минуты раньше, как звёзды. Источник находился где-то среди звёзд.\n\nЧтобы рассмотреть его, этот участок нужно было записать на гораздо более быструю ленту. Неделями сигнала не было. 28 ноября 1967 года он вернулся, и, пока бумага бежала под пером, Белл увидела, что это цепочка резких импульсов, один каждые 1⅓ секунды, настолько ровных, что по ним можно было сверять часы. Первой мыслью Хьюиша было, что сигнал рукотворный. Команда проверила радарное эхо от Луны, спутники, металлическое здание поблизости. Джон Пилкингтон измерил, что импульсы на разных радиочастотах приходят чуть врозь (как свет, проходя через стекло, раскладывается на цвета), и по этой задержке рассчитал, что источник лежит далеко за пределами Солнечной системы, но внутри нашей Галактики.\n\n![Часть ленты с записью первого пульсара; сейчас она выставлена в библиотеке Кембриджского университета](https://upload.wikimedia.org/wikipedia/commons/8/84/Chart_Showing_Radio_Signal_of_First_Identified_Pulsar%2C_crop_%26_rotate.jpg \"Billthom · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Chart_Showing_Radio_Signal_of_First_Identified_Pulsar,_crop_&_rotate.jpg\")\n\nПолушутя команда назвала источник LGM-1, от «little green men», «маленькие зелёные человечки». Хьюиш искал в импульсах крошечный сдвиг ритма, который дала бы планета, обращающаяся вокруг другого солнца, и нашёл лишь сдвиг от движения самой Земли вокруг Солнца. Перед самым Рождеством Белл нашла второй источник в другой части неба, с импульсами каждые 1,2 секунды; к январю их было четыре. Четыре разные цивилизации, подающие сигнал на одной частоте одним и тем же странным образом, — бессмыслица: это было явление природы. Статья «Наблюдение быстро пульсирующего радиоисточника» вышла в *Nature* 24 февраля 1968 года с пятью авторами: Хьюиш, Белл, Пилкингтон, Скотт и Коллинз. Через несколько месяцев газеты дали этим объектам имя: пульсары.\n\n### Почему это было трудно\n\nИдея того, что такое пульсары, ждала больше тридцати лет. В статье, написанной в 1931 году, советский физик Лев Ландау представил себе звёзды настолько плотные, что их вещество упаковано как атомное ядро. В 1934 году Вальтер Бааде и Фриц Цвикки предположили, что сверхновая, взрыв умирающей звезды, может оставить после себя «нейтронную звезду» — ядро почти целиком из нейтронов. Сегодня мы знаем, что такая звезда вмещает массу больше солнечной в шар около 20 километров в поперечнике, и чайная ложка её вещества весила бы миллиарды тонн. Увидеть такую звезду мало кто надеялся: слишком маленькая, а значит, слишком тусклая. В ноябре 1967 года, за несколько недель до того, как импульсы удалось разглядеть, молодой итальянский астрофизик Франко Пачини предположил, что вращающаяся намагниченная нейтронная звезда может накачивать энергией окружающий газ.\n\nСама статья об открытии допускала, что импульсы идут от колеблющегося белого карлика или нейтронной звезды. В 1968 году Томас Голд, независимо от Пачини, доказывал, что ответ — вращение: нейтронная звезда делает один оборот на каждый импульс. Аналогия — маяк. Его свет горит всегда, но корабль видит вспышку, только когда луч проходит по нему. Магнитное поле нейтронной звезды собирает радиоволны в лучи, выходящие из магнитных полюсов, и если полюса наклонены к оси вращения, лучи обметают небо. Аналогия ломается в одном месте: лампу маяка с ровной скоростью крутит мотор, а пульсар — это вращение самой звезды, которое ничем не подпитывается, кроме запасённой энергии вращения, поэтому оно очень медленно замедляется.\n\n![Как устроен пульсар: лучи радиоволн выходят вдоль магнитных полюсов вращающейся нейтронной звезды и обметают небо](https://upload.wikimedia.org/wikipedia/commons/a/a1/Diagram_explaining_the_geometry_of_a_pulsar.jpg \"http://science.nasa.gov/newhome/headlines/mag_pix/pulsars.jpg · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_explaining_the_geometry_of_a_pulsar.jpg\")\n\nДоказательство пришло от давнего взрыва. В 1054 году астрономы китайской династии Сун записали «звезду-гостью», которую 23 дня было видно даже днём; её отметили также в Японии и врач Ибн Бутлан в арабском мире. Её остатки — Крабовидная туманность. В конце 1968 года астрономы нашли в центре Краба пульсар, вспыхивающий около 30 раз в секунду, а австралийские астрономы в Молонгло нашли ещё один внутри остатка сверхновой в созвездии Паруса. Так быстро вращаться и не разорваться может только крошечная и очень плотная звезда, а связь со сверхновыми совпадала с предсказанием Бааде и Цвикки. Вращающаяся нейтронная звезда Пачини и Голда стала общепринятым объяснением.\n\n### Что это открыло\n\nПульсары оказались одними из самых точных часов в природе. В 1974 году Рассел Халс и Джозеф Тейлор нашли пульсар, обращающийся вокруг другой нейтронной звезды, и за следующие годы показали, что пара медленно сближается по спирали точно так, как предсказывает общая теория относительности Эйнштейна, если звёзды излучают гравитационные волны: первое сильное свидетельство этих волн, за десятилетия до их прямой регистрации. В 1992 году первые подтверждённые планеты за пределами Солнечной системы были найдены у пульсара. Сегодня известно больше 3000 пульсаров, и астрономы сверяют их ритм по всей Галактике, чтобы уловить самые слабые гравитационные волны.\n\n> [!NOTE]\n> Нобелевскую премию по физике 1974 года получили Энтони Хьюиш — за решающую роль в открытии пульсаров — и Мартин Райл — за работу над радиотелескопами, прежде всего за метод апертурного синтеза. Джоселин Белл Бернелл в их число не вошла. Фред Хойл и другие публично возражали. Сама Белл Бернелл в 1977 году говорила, что премии обычно не должны доставаться аспирантам, а спустя десятилетия добавила, что то, что она была студенткой и женщиной, снижало её вес. Хьюиш придумал телескоп и руководил проектом; Белл построила большую его часть, первой увидела сигнал и добилась его разгадки. Обе точки зрения обсуждаются до сих пор.\n\nБелл Бернелл проработала в астрономии долгую жизнь, была президентом Королевского астрономического общества, Института физики и Королевского общества Эдинбурга — первой женщиной во главе последнего. В 2018 году она получила Специальную премию Breakthrough по фундаментальной физике, три миллиона долларов, и отдала их целиком на подготовку исследователей-физиков из числа женщин, беженцев и студентов из недопредставленных групп.",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Джоселин Белл Бернелл пульсарларды ачты",
+      "summary": "Радио тасмаларды колу менен карап чыккан Кембридж аспиранты Джоселин Белл ар 1,34 секундада импульс берген сигнал тапкан: өлгөн жылдыздардын кысылган өзөгү – нейтрон жылдыздарынын алгачкы изи.",
+      "why_it_matters": "Пульсарлар 1930-жылдары божомолдонгон нейтрон жылдыздары чындап бар экенин көрсөткөн. Табияттын эң так сааттары катары алар кийин гравитациялык толкундардын биринчи күчтүү далилин берип, Күн системасынан тышкаркы биринчи планеталарды ачууга жардам берген.",
+      "if_you_were_there": "Нейтрон жылдызын эч ким көргөн эмес, ал кагаз жүзүндөгү идея гана болчу. Радиоастрономия отуз жашка араң толгон, анын маалыматтары дагы эле кагаздагы сыя сызыктары түрүндө келчү.",
+      "place_name": "Маллард радиоастрономия обсерваториясы, Кембридж, Улуу Британия",
+      "body": "### Көрүнүш\n\n1967-жылы Түндүк Ирландиядан келген 24 жаштагы физик Джоселин Белл Кембридж университетинде аспирант болчу. Анын илимий жетекчиси Энтони Хьюиш квазарларды издөө үчүн жаңы түрдөгү радиотелескоп ойлоп чыккан. Квазарлар өтө алыс жана өтө жарык нерселер, астрономдор аларды бир нече жыл мурун гана таба башташкан. Ыкма Күндүн бир «оюнуна» таянган. Күн космоско үйлөп чыгарган бөлүкчөлөрдүн агымы, башкача айтканда күн шамалы, кичинекей радио булактарды «жымыңдатат». Аба жылдыздарды көзгө жымыңдагандай көрсөткөнү сыяктуу эле. Чоң булактар дээрлик жымыңдабайт, ошондуктан жымыңдоо кайсы булак кичинекей жана тыгыз экенин айтып берет.\n\nТелескоп табакка окшогон эмес. Белл, дагы төрткө жакын кесиптеши жана каникулдагы бир нече студент аны Кембридждин сыртындагы талаада эки жыл бою курушкан. Беллдин өз сөзү боюнча, ал миңден ашык жыгач мамыдан, алардын ортосуна тартылган 2000ден ашык антеннадан жана болжол менен 190 километр зым менен кабелден турган. Баары болжол менен 1,8 гектарды, эки жарым футбол талаасындай аянтты ээлеген. Телескоп 1967-жылдын июлунда иштей баштаган. Ал сүрөт бербей, кагаз оромдоруна калемдер сыя менен тартып турган сызыктарды берчү: күнүнө болжол менен 30 метр тасма. Белл тасмаларды колу менен талдап чыккан.\n\n![Кембридждин жанындагы Маллард радиоастрономия обсерваториясында планеталар аралык жымыңдоону байкоочу антенна торунун калдыктары, 2014-жыл](https://upload.wikimedia.org/wikipedia/commons/b/bf/Cmglee_Cambridge_MRAO_IPS_Array.jpg \"Cmglee · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Cmglee_Cambridge_MRAO_IPS_Array.jpg\")\n\n### Эмне болду\n\n1967-жылдын августунда, байкоо башталгандан бир нече жума өткөндө, Белл тасмалардан жымыңдаган булакка да, машиналардан жана таратуучулардан келген адаттагы тоскоолдукка да окшобогон бир нерсени байкаган. Ал аны «бир аз так» (scruff) деп атаган. Мурунку оромдорду кайра карап чыгып, ал бул так ар дайым асмандын бир эле кичинекей бөлүгүнөн чыгып турганын жана дубалдагы саатка эмес, жылдыздарга ылайык жүрөрүн көргөн: жылдыздар сыяктуу эле ал күн сайын төрт мүнөт эрте кайтып келчү. Аны жиберип жаткан нерсе жылдыздардын арасында болгон.\n\nАны жакшылап көрүү үчүн асмандын ошол бөлүгүн алда канча тез жылган тасмага жазуу керек болчу. Бир нече жума бою сигнал жок болгон. 1967-жылдын 28-ноябрында ал кайра пайда болуп, кагаз калемдин астынан агып жатканда Белл анын кескин импульстардын тизмеги экенин көргөн: ар бир 1⅓ секундада бирден, саатты тууралай тургандай так. Хьюиш адегенде аны адам колу менен жасалган сигнал деп ойлогон. Топ Айдан кайткан радар жаңырыгын, жасалма жандоочторду, жакын жердеги темир имаратты бирден текшерип чыккан. Джон Пилкингтон ар түрдүү радио жыштыктардагы импульстар бири-биринен бир аз башка убакта келерин өлчөгөн (жарык айнектен өткөндө түстөргө ажыраганы сыяктуу). Ушул кечигүүдөн ал булак Күн системасынан алда канча алыс, бирок өзүбүздүн галактиканын ичинде экенин эсептеп чыгарган.\n\n![Биринчи пульсардын жазылган тасмасынын бир бөлүгү; азыр Кембридж университетинин китепканасында көргөзмөдө турат](https://upload.wikimedia.org/wikipedia/commons/8/84/Chart_Showing_Radio_Signal_of_First_Identified_Pulsar%2C_crop_%26_rotate.jpg \"Billthom · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Chart_Showing_Radio_Signal_of_First_Identified_Pulsar,_crop_&_rotate.jpg\")\n\nТоп жарым тамаша кылып булакты LGM-1 деп атаган: англисче «little green men», «кичинекей жашыл адамдар» дегендин кыскартылышы. Хьюиш импульстардан башка бир күндү айланган планета пайда кыла турган кичинекей ыргак жылышын издеген, бирок Жердин өзүнүн Күндү айлануусунан келген жылышты гана тапкан. Рождествонун алдында Белл асмандын башка бөлүгүнөн ар бир 1,2 секундада импульс берген экинчи булакты тапкан. Январга чейин алардын саны төрткө жеткен. Төрт башка цивилизациянын бир эле жыштыкта, бир эле кызык ыкма менен сигнал бериши маанисиз болчу: бул табияттын көрүнүшү эле. «Тез импульс берген радио булакты байкоо» деген макала 1968-жылдын 24-февралында *Nature* журналында беш автор менен чыккан: Хьюиш, Белл, Пилкингтон, Скотт жана Коллинз. Бир нече айдын ичинде гезиттер бул нерселерге ат коюшкан: пульсарлар.\n\n### Эмне үчүн оор болгон\n\nПульсарлар эмне экени тууралуу идея отуз жылдан ашык күтүп турган. 1931-жылы жазган макаласында совет физиги Лев Ландау заты атом ядросундай тыгыздалган өтө тыгыз жылдыздарды элестеткен. 1934-жылы Вальтер Бааде менен Фриц Цвикки супержаңы жылдыз, башкача айтканда өлүп бараткан жылдыздын жарылуусу, артында «нейтрон жылдызын» калтырышы мүмкүн деп сунушташкан: дээрлик толугу менен нейтрондордон турган өзөк. Бүгүн биз мындай жылдыз Күндөн оор массаны болжол менен 20 километрлик топко батырарын билебиз, анын бир чай кашыгы миллиарддаган тонна тартат. Андайды көрөбүз деп аз эле адам күткөн: мынчалык кичинекей нерсе өтө күңүрт болушу керек эле. 1967-жылдын ноябрында, импульстар айкын көрүнөрдөн бир нече жума мурун, жаш италиялык астрофизик Франко Пачини айланган, магниттүү нейтрон жылдызы айланасындагы газга энергия бере алат деп божомолдогон.\n\nАчылыш тууралуу макаланын өзү импульстар термелген ак эргежээлден же нейтрон жылдызынан келиши мүмкүн деп жазган. 1968-жылы Томас Голд Пачиниден көз карандысыз түрдө жооп айлануу деп ырастаган: ар бир импульска бир жолу айланган нейтрон жылдызы. Салыштыруу: маяк. Анын жарыгы ар дайым күйүп турат, бирок кеме жаркылды нур өзүнүн үстүнөн өткөндө гана көрөт. Нейтрон жылдызынын магнит талаасы радио толкундарды магнит уюлдарынан чыккан нурларга чогултат. Эгер бул уюлдар айлануу огунан кыйшайган болсо, нурлар асманды шыпырып өтөт. Салыштыруу бир жерде бузулат: маяктын чырагын мотор бир калыпта айлантат, ал эми пульсар жылдыздын өзүнүн айлануусу. Аны өзүнүн топтолгон айлануу энергиясынан башка эч нерсе азыктандырбайт, ошондуктан ал абдан жай басаңдайт.\n\n![Пульсар кантип иштейт: радио толкундардын нурлары айланган нейтрон жылдызынын магнит уюлдарынан чыгып, асманды шыпырып өтөт](https://upload.wikimedia.org/wikipedia/commons/a/a1/Diagram_explaining_the_geometry_of_a_pulsar.jpg \"http://science.nasa.gov/newhome/headlines/mag_pix/pulsars.jpg · Public domain · https://commons.wikimedia.org/wiki/File:Diagram_explaining_the_geometry_of_a_pulsar.jpg\")\n\nДалил байыркы жарылуудан келген. 1054-жылы Кытайдагы Сун династиясынын астрономдору 23 күн бою күндүз да көрүнгөн «конок жылдызды» жазып калышкан. Аны Японияда жана араб дүйнөсүндө дарыгер Ибн Бутлан да белгилеген. Анын калдыгы Краб тумандуулугу. 1968-жылдын аягында астрономдор Крабдын ортосунан секундасына болжол менен 30 жолу жаркылдаган пульсарды табышкан. Молонглодогу австралиялык астрономдор болсо Парус топ жылдызындагы супержаңы жылдыздын калдыгынын ичинен дагы бирин табышкан. Мынчалык тез айланып, бирок жарылып кетпеген нерсе кичинекей жана өтө тыгыз жылдыз гана боло алат, ал эми супержаңы жылдыз менен байланышы Бааде менен Цвиккинин божомолуна дал келген. Пачини менен Голддун айланган нейтрон жылдызы жалпы кабыл алынган түшүндүрмө болуп калган.\n\n### Эмнеге жол ачты\n\nПульсарлар табияттагы эң так сааттардын бири болуп чыккан. 1974-жылы Рассел Халс менен Джозеф Тейлор башка нейтрон жылдызын айланган пульсарды табышкан. Кийинки жылдары алар бул жуп бири-бирине спираль менен жай жакындап жатканын көрсөтүшкөн. Эгер жылдыздар гравитациялык толкундарды чыгарып жатса, Эйнштейндин жалпы салыштырмалуулук теориясы так ушундай болот деп айткан. Бул толкундар түз катталардан ондогон жылдар мурун алардын биринчи күчтүү далили болгон. 1992-жылы Күн системасынан тышкары тастыкталган биринчи планеталар пульсардын айланасынан табылган. Бүгүн 3000ден ашык пульсар белгилүү, астрономдор эң алсыз гравитациялык толкундарды кармоо үчүн бүт галактика боюнча алардын ыргагын өлчөп турушат.\n\n> [!NOTE]\n> 1974-жылкы физика боюнча Нобель сыйлыгы Энтони Хьюишке пульсарларды ачуудагы чечүүчү ролу үчүн жана Мартин Райлга радиотелескоптор, өзгөчө апертуралык синтез ыкмасы боюнча иши үчүн берилген. Джоселин Белл Бернелл аларга кошулган эмес. Фред Хойл жана башкалар ачык нааразычылык билдиришкен. Белл Бернелл өзү 1977-жылы сыйлыктар адатта аспиранттарга берилбеши керек деп айткан, ал эми ондогон жылдардан кийин студент жана аял болгону анын абалын төмөндөткөнүн да кошумчалаган. Телескопту Хьюиш ойлоп чыгып, долбоорду жетектеген; Белл анын көп бөлүгүн курган, сигналды биринчи көрүп, анын артынан түшкөн. Эки көз караш тең азыр да талкууланып келет.\n\nБелл Бернелл астрономияда узак иштеп, Королдук астрономия коомунун, Физика институтунун жана Эдинбург королдук коомунун президенти болгон, акыркысын жетектеген биринчи аял катары. 2018-жылы ал фундаменталдык физика боюнча үч миллион долларлык атайын Breakthrough сыйлыгын алып, анын баарын аялдардын, качкындардын жана аз көрсөтүлгөн топтордон чыккан студенттердин физик-изилдөөчү болуп даярдалышына берген.",
+      "status": "machine"
+    }
+  }
+}
