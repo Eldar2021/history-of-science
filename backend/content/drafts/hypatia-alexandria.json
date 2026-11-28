@@ -1,0 +1,331 @@
+{
+  "slug": "hypatia-alexandria",
+  "year": 400,
+  "year_end": null,
+  "precision": "circa",
+  "importance": 3,
+  "status": "review",
+  "drafted_by": "ai",
+  "source_locale": "en",
+  "place_precision": "city",
+  "lat": 31.2001,
+  "lng": 29.9187,
+  "image": {
+    "path": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Diophantus%2C_Arithmetica%2C_Vaticanus_graecus_191.jpg",
+    "credit": "Diophantus of Alexandria",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Diophantus,_Arithmetica,_Vaticanus_graecus_191.jpg"
+  },
+  "disciplines": [
+    "mathematics",
+    "astronomy"
+  ],
+  "people": [
+    {
+      "slug": "hypatia",
+      "role": "author",
+      "name": {
+        "en": "Hypatia",
+        "tr": "Hypatia",
+        "ru": "Гипатия",
+        "ky": "Гипатия"
+      },
+      "birth_year": null,
+      "death_year": 415
+    },
+    {
+      "slug": "theon-of-alexandria",
+      "role": "collaborator",
+      "name": {
+        "en": "Theon of Alexandria",
+        "tr": "İskenderiyeli Theon",
+        "ru": "Теон Александрийский",
+        "ky": "Александриялык Теон"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "synesius-of-cyrene",
+      "role": "contemporary",
+      "name": {
+        "en": "Synesius of Cyrene",
+        "tr": "Kireneli Synesios",
+        "ru": "Синезий Киренский",
+        "ky": "Киренелик Синезий"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "pandrosion",
+      "role": "predecessor",
+      "name": {
+        "en": "Pandrosion",
+        "tr": "Pandrosion",
+        "ru": "Пандросион",
+        "ky": "Пандросион"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "pappus-of-alexandria",
+      "role": "predecessor",
+      "name": {
+        "en": "Pappus of Alexandria",
+        "tr": "İskenderiyeli Pappos",
+        "ru": "Папп Александрийский",
+        "ky": "Александриялык Папп"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "ptolemy",
+      "role": "predecessor",
+      "name": {
+        "en": "Ptolemy",
+        "tr": "Batlamyus",
+        "ru": "Птолемей",
+        "ky": "Птолемей"
+      },
+      "birth_year": 100,
+      "death_year": 170
+    },
+    {
+      "slug": "diophantus",
+      "role": "predecessor",
+      "name": {
+        "en": "Diophantus of Alexandria",
+        "tr": "İskenderiyeli Diophantos",
+        "ru": "Диофант Александрийский",
+        "ky": "Александриялык Диофант"
+      },
+      "birth_year": 200,
+      "death_year": 284
+    },
+    {
+      "slug": "apollonius-of-perga",
+      "role": "predecessor",
+      "name": {
+        "en": "Apollonius of Perga",
+        "tr": "Pergeli Apollonios",
+        "ru": "Аполлоний Пергский",
+        "ky": "Пергалык Аполлоний"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "euclid",
+      "role": "predecessor",
+      "name": {
+        "en": "Euclid",
+        "tr": "Öklid",
+        "ru": "Евклид",
+        "ky": "Евклид"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "plotinus",
+      "role": "predecessor",
+      "name": {
+        "en": "Plotinus",
+        "tr": "Plotinos",
+        "ru": "Плотин",
+        "ky": "Плотин"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "orestes-prefect",
+      "role": "context",
+      "name": {
+        "en": "Orestes",
+        "tr": "Orestes",
+        "ru": "Орест",
+        "ky": "Орест"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "cyril-of-alexandria",
+      "role": "context",
+      "name": {
+        "en": "Cyril of Alexandria",
+        "tr": "İskenderiyeli Kyrillos",
+        "ru": "Кирилл Александрийский",
+        "ky": "Александриялык Кирилл"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "socrates-scholasticus",
+      "role": "context",
+      "name": {
+        "en": "Socrates Scholasticus",
+        "tr": "Sokrates Skolastikos",
+        "ru": "Сократ Схоластик",
+        "ky": "Сократ Схоластик"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "damascius",
+      "role": "context",
+      "name": {
+        "en": "Damascius",
+        "tr": "Damaskios",
+        "ru": "Дамаский",
+        "ky": "Дамаский"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "qusta-ibn-luqa",
+      "role": "transmitter",
+      "name": {
+        "en": "Qusta ibn Luqa",
+        "tr": "Kusta bin Luka",
+        "ru": "Куста ибн Лука",
+        "ky": "Куста ибн Лука"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "john-philoponus",
+      "role": "successor",
+      "name": {
+        "en": "John Philoponus",
+        "tr": "Ioannes Philoponos",
+        "ru": "Иоанн Филопон",
+        "ky": "Иоанн Филопон"
+      },
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "slug": "aristotle",
+      "role": "predecessor",
+      "name": {
+        "en": "Aristotle",
+        "tr": "Aristoteles",
+        "ru": "Аристотель",
+        "ky": "Аристотель"
+      },
+      "birth_year": -384,
+      "death_year": -322
+    },
+    {
+      "slug": "plato",
+      "role": "predecessor",
+      "name": {
+        "en": "Plato",
+        "tr": "Platon",
+        "ru": "Платон",
+        "ky": "Платон"
+      },
+      "birth_year": null,
+      "death_year": null
+    }
+  ],
+  "builds_on": [
+    "ptolemy-almagest",
+    "euclid-elements"
+  ],
+  "sources": [
+    {
+      "title": "Hypatia — Britannica (linked for human review; automated fetch is blocked)",
+      "kind": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Hypatia"
+    },
+    {
+      "title": "Hypatia — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hypatia"
+    },
+    {
+      "title": "J. J. O'Connor and E. F. Robertson, 'Hypatia of Alexandria' — MacTutor History of Mathematics, University of St Andrews",
+      "kind": "encyclopedia",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia/"
+    },
+    {
+      "title": "Socrates Scholasticus, Ecclesiastical History, Book VII, chapters 13-15 — New Advent",
+      "kind": "book",
+      "url": "https://www.newadvent.org/fathers/26017.htm"
+    },
+    {
+      "title": "Synesius of Cyrene, Letter 15 (to Hypatia, on the hydroscope) — Livius",
+      "kind": "other",
+      "url": "https://www.livius.org/sources/content/synesius/synesius-letter-015/"
+    },
+    {
+      "title": "Pandrosion — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Pandrosion"
+    },
+    {
+      "title": "Arithmetica (Diophantus) — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Arithmetica"
+    },
+    {
+      "title": "Synesius — Wikipedia",
+      "kind": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Synesius"
+    },
+    {
+      "title": "Synesius, Ad Paeonium de dono astrolabii — Medieval Manuscripts in Oxford Libraries (Bodleian)",
+      "kind": "other",
+      "url": "https://medieval.bodleian.ox.ac.uk/catalog/work_4"
+    }
+  ],
+  "research_note": "Drafted 2026-11-27 by the nightly pipeline (rank 99 of 100). YEAR: 400 circa is a teaching date, not a single event; MacTutor says she headed the Platonist school around 400; birth estimates 350-370 (Penella: leave unspecified), stated in the body. Death March 415 from Socrates Scholasticus VII.15 (fourth year of Cyril, tenth consulate of Honorius). SOURCES: Wikipedia (Hypatia, Pandrosion, Arithmetica, Synesius), MacTutor, Socrates Scholasticus VII.15 (New Advent), Synesius Letter 15 (Livius), Bodleian catalogue entry for De dono astrolabii; Britannica linked for the human. FACT-CHECKER (2026-11-27), applied in all four languages: cloak and city-centre lectures on Plato and Aristotle moved from Socrates to Damascius; 'his letters are the only surviving words addressed to her' dropped (unconfirmed); astrolabe line now 'she taught him how to build a silver astrolabe' (Wikipedia) and the Livius astrolabe page removed as a source (it names Pylaemenes and does not mention silver or Hypatia); Pandrosion 'a few decades earlier' -> 'earlier in the fourth century', and the evidence is Pappus's feminine address (A. Jones 1988), not the name alone; Euclid line -> 'nearly every surviving Greek copy' (Arabic tradition may be separate); why_it_matters softened: Diophantus/Apollonius commentaries only 'reported' (Suda); summary 'the hardest' -> 'some of the hardest'; if_you_were_there 'motions of the stars' -> 'Plato and Aristotle'. REVIEWER SHOULD CHECK: Theon's two eclipses of 364 (Wikipedia/MacTutor); Arabic Arithmetica found 1968 by Fuat Sezgin in Mashhad (Wikipedia also cites ~1971 resurfacing); Qusta ibn Luqa attribution is 'thought to be'; Cameron vs Knorr on Hypatia's role in the Arabic books; Damascius is the only source blaming Cyril directly; the 'Cosmos'/'Agora' claims rest on Wikipedia's popular-culture section. The DSB entry (MacTutor PDF) could not be read. IMAGES: cover = Diophantus, Arithmetica, Vat. gr. 191 (1296), Public domain, but Commons' credit line is the text's author 'Diophantus of Alexandria', not the scribe (thin author line). Figures: Synesius letters, Paris BN gr. 1040 (1325), Public domain, credit again is the text's author; Julius Kronberg 1889 painting, Public domain, labelled in the body as imagined. Rejected: C. W. Mitchell 1885 (nude death scene, not suited), Raphael 'School of Athens' detail (identification as Hypatia is a modern legend), Gandia mural (modern). BUILDS_ON: ptolemy-almagest, euclid-elements. NON-WESTERN / CENTRAL ASIA: Qusta ibn Luqa's Arabic translation and the Mashhad (Khorasan) discovery; Pandrosion as an earlier woman mathematician. KYRGYZ: glossary 'check' term used: тутулуу (eclipse). New terms not in glossary: түшүндүрмө (commentary), жамынчы (cloak), гидроскоп, оймо (notch), астролябия, күмбөз (shrine), бутпарас (pagan), Улуу орозо (Lent), чиркөө окуучусу (church reader).",
+  "translations": {
+    "en": {
+      "title": "Hypatia teaches mathematics in Alexandria",
+      "summary": "Around 400 Hypatia taught mathematics, astronomy and philosophy in Alexandria and helped edit some of the hardest books of Greek science so that they could still be read.",
+      "why_it_matters": "She helped keep Ptolemy's astronomy readable at a time when every copy was made by hand and each copy added errors, and she is reported to have done the same for Diophantus and Apollonius. She is the first woman mathematician whose life is reasonably well recorded.",
+      "if_you_were_there": "In the centre of Alexandria you could stop and hear a woman in a philosopher's cloak explain Plato and Aristotle to anyone who listened.",
+      "place_name": "Alexandria",
+      "body": "### The scene\n\nAround the year 400 Alexandria had been a city of mathematicians for seven centuries. Euclid had written there, Ptolemy had built his astronomy there, Diophantus had set his number puzzles there. The old scholarly institutions, though, were mostly gone, and the city was changing fast: it was now a Christian city ruled from Constantinople, and in 391 a crowd had demolished the Serapeum, the great temple of the god Serapis.\n\nHypatia grew up inside this tradition. Her father, Theon, was a mathematician and astronomer who observed two eclipses from Alexandria in 364 and wrote commentaries on Ptolemy and a new edition of Euclid's *Elements*. Her own birth year is not recorded. Scholars have proposed dates from about 350 to about 370, and some argue that the evidence is too thin to choose; she is placed here around 400, when she was already a famous teacher in the city.\n\n### What happened\n\nHypatia taught mathematics, astronomy and philosophy, the Platonist philosophy that followed Plotinus. The church historian Socrates Scholasticus, writing a generation later, says she surpassed the philosophers of her time and that students came from far away to hear her. A later writer, Damascius, adds that she put on the cloak that philosophers wore and lectured in the centre of the city, on Plato and Aristotle, to anyone who wanted to listen.\n\nMuch of what is known about her teaching comes from one student. Synesius of Cyrene, who later became a Christian bishop, kept writing to her after he left Alexandria, and his letters to her survive. They show the practical side of her school. Synesius says she taught him how to build a silver astrolabe, a flat model of the sky for finding the time and the positions of stars. In a letter written around 402, he asks her to have a hydroscope cast in brass for him: a tube about the size of a flute, marked with a line of notches and closed at one end by a cone, which floats upright in a liquid so that the notches show how heavy that liquid is. Neither device was her invention, and both were older than her. What the letters show is a teacher who knew how instruments were built and could get one made.\n\n![A fourteenth-century Greek manuscript of the letters of Synesius of Cyrene, several of which are addressed to Hypatia](https://upload.wikimedia.org/wikipedia/commons/4/41/Synesius%2C_Letters%2C_Paris%2C_BN%2C_Gr._1040.jpg \"Synesius of Cyrene · Public domain · https://commons.wikimedia.org/wiki/File:Synesius,_Letters,_Paris,_BN,_Gr._1040.jpg\")\n\nHer written work was of a kind that is easy to overlook. Most of it was editing and explaining hard books so that students could use them. The title of Theon's commentary on Book Three of Ptolemy's *Almagest* says the edition was revised by \"my daughter Hypatia, the philosopher\", and scholars now read it as her correcting Ptolemy's text itself. A Byzantine encyclopedia, the *Suda*, written five centuries later, adds commentaries on Diophantus's *Arithmetica* and on the *Conics* of Apollonius of Perga, and a work called the *Astronomical Canon*. None of these survives under her name, and the *Suda* passage is unclear, so how much she wrote is not certain.\n\nHer work was like that of the person who keeps an old map in use: redrawing faded lines, fixing copying errors, writing notes in the margin so a new traveller can follow the route. Where the analogy breaks: on a map you can see the new ink, and in these texts you cannot. Her corrections were copied into the books themselves, which is exactly why they survived and why no one can now point to them with certainty.\n\n### Why it was hard\n\nPtolemy's astronomy and Diophantus's arithmetic were among the hardest books in Greek, and every copy was written out by hand. Each copy added errors, and a book that no one could read soon stopped being copied at all. Keeping these texts alive took people who understood them well enough to repair them.\n\nShe was not the only woman doing this. Earlier in the fourth century another Alexandrian mathematician, Pappus, criticised the methods of the students of a teacher named Pandrosion. Pappus addresses this teacher in the feminine, and most scholars now accept that Pandrosion was a woman who taught mathematics. Almost nothing else is known about her, which is part of why Hypatia is so often called the first. She is better described as the first woman mathematician whose life is reasonably well recorded.\n\nHer end came from politics. In 412 Cyril became bishop of Alexandria and was soon in open conflict with Orestes, the Roman prefect who governed the city, and Orestes often consulted Hypatia. Rumour said she was the one keeping the two men apart. In March 415, during Lent, a Christian crowd led by a church reader named Peter pulled her from her carriage, killed her in a church, and burned her body. Socrates Scholasticus, who tells this, was himself a Christian and condemned the murder. Whether Cyril ordered it is disputed: a later pagan writer, Damascius, blames him directly, and no other source does.\n\n> [!WARNING]\n> Many popular retellings, including the television series *Cosmos* (1980) and the film *Agora* (2009), tie her death to the burning of the Library of Alexandria. The great Library had disappeared long before she was born. Nor do the sources show her killed for her science: they describe a political feud in which she was caught. The film also shows her working out that the Earth moves around the Sun, and nothing in the record supports that.\n\n### What it opened\n\nThe texts she worked on reached later readers. Theon's edition of Euclid, the family's other great project, became the version nearly every surviving Greek copy came from, and it remained the only known version until 1808, when an older manuscript was found in the Vatican Library. Diophantus's *Arithmetica* reached the Islamic world: in the ninth century Qusta ibn Luqa translated it into Arabic, and four of its books survive only in that translation. They were found in 1968 in the library of the Imam Reza shrine in Mashhad, in north-eastern Iran. Some scholars think the extra worked examples in those Arabic books come from Hypatia's lost commentary; others disagree.\n\n![The opening of Diophantus's Arithmetica in a Greek manuscript copied in the thirteenth century; Hypatia is reported to have written a commentary on this book](https://upload.wikimedia.org/wikipedia/commons/3/3b/Diophantus%2C_Arithmetica%2C_Vaticanus_graecus_191.jpg \"Diophantus of Alexandria · Public domain · https://commons.wikimedia.org/wiki/File:Diophantus,_Arithmetica,_Vaticanus_graecus_191.jpg\")\n\nAlexandrian learning did not end with her. Philosophers went on teaching mathematics and astronomy in the city for more than a century, and one of them, John Philoponus, wrote in the sixth century the oldest Greek treatise on the astrolabe that survives.\n\nNo portrait of Hypatia was made in her lifetime. The faces in later paintings, like the 1889 one below by the Swedish painter Julius Kronberg, are imagined; her story was retold as a novel in the nineteenth century, and the legend grew from there.\n\n![Hypatia as imagined by Julius Kronberg in 1889, nearly fifteen centuries after her death](https://upload.wikimedia.org/wikipedia/commons/6/69/Hypatia_by_Julius_Kronberg%2C_1889.jpg \"Julius Kronberg · Public domain · https://commons.wikimedia.org/wiki/File:Hypatia_by_Julius_Kronberg,_1889.jpg\")",
+      "status": "machine"
+    },
+    "tr": {
+      "title": "Hypatia İskenderiye'de matematik öğretiyor",
+      "summary": "Hypatia 400 dolaylarında İskenderiye'de matematik, astronomi ve felsefe öğretti; Yunan biliminin en zor kitaplarından bazılarının okunabilir kalması için onları düzeltmeye yardım etti.",
+      "why_it_matters": "Her kopyanın elle yapıldığı ve her kopyanın hata eklediği bir çağda Batlamyus'un astronomisini okunur tutmaya yardım etti; aynı şeyi Diophantos ve Apollonios için de yaptığı aktarılır. Hayatı yeterince iyi kaydedilmiş ilk kadın matematikçidir.",
+      "if_you_were_there": "İskenderiye'nin ortasında durup filozof pelerini giymiş bir kadının, dinleyen herkese Platon'u ve Aristoteles'i anlattığını duyabilirdiniz.",
+      "place_name": "İskenderiye",
+      "body": "### Sahne\n\n400 yılı dolaylarında İskenderiye yedi yüzyıldır matematikçilerin şehriydi. Öklid orada yazmış, Batlamyus astronomisini orada kurmuş, Diophantos sayı bulmacalarını orada sormuştu. Ama eski bilim kurumlarının çoğu artık yoktu ve şehir hızla değişiyordu: İskenderiye artık Konstantinopolis'ten yönetilen Hristiyan bir şehirdi ve 391'de bir kalabalık, tanrı Serapis'in büyük tapınağı Serapeum'u yıkmıştı.\n\nHypatia bu geleneğin içinde büyüdü. Babası Theon, 364'te İskenderiye'den iki tutulmayı gözlemiş, Batlamyus üzerine şerhler ve Öklid'in *Elemanlar*'ının yeni bir baskısını yazmış bir matematikçi ve astronomdu. Hypatia'nın doğum yılı kayıtlı değil. Araştırmacılar 350 dolaylarından 370 dolaylarına kadar tarihler önerdi; bazıları kanıtın seçim yapmaya yetmeyecek kadar zayıf olduğunu söylüyor. Burada, şehrin ünlü bir öğretmeni olduğu 400 dolaylarına konuyor.\n\n### Ne oldu\n\nHypatia matematik, astronomi ve felsefe, yani Plotinos'u izleyen Platoncu felsefeyi öğretti. Bir kuşak sonra yazan kilise tarihçisi Sokrates Skolastikos, onun çağının filozoflarını geride bıraktığını ve öğrencilerin onu dinlemek için uzaklardan geldiğini anlatır. Daha sonraki bir yazar, Damaskios, onun filozofların giydiği pelerini giydiğini ve şehrin ortasında dinlemek isteyen herkese Platon'u ve Aristoteles'i anlattığını ekler.\n\nÖğretimi hakkında bilinenlerin çoğu tek bir öğrenciden gelir. Sonradan Hristiyan piskoposu olan Kireneli Synesios, İskenderiye'den ayrıldıktan sonra da ona mektup yazmaya devam etti ve bu mektuplar günümüze kaldı. Okulunun pratik yanını gösterirler. Synesios, gümüş bir usturlabın nasıl yapılacağını ona Hypatia'nın öğrettiğini söyler: zamanı ve yıldızların yerini bulmaya yarayan, gökyüzünün düz bir modeli. 402 dolaylarında yazılan bir mektupta, ona pirinçten bir hidroskop döktürmesini rica eder: flüt büyüklüğünde, üzerinde bir sıra çentik bulunan, bir ucu koniyle kapalı bir tüp; bir sıvıda dik yüzer ve çentikler o sıvının ne kadar ağır olduğunu gösterir. İki alet de onun icadı değildi; ikisi de ondan eskiydi. Mektupların gösterdiği, aletlerin nasıl yapıldığını bilen ve yaptırabilen bir öğretmendir.\n\n![Kireneli Synesios'un mektuplarının 14. yüzyıldan bir Yunanca elyazması; mektupların birkaçı Hypatia'ya yazılmıştır](https://upload.wikimedia.org/wikipedia/commons/4/41/Synesius%2C_Letters%2C_Paris%2C_BN%2C_Gr._1040.jpg \"Synesius of Cyrene · Public domain · https://commons.wikimedia.org/wiki/File:Synesius,_Letters,_Paris,_BN,_Gr._1040.jpg\")\n\nYazılı işi gözden kaçması kolay türdendi. Çoğu, zor kitapları öğrenciler kullanabilsin diye düzeltmek ve açıklamaktı. Theon'un Batlamyus'un *Almagest*'inin Üçüncü Kitabı üzerine şerhinin başlığı, baskının \"kızım filozof Hypatia\" tarafından gözden geçirildiğini söyler; araştırmacılar bugün bunu, Hypatia'nın Batlamyus'un metnini düzelttiği şeklinde okuyor. Beş yüzyıl sonra yazılan bir Bizans ansiklopedisi, *Suda*, buna Diophantos'un *Aritmetika*'sı ve Pergeli Apollonios'un *Konikler*'i üzerine şerhler ile *Astronomik Kanon* adlı bir eseri ekler. Bunların hiçbiri onun adıyla günümüze ulaşmadı ve *Suda*'daki pasaj açık değil; bu yüzden ne kadar yazdığı kesin değil.\n\nYaptığı iş, eski bir haritayı kullanılır tutan kişinin işine benzer: solmuş çizgileri yeniden çizmek, kopya hatalarını düzeltmek, yeni bir yolcu yolu izleyebilsin diye kenara not düşmek. Benzetmenin bozulduğu yer: haritada yeni mürekkebi görebilirsiniz, bu metinlerde göremezsiniz. Düzeltmeleri kitapların içine kopyalandı; günümüze ulaşmalarının sebebi de, bugün kimsenin onları kesinlikle gösterememesinin sebebi de bu.\n\n### Neden zordu\n\nBatlamyus'un astronomisi ve Diophantos'un aritmetiği Yunanca yazılmış en zor kitaplar arasındaydı ve her kopya elle yazılıyordu. Her kopya yeni hatalar ekliyordu; kimsenin okuyamadığı bir kitap da çok geçmeden hiç kopyalanmaz oluyordu. Bu metinleri yaşatmak, onları onaracak kadar iyi anlayan insanlar gerektiriyordu.\n\nBunu yapan tek kadın o değildi. 4. yüzyılın daha erken bir döneminde başka bir İskenderiyeli matematikçi, Pappos, Pandrosion adlı bir öğretmenin öğrencilerinin yöntemlerini eleştirmişti. Pappos bu öğretmene dişil biçimde hitap eder ve araştırmacıların çoğu bugün Pandrosion'un matematik öğreten bir kadın olduğunu kabul ediyor. Onun hakkında başka neredeyse hiçbir şey bilinmiyor; Hypatia'ya bu kadar sık \"ilk\" denmesinin bir sebebi bu. Onu, hayatı yeterince iyi kaydedilmiş ilk kadın matematikçi diye anlatmak daha doğru.\n\nSonu siyasetten geldi. 412'de Kyrillos İskenderiye piskoposu oldu ve kısa sürede şehri yöneten Roma valisi Orestes ile açık bir çatışmaya girdi; Orestes de sık sık Hypatia'ya danışıyordu. Söylentiye göre iki adamın barışmasını engelleyen oydu. 415 yılının Mart ayında, büyük perhiz döneminde, Petros adlı bir kilise okuyucusunun önderliğindeki Hristiyan bir kalabalık onu arabasından indirdi, bir kilisede öldürdü ve cesedini yaktı. Bunu anlatan Sokrates Skolastikos da bir Hristiyandı ve cinayeti kınadı. Kyrillos'un bu cinayeti emredip etmediği tartışmalı: sonraki dönemden pagan bir yazar, Damaskios, onu doğrudan suçlar; başka hiçbir kaynak suçlamaz.\n\n> [!WARNING]\n> *Cosmos* (1980) dizisi ve *Agora* (2009) filmi dahil pek çok popüler anlatı, onun ölümünü İskenderiye Kütüphanesi'nin yakılmasına bağlar. Büyük Kütüphane o doğmadan çok önce ortadan kalkmıştı. Kaynaklar onun bilimi yüzünden öldürüldüğünü de göstermez: içine düştüğü siyasi bir kavgayı anlatır. Film ayrıca onu Dünya'nın Güneş'in çevresinde döndüğünü bulurken gösterir; kayıtlarda bunu destekleyen hiçbir şey yok.\n\n### Ne açtı\n\nÜzerinde çalıştığı metinler sonraki okurlara ulaştı. Ailenin öteki büyük işi olan Theon'un Öklid baskısı, günümüze kalan Yunanca kopyaların neredeyse hepsinin kaynağı oldu ve 1808'de Vatikan Kütüphanesi'nde daha eski bir elyazması bulunana kadar bilinen tek sürüm olarak kaldı. Diophantos'un *Aritmetika*'sı İslam dünyasına ulaştı: 9. yüzyılda Kusta bin Luka onu Arapçaya çevirdi ve kitaplarından dördü yalnızca bu çeviride günümüze kaldı. Bu kitaplar 1968'de, İran'ın kuzeydoğusundaki Meşhed'de İmam Rıza türbesinin kütüphanesinde bulundu. Bazı araştırmacılar bu Arapça kitaplardaki fazladan çözümlü örneklerin Hypatia'nın kayıp şerhinden geldiğini düşünüyor; başkaları buna katılmıyor.\n\n![Diophantos'un Aritmetika'sının başlangıcı, 13. yüzyılda kopyalanmış bir Yunanca elyazmasında; Hypatia'nın bu kitap üzerine bir şerh yazdığı aktarılır](https://upload.wikimedia.org/wikipedia/commons/3/3b/Diophantus%2C_Arithmetica%2C_Vaticanus_graecus_191.jpg \"Diophantus of Alexandria · Public domain · https://commons.wikimedia.org/wiki/File:Diophantus,_Arithmetica,_Vaticanus_graecus_191.jpg\")\n\nİskenderiye'de bilim onunla bitmedi. Filozoflar şehirde bir yüzyıldan uzun süre matematik ve astronomi öğretmeye devam etti; onlardan biri, Ioannes Philoponos, 6. yüzyılda usturlap üzerine günümüze kalan en eski Yunanca incelemeyi yazdı.\n\nHypatia'nın sağlığında yapılmış bir portresi yok. Sonraki resimlerdeki yüzler, aşağıdaki İsveçli ressam Julius Kronberg'in 1889 tarihli tablosu gibi, hayal ürünüdür; hikâyesi 19. yüzyılda roman olarak yeniden anlatıldı ve efsane oradan büyüdü.\n\n![Julius Kronberg'in 1889'da, ölümünden neredeyse on beş yüzyıl sonra hayal ettiği Hypatia](https://upload.wikimedia.org/wikipedia/commons/6/69/Hypatia_by_Julius_Kronberg%2C_1889.jpg \"Julius Kronberg · Public domain · https://commons.wikimedia.org/wiki/File:Hypatia_by_Julius_Kronberg,_1889.jpg\")",
+      "status": "machine"
+    },
+    "ru": {
+      "title": "Гипатия преподаёт математику в Александрии",
+      "summary": "Около 400 года Гипатия преподавала в Александрии математику, астрономию и философию и помогала исправлять одни из самых трудных книг греческой науки, чтобы их можно было читать.",
+      "why_it_matters": "Она помогала сохранять читаемой астрономию Птолемея в эпоху, когда каждый экземпляр переписывали от руки и каждая копия добавляла ошибки; по сообщениям, то же она делала для Диофанта и Аполлония. Это первая женщина-математик, чья жизнь достаточно хорошо задокументирована.",
+      "if_you_were_there": "В центре Александрии можно было остановиться и услышать, как женщина в философском плаще объясняет всем желающим Платона и Аристотеля.",
+      "place_name": "Александрия",
+      "body": "### Обстановка\n\nОколо 400 года Александрия уже семь веков была городом математиков. Здесь писал Евклид, здесь Птолемей построил свою астрономию, здесь Диофант составлял свои задачи о числах. Но старые учёные учреждения почти исчезли, а город быстро менялся: теперь это был христианский город, которым управляли из Константинополя, и в 391 году толпа разрушила Серапеум, большой храм бога Сераписа.\n\nГипатия выросла внутри этой традиции. Её отец Теон был математиком и астрономом: в 364 году он наблюдал в Александрии два затмения, писал комментарии к Птолемею и подготовил новое издание «Начал» Евклида. Год её рождения не записан. Исследователи предлагали даты от примерно 350 до примерно 370 года, а некоторые считают, что данных слишком мало, чтобы выбрать. Здесь событие отнесено примерно к 400 году, когда она уже была знаменитой учительницей в городе.\n\n### Что произошло\n\nГипатия преподавала математику, астрономию и философию — платоновскую философию в русле Плотина. Церковный историк Сократ Схоластик, писавший поколением позже, сообщает, что она превзошла философов своего времени и что ученики приезжали послушать её издалека. Более поздний автор, Дамаский, добавляет, что она надевала плащ, который носили философы, и в центре города объясняла Платона и Аристотеля всем, кто хотел слушать.\n\nМногое из того, что известно о её преподавании, идёт от одного ученика. Синезий Киренский, позже ставший христианским епископом, продолжал писать ей и после отъезда из Александрии, и эти письма сохранились. Они показывают практическую сторону её школы. Синезий пишет, что она научила его строить серебряную астролябию — плоскую модель неба, по которой находят время и положение звёзд. В письме, написанном около 402 года, он просит её заказать для него литой латунный гидроскоп: трубку размером с флейту, с рядом насечек, закрытую с одного конца конусом; она плавает в жидкости стоймя, и насечки показывают, насколько эта жидкость тяжела. Ни один из этих приборов не был её изобретением, оба были старше её. Письма показывают учительницу, которая знала, как устроены инструменты, и могла заказать их изготовление.\n\n![Греческая рукопись XIV века с письмами Синезия Киренского; несколько из них адресованы Гипатии](https://upload.wikimedia.org/wikipedia/commons/4/41/Synesius%2C_Letters%2C_Paris%2C_BN%2C_Gr._1040.jpg \"Synesius of Cyrene · Public domain · https://commons.wikimedia.org/wiki/File:Synesius,_Letters,_Paris,_BN,_Gr._1040.jpg\")\n\nЕё письменная работа была из тех, что легко не заметить. В основном она исправляла и объясняла трудные книги, чтобы ими могли пользоваться ученики. Заглавие комментария Теона к третьей книге «Альмагеста» Птолемея гласит, что издание проверено «моей дочерью, философом Гипатией», и сегодня исследователи понимают это так, что она исправляла сам текст Птолемея. Византийская энциклопедия «Суда», составленная пятью веками позже, добавляет комментарии к «Арифметике» Диофанта и к «Коническим сечениям» Аполлония Пергского, а также сочинение под названием «Астрономический канон». Ни одно из них не сохранилось под её именем, а место в «Суде» неясно, так что сколько именно она написала, неизвестно.\n\nЕё работа похожа на труд человека, который поддерживает старую карту в рабочем состоянии: обводит выцветшие линии, исправляет ошибки переписчиков, оставляет на полях пометки, чтобы новый путник нашёл дорогу. Где сравнение не работает: на карте видны свежие чернила, а в этих текстах — нет. Её исправления переписывались прямо в книги; именно поэтому они уцелели, и именно поэтому никто сегодня не может с уверенностью на них указать.\n\n### Почему это было трудно\n\nАстрономия Птолемея и арифметика Диофанта были среди самых трудных книг на греческом языке, и каждый экземпляр переписывали от руки. Каждая копия добавляла ошибки, а книгу, которую никто не мог прочитать, вскоре переставали переписывать вовсе. Чтобы эти тексты жили, нужны были люди, понимавшие их достаточно хорошо, чтобы их чинить.\n\nОна была не единственной женщиной в этом деле. Ещё раньше в IV веке другой александрийский математик, Папп, критиковал методы учеников наставника по имени Пандросион. Папп обращается к этому наставнику в женском роде, и большинство исследователей сегодня признают, что Пандросион была женщиной, преподававшей математику. Больше о ней почти ничего не известно, и отчасти поэтому Гипатию так часто называют первой. Точнее сказать, что она первая женщина-математик, чья жизнь достаточно хорошо задокументирована.\n\nЕё конец пришёл из политики. В 412 году епископом Александрии стал Кирилл, и вскоре он открыто враждовал с Орестом, римским префектом, управлявшим городом, а Орест часто советовался с Гипатией. Ходили слухи, что именно она мешает им примириться. В марте 415 года, во время Великого поста, христианская толпа во главе с церковным чтецом Петром стащила её с повозки, убила в церкви и сожгла её тело. Сократ Схоластик, который об этом рассказывает, сам был христианином и осудил убийство. Отдавал ли приказ Кирилл, спорно: позднейший языческий писатель Дамаский прямо обвиняет его, другие источники — нет.\n\n> [!WARNING]\n> Многие популярные пересказы, включая сериал «Космос» (1980) и фильм «Агора» (2009), связывают её смерть с сожжением Александрийской библиотеки. Великая библиотека исчезла задолго до её рождения. Источники не показывают и того, что её убили за науку: они описывают политическую вражду, в которую она оказалась втянута. Фильм к тому же показывает, как она приходит к выводу, что Земля движется вокруг Солнца, — ничто в источниках этого не подтверждает.\n\n### Что это открыло\n\nТексты, над которыми она работала, дошли до следующих читателей. Издание Евклида, подготовленное Теоном, — другой большой труд этой семьи — стало источником почти всех сохранившихся греческих копий и оставалось единственной известной версией до 1808 года, когда в Ватиканской библиотеке нашли более старую рукопись. «Арифметика» Диофанта попала в исламский мир: в IX веке Куста ибн Лука перевёл её на арабский, и четыре её книги сохранились только в этом переводе. Их нашли в 1968 году в библиотеке мавзолея имама Резы в Мешхеде, на северо-востоке Ирана. Некоторые исследователи считают, что дополнительные разобранные примеры в этих арабских книгах взяты из утраченного комментария Гипатии; другие с этим не согласны.\n\n![Начало «Арифметики» Диофанта в греческой рукописи, переписанной в XIII веке; по сообщениям, Гипатия написала комментарий к этой книге](https://upload.wikimedia.org/wikipedia/commons/3/3b/Diophantus%2C_Arithmetica%2C_Vaticanus_graecus_191.jpg \"Diophantus of Alexandria · Public domain · https://commons.wikimedia.org/wiki/File:Diophantus,_Arithmetica,_Vaticanus_graecus_191.jpg\")\n\nАлександрийская наука на ней не закончилась. Философы продолжали преподавать в городе математику и астрономию ещё больше века, и один из них, Иоанн Филопон, в VI веке написал старейший сохранившийся греческий трактат об астролябии.\n\nПрижизненного портрета Гипатии нет. Лица на поздних картинах, как на полотне шведского художника Юлиуса Кронберга 1889 года ниже, придуманы; в XIX веке её историю пересказали в романе, и оттуда выросла легенда.\n\n![Гипатия, какой её представил Юлиус Кронберг в 1889 году, почти через пятнадцать веков после её смерти](https://upload.wikimedia.org/wikipedia/commons/6/69/Hypatia_by_Julius_Kronberg%2C_1889.jpg \"Julius Kronberg · Public domain · https://commons.wikimedia.org/wiki/File:Hypatia_by_Julius_Kronberg,_1889.jpg\")",
+      "status": "machine"
+    },
+    "ky": {
+      "title": "Гипатия Александрияда математика окутат",
+      "summary": "Болжол менен 400-жылы Гипатия Александрияда математика, астрономия жана философияны окуткан, грек илиминин эң оор китептеринин айрымдарын окулгудай кылып оңдоого жардам берген.",
+      "why_it_matters": "Ар бир нуска кол менен көчүрүлүп, ар бир көчүрмө ката кошкон доордо ал Птолемейдин астрономиясын окулгудай сактоого жардам берген, Диофант менен Аполлоний үчүн да ушундай кылган деп айтылат. Ал өмүрү жетиштүү деңгээлде жазылып калган биринчи аял математик.",
+      "if_you_were_there": "Александриянын ортосунда токтоп, философтун жамынчысын жамынган аялдын уккандардын баарына Платон менен Аристотелди түшүндүрүп жатканын уга алмаксыз.",
+      "place_name": "Александрия",
+      "body": "### Көрүнүш\n\nБолжол менен 400-жылы Александрия жети кылымдан бери математиктердин шаары болчу. Евклид ушул жерде жазган, Птолемей өзүнүн астрономиясын ушул жерде курган, Диофант сандар жөнүндөгү маселелерин ушул жерде түзгөн. Бирок илимдин эски мекемелеринин көбү жоголуп, шаар тез өзгөрүп жаткан: эми ал Константинополдон башкарылган христиан шаары эле, ал эми 391-жылы бир топ эл Серапис кудайдын чоң ибадатканасы Серапеумду талкалап салган.\n\nГипатия ушул салттын ичинде чоңойгон. Анын атасы Теон математик жана астроном болгон: 364-жылы Александриядан эки тутулууну байкаган, Птолемей боюнча түшүндүрмөлөрдү жазып, Евклиддин «Негиздеринин» жаңы басылышын даярдаган. Гипатиянын туулган жылы жазылып калган эмес. Окумуштуулар болжол менен 350-жылдан болжол менен 370-жылга чейинки даталарды сунушташкан, ал эми айрымдары далил тандоо үчүн өтө аз деп эсептешет. Бул жерде окуя ал шаардагы атактуу мугалим болуп калган болжол менен 400-жылга коюлду.\n\n### Эмне болду\n\nГипатия математиканы, астрономияны жана философияны, тагыраак айтканда Плотинди ээрчиген Платон философиясын окуткан. Бир муундан кийин жазган чиркөө тарыхчысы Сократ Схоластик анын өз доорунун философторунан ашып түшкөнүн жана окуучулар аны угуу үчүн алыстан келишкенин айтат. Кийинки жазуучу Дамаский ал философтор кийген жамынчыны жамынып, шаардын ортосунда уккусу келгендердин баарына Платон менен Аристотелди түшүндүрчү деп кошумчалайт.\n\nАнын окутуусу жөнүндө белгилүү нерселердин көбү бир окуучудан келет. Кийин христиан епискобу болгон Киренелик Синезий Александриядан кеткенден кийин да ага кат жазып турган, ал каттар бизге жеткен. Алар анын мектебинин практикалык жагын көрсөтөт. Синезий күмүш астролябияны кантип жасоону ага Гипатия үйрөткөнүн айтат: бул асмандын жалпак модели, анын жардамы менен убакытты жана жылдыздардын ордун табышат. Болжол менен 402-жылы жазылган катында ал Гипатиядан өзүнө жезден куюлган гидроскоп жасатып берүүнү суранат. Бул чоор чоңдугундагы түтүк: анын боюнда бир катар оймолор бар, бир учу конус менен жабылган. Түтүк суюктукта тик калкып турат, ал эми оймолор ошол суюктуктун канчалык оор экенин көрсөтөт. Бул шаймандардын бири да анын ойлоп тапканы эмес, экөө тең андан эски болгон. Каттар шаймандардын кантип жасаларын билген жана аларды жасата алган мугалимди көрсөтөт.\n\n![Киренелик Синезийдин каттарынын XIV кылымдагы грекче кол жазмасы; алардын бир нечеси Гипатияга жазылган](https://upload.wikimedia.org/wikipedia/commons/4/41/Synesius%2C_Letters%2C_Paris%2C_BN%2C_Gr._1040.jpg \"Synesius of Cyrene · Public domain · https://commons.wikimedia.org/wiki/File:Synesius,_Letters,_Paris,_BN,_Gr._1040.jpg\")\n\nАнын жазган иши көзгө оңой илинбеген түрдөн эле. Көбүнчө ал окуучулар колдоно алышы үчүн оор китептерди оңдоп, түшүндүрүп берген. Теондун Птолемейдин «Альмагестинин» үчүнчү китебине жазган түшүндүрмөсүнүн аталышында басылышты «менин кызым, философ Гипатия» карап чыкканы айтылат. Бүгүнкү окумуштуулар муну Гипатия Птолемейдин өзүнүн текстин оңдогон деп түшүнүшөт. Беш кылымдан кийин түзүлгөн «Суда» деген Византия энциклопедиясы буга Диофанттын «Арифметикасына» жана Пергалык Аполлонийдин «Конустук кесилиштерине» жазылган түшүндүрмөлөрдү, ошондой эле «Астрономиялык канон» деген эмгекти кошот. Алардын бири да анын аты менен сакталган эмес, ал эми «Судадагы» үзүндү түшүнүксүз. Ошондуктан анын канча жазганы так белгисиз.\n\nАнын иши эски картаны колдонууга жарактуу кармап турган адамдын ишине окшош: өчүп калган сызыктарды кайра тартуу, көчүрүүчүлөрдүн каталарын оңдоо, жаңы жолоочу жолду таба алышы үчүн четине белги калтыруу. Окшоштуктун бузулган жери: картада жаңы сыяны көрө аласыз, бул тексттерде көрө албайсыз. Анын оңдоолору китептердин өзүнө көчүрүлгөн. Алардын сакталып калышынын себеби да, бүгүн эч ким аларды так көрсөтө албаганынын себеби да ушунда.\n\n### Эмне үчүн кыйын болгон\n\nПтолемейдин астрономиясы менен Диофанттын арифметикасы грек тилиндеги эң оор китептердин катарында болгон, ар бир нускасы кол менен көчүрүлгөн. Ар бир көчүрмө жаңы каталарды кошкон, ал эми эч ким окуй албаган китепти көп өтпөй таптакыр көчүрбөй калышкан. Бул тексттерди тирүү сактап калуу үчүн аларды оңдой ала тургандай жакшы түшүнгөн адамдар керек эле.\n\nБул ишти жасаган жалгыз аял ал эмес болчу. IV кылымдын мурунку жылдарында Александриялык дагы бир математик Папп Пандросион деген мугалимдин окуучуларынын ыкмаларын сынга алган. Папп бул мугалимге аял катары кайрылат, жана окумуштуулардын көбү бүгүн Пандросион математика окуткан аял болгонун моюнга алышат. Ал жөнүндө башка дээрлик эч нерсе белгисиз. Гипатияны көп учурда «биринчи» деп аташынын бир себеби ушул. Аны өмүрү жетиштүү деңгээлде жазылып калган биринчи аял математик деп айтуу тагыраак болот.\n\nАнын акыры саясаттан келди. 412-жылы Кирилл Александриянын епискобу болуп, көп өтпөй шаарды башкарган рим префекти Орест менен ачык чатакташа баштаган. Орест болсо Гипатия менен көп кеңешчү. Эки кишинин элдешүүсүнө тоскоол болгон ошол деген ушак тараган. 415-жылдын март айында, Улуу орозо маалында, Петр деген чиркөө окуучусу баштаган христиан тобу аны арабасынан сүйрөп түшүрүп, чиркөөдө өлтүрүп, сөөгүн өрттөп жиберген. Муну айтып берген Сократ Схоластиктин өзү христиан болгон жана бул өлтүрүүнү айыптаган. Кирилл буйрук берген-бербегени талаштуу: кийинки бутпарас жазуучу Дамаский аны түздөн-түз күнөөлөйт, башка эч бир булак күнөөлөбөйт.\n\n> [!WARNING]\n> Көп популярдуу баяндар, анын ичинде «Космос» (1980) сериалы жана «Агора» (2009) тасмасы, анын өлүмүн Александрия китепканасынын өрттөлүшү менен байланыштырат. Улуу китепкана ал төрөлгөнгө чейин эле эбак жоголгон. Булактар аны илими үчүн өлтүрүшкөнүн да көрсөтпөйт: алар ал аралашып калган саясий чатакты сүрөттөйт. Мындан тышкары тасмада ал Жер Күндү айланып жүрөт деген жыйынтыкка келет, бирок булактарда муну ырастаган эч нерсе жок.\n\n### Эмнеге жол ачты\n\nАл иштеген тексттер кийинки окурмандарга жеткен. Теондун Евклидди басып чыгаруусу, бул үй-бүлөнүн дагы бир чоң иши, бизге жеткен грекче көчүрмөлөрдүн дээрлик баарынын булагы болуп калган жана 1808-жылы Ватикан китепканасынан эски кол жазма табылганга чейин жалгыз белгилүү нуска бойдон калган. Диофанттын «Арифметикасы» ислам дүйнөсүнө жеткен: IX кылымда Куста ибн Лука аны араб тилине которгон, жана анын төрт китеби ушул котормодо гана сакталып калган. Алар 1968-жылы Ирандын түндүк-чыгышындагы Мешхед шаарында, Имам Реза күмбөзүнүн китепканасынан табылган. Айрым окумуштуулар ошол арабча китептердеги кошумча чыгарылган мисалдар Гипатиянын жоголгон түшүндүрмөсүнөн алынган деп эсептешет, башкалары буга макул эмес.\n\n![Диофанттын «Арифметикасынын» башталышы, XIII кылымда көчүрүлгөн грекче кол жазмада; Гипатия бул китепке түшүндүрмө жазган деп айтылат](https://upload.wikimedia.org/wikipedia/commons/3/3b/Diophantus%2C_Arithmetica%2C_Vaticanus_graecus_191.jpg \"Diophantus of Alexandria · Public domain · https://commons.wikimedia.org/wiki/File:Diophantus,_Arithmetica,_Vaticanus_graecus_191.jpg\")\n\nАлександриядагы илим аны менен бүтүп калган жок. Философтор шаарда дагы бир кылымдан ашык математика менен астрономияны окутууну улантышкан, алардын бири Иоанн Филопон VI кылымда астролябия жөнүндө бизге жеткен эң эски грекче трактатты жазган.\n\nГипатиянын тирүү кезинде тартылган портрети жок. Кийинки сүрөттөрдөгү жүздөр, мисалы төмөндөгү швед сүрөтчүсү Юлиус Кронбергдин 1889-жылкы сүрөтү, ойдон чыгарылган. XIX кылымда анын окуясы роман катары кайра айтылып, уламыш ошондон өскөн.\n\n![Юлиус Кронберг 1889-жылы, анын өлүмүнөн дээрлик он беш кылым өткөндөн кийин элестеткен Гипатия](https://upload.wikimedia.org/wikipedia/commons/6/69/Hypatia_by_Julius_Kronberg%2C_1889.jpg \"Julius Kronberg · Public domain · https://commons.wikimedia.org/wiki/File:Hypatia_by_Julius_Kronberg,_1889.jpg\")",
+      "status": "machine"
+    }
+  }
+}
